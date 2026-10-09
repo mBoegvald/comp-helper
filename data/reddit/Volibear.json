@@ -1,0 +1,1419 @@
+{
+ "champion": "Volibear",
+ "subreddit": "volibearmains",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "Voli to masters",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1wht8id/voli_to_masters/",
+   "published": "2026-09-16",
+   "author": "/u/Prestigious_Time_350",
+   "body": "Back to Masters 🐻\n Just under 120 games, ~60% WR. Been putting more effort into tracking matchups and figuring out what works, making a spreadsheet really helped ngl. Gonna see how far up I can make it, with the upcoming Volibear and top lane quest buffs it just might be doable. \n Link to my op.gg: XeoroxNox\n Usually be running Lethal Tempo + Inspiration (Triple Tonic & Cosmic Insight), but I've seen how strong Grasp can be into those tricky match ups (Jax & Illaoi). If anyone's got questions about the builds or matchup, be more than happy to do a lil 1 on 1 coaching 😄",
+   "id": "1wht8id",
+   "comments": [],
+   "age_days": 23,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Testing damage items, gimme what you think is optimal",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1vvnqyp/testing_damage_items_gimme_what_you_think_is/",
+   "published": "2026-08-22",
+   "author": "/u/TherrenGirana",
+   "body": "Lots of discourse on what build is better, what runes are better, AD vs AP, youtube/stream builds, homebrews, etc. I feel like most people, including me, are making distinctions between what's 'good' and what's 'best' from mostly vibes. And vibes can be very valuable, the most successful volibear players in the world have divergent builds because they choose what feels best to them. But I'm interested in making up for the severe lack of empirical data, so I'm going to be testing every REASONABLE item and rune combo over the course of the next few weeks. The goal is to get closer to an objective assessment on how we can itemize damage. THIS DOES NOT mean that the build with the biggest number will be named the best build, because then we'd get into some silly no-hp setups. So no hat or lethality bear please.\n This is for damage/bruiser build only, I think yordleswaggin's tank philosophy is already 90+% optimal, and volibear's tank itemization is pretty clear cut already: drain tank for maximum efficiency, protoplasm or even locket + knight's vow against the truly abysmal matchups, kindle gem is premium component so you prio items that build out of it.\n I'll be testing in training tool some major streamer builds (yordleswaggins, hybradge, bearking, and that hextech rockebelt build loldobby highlighted recently). I will also be testing variations of AD bruiser with triforce, BC, shojin. I will also be testing some items of note that I don't feel are optimal but a good amount of people swear by (stuff like cosmic drive, terminus, etc). The baseline will be the most popular build, which is still cocaine bear.\n anyone who wants to put their homebrew or whatever they think is an optimal bruiser/dps build is free to do so. Don't expect my conclusion to come out for at least 1 week.\n For anyone who cares, my rank is plat 1 and my most played champion in my climb is volibear.",
+   "id": "1vvnqyp",
+   "comments": [],
+   "age_days": 48,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "New to Volibear – how do you choose your build and runes?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1vsiig5/new_to_volibear_how_do_you_choose_your_build_and/",
+   "published": "2026-08-19",
+   "author": "/u/Vakiarbre",
+   "body": "I’m new to Volibear and I mainly play him in the jungle. I’m wondering how you decide which build to go for, since he seems to be quite versatile. I assume you’re supposed to adapt your build depending on the game, but for now I always build DnD, Flickerblade, Spirit Visage or Thornmail.\n Same question for runes: I always take Lethal Tempo. Is this rune generally the best choice, or should I change my runes depending on the matchup/teamcomp ?\n And finally, for abilities, should I max Q or W first?\n Any advice would be appreciatied!",
+   "id": "1vsiig5",
+   "comments": [],
+   "age_days": 51,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Recent BearKing/Xiongwang voli spreadsheet?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1vqitkk/recent_bearkingxiongwang_voli_spreadsheet/",
+   "published": "2026-08-17",
+   "author": "/u/ExEnZee",
+   "body": "Does any one have bearking's most recent spreadsheet/build cheat sheet? I've been loosely using the one from many months ago, but I haven't come across one for recent Dawn and Dusk builds etc, since i've taken a break from league for a while and not sure what to build into every matchup now.",
+   "id": "1vqitkk",
+   "comments": [],
+   "age_days": 53,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is Cosmic not worth it on the bear anymore?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1vpohma/is_cosmic_not_worth_it_on_the_bear_anymore/",
+   "published": "2026-08-16",
+   "author": "/u/BicycleDelicious429",
+   "body": "I get that DnD is just a good overall first item for Voli, besides some matchups where I prefer to go RM first and then DnD, but is Cosmic and its passive MS boost + on hit MS boost just not worth it anymore? I only watch Yordleswaggins and Bearkinglol so I'm just following their games.",
+   "id": "1vpohma",
+   "comments": [],
+   "age_days": 54,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Which Dusk and Dawn component should Voli build first?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1vhca8a/which_dusk_and_dawn_component_should_voli_build/",
+   "published": "2026-08-06",
+   "author": "/u/Training_Lawyer1448",
+   "body": "I’m kind of a noob. Which component is best early? Is it matchup dependent? Somewhat related question: how do you choose when to buy a component of a later item and hold it versus build a full item? I’m thinking Warden’s Mail, Bramble Vest, Giant’s Belt, etc.\n Edit: I’m playing Voli top",
+   "id": "1vhca8a",
+   "comments": [],
+   "age_days": 64,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Voli Vs. Mord",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1van1rd/voli_vs_mord/",
+   "published": "2026-07-30",
+   "author": "/u/Damkrazy",
+   "body": "What are your thoughts about a matchup Voli vs Mord?\n When ever I see enemy choose Mord, I pick Voli. I think he can handle him fine. This match for example, Mord tried to bully me early game, sadly it worked but as soon as I unlocked my ult the games changed and he was the one flashing away from me 😆",
+   "id": "1van1rd",
+   "comments": [],
+   "age_days": 71,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Scaling AD bruiser idea (experimental)",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1u0r9us/scaling_ad_bruiser_idea_experimental/",
+   "published": "2026-06-09",
+   "author": "/u/ChineseCartoonFan",
+   "body": "Hello! I was looking at some champion statistics on the lolwiki (as one does) and I encountered something interesting, so bear with me. For transparency: I don't play Volibear, but I like theorycrafting new builds/strategies sometimes. It's up to YOU guys to test it; please don't first time it in ranked, though!\n I discovered that Volibear has both one of the highest mana and mana growth in the game, and what this basically suggests is that he could potentially use tear items very effectively as those all scale with maximum mana. Interestingly, you are NOT limited to one tear item per game, although you have to stack each one individually, so keep that in mind! For runes, I can see multiple options working, but Grasp seems to be the most promising keystone as our first item will be purely health, but Lethal tempo should benefit greatly too due to prolonged fights.\n THE BUILD: Start with the doran's item of your liking for the matchup. On your first back, purchase a tear and start building towards Fimbulwinter. After that, Navori flickerblades 2nd is I believe the best as almost all of our damage will be coming from the W which scales with bonus HP (I recommend taking the flat CDR rune as well for this purpose), so more uptime on it is essential. The third item is the spicy one: Manamune. Buy your 2nd tear: on completion, Muramana grants us around 100 AD total with a bunch of on-hit on abilities and autos. Even though we lack resistances so far, as long as we can get in range and stay on a target, the W with our massive amounts of AD is able to give us big bursts of healing to stay alive. To top this build off, you should mainly consider the enemy's damage profile, but our highly synergistic options include: Spirit visage for healing against AP, Frozen heart for extra mana scaling and armor/cdr. Against lots of armor, I recommend slotting in a % armorpen item as the build does almost entirely physical damage, which also amplifies our healing a lot thanks to our W. If a tank or utility item seems really efficient for the game, don't be afraid to slot it in like Randuin's or Deadman's plate. Special shoutout to Overlord's/Riftmaker as potential last items too. \n Make sure you spam your W on waves whenever possible as Volibear is a pretty slow tear stacker! This might also be the build's biggest hurdle to overcome.\n I hope you guys will have fun trying this build and I'm curious to hear about your results and your thoughts!",
+   "id": "1u0r9us",
+   "comments": [],
+   "age_days": 122,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Having a hard time choosing between kled and voli",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1txdyoa/having_a_hard_time_choosing_between_kled_and_voli/",
+   "published": "2026-06-05",
+   "author": "/u/wildguitars",
+   "body": "I like them both in top lane, but as i climb i need to focus on less champions.. voli feels strong in lane and so is kled , they both fall hard late game, yet voli is a bit tankier while having less mobility.. who do you guys think has better matchups in top lane? Jax counters them both but what else?",
+   "id": "1txdyoa",
+   "comments": [],
+   "age_days": 126,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Having some difficulty climbing into play as voli top any tips?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1twb10y/having_some_difficulty_climbing_into_play_as_voli/",
+   "published": "2026-06-04",
+   "author": "/u/handsgoat",
+   "body": "I grinded pretty hard last week got from gold 4 to gold 2 and then all of a sudden it was just HARD stomps. I was dominating my lane and now it feels like I’m just getting ran down by every matchup.\n I generally just go D&D into navori because I love the ability reset. Then rift or a spirit depending on the game state. \n Any tips? Is the navori build matchup dependent? I’ve gotten stomped by renekton, morde, ambessa recently. (I’ve beaten morde easily with the build before but this recent time it was ROUGH)",
+   "id": "1twb10y",
+   "comments": [],
+   "age_days": 127,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I made a masters+ matchup Tier list for toplane Volibear",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1tt87uc/i_made_a_masters_matchup_tier_list_for_toplane/",
+   "published": "2026-05-31",
+   "author": "/u/Yordleswaggins",
+   "body": "Spent a good bit of time on this Hope It might help, let me know if you guys would want another tier list for lower elo (like gold+ or something)",
+   "id": "1tt87uc",
+   "comments": [],
+   "age_days": 131,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to play against Zilean?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1tp76hm/how_to_play_against_zilean/",
+   "published": "2026-05-27",
+   "author": "/u/TakagiReni621",
+   "body": "Is Zilean the hardest matchup?\n His entire kit just counters Volibear and Volibear Q/W are completely useless.\n Pre level 3 I can trade a bit since he is quite weak early levels but after first recall I have to tank an EQWQ double bombs combo every wave.\n Do I just max E and shove waves? Take slow resist shard and cleanse?\n Buying swiftness boots only helps a little bit before he ranks up his slow\n He also hard outscales",
+   "id": "1tp76hm",
+   "comments": [],
+   "age_days": 135,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What can i do after winning lane?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1tei63a/what_can_i_do_after_winning_lane/",
+   "published": "2026-05-16",
+   "author": "/u/El_poto_sech",
+   "body": "What do you do after winning your lane with Volibear top? I'm Gold 4 and I know almost all the matchups and I always win my lane, but I don't know what to do with all the advantage. Should I splitpush or help my team? Thanks a lot.",
+   "id": "1tei63a",
+   "comments": [],
+   "age_days": 146,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Training to be Voli Main",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1t6qpmg/training_to_be_voli_main/",
+   "published": "2026-05-07",
+   "author": "/u/SnooCats8453",
+   "body": "yo guys, after being away from League for years i randomly decided to come back and one-trick Volibear top (seems like the most based role for him tbh)\n been trying to figure out runes/builds and there’s SO much different stuff now, so i wanted to ask the real voli enjoyers here:\n what are the best builds/item paths rn? when do you go tank/bruiser/ap or whatever? also any good streamers/youtube channels that actually explain voli mechanics and matchups instead of just posting clickbait stomp games?\n thanks fellow volibros 🐻⚡",
+   "id": "1t6qpmg",
+   "comments": [],
+   "age_days": 155,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What are people's thoughts on the state of Volibear currently?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1siidd0/what_are_peoples_thoughts_on_the_state_of/",
+   "published": "2026-04-11",
+   "author": "/u/D_Extr0cinary-Gv",
+   "body": "I an avid Bear enjoyer but recently I have had no success with him anywhere. I feel like the power budget isn't quite right and most matchups are harder than I remember. What do you feel is Voli's current state?",
+   "id": "1siidd0",
+   "comments": [],
+   "age_days": 181,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "ZEKE convergence on volibear top",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1s70niz/zeke_convergence_on_volibear_top/",
+   "published": "2026-03-29",
+   "author": "/u/Playful_Ad_3752",
+   "body": "i play volibear top and i always get one shoted when playing navori second item\n and when ever i buy an armor item i alway die to the ap burst mage or even the lux support since most games have 50% ap and 50% ad\n so building one of them makes you vulnerable to the other\n the reason why i need to tank both is to force my jungler to do the second drakes when my team is behind and i won my lane\n going navori second when your whole team is losing is just troll i think\n cause you need to front line vs fed enemies\n after building zeke you arent pressured to build a resistance item compaired to navori you cant just go a third dmg item unless you are super ahead \n so you can go navori right after zeke and then spirit visage \n when you ult you not only burn you also slow by 30% for 5 seconds when ever you ult thats free gap close its really good on volibear\n you can even go approach velocity its good sinergie but its very situational vs range matchups i think its pretty good since you slow them and you get move speed",
+   "id": "1s70niz",
+   "comments": [],
+   "age_days": 194,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How does one deal with Akali top?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1s1dubx/how_does_one_deal_with_akali_top/",
+   "published": "2026-03-23",
+   "author": "/u/Baconchompa",
+   "body": "I'm in no way a good toplaner, but occasionally get filled as top and often end up against unfortunate matchups. However i have had multiple games where i've been against an akali toplane and have not been able to do a thing on lane, farm, contest, even fight to a certain degree. Any tips or is it kind of an out of luck moment and try to mitigate the damage.",
+   "id": "1s1dubx",
+   "comments": [],
+   "age_days": 200,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Best/Worst Volibear Top Matchups by Gold Deficit",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1ryd8mz/bestworst_volibear_top_matchups_by_gold_deficit/",
+   "published": "2026-03-19",
+   "author": "/u/GyrosSteelBall",
+   "body": "Analyzed from 8,000+ Volibear Games in Masters+",
+   "id": "1ryd8mz",
+   "comments": [],
+   "age_days": 204,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "new to voli",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1rmq6ml/new_to_voli/",
+   "published": "2026-03-06",
+   "author": "/u/oG17DoGe",
+   "body": "new to volibear, i can already carry games in the jungle but in top lane i have no idea how to play him, are there matchup guides or any guides really for beginners ?\n or simply give me sume tips it will be much apreciated and thank you",
+   "id": "1rmq6ml",
+   "comments": [],
+   "age_days": 217,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Conq Rene",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1rl35v2/conq_rene/",
+   "published": "2026-03-05",
+   "author": "/u/BillHadesBreach",
+   "body": "Similar to my recent past Ksante post- I never used to have difficulty w/ Rene (maybe lose/break even 1 out of 4 times). But ever since Renes started using Conq, Iv been having way more consistent difficulty. The mobility is a huge issue- split second initiation & disengage really widdles my hp down, w/out being able to trade back since he can just dash out of my Q + E. This conts until he all in’s w/ ult + ignite + conq proc = im dead. Even if im going IBG first w/ grasp, im always on edge now in this matchup due to the Rene’s getting more unpredictable & way more punishing than the old PTA strat they ran.\n Any advice from my plat/emerald & above brother bears is appreciated.",
+   "id": "1rl35v2",
+   "comments": [],
+   "age_days": 218,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Time to consider AD Bear",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1rk650t/time_to_consider_ad_bear/",
+   "published": "2026-03-04",
+   "author": "/u/thebozz801",
+   "body": "I honestly believe that AD bear had been good for a while with how hard his W + Q are hitting, these buffs look like Shojin/trinity tush into Deaths Dance might overshadow AP in many matchups Top.",
+   "id": "1rk650t",
+   "comments": [],
+   "age_days": 219,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Jax matchup",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1rggmxp/jax_matchup/",
+   "published": "2026-02-27",
+   "author": "/u/BicycleDelicious429",
+   "body": "Yes I know he's a counterpick. I actually don't have trouble fighting him early on, I'm able to outtrade him thanks to videos and guides on yt and so far I always had a lead on him. \n It's the mid-late game that I'm struggling with because his E is has such a short cooldown that whenever I try to get a second bite he just dodges it, which I guess is why he's the counterpick to voli?\n Can you actually duel with him in mid-late game, if so how do you do it? And can you fight in his R or do you treat it like an olaf ult and just wait for it to run out?",
+   "id": "1rggmxp",
+   "comments": [],
+   "age_days": 224,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Ambessa matchup",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1rdd74h/ambessa_matchup/",
+   "published": "2026-02-24",
+   "author": "/u/BicycleDelicious429",
+   "body": "I recently made a post similar to this but man, I just can’t seem to trade with Ambessa at all anymore. Even if they waste their 2 Qs and I chase, they’ll just dash away with her 2 additional abilities and I think one of her abilities slow? If I just try to farm she’ll just keep poking me and dash away when I try to trade back. Should I just treat it as a ranged matchup and rush boots first? Dorans shield as opposed to ring?",
+   "id": "1rdd74h",
+   "comments": [],
+   "age_days": 227,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Ambessa, Jayce, and Cho'gath matchup",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1rc3f42/ambessa_jayce_and_chogath_matchup/",
+   "published": "2026-02-23",
+   "author": "/u/BicycleDelicious429",
+   "body": "Feels like a coinflip when I face these champs whether they stomp me in lane or I do, but I actually don't know if it was because of what I did right or what they did wrong. I figured it was because I kept taking Grasp against them but insist in all inning them where PTA or LT would be better but what do you guys think?",
+   "id": "1rc3f42",
+   "comments": [],
+   "age_days": 228,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Voli Matchups",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1rb6ng2/voli_matchups/",
+   "published": "2026-02-21",
+   "author": "/u/CH0mp6",
+   "body": "Does anyone know of a matchup spreadsheet or anything that is current for Voli Top? Im low gold and notice im struggling into certain matchups that feel really hard and feel like even if i had a little bit of advice before going into it the lane could be a lot easier.",
+   "id": "1rb6ng2",
+   "comments": [],
+   "age_days": 230,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to beat Mordekaiser?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1r9qb2z/how_to_beat_mordekaiser/",
+   "published": "2026-02-20",
+   "author": "/u/RemoteRevolution7654",
+   "body": "Basically, i win pre-6 against Mord, but after 6, i almost always lose to him. I know Voli's R can \"dodge\" Mord's R, but the timing is hard. I can \"dodge\" it like 2/6 times in a match (yeah ik, this is skills issue), and 4/6 times it's a guaranteed loss for me in his realm.\n Just in case someone suggests trying to ult after Voli's E, bcs that's the usual time Mord is going to use his R, but that's not always the case. It works for the first time, and after that Mord can just wait a little later for R to mess up the timing. At least Emerald Mord did this.\n Looking for any advice or item recommendation or build or runes or spell or anything, Thank u.\n Currently i ban Akali, bcs this is unplayable if the player at least has decent knowledge of this matchup.",
+   "id": "1r9qb2z",
+   "comments": [],
+   "age_days": 231,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "best build and tips against Yorick?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1qr4o1d/best_build_and_tips_against_yorick/",
+   "published": "2026-01-30",
+   "author": "/u/ShoTTe101",
+   "body": "Lately my perma ban has been Yorick because I think he's very anti-game with his maiden and her ghouls who deal a lot of damage and because of her wall that level 5 takes a long time to break, forcing you to save the ult to get out of it\n However, with the arrival of dusk and dawn, I've been having more problems against Varus' matchup and I'm thinking about changing my perma ban to him\n So, when you fall against Yorick, what do you like to build against him and how do you behave in the lane phase and then mid/late game with Yorick's split?",
+   "id": "1qr4o1d",
+   "comments": [],
+   "age_days": 252,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Introducing High Elo Volibear OTPs from Korea and China",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1qqfbva/introducing_high_elo_volibear_otps_from_korea_and/",
+   "published": "2026-01-29",
+   "author": "/u/G1HUN",
+   "body": "Hi, I am a korean player who mains volibear.\n I have been lurking in this subreddit occasionally and I noticed that many people here do not seem very familiar with high elo voli players from KR and CN servers.. so I wanted to briefly introduce a few of them.\n I hope that looking at their builds and playstyles can help broaden your perspective on volibear itemization and overall play patterns.\n English is not my first language and also I'm new on reddit so ty for your understanding.\n 1. 熊王c (Xiong Wang C)\n This is my personal favorite Chinese Volibear player.\n He reached Challenger on the CN server back when iceborn gauntlet was still a mythic item and he has consistently maintained GM every season since then.I also remember him reaching GM on the KR server in about one week a few years ago.\n He almost always runs flash+ignite and strongly prefers aggressive builds. On stream, he often explains that he avoids standard cookie-cutter builds and instead wants to show as many viable build paths for volibear as possible. (like conqueror with black cleaver+hullbreaker+death dance)\n If you search xiong wang on youtube, you can find many fan-uploaded videos showcasing his gameplay.\n This is his lastest vs matchup spreadsheet:\n I think it's bit outdated because he is testing dusk and dawn builds\n 2. 大摆熊 (Dabaixiong)\n https://preview.redd.it/ry8l8596qbgg1.png?width=1214&format=png&auto=webp&s=e7b39fa6f87823e2d5f2ac6359878729f030661b\n Another Chinese player who became well known among Korean streamers under the nickname 'God of Bear(곰의 신)'.\n While he usually sits around GM on the KR server, he consistently reaches chall every season on the CN server.\n He strongly favors AP AS Volibear, typically running lethal tempo with guinsoo. I guess he is world's best AP voli player so his builds could help you. He still actively plays on the KR server, and here is his op.gg link:\n https://op.gg/ko/lol/summoners/kr/yu1o-Miss\n 3. 이게곰 (Thisisbear)\n https://preview.redd.it/p627szv9qbgg1.png?width=881&format=png&auto=webp&s=7a93d0128849cb5abb63339def3ada76094ce7cc\n A Korean player who reached challenger on the korean server and is known for his insane builds: one of his notable item paths in the past was nashor-kraken-guinsoo-terminus.\n He is the first player to ever reach challenger on the korean server using only voli.\n Also he runs a youtube channel, so his videos are worth watching if you are interested in high level mechanics and experimental builds.\n His op.gg:\n https://op.gg/ko/lol/summoners/kr/Thisisbear-Thisb\n There are many other great players but I think these three are the most famous voli onetricks. If you have any questions let me know in the comments and I will do my best to answer.",
+   "id": "1qqfbva",
+   "comments": [],
+   "age_days": 253,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What should I do to improve",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1ql7602/what_should_i_do_to_improve/",
+   "published": "2026-01-23",
+   "author": "/u/Zroe6",
+   "body": "Fully transparent here is my stats what do you recommend for me as a top lane main/filled jungler. \n https://op.gg/lol/summoners/na/Zroe6-NA1\n There are some games in there that I fed my butt off and hardest matchups for me are illaoi and yorick so far. I always ban teemo because I hate the champ",
+   "id": "1ql7602",
+   "comments": [],
+   "age_days": 259,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Voli vs Yone",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1qjg8ai/voli_vs_yone/",
+   "published": "2026-01-22",
+   "author": "/u/Perfect-Storage-1118",
+   "body": "I understand that technically Yone is an easy matchup for Volibear to win, but honestly this champion is a personal counter for me.\n What do you guys do to win?",
+   "id": "1qjg8ai",
+   "comments": [],
+   "age_days": 260,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Best build to get out of gold?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1qjhuaq/best_build_to_get_out_of_gold/",
+   "published": "2026-01-22",
+   "author": "/u/santrale",
+   "body": "Looking for a to get out of gold. Need tunes and items in order. I know matchups matter but looking for a base to rune most of the time. I typically use u.gg but I swear everytime I look the build changes lol",
+   "id": "1qjhuaq",
+   "comments": [],
+   "age_days": 260,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Elise and Ivern top",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1qk68oa/elise_and_ivern_top/",
+   "published": "2026-01-22",
+   "author": "/u/BicycleDelicious429",
+   "body": "These are probably niche and rare matchups but still wanted to ask.\n Just went against an elise top, now mind you I overall won the matchup and the game, but that poke, stun, spider form burst combo, and escape ability triggered the ever living hell outta me, I lost a few engagements against her but I could always come back to lane and never be really behind her. Anyone had this matchup? What did you do against this?\n I'd also like to ask about Ivern top matchup, I only had it once but man that was also bad. He pokes from the bushes he makes and stuns when I engage, his shield feels so tanky. Post 6 I can never get him cus of Daisy cc.",
+   "id": "1qk68oa",
+   "comments": [],
+   "age_days": 260,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Volibear Build Idea",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1qevty3/volibear_build_idea/",
+   "published": "2026-01-16",
+   "author": "/u/Zazikel_",
+   "body": "Hey guys! I’ve been playing a lot of Voli top lately but have been gone for about a week on vacation and been theory crafting. Wondered what you guys thought because I want to try it when I get back and can’t be wasting that sweet sweet LP. \n I finished E1 last split, so I’ll hopefully be around that Elo soon! \n Again, this is primarily for Top Lane, but maybe it works in jg too? Idk 😂 \n Runes:\n LT - Best dueling rune for Voli. Obviously can switch to PTA or Fleet in tough matchups but want to use LT for most. \n Presence of Mind - Holy Mana issues in top lane. \n Haste - It’s Voli\n Last Stand - Any of the others work too but my favourite\n Couple options for secondaries, namely:\n Shield Bash into Dueling Matchups\n Conditioning into Tank/Easy Matchups\n Second Wind into Losing/Ranged Matchups\n Always take Revitalize\n Could also go Boots and Jack of All Trades but I think Resolve is better. \n Items:\n Rush Dusk and Dawn - I love this item, think it’s really fun. Yea, I know it’s better on like Gwen or Diana but I think Voli takes good advantage of the attack speed and the proc still works because his passive and Lethal Tempo and he can get a lot of dmg from it. \n Bandlepipes 2nd - Holy crap this seems like the holy grail. Constant uptime because of your Q / E, move speed and 30% attack speed and defensive stats. I know the cost is going up but still think the item will be broken\n Hullbreaker OR Sterak’s 3rd - I think Hullbreaker is good if you plan on Sidelaning, Steraks for Teamfights. Hullbreaker is really good for an attack speed Voli because you’ll get those 5th attacks more often, the move speed it gives helps close the gap easier. Sterak’s is mostly used to survive engaging in teamfights and the tenacity is good for that scenario as well. \n Tank items 4th and 5th - Obviously matchup dependent. Think Randuin’s is really good, Spirit Visage is a staple for Voli, FH is always good, Thornmail for Healing, Jaksho for resistances, etc. \n What do y’all think? I think this build gives him a lot of dueling potential but also can make a big impact in team fights as well. If you guys have any notes or suggestions please let me know!",
+   "id": "1qevty3",
+   "comments": [],
+   "age_days": 266,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Nasus Matchup",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1qbw36b/nasus_matchup/",
+   "published": "2026-01-13",
+   "author": "/u/Palatonian",
+   "body": "Does Nasus turbo counter Volibear when they know what they are doing?\n I've absolutely destroyed some Nasus players in the past, but recently one put me through an absolute hell game. Obviously wither is awful for Volibear. but more than that he was really good at avoiding me early game (or maybe I was bad at catching him). and he took d ring and built oblivion orb first and maybe put some extra points in his e so he could just poke me out from afar and I could never get close. Felt like there was nothing I could do but wanted to consult yall if there are angles for counterplay Im not seeing \n edit: thank you for the suggestions, Ill try them out next time I play the matchup",
+   "id": "1qbw36b",
+   "comments": [],
+   "age_days": 269,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Questions and Advice for Volibear",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1qbw9i4/questions_and_advice_for_volibear/",
+   "published": "2026-01-13",
+   "author": "/u/KaiRyanKasahara",
+   "body": "I recently picked up Volibear for the first time in the jungle and performed surprisingly well (granted it was in low ELO while duoing).\n I just want to know how Volibear should be played. What his limits are, combos, how to play out certain situations (teamfights and skirmishes), etc. \n I also want advice on the build. I'm currently running: ROA -> Dusk and Dawn (I love this item in general; Kayle Diana) -> Deadman's + Spirit Visage -> Situational tank item While running the Lethal Tempo runes OPGG shows me. I know of the Navori build but haven't tried it yet. I want to know if skipping ROA and building Navori after Dusk and Dawn is better than what I'm currently doing. \n Also want advice on Top Lane since I want to try it out (I play roles depending on my mood). Just simple stuff like what matchups are good or bad and at what levels I spike at. Thanks for any input.",
+   "id": "1qbw9i4",
+   "comments": [],
+   "age_days": 269,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How do you play into bad/losing matchups?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1qbpbti/how_do_you_play_into_badlosing_matchups/",
+   "published": "2026-01-13",
+   "author": "/u/Anafiboyoh",
+   "body": "What runes do you go against Kennen, Jax or Aatrox for example? What do you build? I find when i play voli from behind I'm completely useless.",
+   "id": "1qbpbti",
+   "comments": [],
+   "age_days": 269,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Matchup Discussion: Volibear vs Olaf",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1pz9poc/matchup_discussion_volibear_vs_olaf/",
+   "published": "2025-12-30",
+   "author": "/u/Expl0sive__",
+   "body": "I played a couple games with this matchup and the best runepage and buildpath I've found to help NEUTRALISE (not win, because its just hard) and carry late game is:\n Runes:\n Primary: Phaserush (Keystone), Manaflow, Trancendance, Gathering Storm.\n Secondary: Demolish Revitalise\n Build:\n Start Dring for mana --> Iceborn --> Swifties --> Shojin/Some AP high Haste item --> Situational\n So in general, I've found Olaf pretty bad to play against as hes one of the only champions that you don't steamroll over in an All-in and in lane, meaning you need to look to play safer and scale. But with traditional rune pages and builds I've felt either turbo useless or very weak on lane and it dosn't feel the most fun to play against. So I had a thought and realised that, 1. If you can kite olaf, you win. 2. You need to have good backline access and stickiness to win teamfights over olaf. \n So, ofc we know that Voli has better teamfight pressure due to having cc and better AOE, and in general, Voli has very good splitting potential. So the idea of the build is to both keep our role of diving/tanking in teamgfights while not dying/winning in lane. Phaseruse allows us to go for short trades to burst olaf down to a killable hp level without risking too much of our own hp. Phaserush gives us the move speed to leave and kite and the slow resist to not get caught with his Q slow. Iceborn first gives us needed damage and helps with kiting on top of the slow allowing us to outrun his ult+ghost and rengage if needed. Every game ive played with this against an olaf, they have never been able to kill me unless I missplayed, which gives Voli control over the lane which is amazing. Late game, phase rush allows us to stick onto ADCs and important targets in order to finish them or to pressure them from killing our team. \n I personally prefer Flash + TP for better backline access and early suprise dive potential over Ghost + TP but Ghost + TP is better for all ins in lane.\n tl:dr, phase rush op, abuse olaf with short combos and then back off with phase rush. If he engages, short combo and back off with phase rush. If he all ins with ult, short combo phase rush. :3\n Emerald 2 elo btw so not sure how accurate i am",
+   "id": "1pz9poc",
+   "comments": [],
+   "age_days": 283,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Korean Build",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1pvyryu/korean_build/",
+   "published": "2025-12-26",
+   "author": "/u/TheKoreanGamerYT",
+   "body": "Korean build that made Volibear go from C tier to A tier in Korea. The build focuses on covering the weakness of the items by building the components, and then building the items as fast as possible\n You start with Doran's Shield 99% of the time, Dring into easy matchups if you want, not necessary. If you built Dring, just be careful of full inventory because you don't want to sell Dring unless absolutely necessary. Next you build the components for Fimbulwinter, Frozen Heart, and Spirit Visage.\n The component order is Kindlegem > Tear (you can get tear earlier in easy matchups) > Ionian boots > Kindlegem > Spectre's Cowl/Warden's Mail/Glacial Buckler. This will fill out your entire inventory and build order will be Fimbulwinter > Frozen Heart/Spirit Visage > Frozen Heart/Spirit Visage > Unending Despair > Sterak/Shojin/Riftmaker/Flex Tank.\n Runes are Resolve main tree with Precision secondary\n Go Grasp, Shield Bash, Second Wind, Revitalize, and Legend: Haste, Last Stand, and CDR + 2 scaling hp 99% of the time\n Main Rune Page\n Secondary rune page when enemy team can kite you really easily\n Precision main tree with Resolve secondary\n Go Fleet Footwork, Absorb Life, Legend: Haste, Last Stand, Second Wind, Revitalize, and CDR + 2 scaling hp\n Against slippery ranged matchups/mobile enemy team\n The secondary rune page isn't very recommended due to just being weaker overall in everything except mobility.\n For summoner spells, go Ghost/TP in 99% of games or Flash/TP into ranged, mobile enemy team. For Darius specifically, Flash/Ignite is fine.\n The Playstyle is essentially just to be a drain tank and keep cycling W, if you've played a previous version of this build back when mythic items were a thing, you'll be very familliar with the playstyle.\n If enough people want I can translate the full video which is 2 hours long with most of it detailing how he got to this build.\n From: 만당/ㅇyㅇhttps://www.youtube.com/watch?v=hm2wkTIuj1c&t=9463s",
+   "id": "1pvyryu",
+   "comments": [],
+   "age_days": 287,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Tryndamere",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1pu8wum/tryndamere/",
+   "published": "2025-12-23",
+   "author": "/u/Embarrassed_Gift4054",
+   "body": "Hi, I’ve got a few games with Volibear and I just struggled really hard against this champion. You obviously can’t get prio against him, which leads to the inevitable proxy scenario. Even if I get ganked, I don’t have enough time to push the wave and get a good reset, so he has an eternal tempo advantage over me (I run ignite). So, how do you guys play this matchup?",
+   "id": "1pu8wum",
+   "comments": [],
+   "age_days": 290,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "D-shield vs D-ring laning phase",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1pm7oob/dshield_vs_dring_laning_phase/",
+   "published": "2025-12-14",
+   "author": "/u/BicycleDelicious429",
+   "body": "How do you play the laning phase when u start with one of these items. Especially with d-shield and its mana issues. Or is it just better to always go d ring even in a heavy poke matchup like panth, malph, mages or ranged tops.",
+   "id": "1pm7oob",
+   "comments": [],
+   "age_days": 299,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to win Quinn, Vayne, Teemo, Kennen?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1pma8wy/how_to_win_quinn_vayne_teemo_kennen/",
+   "published": "2025-12-14",
+   "author": "/u/No-Improvement-5396",
+   "body": "I have always struggled against ranged top but I never really get counter picked like that. But whenever I play Voli I always face vs ranged. I have maybe faced against a ranged champion once in 10 games when playing zaahen even though I first pick. When I pick Volibear I get ranged top three consecutive times. I just don't know how to deal with them? I've already made a similar post against ranged top in general but I here I would like to ask for some matchup specific advice. Because against Vayne for example, running her down is almost impossible. She has a low CD dash, invisibility and a knock back cc. How tf do I deal with that? Do I just ban her and suffer vs Teemo/Quinn? Because Teemo feels at least somehow playable. Quinn however is extremely bad too. She just gets free vision without ward and one shots you lvl 3. Are there some general things that I need to understand to stop going 0/10 against them?",
+   "id": "1pma8wy",
+   "comments": [],
+   "age_days": 299,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How do i play vs ranged?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1plnxhd/how_do_i_play_vs_ranged/",
+   "published": "2025-12-13",
+   "author": "/u/No-Improvement-5396",
+   "body": "I really like volibear, i like to play agressive in lane and i like to splitpush. Most importantly, i really like trying different items/runes and maybe coming up with unique playstyles. Volibear, naturally is a champion that a lot of this applies to but at the same time, im not someone with a big champion pool. So when i main a champion he kind of has to be a bit blind-pickable. With volibear i just feel like I cant do anything vs ranged champions. I cant engage onto them, i cant farm, i cant roam i cant do anything. It is just so unbelievably miserable to face them. Is there some way i can at least do something in those matchups?",
+   "id": "1plnxhd",
+   "comments": [],
+   "age_days": 300,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Sett help",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1p8rkmb/sett_help/",
+   "published": "2025-11-28",
+   "author": "/u/BicycleDelicious429",
+   "body": "As Volibear, do I all in Sett when I engage? Is there a timing to use my abilities so that I get good trade off him? Does Sett just beat Volibear once he gets overlord’s? I just don’t know how to deal with this matchup early and mid-game, I’d like some help please.",
+   "id": "1p8rkmb",
+   "comments": [],
+   "age_days": 315,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Why is Volibear banned so much/has such high winrate JGL?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1o3q3l1/why_is_volibear_banned_so_muchhas_such_high/",
+   "published": "2025-10-11",
+   "author": "/u/No-Improvement-5396",
+   "body": "I don t understand it. Every time I face Volibear it's just a free win. Volibear is my most played matchup in the jungle and I have 80% wr against him. (No, I'm not smurfing, I have even Winrates for most other Junglers) i play Zac, a champion he is supposed to counter but he is just so easy to deal with. You literally just have to not fight him early-midgame. He will get fed but most of the time I can just make plays across the map/invade and make myself just as fed. During mid game he is oppressing 1v1 so I just avoid fighting him 1v1. It's really good to just simply force even Teamfights because he is giga useless when attacked by 5 people at once while the person with a mark on him runs off into the backline. I feel like he isn't strong at all, which makes me wonder, why he has such high winrate jgl/is getting permanent ratio nerves, that do nothing but make his Toplane (already at 45% wr) even weaker?",
+   "id": "1o3q3l1",
+   "comments": [],
+   "age_days": 363,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Finished my jax guide I pray this helps the bear brothers",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1nsy71s/finished_my_jax_guide_i_pray_this_helps_the_bear/",
+   "published": "2025-09-28",
+   "author": "/u/Yordleswaggins",
+   "body": "recently hit Challenger again so I figured I should post more toplane matchup guides for all the top bear enjoyers, I hope this guide helps in some fashion and please let me know what champs you want next here or under the videos comments.",
+   "id": "1nsy71s",
+   "comments": [],
+   "age_days": 376,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Toplane matchup tierlist (From hardest to easiest)",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1mo6el0/toplane_matchup_tierlist_from_hardest_to_easiest/",
+   "published": "2025-08-12",
+   "author": "/u/No_Earth_2971",
+   "body": "Feel free to ask any matchup specific question/debate if you disagree with some.\n (Might still change over time, nothing is ever fixed)",
+   "id": "1mo6el0",
+   "comments": [],
+   "age_days": 423,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Thundamentals- Rank 1 Volibear (1300lp) Full Matchup Spreadsheet for ALL Jungle MATCHUPS",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1m9y4xp/thundamentals_rank_1_volibear_1300lp_full_matchup/",
+   "published": "2025-07-26",
+   "author": "/u/Hybradge",
+   "body": "Hey guys, I'm currently the rank 1 Volibear in the world, and here's my full 'Thundamentals' Volibear Spreadsheet, it's something you guys wanted and I've spent the last 3 weeks writing it out, won't paywall it cause it's my gratitude towards you guys for 3k subs. Formatting is a bit chopped but if you have anything else you want me to clarify etc or something I can improve on lmk!\n https://docs.google.com/spreadsheets/d/1K5FIT_Jsvkmv-5bo29tv-BAQZ53X-_FRVjmKzYNA0Tg/edit?usp=sharing",
+   "id": "1m9y4xp",
+   "comments": [],
+   "age_days": 440,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "My Toplane Guide is finally done - Yordleswaggins Guide",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1jt3drv/my_toplane_guide_is_finally_done_yordleswaggins/",
+   "published": "2025-04-06",
+   "author": "/u/Yordleswaggins",
+   "body": "It took longer then I was hoping But I finished it. It's my first guide so I hope this helps you guys out even a little. I will continue to make videos on matchup specific videos that go more in depth so keep an eye out!\n Also if you have any Questions I can answer then here or on the videos comments.\n https://youtu.be/hiRPdxVy29o",
+   "id": "1jt3drv",
+   "comments": [],
+   "age_days": 551,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Volibear matchups by 熊王c for 25.4 (updated on Feb. 24th)",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1izc1wq/volibear_matchups_by_熊王c_for_254_updated_on_feb/",
+   "published": "2025-02-27",
+   "author": "/u/HajjRogerinho",
+   "body": "Hey all, 熊王c (high elo Chinese Volibear OTP) updated his matchup sheet a few days ago. This guy has always had wonky builds but it gets even weirder this time, seems like he likes going Death's Dance in a lot of cases for example, which is something I haven't seen Volibear build for a long time. \n Here is his stream link if you're interested: 熊王c\n There's also this YouTube channel which posts many of the games he plays on stream: https://www.youtube.com/@BearKingLol\n Not saying that these builds are the absolute best, they largely depend on one's playstyle, but it's always nice to see how other people like to play Volibear.\n Image original link: https://yuba.douyu.com/feed/2752579250337957411",
+   "id": "1izc1wq",
+   "comments": [],
+   "age_days": 589,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How i always win my Mundo matchups.",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1hl3ox0/how_i_always_win_my_mundo_matchups/",
+   "published": "2024-12-24",
+   "author": "/u/Ghostmatterz",
+   "body": "I will slowly inch towards him while autoing the tower to drag him out of the minion exp range if I have to. So he loses either way If he retreats. Unfortunately I still lost the game trying to get lead ;(",
+   "id": "1hl3ox0",
+   "comments": [],
+   "age_days": 654,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Bear King 熊王c updated Volibear matchup spreadsheet 14.13",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1ey5cb3/bear_king_熊王c_updated_volibear_matchup/",
+   "published": "2024-08-22",
+   "author": "/u/GiIthunder",
+   "body": "Just uploading this for all to see as I hadn’t seen this more recent one uploaded to the sub yet. Sorry if it had and I missed it.\n This is the most recent one on his profile, hopefully we get a 14.16 soon with his new ROA build. Also if anyone can translate when to chose which build that would also be handy :P \n Good luck climbing fellow bear mains 🐻",
+   "id": "1ey5cb3",
+   "comments": [],
+   "age_days": 778,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "I tried PTA and ghost into ranged matchup, and it's working pretty well",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1cmed9e/i_tried_pta_and_ghost_into_ranged_matchup_and_its/",
+   "published": "2024-05-07",
+   "author": "/u/ValknutStudios",
+   "body": "",
+   "id": "1cmed9e",
+   "comments": [],
+   "age_days": 885,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Couple of Announcements",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1cki8zq/couple_of_announcements/",
+   "published": "2024-05-05",
+   "author": "/u/BearlyTanky",
+   "body": "Hello people, im Bearly I have a couple of things that I would like to share. First I did not know the split ends in like 2 weeks, so I stopped my climb to grandmaster and focused on trying stuff and limit testing, that meant I lost more games that I should. Made it to master a couple of days ago, playing only Volibear top which is in a rough state I must say, diamond was pretty easy, way easier than emerald to be honest and Riot decided to break my legs and I am getting like 10 lp and lose 25 for some reason. \n https://preview.redd.it/bmyrwelc1jyc1.png?width=776&format=png&auto=webp&s=c3de331065c3b23c360e6691e65241caf7fdbddd\n But anyways enough of that, the 2 things that I really wanted to share are:\n I uploaded my first analysis to my youtube channel, in the post I did like a week ago about \"essential skills\" most of you really liked that stuff so I decided to make lengthy analysis, sorry for the ehhs and ehhms, its kinda hard to not say them but I will work on them in the future. I plan on uploading twice a week.\n https://www.youtube.com/watch?v=A_4ha1Gd1WQ\n And the second thing that I wanted to announce is that will be making a VERY VERY extensive and in depth guide to Volibear where I plan to explain almost everything about the champ from a toplaner perspective of course. The main selling point I would say is that in the matchups section I not only intend to do the mathcups that you most likely will encounter on the toplane but all the champs. Of course, you will never encounter a Nautilus in the toplane so I am not going to explain how to beat him in the toplane but instead stuff like how you should play and what you should be aware of if he is in the enemy team as a support. Very quick example, in the guide one of the points would be, If Nautilus tries to peel you off his adc with his ultimate, you can negate it casting yours, both cancelling the knock up and closing the distance to the enemy, most likely catching them by surprise since they were expecting you to be knocked up. Something like that.\n One last thing, for all of you that dont really like guides or watching videos or have a very specific question or just simply want to chat about Volibear, I plan on streaming my games at 6 CET starting on monday, you can stop by and aske me anything :).",
+   "id": "1cki8zq",
+   "comments": [],
+   "age_days": 887,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Volibear top matchup sheet by best chinese voli player BEAR KING C (熊王c)",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1b94nms/volibear_top_matchup_sheet_by_best_chinese_voli/",
+   "published": "2024-03-07",
+   "author": "/u/Reesty_lol",
+   "body": "Here is a updated version a bearkings matchup sheet+build\n Im actually happy to see that he is not playing the drain build but still iceborn gauntlet build\n if you guys have any questions, feel free to ask (i watch most of his games and peaked master tier with voli top)\n https://preview.redd.it/tx0zbm7s2zmc1.png?width=3200&format=png&auto=webp&s=041b85283390ebffd2e784dc50ccc5f141714ae1",
+   "id": "1b94nms",
+   "comments": [],
+   "age_days": 946,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Volibear matchups by 熊王c for 14.2 (updated on Feb. 4th)",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1am2ify/volibear_matchups_by_熊王c_for_142_updated_on_feb/",
+   "published": "2024-02-08",
+   "author": "/u/HajjRogerinho",
+   "body": "Hey all, as I was checking out 熊王c's stream on Douyu (https://www.douyu.com/topic/10ycf?rid=6183727&dyshid=0-1b5d0080cf3d4457ce2e01f000031601) I noticed that it seems that he updated his matchup sheet a few days ago, and since no one posted it on the subreddit yet, I thought some of you would like to see his builds and runes this patch.\n I just took a screenshot of his stream, not sure if there is a way to get his original .png file but if someone does have access to it, I think we would all enjoy getting the best quality possible of this sheet.\n I remember 熊王c having a lot more variations in his starter items and runes, seems like Grasp and Doran's Ring are the strongest option in many matchups according to him. He also seems to enjoy Riftmaker first into Iceborn vs AD/Anathema's vs AP, and going full tank after that, maybe slotting in Cosmic Drive last. I've always enjoyed 熊王c's builds and look forward to testing these out.\n https://preview.redd.it/5utmh40jlehc1.png?width=1920&format=png&auto=webp&s=8be9d24e72aa05cad0b68c1b7bb2b30d857f18af",
+   "id": "1am2ify",
+   "comments": [],
+   "age_days": 974,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "I think i found a decent volibear build (finally)",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/19dra4s/i_think_i_found_a_decent_volibear_build_finally/",
+   "published": "2024-01-23",
+   "author": "/u/joelspaho1212",
+   "body": "I'm sure you volibear mains like me have previously thought of this build in theory, but may have thought it just wont work.\n Im talking: Nashors tooth, luci boots, MUST go into sundered sky.. then riftmaker and ill talk about the finishing touches later\n Why do i think it's good? Well, nashor's tooth gives crazy stats for Volibear, although going for riftmaker right after (especially now that it's about to be nerfed) makes him a bit useless from the games ive played with that build (which i've played a lot of nashors into riftmaker).Anyway, Sundered sky does NOT scale with bonus attack damage like most items with such passives, neither does the healing. When you build it your abilities like Q,W which have huge ad scalings and are half useless when you are full ap will actually do decent damage and leave oponents building wrong boots since youre gonna do 2 sided damage anyway.\n Anyway, its not all that crazy with just these 2 items, but after you get riftmaker you basicially have: ap damage, health, attack damage, the ability haste that you would have if you built full tank basicially in one build. Why? Well, riftmaker's omnivamp is really good with sundered sky passive since youre gonna crit that auto attack, heal hp and the vamp will heal you more too. Atleast in my experience, it works very well and gives you a bit more chance to 2v1 or 3v1 with ap volibear which is normally REALLY hard to do.\n What to finish with after the core?You can choose your spellblade item, and to get one or not, but honestly, IMO it's really necessary when you have this much haste with this build. If they have AD you can go for iceborn gauntlet since its really cheap, but if you're really ahead and they have mixed team just go lich bane and one shot them all (including turrets).\n If you're not ahead you can still get this build, altho after these 4 items you could go spirit visage or FoN even if they have heavy ap. Trust me, unless they have GREAT frontline the damage is there anyway.\n Last item i'd choose cosmic drive since it gives a lot of AP, hp,ms,haste which are basicially all stats you need lol\n You can go hullbreaker too but at this point in the game it's meh since you already one shot turrets.\n TLDR VERSION: Go nashors tooth into luci boots, then sundered sky, rift maker, lichbane/iceborn gauntlet/spirit visage and cosmic drive/hullbreaker.\n Also, luci boots are great but not necessary. If you're playing into auto attack champ go plated, and if against a champion full ap like teemo or rumble or idk go merc treds\n Again this is just my emerald ass's opinion so dont blame me if im wrong but personally i had decent games in my elo with it. Lmk if you think changes should be done\n ​\n ornn wins this matchup btw\n (I was 0/5 to this yone at one point in the game)\n ​\n :D",
+   "id": "19dra4s",
+   "comments": [],
+   "age_days": 990,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How can Riot not balance some champions, SCPECIALLY in the Top Lane?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/197fbee/how_can_riot_not_balance_some_champions/",
+   "published": "2024-01-15",
+   "author": "/u/Selaths",
+   "body": "Top lane is by far the most snowbally/matchup screwed lane in the game (jungle is debatable), which means that's where \"balance\" between champ's power levels matters the most.\n It has been MONTHS, if not YEARS that some specific champs dominate the lane and others are just useless. Champs like Aatrox, Jax, Darius, etc have been overpowered for who knows how long and never get nerfed, while champions like our bear have had horrible winrates for ages and never getting any meaningful help.\n All the champs I love are in similar situations, getting 1v1d by almost everything that is meta without any chance of fighting back. Yeah sure we make him work because we know the matchups, but the stats for the champ don't lie. Voli is a VERY simple champion, extremely easy to grasp the basics, which almost always leads to a decent winrate even if kinda weak, but he has had one of the worst winrates both top and jungle for a lot of time now.\n I always mained champs like WW, Voli, Sett, etc, and they all have felt hopeless for I don't even remember how long now and they NEVER get to a decent place.\n I'm slowly losing the rest of my will to play this game. Most of my old mains got reworked and all the champs I like are left weak.",
+   "id": "197fbee",
+   "comments": [],
+   "age_days": 998,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Voli top matchups by best voli player 熊王c (bear king c) for 14.1",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/195spdw/voli_top_matchups_by_best_voli_player_熊王c_bear/",
+   "published": "2024-01-13",
+   "author": "/u/Reesty_lol",
+   "body": "Sup my fellow voli players, as always new matchup sheet by bear king\n sorry for bad quality of the image, he didnt post it yet but i have took a screenshot of this on stream\n enjoy your LP gains\n ask if you have any questions\n PS: this may be still in progress, he may change some things\n https://preview.redd.it/ob5lbdeix7dc1.png?width=2560&format=png&auto=webp&s=99c64fac23ff872662baddd75a61772253b76696",
+   "id": "195spdw",
+   "comments": [],
+   "age_days": 1000,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "UPDATED JWARRIOR1 Grandmaster Volibear Jungle Guide",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/18elsuq/updated_jwarrior1_grandmaster_volibear_jungle/",
+   "published": "2023-12-09",
+   "author": "/u/JWARRIOR1",
+   "body": "INTRO\n Hey everyone! I am JWARRIOR1 the highest ranked volibear in NA on both op.gg and ugg (https://www.op.gg/leaderboards/champions/volibear?region=na and https://u.gg/lol/champion-leaderboards/volibear?region=na1) yesterday I just hit grandmaster in NA using pretty much only volibear jungle. I made a guide about 10ish months ago when I first hit number 1 on league of graphs and it is extremely dated, so I wanted to update everything (until the next season where everything gets meta shifted but whatever)I know a lot of people have been struggling with his viability recently, so I wanted to make a guide over how I did it. This will be pretty extensive for gameplay, build, runes, certain matchups, itemization, etc. I also stream here where I can answer any questions you may have: https://www.twitch.tv/jwarrior1league. You can also find some replays of my games on volibear domisum replay (I am not affiliated with them in anyway, but its a good learning tool and you can directly see my games). Lastly, before I get into it here is a brief overview of what I build: https://www.onetricks.gg/players/hrRWmDMA5Uo8dd-EzWcrPleo-YSiuzDP2Kd769QdGDwovrSEtdN9j9eHEoSgP_0a9ioTmLkcZ8GftA\n Early overview and shift in gameplay:\n For quite some time volibear has been treated as a spam gank fall off champion. Ever since his nerfs to his Q, he has been struggling in this niche. I adapted to completely forsake the movement speed build/early aggressive in favor of a scaling late game carry playstyle. When Volibear had his w and passive buffed for toplane and camps became tankier, he really struggled. To adapt to this change I started rushing nashors and focusing more on objectives/counter ganking and maximizing gold income/exp for myself. What this entails is a lot more reserved gameplay without any risky plays. Ganks that are a toss up if they will work, I usually dont go for unless absolutely free. With the lack of movement speed I focus more on objectives and counter ganking. This change in style reduces the need for major movement speed and really highlights your ability to duel most champs in the game. Forcing early objectives and causing the enemy team to come to you or counter ganking really helps negate the q nerfs awhile back.\n Champ select/Counters:\n Volibear jungle typically struggles vs a few things. The major counters are ap champs that can kite you/you cannot stick to them, tank shred champs, and spam gankers that can out pace you if you are too passive. These champs are as follows (choose your bans based on preference): Evelynn, Ivern, Lillia, Mordecaiser (you can beat him with certain builds), elise, kindred (not ap but has the ability to kite really well and can slow you easily), zac. A decent chunk of these matchups can be beaten by some tweaks in items but I will get into that a bit later. \n RUNES\n I always go press the attack, triumph, alacrity, coup de grace as the primary tree, and secondary tree is magical footwear and cosmic insight. Finally, go attack speed, adaptive force, and then situational defensive runes (if they have a lot of mixed damage but not %hp damage you can go hp). Press the attack is better than lethal tempo in jungle because the Q W auto procs it before your E strikes for a nice buff in initial damage. Additionally, the proc allows for the target to take bonus damage from ALL sources (Not just you), so for ganks other teammates will do more damage to how you proc on. I go magical footware and cosmic insight because saving 300 gold is very nice when you are going a more selfish/expensive build (I will get into this in the next section). Additionally, the sorcery tree was nerfed recently. Lastly, cosmic insight is always nice for flash cooldowns and smite cooldowns (especially with our focus on objectives and high cs per minute). Finally, max Q W E (nothing special here). \n BUILD\n Ok so heres where I differentiate a bit from others. ALWAYS RUSH NASHORS EVERY GAME. The buff to your passive plus camps getting tankier means full tank does not cut it. Late game you will fall off and just be a healthbar. Nashors is expensive but allows you to clear faster and gain tempo. This tempo gain pays for itself in the long run. Ideally you will full clear into a scuttle crab which will give you 900 gold. Rush fiendish codex on first back. This is a huge spike in clear speed as your passive ensures you do not have to spend extra time autoing small camps (baby wolves, baby raptors, baby krugs, etc). I have a clear guide up explaining passive being extended through pulling camps and some other tricks but I will not go into that now, this is just a overview. \n After you build nashors you usually go iceborn. Iceborn passive is still insane and the slow allows you to stick to people without investing into too much movement speed. Additionally the slow resist and tenacity passive is just too good to pass up. HOWEVER: if you are into any of those difficult to fight ap champs I would recommend getting a negatron cloak and just sitting on it (its the best gold value for an MR component and should get you by without delaying mythic TOO much). After nashors and iceborn, the next items are fully situational. if you need healcut go bramble, if youre into a lot of attackers go frozen heart, if youre into ap champs while having ap champs on your team go abyssal mask. These are all on a game by game basis. You can go zhonyas into certain matchups such as vayne or yi (where standard resistances or hp dont really help) Or go divine instead of iceborn into mordecaiser (so he doesnt steal useful stats and you can outduel him in his ult). Finally, I usually go plated in about 80% of my games. Lucidity is fine if youre into mixed damage and youre ahead, merc treads are OK but you get enough tenacity from iceborn gauntlet so its not a big deal.\n Random tips and tricks\n I missed out on plenty of things I know about this champ because simply it would be too long so heres a random bullet list of useful tips:\n -Your E + smite outsmites every single jungler in the game for early drags. Seriously, your E to drag does over 500 damage early game. EGO THOSE DRAGS.\n -Dont gank unless you have flash or ult or its SUPER free. Obviously dont be afk farming all game, but were playing for teamfights and scaling here\n -Use your ult to nullify CC. Youre unstopable during it, when youre able to be cced ult through it. Youll learn some niche interactions from practice (You can cancel mord r if you ult during his ult).\n -clone champs are easy. your W OR press the attack sticks on the correct one. Shaco, leblanc, etc are all easy to deal with if you pay attention to this.\n -use your q and w as auto attack resets when clearing, it speeds up things a LOT\n -Pull camps so that you can keep your passive active while clearing, it saves a lot of time. I have a clear guide on my youtube channel: https://www.youtube.com/channel/UCCNw2bbNjQ93Wg6bCYDvLeQ\n -You can use your q as a peeling device without actually stunning. Seriously, just act like a herding dog and you can often discourage people from engaging on you or teammates)\n -(General jg trick) use rift herald when towers are low hp, not full hp. Towers get more resistances the lower they are, so you get more value out of it when using it on low hp (rift does true damage to turrets).\n - Your E gives vision, use this to not facecheck certain bushes. I like doing this early game to see if I can safely get a deep ward instead of facechecking.\n -Sometimes its beneficial to intentionally be hit by cc if your Q is going to time out. If your Q is going to time out before you reach someone and you see a cc ability, tank it so you can refresh your Q and reach them anyway (often you have loads of tenacity so its not a big issue). \n Conclusion:\n I hope this helps yall. Please feel free to ask questions and ill try to answer them when I can. Also tune into my steam, I try to explain everything I do and I am happy to answer any questions there. Finally, thanks to all who supported me. I was inspired to start streaming and doing guides like this because of YOU. The last guide post was so popular with support it was really nice. Who knows, maybe we will go for challenger.",
+   "id": "18elsuq",
+   "comments": [],
+   "age_days": 1035,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Voli top matchups by best chinese voli player 熊王c (bear king c) for 13.19",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/181xhld/voli_top_matchups_by_best_chinese_voli_player_熊王c/",
+   "published": "2023-11-23",
+   "author": "/u/Reesty_lol",
+   "body": "Sup guys, its been a while since i posted bear kings guide so there you have it\n I just reached master with this and im telling you that this build is two times better than ap build (try it yourself)\n https://preview.redd.it/swiokvbjf22c1.png?width=2041&format=png&auto=webp&s=a273ea7528359cbc3ac49eb8c87949d89ab6f36f",
+   "id": "181xhld",
+   "comments": [],
+   "age_days": 1051,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "People say Gwen is a hard matchup, but i am built different",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/17k0usk/people_say_gwen_is_a_hard_matchup_but_i_am_built/",
+   "published": "2023-10-30",
+   "author": "/u/Chitrr",
+   "body": "",
+   "id": "17k0usk",
+   "comments": [],
+   "age_days": 1075,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Voli top matchups by best chinese voli player 熊王c (bear king c)",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/1517mqi/voli_top_matchups_by_best_chinese_voli_player_熊王c/",
+   "published": "2023-07-16",
+   "author": "/u/nekonps",
+   "body": "​\n https://preview.redd.it/vf3c23iz6ccb1.png?width=1246&format=png&auto=webp&s=fa1c3516abb143aed62211cb2cb453d5c79af612",
+   "id": "1517mqi",
+   "comments": [],
+   "age_days": 1181,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I love the gankplank matchup.",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/13aqgui/i_love_the_gankplank_matchup/",
+   "published": "2023-05-07",
+   "author": "/u/shadownight324",
+   "body": "",
+   "id": "13aqgui",
+   "comments": [],
+   "age_days": 1251,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Simple change to balance Voli's ult",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/133ku79/simple_change_to_balance_volis_ult/",
+   "published": "2023-04-30",
+   "author": "/u/Kuma-Grizzlpaw",
+   "body": "Reduce the cooldown of his ultimate baseline. Double the cooldown if a turret was disabled.\n ( Example: Ult Cooldown 160/140/120 seconds >>>> 90/75/60 seconds. New: Cooldown doubled if at least 1 turret was disabled)\n Reasoning behind this change:\n ​\n This nerfs him by:\n ​\n Decreasing the frequency that he can disable turrets in the early game by 20 seconds.\n Decreasing the frequency that he can disable turrets in the midgame by 10 seconds.\n Giving players a longer window to abuse him if he turned their turret off.\n Curbing his oppressiveness in toplane and jungle.\n This buffs him by:\n ​\n Making ult trades more worthwhile for the Volibear player.\n Bringing his ult cooldown in line with other champions\n Improving his mid-late game teamfights.\n Aiding him in lane, especially into matchups where he needs ult to close the gap.\n Improving his scaling.\n ​\n Also revert his Q movespeed nerfs. Please and Thank you. \n ​\n Thoughts?",
+   "id": "133ku79",
+   "comments": [],
+   "age_days": 1258,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Voli top matchups by best chinese voli player 熊王c (bear king c) for 13.8",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/12yl1yt/voli_top_matchups_by_best_chinese_voli_player_熊王c/",
+   "published": "2023-04-25",
+   "author": "/u/Reesty_lol",
+   "body": "Sup guys, im posting again guide by bear king\n For some of you who asked, if he streams on twitch - no, he doesnt, but you can watch him on this platform -> https://www.douyu.com/topic/10ycf?rid=6183727\n Basicly the first column is champ then first item, summoner spells, runes, level 1 ability and then what do you max, idk what the rest down below means (i dont speak chinese), but if someone could translate that would be great\n https://preview.redd.it/wmxvi5a6i1wa1.png?width=2041&format=png&auto=webp&s=8d7c90e231330c182ddcaa6a7265bb03a55dc9b1",
+   "id": "12yl1yt",
+   "comments": [],
+   "age_days": 1263,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Voli top matchups by best chinese voli player 熊王c (bear king c)",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/11cglyj/voli_top_matchups_by_best_chinese_voli_player_熊王c/",
+   "published": "2023-02-26",
+   "author": "/u/Reesty_lol",
+   "body": "",
+   "id": "11cglyj",
+   "comments": [],
+   "age_days": 1321,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "My climb to plat on Volibear Top and how I learned to accept the 1v9 machine",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/x7cfhe/my_climb_to_plat_on_volibear_top_and_how_i/",
+   "published": "2022-09-06",
+   "author": "/u/Unhelpful_Idiot",
+   "body": "So I posted a clip where I 1v5'd as AP Volibear. It was done in mid-Gold on my 2ndary account.=\n This is my main account's OP.GG. You will notice almost every game is played with a Hannibal player, that is my friend. He is a cool dude but he is low-silver in skill. Every game I play with him is one where he is constantly gapped... I love him, and don't mind because he's cool and playing with him is like weight training. \n Coming to terms with AP Volibear Supremacy ​\n I used to make fun of people who built Rift-Nashor's because of its winrate and how squishy they are. Everytime I went against it it was a free win. Sure they would beat my ass top sometimes (not often, as I was a Garen-Kench main and they can fuck up the Voli) but they would fall off and lose every game... that is what I thought and when I first picked up AP Voli that's exactly what happened. \n I won lane, lost game, my team got the blame. \n Eventually I stopped blaming my team and started watching replays and I realized where I was going wrong... and I'm going to share my knowledge with my fellow low-elo Voli's so you too can get the snazzy plat border. \n ​\n The Build Lethal Tempo -> Triumph -> Alacrity -> Coup De Grace\n Transcendence -> Gathering Storm\n Max W -> Q -> E\n Summoners:\n Ghost-Flash (VS Ranged every time)\n Exhaust-Flash (Vs Kiting Melee champs and Burst champs)\n Teleport-Flash (Into tanks and easy lanes)\n Ignite-Flash (When I don't feel like thinking in champ select. Honestly the above 3 are always better choices... only exception is maybe Fiora or Nasus... maybe)\n Riftmaker -> Nashor's -> Hullbreaker\n Here is a quick ranking for Voli's flexible Items based on how often they should be necessary:\n Zhonyas > Mejai's (always get Dark Seal) > Force of Nature/Deadman's Plate > Sterak's Gage > Silvermere Dawn > Titanic Hydra > Guinsoo's Rage Blade\n Nashor's -> Sunfire -> Titanic \n Is a build I've tried. Its not terrible. It doesn't feel as hilariously one-sided as the normal core but its definitely the better teamfighting build.\n Obviously Doran's Ring start and Ionian Boots when possible. \n ​\n How do I set up the 1v9 machine early? E start at level 1, go Q lvl 2 if the lane is far enough from the opponent's tower to catch them when you get level 2 before them (you always will... except for against Lillia) otherwise take W. You should always hit level 2 before your opponent and your 1st E decides it. \n Ask yourself \"Can I kill their jungler in a 1v1?\":\n If the answer is yes drop your E on all 6 minions, shove your opponent in hard till level 3, and then walk down to their topside buff to fight or drop a ward. \n If the answer is no, but you can beat drop your E last second on only the melee's (It takes time to get used to timing this) and let them shove you in. \n Most of the time you can kill their jungler and most of the time you want to get to their jungler before they get to you... or at least know when they are topside. Voli works best with ally junglers who want the smoke. Voli-Trundle walks into your topside jungle it really doesn't matter what jungler you are playing... you are giving up your camps and you can choose to offer your life. Often times though it will be a solo mission so keep a close eye on your toplaner. Going 1 for 1 is fine because (if you followed my advice) you will lose almost nothing while their Toplaner loses farm or their jungler loses time and pressure.\n Lane Management is most key on Volibear. Your passive lets you control the wave completely... learn to give up CS sometimes to stop your passive from activating. Your opponent thinks you have to shove every wave but freezing them out is often the better choice. You lose 1 or 2 cs to stay at >5 stacks on your passive but they lose 4+ CS because if they walk up they die. Try to stay at ~3 stacks whenever your opponent is challenging your freeze or when the wave is slow pushing to you. I often fight in the middle of large slow pushes past Riftmaker component (forgot the name... leeching leer?) because healing off the minions negates the damage they deal. This is where I catch most of my opponents off guard and start to secure my lead. \n There will come rare cases where you can't beat your opponent 1v1. In those cases all I'll ask is, \"Can you beat the wave?\". Shove them in, and walk down. Whether that be down to their topside jg, down to your topside jungle, down to scuttle or (or rift if they try to force a freeze... which they can't successfully pull off because of your E's insane range), or down to your midlaner. When I can't beat my opponent 1v1 I just shove them in. Getting them shoved is more important than getting every CS. Doesn't matter how much stronger they are than you if they have to sit under their tower and farm.\n Your team's topside buff is yours if your jungler isn't going to be topside 20 seconds of it spawning. If you are getting your ass beat by an Aatrox and your jungler is botside 24/7 you take that buff and call it a gank. \n ​\n How do I operate this Machine Midgame? If you are fed the topside is yours. Every jungle camp either Jungler takes topside is them stealing from you. Now, you are nice so you count the farm going to your ally'd jungler as charity. Diving is key to making this work though, and here's how you do it:\n Walk up all casually like with your wave and smack their tower a bit. When they move up to harrass you hit em with the E-Q-W-R\n Dear lord don't start it off with your R. Your E blocks a tower shot and then you R. Every situation is different though and rules are meant to be broken... but this is just a general rule for playing vs most of the toplaners. \n Often times I will harrass people under tower with just the E-Q-W and when fed I usually don't need the R to do the dive. I usually use R at the end of the E-Q-W combo for gap close. \n Once you know how to dive and if you are stronger than you oppenent you pressure as hard as you can... but you do it wisely. \n Dragon is up you push top as hard as you can. \n Nothing is up and no one on the map, you chill in your jungle and near your tower till you see them. \n Both teams are near Rift, you either fight with them or, if you feel like you lose that one, go shove in Mid and then push out bot side.\n You're not great at teamfights because you will often be regarded as the team's frontline while you have very little tank. You will, at best, Squash one of them with your combo and be promptly exploded. If your tank is a good frontliner then teamfights are a bit better but I prefer the guarantee of towers and enemy jungle over rolling the dice. \n ​\n I just installed the Hullbreaker... is it on? Yes... you are 1v9 god mode. Very few champs can stop you 1v1 but they will try. That Aatrox who was beating your ass all game thought he could fight you? He a munch. You and your squad of minions at this point eat towers like jungle camps. \n All of this functions off of good tracking. Split opposite of the next contested objective. Dragon Spawn you are already pushing topside. No dragon but baron up, you are already pushing botside. When people are not on the map you are near the middle of whichever lane you are splitting. As soon as you see them you are either backing off or back to pushing. These players have short attention spans and are thinking of ending the game. You are not like them. You are focused on getting one tower... and that's the tower in front of you. Killing one person, and that's the person trying to stop you from eating the tower. \n You are, by far, the strongest split pusher in the game. Sett, Sion, Trundle, Rengar, all of them pale in comparison to you at this point. You can race some 5 man comps and come out ahead. \n As soon as you can R both Nexus Turrets and take one of them\n Most split pushers who first break Inhib aren't able to take a nexus turret as well. You aren't most. If even 1 Caster is alive after you drop an inhib and you happen to have ult, one of those nexus turrets are falling. \n ​\n Difficult Matchups? Ban Jax. Don't think about it, just keep him banned. \n Riot needs to Nerf Gragas but no one wants to play the fat man. I just dodge him at this point. He is the most disgustingly broken champ in the game, its not even close to fair what he does past 3 items. Conceivably QSS + Force + Mercs could stop him... but it doesn't. This dude has you stunned the entire fight... actually unbeatable 1v1. \n All ranged matchups and Lillia are solved with Ghost/Flash. Past level 5 you kill them on ghost cooldown. Exception to this would be Heimerdinger who I go Exhaust against. \n Renekton and Aatrox will kick your ass early but later on you will beat them as long as you can stick on them. I run Exhaust vs these guys. \n Do not be afraid to swap your build around\n If they are full AP then don't be afraid of rushing Force of Nature. Versus Trundle or Fiora Zhonya's 1st can be a huge difference maker. I will go Zhonya's first into a Trundle matchup 100% of the time... Fiora is more flexible. \n If I'm ever forced into a Gragas matchup again I'll be going Sunfire. Gonna suck not having Riftmaker but it would suck more never being able to move. \n ​\n And that's it. This is my blueprint for dragging my way to plat while carrying the immense weight of a low-silver player. Its nothing new, its just split pushing, but I hope I could have offered you all a bit of extra inspiration and understanding on things.",
+   "id": "x7cfhe",
+   "comments": [],
+   "age_days": 1494,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Matchup spreadsheet from rank 1 Volibear on CN server",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/vdwh5o/matchup_spreadsheet_from_rank_1_volibear_on_cn/",
+   "published": "2022-06-16",
+   "author": "/u/lekchi",
+   "body": "",
+   "id": "vdwh5o",
+   "comments": [],
+   "age_days": 1576,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "FIORA VS VOLI MATCHUP + GENERAL TIPS",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/va3f18/fiora_vs_voli_matchup_general_tips/",
+   "published": "2022-06-11",
+   "author": "/u/BearlyTanky",
+   "body": "Hello guys, this is another idea i have to help you in your volibear journey, these videos, together with the weekly ask me anything and the toplane matchup spreadsheet should give you a solid grasp of how to play volibear.\n This is a game vs Fiora in Master, i added some extra tips vs other champs aswell. Info of what is happening is on upper left corner. :)\n Remember you can ask me to review one of your games and i will give you tips on how to improve. Ofc its free, dont worry.\n Here is the link to the WIP Spreadsheet https://docs.google.com/spreadsheets/d/155o1zfBWyFFwUjEKQh3JM7Mq76e5A_-TRY-vOs-csMg/edit?usp=sharing\n Lastly, there is something i couldve done vs Fiora to win the fight easier that i didnt do, lets see if someone knows what is it.\n https://reddit.com/link/va3f18/video/due2su0ha1591/player",
+   "id": "va3f18",
+   "comments": [],
+   "age_days": 1581,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Ask me anything",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/v6r9tn/ask_me_anything/",
+   "published": "2022-06-07",
+   "author": "/u/BearlyTanky",
+   "body": "Hello volibear enjoyers, i was planning on doing those matchup sheets for volibear with builds, runes, laning tips, etc., but it got boring honestly. So instead im making this post, if you have any question about volibear, how to win a matchup, what buils is best, whats runes to go in x situation, you can ask it, i will go in great detail on the answer so dont worry you will end up sastisfied :) \n Some credentials, couple of months ago i was top 5 on NA server, on voli, now im on EUW, stopped playing for a bit but im slowly coming back, im at d1 right now with 58% wr but my mr is crazy so im paired with masters and so. Basically, you are in good hands dont worry.\n Nothing else from my part, i hope you ask away.",
+   "id": "v6r9tn",
+   "comments": [],
+   "age_days": 1585,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "What do YOU main other than Volibear?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/u3yij2/what_do_you_main_other_than_volibear/",
+   "published": "2022-04-15",
+   "author": "/u/Alarming-Might-389",
+   "body": "Hey guys,\n I’ve pretty much only played Volibear this past month and made him my first main to climb in ranked (currently Gold 1), but now I’ve felt that playing this champion isn’t the most effective against certain picks and when he is banned I just pick whatever and make top lane a coin flip. I would therefore like to expand my champion pool to more than just one champion.\n What champions do you main? I’m looking for something that can counter the annoying matchups Volibear has such as Illaoi/Aatrox/Fiora and ranged champions such as Vayne/Teemo/Akshan/Cassiopeia.\n Any tips would be greatly appreciated :D",
+   "id": "u3yij2",
+   "comments": [],
+   "age_days": 1638,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Sion is a hard matchup",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/ts5bai/sion_is_a_hard_matchup/",
+   "published": "2022-03-30",
+   "author": "/u/PandorasActress",
+   "body": "Sion makes me sad\n I main volibear and sion but I usually spam volibear top on ranked and I keep getting sion match ups and I hate my life the E slow on sion is cancer cuz he only uses it when I Q and so I’m stuck taking free dmg and then my jungler doesn’t understand how easy it is to gank sion and so I’m stuck with my garbage rng playing to sion matchups every day for sum reason, someone tell me how to beat sion as volibear and don’t say sunderer because sion can still kite you out easily and it’s gg if he gets hull or sunfire",
+   "id": "ts5bai",
+   "comments": [],
+   "age_days": 1654,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is Grasp still viable on Volibear Top",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/t8nj23/is_grasp_still_viable_on_volibear_top/",
+   "published": "2022-03-07",
+   "author": "/u/zpobe",
+   "body": "As title says, is Grasp still playable on volibear top, if so what matchups or situations can be it played over press the attack?",
+   "id": "t8nj23",
+   "comments": [],
+   "age_days": 1677,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How do bears fare in the jungle?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/rb0hve/how_do_bears_fare_in_the_jungle/",
+   "published": "2021-12-07",
+   "author": "/u/OffmetaMan",
+   "body": "Hello fellow bears. While I'm having a ton of fun with Sion jg this preseason (G3 atm), it's clear I need more than one champ i can actually jg with. And since i love big & beefy, but also with some teeth where buying a damage item or two is not trolling, Voli appeared on my radar. \n How does he fare in jg? Is he hard to get results with? Any particularly cancerous matchups/enemy comps i would be wary of? \n Help me get started with this big badboy so i can remind ppl on the rift that in soviet russia BEARS HUNT YOU!",
+   "id": "rb0hve",
+   "comments": [],
+   "age_days": 1767,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Is it bad I vastly prefer AP Bruiser to AD?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/qgvfpi/is_it_bad_i_vastly_prefer_ap_bruiser_to_ad/",
+   "published": "2021-10-27",
+   "author": "/u/LivBFG",
+   "body": "I recently got the Voli prestige, and wanted to use it, and was laned against Camille. Because I absolutely despise Camille matchup with the mains I've played a lot more than the bear, I thought id give AP a shot, just because, and I have found so much more enjoyable than his AD counterpart. I do like AD/Tank Bear, but I have grown frustrated as his slow pace in fights. After playing more of magic bear, I've been loving it a lot more. I find the higher DPS and more consistent play in general more engaging than AD/Tank. What does the sub think of magic bear? Its not something Id ever take into ranked, but I do enjoy it in norms. Be it full ap if im fed or or hybrid ap/tank. Just wondering what the sub thinks.",
+   "id": "qgvfpi",
+   "comments": [],
+   "age_days": 1808,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to carry with Volibear Top?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/palavk/how_to_carry_with_volibear_top/",
+   "published": "2021-08-24",
+   "author": "/u/KingFredo5674",
+   "body": "Title. Basically to make a long story short, I win lane and spike giga hard when I buy divine sunderer, but once I hit my second item (zhonyas, steraks, or Visage depending on the enemy team), I feel like I insta-die in teamfights (can't get all my damage out) if I try to ult and pop the backline.\n My runes are PTA, Triumph, Tenacity, Last Stand, and Unflinching, & second wind/boneplating (depends on matchup).\n I'm just not having success outside of lane. Is there something wrong with my playstyle or is Volibear just in a poor state right now?",
+   "id": "palavk",
+   "comments": [],
+   "age_days": 1872,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Toplane Matchup Tierlist",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/p59hj0/toplane_matchup_tierlist/",
+   "published": "2021-08-16",
+   "author": "/u/Parryshatchet1",
+   "body": "Hey guys, was wondering if anyone had a toplane volibear matchup tier list",
+   "id": "p59hj0",
+   "comments": [],
+   "age_days": 1880,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is Voli worth it?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/oi8fk2/is_voli_worth_it/",
+   "published": "2021-07-11",
+   "author": "/u/AcesToaster",
+   "body": "I know you guys will be biased. Im a Teemo OTP but my other picks are gwen and amumu. Im lookong to pick up a tanky top laner as my teams usually lack a front line. I think voli looks fun to play as i have also seen diverse builds such as ap voli.\n Would you recommend him? If so what runes, whats his playstyle and what are his matchups like?",
+   "id": "oi8fk2",
+   "comments": [],
+   "age_days": 1916,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "who do u ban when playing voli top ?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/nm41ie/who_do_u_ban_when_playing_voli_top/",
+   "published": "2021-05-27",
+   "author": "/u/wildguitars",
+   "body": "who do u ban when playing voli top ? \n what are some of your perma bans and why ? \n i dont like range matchups",
+   "id": "nm41ie",
+   "comments": [],
+   "age_days": 1961,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Who to ban?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/mopb8w/who_to_ban/",
+   "published": "2021-04-11",
+   "author": "/u/Lord_Fishious",
+   "body": "I do not know wether to ban vayne, Quinn or gnar. I’m new to volibear top and just want a brief understanding on who to ban and how to handle a bad matchup.",
+   "id": "mopb8w",
+   "comments": [],
+   "age_days": 2007,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Anyone still here who played pre-rework Voli?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/ljobpr/anyone_still_here_who_played_prerework_voli/",
+   "published": "2021-02-14",
+   "author": "/u/DontSaveSupports",
+   "body": "Hi guys, first post here.\n Volibear was my first ever champion I bought back in season 5 and I played him in seasons 8 and 9 top lane, getting me to platinum for the first time. My IGN back then was Roli Voli, here's my favourite clip of old voli: https://www.youtube.com/watch?v=zCXYc3CUzd8\n I stopped playing voli in season 10 and returned to bot lane, mainly because I hated the fact they removed (what was to me) his key characteristic, his flip.\n After giving up on bot lane I have returned to top lane, picking Voli up again for season 11. Currently I am EUW rank 10 and mid diamond 3, playing solely Voli. If anyone wants any advice or wants to hear my opinion on builds/matchups this season drop a comment or add me in game (OGTD)",
+   "id": "ljobpr",
+   "comments": [],
+   "age_days": 2063,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "What's your guys current favorite build on THE BEAR",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/k5jpwr/whats_your_guys_current_favorite_build_on_the_bear/",
+   "published": "2020-12-02",
+   "author": "/u/TheModernParadox",
+   "body": "My go to build for season 11 currently is \n Riftmaker -> Merc treads/Tabi's depending on matchup -> Spirit Visage -> Gargoyle Stoneplate -> Nashors Tooth -> Frozen heart for mana -> Elixir of Sorcery\n Hybrid AP/Tank is just so damn fun and the amount of damage Nashors+Rift do while the healing from Rift+W keeps me alive it just feels so oppressive I love it.",
+   "id": "k5jpwr",
+   "comments": [],
+   "age_days": 2137,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Question: Hunter's Machete or Hunter's Talisman?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/jmqx3s/question_hunters_machete_or_hunters_talisman/",
+   "published": "2020-11-02",
+   "author": "/u/-TatamiGalaxy-",
+   "body": "Hi Friends,\n I'm relatively new to Volibear and I wanted to ask you guys your opinion on whether the bear is better off buying a Machete and going into a 3-camp clear or a hunter's Talisman and going into a 5-camp clear? Obviously there is a numer of factors (like lane matchups, game state, etc..) that affect this. But in a vacuum, was wondering what you guys thought was better and/or what you've had more success on? \n Also in terms of build I have been building titanic hydra second. Is this a good item on voli? I dont think I want to build FULL tank every time so I thought it might be good but I have also been seeing some builds with Triforce second. Any thoughts on this?",
+   "id": "jmqx3s",
+   "comments": [],
+   "age_days": 2167,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Struggling with Voli Top (new)",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/jhypm8/struggling_with_voli_top_new/",
+   "published": "2020-10-25",
+   "author": "/u/madheadjosh",
+   "body": "I've been playing Volibear top in Plat, wanting to get better and climb with him but I have no idea when his powerspike is, matchups hes good into and what runes to pick. The runes seriously have me stumped and items too.\n I have tried Press the attack primarily with resolve (shield bash, overgrowth or revitalise) and inspiration for cdr. I have played a game with grasp but I need to experiment more really.\n My main issue at the moment is taking control of the lane and knowing the matchups. So far, most of the matchups I didn't feel like I could stomp, like I could with my other champions I play which are mostly juggernauts and some duelists but I know which items they powerspike with and their level which helps.\n My last issue is his item builds, they are so diverse. I have tried iceborn gauntlet and triforce first item. Didn't like gauntlet really but might be matchup dependent? Full tank was okay but prefer the damage from triforce. How is black cleaver on him? I feel that could be effective. I primarily picked him because I want to have an engage champion for my team and he is very fun surprisingly.\n ​\n Any advice is greatly appreciated, thank you!",
+   "id": "jhypm8",
+   "comments": [],
+   "age_days": 2175,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Approach Velocity Volibear Jungle",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/islmcf/approach_velocity_volibear_jungle/",
+   "published": "2020-09-14",
+   "author": "/u/BingolyzeD",
+   "body": "Approach Velocity has become one of my favorite runes to run secondary on the bear. Ever since 10.16 Voli hasn't really been able to keep up with some champions because of the nerfs to his Q and the Nimbus Cloak nerfs making it seem harder to chase people down than before but I think Inspiration and Approach Velocity may be better in some cases to run secondary because of the buffs they gave in 10.12.\n Firstly it has a 7.5% movement speed bonus to movement impaired enemies, which is nice when you have to follow up on an Ashe ultimate or an Ornn engage, and 15% to enemies you have impaired. This means that you get a 15% movement speed buff for hitting someone with your E your R or chilling smite, since that's pretty core on Voli, and any items you have like DMP passive or Righteous Glory active. This in comparison to the movement speed of Nimbus Cloak which gives a 10% Ms bonus on smite and 30% on flash. The movement speed on flash is pretty good but most of the time I flash personally is to instant Q someone in my E AoE. Although if you're using challenging smite Nimbus is probably better.\n I personally really like Approach Velocity since not only does it give a better chase down with blue smite but also gives some noticeable sticking power when you land a Q and an E and when you ult an enemy during a tower dive or teamfight. This really helps Voli since personally I feel too easily kited after landing my full combo. I also prefer it over cosmic insight since while CDR is good on Voli I personally think 5% cdr isn't too much and the 5% item CDR isn't useful unless you build Righteous Glory and even then its not too noticeable and the 5% summoner spell CDR isn't too useful since smite already has a low cooldown but the flash CDR is admittedly nice and the max CDR isn't too important since you don't reach 45% CDR until around 3-4 items. I think Approach Velocity gives better mobility which is so valuable on Voli.\n I also like Magical Footwear to the other options in Sorcery like Celerity, Transcendence or Water walking. Although you can't get chilling smite and boots first back it is nice to not have to worry about boots especially in Jungle since its a pretty low income role compared to a lane. It is also nice to buy resistances instead of boots to make you tankier. Also Magical Footwear gives a free 10 MS, which helps, and since Voli has a good early game you're bound to get a few early game kills/assists so you can get free boots faster. I can see why you would bring waterwalking into more early game matchups that rely on river fights but in more passive matchups it can be nice to stick to your enemy in their jungle during invades. \n I thought that Celerity+Nimbus Cloak would be faster than Approach Velocity but with Q max DMP and chilling smite you have ~612 MS with no boots and ~660 MS with Tabi/Mercs and with the same item setup and Approach Velocity+Magical Footwear you have ~628 with no boots and ~680 MS with Tabi/Mercs. This means that with Celerity+Nimbus Cloak and DMP you have worse chase down than with Approach Velocity. Also the base movement buff of Celerity doesn't really matter since Magical Footwear gives free +10 base MS.\n I'm not saying that this should be what you run every game and it should be the new recommended build but I've been enjoying Approach Velocity and think in the right situations it could be better than Sorcery secondary and I encourage you to test it out and share your opinions of Approach Velocity on the bear, if you don't like Approach Velocity it'd be great to explain why in the comments. If you do like Approach Velocity for some other reason tell us why.\n TLDR: Approach Velocity can be good and you should try it out.",
+   "id": "islmcf",
+   "comments": [],
+   "age_days": 2216,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Is Volibear Top worth maining?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/iewxao/is_volibear_top_worth_maining/",
+   "published": "2020-08-23",
+   "author": "/u/Leftbrownie",
+   "body": "Is Volibear Top worth maining Volibear Ok so I started maining Volibear top two months ago in Ranked. I had never played many ranked games before so I went from Iron 4 to Silver I for a brief moment.\n At a certain point I had a series of bad games (70% because I won lane but my team failed miserably, 30% because I had some matchups I wasn't used to and I lost hard). I fell to Silver 4 and have been stuck in a constant cycle of climbing to Silver 3 and right away have a series of failures and going back to Silver 4, just to start all over again. From a macroplay, laning and fighting skill perspective I don't think I belong here.\n But my strategy has been playing Volivear every single game and at this point I can say with confidence that I can win nearly every matchup in my current rank. My problem is that I usually go Grasp of the Undying Volibear and while I can get some kills Top and even gank mid, I have no solo carry potential.\n I can at most 1 v 2 every champ, which means I could potentially splitpush, but I go tank items and Volibear not only can't destroy towers quickly, he spends a lot of mana very fast. In games where i try to roam mid and help do Drake early I usually lose my tower to a champ that can splitpush. Which means that every time I am put in a team that loses their lanes, I lose the game. Should I give up on this champ build even though it allows me to win every lane if I can't carry a game?",
+   "id": "iewxao",
+   "comments": [],
+   "age_days": 2238,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "When to pick volibear?",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/icoisf/when_to_pick_volibear/",
+   "published": "2020-08-19",
+   "author": "/u/Playboi_Smarti",
+   "body": "I’m looking to add volibear to my pool of toplaners because I feel like I’m lacking a good tank. I’m going to be fine with the mechanics of him but what I don’t know is the matchups.\n What are the best matchups for volibear and what are his worst counter picks? In terms of teamcomp I’m thinking I’ll use him when we lack a high HP + engage champ (which is pretty common in my pretty low gold elo unfortunately).",
+   "id": "icoisf",
+   "comments": [],
+   "age_days": 2242,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Challenger player's recommended changes",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/gtxlhi/challenger_players_recommended_changes/",
+   "published": "2020-05-31",
+   "author": "/u/xXdimmitsarasXx",
+   "body": "https://eune.op.gg/summoner/userName=Makos this is me\n I am a top laner who enjoyed the occasional volibear top into certain matchups.\n Voli is weak, and so does everyone i've played with believe. In everyone's words: \"dogshit\"\n I don't want to hold grudges against the devs and if im wrong and it turns out he's strong, I will buy all his skins. I truly believe he sucks.\n Recommended changes:\n [Power neutral] Passive bounces increase from 4 extra targets to 5/6 extra targets at level 7/13. This is just QoL so that it hits all minions at lvl 7 and all minions in a cannon wave at lvl 13\n [Slight buff] Q windup more instant. The flip started the disable as soon as your autoattack went off. The new one has a large windup and feels clunky to use. Go to practice tool and do an AA - q reset - titanic hydra reset combo you'lll see what im talking about.\n [Buff] E damage aoe should match the shield aoe. I have no idea why these are two separate values. It makes the VFX misleading for both purposes\n [Buff] R - Remove tower disabling. Add fraction of damage to outer ring. Slow no longer decays over time. Cooldown reduced to 120/100/80. The centre of the ult now wounds enemies for W's purposes. The centre of the ult is really hard to land as people can literally walk out of it after tier 2 boots are bought. It should be more powerful when used in conjunction with CC. Outer ring doesnt apply wounded.\n [Buff] Finally, base stats. Increase base hp/scaling hp and base armor\n I can see some places where volibear does well at but \"diver\" (what he's designed as) is not one of them. The ult needs those big changes to allow him to do anything in fights. The rest are just usability buffs that slightly improve him and make him feel better to play as/push him as a competitor to other champions in the role.\n Let me know what i have missed that you'd want to see. These are my two cents.",
+   "id": "gtxlhi",
+   "comments": [],
+   "age_days": 2322,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How this matchup is gonna go",
+   "url": "https://www.reddit.com/r/VolibearMains/comments/ghqcpk/how_this_matchup_is_gonna_go/",
+   "published": "2020-05-11",
+   "author": "/u/M3hrun3sD4gon",
+   "body": "",
+   "id": "ghqcpk",
+   "comments": [],
+   "age_days": 2342,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  }
+ ]
+}

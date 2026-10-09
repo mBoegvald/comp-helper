@@ -1,0 +1,861 @@
+{
+ "champion": "Evelynn",
+ "subreddit": "evelynnmains",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "Evelynn’s Ultimate Isn’t the Problem. Reaching the Crit Threshold Is: A Data-Driven Look at Evelynn's Current State",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/1vf0nkj/evelynns_ultimate_isnt_the_problem_reaching_the/",
+   "published": "2026-08-04",
+   "author": "/u/Ok_Technician1872",
+   "body": "To preface, this is going to be a lengthy post. I get that that isn't everybody's cup of tea, and I appreciate that not everyone will want to read through the entire thing. This is meant to be a fairly comprehensive history of Evelynn post-rework and an argument for how to fix her, and given it has been nearly a decade, it would be difficult to compress it without losing important context. If you really don't want to read the entire thing, but you want to understand the argument I am making, feel free to scroll to the end.\n I've played Evelynn for 14 years, since before her 2017 rework, through the old AD/bruiser identity and every iteration of the AP assassin she became. I've two-tricked her to Diamond (she is my jungle OTP) across multiple seasons; not the summit of the ladder, but enough climbing reps to know her matchup, her item curves, and exactly how the her kit should feel.\n Professionally I'm a data engineer and builder, a founding engineer at a unicorn data platform startup now specializing in really big data at a company you've probably heard of. I wanted to understand why Evelynn is in the state that she is. I had some hunches, but naturally I wanted to dig deeper into the data and the provenance of direct and indirect balance changes Evelynn has received since her rework.\n I feel it's important to get more diverse perspectives out there on what exactly to do with Evelynn, since I've been seeing a number of clips of Rioters speaking about her current state on stream and generally expressing the sentiment that they are confused why Evelynn has never really recovered after a series of direct nerfs, even with compensation buffs (1, 2, 3, 4). For what it's worth, the purpose of this post is absolutely not to dunk on Riot or August, I actually really appreciate how it seems that they're trying to understand the problem and acknowledging that Eve isn't in a great state. With all that foundation out of the way, let's jump right in.\n Evelynn's Rework and the Assassin Overhaul Evelynn was reworked in 2017, along with a host of other assassins [1] (https://nexus.leagueoflegends.com/en-us/2017/01/dev-state-of-champion-update-january-2017/) [6.22] (https://web.archive.org/web/20161108204228/http://na.leagueoflegends.com/en/news/game-updates/patch/patch-622-notes). Eve was later to release than the rest, but we can glean some useful insights from the patch notes of the initial batch of reworks to understand the stated goals and design philosophy of the Assassin Overhaul. Namely, there are a few common threads:\n Delaying burst damage, giving opponents more time to react.\n Improving Stealth effect gameplay health by distinguishing between Invisibility for temporary repositioning and ambushing (Shaco, Talon, Kha'Zix), and Camouflage for more powerful longer-duration effects (Eve, Twitch, Rengar).\n Allowing the \"payoff state\" for assassins to be more powerful when burst is meaningfully delayed and allows counterplay. In other words, when an assassin sets up for a kill and kill pressure persists through structurally inbuilt delay, the damage payoff can be meaningfully higher.\n As a very mechanically \"pure\" assassin, Evelynn's reworked kit is unusually adherent to this principle of offering opponents windows of significant counterplay. The decision to delay Evelynn's camouflage until level 6 is one such change discussed in a Dev Blog discussing her reworked kit [1] (https://nexus.leagueoflegends.com/en-us/2017/10/champ-insights-evelynn/):\n \"Instead of playing the information game, Evelynn’s stealth was delayed until level six. This gives laners time to set up vision defenses, farm, and play aggressively without the paranoia of having an invisible Eve in their lane at level two. But once Evelynn hits six, no jungler (or carry) is safe from her demonic shadow stalking.\" - bananaband1t Evelynn's most powerful positioning and map pressure tool is structurally unavailable for a large chunk of the early game specifically to allow for proactive vision play and for opponents to take advantage of this inbuilt structurally weak early state. The same dev blog discusses how her kit was purposefully designed to bake in another window of counterplay: W - Allure's \"wind-up\" timer: \"The rest of her kit was designed to balance the innate strength of being an assassin who also has a high-uptime stealth, while still giving her the tools to kill people. For example, Eve’s W marks a target, giving them a heads up she’s somewhere nearby, but if they don’t gtfo in 2.5 seconds, they’ll be charmed when she strikes.\" - bananaband1t\n The assertion being made from a design standpoint is that Evelynn gives up many of the tools that other assassins are allowed to have in exchange for persistent camouflage, such as meaningful mobility, safety, and skirmishing power. Evelynn instead is designed almost entirely around a dual axis power budget: use camouflage to rotate around the map unseen, allow Allure to charge for 2.5 seconds, and convert a kill all-in with Last Caress's empowered crit damage as the finisher.\n The trade off, of course, is that Evelynn loses a significant amount of pressure when spotted, has no way to \"force\" a fight if not already in position, and being extremely susceptible to dying if opponents can close the gap due to Allure requiring 2.5 seconds to charge and triggering before full payoff upon any application of damage. Her weak early game provides ample time for opponents to scout her position, invade her jungle, and establish early pressure on the map with minimal threat of retaliation.\n If the dev blog posts are any indication of what Evelynn is supposed to be, it is a pure assassin who sacrifices safety, dueling power, and mobility in exchange for Camouflage and application of extreme single target burst when she creates a payoff state and goes all-in on an ambush. Her reliance on Last Caress to collect on that payoff state creates significant windows of down-time in which her kill pressure is meaningfully lowered.\n What Is An Assassin Anyway? The LoL Wiki defines a Slayer as:\n \"Slayers are highly mobile champions who specialize in single target burst damage. What they generally lack in resilience, they more than make up for with their ability to quickly cover large distances, kill priority targets and retreat just as fast. Epitomizing a high risk, high reward playstyle, assassins are natural opportunists and prefer to strike when their targets are alone and vulnerable, rather than engage them in a direct assault, favoring damage-oriented item builds to capitalize on their offensive capabilities.\" [1] (https://wiki.leagueoflegends.com/en-us/Champion_classes/Slayer)\n In a 2023 Reddit post entitled [How Naafiri Makes You a Better Assassin] (https://www.reddit.com/r/leagueoflegends/comments/14jo6ai/how_naafiri_makes_you_a_better_assassin/), Riot Raptorr outlines a common thread of community frustration in playing against Assassins:\n \"Assassins in League tend to be polarizing. Many players are frustrated by them because they think there's limited counterplay when an enemy can kill you in 1-2 seconds once they get on you. And those players are right! For many squishies, there isn't much counterplay in that moment, and that's because if you're a squishy target and the assassin is on you, you've already failed the counterplay.\" \"Playing against assassins means sticking with your team, tracking threats and playing safe when they're not visible, warding your flanks, and holding CC until they come in. This means assassins are primarily countered through macro play, rather than mechanics.\"\n As we have previously established, Evelynn is an unusually faithful adherent to the Slayer archetype with structural trade-offs built into her kit. She is built to be a pure ambusher, able to pick off isolated targets when allowed to set up the correct conditions to land her full combo on them. What she sacrifices in mobility, early-game power, in-built delay, and disengage, she ideally makes up for with overwhelming amounts of single-target burst damage.\n What is the Intended Counterplay to Assassins? The counterplay to Evelynn at a baseline includes exactly what Riot Raptorr laid out in the post above. Explicitly, you are not supposed to feel that you can reliably counterplay an assassin as a squishy backline champion once they have target access. If a flank or ambush progresses to that point, the window for meaningful counterplay has already passed and the assassin player has created a payoff condition to cash in. You and your team have failed in some regard beforehand, whether that be failing to group, poor positioning, low map awareness, or lack of effective vision.\n In a Quick Gameplay Thoughts post from May 14, 2021, Riot Scruffy elaborated on what \"counterplay\" actually means [1] (https://www.leagueoflegends.com/en-us/news/dev/quick-gameplay-thoughts-may-14/). Scruffy splits counterplay into two axes, Fairness and Depth:\n \"Fairness - Having an understandable, clear, and useful response significantly reduces the frustration of a losing game or death even if a player or team can't perfectly execute on it at their current skill level. It helps players grow by pointing them toward actions they could have taken to succeed, rather than just feel like the game cheated them. (This is also often referred to in game design as Agency.)\" \"Depth - Champion designs that leave room for an opponent to respond add many additional layers to the depth of the experience. Battles can be a back and forth of mechanical and mental skill instead of a “who shoots first” one-and-done experience.\"\n Scruffy then further distinguishes between three main types of counterplay:\n \"Tactical Counterplay - This is the “in the moment” opportunities to respond to a spell or champion combo. Notable examples - Dodging a skillshot, interrupting a channel, long windup for preparing defenses, and positioning behind an ally or minion to block attacks.\" \"Strategic Counterplay - This type of counterplay is accessed out of combat and often by the team (instead of in combat like tactical counterplay). Notable examples - Building counter items, invading a weak early jungler, grouping against an assassin, using a blue trinket to avoid an ambush, pushing into a champion with poor waveclear. Strategic counterplay can be connected to a champion’s specific mechanics (like using control wards to counter Evelynn), but it’s more often a part of dealing with that champion's broader goals, like splitpushing or hyperscaling\" \"Champion Weaknesses - This is a set of properties, champion class, or team strategy that tend to succeed against a champion. Notable examples - Xerath’s immobility makes him weak to mobile assassins, Qiyana’s burst damage runs out of steam against a tank, Nasus is kited by mobile ranged champions.\"\n As we previously seen, Assassins are typically intended to be handled proactively via Strategic Counterplay (grouping, warding, positioning well, using the minimap). Assassins as a class are explicitly not meant to be outplayed single-handedly by a backline carry once they have achieved target access. Assassins are also often hindered in their ability to take down resist-stackers, which is intended to be a structural weakness keeping many in line.\n How this pertains to Evelynn is crystal-clear. The Strategic Counterplay section of Scruffy's post explicitly mentions some manners of champion-agnostic counterplay that are effective against her: 1.) Strategic - \"Invading a weak early jungler\" 2.) Strategic - \"Grouping against an assassin\" 3.) Strategic - \"Using Control Wards to Counter Evelynn\" 4.) Champion Weaknesses - Already covered heavily above, but to summarize, taking advantage of Evelynn's poor early game via invading, setting up proactive vision in her jungle, and establishing early map pressure on her and her laners. 5.) Draft (not mentioned by Scruffy but worth mentioning) - Evelynn has a number of fairly poor matchups such as Briar, Warwick, Udyr, Rengar, and Master Yi. If you are picking after an Evelynn, you have the opportunity to render the game unplayable for her via picking any of these champions and suffocating her out in the early game.\n Evelynn, like other assassins, is not meant to be countered solo once she has initiated an ambush. If Evelynn catches a squishy opponent alone, it should result in a kill. Evelynn is cashing the check that was written minutes prior, the window of counterplay has already elapsed.\n In this sense, I would argue that keeping Evelynn weak on purpose due to player frustration requires ignoring or deprioritizing all of the above in favor of players who refuse to engage with multitudes of healthy counterplay available in virtually every match, to every team facing an Evelynn. Riot August covers this point explicitly on stream [1] (https://www.youtube.com/shorts/WXJuPCkvg7s), framing it as the \"Reality of Counterplay vs Perceived Counterplay\". August makes the argument that counterplay only matters if players engage with it, and thus certain champions are kept weak on purpose to reduce frustration as a result of players not meaningfully engaging with their counterplay (Zed, Evelynn, Malphite, Yasuo). Arguably however, of the listed champions, Evelynn has the most structural counterplay baked into her kit, with a purposefully weak early game deprived of access to her stealth, poor skirmishing and dueling power, and a 2.5 second burst combo delay inbuilt on Allure.\n But Her Win Rate Seems Fine? Evelynn's historical pick rate averaged in the neighborhood of 4-5% for much of her post-rework history, an average ban rate of 10%, with a win rate oscillating around 50%, plus or minus 2%. Currently, her pick rate sits at around 2%, with a win rate of 51.23%, a pick rate of 2.3%, and a ban rate of 1.9%. Her pick rate is half of its historical average, her ban rate is ~1/5 of its prior average, and her win rate seems within normal bounds. How then, can one argue that Evelynn is a bad champion?\n The truth is a bit messier than simply \"Eve is bad\", but it cannot be argued that her popularity has roughly bottomed out. The players continuing to pick Evelynn represent a natural \"floor\" of sorts, the cohort who don't want to play League or even Jungle, but those who want to play Evelynn.\n According to LeagueOfGraphs, Evelynn is One-Tricked in Platinum+ at the same rate as Graves, despite having roughly 1/5th of his pick rate [1] (https://www.leagueofgraphs.com/champions/main-stats). Despite being a smaller cohort, Evelynn players proportionally are more likely to OTP her. This adds the confounding factor of survivorship bias; Evelynn's win rate is likely being buoyed by one-tricks, with deeper champion experience and matchup knowledge than their typical solo queue opponents. LeagueOfGraphs' Champion Winrate by Experience dataset seems to support this. Evelynn currently sits at #18 overall in the highest \"Experienced Win Rate\" cohort: Experienced Evelynn players (50+ Eve Ranked games in the current season) sits at 56.9%, indicating a significant upward push on her overall win rate despite having highly volatile matchup quality and some of the lowest counterpick win rates in the game. [1] (https://www.leagueofgraphs.com/champions/winrates-by-xp)\n This hypothesis is not refuted by the explanation of Eve being used as a situational counterpick. Eve players in general seem to encounter a mix of their worst matchups more than expected which, if anything, makes her overall winrate harder to maintain without an alternative explanation. In a fresh scrape of LoLalytics, I assessed how often Emerald+ Evelynn players faced the 10 worst matchups by winrate (with pickrate ≥ 0.4% to avoid low sample-size noise). I compared this to the expected distribution of enemy junglers if randomly sampled to determine the relative frequency with which Evelynn encounters them. (Trundle, Gragas, Amumu, Teemo, Dr. Mundo, Briar, Kindred, Shaco, Quinn, Rek'Sai).\n Of the ten worst matchups, six are encountered MORE than expected: Amumu (1.358x, 41% WR), Dr. Mundo (1.158x, 45.8% WR), Briar (1.149x, 46.5% WR), Rek'Sai (1.116x, 47.3% WR), Shaco (1.084x, 46.9% WR), and Kindred (1.074x, 46.8% WR). Amumu is the stand-out; Eve players run into her hardest counter 35% more often than random.\n Quinn (1.059x, 47.2% WR) and Teemo (0.987x, 42.2% WR) sit right at baseline. Only Trundle (0.682x, 40% WR) is clearly under-picked against Eve, and Gragas (0.935x, 40.3% WR) slightly under.\n Conversely, running the same analysis on Eve's 10 BEST matchups as of the scrape (Locke, Pantheon, Poppy, Mordekaiser, Aatrox, Jax, Jayce, Bel'Veth, Zac, Malphite): five of her best matchups are under-encountered: Poppy (0.679x, 58.8% WR), Jayce (0.747x, 54.5% WR), Jax (0.755x, 55.7% WR), Mordekaiser (0.819x, 58.2% WR), and Pantheon (0.843x, 59.1% WR). Eve players see her strongest lanes less often than random. Only Bel'Veth (1.180x, 54% WR) is notably over-encountered (likely due to her recent mini-rework).\n The truth is much less clean than \"Eve's win rate is fine, and her ban rate is historically low, therefore the champion is fine\". I would argue that what holds Eve back from a healthy popularity state is a combination of direct, indirect, and systemic nerfs sustained over the last few years leaving her feeling inconsistent.\n Eve's damage tuning often feels like it is on a razor's edge even with proper setup to achieve her \"payoff condition\". First, let's quickly run through the balance history, and then we'll do some math.\n Balance History Post-Rework Patch 14.5 - Q Nerfs [1] (https://www.leagueoflegends.com/en-us/news/game-updates/patch-14-5-notes/) - This is a sneaky and brutal one I don't hear mentioned often. Evelynn players wearing their Q key out is a meme for good reason; Q is Evelynn's \"bread and butter\" ability, similar to Karthus' Q or Hecarim's Q. It is her main source of clear, her main skirmishing tool, and the largest source of preparation getting enemies low enough for Last Caress to crit. The change in this patch was brutal:\n Q - Hate Spike - Damage: 25/30/35/40/45 (+30% AP) ⇒ 25/30/35/40/45 (+25% AP) Since Hate Spike hits 4 times (Dart and 3 Spikes), this was an absolutely massive nerf to virtually everything Evelynn does, all game. This hurt her early game, hurt her clear, hurt her snowballing, and hurt her scaling. The stated rationale was: \"Evelynn has been dominating the top skill brackets of solo queue for a while now, so we're taking a swing at how quickly she can snowball with a gold (and Dark Seal stack) lead.\"\n This nerf is one of the keystone pieces of Eve's \"R setup problem\", significantly reducing the amount of damage Eve is capable of doing when engaging on a target in order to get them low enough to ult for the kill.\n Patch 14.9 - W and R Nerfs [1] (https://www.leagueoflegends.com/en-us/news/game-updates/patch-14-9-notes/) - This one was a brutal double tap.\n W - Allure - Slow: 65%⇒ 45% R - Last Caress - Damage: 125/250/375 (+75% AP) ⇒ 125/250/375 (+65%)\n The stated reasoning was as follows:\n \"Like Bel’Veth, Evelynn has been a large threat in higher skilled brackets of play, and as a high skill cap champion, some of that is to be expected. But even with that in mind she’s overperforming. This patch we’re taking down her ability to one-shot victims by reducing her ultimate’s AP ratio, which should make hitting the execute threshold more important to achieve kills. Nerfing her W slow also makes her have to wait to kill her prey more commonly, though it also gives her the option to drag opponents farther with the charm effect since they aren’t as slow anymore.\"\n In retrospect, this nerf is a real head scratcher. After already heavily nerfing the scaling of her Q earlier in the season, nerfing Evelynn's ult scaling as well leaves her even less wiggle room to assassinate targets even with proper setup. The fact that ult is a crit and not a true execute makes this even worse, with the empowered AP ratio going from 180% -> 156%. This nerf has since been reverted to Riot's credit, but for reasons I will get into later, this is not enough.\n Patch 25.S1.2 - E MS Buff, R Nerf Revert [1] (https://www.leagueoflegends.com/en-us/news/game-updates/patch-25-s1-2-notes/) - Some QOL and a revert of the 14.9 R scaling nerf.\n E - Whiplash - Move Speed: 30% ⇒ 30/35/40/45/50% R - Last Caress - Unempowered AP Ratio: (+65% AP) ⇒ (+75% AP), Empowered AP Ratio: (+156% AP) ⇒ (+180% AP)\n The stated rationale is as follows:\n \"Evelynn is among the worst-performing assassins after season start. Many assassins are now weaker in uncoordinated play due to Eyeball Collector being replaced with more vision-centric runes and we're working on bringing the weakest outliers back up where they belong. Evelynn is up first here, where we're providing her some better in-combat move speed and reliable late-game burst damage to help her assassinate better.\"\n I think I personally would have preferred a revert of the Q scaling nerf to partially counterbalance several systemic nerfs which cumulatively hurt Eve's all-in damage potential instead of movement speed; a core pillar of Eve's design is sacrificing mobility and target access in exchange for a much \"sharper\" payoff condition in massive single target burst. This QoL consumes power budget but doesn't realistically help Eve fulfill her power fantasy: blowing up isolated targets. It doesn't help at all when in passive, and while it does help to move around the jungle faster, the Q nerfs pumping the brakes on clear speed make this effect feel negligible.\n R revert was genuinely good and I was shocked that Riot would walk back to the old AP ratios. No other notes.\n Patch 25.S1.3 - E Base/Empowered Base Damage Buff [1] (https://www.leagueoflegends.com/en-us/news/game-updates/patch-2025-s1-3-notes/) - A relatively thinly veiled attempt to get Eve mains to stop maxing W second. More damage is good, but didn't shift the W vs E max second case for most.\n E - Whiplash - Basic Damage: 55/70/85/100/115 (+3% (+1.5% AP) target max HP) ⇒ 60/90/120/150/180 (+3% (+1.5% per 100 AP) target max HP), Empowered Damage: 75/100/125/150/175 (+4% (+2.5% AP) target max HP) ⇒ 80/120/160/200/240 (+4% (+2.5% per 100 AP) target max HP)\n More damage is good, but given E is typically maxed last, this change was more \"nice to have\" than genuine QoL addressing Eve's clunky and inconsistent burst.\n Indirect and Systemic Nerfs Lich Bane Patch 25.10 - Lich Bane AP Nerfs [1] (https://www.leagueoflegends.com/en-us/news/game-updates/patch-25-10-notes/) - Lich Bane lost AP, cost went down to compensate. Given Lich is Eve's typical rush item, this hurt her first item spike and early snowball potential.\n Ability Power: 115 ⇒ 100, Recipe: Sheen + Aether Wisp + Needlessly Large Rod + 200 Gold ⇒ Sheen + Aether Wisp + Blasting Wand + 250 Gold, Total Gold Cost: 3200 ⇒ 2900\n Removing Needlessly Large Rod from the build path and replacing it with Blasting Wand also hurt Eve, who would prefer to buy a larger amount of flat AP if she can base with 1200 gold for a large early component spike.\n Rabadon's Deathcap Patch 14.19 - Rabadon's Deathcap AP and Passive Nerfs [1] (https://www.leagueoflegends.com/en-us/news/game-updates/patch-14-19-notes/) - Rabadon's Deathcap lost AP and passive scaling.\n Ability Power: 140 ⇒ 130, Magical Opus: 35% ⇒ 30%\n Being the second item Eve rushes typically (unless opting for an early Mejai's), this absolutely hurts both Eve's 2nd item spike and scaling. Given that Eve prefers to stack as much flat AP and penetration as possible and does not care much for other stats, this is a straight nerf to her mid game and scaling. This hurts her burst across the board.\n Sorcerer's Shoes/Spellslinger's Shoes Patch 14.15 - Sorcerer's Shoes Pen Nerf [1] (https://www.leagueoflegends.com/en-us/news/game-updates/patch-14-15-notes/) - Sorcerer's Shoes magic pen reduced.\n Magic Penetration: 18 ⇒ 15\n Given Sorcerer's shoes are arguably the only boots built on Eve and are often bought early, this is a nerf to her damage potential.\n Patch 14.21 - Sorcerer's Shoes Pen Nerf (Again) [1] (https://www.leagueoflegends.com/en-us/news/game-updates/patch-14-21-notes/) - Sorcerer's Shoes hit again with another flat pen reduction.\n Magic Penetration: 15 ⇒ 12\n Same rationale as above; straight early game nerf to Eve's burst.\n Patch 25.21.1 Hotfix - Spellslinger's Shoes flat and percentage pen reduction. [1] (https://wiki.leagueoflegends.com/en-us/V25.S1.1#January_10th_Hotfix)\n Flat magic penetration reduced to 18 from 19. Percentage magic penetration reduced to 8% from 10%.\n Obvious nerf to Eve given how much she values magic penetration, and that Spellslinger's Shoes were the only real viable boot upgrade for her to purchase.\n Patch 26.1 - Feats of Strength removed, boot upgrades locked to mid lane quest [1] (https://www.leagueoflegends.com/en-us/news/game-updates/patch-26-1-notes/)\n Eve lost access to purchase Spellslinger's Shoes altogether given boot upgrades are now the Mid Lane Role Quest reward.\n Shadowflame Patch 14.18 - Shadowflame AP reduction, flat pen and hp threshold increased [1] (https://www.leagueoflegends.com/en-us/news/game-updates/patch-14-18-notes/)\n Ability Power: 120 ⇒ 115, Magic Penetration: 12 ⇒ 15, Max Health Threshold: 35% ⇒ 40%\n This is a weird one; I would argue this is a retool, but losing flat AP for Eve is always unfortunate and reduces her clear speed, burst and scaling.\n Patch 14.19 - Shadowflame AP reduction [1] (https://www.leagueoflegends.com/en-us/news/game-updates/patch-14-19-notes/)\n Ability Power: 115 ⇒ 110\n Losing more AP, nothing further.\n Banshee's Veil Patch 14.19 - Banshee's Veil cost reduced, AP reduced, MR reduced, Passive CD increased [1] (https://www.leagueoflegends.com/en-us/news/game-updates/patch-14-19-notes/)\n Total Cost: 3100 ⇒ 3000, Ability Power: 120 ⇒ 105, Magic Resist: 50 ⇒ 40, Annul CD: 30 seconds ⇒ 40 seconds\n This patch arguably killed Banshee's semi-core status on Eve. The 2 things Eve cared about, flat AP and Annul passive, got hefty nerfs. Shadowflame overtook Banshees in the build to compensate for AP loss elsewhere.\n Rune Changes Electrocute Patch 13.20 - Electrocute base damage buffed, AP ratio gutted [1] (https://www.leagueoflegends.com/en-us/news/game-updates/patch-13-20-notes/)\n Damage: 30-180 (based on level) (+40% bonus AD) (+25% AP) ⇒ 30-220 (based on level) (+10% bonus AD) (+5% AP)\n Electrocute gained 40 base damage at level 18, but lost 20% AP ratio. Massive indirect nerf for Eve given how much she likes to stack flat AP. No other notes.\n Sudden Impact Patch 14.10 - Sudden Impact reworked, loses flat pen [1] (https://www.leagueoflegends.com/en-us/news/game-updates/patch-14-10-notes/)\n Dealing damage to an enemy champion within 4 seconds of using a dash or blink, or exiting from stealth, grants 9 lethality and 7 magic penetration for the next 5 seconds. 4 second cooldown. ⇒ Damaging basic attacks and ability damage deal 20-80 (based on level) bonus true damage to an enemy champion within 4 seconds of using a dash or blink, or exiting from stealth. 10 second cooldown.\n Sudden impact went from granting 7 flat magic penetration to 20-80 bonus true damage. Eve lost access to a source of flat pen to amplify her burst in runes.\n Eyeball Collection Patch 25.S1.1 - Eyeball Collection Removed [1] (https://www.leagueoflegends.com/en-us/news/game-updates/patch-25-s1-1-notes/)\n Eyeball Collection Removed\n Eve lost 30 AP from full stacked eyeball collector.\n Relentless Hunter Patch 14.10 - Relentless Hunter loses base MS [1] (https://www.leagueoflegends.com/en-us/news/game-updates/patch-14-10-notes/)\n Out of Combat Movement Speed: 5 + 8 per stack ⇒ 0 + 8 per stack\n Slight nerf, but worth listing the -5ms given how difficult it is to acquire movement speed.\n Systemic Changes Champion Durability Update Patch 12.10 - Champion Durability Update [1] (https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-10-notes/)\n All champions will receive the following Durability Base Stat Package: Base Health +70 Health Growth +14 Armor Growth +1.2 Magic Resist Growth +0.8\n Eve doesn't really benefit from increased durability. But squishy champions became harder to assassinate because they benefit relatively more from baseline durability increases and the shift of lethal thresholds.\n Note: Riot did mention directly in the patch notes for Patch 12.13 that Evelynn's play rate dipped as a result of the durability update:\n Evelynn hasn’t been seen much since the Durability Update, and not because she’s been using her camouflage. [1] (https://www.leagueoflegends.com/en-us/news/game-updates/patch-12-13-notes/)\n Some Quick Math Now let's look at a practical example. The most direct way to show the problem is to model Evelynn's standard short combo against the exact target her kit exists to delete: a squishy, no-defense ADC.\n Using a level-13 Evelynn (Q5/W1/E5/R2) against a level-13 Jinx with no defensive items (1,779.75 HP, 44.235 MR), the practical short combo: Q → empowered E (proc Lich Bane) → Q → R, produces the following across patches, holding the identical item structure (Lich Bane + Sorcerer's Shoes + Rabadon's Deathcap + Banshee's Veil):\n Metric |Patch 14.1 |Patch 26.14 (current) |Change\n Total AP |550.8 |478.4 |−72.4\n Flat magic pen |25 |12 |−13\n Pre-R damage |1,251.72 |944.48 |−307.24\n Jinx HP at R |528.03 |835.27 |+307.24\n Execute threshold reached? |Yes (29.7%) |No (46.9%) |flipped\n R damage |1,334.71 |460.39 |−874.32\n Total combo damage |2,586.43 |1,404.88 |−1,181.55\n Final result |807 HP overkill (kills) |Jinx survives with 375 HP |1,181.55-HP swing Same build, same target, and current Evelynn fails a kill that patch-14.1 Evelynn won with 807 HP to spare. This is not a case of smooth damage reduction. It is a threshold collapse.\n Edit to clarify a point raised in a comment: I did the example math based on the minimum casts necessary to reach execute threshold in the historical patch, and then reused exactly the same ability sequence for the current patch to demonstrate inability to hit the same lethal threshold on the same target.\n 2 more Q casts will get you just into threshold on the live patch, but that delays burst even further and provides a more lenient window of time for barrier or another intervention to save the target.\n The historical version barely crossed the threshold. Jinx entered R at 29.67% HP, just under the 30% line. That \"barely\" was the entire engine: once the multiplier turned on, amplified R delivered a huge overkill cushion. Current Evelynn doesn't get to the threshold at all; she leaves Jinx at 46.9% and fires an unamplified R that leaves the ADC alive on ~375 HP.\n This also leads to a nasty and unfortunately common \"anti-QOL\" situation: Eve pressing R when the opponent is right under R empower HP threshold, and the target surviving.\n That also means every anti-burst tool, a shield, Exhaust, a support's heal, a small amount of bonus MR, now flips the kill that used to be absorbed by 807 HP of overkill. One Barrier, one E, one Janna shield, and the already-marginal kill fails, and Evelynn is left exposed in attack range having spent her rotation and her escape.\n The \"overkill\" that used to make Evelynn's high risk, high reward snowballing fantasy reliable in the hands of a skilled player is gone. She now needs to be wickedly ahead, enough that the raw numbers overwhelm the defenses, because at even gold the standard combo no longer reaches the threshold at all, let alone clears it with margin.\n 0 Challenger Evelynn Mains Evelynn's entire design is built to farm ranked. She has permanent-ish stealth, a oneshot combo, and a snowball mechanic that turns leads into unanswerable pressure.\n The empirical record shows the opposite. Pulling the top one-tricks for Evelynn, Teemo, and Garen across NA, EUW, and KR (op.gg champion leaderboards, ~100 per server):\n Champion |Challenger |Grandmaster |Master |Diamond |Diamond share\n Evelynn |0 |3 |59 |88 |59%\n Teemo |1 |5 |68 |76 |51%\n Garen |0 |2 |70 |77 |51% Three findings, in order of importance:\n 1. Evelynn has zero Challenger one-tricks across three major regions. A snowball-assassin design produces no player who reaches the absolute top on her alone.\n 2. Evelynn's OTP population is the most bottom-heavy of the three: 59% sit in Diamond, higher than Teemo (51%) or Garen (51%).\n 3. Teemo, a poke-meme champion, produces a Challenger one-trick (Ty G, NA, 1,289 games). If a low-ceiling joke champ can be one-tricked to the top of a server, \"Evelynn can't reach Challenger\" isn't a general one-trick limitation. It's champion-specific, and it points at her damage.\n How Do We Fix Eve? The honest answer if you are balancing purely off of high-level statistics and player frustration is you don't touch her. But this leaves her exactly where she is: arguably in a state where the risk of picking Evelynn does not lead to proportional reward, with high Challenger Eve OTPS like AnthonyEvelynn and Splash1v9 forgoing picking her entirely, and in a spot where Evelynn feels utterly awful to play in the \"median\" scenario.\n My proposal to make Eve feel better to play is fairly simple:\n 1.) Revert 25.S1.2 Whiplash move speed changes and 25.S1.3 Whiplash base damage buffs to make room in the power budget.\n 2.) Revert 14.9 Allure slow nerfs, Slow 45% -> 65%.\n 3.) Revert 14.5 Hate Spike AP ratio nerf, 25% -> 30%.\n This list of changes on a surface level seems conservative, but I personally believe this is a reasonable place to start in smoothing out Evelynn's worse matchups while making her feel better to play overall by restoring some of the damage back to her Q.\n It doesn't restore Eve to peak strength; not even close due to the number of systemic nerfs she has suffered that lead to her accumulating less AP and directly hit her damage scaling. But my hope is that maybe we can reduce the negative and frustrating parts of the current Eve experience, adequately reward Eve for setting up picks and flanks, and bring Eve back up to a healthier power level for skilled play.\n If you made it this far, thank you for reading; I put a lot of time and effort into research for this post and I appreciate the opportunity to share my thoughts with others who enjoy playing Eve as much as I do. I'd be interested to hear your thoughts on what you think might help Eve feel a little bit better to play.",
+   "id": "1vf0nkj",
+   "comments": [],
+   "age_days": 66,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Challenging buffs early",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/1v18nh3/challenging_buffs_early/",
+   "published": "2026-07-20",
+   "author": "/u/DaemonfeirTV",
+   "body": "Eve’s early game can be hard but with the right matchup you can flip it around",
+   "id": "1v18nh3",
+   "comments": [],
+   "age_days": 81,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Whats your second and counter pick?",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/1uealq1/whats_your_second_and_counter_pick/",
+   "published": "2026-06-24",
+   "author": "/u/Purpleprint4",
+   "body": "A) What do you pick if she is banned?\n B) What do you pick if she is picked by enemy? \n C) Do you always play her even when the matchup seems unplayable?",
+   "id": "1uealq1",
+   "comments": [],
+   "age_days": 107,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How does evelynn win matchups like Shyvanna",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/1u1m02g/how_does_evelynn_win_matchups_like_shyvanna/",
+   "published": "2026-06-09",
+   "author": "/u/RandyRenegade",
+   "body": "So according to mobalytics assassins like evelynn (and talon) win against fighters like shyvanna, warwick, volibear, and xin zhao by a decent margin. I tried this against a shyvanna, as well as talon versus a xin zhao. I have no idea how im supposed to be winning against these characters. They have a lot of health, sustain and damage. This means that I can't really burst them down and afterwards when i fight them, they can outsustain my damage while melting my health. In short, i was never able to comfortably take them out unless they had like 1/10th of their hp, so whenever they arrived to a lane or objective, i would just have to give it to them. Is there some kind of strategy I can use to deal with those kinds of matchups.",
+   "id": "1u1m02g",
+   "comments": [],
+   "age_days": 122,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is Evelynn top actually playable?",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/1tmrwdz/is_evelynn_top_actually_playable/",
+   "published": "2026-05-24",
+   "author": "/u/Gaddour_RHouma_2004",
+   "body": "I’m losing my mind playing jungle lately. I feel like it’s so hard to carry games from jungle right now, so I want to try something different.\n Has anyone here played Evelynn top lane seriously?\n What runes/builds are best, and what matchups are impossible?\n I know it sounds troll, but I really enjoy Evelynn and want to make it work outside jungle.",
+   "id": "1tmrwdz",
+   "comments": [],
+   "age_days": 138,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Deathfire Touch as a possible rune option in comparison with Electrocute and Dark Harves",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/1t07439/deathfire_touch_as_a_possible_rune_option_in/",
+   "published": "2026-04-30",
+   "author": "/u/Adventurous-Cod-4560",
+   "body": "Hello there fellow embracers of agony,\n with the newest patch Riot added a new rune that i believe is playable on Evelynn, Deathfire Touch. \n With this my inner autism kicked in once again and i decided to measure it up to Evelynns current rune pages on Electrocute and Dark Harvest including the possible different clear timers.\n To keep it relatively short, the first clear is at no point different with any runepage i have tried. I got the exact same times on every try.\n For the damage to champions however i have made a list of the damages following here (remember that there were always autos woven in with it and R used as the last damage instant dealt by the champ directly): \n Puppet at 50 MR Deathfire touch Electrocute Dark Harvest Lvl 4 + tome + dark seal (2 full q´s) 833 860 836 Lvl 6 + first item + full boots + 1st pet upgrade 1335 1481 1282 Lvl 11 + second item + full pet upgrade 2496 2610 2570 Lvl 16 + void staff 4045 3704 (error made) 3704 Lvl 18 + fullbuild (no dark seal) 6567 6204 6097 Puppet at 150 MR 5220 4861 4798 Puppet at 500 MR 2686 2574 2526 I do believe i have made an error here though in the Electrocute lvl 16 damage calculation, not having lvld up in the practice tool fully but am too tired to do so rn.\n Following now are the damages in relation to one another with what rune is stronger by the percentage margin:\n Puppet at 50 MR Deathfire, Electrocute Deathfire, Dark Harvest Electrocute, Dark Harvest Dark Harvest Stacks Lvl 4 + tome + dark seal + 3,14% Electrocute + 0,36% Dark Harvest + 2,79% Electrocute 0 Lvl 6 + first item + full boots + 1st pet upgrade + 9,86% Electrocute + 3,97% Deathfire + 13,44% Electrocute 1 Lvl 11 + second item + full pet upgrade + 4,37% Electrocute + 2,88% Dark Harvest + 1,53% Electrocute 2 Lvl 16 + void staff + 8,43% Deathfire + 8,43% Deathfire 0% either 3 Lvl 18 + fullbuild (no dark seal) + 5,53% Deathfire + 7,16% Deathfire + 1,72% Electrocute 4 Puppet at 150 MR + 6,88% Deathfire +8,08% Deathfire + 1,30% Electrocute 6 Puppet at 500 MR + 4,17% Deathfire + 5,96% Deathfire + 1,86% Electrocute 7 The formular used was the following one: (1-(lower DMG-value/ higher DMG-value))x100\n Overall it can thus be deduced that the new rune is technically viable in matchups where you are sure to get a chill laning phase and can scale. The requirement for it to be effective are a long game and always having a good enough income.\n By using this it definetly becomes a viable option.\n At last here is the runepage i used for the new rune:\n https://preview.redd.it/3vvkxhdfudyg1.png?width=943&format=png&auto=webp&s=d092ebf027950a4ec68f67ebd2e2b40c76778d51\n The other two runesets were the ones recommended by the game with the sorcery tree as the secondary rune.\n I am always open for conversation on this topic and hope this can help you all in your climb to challenger.",
+   "id": "1t07439",
+   "comments": [],
+   "age_days": 162,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Matchup against WW",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/1rt0aiy/matchup_against_ww/",
+   "published": "2026-03-13",
+   "author": "/u/Top-Speech2414",
+   "body": "How do i play the stupid matchup against ww?\n I get outmooved completely, that idiot champ can see where i am while im invisible, my burst doesnt kill him, even with ult (even item amount) and then he heals fullhealth and kills me. I cant escape with Ult+Flash and forced teamfights are even more hell then they already are. What do I do???",
+   "id": "1rt0aiy",
+   "comments": [],
+   "age_days": 210,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Am I wrong????",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/1rljeaj/am_i_wrong/",
+   "published": "2026-03-05",
+   "author": "/u/Ok-Waltz7755",
+   "body": "Hi everyone, \n That's my feeling from playing in d2 right now.\n The higher I get, the worse it becomes. Enemy junglers (especially hard matchups) are playing like robots, outcomes are more predictables than ever. But, Evelynn love \"chaos\" (trade early ressources to snowball faster), if I skip a camp for a gank, I will get punished for the rest of the game by the enemy jungler. And, if I clear camps on timers repeatedly, I most of the time, slowly lose the game for having zero impact on lane. \n What should I do? I totally annihilate even/easy matchups, they can't punish me. I feel like I can only win against hard matchups if they trolls, lol. Kinda depressing...\n Ign: Careless Whisper #effed",
+   "id": "1rljeaj",
+   "comments": [],
+   "age_days": 218,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I think I've finally found a first item that creates SUSTAINED success for Solo-Lane Evelynn",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/1nencpl/i_think_ive_finally_found_a_first_item_that/",
+   "published": "2025-09-11",
+   "author": "/u/J-Colio",
+   "body": "Solo-lane Evelynn has always felt just a little cursed. The two biggest problems I’ve faced are:\n her complete lack of waveclear, and\n her constant mana issues.\n I’ve tried a bunch of different starts—Lich Bane had been the “least bad,” until recently. The build path was smooth, and the enhanced autos kind of help with waveclear (at one item I think Lich helped as much or more than anything else I tried)… but the further you get into the game, the less it matters. Evelynn’s Q is basically a single-target nuke with some fake AoE splash, and the AP ratio of her E scales the percent damage. None of that helps shove waves. In short: her waveclear is an unsolvable problem intentionally forced into her kit.\n So if Evelynn can’t reliably create roam timers through wave control… how do you ever find roam timers?\n That’s where Rod of Ages comes in.\n Free roams via XP passive. Even if you leave a wave, the passive helps you keep up to your opponent.\n Mana + sustain solved. No more handcuffing yourself to Manaflow Band. You get durability and freedom in your runes to take Axiom Arcanist.\n Matchup resilience. Poke mage? You just outlast them. Melee all-in? Trade ults, walk away, heal with passive, back to farming.\n The big picture: Evelynn solo lane was never going to be about perfect wave management. With RoA, you don’t need it—you get to lean into what she’s actually there for: roaming and map pressure.",
+   "id": "1nencpl",
+   "comments": [],
+   "age_days": 393,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Maxing W first took me out of Iron",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/1m9a8ds/maxing_w_first_took_me_out_of_iron/",
+   "published": "2025-07-25",
+   "author": "/u/indio_bns",
+   "body": "Hi there! I'm a Evelynn OTP, I don't play enough to know all the champions, matchups, etc, but I think I had enough macro knowledge to get out of Iron. I tried several times but man, I couldn't make it!\n Recently I read about the reasons behind maxing W first instead of E (of course after Q), and games have been a lot easier, and eventually I made it to Bronze (III, already), with >60% WR.\n Just wanted to share it!\n https://op.gg/lol/summoners/euw/indiobns-EUW\n Any suggestion is well received!!",
+   "id": "1m9a8ds",
+   "comments": [],
+   "age_days": 441,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "fuck it we ball build",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/1i2zwl2/fuck_it_we_ball_build/",
+   "published": "2025-01-16",
+   "author": "/u/mrbubblegxm",
+   "body": "so we all know eve can feel boo boo right now… here is what ive been running lately. if it’s harder matchup where i know i won’t be able to start objectives without getting collapsed on ill run nimbus cloak for stealing and getting away, or smiting someone and running away etc. \n why phase rush isn’t half bad!! 1. you get to keep gathering storm, absolute focus, and a little extra damage on your R 2. domination runes kinda feel meh after eyeball was removed 3. phase rush is soooo fun. and since eve is melee she gets the full MS bonus and slow resist. \n you can either do your whole charm combo. and you’re on top of them instantly with phase rush, so the normal damage from electrocute you can just add in a few more Q’s and auto them and just chase them down \n if you need to run or else you’ll die. you can just q, w slow, or e+qq for the extra MS from e and proc phase rush. or if you are in the process of killing a target and things go south you have the extra MS to leave and it makes you very slippery. \n you do have to keep your MS very high on eve at all times which is why i have relentless hunter + stealth cause everything else is kinda meh. \n overall, this is a FCK FCK FCK idk what else to do on her build but it’s not bad! i feel like she’s just a full burst melee mage now instead of an assassin. \n nimbus cloak is my absolute fave before axiom arcanist. if you’re ever on grubs or an objective and you need to get out instantly the smite procs it and you leave. or especially stealing. i’m really good at stealing on eve the only downside is i don’t wanna have to waste flash or risk starting a fight ik i can’t win. so you can just stealth stand right next an objective, smite, steal, stealth away 🙂‍↕️🙏\n anyways lmk when you guys think! any advice or suggestions. i was hesitant trying it the first time but it does feel really nice and it’s excellent into immobile or slow comps.",
+   "id": "1i2zwl2",
+   "comments": [],
+   "age_days": 631,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "POV: u made the mistake of queuing up after a long day at school XD",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/1h7m78g/pov_u_made_the_mistake_of_queuing_up_after_a_long/",
+   "published": "2024-12-05",
+   "author": "/u/shaide04",
+   "body": "Every game regardless of role there’s always that inting duo losing an easy matchup XD.",
+   "id": "1h7m78g",
+   "comments": [],
+   "age_days": 673,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "not the blood red that eve actually wants",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/1cu2c4a/not_the_blood_red_that_eve_actually_wants/",
+   "published": "2024-05-17",
+   "author": "/u/atlas0929",
+   "body": "https://preview.redd.it/grhckjw6xy0d1.png?width=1270&format=png&auto=webp&s=f4b9b114d5afcfb330896e759d062ba948359f82",
+   "id": "1cu2c4a",
+   "comments": [],
+   "age_days": 875,
+   "recency_weight": 0.4,
+   "topics": [],
+   "stale_items": false
+  },
+  {
+   "title": "About eve situation",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/1cpwxde/about_eve_situation/",
+   "published": "2024-05-12",
+   "author": "/u/MoonZephyr",
+   "body": "Hello, former d1 , low master prev season and eve player for 10years (and dia all years almost).\n Since the nerfs I dropped from d1 to d4, I’m not an eve otp (got 2.5m on her lol) so I play also some other champions but she always been my favorite. As with my other picks (vi and teemo jung) I’m able to maintain around 50-55% the season long, since eve nerf I’m on 12l streak and 1w 14l spree , I don’t played all those eve games in a row so I even chooses some games whoever to get her or not.\n I realy feel she’s ultra frustrating to play and kinda garbage rn, we had lichbane nerf x2 electrocute a nerf and now both w and R, sudden impact and relentless hunter soon…. Like…\n I know her wr is still around 49-50% (with low pickrate) but I feel useless unless by miracle I can get kills very fast , until lichbane even targets that get full charm q e q q q then aa q q q r may survive if full hp, Lots of matchups like diana where eve did historically good now feels almost unplayable for me.\n I may be salty or I dunno but I’m missing the eve I know for countless years , it feels like I’m playing an assassin with bruiser dmg (ex conqueror vi sunderer and not like any other assassin )\n What’s your tought and feeling? If we go b on a more tanky meta (zac sej etc jung) I can’t even imagine playin this anymore",
+   "id": "1cpwxde",
+   "comments": [],
+   "age_days": 880,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Eve current state",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/1bgb223/eve_current_state/",
+   "published": "2024-03-16",
+   "author": "/u/MoonZephyr",
+   "body": "(Sorry for the image quality) Since the nerfs and this patch and mostly last couple days, evelynn winrate is sinking hard, her playrate also. She’s now under the avg winrate in most elos if not all elos, her wr dropped in dia dangerously as she’s last 3 days -2 to -3% behind the avg of the elo in euw.\n Nerfs of course are a part of the reason but I expect the meta changes atm hurting her also. Janna in most of games if she’s not ban while she was far less seen before and is imo a big trouble. Voli op comeback stomping early game also.\n Since the nerfs I feel personally kha became a totally one sided matchup, it was hard before but now stats also shows he’s one of best eve opponents by far (so even if I don’t feel he’s the most op jungler atm (hello rengar/voli/ivern) it’s my current permaban as he has high pickrate too and the ones I didn’t ban made me regret it ).\n And with all that eve pickrate almost diminished by half, so only the core eve players play her now, wich is even more troubling as how big the drop is currently.\n I feel that at this pace the nerf wasn’t necessary (while lichbane was already nerf same patch and now also the alternator which -5ap will reduce her kill potential again a bit very early).\n I myself dropped from d2 to d4 rn with lot of games feeling powerless while I usualy stay between d1 and low master for a year +.\n What’s your toughts or experience rn?",
+   "id": "1bgb223",
+   "comments": [],
+   "age_days": 937,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to die less as Evelynn?",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/1bfruji/how_to_die_less_as_evelynn/",
+   "published": "2024-03-15",
+   "author": "/u/Independent-Guy4681",
+   "body": "New player here. I never get to take full advantage of Dark Seal/Mejai's Soulstealer because I die a lot as Eve. I tend to go only after 1v1 situations or ganks but sometimes even in those cases my combo does little damage to the enemy champion and I lose a lot of stacks of Dark Seal.\n I know the title is a very generic question but broken-down:\n What characteristics are you looking for in a champion to decide wether you are going for the assasination or not? (example: health, enemy's magic resist, specific champions abilities, specific matchups...).\n When is the best time to go for objectives without the enemy jungler interrupting you?\n What is the best way to use items? (get dark seal stacks on ganks, only attack when having lich bane...)\n ANY pice of advice you provide will greatly help me. Thanks for reading this far.\n ​",
+   "id": "1bfruji",
+   "comments": [],
+   "age_days": 938,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "trying ghost smite eve, not bad at all, in low elo is very fun (against some matchups)",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/1b521ho/trying_ghost_smite_eve_not_bad_at_all_in_low_elo/",
+   "published": "2024-03-02",
+   "author": "/u/ryuksz",
+   "body": "",
+   "id": "1b521ho",
+   "comments": [],
+   "age_days": 951,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "[Arena] Just reached Gladiator on my Evelynn only account. Here's what I think about her in this game mode.",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/15dnze0/arena_just_reached_gladiator_on_my_evelynn_only/",
+   "published": "2023-07-30",
+   "author": "/u/FernandoMMPereira",
+   "body": "Mandatory proof here and here. This is the OP.GG\n Hello everyone. I'm an Evelynn main from EUW who hangs around Plat/low Diamond on good days, so I want to preface this by saying I am by no means a good player. I'm hardstuck on 5500 rating on my main account, and I only reached Gladiator with a 60% winrate — very low for the LP gains on this game mode, I believe.\n Everyone says Evelynn is bad on this game mode. Even our king Anthony. I'm inclined to agree. Assassins aren't very good with all the bruisers and ADC + enchanters comps running out there, but I want to sell you the opinion that Eve isn't as bad as you think she is.\n Why? She's the best assassin in the game at killing tanks. I'll explain further below.\n I reached Gladiator with 26 wins and 17 losses. Learned that most Evelynns don't know how to build, and also realized that I was probably very lucky with my augments and my opponents.\n Teammates. I believe there are two ways to go about it:\n Either you go with a good ol' bruiser like Sett, Jax, or Yorick. They will let you have a chance at winning the early game when you can't burst anyone nor out-DPS most opponents.\n\n Or you play the long game and let control mages either poke or CC the enemy to half health and you finish them off. For this I liked Brand, Zyra, and Annie.\n\n The worst comps are the ones with two squishies with barely any CC like Shaco, Twitch, Teemo and for some reason Yuumi.\n I had a couple of games with an Alistar that completely carried the game by chain-CCing any target while my charm cooked, but that may fail against non-squishy comps. Would like to further test this.\n Augments. Jeweled Gauntlet is easily the best for Evelynn. We all know that. But don't underestimate crit if you don't have access to Gauntlet; Vulnerability is super strong when you're using Rocketbelt and Lich Bane. With this said, I'd only take it along with other critical augments. Rite of Ruin is a very strong third item when you have crit.\n Most of the games you'll want to save your rerolls and wait for the Prismatic augments, so I'll list down below all the generic and good augments that you should grab. Reroll only on non-Prismatic if any these aren't on your augments pool.\n Executioner\n Infernal Soul\n Witchful Thinking\n Thread the Needle\n Combo Master\n Phenomenal Evil is extra good on Evelynn because you can stack it incredibly fast. Don't take it as your 3rd or 4th augment.\n Contract Killer is a decent first or second pick if you want to save rerolls.\n Recursion is also an OK pick if you're saving rerolls.\n From Beggining to End is acceptable if you're saving rerolls but this shit is kinda bad in my opinion.\n If your Prismatic augment pool doesn't have Jeweled Gauntlet, look for the following in this order:\n Ultimate Revolution\n Infernal Conduit\n Eureka\n Feel the Burn\n Now I'll list so-so augments that are either build-arounds or situational.\n Mythical is good against heavy bruiser and tank comps, and you should use it to build Liandry's and Riftmaker in order to last longer against them.\n Erosion is also a decent pick against that type of comp. If you're going for the long game, this one is not that bad.\n Ocean Soul is kinda bad but fits the anti-tank playstyle and has saved me from the brink of death many times, so there's that. Low priority, of course.\n Fallen Aegis is a must vs CC heavy comps that include Alistar, Zyra, etc.\n Warmup Routine is good if you have time to let your teammate poke or run around, but it's useless if you're in an all-in situation whether you're on the receiving end or not.\n Ethereal Weapon is actually very good! I was surprised but with Lich Bane and Nashor's Tooth you'll be proccing on-hit damage with your Q and R. Deals way more damage than you think.\n Vulnerability, like I said, is a good build around if you can find Tank It Or Leave It or Critical and build Rite of Ruin. Abuse your item-damage with Rockbelt or Liandry's, Lich Bane, and I need to research what else can crit.\n Quantum Computing and Mad Scientist are acceptable if for some reason you never found any of the other Prismatic augments I mentioned. Quantum Computing is very effective in your anti-tank playstyle.\n Please never, ever pick the following:\n Now You See Me\n Repulsor\n Extendo-Arm\n Builds. Allow me to say that Rocketbelt feels horrible to use but it's better than Ludens and we need the Mythic passive penetration.\n Always build Rocketbelt unless they have a lot of bruisers and tanks, in that case go Liandry's. The standard path is Mythic > Rabadon, always. The third item depends on your augments but ranges from Lich Bane if they're squishy, Void Staff if they're already stacking MR, or Rite of Ruin / Nashor's Tooth / Riftmaker depending on your augments.\n Banshee's Veil is super important in this gamemode because it's very hard to pop it randomly and will help you engage without being stopped. Must buy against Malphite, for example.\n I'd say Zhonyas is a bad item on Eve, and I've only used it once: against a Vi/Rengar comp. They'd beat my voluptous ass if I didn't build it.\n Statikk Shiv is a decent and funny 5th or 6th item if you're going for the item crit build. Overall not viable, though.\n Final builds should look like this:\n Jeweled Gauntlet: Rocketbelt // Rabadon // Rite of Ruin // Lich Bane // Banshee's or Void Staff\n Bruiser: Liandry's // Rabadon // Void Staff or Bloodletter (Riftmaker if you have Mythical) // Lich Bane // Banshee's\n On-Hit: Rocketbelt // Rabadon // Lich Bane // Nashor's Tooth // Banshee's or Void Staff\n Item Crit: Rocketbelt // Rabadon // Lich Bane // Rite of Ruin // Statikk Shiv or Void Staff // Banshee's Veil\n Didn't know exactly where to put this, and it's kinda unnecessary since we already know, but the worst matchups are the ones with heavy-CC and peelers like Alistar, Zyra, Malphite, Heimer. I always ban Taric first, Heimer second.\n And with this ends my dissertation, or guide if you can call it that, about Eve's viability. She needs buffs, and I'll be waiting for them with along with the new skin, but she's not as bad as y'all might think.\n May you have good games on Arena.",
+   "id": "15dnze0",
+   "comments": [],
+   "age_days": 1167,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Evelynn Matchup Spreadsheet",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/zuocs7/evelynn_matchup_spreadsheet/",
+   "published": "2022-12-25",
+   "author": "/u/Fuskaka",
+   "body": "Would you guys like one? And what would you want to see in it? I saw a post and commented on it and it got a bit of attention, so I want to now the sub’s opinion :) leave comments on suggestions if you have any\n View Poll",
+   "id": "zuocs7",
+   "comments": [],
+   "age_days": 1384,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Matchup sheet for eve",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/zujbbq/matchup_sheet_for_eve/",
+   "published": "2022-12-24",
+   "author": "/u/TurbulentFrame2069",
+   "body": "Any OTP got a matchup sheet for my queen eve? I’ve been considering OTPing, however, I feel like I need improvement and a matchup sheet would be really useful. Ty!",
+   "id": "zujbbq",
+   "comments": [],
+   "age_days": 1385,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Evelynn guide for beginner to intermediate players",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/zkbqlb/evelynn_guide_for_beginner_to_intermediate_players/",
+   "published": "2022-12-12",
+   "author": "/u/lovicoaching",
+   "body": "Hello, I'm known as Lovi and have been master+ on every role and in coaching for about 4 years. During this time I've been asked to make some guides/spreadsheets/etc. and I've decided to try out a guide this time. \n The guide is meant to help anyone struggling to get diamond/master on the champion, though I do advise using my spreadsheet in combination with it for best results despite the spreadsheet being from older patches. The spreadsheet is from season 10 I believe so don't use it for updated matchups or clears or anything that goes against the video, it does display how to approach fighting alot of champions and how to path to make games more consistent though.\n Video: https://www.youtube.com/watch?v=CEzWLeVlmdQ\n Spreadsheet: https://drive.google.com/file/d/1orIOKaMqpcZpxlBzKcgu0PVBb04bcRey/view\n If you have any feedback, questions, or otherwise things to say do feel free.",
+   "id": "zkbqlb",
+   "comments": [],
+   "age_days": 1397,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to start off with jgling as Eve?",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/yw6kxx/how_to_start_off_with_jgling_as_eve/",
+   "published": "2022-11-15",
+   "author": "/u/iinchoushinozaki",
+   "body": "im gonna preface by saying i am NOT a jgl main. at all. it is by far my least favorite role/least played role and i have very little games in jg compared to my other more favorable lanes. if u want to know/if this could help, i main ahri xayah lillia normally, but i play lillia top idk why i cant do very good at lillia jg either i think its a #skilldiff. ANYWAYS. i really want to get better at eve, i really love her but i think its because im not used to her playstyle and the way jg plays in general that im not performing well? i wanna accept literally any tips i will take all you can give me. even jg tips in general will help too. im counting on you eve mains 😭 also item tips and specific matchups will help; some i seem to struggle against are kindred, ww and lillia although those are literally the only ones i have insight on bc i have yet to play against the same jg 2+ times besdies for them and elise who i have done decent against. i think another problem is i give into ganking lanes even when i know it probably wont always end well because people just demand it, and it feels like a lot of people im playing with dont get how eve works and are expecting me to frontline or not be sneaky sneaky. i dont play ranked but im assuming id be somewhere in bronze so im sure that also plays a key in it. i think this post is too long so ill leave it there but any tips, even combos, etc. i would greatly appreciate!! ♡",
+   "id": "yw6kxx",
+   "comments": [],
+   "age_days": 1424,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "gave up on league",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/vtqzu3/gave_up_on_league/",
+   "published": "2022-07-07",
+   "author": "/u/RabidKitten666",
+   "body": "My time has come. I became an eve main in season 11 and I really really love her. I climb up from gold into platinum 3 86lp, but the past few days made me rage. I'm fed up with league community. In every matchup there's an inter. I always do my best. Got 60+% wr on eve with 150 games. I lost my fate after a huge lose streak and i fell out from platinum into the bottom of g1. Like always 10-15+ kills and around 5 deaths or lower than 10. I was always around drakes and got them with the heralds i ganked every lane and it's not enough. What else should I do to get out from elohell? Why is this that hard? Why ppl have to int? \n Love you all and keep up your faith and do your best in your life❤\n (League is enough for me for a huge amount of time.)",
+   "id": "vtqzu3",
+   "comments": [],
+   "age_days": 1555,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Evelynn counters",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/uhlnnf/evelynn_counters/",
+   "published": "2022-05-03",
+   "author": "/u/superpositionn-",
+   "body": "Hey! I recently picked up Evelynn and have been having a lot of fun playing her, but i never found out - what are her hard counters in you all's experience? So far, I've had difficulty against Warwick and Kindred, but I'm not really sure if that's a me thing or they're just a naturally tough matchup. And different website list different champs. Who do i look out for?\n In addition, I feel very strong when I'm against a Kayn or Master Yi.",
+   "id": "uhlnnf",
+   "comments": [],
+   "age_days": 1620,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "A real evelynn guide or tips?",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/uaql5y/a_real_evelynn_guide_or_tips/",
+   "published": "2022-04-24",
+   "author": "/u/BonyBoban",
+   "body": "Does anyone know an evelynn guide? I want one where win conditions are discussed, teamfight tactics, map pressure, how to play early, mid, late, matchups etc. Not how skills work and why you should put 2 points in q before w",
+   "id": "uaql5y",
+   "comments": [],
+   "age_days": 1629,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "whats better on evelynn",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/uaynzj/whats_better_on_evelynn/",
+   "published": "2022-04-24",
+   "author": "/u/doppioiskute",
+   "body": "I've seen predator builds and i did try it, it was nice. electrocute is the more picked one, but i also see people go first strike so whats the best rune for eve and is a matchup based decision?",
+   "id": "uaynzj",
+   "comments": [],
+   "age_days": 1629,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "need help",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/sfm0vi/need_help/",
+   "published": "2022-01-29",
+   "author": "/u/mikkayr",
+   "body": "How in the fuck do you deal with Vi? I feel like this champ is absurdly broken. There literally was a situation where i was 11/2 and she was 3/7 and she just 100-0 me with 3 buttons. after that she bought FoN and was completely immortal. Is this me not knowing the matchup or should I just dodge/ban her?",
+   "id": "sfm0vi",
+   "comments": [],
+   "age_days": 1714,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Electrolute vs. First Strike",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/s6yb1q/electrolute_vs_first_strike/",
+   "published": "2022-01-18",
+   "author": "/u/bescherbub",
+   "body": "Hey guys,\n I am a diamond Evelynn player and havent had played Evelynn very much in the new season. I recently played much more games with Hecarim and Viego to learn something new.\n I now tried First Strike on Evelynn in some games and I am confused if it is better or worse than Electrolute... \n So far I think First Strike is much better when I get giga fed early game. With Future's market and my kill-gold I am able to buy more items which lead to more dmg. More dmg leads due to First Strike to more additional gold by the rune.\n Electrolute on the other side is more reliable in most of the games. If I am not smurfing or if I have generally trouble in my games, I tend to take Electrolute. The tree gives with eyeball collection (instead of Future's market when you take Inspiration secondary) up to 30 AP in addition. And most important: Electrolute procs as well when enemy hits you first! This is a huge point especially pre Lv 6.\n Even when I take Electrolute I can adapt my second tree in an aggressive or passive way: Insipiration tree with free boots and Cosmic Insight for a safe way. Sorcery tree with Absolute Focus and Gathering Storm for a more aggressive way.\n My conclusion: First Strike is good when I know I am gonna get kills (for ex. when smurfing, playing in low elo, easy enemy matchup, many squishies) and Electrolute is better in every other case.\n What do you think about it? First Strike seems to be high risk high reward. But it bothers me that I have to play too well to get all the advantages which means 1. Get early kills/leads and 2. Hit enemy first to proc the rune, otherwise it is gone.",
+   "id": "s6yb1q",
+   "comments": [],
+   "age_days": 1725,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How to play into 3+ tanks?",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/rf87c6/how_to_play_into_3_tanks/",
+   "published": "2021-12-13",
+   "author": "/u/TheAmazingMaxwell",
+   "body": "Especially ones like malphite and rammus. I feel that I cannot pick anyone because if I do I will immediately get caught out by one of their tanks. Even if I manage to kill one and get out, they can just run me down. I find it near impossible to solo-carry, let alone even play the game into these matchups, what can I do and what items should I prioritize?",
+   "id": "rf87c6",
+   "comments": [],
+   "age_days": 1761,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "When to go inspiration?",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/pzriva/when_to_go_inspiration/",
+   "published": "2021-10-02",
+   "author": "/u/shockspine",
+   "body": "When is the ideal matchup to go inspiration over sorcery? In almost all of my games I have found sorcery just better.\n Is it better to go inspiration into early junglers like xin/lee sin?",
+   "id": "pzriva",
+   "comments": [],
+   "age_days": 1833,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How do I not die?",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/pe2r2s/how_do_i_not_die/",
+   "published": "2021-08-29",
+   "author": "/u/EgirlSuppPlayer",
+   "body": "I really love Eve and I want to learn her but I find that she is unable to duel any champion pre 6. Also her e dash is pretty short wich is still a thing I am not used to. Also what do you do when the enemy jungler is warwick? I find this matchup borderline unbeatable. Any tips for a noobie player?",
+   "id": "pe2r2s",
+   "comments": [],
+   "age_days": 1867,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "An update in how I'm doing",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/oh708d/an_update_in_how_im_doing/",
+   "published": "2021-07-09",
+   "author": "/u/Smoll_Marshie",
+   "body": "SO good news, I'm way more comfortable on evelynn now! I love her alot and I've started to watch neace & kingstix and I even did kingstixs everfrost build and it went so well! \n I've had bad games and only had one game where i was really behind. But nevertheless I'm getting moderately fed, I know how to avoid the jungler- when I got invaded I deciddd to take rengars whole blue side and he only took my blue buff so it was a win for me!! Just wanna say thank you to everyone who gave me advice/supported me! I still need alot of work especially when it comes to rough matchups but other than that I'm having a blast playing jungle! ♡♡",
+   "id": "oh708d",
+   "comments": [],
+   "age_days": 1918,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Is Evelynn viable or decent in lane?",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/o8et7z/is_evelynn_viable_or_decent_in_lane/",
+   "published": "2021-06-26",
+   "author": "/u/Swoldier76",
+   "body": "Hey totally new here, so I'd love to get perspectives or advice! So my otp is akali, I main mid, top secondary, and I dont mind jungling if I get filled (absolutely hate bot lane tho and I'd rather dodge those fill ranked games if no one wants to trade lol).\n Love or hate akali, either way shes been banned almost everygame these days because of her being a 100% pro pick in this last patch, absolutely predicting riots balance team will nerf her e damage and possibly R CD. But point is I'm trying to find another champ to pick up right now, because akali gets banned almost every single ranked game I play (diamond 3 if it matters). Interested in Evelynn because I love bursty AP champs, and I love evelynn's aesthetic, shes such a fucking cool champ. Solid kit too being invis and one shotting is super fun. I love roaming bot, top, and invading jungle when I get mid and figured evelynn is probably really good at that as well.\n Anyways I want to try her out today mid (or top potentially) and see if I can make it work. I figure shes actually probably good or decent into melee matchups. Anyone have any opinions or advice on it? Is it stupid/cheesy, or can it be a totally viable pick if I put in lots of games and learn matchups?\n Thanks in advance!\n EDIT UPDATE: just wanted to say thanks for all the replies and advice! Yall are an awesome community :-) I've actually been doing fantastic with eve top and I plan to keep playing her there and just learn jungle. Mid lane seems okay, not terrible, but like alot of people pointed out, the lane is just too short and opponents have too much range. I can survive and just try and farm but trading feels non existent against the ranged matchups. At best I can zone with w to have some control, but you cant really get in range without eating tons of harass. i have been able to set up some ganks with jungler and flash q (or E) and get the charm, so it's not always that bad. But at least top lane eve honestly seems like a legit solid pick. Love roaming the map being invis, Eve is fucking cool",
+   "id": "o8et7z",
+   "comments": [],
+   "age_days": 1931,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Help request from a fellow Evelynn player",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/nt0cjr/help_request_from_a_fellow_evelynn_player/",
+   "published": "2021-06-05",
+   "author": "/u/Ginoscopino",
+   "body": "Hello fellow Eve players, i'm a jungler from EUW and i've been hardstuck silver for awhile now. I love to play Evelynn, even in difficult matchups in order to improve myself but sometimes i struggle in closing games even if i'm far ahead ending up in losing lp :(. What should i do to improve my perfomances on Eve? Every advice is well accepted from jungle pathing, builds and runes. I really want to improve and get out of silver playing Evelynn.",
+   "id": "nt0cjr",
+   "comments": [],
+   "age_days": 1952,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "W Tricks (Wukong, Shaco ETC.)",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/modrip/w_tricks_wukong_shaco_etc/",
+   "published": "2021-04-10",
+   "author": "/u/KiddKnievel",
+   "body": "I don't see anyone talking about this, and I've seen a couple of posts complaining abt the Shaco matchup (which is fun to play imo)\n But Eve W gives away clones, whether it is Neeko clone, Shaco clone, or Wukong Clone. \n Also if a Wukong press's W when ur charm fully stacks just throw Q in front of his clone, you'll hit it 99% of the time :D",
+   "id": "modrip",
+   "comments": [],
+   "age_days": 2008,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Some questions from an Evelynn newbie",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/mkhghm/some_questions_from_an_evelynn_newbie/",
+   "published": "2021-04-05",
+   "author": "/u/Marca2273",
+   "body": "Hi everyone!\n So I wanted to learn how to play Evelynn, and now I have a few questions. She is the first assassin I really want to learn, so any help would be great here.\n 1.: If I understood correctly, her first clear is a full clear, since you want to get level 6 asap. But no matter what I do, I just can't seem to get a full clear and be early enough to take scuttle. I'm always like one camp too late. Any tips on how to have a faster full clear? Or should I just skip the last camp for the moment and do scuttle?\n 2.: What is your general rune setup? I see that like almost everybody goes Electrcute - Sudden Impact - Eyeball Collection, but after that, it's not so clear. So what are generally the best \"hunter\" and the best secondary runes? (Especially hunter, do you prefer Relentless or Ultimate or even Ravenous?)\n 3.: Concerning her charm, can you only break it with her spells, or can you also use like Blue Smite or Rocketbelt to trigger the charm?\n 4.: What are some of the most dangerous/difficult matchups for her, and how do you play against them? And what do you do if they invade your jungle and steal your camps, setting you behind?\n I know these are for the most part pretty basic questions, but I thought you can give the best answers here. As I said, any help is greatly appreciated...\n Thx in advance",
+   "id": "mkhghm",
+   "comments": [],
+   "age_days": 2013,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "What's a champion you struggle against as evelynn?",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/mgx39k/whats_a_champion_you_struggle_against_as_evelynn/",
+   "published": "2021-03-31",
+   "author": "/u/idkmanstfu",
+   "body": "What's a champion you don't seem to know how to defeat? When you comment I'm hoping others could give you tips and tricks to help you! I also wanna hears people's information about matchup spreads",
+   "id": "mgx39k",
+   "comments": [],
+   "age_days": 2018,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Matchups",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/mh6ss3/matchups/",
+   "published": "2021-03-31",
+   "author": "/u/Takashi010",
+   "body": "Hello boys and girls. Im not newbie to eve (just newbie in reddit xD ). So im sorry if some1 has already asked this question, just wanna know how im supposed to play against Elise/Rengar/Khazix/Udyr? Any tips? I usually ban kha and rengar. My elo is P3 if some1 is interested",
+   "id": "mh6ss3",
+   "comments": [],
+   "age_days": 2018,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Evelynn's A-Team",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/lw74eu/evelynns_ateam/",
+   "published": "2021-03-02",
+   "author": "/u/CiaIsMyWaifu",
+   "body": "I've been getting some friends to play Yuumi for me lately and enjoying the benefits of huge movespeed and quicker powerspikes via staff of flowing water and Yuumi W. But what MORE can we do for Eve? How can we make an entire comp for her benefit, that allows her to stomp as easily as possible?\n It got me thinking about where and how I get most of my kills, what can get in the way etc. Things like,\n -Laners with strong hard CC and gank setup like Malzahar, Galio, Malphite, Ashe\n or\n -Laners who give me shit or otherwise deny me like Morgana, Janna, Karma, Vladimir, Fizz,\n ​\n It reasons to say that as an assassin, 5v5s are never going to be ideal for Eve, going into a cluster of 5 and manmoding it is reserved for full tank malphite Rs, Renekton, Illaoi, basically anyone who actually benefits from hitting 5 people, I don't even think champs who CAN hit 5 like Shen, Jax, Jarvan necessarily want to. Eve's 5v5 is conditional on positioning of both teams, and if she has to walk through someone to get to her target, taking free damage on the way there sucks and is never good. So fuck 5v5s.\n ​\n What's the alternative then? what is league of legends without 5v5 death balls and \"WE HAVE TO FIGHT\" or \"WE LOSE 5V5\" no one seems to fucking know how to play the game without both teams standing next to each other and having a throwdown after lane phase.\n ​\n In a long lane phase, Eve gets to have lots of 2v1s. Allied Tryndamere against a Quinn Top? Oh boy! free gold! Quinn's gonna hard push because she's all \"Haha fucking idiot melees, I counter you because i'm quinn top, I'm going to snowball and roam around oneshotting people with my free lane advantage!\" But what actually happens, is I gank that bitch 6 ways to sunday til she's crying to her jungler about how I'm diffing him and she would be fed as fuck if he would just gank while she's under enemy turret. Then when I and Tryndamere have the lead, we just dive her under her own turret which causes more crying and more gold for your boi. \n So that's an ideal lane phase, we've got a guy who wants to splitpush constantly, will be pushed in early, and is a serious threat when left alone with turrets, much like me he doesn't want to teamfight. Trynd doesn't have a lot of gank setup but into ranged matchups he can play like a bitch early which enables both of our leads, and both of us to stomp later.\n ​\n For the other lanes its a bit tricky, Having one splitpusher who's very strong is good and all, but he can't do shit if the rest of the map is feeding or the enemy team is 5 manning mid when he wants to take a turret. Same for me, I don't want to fight a 5v5, and I don't want to fight a 4v5 either. I think in order to be effective, we need champs who can safely hold lanes even against greater numbers. The kind of champs that force you to take baron to make any headway on their turrets. Things like Anivia, where even if they dive her, she still has egg, and with a good denial support like Lulu or Janna, that dive turns into feeding for them. Another good option is Ziggs, since his minefield, Q bombs and R are practically made for nuking or slowing the waves down. If our goal is to avoid fights and splitpush, hes an even better option because of his extra turret damage when the enemy team devotes too much to stop Tryndamere or bot lane.\n ​\n So for Bot lane, what's a good combo? We want something that can deny kills and protect our defenders, while also having some splitpush potential, while also having some gank setup. That's a tall order, I think traditional ADCs are bad here as there isn't really a lot of good gank setup besides Ashe. Meta ADCs like Kai'sa, Jhin, Senna, Ezreal, their setup isn't very good. Jhin and Senna have roots, but that's it, It's not really ideal. Running Ziggs bot here instead of mid should ensure an early turret, and his poke is good into standard botlanes, gank setup would rest on the support, which could be Morgana, Serephine, or Sona. They all have some fairly quick hard CC, can help clear the wave, Poke, or help heal/shield and protect the Ziggs and later the rest of the team. \n ​\n After the initial lane phase is over, we would have to transition into a strategy where the mid and botlaners are squadding together when one lane is being 4-5 manned in order to deny the push, While Ziggs, Anivia, or Morg can all split off to clear a crashing sidelane if necessary. By always laning and defending, Eve can always get a numbers advantage somewhere to make a kill happen, which in turn opens up the map to more splitpush for the Ziggs squad or Tryndamere. \n ​\n What are some other laners or combinations that can support Eve's strengths? Really think about your answers and justify them here.",
+   "id": "lw74eu",
+   "comments": [],
+   "age_days": 2047,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Evelynn Item Build (Item Build Code Below)",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/ls5esk/evelynn_item_build_item_build_code_below/",
+   "published": "2021-02-25",
+   "author": "/u/cursed-siren",
+   "body": "Hello my Lovely ppl on the Evelyn Mains Subreddit!\n I know there are a lot of people that struggle with matchup-specific Item builds, but in the past days, I have done some digging, read many different guides, and asked around with other Evelynn mains. So I present to you: The Season 11 Evelynn Items.\n Below I will briefly explain each item and why I chose to include it and at the very bottom, you will find the Item build core. I have based most (if not all) knowledge and judgment her on reading and watching of high Elo Evelynn players as well as Mobafire Guides and what people on the wonderful Discord have taught me. I hope this guide can be of assistance to people who, just like me, often struggle with items.\n How to Import the Item Sett\n To add the build to your game (which adds it to the third tap in the shop for easier access) follow these steps:\n Copy the Text below\n Open League Client-> \"Collection\"->\"Items\"\n Next to the search bar you will see 3 buttons, click on the far left one that says \"Import Item Sets\"\n \"Paste Copied Set\"->Paste in the text below and press enter\n ---\n The Item Set\n ​\n Early Game\n Hextech Alternator: 40 Ap and 50-125 dmg in the early game is a pretty big deal. Before the jungle nerfs, you would have been able to purchase this after your first full clear+scuttle. Now, no longer. Usually, if you full clear and get a gank off,you can buy this early nonetheless. Especially since this builds into the Evelynn #1 Mythic: Night Harvester. These days, I usually buy one Amp tome and dark seal after my first back.\n Dark Seal: We don't care much about the base stats of DS, we only care about the Stacks. It is a terribly efficient Item and Its gold efficiency increases by 31.07% per stack, reaching 434.41% gold efficiency at maximum stacks. (source). Buy early to start your snowball.\n Sorc. Boots: Eve, as an assassin, relies on Magic Pen to burst targets down quickly, along with the extra movement speed, Sorc. Boots are a great choice. With the pollI did the other day, we can see some alternatives, but Sorc. Boots are the overwhelming favorite of Eve mains.\n Control Ward: Control wards are OP as hell. I try to keep one on me if I happen to be in the enemy jungle or a highly contested area (drake or herald pit).If you have 75 GP to spare, spend it on a control ward and you will not regret it. Favorite places to place them are: Enemy Buffs, in the enemy jungle opposite of the drake pit or behind the herald pit.\n ​\n Standart Core\n Night Harvester: There is not too much to say here, as we all are familiar with this item. It provides good burst, some AP and AH, and the extra Movement Speed lends itself perfectly for Eve's \"Hit and Run\"-style of getting kills. If you are very low on gold, as some high elo games tend to be, or you are in a game where you cannot secure many kills, some recommend skipping NH and just getting Hextech Alternator+Lich bane (This guide goes into more detail about this approach).\n Mejai's Soulstealer: Mejai's is currently the most efficient AP item in game and becomes 100% gold efficient at 9 stacks. Personally, I would recommend upgrading it once you have a fully stacked dark seal to avoid falling behind or getting overzealous. To the new Evelynn's: This Item is only \"Worth\" buying if you are able to get many takedowns and not dying yourself. This Item is the reason why you cannot let yourself die a lot as Evelynn.\n Lich Bane: Probable the most purchased Item for Evelynn. As your E (Whiplash) counts as an Auto Attack, make sure you use your Q or W before your E, as Lich Bane gives you Next E/Auto Attack extra damage. Additionally, the extra Movement Speed and AP is right down Evelynn's Alley. Basically a must-have on Eve.\n Cosmic Drive:The big Powerspike with Cosmic Drive comes once you have 160 AP and as fate wants it, you get to that benchmark once you have Night Harvester+Lich Bane, though it can also be achieved through other builds. Cosmic Drive, first of all, also gives some AP and AH (the latter is esp. nice to reduce the long cooldowns on your W and R) but more interesting is the Passive: If you have at least 160 ability power, gain 20 ability haste and 10 − 30 (based on level) bonus movement speed.\n ​\n Situational Items/Additinal Items \n Anti Heal\n Oblivion Orb: \" UNIQUE – CURSED: Dealing magic damage to enemy champions inflicts them with 40% 📷 Grievous Wounds for 3 seconds.\" You deal magic damage, you give them Grievous Wounds. I have seen builds that tell you to build this into Morellonomicon, but that is wasted gold, as it only really improves into giving you more health- which is something Eve does not really need. So save your 2500 Gold, instead treat yourself to this 800 gold ball of \"hurting red kayn until he dies\".\n Anti Tank\n Mythic- Hextech Rocketbelt: HR is the Magic Pen+Dash Cousin of Night Harvester. They carry the same stats but are divided by their passive and active. Personally, I find HR's dash feeling very clunky. But I am told many people enjoy it. It additionally gives a bit of AOE damage, Extra movement speed towards champions extra magic pen. Remember, however, that you can NOT use the active to dash through walls.\n Void Staff: the big theme of anti-tank is magic pen. Void Staff gives you (along with very fun voice lines once you purchase it) magic pen and more AP, two things Eve generally benefits from massively. If you see that a lot of enemies are building magic resist and armor, get this staff to counter that\n Dead Mans Plate: Have you ever played against a 10 stack Cho'Gath? If so, you likely know that the usually \"W,Q,E\" Combo is not nearly enough to burst him down. Dead Mans Plate might be your item for these situations. For the sake of the argument, I'll ignore the stats, since they are pretty standard, providing some extra armor and movement speed. The passive is what lets this item really work for you: \"while moving, build stacks of Momentum, granting up to 60 bonus movement speed at 100 stacks. Momentum decays by 3 every 0.25 seconds while immobilized. Basic attacks consume all stacks on-hit to deal 1 bonus magic damage per stack, up to 100. At maximum stacks, the target is also slowed by 50% for 1 second. \". You can stack up some additional damage and soft cc through DMP, which fits perfectly into Evelynn's Playstyle. (source). This can also be used to counter high- mobility targets.\n Against Hard CC/ Defensive Items\n Zhonya's Hourglass:This item is the only thing between your 25 Stacks Mejai's and death- well, sometimes. If you think of yourself as someone who is nailing their positioning in teamfights, you can just skip this paragraph, but I find that sometimes it is enough to even just buy the stopwatch and keep it on your 1st Item slot- just in case a Morgana Q hits you and you distantly hear a Lux ult being shot your way. Additionally, the AP and Ah the item provides is not too bad!\n Banshee's Veil: The same rule from Zhonya's applies here, as the Veil provides a \"get out of jail free\"-card against one instance of CC. The stats from BV as not too bad either and it provides a bit more AP as Zhonya's. Would recommend, if they have proactive supports that enjoy stunning/rooting or charming you.\n ​\n Late Game Build\n Rabbadons Deathcap: What a great item- shame it costs like a million dollars. If you have the money to spare, it is a great item for the post-dragon soul-games. It gives a lot of AP and that is just what we need for Evelynn.\n Nashor's Tooth: You know how some games are at a stalemate for 20 Minutes with both teams' inhibitors down, with only the Nexus laying bare? If you find yourself in that position, buy Nashor's Tooth and Backdoor the Enemy. This Item gives you AP and Attack Speed, which turns you into a turret (or nexus) shredding machine. My advice for backdooring is, walking through lanes instead of the jungle, as the enemy likely has pink wards there. Nobody expects the lane-Evelynn! Sneak behind the enemy team, wait for your team to engage on them and get into their base to (hopefully) end the game.\n Elixir of Sorcery: No Item slots left but tons of money in your pocket?An Elixir is the last choice you have, then. Can be combined with Nashor's tooth due to the extra damage to Turrets, but also can be used in teamfights as It provides bonus true damage on a 5 seconds cool down. Weave in and out of fights with demon shade to harvest the full potential of the Elixir with your empowered Whiplast.\n ​\n Item Set Code:\n {\"title\":\"Evelynn SS11 Items (1)\",\"associatedMaps\":[],\"associatedChampions\":[28],\"blocks\":[{\"items\":[{\"id\":\"2031\",\"count\":1},{\"id\":\"1039\",\"count\":1}],\"type\":\"Start\"},{\"items\":[{\"id\":\"3145\",\"count\":1},{\"id\":\"1082\",\"count\":1},{\"id\":\"3020\",\"count\":1},{\"id\":\"2055\",\"count\":1}],\"type\":\"Early Game\"},{\"items\":[{\"id\":\"4636\",\"count\":1},{\"id\":\"3041\",\"count\":1},{\"id\":\"3100\",\"count\":1},{\"id\":\"4629\",\"count\":1}],\"type\":\"Standart Core /Mid Game\"},{\"items\":[{\"id\":\"3916\",\"count\":1},{\"id\":\"3135\",\"count\":1},{\"id\":\"3742\",\"count\":1},{\"id\":\"3157\",\"count\":1},{\"id\":\"3102\",\"count\":1}],\"type\":\"Situational\"},{\"items\":[{\"id\":\"3089\",\"count\":1},{\"id\":\"3115\",\"count\":1},{\"id\":\"2139\",\"count\":1}],\"type\":\"Late Game Build\"}]}\n ​\n Thank you for reading!\n I would be extremely grateful for feedback on this :)",
+   "id": "ls5esk",
+   "comments": [],
+   "age_days": 2052,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Evelynn Top",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/l8nnhu/evelynn_top/",
+   "published": "2021-01-30",
+   "author": "/u/JordanDisgrace",
+   "body": "Hello friends!\n I’ve done some browsing here and haven’t seen too much talk about Evelynn top, but I’ve heard it’s extremely good into melee tops like Jax/Renekton.\n What makes her good into these matchups and how should she be played top?\n Is it still the Night Harvester/Lich Bane build? \n Thank you ahead of time!",
+   "id": "l8nnhu",
+   "comments": [],
+   "age_days": 2078,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Jungle Main looking to tips to learn Evelyn",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/l6eyw9/jungle_main_looking_to_tips_to_learn_evelyn/",
+   "published": "2021-01-27",
+   "author": "/u/FluxBurner",
+   "body": "Hi guys,\n I've been playing jungle for about two seasons now. Ended S9 with Plat 4. Therefore I do understand some of the basics of tracking, counter jungle, invading, lane prio analysis etc. However, I've never tried any AP champs in the jungle and thought Evelyn would be a fun champ to try out. Plus her sugar rush skin is just way too good. I understand that she's not the best jungle atm but I always like to play off-meta champs. I would really appreciate if you guys can answer some of the questions I've posted below to help to better understand this champ in general:\n What are some of the hardest matchups for Evelyn in the jungle?\n What are some of the easier matchups for Evelyn in the jungle?\n Do you guys ever invade pre-6 on Evelyn vs easy matchups?\n What are some of the strategies you guys use to deal with hard matchups? Path from the opposite side of the enemy jungle and gank opposite lanes? Then Play with your winning lanes?\n Are there different build paths for different matchups?\n What runes are the best for S10?\n Should I do full clear for the first clear or rush lvl 3 and gank?\n Sorry for having so many questions. But getting answers from these will really help me to understand this champion better. Thanks in advance for taking the time to read.",
+   "id": "l6eyw9",
+   "comments": [],
+   "age_days": 2081,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Tank Evelynn [TheOffMetaBuilder]",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/g4ut7c/tank_evelynn_theoffmetabuilder/",
+   "published": "2020-04-20",
+   "author": "/u/TheOffMetaBuilder",
+   "body": "I've been playing alot (and I mean a lot) of theory crafted builds on my alternate account while getting to lvl 30. On my time climbing, I decided to go Bruiser Evelynn Top, to my surprise it wasn't all that bad, I thought I should share my build and results on this reddit (This is my first Reddit post so be gentle ;P).\n I present to you: Tank-Bruiser Eveylnn!\n For runes, I run Conqueror, It's very easy to proc thanks to Evelynn's Hate Spikes as well as her Auto-Attack -> E combo. Evelynn is considered a melee champion and gets the full 15% Healing in addition to double stacks on Auto Attacks. \n Triumph or Presence of mind are both solid options, it's up to preference. I personally prefer Triumph.\n Legend: Tenacity is the only realistic rune to chose for second tree.\n Coup De Grace is the best out of the 3rd tree imo, Last stand is an option.\n Second Rune, I go Resolve.\n Conditioning is very important for Evelynn, it gives her tanky stats as well as better scaling with the armor you will buy.\n Overgrowth is nice, gives Evelynn Health, a stat she sorely lacks. If you prefer, Unflinching for crazy Tenacity, then you can go with that.\n I go Adaptive Armor Heath, You can go CDR if you prefer.\n Usually for first item, I start Doran's Ring, then rush Sunfire cape for it's great Armor and Health stats as well as helping waveclear, then go Mercury Treads (Unless the enemy is full AD) into Spirits Visage (If team is full AD, grab Thornmail). Everything else is up to situation. Adaptive Helm, Warmogs, and Rod Of Ages are all good third Items depending on matchup.\n Hate spikes, (forgive me for saying this\n Evelynn ends up being a Tanky Executer (Or more specifically, a more Tanky Pyke with a worse ult), being able to flank with invisibility and engage in teamfights. I don't think it is broken, but it has genuine potential. If any of you have ideas to improve this, please let me know!",
+   "id": "g4ut7c",
+   "comments": [],
+   "age_days": 2363,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Hello im new with Evelynn, And i want to play her whenever i get autofilled jungle. give me tips on what to do in jungle, eve’s weaknesses and strengths, her matchups,runes and builds :D",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/g4ch3k/hello_im_new_with_evelynn_and_i_want_to_play_her/",
+   "published": "2020-04-19",
+   "author": "/u/Real_MadameLeblanc",
+   "body": "",
+   "id": "g4ch3k",
+   "comments": [],
+   "age_days": 2364,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Has anyone made a detailed spreadsheet of her matchups at each level ?",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/g48b83/has_anyone_made_a_detailed_spreadsheet_of_her/",
+   "published": "2020-04-19",
+   "author": "/u/--PunPun--",
+   "body": "I'm a relatively new Evelynn player and right now I don't really know my damage/matchups so I never know if I can 1v1 the enemy jungler at any given time of the game. I know I could learn that with experience but I was wondering if somebody already made it.\n Thank you!",
+   "id": "g48b83",
+   "comments": [],
+   "age_days": 2364,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "An Evelynn Starter Guide",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/fwx1m2/an_evelynn_starter_guide/",
+   "published": "2020-04-08",
+   "author": "/u/ExCheesecake",
+   "body": "We get a lot of basic questions about Evelynn (Runes, Build, General Advice, etc.) So, I've pieced together a starter guide for her. This guide is my all my opinion which I've formed from ~500k Eve mastery and a handful of late nights number crunching and talking with other Eve mains about what we think is most optimal.\n Pre-6 General information:\n You have a losing matchup into literally 75-85% of the jungle roster. Many people think we’re joking because they only ever see the post-6 perma invis Evelynn delete their whole team, but pre-6 you are a sad potato. Every jungle matchup is a bad matchup except for maybe nunu and ivern... Everyone kills you pre-6. even if you’re healthier and even up levels, it’s wild. If they aren't less than 40% hp, don’t even think about fighting. Just concede whatever you were fighting over and go farm something else.\n Start talisman, Pink, Pink/Red pot. Pink something before your first camp to get vision control and information to help you survive early.\n Eve has a decent pre6 gank but an exceptionally weak 2v2. Ganks pre-6 are fine if they're pushed up but unless it's really free it's usually better to keep powerfarming to 6. Above all, do not get counterganked. If you do, it ends very badly 90% of the time. Try to track the enemy jungler to avoid this (using the pinks). This also applies to getting into skirmishes in your jungle. Even if you think you can win the fight because the enemy jungler is down levels or health, if the 1v1 becomes 2v2, you will almost always lose it.\n Eve can start either buff and leashless if you prefer (especially on red buff by pulling raptors). Generally you’ll want to full clear and look for a crab then base, maybe throw a gank in if you’re healthy and know where the enemy jungler is. General tip is to try and start the buff opposite their jungler so you can take the opposite crab without contest. Losing both crabs is never fun.\n Bans:\n I personally permaban Xin zhao. Definitely not the best ban but I just hate him and other matchups don't tilt me like Win-Now does. Honestly, just ban whatever you personally hate the most or the overpowered flavor-of-the-month jungler that sees a lot of play that patch. As stated previously, you have a lot of losing matchups but some particularly nasty ones are: Lee sin, Xin Zhao, Rek’sai, Udyr, Warwick… take your pick.\n Runes:\n For runes you should always run electrocute, sudden impact, eyeball collection, relentless hunter.\n Some may argue dark harvest is viable, but you already do so much damage late game it doesn’t really matter. Ever since it got reworked, you need an absurd amount of stacks to keep up with electrocute’s damage (because you build full AP and utilize the increased AP scaling so well). The only reason to take dark harvest is the reset potential but Eve is not a brawler. You kill a single target and dip out. A much more reasonable argument is for ultimate hunter over relentless because Evelynn is very R reliant. It does somewhat come down to personal preference but I think most Evelynn players will agree that the flat MS the relentless provides is simply invaluable on a champion with zero gap closers. Eve needs the flat MS to flank, catch, and apply pressure during the mid and late game. Your R cd will be low enough by then to make up for lacking ultimate hunter.\n For secondary take sorcery with your choice of gathering storm, absolute focus, transcendence, and nimbus cloak. Gathering storm is free AP, so is absolute focus (it’s basically always active because of your passive). Transcendence is a nice QoL rune to have your R up a little more often, and Nimbus cloak allows for inescapable chase with blue smite and escapes in the early game if you get invaded.\n There was a time when we were running free boots and future's market to make buy deathcap easier, but I haven't regularly utilized it since the free boots were nerfed. I think it would still be viable into matchups where you expect you will die early. Think teams with aggressive invading jungler paired with abusive solo laners that get early priority. Cosmic insight is also good for you as cd is always nice for your R and Flash cd is useful as you are a flash reliant assassin late game.\n Build:\n Buying Fiendish Codex first back is a priority if you want to keep power farming to 6. Blue smite + boots if you want to gank. If you have more gold, additional purchases are up to preference. Fiendish codex, blue smite, fiendish, finished sorc boots, dark seal are all reasonable purchases.\n Evelynn has (basically) one build. This is key, I cannot stress this enough.\n Runic echoes, Sorc boots, DEATHCAP (if you can afford the rods), lichbane/voidstaff (depending on MR stacking), situational (Banshees, zhonyas, spellbinder).\n Deathcap is your bread and butter. Your Q has a 195% AP ratio total and combine that with free %magic pen on your charm and invisibility, and hard cc… and executing ultimate with built in escape… Evelynn only cares about AP. Build it second item every game you can. If you can't afford the NLRs because of bad back timings or death (more likely), buy a lichbane then get deathcap right after. Buy void before lich if they've already stacked MR, otherwise get lich first (after deathcap obviously). Zhonyas is nice into rengar and blue kayn. Banshee's is nice into cc heavy teams. Spellbinder is nice for its active and the MS is very nice (I personally find it hard to fit into builds because it lacks cdr). But deathcap 2nd, pretty much every game unless you're getting dumpstered.\n Things to note about the build:\n Never ever ever build Liandries. Ever. Seriously, stop.\n TL;DR: Morellonomicon is situational and regularly building it is a noob trap. Do not build it unless you are specifically against soraka/yuumi. Oblivion orb is good if A) your target has zero MR items purchased, not even a null mantle and B) You do not plan on charming them.\n With Diana’s mini rework, you are now the undisputed fastest magic damage burst in the game (with the AD counterpart being Rengar). You burst so fast grievous wounds often doesn't do anything against a champion like sylas/vlad/nasus because the enemy can’t heal cus they’re dead or can't press their buttons because you charmed them. The grievous wounds only becomes relevant if your target has a source of healing that comes from another player (soraka/yuumi), which in those cases, if you find the healing problematic you can buy Morellonomicon. As for oblivion orb, the way the math works out: oblivion orb is good if A) your target has zero MR items purchased, not even a null mantle and B) You do not plan on charming them. Because of the %Pen you have access to on your charm and the flat pen from sorcs and sudden impact, if you charm an enemy, there's no amount of MR in the game where having oblivion orb is better than void staff. If a target has zero MR, you do true damage without orb, and if they have any purchased MR, Void staff will provide more pen. If you do not plan on charming them, then more flat pen will work to your advantage for MR-less squishies (Void staff is still better into even a null mantle and will generate more value as the game progresses and more MR is purchased.)\n Protobelt and nashors have some very niche uses and can be used to do some cheesy split pushing. I don’t recommend it for serious play but if you’re looking for something different, it’s pretty fun. Deadman’s plate into full AD is also funny if you’re hyper fed (again don’t do this in a ranked game but… it’s funny)\n And finally, if you're rich late game, you can sell your boots and buy a gunblade sixth item if you don’t think you’ll need the movement speed. This is actually viable late game as the active does around 700-800 burst.\n Skills:\n Q > W > E max. (95% of games)\n Max Q first every game, always. There have been players in the past that try to argue for something else. They're crazy or trolling.\n Then you have two choices. Maxing W fully grants 400 cast range, 4 seconds off cd, 1 second of charm duration, 10% magic shred, and an extra 200 damage on jungle camps/objectives. Maxing E fully grants you 100 damage on the empowered cast and 60 on the unempowered. Both help clear the jungle faster in different ways.\n If you plan on actually using your charm then it's best to max W second. If you charm a target, the MR shred alone will add up to being equal or more damage against a target than the flat damage from E. However, if you don't plan on using the charm and prefer to surprise burst from stealth, maxing E second is reasonable. It's good on a very aggressive Evelynn play style that focuses on reaching one-shot potential as fast as possible and taking over the game. Players will E max second, often buying mejai's, sometimes even mobi boots, skipping deathcap and rushing oblivion orb and lichbane.\n There is an argument to be made for E max second, and some players swear by it, but after trying both E and W max second I've personally found that most games W max is more bang for your buck. Some players will disagree with me but this will remain my recommendation, especially for players new to Eve.\n Combos:\n (W) Q E (aa) qqq (R)\n Set the Charm and let it fill (or don't use it at all), hit the first Q, then mash q repeatedly while walking into range to E, throw in an aa at the end if you'd like, then R if they aren't dead yet.\n Q W qqq E (R)\n Very similar to the previous but you can throw a Q then instantly W to get a surprise slow instead of a charm, then like before mash q repeatedly while walking into range to E, throw in an aa at the end if you'd like, then R if they aren't dead yet.\n Late game\n Flash Q E R ‘or’ Flash E R (if you're really fed)\n Other Tips: (Questions that have come up frequently in the past)\n Sweeper?\n Sweeper on eve is not nearly as good as most assassins because you aren't revealed by regular wards already so why clear them. Regular wards are actually you’re friend as it gives the enemy team a false sense of security. Many players will feel secure, auto pilot, and push out a lane because the river/jungle is lit up with vision, regular vision that does not reveal you. However, placing a normal ward level 1 then basing for sweeper can be a useful strategy to further protect you from invades. Pre-6 you're very vulnerable and clearing camps on an enemy ward can be dangerous. Sweeper can help with this. Post-6/Mid game, you will get more consistent value from a regular trinket because you can get safe deep wards. Sometimes take far sight if you're really worried about getting bush-cheesed.\n What combo’s well with Eve?\n Yuumi. That damn cat gives you so much movement speed and healing. With a Yuumi attached late game, a skilled Evelynn can catch anyone, kill anyone, escape anyone, and even brawl to some extent.Any laner with hard CC (especially if they deal magic damage too). Things like Malzahar Twisted Fate, or just Maokai or Ornn.\n What is Eve great at?\n Getting picks! Encourage 1/3/1 or other split push strategies. Get your team spread across the map and turn 1v1s or 1v2s into 2v2s. Mid game and on Eve thrives on 2v2s (unlike pre-6). You escort your side laner in a 1v1 pushed up and they get collapsed on by another enemy player. As soon as they engage you oneshot one of them and now what they *thought* was going to be a 1v2 is now in fact, a 1v2, but in your favor instead. Picks leads to free pressure which leads to objectives which leads to winning the game. Oversimplified League 101.\n What is Eve bad at?\n Teamfighting. Eve is absolutely terrible at it. You will quickly find that many games on Evelynn turn unwinnable even when you are fed because the enemy 5 man goon squads and drop pick wards at their feet and you just can’t do anything.\n Splitpushing. Eve is absolutely terrible at killing minions waves. This causes problems were, unlike most other junglers, you can’t effectively help catch and push waves, or take towers while the enemy invests heavy resources on the opposite side of the map. Evelynn can pretty much only kill and needs her team to play the lanes.\n 1v3+ing. If you’re really fed on a bruiser like Jax, Irelia, or Sett. You can 1v3 easily. You can even do it on some other assassins like Fizz and Zed. Evelynn sadly cannot take on more than 2 people at once unless they all stand riiiiight on top of each other and you can just press R on them all. Eve’s one-and-done burst kit makes her terrible at sustained combat. Once you use your abilities, most go on fairly long cooldowns and your auto attacks basically heal the enemy team.\n Sustaining interest. Evelynn can be a very fun and unique jungler to play. When she's fed, you are ridiculously powerful and can insta-kill pretty much anything, even tanks that rush MR, all while invisible. It's quite the power trip. Unfortunately Evelynn suffers from a problem where she has a very low skill ceiling. She's rather 1-dimensional and easy to master. Becoming “really good” at Evelynn is the same as getting “really good” at League of Legends in general. After learning the 1 or 2 combos, and the 1 or 2 situational items to build, the only thing to learn on Eve is really just how/when to clear the jungle, how/when to gank, when to take objectives, getting vision, getting picks… just basic League macro that you would pick up on any other champion just as easily. Take it from me, and many others… It gets a little repetitive if not boring sometimes after a few hundred thousand mastery. You don't get to hone your craft and pull off “sick outplays” like you could on Yasuo, Camille, Irelia, Vlad, etc. You won’t find yourself in any Synapse clips any time soon. There's not a lot of outplay you can do when behind and there’s not a lot of outplay the enemy can do when you're ahead.\n Edit: Updated to include clarity, more detailed explanations, and a few other reasonable choices brought to my attention.",
+   "id": "fwx1m2",
+   "comments": [],
+   "age_days": 2375,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How to loose an easy matchup 101, don't sidestep anything. :/",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/fup00b/how_to_loose_an_easy_matchup_101_dont_sidestep/",
+   "published": "2020-04-04",
+   "author": "/u/rrssakuras",
+   "body": "",
+   "id": "fup00b",
+   "comments": [],
+   "age_days": 2379,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Control Ward Starts on Eve",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/cw7iqf/control_ward_starts_on_eve/",
+   "published": "2019-08-27",
+   "author": "/u/RJay1325",
+   "body": "I’ve been climbing Gold on Eve and I found that starting with a control ward and a potion as opposed to a refillable has come in handy quite often especially in hard matchups. I place it on the blue buff bush and start red. It helps me watch out for any early invades considering that most bunglers will outduel me early on and pre-6. It’s also a go button to counter-invade on his blue side which works out great because on something like a first clear, I can still come out even and it’ll be a special treat if my laners collapse for first blood. Let’s say he doesn’t invade. Well, I still have an extra trinket ward to spare that I either use to light up the river on my scuttle take or to place in his blue side if I feel I can get away with an early invade myself. I don’t know how common a start like this is but for me personally, with Eve’s passive regen, I find the early vision to be more powerful in terms of getting an early lead on my opponents. I just wanted to share this idea for consideration in case anyone wants to sport a game or two with a control ward start. \n Final note, it’s OP versus shaco’s ;)",
+   "id": "cw7iqf",
+   "comments": [],
+   "age_days": 2600,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Subreddit Update August 2019 !!",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/crwf2v/subreddit_update_august_2019/",
+   "published": "2019-08-18",
+   "author": "/u/roseagius",
+   "body": "Howdy, y'all!! My name is Roseagius! I'm one of the Mods of EvelynnMains! I have a few things I wanted to discuss!! Subreddit Bugfixes and New Features Since I designed the subreddit, a lot of new features were added to reddit which, in turn, added many new bugs to the current css : ( Over the weekend I'll be working on tidying up the sub through bugfixing and adding new features! \n One feature I've been really wanting to work on is a KDA theme, however due to the \"Featured Streams\" and \"Other ChampionMains Subreddits\" tabs I lack the space in the subreddit code to do so. Would y'all be alright if I were to remove the \"Other ChampionMains Subreddits\" tab to see if that frees up enough space in the code to add the theme?\n I want to hear from you guys though. What features for the Subreddit do you feel like we're missing? Let me know and I can see how do-able those things are!\n Moderation/Subreddit Ideas So I'd love to have weekly discussion threads where we can discuss all things Evelynn. Maybe matchups or strats or a plethora of things! I keep brainstorming other ideas such as contests, specific days for specific activities, or idk ! I wanna hear from you guys!\n Also, I am a \"mod\" of a lot of subreddits but I'm not really an actual \"mod\"; I just did the visual designs in the past and I'm on there for bug fixes. However, Evelynn is my everything. She's honestly the only character I play and I'm actually planning on getting an Eve related tattoo soon!! I love her so much Anyway the point of this post was to hear from y'all to see what I can do to keep this sub the best sub everrrrrr ! So let me know!!\n Also the memes are amazing 10/10 we are the Jasmine Masters of subreddits and I LOVE IT MemeQueens af\n Edit: I will now have a lot of edits because idk reddit text-post formatting like its weird af",
+   "id": "crwf2v",
+   "comments": [],
+   "age_days": 2609,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Evelynn Support",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/9w7ktp/evelynn_support/",
+   "published": "2018-11-11",
+   "author": "/u/Alex91472",
+   "body": "So, let me start with an introduction. I'm a plat 1 player on the NA region and a mastery 7 Evelynn. Recently I've been playing a ton of Eve and got autofilled support one day. being the stingy player I am, I played Eve support. At first I thought it would be super troll with no chance of consistently working, but with further play of Eve sup, I think it's not that bad.\n https://imgur.com/a/ZwrUwhU This has all the images of builds, runes, and games. I've played.\n So, I'll start with the play style. You start with spellthiefs, and play lanes by just poking with q and getting gold. If the enemies engages or they poorly mis-step you can throw a w out, but it is unlikely you get any huge charms or engages as eve support in the early game. You will be able to proc electrocute every once and a while with just q spam. Eve support levels 1-5 isn't super strong, the play style is to just get spell thiefs gold which she can do pretty well in most lanes and fairly fast. Once you get 6 you can start making plays in your botlane or roam like crazy. Since you are Eve your roams are disgusting, and because you are the support people will be less expecting. Mid game on Eve support is just running around warding and making picks. It's very safe to ward on Eve, and being support Evelynn and not having to farm, your uptime on the map is insane. Late game you kind of fall off, but the pick potential is somewhat still there and you might be able to get a kill on a priority target if they don't build much MR. \n So, the build. I go spellthiefs on Eve because you get gold so easily and quickly. Rush mobis straight after frostfang, so when you hit 6, you can move around the map super fast. I like to go zhonyas after mobis because there is still a lot of incentive to go ap on Eve, and the passive of Zhonyas is super helpful in stalling fights and makes you somewhat tanky, since you'll never be a super tank. Next, I build deadmans most games(unless full ap team), just to enhance my map pressure and add tankiness. Finally, I finish off the core with banshees to add a little bit more survivablility, ap, an mr. After that you can basically build anything that fits the game, but you hopefully would like to finish the game before or on banshees. \n The runes I take for support Eve are Electrocute, taste of blood, zombie ward, relentless, bone plating, and second wind. Electrocute is just Eve's best rune and can be proc'd in lane multiple times and remains useful past lane. Taste of blood is better than sudden impact, because in lane you can't really use your e much and just rely on q poke. Zombie ward is useful as a support, but an argument can be made for eyeball. Relentless hunter is very nice because you do roam a lot. Boneplating and second wind are there ti provide survivability in lane, because Eve support 1-5 isn't super strong. \n As far as matchups go, I haven't played them all, obviously, but the main annoying ones seem to be morg(just ban her everygame), zyra, and brand. These mages are annoying because they have a lot of damage at a much farther range, making it so you can't easily farm spell thiefs. Engage tanks are ok for evelynn as long as you play a little passive and only poke by throwing out a few q's, For enemy melee supports you can poke q thru the minions to get stacks, which can be very important in staying safe. Though eve doesn't hard win any matchups she does pretty well against enchanters like janna because her poke is just better and lasts longer. \n Conclusion, the strengths of eve sup is map pressure and map vision with the weaknesses being laning phase and lack of peel and team fight engage. She plays similarly to pyke by having high mobility and pick. Overall, I find Eve support super fun to play, just because the uptime on the map is insane. Eve support is by no means broken, but with a little practice it can be made viable and is super fun. \n If you have any question feel free to ask!",
+   "id": "9w7ktp",
+   "comments": [],
+   "age_days": 2889,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "New Evelynn guide",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/6oxq6l/new_evelynn_guide/",
+   "published": "2017-07-22",
+   "author": "/u/cute6",
+   "body": "Hey, I was recently commissioned by lolking to write an Eve guide for them. http://www.lolking.net/guides/425708 My guide covers both AD and AP, and also covers Jungle, Top, and Mid matchups, as well as giving my own opinion on itemization in multiple scenarios. Check it out and let me know you think. I plan on keeping it updated from patch to patch. Thanks.",
+   "id": "6oxq6l",
+   "comments": [],
+   "age_days": 3366,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "[Guide] How To Build Situational... and not be useless",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/6no2uo/guide_how_to_build_situational_and_not_be_useless/",
+   "published": "2017-07-16",
+   "author": "/u/lethe-wards",
+   "body": "So a lot of questions I see on this subreddit deal with questions regarding build path, new items, AD or AP, and of course whether she's good or bad late game. \n The answer to all these questions is yes. But you have to build for the target you have in mind. \n Without further ado, here are 3.5 builds you can rely on in any team comps. \n AP Assassin - Blue Smite Runic Echos, a Hextech item, Lich Bane, situational. Deathcap recommended. Good against: Squishy enemy champions. Okay against Tanks, and other assassins (skill matchup). Terrible against Bruisers. (Shut them down early before they buy MR)\n\n Hybrid Sustained Damage - Red Smite Warrior, Hextech Gunblade. Build Deaths Dance if you want to kill close range assassins like Kha'zix. Build Armor if you want to 1v1 split pushers like Riven. Build QSS if you want to kill Lux. Build Duskblade if you want an all around decent build. \n\n AD Off-Tank - Red Smite Warrior, Iceborn Gauntlet. Abyssal Mask, Liandries Torment, or Sterak's Gage. Terrible against ADCs. \n\n Anything with Liandries Torment. Good against everyone. \n\n The Thought Process Sample Game #1 Ally Team Enemy Team Singed Jarven IV Evelynn Nunu Taliyah LeBlanc Thresh Nami Lucian Kalista First thing I notice is Nunu jungle. That mean's I'll probably be counterjungled. So I have to choose: 1) Clear my jungle fully 2) Let him take it, while I gank. I chose #2, putting more faith in my laners. The next thing I notice is my team. I really want to go full AP, but we don't really have a tank. I would not expect Singed to teamfight properly, since he is really bad at it. Now I look at the enemy team. They have j4 burst, so even if I went AP eve, I'd die instantly. Also they have Leblanc, who is super hard to reach. But their main snowballing concern is Kalista.\n My planned build is Blue Smite Runic Echos, Rylai's Crystal Scepter, Abyssal Mask, Warden's Mail...\n Why? The reason is because Rylai's Crystal Scepter is such a good counter to Kalista. She can't kite well while slowed. I went Runic Echos because I wanted Blue Smite again for Kalista. What about Nunu and Leblanc? Well the movement speed on Runic Echos helps me rotate faster, and I have Abysal Mask as protection from LB burst and Nunu harass while jungle. Warden's Mail would have reduced Kalista's attack speed even more, making her even more useless. And my tank stats will help me be the front line in a fight while we wait for Singed to come. \n Sample Game #2 Ally Team Enemy Team Tryndamere Riven Evelynn Nunu Twisted Fate Yasuo Karma Blitzcrank Draven Lucian Try to guess what I'm building. \n Answer: Red Smite Warrior, Iceborn Gantlet, Sterak's Gage, Dead Man's Plate\n Really straight forward. I camp my Draven letting Nunu take my jungle. I stack Armor because they are all AD, and because we need a tank while Trynd can split push. Sterak's Gage lets me tank longer, Iceborn slow is utility for my teammates. \n Sample Game #3 Ally Team Enemy Team Illaoi Kled Evelynn Twitch Taliyah Diana Tahm Kench Thresh Vayne Lucian The first thing I notice is Twitch jungle. They also have Kled, and Lucian, which is a lot of AD damage. However, the only way to stop Twitch jungle is to kill him over and over - his jungle clear is insanely bad. The best way to do this is to go full AP. \n My build: Blue Smite Runic Echos, Protobelt, Lich Bane, Deathcap. \n Unfortunately, I could not include any defensive items for Diana due to the high cost of an AP build. I was also hoping my Vayne would pop off but she didn't. Nor did Illaoi. I could have probably played this a lot better, but I still think this is the best build. \n Sample Game #4 Ally Team Enemy Team Malphite Jayce Evelynn Gragas Annie Kassadin Morgana Janna Caitlyn Lucian The first thing I always look at is my team. I don't really care about countering the enemy team if I can help my team win. Well we have a Malphite, Annie wombo combo into Morgana Stun (hopefully). This is really good. The enemy team has Kassadin, who is impossible to assassinate with AP Eve, and his ultimate is in my opinion a broken ability, because it is basically Flash on a 2 sec cooldown. Now Lucian is a really difficult ADC to assassinate as well, even more so with Janna shields, on top of his 400 HP Black Cleaver and lifesteal. To kill me he just has to press R while standing in Janna ult. Well that rules out going AP Eve. Plus Gragas will buy Runic Echos and MR, and repeatedly invade me, gg. \n My answer to their Evelynn counters: Red Smite Warrior, Hextech Gunblade, Death's Dance, Spirit Visage. \n Why? Jayce is actually a melee champion if he wants to kill me. Immediately if he jumps on me, I can lifesteal ~ 70+ HP per auto attack, even more so with E + Hextech Gunblade, and keep myself alive with R shield. Same thing with Kassasdin. I counter him now because my auto attacks will ignore his shield, so using R to get into my range is incredibly risky for him, more so with my Spirit Visage giving me +30% healing, HP, and MR. Lucian I can now kill, since a normal AP + protobelt build does not work on him. I have gunblade for heavy sustained damage, so in a 1v1, my lifesteal will be more than his. Lastly, if Gragas builds Runic Echos instead of Cinderhulk, I will destroy him with Warrior. My Red Smite negates part of his burst, and with the sustain from Gunblade and Death's Dance, he cannot kill me, unless he goes full AP and I will rush Spirit Visage to counter him. \n I hoped this helped. If you have any questions, about why I built any item on my op.gg I will answer it.",
+   "id": "6no2uo",
+   "comments": [],
+   "age_days": 3372,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Eve Guide From A Retiring Eve Main",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/56tb2a/eve_guide_from_a_retiring_eve_main/",
+   "published": "2016-10-10",
+   "author": "/u/Casteau",
+   "body": "I've mained Eve for around 2 seasons now but due to some hand issues I'm playing less these days and avoiding Eve when I do play. So now that I'm no longer going to be using it, I figured I'd share my secret Eve strats with you. This is a bit of a wall of text, but I'd encourage you to read the whole thing even if you disagree with some sections.\n Champion Analysis\n Eve’s core strength is her passive. While both aspects of her passive are strong, it’s her stealth that really defines her kit. As a jungler, she can apply constant map pressure just by being stealthed and can use her stealth as a unique kind of gap closer – allowing her to get behind vulnerable targets and pop out of stealth at just the right moment. And Eve’s core weaknesses are that she’s a squishy melee champion with no hard crowd control and no dashes or blinks.\n The key to playing Eve successfully on a consistent basis is to find a build that plays well off of her strengths while covering for her weaknesses. To play off her strengths, you want to build some early damage and movement speed. Eve’s early ganks are great and her nature as a squishy melee champion doesn’t really come into play in 2v1 scenarios, so there’s no real downside to building early damage. And since Eve has no dashes or blinks, and since her W gives her a percentage increase in movement speed, building some additional flat movement speed early on helps her chase down and stick to targets.\n But Eve’s weaknesses mean that she’s not well suited to a full damage build. Even if an AP Eve snowballs and manages to assasinate a backline target, she’ll be easy prey for anyone else in the vicinity of the target she just blew up since she has no dashes or blinks and is a squishy melee champion. That significantly limits your usefulness in team fights. \n Building full damage on Eve also has two other drawbacks. First, it significantly impairs your ability to use your stealth and Ult to flank in mid-late game team fights, since the enemy team will just blow you up as soon as you come out of stealth. And second, it means you can't tank baron or dragon, which is a significant issue in a meta consisting mostly of carry top laners.\n Before I go on, let me just take a brief aside to note that Eve is a very versatile champion in the sense that you can build just about anything on her and be useful. I’ve seen successful AP Eves, Hybrid Eves, Tank Eves, and AD/On-Hit Eves. So when I say that she’s not well suited to a full damage build, I don’t mean that such builds aren’t viable; I’m saying that in my view she’s a stronger, more consistent champion when built in the way I’ll describe.\n Core Build\n Iceborn Gauntlet, Skirmisher’s Sabre, Fervor.\n Iceborn Gauntlet is the best item in the game for Eve. She can proc a sheen at will with her Q, she benefits greatly from Iceborn’s slow, and she makes good use all of Iceborn’s stats. Armor is always helpful – even against AP heavy teams it’s useful for tanking monsters and neutral objectives. As a jungler, your overall damage taken will almost always be more physical than magic. CDR is Eve’s single best DPS stat and it also helps with her R uptime. And flat mana allows her to use her spells more freely, particularly when pushing side-waves. It also works well with the other part of her passive, which gives her mana regen based on a percentage of her missing mana.\n Skirmisher’s Sabre is also fantastic on Eve. Her E procs Skirmisher’s true damage twice and it’s an auto reset, so if you play it properly you can get 3 Skirmisher’s procs off very quickly. And the damage reduction can turn around many duels; champions like Lee Sin, Elise, and Kha’Zix that could normally outduel you generally take blue smite. If you have smite up, you can outduel any of them – as well as any of the enemy carries.\n I know that Fervor is a mastery, not an item, but it’s so core on Eve that it belongs here. Eve can get to 8 stacks on Fervor with: Q Auto-E (resetting auto timer). That’s 1 stack from Q, 2 from the auto, and 5 from E. Eve can also constantly refresh Fervor stacks by spamming Q, keeping her at 8 stacks for the duration of the fight. And Fervor, Skirmisher’s, and IBG have insane synergy. IBG’s slow lets you stick to targets to continue to proc Skirmisher’s true damage and Fervor’s bonus AA damage.\n Some quick numbers before we move on. At level 4, Skirmisher’s deals 78 true damage per proc and Fervor deals 26 at 8 stacks. If you get the Q Auto-E combo out of stealth and drop Skirmisher’s smite before the auto, that’s 234 true damage from Skirmisher’s and an extra 26 damage on each subsequent auto from Fervor. And at level 16, Skirmisher’s deals 150 true damage per proc and max stacks Fervor deals 100. That’s 450 true damage and 100 on each subsequent auto if you pull off the same combo, not to mention the fact that any subsequent E’s at max Fervor stacks will apply the 100 on-hit damage twice.\n As you can see, the damage from Skirmisher’s and Fervor is very meaningful at all phases of the game since it scales with levels. And since IBG’s proc damage scales with base AD, it also (in effect) scales with Eve’s level. So with this core build, Eve has meaningful damage at all phases of the game – without building a single damage item.\n Filling out the build\n Since this core gives you so much damage that scales so well into the mid and late game without building damage items, the best way to fill out your build is with the appropriate tank items. Build (but don’t rush) Cinderhulk and some combination of Randuin’s, Visage, Banshee’s, Thornmail, Warmog’s, etc. If you build the right tank items in the right order, you should be able to flank-initiate team fights, dish out meaningful damage, and survive. You should also be able to 1v1 any enemy carry other than a designated split pusher who’s ahead.\n I know that building damage items and one-shotting people is fun. But the core of this build revolves around damage sources that scale with your level, and this build succeeds by sticking to targets and layering as many auto attacks, Q’s, and E’s as possible throughout a team fight. The extra damage from a Protobelt or Rylai’s or Titanic will not do enough to offset the survivability you’ll lose by building them instead of a true tank item.\n This build also accentuates Eve’s strengths in the early game while covering for her weaknesses in the mid-late game. In the early game, rushing Sheen, Skirmisher’s, and an early pair of upgraded boots (for extra Fervor-empowered Sheen procs) makes Eve a very strong ganker and duelist. And in the mid-late game, this tanky, high CDR build gives Eve great DPS, meaningful CC with IBG’s slow, the ability to engage/flank, and the ability to tank baron and dragon.\n Playing out the early-game\n I start the game with Hunter’s Talisman and refillable potion. I start on the side of the map I think will be more readily gankable at level 3. With a standard leash by either your top laner or your duo lane, you should be able to clear Krugs/Gromp > Razorbeaks/Wolves > Blue/Red and finish with near full HP. Make sure you kite Krugs and Blue with Q and make sure you kill the small Razorbeaks first. Doing your buff camp third means you’ll have smite back up, which is both safer (from invades) and results in a higher HP clear.\n Hitting level 3 with enough HP to gank is extremely important. I quite literally can’t overstate how important it is. This is the only time during the game when you can be sure (well, 99.9%) that there are no pink wards around. And getting off a successful early gank will (probably) enable you to pick up a Sheen on your first back, which should be your early-game goal.\n Successfully ganking with Eve requires precise positioning and coordination with your laner. The first step is to identify a gankable lane. Generally, this means finding an enemy laner that’s pushing or using their gap-closer aggressively, though it also helps if your laner has some CC. Once you’ve identified your lane, choose your angle of approach, keeping in mind Eve’s stealth range. You want to position between the enemy laner and their turret, cutting off their escape route. Once you’re in position, you want to wait for your laner to initiate a trade. When you see the enemy laner commit to the trade, pop out of stealth.\n One additional ganking tip: setting up a level 3 gank in the top lane is a very reliable strategy, especially if top side is red side. As you’re leaving base, tell your top laner to position the lane for a level 3 gank. Ping that you’re coming so that your top laner knows to initiate a trade, and take advantage of Eve’s chasing power in the long lane to pick up an easy first blood. This works in 90%+ of top lane matchups.\n Runes and Masteries\n Obviously you should be going 18 offense for Fervor. This build deals a pretty even split between physical and magic damage, so choose between armor and magic pen based on whether the enemy team will likely build more armor or MR. Definitely take Natural Talent since Eve scales off of both AD and AP.\n I’d also strongly suggest putting 12 points into the Resolve tree: Recovery, Tough Skin, Runic Armor, and Perseverance. These 12 points help your first clear immensely, and it’s well worth spending them so that you can hit level 3 with full HP.\n The standard Eve rune page is fine, I suppose, though if I’m honest I don’t love it. I prefer hybrid pen marks and quints, armor seals, and a combination of flat and scaling CDR glyphs (to end up with 10% at level 18). The standard page will be better for the first few levels, but my preferred page will be far better mid and late and is good enough to clear the jungle and pick up early kills.\n When not to pick Eve\n The build I’ve outlined is designed to help her scale into the mid and late game, but no matter how you build Eve there are champions that will outscale her with that build. In the late game, there are better tanky initiators, better AP assassins, better on-hit champs, better split pushers, etc. What that means is that if you don’t snowball yourself or your laners, you’re not doing your job. You can’t passively farm and expect to consistently win with Eve. You need to pressure the map in the early game and if you’re not picking up kills for yourself, you need to help your laners secure advantages that they can use to snowball the game.\n Sometimes, you can tell in champ select that it’s going to be one of those games where you won’t have the opportunity to do any of that. If you’re picking last, your team has 3 winning lanes, and the enemy jungler is Master Yi, you probably shouldn’t pick Eve. Sure, the enemies might aggress in bad lane matchups and present gank opportunities for you, but the odds are you’re going to be engaged in a farm-off against Master Yi and that’s only going to end one way.\n How to play against Eve\n (1) Don’t push your lane. If you keep the minion wave close to your tower, Eve can’t gank you. Your tower will reveal her if she gets close and if she dives you she’ll almost certainly die. But if you can’t keep your wave close to your tower…\n (2) Buy pink wards. If your lane is pushed, drop a pink somewhere you’ll be able to defend it and play around that zone of safety. Don’t limit yourself to dropping it in a bush; placing it behind you in lane can be extremely effective if the enemy laner can’t walk up and clear it. I can’t tell you how many times enemy laners have wasted pinks by placing them somewhere they can’t defend them or somewhere that won't spot my approach. Figure out where you’re going to position your wave, keep in mind that Eve's lane ganks are very strong, and place your pink accordingly, even if that means putting it in the middle of the lane. \n (3) Blue trinket her camps. Eve will have to leave stealth to clear a camp, so the ward left behind by blue trinket will spot her if she does. If you Blue trinket the enemy camp nearest to your lane, you’ll have some idea where she is – or isn’t – on the map. If your teammates do this as well, you can effectively keep track of the enemy Eve.\n (4) Invade. While Eve’s early ganks are great, her early dueling is poor. If you’re on a jungle champion like Lee Sin, Elise, Nidalee, or Kindred, you can safely outduel Eve in her jungle. Even if you don’t get a kill, you’ll do your team a service by keeping her farm and/or HP down and keeping tabs on her location. You can also do this as a laner if your lane is pushed. If you notice that your wave is pushing, you’re safer hard shoving it into tower and invading her jungle than slow pushing and standing around in the middle of the lane.\n (5) Play Rek’Sai. Having a Rek’Sai on the enemy team is quite literally a game-changer for Eve since her tremor sense will detect Eve while she’s stealthed. If there’s no Rek’Sai in the game, Eve simply has to check bushes she walks by for pink wards and if there are none around she knows she hasn’t been seen. But if there’s a Rek’Sai in the game, that certainty disappears and Eve has to play far more cautiously. Rek’Sai can also outduel Eve at any point in the game (unless Eve gets far ahead of her), has strong early ganks and counter-ganks, and is similarly useful in the late game.\n (6) Focus on neutral monsters. While Dragon and Rift Herald aren’t as valuable as Towers in the current meta, they’re still worth something and Eve is among the worst junglers at killing neutral monsters. She’s squishy by nature and has no way to mitigate damage from monsters, so even with this build she can’t effectively tank neutral monsters until well into the game. She also prefers to start team fights stealthed and initiate with a multi-person Ult, which she can’t do if she’s already fighting a neutral monster. For that reason, many Eves will de-prioritize neutral monsters, leaving the door open for your team to play around them.",
+   "id": "56tb2a",
+   "comments": [],
+   "age_days": 3651,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Evelynn Mid Guide",
+   "url": "https://www.reddit.com/r/EvelynnMains/comments/42zzuo/evelynn_mid_guide/",
+   "published": "2016-01-27",
+   "author": "/u/GeistesblitZ",
+   "body": "Introduction I've mained Evelynn Mid for about 3 years now, on and off (after her nerf to E making it physical, I stopped playing it as much for a while, until Luden's Echo came out). I'm not sure how many people played in Season 2/3, but Evelynn was played almost exclusively mid for a while. She was a huge terror in not only solo queue with over 60% win rate (she was crazy broken), but also in competitive with a few LCS mids playing her to decent success. Her build was basically DFG into Deathcap, hopefully getting enough damage to one shot their squishies with dfg+E+Q (maybe adding an R afterwards if it wasn't enough damage, since R used to do % max hp).\n That was then, and here we are 3 years later. Since the season 6 preseason patch, with the introduction of Thunderlord's, as well as the introduction of Luden's Echo and adding on-hit effects to her E to proc Lich Bane, I feel like right now Evelynn Mid is around as strong as she was back then.\n Here is my match history as proof that she's at least viable (I play other champs too, but just look for the Evelynn ones and you'll see how strong she is. I was in Plat last season, got placed into gold 4 this season after going 8-2 (6-1 with Evelynn only) http://na.op.gg/summoner/userName=Sinzari\n Misconceptions First, I want to clear some misconceptions, because there are a LOT of them, even amongst the few Evelynn Mid players I've seen. Firstly, her early game is NOT weak. She does NOT lose to ranged harrass. Rather, her early game is so strong that your lane opponent will be at half health be level 3, and then like a Fizz vs Lux matchup, the Lux won't even come within 1000 range of you for fear of death. I'll explain how to win lane in a bit. Secondly, she does not fall off. If anything, she's one of the best scaling mids in the game. She has no wave clear, true, but right now in the meta, wave clear is not as important. People rarely get pink wards now because they don't want to give up an item slot, and if they do, then you're still fine because your whole team will be an item up on them and you'll win through brute force, and lategame your damage is so high that your E+Q will instantly kill a carry. Furthermore, unlike season 2/3, your E+Q is no longer restricted by the 60 second cooldown of DFG, only the 20 second cooldown of Thunderlord's. So if you do fall behind early game, do not feel as though the game is lost. You can still outscale any ADC because if you do your job right, they won't have an ADC. Finally, she is not a poor teamfighter. She is weaker in teamfights than in skirmishes and roaming, yes, but her ultimate actually makes her a very strong teamfighter. I'll explain how to teamfight in a bit as well.\n How to Play Laning Phase So how do you win laning phase? Level 1, as soon as you see minions arive, start using Q and auto attacks to push as hard as you can. This is absolutely essential to winning lane, if you get to lane even 5 seconds late, you will often be behind for the next couple minutes. The key here is initiative, similar to a card game or other turn based game. As long as you make the first move, all they can do is respond to your moves. So level 1, we push the wave into their turret. Evelynn is the fastest pusher at level 1 in the game because of her Q, so you should not have a problem with this. Try to not take too much damage, and try to hit them with the Q as well, but it's okay if you lose the trade here. Just chug a potion, and do the same thing at the second wave. A lot of the time, if you got 3 Q's off on them (especially against a melee laner like Fizz or Talon), you will already be fairly far ahead because of Thunderlord's. If they are ranged, they will usually take some damage from the minions while trying to auto attack you or farm after their minions are all dead (some players try to tank the minions rather than letting their turret hit it). \n The next wave will be a cannon wave. You can't shove this one fast enough, so this is where you start interacting with your laning opponent. This requires some experience to know exactly what to do, but the goal is basically to stealth and just wait. You will lose some CS, maybe even the cannon minion, but in the long run that's not what matters, because if you shove them out of lane they'll lose way more than you (they will also likely have lost some cs to the turret in the first 2 waves, so you won't be behind anyway). As soon as they use a skill or you feel like they can't outtrade you (this might be immediately, since some champs can't outtrade you even with all your skills), you rush into their face, EQ them at max range, and run back past your minions. EQ procs Thunderlord's, so this should get them to around half health if they haven't used any potions (including the damage from the first 2 waves). \n At this point, if all has went well, they'll be too scared of you to harass. That's not to say they won't take free damage if you give it to them, but they won't play aggressively. Use your stealth a lot, sometimes you can't take some cs because you're melee, and that's fine, just stealth and recover your mana and get a positional advantage. Play aggressive whenever they use a skill because you'll be able to outtrade them, and if you're not in stealth, you should be trying to shove the lane. You're not like most laners who simply last hit the minions, you're either shoving, trading, or stealthed. Last tip is that sometimes it's valuable to try to bait important skillshots like Ahri E or Lux Q. Once you're stealthed, simply W straight at their face, but suddenly stop short once you're at about 400-500 range of them and run perpendicularly. They will almost always expect you to be running straight at them to EQ their face, so they'll miss their important CC, at which point you can actually go in and EQQQQ them to their turret.\n Mid Game and Roaming At some point, you'll find that their isn't much to do in lane. Sometimes (rarely) this actually happens at level 2, when you've shoved up the second wave and their champion isn't one you can safely harass. At this point, you should roam. After level 5-6, you should think of Evelynn not as a mid laner, but as a second jungler who occasionally clears the mid lane minions. If the enemy tries to push hard, you can actually gank your own lane because they won't know where you are and wards don't help against you. At level 6 you should be able to outtrade almost all midlaners if you won the early game, with a few exceptions (like Annie or Malzahar, LeBlanc is also risky because if she lands her E you're likely dead), so just go behind them and REQ and try to kill them if they push up. Otherwise, just keep wave clearing mid and roaming. The enemy mid will often try to roam as well because they can't push. After level 7, you actually can get poked down and maybe even killed in lane, so you should try to push while the enemy is roaming, and roam while the enemy is csing. \n Late Game and Team Fighting Once laning phase is over, you should have a few kills, and be around even in CS with the enemy mid laner. You should also have enough damage to simply kill any squishy you find instantly. At this point in the game, you should stay close to your team, but not with them, otherwise your stealth is wasted. Spend your time trying to find and kill people walking alone between lanes or people overextended a bit trying to farm, or clearing pinks that they'll inevitably be setting up. At this point, team fights should start happening. Your goal, once again, is not to be with your team, but close enough that if a team fight starts you will always be there to help. Try to not initiate team fights near turrets (tell your team that if you think they're being aggressive near a turret because you're there) because the turret has a huge circle of true vision where they'll be able to see you (even if you're behind a wall, as long as they have a regular stealth ward there). Your goal is to be flanking their team, or be completely BEHIND their team when a team fight starts. This usually gives you free access to their squishies, lets you WREQ the squishies (make sure your R hits as many people as possible), and W away to safety. Once you're stealthed again (the team fight is usually still going), you can go around them again and try to finish off anyone running back to their base. \n Sometimes, you can't get around them because of one of a multitude of reasons. Maybe they have good pinks set up all around them, maybe your team is trying to push down a turret, maybe you didn't have time to get into position before the teamfight started. Whatever the reason, you should try not to stay too close to your team, because with how squishy you are, you'll die easily to collateral damage. Wait a while for them to throw some spells and for your tanks to start CCing people before going in at all. When you do go in, R as many people as you can for the shield, and pick your target carefully. E the most important target that you are sure you'll be able to kill (sometimes this means even if you have to flash in and die, for example against a fed Jinx, as long as you can kill them). After that, if you're still alive, W out through the nearest path to safety (doesn't have to be toward your team, often times running out behind the enemy will be safer because you will be stealthed after a few seconds and can get out safely afterwards) and depending on how the team fight went, just try to Q people as safely as possible. Think of yourself as a 400 range Kalista (you can Q and move at the same time). Kite the tanks and bruisers, and once you're basically done the team fight, W back in to kill and stragglers with the movement speed.\n Now that we've gone through the playstyle of Evelynn Mid, let's go over the runes, masteries, and item build. A lot of this strategy won't work with the right Masteries and items (runes are also important, but not nearly as much.)\n Runes Marks For marks, you should take Hybrid Penetration (Magic Penetration is an alright substitute). \n I highly recommend Hybrid Penetration, as your E is a significant part of your burst late game, and your auto attacks are useful for trading and ganking early game. It is by far the best late game rune, and about as good as other options (like AD and Magic Penetration) for early game trading.\n Seals For seals, the options are pretty simple. You can take armor against a difficult physical damage laner, but I'd recommend HP/level against everyone just because you shouldn't be dying to physical champions early on.\n Glyphs For glyphs, you can use either AP/level, flat AP, or flat Magic Resist. \n Cooldown reduction isn't as good because your main purpose mid game and late game is to instagib people, and cdr doesn't increase your E's damage. I recommend AP/level because her ap scaling on Q early game isn't too great (they increase as you level it up) and you don't use E as often early game. However, flat AP may be worth it for some matchups where you want to play super aggressively and need to snowball the lane (such as against Talon or Fizz). Magic resist can be used against a few matchups where they have a lot of damage and can outtrade you easily. This includes LeBlanc, Fizz if you're not comfortable against him, and possible Annie and Brand. I wouldn't use this against Malzahar because his damage is too high to even combat, so you should just try to avoid getting close to him at any point in the game.\n Quintessences Flat AP. By far the best because the amount of flat AP you get from Quints is insane.\n Masteries 12/18/0 Significant mastery choices are Wanderer (you'll be roaming a lot), Secret Stash (you NEED the healing early game), Precision (as I've said, you need damage more than CDR), and Natural Talent (gives both AP and AD, which Eve scales incredibly well off). Feast is a decent alternative to Double Edged Sword (better in matchups where it's hard to kill the enemy mid laner). The rest are either obvious or don't matter much.\n Item Build I almost always start The Dark Seal and 3 biscuits. The only times I wouldn't start The Dark Seal is against matchups where they can't do much damage to you, but you can't 1v1 them (where the stacking and extra HP aren't as important, and you just want more mana to farm). Anivia and Galio are 2 of these matchups.\n Why Dark Seal? The Dark Seal is actually a far better starting item than Doran's Ring against most matchups because it gives the same AP as Doran's Ring but gives way more effective HP via the 25% increased potion strength and extra biscuit you get. It gives you around 225 more HP than you get with a Doran's Ring and 2 biscuits. The only downside is that it gives you less Mana Regen, but Evelynn doesn't need it because her Q cost is low, and her passive restores mana fairly quickly. Not only that, but having more Max Mana (instead of Doran's Ring's Mana Regen) means your passive gives you more Mana Regen anyway. The stacks are just an added bonus, this item is only good for its starting efficiency, and should never be upgraded to Mejai's.\n Your core items are Luden's Echo, Abyssal Scepter, Rylai's Crystal Scepter, or Hextech Gunblade into Lich Bane into Deathcap. Regardless of your first item, you should usually get Lich Bane into Deathcap for your next two items since they make up most of your damage (neither are efficient without a decent amount of starting AP which is why you don't get either of them first). \n Tier 1 boots are very good to buy, but it's generally not worth upgrading to tier 2 until you've finished the Lich Bane because almost every AP purchase you make gives you more movement speed anyway, and you would rather have a finished core build than some random utility or defensive stat that tier 2 boots gives. The tier 2 boots you do eventually get should be dependent on their team and the game, every boots is viable except Berserker Greaves (Mobility Boots should be bought early if you're going to buy it, for roaming purposes). Other than boots and your 3 core items, you can buy a lot of stuff for more utility or damage. Zhonya's, Rylai's, Abyssal Scepter, Void Staff, Luden's Echo, and sometimes even things like Nashor's Tooth or Hextech Gunblade are viable.\n And there you have it. Guide to playing what I think is one of the most op mid laners for Solo Queue atm.\n EDIT: I know this subreddit isn't too popular, so I think I can afford to do this: If anyone wants tips or to play with me or see my playstyle of Evelynn mid, feel free to add me in-game (Sinzari is my ign)",
+   "id": "42zzuo",
+   "comments": [],
+   "age_days": 3908,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  }
+ ]
+}

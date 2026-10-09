@@ -1,0 +1,965 @@
+{
+ "champion": "Lux",
+ "subreddit": "lux",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "I spent 100+ hours making a complete Lux Mid Bible",
+   "url": "https://www.reddit.com/r/lux/comments/1wfdha3/i_spent_100_hours_making_a_complete_lux_mid_bible/",
+   "published": "2026-09-13",
+   "author": "/u/Yozu__",
+   "body": "https://preview.redd.it/bhzdbhx0mbph1.png?width=1172&format=png&auto=webp&s=107862a437eddc0b994a4a89696e93170afc0b48\n Hey everyone!! I've been working on this for a while now and I can finally share it :D\n I made a full Lux Mid Bible with pretty much everything I've learned from playing Lux over the years and reaching Rank 1 with her.\n It covers 70+ matchups with individual matchup guides, builds, runes, laning, wave management, mid/late game, positioning, combos and a bunch of other stuff.\n I'm also planning on constantly updating it every patch/season whenever builds, runes or matchups change, so this isn't something I'm just gonna release and forget about.\n The guide is on Metafy for 14.99$/month. The main reason I made it a subscription is because I want this to be something that stays up to date instead of becoming outdated after a few patches. As long as you're subscribed, you'll get all the updates I make whenever builds, runes, matchups or the meta changes, as well as any new sections/content I add to the Mid Bible.\n You'll also get access to the Discord where you can ask me questions about the guide/Lux, and I'll be taking feedback from subscribers on things they'd like to see added or explained more!\n I'm currently working on the Support/Bot Lux Bible next as well :) Once that's finished, I'll be putting together a really good bundle for anyone who already owns the Mid Lane Bible, so you won't have to pay full price for both.\n Guide Link — 15% OFF for launch + Twitch subs get another 15% OFF (up to 30% total)\n Would also love to hear any feedback or things you guys think I should add!\n Here's a preview of the matchup guide section:\n https://preview.redd.it/qot6yc61kbph1.png?width=2041&format=png&auto=webp&s=7c894a8017050eab0b5695abadba2ba19a032e66\n https://preview.redd.it/loskbuxbjbph1.png?width=956&format=png&auto=webp&s=c9500acdb06f2d02750ccef967d6a31ad2b12ff0",
+   "id": "1wfdha3",
+   "comments": [],
+   "age_days": 26,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Grandmaster EUW Lux main — some thoughts on how I play Lux",
+   "url": "https://www.reddit.com/r/lux/comments/1w0z188/grandmaster_euw_lux_main_some_thoughts_on_how_i/",
+   "published": "2026-08-28",
+   "author": "/u/Bailey2k2",
+   "body": "Hi everyone, I’m Bailey.\n I’m a Grandmaster EUW player, currently around the top 100-ish on Lux in EUW, with 1.5m+ mastery points. I’ve peaked around top 50 Lux worldwide, and I’ve recently started doing coaching/VOD reviews as well. I’ve done 50+ sessions so far and honestly really enjoy helping people improve.\n I thought I’d share some of the things I’ve picked up from playing so much Lux. Obviously, this is just my experience and there are plenty of different ways to play the champion, but hopefully some of this is useful.\n Laning / playing around your jungler One of the biggest things I do during lane is abuse fog of war.\n I’ll fake roams, shove waves, hover my jungler for invades, and constantly watch where my jungler is so I can adjust how I play the lane.\n For example, if my jungler is looking to invade, I want my wave pushed under the enemy tower, or at least positioned on the side of the lane closest to the camp being invaded. That way I can reach the 2v2 before the enemy mid laner.\n At the same time, knowing when you cannot move is just as important.\n If your jungler wants to invade but you've been shoved under tower by an AD mid, sometimes the correct play is simply telling them that you can't move. Following them anyway can mean losing an entire wave and still arriving too late.\n I still see Master+ players make mistakes with this, so I think it's something lower-ranked players can consciously work on.\n After Lost Chapter Once I have Lost Chapter, I feel like I can start putting much more pressure on the lane.\n You can harass more aggressively, create kill opportunities and generally make the enemy mid uncomfortable.\n One thing I think people sometimes overlook is that you don't necessarily have to fully roam to influence another lane.\n If there's a 2v2 happening bot, for example, you can sometimes use Lux R from range, chunk someone for a huge amount of HP and then return to mid without actually committing your whole champion to the roam.\n Obviously you shouldn't just throw your R randomly every time there's a fight, but Lux has a lot of map influence because of how safely she can contribute from range.\n Matchups There aren't many matchups I genuinely feel like I struggle with on Lux. I'd describe some more as matchups that stop me from scaling as comfortably as I'd like.\n Zoe:\n She can be annoying pre-6 because her W autos can do a surprising amount of damage. After 6, though, I think Lux can become much more aggressive when Zoe's bubble is down.\n With enough practice, you can also consistently look for R opportunities when she uses her R, which makes it much harder for her to comfortably play around that ability.\n Ahri:\n One of the matchups I generally like.\n Lux has the range advantage in a lot of situations and can slowly chip Ahri down throughout lane. If she roams, Lux can also contribute with R from a huge distance.\n I feel like Ahri often has to actively create something to impact the map, whereas Lux can hold a safer position and still influence the same play.\n Naafiri:\n Probably the matchup I dislike the most.\n Her minions make landing Q much harder, and while I don't think the matchup is unwinnable, it takes a lot more practice to play comfortably.\n Yasuo:\n Obviously Wind Wall is incredibly annoying. He can block basically everything apart from R, so you have to be much more deliberate with your ability usage.\n Akshan:\n He isn't necessarily a lane bully, but he can create a really annoying situation where he constantly has push priority and gets to roam.\n You can end up farming under tower while he moves around the map without losing much himself.\n Builds I've been experimenting with this a lot, and personally I think Luden's is significantly better than Malignance on Lux.\n Malignance feels pretty underwhelming to me in comparison. Luden's gives you much better burst and has some utility that people don't always consider.\n For example, against Malzahar, you can proc Luden's through minions or use the slow from E to help remove his passive.\n It can also be really useful against assassins who buy Edge of Night, because Luden's can help remove the spell shield before you actually need to land your important ability.\n My usual build is something along the lines of:\n Dark Seal + Lost Chapter first base ideally\n → Luden's\n → Boots\n → Shadowflame\n → Deathcap\n → Void Staff\n → Zhonya's / Banshee's / Stormsurge depending on the game\n Obviously, this isn't a build path I'd blindly follow every game. Mejai's can be completed much earlier if you're sitting on a lot of stacks and the game is safe enough to justify it.\n I'd also generally recommend First Strike.\n One thing I've learned through playing at higher MMR — and especially through coaching — is how much efficient gold usage matters.\n Wasting 300–500 gold here and there might not feel significant, but over an entire game it can massively affect your item timings. Understanding when you can afford an item, when you should recall and what you're actually gaining from a purchase is a surprisingly big part of climbing.\n Playing carry Lux vs playing for your team I play carry Lux in the majority of my games.\n However, I think one of the biggest mistakes you can make is deciding before the game starts that you're always going to play for picks.\n Sometimes the enemy team is difficult to catch, your team has a hypercarry ADC, and your best win condition is simply front-to-back teamfighting.\n If my ADC can genuinely carry the fight with some protection, I don't need to force a pick every time I see someone slightly out of position.\n I'm still playing carry Lux — I'm not suddenly building support or sitting behind my ADC all game — but during teamfights I'll pay attention to anyone trying to assassinate or engage on them.\n If they commit onto my ADC, I can often dump my damage into them and completely remove them from the fight.\n There's also a lot of value in hitting the frontline.\n If my ADC and I are both consistently hitting the same frontline target, the enemy team needs to have a really good combination of armour and MR to actually survive both sources of damage.\n A lot of team compositions simply cannot walk forward and function properly without their frontline, so sometimes the correct way to carry a game on Lux is surprisingly simple: hit what's in front of you and protect your win condition.\n I think that's one of the more important things about improving at League generally — knowing when your role in a game needs to change slightly.\n Anyway, hopefully some of this is useful. I could probably write an entire post about Lux matchups, runes, builds and lane-specific tricks, so if anyone has questions feel free to ask.\n And if anyone wants a VOD looked at or wants to discuss a specific matchup/playstyle, I'm happy to help where I can.\n Please no hate, Just love this community and wanted to help out where I can :)",
+   "id": "1w0z188",
+   "comments": [],
+   "age_days": 42,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Advice on thriving in Diamond?",
+   "url": "https://www.reddit.com/r/lux/comments/1vsslbn/advice_on_thriving_in_diamond/",
+   "published": "2026-08-19",
+   "author": "/u/Glum-Standard2691",
+   "body": "Hello, I am new here. Thank you for having me!\n I've been playing Lux since I think in season 3 or 4? In season 2 I used to play jg panth/mumu but after trying lux I never really looked back. I play almost exclusive MID and sometimes APC bot or mostly support as secondary role if I don't get my Mid.\n I feel like I'm in a place I don't belong. I did reach diamond in 2025 and thought it was a fluke. And I tried again this year and got it again, but it's not like it was easy to do.\n I also notice as soon as I hit diamond, the shift in culture if that makes sense feels like day and night to me compared to emerald. Not so much in game knowledge, but game execution. People tend to be more refined. And I realise, that I am highly inconsistent when it comes to playing refined.\n I still can go feeding first 5 kills early game, auto-piloting, making poor decisions, not knowing where I should be all the time. Or atleast being able to do all that on a mediocre level. Sometimes I can play this consistently with minimal mistakes, and other times i'm highly inconsistent and just go on a lose streak.\n I used to think I plateau'd in gold, the same in plat, and then emerald, and now in diamond. I guess I'm struggling to figure out where is the wall that's keeping me from continuing? I recently got stomped on the last 6 rank games, and I felt useless to my team or absolutely gapped in matchups.\n I play in EUW and my tag is LuxyRay#EUW if you want to look.\n Is there any other lux players in this elo that kinda understands (or don't) and can drop some wisdom on how can get good and thrive diamond?\n https://preview.redd.it/roq5txjl6dkh1.png?width=1216&format=png&auto=webp&s=ae5141232c60c9067ef8aae94535ded7a2850c86",
+   "id": "1vsslbn",
+   "comments": [],
+   "age_days": 51,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Difference between high elo and low elo lux",
+   "url": "https://www.reddit.com/r/lux/comments/1urmka2/difference_between_high_elo_and_low_elo_lux/",
+   "published": "2026-07-09",
+   "author": "/u/Longjumping-Box2279",
+   "body": "First I would like to clarify this post has only educational purposes. \n What is the difference between high elo and low elo lux? I know people play lux sometimes in challengers as well. I haven't seen much lux since gold except the few times they needed ap or thought its a good counter. I have played her a few time with enchanter runes and build and it was fun. \n Is it all about hitting more skill shots or? I recently played as yasuo against a higher ranked lux on top lane. It was a tough matchup for sure for her but even tho there was a huge farm gap like 20 to 70 and I had 2-3 kills on her. I couldn't really say I won hard. At the end of the game we both had good scores so makes me think. What can a lux do better then hit skill shot?",
+   "id": "1urmka2",
+   "comments": [],
+   "age_days": 92,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Haven't played league in around 5ish years, just found out that Lux apc is a thing now? What does that look like?",
+   "url": "https://www.reddit.com/r/lux/comments/1ujhuwv/havent_played_league_in_around_5ish_years_just/",
+   "published": "2026-06-30",
+   "author": "/u/Kingnewgameplus",
+   "body": "My two main roles are mid and adc so I'd love to add her to my pool down there but idk anything about it. Do you just build her like you would mid? What does her matchup spread look like, like who is she good and bad into, and who's a good or bad support to pair her with? And mechanically, do you lane with her in any meaningfully different way?",
+   "id": "1ujhuwv",
+   "comments": [],
+   "age_days": 101,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Locke Matchup",
+   "url": "https://www.reddit.com/r/lux/comments/1ui0ywy/locke_matchup/",
+   "published": "2026-06-28",
+   "author": "/u/ThatDollfin",
+   "body": "Hi all! \n I've been playing a lot of lux, primarily support, but want to learn some mid lane. Recently had a game where I got a few solo kills on Locke early, but he eventually hit first item and was able to kill me anywhere in lane other than under my own turret - the combo of his blink to avoid root plus dash behind, on top of the increased MS on his W made it impossible to escape his damage. \n What do you guys recommend doing into Locke, and champions like him? It feels like just sitting under turret is a waste.\n Here's the link to the game.",
+   "id": "1ui0ywy",
+   "comments": [],
+   "age_days": 103,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Stormsurge or shadowflame ?",
+   "url": "https://www.reddit.com/r/lux/comments/1torjfp/stormsurge_or_shadowflame/",
+   "published": "2026-05-27",
+   "author": "/u/New-Fig-5116",
+   "body": "Hi, I'm currently trying to understand better how i should build my lux mostly mid depending on the situation. \n I usually go luden (malignance if the matchup is difficult or tanky comp) and just follow the usual mobalytics build which is, stormsurge + shadowflame+ rabadon + voidpen, and if needed i'll put a zhonya or morello somewhere. \n As for the runes, i usually go comet, manaflow, transcendance, scorch (I should probably go gathering storm though). And domination for secondary runes (i never tried the precision one, if you have any info on this build rune i'll take it, it makes me curious).\n And I saw people building stormsurge or shadowflame, and wondering why is that, and should I build both like I'm currently doing ? And if i go dark seal/mejai which one should go (or even if i build zhonya which item should go ?)\n Thanks for the help ! I like it in here :D",
+   "id": "1torjfp",
+   "comments": [],
+   "age_days": 135,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "First strike better then comet",
+   "url": "https://www.reddit.com/r/lux/comments/1rw6hzf/first_strike_better_then_comet/",
+   "published": "2026-03-17",
+   "author": "/u/Ok-Original-2527",
+   "body": "So u have more cash early/mid + more dmg late game. Why should u go comet? I dont see it. U still can go seconday blue runes with manaflow. \n What do you guys think? Ofc against xerath or syndra comet is probably better to survive lane but in other matchups?",
+   "id": "1rw6hzf",
+   "comments": [],
+   "age_days": 206,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Lux build, runes and summs in s16",
+   "url": "https://www.reddit.com/r/lux/comments/1qr5s4c/lux_build_runes_and_summs_in_s16/",
+   "published": "2026-01-30",
+   "author": "/u/Queasy-Estate-4270",
+   "body": "Have you tried any of the new items on lux, what runes and summs do you usually take, drop your suggestions below. I'm willing to try some new stuff as I'm kinda having a bad start this season. \n For mid I take DH runes and rn Ludens instead of Malignance (which I bought last season), boots I take depending on the matchup sometimes mercs or tabis. Second i buy stormsurge bcs of the DH and then Shadowflame or death cap. Zhonya and mejai and horizon in some situations.",
+   "id": "1qr5s4c",
+   "comments": [],
+   "age_days": 252,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Quick matchup tips need Lux mains eyes",
+   "url": "https://www.reddit.com/r/lux/comments/1plu3gy/quick_matchup_tips_need_lux_mains_eyes/",
+   "published": "2025-12-13",
+   "author": "/u/gaetanm",
+   "body": "Hey Lux players,\n I’m building LaneDiff, a small tool that shows fast matchup tips you can read during champ select or the loading screen.\n Lux is interesting because she’s played in very different ways (mid vs support, poke vs burst, wave control vs pick setups), and that makes some matchups surprisingly tricky to get right.\n The initial tips are AI-generated (there are just too many matchups to cover manually), so some details can definitely be off, and that’s where actual Lux mains are way more reliable than any model.\n If you want to help, each matchup page has a “Something wrong?” link. It takes a few seconds, no account required. If your correction improves the page, you’ll be credited as “Enhanced by X”.\n If you’re a coach and want to review matchups “officially,” I also have a small review system:\n You get a unique coach code\n You can review any matchup using it\n Your name appears as “Reviewed by Coach X”\n Hover tooltip shows your tagline + Discord/website\n You can reach me by email (in the site FAQ) if that’s something you’re interested in.\n Lux has a lot of matchup-specific nuances, so even small corrections make a big difference for players trying to learn her efficiently. Thanks in advance!",
+   "id": "1plu3gy",
+   "comments": [],
+   "age_days": 300,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Lux build paths",
+   "url": "https://www.reddit.com/r/lux/comments/1p272de/lux_build_paths/",
+   "published": "2025-11-20",
+   "author": "/u/YourHentaiHost",
+   "body": "I don't see why people build ludens on lux, I have seen most people build it in my elo when it's clearly not what she wants as a champ, malignance is just clearly the better option, it just works much better with her than ludens, in my opinion malignance into horizon focus is luxs core build as it gives lots of ap and tons of ability haste, with boots being dependant on feats, building this way is best into everything, it makes it so her wave clear is 10x better because you can just ult the wave with 0 issues as it's back up in 20 seconds max, in bad matchups you don't even need to interact as her ult and e clears it from ages away, and this also helps her with roams as she can easily get prio as her ult basically proxies for her on a non-cannon wave, runes being comet, ult hunter and cheap shot being clearly the best thing on her as dark harvest is the biggest bait rune for lux, I dont see why people are building her like ludens into stormsurge or even ludens into malignance Tldr- malignance into horizon best build and building ludens is troll",
+   "id": "1p272de",
+   "comments": [],
+   "age_days": 323,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "vlad matchup",
+   "url": "https://www.reddit.com/r/lux/comments/1o4usro/vlad_matchup/",
+   "published": "2025-10-12",
+   "author": "/u/Policy_Obvious",
+   "body": "hi queens, i recently migrated to a different server and have noticed a ton of vladimir mids, which is a miserable matchup as most of you know.\n last time i faced him was today; i rushed oblivion orb because i tend to be a proper lane bully and could not for the life of me keep up with his healing. i ended up being able to solokill him multiple times off of it in that game. however, the first time i tried it a couple days back, orb seemed to do absolutely nothing to help me. i decided to look into it and have seen many vlad players say it’s just not a good early purchase (i buy it after lost chapter, but before first item) because the heal is only off of enemies, but my argument is that if i want to have enough damage to kill, i have to proc passive. at that range, he can heal off of me regardless, no? so oblivion should be useful in a 1v1.\n some insight would be much appreciated 🫶🏽",
+   "id": "1o4usro",
+   "comments": [],
+   "age_days": 362,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What matchups y'all hate the most in the botlane?",
+   "url": "https://www.reddit.com/r/lux/comments/1mwdo2i/what_matchups_yall_hate_the_most_in_the_botlane/",
+   "published": "2025-08-21",
+   "author": "/u/Yureizen",
+   "body": "I play in NA, GM peak, currently masters!",
+   "id": "1mwdo2i",
+   "comments": [],
+   "age_days": 414,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Lux mid strategies",
+   "url": "https://www.reddit.com/r/lux/comments/1i1cfua/lux_mid_strategies/",
+   "published": "2025-01-14",
+   "author": "/u/UnluckyExperience721",
+   "body": "Hi guys! \n I’ve been looking for a burst damage champ to main for some time and I played around with lux for the last five games and really loved her.\n I’m considering maining her as mid this season and just wanted some tips for how to play her in different scenarios. E.g: how to play around assassins, tanks, control mages etc. \n Playing against people like ahri and malz isn’t too bad but I want to have more plans for those weirder matchups which aren’t played as often.\n Any help is greatly appreciated!",
+   "id": "1i1cfua",
+   "comments": [],
+   "age_days": 633,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I coded a Website for comparing Champion Winrates in 1v1 Fights at each Level",
+   "url": "https://www.reddit.com/r/lux/comments/1e26jy3/i_coded_a_website_for_comparing_champion_winrates/",
+   "published": "2024-07-13",
+   "author": "/u/Nexosharp",
+   "body": "Hey,\n I’m currently working on a website for League of Legends players (already riot approved), which offers unique statistics that you won’t find on other platforms like OP.GG, U.GG, or Lolalytics.\n What makes It unique?\n 1v1 Winrates by Level: Compare how two champions perform against each other in solo fights at each level from 1 to 18. For example, you can see the 1v1 win percentage for Champion1 vs Champion2 at level 1, 2, 3, and so on.\n Counter Search Tool: Input a champion’s name and find out which champions have overall the best win rates against them in 1v1 fights, based on millions of solo kills data.\n Further features for jungle & bot lane soon...\n All the data is scraped from real ranked (bronze to diamond) games, providing accurate and up-to-date statistics on champion matchups from the past 30 days.\n Since I don't use simple game outcomes or \"general overall\" statistics as a winrate, but rather actual data from millions of 1v1 fights for each individual champion and level, this tool can be useful for players who want to improve their understanding for certain matchups.\n So how is this helpful? For example, you are in the loading screen, playing Lux Mid against Ahri and you wonder if or when you will be statistically stronger or weaker in an all-in 1v1 fight against her. Just look it up on my site.\n https://preview.redd.it/5hmqa69pv8cd1.png?width=1256&format=png&auto=webp&s=37af68a5d4bc017b5b5370dbfd45be56996f8fe0\n As you can see here, while Lux wins early fights against Ahri, she starts losing her advantage after level 11. Ahri overall has a 54.39% winrate in 1v1 fights against Lux based on 75,782 processed 1v1 fights. Knowing that, you should try to fight early but avoid fights as the game progresses, especially after level 11.\n If you are interested, you can check it out here: https://1v1showdown.lol\n As a small heads up, the website is in an early development state. I just started using the API a week ago, so there aren't that many solokills inside the database for every single matchup yet (30.1 million), however the size will increase daily.\n Please let me know if you have any feedback, other feature ideas or questions.",
+   "id": "1e26jy3",
+   "comments": [],
+   "age_days": 818,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How do you beat Vladimir with Lux in mid lane.",
+   "url": "https://www.reddit.com/r/lux/comments/1dx36ts/how_do_you_beat_vladimir_with_lux_in_mid_lane/",
+   "published": "2024-07-06",
+   "author": "/u/ObbyMC",
+   "body": "I'm new to mid lane and have no idea how to beat him. \n His W just negates my Q and R completely, basically making them useless, and any poke I get with my E (or just damage I get in general) just ends up getting out healed. I have no idea how to win this matchup.",
+   "id": "1dx36ts",
+   "comments": [],
+   "age_days": 825,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "My Lux Support Matchup tierlist as a challenger peak from euw",
+   "url": "https://www.reddit.com/r/lux/comments/1b932v4/my_lux_support_matchup_tierlist_as_a_challenger/",
+   "published": "2024-03-07",
+   "author": "/u/KilianYeah_lol",
+   "body": "",
+   "id": "1b932v4",
+   "comments": [],
+   "age_days": 946,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Dear Lux Mains. A question from Zed mains.",
+   "url": "https://www.reddit.com/r/lux/comments/189gxdk/dear_lux_mains_a_question_from_zed_mains/",
+   "published": "2023-12-03",
+   "author": "/u/Snoo90549",
+   "body": "What is your opinion on Zed?\n Is he a difficult matchup?\n What part of his kit is frustrating?\n Do you ban Zed?\n If so, if someone made a video going into detail about how to counter Zed, and you learned how to beat him, would you stop banning him?\n A few Zed mains and I are creating an extensive Zed counter guide. I understand that Zed has an incredibly frustrating kit, but I don't think the Zed mains as a whole want to change anything about his Kit. What we're hoping to do is to get people more familiar with his kit, his weaknesses, and hopefully though that we can all benefit from it, making us better players in the long run.",
+   "id": "189gxdk",
+   "comments": [],
+   "age_days": 1041,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Any Advanced lux tips?",
+   "url": "https://www.reddit.com/r/lux/comments/1653xnq/any_advanced_lux_tips/",
+   "published": "2023-08-30",
+   "author": "/u/Cantdecidemyname7",
+   "body": "Im currently emerald 2 lux otp with about 500 000 mastery ranking up quite a bit lately and aiming for masters or higher. Im truely dedicated to being an otp and would like become the best lux player in the world, thus i would like to know every single little trick under the sun for this char no matter how vague.\n Do you have any? Matchups tricks Matchup specific runepages Item mathematics tips for apc lux Skill expression Ability nuance\n Ive already searched quite allot but seems like 90% of lux content is skins.\n League username: zhacaeqo",
+   "id": "1653xnq",
+   "comments": [],
+   "age_days": 1136,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How good is Lux (mid) currently?",
+   "url": "https://www.reddit.com/r/lux/comments/15ldc3a/how_good_is_lux_mid_currently/",
+   "published": "2023-08-08",
+   "author": "/u/Dull_Throat176",
+   "body": "Not sure if I'm just worse it she's gotten worse. I struggle against 90% of the matchups. And God forbid their jungler ganks me once, it's pretty much end game. Been constantly losing ranked with her and will now probably have to stop playing her. Is anyone else facing any similar problems?",
+   "id": "15ldc3a",
+   "comments": [],
+   "age_days": 1158,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Complete noob looking for help with my nightmare matchups for Lux mid",
+   "url": "https://www.reddit.com/r/lux/comments/11ta4q5/complete_noob_looking_for_help_with_my_nightmare/",
+   "published": "2023-03-16",
+   "author": "/u/grovestreet4life",
+   "body": "So, I started playing league 3 weeks ago and now I hit level 30 and have gotten into ranked. I play Lux mid whenever I can. She gets picked or banned very often at my elo. I am in Bronze 2, so you can't get much worse than this lol. I am doing relatively well (not really) and improving a lot game to game. I know the most important things to focus on as a new player are fundamentals like csing and wave control etc. But there are a couple of matchups that are just so overwhelming for me that I can't really stay on lane and start feeding or get zoned away from the wave. \n Any and all tips would be appreciated on any of the following champs (or in general):\n 1) Irelia: This is the worst one I think. Granted, out of the 3 times I faced her, 2 were smurfs with 30+ kills in the end. The 3rd time I was so intimidated that I didn't really try going aggressive. She is just so slippery that I rarely hit a skillshot and if the wave is on her side she chases me down and kills me with her 1 trillion dashes. I pretty much stayed under tower and focused on cs. I was keeping up with her in cs but then she got kills on the sidelanes/jungler and ran away with the game. Feels like she outscales Lux pretty hard, so matching cs doesn't seem like a great idea.\n 2) Yasuo: Big noobstomper. Usually both teams ban him so not that big of a problem. Throws 1 million tornadoes and only has to hit 1 in 10 to fuck me up. Harrassing feels hard because of his shield + he can dodge with his dash. In teamfights his wall can make me completely useless.\n 3) Yone: Yasuo's lil brother. Not that bad but the tornado/dash problem persists. I guess I just have to get better at dodging his double dash knockup thing?\n 4) Fizz: If I don't completely deplete his HP on lvl 1, he eventually kills me at least once (more likely 4 times). Some are bad at hitting their ult which means I can stay on lane. Others read my predictable movement and hit me everytime. Tilts me like crazy.\n 5) Katarina: Again, hard to hit. She dodges my skillshots with her dashes and wins trades that way or outright kills me. If I play passive she starts roaming and killing everyone.\n I know this is a wall of text but I need to ask somewhere :D I am just clueless when it comes to these matchups, so much so that I can't even focus on improving my fundamentals. Thank you for reading through this and for any tips you can give!",
+   "id": "11ta4q5",
+   "comments": [],
+   "age_days": 1303,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "lux vs yasuo matchup is so hard :(",
+   "url": "https://www.reddit.com/r/lux/comments/yyh27v/lux_vs_yasuo_matchup_is_so_hard/",
+   "published": "2022-11-18",
+   "author": "/u/KiaraKawaii",
+   "body": "",
+   "id": "yyh27v",
+   "comments": [],
+   "age_days": 1421,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Do you guys think lux has started to age as a champ design? Does she need a narrow scope rework?",
+   "url": "https://www.reddit.com/r/lux/comments/wej1b5/do_you_guys_think_lux_has_started_to_age_as_a/",
+   "published": "2022-08-02",
+   "author": "/u/Aition714",
+   "body": "I used to play lux a lot mostly as a support, but began to find her rather weak compared to other choices. It has gotten to the point that I consider enemy lux supports to be a free win for my role. Most stat aggregate sites see lux have a decently negative WR beyond gold ELO. \n I have seen lux players turn games around by landing a binding on people in the neutral game and snowballing it into a forced objective, however these events tend to be several minutes apart, and require the enemy comp to have no on-demand gap closer which is extremely rare.\n My points of issue are:\n - Skill shots in general have gotten weaker as the game has gotten faster, skillshot mages as a species used to eat traditional marksman as their primary diet, so they have started to go extinct as dashy skirmishers have begun showing up in every role except support.\n - Her numerical damage performance as a burster and as a artillery mage are middling, when compared to other options like xerath and velkoz. (this is due to her power budget being shared with an AOE sheild, a very very powerful ability, and also her passive damage which cannot be realised in many scenarios).\n -It hit upon me how short changed lux is in this regard when i went up against a comp with kai'sa and zeri, one champ had nashors tooth, and the other one had a standard crit build with sheildbow. however, they both had regular abilities they were able to toss out that did damage comparable to an unprimed lux ultimate, with similar range. They both get to have that, but their kits allow them to scale the stats they build into mobility and sustained damage in short range combat. (and they arent even poke mages)\n - As an enchanter she lacks potent counter engage that makes other champs like seraphine, nami, sona or even orianna work. Shes fairly on par with karma, who has more reliable sheilds and an inbuilt speed boost as well. Morgana has mild counter engage, but the CC immunity she grants puts her ahead of lux as an enchanter pick. Lux's ultimate is almost a void ability slot if she goes with very low AP enchanter setups. Where as her sheild is until very late if she goes with a true mage setup.\n Lux remains a unique champion as she is the only one who incorporates enchanter and artillery mage aspects in her kit. However she is almost never able to capitalise on both aspects of this, and she also has her power budget split between the two when she attempts to follow one build.\n I guess the question is: Do you think lux is aging as a champ? Does she need to do more work to achieve the same results as competitor champs in her role? What would you change in her kit if you did? Would you want her sheild to be drained of its power to funnel it into damage? \n IMO her passive was something that made sense in an age where the game was slower and pausing for two auto attacks while your CC wore off was a sensible thing to do to get more damage. I would like if they made the combo with her ult instead apply to all her damaging abilities in some way to reward landing every ability in succession, at the cost of some of it current power. This would make its value more consistently realised especially in unfavored matchups. Alternatively they could do something drastic and make it more team oriented, make it pop on allied damage. Or have something totally new that is focused on empowering her team at the cost of her current damage potential. \n Lux is an extremely popular champion with a very satisfying play style, so i feel like she is kind of overlooked in terms of how her actual performance measures up.",
+   "id": "wej1b5",
+   "comments": [],
+   "age_days": 1529,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Just had a lux support come top and help me. Just wanted to say thank you.",
+   "url": "https://www.reddit.com/r/lux/comments/uie2fs/just_had_a_lux_support_come_top_and_help_me_just/",
+   "published": "2022-05-04",
+   "author": "/u/Ijustchadsex",
+   "body": "It’s no secret that top lane is a pretty miserable place right now. Especially for someone like me. I am in diamond and pretty much play only bruisers. Mainly otp Sett.\n I just had a volibear top matchup as Sett. It’s a really miserable match up these days. Almost unplayable at times for Sett.\n I was actually able to get first blood on Voli but once he gets to level 3 it’s pretty much gg for me.\n So here I am farming at tower and just miserable when all of a sudden out of nowhere I see someone walk to the top bush.\n I freaked out, junglers seem to fear Volibear so I have never seen one come to gank. \n It was Lux, she pinged then and sat for a good 20 seconds. Not only did she wait but when I went to engage volibear it was like she knew everything about how that much up sucks for me so when he went to drop his e on me and pretty much delete me, lux being the absolute gigachad princess who I love forever hit him with her Q and he was not able to stun me. With no stun and me being able to dodge his e, I was able to murder him and then snowball top because that second kill let me get hullbreaker.\n Just wanted to say I love you Lux. I truly do. You have made a fan for life.",
+   "id": "uie2fs",
+   "comments": [],
+   "age_days": 1619,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Things I had to learn as lux mid to get myself out of silver/bronze to gold with bad mechanics in my second season",
+   "url": "https://www.reddit.com/r/lux/comments/txnfoi/things_i_had_to_learn_as_lux_mid_to_get_myself/",
+   "published": "2022-04-06",
+   "author": "/u/Vilkas727",
+   "body": "small info about me I started to play league in the middle of s10 I had 0 MOBA experience before in my first season I don't really care about rank and play drafts got placed in b3 and ended the season in s3 in s11 I still was playing tons of draft but I also started to watch tons of content but I was stuck in s3 thinking I understand something for the almost whole season and only at last 2 months I was able to push to g4 in this season I got g4 already and will try to push for more and after I got to g4 for I understood how bad I am at the game and how much there is to learn which is funny bc in s3 I was thinking I freeze lane I'm better I must climb but it was not true at all\n 1. small champion pool and high mastery:\n this is a huge one because if u cant pilot your champion u cant learn any other fundamentals\n my champion pool is borderline one triking lux, being solid on brand and garen this champ pool is really simple lux brand can be played mid, and garen brand can be played top, I qee mid-top to increase my chance to get mid i mainly play lux but supports love to ban or steal her so I have those picks for that and for being put in top lane in a top I blind pick garen and if I get the second pick I will always try to get brand in if matchup and team comp allows it. I won't play any other champs in rank at any cost and only learn new ones in the draft because matchup understanding is also a huge factor u have to have basic mach up understanding and champion before u can go to gold also resource management, positioning\n 2. proper CS'sing:\n ppl sleep on it so much but in fact, csing is so important for consistency I spend tons of time in practice tool just last hitting 15 mins before every ranked session, and my cs till 15 min is so much better even in gold even if I lose lane and are 0/3 I will for granted have same or more cs than 3/0 Katarina and its crucial to any game plan\n 3. warding basic map/jungle awareness:\n this one is about being able to track jungle in the first 4 minutes and it's so easy all u have to do is to watch which lane was leasing if the top was leasing it means jungle will contest bot side crab and gank bot or mid from bot side which means I want to lane in the top side while accessing if I can contest crab or not also if your laner has pressure its good to sneak in red ward in the river to protect your sides from roams\n 4. not compensating:\n this one ties with champ mastery u have to know how a good fight looks for your champion and don't follow zed roams as lux or u gonna learn it hard way what kind of pixel brush baiting trap bs they can offer u, don't ever do something just bc u can get pinged after, access the fight if u know u cant win it low on mana health or don't have prio ping it off if they will go regardless it's out of your control. always think if there is anything else u can do a basic example: zed commits roaming bot? spam ping it E R wave take 2 plates and deny 2 waves if he doesn't get any kills in roam he is so screwed, or your fiddle want to contest crab vs Yasuo lee sin and ping u best play instead of double kill give him 1 kill\n 5. basic sidelining:\n every time u in an Aram situation think about what u can do better what I do is collect side lanes till the river and get xp leads ower aramers, and then rotate for picks but its a thing i do worst I need to improve on it a lot\n good resets tempo (not losing xp)\n huge one XP is the most valuable resource in-game u have to learn how to recall in a way so u don't lose any xp and to be fancier u can learn how to recall in a way u can deny xp access wave states and know when wave push to you and u can go B know the fact that u need to time resets on cannon wave\n 7. vod reviews :\n it's not important in siver but it can boost improvement a lot while I was too bad to review my vods I find ppl from d4+ to help me with this and there is a lot of ppl u can randomly invite and ask for this and they will be happy to help you out sometimes, those are huge eye-openers just the macro they have is different level its really good to do once a month\n 8 knowing your best playtime:\n it's more about not playing when u burn out and don't feel at your peak just play games when u feel focused sharp, I only play rank from evening to night time is only then when I can really focus on the game\n 9. game plan in the first mins of the game(consistency):\n really important to have a game plan when u enter the game to get to the gold, I can't go much about it but my game looks like this every game, my goal as lux is to rush Ludens asap so I value my farm so much I will occasionally trow e when they go for cs to proc my mana flow, I will slowly push first 2 waves and crash 3rd one and ward raps right about 2.20 and lean on that side then I will let wave bounce to me while I grab all the farm and I will remain to be bouncing waves and harassing(my wave is pushing I harass wave pushing into me I prio farm) till I get 1300g then I will e R canon wave and go b take my chapter and go back to lane with tempo now ready to Perma push and harass the guy if it's not something like yas or irelia thing is that will do it every game consistently\n to summarise none of this is mastered or none of this is the right way to play the game its the right way to get gold with my champ pool to me and . and for plat I prob will have to do a lot of stuff different",
+   "id": "txnfoi",
+   "comments": [],
+   "age_days": 1647,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Hello Lux Mains! I've been on a mission to play and rate every single champion in the support role and today i've reached one of the best supports out there in my opinion",
+   "url": "https://www.reddit.com/r/lux/comments/thzb15/hello_lux_mains_ive_been_on_a_mission_to_play_and/",
+   "published": "2022-03-19",
+   "author": "/u/Borax_the_Mighty",
+   "body": "Who I Have Played and Rated So Far [25/159 Champions]https://imgur.com/a/F1eZuv3\n Now if you prefer not to read or want to see the reasons for my ratings feel free to check out my video on Lux Support: https://youtu.be/W06egZRFXO0\n Why Lux Support works?\n - A passive which enhances her poke\n - A Long Range two man snare on her q\n - An aoe Shield on her W\n - Aoe poke and slow on her E\n - Her Ultimate a fun long range “support tool”\n When Should You Play Lux Support?\n With Caitlyn\n or\n Pick it in lanes where the enemy has very limited kill pressure, as if they can’t get on top of you then you have free reign to make their lives a living nightmare as you throw your spells at them to poke them down to oblivion. You also would prefer that the enemies have some squishies that you will be easily able to pick off with your combo and you would like it if your team has some sort of champions that can help you peel and engage as Lux can struggle in those areas if she’s the only one who is expected to do so.\n Lux SUPPORT RATINGS\n Invading S Lane: Poking S+ Lane: Peeling A Lane: All ining S- Roaming S- Getting Picks S+ Teamfighting: Engaging S- Teamfighting: Peeling A+ Teamfighting: Dealing Damage S+ Overall S+ My Rating Scale Explained:\n S= As Good as a meta support A= Almost as good as a meta support\n B= Doable but inferior to a meta support C= Existing in some capacity but clearly worse D= Almost non existant F= Non existant\n Lux SUPPORT MATCHUPS TIER LIST\n https://imgur.com/a/8ql6ebh\n RUNE OPTIONS\n Comet: https://imgur.com/a/9SfTCw2\n Build\n Spell Thief's Edge >>> Sorc Shoes/Ionian Boots of Lucidity >>> Ludens/Crown >>> Mejais/Zhonyas/Morellos/Horizon Focus\n I want to wish you all good luck and have fun if you are trying out Lux Support yourself!",
+   "id": "thzb15",
+   "comments": [],
+   "age_days": 1665,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Tips against difficult matchups mid",
+   "url": "https://www.reddit.com/r/lux/comments/t9iu7i/tips_against_difficult_matchups_mid/",
+   "published": "2022-03-08",
+   "author": "/u/BlueBunny333",
+   "body": "So I'm trying to expand my horizon lately and get used to midlane, as my go-to pick I chose Lux because I feel already decent qualified on her due to experience on support... (alternatives are Vel-Koz, Veigar, Karma and if I feel like it, Jhin.)\n but some matchups make my skin crawl and my back shudder, here are some examples:\n -Zed, he just can poke me down behind lane and under the tower, meanwhile, he can just swap with shadows when I try to poke him. His ult insta-kills me early on, stopwatch is mostly not rdy until then (I take the rune in that matchup)\n -LeBlanc, similar issue here. Her constant jumps and dashes make it impossible for me to trade, meanwhile, she can just burst me down\n -Katarina, same as above\n -Vladimir, similar as the above. His empowered Q can one shot me as a squishy later and his w gives him the right to bypass my q and grants him a freeway to dive tower. \n -Zoe. A 50/50 really, either she completely obliterates me with advanced geometry or she is not hitting anything, if she a smurf or experienced player I can't even sit 5 meters behind tower...\n -Yasuo/Yone the typical wind-brothers, either a pain or a gain\n ​\n So as you can see my biggest problem is \"dash\" champions or champions that are generally hard to hit due to their movement abilities. When I end up in these matchups I usually try to play safe and not engage in any combat, unless I see that my jungler knows what he's doing while ganking. But due to that I sometimes have to miss farm or can't farm at all, sometimes I even die still under these circumstances because the enemy does a 180° dash-flip-ult-dash-twinkle combo under my tower for one-shotting me before the tower can recognize them as a threat.\n ​\n I seek tips and help for these matchups and an honest opinion if I should try switching up my champion for these if possible",
+   "id": "t9iu7i",
+   "comments": [],
+   "age_days": 1676,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Arcane Comet or Dark Harvest?",
+   "url": "https://www.reddit.com/r/lux/comments/t0ftbl/arcane_comet_or_dark_harvest/",
+   "published": "2022-02-24",
+   "author": "/u/Blight_Grenade",
+   "body": "I’ve been a Lux player for years, love her positivity. I want to become a one trick support with her on one of my accounts, and I want to settle this internal debate I have; which rune is better? AC or DH? I usually run DH because I love Cheap Shot and the Ultimate Hunter. What do you guys use? Or is it matchup dependent?",
+   "id": "t0ftbl",
+   "comments": [],
+   "age_days": 1688,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Lux vs Fizz Matchup",
+   "url": "https://www.reddit.com/r/lux/comments/qrn0yl/lux_vs_fizz_matchup/",
+   "published": "2021-11-11",
+   "author": "/u/Dramatic-Vacation267",
+   "body": "So I've played lux into fizz yesterday and it didn't go that well because when during laning phase he played kind of aggressive since he started with his thing that makes him untargettable at lvl 1 and then I couldn't trade back since I started E and didn't hit him since he was untargettable. Then later or so even at lvl 2 he played so aggressive that I couldn't even farm when I step up a bit, also I guess probably I didn't focus on poking, but I did and everytime I try hitting E when he is in a position I want to poke, he gets on me and I get bursted to death. Also I did mess up by being impatient with my Q since I keep missing even after he used his untargettable ability, I tried holding onto it but I just took so much damage and died. Later he got fed that I literally had to swap with my irelia adc ;-; But my irelia couldn't fight him either cuz he was way ahead and most of my teammates died to him so yeah. I just find my self not able to fight fizz at all for some reason since I feel like some lux players can but I can't. Also if there is runes that can be good against him that would be appreciated, since I took dark harvest yesterday and now I think I should of took comet or aery with inspiration secondary with perfect timing and cosmic insight so I can get barrier more often. So yeah I need help and advice against fizz, thank you.",
+   "id": "qrn0yl",
+   "comments": [],
+   "age_days": 1793,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Easiest and Hardest Lux matchups?",
+   "url": "https://www.reddit.com/r/lux/comments/qcvjee/easiest_and_hardest_lux_matchups/",
+   "published": "2021-10-21",
+   "author": "/u/TheDarkinPoro",
+   "body": "Hey just out of curiosity but who in your own opinion is the easiest and the hardest matchup for Lux is? \n For me personally I find the Yone matchup to be the easiest while despite trying to get better at it I find the Leblanc matchup to be the hardest. Any other opinions? ^",
+   "id": "qcvjee",
+   "comments": [],
+   "age_days": 1814,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Any opinions on lux vs katarina matchups?",
+   "url": "https://www.reddit.com/r/lux/comments/pv77ys/any_opinions_on_lux_vs_katarina_matchups/",
+   "published": "2021-09-25",
+   "author": "/u/Moist_Foundation4231",
+   "body": "",
+   "id": "pv77ys",
+   "comments": [],
+   "age_days": 1840,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "r/SonaMains are doing a Matchup Thread for Lux. We would be so grateful if you would like to help us out by sharing some tips on how we can play against Lux! ✨",
+   "url": "https://www.reddit.com/r/lux/comments/owo3az/rsonamains_are_doing_a_matchup_thread_for_lux_we/",
+   "published": "2021-08-02",
+   "author": "/u/aroushthekween",
+   "body": "",
+   "id": "owo3az",
+   "comments": [],
+   "age_days": 1894,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What Admitting Your Mistakes, Taking Breaks After Bad Games, Reviewing Your VODs & Learning To Never Blame Matchups Makes Happen! Learning Lux More & More Every Day! (ᵔᴥᵔ)",
+   "url": "https://www.reddit.com/r/lux/comments/obylfx/what_admitting_your_mistakes_taking_breaks_after/",
+   "published": "2021-07-02",
+   "author": "/u/SoleDivinity",
+   "body": "",
+   "id": "obylfx",
+   "comments": [],
+   "age_days": 1925,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Experience with the Brand matchup?",
+   "url": "https://www.reddit.com/r/lux/comments/nobjwl/experience_with_the_brand_matchup/",
+   "published": "2021-05-30",
+   "author": "/u/Bruh-I-Cant-Even",
+   "body": "300k point support main here who also plays Brand on the side and seems to find laning against Brand as Lux pretty easy, but he becomes impossible to deal with if the game reaches a later stage. Any similar experiences here?",
+   "id": "nobjwl",
+   "comments": [],
+   "age_days": 1958,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Worst matchups for Lux?",
+   "url": "https://www.reddit.com/r/lux/comments/n70257/worst_matchups_for_lux/",
+   "published": "2021-05-07",
+   "author": "/u/-AMAG",
+   "body": "Since she's getting buffed soon I wanted to add Lux to my champ pool in midlane, was just wondering what you guys think her worst matchups are.\n Edit: Looks like Fizz, Yasuo, and Zed are the biggest trouble.",
+   "id": "n70257",
+   "comments": [],
+   "age_days": 1981,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "The Ultimate Compilation of Matchups in League - And How You Can Help it Grow!",
+   "url": "https://www.reddit.com/r/lux/comments/l2326b/the_ultimate_compilation_of_matchups_in_league/",
+   "published": "2021-01-21",
+   "author": "/u/OrbitalPandaXYZ",
+   "body": "Hey everyone! My name's Orbital Panda and I'm currently creating a matchup guide compilation for every champion in the game! While it's only a google doc as of right now, the ultimate goal is to expand it into a full fledged website that'll act as a central hub for all things educational league content. Here's a link to the spreadsheet as is https://docs.google.com/document/d/1W_sKM_p2tDofHD8wGCb--PKEF0MFqyqDPuWbzvgs4GA/edit?usp=sharing\n Currently, I'm still gathering content to display. The majority of champs don't have easily accessible matchup guides, and those that do are often incomplete, outdated, provide little information, or various combinations of the aforementioned issues. For this reason, I'm asking the community at large to provide their own matchup spreadsheets, as well to share any that they have found useful in the past.\n Yes, Timmy, this means I want your hastily scribbled, heavily biased notes. I know you've played 20 games of League in the last year and still call yourself hardstuck silver, but I still want that spreadsheet.\n On the other hand, if you can call yourself a distinguished one trick in some way than I'd appreciate your input even more, and I can show you some of it through putting down your name, your twitch and other related socials ;)\n If you'd like to contribute anything to this project whatsoever, please don't hesitate to contact me through the channels listed below! I will have to ask for you to avoid DMing me on Reddit however, as I seldom check it.\n Discord: Canada#0579\n Email: orbitalpandastreaming@gmail.com",
+   "id": "l2326b",
+   "comments": [],
+   "age_days": 2087,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I was bored so i decided to make a midlane Lux matchup chart! i have a million mp on her, so if you have questions or opinions feel free to ask/share and i will be happy to share my thoughts and discuss (remind that this list is considering the two players having the same skills/division)",
+   "url": "https://www.reddit.com/r/lux/comments/jrwcyx/i_was_bored_so_i_decided_to_make_a_midlane_lux/",
+   "published": "2020-11-10",
+   "author": "/u/mahoshonen",
+   "body": "",
+   "id": "jrwcyx",
+   "comments": [],
+   "age_days": 2159,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Anyone posting F*** [Insert Champion Here] memes will be banned for three days.",
+   "url": "https://www.reddit.com/r/lux/comments/j70eed/anyone_posting_f_insert_champion_here_memes_will/",
+   "published": "2020-10-07",
+   "author": "/u/RavenHusky",
+   "body": "I've had to remove a few of these posts over the past couple days, so I'm dropping the hammer.\n Posting \"F*** Champion\" while posting an image of the same thing being posted across the other champion subs constitutes spam, and contributes nothing to our subreddit. Anyone posting these types of memes will be banned for three days. Any repeat offenders will be permabanned.\n While there are legitimate reasons to hate a champion, the onus is on you to explain how that frustration relates to Lux, such as being a bad matchup for her.\n We're not Draven mains over here. We don't go around spreading hate.",
+   "id": "j70eed",
+   "comments": [],
+   "age_days": 2193,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How do you play this champ? What matchups are favourable and viability as other roles?",
+   "url": "https://www.reddit.com/r/lux/comments/igs8mm/how_do_you_play_this_champ_what_matchups_are/",
+   "published": "2020-08-26",
+   "author": "/u/InfernalDesires",
+   "body": "I was a top main (yes boohoo) and I started not too long ago. I used to play an alright amount of morde, Kled and Yorick (not that it matters)\n Recently I’ve decided to reroll my skins and see what skin I would get. I was hoping for dark star morde or something cool, but ended up getting elementalist lux on my permanent reroll. \n Well shit. Looks like I have to transition from top to support. \n Is there anything I should know when I pick lux as my main? \n General tips and tricks, matchup guides, builds, strategies, synergies are all welcome! \n Thanks in advance for the tips if you guys do give any, so I can improve my gameplay and hopefully climb.",
+   "id": "igs8mm",
+   "comments": [],
+   "age_days": 2235,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Rank 1 Lux KR/Global (114 Games 98.2% WR) Video Of Lux Mid",
+   "url": "https://www.reddit.com/r/lux/comments/gz2p55/rank_1_lux_krglobal_114_games_982_wr_video_of_lux/",
+   "published": "2020-06-08",
+   "author": "/u/MoaMetalDesu",
+   "body": "URL: https://www.youtube.com/watch?v=UxhslSXREx4 \n In this video, I asked my Korean friend to translate it a bit, and he said that\n -in easy matchups: Go Dark Harvest\n -in normal matchups: Go Comet\n -in matchups where you need to AA a lot: Go Aery\n What are your thoughts on this? And it would be great if someone who understands Korean can translate the rest of the video.",
+   "id": "gz2p55",
+   "comments": [],
+   "age_days": 2314,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Diana is a rough matchup",
+   "url": "https://www.reddit.com/r/lux/comments/g9aypk/diana_is_a_rough_matchup/",
+   "published": "2020-04-27",
+   "author": "/u/Lulzzy897",
+   "body": "",
+   "id": "g9aypk",
+   "comments": [],
+   "age_days": 2356,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "PBE: Huge waveclear buff, absurd Dematerializer synergy, flexible item builds enabled (Calculations included)",
+   "url": "https://www.reddit.com/r/lux/comments/fwwnfd/pbe_huge_waveclear_buff_absurd_dematerializer/",
+   "published": "2020-04-08",
+   "author": "/u/Fiersome3",
+   "body": "TL;DR: Dematerializer + Lux E Buff enables you to clear ANY wave unless you are seriously trolling. It is also a huge safety net if you fall behind.\n Dematerializer is almost exactly the same as the buff number wise if you were wondering (Buffed E does 5 less damage than DM Live E at every stage of the game)\n And yes the trade-off for less AP scaling on R is worth it, because it was taking too much of the power budget from Lux.\n We didn't just defeat our eternal foe, the Caster Minion. We DESTROYED it. Their reign of terror is over. The Caster Minions will NEVER survive a rank 5 E.\n Current PBE Changes\n Let's get to the point right away. The waveclear buff is as you might expect: more damage to minions (and poke, but we are focusing on the waveclear right now). If you took it before, it will still work now. Feel free to take Cookies instead, or flex into another tree!\n But... what if you still took DM with the buffed E? Then you become AMAZING.\n All calculations are made with the assumption that you took 18 AP from runes + 15 AP from Doran's Ring, shortened to DR in items. \n DM is Dematerializer, just you know, fyi.\n If you are wondering what only Dematerializer does without the buff, just add 5 damage to the PBE Buffed E, they are insanely close. Basically the same thing!\n I also made the calculations with an EXTREMELY low ap build just so you see how well this works.\n Here are the calculations:\n ITEMS TOTAL AP PBE Buff PBE Buff + DM DR + Lost Chapter 73 AP 311 damage, clears until 6:00 348 damage, clears until 13:30 DR + GLP 113 AP 339 damage, clears until 12:00 379 damage, clears until 19:30 DR + GLP + Codex 148 AP 363 damage, clears until 16:30 407 damage, clears until 24:00 DR + GLP + Ghosts 183 AP 388 damage, clears until 21:00 434 damage, clears until 30:00 DR + GLP + Ghosts + Blasting Wand 223 AP 416 damage, clears until 25:30 466 damage, clears until 34:30 If you take a look at the Dematerializer Buffed E even a little bit you can see what I'm getting at. The answer is simple:\n LUX CAN BUILD ANYTHING SHE WANTS, AND WILL ALWAYS CLEAR THE MINIONS I mean seriously. Before if you did badly the minions did catch up to your E damage sometimes, also you couldn't build too many low AP items like Void Staff or Zhonias or Morello.\n However now you can clear with only Lost Chapter until minute 13:30. That's basically NO items, and you have safe waveclear. The entire game. No matter what. Even if you fed a Yasuo 0/5 you will still have at least Lost Chapter & Armguard (same AP as GLP!) which means you can safely farm until minute 20!\n If you think this is not needed... well that depends. I'd say you should still take DM if you know you will build Zhonias, or Void second so you can farm always. It's also a HUGE safety net for Lux! You almost have to be trolling and running it down mid to not clear the minions with this. If you ever feel like there is a tough matchup you cannot go wrong with this. And if you are doing well, then secure those 3 cannon minions! You won't regret that one.\n However if you will build massive AP like Luden's into Deathcap you won't need this, the Buff itself will be enough.\n Awesome! Thanks Riot! Glad you listened to the investors! \n And please let this go through, don't remove it! Let us have good waveclear for once! I mean how broken can it possibly be... right?\n So let me know: do you think this is the future build? I know I'll be using it for sure!",
+   "id": "fwwnfd",
+   "comments": [],
+   "age_days": 2375,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Yozu | Lux's Runes/Builds Spreadsheet",
+   "url": "https://www.reddit.com/r/lux/comments/f4y1bk/yozu_luxs_runesbuilds_spreadsheet/",
+   "published": "2020-02-16",
+   "author": "/u/Yozu__",
+   "body": "Heyo someone in my discord server previously made a spreadsheet from a video that I made a while ago. So I wanted update it as well as giving some tips for specific matchups.\n Enjoy ! https://docs.google.com/spreadsheets/d/1rCZaLNI61ByB-mMbfx3BuAgHMpC99w14/edit#gid=920573335 Credit : Justin X",
+   "id": "f4y1bk",
+   "comments": [],
+   "age_days": 2427,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Cassiopeia Lane",
+   "url": "https://www.reddit.com/r/lux/comments/e88y47/cassiopeia_lane/",
+   "published": "2019-12-09",
+   "author": "/u/krza91",
+   "body": "Hi guys! Luckily Cassiopeia (ab)use of the Conqueror keystone will be over in a few days, due to the patch. Anyway, how do you avoid being ruined by cassiopeia in the early lanimg phase without losing too much cs? It seems to me that this matchup is easily unforgiving. Or i might be trying to trade too much early. Supposedly, i should never, especially when she has cleanse, or i miss my Q. I prefer playing lux with electrocute and precision runes (presence of mind and the enemy low hp one). In the domination tree i pick the ultimate hunter.",
+   "id": "e88y47",
+   "comments": [],
+   "age_days": 2496,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "My current mid setup for season 10 - Yozu",
+   "url": "https://www.reddit.com/r/lux/comments/e1zb3a/my_current_mid_setup_for_season_10_yozu/",
+   "published": "2019-11-26",
+   "author": "/u/Yozu__",
+   "body": "Hey all, I haven't been active on this subreddit for a while because I don't have as much free time as I used to. But today I felt like I wanted to share my current rune/build setup that I've been using since preseason (and at the end of s9).\n RUNES : \n https://imgur.com/a/ojjyXSN \n Electrocute: I first thought this rune was terrible on lux because you wouldn't be able to proc it the same way thunderlords used to (E+AA..) But the rune actually feels good, you can win most trades with that rune alone if you E Q AA or AA E AA.. It also synergizes with GLP (Will talk about it later)\n Taste of blood: Really great for lane sustain. I'd rather be able to sustain through laning phase than having a bit of true dmg in my kit. \n Eyeball collection: Poro will take too long to fully stack so you'll need to not swap to blue trinket if you want to gain those stacks. And zombie wards is mostly for support/jg with oracles. \n Ravenous Hunter: The healing is nuts mid/late game. I don't like ultimate hunter as it only shaves off a few sec on your ult and if you compare to how good ravenous is, that rune is just inferior. I don't roam alot on lux mid so relentless doesn't help that much but ingenious could be good in some games if you're looking use zhonya and glp a lot. But again, I feel like ravenous is superior because of how strong it is.\n Magical footwear: I mean free 300g I'll take it lol\n Minion dematerializer: SUPER IMPORTANT. Always use all the 3 demats on the caster minions so your E can 1 shot them at lvl 9. This will help you a lot when waveclearing, especially because you will be running glp and not ludens. (Will talk about it later)\n +1-10%cdr / +9 adaptive force / + 6 armor OR magic resist (depends on the matchup)\n Note : I take cdr runes to compensate the fact that I'm not running transcendence\n ​\n BUILD : \n https://imgur.com/a/ppJl6V3 \n GLP : You don't need luden's aoe to wave clear because of minion demat (it has techhically more aoe if you land all your bolts on diff enemies). GLP is cheaper and has so much more utility, you can slow them to guarantee a Q into a full combo and the item counts as a spell/attack so it can also proc electrocute! \n Zhonya : Defensive items are a must on lux, at least in high elo. It can forgive bad positioning and stall fights. If they are heaving in magic damage, you can feel free to swap it with a Banshee's Veil.\n Rabadon's Deathcap : Moar dmg\n Boots : Sorcs for magic pen\n Note : Those are the core items and should be built in order. If you are vs an all-in champion/assassin, you can rush double doran's ring into armguards and then finish off GLP into zhonya. That starts makes you a bit harder to kill while still being able to dish out important damage. The rest is all situational and depends from game to game. \n If you want to see more builds like these, feel free to join my discord server. I have my own channel #Yozu-current-build where I build various builds for both mid,support and ADC/APC lux! https://discord.gg/yozu \n Let me know if you liked this! I'll see if I can be more active once I'm done with school :)",
+   "id": "e1zb3a",
+   "comments": [],
+   "age_days": 2509,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Is it OK to main SUPPORT Lux but not MID Lux?",
+   "url": "https://www.reddit.com/r/lux/comments/cm31i6/is_it_ok_to_main_support_lux_but_not_mid_lux/",
+   "published": "2019-08-04",
+   "author": "/u/GenderbentLux",
+   "body": "Hi, I am a main support and I love Lux, you can play aggressive but you can still protect your ADC. I also play enchantresses, especially Janna, but I find Lux a totally different story, she's my favorite champion because even if you're behind you're useful a supp, but I can't play her mid. I main her support because I know almost all matchups, but on mid I rly suck. I can't cs, I can't pressure because I rly don't play that lane and I get a lot of harassment for this reason. I was classified as a \"non-lux main\" because I don't play her mid... is it wrong? I'm Gold IV",
+   "id": "cm31i6",
+   "comments": [],
+   "age_days": 2623,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "FAQ, Runes&Builds, Lux Clubs, Elementalist Strawpool and much more! Ask simple questions here!",
+   "url": "https://www.reddit.com/r/lux/comments/bsgc06/faq_runesbuilds_lux_clubs_elementalist_strawpool/",
+   "published": "2019-05-24",
+   "author": "/u/Fiersome3",
+   "body": "Welcome to the Lux Subreddit! Whether you are just a little spark or a brightest shining star, you are welcome here!\n Here you can find some quick build tips and rune pages (either if you are new to Lux, or you've been away for a while, or simply panicking when autofilled), guide links (if you want to expand your knowledge), and of course some Lux streamers for you to watch and observe (and maybe learn something).\n IF YOU HAVE ANY SIMPLE QUESTIONS, ASK THEM HERE! THANKS!\n ​\n ​\n CONTENTS OF THE MEGAPOST FAQ aka Frequently Asked Questions (so we don't get these questions EVERY WEEK)\n Subreddit Rules (don't break them obviously. Banning someone takes just one click, FYI)\n Build Cheatsheet (for your panic in game needs)\n Rune Cheatsheet (for your panic champ select needs)\n Matchup Weekly Discussion Links (4 of them at least. It's something!)\n Streamer Lists (if you are interested in some gameplay)\n In Depth Guides (to learn more about Lux and her skills)\n ​\n ​\n 1. FREQUENTLY ASKED QUESTIONS \"Q: Any Lux clubs out there?\" A: Indeed there are! Click here!\n \"Q: I'm looking for a Discord server about Lux?\" A: We have one right here! Click here!\n \"Q: Why would I play Lux over another champion?\" A: Long range, solid burst damage, great utility, lasers are fun. Also we have the best Ultimate skin. Just saying.\n \"Q: Should I buy Elementalist Lux?\" A: The better question is why wouldn't you buy the skin.\n \"Q: Favorite Elementalist form?\" A: They are all awesome! But I know that's not the answer you want, so go here and vote for your favorite. Over 2k votes so far, Mystic is winning!\n \"Q: Lux is weak in current meta what do I do?!\" A: That's just how League works. Some champs just suck sometimes, so it means you have to play extra well to win. It will get better don't worry. Try playing another champion for a while, or take a break.\n \"Q: Why does Lux have some many skins?!\" A: Well good sir, I believe you might have miscounted on a few champions. Also it's not like we are paying Riot to make these skins. A lot of champions have more skins than Lux. (though we are getting quite high on that list now)\n \"Q: How can I get Prestige Battle Academia Lux?\" A: You can't obtain her anymore by normal means, it was a limited time event. The only possible way now is to get it from a loot box, so it might as well be impossible.\n \"Q: Why do you keep playing Lux support babyrage?!?!?!\" A: People play champions they like to play, that's all Not everything has to be tier 1 in every game.\n \"Q: What counters Lux?\"\n A: Merc treads, yasuo, champs that can out poke/range her like ziggs and xerath, yasuo, missing her q, yi and irelia able to negate her combo, yasuo, tanks with cc and gapclosers, yasuo, anyone who can live through her qerauto combo, also yasuo.\n 2. SUBREDDIT RULES Please be respectful to others\n Keep all discussions Lux related\n No NSFW content\n Use Finales Funkeln sparingly\n Enjoy yourself (Reddit wide rules apply)\n Direct club inquiries to /r/LuxClubs\n \"Favorite Element?\" has been asked plenty. Don't ask again.\n 3. ITEM BUILDS Builds are situational, they are all viable, situational items are SITUATIONAL! Look at a guide for more info! Don't build Mejai's if you're feeding! Also this is just my opinion, feel free to experiment! Go on Challenger Yøzu's Discord for a better opinion!\n MID Meta build: Luden's Echo -> Sorcerer Shoes + Oblivion Orb -> Morelonomicon -> Rabadon -> Void -> Situational Item \n Defensive options: Seeker's Armguard vs Assassins, Banshee's Veil vs AP/Engage \n Situational items: Liandry's Torment vs HP stackers (replace Morelo), Mejai's if snowballing.\n SUPPORT Full Utility: Support item -> CDR Boots -> Athenes + Ardent -> Redemption \n Snowballing: Support item -> Luden's Echo -> Double Pen -> whatever you need. \n Currently on Patch \n 4. RUNES Please don't just make a post for a rune page without any effort. If you want to discuss them though, that's fine! Go on Challenger Yøzu's Discord for another opinion!\n So the rune pages can go like this. Note that Manaflow and Transcendence are always taken 99% of the time. The secondary page is simply what you prefer.\n Aery, Mana, CDR, Scorch (early game) / Comet, Mana, CDR, Gathering Storm (late game) +\n Resolve -> Shield Bash/Bone Plating/Revitalize (constant extra defenses & better autoattacks and stronger shields) \n Domination -> Cheap Shot/any Hunter (extra true damage/healing + scaling buffs) \n Precision -> Presence of Mind/any % dmg increase (increased damage plus easier mana sustain) \n Inspiration -> Cookies/CDR/Stopwatch (no extra damage but solid utility, not an early game one)\n As for the stats, take the two AP masteries, plus Armor/MagicResist depending on what you are facing. The scaling CDR probably isn't worth it, at least no one I know takes it.\n 5. WEEKLY MATCHUP DISCUSSION LINKS Because you're worth it. Totally all of them btw. Maybe some day we will continue. Not today obviously.\n Yasuo, the Man with a Wind Wall\n Zed, the Master of Shadows\n Fizz, the Tidal Trollpole\n Leblanc, the Deceiver\n 6. LUX STREAMERS Lux streamers are listed here. Look at their streams, stalk their Op.GG. We don't judge.Some of them aren't complete one-tricks, but I'm sure they will play more Lux if you ask them nicely! :3\n Op.GG Highest Rank Role Region Stream Links Comment Yøzu Challenger Mid/Support NA Twitch #1 Lux in NA, sometimes even globally! Don't believe me? Watch this. Winfieldlol Master Support NA Twitch LilyPichu Casual Platinum \\o/ Mid NA Twitch First Impression on Elementalist Lux FinalesFunkelnNA Gold Mid NA Twitch ZenithLux Gold Mid NA Twitch IlluminatingLux Diamond 1 Mid NA Twitch TheLuxIsReal Diamond Mid/Supp/ADC EUW Twitch Lighting the way! omohami Platinum Mid/ADC NA Twitch Never deny who you are! Chrizzly Bear Diamond Mid NA Twitch 7. IN-DEPTH GUIDES Useful guides if you want more information about builds/runes/strategy.\n Link User Rank Role Guide /u/LuxTheGreyWarden Diamond Mid Guide /u/LuxTheGreyWarden Diamond Support ​\n ​\n BANNER ART CREDITS: LIGHT DARK WATER\n OTHER ART CREDITS: LIGHT sidebar MAGMA LIGHT background\n Every sidebar art is linked to it's artist or the post it was posted!\n Elementalist Banner: Original Design by FLO GRAPHISC, further edited by Fiersome3. I do things!\n All skins banner: photoshop in 30 minutes by me",
+   "id": "bsgc06",
+   "comments": [],
+   "age_days": 2695,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "I asked a Zed main on what he thought of the matchup.",
+   "url": "https://www.reddit.com/r/lux/comments/bnz0mx/i_asked_a_zed_main_on_what_he_thought_of_the/",
+   "published": "2019-05-13",
+   "author": "/u/LysUltima",
+   "body": "Lux wins lane as long as she stays 1000 units away and presses E.\n Building Hexdrinker makes me do no damage, so I don't do that.\n One Seeker's Armguard negates all my lethality.\n Don't stopwatch until I come behind you and Q. You get more out of stasis if you Zhonya's right when Zed reappears instead of right after Zed marks you.",
+   "id": "bnz0mx",
+   "comments": [],
+   "age_days": 2706,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Some effective Lux runes I like to use summarized.",
+   "url": "https://www.reddit.com/r/lux/comments/ax5omg/some_effective_lux_runes_i_like_to_use_summarized/",
+   "published": "2019-03-04",
+   "author": "/u/supern00b64",
+   "body": "Some time ago I posted about going Grasp on Lux in certain matchups. Now I'll expand that to a full list\n Aftershock - Predictable assassins (Zed, Kat) This ones the most defensive option possible but only use when your can guarantee Q landing. Do not do vs assassins like Akali or Fizz whom can easily juke your Q\n Grasp - Melees lacking range (Talon, Akali, Ekko ,Fizz, Kass etc) This one syncs up very well with passive and shield bash and essentially makes Lux autos unbearably strong - allows for lane dominance early on. Rush RoA for maximal effectiveness\n Kleptomancy - Bruisers (Kled, Aatrox) Occasionally you'll see the odd bruiser mid. Bruisers are generally very hard to kill for lux, but compared to assassin's have a hard diving getting on top of lux thus giving her good gold generation potential.\n Glacial Augment - Mobile Melees (Yasuo, Kate, Akali), main damage elsewhere These melees will Dodge all your skillshots - GA would help immensely with hitting skillshots and setting up ganks.\n Electrocute - Burst mages (Leblanc, Syndra) and scaling, enemy all squishy Essentially a \"I burst you before you burst me\" scenario. Syndra can essentially oneshot lux while snared, and lb can too if she's close enough. Also, this scales the best since it offers so much one shot potential for lux mid game, enabling a snowball. Main issue is that it's very hard to proc in lane\n Comet - Standard Do this if you feel like the above options aren't available, or if you want an emphasis on poke.\n One thing I didnt put on the list is Aery - the reason is I personally do not like that on Lux after it's nerf last year. Luxs shield CD is too long and inconsistent to proc Aery multiple times in a fight, and the damage is nothing. Also it suggests utility on lux, in which case I'd recommend glacial.",
+   "id": "ax5omg",
+   "comments": [],
+   "age_days": 2776,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Yozu’s Weekly Matchup?",
+   "url": "https://www.reddit.com/r/lux/comments/aspumi/yozus_weekly_matchup/",
+   "published": "2019-02-20",
+   "author": "/u/Yozu__",
+   "body": "Would you guys be interested to see me post a simple but detailed guide for a lux matchup every week? I’m really busy with college and stuff recently so it won’t be part of my priorities. But if this post gets upvoted a lot, then ill consider posting more frequently.",
+   "id": "aspumi",
+   "comments": [],
+   "age_days": 2788,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Struggles against certain matchups",
+   "url": "https://www.reddit.com/r/lux/comments/a8a3bq/struggles_against_certain_matchups/",
+   "published": "2018-12-21",
+   "author": "/u/DatTastesPurple",
+   "body": "I have difficulty playing Lux as well as I used to..\n I now have a 16% win rate on Lux in Diamond 4 and a rapidly declining mmr.\n I swear to god I can't play against any matchups well and I don't know what to do. \n Irelia and Yasuo in particular are my worst matchups which I already expect to lose. \n How do I survive lane without getting rolled?\n ​",
+   "id": "a8a3bq",
+   "comments": [],
+   "age_days": 2849,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Matchup of the Week #4: LeBlanc, the Not An Actual Deceiver",
+   "url": "https://www.reddit.com/r/lux/comments/9mrjvb/matchup_of_the_week_4_leblanc_the_not_an_actual/",
+   "published": "2018-10-09",
+   "author": "/u/Fiersome3",
+   "body": "Greeting friends, welcome to the fourth matchup of the week discussion, featuring LeBlanc, the Deceiver (who isn't a deceiver at all but simply one hits people? Fits in the lore at least).\n If you think anything could be added, or have any more tips, write them down below! It's a discussion afterall. I will also be referencing previous guides sometimes, so do read those too!\n Previous week matchup: Fizz\n QUICK NOTES: -Difficulty: laning phase is HARD, however it should get easier as the game progresses. Don't let her snowball!\n -Summoner Spells: Flash (obviously) and a defensive summoner spell of choice. Barrier is usually a good option.\n -Item Build: build as you usually would towards Luden's Echo, as we need that damage. I find myself grabbing a Null-Magic Mantle if things are going bad, or you could get a Ruby Crystal for the Oblivion Orb instead to be slightly tankier early on.\n -Runes Page: honestly if you aren't confident in this matchup take the Resolve tree secondary. You can bully the likes of Zed and Fizz when you realize they aren't that deadly without their ults, but LeBlanc is deadly from level 2 onwards. Be careful!\n -What to think about: LeBlanc maxes W first, so the cooldown drops from 14 to 10 very quickly, and with CDR is gets to an even lower 8. After she uses it its your time to fight back! Always fight back!\n STRATEGY: »SHOULD I BAN THIS THING? Well LeBlanc mains cried long and hard (I enjoyed every second of it) to get their unfair champion back to her usual bullshit state, so banning her is an option. It would mostly depend on her current strength in the meta, but you're better off getting rid of a Yasuo of Fizz instead.\n »DEFENSIVE SUMMONER SPELLS! ...are a good idea. LeBlanc basically tries to destroy you early on, so don't let her! Barrier is an all around good choice, and it's the easier to use. Exhaust might be a bit too unreliable unless you have some good reflexes. Cleanse is also interesting vs her chains, and to get rid of Ignite.\n »GAME GOAL: Don't feed her! Towards the late game her faceplanting W will get her killed if she tries to dive you randomly. You are also a lot stronger with you team, while she simply does damage. Don't underestimate her lategame burst though, perhaps consider Banshee's Veil as a 4th or 5th item NOT SOONER. You need damage!\n LANING TIPS: Vs LeBlanc laning is extremely important. Honestly if you are equal in farm and didn't die when the laning phase ended you are on the right track. Let's look at some good ideas on how to do that (most of the time).\n »LEVEL 1: Firstly, on level 1 she can't do much. You can probably get some free damage in here, which could be important later. Take note: do not expect to get any kills early, the poke is there just so she doesn't try anything funny on us.\n »AFTER 2: She has her Q+W, and she can chunk you incredibly fast. This is what is called the \"fair-gameplay combo\", and it will be used throughout the laning phase. There is a slight 0.2 seconds where she cannot blink back with W to give you a chance to hit her. Btw this information is simply informative, and you will probably never actually abuse it because our Q is slow as hell.\n Since her \"fair\" Q+W is basically undodgeable from 600 range you need to keep your distance, which just happens to be something we are good at. As Leblanc tends to max W first, her using it as a gapcloser to throw Q+E shouldn't do that much damage. If it looks like her Q did too much you know her W has a longer cooldown, which gives you more time to fight back!\n When her W is ready to cast do not randomly throw your abilities at her, because they are too obvious and will be dodged with W, usually straight towards your face! Remember she needs to snowball, while we are just fine with farming it out, so she will make the aggressive plays. Save your abilities to react to hers. Eventually she will get tired of waiting, and will go for you, as most LeBlanc are very agressive and hasty. \n »PLAYING VS HER E: Continueing on her theme of \"unfair assassin\" (which should be her title), her E may look like a skillshot but it's actually a click-on ability that can sometimes be blocked. Half the time you won't understand how it hit you because it's hitbox is dumb, and the other half the time you won't be able to leave it's range (don't bother thinking about that one).\n Unlike against Yasuo our minions are our friends here, because they can block her E. On lane it is our best way of avoiding it, so stand near your little gold bags. Her E has a 100% scaling for some reason, avoid getting hit at all costs!\n »HOW TO PLAY IT BEFORE 6?: So the plan is this: first stay out of her range and force out her W, then pray to RNGesus that her E will miss. The important thing to realize is that you will take some damage no matter what, and that you need to trade back! Timing, patience, and a little bit of mindgames all plays in!\n Like I said before, save your abilities after she jumps. Never throw Q+E at the same time! Use your W only if you have enough mana because the second part never comes back fast enough, however it is nice vs Ignite. There are a many possibilites here, a huge part is using our lower CDR Q!\n So if after her W you...\n ...immediately hit your Q, waste no time with AA + E + AA, maybe sneak in an extra AA! She is probably taking some minion damage as well, so mess her up real good! OUTCOME: REALLY GOOD TRADE!\n ...immediately miss your Q, because she blinked back too fast, throw your E towards her first location to trade back, and of course try to sneak in an AA! OUTCOME: GOOD ENOUGH I GUESS.\n ...immediately miss your Q, because you miscalculated. Put E under yourself to slow her and get the hell out of there! Often she will blink back after 4 seconds. OUTCOME: NOT GOOD.\n ...immediately throw both abilites and miss them, then I will yell at you. I just said do not throw both abilities! Just run away and don't die! Be patient! OUTCOME: MANA PROBLEMS.\n ...hold your abilities, and wait for her to jump back. After that throw your Q to her first location. If that hits, AA + E + AA her, then move back. OUTCOME: REALLY GOOD TRADE!\n ...hold your abilities, and wait for her to jump back. After that throw your E to her first location and follow it up with an AA. OUTCOME: GOOD ENOUGH, because minions blocked your Q.\n »HOW TO PLAY IT AFTER 6?: The threat magnifies, as she get her last unfair ability, which copies the last one, but it's a lot stronger. Her range increases, and her burst is insane, and also she can snare you for 3 seconds. Also this has 1 minute cooldown. Who made this champion again?\n Anyway while that is true, we DEFINITELY have kill potential now. If you ever hit Q she should be almost dead or just facedown on the floor. Obviously she can do the same to you, so make sure to stay in a safe area, and of course group with your team.\n As for the previous strategies it's even more important to hit Q, or strategically hold it. LeBlancs get even more cocky after 6, and she might back off if you hold your Q. She only has 4 seconds to jump back, and it will be too risky for her to stay after that! If she doesn't back off after 4 seconds nail her down with your Q!\n Your waveclear is also better than hers, so try to make her blow her W on minions, as it's her only AOE still. She might even us W+R on the wave, which lower her aggression for about 60-40seconds, depending on her CDR.\n Do pay attention to her roaming, but for obvious reasons you cannot follow her if things are warded. Grab a pink ward and camp her returning route instead from the Mini Brush or the Banana Brush. Don't throw your Q the second you see her, a lot of people tend to erratically dodge if they expect an ambush from a brush. Let her walk closer and then unleash your combo!",
+   "id": "9mrjvb",
+   "comments": [],
+   "age_days": 2922,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Matchup of the Week #3: Fizz, the Tidal Trollpole",
+   "url": "https://www.reddit.com/r/lux/comments/9ksnxr/matchup_of_the_week_3_fizz_the_tidal_trollpole/",
+   "published": "2018-10-02",
+   "author": "/u/Fiersome3",
+   "body": "Greetings friends, welcome to the third matchup of the week discussion, featuring Fizz, the Tidal Trollpole.\n If you think anything could be added, or have any more tips, write them down below! It's a discussion afterall. I will also be referencing previous guides sometimes, so do read those too!\n Previous week matchups: Zed\n Next week matchups: LeBlanc\n QUICK NOTES: -Difficulty: VERY HARD (Zed is easier, very good Yasuo is harder).\n -Summoner Spells: Flash + Exhaust or Barrier (will get to that later)\n -Item Build: early Zhonia's recommended, yes I know what I said about Zhonia's before, but Fizz is a different problem than Zed. Then build as you usually would.\n -Runes Page: early game! You will be autoattacking which means Aery will do a lot! If you can play this well you can and should get the advantage early! Stopwatch is a must!\n -WHAT TO THINK ABOUT:\n E - Playful / Trickster (aka the Trollpole)\n COST: 90 / 95 / 100 / 105 / 110 MANA \n COOLDOWN: 16 / 14.5 / 13 / 11.5 / 10\n Take note that he maxes this first, to time your strategy properly!\n /u/LuxtheGreyWarden says:\n Fizz is a HUGE counter to Lux and can be pretty problematic both in and out of lane. His burst is able to one shot you or any other carry on your team, so he needs to be tamed or else things could get out of control. \n /u/Fiersome3 says:\n This champ is lame. Hit R hitbox is completely unfair, and is on par with Nautilus Q. Imagine a bus flying at you, just instead it's a fish. Prepare for a lot of fun when playing against this champion. Don't feed him, deny him farm and stop him from roaming, then group up with your team as he is better in skirmishes that teamfights.\n STRATEGY: »SHOULD I BAN THIS GUY?! The only reason I say ban Yasuo is because there are a lot of them (also so you don't get them on your team), while Fizz isn't as common. However the Tidal Turd is just an annoying, and is also a good consideration to ban.\n »WHY ZHONIA AND NOT MR? If you've ever played against a Fizz, you may notice his ult has the same base damage as ours except if has a 120% scaling for some reason. This basically means when the fish hits, he will overkill you three times over your health bar in about half a second, no matter how much magic resist you have. We simply do not have high enough HP to live it, so avoiding it completely is the best way to handle the fish.\n When you get Zhonia's his threat against you drops dramatically. He cannot wait for your Zhonia's to stop to try and kill you, and usually without his R he can't do that at all, especially if we run Exhaust. Plus as Lux we are often surrounded by our adoring friends who will block the fish by accident! Thanks random Nami and Sona! Your sacrifice is appreciated!\n Some people say Banshee's Veil, which can work, but you still have to walk out of the giant gigalodon to dodge it, and it most likely won't be up when you need it anyway. Also you'll have to sit on 20MR as you build it for quite a while, and there is no Stopwatch discount, plus Zhonia's is useful against other AD threats as well. I would consider it if they also have stuff like Malphite or Zac however. Build accordingly to the situation!\n »EXHAUST OR BARRIER? As long as it's one of them it's fine. Barrier is useful against Fizz's ulti in early game (late game it won't do anything), while Exhaust is more for prolonged fights (don't expect to reduce his ulti damage unless he walks into you). I'd still recommend learning to play with Exhaust, as you can use it agressively early game as well.\n »LANING ADVICE: Pre-6, his damage isn't too crazy unless you are out of position. The trick to beating the trickster is to try to deny him as much farm as much as you can. AUTO AUTO AUTO when he goes to last hit minions. He does not have a ranged ability like Zed so he cannot poke back without jumping on you. Sure his E can be used to jump away, but since most people max it first he will blow most of his mana while his other weaker abilities get absorbed by your W.\n You can use your spells to poke as well but try not to use too many E's because if you do, it can easily push your wave to the turret which means he can farm better since his W resets to 1s if he kills the minion and also you're completely vulnerable to a gank. Just chunk his health a bit and then use intimidation to deny him as much farm as you can. \n Don't do anything stupid like trying to trade 1 for 1! If you want to brainlessly suicide for kills play some braindead assassin instead. Or top lane. That's pretty manly too. Anyway Fizz spikes incredibly fast even with low items, so try not to hand him any free gold before your Stopwatch comes online.\n »THE ART OF THE FLASH: The goal is to sidestep his ultimate! If either he has the damage because he's fed/farmed or you're not at 100% health, using Flash to dodge his ultimate when you know it's going to hit you is ideal. Never Flash away in a straight line! Remember his fish has insane range and an absurd hitbox! It takes some practice to do properly and you need to have good reactions!\n You don't want to have to waste your flash if you don't have to, but if he hits the shark, he is going for an all in and your Flash being on cooldown to deny him is MUCH more important than him getting a kill and starting so snowball. Do remember that once your flash is down, you will have to stay a lot more passive and will also need to watch for his ultimate next time.",
+   "id": "9ksnxr",
+   "comments": [],
+   "age_days": 2929,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Matchup of the Week #2: Zed, the Master of Shadows",
+   "url": "https://www.reddit.com/r/lux/comments/9iqtx7/matchup_of_the_week_2_zed_the_master_of_shadows/",
+   "published": "2018-09-25",
+   "author": "/u/Fiersome3",
+   "body": "Greetings friends, welcome to the second matchup of the week discussion, featuring Zed, the Master of Shadows.\n If you think anything could be added, or have any more tips, write them down below! It's a discussion afterall. I will also be referencing previous guides sometimes, so do read those too!\n Previous week matchup: Yasuo\n Next week matchup: Fizz\n QUICK NOTES: -Difficulty: HARD, but far from impossible. In THE GUIDE Zed is is an 7/8 of 10, which is reasonable. Meanwhile the Zed guides put Lux around 4 out of 10. This is not an autoloss matchup at all!\n -Summoner Spells: Flash + Exhaust (same reasoning as for Yasuo)\n -Item Build: early Seeker's Armguard recommended, then build as you normally would. Obviously getting Zhonia's is important, and you need to know when to buy it, so we will cover it in details below.\n -Runes Page: depends on your strategy. Zed isn't the best early, so Aery can be used for more pressure in lane. Or you could just take Comet for better late game. Secondary tree should be Inspiration, because we want that juicy Stopwatch.\n -Most important thing to keep track off:\n Living Shadow TARGET RANGE: 650 COOLDOWN: 22 / 20 / 18 / 16 / 14\n FIRST CAST: Zed's Shadow dashes forward, remaining in place for 5 seconds and being able to mimic Razor Shuriken and Shadow Slash while within 1950 units of each other.\n SECOND CAST - SHADOW SWAP: While within 1300 units of each other, Zed and his Shadow blink to their respective locations, swapping places.\n THE ZHONIA'S HOURGLASS! FRIEND OR FOE? Ah Zhonia's Hourglass. Our valuable friend and possibly our biggest counter as well. How ironic. As this is a Zed matchup guide, it's important to truly realize how to use this item properly and when to buy it. And there is a lot to learn here.\n PREGAME THOUGHTS: if you see you will need Zhonia's really badly, try grabbing the Stopwatch for this game. It's not just the one time invincibility that's important, because it lowers the cost of Zhonia's for 250gold, plus it makes it cooldown lower by 15%. Note that the last part has often been bugged to not add up properly, so take that with a grain of salt.\n SEEKER'S ARMGUARD OF AWESOMENESS: basically when you buy it it's gold efficiency is 94%, which means it almost worth the money we spent. HOWEVER this item gains stacks after killing things, usually minions. After a few waves of minions (doing the Raptors is a good idea as well) it will stack up 30 times, reaching an absurd gold efficiency of 151%!!! Basically what this means is that we gain 15Armor and 15AP absolutely free! This item is completely broken early game, as it costs only 1100gold for some reason. VERDICT: RUSH ARMGUARD VS PHYSICAL MATCHUPS, DOING BAD OR GOOD. Also if they have Shaco, Rengar and other similarly fair champions.\n ZHONIA'S PROBLEM: so while Seeker's Armguard is always worth it, upgrading it is definitely not. To do the math, upgrading it costs 1800gold (1550gold if you took Stopwatch) to gain a value of around 1100gold + the active. BASICALLY WHAT MAKES ZHONIAS OFTEN NOT WORTH BUYING IS THE FACT THAT THE ARMGUARD IS JUST THAT GOOD ON ITS OWN! You need to realize that it's ok to sit on an uncompleted item sometimes.\n Back to the gold efficiency, paying and extra 1800/1550gold for 40AP and 10%CDR (the stats you gain with the upgrade) is not worth it at all! As you might have noticed, you gain ZERO extra armor with this. This is also the main reason I said to not upgrade this vs Yasuo. The true power of the item lies within its shining active portion! IF YOU WILL NOT USE THE ACTIVE, DO NOT BUY THIS! You are better off buying actual damage, like Needlessly Large Rod for Rabadon's Dcap. Remember you are a long range damage dealer, you need to deal damage! The more the better!\n WHEN TO GET IT: Now just because I talked trash about the item that doesn't mean we should never buy Zhonia's. The whole idea behind it is actually quite ironic, as you should get it vs Assassins if you are AHEAD, not BEHIND. There are obviously exceptions and each game varies, but hear me out here. I'm actually surprised it isn't mentioned more often.\n Think about it for a second. Let's assume an assassin is fed, and you are 0-5. Basically you just fed him a steak dinner. It's happens to everyone every now and then. Now who is he going to focus? Will it be you or your 3-0 ADC? A Smart Assassin will focus your ADC, as they are fed. Which means they will leave you alone! You don't need Zhonia's here (still get Armguard btw) and build damage so you can eventually be useful! And when you are useful, then finish Zhonias (like after Dcap and Void Staff).\n You could say \"but then he will focus me because I don't have Zhonia's\"! Well uhh... yeah kind of. Make sure to group up at this point. In this case we are dealing with a Dumb Assassin, who is on average as smart as your potted plant. We may not have a very revealing skin like Janna or Ahri, but we can still use our feminine skills to our advantage. Look, basically you are the bait, alright? Stop playing for your KDA like a fool, and do what must be done. That doesn't mean to intentionally feed, just saying.\n If you don't have Zhonia's, the idiot will blow the cooldowns on you (while you can probably do your combo in that time anyway), and your ADC will not die to them! You have just successfully peeled for your backline! Also the support might even save you from dying (as they don't have to peel for the ADC), which is nice too. Sure in those games your score will be questionable, but the only thing that matter is to win!\n And well on the other hand, if YOU ARE FED, you will get attention from Smart Assassins. The Dumb ones are probably flaming in chat right now, and won't be able to kill you anyway, so emote them accordingly. \"Bee Sad\" is a good one for this. In any case, having an invulnerability is VERY important now (not to mention you have a lot of gold to spend on it). I'd say second or third item to completely shut the assassins down. And as long as you live and hit your lasers, the game is in the bag.\n TL,DR:\n You are a damage burst carry, you need damage items. When to correctly build Zhonias is quite a challenge to master. Armguard is broken though, buy it vs AD all the time.\n If you are fed: don't die = win game -> get Hourglass as 3rd item.\n If you have fed: farm up good items that do damage => save Hourglass for later after key items.\n Opinions may wary, every game is different, discuss it below.\n STRATEGY: »SHOULD I BAN THIS GUY?! Honestly, probably not. It's by no means a good matchup for us, but it's definitely winnable when played well. Save your ban for Yasuo's.\n »WHY EXHAUST? We took Exhaust vs Yasuo to basically slow him down and annoy him throughout all stages of the game, especially early on. Zed on the other hard gets absolutely screwed by Exhaust! His main way or murdering people is with his ult. If you see that (he will be laughing as he does it if it isn't obvious enough) just click your button, and he is done. Remember kids, League is fair and interactive!\n In the chance you don't know how to use Exhaust properly well... it's your time to learn! Seriously. Take it and learn how to use it. Even in early levels if he jumps you this can really mess him up, and towards lategame Exhaust will save lives!\n »THE ZHONIA'S HOURGLASS: I'm assuming you read the essay above here. Now that you have bought the item WHEN you actually need it, make sure to use it half a second after his ult get's used (his Death Mark lasts 3 seconds, Zhonia's last 2.5) to actually block the damn thing. A really good Zed will leave his shadow next to you and explode you at that last 0.5 second window, so don't panic and use it properly.\n »ZED'S EARLY GAME: As I mentioned above, his W has 22 seconds cooldown on lane, and he will never max it first. It's important to know that it is his all-in button AND his escape AND his poke. So after he uses it, he is completely useless for 17 seconds (counting in the time his shadow is on the field), so this is your time to beat him up. Most inexperienced people run away from Zed after W, as he \"dealt 25% of my HP with Q+E\". Sure it was nice poke, but it's all it is! This is literally all he has before 6, so make sure to trade back!!!\n »GOALS ON LANE: Not dying is of course a priority, but poking him is a close second. He is a meele champion, so wait until he goes to last hit to throw your E + autoattack at him. The second he starts farming with Q you have won the lane until level 6, as it is his main source of damage. Pay attention to their jungler and mess him up when the time is right. \n You probably won't kill him before 6, but if you beat him in farm it's a very good start! If he jumps on you with W just Exhaust his ass, and if you have Aery + some solid kiting you should burn his summoners or even kill him. Most Zeds are used to people just running away, especially in lower elo, so you standing your ground will probably catch him off guard. I've seen it happen many times.\n Don't be overconfident though, as his level 3 powerspike is quite strong. Q+E+auto+Ignite+Electrocute does do a lot of damage, so if your Exhaust isn't up or he poked you to half HP, be careful.\n »WAVE CONTROL AND PING SPAM: Zed will often roam to molest other lanes, which of course means bot lane. It's a good idea to ward the river and the little brush in the middle of it so you can see him walking down there. He has to awkwardly walk there like we do so hopefully your bot lane will move back in time. Remember to keep an eye on him at all times as he will murder you if you facecheck him.\n »TIPS VS THE DEATH MARK: we can use Zhonia's, Flash away or use Exhaust. Sadly these are all big cooldowns, and they won't be up all the time. However if you remember that Zed's ult will place him BEHIND YOU, you can try to snare him and burst him with your combo. It takes some practice to do this, luckily for you Zed is popular and you'll have plenty of time to work on it.\n Also when he is trying to engage you do not throw your Q randomly. He is waiting for you to use it first, so simply try to walk it out and wait for his W Shadow to be used. You must realize that if you make a mistake he will kill you, but you can do the same to him! Do not panic! You are not weak!\n »MID/LATE GAME: not much to add here, as there are only 2 ways he can play it here. One way is for him to constantly dive-bomb the backline, and if you and your support took Exhaust, he should be manageable. The other thing he can do is split push, in which case it isn't your problem. Stick with the squad and let your top lane handle him. Pressure his team to force him to regroup as he is way worse than you in teamfights.",
+   "id": "9iqtx7",
+   "comments": [],
+   "age_days": 2936,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Matchup of the Week #1: Yasuo, the Man with a Wind Wall",
+   "url": "https://www.reddit.com/r/lux/comments/9gii1w/matchup_of_the_week_1_yasuo_the_man_with_a_wind/",
+   "published": "2018-09-17",
+   "author": "/u/Fiersome3",
+   "body": "Greetings friends, welcome to the first matchup of the week discussion, featuring everyone's favourite ability: the Wind Wall. I mean Yasuo, the Unforgiven.\n If you think anything could be added, or have any more tips, write them down below! It's a discussion afterall. If there will be enough interest we shall do one of these every week. Don't expect any exact dates though.\n Next week matchup: Zed\n QUICK NOTES: -Difficulty: REALLY HARD, POSSIBLY THE HARDEST MATCHUP, unless the Yasuo player sucks. Ban him!\n -Summoner Spells: Flash + Exhaust\n -Item Build: early Seeker's Armguard recommended, then build as you normally would. You need damage to be useful, don't chicken out!\n -Runes Page: the usual Aery or Comet, whatever you prefer. Secondary Resolve tree to focus on defense, or Inspiration for the Stopwatch. Details on the Rune Pages are in the Megathread. Read it!\n -Remember this the most about the Wind Wall!\n TARGET RANGE: 400 COOLDOWN: 26 / 24 / 22 / 20 / 18\n ACTIVE: Yasuo creates a gust of wind that travels in the target direction over 0.25 seconds to form a wall in front of him. The wall slowly drifts forward 50 units over 3.75 seconds, blocking all enemy projectiles except turret attacks. Total Duration: 4 seconds.\n /u/LuxtheGreyWarden says:\n \"Yasuo can completely counter Lux, if played right, sadly. His Wind Wall can block all of Lux's spells besides her ultimate. During laning phase, he passively builds up a shield from Way of the Wanderer, and has movement in lane due to his Sweeping Blade. This is a hard counter, so stay passive and watch out.\"\n STRATEGY: »BEST STRATEGY: The most efficient way to play against a Yasuo is to... not play against him! Ban this guy all the time. Not only for the laning phase either, as his Windwall will make your game a living nightmare because of it's ridiculous duration, making you useless in most fights. Also if you are against a high elo Yasuo main you will probably lose on the spot without insane jungle pressure. You have been warned.\n »WHY EXHAUST? Exhaust can be used during his ultimate. Yasuo is very likely to dive you under tower, and that Exhaust will completely ruin his damage, and you might even survive! Very useful towards the lategame as well.\n »IF YOU ARE DOING WELL: start ignoring him and roam to help your other lanes win. It's a team game afterall. You will gain nothing by bullying a 0-5 Yasuo. He is already useless, don't waste your time. Get objectives, ward up and catch people out of position.\n »IF YOU ARE BEHIND: farm up as usual. DO NOT RUSH ZHONIAS! Your damage will become complete garbage, and you will be useless. Not to mention you won't live very long regardless. Grab a Seeker's Armguard, and get your damage items as usual. Stick with your team, and pray to god someone goes to stop his split push, preferably the top lane. Make it very clear you cannot handle him.\n »GOALS FOR THE LANE: the usual mix of not dying, and being equal in farm. You will most likely never kill him unless he is a monkey, so bait him when your jungler is around. If their jungle is stronger early game do not try anything dumb!\n »WAVE CONTROL: if their jungle is strong early avoid pushing. Keep the wave in the middle, or learn to last hit under tower. If you have the advantage jungle wise push like mad when he s around. Bait him, he will take it 99% of the time.\n TIPS AND GOOD IDEAS »His range increases dramatically when near your minions. Do not stand inside your wave! Also when running away from him, run into the jungle not through lane. The Scuttle Crab can give him a free dash, so be careful.\n »Before blowing all your abilities auto attack him first to pop his passive shield. It's a simple thing to do, so don't forget to do it!\n »Watch out when he uses his Wind Wall. REMEMBER 26 SECONDS! COUNT OUT LOUD IF YOU HAVE TO! Your E will be completely lost if you throw it too far. However, if you place the middle of the bubble in front of the wall, it will stay there instead of just disappearing. A good idea is to throw it under yourself as well, as he will have to run into it himself, which will give you enough time to run away. Hopefully.\n »USE YOUR W! Throw it towards the direction you are running away to so it doesn't get Windwalled. It's a big shield and it will save your life! Always have some mana on standby for it!\n »Save your Light Binding for if he tries to Sweeping Blade through minions to get to you. This is easier said than done however, as Lux makes it very obvious when she channels Q. You need to learn to make quick decisions on the spot, which means either throwing it really fast so he won't expect it, or save it until you are close to your turret.\n »If you missed your Q, GET THE FUCK OUT OF THERE AND RUN. Do not engage, I repeat, do not engage! Honor is for paladins and dead mages! Retreat to your tower, and wait for it to come of cooldown, as you are useless without it!!!\n »Play mindgames with him. Most Yasuo players are extremely cocky and toxic, and will lose their mind if they do bad. Bait him by laughing at him when your jungler is around, you can also get the Yasuo emote. The second he dies once or twice his own team will probably leave him for dead.\n »Remember that your ultimate IS ABLE to go through his Wind Wall! If him or someone else is low, feel free to use your Final Spark!!",
+   "id": "9gii1w",
+   "comments": [],
+   "age_days": 2944,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Lux Moving Forward",
+   "url": "https://www.reddit.com/r/lux/comments/8ak0yg/lux_moving_forward/",
+   "published": "2018-04-07",
+   "author": "/u/Tanithikar",
+   "body": "I’m D00M Bot Lux on NA for those who care and won’t listen unless I prove my worth. I’ve been playing League since the Aatrox release. Lux was the third champion I got and have mained her ever since. I started off in bronze V (look, the silencing assassin meta was rough on me), and have climbed up to high plat over the seasons and am now borderline plat II/plat I. No, I’m not challenger but considering I’ve played at the elo of 97.5% of people I don’t think that matters too much. I’m in the top 100 Lux’s on LeagueofGraphs if that means anything, but the important thing is that I’ve played many games on Lux through many different metas, and many different elos. These are just my ideas and am aware that balancing champions is very hard when there are so many, and I don’t know Riot’s long-term plans that could interfere with any of these thoughts.\n Also, if you say “Lux is OP” and the only reasons you say involve you getting hit repeatedly with skill shots, then don’t. She has strengths and weaknesses just like every other champ, but since Riot is currently working on changes with her I thought I’d give my perspective as a long time Lux main.\n Where I see Lux right now- Lux isn’t in a terrible spot right now and is actually pretty good at lower elos where people can’t dodge your abilities as well. She does start to struggle at high elos though where being a mage who essentially relies on three long cd abilities, being her q, e, and r, becomes more and more difficult. Her laning phase is pretty weak but considering her ability to instantly delete an enemy carry starting in the mid game its understandable. Unfortunately, she just gets outclassed in every area other than burst by practically all other midlaners and makes it so that if you can’t land over 60% of your skill shots and manage your CDs very well then you become fairly useless. Too much of her power is locked into long cd, high mana abilities which makes every ability too important to not use 100% optimally. \n Where I think Lux should be- Lux has a nice niche of being a control mage with supportive characteristics. However, those are just characteristics. While I am aware that many people enjoy playing Lux support, there are a few problems with this. First, as of now, she is outclassed by all of the traditional supports. CC from her light binding? Morgana’s is better, others are more reliable, and due to how it works it doesn’t reliably stop things like Alistar headbutt and Leona’s E, and since its only a snare they are still on top of you or your adc casting abilities whether or not you hit. Her shield? You have to land it, which can be hard, and doesn’t shield that much in small fights. The rest of her kit is damage, but she doesn’t have the best base damage. Second, balancing around support AND a solo lane has proven to be way too difficult. Zyra, Lulu, Brand, and karma to name a few have had this issue, and ultimately they get too oppressive in solo lanes or don’t provide enough utility to be a proper support. They end up being put only into support, which doesn’t suit lux at all. Lastly, and most importantly, the community in general realllyyyy dislikes Lux support being on their team. Not only is she not good enough, but she also always ends up messing up minion waves with her aoe, and builds almost full ap which means the adc often feels like nobody is helping them. While there are some builds that allow Lux to support in a decent capacity, nobody actually does this. When was the last time your lux support built more than a sightstone for their team? Whether or not it can actually be balanced around both lanes becomes irrelevant if your team is always mad at you for picking it. It ends up being unhealthy for the game if you start off with your team against you. Also, I would like to see Lux fulfill the concept of a “light mage” more. She should be able to play around vision mechanics more than just her stationary e and the second of vision on ult. Lastly, her waveclear is an obvious problem that she has. However I do agree with Riot’s logic that this is more of a product of it being too reliable for all the other midlaners rather than her needing a buff. The last two midlaners released (Zoe and Swain rework) have both had their waveclear a weakness after a couple patches at least. This is a good trend for champions with spammable, low mana costing abilities that should be put on more champions. However, if there is one type of champion who really needs waveclear it is immobile, long cd, high resource cost mages like Lux. The waveclear issue in midlane is a big problem that I’m glad Riot is addressing, but those changes are most likely a long way off and Lux needs some help in the meantime.\n Abilities-\n Passive- Problems Right now, her passive is good for three things. Harassing levels 1-4 against a few matchups, providing extra burst on your ult, and finishing off people at 100 hp because you couldn’t burst them fully. Her auto range just isn’t high enough to reliably proc it since you are in range of all their abilities (that they can still cast through snare) and dashes. I don’t even bother trying to get it off against anyone like swain, Cass, Orianna, or Viktor who will turn your winning trade into a losing one. Years ago, it was nice but because of mobility creep and the changing game it doesn’t fit a long range, squishy, no mobility champion. Possible Solution First thing that I have seen other people comment on that I agree with is that it should provide vision on those hit. It fits with her theme, the name of the passive is illumination, and the extra vision is a powerful mechanic that could help Lux find a role more than just burst and a little CC. I’d also like it to go away from needing any auto attacks. This ability can honestly be changed to almost anything else, as long as if it gets rid of damage then it needs to be made up for in her ult damage. \n Light Binding- It’s fine how it is. The CD should be long since that can provide clear windows for the enemy to respond. I actually think the mana cost could be increased instead of decreasing it like what is on the pbe to make her rely on it a bit more for protection and aggression, and it would allow some power to be put elsewhere in her kit.\n Prismatic Barrier- Problems Where to start. . . the delay being removed from casting is a great start, but ultimately won’t do enough to make this useful. In fact, without a casting delay it’s fairly possible to hide q animations with w animations on certain skins, and it’s well known that Lux has had problems with this in the past (looking at you Steel Legion). The shield mechanic itself is in a very awkward position. It’s the only abilities I can think of that requires you to land a skill shot on your own team (which I love by the way), and it has the most dichotomy in terms of usefulness in the entire game. On one hand, in team fights you can 330+60%AP on everybody on your team, which is an insane amount of protection. In reality, you get maybe one or two other people providing they don’t dodge it, the best-case scenario only happens in the very late game, and since you max it last it pretty much blocks an auto attack. As a solo laner you are almost always using it only on yourself or maybe your jungler, so the aoe doesn’t matter as much. It takes so long to return that the trade is over by the time it has come back. Its pretty much a whole ability to block less than 80 damage, or to block ignite ticks if the fight is too close. \n Possible Solution I would like this ability to be able to interact with your lane opponent. We saw how important it is to have one more ability that could be used when swain went from being pretty bad to oppressively op when they made his w be able to actually hit people. What this ability could do is fly out, still providing the small shield, dealing a small amount of damage in its path (like Orianna e) until colliding with an allied or enemy champion. On hit with one of these, it would return at a faster rate than it does now and give lux the same second part of the shield. If it hits an ally, it would give them the total shield amount, and on contact with an enemy champion it could blind them/reduce their vision for a small amount of time similarly to Grave’s smokescreen. This could solve the problems it has now. There’s no more potential for the optimal shield that prevents it from having too much power, its not as useless as it is now, it still protects you, but it you hit someone you get the full shield in an amount of time that is actually useful. It also gives her a tiny bit more waveclear which she needs but not having it all on one ability, so its another CD and mana cost you have to manage and can be blocked by the enemy if they want to prevent the waveclear. Lastly, it gives you some versatility, where you can decide to protect an ally or debuff an enemy depending on what you think is more important. Not to mention this plays into her theme as a light mage and having vision control.\n Lucent Singularity- Problems Its simultaneously too good and not good enough. It’s incredibly reliable to land, which can make it seem oppressive against some laners. However, it also has a pretty long CD and costs 130 mana, which is fair for its power until you realize that it can’t even clear the backline until two full items unless you run a very specific combination of runes and items. \n Possible solution Give it the same mechanic as the Gragas barrel. Have it deal less damage to start off, but as its left out the damage increases. The e can start at slightly less damage than it does now, but ramp up to a bit more after a couple seconds. This does a few things. One, the practically free poke isn’t as bad when you use it immediately after cast. Two, it makes landing your q more rewarding since you can let the e charge up while they are cc’d. Lastly, it gives her some ability to waveclear if she decides to use it expressly for that purpose. She has such long CDs and if you compare her waveclear with other midlaner’s its really sad. I’d prefer everyone else’s waveclear to be nerfed, but that seems far off, and could cause issues with what control mages are in the game for since waveclear is a major factor in what makes them played now. There’s also champions whose waveclear can’t be nerfed that hard (Anivia, Viktor,etc) otherwise they become much more useless so if their waveclear stays it’s just going to shift what champions are played, not fix the inherent mid lane problem. If not changing the damage (which is perfectly understandable), the just decrease the mana cost to 100 at max rank. Its just way too much considering if you are against someone who can push waves into you you lose a lot of cs unless you use two e’s and a q which is about a third of the mana you get from a ludens. \n Final Spark- Really love the 1.75 second window, so you don’t have to kill steal or wait for the perfect opportunity. Leave as is, it’s what brought me to this champion and one of the main reasons I’ve played her for so many years",
+   "id": "8ak0yg",
+   "comments": [],
+   "age_days": 3107,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Runes and Builds thread for Season 8",
+   "url": "https://www.reddit.com/r/lux/comments/7htrjz/runes_and_builds_thread_for_season_8/",
+   "published": "2017-12-05",
+   "author": "/u/Fiersome3",
+   "body": "Well met yet again friends! Season 8 is coming soon-ish so its time for another one of these! \n With the massive ''Rune Reforged'' the build paths deserve to get a few updates and their corresponding recommended runes. \n Also make sure to read the previous thread if you want more detailed information on each build. No need to copy-paste everything here again. Some solid stuff there.\n Previous thread from Patch 7.17\n Yet again I shall say that you should always build what suits YOU. There is no 'best build path'. Mostly because each build has its own place and time. There also isn't any 'best rune build'. Each also has its own strengths and weaknesses. Instead tell me some suggestions as well!\n RUNE PAGE SUGGESTIONS Here are a few suggested pages that have worked for me. Mostly focusing on the primary Sorcery Tree. You'll understand the basic idea behind these quickly but that doesnt mean you can't experiment! The new runes are all about adapting to the situation!\n THE USUAL\n Arcane Comet, Manaflow Band, Transcendence, Scorch Biscuits, Magical Footwear\n If youre starting to play Lux this will do nicely. Plenty of lane sustain, something to help with mana issues as well.\n Recommended Item Set: Classic (its even flame proof!)\n EARLY LANING \n Summon: Aery/Comet, Manaflow Band, Absolute Focus, Scorch.\n Triumph, Coup de Grace\n CDR on level 10? Massive AP late game? Its all useless if you don't win early. With this page its all about smashing your lane and snowballing from there. Great especially in games where you team in focused on winning as soon as possible. Its a solid Support build as well.\n Recommended Item Set: Playmaker (The Crown Build is by far the fastest)\n LATEGAME BACKUP PLAN\n Arcane Comet, Ultimate Hat/Manaflow, Transcendence, Gathering Storm\n Biscuit Delivery, Future's Market\n Sometimes your laner is someone safe like Galio. He will shove but thats about it. We can easily greed towards lategame this time. Gathering Storms beat Scorch in minute 20 onwards, the Hat will stack by then as well. Future's Market is to grab important items ASAP.\n Recommended Item Set: Greed (nothing beats this late game)\n SITUATIONAL RUNES\n -Sorcery Keystone: Summon Aery -> Nerfed damage wise, still nice as a shield option. Better for lane but Comet seems better.\n -Domination Keystone: Electrocute -> RIP Thunderlords. Not saying this is bad though. Its hard to proc but it works in full comboes when you need it the most. Sadly the Red Tree is pure garbage for Lux compared to Sorcery so its hard to justify taking this.\n -Domination: Cheap Shot -> Not too bad I suppose. Problem is its the only thing in the Red tree besides Electrocute thats good. Worth it? You decide.\n -Inspiration: Perfect Timing (AKA pocket Zhonia's) -> take in any game you're planning to build Zhonia's Hourglass. It makes the item 300 gold cheaper and will save your life vs assassins. Mandatory vs Zed or Fizz!\n -Inspiration: Minion Dematerializer (AKA your long awaited E buff) -> this helps more than you might think, trust me. Use most charges on Caster minions and secure a Cannon minion or two. Really good when you are the primary wave clear of the team!\n -Sorcery: Nulifying Orb (AKA passive Hexdrinker) -> take vs hard AP matchups. It will help you survive through the game. Every little bit helps!\n -Sorcery: Celerity -> Quite useful vs skillshot matchups/comps and great synergy with Ghost, Mejai's and Luden's Echo, which give you around 20 AP. You get +8AP on Level 1 with Ghost. Quite decent. Only issue is giving up Transcendence. Don't underestimate Movement Speed though! \n -Resolve: Flat Armor/Flat MR -> Take Stopwatch or Nulifying Orb instead.\n THE BUILD PATHS CLASSIC BUILD (AKA THE META BUILD) Morelonomicon > Ludens Echo > Void Staff > Rabadon's Deathcap > situational item Recommended Runes: The Usual page (somewhere up there)\n The most common build. A fan favourite. The tried and true. Cant go wrong with it. Best thing to use if youre new to Lux. Not much has changed here.\n If you are new this is what I'd recommend. Manaflow Band will fix your mana issues. Having CDR is nice and Scorch is OP. Biscuits will help your early game and Future's Market gets you your items faster.\n CONCLUSION: No matter what I say people will always build this anyway. Moving on!\n GREED BUILD (AKA THE POE BUILD) Archangel Staff > Nashor's Tooth/Morelonomicon > Void Staff > Rabadon's Deathcap > situational last item. Good Choices: Biscuits, Future's Market\n Interesting Runes: Gathering Storm, Ultimate Hat\n WHAT CHANGED? \n First of games tend to not last that long right now, mostly because the peel supports aren't a thing. Often the game ends too early for you to scale, so maybe greeding for late game isn't the best idea. A risky plan. \n But while it is riskier the rewards are even more rewarding than before! A huge part is thanks to the runes obviously. Take Ultimate Hat for spammable ults and Gathering Storm for mindblowing AP scaling! Transcendence for CDR will do nicely as well. \n Take Future's Market from the Inspiration Tree to get your items when you need them (you need that Tear and Seraph ASAP) and Biscuit Delivery to carry your AFK early game (because you will have one). As an added bonus the Biscuits increase your max mana by 160, which means even more AP from Seraph. Its something okay?\n Tear of the Goddess also got changed since then, making it easier to stack. Same goes for Archangel Staff. The faster you get it the better it is. \n PLAYMAKER BUILD (AKA THE CROWN BUILD) Frost Queen's Claim > Luden's Echo > Void Staff > Rabadon's Deathcap > situational last item. Must-take Runes: Manaflow Band\n Good Choices: Magical Footwear & Perfect Timing/Cookies\n WHAT CHANGED?\n Firstly games tend to last less time! Which means spiking early is the best solution to the problem! \n Magical Footwear and Perfect Timing save us 650 gold. Combine it with FQ gold generation means getting Zhonias after FQ is not stupid at all now, simply because you get it so quickly. Especially with all those broken assassins running around.\n Frostfang got changed a while back, making it give CDR by itself. We will upgrade it regarless but its a fine change early. The item line also does a tiny bit more damage at the moment. Woo.\n The playmaking with the FQ active is even more useful now that the shield meta has died down. Not to mention people are easier to kill earlier because they have no MR.\n If the game doesnt need Zhonias take Cookies to boost your low mana pool by 160, which is very welcome. Luckily Manaflow Band is so good it will keep it up nicely.\n PENETRATION BUILD (AKA THE BURN BUILD) mana item -> Sorcerer Shoes -> Liandry's Torment -> Void Staff -> Rabadon's Deathcap -> situational Good Rune Choices: Minion Dematerializer/Magical Footwear\n WHAT CHANGED?\n Most importantly people DO NOT HAVE MR. You will deal true damage to squishies. This build is so dirty I could rename it to Double Penetration. But let's not go there.\n Sorcerer Shoes now give 18 magic pen, which is nice. Void Staff will give about 13 even on paper champions so DO NOT SKIP IT. Remember % penetration cut MR first, then the flat penetration comes in.\n The tank meta may be gone for now but its always nice to have a little extra burn damage. Luckily everyone always has max HP!\n Your wave clear problem is fixed with Minion Dematerializer (which was the main problem before), but if you want to get your main penetration items faster take Magical Footwear to get them 350 gold quicker. If you choose to get FQ it speeds it up even more.\n TLDR:\n Classic build still cool.\n Tear build maybe too slow but still insane late game.\n Crown build seems really strong and spikes faster.\n Pen build melts people like butter.\n ITEMS INFO BOOT OPTIONS?\n Sorcerer Shoes 90% of the time. Lucidity is a preference pick but the damage drop is noticable. Good on support though. Ninja Tabi's vs full ad/assassin comp. Mercury Treads vs stuff like Veigar.\n FROST QUEEN ON MID?\n Yep. Its a play style pick. Previous thread has the info you need. TLDR: fast spike, gold generation, great active.\n SERAPH STACKING IS SLOW?\n Never said it's fast but its worth it if the game goes long. Over 160 AP by itself + massive shield + infinite mana.\n CORE BUILD (VOID STAFF, RABADON'S DEATHCAP)\n Don't try to reinvent the wheel and just build this every game as some point. Never skip Void Staff. \n ZHONYA'S HOURGLASS\n I may or may not have completely shat on this item before but with Perfect Timing its pretty decent now. If you need this as a second item you can get it, but preferably keep it on Seeker's Armguard.\n BANSHEE'S VEIL\n While I do agree Zhonya's is better this still doesnt get the job done. Lategame sure but early this butchers your damage early. Consider a Negatron Cloak and a Nullifying Orb.\n MEJAI'S SOULSTEALER\n Not a fan because I hate risks but I know its a great item. Plenty of defensive runes exist as well to protect your stacks. Be careful and don't throw the game.\n LICH BANE\n Very situational, but not impossible. Still the same as before.\n Alright that's all for this time! I'll update this with more Rune Explanations if anyone posts good reasons. I'd actually like to see some more secondary runes!\n Good luck in your games, friends!",
+   "id": "7htrjz",
+   "comments": [],
+   "age_days": 3230,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Lux Build Paths thread (Patch 7.17)",
+   "url": "https://www.reddit.com/r/lux/comments/6x0f2l/lux_build_paths_thread_patch_717/",
+   "published": "2017-08-30",
+   "author": "/u/Fiersome3",
+   "body": "Greetings to all apprentices of light and to all masters of the elements! Many times has someone asked 'should I build this or that' on this subreddit so lets actually have one big post explaining all these things!\n First and foremost you need to remember something important: Build what suits you! Different people prefer different things! Just because someone builds a certain item doesn't mean its universally good! Unless its Ardent Censer on supports. Or Stoneplate on tanks. Uhh... Moving on!\n And don't flame a build if you don't like it either. We are all friends here! I hope. Lets have a nice discussion alright?\n SHORT VERSION This is about to get really long so here are some quick explanations. I've categorized the build paths into 4 different ones. There are probably a few more but this will do as a start. Also notice how the builds end with the same items. Will get to that later. As for boots just get them at some point.\n Classic -> The tried and true standard build for most mages including Lux. Nothing special but nice and reliable. 99% flame proof. This path focuses on the good old Morelonomicon rush. \n Morelonomicon > Luden's Echo > Void Staff > Rabadon's Deathcap > situational last item. Greed -> AKA the Power of Evil build. Its for people who prefer to scale up into the late game. Build focuses on rushing Seraphs Embrace. With literally infinite mana, insane AP numbers and a shield that goes over 1k with barrier you are one hell of a late game champion. Needs some time to get going in the game.\n Archangel Staff > Nashor's Tooth > Void Staff > Rabadon's Deathcap > situational last item. Playmaker -> You might think lux isn't a playmaker and... you would be right actually. But with the help of Frost Queen's Claim you can definitely force more fights for your team! This is also the cheapest build, it generates gold and gives you very noticeable movespeed when you hit things. Mana issues may apply.\n Frost Queen's Claim > Luden's Echo > Void Staff > Rabadon's Deathcap > situational last item. Penetration -> Focuses on as much early magic penetration as possible. Liandry's Torment burn is great in tank meta and has synergy with you Q and E, while the flat penetration destroys squishies. Warning: awful wave clear!\n Morelonomicon > Liandry's Torment > Void Staff > Rabadon's Deathcap > situational last item LONGER VERSION CLASSIC BUILD (AKA THE META BUILD)\n Morelonomicon > Luden's Echo > Void Staff > Rabadon's Deathcap > situational last item. All in all the most used build. There honestly isn't much to say here. The build starts with Morelonomicon that assists your mana issues early. Luden's Echo helps your waveclear followed by Void Staff and Rabadon for maximum damage output.\n Unlike for some other builds you will definitely not receive criticism for building this. People will never complain if you build meta afterall!\n GREED BUILD (AKA THE POE BUILD)\n Archangel Staff > CDR item > Void Staff > Rabadon's Deathcap > situational last item. This is currently the build I'm personally using a lot (if that means anything). #playforlategame\n The plan here is to get Tear of the Goddess early, grab a Dark Seal and then save some money for Needlessly Large Rod which then upgrades into Archangel's Staff. After this part you are even with the other build and begin to outscale them.\n Why rush Archangels? Because it stacks faster. Lux isn't a spammy champion (not counting emotes) so it would take some time to charge Tear. But by rushing the Staff you can usually get it done around 20 minutes. Not bad. \n Also Archangels actually gives more AP than Morelonomicon the second you get it. With the tear stacks you already have (around ~200) and your base mana the item gives about 30 bonus AP, a total of 110. But when you stack it completely and with your LV18 mana pool it gives a whooping 160!\n The item becomes gold efficient by itself (not counting your base mana for AP) when it has around 420 stacks, and continues to skyrocket in gold value from there. \n Now for the second item you need cooldown reduction. PoE builds Nashor's Tooth but I personally pick Morelonomicon here 90% of the time. The main difference is that Nashor's Tooth gives you easier and faster autoattacks plus nice on-hit effects, while Morelo gives 20 more AP (+12AP because of Seraph's mana passive), more mana and Grievous Wounds. Both are quite nice.\n The reason I dont usually go Nashor's Tooth is that I don't enough autoattacks for it to matter. Also its actually insanely situational. It will never work vs poke teams and you sure as hell ain't autoattacking 6k hp Cho'Gath or Maokai because you will get screwed. Also vs meele matchups you aren't going to autoattack Yasuo or Zed either because you are too busy running the other way. I'll take my simple 32 extra AP and be on my way. BUT if you feel confident that you can pull it off go for it!\n The rest of the build is pretty simple, and the items will be explained on the bottom somewhere.\n PROS:\n -Absurd scaling into the lategame.\n -Highest AP build.\n -The AP will always clear backline minions.\n -Over 1k shield with barrier which protects you AND your Mejai stacks.\n -Seraph's replaces a defensive item as well so you can greed more damage.\n -Limitless supply of mana.\n CONS:\n -Early 10 minutes farm simulator\n -You have to commit to Seraphs completely. You CANNOT abandon it on Tear or it will take way too long. \n -Delays your CDR a bit.\n -DO NOT BUILD IF FEEDING.\n PLAYMAKER BUILD (AKA CROWN BUILD)\n Frost Queen's Claim > Luden's Echo > Void Staff > Rabadon's Deathcap > situational last item. Now this is a fun one! If you ever feel like Lux isn't realiable (you are not wrong) then consider this build.\n The plan here is to rush the mage support item, Frost Queen's Claim and abuse its many passives. Crazy I know. But is it? \n FQ costs 2200 gold and is 82% gold efficient with no stacks and not counting in the gold generation or the active. To be efficient you need to get around 350 with the passive. Is that hard? Not at all! This thing can generate over 1000gold per game easily! Of course every time the active secures you a kill you we can safely add 300gold to its value. Later in the game the item practically pays for itself completely. Epic! \n But the main strength of the item is its cost. By being absurdly cheap you can obtain Luden's Echo 1200 gold EARLIER! Perhaps you dont realize how insane this is. That's an entire Needlessly Large Rod. Yes its insane. By getting Ludens so early you hit your powerspike earlier than any build. Luden's will help you waveclear while FQ will continue to generate money. \n Did I mention the movespeed from FQ as well? Combined with Luden's 10% boost, perhaps the Mejai's 15% boost, Ghost (the spell) and ghosts (from the active) a melee champion will never touch you again. Just be careful to not speed into a trap! #dejavu\n The rest of the build is pretty simple, and the items will be explained on the bottom somewhere.\n PROS: \n *By far the earliest power spike\n *FQ ghosts make your Q reliable and your R snipes more consistent + plus they facecheck for you\n *FQ generates a ton of money, making this the cheapest build. \n *Excellent movement speed boosts\n *Luden's always clears backline minions.\n CONS:\n *Possible mana issues. Consider taking Meditation mastery but be careful when spamming abilities.\n *Low cooldown reduction build. Consider taking scaling CDR runes.\n PENETRATION BUILD (AKA THE BURN BUILD)\n Morelonomicon > Liandry's Torment > Void Staff > Rabadon's Deathcap > situational last item Alright last one is the penetration build. While this one rushes Morelonomicon as well it is infact quite different, enough to deserve its own spot. By buying Sorcerer's shoes and Liandy's torment, and your runes plus masteries you have around 42 magic penetration. The perfect amount. Add in Void Staff for the 35% and watch the enemy team MR become nothing. \n Of course this has EXTREME synergy with the Liandry burn. Your damage graph will be enourmous. I'm quite positive this is the build that does the most damage overall early. And who doesnt like damage, right? It also shreds tanks better than any build here. Luckily the meta right now is filled with tanks right now.\n BUT there is one fatal flaw with it: waveclear. If you have ever experienced minions living on 2 hp after an E better get used to it with this build. Since Haunting Guise and Sorcerer Shoes give almost no AP only magic penetration this becomes quite an issue. I'd suggest actually getting the Blasting Wand first but that kinda destroys the point doesnt it?\n If nothing else it will clear the wave if you are fed!\n The rest of the build is pretty simple, and the items will be explained on the bottom somewhere.\n PROS:\n -Highest overall damage\n -Tank shreding capability with Liandry\n -Solid extra HP makes you tankier which is always nice\n CONS:\n -Meh wave clear. Might want to consider scaling AP runes and a stacked Dark Seal here.\n -Nope that's all I can think of.\n EXTRA DETAILS VOID STAFF OR RABADON THIRD?\n Firstly you can see that each build goes Void Staff 3rd, followed by Rabadon Deathcap and leaving the final item as whatever is needed in the game. Here is the explanation on why Void is superior: \n http://imgur.com/6kISZPE\n This links to a chart. It is nice. I really hope I'm allowed to link things. Pretty much unless the enemy team is building 0 MR Void Staff will do more damage. It is also cheaper than Rabadon which means its easier to obtain. It is an eternal topic that has been discussed many times and you can probably just Google it!\n Also yes you can get Void Staff a bit later. I sure can't stop you but just buy it alright? I've seen many Lux players and other midlaner skip this item and that is a huge mistake. \n WHERE ARE THE DEFENSIVE OPTIONS?!\n Now about Zhonia's Hourglass. This a late game item. BE CAREFUL building this early game is a giant trap. Lux does not have the base damages of Vlad, tankiness of Swain nor is she elusive as Fizz to make good use of this item. No matter what do not build this early game. Get the Seeker's Armguard and leave it there!\n Here is a prime example: So let's say you fed a Zed and you're 0/4 because you got camped. Happens to anyone every now and then. It's all right. Now you realize you are made of wet toilet paper and need defenses. Now as a 0/4 you will invest 3000 gold into the Hourglass. Perfect now Zed cannot ult you! Now let me tell you why that's actually a bad thing.\n If he cannot ult or focus you you can bet he will focus someone else now. Again this is not a good thing! With Zhonias you are not a threat to the enemy team anymore! Your damage becomes pathetic and I've literally experienced people focusing my tank Maokai before me. Sure not dying is important but unless the game drags on for 50minutes until you get more items (which is hard because your waveclear also sucks now) you will most likely lose.\n Its the same reason people dont build tank items on ADC. You need to build damage as a damage dealer. Its a harsh truth sometimes. Its better to be squishy and do some damage while risking to get pounded instead of being a bruiser-ish mage that can't burst through a Hexdrinker.\n Of course late game this item is great! By then you have your build and a lot of AP to backup this item so definitely pick it up then! \n About Banshee's Veil its the same thing. Just get Negatron or two Null-Magic Mantles. Finish it later.\n DID YOU FORGET MEJAI'S SOULSTEALER?\n Of course not. Lux is one of the rare champions that can use this item efficiently by having the safety and CC to protect her stacks, the long range to obtain them easily and a shield which grants you assist from almost any nearby kill. \n Gold efficiency wise its only 50% with no stacks but a jaw dropping 273% with 25! Holy mother of Aurelion Sol thats a lot. It builds out of Dark Seal which you probably bought at some point anyway. This can fit into any build really if you are doing well. \n But be warned: as this can win you games it can sure as hell lose them too. Above all if you want to stacks Mejai's do not build it into engage compositions. I guess you could anyway but it puts a huge target on your beautiful face. Even if the team comp is in your favor positioning is key as well. Aka play like a wuss from far away. \n PROS:\n -Build out of dark seal.\n -Massive ap for almost no money!\n -Prismatic Barrier allows easy stacking\n -Insanely snowbally\n -Movespeed is a nice addition\n -It also gives mana for some reason. Neat.\n CONS:\n -Risky purchase.\n -Dying after upgrading max stack Dark Seal is incredibly bad.\n -Do not build this vs engage comps!\n LICH BANE\n Often considered as a 6th item. I've one shot an ADC with E -> flash autoattack multiple times.\n Now the issue of building it earlier is... when? Your waveclear suffers immensely with the lack of AP which is a very important part of the game. It also doesn't provide the tanky stats of Liandry's either and it forces you to play closer to the enemy team. You could potentially use it as a mana item but I dont think it gives enough to sustain it. The 10% CDR also feels a bit low.\n Well tell me what you think! I'll update this as the items change so we have a place to see all this. And of course tell me your build paths as well so we can add them here! I probably missed some important things but I can always add them later. \n Someone should also pin this or a similar thread to the top of the subreddit so its nice and visible for our newer visitors. Clarity! \n Good luck in your games!",
+   "id": "6x0f2l",
+   "comments": [],
+   "age_days": 3327,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "PoE Lux Build - Thoughts",
+   "url": "https://www.reddit.com/r/lux/comments/6kve85/poe_lux_build_thoughts/",
+   "published": "2017-07-02",
+   "author": "/u/TimoteTh3God",
+   "body": "http://puu.sh/wzXz8/6d9656e523.jpg\n This build is pretty solid. You do feel a bit weaker early on, but once you hit your mid-game power spike with Archangels and Nashors, you feel a lot stronger. The extra CDR is very nice, and I don't think I ever ran out of mana that game. The shield given by Archangels is extremely helpful, and gives Lux a lot more survivability in a fight. In that game, Irelia always dove for me in fights, but the Banshees + shield from Archangels made sure that Irelia would die before she could kill me. \n The build is also fantastic in a siege or poke comp, as with 40% CDR, you'll be shooting E's out like a madman. A 30 second ult level 16 is also one of the strongest things in the game. Wave-clearing is a lot easier with this build too, as the AA and extra damage from Nashor's can melt super minions, who take much more damage from magic than physical. A simple Q auto E auto can do 3/4 of a super minions health. \n A few bad things about this build is the early weakness and not getting magic-pen early. Archangels takes a bit of time to ramp up as well. That being said, I outlaned a Kassadin with this build, a pretty bad matchup for Lux once he gets 6. I'd say to go this build when you're confident you can snowball, or if your team is in a bad spot (Inhibs are down early).",
+   "id": "6kve85",
+   "comments": [],
+   "age_days": 3386,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Let's talk: A complete Lux guide - by Robs!",
+   "url": "https://www.reddit.com/r/lux/comments/4akcl1/lets_talk_a_complete_lux_guide_by_robs/",
+   "published": "2016-03-15",
+   "author": "/u/RobsLoL",
+   "body": "Hello, Summoners! My name is Robs, Master tier Lux sinse season 1. Id like you to read and discuss about everything pointed in this post, items, masteries, and such. Your opinion is important!\n I wanna talk about my Lux play pattern and see what you think about it, what can I do better and what Im doing great. So here we go!\n Masteries:\n Since season 2, I started running those attack speed masteries to improve csing under towers (as it allowed Lux to land 2 AAs before 1 turret shot) and some variation on the support masteries to give me a nice mix of stats. Now, in season 6, with the addition of TLD and some pretty stupid spell damage, the Lady of Luminosity has become more powerful than ever. TDL allows Lux to harras in lane with Q or E + AA, dealing massive damage, as it proccs both her passive and the masterie. It does help her burst combo too, needing only 3 hits to work and Lux' combo using all her 3 abilities. The addition of the 5% damage implements it so well... Cant even deal with her 3 item outrageous burst.\n The second grid masterie that gives 20hp per minion wave is so good for sustain, and double edged sword makes Lux so frail that I dont ever use it. Expose weakness isnt good in 1v1 scenarios, so I only use it while building a support-ish Lux on Mid. Tier 3 is kinda hard to explain. I dont use 5 points in one masterie, cuz 3 points on natural talent makes it perfect for Lux to trade in lane while still helping her csing and burst with a bit more ap. 2 spell Vamp poins synergyzes so well with all this crazy aoe sustain, its nuts.\n Tier 4 is pretty self-explanatory. Lots of CC --> use oppressor. As for the Cunning part, I usually run movespeed, to roam, better position on team fights, and rotation. Biscuit isnt as good as people think, but I only run Assassin if Im sure Im gonna get a kill early, or solo kill somebody in the Mid game with this extra damage. Merciless vs. Meditation is a trick one. If Im building a support-ish Lux, I tend to run Meditation, Bandit and CDR. If building full damage-burst, I run merciless, dangerous game and precision. It really depends on your playstyle and your team comp. I ussually run the support one if my team has a carry top laner and a damage-focused jungler, like Fiora Elise, or Gangplank Lee Sin.\n Runes:\n With the masterie changes and the less usage of the attack speed variace, I started using 3 atkspd Marks to compensate on the CS portion of the laning phase, better trading, and proccing of multiple minion passives while still kiting in between. As for the other 6, standart magic pen works, but against melee champions, double pen is nicer.\n Yellows I run armor or HP per level, depending on opposing matchups. But if Im against a zed, for exemple, and the enemy team has a nida, rumble and corki, I run HP, even if my laner is AD. \n And the gliphs... Urgh. They're mostly personal and depends on the boots you are running in game. I like CDR boots with 10% flat CDR, but it lowers my early game damage income. Running Mr is good even if agaist zeds and talons, cuz it helps agaists their teammates too. But the one I like the most is AP per level. It scales extremely well with Lux.\n For quints, standart 15 AP. Unless running 10cdr flat, which requires 1 CDR quint.\n Items (Talking about items is hard. To make my life easier, I'll divide them into some categories):\n Mana (regen): here we have Tear, Morellos, Athenes, FQC, RoA, Lich Bane and Frozen Heart. Yes, Frozen Heart. \n Some may argue that Tear and FH makes Lux's early game as shitty as Kog, and that is partially true. But in situacions where you need a vast mana pool and high burst damage, tear is one of the stronger opitions. There are 2 problems with this item, being low scaling and lack of defensive stats. The shield is absolutely perfect against those fkn AD assassins and allows you to burst them with high AP even if they jump on you. \n Frozen Heart is an early protection and fix against the same oponents, as it gives CDR and armor intead of mana regen and AP. I've been testing it out and seems to work just fine against full AD comps. If not full AD, I prefer tear.\n FQC is an item used to accelerate power spikes and grant early game advantages via gold generation, low cost, and its active, used to scape ganks, create pick-off potentials, and use as vision to seek for the enemy jungler. I normally buy this item when I know Im gonna get ganked frequently, Im against a low-mobility Mid laner, or when I need 3-4 itens to be useful in the game (using the acceleration part of the item).\n Athenes vs. Morello is a choice which depends on the opposing team. Need damage and no defensive stats? Morello. In need of some survivability against those peskin LBs and Ahris running around? Welp, heres Athenes for you. But what if you still wanna kill these AP assassins? Take a chance and go for Morello. No problem. \n *Athenes is more useful against double or triple AP comps, making the gold invested in MR more valuable.\n RoA and Lich Bane are extremely situacional itens that I close to never run. I'd only use RoA against Ziggs ou Xerath for the anti-poke HP that it gives. Lich bane is for split pushing with teleport, which I only recommend when facing wombo-combo teams or in need to defend squish split pusher, like Teemo, for a bit more dueling power.\n Defensive items: Here, we have Abyssal, Athenes, FH, RoA, Rylais, Liandry, and Zhonyas. I won't talk about the items Ive already talked, so yeah.\n Abyssal vs. Athenes is a choice based on the enemy team, lane match up, and the runes you run. I only go for Abyssal when Im against aggresive LeBlancs, Dianas, or Fizz. It gives Lux's shield a gret value against AP champions and gives so much MR to survive. The 70 AP and 20 'pen' is nothing to laugh at, and is a very cheap item ATM.\n Athenes is that item used against light-mage treats that are durable, like Anivia, Karma, Lulu... It allows you to have nice damage sustain and dueling vs. them, while giving some nice cdr and mana regen to spam habilities. The major problem with this item is the high cost it have. Like, really high.\n I've already talked about FH and RoA, so I'll jump it.\n I like to build Lyandrys against 2 or 3 tanks on the enemy team, cuz it gives nice %damage based on health, helping to poke on tanks and shread them to death.\n And the last one, Zhonyas. You know when to build this. Zed, Vi, Talon, Vladmir, Malphite... Its more used as a counter-item then to deal with ADs. Its so expensive right now, that you only build it if it's totally necessary, or you wont do too much damage.\n Damage items: Void Staff, Ludens Echo, Mejais, and Death Cap are the most aggressive items to build on this wonderful Lady;\n Void Staff is only efficient if the enemy team has 2 or 3 people with +70 MR. It happens because its %penetration, not flat. So, more MR they have, more value you gain building it. Don't rush it. Build as 3rd or 4th item always. The exceptions will be: As 2nd item --> If the enemy team already have a locket, top laner have some mr item, and mid laner too; As last item(5th) --> If they have no tankers and any heavy MR items, such as Maw, QSS, Abyssal, or Locket.\n Ludens is good in 2 situations: If you are ahead and build it as your 2nd item (after a cdr one), or as 4th / 5th item, if in need of more damage after CDR, DCap and Void. It does provide some nice burst mid-game and nice amplification late game. If you build it as 3rd item, your damage against tankers will be very lack luster and if the enemy team has a locket, you are so fkd. So, either 2nd item, or after 3 core items (Void being one of them).\n Deathcap is deathcap, you know? If you are an AP caster champion, build it. This item gives the most AP if every item in the game. It amplifies all AP you have. Not more to say. Just don't build it as first item, because its very expensive and the amplification will be wasted.\n Mejais is a very soloQueue item focused, which snowballs the game very hard if used correctly, or fucks up who builds it in the wrong scenario. As Lux, the stacking is very easy to achieve, and gives lots of AP. Is it good? Yes, but only if you position well during team fights and know how to snowball with a medium lead. If not, don't go for this item. Be safe and build another one.\n Boosts choice: CDR, Swifts, and Pen.\n I normally build CDR as it grants more stats in general. Less cooldown on my flash, spells, abilities, and its cheaper then Pen. It does allow Lux to reach 40% CDR with blue or proper runes, giving her a nice sustained damage.\n Swifts are a nice mobility source and slow reduction against certain types of comps really helps Lux's low mobility. The low cost is good, but you lose some kind of damage, being sustain or burst.\n MPen boosts are really nice to burst squish targets, but I only go for it when the enemy team doesn't have more than 1 tank. The 15 flat Pen synergyzes with Runes and Masteries, amplifying Lux's burst potencial. But it's not my play style. I play more of a caster than a burst-mage.\n Welp guys, I think I'm done for now. If you guys have any questions, please leave it down below. TLD: talked about runes, itemization, and masterie usage.\n \"See ya, Summoners!\" ~Robs",
+   "id": "4akcl1",
+   "comments": [],
+   "age_days": 3860,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  }
+ ]
+}

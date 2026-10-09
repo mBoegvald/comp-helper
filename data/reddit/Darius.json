@@ -1,0 +1,1514 @@
+{
+ "champion": "Darius",
+ "subreddit": "dariusmains",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "Trying to learn Darius, need help!",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1wn0qu5/trying_to_learn_darius_need_help/",
+   "published": "2026-09-22",
+   "author": "/u/mikazee",
+   "body": "It feels unfair. Like when I play against Darius, it's a hyper tense matchup where if I make a mistake, I don't just lose have my health bar, I die. But when I play as Darius, it feels like every matchup is even but I'm constantly lacking skill. Perhaps I'm too greedy.\n 1) Ghost or Exhaust?\n Lolalytics says exhaust, but I can't tell if that's actually better or not. I've been playing since 2021, and ghost was a no brainer. But right when I start, lolalytics says go exhaust. And I've been using it in my games. Not sure if it's situational.\n 2) Stormraiders, Conq, Stridebreaker, or Yomu's?\n Everyone says go Yomus, but it feels like it's never the reason I catch up to someone. I always build it. Maybe it doesn't really shine until after deadman's second?\n Also, stormraiders. Most champs I face top are beefy so I'm just not procing it in lane. But outside lane I'm not against it.\n 3) Is there a reason killing in lane just doesn't feel as easy as it used to? I understand that Darius can stand on the wave and the other person is getting zoned. But it feels like better darius players like Rhoku are able to create a bunch of kill windows.\n What I mean is, I'm good enough at mordekaiser that I can kill my enemy on repeat as a gold player. I play as \"enemy\" morde. But I'm not yet good enough to kill my enemy on repeat as darius. If I play agressively, I lose too much hp and have to base. Not literally every game. Other darius's play the game like they know exactly how to kill you. They dont just take 80% of your health bar while losing 80% of their own health bar. If you step out of line, you die.\n Is there a season 16 darius guide that I can follow that accounts for storm raiders surge being in the game? I'm aware that I can poke with Q, but am I supposed to learn each matchup in depth? Is it just as simple as crash 3rd wave, base, and freeze the lane?",
+   "id": "1wn0qu5",
+   "comments": [],
+   "age_days": 17,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I analysed 22,000 ranked games, Darius wins his lane more than any other popular top laner, but fails to convert it to a win.",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1whcxjd/i_analysed_22000_ranked_games_darius_wins_his/",
+   "published": "2026-09-15",
+   "author": "/u/hugorocha",
+   "body": "I compared the two players in each role across 22,722 ranked games to see who\n came out of laning ahead, then checked who won the game.\n \n I built a lobby advisor app (https://shouldidodge.lol/) and used the data when calibrating it.\n \n 1,888 of those had a\n Darius top, against the five other most-played top laners:\n Champion Games Wins lane Won lane -> team won Lost lane -> still won Darius 1888 54.4% 61.1% 34.6% Garen 1922 52.5% 62.9% 39.9% Sett 1408 51.1% 68.6% 37.8% Yone 1836 46.6% 68.0% 34.7% Nasus 1702 43.7% 65.7% 39.0% Teemo 1497 42.3% 67.0% 41.0% Two things, pointing the same way. Darius wins his lane more than anyone here -\n 54.4%, the highest of the six.\n But it converts worse than anyone's: a won Darius lane turns into a win only\n 61.1% of the time, versus 68.6% for Sett and 68.0% for Yone, and below the 63.2%\n average across all top laners. When he loses lane, his team wins just 34.6% -\n also the lowest of the six.\n A won Darius lane doesn't travel as far as a won lane on some other champions.\n The reading this sub probably already has: he wins his 1v1, but has no fast way to turn that into\n objectives, he's easy to kite and collapse on once teams start grouping, and the\n enemy gets to decide how much they even interact with him. Sett and Yone win lane\n less often but carry the advantage into the rest of the map more easily.\n This fits a bigger pattern in the wider dataset: top lane overall converts a won\n matchup into a win less often than any other role - 63.2% versus 68.4% for\n jungle - at every one of the ten ranks. The likely reason is that top is the most\n isolated role on the map, so its numbers are the least inflated by teammates.\n Darius is that pattern turned up to its most extreme version here.\n Here's that pattern broken out by rank - top is last in all ten rows, while\n jungle, bot and support trade the other places depending on the tier:\n Rank Top Jungle Mid Bot Support Iron 63.3 68.4 66.3 67.4 66.6 Bronze 63.5 67.7 65.3 66.2 67.6 Silver 64.1 67.2 67.1 68.0 68.2 Gold 63.6 67.3 64.3 68.1 68.0 Platinum 62.1 68.0 66.4 66.2 64.4 Emerald 60.7 66.0 65.2 69.2 66.8 Diamond 63.6 67.7 67.1 65.9 68.1 Master 62.8 71.0 68.9 69.6 70.5 Grandmaster 64.7 71.1 68.6 69.6 69.2 Challenger 65.7 70.5 73.1 68.7 70.7 -------------------------------------------------------------------------------\n How this was built\n -------------------------------------------------------------------------------\n 23,811 EUW ranked solo games from riot's public API,\n cleaned to 22,722 (remakes, sub-15-minute games, AFKs and non-solo-queue dropped)\n - 2,340 to 2,650 per rank, Challenger thinner at 484. Roles are labelled in the\n data, so \"Darius top\" means he actually played top.\n \"Wins lane\" is the higher laning-phase score of the two players in that role -\n Darius against whoever he was matched into, not a cross-champion score. With\n 1,888 games the Darius numbers carry roughly +/-3 points of uncertainty: the\n Darius-vs-Garen conversion gap (61.1 vs 62.9) is inside that and I wouldn't lean\n on it, but Darius-vs-Sett (61.1 vs 68.6) is well outside it.",
+   "id": "1whcxjd",
+   "comments": [],
+   "age_days": 24,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Dhelm slept on?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1wewn7x/dhelm_slept_on/",
+   "published": "2026-09-13",
+   "author": "/u/Dunkmaxxing",
+   "body": "I was sleeping on it recently for all-ins, especially since Darius already wants to be doing that in a lot of matchups. Item is actually cracked for letting you live longer and get more value from passive/possibly more healing from Q usages. Dshield will be better for poke ofc and Dblade into lanes where you have strong kill pressure with little resistance to face (Sion/Cho'gath/Etc). An example of when to take Dhelm imo is into Sett/Jax (fighters that you can easily force into all-ins when they try trade or want to all-in themselves), makes your all-in potential way stronger especially if you have boneplating/unflinching to pair with it and you can kind of stand and bang. It even gives more value to your health pot.",
+   "id": "1wewn7x",
+   "comments": [],
+   "age_days": 26,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to deal with dorans bow jax",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1wbzxoq/how_to_deal_with_dorans_bow_jax/",
+   "published": "2026-09-09",
+   "author": "/u/Vivid-Investment3612",
+   "body": "I used to be ok with this skill matchup but now i feel like he just completely rolls me now",
+   "id": "1wbzxoq",
+   "comments": [],
+   "age_days": 30,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Darius Jungle actually fun",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1w4fvfn/darius_jungle_actually_fun/",
+   "published": "2026-09-01",
+   "author": "/u/eksterVX",
+   "body": "I must say Darius Jungle is way more fun than Darius Top.\n As Darius jngl I feel like I have much more impact on the game.\n When you see on Top that you are vs Teemo, Quinn, Jax, Wukong, the game is still fun but tedious to deal with the matchup.\n Whereas in Jungle it is way more fun regardless of the matchup, you are way more in control of the game instead of being in disadvantaged matchup.\n If you have a good map awerness, give a Darius Jungle a shot or two",
+   "id": "1w4fvfn",
+   "comments": [],
+   "age_days": 38,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Best Darius Build + Matchups?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1w1ztag/best_darius_build_matchups/",
+   "published": "2026-08-29",
+   "author": "/u/obrandini",
+   "body": "What are the main Darius builds per matchup?",
+   "id": "1w1ztag",
+   "comments": [],
+   "age_days": 41,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I am once again here for wisdom and guidance",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1w0z9p2/i_am_once_again_here_for_wisdom_and_guidance/",
+   "published": "2026-08-28",
+   "author": "/u/DarussyDunk",
+   "body": "I finally just hit play playing Darius only top unless banned or taken, sitting at a 53% WR on Darius and a 53% WR overall in soloq, but I can't help but feel boosted even tho i play mostly solo and my progress comes when i play solo. I seem to have really struggled a lot past Gold 3 against champs I've never really struggled against before, like LT Jax, Illaoi, ranged matchups, Sett, etc.\n I'm really starting to feel being weak sided i can't always outplay the 2v1 anymore. More often than not, when weak sided, I get dove off cooldown. I'm also starting to struggle a lot with my mid to late game macro wise. I've tried split pushing and team fighting, and team fighting is far better than split pushing, but it's still not going so well.\n My mid to late game is horrific. Even if I'm ahead or behind, it doesn't seem to matter.\n Does anyone have any tips for any of the issues I seem to be running into? I know my CSing is horrific, but more often than not, I'm not allowed to walk up into my lane. I'll have the enemy jungle or mid hovering for 5 business days, or I'll be into a really bad matchup and just get violated.\n I play almost exclusively Stormraiders and change up my secondary runes depending on the matchup i will play conq if its 4 melee champs. \n https://u.gg/lol/profile/euw1/darussy-dunk/overview?rank=master_plus&region=euw1",
+   "id": "1w0z9p2",
+   "comments": [],
+   "age_days": 42,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Why is Darius considered low skill?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1vn22b8/why_is_darius_considered_low_skill/",
+   "published": "2026-08-13",
+   "author": "/u/KevenMoans",
+   "body": "I don't understand how people can consider Darius on the same skill level of Garen and Morde. While he's not highly mechanical like Yasuo or Ambessa let's say he's pretty difficult imo. \n You can't just win mindlessy by pressing E AA W Q because that works only into some matchups. \n Garen can just Q E W and he outtrades most chars on even even gold and the regens from passive.\n Is it just because Darius is a noob stomper? But I though Garen, Morde, Sett and similars are also noobstompers...\n I don't get the hate for Darius.",
+   "id": "1vn22b8",
+   "comments": [],
+   "age_days": 57,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Volibear matchup (top)",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1vmue3p/volibear_matchup_top/",
+   "published": "2026-08-12",
+   "author": "/u/DarussyDunk",
+   "body": "No matter what I build or what I take, I can't help but just get one shot by this freak of a champ post 6. I could be 2 kills up, but come level 6 I'm basically a melee minion. How do I play the matchup better or itemize against him? He can literally fully one shot me before he even gets his second W proc off. Short trades don't seem to work, long extended fights don't seem to work either anti heal or anti shield sure as hell doesn't work. So what am I actually doing wrong? I'll freeze the wave, he'll just walk under my tower, press his buttons, take half my health, walk off, come back and do the exact same thing and I'm cooked, even if he's 0-2. It's the one champion I can never seem to properly lane against and come out at least even at a minimum.",
+   "id": "1vmue3p",
+   "comments": [],
+   "age_days": 58,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Hot take: Darius is a better jungler than laner this season",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1vh7d2a/hot_take_darius_is_a_better_jungler_than_laner/",
+   "published": "2026-08-06",
+   "author": "/u/CallMeJimMilton",
+   "body": "Top Darius still works, but you’re constantly getting kited, frozen out, or stuck in bad matchups. In Jungle he gets real agency to actually carry games without needing to have Raider level macro. Jungle lets him do what he’s good at without all the bullshit.\n Why it works:\n • He clears fast and can simply power farm to get ahead if there are no good gank opportunities\n • You can be at the first dragon level 6 and just wipe the enemy team\n • You choose when to fight instead of getting poked under tower all game\n • Higher win rate hovering around 52%, compared to Top at 49%\n • Lore (yes really) Darius is a Noxian general, a true shot caller and leader. Obviously he’d be threatening everyone opposing him, while securing his team every objective that guarantees victory. He wouldn’t just be stuck on some damn island hiding behind minions to avoid Vayne.\n He’d be the reason your team conquered, and I believe jungle makes that role more possible for him.\n Mobility runes + Youmuu’s/Deadman’s help him stick so well that I don’t even care about not having ghost. Just make sure you know how to peel in teamfights because you are SO much squishier.\n Suffer no longer brothers, take your axe into the bushes and take your LP this season. IT IS YOURS",
+   "id": "1vh7d2a",
+   "comments": [],
+   "age_days": 64,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Could Darius be the AD champ Im looking for?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1v8quob/could_darius_be_the_ad_champ_im_looking_for/",
+   "published": "2026-07-28",
+   "author": "/u/KatsuragiKyon",
+   "body": "So a bit of context.\n I am a toplaner down in Silver ELO, I've been playing lol for about a year and a half but recently decided to just play ranked and try to (casually) climb.\n I play almost exclusively Gragas and TK, two AP champs, I also play Cho, but tbh I don't play him a lot lately.\n As you can see I kind of only know how to play AP champs, I've tried Renektor because I LOVE his design but I kinda stink at him.\n I'm looking for an AD champ that would be good into matchups that I would struggle against as TK or Gragas.\n I know Gragas is a great lane neutralizer but sometimes I HAVE to pick AD or I'm throwing.\n I started playing Darius in Normals to check him out and I find him very fun so far.\n TLDR: Would you guys say his matchups would complement my current pool of TK and Gragas?",
+   "id": "1v8quob",
+   "comments": [],
+   "age_days": 73,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to lane against garen? [low elo]",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1v4j7ta/how_to_lane_against_garen_low_elo/",
+   "published": "2026-07-23",
+   "author": "/u/FruitOk6340",
+   "body": "This matchup has always been tough for me. If garen gets ahead, it feels impossible to do anything against him. Ive tried a few different builds/ruins. But if i overextend i get punished beyond belief and have no escape. I know you can win this matchup and i need to play better, any tips are welcome!",
+   "id": "1v4j7ta",
+   "comments": [],
+   "age_days": 78,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How do i beat Darius as Singed",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1v2rhnw/how_do_i_beat_darius_as_singed/",
+   "published": "2026-07-21",
+   "author": "/u/Voldtech",
+   "body": "300Lp master player \n I used to consider this matchup Singed. But ever since the phase rush removal, i havent been able to not sololose the game in even 1 game against Darius. There seems to be 0 counterplay.\n He has stormraiders, meanwhile you cannot proc it. You lose short trades, you lose long trades. After one E, you are down to 60% health and must recall. He rushes movespeed, and still oneshots somehow, and after force of nature, you can NEVER damage him.\n Do i just skip waves, and like not even be in lane? I genuinely do not see any counterplay here, but maybe you can change my mind",
+   "id": "1v2rhnw",
+   "comments": [],
+   "age_days": 80,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Have you guys adapted to stormraider yet?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1v1q33f/have_you_guys_adapted_to_stormraider_yet/",
+   "published": "2026-07-20",
+   "author": "/u/cementfan451",
+   "body": "Took a break from Darius and toplane in general to try and get masters on jg\n Coming back to Darius and toplane I've started playing the stormraider exhaust ghost blade build and it feels insanely strong, viable every single game \n Every fight feels like you have a budget ghost but you get to take sorcery tree AND resolve, only loss you have is conq damage which isnt that noticeable + u go ghostblade so you end up doing more damage than stride conq\n Having exhaust in lane feels so strong again so many matchups but also in team fights , combined with ms from storm raider some matchups become so much easier \n For example against Jax if you catch him with your Q and he doesnt Q into you to dodge you can auto w and IT will proc your rune , from here you can choose to space him while u wait for Q cd, he cant jump on you and E since u r so fast but he cant auto you either \n Imo this is way stronger than ghost conq , havent faced a Darius with exhaust yet myself but it must be very scary to lane into",
+   "id": "1v1q33f",
+   "comments": [],
+   "age_days": 81,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Darius Matchups lvl 1-3",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1uyiyye/darius_matchups_lvl_13/",
+   "published": "2026-07-16",
+   "author": "/u/joeywheelz67",
+   "body": "Loving Darius so far this has probably been posted many times but to ask more specifically,\n Level 1 fist fighting what champs can beat Darius level 1? want to ask instead of inting in game matchup I haven't faced yet\n Like specifically if Darius takes ignite and bone plating for max lvl 1 cheese?\n Do trundle, urgot, sett, etc still win if I take ignite bone plating W start?\n If so how to play the lane?",
+   "id": "1uyiyye",
+   "comments": [],
+   "age_days": 85,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Darius items",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1uwmuff/darius_items/",
+   "published": "2026-07-14",
+   "author": "/u/Charming_Dog_6166",
+   "body": "I am very new to league and have loved for the most part playing Darius. I find some matchups I play well but ranged I struggle with kiting and I am curious if there are some items in which are non negotiable for your build? I understand for the most part items will change with who you are against but what are some that always get picked?\n Thanks :D",
+   "id": "1uwmuff",
+   "comments": [],
+   "age_days": 87,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "y'all should try hail of blades",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1uf86d8/yall_should_try_hail_of_blades/",
+   "published": "2026-06-25",
+   "author": "/u/egorax_",
+   "body": "i saw this rune from a korean player, he played with hail of blades but crit. i tried crit but it sucked, so i decided to try it with a more normal build to see how it goes, and i gotta say, this is underrated asf lol. it's insane the pressure and the things you can do with this rune instead of the other (before saying \"but you get kited\", i know how to play darius so i never find myself in a position where i actually get kited to death lol). the low health plays you can pull off, the instant 5 stack combo burst, the short trades also because with HOB just a simple auto w does a lot. i never play darius with phase rush/ stormraiders surge, i think they are overrated, only in the quinn natchup i use it. also, HOB allows you to start with e into ranged matchups, they dont expect it. so you hook them deal 3/4 of their hp or make them flash, then abuse them for the rest of the lane with your other summs. y'all should try it.",
+   "id": "1uf86d8",
+   "comments": [],
+   "age_days": 106,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "When is conqueror absolutely necessary?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1u33t90/when_is_conqueror_absolutely_necessary/",
+   "published": "2026-06-11",
+   "author": "/u/CiREus_",
+   "body": "Hi all, I've recently watched the Darius guide from RaiderGO and he says that Stormraider's Surge is viable in almost every matchup. \n I kind of like the playstyle of SS + Youmuu's so I'd like to stay with it as much as possible, especially since you can bring another summoner spell like ignite or exhaust (ehem ehem Varus). \n I know the theory that matchups with extended fights benefit from conqueror's rune, but I'd like to know which are, in your opinion, matchups where conqueror is 100% necessary.\n PS: I started playing league again from 2017 so everything feels completely different and rusty hehe \n Thanks :D",
+   "id": "1u33t90",
+   "comments": [],
+   "age_days": 120,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Teemo and ranged tops in general",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1tuita8/teemo_and_ranged_tops_in_general/",
+   "published": "2026-06-02",
+   "author": "/u/TinyImagination9232",
+   "body": "Playing into ranged tops seems like an unwinnable matchup. As darius are you supposed to just concede the wave and cs? I recently fought a teemo who simply didn't go for the wave and just kept poking me even under turret. How do you win these match ups and what items specifically do you build into teemo?",
+   "id": "1tuita8",
+   "comments": [],
+   "age_days": 129,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Question from a sett player",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1tnyxv3/question_from_a_sett_player/",
+   "published": "2026-05-26",
+   "author": "/u/Dazzling-Invite5220",
+   "body": "I see and hear a lot of things from both sides of the matchup, this is more so to see what the general populace thinks, \n Do people think sett actually counters Darius or is it really just an even matchup? Everytime I fight Darius I have so much fun just because of how volatile and dangerous the matchup is on both ends, and out of respect for a fellow melee juggernaut, I stopped using pta in these matchups",
+   "id": "1tnyxv3",
+   "comments": [],
+   "age_days": 136,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Struggle with Ranged Matchups? Practice it before Ranked with Duelr",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1tln1de/struggle_with_ranged_matchups_practice_it_before/",
+   "published": "2026-05-23",
+   "author": "/u/ghillieeeeee",
+   "body": "As a Darius player, playing into Vayne/Quinn/Varus is cancer. \n I made this tool to provide a safe environment to practice hard matchups without the fear of throwing games for your team due to lack of knowledge and losing LP as a result.\n Find the matchups you struggle with the most, and get the reps you need to outplay it.\n (Insert jokes about Emerald being included in the \"high\" elo bracket in the comments)",
+   "id": "1tln1de",
+   "comments": [],
+   "age_days": 139,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How TF do you guys OTP this champ?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1tgw61h/how_tf_do_you_guys_otp_this_champ/",
+   "published": "2026-05-18",
+   "author": "/u/drguidry",
+   "body": "I swtg every time I try to one trick Darius I get a fat dose of Wukong staff to the face or similarly unplayable match ups.\n It's so frustrating that Leagues premier lane bully has so many terrible matchups that he can't bully lol.",
+   "id": "1tgw61h",
+   "comments": [],
+   "age_days": 144,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I hopped on toplane first time in a while",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1tdonr0/i_hopped_on_toplane_first_time_in_a_while/",
+   "published": "2026-05-15",
+   "author": "/u/ItadakiTontaro",
+   "body": "Im an adc main but darius is so nice to play, shit matchup but cool play imo, Mundo tried to run me down tiamat to kill the minion for lvl up and flip it on his ass",
+   "id": "1tdonr0",
+   "comments": [],
+   "age_days": 147,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "rate my matchup tierlist for bronze",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1tb4xy3/rate_my_matchup_tierlist_for_bronze/",
+   "published": "2026-05-12",
+   "author": "/u/Tredens",
+   "body": "",
+   "id": "1tb4xy3",
+   "comments": [],
+   "age_days": 150,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Stormrush feels extremely weak.",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1t0006h/stormrush_feels_extremely_weak/",
+   "published": "2026-04-30",
+   "author": "/u/WittyStomach4079",
+   "body": "Tried it out for a couple of games It only feels good early but once people stack more hp or get more resistances you just don't get much value out of it. Any bruiser, tank matchup just doesn't take 25% damage from a full combo in the later stages in the game. You can't use their frontline as a ms proc anymore. Against ranged matchup it can be okay but then its still not easy to proc. Thinking of just running conq and playing without stormrush as you get so much more consistent value out of it. Thoughts?",
+   "id": "1t0006h",
+   "comments": [],
+   "age_days": 162,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Two quick questions about champ pool and RaiderGo guide",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1rzn9j8/two_quick_questions_about_champ_pool_and_raidergo/",
+   "published": "2026-03-21",
+   "author": "/u/Cheap-Program-6643",
+   "body": "I’ve got two questions and could use some help.\n First, I play Darius and I really love the champ, but I want to have at least two champions in my pool. I’ve been thinking about picking up Olaf, but I’m wondering if he’s too similar to Darius. Do you think Olaf is a good choice, or would you recommend another champion that would fit well in my champion pool?\n Second, I’ve been considering buying the RaiderGo guide, but I have one question first. Is it just a spreadsheet/sheet, or does it also include video clips where he explains items, matchups, and similar things?",
+   "id": "1rzn9j8",
+   "comments": [],
+   "age_days": 202,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Darius' Worst Matchups by Gold Deficit@15",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1rv3otx/darius_worst_matchups_by_gold_deficit15/",
+   "published": "2026-03-16",
+   "author": "/u/gyrosSteelBall1",
+   "body": "Analyzed from 17,000+ Darius Games in Masters+\n Data is from https://lolmatchups.net/Darius/matchups",
+   "id": "1rv3otx",
+   "comments": [],
+   "age_days": 207,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Garen matchup",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1rrk56x/garen_matchup/",
+   "published": "2026-03-12",
+   "author": "/u/Repulsive-While-381",
+   "body": "I'm a Garen main (1m mastery) and when garen gets taken I pick darius because ive played him a bit and its very darius sided. However, i always end up losing. I know its darius sided but it feels very tricky because if i take 1 bad trade i have to back or im dead. Any tips / advice for this matchup would be appreciated. I know the trading pattern of saving hook and using W after his Q if possible but its just tricky.",
+   "id": "1rrk56x",
+   "comments": [],
+   "age_days": 211,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Can someone explain Raiders phase rush+youmuus playstyle?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1rgyuv2/can_someone_explain_raiders_phase_rushyoumuus/",
+   "published": "2026-02-28",
+   "author": "/u/Zenithixv",
+   "body": "I see him going it even in melee matchups often but I don't really get the playstyle, I feel like I just start getting statchecked by way more champs without conquerer in early game.",
+   "id": "1rgyuv2",
+   "comments": [],
+   "age_days": 223,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Darius vs Urgot matchup",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1r6qvk0/darius_vs_urgot_matchup/",
+   "published": "2026-02-17",
+   "author": "/u/Beast_Darius_NA",
+   "body": "",
+   "id": "1r6qvk0",
+   "comments": [],
+   "age_days": 234,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Some Darius jungle tricks",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1r2i1wa/some_darius_jungle_tricks/",
+   "published": "2026-02-12",
+   "author": "/u/StellatedB",
+   "body": "so as many of you know Darius jungle is getting a buff soon, as someone who likes to whip Darius jungle out when matchups allow here are some tricks you can pull.\n Darius as you may know can pull people over walls, as a jungle you want to get dragons. if you are on the correct side you can yoink your opposing jungler over the wall if/when they go to ward to force a favorable fight. this is not encouraged for first dragon (without backup) as the dragon damage will make you lose a 1v1 but in my experience second dragon onwards you can beat most other junglers while tanking dragon especially because your Q heal works on dragon as well as whoever you're fighting. Obviously take into account how much health you and your opponent have and if mid/bot are coming to help either side.\n\n Darius can 1v1 baron at 2.5 items (and boots) and win. most characters have trouble with this because they simply won't be able to tank the damage, but Darius is relatively unique because his healing isn't based on the damage he deals. you will be sitting at about 1/3-1/5 of your health for a good portion of the fight (dependant on items and level) but you will not go below that as your healing will match the damage taken. Obviously you are dead if someone catches you doing this alone, but situation dependant this can be useful, starting baron while both teams are respawning and letting your teammates help with the second half of the hp bar when they arrive is a viable strategy. just make sure you have vision control\n\n Try running hail of blades. Just give it a try, it's bad in lane for pretty obvious reasons, but you are not playing Darius toplane, you are playing Darius jungle, run up to someone, hit them with an auto, pull them in, two more autos during your e slow, w for an auto reset, then hit them with the q. Congratulations, whoever you're fighting now has 5 stacks of bleed, and you've probably just won the fight.\n\n as a final note I would like to say that currently, pre jungle buff, Darius jungle is very matchup dependant. you will excel vs tanky/bruiser junglers and do very poorly against kitey/cc spamming junglers, so be smart about what you pick him into.",
+   "id": "1r2i1wa",
+   "comments": [],
+   "age_days": 239,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "My tier list Darius matchups",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1r1vsg5/my_tier_list_darius_matchups/",
+   "published": "2026-02-11",
+   "author": "/u/polyphemushero",
+   "body": "",
+   "id": "1r1vsg5",
+   "comments": [],
+   "age_days": 240,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is it just me or does darius feel much weaker this patch??",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1r0ltkd/is_it_just_me_or_does_darius_feel_much_weaker/",
+   "published": "2026-02-10",
+   "author": "/u/WebPlenty2337",
+   "body": "Matchups that used to feel somewhat even are now harder, and it feels like the game rewards playing passively and just farming now",
+   "id": "1r0ltkd",
+   "comments": [],
+   "age_days": 241,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Permaban or dodge heimer.",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1r1g7c4/permaban_or_dodge_heimer/",
+   "published": "2026-02-10",
+   "author": "/u/Dunkmaxxing",
+   "body": "Just a note to anyone who wants to play Darius top, there is literally nothing you can do to stop conq heimer with ignite from taking your tower in your face and denying you cs. My fault for playing it out. Every other matchup is better.",
+   "id": "1r1g7c4",
+   "comments": [],
+   "age_days": 241,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Misunderstanting of the phase rush nerfs",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1qp8hod/misunderstanting_of_the_phase_rush_nerfs/",
+   "published": "2026-01-28",
+   "author": "/u/Mach357",
+   "body": "So theyre nerfing phase rush for ranged champs - good ! Less vladimirs and ryzes top (or at least it’s gonna be less cancer to fight), but i don’t understand if the « Bonus move speed: 18.75-37.5% → 12.5-25% » side will affect every champ ? Or only ranged ?\n I used to go phase rush on almost all ranged top matchups, and if the nerf affects melees, it’s gonna suck…\n Well if it does, i guess that’s the end of phase rush garen too.",
+   "id": "1qp8hod",
+   "comments": [],
+   "age_days": 254,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Darius' laning phase hasn't been strong for a while.",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1qofw87/darius_laning_phase_hasnt_been_strong_for_a_while/",
+   "published": "2026-01-27",
+   "author": "/u/EagleGlobal8224",
+   "body": "That's it. Nowadays everyone goes with Ignite against Darius in the top lane, just dodge one of your Qs and you'll probably die. A random Yone dodging your Q and using Ignite will kill you very easily after completing Blade of the Ruined King, even if you have an item in front.\n Unless you're against a melee champion who's an immobile refrigerator, no matchup is easy for Darius.",
+   "id": "1qofw87",
+   "comments": [],
+   "age_days": 255,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "(In general) Best item build for s16?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1qmrt61/in_general_best_item_build_for_s16/",
+   "published": "2026-01-25",
+   "author": "/u/Joonsan",
+   "body": "Sup dunkers,\n Always lurked in this subreddit but never really participated...thought this would be a good place to come to for some advice.\n Starting to take ranked play seriously; currently S3 but climbing steady. MARCH TO MASTERS 🗣️\n Wanted to know what everybody thinks the best overall build for Darius is? This will obviously ebb and flow depending on your matchup and enemy teams composition, but what do you think his best build is?\n I usually go Stridebreaker first item for the gap close and small boost in attack speed to get the five stacks quicker. After that, either Dead Man’s or Force of Nature depending on enemy team comp. Steraks typically third item but I’ve been experimenting with building it second. After that, it really depends on the matchup.\n Feel free to leave your thoughts/critique my approach. I’m all for constructive criticism. \n See you on the rift. 😎",
+   "id": "1qmrt61",
+   "comments": [],
+   "age_days": 257,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "WTF Vlad",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1qjk0ee/wtf_vlad/",
+   "published": "2026-01-22",
+   "author": "/u/Time-Communication62",
+   "body": "How.... the .... hell.... do you lane against this guy? You ghost, he ghosts, you catch him with ewq, he qew and phase rushes away. Walk up for CS, he pokes you out. Let him push you, he pokes you under tower with no consequences.\n Anyone able to provide insight into this horrid matchup?",
+   "id": "1qjk0ee",
+   "comments": [],
+   "age_days": 260,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "TRI FORCE OR STRIDEBREAKER FIRST?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1qh8oas/tri_force_or_stridebreaker_first/",
+   "published": "2026-01-19",
+   "author": "/u/Leosksk",
+   "body": "So, I’m a Plat Darius, I've been playing League for about a year now and, for this reason, I’m still learning a lot about macro and game timings i should be aware of.\n I’m actually not a Darius main, I’m a Nilah one trick in botlane with around 66% win rate, which is basically the main reason I climbed (personally) fast.\n With this said, whenever I play Darius (generally when i play top champions) I usually check Lolalytics, UGG and similar sites for builds and rune setups.\n Almost all of them recommend Stridebreaker as first item.\n My question is: Why is Stridebreaker generally preferred over Tri force on Darius? \n And more importantly, are there specific situations or matchups where one item is better than the other?\n I've only played Tri force for the past 80 games but, with Stridebreaker catching my eyes, i want to know if it's actually preferred on Darius.",
+   "id": "1qh8oas",
+   "comments": [],
+   "age_days": 263,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Not sure how to deal with ignite...",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1qf7kgx/not_sure_how_to_deal_with_ignite/",
+   "published": "2026-01-17",
+   "author": "/u/Time-Communication62",
+   "body": "With the new changes I feel like 80% of my games I'm going up against someone with ignite. So, normal matchups I would typically win, I feel like ignite is just screwing me.\n Any tips on how to deal with this? Is this something others are experiencing too?",
+   "id": "1qf7kgx",
+   "comments": [],
+   "age_days": 265,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "jax matchup",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1q9jhu2/jax_matchup/",
+   "published": "2026-01-10",
+   "author": "/u/Vivid_Ad_1417",
+   "body": "I dont understand what i'm supposed to do tbh, im like plat and just cant seem to beat him. i try to use my e to stop his stun/buffer my w but still feel like im losing after hitting them . i cant q to farm as he'll just jump on me and stat check. especially now with jax being able to take ignite and still have a TP, he just outscales incredibly hard while being able to fight. \n looking for any tips, thanks",
+   "id": "1q9jhu2",
+   "comments": [],
+   "age_days": 272,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Some questions about Darius",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1q4gwx5/some_questions_about_darius/",
+   "published": "2026-01-05",
+   "author": "/u/1729w",
+   "body": "Hello,\n I'm a diamond 4 player and I've played Darius for approximately 30 games. After those, here are the questions I have :\n 1) What are the \"unmissable combos\" of Darius ? Is it possible for somebody to flash Darius E + Q combo if he spams the flash button ?\n 2) Which are the important buffering interactions to be used in lane ? Which spells can Darius buffer while being CCed ?\n 3) Do you recommend phase rush + TP setup in some matchups (I think about it especially against tanks that will run TP as well and lose all-ins to Darius regardless of the rune setup, or in very bad matchups) ?\n 4) What are the most important things to do to reliably 1v2 ganks ? Do you need to hard crash wave 2 or wave 3 ? And how do you deal with lvl 3 ganks from strong early game junglers (Talon, Xin, Pantheon...) ?\n Thanks !",
+   "id": "1q4gwx5",
+   "comments": [],
+   "age_days": 277,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "PTA",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1pty2ty/pta/",
+   "published": "2025-12-23",
+   "author": "/u/Quick-Description682",
+   "body": "Is PTA better than conqueror into matchups that take conq? \n I just accidentally took PTA into a renek with conq and felt like I was winning in spots I wouldn’t usually. Thoughts?",
+   "id": "1pty2ty",
+   "comments": [],
+   "age_days": 290,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I am a 7mil mastery darius",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1prgmqi/i_am_a_7mil_mastery_darius/",
+   "published": "2025-12-20",
+   "author": "/u/Dependent_Focus_9315",
+   "body": "I never play league sober. I am very good in laning phase(i dont think i lose ever unless im trolling), ask me anything about any matchup. Ranged toplaners? a joke. Olaf, trundle, ww? Clown picks\n I am a real darius, and i am not defeated by any gimmick or cheese\n https://op.gg/lol/summoners/euw/NoseCandy34-EUW\n https://op.gg/lol/summoners/euw/NoseCandy32-EUW\n I accept challenges from any doubters\n edit: i am back, and i am looking for some vs darius experts. BRING IT",
+   "id": "1prgmqi",
+   "comments": [],
+   "age_days": 293,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Zaahen matchup",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1p7gd25/zaahen_matchup/",
+   "published": "2025-11-26",
+   "author": "/u/Alternative_Low843",
+   "body": "im coming back to darius after some time and idk how to play vs zaahen in lane and what should i build vs him what is general game plan ?",
+   "id": "1p7gd25",
+   "comments": [],
+   "age_days": 317,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "65 hp rune",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1orx3ht/65_hp_rune/",
+   "published": "2025-11-08",
+   "author": "/u/Own_Strategy8427",
+   "body": "Would yall say that the 65 hp rune should be taken into every matchup? I feel like the 130 extra hp late game from the scaling rune will influence your game very little compared to having a more solid early game.",
+   "id": "1orx3ht",
+   "comments": [],
+   "age_days": 335,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is Darius just bad now?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1om45de/is_darius_just_bad_now/",
+   "published": "2025-11-02",
+   "author": "/u/Dunkmaxxing",
+   "body": "I feel like I'm having to try my dick off to win any games on Darius now in comparison to Mundo or Sett. In lane many champs can beat you with counterpick and ignite even if they fuck up and even in closer matchups you have to be on edge constantly. Outside of lane is where it really goes to shit though, you are often the sole frontline and just get bursted before you achieve anything or are massively kited out by mages and have your health demolished because Darius has no base mr. You also absolutely need ghost and flash to do anything, so no tp potential. I enjoy Darius' kit the most of any champ, but trying to play him 90% of games is just such a pain in the ass. I'm pretty much only using him as a counterpick now when I see all 5 enemy champs.",
+   "id": "1om45de",
+   "comments": [],
+   "age_days": 341,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Sett vs Darius",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1ol10ru/sett_vs_darius/",
+   "published": "2025-10-31",
+   "author": "/u/Frosty_1112",
+   "body": "i have a trouble beating sett, if he brings conq and ignite, i cant 1v1 him lv 1, 3 ,6 etc..., i need to play perfectly to have a slight chance of beating him, any tips on how to beat sett, or is it just a lost matchup and i need to focus on farming and playing safe?",
+   "id": "1ol10ru",
+   "comments": [],
+   "age_days": 343,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "want to otp darius, questions",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1oipccr/want_to_otp_darius_questions/",
+   "published": "2025-10-28",
+   "author": "/u/KoalaMean4484",
+   "body": "im a very aggressive player but ive noticed players like RaiderGO always go D shield second wind most games, should i still run dshield + second wind even if i want to look for early kills? or should i do dblade + second wind\n who do u guys perma ban? i was thinking malphite but maybe that matchup isnt too hard, also vayne in my elo isnt played much top so i dont think i should ban her yet\n\n whats best rune page? i notice some go bplating overgrowth, second with overgrowth, celerity nimbus, cookies cosmic, not sure?\n\n ty",
+   "id": "1oipccr",
+   "comments": [],
+   "age_days": 346,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Im worst Darius player of all, 0% winrate vs garen in lane",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1o8c4m8/im_worst_darius_player_of_all_0_winrate_vs_garen/",
+   "published": "2025-10-16",
+   "author": "/u/RainAndThunderIsCool",
+   "body": "So darius is supposed to unga bunga hard counter garen. Thats what every reddit post/comment seem to tell. So I try to unga bunga him, but instead he unga bungas me after level 6. And after lv 9 It seem to be over.\n Level 1, zoning exp\n What I normally do is, get in first bush on toplane, wait for enemy and If he comes up, I run him down. What happens vs Garen is, that he starts E, I AA+W+AA him. He gets damaged, I get damaged. But with his sustain It seem to be a really bad idea, because always its the same, He will be full hp I will not.\n Question 1: So never trade in early vs him? Seems not worth It, since I dont have enough damage to kill him and he trades with his AA+E.\n Phase Rush Garen\n normally I try to setup a freeze, what Phase rush garen seem to do is poke me. No joke. They short trade, run away, If I do my Q I will hit the wave and the freeze will be broken, If I dont Q, then he seem to magically statcheck me (since Its a short trade). Either way, he gets away, will heal up with passive and I am sitting their with a bad trade. He does this a second time and after that I am low enough that I actually have to give up prio.\n Quesiton 2: What am I even supposed to do here? Hope to kill him in ghost? hope to catch him? And If its fails its loose?\n Trading vs his sustain\n So It seems like a formular that every Garen OTP seem to use, short trade into me, use Q to run away (if not using phase rush), heal up and repeat. I just dont seem to have enough damage to stop him. Playing for waves also seem bad since he can contest that vs me with short trades.\n I watched some vods on youtube, the only time the darius can kill the garen is, when the garen for some reason goes for CS early without healing up. The garen I played vs, just chill a bit longer to heal more.\n Question 3: Am I just extremly bad player or did this matchup change? Is this now a skill matchup or something? I dont understand how bad I can be. And TBH whenever I play vs Darius I do the same thing. Even as Ornn I poke darius down with short trades, If darius starts freeze I do a fake trade to make him Q into wave to break freeze.\n Quesiton 4: Is there a good guide how to actually play this matchup? Those vods dont help me, since the Garen player react differntly in my games.\n ELO: Emerald 3, in Normals however I even lost to Gold Elo Garens.",
+   "id": "1o8c4m8",
+   "comments": [],
+   "age_days": 358,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Matchups Tier List",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1mhdaty/matchups_tier_list/",
+   "published": "2025-08-04",
+   "author": "/u/DariusPro101",
+   "body": "My own experience.",
+   "id": "1mhdaty",
+   "comments": [],
+   "age_days": 431,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Darius has too much aura in lane",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1ma1e5p/darius_has_too_much_aura_in_lane/",
+   "published": "2025-07-26",
+   "author": "/u/4chnce",
+   "body": "I’ve had a few matchups today where people won’t even walk up for cannon, dardar might have too much aura, and probably because i’m using god king. that is all",
+   "id": "1ma1e5p",
+   "comments": [],
+   "age_days": 440,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "My Darius Matchups Tierlist as a Emerald player (currently)",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1m0y8ga/my_darius_matchups_tierlist_as_a_emerald_player/",
+   "published": "2025-07-16",
+   "author": "/u/DisastrousTip1915",
+   "body": "This is My Tierlist for Darius Matchups, feel free to discuss or ask why i put certain champs where i put them.",
+   "id": "1m0y8ga",
+   "comments": [],
+   "age_days": 450,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Darius Matchup Tierlist",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1lvhm1n/darius_matchup_tierlist/",
+   "published": "2025-07-09",
+   "author": "/u/ileskqi",
+   "body": "What do you guys think",
+   "id": "1lvhm1n",
+   "comments": [],
+   "age_days": 457,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Darius jungle abusers so frustrating.",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1j6ft6l/darius_jungle_abusers_so_frustrating/",
+   "published": "2025-03-08",
+   "author": "/u/drguidry",
+   "body": "It's the classic monkey see monkey do situation. All these rodents are spamming Darius jg (up to 15% pick rate jg, he's played in jg 70% more than in top) because they just want to print elo. It's so disgusting they are all just abusing it. So now, not only do I never get to play him top because he's picked or banned, but he is going to get hella nerfed, ruining him in top lane where he already is kind of weak without the right matchup. He's going to be fking unplayable.\n Sorry for the rant. Thanks for listening.",
+   "id": "1j6ft6l",
+   "comments": [],
+   "age_days": 580,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Heimer top is disgusting rant",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1ic60qf/heimer_top_is_disgusting_rant/",
+   "published": "2025-01-28",
+   "author": "/u/Ricky-Harrison",
+   "body": "I played a game yesterday where I thought I would vs a Mundo so I decided to try out axiom arcanist in my secondary tree. Turns out he was jungling and so there was a Heimer in the toplane... This is seriously the most disgusting shit I think you can do in this game. The miserable shit sat with his turrets barely out of my towers range and just pushed and poked me until I either had to back or force a fight. And since I took the sorcery tree secondary I was way too squishy even with Doran's shield.\n He would often time his bombs to try to stun me out of getting a cannon. I got so frikking far behind that the one time I tried to force a fight I died... I timed it terribly and there was a huge wave crashing... I was just so mad that I was not thinking straight. But what sent me over the edge was the fact my jungler was topside but instead of taking the HUGE wave or helping me sooner he chases the low Heimer 1v1 and dies... Giving him an even bigger lead This lane was the most miserable bullshit anti-fun nightmare I have experienced. If I ever get a Heimer in my game again I will nope put of that shit on the chance he is top, fuck that shit. If you read through this thank you, I'm not necessarily asking for advice I know I made a whole lot of mistakes. you can share your nightmare matchups if you'd like.",
+   "id": "1ic60qf",
+   "comments": [],
+   "age_days": 619,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How is Darius considered S tier?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1i0tsto/how_is_darius_considered_s_tier/",
+   "published": "2025-01-14",
+   "author": "/u/Ill-Eggplant1825",
+   "body": "I literally cannot make anything work on that champ, I always lose lane. I made a post about 6 months ago how I cannot feel any pressure playing that champ. I've been practicing him for that time and nothing has changed. He is really immobile, if you don't have ghost you cannot catch anyone and even if you do 1 cc is enough to wreck u up. I also main Kayle that is considered easy matchup for Darius, playing Mordekaiser as well. Someone can say welp if you want to get better that's easy, just study how another Darius beats you while you play Kayle or Morde. And now we get to critical point. I never lose to Darius as Kayle neither Morde. Idk how is it even possible, he can never catch you. Even if he gets a perfect wave crash and then has freeze on his side you can just take ghost to outrun him. You wait till level 6 and then you always win. I feel like when u play Darius you win only if enemy goes complete brain dead and tries to fight you lvl 1. And before you start spamming in the comments \"You are just bad\", \"Get better\" yeah I know I'm bad. There is no way everyone considers that champ strong and for me he feels weak. I just cannot find out for the life of me what I do wrong. That's why I ask how is he considered S tier and what do you do that makes him work. Maybe he just doesn't fit in my playstyle. I'm in the point of considering to resign from playing that champ, pity cuz 5 stacks dunk is kinda fun. Thank you for responses",
+   "id": "1i0tsto",
+   "comments": [],
+   "age_days": 633,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Out of the Bronze Wastes",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1dkyepg/out_of_the_bronze_wastes/",
+   "published": "2024-06-21",
+   "author": "/u/c712122",
+   "body": "Is silver still real low elo? Sure. I was hardstuck bronze for 2 years though after picking up the game for the first time in S12. I will 100% take my small victories ':D Because a Darius main a year ago. Y'all helped with some matchup advice so thank you all for aiding in this definitely monumental achievement!",
+   "id": "1dkyepg",
+   "comments": [],
+   "age_days": 840,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Do yall go through this every vayne matchup?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1b3wvj1/do_yall_go_through_this_every_vayne_matchup/",
+   "published": "2024-03-01",
+   "author": "/u/ShDanez123",
+   "body": "",
+   "id": "1b3wvj1",
+   "comments": [],
+   "age_days": 952,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Sett VS Darius: How is this matchup usually?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1alx9es/sett_vs_darius_how_is_this_matchup_usually/",
+   "published": "2024-02-08",
+   "author": "/u/Saintrising",
+   "body": "I just wanna know if I suck at playing against Sett or he actually counters Darius, I ban Rumble because I know he makes Darius' lane unplayable but then most people picks Sett and that's also a nightmare to play against, everytime I'm about to kill him he just uses his W and turns around the entire fight.",
+   "id": "1alx9es",
+   "comments": [],
+   "age_days": 974,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How tf do I beat Sett?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/1adhkqg/how_tf_do_i_beat_sett/",
+   "published": "2024-01-29",
+   "author": "/u/Material_Finding6525",
+   "body": "This matchup feels like its Sett favored if I have no summs up (flash/ghost).\n I also can't reliably land Q on him as he has his pull and ult me and he goes inside of it.\n I always try saving my E pull and then ult afterwards so that he can't W my Ult.\n Idk. Any advices against the guy?",
+   "id": "1adhkqg",
+   "comments": [],
+   "age_days": 984,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is Darius still considered a good matchup into Garen?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/17d2oud/is_darius_still_considered_a_good_matchup_into/",
+   "published": "2023-10-21",
+   "author": "/u/Sixik",
+   "body": "I main Garen, but have Darius as a secondary, but the more I play it from both ends, the more I feel it's Garen favored post-6 and it never really equalizes again. Or is it just Dariues misplaying?",
+   "id": "17d2oud",
+   "comments": [],
+   "age_days": 1084,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Matchup tierlist + my current go to build (High elo NA Darius player)",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/16uxd77/matchup_tierlist_my_current_go_to_build_high_elo/",
+   "published": "2023-09-29",
+   "author": "/u/BurritoTopKing",
+   "body": "",
+   "id": "16uxd77",
+   "comments": [],
+   "age_days": 1106,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Stop thinking that Nasus is autowin",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/12flzb3/stop_thinking_that_nasus_is_autowin/",
+   "published": "2023-04-08",
+   "author": "/u/RLaughEmote",
+   "body": "I see this shit all the time . Cocky Darius players trying to unga bunga on Nasus and hard forcing so much shit without respecting wave management and nasus Powerspike . Then nasus manages to freeze instead and Darius can't do shit at the tower. \n And then at lv6/7 they try to stat check him just to get ran down with sheen ,Ult and ghost . * Surprised Pikachu face* HOW DID I LOSE TO NASUS AS DARIUS RIOT! No shit nasus does that to almost everyone with decent stacks and ult why would Darius be exempted. \n Nasus is Darius favored yes but it's not some ultra one sided matchup like Yorick vs irelia. U would still lose if u don't respect proper wave management and item spikes.Nasus has consistently 49 to 51% win rate against Darius below diamond. If it was truly one sided it would be like 45% which is something like malphite vs sylas. \n If you want to counter nasus with Darius. Please . Make sure to ensure a good freeze . Don't fight in his Ult unless really ahead . Get anti slow/ heal cut .\n No idea why there's so much memes about how nasus will just autolose to Darius. That's true in earlier seasons .",
+   "id": "12flzb3",
+   "comments": [],
+   "age_days": 1280,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Smartest Yone players having a discussion about Darius matchup.",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/x7zoj7/smartest_yone_players_having_a_discussion_about/",
+   "published": "2022-09-07",
+   "author": "/u/The_ChadTC",
+   "body": "",
+   "id": "x7zoj7",
+   "comments": [],
+   "age_days": 1493,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "aatrox player",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/wzlk4p/aatrox_player/",
+   "published": "2022-08-28",
+   "author": "/u/RinTohsakaSimp",
+   "body": "Hi, i am an aatrox otp. But after him getting banned and the enemy picking him a few times in a row i found out that i need to learn another champion. I saw online that darius was the most similar champion to aatrox. I tried a few games with darius in normals and i see the similarities in lane and teamfights. I want to learn how to play darius and when should i pick darius over aatrox? Which matchups he excels in and in which is he unplayable. Thanks!",
+   "id": "wzlk4p",
+   "comments": [],
+   "age_days": 1503,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What makes Darius \"overpowered\" at the moment?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/wxkh9t/what_makes_darius_overpowered_at_the_moment/",
+   "published": "2022-08-25",
+   "author": "/u/DestroyedOfCosmos",
+   "body": "I keep hearing this in chat, on reddit, on youtube, etc. \"Darius so busted rn\" or \"Darius absolutely broken\" and so on.\n I'm fairly new to playing the champ (~3 months) but he doesn't seem that OP to me. Strong, sure. Lots of good matchups and bad matchups are often winnable. But he's very summoner dependent to have a major impact, is prone to get kited and isn't useful when behind. \n So what is it that makes him OP right now compared to previous seasons/metas/patches?\n Appreciate the input.",
+   "id": "wxkh9t",
+   "comments": [],
+   "age_days": 1506,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is the Vayne matchup even worth playing?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/wp2y2w/is_the_vayne_matchup_even_worth_playing/",
+   "published": "2022-08-15",
+   "author": "/u/DestroyedOfCosmos",
+   "body": "Teemo is my permaban usually but if I get Darius first pick and they pick Vayne top I'm royally screwed.Like as long as the player has half a brain and kites semi well it's gg since can't rely on jungle.\n ​\n Is this even worth playing? Or should dodging be a standard procedure against vayne top",
+   "id": "wp2y2w",
+   "comments": [],
+   "age_days": 1516,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Riven ignite top matchup 💀",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/wi6mze/riven_ignite_top_matchup/",
+   "published": "2022-08-07",
+   "author": "/u/Yosef-osef",
+   "body": "",
+   "id": "wi6mze",
+   "comments": [],
+   "age_days": 1524,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Darius' best mythic is Sunfire Aegis",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/w757et/darius_best_mythic_is_sunfire_aegis/",
+   "published": "2022-07-24",
+   "author": "/u/IngusRogeth",
+   "body": "Bami cinder rush or after boots makes you insanely tanky and you don't lose a single matchup. (Yorick with all ghouls and maiden on me +ignite still lost.) (Some ranged nonsense still probably beats you, but haven't fought it yet.) \n Genuinely feels like s10 darius when I play this mythic. Even when behind I don't feel as bad as when I go stride/tri. Aegis damage is also just insane and you get AD from passive already while also having 2.2k hp and 100+ resistances. Darius doesn't need more AD or damage, we get enough from passive, what we need is tankiness and this offers that. (While ironically still offering a lot of damage from immolate. Which stacks from passive btw!!)\n Tried out grasp and conditioning as well and that felt good in lane. Conq is just a weirdly bad rune on darius imo (for reasons stated above) and I didn't really miss the other dmg runes in yellow tree. Only thing I missed was triumph and early conq healing which you make up for with grasp. Conq still prob best option though, I just really value conditioning with this build. (200 resistances with 2 items. ie Aegis DD)\n Idk man, something about having 4k hp and still hitting 1.3k ults while I watch 15 people hit me is just satisfying. I think it's time to stop autopiloting.\n D4 EUW btw. Thoughts?",
+   "id": "w757et",
+   "comments": [],
+   "age_days": 1538,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Don't cheese Wukong at lvl 1",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/vq1w3g/dont_cheese_wukong_at_lvl_1/",
+   "published": "2022-07-02",
+   "author": "/u/awfulCancer",
+   "body": "I always counterpick Wukong into Darius, but my opponents seem to not know the matchup at all. Considering you both start doran's blade, if you cheese the Wukong at lvl 1, he is gonna beat you in the all in because his passive gives up to 3% max hp regen (8X his base regen) and 30 armor (equivalent to 2 cloth armors = 600 gold), even if you start W (and you'll never hit Q unless he's braindead because he starts E). Also, his E deals more total damage than your W because of the attack speed boost.\n TLDR: Pls don't cheese Wukong at lvl 1.",
+   "id": "vq1w3g",
+   "comments": [],
+   "age_days": 1560,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Darius matchup tierllist, by Darius player since season 6. Peaked D1 Eune, Let's discuss :)",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/vm56lc/darius_matchup_tierllist_by_darius_player_since/",
+   "published": "2022-06-27",
+   "author": "/u/EmperorsPigeon",
+   "body": "",
+   "id": "vm56lc",
+   "comments": [],
+   "age_days": 1565,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Cheat Sheet on how to play Darius.",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/vi2387/cheat_sheet_on_how_to_play_darius/",
+   "published": "2022-06-22",
+   "author": "/u/Pogba1",
+   "body": "Links to my credentials as a Darius player, currently the #1 Darius NA and Grandmaster. I have been playing League of Legends since pre-season 6 and have played Darius ever since early season 6, so a little over 6 years (Not on this account).\n https://www.leagueofgraphs.com/rankings/summoners/darius/na\n https://u.gg/lol/profile/na1/popthepenguin/overview\n -----------------------------------------------------------------------------------------------------------------------------------------------------\n Introduction : This guide is for the purpose of teaching players, who are new to Darius, how to play Darius. I so often see guides and videos that promote the use of incorrect runes and build paths, these videos usually showcase a Low Diamond player playing in Silver/Gold going 14/0 against a first time Shen, while building Trinity Force and going Alacrity. These videos do not paint you an accurate picture of how to play Darius and are pretty much nothing but misinformation.\n Table of Contents\n Runes\n Bans\n Itemization\n Laning phase\n Teamfights\n RUNES/SUMMONERS Let's take rune pages\n https://preview.redd.it/26qsw5fxq4791.png?width=976&format=png&auto=webp&s=a8b2c00a9ceaab8c7df5333ccc0dd372bf19cc04\n This would be your typical rune page against almost every matchup, only situational alterations to this page would be swapping out Bone Plating for Second Wind in a matchup where they are more prone to poke you instead of doing trades and of course swapping the Armor for Magic Resist in case of an AP matchup.\n If you feel as if the enemy team lacks CC (Crowd Control) then you may also go Legend: Alacrity, but make sure that you keep unflinching as both the slow resist and the tenacity it gives can come in very clutch.\n https://preview.redd.it/mhylmk0x08791.png?width=129&format=png&auto=webp&s=80146cad4fcb3417208b76e424ed45f4a338cf52\n Flash and Ghost are a must have on Darius, as Darius lacks any sort of mobility in his kit, instead relying on items and summoners to fill the void.\n Going Teleport is not good as you simply don't have a lot of kill pressure on your lane opponent and are a lot more prone to dying to ganks.\n Going Ignite is only really meant for cheesing kills on people, it pairs nicely with your bleed for DoT, but it lacks any sort of meaningful use past laning phase and leaves you with a useless summoner for anything past early-mid game.\n BANS My personal list (in order) of champs to ban when playing Darius are :\n Wukong (Unplayable matchup where he gets to oneshot you the second he hits 6 with ignite)\n Fiora\n Gangplank (ever since the durability patch, Gangplank is not a favorable matchup)\n Jax (Very annoying to deal with as he can trade into you with you having the ability to do much)\n Vayne (Worst ranged matchup for Darius)\n Kennen (Most annoying ranged matchup for Darius)\n Any other champ is more or less fine to play vs and isn't worth banning, also NEVER ban for someone else.\n ​\n ITEMIZATION ​\n https://preview.redd.it/53svy0tih5791.png?width=355&format=png&auto=webp&s=3f1d8a4a432aa4d0dc4315a76fe37d0fcb824e7a\n Choose between either Doran's Blade or Doran's Shield depending on what champion you are facing\n ​\n https://preview.redd.it/l5yzaa1j25791.png?width=351&format=png&auto=webp&s=c43fb6d748aac40b19beadc4033b5c25e2242c02\n Executioners : Applies Grievous Wounds when dealing physical damage, reducing healing by 25% on that champion. Build this item vs champions that can heal without directly hitting you, i.e Aatrox, Soraka, Swain, etc...\n Bramble Vest : When Auto Attacked by an enemy, they will receive Grievous Wounds, reducing healing by 25%. Build this item against people who need to hit you to heal, i.e Fiora, Olaf, etc...\n Quick Silver Sash : Cleanses you of any CC in the game (90 second cooldown). Only go this item if they have a champ like Malzahar, Mordekaiser or anyone with point and click CC that is a 1 time use in a fight, only finish this item into Silvermere Dawn, as it gives a cleansing effect post usage of the active.\n ​\n https://preview.redd.it/3m2ytlph55791.png?width=478&format=png&auto=webp&s=c97f565819a18e2bc9dce902c756adbcd6040209\n Stridebreaker will be your go to mythic that you will buy every game, it is simply too useful of an item to pass on. The slowing effect of the active + the added waveclear against melee CS makes it by far the best mythic on Darius.\n Trinity Force can be situationally useful against champions like Mordekaiser, Illaoi, Fiora or any other Duelists that will not be running away anytime soon during 1v1s and it makes your damage against towers very good, it also provides good damage vs squishies with the sheen prock since you have one of the highest base AD in the game. But, this simply doesn't out-do the utility of Stridebreaker.\n For choice of boots either go Plated Steelcaps or Mercury's Threads depending on what kind of team composition the enemy team has.\n ​\n Priority is from left to right\n I will keep this short, but Death's Dance is the best second item because it allows Darius to delay incoming damage and gives Darius the security of getting his passive procked a lot more than Dead Man's Plate. This is not to say that Dead Man's Plate is a bad item, it's still great on Darius, but I would recommend you build Death's Dance second and build Dead Man's third.\n Maw of Malmortius is only good if the enemy team has 2+ ap champs and the physical damage dealers are either extremely behind or if there are no physical damage dealers.\n ​\n Again, left to right for priority\n Dead Man's Plate at this point is mandatory as it gives a lot of utility to Darius, only reason NOT to go Dead Man's is because the enemy team does not have any significant amount of physical damage, in that case go Force of Nature is preferable.\n ​\n No particular order, just simply situationally pick\n Steraks : This item is very useful if you haven't already built Maw of Malmortius (they share the same lifeline passive), it provides you with a very nice shield that can prevent any big late game burst from cutting through your Deaths Dance.\n Thornmail : Only good to finish if you have previously built Bramble Vest.\n Randuin's Omen : Underused item that is very useful against high crit comps, but can also act as a sort of second stridebreaker.\n Guardian's Angel : Probably my least prioritised item out of all of these, it's only really useful if you are trying to carry a game and you are the only one fed on your team.\n ​\n Note : You may build your executioners into either Mortal Reminder or Chempunk Chainsword, in my opinion neither item has that much of an edge over the other for Darius as they both don't provide that much utility apart from the movespeed from Mortal Reminder.\n ​\n LANING PHASE I will keep this and the teamfight part brief as to not bloat this Cheat Sheet too much.\n During laning phase, Darius needs to zone opponents from CS and use this zone to get backs where the wave is guarenteed into a slowpush into you. As Darius, you must position yourself to not give the enemy laner space to maneuver in and try to lock them into one area, facilitating trades, all-ins and ganks for your jungler.\n Be careful to not overextend yourself unnecessarily and be sure to ward deep as you can, since you do not have good escapes apart from using Flash or Ghost. If it comes to it, prioritize using Ghost over Flash to escape ganks as it has a lower cooldown than Flash, but Flash may be needed to dodge CC that wouldn't be easily side-stepped.\n Level 1 as Darius is pretty simple, as you have one of the best level 1s in the game and pretty much anyone that walks up aggressively to you can be punished quite easily. Your Level 1 is very good because of your passive giving 30 Attack Damage when fully stacked and dealing a lot of DoT. Level 3 is a big spike for you as you unlock your full combo, which is E -> AA -> W -> Q, this can be extended into E -> AA -> W -> Q -> AA or even E -> AA -> W -> Q -> AA -> AA to prock your passive. Level 6 is the next big spike as it unlocks your ultimate which is a lot of burst for you, do not be afraid to use R when it won't reset, as getting the reset this early is not of high priority.\n Note that laners may go Ignite vs you, this makes you a lot weaker since Ignite is a lot better than Ghost in 1v1s and denies you a portion of your healing, so be careful and pick your battles wisely.\n ​\n TEAMFIGHTS Teamfighting with Darius is pretty simple, try to find someone who is isolated from the rest of the enemy team or maybe only with 1 other person, then try to get your passive procked/kill them with your ultimate that way you can then use your passive and your ultimate on the rest of enemy team.\n It is also important to try to fight while your Ghost and/or Flash is up, as it leads to you being able to use your ultimate quicker and secure teamfights as being firmly won.\n -----------------------------------------------------------------------------------------------------------------------------------------------------\n This wraps up the Cheat Sheet, I may or may not change/remake this in the future depending on if I feel like I missed certain parts, if items get changed around or if Darius gets reworked or smt.\n Hope this is useful to you and have a wonderful time on the rift :D",
+   "id": "vi2387",
+   "comments": [],
+   "age_days": 1570,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Winning the GP matchup in 40 seconds",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/vhfa0o/winning_the_gp_matchup_in_40_seconds/",
+   "published": "2022-06-21",
+   "author": "/u/SauiArabia",
+   "body": "",
+   "id": "vhfa0o",
+   "comments": [],
+   "age_days": 1571,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "\"Basic Darius combo with no counterplay\"",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/v9hm3u/basic_darius_combo_with_no_counterplay/",
+   "published": "2022-06-10",
+   "author": "/u/The_ChadTC",
+   "body": "I got recommended a video about two champions I adore, and went to watch it. \n https://www.youtube.com/watch?v=HPhkFq3hutk\n Basically, Aatrox get's extremely lucky after an extremely bad trade he picked and kills Darius, surviving with very little health. \n But now I want to share a comment on the video that made me laugh:\n \\\"Oh man if he didn't level up he would have get oneshotted by a basic combo of Darius without any counterplay, now i understand why Darius has 57% winrate with a 8% pickrate on master+ right now\\\"\n In this video Darius hits in Aatrox: 3 aa, Q and W before he is stacked. Darius then has to flash. While stacked, hits another basic attack, hits Q, W and Ultimate. All the while, Aatrox tanks through 10 FUCKING SECONDS OF FULLY STACKED PASSIVE, which is at least 600 damage by my math. \n Some moron who doesn't understand the matchup: \"basIC ComBO wIth No CoUNtErPlay\"",
+   "id": "v9hm3u",
+   "comments": [],
+   "age_days": 1582,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Made a matchup tier list for 12.10. Opinions?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/uzegfc/made_a_matchup_tier_list_for_1210_opinions/",
+   "published": "2022-05-28",
+   "author": "/u/NegotiationHot3277",
+   "body": "",
+   "id": "uzegfc",
+   "comments": [],
+   "age_days": 1595,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is ghost the best summoner spell?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/uiwn0x/is_ghost_the_best_summoner_spell/",
+   "published": "2022-05-05",
+   "author": "/u/IndependentFlaky6236",
+   "body": "Friends, I'm done with banning this fella every game. Now I want to main him and to play him against some matchups. I was wondering: Do you go ghost in every matchup when you play him? Or there are some cases you go for another summoner spell, could you tell me which case/matchup?\n Thanks!",
+   "id": "uiwn0x",
+   "comments": [],
+   "age_days": 1618,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "League is feeling hopeless as a new player",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/t32f97/league_is_feeling_hopeless_as_a_new_player/",
+   "published": "2022-02-28",
+   "author": "/u/Derm321",
+   "body": "Okay this is half rant half question. I started playing three months ago. I do a lot of watching matchups, guides, trying to learn how to play individually and with a team. Play mostly Darius, some Garen. When I started ranked I was placed bronze 2 but I’m losing almost every game and I’m 100% sure I’m on the fast track to iron 4. This makes me feel awful because everyone says iron is the test to see if your screen is on. I know rank isn’t what I should be focusing on but I’m sensing a frustrating trend which is every other game I feel like I either have to deal with Teemo, Warwick or some giga fed mid-bot laner. The game is already hard and to carry I have to win lane plus deal with other problem champs. \n I know I know every loss is my fault and 40/40/20 yadda yadda but here’s my question: How do you guys deal with this? I feel like I’m going to play in iron for the next 18 months, learn some things and pick up bad habits because it’s iron, and I won’t be able to fix myself. League is hard enough as it is and it just feels like maybe I should just quit now instead of spending literally hours of my life to maybe be halfway decent after two years of playing. \n I want to be good. I want to enjoy the game. But damn it feels like a massively hopeless endeavor. Thanks for listening. I feel better already posting this into the internet abyss.\n Edit: To everyone who gave me advice and encouragement and bothered to read this thanks again. This isn’t something I plan on just disregarding and going back to face rolling my keyboard. I look forward to going back through this post to refocus on goals, eliminating tilt and gaining perspective. Y’all are chads and Darius is the best. 🤙🏼",
+   "id": "t32f97",
+   "comments": [],
+   "age_days": 1684,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Hottake: I hate the meta that Darius has been forced into. Even if he is a high tier top lane champ.",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/svmcs1/hottake_i_hate_the_meta_that_darius_has_been/",
+   "published": "2022-02-18",
+   "author": "/u/mannequinbeater",
+   "body": "I know he is strong, and his mid game is SUPER strong, but his laning phase and counter-matchups are VERY volatile. Running Flash/Ghost has no middle ground in terms of winning or losing. You either smash the lane when capitalizing on enemy mistakes, or get absolutely demolished since you died and can't TP back to a wave that's crashing to your turret.\n His counter-picks got buffed, ignite is popular again in top, but Darius still can't really run ignite without losing that crucial mobility. Lethal Tempo is VERY mediocre on Darius, but delicate and volatile lanes like Jax or Sett can actually crush lane with it. \n I understand adjusting to the meta is important but this is an extremely wild season for him and there doesn't seem to be a backup plan when you fall behind. Even if I give up the lane and roam to support the team, I'll still end the game (victorious or not) with extremely lackluster stats. \n He needs power adjustments or a mini rework so he can run a variety of builds and still be sticky like his original M.O. on release. Maybe less snowbally? Maybe not scaling as well late game just for the sake of balancing the game? I don't know what to do about it, but I fucking hate it in its current state.",
+   "id": "svmcs1",
+   "comments": [],
+   "age_days": 1694,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Learning Darius and just played against Udyr top and got destroyed! How do you play this matchup?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/sv9sxn/learning_darius_and_just_played_against_udyr_top/",
+   "published": "2022-02-18",
+   "author": "/u/Warm-Abalone6795",
+   "body": "",
+   "id": "sv9sxn",
+   "comments": [],
+   "age_days": 1694,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "why is conq so dogshit",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/slqfe2/why_is_conq_so_dogshit/",
+   "published": "2022-02-06",
+   "author": "/u/yourfreekindad",
+   "body": "how is this allowed? were literally forced to go lethal every melee matchup or its unplayable.\n they nerfed all bruiser items cant they at least buff conqueror to not be a useless piece of shit rune",
+   "id": "slqfe2",
+   "comments": [],
+   "age_days": 1706,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "The power of sterak's gage first item(wukong matchup with ignite too)",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/rcfv5f/the_power_of_steraks_gage_first_itemwukong/",
+   "published": "2021-12-09",
+   "author": "/u/Lo0odySan",
+   "body": "",
+   "id": "rcfv5f",
+   "comments": [],
+   "age_days": 1765,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Sometimes it isn't the matchup, it's just Darius.",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/qyasgm/sometimes_it_isnt_the_matchup_its_just_darius/",
+   "published": "2021-11-20",
+   "author": "/u/otaser",
+   "body": "Darius isn't all that strong right now, sometimes it isn't really about how the champion matchup goes. It's just that Darius doesn't have the power to do things he should be able to do.",
+   "id": "qyasgm",
+   "comments": [],
+   "age_days": 1784,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Darius vs Sett help",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/pr1gvh/darius_vs_sett_help/",
+   "published": "2021-09-19",
+   "author": "/u/TehConsole",
+   "body": "I’ve seen the advice given on this matchup where you dodge W and it’s easier to win post 6. But every time i play against Sett that just doesn’t work for me, the only times I feel I win are pre 6. How do I deal with him landing E, Q autoing twice and just ulting if I try to kite him out. this whole time him still having W for his R slam slow.",
+   "id": "pr1gvh",
+   "comments": [],
+   "age_days": 1846,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What are some of darius hardest matchups?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/pns8gd/what_are_some_of_darius_hardest_matchups/",
+   "published": "2021-09-14",
+   "author": "/u/abigbrickblackwall",
+   "body": "Rengar top main here, (yes I know) basically I don't want to ban darius anymore when champs like irelia, fiora, lux and riven exist. Darius is pretty common in my elo (gold-plat) and was just wondering what champs counter him. I know trundle and fiora are one but what else?\n ​\n Thanks in advance!",
+   "id": "pns8gd",
+   "comments": [],
+   "age_days": 1851,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "hi everyone , hope u doing well , any tips for akali matchup ? , i played against her only twice in toplane , today this akali and me were on 50%hp , i had null magic resist (25MR 450gold) on me and she ONSEHOT me at 6 , i came back to lane with more mr (25) and she oneshot me again with 70%hp..",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/nhh8ry/hi_everyone_hope_u_doing_well_any_tips_for_akali/",
+   "published": "2021-05-21",
+   "author": "/u/ZofiaOp",
+   "body": "",
+   "id": "nhh8ry",
+   "comments": [],
+   "age_days": 1967,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Eid Mubarak brothers , i've got many like many ranged matchups recently , didnt happen for u too ?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/nbl56w/eid_mubarak_brothers_ive_got_many_like_many/",
+   "published": "2021-05-13",
+   "author": "/u/ZofiaOp",
+   "body": "",
+   "id": "nbl56w",
+   "comments": [],
+   "age_days": 1975,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Are there any guides or youtubers that explain darius matchups in depth?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/n2gq09/are_there_any_guides_or_youtubers_that_explain/",
+   "published": "2021-05-01",
+   "author": "/u/Akke_blakk95",
+   "body": "Greetings! \n After permabanning Darius I decided now that I reached gold 2 I am going to try and learn my nemesis. \n However, I find myself not being able to punish the opponent enough or I play the lane too passively which leads to a gank and the lane lost.\n Are there any great youtubers that explain Darius macroing and really how you should play him. I would just like to find someone that explains it like I’m a monkey.\n Best regards, Erik",
+   "id": "n2gq09",
+   "comments": [],
+   "age_days": 1987,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Darius Match-up sheet and Guide MegaThread",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/i391m4/darius_matchup_sheet_and_guide_megathread/",
+   "published": "2020-08-04",
+   "author": "/u/SamD-B",
+   "body": "This will be a thread dedicated to helping Darius players in match-ups and a general guide for new Darius players. I will also link helpful video's that people might like. This will be a constantly updated thread when new information is available for the specific champ. \n The Darius Match-up spreadsheet\n Darius Combo's, Tips and Tricks\n Rhoku's ultimate Darius Combo Guide\n Previous Match-up Threads In Alphabetical Order:\n Note: Reworked champions are either not included as information is just not viable anymore or kept as info is still relevant but take it with a pinch of salt.\n Aatrox Match-up\n Akali Match-up\n Akshan Match-up\n Camille Match-up\n Cassiopeia Match-up\n Cho'Gath Match-up\n Ekko Match-up\n Fiora Match-up\n Fizz Match-up\n GankPlank Match-up\n Garen Match-up\n Gnar Match-up\n Illaoi Match-up\n Irelia Match-up\n Jarvan IV Match-up\n Jax Match-up\n Jayce Match-up\n Karthus Match-up\n Kayle Match-up\n Kennen Match-up: Rat Of The Toplane\n Kled Match-up\n Lissandra Match-up\n Malphite Match-up\n Malzahar Match-up\n Mao'Kai Match-up\n Mordekaiser Match-up\n Nasus Match-up: The Dog of Toplane\n Nautilus Match-up: The Juiciest Titan On The Rift\n Olaf Match-up\n Ornn Match-up\n Pantheon Match-up: The BreadStick Of Toplane\n Poppy Match-up\n Quinn Match-up\n Renekton Match-up\n Riven Match-up\n Rumble Match-up: Barbecue Style\n Ryze Match-up: The Physical Embodiment Of All Reworks \n Sett Match-up\n Shen Match-up\n Singed Match-up: The Physical Lung Cancer Of Toplane\n Sion Match-up\n Swain Match-up\n Talon Match-up: 25% Of First Bloods\n Teemo Match-up: The Even Bigger Rat Of Toplane\n Trundle Match-up: Bonk Bonk\n Tryndamere Match-up\n Urgot Match-up\n Vayne Match-up\n Vladimir Match-up\n Yone Match-up: Edgy Weirdo Of The Rift\n Yasuo Match-up: The Feed Or Fed Of The Rift\n Yorick Match-up\n That should do it for all the match-ups so far that are still relevant.",
+   "id": "i391m4",
+   "comments": [],
+   "age_days": 2257,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Want somebody to play into Darius, but not a ranged top laner?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/f5ibc9/want_somebody_to_play_into_darius_but_not_a/",
+   "published": "2020-02-17",
+   "author": "/u/mvelocityp",
+   "body": "Pick Aatrox! If you play the matchup right, you can avoid Darius Q and E with Aatrox E\n As a bonus, every time you kill Darius Aatrox will most likely say “the axe always suited you, Darius, the weapon of a simpleton” and it just makes your dick that much bigger because you killed the fool that decided to take your main from you.",
+   "id": "f5ibc9",
+   "comments": [],
+   "age_days": 2426,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Thank you Darius players for existing",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/emfvlm/thank_you_darius_players_for_existing/",
+   "published": "2020-01-09",
+   "author": "/u/SumisCloud",
+   "body": "As a Kled player tired of ranged abuser I love seeing the opponent take Darius or other skilled bruiser matchups but Darius is the main one. I love when I just get outplayed by a character I know has simple mechanics yet its so fun to play agaisnt, when the Darius sees right through my Q cast time and dodges it like nothing and goes ham, its one of those moments I like seeing because theres more going on than me getting poked under turret. With love fellow noxians.",
+   "id": "emfvlm",
+   "comments": [],
+   "age_days": 2465,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Does anyone else hate akali?",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/dfi13h/does_anyone_else_hate_akali/",
+   "published": "2019-10-09",
+   "author": "/u/Shadowy-fox",
+   "body": "Idk I just feel like the champ is overloaded as hell but I’m sure there’s gotta be something I could be doing better too but for whatever reason I’ve struggled immensely in the akali matchup is anyone else having this problem and if not what are you doing to beat her",
+   "id": "dfi13h",
+   "comments": [],
+   "age_days": 2557,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "[RANT] The buff is good.",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/bgwoax/rant_the_buff_is_good/",
+   "published": "2019-04-24",
+   "author": "/u/InnocentDeaths",
+   "body": "Unpopular opinion (apparently) but the buff is actually good. A lot of you guys are crying about it, but honestly, this is probably the best thing they could have done. If you seriously think that getting more armor or mr or mobility or whatever is a good, healthy buff, you should probably play the champ more. The ingame role of Darius is not to be a tank, and he is purposefully immobile. Some of the things I have seen suggested are so laughably bad and destructive to the game's balance that I wonder if you have even seen the game be played, let alone actually play it. Its like you want to be able to mindlessly stand in lane and be able to power through literally everything. Darius is really meant to fight a certain type of top laner- tanks. That's his niche. I know we are all one tricks, but some matchups are not meant for you to bully. If you lose lane against Renekton, or irelia, or jax, that's fine. High damage control characters like them are meant to counter us, otherwise there would be no response. Darius would be a pick or ban, and it wouldn't be fun. For me at least, the actual fun of playing the champ is by winning against characters that are meant to counter you... knowing how to play around them- learning how to roam, or to play from behind, or any other of the extremely valuable skills you can get from one of these situations besides just knowing how to easily kill someone you are meant to kill.",
+   "id": "bgwoax",
+   "comments": [],
+   "age_days": 2725,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I won as Darius against the dreaded Riven matchup, and defeated the fed Vayne+Lulu AMA",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/axexlg/i_won_as_darius_against_the_dreaded_riven_matchup/",
+   "published": "2019-03-05",
+   "author": "/u/GordionPaux",
+   "body": "",
+   "id": "axexlg",
+   "comments": [],
+   "age_days": 2775,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "A general Darius guide for runes and spells for every matchup.",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/9sfwr9/a_general_darius_guide_for_runes_and_spells_for/",
+   "published": "2018-10-29",
+   "author": "/u/godking_Kirito",
+   "body": "Hey guys, I'm a Darius one trick ranking on Master and High Diamond elo from multiple accounts for the past 6 years I've been playing this game. I think I know the champion mechanics,strengths and weaknesses very well to make an accurate enough guide on him to help you guys out too. This is some general information where I'm covering basics such as Runes and Spells on which matchups to take, I'll do a more in depth guide later for each matchup depending on the feedback I get. Here's some stuff I got for you guys, let me know if you agree or disagree and what your opinion is.\n First off my accounts: \n (main) http://eune.op.gg/summoner/userName=K%C3%ADr%C3%ACto\n (smurf #1) http://eune.op.gg/summoner/userName=kahui\n (smurf #2) http://eune.op.gg/summoner/userName=k%C3%ADr%C3%ACto%CB%86swaifu\n my 1st setup:\n SETUP #1\n my 2nd setup:\n SETUP #2\n my 3rd setup:\n SETUP #3\n I hope I offered some helpful insight for now, I got more stuff planned to come so if you want to be updated asap you can follow me on instagram @godking_kirito where I'll be posting more tips and guides regarding Darius. Thanks for your attention, good luck in the rift and keep dunking!",
+   "id": "9sfwr9",
+   "comments": [],
+   "age_days": 2902,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "The new and improved: Speedarius build",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/9od8t6/the_new_and_improved_speedarius_build/",
+   "published": "2018-10-15",
+   "author": "/u/Bipher",
+   "body": "Have you ever felt that the game just isn't fun any more? Shitty teammates, toxic enemies, spanish and french people in general, sometimes you just need to stop playing, relax... and try the Speedarius build for that +1 fun factor.\n For starters this will be your runes, they must be exactly like this or you'll lose some of that juicy horse power: Predator for that speeeeeed boi, cheap shot cause why not, is not like you have a dash or something like that, zombie ward so at least you can give vision and relentless hunter for even more horse power, the secondary runes will be celerity for that extra damage and waterwalking to be like jesus on redbull through the river\n ​\n https://preview.redd.it/5q4f4wlrzcs11.png?width=1093&format=png&auto=webp&s=1a728c4049412a143dd4497282910d652c614fbc\n Next is the lane you'll go; Jungle, cause if you go top you'll probably lose every matchup. So let's go jungle so that we only feed the krugs and that bitch Elise who won't stop camping your buffs. And also with your speed and runes you will be a ganking machine, you will drift 3 times around them before they even know you are there. Your spells will be Ghost and Smite, or Ghost and Flash if you think smite is not necessary to jungle, I won't judge you. The jungle path is whichever you like, I prefer starting red side for that extra damage but if you are a coward you can go blue.This will be the items you take yes or yes, we can't risk to lose any horse power:\n ​\n https://preview.redd.it/kkjffjsszcs11.png?width=399&format=png&auto=webp&s=6a5befe6ce1429d014b4f268733a49c87d3c92ec\n The jungle item so that you dont die at lvl 1 like an idiot (You can finish it or no, who cares) boots of switness cause we all know you run faster in heels, Youmuss's Ghostblade so you can be the second Nightblue3, Righteous glory to chase those slippery assasins, Phantom dancer cause fuck minion block and last but not least Dead Man's Plate to have that cool effect behind you while you drift through the rift.\n No more no less. This build may be missing some more damage or tankiness but what it does has is speed and the fun factor. You'll be running across the match winning illegal races and making everyone on the enemy team feel the fear of seeing a darius at mach 2 speed coming towards them.\n ​\n This build is recommended for when playing with friends or with 4 randoms if you are brave enough to put up with all the flame you'll recieve. DO NOT try it on rankeds unless your name is Takumi, then you can do whatever you want.",
+   "id": "9od8t6",
+   "comments": [],
+   "age_days": 2916,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "In-Depth Item/Build Guide (LONG)",
+   "url": "https://www.reddit.com/r/Dariusmains/comments/8bc39d/indepth_itembuild_guide_long/",
+   "published": "2018-04-10",
+   "author": "/u/MakoMuff",
+   "body": "Because of all the recent questions regarding build paths, I thought it would be a good time to write a \"short\" guide on what builds work on Darius currently. I have a lot of ground to cover, so lets get right in.\n PSA If you have come here seeking knowledge of Darius, then I strongly urge you to check out the guide made by u/ciswhitemale6 , it has everything that my guide has on items plus info on runes, matchups, play styles and more; in short it is a much better guide and with its existence this post has become obsolete.\n For this reason I will no longer be updating this guide, and would like to thank all of you who supported it these past few months. I had a lot of fun making and updating it but cannot in good conscience recommend it when there is an objectively superior alternative, written by a player with far more experience, right here in our subreddit. Thank you all once more, and happy dunking.\n Link to the new guide: https://www.reddit.com/r/Dariusmains/comments/9yrdtf/i_created_the_largest_darius_mains_guide_that/\n Starting Items\n Darius only really has 4 viable starting items. Dorans Blade is for matchups where you're looking to go aggressive, like against a tank or similarly weak laner (note that not all tanks have bad laning phases, Shen and Sion for example have a lot of early damage).\n Dorans Shield is for matchups where you expect to be poked a lot, like against ranged champions or ones with strong DoT effects like singed.\n Corrupting pot is the optimal choice for champions who you want to fight early, but potentially can fight back, like Urgot or Aatrox, or harder matchups like Renekton or Riven. Of course you can also start d blade against these hard matchups, but if you really want the early advantage I would start corrupting and get a d blade on your first back, this is by far the best early game setup.\n Long sword is also kinda viable as a starting item, but its greedy as fuck and leaves you quite squishy. Would not recommend.\n For jungle start talisman because the bleed from your passive and your q will both heal you.\n Core Items\n Darius really only has two core items: Phage and Boots of Speed. Darius is a highly kite-able champion, and since literally every champion who can buy boots does, forgoing them is never viable. The best tier 2 boot options are ninja tabis and merc treads based on teamcomp. Swifties are also viable against a comp with a lot of heavy slows (Nasus, GP, Nunu etc.).\n Phage, simply put, gives you everything that Darius wants: movespeed, health, and attack damage. It is often the first item you will purchase and is your first real powerspike. Another reason it is so important is that both of the items it builds into, Black Cleaver and Trinity Force, have 20% cdr, which is another important stat on Darius, not only to increase his damage but also health regained by q in team fights/skirmishes.\n Trinity or Cleaver\n This is a subject of much debate. Each of these items has pros and cons, but the simple solution to decide which to buy is to look at how many tanks you are facing.\n Two or more means the armor pen from cleaver will be very valuable to you and your adc/any other physical damage dealer. If they only have one super tank, you can take trinity, but be aware that your dueling vs them will be lessened; this is most important if you intend to split against them (although ever since the release of conqueror this is much less of an issue, so I would now say you can freely build trinity vs one tank, especially when ahead).\n If they are all squishies, Trinity is very strong, but if you find yourself falling behind the lower price of Cleaver can help you finish more items faster. Also please don't ever build both, its just bad.\n Update: after a few more weeks of playing with conqueror I am coming out strongly in favor of the Trinity/Steraks build no matter how many tanks you are against. The damage that cleaver adds compared to this combo is frankly pitiful, and if you require proof of this I urge you to try it out for yourself; you will thank me in time. The only scenario I would get cleaver currently is if you are massively behind and want to try and help your adc carry your ass by shredding some enemy armor, because whether you’re splitting or teamfighting Trinity is frankly better.\n Second update: now that the synergy between Trinity and Steraks has been removed, this build path is not quite as strong. However as the dust continues to settle over the new patch I will simply say this: with conqueror in the game Trinity is a viable item even against tanks, and although it CAN be used with Cleaver, they have some serious anti synergy, so I would suggest Phase Rush with that. Basically, whatever item you pick is preferential, I will not claim that one is stronger than the other, it just depends on your play style. If you want to split push, Trinity with conqueror is better, if you want to team fight Cleaver with Phase Rush is better, but even then you might find more success with one setup no matter what you do. Just try them both and decide for yourself.\n Third update: as season 8 draws to a close and we’ve all had some time to experiment with all sorts of combos, I can say with certainty that I believe trinity is an objectively better item than cleaver, but only by a real actively small margin, and thus if you prefer going cleaver it is 100% viable, even in high diamond/low challenger as proved by u/dragoonsmash who is one of the best (if not the best) Darius players on NA. Also steraks is always the best second item choice no matter which phage item you went IMO. You might be forced to build more defensively when behind sometimes but even then I would always get steraks after that. As for runes, conq still has more synergy with tri and phase rush still has more with cleaver but honestly take whatever rune works for you, Darius can literally use any rune path as his main tree, so I encourage you to experiment and find what works best for you.\n Standard Items\n This is the main pool of items that you will chose from most games. After a phage item, your build will vary depending on which you chose.\n If you chose Trinity, Steraks is almost always a good second item. The base AD from Steraks synergizes extremely well with Trinity's sheen passive. This build is expensive however, which is part of why going Trinity is better when ahead.\n If you chose Cleaver, you now want resistances to back up your health. You usually want an armor item and an MR item for your next two purchases. The most obvious choices are Deadmans Plate and Spirit Visage. Deadmans gives more movespeed, which is hard to get and very valuable, while visage gives cdr and a healing amp passive that makes your q heal very potent.\n Update: Now that Steraks grants Bonus Attack Damage and not Base attack damage it now has no more synergy with Trinity than it does with Cleaver, so no matter which you’re getting this is always a solid second item. It can be delayed if you want some resistances first but your damage will be a bit lackluster unless you’re ahead.\n Righteous glory is also a great item, as the active helps you with gap-closing, Darius' biggest weakness. It also gives a nice chunk of health, health regen (don’t underestimate this stat, seriously) and some cdr. The mana it provides is not bad, but ultimately somewhat superfluous and the armor is gives is pitiful. That said, do not underestimate the value of its active; this is a great second item after cleaver if you're strong and looking to run some people down. Also, against an all AD team, this makes a geart replacement for visage's lost cdr and hp regen.\n Maw of Malmortius is also a decent mr option, however it shares a unique passive (lifeline) with steraks. Even when building cleaver, Steraks is a great 3rd or 4th item, so Maw is almost always forgone nowadays (also don't build both please, its bad).\n ZZ'rot Portal/Banner of Command/Gargoyle's Stoneplate are all good last item choices to beef up your resistances. When building one of these in a standard game (as in vs a damage balanced team) you will likely have boots, a phage item, an armor item, an MR item, and steraks, so you wont need more health, but as I said the resistances will be nice. As for which to go, thats honestly up to you. Some simple strengths: ZZ'rot is good for solo splitting and pushing towers, banner is good for sieging with your team and pushing minion waves while youre gone, and stoneplate is good for teamfighting and soaking up damage. Locket of the Iron Solari is also kinda viable if your carry is fed, but i woulnt recommed it tbh, it’s been nerfed repeatedly and is just kinda crappy.\n RIP Banner of Command, 2012-2018. You will be remembered for all the towers you took, now sleep well old friend.\n DMP vs Randuins vs Thornmail\n As stated, Deadmans is the go to armor item for bruisers like Darius, however Randuins Omen and Thromail certainly have their place. Against two or more crit users, I strongly recommend Randuins, and against champs that rely on lifesteal/health drain (Fiora, Trundle, Aatrox) you should get bramble vest on your first or second back and eventually finish thormail. Keep in mind not all champions with healing will auto you to proc the passive however (Vlad and Swain for example). ALSO ALWAYS GET THIS SHIT VS MAOKAI IF YOU EVER WANT TO KILL HIM. His passive healing is insane and he will become unkillable at a certain point unless someone on your team has grievous wounds. This was written when Maokai was bonkers busted quite a few months ago, but he’s kind of a joke now, so build whatever you want and cave his little tree head in. Update: I would like to clarify that even against one fed crit user or one fed lifesteal/lifedrain champion you should be getting Randuins or Thornmail. Deadmans, while excellent, is ultimately a luxury item and should be treated as such. If you can afford to get it however, by all means do, but from personal experience it’s only optimal in about 20-30% of games.\n Visage vs Adaptive Helm\n Basically, when choosing between these two items, you have to decide what champs will give you enough mileage on adaptive’s passive. Not only are you giving up a flat 100 health, but also the healing amp of visage (not to mention the shitty build path of helm).\n Here is a list of champions that adaptive helm is good against (crucial against champs whose names are in bold): Anivia, Aurelion Sol, Azir, Brand, Cassiopeia, Corki, Fiddlesticks, Heimerdinger, Karthus, Katarina, Kayle, Kog'Maw, Malzahar, Mordekaiser, Rumble, Ryze, Singed, Swain, Taliyah, Teemo, Viktor, Xerath, and Zyra.\n Now heres a list of champions that it is decent against, but by no means mandatory: Ahri, Amumu, Annie, Cho'Gath, Mundo, Galio, Gnar, Jax, Kassadin, Kennen, Lissandra, Nasus, Nautilus, Rammus, Renekton, Shaco, Shen, Shyvana, Syndra, Trundle, Udyr (Phoenix Stance), Varus, Vel'Koz, Vladimir, Volibear, Warwick, Zac, Ziggs, and Zilean.\n Situational Items\n Other items that have their place but not necessarily every game\n Deaths Dance: super greedy, big heals, strong passive, but very expensive, and you will be noticably squishy. Note: this is an making last or before-last item vs an all AD or all AP comp, because once you’ve stacked the appropriate resistance to the moon and back (usually around 200-250 in these scenarios) you just want health to back that up, and this item gives you that through healing, along with tons of damage.\n Titanic Hydra: if you want an extra auto reset to get 5 stacks super fast, and get some damage but also health to keep you nice and beefy, this is the item for you. Some build it religiously. I think its ok.\n Blade of the Ruined King: Amazing for dueling vs tanks if you went cleaver first, however its worse than deaths dance in a teamfight, which is where most tanks like to be. Will make you even squishier than DD as well. Against a super tanky team however, a very viable option if you or your team need more damage.\n Youmuus Ghostblade: lots of damage and not much else. It gives some MS which is nice, and its pretty cheap, however it falls off and ultimately this item was not made for bruisers, although it can be useful.\n Phantom Dancer: If you want to splitpush but had to go cleaver cause you were behind or their team is too tanky, this item is amazing. It gives you so much dueling prowess and makes up for the attack speed you lose when choosing cleaver over trinity (although it can be bought with trinity as well, this makes your dueling absolutely deadly). Against hard to duel bruisers I cant recommend it enough, but its weak in a teamfight where the passive and attack speed aren't as useful.\n Mercurial Scimitar: as a bruiser you have a lot of access to tenacity, but against a team with one or more surppressions sometimes this item is required. If so, get QSS as soon as you need it and finish full mercurial last. Also, it cleanses urgot ult, so it’s pretty good vs him.\n Guardian Angel: the stats are shit but the passive can win games. If the match is riding on your performance, consider picking it up. Ever since the stats got buffed on this item it’s even better for us, definitely a little more appealing now since you almost always buy this late into the game where the extra gold isn’t at all as relevant as the extra stats\n Warmogs Armor: mostly for fighting heavy poke comps, wouldn't really recommend otherwise, you get enough health from your first few items. Can also be a great item vs all AD or all AP comps; once you have 200-250 of one resistance, it becomes extremely inefficient to buy more, so you want to max out your health, and this item lets you do that. I actually can’t stress enough how crucial it is that you never over stack resistances, it’s extremely bad, the real way to become unkillabke vs an all AD come isn’t getting Thornmail Randuins Frozen Heart and Deadmans, it’s to get Tabi, two armor items and tons of health.\n Mortal Reminder: sometimes you're against a champ who heals a lot but doesn't want to auto you, like Vlad, Swain, or any mage with a Soraka on their team. In these cases, it is okay to get Executuioners Calling, but you have enough ArPen in your kit without last whisper. Plus by the time you're teamfighting, someone else on your team should have grievous wounds, so you can sell executioners rather than completing the item (most of the time, if they really refuse to buy GW you might have no choice). Update: with the upcoming changes to last whisper and it’s upgrades, Mortal Reminder is looking like a viable purchase against the aforementioned “healing without lifesteal” champions, however I would still only recommend it vs them. Update 2: can definitely confirm that the changes made this item vastly superior for us than it’s previous iteration. Of course this isn’t saying much since it was pretty bad before, but I now feel this is deserving of a spot in the situational category rather than the bad category.\n Knights Vow: let me paint a picture for you; it’s 25 minutes into the game and the only reason you didn’t give up first blood to the ignite Riven that solo killed you 8 times in a row and took both your turrets is because your vayne somehow managed to 3v1 a gank after her support got forced out of lane. Basically, this is when it’s time to make a choice: are you gonna be a little bitch and try to buy trinity/steraks and deaths dance anyway and lose your team the game, or are you gonna man the fuck up and build cleaver into straight support items because it’s the only way your heavy ass is gonna be useful? The answer is the latter, and this is the scenario where knights vow is good, ESPECIALLY if your support isn’t a tanky one who will be building this. Sometimes you get to carry, and sometimes you just gotta know how to let someone else do the job for you; recognizing that is one of the most important things to know if you wanna climb.\n Bad/Questionable Items\n These items arent necessarily horrible, but have anti-synergy with Darius' kit and are thus often avoided.\n Frozen Mallet: Put simply, Darius biggest weakness is getting to his targets, not sticking on them, as he already has enough slows for that. The only champ I would ever recommend it against is Singed (if for some reason the Singed is so fed that killing him is essential, which should never happen). It would also be good against Gnar if not for the fact that this item offers no deffenses but health and Gnar has copious amounts of % health magic damage.\n Frozen Heart/Iceborn Gauntlet: These items are not awful, but the immense mana they give and the 20% cdr are both superfluous. You will almost always overcap cdr with one of these, the mana is way less useful than health and as covered above, the slow from gauntlet isn't needed. Frozen heart can be situationally purchased vs all AD comps but even then I still wouldn't.\n Ohmwrecker: stop trolling and get your shit together actuallyitsnotthatbad\n Well thats it, now you scrubs can stop asking about builds. Also feel free to comment/pm me with more questions or errors in the post. Have a nice day dunkers.\n Edit: formatting\n Edit 2: words are hard\n Edit 3: still hard\n Edit 4: small changes/updates and more spelling mistakes\n Edit 5: further spelling corrections and various updates to a few sections.\n Edit 7: the RIP Banner update, also some changes to the trinity/cleaver section now that Steraks has been changed.\n Edit 8: did some more general cleaning up, moved some stuff around, added some other stuff, nothing huge all around. Also gave a shoutout to our boy dragoonsmash.",
+   "id": "8bc39d",
+   "comments": [],
+   "age_days": 3104,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  }
+ ]
+}

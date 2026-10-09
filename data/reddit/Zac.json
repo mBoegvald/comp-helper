@@ -1,0 +1,912 @@
+{
+ "champion": "Zac",
+ "subreddit": "thesecretweapon",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "Blob with a gun",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1wwktr5/blob_with_a_gun/",
+   "published": "2026-10-03",
+   "author": "/u/Audazlol",
+   "body": "So i've never touched Zac before this week. Perhaps the occasional ARAM, but nothing like that. Im normally a midlaner, toplaner, adc player, you name it, im doing it all, yea i know, not really a healthy style if i wanna improve (just find playing the same champ/s over and over boring)\n My idea was to ask chatgpt for suggestions for possible off meta midlane picks, and i told it that it could go crazy if it wanted to. And i was met with a few options. I was suggested BARD ultra roamer, second jungler type shi, rakan ap mid etc, but eventually i was struck by the ZAC, my eyebrows lifted and i saw the vision. \n I told Chatgpt that we should make a research project to find the most optimal way to play Zac mid, i am now currently 30 games in, and we have a few nice data from matchups, roam theory, \"trampoline bazooka\" e technology, and much more. \n After each game i would make a rapports, with my stats \n Lane:\n Roams:\n Best E: (for mapping out the technology)\n Build:\n Worst problem: \n Weird discovery:\n The more detailed the rapport, the better the data.\n Before each game i type out the two comps for the AI engine, and based upon our previous data, i get a flight plan. We have established when is the \"wave breakpoint\" (the exact point in which i turbo oneshot a wave and have really good 'move' opportunity\")\n Currently im 20 wins 9 losses 69% winrate with a 4.21 kda, from silver to plat. The goal is masters with Zac mid only, lets see how it goes.\n Just thought i would share my experiment.\n Blob has a goddamn gun.",
+   "id": "1wwktr5",
+   "comments": [],
+   "age_days": 6,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Zac W Analysis",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1wmqgw9/zac_w_analysis/",
+   "published": "2026-09-21",
+   "author": "/u/strangeBehavior7",
+   "body": "So I wanted to dig in a bit to Zac's W try to distill some spray pattern for better predictions. I have about 410k Mastery on this champ and I haven't sat in practice tool to observe this behavior until now. Currently bouncing between Plat 1 and Emerald 4. I play Zac top.\n Zac's W has a spray pattern where blobs will spawn (duh). I noticed that based on his midline, the blobs will push to one of four quadrants as shown in the screenshot:\n Back left\n\n Front left\n\n Back right\n\n Front right\n Assumption:\n Based on Zac's midline, I'd think rng would auto-allocate blob spawns to the quadrants as an equal 25%/25%/25%/25% split, so each blob, in theory, should spawn at the same rate as in other quadrants. That would mean each quadrant would have ~64 blobs spawn in each quadrant. But again, this is is completely subject to rng, and this was only performed a quick glance.\n Test:\n I spent 5 minutes simply pressing W in the exact same spot, with only one target dummy. I called out which quadrant a blob spawned. I did speech to text, and analyzed the transcription to put the number count callouts into each bucket.\n I did catch myself miscounting as some of the blobs will not spawn exactly in the circled quadrants, but this was only a couple times, so there may be a very tiny deviation from the numbers presented.\n In total, 255 blobs were counted.\n Counts:\n Quadrant 1 count: 46 (~18%)\n Quadrant 2 count: 80 (~31%)\n Quadrant 3 count: 63 (~25%)\n Quadrant 4 count: 66 (~26%)\n Quadrant 1 percentage: −6.96%\n Quadrant 2 percentage: +6.37%\n Quadrant 3 percentage: −0.29%\n Quadrant 4 percentage: +0.88%\n Takeaways:\n Obviously based on the short analysis, Zac's blobs seem to spawn more favorably to his front left (quadrant 2). This isn't to say his W will programmatically favor quadrant 2, but this was an observed skew in this sample. \n Conclusion:\n I think this was helpful for me to understand at least the spawn pattern. I'm sure most people who have a ton of time on this champ know these things, but it was surely helpful for me to better matchup especially while in top lane.\n Of course which quadrant depends on which direction Zac is facing at the time, but the blob spawn doesn't seem to discriminate against where the enemy is in relation to Zac when W'ing. The blob spawn does, in fact, discriminate based on which direction he's facing and where his \"midline\" is directed.\n It would be helpful to spend 10-20 minutes just doing this to gather 1000-2000 blob spawns to better analyze the spread, and doing this test several times to evaluate each test against one another.\n Let me know if there's any feedback here.",
+   "id": "1wmqgw9",
+   "comments": [],
+   "age_days": 18,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Tips on Zac for a new Zac player!",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1vx2xnm/tips_on_zac_for_a_new_zac_player/",
+   "published": "2026-08-24",
+   "author": "/u/sgtbillyshears9",
+   "body": "Hello everyone, so recently i tried out zac for the first time in the jungle and had lots of fun on him, but just looking for more advice on his role, runes, builds, play styles and matchups.\n I am a jungle main, shaco specifically (sorry) but i am aware zac excels in many roles, so which should i try out, and how do the builds change based on which lane he is in?\n For all of my games i built full tank, also just wondering if this is the best option for zac or if he is better with bruiser / ap.\n I am aware he is weak early, but are there any precautions i can take to get a good start / lead or avoid invades? And let me know about matchups i need to watch out for and who to ban. Thanks everyone!\n PS I struggled finding this subreddit haha, may i ask why the title?",
+   "id": "1vx2xnm",
+   "comments": [],
+   "age_days": 46,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "zac top itemization + more questions in general",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1ub7nk9/zac_top_itemization_more_questions_in_general/",
+   "published": "2026-06-20",
+   "author": "/u/Imrl_",
+   "body": "hey guys im getting back into league. ~2 years ago i remember dominating top lane with zac, reaching d1 with a 67% winrate around. what items does zac build top nowadays? i remember rushing anathemas against some matchups but the items been removed almost 2 years ago now. what items should i build?\n is it still sunfire (or hollow into ap) into lucidity boots and spirit visage? what to build after that\n in addition i was doing some looking at this sub and saw that e start seems to be best now?\n any other changes i should know about?",
+   "id": "1ub7nk9",
+   "comments": [],
+   "age_days": 111,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Toplane Zac",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1tgi5qm/toplane_zac/",
+   "published": "2026-05-18",
+   "author": "/u/hatchedend",
+   "body": "Hello there, \n Ive wanted to add Zac to my champ pool, but i struggle every time i pick him toplane, even in \"favorable\" matchups (im talking about the likes of malphite/mundo). Is there any toplane Zac content creator who gets you through the basics and fundamentals of toplane Zac? \n Because lets be honest - you cant play him like your usual toplane champion, but i really like his kit.\n Every help much appreciated.",
+   "id": "1tgi5qm",
+   "comments": [],
+   "age_days": 144,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Top lane matchup tier list made by me (cuz u/nacisticky_krtecek69 asked)",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1tdnayc/top_lane_matchup_tier_list_made_by_me_cuz/",
+   "published": "2026-05-15",
+   "author": "/u/RayMasacre",
+   "body": "I'm a Zac otp, most of the time I play top lane and I peaked D4 with over a million mastery points. That said, here is my take on Zac top lane matchups.",
+   "id": "1tdnayc",
+   "comments": [],
+   "age_days": 147,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "tier list of matchups in toplane?",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1tdbes3/tier_list_of_matchups_in_toplane/",
+   "published": "2026-05-14",
+   "author": "/u/nacisticky_krtecek69",
+   "body": "i used to otp zac jungle (700k mastery points, highest rank eme2) and ive just recently started playing toplane sion. i was wondering to start pickick zac time to time. does anyone have any sort of tier list? thanks. (i only found this https://www.reddit.com/r/thesecretweapon/comments/1awh88z/my_zac_toplane_matchup_tierlist_as_a/ )",
+   "id": "1tdbes3",
+   "comments": [],
+   "age_days": 148,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "what champions does zac top counter?",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1svqz8r/what_champions_does_zac_top_counter/",
+   "published": "2026-04-25",
+   "author": "/u/nacisticky_krtecek69",
+   "body": "are there any matchups where zac is really good? thanks! (toplane)",
+   "id": "1svqz8r",
+   "comments": [],
+   "age_days": 167,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Matchup spreadsheet",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1sn4p1x/matchup_spreadsheet/",
+   "published": "2026-04-16",
+   "author": "/u/nomecabiaelnomb",
+   "body": "Hey, I am a Zac Top main trying to reach master in EUW (currenly D2 with 62%wr, 67% with Zac). Would you be interested in a spreadsheet talking about my experience in every matchup? It would take me some time but you may find it useful.",
+   "id": "1sn4p1x",
+   "comments": [],
+   "age_days": 176,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Surely there's a better item to start with than Sunfire?",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1shny41/surely_theres_a_better_item_to_start_with_than/",
+   "published": "2026-04-10",
+   "author": "/u/dacrookster",
+   "body": "I've been playing some Zac top, I find he's a good pick into a few matchups and is a fun engage. Normally I like to split push and create map pressure which Zac isn't as good at, but he's still loads of fun. That being said - Sunfire Cape sucks and I just don't get why there isn't a better item to start with?",
+   "id": "1shny41",
+   "comments": [],
+   "age_days": 182,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I want to be an OTP Zac",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1riywab/i_want_to_be_an_otp_zac/",
+   "published": "2026-03-02",
+   "author": "/u/PerfectReading9780",
+   "body": "So as the title says, Ive been playing with a lot of champs to get an idea of what I like (Im new to the game), and zac is the one that I like the most because of his playstyle. It is also the highest wr i have. \n Is Zac always good pick? Cause i think he is not a carry jungler like maybe others. I just want an opinion if its a good idea to main Zac in terms of ranked and matchups.",
+   "id": "1riywab",
+   "comments": [],
+   "age_days": 221,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "ZAC TOPLANE QUESTION",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1r0jrqt/zac_toplane_question/",
+   "published": "2026-02-09",
+   "author": "/u/SeaworthinessAny7102",
+   "body": "So I was wondering how you guys in top feel about an illaoi matchup. I feel like I just can't win the matchup. In the past it was doable with an anathemas chains rush. But no matter how much of her skillshot I dodge I just get smacked anyway. Any tips or should I just perma her?",
+   "id": "1r0jrqt",
+   "comments": [],
+   "age_days": 242,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Zac S Tier",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1qi1w1m/zac_s_tier/",
+   "published": "2026-01-20",
+   "author": "/u/Connect-Pension8488",
+   "body": "so yeah, zac seems extremely broken\n i'm not a zac main, i play a lot of viego and kayn, but for the purpose of climbing im going to stick with zac this season. hes such a good pick s16, always provides something for the team, able to solo carry, extremely annoying to deal with, not really having an unplayable matchup, extremely good teamfighter...\n i prbly will play some games of viego once he gets his buffs tomorrow, but zac feels extremely good to play rn",
+   "id": "1qi1w1m",
+   "comments": [],
+   "age_days": 262,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Started making Zac videos on youtube",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1q9jaa8/started_making_zac_videos_on_youtube/",
+   "published": "2026-01-10",
+   "author": "/u/acoostic",
+   "body": "Hello! I've started uploading vods of my games as Zac as I noticed a distinct lack of zac content out there. I am by no means an exceptional player (peaked plat last season, seem to be facing a lot of emeralds and diamonds in norms), but figured if people like me are looking for more Zac videos maybe I could just upload mine! If nothing else I get to review my games without having to save them to my hard drive, but hopefully folks get something out of them, or start discussions on matchups or builds or something like that. \n My youtube is: https://youtube.com/@coos?si=nl3UIvl7O6JVngPa \n Boing boing to you all!",
+   "id": "1q9jaa8",
+   "comments": [],
+   "age_days": 272,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Matchup vs zaheen top",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1p46bvv/matchup_vs_zaheen_top/",
+   "published": "2025-11-22",
+   "author": "/u/Natural-Witness-3921",
+   "body": "I just got destroyed by him toplane, felt like after level 3 or 4 I just couldn't do anything against him. Does anyone have any advice for the matchup?",
+   "id": "1p46bvv",
+   "comments": [],
+   "age_days": 321,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Zac top matchups, tips and tricks",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1p0dtir/zac_top_matchups_tips_and_tricks/",
+   "published": "2025-11-18",
+   "author": "/u/IIGhostSniperII",
+   "body": "Just picked up zac on toplane cuz i needed a tanky-cc-utility champ in my pool and i don't like the other tanks.\n Do you guys have any tip for me? Like, what are his best and worst matchups? When should i pick it and when should i not?",
+   "id": "1p0dtir",
+   "comments": [],
+   "age_days": 325,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Zac Runes Top",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1oaop30/zac_runes_top/",
+   "published": "2025-10-19",
+   "author": "/u/Quirky_Mess3651",
+   "body": "Hello! I have recently started to main Zac top and he is a beast! I play in very low ELO, but most matches I'm able to do quite well. But there are certain matchups I struggle with. \n Especially Mordekaiser, Darius and Garen. \n I have just used runes and build guides I found on OP.gg. I found that grasp of the undying and demolish works quite well a lot of the games I play as I'm able to push objectives quite fast, have sustain etc. \n But during certain matchups I'm having a real hard time. I see a lot of people here using conqueror instead. So I'm wondering if I should switch to that during certain matchups.\n Is there a set of Runes or Builds you pick when faced with for example Darius, Mordekaiser or Garen?",
+   "id": "1oaop30",
+   "comments": [],
+   "age_days": 355,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Help me understand Zac top",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1n3bb49/help_me_understand_zac_top/",
+   "published": "2025-08-29",
+   "author": "/u/jonghyunie",
+   "body": "Top main here and I have not seen him top one even once last season. Only saw him jungle. But weirdly he’s got a decent win rate top lane so it’s tickling my brain. \n Can you explain to me the general game plan with Zac top? His runes, time builds, trade patterns, matchups? If he’s not a blind pick who to avoid/perma ban?\n Can someone lead me to a good video or guide on Zac top? \n I want to understand! \n Thanks!!!",
+   "id": "1n3bb49",
+   "comments": [],
+   "age_days": 406,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "My Zac Matchup Tier List",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1mq2doa/my_zac_matchup_tier_list/",
+   "published": "2025-08-14",
+   "author": "/u/DistributionUpset653",
+   "body": "How much do you agree on this?",
+   "id": "1mq2doa",
+   "comments": [],
+   "age_days": 421,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Zac toplane thoughts? new to the champ, pls help:D",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1lrdgd6/zac_toplane_thoughts_new_to_the_champ_pls_helpd/",
+   "published": "2025-07-04",
+   "author": "/u/TheeeKiiingg",
+   "body": "Im master 300lp atm, i have close to 0 experience playing zac.\n AP vs tank ? i would honestly more or less pick zac when a tank is needed, but how good is ap?\n Matchups? I would imagine fiora/gwen/darius etc these types of champs are maybe hard to play against\n Laning? It feels weird to play from lvl 1 since probably anyone beats you, w is not good enough damage and getting prio feels like suicide.\n anything else, like tricks combos etc\n ty!",
+   "id": "1lrdgd6",
+   "comments": [],
+   "age_days": 462,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Spreadsheet for Zac Top?",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1k3zxc1/spreadsheet_for_zac_top/",
+   "published": "2025-04-20",
+   "author": "/u/No-Improvement-5396",
+   "body": "Hello,\n I've recently started playing Zac in the toplane. Many toplane champions' communities have some kind of spreadsheet that explains meta for every matchup and how hard it is/what to build. Has someone made something like this for Zac Top?",
+   "id": "1k3zxc1",
+   "comments": [],
+   "age_days": 537,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "For zac top players, why is he so strong against irelia?",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1jirbx9/for_zac_top_players_why_is_he_so_strong_against/",
+   "published": "2025-03-24",
+   "author": "/u/NosikaOnline",
+   "body": "I hate playing against irelia, and I noticed that it's one of Zac top's best matchups as well as being one of irelia's worst. I played it a few times (as a pretty much zac newbie) and did fairly well, but didn't feel like I truly counter picked them.\n For anyone who's played this matchup plenty, what about it is good, how can I punish irelia, and when are you stronger?\n (I rushed bramble into steelcaps and felt fine but not crushing, also couldn't really ever get prio).",
+   "id": "1jirbx9",
+   "comments": [],
+   "age_days": 564,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Longtime Zac Player not having a good time for a long time now",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1io2z4h/longtime_zac_player_not_having_a_good_time_for_a/",
+   "published": "2025-02-12",
+   "author": "/u/Shytrader",
+   "body": "Is it just me or does the champ just feel kinda gutted? I can play well enough to dodge most abilities with basic movement and engage on others but I don't win nearly as many fights as I used to on this champ into the same matchup. I usually build Dark Seal -> Sunfire -> Abyssal -> Riftmaker -> Mejais or other AP items (game usually over atp). I had a lot of success with this build and I'd make minor changes as necessary into different team matchups but I feel like the breakpoints are just way more punishing than they were last season at this time.\n Am I washed?",
+   "id": "1io2z4h",
+   "comments": [],
+   "age_days": 604,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Heimerdinger top matchup",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1id55ld/heimerdinger_top_matchup/",
+   "published": "2025-01-29",
+   "author": "/u/YKsaku",
+   "body": "Any tips on how to lane against him? This is a rare matchup but the two games I faced him felt really unplayable. \n Any tips will do! Thanks!",
+   "id": "1id55ld",
+   "comments": [],
+   "age_days": 618,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Zac Top Matchups",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1g609yr/zac_top_matchups/",
+   "published": "2024-10-17",
+   "author": "/u/United-Cellist-6641",
+   "body": "Hello!\n I play Zac top in ranked with a friend, and there's a few match ups I've been struggling in that I feel I shouldn't be and was hoping I could get some advice on how to handle.\n Mordekaiser 20% out of 10 games Mord is my perma ban because he's so annoying to play against even if he's not ahead. If I DIDNT perms ban him, how am I supposed to play into him as zac? He can miss all his abilities, auto me 3 times and melt me with his passive. Then heal up with his w lol\n Darius 28.6% out of 14 games I just don't get how to play into this dude. He trades so much harder than me. I let him push to my tower and he pulls me out from under tower when I try to farm and then just R's me when I'm low enough.\n Jax 44.4% out of 9 games Zac is apparently a counter to this dude but I guess I'm just playing it wrong. He does so much damage and I don't really know what I'm doing wrong.\n Nasus 37.5% out of 16 games I try hard to pressure him in the early game but he just plays safe or slows me and runs back to tower, hits lvl 6 and I can't fight him anymore because of that massive Q dmg. Unless I've managed to get a kill on him before lvl 6 then I tend to be fine\n Thanks for your help!",
+   "id": "1g609yr",
+   "comments": [],
+   "age_days": 722,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Just hit masters playing Zac mid (it was easy)",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1c7rbib/just_hit_masters_playing_zac_mid_it_was_easy/",
+   "published": "2024-04-19",
+   "author": "/u/CheesyPudding",
+   "body": "​\n https://preview.redd.it/s8u9hyvw3evc1.png?width=1258&format=png&auto=webp&s=99d11402ee022a17bd549aba166f19e57adc69fc\n https://www.op.gg/summoners/na/CheesyPudding-fropy\n I don't see anyone playing him mid (instead of jgl and top) with a more aggressive play style. There are many reasons to play him in mid:\n - more gold, more carry-oriented playstyle (basically playing an AP bruiser)\n - better matchups than top early game (assassins and mages can't kill you, or your passive)\n - surprising burst with ignite + conq\n - don't have to take tp or sidelane (big weakness of matching split pushers)\n - can roam with e and good wave clear\n - can be solo AP and kill everyone\n - no one wants to play frontline in soloq, usually good for team comps and teamfights\n Also never take aftershock/grasp, conqueror is 100% better for all-ins and early solo kills, you would be surprised by the dps. Build sunfire/hollow into riftmaker and you can basically 1v1 anyone.\n Ok that's all for now. Might make a Zac mid guide later. \n ​",
+   "id": "1c7rbib",
+   "comments": [],
+   "age_days": 903,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Who wants to help?",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1bxcvii/who_wants_to_help/",
+   "published": "2024-04-06",
+   "author": "/u/BusIntelligent1311",
+   "body": "Hello blobs!\n I am creating an extremely in-depth matchup sheet for Zac. It will have detailed information for noobs on what abilities the opponent starts, to ability max priority. \n It will also have information for more experienced Zac mains as well, such as enemy ability information (what ability cooldowns at each level are, etc) for those like me that really want to learn how to trade better.\n I am looking for a (or some?) Zac main to help me with adding notes on how to deal with matchup.\n It will be encompassing all Zac roles, Top, Jungle, Mid, and Support.\n I can do it myself, by spectating and learning how to play against each character in each role, but that would take some time. \n ​\n Anyone want to help? :DD",
+   "id": "1bxcvii",
+   "comments": [],
+   "age_days": 916,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Zac Top Lane Guide",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1br6syr/zac_top_lane_guide/",
+   "published": "2024-03-30",
+   "author": "/u/SweatyGPMain",
+   "body": "Masters Evidence\n Hello, fellow Zac Mains, I just hit Masters playing Zac Top lane on the NA server and my opinion of him is that he is very strong in his current state (for top). I decided to make a small guide to showcase the strength of Zac and how I was able to climb playing him in the Top lane. \n ​\n https://www.op.gg/summoners/na/Sex%20Monster%20Zac-Zac\n https://preview.redd.it/fv5f75z0sdrc1.png?width=740&format=png&auto=webp&s=cd32215ed565330981c4805d0817b5cbde2159ed\n For runes, I always go to the same page no matter what. Grasp is amazing for early game trades and taking second wind/revitalize makes Zac's sustain the best there is. For items, always start with a Doran's shield and a potion, items will be matchup-dependent but in an ideal world start by rushing components for Sunfire and then Abyssal mask second. If the enemy is AP, start with Abyssal then build into Sunfire second, do not go the MR Sunfire as it costs a bit more and Zac doesn't struggle with wave clear. For boots, go lucidity every game, if they have 5 AD you can consider plated steel caps, I have yet to see 5 AP in my ranked games this season. Always try to rush your first item ASAP to get your powerspike quickly, skip the boots, and even if you have extra money try to opt for a Dark Seal for extra combat power instead. \n Here's the breakdown of his early laning phase, Zac is not weak at early levels. It is his weakest phase but with Doran's shield + potion and trading with auto-Grasp + W, you will deal a ton of damage in the early game. Zac's greatest strength in lane is his sustain, no champion can match Zac's sustain in the top lane, and even the new Reksai top powerhouse is no match for Zac. This is the case for his even-good matchups, however in ones where he gets bullied early game, just give up the CS and pickup blobs under the tower if possible, but try your best not to lose any EXP. But if possible, try to stack grasp by auto-ing the minions and when the enemy goes to last hit, hit them with auto-grasp + W, it will do a lot of damage in the early game. For abilities max W, then E-R(6,11,16)-Q when possible.\n The mid-late game plays the same as Jungle Zac, hover your teammates, look for skirmishes and picks using your amazing E. Once you get your sunfire and abyssal you will be very strong in the side lane and chances are you will be able to push without needing backup, for that reason you should always take teleport.\n For the rest of the items, it's very situational. For armor items, I really like Randiuns (vs crit), Frostfire (haste), and my new favorite is Knight's Vow (if at least 1 person is doing ok). For MR items, the one that gives the magic shield is good, I don't usually build spirit visage but if they are heavy on the AP you can consider buying that too. If you don't feel you need the extra survivability, for 3rd item go for Riftmaker. \n For my ban, I always opt to ban Mordekaiser because if he knows what he's doing all he has to do is press R on you every team fight and he will ruin your fun. Another annoying matchup is Vayne top lane, who will run circles on you if they take ghost, fortunately in my over 80 games I have encountered less than 5 of them. Some matchups that are hard at first are Aatrox, Fiora, and Riven, I used to struggle with them a lot but once you get enough games in, and also realize that armor is your best friend, you will do just fine in those matchups.\n Anyway, I hope this guide helps!",
+   "id": "1br6syr",
+   "comments": [],
+   "age_days": 923,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "My Zac Toplane Matchup Tierlist as a Challengerpeak from EUW https://www.twitch.tv/kilianyeah_lol made this on stream :)",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1awh88z/my_zac_toplane_matchup_tierlist_as_a/",
+   "published": "2024-02-21",
+   "author": "/u/KilianYeah_lol",
+   "body": "​\n https://preview.redd.it/qb4xjj8hzyjc1.png?width=1298&format=png&auto=webp&s=8dadd8ec1ad9fad19d01adf20a750a31acb0a5eb",
+   "id": "1awh88z",
+   "comments": [],
+   "age_days": 961,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to beat Fiora Top?",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/181spui/how_to_beat_fiora_top/",
+   "published": "2023-11-23",
+   "author": "/u/shockeroo",
+   "body": "I'm new to toplane, played a lot of Jungle Zac. Apparently the Fiora matchup somewhat favors Zac but I got trashed just now. I rushed Bramble then Steelcaps but I just got consistently harassed and out-traded. Any advice on what I should be doing here, trading patterns, interactions to look for and avoid?",
+   "id": "181spui",
+   "comments": [],
+   "age_days": 1051,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Currently I am a rank 1 Zac player world. AMA",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/169w0xq/currently_i_am_a_rank_1_zac_player_world_ama/",
+   "published": "2023-09-04",
+   "author": "/u/BuBaciik",
+   "body": "​\n https://preview.redd.it/sfw7qajri9mb1.png?width=1195&format=png&auto=webp&s=126933ea0e6b213028d9467f4652e0926014c99c",
+   "id": "169w0xq",
+   "comments": [],
+   "age_days": 1131,
+   "recency_weight": 0.4,
+   "topics": [],
+   "stale_items": false
+  },
+  {
+   "title": "Looking for advices on how to play Zac top",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/1588dre/looking_for_advices_on_how_to_play_zac_top/",
+   "published": "2023-07-24",
+   "author": "/u/Heimdell_Irsei",
+   "body": "I did play Zac a lot a few months ago in the jungle, but since then I started playing mostly top so I gave up on him. I'm now mostly playing Ornn, but I prefer Zac's mobility.\n However, I saw that some people are playing Zac top with good results, so I wanted to know how to play it and if anyone have advices for me like:\n AP or Tank?\n What runes?\n How is the laning phase?\n Good/bad matchups?\n Game plan?\n Thanks",
+   "id": "1588dre",
+   "comments": [],
+   "age_days": 1173,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "My most even matchup ever",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/13u28ky/my_most_even_matchup_ever/",
+   "published": "2023-05-28",
+   "author": "/u/snappy_snake",
+   "body": "",
+   "id": "13u28ky",
+   "comments": [],
+   "age_days": 1230,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Anyone know of any good Zac top players that do coaching?",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/126ccbj/anyone_know_of_any_good_zac_top_players_that_do/",
+   "published": "2023-03-30",
+   "author": "/u/MeKindaDumb",
+   "body": "I've been playing Zac top for a little while now and climbed from Bronze 4 to Silver 1 at the end of last season. I'd really like to get to Gold 4 this season, but failed promos twice so far. I feel like I've been struggling with the pick lately. I've been following a number of high elo players from different regions ( 언니우기, Scibbles, Dumletikkari, Yasolio), but feel like I developed a lot of misconceptions about the pick on my own as a result.\n In order to get on the right track, I'd like to find a coach to identify the major mistakes that I'm making and the fundamental concepts that I need to work on. I'd also like to discuss things like Zac's identity as a top laner, trading fundamentals, matchups, wave management, and basic macro concepts in order to hopefully not suck. 🤣\n Anyone know of any good Zac top players that can help me? I'm willing to pay for the coaching if that's an issue. Thanks!",
+   "id": "126ccbj",
+   "comments": [],
+   "age_days": 1289,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "It took me too long to try Zac mid this patch",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/10w4tt2/it_took_me_too_long_to_try_zac_mid_this_patch/",
+   "published": "2023-02-07",
+   "author": "/u/Turbo_Cum",
+   "body": "Zac is abusive in midlane. I'm a jungle main, but I'm honestly just sick of the jungle changes. It feels horrible to play in my opinion and the constant gank spam makes it feel too coinflippy early in the game, so I took the goo mid.\n And holy shit, he's insane. The only matchups I noticed that were even close to difficult were champs with built in burn. His damage with a 0 stack dark seal is actually surprising, and he makes the enemy laner 10000% baitable all the time with his passive. You literally just have to play to not die, and you automatically win. I didn't change ANY build pathing other than not buying the jungle item, and after he has half of his mythic, he's a menace.\n I know he's getting nerfed next patch, but I'm still gunna run it for a while to see how far I can go.",
+   "id": "10w4tt2",
+   "comments": [],
+   "age_days": 1340,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "noticed no toplane matchups tierlists for zac.",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/zpdgst/noticed_no_toplane_matchups_tierlists_for_zac/",
+   "published": "2022-12-19",
+   "author": "/u/Super-Singer-9565",
+   "body": "ola! wanna put my tierlist for my favorite toplaner, from my own experience last season:\n i suggest u go fleet against any ranged champs in skillmatchup and below, except gnar and graves. and just go conq into everything except: irrelia - camille - yasuo - fiora u go grasp there. \n ​\n i wouldnt suggest picking him as a blind and into anything above skillmatchup. \n i would recommend playing atleast 20 games in norm for getting det full scope of his powerspikes and alittle matchup knowledge.\n after that, u unlocked the secret weapon and feeling like ur playing a cheatcode. \n ​\n https://preview.redd.it/21d4znl36r6a1.png?width=746&format=png&auto=webp&s=ddb32e80fdc53c94c106ccb293ad0c300855e7b7",
+   "id": "zpdgst",
+   "comments": [],
+   "age_days": 1390,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Just Hit Diamond With Zac Top.",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/yied3u/just_hit_diamond_with_zac_top/",
+   "published": "2022-10-31",
+   "author": "/u/BlazinLiberty",
+   "body": "Hi guys. I just hit Diamond with Zac Top. Anyone else finding success playing him top lane? I think he's a really safe pick who scales massively. I do play him pretty aggressive versus most matchups.\n ​\n https://www.op.gg/summoners/na/BlazingLiberty",
+   "id": "yied3u",
+   "comments": [],
+   "age_days": 1439,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Looking to Pick up Zac top next split...",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/t88unj/looking_to_pick_up_zac_top_next_split/",
+   "published": "2022-03-06",
+   "author": "/u/deadestmoon",
+   "body": "I know it's a bit of a ways away, but I want to get some insight before it comes up. Runes/build ideas, matchups are what I'm looking for mostly. I know it's a pretty niche and it's not the normal lane to play Zac, but I've seen it before and want to give it a shot.",
+   "id": "t88unj",
+   "comments": [],
+   "age_days": 1678,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Why does Jarvan 4 counter Zac?",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/s3180k/why_does_jarvan_4_counter_zac/",
+   "published": "2022-01-13",
+   "author": "/u/AREA1177",
+   "body": "Just a visiting J4 main wondering about this matchup, can't figure out why J4 constantly has a strong winrate against Zac and is among his top counters.",
+   "id": "s3180k",
+   "comments": [],
+   "age_days": 1730,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Zac toplane streamers/YouTubers?",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/rsqdur/zac_toplane_streamersyoutubers/",
+   "published": "2021-12-31",
+   "author": "/u/Runninghour",
+   "body": "Are there any zac toplane streamer/YouTubers I can watch to learn matchups etc.?",
+   "id": "rsqdur",
+   "comments": [],
+   "age_days": 1743,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Zac AP vs Health shard",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/rhvdt8/zac_ap_vs_health_shard/",
+   "published": "2021-12-16",
+   "author": "/u/VikingSurferBoy",
+   "body": "https://docs.google.com/spreadsheets/d/13ZPAZxguxN0aEkktPGmI7dHfxjbJ-qIYVBOwIk5P1dM/edit?usp=sharing Here is a spreadsheet that gives the differences between going ap and health shard with armor. Or you could just go both and be a giga chad into non-lethality matchups. This might honestly be the best course of action because hp outscales armor rune at level 5.",
+   "id": "rhvdt8",
+   "comments": [],
+   "age_days": 1758,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "zac support",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/qswe2a/zac_support/",
+   "published": "2021-11-13",
+   "author": "/u/DSDLDK",
+   "body": "What matchups do you feel like zac support struggles against ?\n ive had a huge succes with picking him this season, but dunno what he really struggles against",
+   "id": "qswe2a",
+   "comments": [],
+   "age_days": 1791,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Zac Top build",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/qpzx7i/zac_top_build/",
+   "published": "2021-11-09",
+   "author": "/u/wizzv",
+   "body": "can anyone explain me which runes should i use on different matchups?",
+   "id": "qpzx7i",
+   "comments": [],
+   "age_days": 1795,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Kindred matchup",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/oxh6x0/kindred_matchup/",
+   "published": "2021-08-04",
+   "author": "/u/NutterButterBustNuts",
+   "body": "Hello fellow blobs, I'm looking for advice on how to handle good kindreds. She is the main champion I struggle against in the jungle, thankfully she's not so popular but when I find a good one they give me a rough time. I try to path opposite if possible but I find my self getting invaded by better kindreds. Just feels like if they get ahead it's really hard to turn around compared to other meta junglers.\n Any advice is greatly appreciated, thanks.",
+   "id": "oxh6x0",
+   "comments": [],
+   "age_days": 1892,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Struggling with Kha Zix MU",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/optma5/struggling_with_kha_zix_mu/",
+   "published": "2021-07-23",
+   "author": "/u/llegobego",
+   "body": "Hey guys, I'm pretty confident with Zac for most matchups but I really struggle with kha zix. Most of them that I play into go for lvl 3 invade to take my second buff, and I feel like I'm really limited by Zacs slower clear time. Should I be going for counter jungling, or whats the strategy? Cheers",
+   "id": "optma5",
+   "comments": [],
+   "age_days": 1904,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Sunfire or frostfire?",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/nucz71/sunfire_or_frostfire/",
+   "published": "2021-06-07",
+   "author": "/u/Darto_kun",
+   "body": "Hello Zac mains! I've been playig Zac jng for a while now and i've Always built sunfire as mythic but lately i've seen some builds with frost Fire gauntlet. I was wondering if One was Just Better then the other or if It Is matchup dependant, if so in wich cases should i buy One or another?",
+   "id": "nucz71",
+   "comments": [],
+   "age_days": 1950,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "New warmog passive could be very strong on zac top letting him survive counter matchups and poke for free.",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/nrcwht/new_warmog_passive_could_be_very_strong_on_zac/",
+   "published": "2021-06-03",
+   "author": "/u/mlady_swagalot",
+   "body": "",
+   "id": "nrcwht",
+   "comments": [],
+   "age_days": 1954,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is ap bruiser Zac too good?",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/nltsud/is_ap_bruiser_zac_too_good/",
+   "published": "2021-05-26",
+   "author": "/u/Poverty045",
+   "body": "Edit title: is ap Zac top good*\n Is zac top good and how do I play it?\n Was thinking of build conquer with riftmaler demonic into cosmic with Ionian boots?\n How do I play early game and also who do I ban who are bad matchups?",
+   "id": "nltsud",
+   "comments": [],
+   "age_days": 1962,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How to play Zac mid?",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/ncyf7p/how_to_play_zac_mid/",
+   "published": "2021-05-15",
+   "author": "/u/Rammion",
+   "body": "Recently I was playing midlane and decided to check the worst matchups for the most popular champions in that lane.\n For some reason, Zac mid has great winrates against kat, yasuo and even zed! \n Someone could explain how to ruin the day of these guys using zac mid?",
+   "id": "ncyf7p",
+   "comments": [],
+   "age_days": 1973,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Zac carries botlane",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/mwrwio/zac_carries_botlane/",
+   "published": "2021-04-23",
+   "author": "/u/-TribuneAquila",
+   "body": "Zac support is amazing, I'm a one trick Zac guy with M7 and 130k on him, I play with friends and recently found that Zac works super well as support. \n We did Zac and Gangplank and Zac and Jayce we only lost one matchup in like 20 games and it wasn't that bad either. Basically woth a ranged adc Zac carries as supp and the bot lane is won as early as min 15. The rest of the game is pretty much a snowball. \n One time we carried a game with our jungler going afk about 20mins in the game, an inting Garen toplaner feeding a Chi Gath and a Yone bullied by a Neeko, the enemy team was good, but my Zac and my friend Jayce on his fourth game with him, managed to demolish the enemy team. Mind you they had three fed people, Cho Gath, Neeko and Diana no less.",
+   "id": "mwrwio",
+   "comments": [],
+   "age_days": 1995,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Zac’s weaknesses",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/lfdnmh/zacs_weaknesses/",
+   "published": "2021-02-08",
+   "author": "/u/12345factorial",
+   "body": "I recently started playing zac, and I’ve been watching the Korean challenger zac mid/top otp. What are some of zac’s glaring weaknesses? From what I’ve seen, he seems pretty strong, with good cc and ability to tank. I did get stomped in lane by a gp, so maybe ranged matchups are bad for zac?",
+   "id": "lfdnmh",
+   "comments": [],
+   "age_days": 2069,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Zac support is strong and fun.",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/kprq0u/zac_support_is_strong_and_fun/",
+   "published": "2021-01-03",
+   "author": "/u/finn0",
+   "body": "I got frustrated with how weak Zac is feeling in the jungle in preseason and switched to support cause I really think Imperial Mandate is super broken on him. Without knowing anything about matchups and stuff I managed to go 15-1 and just got promoted to diamond. Paired with Jhin or Kaisa you can just kill the enemy botlane over and over again or easily roam and win other lanes. You also provide a great gank setup for when your jungler comes for a gank. You can protect your carries or engage mid/lategame teamfights and the best of all you dont need to clear jungle camps(plz buff his jungle clearspeed riot games).\n I just rush Imperial Mandate(take future market to quicken the process) asap and go hourglass after. You might wanna ban Thresh since he can deny Zac pretty hard. Also support ist super relaxing to play compared to jungle(no angry laners flaming you).\n Anyone else playing him support?\n ​\n My opgg:\n https://euw.op.gg/summoner/userName=Buff+Zac\n https://preview.redd.it/adcuf4bdb6961.png?width=1016&format=png&auto=webp&s=a5a764bbd68bfe64a0f9fa762e36b7e9d38f3314",
+   "id": "kprq0u",
+   "comments": [],
+   "age_days": 2105,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How do you path against a Shyvana?",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/g6tbt6/how_do_you_path_against_a_shyvana/",
+   "published": "2020-04-23",
+   "author": "/u/spansnaeb",
+   "body": "(I'm still very low elo so please bear with me if I sound a bit dumb). I'm still a bit new to zac, so I'm not very familiar with some matchups. Thing is, for some reason I just can't path when playing against a Shyvana. Her clear is so fast and I cant keep up with her. whenever I try to trade camps with her, her camps are usually gone because she just took them. I understand that zac can't fight early, so if I ever meet her in my jungle I usually back off if i cant try to steal it with smite. I just have zero idea how to path against her, other than ward the entrances to my jungle and hope that maybe I can trade some camps back without getting caught. Should I be ganking more, and pushing out waves after them? Or, should I just keep trying to farm up so I can scale? I have a habit of forgetting to ward, so that may be a problem, but is there any other ways I can counterjungle her with her insane clear?",
+   "id": "g6tbt6",
+   "comments": [],
+   "age_days": 2360,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Toplane zac",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/f9hvo3/toplane_zac/",
+   "published": "2020-02-25",
+   "author": "/u/Sonick1992",
+   "body": "Hey Guys i thought about playing some Zac top but i need some Infos. 1. Which matchups are bad and which are good and which are playable 2. Items 3. Grasp vs Aftershock vs Conqueror 4. Would it be worth to get 40 cdr with items and sorcery Second\n Ty 😉",
+   "id": "f9hvo3",
+   "comments": [],
+   "age_days": 2418,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Zac Top Lane Rune Options",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/eofqsb/zac_top_lane_rune_options/",
+   "published": "2020-01-14",
+   "author": "/u/EBIC-GAMER--",
+   "body": "So I've seen that some people here want to try out Zac Top, but don't really know how to play him or what rune choices to go on him. For some basic rune choices, here's some pages that I'd run.\n A very aggressive rune page, this rune page is for extended fights or very tanky champions such as Sion. Cheap shot is also very good for trading, as the cooldown is only 4 seconds while your Q is below 10 seconds. Usually max W on this.\n ​\n An aggressive, but slightly safer rune page. This can be used in bruiser match ups where you want to be taking trades slowly, chunking them down and healing back up each time, like facing against Riven. Bone plating can be switched out for a rune of your choice such as second wind or demolish. Usually max W on this.\n ​\n A new rune page that I've been trying out, and it seems to work in almost every matchup. A good mix between safe and aggressive style. You can choose to max E or W with this, although I prefer to max E. This is my standard/main rune page against any ranged champion, or any hard counters such as Fiora or Darius. Roaming is really nice with this build since a lot of times, Zac has to stay under tower and let the enemy push, so it's better to use aftershock and help gank to keep your team ahead. I usually prefer to build lots of cdr (kindlegem, and ionian boots IF AHEAD for damage) with this build. Demolish and Second Wind can be replaced with Font of Life/Bone Plating/Conditioning.\n ​\n The safest rune choice to take if you just want to survive into the late game, or if the enemy team has lots of cc and damage. With this build, you usually want to max E and roam a lot, and it may be beneficial to rush boots in order to help your roams while getting back to lane fast.\n Honorable Mention: Grasp of the Undying seems to be a decent substitution for Aftershock, but I can't really seem to find a matchup where Grasp is better (Maybe against Ornn, Zac's greatest counter?).\n Also, if you guys want some more tips/build choices, feel free to dm me or just post it down below and I could reply to them or edit the post. Suggestions to this/Zac Top/Zac in general are also welcome. \n At the time of this post, I'm in NA D4 49 LP, 70% win rate in 30 games on Zac TOP.\n https://na.op.gg/summoner/userName=EBIC+GAMER\n Also according to league of graphs, #1 NA Zac.",
+   "id": "eofqsb",
+   "comments": [],
+   "age_days": 2460,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Sharing a lane Zac build :)",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/en2f58/sharing_a_lane_zac_build/",
+   "published": "2020-01-11",
+   "author": "/u/DefinitelyNotZac",
+   "body": "Hey fellow Gelatin mains! I've been spamming Zac top since season 5, and i will share my rune page and item build. Let me know what you think.\n PS: This is an AP burst Zac build. If you want a tanky Zac build, i suggest running conqueror.\n https://preview.redd.it/5l960unho2a41.png?width=623&format=png&auto=webp&s=f7b65f953d70aee12450af9a3308787bc1395195\n ​\n Why electrocute? It's mostly for laning phase only. It's so easy to proc electorcute with Zac skills. Also, Zac have high base damage for his skills, so running eletrocute is so useful, especially for melee matchups. My reason for not getting conqueror is that you won't need that much sustain later on. With this build, you'll be able to get the sustainability from the item build, which is:\n https://preview.redd.it/ev0bvojdo2a41.png?width=487&format=png&auto=webp&s=be427698eda2dfb7f8d8ed87c15f2f59ecf56cb9\n With this item build, you will deal massive aoe damage, while being tanky at the same time. For laning phase, rush Ionian boosts asap, as this will help you out in laning, especially if you're running ignite. From there, go sunfire and visage. This will help you out when it comes to dps, and sustain at the same time. Also, this will guarantee that you will have balanced MR and Armor early on.\n If you're wondering why I included Zhonya's to the build, well, it's mostly self preference, so you're open to replace it with something that you will feel you're much more better with.\n But for Liandry's, this is definitely a must build. Since you'll be staying in teamfights for long durations, you can definitely abuse Liandry's passive. Together with Rylai's, you can prevent anyone from leaving the teamfight.\n ​\n Skill Build\n For skill build, i suggest going E>W>Q. Zac top running conquerors usually max out W first. But for this build, you will be needing your E a lot. Considering that you'll be a little bit more squishy compared to conquerors, maxing out E will definitely help you out.\n ​\n End\n Please let me know what you think. My build is open for adjustments, and tips from fellow Gelatin mains will be much appreciated! :)",
+   "id": "en2f58",
+   "comments": [],
+   "age_days": 2463,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "LETS BOUNCE",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/eh6zan/lets_bounce/",
+   "published": "2019-12-29",
+   "author": "/u/Swagtubby81",
+   "body": "So I'm having a lot of fun learning zac but I'm in kind of a split. I started by maxing W and then I saw maxing E is what most people do but it feels a little less fun. I put 3 points into E and then maxed W and that felt a bit better but slower. Any recommendations for which I should do? Like against a certain matchup or team comp?",
+   "id": "eh6zan",
+   "comments": [],
+   "age_days": 2476,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "So I decided to give on zac jungle due to the scuttle crab meta, but have been playing him top",
+   "url": "https://www.reddit.com/r/thesecretweapon/comments/8n3p33/so_i_decided_to_give_on_zac_jungle_due_to_the/",
+   "published": "2018-05-29",
+   "author": "/u/Zacsual",
+   "body": "Hey folks!\n I have been playing zac top a lot lately as I suck at the game and my most played champ remains zac. I am too stubborn to give up on him eventhough I do not agree on the kit he currently has. Nevertheless I have been working my way around this patch and eventhough I am just gold 1 (used to be just plat 3). I have tried multiple things on zac to be viable or to find out a way to be useful for the team! I hope as my climb continues that this will still work when the opponents become more challenging to play against! I hope this might get you some fun in-game, because it surely did for me and most of the matchups are since you can farm well under turret with passive up and play around the abilities you have. So lets get into it:\n So for me it is somehow enjoyable to play Zac top as I do feel confident on the champ and therefore most of the matchups.\n Farming can be hard and therefore it is important to know what your dmg is in the early game. Most of the time start with my W then level up Q and last E And then max W first then E, ult and then your q at last. If the matchup is not in your favor and you rather do not get close it is mayeb an idea to start q so you can still pick up cs and whenever the opponent gets to close stun him by make him kiss with the minion!\n \n \n Here is a list for hard matchups or matchups that I do not favor (I know it is a lot): Darius\n Gangplank\n Irelia (nowadays I just ban her and if she is banned already ban Mundo)\n Mundo (he just outsustains you and his q dmg is too much for you)\n Riven\n Fiora\n Renekton in some way\n Illaoi Eventhough these matchups are hard (especially Darius) there is still a way you can play around it. If I see a Darius locked in, I still lock in Zac, because I know that the matchup may suck, however a darius will have a hard time to snowball when you are able to farm under your turret and play around the blobs and the passive you have to survive early game. Now don't think you will be able to outfarm your opponent, but when your lane gets pushed in your opponent will have a hard time to actually kill you. Furthermore, if you have a decent jungler he comes top and you have a well set up lane to gank, you can even bait or start the engage and pick up a kill as he/she has pushed in that far he cannot escape with a well landed combo. If you rather do not want to get ganked and just prevent the snowballing of a champ like that, you are still doing a major job (of course you need to hope your team as a whole performs well).\n \n \n Here is a list of champs that super nice to play against: Tank champs, even a sion cannot do much including the Banner of Command he is probably going to build.\n \n So what do I build? This is very situational and I immediately start building according the teamcomp they have. This is, because I feel like i take Zac to support my team with the setup for a teamfight and you need to be able to engage or survivability needs to be there when mid game starts: Most of the time I just start Bami Cinder (do not finsih the item), this just to help you farm and will help you proc the runes you are going to use in the lane (more on that later).\n If the enemy top laner is ap, like a teemo, there are several things you could do, when you back for the first time get lens (ALWAYS GET LENS!!!! You want to clear wards so that they cannot see your engages), lens will help you spot a Teemo that went to play Hide and seek or jacks off in a bush or maybe even to clear the shrooms in the lane and get you that extra gold you could use ;). Furthermore you might consider rushing Adaptive helm and if you see the teemo building ad, because he sees you building mr, simply buy ninja tabis as the dmg will come mainly from his AA's. You can get also spirit visage to goes well together with your passive!\n If you are ahead and play against tank champs, you could buy Liandries as this will give you some extra dmg and make it even more easy to lane against your opponent.\n If you play against a rough matchup just don't even think about buying dmg, just adapt to the teamcomp they have! You see in the picture the last game I have played that the team was full ad so I was able to stack armor and sit out the hard lane I had. I died 1 time in lane which was after around 17 min mark. At this point I had stacked some armor able to particiapte in the midagem and lategame tf's. If the enemy is REEEEEEEEEEEEEally bad, you might want to build dmg, but I do not recommend you to do so.\n So most of the time when you have rushed boots, bami cinder and another defensive health item I decide to go for warmogs as you will have enough health to use its passive, this will be of very good use because when you start the engages and the tf's you will be the main focus. This is what you want, because the true dmg carries can do their work. The enemy has to swap their focus knowing I am just the bait and setting up good fights where you preferably want to get the carries. after engaging you should have used the combo (if it was good) if not try to dissengage and seek for another opening. Since you have the warmogs you can regain health pretty easy and as you have build according to the enemy comp you should be able to survive your own engage.\n Now it becomes interesting, because here I make the decision if I should build dmg yes or no. Thsi all has to do with either being ahead yourself seeing your teammates fail to do the dmg when they need to. If the answer is yes I am super ahead and already unkillable, you mighht consider building dmg or if the yes my team fails to do dmg, you might consider building dmg as well in order to help out bursting the enemies a bit easier.\n If this is not needed continue to build according to the enemy comp and continue to peel.\n \n Now lets take at a runes I have used (See picture added): Trust me when i say i have used every tree possible. From domination with sorcery to precision with inspiration. However, how can someone really use Zac to his full potential? Probuilds tells you to use Resolve tree first and Precision tree as secondary. I have been using this for months as it gets you used to a certain playstyle. Nevertheless, ifelt that I had to adapt to the current meta as it is not optimal and came up with the following runes: Resolve tree first - Grasp of the undying, Bone Plating, Second wind and Revitalize\n Sorcery Tree second - Celerity, Gathering storm\n \n The reason for these runes have been in combination with the recent ap buffs he got on his q e and r adn found out it actually helps you to trade from time to time against your opponent by dealing dmg and sustain from both blobs and Grasp of the undying.\n \n In the beginning, it might be challenging to play zac top. I do not say this is any good, but it has been working for me so far in this hella frustrating meta. I just wanted to cheer those people up with something I came up with in these rough times =)!.\n Because in the end, it is not about how much you could lift your elo, but stay fancy with the best champ on the rift by looking good! :P\n GO BIG OR GO HOME (Zac, 2013)\n If you have any questions please feel free to contact me either on league (if you are EUW) by simply sending a friend request to Kinta or send me a message in this thread to have your opinions spoken about this creation! Would love to hear from you guys!\n *Waves with his noodle arms* Kinta\n Runes I use with Zac top\n My latest Zac top stats",
+   "id": "8n3p33",
+   "comments": [],
+   "age_days": 3055,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  }
+ ]
+}

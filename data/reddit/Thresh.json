@@ -1,0 +1,870 @@
+{
+ "champion": "Thresh",
+ "subreddit": "threshmains",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "How should I play Thresh when behind?",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/1wu2mib/how_should_i_play_thresh_when_behind/",
+   "published": "2026-09-30",
+   "author": "/u/Gati262",
+   "body": "I'm a low elo support and I love Thresh, I just enjoy being as aggresive as posible while trying my best not to die. My issue is that I don't really know what to do when the enemy is simply stronger than me (wether it's a bad matchup or I just misplayed and they're ahead). Should I still try to pressure them even though I'm weaker? Do I play back and not do anything unless they also misplay? It'd be incredibly helpful to have a general gameplan for when I'm losing laning phase so I'd appreciate any advice you could give.",
+   "id": "1wu2mib",
+   "comments": [],
+   "age_days": 9,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "a brief guide to top lane Thresh",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/1wj9vrj/a_brief_guide_to_top_lane_thresh/",
+   "published": "2026-09-17",
+   "author": "/u/Tannir48",
+   "body": "i'm a diamond thresh onetrick on NA and i have a 57% (now 58%) win rate on toplane Thresh. peak rank was d1, current rank is around d3. my profile is here: https://www.leagueofgraphs.com/summoner/champions/thresh/na/Prafretud-NA1/top/soloqueue\n one game (loss) was a 8 min leaver so doesn't count. so more like 57-42\n I've played hundreds of games of toplane Thresh since season 8 or 9 and have about 7 million points on the character.\n Items\n I like to build him full tank, previously I built Thornmail as it did strong damage on Thresh but since riot has turned that item into tissue paper I never buy it - or bramble - anymore. my items will typically consist of one of the sunfires depending on the lane (AP or AD), kaenic, jaksho, and the last two items are more variable. I'll usually buy tabis with mercs only into full AP teams. I do not personally like titanic hydra or any of the bruiser items at all, it feels very weird and uncomfortable on Thresh. due to his slow auto windup he cannot stutter step and the 'big hit' damage falls off very hard later on anyway. You also lose significant amount of tankiness as a result\n The sunfires are pretty crucial for waveclear and also effective for doing the funny tower bait thing where you can kill the wave/E enemy towards tower, q them, sometimes ult and get a free kill. It's effective at every elo I've played at & in most matchups\n Jaksho is good because Thresh souls count as bonus armor so every 100 souls this item gives you an extra 30 armor on top of the 30% bonus to any armor/MR you've already bought. in a fight you can get 400-500 MR through the benefit of this item alone which adds a lot of survivability in most situations. That allows you to put up numbers like this\n https://preview.redd.it/x1ugoyu9w5qh1.png?width=813&format=png&auto=webp&s=74f4ef49e9bcd8a5d78438302145fd634f30599d\n about 170,000 self mitigated damage this game\n You don't need much cdr since Thresh's lockdown from a single ability is already strong and high durability means you can get more ability casts off anyway. I'll always buy a sunfire item first then jaksho 2nd or 3rd (never good first), and everything else variable depending on the game\n I also start dorans shield most of the time for the sustain but into lanes where it's 100% engage and minimal poke damage I'll go doran's helm\n Matchups\n Most lanes are pretty playable, some of the easier ones are Nasus, Malphite, and Garen. The hardest lanes are stuff like Irelia, Fiora, Gangplank and Dr Mundo. My permaban is Mundo because the dude basically plays like a ranged character, is unkillable after 10 minutes, and shreds your healthbar no matter what you build. He also can't be crowd controlled. Gangplank is pretty bad because of the crazy tank shred in his kit, randuin's helps a lot and KV or locket helps a bit in dealing with how much AOE he's going to do later. Fiora is doomed after 15 minutes but if you don't feed her the game is still winnable even if you can't fight her anymore\n Nasus can be locked down fairly effectively with your ult (just use it when he ults), Malphite can't fight you after you have MR, and just space Garen with flay - tho his ult is really annoying.\n In general you'll want to play around your range advantage and play very aggressively near your tower since Thresh is crazy strong there. This is also a good way to avoid getting dunked on by junglers since it's very hard to towerdive you (most characters) but Thresh is pretty gankable outside tower - E and R are your only escapes and aren't that reliable.\n Game\n The rest of the game plays somewhat similar to regular Thresh except about 3x tankier and so a lot more frontlining with the added utility of being able to save people with your lantern. You'll want to play with your team as much as you can since that can be the differencemaker in a lot of fights. Thresh isn't a splitpusher and you can't fight most of them 1v1 outside the tower anyway. The damage is nothing special but if you collect your souls - which is highly important here, you can get around 100 by 20 minutes and even 150 by 30. The maximum I've ever achieved was 220ish in a 40+ min game.\n game yesterday where I got 163 at 34 min\n This does translate to significant auto (and ability) damage which is why the runes I take include a lot of attack speed.\n RUNES\n These are the runes I take every game, all matchups. I like Triumph for the extra gold (few hundred minimum every game) and the heal which is sometimes life saving in a close fight\n https://preview.redd.it/vfu49sohy5qh1.png?width=550&format=png&auto=webp&s=45dd9da40c79ee9bfc106a40cba442cc0f8ebecc\n Grasp is never worth it imo especially since it was nerfed for ranged characters. You have to proc it 50 times to get 100 hp (2 per proc) which is xd while losing the substantial durability aftershock provides in many fights. Also grasp can bait you into bad trades or even getting ganked while going for the proc it just does not feel worth it - and I've tried it a lot\n ABILITIES\n This is very standard, I'll max E then Q, and then W. I've tried W max second and it isn't very good. You lose a lot of cc and kill threat with your Q and it just feels clunky and awkward. Also W shield has poor value until about 30 minutes so it doesn't make sense to max it earlier\n Also more generally I never ask my jungler to play around me unless I'm playing against something annoying which should be punished like Vayne. I also use my abilities selectively (clearing wave to meet push timer) and autoattack otherwise, this prevents any mana issues for the most part. Overall the pick takes practice to play but is viable and works fine in most games I've played ^_^",
+   "id": "1wj9vrj",
+   "comments": [],
+   "age_days": 22,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Back to League after 10 years and Thresh feels like home <3",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/1w249hk/back_to_league_after_10_years_and_thresh_feels/",
+   "published": "2026-08-30",
+   "author": "/u/xXDargor91Xx",
+   "body": "I started playing League around 2009 and immediately mained Support, mostly Leona at that time. When Thresh released in 2013 I tried him the first day and it was love at first sight. From that day I played only Thresh (screw matchups, if he wasn't banned I picked Thresh) until summer 2016 when I quit playing due to life stuff. I got to Diamond 3 or 4 at that time.\n A couple of weeks ago I got the LoL itch back again and downloaded the game. It was daunting at first, it was almost like playing a completely new game from scratch: new map, new objectives, new/reworked items, role quests, dozens of new champions released and many of the old ones reworked, etc. But then I picked our favorite boy: unchanged, his kit still as perfect as I remembered.\n I was put in Bronze at first and I'm now in Gold 1 with a 75% winrate. Unlike 10 years ago I can play few games per day due to adult life, but man I would have never thought I would have so much fun with League again (especially because its reputation of being a toxic game got only worse from what I heard), I especially like that games are quite faster now (I was used to an average of 45 minutes per game).\n When Thresh is banned/picked by enemy team I'm really enjoying Rell, she gives me Leona vibes but with a bit more versatility.",
+   "id": "1w249hk",
+   "comments": [],
+   "age_days": 40,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "where to learn",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/1tq9srl/where_to_learn/",
+   "published": "2026-05-28",
+   "author": "/u/Eeveegirl69",
+   "body": "I have been on and off trying to learn thresh for a long time and I was wondering if anyone could shower me with tips in the comments. build advice, lane matchups, runes, playstyle, synergy, etc is all welcome I really want to improve on him 🙏🙏",
+   "id": "1tq9srl",
+   "comments": [],
+   "age_days": 134,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Dia mid laner new to support wanting to main thresh.",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/1tek3hy/dia_mid_laner_new_to_support_wanting_to_main/",
+   "published": "2026-05-16",
+   "author": "/u/Kazmera",
+   "body": "Hello thresh mains, I am new to support and looking for your juciest thresh tips/tricks. I have really been enjoying thresh playstyle and hoping to be \"that\" Thresh that carries games with plays. Are there any matchups that are just absolutely unplayable for you? Who do you normally ban?",
+   "id": "1tek3hy",
+   "comments": [],
+   "age_days": 146,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Help with Taric Matchup",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/1qzet99/help_with_taric_matchup/",
+   "published": "2026-02-08",
+   "author": "/u/Avasiaxx",
+   "body": "Hey there,\n 200k thresh here. Never quite played him competitively and mostly for fun in ARAM and such.\n I'm finding I quite enjoy him in my line up for my ranked climb. Issue is - I've hit plat and I'm running into emerald players who clearly have more knowledge than I do. \n My duo plays MF and quite enjoys my thresh. Issue is - I'm not quite sure how to approach the taric matchup in particular. I'm aware he has advantages in this match up, but when? Is there a window prior to a power spike that he gets? I know waiting for his E is a clear indicator.. but in the scenario I ran into a 2mill taric that just waited and held everything until I did something. Is there a moment I should be doing something?",
+   "id": "1qzet99",
+   "comments": [],
+   "age_days": 243,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Questions for Thresh mains – need some insights!",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/1oobosv/questions_for_thresh_mains_need_some_insights/",
+   "published": "2025-11-04",
+   "author": "/u/blunkelsito",
+   "body": "Hey everyone! I’m doing some research on different champions and wanted to get some input from experienced thresh mains or OTPs. I’d really appreciate it if you could help me out with any of the following questions (depending on what you know):\n Botlane synergies: Which ADCs work best with thresh, and which ones feel the worst to play with?\n Good comps / matchups: What kind of team compositions or enemy champions (from other roles) does Thresh perform well against?\n Bad comps / matchups: On the flip side, what kind of team comps or champions make Thresh struggle the most?",
+   "id": "1oobosv",
+   "comments": [],
+   "age_days": 339,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What do you do against mages",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/1o6yemz/what_do_you_do_against_mages/",
+   "published": "2025-10-15",
+   "author": "/u/TheAgamer22",
+   "body": "Hello, I'm trying my luck with thresh and have been struggling a bit into poke makes... men just had a bad game against Lux and Samira, so maybe a small rant. \n But like what do you guys do in those matchups. I usually go glacial into enchanters and aftershock into engage. But like my deafault into makes has just been glacial, but when I take that o get browned up. I've also tried taking aftershock but I feal like the distance they create kinda makes cc hard and then I get poked down without using the aftershock.\n So I need some advice on mage support. \n Note: if it has any relevance, this in low emerald",
+   "id": "1o6yemz",
+   "comments": [],
+   "age_days": 359,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "35 MINUTES OF YAPPING ABOUT THRESH MATCHUPS",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/1in4umc/35_minutes_of_yapping_about_thresh_matchups/",
+   "published": "2025-02-11",
+   "author": "/u/AxL2508",
+   "body": "",
+   "id": "1in4umc",
+   "comments": [],
+   "age_days": 605,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Shotgun Thresh was never dead",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/1gnpoi5/shotgun_thresh_was_never_dead/",
+   "published": "2024-11-10",
+   "author": "/u/The_Great_Rabbit",
+   "body": "https://preview.redd.it/g8cvmyy41zzd1.png?width=1027&format=png&auto=webp&s=67492f737e9c7c0d4b01600142567730b50c398a\n From the moment I understood the weakness of Support, it disgusted me\n I craved the strength and adrenaline of the carries.\n I aspired to the purity of the Old Shotgun\n Your kind clings to your ADC's as if they will not troll and fail you.\n One day your durability will fall behind damage creep and you will beg for me to save you\n But I am already saved,\n For the shotgun is immortal...\n May 15th, the deletion of stormrazor and reducing the amount of crit items. I thought that it was the end, that shotgun thresh was no more and yet, I couldn't give up\n I couldn't just abandon him\n So I tried\n And tried\n And now, after months of testing I can proudly come here and say \"I did it\"\n I present you all\n The new and reborn\n Shotgun Thresh\n At first the build might seem like a fever dream, but I ASSURE you it is perfectly calculated. Firstly you pick Runes, these are the ones I chose\n https://preview.redd.it/229hukys2zzd1.png?width=624&format=png&auto=webp&s=284162dc84e60c6808c709156d32f28f530c436c\n You can choose basically any of the domination keystones, however I recommend HoB as it helps you land that one last hit you might need. Additionally if you do not suck like I do and actually don't spam abilities during laning, you can swap out PoM for something else, however do know that you are going to need that mana.\n Next, Items.\n You start with the shield as it helps you trade better. Poke with a charged aa and heal if the enemy retaliated.\n Next you go either for Lich's Bane or Sundered Sky depending if you need more damage or more healing. I advise the latter for better trades, however both have their better and worse matchups. After that you build the one you didn't.\n Lich's Bane is a big damage increase, especially that you will often engage with your abilities anyway. You can even Q->aa->E->aa->W->aa if you are feeling quirky.\n Sundered Sky is basically THE item in this build. The healing and stats are nice, but the most important thing is the guaranteed crit. You will understand why in a second.\n As for your boots, probably some resists, depending on the enemy team. You cannot kill anyone if you die, no?\n Your 3rd item will always be Infinity Edge. The shit load of AD is very valuable on you for both attacks and your E passive. Then there's the crit dmg. Normally you need a lot of crit chance for that to work, but remember, you have one guaranteed crit against new targets so it will ALWAYS increase the damage of your first aa by a lot.\n But it gets better\n Shadowflame gives you AP for your abilities, magic pen for both them and your E passive AND it makes ap dmg crit and we love crits here, don't we? Shadowflame not only allows your E passive bonk to crit, but also makes it penetrate defenses AND benefits from IE's crit damage increase.\n For the last one, I would either go for Rapid Firecannon or Void Staff, depending on if you need range or damage to tanks more.\n And that concludes my theorycrafting, I hope that I convinced you that Shotgun Thresh is, in fact, alive and kicking and advise you all brave souls to first-try him in ranked. \n https://preview.redd.it/i0glri2l8zzd1.png?width=734&format=png&auto=webp&s=1f19584fd4086db5428364ec889d0a2947dc0261",
+   "id": "1gnpoi5",
+   "comments": [],
+   "age_days": 698,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Going from jungle to Thresh sup",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/1g7kz44/going_from_jungle_to_thresh_sup/",
+   "published": "2024-10-19",
+   "author": "/u/JohnnyYourJungler",
+   "body": "So here is the deal; i have been a jungle main ever since i can remember, and i therefor i am not the best laner. I understand the basics like warding, peeling and such.\n But if you have any tips regarding THESE issues im facing, that would be SUPER appreciated.\n -Dealing with AP poke bot\n -Good and bat matchups\n -How should i teamfight properly\n -How to land hooks if enemy constantly stays behind minions",
+   "id": "1g7kz44",
+   "comments": [],
+   "age_days": 720,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I've been playing Bruiser Thresh for a few games.",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/1ez6lgk/ive_been_playing_bruiser_thresh_for_a_few_games/",
+   "published": "2024-08-23",
+   "author": "/u/Snickersnook",
+   "body": "Just want a general consensus\n First item is most situational and it's either Black Cleaver or Jak Sho, depends on the matchup really. Second item, Titanic Hydra and from there I either transition into full ad or tank. Any thoughts?",
+   "id": "1ez6lgk",
+   "comments": [],
+   "age_days": 777,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Warmogs on Thresh",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/1dpbwxz/warmogs_on_thresh/",
+   "published": "2024-06-26",
+   "author": "/u/Surressshu27_404Hook",
+   "body": "Is anyone enjoying Thresh Warmogs? And if so do you built it everygame or does it depend on the matchup / Enemy Team? Maybe jusst built it if u have a good start because its expensive? \n I kinda feel strong this game but weak next game. Cant really figure it out",
+   "id": "1dpbwxz",
+   "comments": [],
+   "age_days": 835,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Use of Flay in lane",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/1czdbjw/use_of_flay_in_lane/",
+   "published": "2024-05-24",
+   "author": "/u/L1ghtyagami123",
+   "body": "When do you walk up and flay in lane? How do you know it’s a good time? \n Also, when you’re walking up to flay, won’t you take a whole bunch of AA/poke damage? \n In lane, how often do you Flay + AA vs just moving in and out of brush to zone? What factors to you consider? \n In most matchups, should Thresh actually be using Flay + AA a lot or do you mostly wait to launch mind game hooks?",
+   "id": "1czdbjw",
+   "comments": [],
+   "age_days": 868,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Toplane Thresh Matchup Tierlist",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/1bblrvt/toplane_thresh_matchup_tierlist/",
+   "published": "2024-03-10",
+   "author": "/u/Tannir48",
+   "body": "",
+   "id": "1bblrvt",
+   "comments": [],
+   "age_days": 943,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Are passive stacks important ?",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/18lskn7/are_passive_stacks_important/",
+   "published": "2023-12-19",
+   "author": "/u/DrBeanSoup",
+   "body": "Hi, I'm new to thresh, gold elo, really like catcher support gameplay, yet sometimes i struggle with getting stacks on thresh passive during laning phase due to high poke dmg in some matchups. Is it really that important, and if so, what is a good amount of stacks to have around 15 minutes ?",
+   "id": "18lskn7",
+   "comments": [],
+   "age_days": 1025,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "E max",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/17nvmpv/e_max/",
+   "published": "2023-11-04",
+   "author": "/u/latikaah",
+   "body": "Im kinda new to thresh and i know you max q most games, simple question: Do you ever max E in certain matchups?",
+   "id": "17nvmpv",
+   "comments": [],
+   "age_days": 1070,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What are bad matchups for Thresh?",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/13rbedk/what_are_bad_matchups_for_thresh/",
+   "published": "2023-05-25",
+   "author": "/u/YallCrazyMan",
+   "body": "What are some bad matchups/permabans for thresh and how to I fight them?\n Personally I hate fighting a good pyke or lux. Pyke feels to mobile for my cc and I just can’t properly peel him during fights when there are other carries diving. Lux is just a stupid broken champ.\n Again, I hate when GOOD players pick these champs cause they feel impossible to play against. Other times they are easy. \n Please share any tips for fighting these guys and any warnings about any other champ that I should be wary about.\n Link to op.gg\n https://www.op.gg/summoners/na/TheBravestClown\n Link to mobalytics if you prefer\n https://app.mobalytics.gg/lol/profile/na/thebravestclown/overview",
+   "id": "13rbedk",
+   "comments": [],
+   "age_days": 1233,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What are Tresh's worst matchups and how do you play/itemize against them?",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/13dhqu9/what_are_treshs_worst_matchups_and_how_do_you/",
+   "published": "2023-05-10",
+   "author": "/u/PristleSky",
+   "body": "",
+   "id": "13dhqu9",
+   "comments": [],
+   "age_days": 1248,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Tips for playing against Zyra?",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/12iwqhd/tips_for_playing_against_zyra/",
+   "published": "2023-04-11",
+   "author": "/u/PristleSky",
+   "body": "The matchups feels pretty doomed for me if she knows what she is doing. Can't hook bc she just places plants when I channel q, can't roam without losing platings, can't engage without risk of dying. I know that it's a bad matchup but I guess there is still stuff you can do - what is it?\n Also, is it better to destroy the plants and take damage or should you just walk out of their range?",
+   "id": "12iwqhd",
+   "comments": [],
+   "age_days": 1277,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Attack Speed, AP, or Ability Haste for top row Rune Shard?",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/127cvz1/attack_speed_ap_or_ability_haste_for_top_row_rune/",
+   "published": "2023-03-31",
+   "author": "/u/LucklessOtter",
+   "body": "I always go Ability Haste, AP, and Armor (unless there's a poke matchup, double AD matchup, or APC). I've seen pros go attack speed or even double AP. What are your thoughts on the different choices to go? Is the attack speed and additional AP worth it?",
+   "id": "127cvz1",
+   "comments": [],
+   "age_days": 1288,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How to play the Rakan matchup",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/11xc6jh/how_to_play_the_rakan_matchup/",
+   "published": "2023-03-21",
+   "author": "/u/Kylovic",
+   "body": "Cheers like minded individuals, sitting at over 150 Thresh games this season, I've made my way through quite a few matchups. However, I can't really seem to get a grasp on the Rakan matchup at all. Stat websites list the matchup as 51% winrate, so I should be fine, but I lose most Rakan lanes, especially against Rakan/Xayah. Flaying the W doesn't do much for me as the knockup still comes through (am I flaying too late?). If I'd E earlier it feels more like a predict than a reaction to his engage. Late game R+W engages seem even harder to flay. Hooking the guy also doesn't do much for me as he just dashes to safety obviously. Am I missing something obvious? Do you just not fight at all and surrender the lane / roam? Rakan has a fairly high pick rate atm so I run into him a ton, would be great to get some inights how the matchup doesn't become an auto lose!",
+   "id": "11xc6jh",
+   "comments": [],
+   "age_days": 1298,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Sweeper or yellow trinket start ?",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/11rywkz/sweeper_or_yellow_trinket_start/",
+   "published": "2023-03-15",
+   "author": "/u/PristleSky",
+   "body": "I asked this somewhere else and got conflicting answers, so I ask it here for thresh specifically: should I start with sweeper or yellow trinket? I usually go with trinket since I am not great at jungle tracking yet and I often forget to use my steel shoulder guards - so it takes a while until I unlock my ward item. Therefore I often die to ganks if I don't have my yellow trinket to ward.\n Should I go with sweeper regardless ? Does it depend on matchup? If so, which ones should I go sweeper in ?",
+   "id": "11rywkz",
+   "comments": [],
+   "age_days": 1304,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "AD vs. AP support item",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/11jvj9j/ad_vs_ap_support_item/",
+   "published": "2023-03-06",
+   "author": "/u/Kylovic",
+   "body": "Recently hit plat 4 this season OTPing Thresh and I still don't really know when to go shoulderguards vs. relic shield. Is it just preference or is it actually matchup dependent? My current thought process ran something along the lines of shoulderguards into matchups where you are allowed to auto a lot (e.g. Braum etc.) and relic in matchups where you barely auto in lane and want slightly more damage on Q (e.g. Caitlyn/Morgana). \n Is that the general consensus or are there more factors that play into the decision? Would love to finally be able to stop second guessing myself half of the games what item to buy. Cheers!",
+   "id": "11jvj9j",
+   "comments": [],
+   "age_days": 1313,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Itemization and Runes ?",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/114jf1y/itemization_and_runes/",
+   "published": "2023-02-17",
+   "author": "/u/PristleSky",
+   "body": "I want to improve my build adaptability since I end up with roughly the same build every game. Can you give me some advice which runes and items I should go for in *Melee/all-in matchups *Enchanter/carry matchups *Poke/long range matchups *Anti engage matchups (Heimer, Zyra, Renata etc)\n Any advice is appreciated",
+   "id": "114jf1y",
+   "comments": [],
+   "age_days": 1330,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "When to pick Thresh?",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/10rfr74/when_to_pick_thresh/",
+   "published": "2023-02-02",
+   "author": "/u/PhilmoXVI",
+   "body": "In which teamcomps does he shine and what are good/bad matchups?",
+   "id": "10rfr74",
+   "comments": [],
+   "age_days": 1345,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Looking for general advice",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/10rd1d8/looking_for_general_advice/",
+   "published": "2023-02-02",
+   "author": "/u/kubikarlo3169420",
+   "body": "Dear Thresh mains,\n Im slowly getting into playing gigachad Thresh support. I‘m a low elo jungle main but I cant really take it anymore so I swapped to Thresh supp. I just wanted to ask if y‘all have general advice for Thresh support (runes, items, playstyle, mechanics, advice for certain matchups etc.). \n I also wouldn‘t mind advice for playing support in general.\n Thank you in advance!",
+   "id": "10rd1d8",
+   "comments": [],
+   "age_days": 1345,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "looking to pick up thresh, where could i get some info",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/10a5fh9/looking_to_pick_up_thresh_where_could_i_get_some/",
+   "published": "2023-01-12",
+   "author": "/u/hsjshsbshs",
+   "body": "context: fairly new league player (lvl 50) and i main teemo wtih an occasional panth. my group of friends has 2 top laners, a mid, a jg and an ADC so one of us will have to sacrifice and i thought it would be the perfect opportunity to learn thresh\n is there like a spreadsheet for matchups, runes tips etc (e.g Teemotalk has their PowerPoint and pantheon has the excel sheet)\n and which YouTubers have good educational gameplay vids or guides and things like that. something like manco1's seasonal guides where he goes through all the viable rune pages and builds then shows a game with each one if there is anything like that?\n I'm gonna sleep as soon as i post this so thanks in advance :D",
+   "id": "10a5fh9",
+   "comments": [],
+   "age_days": 1366,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Tips for laning against poke and anti-engage matchups?",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/1090pdt/tips_for_laning_against_poke_and_antiengage/",
+   "published": "2023-01-11",
+   "author": "/u/PristleSky",
+   "body": "Can you give me some general advice on laning against poke-heavy matchups, for instance lux+Cait or ezreal+Xerath - as well as matchups that are anti-engage like zyra, Renata or Janna ? I know that a lot of factors go into that, like ADC partners or jungle matchups etc, but can you try to give me some basic, general advice anyway?",
+   "id": "1090pdt",
+   "comments": [],
+   "age_days": 1367,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I've been trying to use this page for poke matchups but I'm not getting the expected results. Would you change something?",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/ycs6q5/ive_been_trying_to_use_this_page_for_poke/",
+   "published": "2022-10-25",
+   "author": "/u/Andraskys",
+   "body": "​\n ![img](4l8ytwg8suv91 \"Zombie Ward and Ghost Poro are variables deppending on the amount of chances I should have to ward enemy jg. \")",
+   "id": "ycs6q5",
+   "comments": [],
+   "age_days": 1445,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Here's my low-effort Thresh Matchup Tier List based on personal experience only",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/xn22wf/heres_my_loweffort_thresh_matchup_tier_list_based/",
+   "published": "2022-09-24",
+   "author": "/u/IceDalek",
+   "body": "",
+   "id": "xn22wf",
+   "comments": [],
+   "age_days": 1476,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Thoughts on toplane Thresh",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/tcayno/thoughts_on_toplane_thresh/",
+   "published": "2022-03-12",
+   "author": "/u/Tannir48",
+   "body": "I'm an NA plat 2 player and I have over 1,000 games of Thresh top (4.5 million points total). Just wanted to give my thoughts on Thresh top since I see people post about it every now and then:\n It's not a trollpick. Thresh is a pretty hard champion to pilot which is mainly why it is difficult to pull off Thresh top. I think it's a very weak pick but not any worse than playing something like Maokai. Maokai gets demolished in lane by 90% of toplaners, Thresh on the other hand is quite a bit stronger in lane (due to range and minimal mana problems) and is unironically more playable in many scenarios. Some lanes you can bully very hard if you have any jungle pressure. Tl;dr Thresh top is C-D tier but not troll\n Thresh functions best as a utility tank and that is how you should play him. AD Thresh and AP Thresh are both terrible, AD because of bad range and it falls off, AP because of bad ratios. Tank Thresh, while not as tanky as most tanks, is the most reliable and best playstyle for toplane Thresh into all matchups. You will end up playing fairly similar to a support but that doesn't make you useless. Thresh's teamfight presence and crowd control is disgusting with repeat low cooldown stuns with some ability haste and high damage burst on squishies with souls. Its essentially the same idea as when you pick Maokai, Ornn, or Nautilus top though more cc/peel and less frontline oriented.\n It's very good into some teams and very bad into others. Thresh's passive gives him good armor scaling which causes you to become a pseudo-Malphite mid-lategame with base armor as high as 150 (more than every champion in the game). So he's very very good into majority or full AD team compositions. Thresh sucks vs high AP teams since he has the worst MR scaling of any tank in the game. This is especially true vs teams with champions such as Malzahar, Zyra, or Yorick (Yorick does a lot of magic damage with his Maiden), Zyra in which case you'll have a really hard time cc'ing people due to enemy cc, creeps, etc.\n What runes should you go? Thresh top has a couple options available to him, you can go grasp for better trades and aggression, aftershock if you're in a bad matchup where you cannot trade or vs a very aggressive top/jungle combo, especially one with good crowd control. Those are the standard options another option may be electrocute since Thresh can proc it fairly easily and it gives good kill potential with ignite though I have not used it much lately. If you go the green tree, always take demolish, boneplate/second wind, and overgrowth. Secondaries are usually things that give you mana and sustain such as cookies or manaflow band. Thresh is a very autoattack heavy champion but it is nice to have a bit of mana to avoid going oom early on.\n Sidenote: if you take the red tree with electrocute, make sure to run cheap shot since its super free true damage for you, eyeball collection, and ultimate hunter. Thresh R is very good for trapping people 1v1 and in teamfights and also does very high damage in a 1v1 so it is a good option to consider.\n Finally you always take double armor into any AD/mixed damage lane and always take double MR vs mage toplaners or Teemo since you just want to survive their poke. Always take attack speed rune because it helps Thresh clear waves faster with his high damage autoattacks.\n What items should you run? Let's start with the mythics. Thresh does not like any of the bruiser mythics because his long cooldown abilities make stuff like TriForce and Sunderer hard to consistently use. It also just feels very awkward to buy them because Thresh passive scales with AD and nothing else so if you are ever cc'd and cant auto you are not doing damage. This is a problem because Thresh is very easily cc'd, has no range, and no mobility like Irelia so most of the time bruiser items are very poor on him. What you will want are tank mythics. Here are my personal preferences in that regard:\n Sunfire Aegis: 5/5\n This is the best toplane Thresh item because it gives you decent tankiness, nice damage in 1v1 duels, and the best waveclear of any tank item. It also provides haste in the components which none of the other tank items do. The biggest problem with it is how expensive it is.\n Frostfire Gauntlet: 4/5\n Cheaper alternative to Sunfire. The downside is it gives less upfront tankiness, much lower damage, and mediocre waveclear. It does scale better than Sunfire since its mythic passive gives a lot of health and it also makes you Big with enough items.\n Turbo Chemtank: 1/5\n This item wasn't bad until they removed the burn damage on the completed item and now it really sucks. The waveclear depends on mobility and since Thresh has no mobility its really hard to kill minions with this item. It sucks because the CDR from Chemtank and its active are very nice and useful in many situations. But not being able to kill minions is really bad especially in hullbreaker meta.\n Aside from mythics there are many good legendaries and they largely depend on the team composition you're playing against. Examples include Thornmail, Force of Nature, Frozen Heart, Anathema's Chains, Knight's Vow, Stoneplate, and others.\n How should you use your abilities and what do you max? Toplane Thresh can only max his E its the only thing in his kit that gives him waveclear. After E always max Q it is best for teamfights. Never max W second and never use it as a shield unless you're ignited or something, the shield value is way too low to serve any purpose. Q, E, and R are also great tools for trapping people under your turret and it is one of the best turret cc lockdowns in the game.\n If you're in very low elo... (Iron/Bronze/Silver) always run full crit oneshot Thresh. Enemies won't know how to properly play against it and the only thing you care about at that level is full unga bunga oneshot so you can hard carry every game. I had a 70% winrate in iron and bronze doing this in Season 9(?). Make sure to run PTA for maximum noob stomping. Always go tank in remotely serious elos (Gold and above)\n In general:\n The biggest problem with toplane Thresh are the people who will yell at you for \"trolling\" and ruining their climb + sometimes nonstop dodges and other tilting garbage. But if it's something you enjoy playing, as it is for me, you can definitely make it work through diamond but it requires a lot more time commitment and practice than something that you can pick up immediately like Malphite. I hope that was insightful.",
+   "id": "tcayno",
+   "comments": [],
+   "age_days": 1672,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Note GLHF",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/t1ou9t/note_glhf/",
+   "published": "2022-02-26",
+   "author": "/u/FullStackBushes",
+   "body": "Hey, my name is EZ. \n Hum, i would like to give you a tip. \n ​\n You can type /note yourmsg in the chat to put a note in a text file ; meanwhile you can review your past matchup, your games, your mistakes, everything.\n ​\n As Thresh Mains, we have to know everything from pro active things and more.\n ​\n ​\n Thanks.",
+   "id": "t1ou9t",
+   "comments": [],
+   "age_days": 1686,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "The Tristana matchup in a nutshell",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/qo7zwc/the_tristana_matchup_in_a_nutshell/",
+   "published": "2021-11-06",
+   "author": "/u/Porter38",
+   "body": "",
+   "id": "qo7zwc",
+   "comments": [],
+   "age_days": 1798,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Who to ban when playing thresh ?",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/q5hmdt/who_to_ban_when_playing_thresh/",
+   "published": "2021-10-10",
+   "author": "/u/SPN-ToXiN",
+   "body": "As the title says in some matchups im having some hard times like morgana yuumi etc and how to deal with them ?",
+   "id": "q5hmdt",
+   "comments": [],
+   "age_days": 1825,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Aftershock vs. Guardian",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/pjm0tx/aftershock_vs_guardian/",
+   "published": "2021-09-07",
+   "author": "/u/SMTx_Thresh",
+   "body": "Hey Guys,\n What do u think about this runes. For a long time i was always going for Aftershock cuz i thought its just always better than Guardian. Atm i take Guardian with Hyper Carry ADC's (Vayne, Jinx, Kog' Maw) and Aftershock with Lane Bullys (Draven, Ashe, Lucian). But im not sure about this decision. Is it better to change the rune for the Support Matchup? Would be nice to get some advices.",
+   "id": "pjm0tx",
+   "comments": [],
+   "age_days": 1858,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Thought process on hook vs flay level 1?",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/pbfb1p/thought_process_on_hook_vs_flay_level_1/",
+   "published": "2021-08-25",
+   "author": "/u/RAMDownloader",
+   "body": "I used to exclusively take my hook level 1 until I realized how valuable flay can be against teams that may look to fight level 1 (like a blitz/naut matchup). \n Basically the way I break it down is you go hook first against a poke/squishy level 1 and flay first against a hard engage level 1 comp. \n What is your thought process?",
+   "id": "pbfb1p",
+   "comments": [],
+   "age_days": 1871,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "\"Should I buy this skin?\" Posts are way overdone and unnecessary",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/ouoe62/should_i_buy_this_skin_posts_are_way_overdone_and/",
+   "published": "2021-07-30",
+   "author": "/u/Chase2020J",
+   "body": "Maybe I'm being cynical here but I personally am quite annoyed with the sheer amount of posts on this subreddit of people asking if they should buy a skin or not. It just doesn't make sense. Skins are a personal preference, if you like it, buy it. It takes less than 3 minutes to find the skin spotlight on youtube so you can see the animations and such, and you can decide if you like it. So why are you asking if you should buy it? Other people's opinions don't matter, it's a cosmetic. I feel like these are the majority of posts here nowadays rather than actually interesting things like clips or matchup discussions",
+   "id": "ouoe62",
+   "comments": [],
+   "age_days": 1897,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to win counter matchup as Thresh",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/ojpvpj/how_to_win_counter_matchup_as_thresh/",
+   "published": "2021-07-13",
+   "author": "/u/SawyerGG",
+   "body": "",
+   "id": "ojpvpj",
+   "comments": [],
+   "age_days": 1914,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I hit plat using thresh in 2 weeks with a 70-80% win rate. Here's what I did.",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/mh81wl/i_hit_plat_using_thresh_in_2_weeks_with_a_7080/",
+   "published": "2021-03-31",
+   "author": "/u/Fightrage",
+   "body": "Background information: I am a jungle main who peaked in diamond and decided to learn off role and I found myself taking a liking to supports and most importantly, Thresh thus began my journey to master him and I did after a month and then proceeded to immediately climb on a fresh unranked level 30 account on him. I hope that this post will help you understand thresh better and help all of the people stuck on a lower elo to climb with him! \n Note: This post is based on MY personal experience. I am by no means the best thresh player or even close to one. The builds I will list will also be very odd to most higher elo thresh mains but it was what worked so do keep these in mind! \n you do NOT need a duo to climb on thresh!\n\n This is something my lower ranked friends asked me the most when I was climbing. Whether I was duo queueing. And surprisingly to most people I was not! You actually do not need a duo to climb on thresh! But of course, you might be wondering how? Well here is how I did it!\n Do NOT perma stay bot lane! I can not stress this enough! Watching my lower ranked friends replays they always make the same mistake of staying bot 24/7! And not only the thresh mains but every one of my friends who were sp mains under plat made this mistake! But it is even worse on thresh! This is because thresh has such a great roam potential as he has so much set up that if you are able to get a pick, most top laners/mid laners have either 1) Cc or 2) a lot of damage, the amount of cc you hold + the cc or damage of your mid/top laner basically guarantees a kill! And it is even better if your jungler helps you out as after that gank you are able to transition that kill to an objective or a tower! That is why roaming is so important on thresh and if you are making this mistake, this should be your NUMBER 1 Priority of things to improve on if you want to climb on thresh or support in general! \n\n Get out of the mentality that everything is the Adcs fault! There is a reason why the same people are able to hit challenger on support/thresh every season without a duo! And that is because the support is able to carry the adc in the lane! The same goes for the opposite a good adc can carry a bad support in lane! I will go in-depth on how to do this in the later parts but this mentality is what leads to tilt and eventually you inting your own games and blaming it on \"bad adcs\" so get out of this mentality! \n\n You do not have to be a god at hitting hooks to climb!\n\n Please do not get me wrong, it is important you learn how to hit hooks. But to get a 100% hit rate on your q is just a redundant goal and even most high elo thresh mains cant do that. Instead what you do is you abuse your e! In most situations your e is actually better than your q and this is because 1) it is a displacement! and 2) it has a slow after that! This basically means that you can stop some dashes(most dashes in bot lane in fact like tristana w) and slow them to set up for your hooks! After you use your e you are guaranteed to hit your q's unless they flash! This makes thresh e his actual most useful spell! If you are able to use your e effectively you will be able to climb easily! (I know this as this is how I climbed! I suck at hooking so I abuse e a lot!) \n Do not underestimate your fighting potential!\n Thresh has one of if not the best non-damage based support 1 v 1 potential! This is because of a few factors. 1) your e empowered aa. 2) your hook to stop the casting of major spells in a 1 v 1 (for example if you get hit by a Yasuo nado but hit your q, all of the sudden he cannot ult and u might win the fight! This mostly works because of the delay in your q giving space for enemies to cast major spells but this also leaves them vulnerable as they will be most focused on hitting or setting up for these win condition spells!). These 2 factors make for a 1 v 1 potential greater than most people think! So if you get into a fight 1 v 1 once your adc dies. Do not be afraid to take it! But do understand you have limits and if the situation becomes unfavorable do not be afraid to back off! I am telling you you CAN 1 v 1 I am not telling you you MUST 1 v 1 every time u see the potential.\n ​\n Do not surrender! \n Every game is winnable! enemies in low elo make mistakes all the time! It is not hard at all to come back by making a good pick! This is especially true on thresh as you are the one who most of the time has the cc to make a pick that will help your team win the game! So never ff a game!\n ​\n The thresh playstyles!\n After playing him for a while I have realised thresh has 3 playstyles and if you want to be able to win more you need to be comfortable to play all 3 of them. These are\n ​\n The Aggressive playstyle. This is the playstyle that most thresh mains are comfortable playing. You hook you setup you kill. Pretty self-explanatory.\n The Safe playstyle. This playstyle is one that higher elo players play the most as they understand the matchups and what matchups they cannot win. You are mainly playing around using your q for small picks/poke, using your empowered aa for poke and using your e and w to save your adc if they make a mistake.\n The 2nd Jungler playstyle. This is a playstyle that is not really known at all but is used by people like DWG Beryl( on his pantheon). This basically involves you having a really strong early game adc (Lucian,Draven etc) getting them ahead by using The Aggressive playstyle in the early game then leaving them alone for the majority of the rest of the early game. This is because these early game champions are able to 1 v 2 lanes after getting a lead and thus u have no point in staying bot lane. It is much better to get your 2 other lanes ahead with your adc so you do not have to rely on an early game adc that will eventually be outscaled by the enemy adc. But do pop by bot sometimes for an unexpected kill with a sweeper!\n\n The level 1 cheese.\n This is a really strategy where you stay in the lane bush nearest to the tower up e and empower auto, e, auto. This leads to the enemy getting picked off easily as nobody predicts this and leads them to get down to half hp. You then immediately ignite the enemy after this combo even if they are not low yet as you do not want them to be able to heal to get out of this sticky situation. This usually leads to a flash or a kill in lane.\n Runes: Aftershock, Font of life, Bone plating, Revitalize, Inspiration, Hextech flashtraption(Hexflash), Cosmic insight, Cooldown, Adaptive force, Armor (I personally don't change to MR because of Adcs)\n Build:\n Notes: These 3 builds are for the specific playstyles of thresh stated above. They really weird in the eyes of those who are of higher ranks but it works for me so I will give you my own builds. But do not be afraid to experiment in normal games and figure out what works best for you!\n Build 1: The aggressive playstyle build: Lucidity boots, Sunfire Aegis, Zeke's convergence, Knights Vow, 2 situational tank items\n Build 2: The Defensive playstyle build: Lucidity boots, Locket of the Iron Solari, Zekes convergence, Knights Vow, 2 situational tank items \n Build 3: The 2nd Jungler playstyle: Mobility boots, Shurelya's Battlesong, Dead man's plate, Knights Vow, Zeke's convergence, Situational tank item\n ​\n ​\n I thank you for reading this entire post. Thresh is a really fun champion and is a champion that has a high skill ceiling, I have not even fully mastered the champion yet but I do hope you all found this post helpful and have a great time climbing to your desired rank with thresh. And dont forget, the most important part of all this, is to be able to have fun!",
+   "id": "mh81wl",
+   "comments": [],
+   "age_days": 2018,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "General tips for returning player?",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/mf6hi1/general_tips_for_returning_player/",
+   "published": "2021-03-28",
+   "author": "/u/xDargor91x",
+   "body": "Hi everyone! Since I'm now working remotely and there's another lockdown here, it felt the right moment to start playing League again. I stopped playing around 2016 just after getting to Diamond 5 because I started traveling and living abroad and after some months of not playing I lost the habit of doing it and never started again until now.\n Needless to say, I'm kinda overwhelmed by all the changes that happened in that time. I'm trying to get my head around all the champions released so far and I'm starting to get used to new matchups (for example vs Rell or Seraphine which happened a lot in my first games), but for now the biggest problem for me is the new shop.\n There are a shittone of new items and all the ones I remember changed in some way, not to mention the new mechanic where you can only buy one (mythic? Legendary?) item per game. I always feel confused about what to build...\n Do you guys have any general tips for me? Something to look out for? Matchups that got pretty harsh for Thresh? And especially, aside from situational items, are there any support/tanky items I should consider as \"core\" (you know, the items that you always build regardless because they are just worth it)?\n Thank you very much, any advice is much appreciated!",
+   "id": "mf6hi1",
+   "comments": [],
+   "age_days": 2021,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Presenting: W max Shield Thresh",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/m9l1gi/presenting_w_max_shield_thresh/",
+   "published": "2021-03-21",
+   "author": "/u/tomathin24",
+   "body": "Might not be the first one to theory craft this but wanted to hear your guys opinions. The reasoning behind this build, is many thresh pros are already W maxing Source. This would double down on the effectiveness and reasoning behind the W max, better dueling and spiking earlier.\n Runes: Resolve: Guardian, Shieldbash / font of life, Boneplate, Revitalize\n Inspiration: Biscuits,cosmic insight. You can mix this up here if you prefer hexflash, stopwatch etc.\n Last 3 are matchup dependent.\n Locket, Redemption, Crucible. Crucible second if value is high.\n Max W>Q>E\n Personally it's a playstyle I prefer, and I can see it doing well in this specific meta. This build as well isn't too far off from the common meta build, and would be prioritized when matched against another engage support, or an adc that doesn't utilize zekes well. \n It's extremely hard for thresh to get as tanky as a natural tank without getting incredibly into the late game like most other natural tanks. As well, he has to rely on passive stacks for armor and doesn't have any other tankiness in his kit like Naut W, Leona W, or alistar R to make him a true tank, so there is less value on your tank items. This build would prioritize winning your 2v2 and skirmishes after the hook has been hit by having massive shields to gain your edge. \n The biggest issue I personally have with this build is losing zekes, which is such a pivotal and high value item. \n Let me know what you guys think!",
+   "id": "m9l1gi",
+   "comments": [],
+   "age_days": 2028,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How should I play against a Nautilus lane?",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/knqmdy/how_should_i_play_against_a_nautilus_lane/",
+   "published": "2020-12-31",
+   "author": "/u/Darren_NH",
+   "body": "The matchup was Kaisa-Thresh and Mf-Naut. Should I have played more aggressively, or waited for my jungler (Malphite)",
+   "id": "knqmdy",
+   "comments": [],
+   "age_days": 2108,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Tips with thresh",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/kc249x/tips_with_thresh/",
+   "published": "2020-12-13",
+   "author": "/u/Suishcat",
+   "body": "I wrote this as a reply to someone on the r/supportlol but though it was applicable here.\n Plat thresh main here. Mastering thresh is not really about match ups. Basically all matchups with thresh boil down to enchanter or tank. If you're against a tank its just waiting for the perfect time to hook the adc and if against enchanter just play agro keeping them off the wave. Thresh has no really bad matchups, like other supports, he is ranged so he can still poke and proc sup item without having to over commit, and pretty dang tanky. Thresh is good into everything but doesnt really hard counter much.\n Mastering thresh has to do with hitting hooks because missing a single hook really puts you behind in team fights. A few seconds of cast time where you stay still and the hook cd goes down by 3 seconds if you hit it so only falling more behind if missed. There isnt really a thresh hold of hitting mastery points to really get comfortable with him, just one day you will be hitting your hooks second nature and then you will know its fine.\n Useful tips about thresh.\n Tip 1. Souls are basically worthless with him. They give such a small bonus, missing them will not matter. When I was learning pros play thresh and after killing a drag they just back instead of spending 2 seconds to get the souls. I also see some thresh's throw their lantern to collect souls but that is just dumb. A 20 second cd for nothing.\n Tip 2. Remember that allies do not know what you are thinking. When playing thresh its about setting up plays that even a toddler could follow. If you try doing insane lantern plays in solo queue you will regret it. Thresh lanterns are basically for shielding allies because of how rare people actually take them. So many times I have seen people flash instead of taking lantern.\n Tip 3. Never get tilted because you miss a hook. Everyone else on the team thinks it is super easy to land them while predicting the enemy movement and if you miss a hook expect the question mark pings and adcs to tilt.\n Tip 4. Hexflash is your friend. This brings so much extra mobility while roaming and setting up hooks that would normally be impossible in lane. Get used to using hexflash into instantly hooking this will give a huge surprise to the enemies in lane because they dont know exactly where you will flash to and if youre in a bush with no vision can suddenly appear in the middle of them.\n Tip 5. If youre in a norms game just send those hooks on cd. Get used to the timing and speed of them. Just become one with the hook.\n Tip 6. Start E. Most thresh start Q for some reason but before level 2 it is unlikely you will lane a hook that actually matters. Start with flay and just walk at the enemy and flay them back and auto. Flay also charges his auto passive which will add a little more damage.\n Tip 7. Save charges of sup item for last 2 melee minions of 2nd wave to rush level 2. Getting level 2 before the enemy is super important to getting lane prio. Save both charges to kill the last minions for a jump start in level. If you also have hexflash you can just burn your normal flash to go for an instant lvl 2 hook.\n Tip 8. Watch people who are better then you. Notice how thresh position and how they send hooks.\n That was more then I thought I would write lol.\n Hope this helps. If you got more questions ask.",
+   "id": "kc249x",
+   "comments": [],
+   "age_days": 2126,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Help pls",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/hgwd9y/help_pls/",
+   "published": "2020-06-27",
+   "author": "/u/Krawserx",
+   "body": "I'm learning how to occupy the champion, but I don't know how to build it or its matchups. Does anyone have any guide or tips to improve?",
+   "id": "hgwd9y",
+   "comments": [],
+   "age_days": 2295,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Made a thresh matchup sheet, feedback appreciated!",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/hby6e1/made_a_thresh_matchup_sheet_feedback_appreciated/",
+   "published": "2020-06-19",
+   "author": "/u/Pirsuit",
+   "body": "",
+   "id": "hby6e1",
+   "comments": [],
+   "age_days": 2303,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Your Favorite and Worst Matchups",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/g9qr9h/your_favorite_and_worst_matchups/",
+   "published": "2020-04-28",
+   "author": "/u/Impulses_",
+   "body": "Hi, fellow thresh main from BR here. Been playing thresh since a long time and wanted to know others opinions on matchups,which are your favorites and which are your nightmare and why. Mine are:\n Favorite - Yuumi & Vayne This matchup is,for me,so smooth to play against because Vayne and Yuumi don't have enough early game power to really contest with you, so you can basically dictate what happens in the lane.They will always be looking what you're doing in the lane because if a fight starts and you get a hook,doesn't matter which one you hook(if you hook Vayne,she will probably have Yuumi on her)they are basically dead.(unless you have a scaling adc like Jinx with you,she can't do much without items) And if you have a agressive adc like Draven or Tristana,put on your running shoes and start roaming,why?If they leave tower, they die.\n Worst - Morgana & Sivir Pure nightmare fuel,you can't do anything,ANYTHING. You'll stay in lane just watching both adcs farming and that's it.Morgana's E counters your entire kit(Morgana is a must ban for me)Sivir's E counters your entire kit. Tried to hook and failed? Now Morgana will play aggressive and your adc will lose CS. Tried to roam? Sivir will push the lane and make your adc cry under tower or (depending what elo you're in) morgana will flash + Q or R on your adc right away. Playing under tower? Good luck playing under tower against that bitch. The lane is just a staring contest,there's nothing else to do.\n Well,that's about it. Remember,it's just my opinion,have a good day and may Thresh bless your hooks. (English is not my main language,sorry if you see anything wrong)",
+   "id": "g9qr9h",
+   "comments": [],
+   "age_days": 2355,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "I decided to onetrick Thresh but need tips",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/equjts/i_decided_to_onetrick_thresh_but_need_tips/",
+   "published": "2020-01-19",
+   "author": "/u/only_the_light",
+   "body": "I love Thresh and hes really fun to play! I also decided to onetrick him cause I never got higher then 400k mastery points on any champ and I thought that hes the perfect champ to do so. I need tips for good and bad matchups, item choices and order, also adc champs that Thresh counters and that he is countered by.",
+   "id": "equjts",
+   "comments": [],
+   "age_days": 2455,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "New Player Requesting Basic Thresh Advice",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/au3wza/new_player_requesting_basic_thresh_advice/",
+   "published": "2019-02-24",
+   "author": "/u/Vars_An",
+   "body": "So as a new player I've been told by a lot of people to learn Support and of the supports I've tried so far Thresh seems like the most versatile and has one of the highest skill ceilings to grow into. Any advice is appreciated but I do have a few specific questions:\n When should I buy a Relic Shield over Ancient Coin? I see a lot of players in high elo alternating between them, not sure if this is something that only pertains to that level of mmr though. (ANSWERED)\n What other support champions would help compliment my pool vs Thresh's bad matchups?\n Any advice for ability level up order (ANSWERED) or itemization (especially boots), I've seen a lot of conflicting information without much explanation as to why I should build that way. I enjoy roaming but should I buy Lucidity boots over Mobi's for the earlier CDR on Q?\n What ADC's don't synergize well with Thresh, if any?",
+   "id": "au3wza",
+   "comments": [],
+   "age_days": 2784,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Aftershock vs. Guardian",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/ag30ty/aftershock_vs_guardian/",
+   "published": "2019-01-15",
+   "author": "/u/Lemona1d_Lady",
+   "body": "Hello fellow spooky Thresh mains. I know these types of topics pop up very often in subs like this, hope I'm not being too bothersome.\n I was wondering -- I've stuck with the same Thresh rune page for a while now (Guardian into full healing/shielding on everything, with Biscuits and TWT from Inspiration), but I was wondering if maybe there's some matchups when I should take Aftershock instead? \n Some games, mostly against full AD teams, I definitely struggle to feel like I'm beefy enough to act as a secondary frontline.\n Basically, what I'm getting at is -- are there any specific matchups that favor Aftershock, and are there any for Guardian?",
+   "id": "ag30ty",
+   "comments": [],
+   "age_days": 2824,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "1v1 tournament on Saturday Nov 24th, come prove your worth!",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/9zg6li/1v1_tournament_on_saturday_nov_24th_come_prove/",
+   "published": "2018-11-22",
+   "author": "/u/Lancemenot",
+   "body": "Listen up, all champion mains! On Saturday the 24th of November, at 17.00 CET, I invite YOU to display your skill and show why your main champion is the best in an epic One-Trick-Pony 1v1 Tournament hosted by Lancemenot on EUW.\n ​\n First prize is 3250 RP, second prize is 1580 RP!\n ​\n In this single elimination bracket 1v1 tournament, you pick one champion and play it until you lose a game. You win a matchup by eliminating your opponent, destroying their tower, reaching 100 CS first or having the most CS at 10 minutes. 10+ matchups will be taken at a time by me and my official event moderators, running down the bracket from the top, so make sure to accept your invitation when it's your turn to play!\n ​\n To sign up, simply enter your EUW username and champion choice in this google form. You can then see whether or not you're signed up here.\n ​\n If you don't feel like playing, checking out the event will surely be a superb time to learn things about a large variety of different champions, played by the most experienced! Yes the event will be streamed here https://www.twitch.tv/lancemenot\n ​\n Be there!",
+   "id": "9zg6li",
+   "comments": [],
+   "age_days": 2878,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Current state of Thresh and his amazing 45% winrate",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/8kccpl/current_state_of_thresh_and_his_amazing_45_winrate/",
+   "published": "2018-05-18",
+   "author": "/u/Kosti64",
+   "body": "After all those indirect nerfs and all the season 8 changes that are disadvantageous for our main champ, the winrate drop doesn't seem to come to an end. \n Every change that occured past season 7, including the new rune system, has been bad for Thresh. Some changes may not look bad themselves, but almost all of them are way more of an advantage for other champs, so in some way, they're bad for us. \n I'm not just complaining because I suck this season and try to find something other than me to take the blame. Thresh is still playable and very much viable in a few matchups, but it just keeps getting worse. \n What are your thoughts on the current state of Thresh? \n https://www.leagueofgraphs.com/champions/stats/thresh/diamond",
+   "id": "8kccpl",
+   "comments": [],
+   "age_days": 3066,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "[Discussion/long] Thresh and supports in general on 7.14",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/6o3mj6/discussionlong_thresh_and_supports_in_general_on/",
+   "published": "2017-07-18",
+   "author": "/u/Niirai",
+   "body": "So ever since Thresh's winrate started getting above 50% I've been following this sub a bit closer. And I've been very intrigued in Thresh's winrate and development in the meta, both in soloQ and professional play. My conclusion on his increase in power has been the nerfs to poke supports, buffs to support tank itemization and changes in adc meta.\n Which brings me to 7.14, a very interesting patch when it comes to statistics for supports till now(Lolalytics). Janna is firmly back as the queen of winrates with an absurd 55.2% winrate on 14,8% pick rate. I attribute this to the resurgence of immobile adc's like Jihn and Draven. Also with lethality being overtuned MF has started being really good again. Janna provides the necessary safety to have them do their thing. Same goes for Soraka who has has also seen a rise in popularity and winrate but is more easily punished.\n Which brings me to our favorite hooker and Blitz. Thresh has started dropping in winrate on 7.13 but hasn't dropped as hard as he did on 7.14. He's currently sitting at 50.9% winrate on 34.3% pick rate. Like stated previously Janna, Soraka and the ever present Sona have been stealing some of his shine but he's also gained competition from 2 newcomers.\n Small buffs to Alistar have seem to pushed him over the edge and he's sitting at a 50,5% winrate on 7.5% pick rate. I suspect his play rate to go up a lot and take over Braums position as the default beefy support while keeping a positive winrate. Braum has seen a resurgence in pick rate but is sitting at a very bad 48,5% winrate. While I think Braum's kit is wellrounded he doesn't have enough playmaking potential to force mistakes or snowball leads while also not providing the exceptional utility like RakaJanSona.\n Last but definitively not least, the rising star in the support position (read OP) is Taric. Sitting at 52,7% winrate on 3,8% playrate, one could make the argument that it's just a case of Taric mains finding his changes favorable but I think there's more to it. Taric is a staple utility bot, heal, shield and stun. No damage, no flash, just utility. What separates him from RakaJanSona is his innate tankyness and in my opinion the best support ultimate in the game. His ultimate enables both a perfect counter engage or a proactive engage when timed well. The changes have helped him to have more utility in lane while keeping the hard engage opportunities for jungle ganks that one might expect from melee supports. His build path is also very interesting, Looking at probuilds, ardent censer/redemption combo seems the go to which makes a lot of sense. His w makes him deceptively tanky allowing him to go a more squishy build upping his utility even more.\n It remains to be seen if Thresh will stay a top tier pick in competitive which will determine his upcoming nerfs considering his soloQ dropoff. I think Thresh is still in a great state but I think Taric will be a bad matchup from here on out. It remains to be seen if Taric is truly OP to rise enough in pick rate to become a problem at least in soloQ.\n So what do you guys think? Am I overhyping Taric? Is there another reason for the Thresh winrate drop? What matchups will be good and bad for Thresh and which adc's will become a problem?",
+   "id": "6o3mj6",
+   "comments": [],
+   "age_days": 3370,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "THRESH MAIN (1200+ GAMES) THAT FINALLY HIT D5 AFTER 4 SEASONS <3; A Thank You From a Fellow Thresh Main and Streamer",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/5zzlym/thresh_main_1200_games_that_finally_hit_d5_after/",
+   "published": "2017-03-17",
+   "author": "/u/Bennett_TL",
+   "body": "First and foremost, a little bit about me:\n I started off playing as an ADC main in S4 around august of the season. I played with a thresh once who did a flash lantern gank from tri brush and thought it was the sickest thing I had ever seen and ever since then I've been playing Thresh and other high skill champs. I ended silver 5 or 3 in S4, platinum 5 in S5, platinum 2 in S6, and, although S7 isn't over yet, I have already hit D5. I come from a small town in Louisiana, and grew up playing console and guitar hero (another game that I was pretty good at). When I moved to college for 2 years in Nashville, some coworkers at my college's IT department showed me the game and I would play it with them. I'm currently back in Louisiana going to college and play for my college's team as support on top of grinding Solo/DuoQ and playing for another competitive 5s team.\n So it's been a long time coming, with lots of hours towards grinding, learning the game, matchups, champion cooldowns, laning phase, macro and micro play, positioning, warding, vision control, vision baits and more, but I can finally say after four seasons of being, not only a support main, but a Thresh Main since S4 that I have finally hit D5. It took me a lot of hours of practice, grinding, and duoing to finally get here and it feels really nice. I've always had a spot for being a playmaker and the strategist on teams and who better than Thresh to create some of the best outplays and plays in general. D5 is just one of the many milestones that I've accomplished in the past year. On top of that, I've started to create clips of my plays and help other thresh mains, and have even started to get featured in a few pro streamers and other higher elo players games (IWD Pre WW Smurf Games). I also got added to the streamers tab/widget/panel section of our sub-reddit. I'm currently on a competitive 5s team and am the 2nd highest support in the org (the other is D3). Hopefully there are still many more to come with the next milestone preferably would be getting into master and challenger, and from there pro scene. \n Thanks for all the love and support from the community and /r/ThreshMains users in general. Outside of League of Legends, this sub-reddit consists of a ton of people with awesome plays and helpful insight on how to improve your play not only as a support, but as one of the most solid playmakers in the game. \n If you ever want to play some games with me you can add my accounts: Main - Bennett TL (max friends atm) Smurf - Snoop Doge Here\n For those of you who have supported my stream and helped me out with ideas and gameplay over the past year since I started streaming, thanks once again. For those of you who haven't yet had a chance to stop by my stream or hear about it, I'm actively posted by the Discord's bot whenever I start streaming, as well as being listed on the sub-reddit aforementioned. You can also check it out here: https://www.twitch.tv/bennett_tl\n Again, I can't thank all of those in the community and streamers that have helped make it possible for me to get to where I am today as a player and a Thresh main. I'll be actively posting clips and start working on some montage and highlights and vod reviews for to post on here in the next few months. Hopefully y'all will enjoy them.\n Some tips that I would give to new Thresh players and mains are to just be patient. Playing support is one of the hardest roles to carry from, and you can't always do it. Climbing with Thresh from low elo to high elo takes time, dedication, mentality, a desire to improve, and first and foremost patience. In lower elo, you might not always get an ADC that plays at the same pace or style as you so just try to play around them and the rest of your team, but don't let that hinder you. If you think you land a solid hook or trade and can get the kill secured for your team, go for it. If it doesn't work, figure out why. Don't flame others. My mindset when something goes wrong that I could have prevented is that it's my fault. What can I do to prevent that or to win something in return.",
+   "id": "5zzlym",
+   "comments": [],
+   "age_days": 3493,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "ProTip for playing against other hard engage supports (why i take ignite)",
+   "url": "https://www.reddit.com/r/ThreshMains/comments/5wrddp/protip_for_playing_against_other_hard_engage/",
+   "published": "2017-02-28",
+   "author": "/u/RyhDerr",
+   "body": "If you can sense the enemy bot lane is going for an all in on your adc, ignore the enemy support (for the most part) and go straight for the Adc and ignite. The enemy isnt going to want to push up while ignited because heal won't do much and he has a high chance of dying The unique thing about thresh is other engage champions need their adc to be able to follow them up, and if its running through the support, that can be hard. But thresh has a lantern so his laner can follow up engages through supports. This is just an example of mine where my first instinct back when I was low-elo would be oh shit peel the support off of my A.D. Carry http://plays.tv/video/58b485ce7942009d4d/when-ur-random-solo-q-support-is-a-thresh-god?from=user I don't know if this is really common knowledge but I hope it helped if you are struggling with certain matchup",
+   "id": "5wrddp",
+   "comments": [],
+   "age_days": 3510,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  }
+ ]
+}

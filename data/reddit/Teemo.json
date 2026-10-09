@@ -1,0 +1,1267 @@
+{
+ "champion": "Teemo",
+ "subreddit": "teemotalk",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "how do you deal with malphite",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1wuyk46/how_do_you_deal_with_malphite/",
+   "published": "2026-10-01",
+   "author": "/u/notjoeynotonosu",
+   "body": "i play in silver elo and i basically perma ban malphite but i need to know how do y'all deal with him. usually they spam q with arcane comit which makes early game very difficult for me even with considering decent spacing. usually i go with PTA for runes as always and i prioritize liandry's first instead of shiv and try to get as much magic resist as i can but i still dont feel like its viable at all. i see some of you take dark harvest instead of PTA and i haven't tried it yet as i dont know what's the best way to go about that and i feel it's too risky so i would love to hear definive answers from you and how do you go about this matchup exactly.",
+   "id": "1wuyk46",
+   "comments": [],
+   "age_days": 8,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "First item",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1wkmsmm/first_item/",
+   "published": "2026-09-19",
+   "author": "/u/PoisonShrooms77",
+   "body": "Hi,\n Iron Teemo checking in.\n Can anyone give good advice for best first item and what matchups to use them in.\n At the moment I'm going Statik Shiv as it 'feels' strong for wave clear.\n What about DnD? Nashors? Rageblade?!\n Thanks",
+   "id": "1wkmsmm",
+   "comments": [],
+   "age_days": 20,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Utility tankmo support",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1wj5cgp/utility_tankmo_support/",
+   "published": "2026-09-17",
+   "author": "/u/Egyptiantelephone",
+   "body": "Hi, this is a teemo support build thats more focused on utility and tankiness than damage with shrooms\n Guardian\n Demolish\n Second wind or conditioning\n Unflinching or overgrowth\n Cookies\n Cosmic insight or JOAT\n Attack speed\n Scaling hp\n Any\n You only want to be playing this in matchups where Q max is best but if they pick a different botlane than you expected E max can work too\n For the playstyle, just stick to your ADC and try to get vision with your W movespeed and shrooms.\n The five items i'd recommend most are Locket, Mikeals, Oblivion Orb, Knight's Vow (only recommend second or third), and Zeke's. You could also go Bloodletter's Curse, Protoplasm Harness, or Liandry's Anguish second or third. all boots except omnivamp boots sorc shoes and attack speed boots are good.\n some example buildpaths:\n ruby crystal >ionian boots of lucidity > zeke's > oblivion orb > mikeals\n boots + ruby > Locket > oblivion orb > swifties > zeke's > protoplasm\n boots > mikeals > swifties > zeke's > oblivion orb",
+   "id": "1wj5cgp",
+   "comments": [],
+   "age_days": 22,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I looked at 22,000 ranked games: Teemo loses his lane more than any other popular top laner.",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1wh6qq2/i_looked_at_22000_ranked_games_teemo_loses_his/",
+   "published": "2026-09-15",
+   "author": "/u/hugorocha",
+   "body": "I pulled 22,722 ranked games and compared the two players in each role to see who\n won the laning phase, then checked who won the game. 1,497 of those had a Teemo\n top. \n I built a lobby advisor app (https://shouldidodge.lol/) and used the data when calibrating it. \n Here he is against the five other most-played top laners:\n ```\n Champion Games Wins lane Won lane -> team won Lost lane -> still won\n Teemo 1497 42.3% 67.0% 41.0%\n Nasus 1702 43.7% 65.7% 39.0%\n Yone . 1836 46.6% 68.0% 34.7%\n Sett . 1408 51.1% 68.6% 37.8%\n Garen . 1922 52.5% 62.9% 39.9%\n Darius . 1888 54.4% 61.1% 34.6%\n ```\n Three things stand out. Teemo has the worst laning score of the six - he's behind\n on it 57.7% of the time. But it costs him less than anyone else: when he loses\n lane, his team still wins 41.0% of the time, the best of the six (Darius and Yone\n are both around 35%). And when he does win lane, it holds up fine - 67.0%, above\n the 63.2% average across all top laners.\n My guess at why: a laning score is built from CS, trades, kills and deaths in the\n first 15 minutes, which is close to a list of things Teemo isn't about. Shrooms,\n map control, and making the enemy jungler babysit top lane don't show up in a\n stat line.\n For what it's worth, top lane as a whole converts a won matchup into a win less\n often than any other role, at every rank. Teemo just takes that pattern furthest.\n Here's that pattern broken out by rank - top is last in all ten rows, while\n jungle, bot and support trade the other places depending on the tier:\n ```\n Rank Top Jungle Mid Bot Support\n Iron 63.3 68.4 66.3 67.4 66.6\n Bronze 63.5 67.7 65.3 66.2 67.6\n Silver . 64.1 67.2 67.1 68.0 68.2\n Gold . 63.6 67.3 64.3 68.1 68.0\n Platinum 62.1 68.0 66.4 66.2 64.4\n Emerald 60.7 66.0 65.2 69.2 66.8\n Diamond 63.6 67.7 67.1 65.9 68.1\n Master . 62.8 71.0 68.9 69.6 70.5\n Grandmaster 64.7 71.1 68.6 69.6 69.2\n Challenger 65.7 70.5 73.1 68.7 70.7\n ```\n -------------------------------------------------------------------------------\n How this was built\n -------------------------------------------------------------------------------\n 23,811 EUW ranked solo games from riot public API, patches 16.16-16.18,\n cleaned to 22,722 (remakes, sub-15-minute games, AFKs and non-solo-queue dropped)\n - 2,340 to 2,650 per rank, Challenger thinner at 484. Roles are labelled in the\n data, so \"Teemo top\" excludes the 225 jungle Teemos and 192 support Teemos also\n in the set.\n The Teemo numbers carry roughly +/-3.5 points of uncertainty, so small gaps are\n noise - the 41.0% vs 34.6% gap against Darius (lost lane, team still won) is\n real, but the 67.0% vs 68.0% gap against Yone isn't.",
+   "id": "1wh6qq2",
+   "comments": [],
+   "age_days": 24,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Teemo Counters",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1wevb4i/teemo_counters/",
+   "published": "2026-09-13",
+   "author": "/u/BatProfessional54",
+   "body": "How do I genuinely deal with these matchups as Teemo. I feel like these are always the worst for me and I always end up inting:\n Aatrox\n Yorick\n Malphite\n Yorick has been my perma ban recently but tips on how to beat these 3 is appreciated (I’m silver 1)",
+   "id": "1wevb4i",
+   "comments": [],
+   "age_days": 26,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What the hell do I do against you",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1w970n3/what_the_hell_do_i_do_against_you/",
+   "published": "2026-09-06",
+   "author": "/u/GuppyYoutube",
+   "body": "This matchup used to be simple, shit in classic I don't have an issue against Teemo, but with PTA and Ignite I cant do shit against this. Admittedly I got counterpicked hard so there isn't much I could have done but survive but fuck me man. You get the tiniest lead and I feel like there isn't anything I can do. This new shiv change is so oppressive man.",
+   "id": "1w970n3",
+   "comments": [],
+   "age_days": 33,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Darius matchup",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1w8cptc/darius_matchup/",
+   "published": "2026-09-05",
+   "author": "/u/Unusual-Ad8253",
+   "body": "Just got brutally assaulted by a god king darius, how do i not get assaulted again and how to play the lane",
+   "id": "1w8cptc",
+   "comments": [],
+   "age_days": 34,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Yone can get Gone",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1w1u4kp/yone_can_get_gone/",
+   "published": "2026-08-29",
+   "author": "/u/PoisonShrooms77",
+   "body": "Any tips on matchup against Yone? Early laning phase was okay but got progressively worse as the game went on...",
+   "id": "1w1u4kp",
+   "comments": [],
+   "age_days": 41,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Had my teemo picked, so counterpicked Olaf. Turns out ‘hitting Q and clicking Ghost’ does make you win lane.",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1vrdapx/had_my_teemo_picked_so_counterpicked_olaf_turns/",
+   "published": "2026-08-18",
+   "author": "/u/zaphodbeeblemox",
+   "body": "I’ve always thought this matchup was so unfun to play in to as teemo. Finally had teemo picked and first timed Olaf into it. You really do just win lane in champion select. \n Typically if teemo is picked I was going Malphite but only had maybe a 60% winrate.. might swap over to Olaf now as the pick.",
+   "id": "1vrdapx",
+   "comments": [],
+   "age_days": 52,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Singed main starting to learn teemo",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1vkao8i/singed_main_starting_to_learn_teemo/",
+   "published": "2026-08-10",
+   "author": "/u/SimpleOriginal12",
+   "body": "Hi, I'm a singed player that loved the champion for the unique playstyle, recently I've been trying out teemo in normal games, and his playstyle feels also unique and I really love his kit, so far I only tried the classic pta + ignite build, but I hear that teemo has so many unique builds and playstyles, for example, I encounter matchups like mundo, nasus etc. where I can't really be agressive in lane because they are so tanky, is there any channels etc. you can recommend me where I can watch in a daily basis to improve?",
+   "id": "1vkao8i",
+   "comments": [],
+   "age_days": 60,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Guide Mobafire Teemo Mid",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1v9pcg7/guide_mobafire_teemo_mid/",
+   "published": "2026-07-29",
+   "author": "/u/Current_Ad_7685",
+   "body": "I made a complete Teemo Mid guide for Season 16 — Clear, Disappear, Control\n Post\n Hey everyone 🍄\n There are so few of us playing Teemo mid, and that’s a real shame ! I’ve just finished a complete Teemo Mid guide built around a tempo and map-control playstyle.\n The core idea is simple:\n Clear the wave. Disappear from vision. Control the map.\n The build uses Statikk Shiv to create wave priority, then converts that tempo into river control, objective setup, roaming pressure and safer mushroom placement.\n The guide includes:\n - Full build and rune explanations\n - Complete mid-lane matchup section\n - Jungle synergies\n - Wave-control and roaming principles\n - Objective setup\n - Passive and fog-pressure usage\n - A custom Season 16 mushroom-placement map\n - Common mistakes and FAQ\n Guide:\n https://www.mobafire.com/league-of-legends/build/teemo-the-mid-lane-menace-the-definitive-guide-601461\n I’d appreciate feedback from other Teemo players, especially on the Statikk tempo approach and the matchup notes.\n Clear ⚡️• Disappear 💨** • Contro**l 🚨",
+   "id": "1v9pcg7",
+   "comments": [],
+   "age_days": 72,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What runes do you consider competitive?",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1uvdiwz/what_runes_do_you_consider_competitive/",
+   "published": "2026-07-13",
+   "author": "/u/Wonder___Waffles",
+   "body": "Normally I go with PTA and Celerity Manaflow Band, but if I see a matchup where I'm gonna suffer in lane I go with the classic PTA green runes. I experimented a while with First Strike but found that the damage was lacking and I wasn't making enough money to make it worthwhile. I've seen a lot of recommendations to go full Grasp but those comments are old and I understand that Rito heavily nerfed it for ranged champs. So apart from PTA, what big rune is worth it today on the Chinchilla?",
+   "id": "1uvdiwz",
+   "comments": [],
+   "age_days": 88,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What to do against very specific Teemo counters",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1urg4a0/what_to_do_against_very_specific_teemo_counters/",
+   "published": "2026-07-09",
+   "author": "/u/International_Pie752",
+   "body": "I used to be really hesitant on building some heavy MR items against some Matchups. But there are days where people literally do specific picks to fuck you over as Teemo. Akali, Heimer, Malzahar are some examples of this (specifically Malzahar).\n I started building Kaenic Rookern because I saw Pianta doing it once against an Akali and holy shit, if does lower your damage on the early game by a ton and on the game overall but it allows you to stay in lane longer, which means you farm more and you put more pressure. If enemy jungle is an AP champ it also helps (even more currently with how heavy Locke is being played) \n And against some of Teemo’s nos miserable matchups (Malphite and Rumble) it doesn’t feel like you are just stuck under turret wanting to die. If anyone feels like you are a dead weight on your team against some of these matchups I really recommend building heavy MR items in exchange for some damage. It’s so very worth it",
+   "id": "1urg4a0",
+   "comments": [],
+   "age_days": 92,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Statik is so good",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1uizngj/statik_is_so_good/",
+   "published": "2026-06-29",
+   "author": "/u/iMajkl",
+   "body": "https://preview.redd.it/po4dlq8ze9ah1.png?width=1028&format=png&auto=webp&s=8299bcc7d0cf0c7495ad0d8be2490b543caeada0\n Statik makes so much matchups that were absolutely unplayable doable. \n Heimer, ryze, cassio, akali. \n You just play safe until statik and then ur a monster. \n I love this item so much, it gives you so much range and it negates the negatives of teemo that he is vulnerable to range. \n All hail statik.",
+   "id": "1uizngj",
+   "comments": [],
+   "age_days": 102,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Do you guys see yourself running exhaust more often nowadays?",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1ufzk3q/do_you_guys_see_yourself_running_exhaust_more/",
+   "published": "2026-06-26",
+   "author": "/u/bluehatgamingNXE",
+   "body": "For like a month or 2 I noticed an increase in exhaust usage on top lane with champs like Yone and Yasuo which beats me pretty good when I don't have exhaust. I decided to copy them myself to counter them and found good results in using it, in most exhaust games I ditched flash and run exhaust ignite. Is exhaust always this good or is it just a recent thing? Is running exhaust ignite almost every game viable and what other matchups do you use it into?",
+   "id": "1ufzk3q",
+   "comments": [],
+   "age_days": 105,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "The State of ADCeemo (IMHO)",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1tnwstn/the_state_of_adceemo_imho/",
+   "published": "2026-05-26",
+   "author": "/u/p250AWP",
+   "body": "Hey all, back again with some thoughts on Teemo ADC aka ADCeemo(?). TL;DR below.\n I put 15 games in with my Shivmo build (https://www.reddit.com/r/TeemoTalk/comments/1tel5ee/shiv\\_poke\\_teemo\\_build/), kept runes and items the same every game except for one -- felt like I was griefing if I didn't build a Liandry's 5th vs a Chogath, Sion, and Nunu. All games played between Gold4 and Plat4 in a role I despise, but I wanted to try it out and you have 2x the chance for DH stackies :3 \n Overall, I went 9-6, granted one loss was from an AFK (14min game) and 2 were supports running it (Vex with TP flashing into them level 1, and a Yi flashing level 1 into their support Shen >.stats I found interesting and recorded:\n Average game time: 30.25 minutes (notable since I took Gathering Storm, unusual for me)\n Average # items: Boots + 3.5 items (notable because ADCs can get Boots+6)\n CS/Min: 8.5\n DH Stacks: 15.4 average\n DH Damage: 1745.2 average\n Overall, the build and runes felt solid, obviously less effective when Teemo is behind or they're mega chunky (Nunu Sion Chogath). My one rune regret is Manaflow band, surprisingly. The stats showed I really didn't get much from it since we're building zero mana items, and I still felt like I was running out of mana. I think Presence of Mind would've felt way better, but then we'd have to give up Gathering Storm.. But perhaps PoM + CutDown is better here.\n Dark Harvest as a keystone was exactly as I'd expected. My best DH game was a 26 stack 4577 damage 41 minute banger LOSS, while my worst was a 5 stack 166 damage 26 minute loss (one of the inting support games). Honestly I didn't know you could do that little damage with 5 DH stack procs, lol. My stacks ranged from 5 to 28, 15.4 being the average and 17 being the median. I think DH was the correct choice for this build, but it still doesn't feel amazing for 50-60% of games. TasteOfBlood was great, GrislyMementos is a great rune, and UltHunter is obviously very good.\n Random extra note that my previous calculations showed that DeathFireTouch was about equal to DarkHarvest once DH hit 18 stacks or so. As this build is pretty much HarvestMaxxing, and we still didn't average 18+ stacks per game, I'd say DFT is definitely the way to go with any build involving shrooms.\n As I said above, ManaFlow band felt lackluster, and I'm not sure how much GatheringStorm even really provided. As most games just barely averaged 30 minutes, that's giving me 48 AP, which only translates to 19 extra Shiv damage per target (40% AP ratio on E poison). Would change this to PoM + CutDown.\n I don't have any comments on the build since I tested it pretty extensively for my initial post. It was always designed to pop squishies, and I think it did that pretty well, but obviously struggles into higher HP teams (VoidStaff dealt with tank resists, but there's not much you can do to 3500+hp bruiser/tanks).\n The role overall felt fine. Trading and farming is a staple of any lane, but you have to factor two more people into the equation, so it's a lot more game knowledge to know as far as interactions/matchups/all-in numbers. Any champ that excels at short trades is great with Teemo, evident from me and a Pyke completely destroying a Poppy+Draven lane. Stuff that has to commit to going in like Naut or Ali I think are worse, since they probably will not be out by the time your blind wears off.\n As I said, I hate this role as supports often sit in bushes doing nothing or are a mile behind you, so you have to carry a lot of the lanes as ADC, which is tough as DarkHarvest Teemo.\n I think the role really shines mid-game when you complete Shiv and can take over mid lane. Being disciplined and always insta-shoving mid waves to get prio and vision and shrooms down is pretty clutch and I think opened up a lot of windows for my team. You're also typically being matched by squishy ADCs, which is exactly the matchup you want to poke with Shiv.\n That being said, ADC overall doesn't feel amazing in the current state of the game. I averaged Boots + ~3.5 items as ADCeemo in games lasting 30 minutes on average. For it to be worth playing ADC and dealing with all the matchups, I'd hope to be utilizing that 6th unlocked slot more often (it only happened once in 15 games). If anything, that slot feels like more of a way to keep ADCs from being slot locked, letting them sit on a Dirk or LastWhisper. As safe as you can feel with a support helping you survive vs having to play vs an Olaf or Darius top, you can just as easily be Teemo Senna vs Naut Samira and basically not get to play.\n Tl;DR: ADCeemo doesn't feel worth it unless ADC income gets buffed, even though the build did what it was supposed to, and the runes mostly performed (besides Sorcery secondary). You're better off (as any champ, IMO) farming jungle versus NPCs, playing support and still getting 2-3+ items per game, or just solo laning and hitting 16 ASAP for level 3 shrooms.\n I think I might test out DFT + my shroom build from the jungle to climb on my main when I get the time, but let me know if anyone has any questions/suggestions/etc. Thanks for reading!",
+   "id": "1tnwstn",
+   "comments": [],
+   "age_days": 136,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Help me find a teemo youtuber that I used to watch everyday",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1t71p6m/help_me_find_a_teemo_youtuber_that_i_used_to/",
+   "published": "2026-05-08",
+   "author": "/u/Aalb",
+   "body": "It was like 8 years ago or something, he was a youtuber that only played teemo with a very funny accent that I sometimes couldn't understand. He also made a teemo matchup spreadsheet with every matchup sorted by difficulty. \n I also recall him showing questionable teemo images for a split second when he made a play and said \"easy\" in a funny whisper tone.\n I tried to look up the youtuber in my view history in youtube with terms like \"Teemo\" or \"shrooms\" but I'm unable to find him and I would like to watch him again for nostalgia",
+   "id": "1t71p6m",
+   "comments": [],
+   "age_days": 154,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Hardest matchup for teemo top?",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1t59inc/hardest_matchup_for_teemo_top/",
+   "published": "2026-05-06",
+   "author": "/u/Beginning-Scene4791",
+   "body": "For me its Yorick and Morde. \n With Yorick, he simply pokes me to much, I find it very hard to evade his pokes. \n And Morde, even I dodge most of his E-Q, if He hits me with his E-Q. Then he just ults me, and most of the times kills me in the ring.",
+   "id": "1t59inc",
+   "comments": [],
+   "age_days": 156,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Quick review of ADC on-hit teemo in the new split",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1sz1y6i/quick_review_of_adc_onhit_teemo_in_the_new_split/",
+   "published": "2026-04-29",
+   "author": "/u/Unique_Ad_330",
+   "body": "With the new statikk shiv as well as Teemo's E being changed to count as on-hit, as well as adding AD scaling to Teemo's E, it was super exciting for me as a teemo adc main to try it on the adc role.\n I know people think it is troll to pick teemo ADC, and in many matchups it is if ur not 100s of games on him in the adc role. Manco1 hit challenger one-tricking teemo ADC so the ceiling for potential is still max in solo queue.\n Like always, Teemo is still a short range 500 auto range champion, which is shorter than Vayne at 550. That said he will suffer into any long range harass botlane setups, my perma ban being Caitlyn. To gap close is his movespeed passive & active, which works quite decent, not as solid as a dash because it can be slowed.\n In a lane where both adcs have an engage support, you will almost always have the advantage because of your Q, (Samira can still fuck you pretty hard) You easily turn enemy engages into kills, if your support engages, you can press your W speed to get in the fight fast and chase enemy down the lane, save Q blind for final blow or if adc starts fighting back.\n For teamfighting, you fight front to back almost always, sometimes if the opportunity is there, you can use stealth passive, wait for enemy team to walk past you, and 1 shot enemies in the backline, but its very risky because of scanners and AoE that can detect you.\n The new Teemo statikk shiv allows you to instantly spread your E poison on 4-6 enemies close together, which is huge in teamfights for teemo, as well as clears! Previously you couldn't do it even with runaans, because the E did not count as on-hit.\n The AD scaling is also huge, because it opens up possibilities for new builds in too heavy ap team comps to opt for full AD builds, you also benefit from hybrid items way more like hextech gunblade, statikk shiv, guinsoo, which are all very much good items for Teemo ADC.\n -----------\n My main Teemo ADC runes were dark harvest & PTA\n Dark harvest - in heavy long-range/assassin enemy comps where i need to play safe & scale.\n PTA - in bruiser/tank enemy comps where i am able to get in there and pump autos.\n Since Teemo is getting more attackspeed items, a new possibility is Lethal tempo. Which really opens up every kind of on-hit build & full AD, Semi on-hit + AP.\n Really excited for this split, I hope to see some Teemo ADC's besides myself.",
+   "id": "1sz1y6i",
+   "comments": [],
+   "age_days": 163,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Hard matchups as a beginner",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1sbi3mj/hard_matchups_as_a_beginner/",
+   "published": "2026-04-03",
+   "author": "/u/Abdel_SaidEH",
+   "body": "hi, i'm a jax main and i've been maining teemo recently, but i've been really suffering against some matchups like sett, morde or mundo, do you guys have any tips or strategies against those kind of champs?\n also, i ussually play shrooms teemo, so i don't really care how i'm in lane, cuz i start carrying mid/late game by infesting enemy jg and the river with shrooms. but anyways i'd like how to just trade better against them.",
+   "id": "1sbi3mj",
+   "comments": [],
+   "age_days": 189,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Help Complete the collaborative Teemo matchup spreadsheet - share tips on your favorite/hated matchups",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1ruir5d/help_complete_the_collaborative_teemo_matchup/",
+   "published": "2026-03-15",
+   "author": "/u/GyrosSteelBall",
+   "body": "Hey Teemo mains!\n I've started a collaborative matchup spreadsheet for Teemo for his most played matchups in Master Tier. Right now we have deep data (win rates, gold differences, runes, item builds, skill orders) from Master Tier games in the last 30 days but the tips section is largely incomplete\n I'd love for this to become a collaborative resource for the community -- you can add lane tips and share your experiences on how to overcome various matchups\n https://lolmatchups.net/Teemo/matchups",
+   "id": "1ruir5d",
+   "comments": [],
+   "age_days": 208,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Why I don’t play teemo top",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1rp338w/why_i_dont_play_teemo_top/",
+   "published": "2026-03-09",
+   "author": "/u/Unique_Ad_330",
+   "body": "I want to make a discussion regarding teemo. Because of his kit, items & runes accessible to him, he has viability in all roles, and there has been players consistently getting high elo in all roles for teemo.\n I personally think teemo has 2 great strengths, sidelaning & map control.\n Due to his mushrooms and passive he can be great at sidelane to avoid ganks or even turn ganks into free kills. Not as straight forward as a heimerdinger though where you just harass enemy under his turret until u get ganked, and it requires you make the choice between aoe clearing waves or have a mushroom guard rail.\n Teemo top makes a lot of sense in the way that he can almost always be safe vs melee matchups. But he doesn’t have the freedom to roam which is his other strength.\n Being a support main for many years, I really love the malignance + liandry combo for teemo when i am out to ward or roam. It essentially gives me an extra ward, with opportunity to deny enemy out of objectives, slow them down to objectives or increase the risk of contesting it.\n It feels like i am more in control of our junglers destiny than the jungler himself. Which i can’t think of another support to teemo supp that can do that.\n Teemo supp lane is rough for the most part, you get caught by engage supp or jg gank or any cc, you or adc is dead or both. You have to use bushes to your advantage & you have to safely poke enemy botlane down & dodge skillshots perfectly. With your extra movespeed it should make it a lot easier to do so.\n I still prefer teemo in support because of the impact i can have on the map at all stages of the game.\n Curious what you guys’s thoughts are.",
+   "id": "1rp338w",
+   "comments": [],
+   "age_days": 214,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How do you lane vs Yasuo?",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1racpi8/how_do_you_lane_vs_yasuo/",
+   "published": "2026-02-21",
+   "author": "/u/SivirMeTibbers",
+   "body": "I've been playing top this season and haven't had too many difficult matchups in Gold. I usually ban Yorick or Malphite. The other day I played against two separate Yasuo tops and got dunked both games. I try to poke out his shield as much as I can but I swear I can't walk anywhere close enough to last hit. They just E me, W my blind and just sticks to me like glue lol. They run sweeper and I can't protect my shrooms.\n What can I do in this matchup because I don't want to waste a ban on him but I want to play league of legends =(",
+   "id": "1racpi8",
+   "comments": [],
+   "age_days": 230,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Young Teemo advice",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1r854zc/young_teemo_advice/",
+   "published": "2026-02-18",
+   "author": "/u/Pespo_specialist",
+   "body": "I’m new to the game. I always played simrancing games or football games so this are my first months with Teemo. I play only Teemo, the game reward me with the little devil skin in the marketplace so I’m kinda excited. I can’t play as much as i desire so a struggle with some matchups like Sion (my nightmare). How do you face it in top lane? What is your worst opponent (and how you face it)? Thanks",
+   "id": "1r854zc",
+   "comments": [],
+   "age_days": 233,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to do the Teemo Level 1 Cheese",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1qxhsp9/how_to_do_the_teemo_level_1_cheese/",
+   "published": "2026-02-06",
+   "author": "/u/RamyAura",
+   "body": "Hi guys, \n For the past few years I've been doing the level 1 Teemo Cheese and had a lot of success with it even vs some of the best pro players and one tricks out there so I thought I'd create a guide to teach people how to do it. \n Hopefully some of you find this useful and it helps you deal with the difficult mage top matchups out there!\n https://www.youtube.com/watch?v=gyWGLQYigsE",
+   "id": "1qxhsp9",
+   "comments": [],
+   "age_days": 245,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Hidden Temo mechanic I'd like to share",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1qm6xe1/hidden_temo_mechanic_id_like_to_share/",
+   "published": "2026-01-25",
+   "author": "/u/budgetm1lk",
+   "body": "Hello guys, my player name is Vayu, I've previously onetricked Teemo to rank 1 EUNE, and I consistently hit Challenger on the EUW ladder by playing Teemo and Gangplank.\n About a year ago I realised that you can do a bug/feature on Teemo, which allows you to throw your shrooms twice as fast.\n After learning about this, I've only ever played the shroom build, and every site I've ever checked, I've ALWAYS had the highest damage per minute compared to any other high elo Teemo player in the world, at around 1175DPM.\n I'm unable to find a website where I can track champion specific stats for previous seasons, so you'll just have to trust that I've crunched the numbers several times over hundreds of games.\n I've only ever gotten to play Teemo once in my time playing T2 competitive games as a toplaner, as it's been permanently banned in every single match except one.\n I'm here to share the undisputed highest damaging Teemo gameplay and build for toplane Teemo.\n I won't bother going too in-depth into why this is mathematically correct or the reason why x is built instead of y. But I will promise you with absolute certainty, that this is the highest DPM build you can achieve on Teemo.\n Summoner spells:\n Flash ignite.\n Runes:\n PTA, Triumph, Alacrity, Cutdown, Taste of blood, Ultimate Hunter.\n Shards:\n attack speed, adaptive damage, FLAT HP.\n These runes are ALWAYS! taken, except for matchups Riven and Olaf, where secondary tree is replaced by boneplate and unflinching vs Riven. Celerity, Nimbus cloak and tenacity shard vs Olaf.\n Build:\n The enemy team has no frontline except their support:\n Liandrys -> magicpen boots -> malignance -> shadowflame -> Zhonyas/Voidstaff.\n The enemy team has 1 or more frontline champions excluding support:\n Liandrys -> Magicpen boots -> Malignance -> Voidstaff -> situational items such as Zhonyas and abyssal mask.\n If the enemy has high healing support champions such as Sona/Soraka you buy oblivion orb AFTER you've finished building liandrys, magic pen boots, malignance.\n Boots can be exchanged to swiftees vs Olaf, Ksante, Darius. If you chose to do that, Voidstaff 3rd item is mandatory no matter what.\n Teemo will never ever need more than 3 core items in any given game to be relevant. Once you reach 3 items and level 16 on Teemo, you've become Thanos.\n Skill points in most matchups:\n E,Q,E,W,E,R,E,W now max E->Q->W.\n Skill points vs champs where you would rationally think that swiftees are good, but then you realize that you're playing Teemo, and Teemo has W:\n E,W,E,Q,W,R,E,W. now max E->Q->W.\n General gameplay.\n Bring your check sheet.\n Am I level 4 or below, and not vs the best early game champions?\n Yes -> kill his ass you're Teemo with PTA and Ignite.\n No -> Play smart, DO NOT TRADE HEALTH. DO NOT DROP CS.\n Rule number 1 in toplane. You have no shame for picking ranged. Rule number 2 in toplane. The enemy will always outshame you. The enemy will always have Dorans shield and second wind. Once they've started the game with ying and yang equipped, you will win the battle but lose the war. Do not ever go for singular auto attack trades in level 2. They will not be worth it, however it can be done level 3 if you have push and you can de agro the wave.\n Once you' checked the above. You check again.\n Am I level 6 with enough gold for 2-3 components?\n Yes -> instant shove with shroom and base.\n No -> play save and stack 2 shrooms. Double shroom next stacked wave and base.\n Early game complete.\n This is the point where Teemo in general is pretty terrible, especially with this build. You try to keep the pressure up, but you never ever want to die in this phase. You don't greed for plates. You don't roam. You just farm.\n level 11: \n We up GOOD. 1 shroom 1 auto on melee wave is gone. We remember this sentence. We shroom nearly every wave that feels nasty to walk up to. If you're getting that thought which tells you, damn idk if I should shroom this wave or save it, you fucking shroom it.\n level 16:\n You've ascended to Kayle and Kassadin levels of game breaking.\n You use the illegal Teemo Shadow Phantom R combo and the enemy team complains that they've never seen this done before and cannot believe what they've just been graced with, since nobody knows that this combo exists. \n Hidden combo: Phantom Shadow shrooms\n I will do a video showcasing how this is done tomorrow.\n gameplay\n Rank 1 and competitive Teemo MVP game",
+   "id": "1qm6xe1",
+   "comments": [],
+   "age_days": 257,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I share with you an all-in-one Teemo Jungle spreadsheet",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1q6lphw/i_share_with_you_an_allinone_teemo_jungle/",
+   "published": "2026-01-07",
+   "author": "/u/Kangouwou",
+   "body": "Hello,\n Last year, I've shared the same spreadsheet for the new season in this community. After updating it, I reckon it is appropriate to share it again for fellow Teemo jungle players. \n Please note that it will probably be further completed with the approaching new season, but I expect that most of what is in it right now will remain valid.\n The guide has many tabs and can be found here. It still can be recapitulated in a single \"Quick Spreadsheet\" tab, whose I captured into a screenshot to post here for quick access.\n https://preview.redd.it/2lhrbqaqpybg1.png?width=1196&format=png&auto=webp&s=d276d1145f7ebfe06f2985e54bc22b756c37afe9\n Feel free to ask any question. By all mean, I don't pretend to be the best Teemo player, I'd be happy to be proved wrong !",
+   "id": "1q6lphw",
+   "comments": [],
+   "age_days": 275,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What are teemos worst matchups",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1pckrd5/what_are_teemos_worst_matchups/",
+   "published": "2025-12-02",
+   "author": "/u/Alternative_Low843",
+   "body": "Im thinking about making teemo my otp but idk what are his worst matchups i heard that vs malphite you can rush heartsteel or kaenic rookern and but idk how to counter other hard matchups",
+   "id": "1pckrd5",
+   "comments": [],
+   "age_days": 311,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How do I actually learn Teemo?",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1p3d02f/how_do_i_actually_learn_teemo/",
+   "published": "2025-11-21",
+   "author": "/u/Jeysn-r",
+   "body": "I love Teemo and his whole “agent of chaos” vibe, but I have no idea how to play ranged champs. I’m Gold, mostly climbed with Trundle/Tryndamere, and only have like 35k mastery on Teemo with no real experience. Is he a good blind pick? Can you actually just neutralize lanes with him? And what are the best sources for real educational content (tips, tricks, items, matchup guides, etc.) about playing Teemo properly?",
+   "id": "1p3d02f",
+   "comments": [],
+   "age_days": 322,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Zaahen matchup",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1oyoihw/zaahen_matchup/",
+   "published": "2025-11-16",
+   "author": "/u/International_Pie752",
+   "body": "Another champion in top lane with a lot of different tools to be really annoying to match as somebody as simple as Teemo, but what are you guys expectations on this? Ambessa was also so busted and Teemo did a really good Job against her",
+   "id": "1oyoihw",
+   "comments": [],
+   "age_days": 327,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Teemo vs Morde",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1ooqbcl/teemo_vs_morde/",
+   "published": "2025-11-05",
+   "author": "/u/Hefty_Delivery3180",
+   "body": "I just got shit talked by my own team for me picking teemo into morde? Am I supposed to lose this matchup? I don’t think I’ve ever lost to a morde in lane. And it turns out I killed this morde 5 times before turret plates fell. I was told if I won lane they would buy me a teemo skin and my team was so butthurt from me winning lane they did not want to buy for me or kite in team fights since Khazz and their nautilus only wanted to jump on me",
+   "id": "1ooqbcl",
+   "comments": [],
+   "age_days": 338,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What is the best temo skin for you?",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1om2lln/what_is_the_best_temo_skin_for_you/",
+   "published": "2025-11-01",
+   "author": "/u/i-am-will-i-aint",
+   "body": "I've gotta say different matchups bring out a different skins, personal fave is between pink beemo or Chinese teemo.",
+   "id": "1om2lln",
+   "comments": [],
+   "age_days": 342,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How well does teemo scale?",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1o9c7wz/how_well_does_teemo_scale/",
+   "published": "2025-10-17",
+   "author": "/u/Crafty_Fan_1491",
+   "body": "I wanna pick up teemo because quite frankly i like all of his kit , ranged top , ms , tilting to play against , most notably its an adorable champ and i was wondering how teemo scales and how he would be as a blindpick into most matchups.\n thanks",
+   "id": "1o9c7wz",
+   "comments": [],
+   "age_days": 357,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Nasus matchup",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1ns9s34/nasus_matchup/",
+   "published": "2025-09-27",
+   "author": "/u/Hammod1",
+   "body": "",
+   "id": "1ns9s34",
+   "comments": [],
+   "age_days": 377,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What happened to Alan234?",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1lqlhkc/what_happened_to_alan234/",
+   "published": "2025-07-03",
+   "author": "/u/SomeExcitingAsian",
+   "body": "Alan234 was the biggest reason I managed to climb to diamond playing Teemo only. This was largely due to the spreadsheet and guides he made in the past. Sadly his last video was 10 months ago and he doesnt update his spreadsheet anymore soo im finding it hard to play against certain matchups aswell as choosing the right runes. I also checked his twitch and it seems like he's playing other games a lot. Did he just lose interest in the game and TEEMO?",
+   "id": "1lqlhkc",
+   "comments": [],
+   "age_days": 463,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Who’s your always to go ban?",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1jxqvq3/whos_your_always_to_go_ban/",
+   "published": "2025-04-12",
+   "author": "/u/International_Pie752",
+   "body": "I was curious who’s the ban you pick as Teemo no matter the ELO, I have an idea of his bad matchups already like Cho, malphite and so but I was curious to see what you all do",
+   "id": "1jxqvq3",
+   "comments": [],
+   "age_days": 545,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I just launched a website dedicated to almost all Teemo matchups",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1jasgtx/i_just_launched_a_website_dedicated_to_almost_all/",
+   "published": "2025-03-14",
+   "author": "/u/arthurlanches13",
+   "body": "Hello! I'm Arthur Lanches, current RANK #1 on BR server with 2035 LP, and I just launched my own website dedicated to Teemo's matchups, it is all in portuguese, but the translation works just fine. It includes tips and tricks, as well as enemy cooldowns, builds and runes.\n I hope this helps, and any questions/feedback, lmk.\n arthurlanches.com.br",
+   "id": "1jasgtx",
+   "comments": [],
+   "age_days": 574,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I made it to Master Tier! Teemo only with a CDR Dark Harvest Build.",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1hgugra/i_made_it_to_master_tier_teemo_only_with_a_cdr/",
+   "published": "2024-12-18",
+   "author": "/u/TrickyBAM",
+   "body": "Just hit Master Tier as Teemo, and I wanted to share my experience with the build and playstyle that got me there.\n I focused on a cooldown reduction (CDR) Shroom build, using Dark Harvest, Ultimate Hunter, and Transcendence for cooldown scaling. My core items were: 1. Liandry’s Anguish 2. Malignancy (for the cooldown boost and utility) 3. Blackforged Torch\n The key to this playstyle is recognizing Teemo’s early-game weakness. You have to play safe, even if that means giving up some pressure. It’s okay to die early if you’re setting up for the long game—Teemo is all about scaling. Once you start stacking Shrooms, you can control the map, secure objectives, and punish over-aggression from your enemies.\n Tanks are the hardest matchups in this build, so try to freeze your wave often and Shroom your lane for safety. If needed, Shroom the wave to quickly rotate to help your jungler. The map control Teemo offers becomes incredibly powerful in the mid-to-late game, especially for securing objectives.\n This method plays to Teemo’s strengths as a high-damage map control champion, and it’s my favorite way to play. Getting to Master Tier felt amazing, and I hope this inspires other Teemo mains to embrace the Shroom life and focus on scaling!\n https://www.op.gg/summoners/na/TrickyBAM-NA1",
+   "id": "1hgugra",
+   "comments": [],
+   "age_days": 660,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I've been a Teemo main since League Beta in 2010 and I want to tell you something",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1gq9q1g/ive_been_a_teemo_main_since_league_beta_in_2010/",
+   "published": "2024-11-13",
+   "author": "/u/FLDS_ExMember",
+   "body": "Teemo players hear me out. The Riot people designed the entire minion waves around Teemo. They calculated the pushing speed. They implemented minion aggro based on Teemo's poison. They put minion code to go off their pathing to trigger shrooms in the area. They made tower shots reset if the poison was ticking on a champion. Riot designed Teemo's wave clear with numbers and calculated the rest of the game based on that. Teemo used to be the best champion in the game. Vamp scepter was always a first buy. Attack speed Teemo was the strongest in early years. But every year Teemo would get nerfed. In fact he got nerfed repeatedly for 10 years in a row until they changed his shrooms to bounce, able to move stealthed in bushes. And each year they reduced his attack range until he had the lowest range in the game for ranged champs. Then they balanced all the other champions around Teemo. His poison back in 2010 was equal to starting with a Nashors at lvl 1. And his shroom damage was like having a Rabadons deathcap at lvl 1. They repeatedly nerfed him into the ground. Now Teemo gets hate camped top lane and sometimes can't even play the game. I've had at least 10 accounts over the years get banned because I couldn't farm my lane as Teemo. Maybe I'm toxic. But if I can't play the game I'm leaving. I can just make a new account. In all my years of playing Teemo I had a 26 game win streak with Teemo mid using lich bane as first item when it came out. Now Teemo is basically unplayable in most top lane matchups. Imagine playing a champion with no abilities. All he can do is run at you with the lowest attack range in the game. By the time I get in range to auto attack I'm stunned to death. I can't help the team in a fight unless I throw a shroom and run because I can't auto attack. All I can do is pull aggro and get hate camped. So when the Teemo rework comes out, all I want is +25 attack range on Teemo. Or else make my E an active ability that applies poison on my next attack. Or maybe make poison passive and give Teemo's E a roll ability like in Wild Rift. Either way Teemo needs some type of ability that he can use in a team fight besides throwing a shroom at a bunch of tanks. Because it's literally impossible to fight with the lowest attack range in the game and poison damage that's nerfed into the ground. I have to build a specific full magic damage path just to break the 47% win rate. And I can only win lane against some champions. Overall, I've been bronze for 14 years because I'm a Teemo main. And he literally can't do anything in a team fight.",
+   "id": "1gq9q1g",
+   "comments": [],
+   "age_days": 695,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Peeps be sharing their teemo match up tierlists. Here's my contribution. Feel free to roast me.",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1gggrm4/peeps_be_sharing_their_teemo_match_up_tierlists/",
+   "published": "2024-10-31",
+   "author": "/u/IAmGuavaFruit",
+   "body": "",
+   "id": "1gggrm4",
+   "comments": [],
+   "age_days": 708,
+   "recency_weight": 0.7,
+   "topics": [],
+   "stale_items": false
+  },
+  {
+   "title": "Didnt agree with the other top matchup tierlist. Here's mine",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1gfge27/didnt_agree_with_the_other_top_matchup_tierlist/",
+   "published": "2024-10-30",
+   "author": "/u/sipiwi94",
+   "body": "",
+   "id": "1gfge27",
+   "comments": [],
+   "age_days": 709,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "my personal ban tierlist as a gold peak temor",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1gf2sgi/my_personal_ban_tierlist_as_a_gold_peak_temor/",
+   "published": "2024-10-29",
+   "author": "/u/haimito_",
+   "body": "the only reason I don't permaban the ones bellow morde is because they are really uncommon, morde is just wayyy to common and provides more value to his team than I ever can (no matter if he's 0/2/0, he tp's to a dragon fight and gets to 3/2/0)\n Feel free to AMA or criticize me xD",
+   "id": "1gf2sgi",
+   "comments": [],
+   "age_days": 710,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I coded a Website for comparing Champion Winrates in 1v1 Fights at each Level",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/1dwq60p/i_coded_a_website_for_comparing_champion_winrates/",
+   "published": "2024-07-06",
+   "author": "/u/Nexosharp",
+   "body": "Hey,\n I’m currently working on a website for League of Legends players (already riot approved), which offers unique statistics that you won’t find on other platforms like OP.GG, U.GG, or Lolalytics.\n What makes It unique?\n 1v1 Winrates by Level: Compare how two champions perform against each other in solo fights at each level from 1 to 18. For example, you can see the win percentage for Darius vs Garen at level 1, 2, 3, and so on.\n Counter Search Tool: Input a champion’s name and find out which champions have overall the best win rates against them in 1v1 fights, based on millions of solo kills data.\n Further features for jungle & bot lane soon...\n All the data is scraped from real ranked (bronze to diamond) games, providing accurate and up-to-date statistics on champion matchups from the past 30 days.\n Since I don't use simple game outcomes or \"general overall\" statistics as a winrate, but rather actual data from millions of 1v1 fights for each individual champion and level, this tool can be useful for players who want to improve their understanding for certain matchups.\n So how is this helpful? For example, you are in loading screen, playing Teemo Top against DrMundo and you wonder, if or when you will be statistically stronger or weaker in an all-in 1v1 fight against him. Just look it up on my site.\n https://preview.redd.it/d9ne2w41mwad1.png?width=1256&format=png&auto=webp&s=caab90f267b4105f4c2cfa8a2638d41c801724b2\n As you can see here, while Teemo is definitely better in early fights, Mundo gets the upper hand as soon as he reaches Level 10. Mundo overall has a 49.63% winrate in 1v1 fights against Teemo based of 22039 processed 1v1 fights. Knowing that, you try to take as many early fights as possible to get ahead, but stay out of fights as soon as Mundo reaches level 10.\n If you are interested, you can check it out here: https://1v1showdown.lol\n As a small heads up, the website is in an early development state. I just started using the API a week ago, so there aren't that many solokills inside the database for every single matchup yet (30.1 million), however the size will increase daily. Also the Website is a bit slow right now and crashes sometimes if too many users connect to it at the same time, but if the site is well received by you, i will definitely change the web host, so that everything works more smoothly in the future.\n Let me know if you have any feedback, other feature requests or questions.",
+   "id": "1dwq60p",
+   "comments": [],
+   "age_days": 825,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "A more serious explanation as to why Teemo is a STRONG champion.",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/13e8rq8/a_more_serious_explanation_as_to_why_teemo_is_a/",
+   "published": "2023-05-11",
+   "author": "/u/Yung_Fappy",
+   "body": "A few days ago I wrote a not so serious post about why I believe Teemo is a strong champion. While some of my points in that post were satirical, the core message is going to stay the same here: Teemo is NOT weak and should NOT be considered weak. Before I go into analysis of why i believe teemo is strong let me present some of my teemo credentials. I am a challenger teemo streamer and have been playing teemo for several years, I basically have no life so ive tried everything there is to try and have watched hundreds of teemo hours certainly. That being said, lets take a look at teemos abilities.\n ​\n Lets start with teemo' Q. This ability is very strong but also highly situational. The ability is essentially only damage against certain champs that do not use auto attacks, but can be absolutely insane if timed correctly against champions that are auto reliant. I don't strictly mean against ad carries. Leona on the other team? blind her stun. Crank on the other team? blind his knockup. Laning vs nasus who has ulted you and ghosted at you and withered you? Blind him and go invisible. (Nasus ulti damage does not prevent using passive.) That being said, I don't think this ability should be maxed out until LAST. I believe that the base blind duration of 2 seconds is more than enough in most cases and that teemo's W is a better ability to max second.\n ​\n Next is Teemo's w, move quick. A lot of people hate on this ability saying that's its piss dog booty garbage, but in reality I think the ability is insanely good. League is all about efficiency and this ability oozes efficiency. Recall, walk back to lane faster, kill the wave faster, go farm a jungle camp faster, rotate to an objective faster. You work on a different time scale when you play teemo. The champion gets places faster. This is incredibly strong but people do not realize it because it doesn't give him straight up combat power. Add to this ability the active in combat to kite out opponents and win fights you have no business winning because of the space it creates. I believe maxing this ability second in most cases is the correct move.\n ​\n There is not much to say about Teemo's e. You basically have to max it first unless you're doing some weird q max build for a counter matchup, but I would not recommend doing that. This is Teemo's dps ability, and why you want to itemize attack speed on him. The extra damage to jungle monsters, coupled with teemo's inherent speed increases his efficiency even more. With an ap and attack speed build, you will do neutral objectives incredibly fast as well.\n ​\n Last is Teemo's shrooms. Personally I believe that people tend to over value shrooms. I think the strength of shrooms is there waveclear. You can toss a shroom on every single wave and start moving to do something else (faster than other champs!) Obviously they can help with vision as well. But using shrooms as your focus in a Teemo build feels more like a christmas land fantasy to me instead of being practical. Don't forget to always keep a shroom in the bank in case you need to put it down to kite out an enemy.\n ​\n Another integral part of Teemo's gameplay is his passive. This ability allows you to win lanes that you should absolutely lose if used correctly, win fights that you would lose without the extra attack speed, and even get picks on important enemy members that translate to objectives and wins. You can even use this ability in conjunction with blind to wait out ultimates like tryndamere and nasus. Use the passive whenever you can but not if it is going to waste time. \n ​\n Lets close out by talking a little bit about builds. As far as i'm concerned there are 3 ways to play teemo. Of those 3, 2 of them are actually viable and good builds. The first one is the one that I play almost exclusively because it is strong and fits my playstyle: nashors -> rift with pta. This build provides a lot of sustained damage with good split pushing power and teamfight power as well. The other build I would recommend is going liandrys with fleet. I don't recommend playing aery with this build because I feel aery damage is lackluster and Teemo can't use the heal/shield portion of aery. The 3rd build that I do not see as a viable option for teemo is the ad/off-tank build. I firmly believe that playing teemo with a ad or tank style is just gimping your chances of winning when you COULD pick an actual phsyical damage dealer or tank. That isn't to say that you can't see success and win games doing that, I just believe its not how teemo is meant to be played. \n ​\n In a short conclusion, Teemo is a strong champion when played and itemized correctly. All parts of his kit are strong.",
+   "id": "13e8rq8",
+   "comments": [],
+   "age_days": 1247,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "FAQs on items and builds",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/12a5i0m/faqs_on_items_and_builds/",
+   "published": "2023-04-03",
+   "author": "/u/SovereignKitten",
+   "body": "​\n What is best? You absolutely need to grasp Teemo's essential concept. No matter how effective a playstyle is or how well it may be doing for another player, regardless of rank, it is irrelevant if you don't understand it.\n You are simply being ignorant of this concept no matter what champion you play. It's like jumping on Path of Exile, looking up a build that is performing well, and copying it without knowing anything.\n How it functions, why it completely wipes a map, making it impossible for you to incorporate some of your knowledge into the build to customize it to your liking. This makes sense to you right?\n ​\n The basic Mytics Liandry's - is for supportive shroom and (Q) damage, objective and map control and team play.\n Inexpensive, simple to activate in the early game, and an excellent way to make the opposing Team focus all of their efforts on obtaining four or five oracles to render you useless and allowing your allies to have a lot of map dominance due to vision.\n Riftmaker - is for selfish extended fights, usually against bruisers/mages, up close and personal.\n A rune like Fleet or Grasp will work perfectly for you if all you want is sustain. Due to the enormous gold sink required, this build normally takes longer than 25 to 35 minutes to begin working properly.\n Luden's - is for sneezing and blowing your targets away with a single auto or with the full (E) (Q) ignite.\n Hext-Alternator causes (E) to proc this item. So long as Shadow flame isn't upgraded. Niche but good.\n Heartsteel - While funny doesn't offer anything outside of raw tankiness.\n Yes, it's funny to have 6-8k Health and a ton of resistance, but you're going to do no damage. If your intent is to climb. You're better off sticking with the previously discussed mythic items.\n Shieldbow - No.\n The item is basically a inferior version of Riftmaker. If you can't hit people with a basic auto, you get no sustain. If you get put down below a threshold, you will get a shield that will go on cooldown, forcing you to play around it like you would a Zhonya's Hourglass. It's bad practice to use this item.\n Teemo benefits from solid HP, not from mediocre things that don't work with his lack of defense.\n ​\n The Runes Summon Aery\n While not performing as well as it did when new runes were introduced, this rune is primarily focused on assisting new players in properly understanding Teemo and his playstyle. Passive-Aggressive.\n The rune itself doesn't hit as hard while going up against numerous champions equipped with things like \"Maw of Malmortius\" or \"Force of Nature.\" The notion is more concentrated in the early game and drastically diminishes into the late game, which is why it's used in lower ranks and sometime high rank games. You get the most out of it by winning your lane quickly and closing out before late game.\n As the game progresses into late, you'll find it more difficult to do tasks on your own, requiring you to join up with your allies, which in low rank is a grave mistake because you have no team often. Because of its limited synergy outside of constant poke damage, Liandry's Anguish playstyle is more suitable.\n I oftentimes see a lot of people playing Riftmaker or even tank while trying to climb to a higher rank, why? This is not the intended purpose of this rune. You want to dominate early and close early.\n Attack a target with (E), the damage will activate Aery. Walk forward, pick her up. It will hit again. \n If you're going up against very difficult champions that you can not auto, poke with your (Q). That's it.\n ​\n Press The Attack\n This rune seems to stump a lot of players trying to do what we previously established. Copying the meta. While yes, this rune has been the most played rune by the general public it has it's style.\n Basic attacking is the rune's sole intent. You are literally pursuing someone while pressing the attack on them and running them down. In a sense, you are speed, so why are you maxing (Q) and then (E) the whole purpose is to max your (E) and put more points into your (W) so you can manage this.\n In addition to having the choice to build very defensively, there is a synergy between attack speed and damage items. This is especially true if you decide against building the now-expensive Nashor's Tooth, which does very little for your late game but a lot for your kiting and csing ability early game.\n Use (E) three times to attack a target. Back off if you can't strike them with your three basic attacks. If they all hit, you can follow up with a (Q) attack to deliver 8–12% more damage overall. Back off.\n Your primary source of damage is not (Q). Unless you are using Liandry's Anguish, which is increasingly prevalent owing to how idiotic the meta is, it will literally do no damage on its own. So unless you do have this item, stop wasting your time with (Q) max and play (E) into (W) into (Q). \n ​\n Grasp\n As long as you are physically able to procc the effect as frequently as you can, despite receiving damage in return, thanks to sustain, this rune is both a very safe and aggressive choice of playstyle.\n Unfortunately, it doesn't offer as many itemization or build options as Fleetfoot does because you don't have access to many of the subsidiary runes, such as Last Stand and Gathering Storm.\n This means that you are stuck in the Resolve Tree which really only has 2 good runes that actually help you while the others are mediocre at best depending on the situations. You also have access to the 2 runes in the sub rune slot, but this is very limited in what you can do with your build overall.\n Players that aren't necessarily cowards but dislike how vulnerable Teemo feels against specific opponents, such as Malphite, Gangplank, Camille and what not frequently choose this build.\n Because on-hit Riftmaker would take too long to construct and, as we stated, deliver less damage owing to the lack of runes in your subs, it only really works well with Heartsteel and Liandry's.\n Grasp is a really easy rune to play. Strike an enemy or a minion, wait for three seconds, then hit them with a basic attack. You will heal and deal additional damage to them. Try to repeat this action every 3 seconds, making it very difficult for your opponent to make any form of retaliation.\n This enables you to become tanky and outlast your opponent if you are still learning how their champions function. But once the laning phase is over, this rune becomes a hinderance. Because you'll have a lot harder of a time getting consistent stacks, while also doing a lot of damage compared to other runes. \n The urge to get stacks consistently is one of this rune's main issues. You can wind up getting killed as a result since you were on edge aggressively for a good 2-3 minutes because you couldn't acquire one.\n ​\n Phase Rush\n This rune is frequently used by people who value survivability over damage or aggression, similar to the use of Grasp. The burst of speed is beneficial for champions like Nasus or Olaf, but it doesn't provide any other noteworthy advantages. You would actually be better off increasing your (W) skill.\n I personally don't get the appeal of this playstyle these days, despite my heavy use back in the day, but I can see why some players favor the significant increases in mobility and usefulness.\n Nonetheless, you can play in a very similar way with Fleet or PTA by using the sub runes for Tenacity and Merc treads, even with the nerfs. Cloud Drakes would provide much more effective defense.\n Simply use any skill or basic attack to hit your target three times. This will provide a speed burst and a 75% slow resistance. It is crucial to remember that if you recently struck a target, the rune will remain active for (1 out of 3 stacks) until your poison wears off. Effectively meaning 3 seconds of (1 out of 3.)\n So you really should only ever need to hit them twice to activate the rune at any time of your choosing.\n ​\n Fleet Footwork\n Is not the \"best\" rune in any sense. No rune is or ever was. It's personal preference. He has a variety of playstyles, and he may use this or another one depending on how much he can get away with it.\n As well as assisting his team with a build centered around objective control, a high rank player contributes more to the game than a lower rank player who will normally focus more on split-pushing.\n More so it is a decent stand in for the only sustain item in the game that has benefit on Teemo, being Riftmaker. This accelerates the transition into Liandry's defensive shroom orientation. It also leaves room for other things like Luden's Echo if you really want it. The rune itself is great for positioning.\n Where as a Low rank player would have more agency split-pushing and keeping themselves mobile with due to the rune giving back upwards to 250+ sustain against towers and opponents. This is once again, preference based on your rank and your needs. If you prefer fighting hard. PTA is better.\n Because you have access to a large number of runes and can essentially combine numerous runes into one, this playstyle has a wide range of build options. Second Wind, Gathering Storm, etc.\n Phase Rush, Grasp, and Press The Attack are in essence all combined to create Fleetfoot, although without the additional damage of 8-12%. It offers rather solid mobility, survival, and a wide range of itemization to allow you to make the necessary adjustments to keep you relevant in your games.\n You have to keep your eyes on your energized stacks, if you would like to trade with your laner, so as to get a boost of movement speed to get away from them or to sustain through their poke and out damage them in the process, so long as you have the proper runes to help you with that purpose.\n Even if you don't attack your target, you will constantly get a sliver of health from minions each proc.\n ​\n Arcane Comet\n \"You're trolling.\" Do the math.\n The damage from late game shrooms compared to Dark-Harvest is absurd and laughable.\n Whatever build you choose, you will always out-damage in terms of raw shroom damage with Comet late, though you do give up your early game. This rune is better suited for support. The rune is on a 5 second cooldown recovery due to each poison tick tick, the rune will come off cooldown as soon as the poison from your shroom expires making it way more frequent. This makes it extremely effective in close quarters combat, around objectives, and through the jungle.\n In theory, this is the best rune because one shroom at max level, in an even matchup where you are not level 18 and the enemy is not at a 6 level disadvantage, your shroom will deal at most 2100 in one proc to a squishy, whereas Dark Harvest would only deal 1750 and not activate unless they were 80% HP prior to stepping on the shroom, I would only ever take this rune into fun game modes. \n ​\n Electrocute\n Works similar to other runes that have a stacking mechanic. So just like Phase Rush, you're going to be constantly poking your opponent every 3 seconds to continue staying in a (1 out of 3) stack.\n Once they fall below the threshold of 30-40% HP, you only need to follow up with an auto, (Q) & ignite.\n However, these days the rune doesn't function that well into competent players who build Maw. So it's not very highly chosen in comparison to all of the other runes that have a lot of optimization.\n ​\n Dark Harvest\n Ever developed a drug addiction? With this rune, you'll experience it. This rune's inconsistent nature makes it one of the most aggressive playstyles you can employ, much as how Grasp stacking operates.\n The rune itself works well with Luden's Echo burst and Liandry's Burn damage. Many people are unaware of the other form, Riftmaker on-hit, which is for when you ultimately have no chance at stacks.\n The premise behind this rune is that you want to enter the late game. It serves no purpose in the early game other than providing stacks at a minimum and maximum rate of once every 1-2 minutes. You should have 22–25 stacks by the end of 30 minutes of the game to out-damage a rune like Electrocute.\n All you have to do with this rune is consistently poke and damage your opponent. Your not actually trying to kill them, but rather keep them low enough so you can consistently stack them at 30% HP. \n Once the rune comes back up, then you would want to time your attack correctly to both stack and kill them so that once they come back to lane you will be a few seconds away from obtaining another. \n Keep in mind that this is not a rune for a passive player. Due to the fact that you never know if your laner will rage quit or spend the entire game under a tower, this is one of the most difficult and unpredictable runes to play, unless you're in the lower ranks up until Platinum / Diamond. It's not really worth, unless you're playing in the Mid lane, where he can actually do some big damage.\n ​\n Hail of Blades\n Basically an assassin type playstyle, get in get out with a burst of (3) autos and a (Q) will do a lot of damage, while keeping himself safe by running, so long as you're playing a good burn or burst build.\n It's not meant to be played as an extended fight rune.\n ​\n Lethal Tempo\n If you can actually pull off the six basic attacks and keep it fully stacked, which is difficult, then you should be good against Sett and Darius. But, this is a niche meme mini-gun type of playstyle.\n Compared to Conq, it is much simpler to proc, but it is still challenging to perform it consistently. If you were to go full attack speed with Rapid Fire Cannon, with a (E) and (W) max. Hohoho~ disgusting.\n ​\n Did you know that while in stealth Teemo will: Attack Warwick when his fear ends, if you don't click the ground immediately? Spaghetti Code.\n Become revealed if he is hit by any form of slow + knockback/up. The slow reveals him. Spaghetti Code.\n Be capable of using Zhonya's or Bard ULT and remain invisible, opening up some good counter plays?\n ​\n There are a ton of interesting things like these that people simply aren't interested in learning about, and it sucks having a keen interest in a character or pastime that is uninteresting to most people.\n ​\n Love you, muah.",
+   "id": "12a5i0m",
+   "comments": [],
+   "age_days": 1285,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "If you feel like nothing is working - try Fleet Footwork Liandry",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/126jk0p/if_you_feel_like_nothing_is_working_try_fleet/",
+   "published": "2023-03-30",
+   "author": "/u/OneTwoTrickFour",
+   "body": "Hey it's Alan234, rank 69 on EUW playing Teemo Top only. Have you been playing Teemo but everything feels shit?\n Aery - No real dmg (second wind dorans shield make poke :( )\n Electrocute - No dmg (pen items so nerfed)\n Grasp - Falls off hard\n Phase Rush - No dmg and not even that fast\n PTA - no shrooms\n (these options are still okay but you might have these feelings)\n Try out my setup! Which is basically this runepage, with these items.\n Pros:\n Infinite sustain, never lose lane, never get poked out\n Allows you to become mister fast\n Extremely Flexible Build path\n Guaranteed strong shrooms and midgame presence\n \"Enables\" more creative skill order\n Extremely good vs current toplaners I personally face (K'Sante, Ornn, Sion, Gragas, Cho'Gath)\n Allows you to abuse gigachad liandry instead of DansGame Riftmaker\n Easy to onetrick and take into any matchup\n Great 1 item spike that can work if you stop getting any gold midgame\n Here is an example of the builds Flexibility\n Let me know how it goes for you!",
+   "id": "126jk0p",
+   "comments": [],
+   "age_days": 1289,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "The nastiest Teemo",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/zo2kgm/the_nastiest_teemo/",
+   "published": "2022-12-17",
+   "author": "/u/Ok_Woodpecker960",
+   "body": "Living the nuclear shroom fantasy but in a way that wins. (High gold/low plat.) 2.6 mil\n Queue as mid. Go DH with ultimate hunter. Absolute focus and gathering storm. \n We scaling boys.\n In champ select I ban ahri. All other matchups are beatable. \n Check to see the comp, look for that jungle/mid synergy. Make an educated guess on how safe you need to play. Then, throw that out the window for the first four levels. (Unless it’s a twitch jungle.)\n Take e Then q Then e Then q\n Harass like a maniac from levels 1-3 \n Don’t take w\n At 4 you all in with ignite and flash. \n Rank 2 in q and e will win most fights as long as you aren’t stupid. (Like dodge and trade halfway decent.) \n If you kill, keep doing that. Q then e. If you force them from lane. Push and back. \n Get a dark seal. Then play super safe unless they just want to die.\n If the camp has already begun and your laner sucks. You might be able to trade 1 for 1. Always take this trade.\n If your laner is better than you, chill. \n Don’t take w until like level 9\n Sometimes don’t take R until level 10 and then 11 back to back. \n No one is prepared for your q+e being leveled so high so early. You can win most 1v1s with an ambush or flash ignite. \n Items are situational. But usually you will liandrys first and then whatever will be most effective after that. Look at kits to decide. Who is fed etc. Avoid nashors and lich bane like the plague. Only go demonic if 2+ tanks. Avoid anti heal unless it’s life or death. Only consider getting cosmic drive if they are god tier clearing shrooms. (Like umbrial glaive on pyke BS)\n Other than that, learn better placement. \n You want maximum shroom damage. Ideal world is mejai, shadow flame, void, hat\n But it’s okay to just sit on that dark seal till the credits roll if you are in danger of being bursted too often.\n But you are not allowed to get a nashors. No zhonyas. No banshees. \n We want nuclear shrooms with decent CD. Placed perfectly. For pure map control.\n Shrooms are waveclear when you need them to be. Other than that, learn how to push without them. You need them for map control. You are not split-pushing this game. \n Once you hit 11, it’s over. You can win off shroom placement and tactics alone. Choke them out of objectives. Or make them take bad trades for them. Above all, don’t die, or at least take someone with you.\n Shroom placement and macro really is the trick here. If you see them clear a shroom. Don’t place another there unless it’s like an Stier spot. (Like choke point from mid to dragon through/above raptors.) \n Make them keep guessing where to sweep. \n If a fight is brewing around drag, pop one shroom down. Save the rest to lob in after le sweepers go down. Don’t do what mindless Teemo’s do. See when they engage the sweeper. Then place your next shroom before that point.\n Watch your mini map don’t see anyone? Good stay hidden and don’t cross river until you do.\n Be a little rat shrooming bastard. Be hard to find.\n In summary, cheese with q and e max in lane. Build mage. Play stupid safe Learn how to change your build and shroom style. Choke them out late with map control. Or at least delay the game until you can scale to that point. \n Screw your teammates. Help the jungle early at scuttle if need be. But other than that, they need to strap in and get carried.\n Cheers.",
+   "id": "zo2kgm",
+   "comments": [],
+   "age_days": 1392,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Why do people keep telling me not to play Teemo?",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/yminud/why_do_people_keep_telling_me_not_to_play_teemo/",
+   "published": "2022-11-05",
+   "author": "/u/goatmalcolm",
+   "body": "In the past month, there have been multiple times where my teammates urge me not to play Teemo. Before this, they would just gently ask if I could play a tankier champ or something, which I would because it actually made sense. Now, they usually say \"teemo is useless\" \"you will feed\" \"top is lost\", and if I don't change my selection, they will ban Teemo. \n I'm not the greatest Teemo player ever, I'll give them that, but I don't feed, I maximize my damage output well, and usually do pretty good in lanes (of course depending on matchup).\n Is there an uptick in Teemo hate? Why? Does this effect anyone else?",
+   "id": "yminud",
+   "comments": [],
+   "age_days": 1434,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "The Complete Teemo Top Lane Matchup Guide Returns",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/ualu77/the_complete_teemo_top_lane_matchup_guide_returns/",
+   "published": "2022-04-24",
+   "author": "/u/daydull",
+   "body": "Hey guys! Back in LoL season 7 I wrote a very complete guide for Teemo with tips and builds, a section dedicated to each champion you'll face in top lane as Teemo.\n It seemed to be received very well in r/TeemoTalk and was in the sidebar here for several years. Tons of people used it!\n I've continued to play Teemo every season since then, 6+ years total now. I wanted to share that I've just finished a new, very in-depth guide for Season 12 Teemo Tops.\n The idea is you visit the guide while loading a game, quickly take the shortcut to who you're matched up against, and learn or refresh your laning strategy and item build order in about 30 seconds.\n The new and improved Teemo Top Complete Matchup Guide: http://daydull.com/tips-tutorials/lol-teemo-top-guide-item-build-counter/",
+   "id": "ualu77",
+   "comments": [],
+   "age_days": 1629,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How do you play against these champs in top lane?",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/syqzkp/how_do_you_play_against_these_champs_in_top_lane/",
+   "published": "2022-02-22",
+   "author": "/u/Jenark",
+   "body": "I'm a jgl player. I played until mastery 6 teemo in the jgl and now I'm playing him back in top lane for learning lanes better. I have a problem playing against these champs can someone help me and give me tips against this matchups: 1. Yasuo/Yone 2. Akali 3. Mordekaiser Thx guys",
+   "id": "syqzkp",
+   "comments": [],
+   "age_days": 1690,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Teemo Trynd Matchup. Blind him and hold s, he cant do anything except e",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/slr4n5/teemo_trynd_matchup_blind_him_and_hold_s_he_cant/",
+   "published": "2022-02-06",
+   "author": "/u/Kizuisho",
+   "body": "",
+   "id": "slr4n5",
+   "comments": [],
+   "age_days": 1706,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "When is riot going to release another trap based champion?",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/ryrfe5/when_is_riot_going_to_release_another_trap_based/",
+   "published": "2022-01-08",
+   "author": "/u/CEOEnterprises",
+   "body": "I main teemo because I love his traps, I am addicted to trap mechanics. Unfortunately, there are so many awful matchups for teemo that I feel like one tricking him just isn't ideal. But my addiction literary would not let me play anyone else. League is just not the same game if I am not on teemo, even the champs I use to main before teemo I don't really like. If I can't seriously hurt someone while AFK pushing or in fountain, I don't want to play it.\n I am sure Teemo traps are a major draw for many teemo players. I am just wondering if other teemo mains are on the same point as me.\n I know Riot have said they hate Teemo traps because they kill players from across the map, even tho every new champion they release could do that better than teemo shrooms ever could. If riot could remove or nerf Teemo shrooms without much uproar they probably would. \n Is it just me that can't play a champ with traps? I feel it's a bit insane that with 157 champion in the game. The only trap that comes close to teemo's is AP Shaco, which just doesn't feel the same. \n If they made Yone for Yasuo players why can't teemo players get another champion? (rhetorical question, I know it's cuz Yasuo is way more exciting and popular)",
+   "id": "ryrfe5",
+   "comments": [],
+   "age_days": 1735,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Tips against Cho'gath matchup ?",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/rsnjd3/tips_against_chogath_matchup/",
+   "published": "2021-12-31",
+   "author": "/u/EnderTheCheeseMan",
+   "body": "Hi , ive been playing Teemo for a few weeks now and theres one matchup i always find myself losing is the Cho'gath match up . Do any of you guys have any tips on beating Cho'gath ?",
+   "id": "rsnjd3",
+   "comments": [],
+   "age_days": 1743,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Most difficult matchup in preseason?",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/r5wmmn/most_difficult_matchup_in_preseason/",
+   "published": "2021-11-30",
+   "author": "/u/tonehponeh",
+   "body": "I feel like there are some obvious answers, like Morde or anyone who's tanky and doesn't rely on auto's for damage, but I feel like any melee can still be kited really well with Teemo if you're using w right. Are there any like niche hard ranged counters that I should just dodge if I'm up against? For example I heard Neeko is terrible as Teemo but I never went up against her so idk.",
+   "id": "r5wmmn",
+   "comments": [],
+   "age_days": 1774,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is teemo worse now or is it me?",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/pwt3pk/is_teemo_worse_now_or_is_it_me/",
+   "published": "2021-09-27",
+   "author": "/u/matte1119",
+   "body": "In the spring i was climbing elo as a monster with teemo, but studies came in my way and i took a break for like 3 months. Now when im back i get absolutley destroyed in all matchup.\n Any tips? and you guys know any good spredsheats? i had ipavs but it aint working out for me rn",
+   "id": "pwt3pk",
+   "comments": [],
+   "age_days": 1838,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "THE PASSIONATE GUIDE / SPREADSHEET / IN-GAME OVERLAY TO TEEMO!",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/oltlff/the_passionate_guide_spreadsheet_ingame_overlay/",
+   "published": "2021-07-17",
+   "author": "/u/SovereignKitten",
+   "body": "Ew, It's me again.\n I've finally gotten around to reimplementing the changes that I had worked on previously for the guide. Visuals, Information, Presentation it has all been updated once again fully.\n You can read and use the GUIDE by clicking here.\n You can read and use the SPREADSHEET by clicking here.\n You can access my in-game OVERLAY by clicking here and downloading the \"Teemo\" overlay.\n I still have a lot to update, as in information and some spelling errors here and there, I've been extremely exhausted lately and just don't have the drive to push the content out quickly enough.\n I was wondering if anyone in the community would like to help with proofreading, finding errors, spelling mistakes, the general things through Notes, Matchups, Body text, it would help me out a ton.\n ~Love Cat",
+   "id": "oltlff",
+   "comments": [],
+   "age_days": 1910,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Rework ideas have it backwards. Teemo isn't fundamentally weak as a champion, but rather the items he's allowed to build haven't kept up with the rest of the game.",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/nthwya/rework_ideas_have_it_backwards_teemo_isnt/",
+   "published": "2021-06-06",
+   "author": "/u/Kolawa",
+   "body": "The Problem\n Teemo is weak in the current meta.\n His build path, unlike previous seasons, is very inflexible. Every game you must build Nashor's Tooth or Wit's End first item, and from there you only have the choice of Riftmaker or Liandry's Torment. His matchups are no better, and in fact are the worst they've ever been. Matchups Teemo used to consistently win, such as Yorick, Mundo, Nasus, Darius, Garen (In what world does Teemo go even with Garen), Yasuo are no longer winning matchups. This is because matchups which previously could not engage on Teemo are now able to at 1 item. Additionally, matchups that could always engage on Teemo have gotten items that solve their shortcomings or amplify their strong suits.\n The Solution\n The last hybrid item, Hextech Gunblade, was removed in S11, opening up much more flexibility for hybrid scalings in champions...\n I propose that Riot buff Teemo to have an equal 70% and 50% bonus AD ratio on his Q and R respectively. This has the advantage of preserving AP builds, because AP is cheaper than AD, so if shroom spamming it will still be stronger with AP, while also allowing Teemo to itemize like a bruiser or AD marksman without completely giving up half of his kit.\n Imagine if in Stridebreaker matchups Teemo was allowed to at least attempt to outplay with Galeforce, or in engage bruiser matchups Shieldbow was an open option. Teemo would be much more flexible, while not necessarily becoming overpowered.\n The Marumana Situation\n The most obvious objection is that buffing Teemo in this way is that it would make Marumana overpowered because it applies on every part of your kit and now scales with your kit. However, Teemo stacks Tear very slowly, so in order to go Marumana, Teemo would have to sit on Manamune for a very long time.\n Why not just buff W?\n W, unlike what most of this subreddit likes to meme, isn't a bad ability. People forget that at max rank Teemo's W has a passive component which gives 26% bonus move speed when not damaged, and 52% move speed when activated, which is not an insignificant amount of move speed. Yes, MF's W is a stronger ability, but she also has much weaker self peel, only having a slow and damage as self peel.\n Wouldn't this push Teemo to the botlane?\n No, it wouldn't, because Teemo would still has 500 range. The only viable Teemo bot strategy is to max Q and zone out short ranged ADCs like Vayne, but if Teemo goes AD, then by AD costing more than AP, Teemo will not be as effective going AD in the botlane.\n Conclusion\n In previous seasons, one of Teemo's greatest strengths was his flexibility in builds. You could viably build on-hit bruiser, on-hit glass cannon, split-push, AP or Tank at a time. Hopefully this aspect of Teemo can be brought back in one way or another. I think that hybrid scalings are the key to this.\n Comments?\n I would like to brainstorm potential problems with this buff.\n EDIT: TL;DR Bonus AD scalings on Q and R opens up more build paths, which helps Teemo by giving him more tools to deal with bad matchups.",
+   "id": "nthwya",
+   "comments": [],
+   "age_days": 1951,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Q BUG",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/np142a/q_bug/",
+   "published": "2021-05-31",
+   "author": "/u/Born_Supermarket_679",
+   "body": "Played a lane vs Vayne in Clash final and this tilting bug appeared 3 times on lane causing me to lose trades I should always win. Basically vayne could sometimes auto me even though she was blinded, which made the matchup playable for her.\n https://reddit.com/link/np142a/video/hhdjjmtaxf271/player",
+   "id": "np142a",
+   "comments": [],
+   "age_days": 1957,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Help on getting into Teemo top in plat+",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/no9973/help_on_getting_into_teemo_top_in_plat/",
+   "published": "2021-05-30",
+   "author": "/u/DigiDoto",
+   "body": "Hey guys I'm like master-grandmaster-ish in Dota 2 and I've been playing League for around 3 months and hit platinum by maining Darius. Since League is difficult in terms of learning matchups I like sticking to champs that aren't too difficult to play and deal high dmg in toplane (Darius, Garen etc.) . I saw the W buff for Teemo recently and it's tempting me to play him more, but whenever I play him even when i get many kills, I get many deaths as well, it seems so so so hard to not die as Teemo cause he is so squishy, just recently I was like 4-1 vs Camille but she still beats me in an all in and in teamfights i get blown up. Any advice? I really want to win with this champ lol",
+   "id": "no9973",
+   "comments": [],
+   "age_days": 1958,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "After 1.1mln mastery points i want to share my throughts on Teemo matchups, i will be answering questions regarding that. Plat2-D4 experience",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/mradt3/after_11mln_mastery_points_i_want_to_share_my/",
+   "published": "2021-04-15",
+   "author": "/u/XepiXD",
+   "body": "",
+   "id": "mradt3",
+   "comments": [],
+   "age_days": 2003,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "PSA: Darius with be an unplayable matchup on 11.5..",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/lrcrt1/psa_darius_with_be_an_unplayable_matchup_on_115/",
+   "published": "2021-02-24",
+   "author": "/u/originofsymmertry",
+   "body": "Stridebreaker Adjustments\n Halting Slash passive damage lowered from 100% AD to 75%AD \n Slow lowered from 60% to 40%\n Dash range increased by 100 units \n\n \n Wanna know what this means fellow Teemos? Darius will be able to use Stridebreaker active to give his E an effective range of 1035 units. That means if you even consider approaching the wave while he has SB + E up either your flash is gone or you're dead.. \n I think i've found a new permaban :-)",
+   "id": "lrcrt1",
+   "comments": [],
+   "age_days": 2053,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "i feel bad",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/lq8dui/i_feel_bad/",
+   "published": "2021-02-23",
+   "author": "/u/Adept-Newspaper-6502",
+   "body": "New guy got dragged along by his friends i believe lvl 20 i was trying to go AS EASY AS I COULD and trying to help him and he said i was being condescending i felt TERRIBLE i went like 20/4 and i wasn't even really attacking them :( i was tryna give him like csing advice and tryin to help him in the matchup. am i a bad guy lol",
+   "id": "lq8dui",
+   "comments": [],
+   "age_days": 2054,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Rumble not a good matchup.",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/lnce3l/rumble_not_a_good_matchup/",
+   "published": "2021-02-19",
+   "author": "/u/chillkiller_memes",
+   "body": "",
+   "id": "lnce3l",
+   "comments": [],
+   "age_days": 2058,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What to do vs Jax?",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/jptghv/what_to_do_vs_jax/",
+   "published": "2020-11-07",
+   "author": "/u/TooBad_Vicho",
+   "body": "Hello teemo mains, i just recently got into a match vs jax and I felt like I couldnt do anything after he hit his first item.\n Before he got BoTRK, i did well. I started with cloth + refill potions and rushed tabis/seeker's. \n I tried freezing so my jungler could gank and i did get a few ganks.\n Everything was fine until jax hit his first item after laning phase and I felt worthless...\n What are your tips for this matchup?",
+   "id": "jptghv",
+   "comments": [],
+   "age_days": 2162,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "[Observation-Rant-Satire] Teemo is the \"Jungler\" of Toplane -> And how I'll fix it.",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/j6pofk/observationrantsatire_teemo_is_the_jungler_of/",
+   "published": "2020-10-07",
+   "author": "/u/KosViik",
+   "body": "Teemo in a disadvantageous matchup, permanently camped by the enemy jungler and constantly roamed by the enemy midlaner, and STILL BEING AHEAD?\n \"Why aren't u fed? You do no damage. You are useless\"\n Meanwhile our botlane is free to play 4v2 and still manages to feed the enemy Samira to 25+ kills.\n \"WTF Teemo, why can't you kill Samira, trash!\"\n Seriously, 9 out of 10 games, if something goes wrong, Teemo gets the blame. I start to believe junglers love having Teemo top for the sole reason that they soak up all the blame from the idiots in the team instead of them.\n So, I figured it all out. Teemo is the Jungler of Toplane.\n Our junlger missed smite? -> \"Report Teemo.\"\n Enemy midlaner 1v1-ing our mid? -> \"Report Teemo.\"\n Our support missed his skillshot 3 minutes into the match? -> \"Report Teemo.\"\n Teemo 1v4-ing, taking the entire map and one of you still managed to die 4v1 to the 0/8 Ornn? -> You guessed it. \"Report. Fucking. Teemo.\"\n And I'm frankly sick of it. They think that you instawin every single matchup just because you are Teemo (the same brainlets don't add 1+1, that if Teemo is infact OP, why isn't he a perma pick/ban champ), and when not, \"you must be trolling\", \"uninstall\", \"don't play Teemo anymore\" etc.\n But when Teemo single handedly wins the game for you \"LOL GG, EZ BOT/MID LMAO!\"\n ... This game undoubtedly has the worst community out of any. I played a lot of toxic games over many years, but League takes the prime. The sheer audacity these people have, to continue arguing even when it is clearly evident they are in the wrong and everyone hates them by now. In most other games they shut up and pretend to not exist out of shame, but these brainlets have no control here.\n BUT! Here is my grand plan (with a hint of satire):\n I was tilted out of the world in the summer, and actually wrote a ticket to Riot, that I'd buy the next pass if they fixed the smurf problem. I bought it anyway since hey, Prestige Teemo. And suddenly they came up with the smurf aid? After so many years? Ever since I haven't faced a single one, and I play just as many games. It was over 1 per game on average, and now? Not a single one.\n So, I'll write them a ticket that I'll snatch the Prestige Edition Sett if toxicity gets solved soon. I'll throw my wallet under the bus and bring salvation to my fellow Teemo brethren. The stars don't lie, the pattern is clear as day!\n I'll keep you updated.",
+   "id": "j6pofk",
+   "comments": [],
+   "age_days": 2193,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "The amount of people who keep crying \"Teemo counters everyone because poke\" is quite frankly, ridiculous",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/iorid2/the_amount_of_people_who_keep_crying_teemo/",
+   "published": "2020-09-08",
+   "author": "/u/KosViik",
+   "body": "I'm getting some of the biggest counters to our little hamster lately (Cassio, AP Malphite, Ryze...), and they play so bad, then cry in all chat that \"but Teemo counters because poke\"...\n It is getting to me.\n We have to memorize dozens of rune setups, item builds and playstyles to them, in order to specifically adapt to almost every single matchup, and even then we sometimes aren't able to do anything because 200 years of design experience lead to the toplane that we have today, on the other hand most toplaners use one cookie-cutter build and playstyle with 0 consideration of what the matchup is and it is fine...\n Meanwhile these snot-eaters come up and manage to lose with some of the biggest counters to Teemo, with literally ZERO skill requirement, and then cry all over reddit how OP Teemo is...\n A little off-Teemo rant too: I hate how I sometimes beat these counters, or go even when I should be 0/3, 70 CS + a tower behind if he had a brain, meanwhile my team is getting absolutely destroyed in lanes they should not be losing under any circumstance, then cry because \"Lol report top, how do you not get fed on Teemo\".\n I get 13-14 LP for a win, and lose 23-24 for a lose, none of my games are \"free wins\"... I'm starting to lose it guys. I may just go back to normals because I cannot take this ridiculous season anymore.",
+   "id": "iorid2",
+   "comments": [],
+   "age_days": 2222,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "What is your worst and favorite matchup?",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/c9ykpz/what_is_your_worst_and_favorite_matchup/",
+   "published": "2019-07-06",
+   "author": "/u/cursedbuttercup",
+   "body": "Hello fellow Teemo lovers,\n I love playing Teemo since S2 and was absolutely delighted when I found this subreddit.\n So my question for you is, what lane opponent do you absolutely hate and which is a GG for you?\n For me I always love to see a Tryndamere or a Fiora but Swain is my nemesis.",
+   "id": "c9ykpz",
+   "comments": [],
+   "age_days": 2652,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Yet Another Rework Idea",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/byhe24/yet_another_rework_idea/",
+   "published": "2019-06-09",
+   "author": "/u/Kolawa",
+   "body": "Teemo's Problem\n In my eyes Teemo's current problem is that Teemo cannot easily outplay being all-in'd:\n Irelia ults Teemo, slowing and marking him, making it easy for her to land her W and get another reset. \n Aatrox Q-E's Teemo. It relys entirely on prediction to dodge all parts of Aatrox's Q. Almost impossible to dodge W after knocked up, and has no unpredictable way to run out of W.\n Neeko cannot be traded with, as the risk of getting e-q-tripleauto'd is too high, and that combo does 60% of Teemo's health. \n Olaf axes are dodged almost entirely by prediction, and once hit, there's no way other than phase rush or a summoner to escape\n Urgot's Q can be reactively dodged, but it's difficult, and him landing just one lets him all in and win the trade. \n Proposal\n Change the W bonus movement speed curve from flat to one of these.\n Burst\n This would be a shorter, but make Teemo move at twice the speed.\n Pros:\n Would allow Teemo to more easily dodge skill shots\n Would keep with Riot's want for Teemo to be gankable\n Similar use to Teemo's current W\n Cons: \n May make Teemo super oppressive in some matchups such as Sion Q not getting nearly as much charge. \n Blitz-like\n This would give Teemo a large burst of movement speed for a few moments, then slow down slightly, as he is tired from the sprint\n Pros:\n Would allow Teemo to more easily dodge skill shots\n Would keep with Riot's want for Teemo to be gankable\n Would make his W more skill based, as you need to think ahead to the self-slow\n Cons:\n Can be a significant nerf in matchups with more extended trading due to the self slow ex. Karthas.\n Accelerate\n Teemo would move faster and faster, then abruptly stop going faster, much like ghost.\n Pros:\n Better for chasing\n Because it takes time to channel to full speed, and is thus weaker, could have larger bonus displacement than the current one.\n Cons:\n Doesn't address Teemo's inability to avoid getting all-in'd\n Is against Riot's want for Teemo to be gankable, because it'll likely result in more bonus total replacement\n Decelerate\n Teemo goes at a very fast rate, the bonus wears down over some time.\n Pros:\n Addresses the problem of avoiding getting all-in'd \n Realistic to the physical constraints of a Yordle\n Cons:\n May be overly oppressive, and result in nerfs\n Hi->Lo\n Teemo goes very fast, but gets tired over time, and eventually goes slower than his jogging rate. When he catches his breath, he gets back to his regular pace\n Pros:\n Addresses his problems of avoiding getting all-in'd\n Requires planning to use as it comes with a self-slow\n May allow for retaliation against Ryze, as the burst could allow catching up through his phase rush\n Cons:\n Self-slows are super unpopular, and can ruin Teemo in extended trades\n Conclusion\n All of these except for accelerate address Teemo's inability to outplay all-ins, but don't address unwinnable mage matchups like Annie or Ryze very well. In addition, many hard matchups like Akali will not change.",
+   "id": "byhe24",
+   "comments": [],
+   "age_days": 2679,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "This secret TANK Teemo build got me to Gold for the first time ! (Help me make it better)",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/bxxlzr/this_secret_tank_teemo_build_got_me_to_gold_for/",
+   "published": "2019-06-07",
+   "author": "/u/klausprime",
+   "body": "I'm a not a very good league player even though i've been playing for a few years now but I like playing ranked and Teemo has been my most consistent champion for some reason (I love him though) and i've decided to go all in and main him.\n I've put the build here for convenience: https://www.mobafire.com/league-of-legends/build/the-chad-teemo-552648\n I'm not looking to push this guide or what, it's only because it's easier than explaining it in reddit.\n Basically playing teemo I realised I'd do well in the lane but one the tower drops I always had to play around my team and a lot of champs would just \"outscale\" me 1v1 once they build mr and can chase me down toplane. So i tried Grasp to be more tank and it embarked me in a journey of creating my own build without any guide or anything but this has become by far my highest winrate build all champions included.\n This build relies on a few things:\n 1- Grasp is actually pretty good for sustain AND it's damage somehow feel stronger than Aery's, especially against tankier matchups\n 2- Grasp + Mallet gives me enough tanking to really be aggressive in teamfights and even initiate them while slowing 3 people down permanently.\n 3- The synergy between E + Liandy's + Mallet + Runaan's is almost to orgasmic levels, and being bully allows you to really apply during the whole teamfight without having to pull back because you're getting jumped.\n 4- This build is really adaptable around the 3 core items.\n Thank you for the read, i'm really eager to know if anybody here plays teemo in a similar way, anybody ranked high has any tips on it i'd love to here them considering i've looked for guides on this kind of teemo without success a part from some \"meme\" youtube videos.",
+   "id": "bxxlzr",
+   "comments": [],
+   "age_days": 2681,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "The only matchup I have never won",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/bwbci2/the_only_matchup_i_have_never_won/",
+   "published": "2019-06-03",
+   "author": "/u/9chan_Crossover",
+   "body": "Neeko. That champion just do everything I can do but better. Let me detail this a bit :\n ​\n - She has 50 more range and 10 more base MS, so she can poke straight up better than Teemo can.\n - Her Q spell has 120 more range than Teemo's, and even if the first proc deals less damage than Teemo's one due to the extra range if you ever try to trade or poke her you will lose more HP than her. Plus it has less CD and cost less mana. \n - Her W passive is equivalent to Teemo's E, plus since she has the extra range she can land a single auto and use the burdst of move speed to get away and strictly outrade you.\n - Her W bonus movespeed is also enought to compensate Teemo's own W, plus it can be used to trigger mushromms without taking damage and clearing the lane of it, making Teemo extra easy to gank.\n - If you ever get caught by her root you will have to take E + W aa + 2xQ while only hitting a Q spell if she really wants to hit with her AA.\n - Oh, and she has an ultimate, taht deals more dmg dmr than 2 full shrooms, stun you and whoever is with you and give her a shield.\n ​\n If anyone knows how to win that matchup or how not to be obliterated early, mid and late game, please help me. IK that you can still destroy carries in ambusha nd all altegame but her ultimate is way better than anythong I can do in a teamfight anyway.\n ​\n A poor Teemo who think of changing champ.",
+   "id": "bwbci2",
+   "comments": [],
+   "age_days": 2685,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Dark Harvest is OP, and this is how.",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/bf9p5c/dark_harvest_is_op_and_this_is_how/",
+   "published": "2019-04-20",
+   "author": "/u/TrickyBAM",
+   "body": "I have had great success recently using a Dark Harvest build, that is also a shroom AP build for Teemo. I want to share it with everyone because it's really, really, really good! First let me provide you my evidence: https://imgur.com/a/zhNTGuu 21 Wins, 11 L at Diamond elo. I am now Diamond 3 on my alternate account. https://na.op.gg/summoner/userName=TrickyMAC\n It's weak against Tank matchups, and Vlad. My guide explains a little more on that:\n https://www.mobafire.com/league-of-legends/build/dark-harvest-build-9-8-still-op-526194?revision\n ​\n OK, now that I have shown you my proof. I wants to explain why I think this works so well, and very easy to play.\n Dark Harvest is core. Why? Because mid to late game, it has a cool down of 1.5 seconds on a takedown. Not 45 seconds like Electrocute. This is is the core concept of what I think people do not understand. Even if you deal less damage that you would of with Electrocute. Using it even 2 times, will cause more damage in a team fight than Electrocute. However, you can do it more than 2 times in a fight!!! 3, 4, 5? Additionally it infinitely scales making you stronger as the game goes on past the damage levels of what electrocute can provide.\n The build has zero attack speed items and by doing so you get survive-ability health by taking Liandrys and Morellonomicon your first 2 items. Getting the combination of these 2 items early allow you to do crazy team fight and objective zoning. By doing high mushroom damage, and not letting them heal by mid game completely ruins most teams. I try not to delay these 2 core items, it would delay the synergy it provides during team fights mid game. AP matchups are the exception, Gunblades healing countered their mana abilities. Mages also don’t heal as fast as AD champions so delaying Morellos to a 3rd item is ok. Additionally AP mages take TP, so there's no threat of ignite taking away the healing of your gunblade.\n Objectives are very important in the current Meta. More so than kills because you can always get that gold back with shutdown gold. Dragons will give you a permeate buff that is not penalized in the game.\n Even if you have a hard time getting Dark Harvest procs off early (Ignite helps!, even if you don't kill them) this shroom build will help make it easier mid-late game. During the mid game when you use your mushrooms they deal so much damage with those 2 items you will catch up on Dark Harvest stacks quickly. I will be in other areas of the map, getting CS and DH procs fly to me as my shrooms go off. It really works well on Teemo and I encourage you to see for yourself.\n I want to say more, but its getting late. Time to sleep. I really just wanted share how well this is working for me. I totally understand it's not for everyone. Teemo is great, and can be played in so many ways. But I'm just a big fan of this build. It has got me higher than I have ever been before, easily!\n ​\n IPav posted a really good build too I like. Here's the link if you haven't seen it. He's using gunblade again. https://www.youtube.com/watch?v=aNT426EXwL4\n ​\n Here's my last game Diamond 3 where I played bad early, but the build still managed to scale, and had a crazy comeback with zero towers left. I ended up the MVP on op.gg from it. And this is from a bad start! I should of went Seekers armguard and one ruby crystal early. Riven was just to much damage with her combo and ult.\n https://youtu.be/s5sNU_u_90M\n https://www.youtube.com/watch?v=VXgo3NjD5aY&feature=youtu.be\n https://youtu.be/ei6UQaXun1g VS Gnar match.\n https://youtu.be/YXNQbYBwp9w VS Renekton\n Feel free to click around in the videos, I suck at video content stuff.",
+   "id": "bf9p5c",
+   "comments": [],
+   "age_days": 2729,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Why is everyone hating on the rework?",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/au6ooi/why_is_everyone_hating_on_the_rework/",
+   "published": "2019-02-24",
+   "author": "/u/OmegaFedTeemo",
+   "body": "Hello scout brothers and sisters!\n I am Omega Fed Teemo a Diamond 1/Master Teemo onetrick from EUW. I have been playing quite a lot of Teemo, around 2mil champ mastery combined on my 3 accounts, so I would say I have pretty good experience on him.\n ​\n The Rework\n ​\n I have been playing the new Teemo on the PBE for a while now trying out multiple builds and play styles and I am in love with the new kit for the most part. Let's start with my thought:\n Toxic shot is now his passive. This is a really good change in my mind. The poison damage and DoT are the same as on live at level 9 (at which point u'd have the E maxed out) and the levels beyond that the DoT is actually stronger than on live. In addition we have a new effect now which makes Toxic shot do +50% damage to targets that are poisoned by some other source (works on Teemos R and Q). So over all Toxic shot got buffed and since it's the passive now you don't have to worry about putting point in it. Also this opens up a new good synergy with Teemo and any other champion that has some for of poison in their kit.\n Multiple different play styles now. I think that you are able to change your build style even more now depending on the matchup since you don't have to max Toxic shot every game. Are you playing against auto attacking bruisers? Good, max Q! Are you playing a match up where you have to kite or dodge abilities to survive? Fine, max W! You can even try some cheesy playstyle with E max and swifty rush playing around the bushes on toplane. Or you can play jungle Teemo and max E first.\n New E is an interresting ability. Don't get my wrong, I think the self-slow should be removed. First off all it makes using the ability at early rank pretty awkward and it just does simply not fit the theme of a \"swift scout\". Second thing I'd like to see changed in this ability is to add the old passive to it so that if you use your E and stand still in a bush for 1 second you get true stealth while inside a bush. With that being said I do like the new E. It gives me more options than what I would have had with the old passive. You can pull of some amazing jukes with this ability and you can sneak in position past wards to stealth in a lane for example. Because using E now grants you attack speed it's easily used during splitpushing a tower, taking a dragon or baron or just during a teamfight.\n Amazing 1v1 potential and damage. With the buffs to Toxic shot I find Teemo to be really good in 1v1 scenarios where you can keep on poisoning the target with either your Q or your R. The increased damage on toxic shot is really huge especially later on in the game. \n Late Game Shrooms. Now some of you think that the R changes are nothing but a huge nerf for Teemo but I actaully think it's not and I will explain it soon why I think this way. They lowered the shroom damage yes and they lowered the ratios yes. This dmg nerf is compensated with the fact that you can stack now 3/4/5 shrooms once, and they become harder to kill late game. Also your toxic shot now deals that spicy +50% dmg if the target is hit by your shroom. Now here is why I think this change made Teemo even better late game: \n Shrooms are harder to clear now that they have more health. This makes it so that the enemy team cannot just activate their trinkets and clear 10 shrooms in 5 seconds. This gives the enemy the option to waste their time trying to clear your minefield or take the risk and fight your team in it. This makes Teemos objective control so much better.\n Because you can store up to 5 shrooms at once now it allows you to wait for the enemy to sweep some are like baron for example and after they have sweeped it you just dump down 5 shrooms and you now have a minefield that the enemy can't sweep. Also since you don't have to put down shrooms every time you are about to reach 3 stacks you can have more shrooms stored up for a potential 1v1 duel while splitpushing.\n I think that overall these changes are good and they will make Teemo better for sure. As mentioned earlier, you now have more options during the mid and late game, making you a GOD at objective control and allowing you to get some sneaky assassinations going with the new E. I think most of the Teemo players hate the changes just for the sake of them changing Teemo. But in all honesty Teemo still feels like the same champion for me, just he is now better and I have more options and outplay potential. If you have just read the changes and not actually tried him out I suggest that you get a PBE account and client from here and try him out yourself. Tell me what you guys like/dislike about him and what you would change about the rework.\n ​\n Cheers and good luck on the rift !\n ​\n \"War didn't change me, I changed war!\"\n -Omega Fed Teemo",
+   "id": "au6ooi",
+   "comments": [],
+   "age_days": 2784,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Remember to build Adaptive to your matchups.",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/amwd7z/remember_to_build_adaptive_to_your_matchups/",
+   "published": "2019-02-04",
+   "author": "/u/SovereignKitten",
+   "body": "Examples would be... \n ​\n If you face a JAX, TRYN, RENEKTON. They are very very weak against AERY and JAX counters most other builds due to others being more auto attack reliant. \n ​\n Tanks like Sion will ALWAYS **Shakes Screen** ALWAYS BUILD Adaptive Helmet. Playing PTA with Liandries with Cut down will allow you to dominate them more so than AERY can mid game. \n ​\n You should be swapping out your secondaries and sub set runes to match the matchups. \n ​",
+   "id": "amwd7z",
+   "comments": [],
+   "age_days": 2804,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Months ago, I had a goal. A goal to create a list of who TEEMO can STEALTH against. I need your help...",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/9y5nqk/months_ago_i_had_a_goal_a_goal_to_create_a_list/",
+   "published": "2018-11-18",
+   "author": "/u/SovereignKitten",
+   "body": "​\n I may be wrong in some matchups, but most of all are actually tested. \n ​\n https://preview.redd.it/xygbu8o633z11.png?width=229&format=png&auto=webp&s=da428bdec1163ce02c1de27620f2ce8c4bea21ac\n The goal I had set in motion was to play teemo against every single champion.\n Have every single champion use all abilities that had some form of CC on them to UNSTEALTH Teemo.\n ​\n I set this goal on my own, without the help of anyone because as a TEEMO player the only friends I ever had were TEEMO players. Lol\n ​\n So my question for all TEEMO players who have the time or friends or prior knowledge.\n Please help me, help everyone by giving me the information needed to have this project completed.\n ​\n You can read it all on my MOBAFIRE GUIDE http://www.mobafire.com/league-of-legends/build/-456667?revision&nocache In full version. I just fell into super procrastination mode.",
+   "id": "9y5nqk",
+   "comments": [],
+   "age_days": 2882,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "The story of the drowning dodger.",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/99qucj/the_story_of_the_drowning_dodger/",
+   "published": "2018-08-23",
+   "author": "/u/Zander327",
+   "body": "There once was a support main clinging to the bottom of silver. Buffeted by bad matchups, they prayed to Rito to save them. \n The support was matched with a group, and their top lane locked in Teemo. Claiming he is \"useless\" and that they would definitely lose, the support main dodged. \"A better matchup will come,\" he thought. The Teemo went on to win a match, while the support main waited.\n In his next group came another Teemo. \"FFS why do people keep picking troll champs,\" he said, dodging yet again. This Teemo went on to carry his friends to victory, while the support main waited. \n For the third time the support main was matched. This time, he banned Teemo after seeing a team mate hover him. Confident in his decision, he proceeded to lose the game. \n To the depths of bronze he sunk, unable to swim back up. It was then that Rito appeared before him. \"Why didn't you save me, Rito? I prayed to you for good matchups but I kept losing.\"\n Rito smiled at him and said, \"My child, I sent you three scouts, but you rejected them all.\"",
+   "id": "99qucj",
+   "comments": [],
+   "age_days": 2969,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Hi, I challenged myself to mastery (lv 5 ) any champ in alphabetical order, and here I am looking for tips for my 108th Champion: Teemo.",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/8ry2pd/hi_i_challenged_myself_to_mastery_lv_5_any_champ/",
+   "published": "2018-06-18",
+   "author": "/u/quetsacloatl",
+   "body": "Hi, I'm Quetsacloatl, an EUW D5 player, I decided to try to master lv 5 every champion in league of legends in alphabetical order.\n I reached letter T and the Swift Scout.\n I've played only few games with him so i need all thehelp you can provide me.\n Where should I play him and how does it look like in this weird meta?\n\n What am I suppose to do in the early game?\n\n When should I start to go aggro?\n\n How to play from behind?\n\n Which are the best runes options? Which is the best build pattern at the moment? And in particular Which are his core items I've to reach before I can consider myself useful?\n\n What am I supposed to do during the late game?\n\n Which are the best matchups and the worse?\n\n Should I just focus on farm and reach upgrades early on?\n\n HOW can I carry a game with him?\n\n Why should I prefer Teemo instead of every other atypic champion the game?\n Can you give me any specific and hidden-pro exploit for winning trades/lanes/skirmishes?\n The final question is:\n Which are the differences between a bad Teemo player, a good Teemo player, and a GREAT Teemo player?\n I hope someone will help me with my personal quest.\n Thank you.",
+   "id": "8ry2pd",
+   "comments": [],
+   "age_days": 3035,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Unorthodox teemo strategy guaranteed to make enemies scream kys in all chat.",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/8gmvb4/unorthodox_teemo_strategy_guaranteed_to_make/",
+   "published": "2018-05-03",
+   "author": "/u/Becominglnsane",
+   "body": "You can skip all this first part if you want.\n I've been playing Teemo for years now and he's part of what makes it so hard for me to ever leave league. That aside I had been dealing with heavy issue regarding the importance of bot lane and junglers just ignoring top lane all together. \n In this guide I'll be explaining how to promote the enemy jungler to gank top, well staying in control of the outcome. \n AP MATCH UP\n The first step and problem many Teemo's have you'll see in lcs/ etc. is their susceptibility to being ganked. A red buff having a 7 second slow when your only only escape is flash means inevitable death for most. This is why will be removing flash all together. Instead will be playing a stand my ground playstyle. \n If fighting against ap will use this page. https://i.imgur.com/ghM4RCP.png Our summoners spells are heal/exhaust and barrier. If the enemy has quite a bit of burst or to much range to exhaust the instant heal is considerably better. I generally buy a dark seal first item to take advantage of gaining stacks from this strategy Upon backing for items will be purchasing a hexdrinker. This will give us not only an additional shield, but changing our adaptive ap into adaptive ad. Where the enemy would be building magic resist against you further falling behind he will realize there's no possible way to go in on you. And you constantly are gaining permanenent health. Our strategy is much like match up. To stack a Mejai's well being deceptively tanky. Ultimately making us impossible to deal with without sacraficing most of the enemies resources. If your fighting a Swain or Vladimir You may want to consider swapping to scorch.\n https://youtu.be/yUihOkhGJ08?t=114 This is basically our gg outplay scenario rengar is already a little bit low, because we have our nullifying orb and maokai is a tank we won't be focusing him. Instead will be focusing on Rengar. By killing rengar we get the red buff allowing us to slow mao with auto's He already wasted his flash trying to attack me. Had I took flash this situation would of turned much different, but because I didn't I was rewarded for it. A couple of other examples to show the annoyance of this strategy. https://www.youtube.com/watch?v=3WdOf3_YK_c c@ck blocked by hexdrinker. And https://www.youtube.com/watch?v=4je_9f7ne3Q If I had flash I wouldn't of been able to fight.\n AD MATCHUP\n Against ad champions it's a little different. We're not going to be rushing a hex drinker and will be leaving out the sorcery tree this time. Also realize grasp isn't the best, but because of my spells it's the most rewarding.\n Will have two rune pages for this one. https://i.imgur.com/Xs2Ozi5.png and https://i.imgur.com/p9H9xKQ.png Your spells should almost always be exhaust barrier unless you think you can get away with taking heal. build seal first.\n The reason exhaust is pretty much a must is because of the conqueror rune and it's overall strength early game against you. Champs will want to push for level 2 or just go in on you level 1 because you won't have Q. Because of your 330 movement speed level 1 this is a very dangerous area for teemo, but beyond that your generally stronger. Obviously if your fighting a Tryndamere don't use your Q unless he all in's the crit conqueror is nasty. \n For the choices of our rune page will go domination if your goal in the game is to build primarily ability power. The sustain will make you tanky, but only as much as you can damage the opponent the problem is if your on full health junglers are less apped to gank you.\n Will use inspiration tree for two reasons and falls under the same goal as our ap match up. Perfect timing will allow us to build a Gaurdian Angel faster We're losing early game potential, but we're gaining a much stronger mid game. Approach Velocity is extremely good for Frozen Mallet. Gaining 15% movement speed well slowing it makes champions like Irelia have an impossible time getting away from you. Once teemo has you in his sights your a goner.\n https://www.youtube.com/watch?v=mU7rNYl62WY Shaco had the right idea, but he gave up his engage with his Q and his 5 minute flash was already lost by me. \n Goal\n Overall you may have noticed a common trait between the builds. Not the amount of shields, but our reliance on our Dark Seal/ Mejai Soulstealer. Teemo has a nice niche of getting assists and kills from his mushrooms even if he isn't alive. Our priority in game is to be focused, but not to die. To have the enemy team chase me like I'm singed well my team takes objectives. And like a nunu to make the enemy top laner/ mid laner more useless than you. Killing the same person over and over wouldn't gain you much gold, but with stacks it ensures that every kill is worth. Gaurdian Angel is nice in being an additional 50% of your health. Whether against ad or ap it means your still in the fight and you save those stacks.\n Eventually your going to fall off the later games go. The enemy laner will make his way back. And your gold lead will diminish. Your goal should be to finish within the 20-30 minute range. And Mejai does it best.\n edit: Forgot to mention Revitalize gives 15% bonus in heal and shield as well as your orb and hexdrinker. Orb also scales with bonus ad so it works even better with hexdrinker. You can build something like redemption, later in the game if you want. If you have heal you could do athene's but considering your focus is to end the game as early as possible you should only consider if the game gets long. \n Oh and of course we want to make the enemy laner rage as hard as possible and makes them feel as usless as being stacked on and knowing there's no way to beat teemo without ganks, but realizing that it only puts you in a worse position.\n You want to exploit the reliance of Flash people have and that people if their engage is also their escape then there isn't a need to trade flashes because they'll go in for you its the only way they can try to harass. You have so much utility though that there isn't a way for them to 1v1 you atleast not without you having both spells up.\n I use to play heal barrier on poppy back in the day it feels a lot like those days, but different. It's a fun mind game and it's not for everyone. I wanted to share it with a few of my friends and maybe make more. Maybe get some improvements to make it even better. Or maybe I'm just a sadistic piece of crap lol. https://i.imgur.com/F3CSqap.png p.s I know I know you suck at farming~ :P I'd like to stream, but my internet provider sucks. Hope it helps anyone out there!",
+   "id": "8gmvb4",
+   "comments": [],
+   "age_days": 3081,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Ipav on why Teemo is permabanned rn (not just aerys)",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/7dglpn/ipav_on_why_teemo_is_permabanned_rn_not_just_aerys/",
+   "published": "2017-11-16",
+   "author": "/u/rollwithhoney",
+   "body": "Ipav is the #1 Teemo NA (and world's best accent) and he always tries tons of builds on Teemo while playing Plat/Diamond/Challenger.\n Here's what he said (source: https://www.youtube.com/watch?v=bEM8sUscCu0) on why Teemo feels/is so much better than last season. It boils down to luck but also Teemo's innate flexibility:\n 1 - AERYS (WHAT YOU ALREADY KNOW): Obviously aerys synergizes really well with Teemo. Please note that this probably won't change even if they nerf it--PTA is good on him too, but aerys is meant for strong trading laners like Pantheon or Teemo or Quinn (the main LoL reddit just talked about the aerys Pantheon thing but I can't find it... you'll have to trust me...). Combine this with reduced MR to most champs and obvi Teemo is going to have a little more fun than usual.\n 2 - RUNES: Teemo also uses lots of other rune choices well. He can cover his slow movement/universal taunt via +4% movement speed; scorch is perfect with his E; Taste of Blood gives sustain early and Ravenous Hunter sustains late (Ipav says Rav Hunt is close to having a Gunblade late.. it heals you for BORK and guinsoos passives, too, its crazy good on him). Essentially Teemo benefits really well from the runes because he's a flexible champion.\n 3 -- ITEMS and ADAPTIVE DAMAGE: Ipav says \"this is the most important part.\" The new runes use adaptive damage to balance them for different champions; Teemo, as a hybrid carry, can flex his items to abuse this more easily than almost any other champion. STORY TIME one game I watched, Ipav was against a Maokai (forget what elo... definitely above me, maybe plat). Teemo rushed dark seal and had 4 stacks through kills/assists. Maokai obviously needed magic resist, went back to base and got some. Teemo backed and bought 2 Long Swords. If you did this last year, you'd return to lane and Mao would have a bit of a tough time. This preseason, the adaptive damage meant that Teemo got the AD worth of ~3.5 Long Swords as some of his runes' AP converted to AD. On top of that, his dark seal stacks don't count towards adaptive damage, so he converted to AD even though he actually had more AP. He completely rekt the Maokai in 1 or 2 trades and completely snowballed the entire game. \n GENERAL FLEXIBILITY: This isn't from the video but... think about how, last season, there were tons of different strats for Teemo. \"Tank teemo, adc teemo, or AP teemo\" was a common thread on this reddit. Problem was, it was pretty hard to flex your runes before. Now, Teemo has an inherent advantage (compared to last season) in that you can flex really easily in champ select. Does your team need a tankbuster, a tanky splitter, or an AP nuke nightmare? Just adjust your runes and consider it done. Probably not a big deal for Teemo OTPs, but for the average Teemo player it is much easier to flex for your matchup. Riot purposefully changed the runes to something that people were supposed to change every single game--now there's some champs that have 1 good rune path and Teemo over there has like 4-5 good choices, he can just pick the best one and profit.",
+   "id": "7dglpn",
+   "comments": [],
+   "age_days": 3249,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Teemo Top Lane All Matchups Guide - Builds, Counters etc",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/6gr0u7/teemo_top_lane_all_matchups_guide_builds_counters/",
+   "published": "2017-06-12",
+   "author": "/u/daydull",
+   "body": "I've been working on a guide for playing Teemo top for a while now. I've been playing Teemo top as my main for about 3 years now and started a guide in Season 6, but never posted it anywhere. I've got a Season 7 matchup guide going now and would love some feedback or just to share it with you guys: Teemo Top Lane Matchup Guide for Season 7\n It currently has almost all the common matchups and I'm regularly updating and adding more matchups. Its geared toward Platinum / Gold / Silver or lower. I'm plat level, have watched and learned from ipav a lot and done a lot of playing and learning over the years. The idea with this article / guide is to have about 1 quick paragraph to read while loading a game that will help in your current matchup.\n I also have been recording video of teemo top matchups but haven't uploaded any of them yet. I might do that sometime soon if people might find it helpful. The only thing I've posted is a youtube video of a teemo pentakill\n Hope this is useful, comments and criticism welcome!",
+   "id": "6gr0u7",
+   "comments": [],
+   "age_days": 3406,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "#1 BR Teemo giving you some of my Teemo knowledge.",
+   "url": "https://www.reddit.com/r/TeemoTalk/comments/564g0w/1_br_teemo_giving_you_some_of_my_teemo_knowledge/",
+   "published": "2016-10-06",
+   "author": "/u/iDoty",
+   "body": "Hey, I'm a brazilian Teemo main who would love to share some things I know about Teemo. \n My highest rank: http://prntscr.com/cqezh1.\n My highest LoLSkill rank: http://prntscr.com/cqf2c6.\n I have over 600+ Teemo Games, my main account has 400k champion mastery and my smurf is about to hit 100k.\n My main account got perma banned so now I'm playing on my smurf which is currently Diamond, http://br.op.gg/summoner/userName=Dóty\n Before I start, I have to say that english isn't my first language so grammar errors are expected, and also, wall of text. :)\n SORRY LONG TEXT, SORRY LONG TEXT, SORRY LONG TEXT, SORRY LONG TEXT. So, Teemo is a easy to play champion and kinda hard to master, but you will get better and better at him with the time. I see people having difficulty to play him against some matchups or how to build him properly or even how to carry with him, so I'm here to answer some of those questions.\n Let's start with the build. I can see that Tanky Teemo with Mallet is pretty popular, but honestly I think it's completely trash. Sure it can be good against kitable matchups, but imo, if you really want to carry with Teemo you need to do damage. I like to build him either AP or On-Hit, let's talk about my builds and when to use them.\n AP (http://prntscr.com/cqf797): AP Teemo is the best Teemo, but it will only work out if the enemy comp is pretty squishy (at least 3-4). With this build you will DESTROY the enemies with your Q's and Shrooms, your splitpush is pretty good and you can 1 shot every squishy.\n Lets talk about the items, imo, Gunblade, Nashors and Void Staff are the most important AP Teemo items, people just dont understand how good Gunblade + Nashor really are. Void Staff and Sorcs will give the magic pen you'll need to melt those tanks. Now, the situational items:\n Deathcap and Lich Bane: Those items will boost up your damage, but I'd only recomend those if you're stomping the game really hard.\n Liandry's and Morellonomicon: Those items will boost up your shrooms damage and cooldown, but you'll only want to buy these if the enemies have 1-2 Oracles OR you need to spam shrooms in your base because the enemy is always trying to take your tier 3 turrets/inhibtors. In lower elos people usually never swap the starting trinket, so Shroom Teemo Build is super strong in low elos, however in Plat+ people start to realize that Teemo's Shrooms hurts, so they buy it.\n Abyssal Scepter: I only buy this if the enemy has 2+ strong AP champions that will try to kill your botlane during the teamfight (LeBlanc, Elise, Fiddlesticks, Fizz, Singed, etc)\n Hourglass/GA/Banshee: These are the best defensive items for Teemo. It's pretty obvious when to buy each of those, right?\n When playing AP Teemo, Thunderlord is the best keystone. This is my mastery page: http://prntscr.com/cqfb8h ========================//===============================//================\n On Hit Teemo You will have to build on-hit items if you're against a tank composition, something like 3-4 tanks (lets say Sion Top, Hecarim Jungle, Swain Mid and Thresh Support).\n On Hit Teemo takes more skill because you can't burst, you have to kite and need you will rely on your Auto Attacks to do damage.\n This is my on hit build: http://prntscr.com/cqfh0i I swear, this build melts tanks when you stack Rageblade. The items are always the same, but if you need defensive items you can buy whatever you want. I prefer to start this build with Gunblade > Nashor > Boots > Rageblade > Hurricane > Wits End > Sell boots for PD. I like sorcs for this build because magic pen will help you melt tanks easily, but you can buy any boots. Also, Mallet can work pretty well in this build, but I just don't like it.\n Fervor of Battle is the way to go in every On Hit Teemo build. http://prntscr.com/cqfiof I use Resolve masteries because when I use Fervor I'm against a tank, and tanks usually out sustains Teemo. ========================/================================/================\n Ok, I'm done with the builds, hope you could understand when to go AP/On-Hit and how I build it. Now I would like to tell some cool tricks and tips you can do with Teemo:\n If you have Gunblade and Thunderlords you can 1 shot an enemy squishy by using your passive to stealth in lane, Auto Attack -> Q -> Gunblade. This deal A LOT of damage.\n A very strong Teemo combo in lane is Empowered Auto Attack by Hextech Revolver -> Q. This will proc Thunderlords and deal like half or 1/4 of enemy's HP bar. Hextech Revolver is super strong.\n If you have Gunblade, you can throw a shroom during a fight to regen your HP by SpellVamp. This can be pretty important at close fights.\n When Im against a super hard lane (Pantheon, Malphite, Olaf, Kennen, etc) I tend to rush a Zz'Rot portal, so I get defensive stats and still push the lane so I won't get doved and the voidlings may get me some gold.\n If you enter stealth in a bush and flash to another bush, you'll still be invisible.\n There are some things that help me a lot in my gameplay and you should do it too. Learn to dodge skillshots. You can easily learn how to dodge skillshots by playing ARAM, I have over 1k ARAM games and that surely helped me learn how to do it. Teemo is super fast, so dodgin' skillshots with him is pretty easy.\n http://prntscr.com/cqftu7 Attack Move Click and Attack Move makes farming and kiting so damn easy. It really helps who has difficulty to farm in lane or kite your enemies. I really recomend using these.\n Top Lane Matchups I'd really try to pick anything but Teemo: Pantheon, Malphite, Akali, Olaf, Kayle, Kennen, Ryze, Irelia.\n ======================/============================/======================\n Is Teemo good for climbing? Yes and No. Any champion is good to climb the ladder but only if you are good with it. So if you want to get elo by playing Teemo, make sure you do your best to improve at him and never give up.\n =====================/========================/===========================\n Damn, that's pretty big :o Sorry, I know it's a huge wall of text but I tried to help you guys with some of my Teemo knowledge. If you have any other questions about anything please feel free to ask it. http://prntscr.com/cqg36d\n Edit1: I didn't talk about the runes because I thinks it's personal, but I always try to use Hybrid Pen, AP, Armor and if needed MR. For Jungle a lot of attack speed, ap and armor\n Edit2: Forgot to say how to carry with Teeto, so, if you end up stopming your lane make sure you help other lanes that are losing. I usually try to rush a gunblade and gank bot/mid. If you like the Mallet build and gank with it your ganks will be extremely useful. If you're winning just dont stay top the entire game, go help your teammates, gank 'em. If the enemy jungler is bot side, your jungler is top side and you managed to kill your lane opponent, go for a Rift Herald, it's huge for Teemo.",
+   "id": "564g0w",
+   "comments": [],
+   "age_days": 3655,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  }
+ ]
+}

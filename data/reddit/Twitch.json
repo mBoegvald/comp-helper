@@ -1,0 +1,872 @@
+{
+ "champion": "Twitch",
+ "subreddit": "twitchmains",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "can u otp twitch?",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/1w7fhsu/can_u_otp_twitch/",
+   "published": "2026-09-04",
+   "author": "/u/Advanced_Spend_8385",
+   "body": "jungler trying to learn adc. While jg otp'ing was very easy cuz you cant really get countered to a point where its barely playable for you, but i was wondering how it works on botlane? Are there matchups where you cant do anything on twitch? thx",
+   "id": "1w7fhsu",
+   "comments": [],
+   "age_days": 35,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Twitch *doesn't* need a rework ?",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/1v82l9z/twitch_doesnt_need_a_rework/",
+   "published": "2026-07-27",
+   "author": "/u/StudentJoa",
+   "body": "I've saw some posts recently claiming that Twitch is weak or needs a complete rework to his kit, changing some of his abilities. I also used to think like that, but after trying to think into different changes or reworks, I think he is mostly fine as he is.\n Twitch is different than other adcs because of his sneaky rat core mechanic of using his camouflage to surprise enemies, while also having AOE and long range DPS, so he fills this role of being an Assassin/Stealthy ADC, I think that any changes besides an ASU rework and small QOL changes would either make him lose one of his core aspects of his kit or make him overpowered/have ballance issues.\n Twitch is generally strong in lower elos (more than 90% of the player base) because of his stealth, surprising less aware enemies, thriving in more chaotic, snowbally environment, so besides high elo he feels good to play (of course, like any champion, Twitch has bad matchups and bad games), but even though he is weaker in higher elos we still have players who get to play him and main him in high elo. \n If they were ever to rework him into making him good across all ranks, it would probably make him have ballance issues like we saw with champions like Senna, Smolder, Yunara and Zeri.\n The way he is now, Twitch has a good number of dedicated players, isn't pro skewed, has some variety of builds between PtA or LT, Runaans or Fiendbolt, and the few very good players are capable of climbing up to high elo with him.",
+   "id": "1v82l9z",
+   "comments": [],
+   "age_days": 74,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "mage meta & twitch's win rate",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/1uy1usg/mage_meta_twitchs_win_rate/",
+   "published": "2026-07-16",
+   "author": "/u/Middle-Stop-2368",
+   "body": "With the recent surge of AP mages taking over the bot lane meta, I’ve noticed a corresponding rise in Twitch’s win rate. Is there a direct correlation here? it feels like Twitch’s stealth allows him to flank behind and burst them down before they can react. I'm curious to get everyone's thoughts on the current matchups, do you think Twitch’s kit naturally counters the mage meta, or is there something else i'm missing? \n https://preview.redd.it/3xb45r3x7ldh1.png?width=1020&format=png&auto=webp&s=745e4655f807f657cadb700b5dc11253f1468b36",
+   "id": "1uy1usg",
+   "comments": [],
+   "age_days": 85,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Scary Botlane",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/1up6y2r/scary_botlane/",
+   "published": "2026-07-06",
+   "author": "/u/Mother-Confidence-99",
+   "body": "https://preview.redd.it/q700r5xsqnbh1.png?width=1061&format=png&auto=webp&s=63a75cda4c9383f6dfad8b2fbae5b6510b90bf1d\n I call this \"The scary botlane\" its scary because twitch and shaco has invis. You always cheese level 1 and you play AP twitch and AD shaco. WIth that you can always win level 1 no matter the matchup and assasin any sqiushy in the game as you both have insane burst. Another lovely thing is shaco counters any hook champion with his W which is beneficial to winning botlane",
+   "id": "1up6y2r",
+   "comments": [],
+   "age_days": 95,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Any high elo spacegliders want to break down out lvl 1 all in matchups?",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/1u9bta3/any_high_elo_spacegliders_want_to_break_down_out/",
+   "published": "2026-06-18",
+   "author": "/u/Just-Cancel7613",
+   "body": "Who do we 100% stat check lvl 1 with q start vs who we dodge",
+   "id": "1u9bta3",
+   "comments": [],
+   "age_days": 113,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How you all deal with kalista mains?",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/1u27oou/how_you_all_deal_with_kalista_mains/",
+   "published": "2026-06-10",
+   "author": "/u/FatalRat",
+   "body": "Right now im still having PTSD when facing a real kalista player(a rare matchup). Even though the ranks are almost close (i just recently hit Master), these kalista mains act like a chinese player specially when paired with yuumi. There is no way for me to farm early on (i guess sit at the tower) because yeah, they trade better. I have 1.8m points and im aware that the champ itself is weak so im just asking on to other twitch mains.",
+   "id": "1u27oou",
+   "comments": [],
+   "age_days": 121,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "little guide on how i got d3 with twitch supp/mid only",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/1tpi8qx/little_guide_on_how_i_got_d3_with_twitch_suppmid/",
+   "published": "2026-05-27",
+   "author": "/u/TamemXGamer",
+   "body": "i made a post with my match history and legit everyone was laughing at me because i play electrocute twitch ap?? like i legit think electrocute is one of if not the best rune on twitch ap supp. mid twitch on the other hand is probably better off with pta.\n anyways this is the runes i play twitch supp with:\n https://preview.redd.it/bjpi2q4niq3h1.png?width=972&format=png&auto=webp&s=6442fdec677698f49315bbb56c338121eab94474\n and twitch mid:\n https://preview.redd.it/dyddkknviq3h1.png?width=990&format=png&auto=webp&s=61fcf440a4120088d33dbc6dd8b81955770f0f55\n the only differences are that mid takes attack speed to be able to farm a bit better, and deep ward to be able to clear wave and insta roam to bot while knowing if ur being spotted or not.\n i just wanna clear things out as to why i even use electrocute in the first place. i am NOT a twitch main and have never been. ive tried pta, hail of blades, and first strike. i think theyre all good, but electrocute is my favorite by far. because W PROCS YOUR ELECTOCUTE. and so does your auto, e, and ignite. so while playing support, if you see someone out of place you can just w -> auto -> E (you can wait for like 2 to 3 stacks from the W before you E, but don't wait too long because you might miss the window to proc it).\n the items:\n 1st item: nashor's tooth\n boots:\n do they have a lot slow? or you just want to be faster to dodge certain skillshots? -> swifties\n do they have 70%+ physical damage? -> ninja tabi/plated steelcaps\n if not -> lucidity boots\n 2nd item:\n 90% of the time its -> death cap.\n 8% if you're giga fed, and they dont have assassins -> mejai's\n 2% if you can just complete shadow flame and you're fed -> shadow flame\n 3rd item:\n do they have fed ad assassin? -> zhonya's\n do they have fed ap assassin/long range cc? -> banshee's veil\n if not -> cosmic drive ( you should take cosmic drive 80% of games. i think its legit the best item on twitch ap after nash tooth and death cap. only take the other options if you don't know how to play around your W and u just want to int)\n 4th item:\n either zhonya or banshee's\n or most of the time you should take -> riftmaker\n this is just the general build that i prefer on twitch ap overall.\n https://preview.redd.it/uyceoum3nq3h1.png?width=573&format=png&auto=webp&s=9d031115e0d8c9ec787b5bef4d2c0f3ed71f56be\n now to play styles:\n for mid:\n this is kind of knowledge check but if you know what camp the enemy jg is going to take first take DBlade and kill him lvl 1.\n if you do not, then either take DBlade or DRing depending on the matchup.\n (you should take DBlade to harass melee's and DRing to play safer against mages/ranged)\n best tip to give twitch mid is WATCH YOUR MANA BEFORE ROAMING.\n you have 3 possible situations to roam in.\n 1: you killed enemy/enemy just recalled -> you shoved the wave with w and e -> you recalled -> and you went straight bot/top.\n 2: you shoved wave while enemy didnt recall -> you recall -> you come back mid for a full wave, and you only use w and e once for the whole wave -> you roam walking to bot/top from mid.\n 3: you legit just leave mid and tell ur jungler to take mid wave and defend turret and if he doesnt you just int and tell him to get cancer or something. (preferred method)\n on support:\n lvl 1: you go mid, when the wave spawns, you q and go into the lane, when you see the enemy, try to sneak onto whichever side is closer to bot side. hit him 3 times with auto's to proc electrocute, then just instantly run bot. UNLESS YOU ARE PLAYING RED SIDE. which if you are, then run to the enemy raptors. if hes there, try to kill him. if not, just ward raptors and go bot.\n play safe while supporting bot, then either get lvl 3 or 4, and recall, then just go to whichever lane calls to you. thats how i play at least.\n _____________________________________________________________________________________________________\n overall try to play around objective because twitch mid/supp is just literally you losing unless the enemy team makes a lot of mistakes.\n towards mid to late game you will realize that you cant just q and kill anyone you want anymore. because you're more of a slowing support rather than a killing assassin now. thats why cosmic reaver is PERFECTTTTT at this point of the game. it not only gives you a shit ton of cd, but it also gives you so much SPEED proccing from your passive true damage. and then after that you should get riftmaker, because it gives you more damage the longer the fight goes on.\n THIS IS IMPORTANT!!!! once you reach mid to late game, its time to forget about auto attacking without ultimate in teamfights, just w, and run away like the little rat you are.\n i know that so many comments are just gonna be straight up telling me that this build is dog shit, but at the end of the day, i got d3 with twitch supp/mid only, and you didnt. so stay mad :P\n https://preview.redd.it/479qhbj6tq3h1.png?width=1920&format=png&auto=webp&s=4eabb97e074119e52f1b5586d8483fafb57ef019\n https://preview.redd.it/skijs869sq3h1.png?width=342&format=png&auto=webp&s=672f4744e6131dfea5139f8628b8b42a9383ce1f\n shitty wr but idc\n TLDR: just look at the pictures i sent, copy the builds, and have fun.\n Edit: this build is heavily influenced by patch notes!! if even a single minor rune or adaptive runes change, the whole build might change.",
+   "id": "1tpi8qx",
+   "comments": [],
+   "age_days": 135,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Can i get a Build guide for patch 26.07",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/1sec4jy/can_i_get_a_build_guide_for_patch_2607/",
+   "published": "2026-04-06",
+   "author": "/u/Personal-Training630",
+   "body": "I dont know what to build that season i just blindly follow lolalytics build which is collector>Ie>ldr>hurricane but i dont know if that build is good or if you could improve the build for certain matchups. I also struggle with lt vs Pta because half of twitch mains prefer the one thing and the other half likes the other rune. I know ashe builds meta items like C44>Pd>Ie and i wonderd if twitch can just copy that and skip building collector.",
+   "id": "1sec4jy",
+   "comments": [],
+   "age_days": 186,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Ability haste twitch - new season update",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/1qbolka/ability_haste_twitch_new_season_update/",
+   "published": "2026-01-13",
+   "author": "/u/Egyptiantelephone",
+   "body": "I've made a new ability haste twitch build that uses bandlepipes and cosmic drive to make your W crazy powerful. whenever you throw a W you get 40 movespeed, 20 attack speed and an attack speed aura. Here's the build\n Aery\n Manaflow\n Transcendence (absolute focus and celerity also work)\n Gathering Storm\n Triple Tonic\n Jack of all Trades\n Atkspd adaptive and any of the 3 bottom options depending on matchup\n Cosmic drive\n ionian or swifties or plated steelcaps\n Malignance (works well with bandlepipes since it gives u attackspeed)\n Bandlepipes\n potential items after the 3 core ones:\n Zhonyas, hextech gunblade, haunting guise, liandries, shurelyas, imperial mandate, horizon focus, spear of shojin, riftmaker,\n EDIT:::\n I should explain how it works more. imagine this: youre twitch, you have 3 items, a max level W and e, and 90 ability haste.\n Every 3.5 seconds, you throw a cask, slowing for 60%, and dealing 80 true damage a second to anyone inside. on top of that, you can e every 3.5 seconds, dealing 1000 ad and magic damage combined.\n You constantly have 40 movespeed from bandlepipes and cosmic, a little bit of both resists and 350-850 bonus hp to prevent assassination, a 15 second stealth which gives 10% ms, and an ult that leaves damaging pools which your opponents cant escape since theyre perma slowed.\n How does anyone beat that?",
+   "id": "1qbolka",
+   "comments": [],
+   "age_days": 269,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Ran some recon for our friend GuinsooIsOverrated",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/1nujgfk/ran_some_recon_for_our_friend_guinsooisoverrated/",
+   "published": "2025-09-30",
+   "author": "/u/TALIDIN_",
+   "body": "I went to Zed mains posing as a guy that needs help with the Twitch matchup, and someone gave a really detailed explanation. Should give us some insights to how the Zed players are dealing with us, if at all.\n Shout out to chrstphrInch for saying \"Just experienced AP twitch mid and genuinely felt useless\".\n https://www.reddit.com/r/zedmains/comments/1ntzuhm/how_to_deal_with_twitch_matchup/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button\n \"If the Twitch is any good, aside from all the things Twitch does that you don't already know, they'll make most of their plays happen pre-6. That's the most frustrating part if you are thinking about the laning phase. You are looking to sneak farm but mostly exp once so you can hit 6, which is LITERALLY 4.5 minutes of struggle. Depending on if you go ignite or TP, if you go ignite, lane dynamics change once you hit 6. Essentially, if he is missing flash, and you hit your Qs with ignite, any moment he just pops up on you to try to assassinate you, you should win reactively if you land everything.\n I know that is a big IF, but I just want you to know hypothetically, how things go. The most annoying thing about Twitch post-6 is that he just gets to keep repeating his invisible surprise attack or invis to run away.\n It sucks, because you don't get to lane, or it is super oppressive, but just keep in mind that it is literally 4.5 minutes of suffering and then things just change. If your ulti is up, he can't really just walk up to you and surprise attack you and giving you an R by just walking up is also basically a death sentence because your W can follow up. So as long as your R is up and you are 6, he will respect you. If not, you punish.\n That is just the baseline. Everything else inbetween, like taking electrocute, or hitting him with WEQs and stuff in lane are kind of take it by ear plays. However, it is totally within your control you not die or mess lane up, and totally in Twitch's hands to make things happen for 4.5 minutes. If you take that into account, it really isn't so bad. Generally, you can go electro to fish for early kills, but if you go electro, you really need to go ignite to get most value out of it. If you go first strike or TP, you have a lot more room to make mistakes, but basically have a stable midgame spike as long as you don't int and farm average. You do lose value though, if Twitch just decides not to interact and you don't get to land poke for FS gold. Finally, if you are pretty confident, Conqueror is also good, you just have to know how to lane well to survive the early helplessness. All of this changes if Twitch plays bad and or he is super out of position and gets ganked.\n Other ways to see and plan for the game is, you can rush Youmuus or Hydra (Rave or Prof) to help with faster waveclear to punish his roams and open up your energy so that you can just all in Twitch if he shoes up to lane. It's risky, but you can also just let Twitch do his thing, and you just scale like normal, and once he's worth a big bounty, you just fish to kill him and it recoups a good chunk of change and exp for your teams sufferage. TP can also be used as a reactive play and you can literally even go TP+IGnite, instead of TP+Flash. You have a lot of room, you just gotta be willing to play and plan the game in an unconventional way, but Twitch is also an unconventional midlaner. See it from Twitch's side, he has 4.5 min to make to deal with the inevitable lose of pressure and vulnerabilities once you hit 6. So with TP, even if he roams and gets off a play, but you stay to push the wave in, then TP reactively, any kills you get in return sets him back behind a lot more than if yall just traded equally.\n Resolve secondary with demolish+second wind/boneplating +Doran's shield is a thing too if you just want a no frills farm lane. If he roams, you just get tower plates.\n Finally, if Twitch just sits midlane all of early game, he's literally not used any part of his kit. He's now assumed all the weaknesses of being an ADC into Zed lane, without the bonus pressure/play making that would have come with it. So there are a lot of ways to win this lane, and going even in lane is a win as well. You just don't necessarily have to kill the rat. Just don't mix and match too many of the styles otherwise you could end up making a mistake that ruins your first 4-5 mins.\" - FowLong",
+   "id": "1nujgfk",
+   "comments": [],
+   "age_days": 374,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "chall tw otp matchup tier list",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/1nar6hc/chall_tw_otp_matchup_tier_list/",
+   "published": "2025-09-07",
+   "author": "/u/_CVSReceipt",
+   "body": "",
+   "id": "1nar6hc",
+   "comments": [],
+   "age_days": 397,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "A hidden trick only Twitch has. Great to do vs Yasuo",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/1mfxser/a_hidden_trick_only_twitch_has_great_to_do_vs/",
+   "published": "2025-08-02",
+   "author": "/u/wackaflcka",
+   "body": "Being able to reference other enemies cds through your own is probably something no other champion can do as well as twitch due to the nature of his Q. Keeping this in mind vs certain matchups can really make a huge difference. Especially against something like Yasuo",
+   "id": "1mfxser",
+   "comments": [],
+   "age_days": 433,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "my matchup tierlist. Agree, disagree?",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/1jwuvx3/my_matchup_tierlist_agree_disagree/",
+   "published": "2025-04-11",
+   "author": "/u/wackaflcka",
+   "body": "Whichever champion is closest to the left is the one which is most XD or cringe, or boring.\n The further away they are, the closer they are to being in another category depending.\n Any mage outside of Karthus which id put with draven is automatically cringe. As the seraph gameplay is just uninteractive and cringe.\n Full video if interested https://youtu.be/fAbMTDEX1fQ?si=CcIBKo0dCAk16MEz\n Agree, disagree? thoughts",
+   "id": "1jwuvx3",
+   "comments": [],
+   "age_days": 546,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Hidden playable",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/1iy8ke6/hidden_playable/",
+   "published": "2025-02-25",
+   "author": "/u/ppikavhulv",
+   "body": "",
+   "id": "1iy8ke6",
+   "comments": [],
+   "age_days": 591,
+   "recency_weight": 0.7,
+   "topics": [],
+   "stale_items": false
+  },
+  {
+   "title": "Tips against super aggro lanes?",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/1inl4my/tips_against_super_aggro_lanes/",
+   "published": "2025-02-12",
+   "author": "/u/Merpninja",
+   "body": "I usually struggle against super early-focused lanes bc it feels like you have zero ability to do anything. I get zoned from farm, I have to step off from tower every time the supp leaves and its just a 40 cs gap at 10 minutes at best. \n Twitch isn't my best champ but I have more fun with him than anyone else and have for years. The only thing stopping me from maining him is these games against shit like support Pantheon. The stat sites say matchups like this are twitch-favored but I genuinely can't play the game. \n Any help from high-elo mains would be great. Example lane would be something like Trist-Pantheon to start.",
+   "id": "1inl4my",
+   "comments": [],
+   "age_days": 604,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Twitch is currently an S+ Tier Champion",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/1ilv962/twitch_is_currently_an_s_tier_champion/",
+   "published": "2025-02-10",
+   "author": "/u/Aperturee",
+   "body": "",
+   "id": "1ilv962",
+   "comments": [],
+   "age_days": 606,
+   "recency_weight": 0.7,
+   "topics": [],
+   "stale_items": false
+  },
+  {
+   "title": "Seeing a lot of results on twitch",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/1i4rod7/seeing_a_lot_of_results_on_twitch/",
+   "published": "2025-01-19",
+   "author": "/u/Crushles",
+   "body": "I’m an ADC main who used to main twitch years ago (like season 10-11). I primarily play Draven, but with the current meta I really don’t think he’s that good, you can win lane but with all the mages/tanks in the meta he’s pretty useless past 25 mins even if you drop 15 kills early. I decided to try twitch again because I saw his winrate went up with the new season, and man, he just feels awesome to play rn. He scales incredibly well, but his early game is still pretty good. Even into tough lane matchups, with a half decent support I feel like as long as you survive long enough to get Bork/ t2 boots you can pretty much win any all in with decent spacing (bar some matchups). He feels the best with an enchanter but I like the fact that he’s flexible enough to work with engage tank supports as well. Also, being able to roam so well on an ADC is so much fun. Roaming mid after you shove a wave is more often than not a kill/flash at least; people never expect an ADC to roam so it’s always hilarious when you watch them panic as you pop out of stealth in their lane. And of course teamfights after you have 3 items are just the icing on the cake. I have a 65% wr on him out of 30 games, I’m really loving the rat right now. Glide on kings",
+   "id": "1i4rod7",
+   "comments": [],
+   "age_days": 628,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "tips against cait(and poke matchups)",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/1euf6e9/tips_against_caitand_poke_matchups/",
+   "published": "2024-08-17",
+   "author": "/u/Saubor",
+   "body": "i was a jax main but then i stoped playing league because i became too busy. now when i returned to league i realized that i was playing kinda bad with jax and kinda good with twitch(platinum 2 btw). but im having a lot of trouble against poke lanes like cait karma, lux cait, ezreal vel koz, etc because i dont know when all in so i stay quiet below my tower losing cs, plates, and my tower under 10 minutes because my sup and my jg doesnt engage. what should i do in this situations? sorry bad english btw brazilzilzil here",
+   "id": "1euf6e9",
+   "comments": [],
+   "age_days": 783,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "ad builds that is good for most matchups?",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/1dt38vf/ad_builds_that_is_good_for_most_matchups/",
+   "published": "2024-07-01",
+   "author": "/u/Upper-Calendar-1578",
+   "body": "yh just a simple question",
+   "id": "1dt38vf",
+   "comments": [],
+   "age_days": 830,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "About laning phase",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/17xj3dp/about_laning_phase/",
+   "published": "2023-11-17",
+   "author": "/u/Vanilluxe1",
+   "body": "So I started playing twitch on d3 and the early game is quite tough and my cs score is terrible.Can you briefly talk about some bad and good matchups and how exactly you manage your lane/farm!?",
+   "id": "17xj3dp",
+   "comments": [],
+   "age_days": 1057,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How do i play against an Akali",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/167jtjx/how_do_i_play_against_an_akali/",
+   "published": "2023-09-01",
+   "author": "/u/Mister_Cosmic",
+   "body": "Twitch OTP 370k+ here. Just can't play agains't Akali even when i'm fed\n She just smokes, blocks all my autos and proceeds to insta kill me even if she's 0/10\n And tbh i don't believe thats a situation where i could simply kite her or space her. She has 2 ults to reach me 10 miles away. I don't struggle with any matchups neither in botlane neither in midlane and i simply can't play against her.\n Thats it reddit, what should i do",
+   "id": "167jtjx",
+   "comments": [],
+   "age_days": 1134,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Struggling gold scrub wannabe Twitch main",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/13dx5py/struggling_gold_scrub_wannabe_twitch_main/",
+   "published": "2023-05-10",
+   "author": "/u/Nightmarer26",
+   "body": "I want to start climbing as ADC on alternate account (main one is support gold III elo), so I picked Twitch and Ezreal because they are decently easy while having outplay potential. Any tips on matchups and builds? I feel useless without R late-game unless giga ahead. Should I always go blade first? What about Shieldbow mythic instead of Kraken? So many things I have to learn on this champion, he plays more like an assassin than a traditional adc!\n Very fun tho, I'll be listening to Everything Black whenever I play Twitch just to raise my winrate by 100%.",
+   "id": "13dx5py",
+   "comments": [],
+   "age_days": 1248,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Maining twitch",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/11ioq9w/maining_twitch/",
+   "published": "2023-03-05",
+   "author": "/u/viniloldagalera",
+   "body": "I'm new into this guy and to adc in general, what you guys recommend me to learn about him and matchups, builds etc first? I'd say im decent at kiting, but im struggling to win lanes, can someone help me?",
+   "id": "11ioq9w",
+   "comments": [],
+   "age_days": 1314,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "what adc do you pick when twitch is picked or in a hard matchup?",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/10k4ppz/what_adc_do_you_pick_when_twitch_is_picked_or_in/",
+   "published": "2023-01-24",
+   "author": "/u/Thor_bjornLoL",
+   "body": "Ive been picking ez, but not sure if hes good enough.. i feel like hes to different to my playstyle",
+   "id": "10k4ppz",
+   "comments": [],
+   "age_days": 1354,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "In which matchups are perfect to lock twitch",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/10ied2y/in_which_matchups_are_perfect_to_lock_twitch/",
+   "published": "2023-01-22",
+   "author": "/u/improvemyselforkms",
+   "body": "I picked up twitch as 2nd adc got mastery7 and can glide decent i won’t otp or main but i pick it if i have a lulu but in which matchups is it just freelp complete stomp for twitch and which matchups are completely cancer",
+   "id": "10ied2y",
+   "comments": [],
+   "age_days": 1356,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "newbie twitch",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/zhms2t/newbie_twitch/",
+   "published": "2022-12-10",
+   "author": "/u/Rin_Yamato_1980",
+   "body": "1) Tell me how I can kite with Twitch.\n 2) When I go the AP path, I deal negative DMG to tanks and healers harassing me so hard, like Yummi and Soraka; what can I do?\n 3) What is the best position for my ult in team fights?\n 4) I think Twitch's early game is so weak, and his kit is reliant on items.\n 5) The runes?\n 6) Tell me what I should build for every game and the situational items.\n 7) matchups?\n 8) I think exhaust is the best spell on Twitch; if anyone has another opinion, tell me. 9) counters ?",
+   "id": "zhms2t",
+   "comments": [],
+   "age_days": 1399,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "AP Twitch mid or adc?",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/yeasa3/ap_twitch_mid_or_adc/",
+   "published": "2022-10-26",
+   "author": "/u/Marselo4",
+   "body": "So I recently started playing Twitch. I want to know on what lane his performance is better. Also what are the worst matchups you can get on mid and adc?",
+   "id": "yeasa3",
+   "comments": [],
+   "age_days": 1444,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Twitch Mirror Matchup 1v1",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/xgzhy3/twitch_mirror_matchup_1v1/",
+   "published": "2022-09-17",
+   "author": "/u/ViraLCyclopes9",
+   "body": "",
+   "id": "xgzhy3",
+   "comments": [],
+   "age_days": 1483,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "High ELO Twitch main willing to answer your questions!",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/t8xbny/high_elo_twitch_main_willing_to_answer_your/",
+   "published": "2022-03-07",
+   "author": "/u/Gusarrr",
+   "body": "Hello guys, my name is Gusar! I've been a high ELO player for the past 4 years and I'm Challenger for almost 2 years now. My main role is jungle but I've been playing all roles with great success up until Grandmaster. One of the champions that I had a lot of success in both jungle and botlane was Twitch!\n I played over 150 games of Twitch last season and hit Grandmaster with 65%+ winrate.\n If you have any questions regarding rune pages, build paths, or matchups in the jungle/botlane or overall game-play through all stages of the game, feel free to ask any question, I'm here to help!\n I'm also a ProGuides coach so if you would like to seriously improve your gameplay, you know where to find me!",
+   "id": "t8xbny",
+   "comments": [],
+   "age_days": 1677,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Are You Discheesed with the Current State of AD Twitch?",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/saawwy/are_you_discheesed_with_the_current_state_of_ad/",
+   "published": "2022-01-22",
+   "author": "/u/DudeMcAwesome95",
+   "body": "Play him AP mid/support, this is the only way. Terrorize those filthy mid lane mages and assassins, send them on a halal journey to the mecca with a well timed, surprise piss throw from Q and a max passive stacked E...\n On a serious note, AP Mid/Support Twitch is really strong right now. Crown has pushed AP Twitch into sleeper OP territory, making him virtually unkillable while one shotting anyone that isn't a tank. Mid laners cant contest the push with just a blasting wand, and I have yet to find a matchup that I lose to in a 1v1 from levels 1-3 when played correctly.\n The build is pretty standard AP Twitch: Nashors rush > Crown > Deathcap\n Deathcap second is still best if you're snowballing out of control, but personally I prefer Crown rush always since squishes will always die quickly regardless. Buy blasting wand first back or a dark seal, either way Twitch has exceptional early game pushing power which means even into lanes where the enemy laner is respecting your damage and Q cheese, you can simply push and roam to look for kills/objectives/vision elsewhere.\n Into Melee matchups always start Q and try to poke them out of lane before they're even allowed to play. If this doesn't work, wait for level 2 and I've personally found faking to go ward and Qing back into lane surprises a lot of people, leading to early firstbloods in a majority of my games.\n Into Ranged matchups start W. Q start would work just fine to try and poke them out of lane, but I like to contest the early game push through W start to rush level advantage. With blasting wand back, your pushing ability spikes through the roof and a lot of champs simply cant contest how quickly you can push a wave, leading to either fake roam cheese kills or actual roaming for kills.\n Edit: I should also note, boots are situational. AS boots will always be best into comps where you need the extra AS to stack passive quicker; Ionians when you don't need defensive or AS boots; defensive boots (tabi/mercs) into high damage threats that can stick onto you like glue.",
+   "id": "saawwy",
+   "comments": [],
+   "age_days": 1721,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Twitch builds",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/rm34n7/twitch_builds/",
+   "published": "2021-12-22",
+   "author": "/u/PoppySp",
+   "body": "So, recently I picked up twitch ADC and feels really cool to poke enemy lane a lot, but my problem is when should i go AP or AD twitch.Both can one shot but can they be more op in specific matchups?",
+   "id": "rm34n7",
+   "comments": [],
+   "age_days": 1752,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Which build do you prefer ?",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/pkcam5/which_build_do_you_prefer/",
+   "published": "2021-09-08",
+   "author": "/u/KingShakaaa",
+   "body": "Obviously it's matchup dependant but I'm asking in general which feels better, feel free to add suggestions to similar builds in the comments I would appreciate it\n View Poll",
+   "id": "pkcam5",
+   "comments": [],
+   "age_days": 1857,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "My personal best twitch build.",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/o88oln/my_personal_best_twitch_build/",
+   "published": "2021-06-26",
+   "author": "/u/szczur_mysz",
+   "body": "(Note: I didn't knew about 98tek build by that moment, so it looks very similar but i think my version is kinda better) (Another note: i a middle of writing i saw 98tek has a few versions and its just the shieldbow version of it, but it has some changes anyway)\n ​\n So this is the build:\n https://preview.redd.it/3br58r7p7l771.png?width=591&format=png&auto=webp&s=85f37e4f29b03c9c4ccc4bb052a80f7b6b3497f4\n The stats at full build are (death's dance last item)\n +300 AD (around 550 crits on minions)\n 2,800 health\n 1.8 AS (around 2.5 with lethal tempo)\n 140 armor 100 magic resist (don't remeber exacly)\n 40% Crit chance\n + Shieldbow shield, crazy waveclear, deaths dance healing and damage reducion\n ​\n This has far more survivality than kraken 98tek , better resists and pretty good 3 item spike\n ​\n Most important changes made to the build in comparasion to 98tek:\n - STEELCAPS. I chosen to run stellcapses, instead of bersks beacuse you can't fit any armor to the build until last item. Second thing is that after wits end hurricane you already have 1.6-1.7 AS, which is pretty much enough. Getting steelcaps after wits end will give you 90 of both resistances, and will make sure that your resists matter, beacuse most of the time you dont run into magic damage adcarries. For late then can be sold, but i was keeping them in most games.\n - Item order. 98tek runs shieldbow at first item, or hydra at 3th item, which i think is a mistake. Wits end damage is almost better than krakens in early. And If you match against mage support, with wits end you can be 100% sure you will 1v1 him. In my games (at the bottom of the post) i ran 3 times into brand and 1 time into vel coz and completly denied them from the game, they ended as 2/9, beacuse they couldnt find a squichy target to kill.\n Runnans is almost always a 2th item in any twitch build for reasons we know, you can do something in fights with 2 items, but if i went shieldbow 2th item this could be problematic, also the cost, stats and wave clear are better to have earlier than a shieldbow.\n Don't go hydra 3th item. It's really costy item, with much worse components than shieldbow. Tiamat is nice to have, but after that you still have to get 2100 gold that you will not gain more damage during this time. Shieldbow has great components, and you end it mostly at the time when assasins and teamfights become a thing so shield gets really valuable. At 3 items your damage isn't really worse than on any other AD twitch build, but you already have great survivality.\n And lastly i go for death's dance last for good both offensive and deffensive stats. But you can freely swap it to anything i mentioned, if you need armor shreed, more magic resist, etc.\n 3 first games were against almost worst twitch matchups - tristana and brand. (1th game was still an experiment, that's why hydra 3th)\n Only moment when this build has less damage than usual twitch build is late game, they have more damage per second. But if you are able to survive more seconds than crit twitch, you can out damage full damage builds.\n For runes i go casual lethal tempo with alacrity but i like resolve secondary with conditioning/bone plating and overgrowth/unflicnching depending on enemies. Domination is still completly viable with this, if you like it, not having ultimate hunter is pretty noticable.\n ​\n Currently I am at s3, ill try climbing with this, let's see how this will work out.",
+   "id": "o88oln",
+   "comments": [],
+   "age_days": 1931,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Twitch Mid Giga OP",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/nbmjia/twitch_mid_giga_op/",
+   "published": "2021-05-13",
+   "author": "/u/e_x_h_a_l_e",
+   "body": "EDIT: Forgot to mention this only works with crime city any other skin = ff15\n Ok boys I’m coming off a massive adderall bender and over the past 24 hours I have played 25 games of twitch mid, winning 24/25. This is in g4-g1 on a alt account, sitting at g1 currently.\n RUNES: HOB-tob-eyeball-relentless / Pom-cut down\n Build: Dorans ring -dark seal -lucid boots -Nash -(optional tear at some point)-dcap -whatever u want I go full ap seraphs mejais etc\n I have played many matchups, and this shit is absolutely broken. Kda currently sitting at 6/1. You hard win level one into almost all matchups (fuck orianna), so you can manipulate the wave to \n A. Slow push for a roam \n B. Freeze just outside your tower for ganks\n C. If you can’t touch wave shoulda dodge don’t do this into orianna, haven’t lost a single other matchup yet (zed is annoying if you can’t get fed fast enough)\n With dorans ring and q start you have heavy poke early, then you can trade down until they’re in kill range with ignite. Fake B / leave lane, and go kill it.\n The trick is to trade them down with early cheese and w auto e combos and hold wave on your side so they are absolutely fucked. Don’t ever let them back make them stay in lane and slowly get to your q w autos ignite e kill range. \n Dark seal first back, if lane is killable do it over and over. If it’s a harder lane, you slow push, crash, and perma roam kill other lanes / jg. \n Build full ap obviously. This will work until at least high plat from what I see\n If you’re losing lane to poky annoying shit like Lux you aren’t abusing the all in level one hard enough. Take their entire hp bar before you have a reason to respect them",
+   "id": "nbmjia",
+   "comments": [],
+   "age_days": 1975,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "A somewhat detailed answer/personal opinion on questions about DH twitch and how to play it and why Ratirl might be using it here and there, and also a little Suprise down below for the real twitch lovers.",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/lmp4sp/a_somewhat_detailed_answerpersonal_opinion_on/",
+   "published": "2021-02-18",
+   "author": "/u/KingShakaaa",
+   "body": "DH is alot of fun if u try go for as much Ap as possible and get that E to go off and be a flashy oneshot, While I find HOB a lot more versatile and is good into any matchups.\n I believe that Ratirl was running it to see if it is viable into certain matchups ( go look at his op.gg accounts and see the matchups where he takes DH ) (( Links Below to two ))\n https://euw.op.gg/summoner/userName=torpedotim64\n https://euw.op.gg/summoner/userName=1v9%20machine%20\n I run DH when I play twitch support or mid and the enemy either has a way to much poke or way too much engage to the point where u cant safely stay in lane. Hopefully, you have an ADC that has a mind and can hopefully know how to play safe / under tower\n while U run around and play support twitch just as u would play river twitch. As river twitch, You are able to steal certain enemy camps ( chickens and gromp, blue/red ) and take scuttle + soak lane XP. ( a lot of fun if u get good at it )\n I often find that a level 1 gank top where u hide in the alcove ( make sure u are running ignite) and then force a flash or a kill on the enemy top, because who expects a level 1 gank in top from the twitch support and 99% of the time the enemy is out of position and u can easily get behind them with q ( it helps if you're top has a cc )\n Dark harvest scales a lot better with ap and is only viable if u play with a river twitch playstyle ( aka second jungle ) or a very aggressive playstyle of you're choosing as long as u are able to keep getting Dark Harvest stacks. U shouldn't be afraid to take some damage for a DH stack as it will eventually be more worth for u.\n It is especially good if the enemy has no means of easy escape like a dash, blink .....etc where u can easily get a good W off on a gank or in you're own lane.\n U can still itemize the same by making sure u rush your nashors into Death Cap, and u want to make sure that if u are running DH u get berserker's greaves so u are still able to get all your stacks off ( I personally never go magic pen boots as I find it pointless)\n Remember to never build liandrys or Demonic unless u are inting or maybe Aram but that's it \n That's about it for what I have to say about that but If u wanna try something new and fun read below.\n OK listen here \n Its gonna sound strange but trust me its a lot of fun if u are messing around with a duo\n ......................................................Moonstone renewer twitch.........................................................\n Yes yes, and yes, It might sound weird but Moonstone is one of the few items that proc off of twitch passive. This means that u can get free healing off even if u only manage to hit you're W, which is pretty easy to hit. if u pair it with Ardent sensor, Staff of flowing water and even redemption + a Death cap and Moby boots U can get insane levels of heals \n I recommend this if u are bored of AP twitch and AD twitch and u want to try a whole new playstyle of the rat. ( u can even sub in a Nashors into the build to make it a hybrid AP/SUPP)\n I recommend running HOB ( regular AP twitch support runes ) but Guardian is also viable and maybe even Glacial Augment if u are feeling frisky",
+   "id": "lmp4sp",
+   "comments": [],
+   "age_days": 2059,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "AP twitch top vs Mordekaiser matchup tutorial",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/ko57c1/ap_twitch_top_vs_mordekaiser_matchup_tutorial/",
+   "published": "2021-01-01",
+   "author": "/u/NoaiAludem",
+   "body": "",
+   "id": "ko57c1",
+   "comments": [],
+   "age_days": 2107,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "AP River twitch?",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/jvinx5/ap_river_twitch/",
+   "published": "2020-11-17",
+   "author": "/u/Twjohns96",
+   "body": "Hey, I’m a support main, and I see AP twitch coming around and I’m curious on if anyone has played this support ? I feel it would be better at supp for the roams etc than at adc. Tbh I know y’all are sad about AD. But as a support main I would absolutely love it if he became a support.(:\n If anyone has tried, what are favorable lane matchups and what should I be banning?",
+   "id": "jvinx5",
+   "comments": [],
+   "age_days": 2152,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "My ADC Twitch matchup Tier List , thoughts ?",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/hz2gsm/my_adc_twitch_matchup_tier_list_thoughts/",
+   "published": "2020-07-27",
+   "author": "/u/RazmoRat",
+   "body": "",
+   "id": "hz2gsm",
+   "comments": [],
+   "age_days": 2265,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How do you lane against Ashe? It's a pretty even matchup, right? When do you go in? When do you not? Who do you want as support? Does it matter who their support is?",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/gr8gj9/how_do_you_lane_against_ashe_its_a_pretty_even/",
+   "published": "2020-05-26",
+   "author": "/u/match_replay_alytics",
+   "body": "",
+   "id": "gr8gj9",
+   "comments": [],
+   "age_days": 2327,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Twitch R rework idea",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/gl3d7a/twitch_r_rework_idea/",
+   "published": "2020-05-16",
+   "author": "/u/DemonJem",
+   "body": "I want to know what you guys think about this idea. It's just a concept that has been flying around my head for a while so let me know what you think.\n So, Twitch's current Ultimate lets him fire piercing projectiles on to his target, but im sure you guys have seen or experienced the issue that fast champions with dashes or high movement speeds can actually dodge these auto-attacks with relative ease. Pretty frustrating imo.\n This is the idea: Remove the piercing projectiles.\n It sound weird, but here is the catch: I would keep the current AD it gives and the range untouched, but add this new effect that makes Twitch's AA's gain the Runaan's hurricane effect just by casting R.\n I think this could solve the current issue with high mobility champions and also letting Twitch have a free item slot for another Zeal item instead of Hurricane like in ALL builds (Or even another totally different item that could benefit him in certain matchups).\n You can even try this concept on current live servers, if some of you don't know what im talking about, i'll explain:\n If you start a practice tool game and use Twitch, activate the \"Refresh Cooldowns\" option and cast your Ult 2 times as fast as you can. You will see that Twitch's AAs are no longer piercing bolts, but just long range and upgraded AD AAs, make sure to buy a Runaan's Hurricane before so you can experience what im saying (If you haven't done this before of course).\n What do you think? Would this be a good, cool, bad change for Twitch in the future? Lmk.\n Thanks for reading.",
+   "id": "gl3d7a",
+   "comments": [],
+   "age_days": 2337,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Looking to play rat adc",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/fc1gra/looking_to_play_rat_adc/",
+   "published": "2020-03-01",
+   "author": "/u/RuukkuSlasher",
+   "body": "Im looking to pick rat as adc is it worth or viable / any tips on laning phase and mid to late game how about matchups",
+   "id": "fc1gra",
+   "comments": [],
+   "age_days": 2413,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "New to adc and new to twitch",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/d55ud4/new_to_adc_and_new_to_twitch/",
+   "published": "2019-09-16",
+   "author": "/u/ltujacob",
+   "body": "Title. I'm currently plat 4 support main, but got tired finding a good adc to duo with, and i thought - why not become one? I picked up twitch and i have a lot to improve on.\n My questions: \n How do you position in lane and teamfights?\n How to deal with enemy poking duo f.e cait&vel'koz? \n How to play mid-game when bot turrets are taken? I find myself doing nothing until lategame and usually i have just above 100cs.. \n What matchups do you dodge? And who do you ban? I never let draven be open :p\n How to deal with assassins? Blue kayn is a pain. Do i just stand behind support all game, buy zhonyas or whatever? \n Any tips on adcarrying and twitch gameplay will be highly appreciated!",
+   "id": "d55ud4",
+   "comments": [],
+   "age_days": 2580,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "what are some good/bad twitch jg matchups?",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/cm18qt/what_are_some_goodbad_twitch_jg_matchups/",
+   "published": "2019-08-04",
+   "author": "/u/7lego",
+   "body": "I'm a Gold Eve/Twitch/Yi (stopped maining yi) but I primarily just play Evelynn because I know the matchups a lot better than twitch. Whenever I played him, I always try to check as many counter websites as possible but they all share different information, so, could someone please answer",
+   "id": "cm18qt",
+   "comments": [],
+   "age_days": 2623,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "My opinion on adc matchups (remember that support matchup also plays a huuugeee role)",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/c3pzcj/my_opinion_on_adc_matchups_remember_that_support/",
+   "published": "2019-06-22",
+   "author": "/u/majin_taha",
+   "body": "",
+   "id": "c3pzcj",
+   "comments": [],
+   "age_days": 2666,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Twitch Jungle Guide 9.9",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/bm2tyw/twitch_jungle_guide_99/",
+   "published": "2019-05-08",
+   "author": "/u/Kunae_Kun",
+   "body": "Hello friends rats.\n I'm diamond Twitch jungle OTP and I've seen lot of things in this subreddit, question about build / pathing etc...\n So I decided to give you my gameplan so that you will maybe improve in your games. Remember that I'm diamond, not challenger. There is probably some other/better way to play. Also, I am not english native speaker, please excuse my mistakes.\n First of all, this guide will be about SoloQ Twitch Jungle, I won't talk about Funnel Twitch Jungle. If you want me to details Funnel Twitch Jungle, let me know in the comments.\n ​\n Build:\n I will start with the build, I think it will help you understanding the pathing part better.\n Spells order: E - Q - W - E - E - R - E - Q - E - Q - R - Q - Q - W - W - R - W - W\n Runes: Conqueror - Triumph - Legend: Bloodline - Coup de grace / Sudden impact - Relentless Hunter / Attack Speed - Adaptive force - Armor.\n This runes will give you the best late game + sustain. You can replace Bloodline with Alacrity, I only do that against tanky matchup since I build BOTRK, I don't need bloodline anymore.\n Press the attack is playable, but it's more early game than Conqueror. Anyway, if you feel very confident with Twitch, you probably won't need extra damages from PTA early.\n ​\n Start: Hunter's machete + Refillable potion.\n In every case, you want to rush the Enchantment: Bloodrazor.\n After the bloodrazor, instantly rush Berzerker's Greaves. If they are full AD, it's really good to build Ninja tabi, think about it.\n Then, build Runaan's Hurricane. This will help you clearing the jungle better and it's very strong.\n ​\n Now, If they have big tanks such as Sejuani, Mundo etc... focus on Blade of the Ruined King right after the Hurricane.\n If you fall really behind and you feel very useless, it's not bad to skip the Hurricane and build BOTRK even if they have no tanks. This will give you early impact and help you cheese some kills on winning lanes.\n If they have Soraka, Vladimir, Sona etc... build Executioner's Calling after the Hurricane. (It's common to build Hurricane, B. F. Sword and then build the Executioner's Calling).\n ​\n Your last core item should be the Infinity Edge.\n ​\n At this point, your \"standard\" core build should be like:\n Enchantment: Bloodrazor - Berzerker's Greaves - Runaan's Hurricane - Infinity Edge.\n ​\n As the 5th and 6th items, you can take:\n Statikk Shiv: Give you good burst, very good in fights and wave clear.\n Phantom Dancer: Allow you to survive assassins such as Zed, Kayn etc...\n Lord Dominik's Regards: If they start stacking armor, just take this. It's fine not to complete it yet to start your 6th item.\n Quicksilver Sash: If they have hard CC, it's a must have item.\n Guardian Angel: Fine if they have too much AD assassins like Zed and Kayn, it can help you survive. But basically if you die 24/7 to them, it's because you are mispositioned. But well, the GA is still a good item so you can build it if needed.\n ​\n An example \"high damage\" full build should look like:\n Enchantment: Bloodrazor - Berzerker's Greaves - Runaan's Hurricane - Infinity Edge - Statikk Shiv - Last Whisper\n ​\n An example \"anti tank\" full build should look like:\n Enchantment: Bloodrazor - Berzerker's Greaves - Runaan's Hurricane - Blade of the Ruined King - Lord Dominik's Rergards - Statikk Shiv\n ​\n An example \"They have too much AD damages\" full build should look like:\n Enchantment: Bloodrazor - Ninja tabi - Runaan's Hurricane - Infinity Edge - Phantom Dancer - Last Whisper (Or GA, depend if they stack armor or not).\n ​\n Obviously, at level 9, don't forget the blue trinket because the rat can't face check bushes :).\n ​\n Pathing:\n In all your games, you wanna start:\n Red buff -> Golems -> Gank Top/Bot (depend on which side you are) -> Crab\n You should use the smite on the golems.\n If you got a great leash or your gank is faster than usual, you can go straight for the enemy's blue buff and then do the crab. If the blue is gone, gank the midlane instead of getting the crab, get at least your midlaner the priority so you can play the opposite side crab and then do your blue buff.\n Here you have some variations.\n If you are Red side, you can skip the Golems for a very early lvl 2 gank. This can be good with high damage midlaner / toplaner that can kill on your gank (Talon, Leblanc, Renekton).\n If you are Blue side, it's pretty much the same. You can skip the golems if you have a botlane like Blitzcrank Lucian, things that can do things at level 1 (do not skip golems with Ezreal Soraka).\n If you decide to take golems, it will give you better XP overall and give time to your toplaner to get his level 2, which is even better for an early gank.\n After that, you can get the crab since u must have given the priority to your lane.\n ​\n Once again, you have some options here:\n You can invade enemy's blue buff if you feel like you can, or if you have the information that he countered your side.\n Or, you can keep ganking mid and then try to get the opposite side of you jungle. I will personally always try to steal his blue buff since most of the junglers like vertical jungling, and there is a lot of chance that your buff is gone. Good thing could be getting a ward in the opposite pixel bush in the river at 1:20.\n Twitch is a high impact champion early game, he doesn't need a lot of farm & xp to be usefull in early, you will be fine anyway if you manage to get some kills.\n Now that you cleared some jungle & ganked some lanes, the best plan would be to back with 950 gold and more to get at least the left part of the jungle item and a dagger or boots (I'd choose dagger).\n Personally, I consider that I'm behind if I don't get a kill on my first ganks. Twitch clear the jungle very slowly, so the kills are very important early game imo, if you can steal a kill just do.\n Now you should have your jungle item semi-completed and you can simply run wraith and then gank.\n Your next back / Power spike should be : Enchantment: Bloodrazor.\n When I buy this item, I really camp a lot the botlane and make them snowball, botlane has high impact in the game and this item can really give you powerspike to 1v2 them.\n Now, midgame and late game are very situational but things you should remember:\n ​\n Tips:\n ​\n • Do not gank really losing lanes if they can turn you and 1v2, you are very squishy. (Do not gank 5/0 Renekton for exemple)\n • Always dodge Evelynn matchup since she can invade you 24/7 and kill you easily.\n • I'd recommend ban one of those: Yasuo, Kha'Zix, Rek'Sai, Leblanc. You can ask your team helping you ban those champions.\n • Twitch is really hard to master, you will need a lot of games to be good with him. Practice kitting in training tool.\n • Don't be too greedy 1v5 RATIRL montage, sometimes it's just good to wait that your team engage and eat all the damages and then pop off and DPS.\n • Red buff are yours, whatever your adc may say. Your aa's get through enemies and with runnan you can proc it very easily.\n • Botlane is such an easily lane to abuse with Bloodrazor.\n • If they come as 5 early to invade your redbuff and you feel like you can't contest, it's fine just go to your blue into his red and gank lane then crab.\n • The best gank you can do pre-6 is: Q, walking behind the target if possible, Auto attack, W while the auto attack is reloading due to poor attack speed, and then proc your stacks and E with conqueror. This should get you a kill most of the time.\n • Games will happen where you legit can't get a single kill on lanes because your laners are asleep or it's always pinked. Just take time to explain your laners they need to remove the pinks and once again, force botlane because it's the lane with the more potential.\n • It's always pinked and laners /mute you. It's fine, just adapt your pathing, gank from the lane? There is always a solution.\n Well, that's all, I think this guide is pretty heavy already. I hope I have not forgotten anything. If you guys have questions, I'd be pleased to answer in the comments!\n Good luck on the rift and don't trust any liquid you can see through!",
+   "id": "bm2tyw",
+   "comments": [],
+   "age_days": 2711,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Hail of Blades + Stormrazor first item is amazing on bot lane twitch. Change my mind.",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/ao0mv3/hail_of_blades_stormrazor_first_item_is_amazing/",
+   "published": "2019-02-07",
+   "author": "/u/derRosinengott",
+   "body": "Ok i know what you are thinking. Yes call me crazy, call me a retard, but seriously. Try it out and tell me how it feels. Yes it will be akward in the beginning and your laning playstyle might change a bit, but in my oppinion it just feels amazing\n Obviously against hard bullys like lucian and draven u still won‘t be able to trade, but in a lot of matchups it really helps. Cuz in my elo atleast d3-p1 trades are super short anyway where you aa people 3-5 times max. So the first 3 super fast as aa‘s help out imensly. \n Yes your over all dmg is lower with longer extended fights with other masteries and other builds, but that is not my playstyle. Cuz whenever i buy bork first i just feel super weak, i can‘t assasinate anyone cuz i lack the burst dmg. They just kill me first. \n Also i‘d argue that it not only helps out early game, but lategame too. With 4 items u only need 3-4 autos plus e too kill the enemy adc. And hail of blades just makes it super quick.\n Wayyyy back in time ppl build ghostblade (old ghostblade with as steriod on activation) first item on twich, and hail of blades + stormrazor feels a bit like that imo just weaker.\n But please tell me your thoughts, i have played about 15 games with it and i am really digging it and having good success with it :)\n Edit 1:Also another reason why i think it is good is cuz it helps twitch in a part where he is weak in, short fights, we all know that twitch is amazing in longer fights so why not strengthen his weaknesses instead of buff what he is already good at",
+   "id": "ao0mv3",
+   "comments": [],
+   "age_days": 2801,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "What are twitch easy and hard matchups? Additionally, when should I not pick him?",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/94zzif/what_are_twitch_easy_and_hard_matchups/",
+   "published": "2018-08-06",
+   "author": "/u/Dopp3lg4ng3r",
+   "body": "title",
+   "id": "94zzif",
+   "comments": [],
+   "age_days": 2986,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Hi, I challenged myself to mastery (lv 5 ) any champ in alphabetical order, and here I am looking for tips for my 113th Champion: Twitch.",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/939vvp/hi_i_challenged_myself_to_mastery_lv_5_any_champ/",
+   "published": "2018-07-31",
+   "author": "/u/quetsacloatl",
+   "body": "Hi, I'm Quetsacloatl, an EUW D5 player, I decided to try to master lv 5 every champion in league of legends in alphabetical order.\n I reached the last champion with the letter T and the Plague Rat.\n I've not played any game with him so I need all the help you can provide me.\n What am I suppose to do in the early game?\n\n When should I start to go aggro?\n\n How to play from behind?\n\n Which are the best runes options? Which is the best build pattern at the moment? And in particular Which are his core items I've to reach before I can consider myself useful?\n\n What am I supposed to do during the late game?\n\n Which are the best matchups and the worse?\n\n Should I just focus on farm and reach upgrades early on?\n\n HOW can I carry a game with him?\n\n Where should I play him? is adc really the only role available?\n\n Why should I prefer Twitch rather than any other adc in the game?\n Can you give me any specific and hidden-pro exploit for winning trades/lanes/skirmishes?\n The final question is:\n Which are the differences between a bad Twitch player, a good Twitch player, and a GREAT Twitch player?\n I hope someone will help me with my personal quest.\n Thank you",
+   "id": "939vvp",
+   "comments": [],
+   "age_days": 2992,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "playing against an mf kaisa or xayah feelsbadman",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/8j41cw/playing_against_an_mf_kaisa_or_xayah_feelsbadman/",
+   "published": "2018-05-13",
+   "author": "/u/The_G1itcher",
+   "body": "hello there fellow rats\n im gold5 mains adc twitch got like a 60% winrate . i win most matchups after lvl 3 spike and the lvl 6 spike but these three adc's feel extremely hard to win lane against even if i have a slight lead on items . especially mf and xayah these two mfers destroy my poor rat in lane :/ mf's poke is like bs and i feel like she has more to offer in teamfights late game , xayah outtrades me out pokes me and out waveclears me and one of the few champs i cant 1v1 . i got a good sp who knows wat hes doing so id like some good support examples that can get me through laning with a slight lead against these picks :/ or am i just bad and have no clue how the game works",
+   "id": "8j41cw",
+   "comments": [],
+   "age_days": 3071,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Twitch, the Plague Rat: Champion Matchup Discussion",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/79gqlf/twitch_the_plague_rat_champion_matchup_discussion/",
+   "published": "2017-10-29",
+   "author": "/u/Wylster",
+   "body": "Hello everyone! Since the end of the season is fast approaching, we want to host discussion for everyone here in order to allow people to know what their plans in game are before the season ends.\n This week, our discussion will be on something that can mean many things, if you play Twitch in the jungle, or in lane, this week's topic is: Champion Matchups.\n Feel free to discuss whatever strategy you have versus those Caitlyns. Or how you play against the dreaded Ezreal jungle. Or, if you're like me, talk about how you handle mid lane matchups when you feel like playing Twitch mid. Keep a fresh mind and have fun talking with others!\n And as always, you can join your fellow Twitch players at our subreddit discord. Don't be afraid to hop in and say hello!\n Previous discussion thread: Item Builds\n Next discussion thread: Preseason Runes",
+   "id": "79gqlf",
+   "comments": [],
+   "age_days": 3267,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Twitch, the Plague Rat: Item Build Discussion",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/787229/twitch_the_plague_rat_item_build_discussion/",
+   "published": "2017-10-23",
+   "author": "/u/Wylster",
+   "body": "Hello everyone! Since the end of the season is fast approaching, we want to host discussion for everyone here in order to allow people to know what their plans in game are before the season ends.\n So, starting off with the most relevant topic before season ends, we begin the return of discussion threads with the topic of: Item Builds.\n Feel free to discuss whatever type of build you have for our rat, whether it be a regular ADC build or a meme AP build, bring forward whatever you feel you want to share with others! You can also use this as a chance to gain insight on how people go about their build order early game, so you know what other players like building against champions you may struggle against.\n And as always, you can join your fellow Twitch players at our subreddit discord. Don't be afraid to hop in and say hello!\n Next discussion thread: Champion matchups",
+   "id": "787229",
+   "comments": [],
+   "age_days": 3273,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "all the twitch builds :^ )",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/6ufkij/all_the_twitch_builds/",
+   "published": "2017-08-18",
+   "author": "/u/SergeantCone",
+   "body": "Did a small post about champion matchups before, now we can check out some builds :^ ) \n (Most of the time you will need fervor)\n Twitch actually does have a few builds surprisingly, lets find the common ones.\n Bork start = into runans = into IE (fervor for this build)\n This build gives you a good laning phase and a somewhat earlier spike, but you wont hit your full damage spike until IE sadly, which is allot of gold :(\n Build this if you feel like you will have plenty of time to get your items, and you feel like you can catch people with the active. don't build if the game is snowballing out of your favor as you wont have the damage to carry.\n Next build: BF sword > runans (or) IE zeal (can do warlords if you want)\n This build tries to get you to your crit spike faster, very good build as you, most people do BF runans, since if you build IE its more hoping for RNG crits. Personally both are fine I would just build what you can afford\n Next build : Runans rush > IE\n Now most people think Runans rush is a troll build and only bad twitch players buy it because they looked on champion.gg and saw it. Technically, its actually not that bad, for a few reasons..\n Its a VERY early item spike (2600), Twitch still benefits from attack speed due to expunge / fervor. And your 2v2 is better because you hit 2 people, and twitch also gets attack damage from his ult anyway.\n Now there's one last specific reason for this build, and that is if you have a JANNA support, you are more free to build it because janna will give you ad anyway.\n Next build, bork > runans > shiv > IE last (fervor) \n Now this build is great, Its very fun and I love doing it, now remember the problem that the bork build had before? It spikes too late, well this build will help you spike a bit EARLIER, since you dont build IE, ive tried it and it works wonders, and it does do damage from my experience. Usually with this build you can start to snowball and get your bf sword anyway. (You can choose to replace shiv with PD if you feel like it, but you'll lose a tiny bit of damage)\n Now we know twitch's core, lets see what extra items he can throw in, take these with a grain of salt since this is just my personal thoughts,\n (Pls remember these focus on the items you get AFTER the core mentioned above)\n Lethality twitch: lethality twitch just means you buy 2 lethality items, either dusk or edge, if the enemy team has no tanks im pretty sure you'll one shot everyone.. (if you want to be super cheesey sell boots for youmuu's, plus these items are cheap as hell)\n Lifesteal twitch: this build has lifesteal, BT and deaths dance are disgusting when paired together, i personally build it vs tanks since you will lifesteal their damage\n Frozen mallet: this item is hardly ever talked about but if you're not sure what to buy as a defence item this is an option, its not surefire way to stay alive just a little somethin to keep you healthy :^ )\n Guardian angel: build this if its like 5 assassins you're up against\n Rest of the items and usually self explanitory :^ ) have fun rats",
+   "id": "6ufkij",
+   "comments": [],
+   "age_days": 3339,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Twitch matchups!",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/6t40h8/twitch_matchups/",
+   "published": "2017-08-11",
+   "author": "/u/SergeantCone",
+   "body": "Ive played twitch a while and I figure we should have some matchup guides vs twitch adc. These are the ones i experince with\n Twitch vs cait:\n this matchup is pretty garbage, one fact is because of cait's poke advantage obviously, but another thing is the fact that its very hard to pop out on her due to her E. she'll just net you and run away, so you have to get past her range, and her net. If you can do that the last thing you have to worry about is her traps. So if you can juke well you should be fine, but never land on the trap, if you do you may just lose. Take warlords or dshield because it may he tough, later in the game you can one shot her. But until then.\n Twitch vs miss fortune:\n I love this matchup, its pretty fun because you get to move around miss fortune's Q's. So its mostly just a dance between you and her to see whether or not she can get the Q off. Main things in this matchup is don't get hit by the Q. Sometimes it may be obvious which ones miss fortune will Q because they will be low health, but she can still Q normal ones. Now another thing I want to note in this matchup, take a look at both twitch and MF's passive, Mf will do more damage hitting someone once, while twitch gets more damage hitting someone multiple times, so if you can manage to get an EXTENDED TRADE you'll do good. Now the closer you are to miss fortune the stronger you are, and twitch can close the gap due to invisibility, the reason for this is she wants to use minions to hurt her enemy or short trades, and plus her ult is shorter the closer you are to her, so if she ults and you're close to her you can just walk out.\n Twitch vs lucian: \n Now lucian usually has the better damage earlier, even level 1 with his Q. You can't outrade auto q passive. If anything look to trade when his Q is down as he loses his damages and you can go even. At level 2 he will get dash and look to dash into you with Dash passive Q passive. Which you dont have enough time to trade with him. Personally what ive done try your best to stay at the EDGE of his range, take into factor is dash range too, cask him after he dashes so he will be slowed, make sure to back off keep at the edge of his range, its very short and if he uses dash to go in he'll be stuck in the poision, and since he's trying to trade with you he'll stand in it for allot of expunge stacks. (Remember it matters where you aim your cask) You'll probably take damage from his attempt but just hope to even it out at 6 you can look at your options to fight him he wastes his abilities while your invisible you can look to fight him. (Remember if you're trying for an assassination against people with dashes make sure to cask where they will dash to)\n Twitch vs vayne:\n this matchup is definitely in your favour pre 6. But watch out as it can get harder after 6. Pre 6 vayne can't outrade you since her range is shorter and her proc doesn't do enough damage yet. So extended trades for her are pretty bad. So you basically choose to have a free lane if you want, but remember you're up against another hypercarry who scales, so look to beat her and dont give her a free lane. if by whatever reason she survives lane and gets her ult it can get a bit tricky. As her damage is comparable to yours look to stay away from her. the problem with vayne specifically is that she can take away allot of time from your ult. All she has to do is Q invis while you're starting the auto and it will cancel. Then wait in stealth and pop out in front of you causing you to have to start another auto. after she hits 6 and you havent gotten advantage look to stay away from her and try to place the cask effectively. You still have a big range advantage so use it wisely. Later in the game. It all honestly depends in how strong each carry is. If vayne has good reaction time on your pop outs you'll just die.\n Twitch vs jinx:\n Now jinx has the range advantage so she can poke, but mostly its just a game of scaling. You should scale better than her and should be able to kill her later if it comes to late game. I would say just remember her traps as because those can really mess you up. And her only other damage is a skillshot that has to be charged up. Her range will keep you a distance so you'll have to close the distance, if you can manage that you should do fine. Now one thing I will mention about jinx, people think she's pretty bad at fighting, in rocket mode yes her damage is whatever, but if she's in minigun mode she actually hurts, so what i will say to you if you are looking to assassinate jinx is DO NOT engage on her when her minigun is stacked up. Like if she is hitting minions, because she has allot more damage then, the best way to go about it is to wait until the stacks wear off or wait til she goes into rocket mode. Then you just dodge her traps then you can kill her.\n Twitch vs juju bean candis\n Now this matchup is another fun one, you shouldn't make it an effort to kill her totems but if its free go ahead, if your support gets hit with her auto q anyway just cask her and kill it and run, if you have the wave advantage try and have your support help you kill them but if they dont work with you just dont bother too much because its not worth to get auto Q'd. Pretty much in this lane you just want to stay away from totems, and PUSH as hard as you can because if she uses totems up to push the wave and you try to push it back she wont get healing from the totem, if she tries to go for it just cask the totem and try to punish, this lane is mostly just zone control and pushing control try not to waste too much mana on your cask to push the wave try to conserve it, ive tried some mana regen runes and masteries and they're OK if you don't spam it. You don't necessarily need it for this lane but its an option, best way to trade if she already used her Q to push the wave then look for trades, later in the game she'll just use her abilities for teamfights so she has nothing to respond to you with so its just a free kill, if you're looking for solo assassinations try to make sure she just uses Q then you'll be fine as long as there are no extra totems you missed\n twitch vs draven:\n I would treat this lane similar to lucian, if he gets in your range of you it'll be bad, but if you stay on the edge of his range and make him stand in your cask when he attempts his trade, you'll be able to take a good trade, now if its early game try to kite back when he engages dont take more then 2 axes. If he has bf sword I would just cask him and run the most you can take is around 1 auto. Once you get 6 you can look for different all in's, use your range to stay away from his range and kite him out, I dont reccomend stealthing on draven if he has both his axes up, or even one axe up. As long as you don't let draven cash his stacks you should be good to go so be happy going even. Later in the game if you use your long range and he is NOT able to get in your range you'll be able to one shot him and he wont be able to, but if he gets an auto or 2 off on you, it'll hurt for sure.\n Twitch vs ezreal, this matchup is pretty much a toss up, ezreal has allot of psudo range with his Q, and can also dash out of your cask. So this matchup ezreal has allot of options vs you, but i think in the end result is twitch is gonna scale while ezreal is gonna do allot less compared to you, so you can choose to scale for sure in this lane. If you have trouble with the poke take warlords or Dshield. Later in the game you can kill him for sure, at the least make him dash out, like with lucian if you're looking for solo assassinations try to wait til he uses Q or something then pop out, cask to where he will dash and auto away.\n Thats about all the matchups I know if anyone wants to add anything to these pls do, remember to take these all with a grain of salt since I didnt add support matchups",
+   "id": "6t40h8",
+   "comments": [],
+   "age_days": 3346,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Twitch Mains Help Me Out - Creating A Marksman Relative Power Grid",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/6jlo07/twitch_mains_help_me_out_creating_a_marksman/",
+   "published": "2017-06-26",
+   "author": "/u/ToFHaxu",
+   "body": "Original post: https://redd.it/6jkr6r (please comment here if you have advice to give)\n https://gyazo.com/98d8880eef0eca0c5c4c0db92f4aea81\n Marksman higher (towards the green arrow) will generaly win from Marksman lower (towards the red arrow). Sorted per level.\n Dear Fellow Redditers,\n Help me perfecting this grid. I need everyone's input, this is just a geuss, a setup.\n I am trying to create a grid showing the relative power of marksman per level. I believe that a great part of getting better at league of legends is about knowing when you are stronger. What I’d like to attempt is to make a clear graph, that more or less shows for every possible Marksman matchup, when you can go for a fight. With this I hope to speed up the learning process not only for me, but also for my fellow Redditers. My idea is to make a sort of accurate setup, and with comments and idea’s of the whole community to make it as true as possible. I do understand that support matchups are also an important factor, but let’s only look at the simplified marksman relative power for complexity reasons.\n Let us make the following assumptions when analyzing the power of a Marksman:\n • When a marksman with a dash fights a marksman with a skillshot, they are equally skilled and the skills will hit half of the time.\n • Every marksman has a base Winrate of 50%. As of now a good Draven for example would stomp every matchup every time, but this would not give us general good material to analyze. Let’s try to imagine all marksman are balanced, and predict from there.\n • All fights are 1v1; Marksman vs Marksman\n • Ignore specific counter matchups, think about average strength, The higher placed Marksman is stronger on avarege than the Marksmans below it.\n • Lane bully’s don’t get an early lead, every Marksman has the same inventory at each level\n Quinn, Graves and Urgot are not represented, as they are not played in the marksman Role currently (patch7.13). \n Without further ado, here is the graph. Give me all the flame you got! What did I get wrong?\n https://gyazo.com/98d8880eef0eca0c5c4c0db92f4aea81",
+   "id": "6jlo07",
+   "comments": [],
+   "age_days": 3392,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I wanna learn Twitch",
+   "url": "https://www.reddit.com/r/TwitchMains/comments/5nz5ey/i_wanna_learn_twitch/",
+   "published": "2017-01-14",
+   "author": "/u/Smeeeep",
+   "body": "I kinda know the basics but I'd appreciate some tips regarding Laning Phase / Matchups / Synergy with other Supports. Thanks in advance.",
+   "id": "5nz5ey",
+   "comments": [],
+   "age_days": 3555,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  }
+ ]
+}

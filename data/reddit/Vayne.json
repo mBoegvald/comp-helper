@@ -1,0 +1,1175 @@
+{
+ "champion": "Vayne",
+ "subreddit": "vaynemains",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "Whack question: Is there a lane matchup where you could imagine maxing E first?",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1w4f70t/whack_question_is_there_a_lane_matchup_where_you/",
+   "published": "2026-09-01",
+   "author": "/u/PM_Me_Irelias_Hands",
+   "body": "Lets say against a early game assassin or bruiser with a dash, where you really could benefit from lowering the E cooldown to push him away as often as possible.",
+   "id": "1w4f70t",
+   "comments": [],
+   "age_days": 38,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Vayne Rework Idea",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1w0kovo/vayne_rework_idea/",
+   "published": "2026-08-28",
+   "author": "/u/Mach2019jp",
+   "body": "In light of Vayne being completely gutted and kind of losing her identity in 2026, I have reworked Vayne in a way that keeps to her single target tank killing identity and modernized a few aspects of her playstyle. Also there are no numbers yet, I have only been working on the kit and getting it into a state where numbers could start to be added. WORK IN PROGRESS\n Lore: Vayne has been cursed by an otherworldly demon or entity. This entity hungers for blood and death. Vayne with all her might tries to subdue it and keep to her fiend fighting path. But, ultimately succumbs to the demon and embraces its power.\n I will give explanations where appropriate on the abilities and why I think they fit this theme and evolution of Vayne as a character.\n It's not too in-depth, but I want to keep developing this further.\n ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n First of all I have moved her \"Silver Bolts\" ability into her passive. Keeping in line with how out of date her passive has been and losing an ability action on W kind of goes against how League has evolved. The way this passive is implemented opens up small windows of increased damage. Players can see when this window will activate which gives counterplay to knowing when Vayne may trade or all in.\n Passive: Demon Cursed Bolts\n The demon trying to seduce Vayne empowers her attacks and increases her movement.\n Gain movement speed towards enemy champions, increasing based on missing HP of the enemy.\n Gain permanent stacking MS on takedown. (Has a cap of 1-2 stacks per enemy champion).\n Attacking an enemy deals bonus %missing HP mixed Physical + Magic damage and charges her cursed bolts.\n At max charges of cursed bolts, consume the charges: Vayne's next 3 attacks deal bonus %Max HP True damage instead. (These attacks do not charge this passive. This is a separate buff that can overlap with \"Final Hour\" passive).\n ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n Next is Vayne's Q. Most of the ability has been kept the same. However, I'm in debate with myself about giving her extra mobility in the form of Movement Speed. Also the damage has been turned into something that can be more viably mitigated rather than burst upfront damage.\n Q: Tumble\n Roll in a direction and gain a short bust of MS.\n Vayne's next attack applies a physical bleed for a % of the total attacks damage.\n (Not yet decided on how to work the bleed. Make it a ratio or based on damage done.)\n This attack also adds an extra charge to her passive.\n ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n Next is Vayne's W.\n This is where a lot has changed and may become interesting.\n Vayne now has a new ability that alternates between 2 states. Each state gives its own playstyle.\n Switching between each state has a CD to activate, but each state has a passive. Having this passive may incentivize the player to stay in 1 longer than the other depending on game state or matchup.\n To add, the passive is not live while the ability is on CD. This creates windows of vulnerability/weakness while switching states.\n I wanted to give Vayne a new defensive option which also plays into having a support in bot lane.\n This ability also plays into the fantasy of Vayne trying to fight of the demon and rejecting it in favor of her own beliefs.\n W: Rejection\n Passive: Increased healing and shielding received.\n Active: Increased defenses while active (Armor, MR, maybe HP?, maybe Tenacity?).\n After this effect ends, Your next \"Tumble\" adds bonus magic damage = to a % of damage taken during this effects abilities duration to \"Tumble\" bleed. This bonus damage (not including \"Tumble\" bleed) is then mirrored onto a nearby ally (Prioritizing Vayne) as a Heal Over Time effect.\n The next mode is a more damage focused ability that gives Vayne much needed wave clear albeit a weak wave clear and AoE damage.\n This ability is meant to show Vayne giving into the demon and embracing the demon's gifts.\n W: Embrace\n Passive: Gain Omni Vamp + Attack Speed\n Active: Increase the Passive bonuses and gain % Armor and Magic penetration.\n Your attacks splinter off the main target into surrounding enemies. This damage is split evenly between all enemies within range.\n After this effect ends, Your next \"Tumble\" has increased duration (and damage?) on its bleed and causes it to damage nearby enemies. Vayne heals for a % of the damage dealt by that bleed.\n ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n Condemn.......... A lot of people hate it and a lot of people love it. I may have made it more of a bane for those who hate it. Overall half of it is unchanged, but in a sense it is completely new.\n I have made it linked to her W in a way. Being in each state of her W changes the ability.\n One that doesn't change a thing and one that embraces the idea of an evolution or change.\n Having 2 modes for Condemn I feel like will force the player to choose which state they want to be in and can make for interesting choices. There is the option to even have Condemn unchanged and leave it how it is now.\n E: Condemn\n While in the \"Rejection\" state - Knockback the target, if they hit terrain they are stunned.\n While in the \"Embrace\" state - Curse the enemy.... Vayne can attack the cursed enemy X times to activate this effect:\n When the cursed target is in range of terrain, they are thrown into it and stunned.\n When the cursed target is in range of another enemy champion, they are thrown into it and both champions are stunned for half the duration but also slowed for the other half.\n Else, If there are no champions or terrain in range, the cursed champion is rooted (maybe just slow is okay too) for the duration.\n ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n Vayne's Ultimate is also in the same boat has her current E and Passive. Both hated/loved and also completely outdated. I hope to change that and bring it up to a more modern standard while also keeping the fantasy she has now. Making it also tie stronger into the tank buster and single target identity.\n R: Final Hour\n Vayne's next attack or \"Tumble\" after R is pressed activates this ability.\n Vayne succumbs to the demon/entity and embraces the power it wants to bestow. Giving Vayne bonus stats on activation. As Vayne strikes the same target she gains increasingly stacking stats (attack speed, MS, etc..... these stats have not been decided yet. Both for the base stat increase and the stacking stats). If Vayne strikes a different target she loses half of the accumulated stacks. If her current target dies, extend the duration of \"Final Hour\".\n Her abilities gain bonuses or change effects while \"Final Hour\" is active.\n Passive: Demon Cursed Bolts\n Change - No more charge for cursed bolts. Every third hit deals bonus % Max Hp True damage.\n (This true damage will be a higher scaling than the base passive)\n Q: Tumble\n Gain - Go into stealth for x seconds or until you attack.\n (I want to play around with extra effects here, but how it is currently is still really good)\n W: Rejection\n (This time she isn't rejecting the demon, she is rejecting the old way)\n Instantly activates on Cooldown!\n New - True damage feeds the demon, the demon grants Vayne bonus temporary max HP based on a % of true damage dealt.\n Any healing received is turned into a shield instead (Including vamp and lifesteal).\n After this effect ends, Your next \"Tumble\" steals a portion of the targets health regeneration for the duration of \"Final Hour\" (steal other stats e.g. lifesteal/vamp????).\n W: Embrace\n Unchanged\n E: Condemn\n Unchanged",
+   "id": "1w0kovo",
+   "comments": [],
+   "age_days": 42,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How would you balance Vayne top and bot?",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1vrfi12/how_would_you_balance_vayne_top_and_bot/",
+   "published": "2026-08-18",
+   "author": "/u/NonTokenisableFungi",
+   "body": "She’s eating a nerf next patch despite being a non factor bot lane. Ranged top is just resented too much that bot players are paying for their sins\n How would you address the issue (if you believe there to be one)?\n For me personally I would like to rework the passive to something that becomes intrinsically more effective in duo lane skirmishes and team fights in general, and nerf her duelling capacity pre 6\n Something like:\n Night Hunter\n Vayne gains 20 bonus movement speed while facing a nearby visible enemy champion, increased by 10 for each additional visible enemy champion. This is increased to 90 while under the effects of Final Hour.\n Another issue is that Vayne is extremely sharp and vulnerable to certain counter picks top lane (sub 40% winrate matchups such as Malphite and Teemo) though arguably this is no issue and some may contend that she should not be blind pickable top. How to address this if at all I have no idea",
+   "id": "1vrfi12",
+   "comments": [],
+   "age_days": 52,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Vayne top learning resources?",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1vaygfw/vayne_top_learning_resources/",
+   "published": "2026-07-30",
+   "author": "/u/cementfan451",
+   "body": "Are there any high elo top vayne otps or any good guides on matchups out there ?\n Would be very useful",
+   "id": "1vaygfw",
+   "comments": [],
+   "age_days": 71,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "When to start with doran's blade instead of bow?",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1uvfrym/when_to_start_with_dorans_blade_instead_of_bow/",
+   "published": "2026-07-13",
+   "author": "/u/Intelligent_Rock5978",
+   "body": "Hello there. I just returned to playing Vayne adc from a jungling detour, so I didn't have much experience using doran's bow so far. I kept buying blade in my first couple of games, because I know that laning phase sucks, and I will either get beaten up by 2 ranged champions when going for last hits, or get all-ined by a melee support and just die even easier. I switched to bow in my last few games and I'm loving it so far, it gives me enough pushing potential in the early game to not end up under turret, and the all-ins are great too. I even felt bold enough to take it against a Jhin/Zyra matchup and was still doing well. But when I look at high elo builds, there is a mix of bow and blade start, with bow being slightly more popular. \n So my question is, which are those matchups when you would rather take blade over bow? Melee enemy supp? Double ranged? Mage botlanes? Or depends whether you go lethal tempo or pta?",
+   "id": "1uvfrym",
+   "comments": [],
+   "age_days": 88,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Teemo is permaban rn if u want to climb with top vayne",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1tril8f/teemo_is_permaban_rn_if_u_want_to_climb_with_top/",
+   "published": "2026-05-29",
+   "author": "/u/Expensive_Yak_7774",
+   "body": "I mostly play in master lobby and I don't ban malphite anymore. The key is HoB + ignite. if u can land 3~4 autos when he casts Q u win the trade, 1st item kaenic rookern. I learned this from best vayne korea few years ago (Hongcono), he builds Anathema's Chains 1st item against malph but same logic applies, u make the matchup playable by neutralizing his unfair damage. Teemo used to be playable but not anymore ever since statikk shiv is released, he wins from lvl1 to lvl18 without any skill needed. U lose trade and u lose extended fight. U can't neutralize his damage because it's hybrid. This champ is perfect to disgust vayne by every aspect and there's no counterplay.",
+   "id": "1tril8f",
+   "comments": [],
+   "age_days": 133,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Top or adc??",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1tjts6e/top_or_adc/",
+   "published": "2026-05-21",
+   "author": "/u/ExpressionCareful343",
+   "body": "Ik top has better wr, but in top I feel that they are way worse matchups (teemo, malph...) also I have less impact in the game as well and lastly I feel really squishy in tf without having a support. And lastly I feel that i must get feed while playing top cuz otherwise my team will have a 0dmg carry instead of a tank or bruiser.\n Tho top still have more wr, what I am missing??",
+   "id": "1tjts6e",
+   "comments": [],
+   "age_days": 141,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Reflections and Analysis: Q Rush vs. W Rush in Numbers.",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1tcl9db/reflections_and_analysis_q_rush_vs_w_rush_in/",
+   "published": "2026-05-14",
+   "author": "/u/SuperRiceBoi",
+   "body": "Reflections:\n As a long time Vayne main having played her since ~Season 6 and reaching what is now Mastery 70 and 744k mastery points, I've been a long time believer in W max and BORK -> Rageblade core (Feel free to @ me), I've seen a lot of theorycrafting around her and a lot of blind insistence on \"Build X\", \"Max X first\", and the like, which frankly does not really benefit anyone wanting to learn about Vayne because it creates dependency rather than testing things on the Rift and finding their angle on approaching Vayne. As elaborate as League of Legends and Vayne herself is, there cannot be one universal META.\n I think META would be better considered PETA: Particularly Effective Tactic Available.\n I should add that theory doesn't matter on the Rift. Maximum DPS and Power Fantasy builds look great on paper, but no one can DPS or live out a power fantasy with a gray screen. Vayne does not have a Lissandra passive. I'd always point a new Vayne player to scrutinize and find their niche. I could give them my preferences, but they aren't the best universally.\n It came to my attention in a help request post on the sub that someone tried to prove I was wrong for suggesting to max W first. This person was convinced maxing Q first was the way to go. Look up any builds website and you indeed will see Q max first as the most common.\n It got me to thinking: Let's run the numbers based on practical Vayne gameplay and see if there is a clear winner. I think you'll be surprised. I ask only that you humor my build path used for the calculation.\n Analysis:\n Since W max vs. Q max is a point of debate/preference among Vayne players, I'll pit W first against Q first, with Level 6 as a benchmark level to test at because of how Final Hour interacts with Vayne.\n Vayne's Q bonus damage increases 10% each point up From 75% to 115%. That is going to face damage mitigation from enemy armor, even on a low armor champion. Likewise, the Q CD decreases by 1 second point by point from 6 seconds to 2 seconds. W grants % max health true damage, not mitigated by armor, increasing by 1% point by point from 6% to 10%\n Considering Tumble gets 30% CDR and 35 bonus AD during Final Hour at R1, we can break down in detail, based on points in each ability, Q3 W1 vs. Q1 W3 at level 6.\n For the purpose of this calculation, I will assume Vayne started with a Doran's Blade, and has completed Vampiric Scepter and Recurve Bow for a Blade of the Ruined King. Not everyone's choice, but a common one. This equates to 1600 gold spent by the time Final Hour is activated. Ambitious, but for a full analysis we need a starting point. This means during Final Hour, Vayne has 10 + 15 + 35 Bonus AD on top of her base AD of 69 for a total of 129. So Q1 bonus damage is 96.75 -> 97 vs. Q3 bonus damage of 122.55 -> 123. Bonus AS is 15% to the base of 0.658 which equates to 0.757. Assuming Vayne is already auto attacking at the beginning of a fight, to fire 3 autos, Vayne needs 3.965 seconds, for 2, she needs 2.643 seconds, and for 1 she needs 1.322 seconds. Auto attack windup time is 17.544%.\n Vayne has armor of 41 at Level 6, but since the enemy bot laner is not Vayne, This test will set armor to 40. Given her 957 HP, this test will use 950 base HP. As bot laners generally are ADCs wielding Doran's Blade, which provides 80 HP, the enemy will effectively have 1030 HP. As armor acts as a multiplier determining effective HP, 1030 x 1.4 (1 armor acts as 1% bonus HP to based HP) = 1442 effective HP. Note true damage ignores armor.\n Now that constants have been established, this analysis first addresses the time element of Q3 vs. W3.\n At Level 6 the CD with Q3 is 4 seconds -> 4 x (1 - 0.3) = 2.8 seconds vs 4.2 seconds with Q1. Based on the original CD and the CDR, the CDR is 50% more efficient on the Q1 and the difference in CD between Q1 and Q3 is 1.4 seconds. We know that the stealth is 1 second, which if used completely, gives Vayne 1.8 seconds to DPS between not counting human reaction time and auto attack windup time.\n Given, at the time of engagement, Vayne' first auto functionally proc Silver Bolts effectively in the time of 2 auto attacks plus the 0.232 second windup time for an engage of 2.875 seconds. Pragmatically, this assumes Vayne is standing still taking an objective, but reality presents variables like switching targets or kiting (especially as Vayne).\n Suppose we take a realistic case such as kiting. The average human reaction time is 231 to 284 milliseconds. Athletes have 150 to 180 millisecond reaction times, which makes a difference for the pros, but not most Vayne players in solo queue. So if we kite at the low end of the reaction time spectrum and giving Vayne 231 milliseconds to move, 231 to attack move, and 231 to attack move (slower if you aim for the exact target), and then add 232 for the auto attack windup time that is a loss of 694 milliseconds. Given Vayne's natural cadence is 3 autos, that adds 1.388 time loss in proc'ing Silver Bolts. This assumes that, after the 231 milliecond window of acting to move and the 231 milliecond window to issue an attack move command, Vayne only moves for a 231 millieconds before beginning the 232 milliecond windup. There may be a split second more time or spacing needed. But assuming average human reaction time and the windup is included, add 1.388 to the calculated perfect scenario and the resulting time to complete one rotation of the cadence is 4.263 seconds, which is longer than Q1's 4.2 second CD Q with Final Hour active.\n Enemies interrupting this cadence would naturally change the timing here.\n This, pragmatically speaking, makes the CD difference irrelevant if Final Hour is activated.\n Now, we have to consider damage. Because cadence timing effectively negates the CD advantage of Q3 over W3, insofar as what would normally be done in practice over what could possibly be done, we can simplify a damage comparison to R Q auto auto auto W proc. As the regular auto attack damage is constant, it will be ignored. Accordingly, the damage calculations are as follows:\n Q3: (1442 - 123 = 1319 -> 1319 / 1442 = 91.470% x 1030 = 942 -> 1030 - 942 = 88 effective Q damage) + (1030 x 6% = 62 true damage) = 150 combined damage.\n W3: (1442 -97 = 1345 -> 1345 / 1442 = 93.273% x 1030 = 961 -> 1030 -961 = 69 effective W damage) + (1030 x 8% = 82 true damage) = 151 combined damage.\n While W3 wins the damage category against the squishy opponent, and thus would definitely out-damage a tank or bruiser, the damage difference is practically arbitrary.\n Effectively, approaching level 6 is a matter of the players win conditions, preferences, and to a degree, itemization. Different Vayne players approach the champion differently, and thus Maxing Q or W is contingent on what they aim to achieve.\n For that matter, by the time R3 is achieved at level 16, Q5 and W5 were achieved at level 13.\n The numbers can be scrutinized and theorycrafted, but effectively, the best option is the player's preference.\n Updates:\n Feel free to @ me, but I did write this all myself for my interest in the difference and for anyone who wants to really dive into the details because informed decisions matter.\n I acknowledge this analysis focused on cadence, Q3 for trades does provide 19 more damage than W3, which adds up over trades, though regardless of AH, trading occurs generally outside of an activated Final Hour. Even so, since Tumble in this case is used offensively, this opens Vayne up to a 4 second CD that can bite back, especially in the Bot Lane, though top lane matchups may not always carry the same risk. So yes, this use case exists, but Rift reality presents a dilemma. I should not forget Sheen items in the discussion. The Sheen proc will definitely amplify Q auto damage, though a mindful opponent will adjust positioning, either decreasing poke opportunities or amplifying poke risk. Vayne cannot sprint/hop out virtually on demand to mitigate poke risk like Draven or especially Kalista.\n I likewise want to acknowledge other various scenarios like Condemn usages, including stuns, or dodging are inevitable in so complex a game as League.\n As for the matter of kiting, it is true that correct kiting will minimize the downtime between autos, but the wind up time after moving still exists because a non-auto movement command was input. In essence, Vayne does not have Kalista's hopping mechanic for the purpose of kiting, making her have to kite with downtime. What's more, and what actually hurts DPS in kiting is the human component and the the flow of the game, which can leak DPS.\n Essentially, in line with everything I've stated, perfection doesn't exist on the Rift.",
+   "id": "1tcl9db",
+   "comments": [],
+   "age_days": 148,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Hexplate rush top lane",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1tb8npf/hexplate_rush_top_lane/",
+   "published": "2026-05-12",
+   "author": "/u/Pilper",
+   "body": "I'm vayne top player in low masters - i usually go BoRK -> Rageblade -> Hexplate/Terminus but I've seen some players rush hexplate into bursty matchups. Does anybody have a rule of thumb for when they are rushing hexplate vs. sticking to standard core items?",
+   "id": "1tb8npf",
+   "comments": [],
+   "age_days": 150,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I'm doing great but it's always those weird match ups' that get me.",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1t9nim9/im_doing_great_but_its_always_those_weird_match/",
+   "published": "2026-05-11",
+   "author": "/u/Fantastic-Window236",
+   "body": "I'm talking about Riven, Yasuo, Irelia.\n What am I supposed to do with these people? Yasuo just dashes towards me, windwalls as soon as I hit e, and I have no escape. Riven always seems to have her dash up after I already hit e to get her away.\n Irelia just needs 1 stun to really take me out, maybe I survive at 50% hp and she has so many dashes. These are the matchups I have to play almost perfectly. everybody else I'm winning lane.\n Morde, Garen, Darius, are easy dubs, even teemo, and Yorick aren't so hard for me to beat.",
+   "id": "1t9nim9",
+   "comments": [],
+   "age_days": 151,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Vayne top matchup difficulty tierlist",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1t79idn/vayne_top_matchup_difficulty_tierlist/",
+   "published": "2026-05-08",
+   "author": "/u/Alarming-Tumbleweed7",
+   "body": "The tierlist is made for higher elo's(diamond/master+), but most of the things apply to lower elos as well.\n Order doesn't matter, worst matchups are malphite(ban on blue side), followed by varus/draven/yorick.\n For reference, peaked 650lp in s15, ended 300. \n Got to 900lp gm in s16, but I dont think that matters.",
+   "id": "1t79idn",
+   "comments": [],
+   "age_days": 154,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Honest Review of Demon Curse Vayne Skin — Cool Concept, Disappointing Execution",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1t3e27u/honest_review_of_demon_curse_vayne_skin_cool/",
+   "published": "2026-05-04",
+   "author": "/u/Weird_Difficulty_137",
+   "body": "I bought the skin, gave it a real two-day shot, and ended up refunding it. The concept is genuinely cool and the VFX look great on paper, but the skin just feels clunky to play.\n The biggest issue is the auto-attack movement transition. The animation going from moving to attacking is too abrupt — it breaks the rhythm of kiting completely. Sentinel Vayne still has the smoothest transition in her entire skin line, which makes a real difference when you’re trying to auto-attack move consistently. That fluidity isn’t just cosmetic; it affects how the skin plays.\n On top of that, there are no crit animations. With the crit build being a popular and viable option in certain matchups right now, that’s a notable omission. Your crits just feel like regular autos — no satisfying visual feedback, no payoff. It makes the skin feel underwhelming during the moments that are supposed to feel the best.\n Sentinel Vayne just beats it on the things that matter most for a marksman skin — smoothness, responsiveness, and moment-to-moment satisfaction. Demon Curse looks better in the shop than it does in-game.",
+   "id": "1t3e27u",
+   "comments": [],
+   "age_days": 158,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Vayne Top Community Matchup Spreadsheet",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1t2y9vr/vayne_top_community_matchup_spreadsheet/",
+   "published": "2026-05-03",
+   "author": "/u/GyrosSteelBall",
+   "body": "Hey guys, LoLMatchups.GG now has a Vayne Top Community Spreadsheet using Saskio's tips with his Approval.\n For each matchup, Saskio's most recent matchup Vods from stream will be uploaded under the matchup as well with a matchup timeline to traverse through his kills/deaths for the match. (along with other high elo streamers who played the match). If you are a streamer who would like their matchup vods added, join our discord and make a request (https://discord.gg/Bu2efQrJt)\n You can also see a full list of Saskio's matchups from VODS here. https://lolmatchups.gg/streamer/SaskioLoL\n I've included Master+ statistics(last 30 days) laning statistics for each matchup being played along with the recommended build and the runes you should take for each matchup alongside the matchup Vods\n Anyone can write and share their own tips(their rank will be shown, you can share your social as well for attribution) for how to play any matchup to keep it fresh long term(you just need to login with your Riot Auth LoL account)\n LOLMATCHUPS.GG is an attempt to make matchup information more accessible to top/mid laners. We already have complete pages for Ambessa, Mundo, Kayle, Fiora, Mordekaiser, Riven, Zed, Ekko, Camille, Irelia, Gwen, Gnar, Garen, Chogath with more on the way!\n I would love any feedback you guys have on the website or the matchups. Thanks!\n https://lolmatchups.gg/Vayne/matchups?lane=TOP",
+   "id": "1t2y9vr",
+   "comments": [],
+   "age_days": 159,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to lane as ADC in solo queue?",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1snwnax/how_to_lane_as_adc_in_solo_queue/",
+   "published": "2026-04-17",
+   "author": "/u/acoolrandomusername",
+   "body": "Hi, I’m a Vayne Top main but I really want to switch to botlane as I find the games more fun. But I’m struggling with laning with the supports in my elo (plat) and I want to understand if it’s because I don’t understand Vayne ADC or if it’s because my supports don’t, and if so, how do I work around it?\n As I understand Vayne ADC is that she has a lot of losing matchups pre level 6, which means that unless the enemy makes a mistake or junglers come, the goal in those lanes is to try and drop as little exp and gold as possible until level 6. Once or near level 6, the lane becomes about maintaining health so you can win the all ins and either get kills or prio. \n Is that correct or am I supposed to play lane in some other way? If that is correct, how to get supports to understand it? And if they don’t, what should I do? Do I let them die when they fight too early/in probabilistically losing situations - or do I coin flip and hope we can out hands them?",
+   "id": "1snwnax",
+   "comments": [],
+   "age_days": 175,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Vayne Mid is insane",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1smv1xn/vayne_mid_is_insane/",
+   "published": "2026-04-16",
+   "author": "/u/CoverDry2520",
+   "body": "been trying Vayne mid into any matchup I just fp her since enemy doesn’t know that it will be mid most of the time they think it’s top after our adc picks anyway this is actually insane and most of my enemies don’t even know how to play against her (diamond) anyone tried it\n forgot to add the attack speed boots but that’s about it\n main thing I like is that after your quest is finished you have enough lifesteal to in and out poke your enemy ignite is as aggressive as it gets maybe you can try exhaust or barrier against hard pokers but honestly I like having kill potential with collector as second item\n the way we win here is to snowball hard nobody expects her to do so much damage so early with collector we are always guaranteed to get the kills and gold\n most of the time enemies are 3 to 4 shot\n https://preview.redd.it/o0nh4ooyshvg1.png?width=820&format=png&auto=webp&s=8bd3dc60f1a4f54b98ca6a380744020a10118dc6",
+   "id": "1smv1xn",
+   "comments": [],
+   "age_days": 176,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Generic question post blah blah blah",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1sn9p64/generic_question_post_blah_blah_blah/",
+   "published": "2026-04-16",
+   "author": "/u/Doomguy1710",
+   "body": "Hell0 all, I've been flirting with the idea of playing Vayne top for quite some time but with the new skin coming out I've decided I'm gonna commit to it. My little monkey brain likes how it looks and I wanna use it and I hate ADC\n SOOOOO with that I wanna ask general questions.\n IN general I'm guessing Lethal Tempo / PTA are probably the default runes just depending on matchup. Lethal for more favored ones, PTA into more even or unfavored ones. Is this correct or is there another rune setup for certain scenarios?\n\n I've seen Hexplate rush and BORK rush is there a generally better one of those two or is there just a better item than both of them?\n\n In general is there a rule of thumb when it comes to who you can zone off. Obviously a Garen you can but what about something like an Irelia or Renekton who can dash and possibly tickle my toes? Do I play safer or can tumble stop their dashes onto you?\n\n Is there any super in depth guides like long format videos or matchup spreadsheets like the Federals1 has (If you've heard of him)\n\n Any other advice is appreciated and thanks for reading!",
+   "id": "1sn9p64",
+   "comments": [],
+   "age_days": 176,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Tips for a new Vayne top - Build and laning",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1smj7ld/tips_for_a_new_vayne_top_build_and_laning/",
+   "published": "2026-04-15",
+   "author": "/u/Natchould",
+   "body": "Hey !\n I'm looking to join the cult and start playing Vayne top from now on for a bit cause I'm starting to get bored of botlane \n I need some advices on how to play Vayne as a top laner, especially on the builds, and how you want to play your laning phase\n From what I've understood, most of the time, when the comp is tankier, you want to go the classic Brk-guinsoo ; otherwise, i've seen some people go either : \n - Hexplate - Trinity (lethal)\n -Crit (PTA)\n -Hubris - Fienhunter (PTA)\n Is this like very comp dependant or more oriented on your prefered playstyle ?\n The youtuber I was watching was SaskioLoL, so I'll try to follow some of his guides\n But, by any chance, what would you recommend me so that I get better ? Do you have some tips on the matchups, the laning, the build, or even others guides I can read/look at ?\n Thanks a lot !",
+   "id": "1smj7ld",
+   "comments": [],
+   "age_days": 177,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Why do melee top laners think they deserve to play the game vs Vayne???",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1s3jyx4/why_do_melee_top_laners_think_they_deserve_to/",
+   "published": "2026-03-25",
+   "author": "/u/outplay-nation",
+   "body": "Okay I genuinely don’t understand the mindset of melee top players. Like you LOCK IN a champ with zero range, zero brain requirement, just stat-checking and hoping you get to walk at people… and then you complain when you can’t touch a Vayne???\n I’ve been playing top Vayne and the amount of crying is unreal. “Unfair”, “no counterplay”, “ranged top cringe” bro your entire champ identity is running at people in a straight line. What exactly do you want me to do, stand still and let you hit me???\n Anyway, I need some actual advice from people who understand the matchup instead of just whining:\n What’s the most tilting way to play this lane so melee champs just mentally boom?\n Is perma-freezing better or should I just slow push and harass under tower?\n When they take ghost/flash and try to all-in at 6, what’s the best way to make them regret queueing top lane?\n Are there specific wave states where it’s basically unplayable for them no matter what?\n Right now my strategy is just:\n auto them every time they walk up, tumble forward if they even think about CSing, and condemn them into the wall if they get within 10 miles. But I feel like I can make it even more miserable.\n Also bonus question: why do melee players refuse to adapt? Like buy second wind, doran’s shield, play safe, call jungler… anything??? Or is ego just too strong?\n Would love tips from other Vayne players or honestly anyone who’s made a Darius/Sett player rage quit before 10 minutes.\n Thanks :)",
+   "id": "1s3jyx4",
+   "comments": [],
+   "age_days": 198,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Vayne Top Worst Matchups by Gold Deficit",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1rwivz5/vayne_top_worst_matchups_by_gold_deficit/",
+   "published": "2026-03-17",
+   "author": "/u/GyrosSteelBall",
+   "body": "Analyzed from 8,000+ Vayne Games in Masters+\n Data is from https://lolmatchups.net/Vayne/matchups",
+   "id": "1rwivz5",
+   "comments": [],
+   "age_days": 206,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Cancel nautilus R",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1re8tv3/cancel_nautilus_r/",
+   "published": "2026-02-25",
+   "author": "/u/Zealousideal_Fall513",
+   "body": "I just played a game against a Nautilus, and the matchup was pretty frustrating. I wasn't always able to dodge his R with my R + Q — sometimes it worked and other times it didn't. Is there a specific timing or window I need to hit to consistently dodge it?",
+   "id": "1re8tv3",
+   "comments": [],
+   "age_days": 226,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Why not max E before W?",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1r0kjv3/why_not_max_e_before_w/",
+   "published": "2026-02-09",
+   "author": "/u/Crispy-Butt-Her-Fly",
+   "body": "Edit: Max Q first was implied guys, cmon. Also, I'm arguing that this is especially strong with a crit build and against less tanky matchups.\n Why do you guys prefer maxing W before E? \n The math doesn't feel right. E offers scaling from 125 -> 475 dmg & 12s CD instead of 20s... W offers 4% more max health dmg every 3 attacks (40 dmg per 1K health).\n W:\n Bonus True Damage:\n 6 / 7 / 8 / 9 / 10% of target's maximum health\n Minimum Bonus Damage:\n 50 / 65 / 80 / 95 / 110\n ----\n E:\n COOLDOWN:\n 20 / 18 / 16 / 14 / 12\n Physical Damage:\n 50 / 85 / 120 / 155 / 190 (+ 50% bonus AD)\n If the target collides with terrain, they take bonus physical damage and become stunned for 1.5 seconds.\n **Bonus Physical Damage:**►\n 75 / 127.5 / 180 / 232.5 / 285 (+ 75% bonus AD)",
+   "id": "1r0kjv3",
+   "comments": [],
+   "age_days": 242,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "anyone tried VSing malphite this patch?",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1qpsza1/anyone_tried_vsing_malphite_this_patch/",
+   "published": "2026-01-29",
+   "author": "/u/ItzLearn",
+   "body": "If I have to lane against one more akali, I'll 0/1 irl.\n Please tell me the malphite matchup is now a tad more playable PLEASE",
+   "id": "1qpsza1",
+   "comments": [],
+   "age_days": 253,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Vayne builds",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1qguywl/vayne_builds/",
+   "published": "2026-01-19",
+   "author": "/u/sansculotte_",
+   "body": "After the new update i’ve tried every possible build with her based on my instincts in different matchups, but i am bronze, so i’m thinking i’m doing something wrong. \n If somebody could tell me about some builds with accurate path, for different basic scenarios. Thanks!",
+   "id": "1qguywl",
+   "comments": [],
+   "age_days": 263,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Vayne builds",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1qguyxt/vayne_builds/",
+   "published": "2026-01-19",
+   "author": "/u/sansculotte_",
+   "body": "After the new update i’ve tried every possible build with her based on my instincts in different matchups, but i am bronze, so i’m thinking i’m doing something wrong. \n If somebody could tell me about some builds with accurate path, for different basic scenarios. Thanks!",
+   "id": "1qguyxt",
+   "comments": [],
+   "age_days": 263,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Have stats better than avg. Masters but struggling in Gold, advice?",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1qaxzjq/have_stats_better_than_avg_masters_but_struggling/",
+   "published": "2026-01-12",
+   "author": "/u/Legitimate_Plum_7505",
+   "body": "https://dpm.lol/LittleTax-UWU?page=1&lane=top&patch=16.1&champion=Vayne#matchHistory\n Maybe I need to adjust to the current jungling meta? Every game except for 1 out of the last 25 my jungler pathed to bot while their jungler pathed top, which is not surprising considering ranged vs melee matchup and..\n I usually don't die to ganks but I do burn a couple summs, which is fine, but still playable. However we never get to do anything crossmap in return, and this repeats 4-5 times until we have a completely losing game state.\n Should I be buying pink wards to ward even deeper so I don't have to burn my summs on every gank? It's pretty difficult to freeze the lane when my lane opponent doesn't even approach it and just soaks in exp for 10 minutes and farms under tower. Should I just stand still and not last hit anything at all until opponent decides to push the wave into me?\n Even when my laner and jungler burn both their flashes+R's to kill me we don't get to convert it into anything useful for the next 5 minutes. Just feeling a little desperate.\n Any advice appreciated, thanks!",
+   "id": "1qaxzjq",
+   "comments": [],
+   "age_days": 270,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Worst matchups for vayne top?",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1oyxf01/worst_matchups_for_vayne_top/",
+   "published": "2025-11-16",
+   "author": "/u/Possiblynotaweeb",
+   "body": "I'm looking to compile a comprehensive list of champs that hard counter vayne in lane and in teamfights. \n List is not limited to conventional top lane picks. \n I assume nasus (wither), malphite (R & E cripple), teemo (blind), panth (point & click stun) are some notable ones.",
+   "id": "1oyxf01",
+   "comments": [],
+   "age_days": 327,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "OTP OTPing",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1oy1fdh/otp_otping/",
+   "published": "2025-11-15",
+   "author": "/u/MarryOnTheCross",
+   "body": "Vayne is my main by a solid margin (second would be samira nilah). Still when I'm against some more \"unpleasant\" team comps (lets say Draven-Karma-lee-akali-shen) i almost always end up wishing i picked smth else (obviously sometimes ur forced to blind pick it happens);\n Assuming you're last picking against this sort of team would you still go with vayne? Like sure almost whole game feels miserable sidelining 24/7 but you still can win some. Maybe it's \"better\" to play against harder matchups just soo you improve as a player? I know you can OTP almost anything to much higher ranks that I am. Sorry for this far from coherent stream of thought. Question is: do you go vayne against anything or do you use pocket picks when matchup sucks?",
+   "id": "1oy1fdh",
+   "comments": [],
+   "age_days": 328,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Vayne itemization",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1ov1x9g/vayne_itemization/",
+   "published": "2025-11-12",
+   "author": "/u/Terra_reddit",
+   "body": "Have only played vayne a couple of games but I wanted to ask the professionals about her build. \n Bork, Kraken and TriForce all seem like good first items. Is one of them just almost always the best option is it it matchup dependant. Bork vs high health and kraken vs squichies would make sense to me. TriForce looks super fun wiht the high dmg q's you get to do but is it actually any good/when should you build it. \n Should second item always be guinsoo's and when/should you buy hexplate?",
+   "id": "1ov1x9g",
+   "comments": [],
+   "age_days": 331,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is there an open niche for education vayne content?",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1nyzsxz/is_there_an_open_niche_for_education_vayne_content/",
+   "published": "2025-10-05",
+   "author": "/u/illusion____",
+   "body": "I'm postgrad unemployed and thinking about starting streaming or possibly creating some education content on youtube. I was sitting pretty in diamond through college playing pretty infrequently until last year, but I've been maining this champ for years and know the ins and outs of her gameplay very well. I was thinking about creating matchup specific videos, dueling videos, and trading / laning advice. Let me know what you guys think. :)",
+   "id": "1nyzsxz",
+   "comments": [],
+   "age_days": 369,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I got masters in 100 games with 67% Winrate (EUW) playing only vayne (TOP) into anything. AMA",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1mcjpcg/i_got_masters_in_100_games_with_67_winrate_euw/",
+   "published": "2025-07-29",
+   "author": "/u/TuRB0UA",
+   "body": "Hello! I am washed adc player and vayne enthusiast, I got masters in 100 games with 67% WR playing vayne (TOP) only (when not banned/picked) into any matchup. Currently I am rated as top 10 vayne world/top 3 vayne EUW by LeagueOfGraphs. Ask me anything, I will gladly share my secrets with you :)\n Account link: https://www.leagueofgraphs.com/summoner/euw/Zhu+Yu%D0%B0n-ZZZ",
+   "id": "1mcjpcg",
+   "comments": [],
+   "age_days": 437,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is Vayne actually weak early? A discussion.",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1lt1oiq/is_vayne_actually_weak_early_a_discussion/",
+   "published": "2025-07-06",
+   "author": "/u/Marconidas",
+   "body": "Pre-15 it is impossible to forfeit except on /remake or afk, and it is unlikely that a team loses prior to min15. When analyzing Vayne's winrate, she is currently at 47.8% at min 0-15 and quickly goes to 51.9% at min 15-20 and never drops significantly.\n So what exactly is \"weak early\"? Yeah, Vayne suffers a lot prior to level6 and first back, and has some matchups which are awful, but after that Vayne can chase much better and has very reliable damage for all-in with Q+R. And unlike crit ADCs who get a underwhelming damage boost on 1st item (25% crit is around 18-19% damage boost on-attack, and around 26% with IE crit boost) and who are hard locked to not get bruiser items, Vayne can go a lot of different first items that allow her to adapt. Triforce/Hexplate/Shiv are all items that allow Vayne to lose DPS to get something in other areas but without completely forfeiting something crucial in her builds like crit ADCs do when they do not get crit on first item.",
+   "id": "1lt1oiq",
+   "comments": [],
+   "age_days": 460,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Vayne build adc",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1gt1rwp/vayne_build_adc/",
+   "published": "2024-11-17",
+   "author": "/u/OperatorHusky",
+   "body": "Yo i see a lot of ppl having problem with build and im not even surprised so thats what i take on adc. 1st item is mostly stattik for push ofc but it can be swapped for kraken if u pref that one, then we get zerkers ( u can get them faster) 2nd is trinity some hp, at, dmg, u can feel it hitting with q, and some movement speed ofc which is cool (stattik gives some too together its rly helping in midgame teamfights) 3rd item we will take guinsso or terminus where guinsso is better if they have 2-3 armor stackers and terminus is better if they are more squishy or with more dmg. Last 2 items should be tank items and on vayne tbh everythings works if u rly need it but the best options are, qss, guardian angel, Jak'sho, Randuins, wits end or maw. ofc u can pick something more offensive like bloodthrister pd etc. Run lethal tempo most of the times im trying to play with ghost if matchup is letting me to.",
+   "id": "1gt1rwp",
+   "comments": [],
+   "age_days": 691,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Vayne adc matchup tier list (opinion warning)",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1d1mzjh/vayne_adc_matchup_tier_list_opinion_warning/",
+   "published": "2024-05-27",
+   "author": "/u/Soviet_Dank_duck",
+   "body": "Saw a post about caitltn/jinx matchups recently and though it would be interesting to talk about matchups.\n Obviously as most things down in botlane it is in the first place determined by a support, if your playing Vayne/Naulitu into Ashe/Senna there is a good chance you can still get ahead in lane from the positive support matchup alone. Thus this list assumes an equal support matchup.",
+   "id": "1d1mzjh",
+   "comments": [],
+   "age_days": 865,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Post-nerf rant - ADC early game is HORRIBLE",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1b9mhkp/postnerf_rant_adc_early_game_is_horrible/",
+   "published": "2024-03-08",
+   "author": "/u/Rinscewind",
+   "body": "Holy shit, this nerf is frustrating. \n I get that it mainly targeted Vayne top, but fuck me - as a Vayne ADC player, I feel like a glorified caster minion until around level level 7!? \n My Q (which is already a low-damage ability) has a sizable cooldown now, I can't trade ever because I deal no damage, if I dodge anything with Q it's extra punishing now, and I just don't get to interact with the enemy anymore because I lose every single matchup on numbers alone. Low burst, low sustained damage, low defense, low HP, low mobility, low low low... \n Early laning phase bot lane is fucking horrible now. You just don't get to play the game until level 7+. I don't care about the MS loss, but the Q cooldown just means I can't ever trade between levels 1-6. At 6, at least your ultimate allows for some play-making, but without it you just don't do anything. \n ​\n I know Vayne is strong late game, but no where near strong enough to warrant an early game this bad. How can champs like Twitch and Tristana have such strong presence at all stages of a game, but Vayne specifically has to be dogshit for the first 10 mins of it???\n /rant",
+   "id": "1b9mhkp",
+   "comments": [],
+   "age_days": 945,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Anyone else feel like Vayne is borderline broken right now?",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1aorcuq/anyone_else_feel_like_vayne_is_borderline_broken/",
+   "published": "2024-02-12",
+   "author": "/u/fujiss",
+   "body": "Started playing ranked on my main for the first time this split, only played Vayne and wow... she feels incredibly strong. To put it simply I'm honestly a bad player (D3 peak) & in all these games I'm just on autopilot playing fights poorly but I come out on top almost every time.\n One of the games I locked in Vayne, went to go smoke my bong, came back & realized im top against an Akali who was Masters 200LP last season. I'm literally on Pluto but I ended up crushing her in lane??? I didn't play the matchup great or did anything special nor did the Akali play bad; it felt free.\n All the other games I think I lost lane almost every time really bad, but mid game rolls around and I can easily take on the ADC I turbo'd to in lane.\n Here's my OP.GG if you're curious; admittedly I didn't do a lot of damage overall in some games because I inted lane but once I had a few items its like League Jesus forgave all the sins I committed the first 20 minutes of the game.\n Feels a lot like S11/12 where you went Shieldbow -> Guinsoo/Wits & just facerolled every game.\n Best ADC build (to me) atm is: Bork(vs. tank)/Kraken (vs. squish) -> Guinsoo -> Terminus -> Jak'sho -> Hexplate/Shieldbow/GA/Wit's End",
+   "id": "1aorcuq",
+   "comments": [],
+   "age_days": 970,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "I'm very excited for the character quests being added so I made one for Vayne",
+   "url": "https://www.reddit.com/r/vaynemains/comments/18tisnr/im_very_excited_for_the_character_quests_being/",
+   "published": "2023-12-29",
+   "author": "/u/Soviet_Dank_duck",
+   "body": "Getting more quests between champions is one of the most exciting parts of the new season becouse I really like the lore so I made one that makes the most sense for my main. I tried to keep it as doable and fair as possible given the matchup in question with an effect that would be nice to have but won't warp the general gameplay too much.\n Vindicating Agony\n Vayne Description: A demon has been seen lurking about in the shadows, it's time in this world is neigh.\n Quest: Vayne must get a takedown on Evelynn after using Condemn (E) on her.\n Vayne Victory: Evil Condemned One less monster in the word, thousands to go.\n Reward: Vayne gets increased detection range on Evelynn's camouflage.\n Vayne Defeat: Familicide Vayne's cold hearth was warmed up once again by the same fire that burned her parents.\n Evelynn Description: Someone is after me, a very familiar someone, oh this will be fun.\n Quest: Get a takedown on Vayne while she is charmed by Allure (W).\n Evelynn Victory: Agony Aged like Wine Keeping that girl alive all this time was worth it after all, this taste is simply one of a kind.\n Reward: Vayne gets reduced detection range on Evelynn's camouflage.\n Evelynn Defeat: Delight Denied. After so many years of carefull preperations, the sweet taste of her agony still eludes Evelynn.",
+   "id": "18tisnr",
+   "comments": [],
+   "age_days": 1015,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How come Vayne is not getting nerfed?",
+   "url": "https://www.reddit.com/r/vaynemains/comments/17gt830/how_come_vayne_is_not_getting_nerfed/",
+   "published": "2023-10-26",
+   "author": "/u/No_Television1661",
+   "body": "To clarify, I am also a Vayne OTP and this is just a genuine question. \n She has a 52% ish winrate, and doesn't really have any bad matchups right now as of patch 13.21. Is there a reason why she is dodging the nerfs patch after patch? \n Once again, this is a genuine question.\n ​",
+   "id": "17gt830",
+   "comments": [],
+   "age_days": 1079,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Hit masters playing Vayne only ADC, here are some of my tips and tricks to climbing",
+   "url": "https://www.reddit.com/r/vaynemains/comments/1694p3e/hit_masters_playing_vayne_only_adc_here_are_some/",
+   "published": "2023-09-03",
+   "author": "/u/Blowable",
+   "body": "EDIT: After this post I have demoted to D1 feelsbad \n Hey, everyone so I recently hit masters playing Vayne only as an ADC with a 64% win rate, and I want to talk about some tips and tricks on how I got there\n (https://www.op.gg/summoners/euw/1960)\n Lets talk about builds first;\n Build path.\n Above you can see my standard go to build path for most games as this is what is going to give you the quickest spikes to fight and help you survive.\n ​\n Shiv is self explanatory but its Vaynes best item right now for how the game is played, allows you to cs better and push quicker, you want to priorities getting this as quick as possible so we don't rush tier 2 boots or tier 1 boots at all until after shiv.\n Trinity Force is arguably the most powerful mythic in the game currently, Vayne utilizes the passive well as it gives you MS, whilst also giving your Q empowered damage, and once you max out Q the passive on tri force is up nearly every tumble, this also provides health to make you a little bit for beefier to take fights.\n ​\n After these 2 items you can build what the game needs but after the defensive item get a PD as this allows you to kite and be mobile in and out of fights.\n Shieldbow = dive heavy assassins/bruisers\n Bloodthirster = When super ahead and you want the 1v9 play\n GA = When important objective is up and Shieldbow wont save you\n BOTRK = Tanks&Health abusers\n Kraken = same as above\n Wits End/Maw = Mages/AP assassins\n ​\n Now lets talk about runes, because I see a lot of people with domination which I don't agree with\n ​\n https://preview.redd.it/g8a3hcp113mb1.png?width=1779&format=png&auto=webp&s=d50a0f645d85393be9ad356c8648d228f8a53acb\n This is really down to personal preference, but this is what I run. its pretty standard I prefer POM over triumph as I value the mana more, and feel like Vayne can be very mana hungry you ever had that fight bot you ult condemn and you have enough mana for 1 Q... sad times, In certain matchups especially heavy poke lanes I will run fleet as I will get more value out of it than Tempo, also recommend going PTA if you have a hard engage support (If its duo even better)\n ​\n The reason I run free boots as like I said before it allows me to rush Shiv as quick as possible and not waste 300 gold on an item which is not needed on Vayne as we are maxing Q for loads of mobility and Vaynes passive is a built in boots when chasing down a target, and realistically you don't want to be roaming round the map until 10-15 minutes which is when you will get free boots. It makes me spike in lane more potent if I have a longsword over the enemy the extra ad goes along way especially farming under tower or when in a 2v2 or a 1v1.\n ​\n Minion Dematerializer is a preference of mine as it helps in loosing lanes with cannon minions, I dont want to be missing out on gold, but it also helps setting up dives early on, as I can clear the wave quicker than the enemy ad and with my jungler go for a dive.\n ​\n What to max first?\n My standard order for abilities are maxing Q first into W, however with a twist I put 1 point into R level 6 then max Q and W after, even at level 11 put 1 point you would normally put into R into W and then at 12 as the % health damage on silver bolts it more important than some extra AD from R, helps dealing with tanks and bruisers, at least that is what I find.\n ​\n Tips;\n ​\n Some of the tips which helped me is I know its an obvious one is muting chat, you want to be concentrating on farming and getting gold to carry late game fights and people spamming in chat will only be a distraction for you not every game is winnable some games you will loose but that is what makes the grind to climb more satisfying.\n On item spikes, when you get shiv don't be afraid to push bot then walk into river with the support as if a fight breaks out mid you are in the position to move whilst enemy bot is still in laning clearing the wave, even if you don't pick up a kill or assist you can help in pushing mid tower and opening up the map and making enemy mid sit in mid as tower is gone.\n Don't fight for the sake of fighting, I am sure there have been times you're team fights and dies then spam pings you for not fighting... ignore them, sometimes you cannot get into the fight and its just not worth it for you to risk dying and limiting you're time on the map, its more beneficial to get solo xp or gold if the fight is lost already.\n Trust you're instinct but also know you're limits, bit of a weird suggestion/tip but this will only come with playing loads of games on Vayne, don't risk dying with a bounty for the sake of dying however if you can it is always better to give the shutdown to enemy support, its hard not to die but if you do die try and let support KS it.\n Patience and practice is key to Vayne she has a basic kit but a high ceiling, you need to put time into the game but also the champ learning the ins and outs on the champ, what matchups is she good into but what matchups are really bad that is only going to come with time.\n ​\n ​\n I know its not the most spectacular guide or tips but I hope it helps some of you if you have any questions please feel free to ask\n ​\n ​\n ​\n ​\n ​",
+   "id": "1694p3e",
+   "comments": [],
+   "age_days": 1132,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "2v2v2v2",
+   "url": "https://www.reddit.com/r/vaynemains/comments/14olv2k/2v2v2v2/",
+   "published": "2023-07-02",
+   "author": "/u/MarryOnTheCross",
+   "body": "Simple question. Do you think shes gonna be good in the new mode?\n Personally im super excited for it. The maps look pretty, the augments are such a cool mechanic. I love the duo potential with friends with some whacy combos, therefore as ex-twisted treeline lover i can't wait for it. \n Although will she be good? Is her early too easy to punish? Personally i think her dueling potential might shine, but not sure if she will have that many good matchups",
+   "id": "14olv2k",
+   "comments": [],
+   "age_days": 1195,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "New Vayne Player - Build Questions",
+   "url": "https://www.reddit.com/r/vaynemains/comments/12251a2/new_vayne_player_build_questions/",
+   "published": "2023-03-26",
+   "author": "/u/Bookwyrm214",
+   "body": "Hello! This has turned into a veritable essay and I'm so sorry, TLDR at the end...\n I'm a (Bronze) Taric main mostly but I offrole bot, so I've been trying to find an adc to play when filled. I mostly play Sivir right now, with a bit of Jinx/Aphelios/Varus. I was prompted to try Vayne after a couple painful Sivir games where 2-3 enemies built tank and I had very little impact... After a few games I've found I really enjoy Vayne's playstyle, it's a lot like Taric actually! Simple kit that takes good mechanics/positioning to pull off correctly, E stun that aims in the same odd way, weaker lane but strong lategame scaling. I felt like I was actually impactful mid-late, and her mobility + self-peel is very satisfying.\n My questions mostly revolve around runes and build. Usually I'd just check statistics and challenger replays, but with her recent changes and propensity for sololaning I'm having a hard time narrowing down what's optimal for the bot role. I've gotten the general idea from posts on here that on-hit is better into tanky teams and crit into squishies. The sample size for builds on the current patch is very low, and it seems as if 13.6 changed the build paths?\n Ability Order\n Statistics say W max first, but a lot of the recent probuilds are Q max first. Did the 13.6 changes push Q max into viability? Is it better and people just haven't switched over yet? Or is W max still just better?\n Runes\n Primary Tree: \n -Lethal Tempo vs PTA? I've run LT every game so far, but it seems like PTA synergizes very well. PTA shows a huge jump in playrate for 13.6, but again, small sample size so I can't be sure. Is it a case of PTA into squishy comps for more early burst & LT into tankier comps for extended fights?\n -Is Overheal viable or is Triumph always the better option? I know bloodthirster and bloodline were nerfed. In that same vein is it always Alacrity? I see Bloodline has a much lower playrate on both 13.5 and 13.6, I'm assuming she wants the attack speed more than survivability with her self-peel and repositioning ability.\n -My understanding of Coup de Grace vs Cut Down is another case of squishy vs tanky, but considering vayne's niche into tanky champions, Cut Down has a considerably lower pickrate. Does it not increase the silver bolts true damage by a significant amount?\n Secondary runes: Domination vs Resolve, is this also a case of squishy vs tanky? is resolve 2nd better into poke lanes?\n Domination Secondary:\n -Taste of Blood vs Sudden Impact? I ran SI in my last game and it felt good, but I had a really good game and I don't have any other data points to compare to. Is the heal from ToB significant?\n -Treasure Hunter vs Ultimate Hunter? I ran Ultimate hunter and I felt like my ult was up (or only few seconds off) when I needed it, but am I putting too much weight on the importance of her ult? Treasure Hunter by far has the highest pick rate, is it still optimal after the 13.4 nerfs?\n Resolve Secondary: When to take over Domination? I see that it has about half the pickrate of domination, and that overheal+bloodline pick up higher winrates adjacent to that. Does resolve secondary synergize particularly well with those minor runes?\n -Conditioning+Overgrowth seems the most popular combo. I know Bone Plating is often a bait in the bot lane, as it's easily poked off, but would there be a time when it's a better defensive option than conditioning?\n Build\n My understanding of the 13.6 patch notes was that the lategame on-hit was nerfed and the crit build buffed. Assuming I'm going crit into squishies and on-hit into tanks, what is an optimal build path/mythic?\n Statistically it seems like shieldbow rush is very common, but comments on this sub seem to point to either an ER rush into IE or BotRK rush into Rageblade.\n Kraken rush felt really bad, but it was also my first game of Vayne so I might have just been playing poorly. Shieldbow felt better, but I was building it first. If mythic rush is the play, do I go for boots first or boots 2nd?\n For q-max crit builds I'm seeing some PD 2nd into IE (and one case of navori), followed by LDR/Rapidfire(?)/Wit's and for some reason Runaan's? (Isn't runaan's pointless since the bolts don't apply silver bolts?)\n For w-max on-hit do I still go shieldbow if I rush Botrk, or is Kraken better once you get rageblade? Is delaying mythic to third item actually viable?\n When it comes to anti-heal is Mortal Reminder the only option? Or is Chempunk viable? I'd assume MR's stats are overall better for her.\n Matchups\n My go-to ban is usually Samira, just because she very much cucks Sivir, but I don't see windwall being that level of a problem for Vayne. What are the worst botlane matchups/what are your permabans? I've been banning Ashe just because she's annoying to play against whether she's adc or support and shes on free week rn.\n Due to my current elo, when I play support I usually ban Pyke, usually not for myself but bc I've decided that my teammates have lost playing against pyke privileges. My other ban is usually Swain just because I have a bit of a mental block playing against him, but I suspect he'll be easier(?) to play against on vayne.\n Misc\n A couple scenarios from my recent games.\n 1) I'm doing well in lane, up couple kills into Xayah/AP Twitch, but down a bit of cs due to their pressure/waveclear. My Yasuo top hard ints his lane, leading to a raid boss Darius. My teammates/hecarim can take down the other 4 easily, but Darius heals so much that they can't deal with him, so I ignored everyone else and focused Darius. Darius has built Jak'sho, Randuin's, tabis, DMP, Thornmail, and Warmogs (it looks like he sold his stridebreaker late for jak'sho?)\n My build was boots>SB>Botrk>Mortal Reminder, I didn't realize how fed Darius was until I was finished with SB, at which point I started on Botrk. (We won this game)\n Would LDR have been a better choice than Botrk? Should I have built anti-heal sooner?\n I built Mortal Reminder as Darius was my #1 priority and he got me a couple times because he healed so much and just. wouldn't. die. Would it have been better to let my Rakan build Thornmail for anti-heal and for me to go rageblade instead (esp with the randuin's)? He built Knight's Vow 2nd to try and keep me alive.\n Would something other than SB have been a better rush into the Xayah+AP Twitch? They were able to bully me off CS and take my tower faster than I would've liked, I ended the game ~40cs behind her but up kills. Part of this is being new to the champion and learning to cs on her.\n 2) I am... let us say surviving into a Caitlyn/Soraka lane, my duo is playing Kench. She comes out of lane with a 50cs lead and my tier 1, but she's 0/3. I'm 5/0/2 but the enemy Lillia (jaksho+demonic) and Asol (RoA) are extremely fed, both have rylai's. My mid/jg are useless. I'm being cc-ed/burst incredibly quickly by lillia/asol, and so is my support, we end up losing bc I can't salvage the fights when mid/jg get picked off.\n My build is SB>boots>rageblade, my kench rushed knight's vow.\n I forgot wit's end was an item (and also didn't notice how ungodly fed lillia was). Would the optimal play have been wit's end 2nd, or would kraken + maw have been better knowing the rest of the team was AP? I felt like I needed shieldbow so I could survive laning with cait/raka out-sustaining me, but as soon as the tower went down I was inundated by ap damage.\n When my jg/mid get caught out is it better to rotate to a probably losing fight, or to keep farming? This is a bit more of a low elo question, but I felt like I didn't have much impact with their burst/grouping, and by that point I had a bounty that I really didn't want to give over to potentially snowball them harder/help cait back into the game. Without me though, my team really didn't have much of a shot at killing them.\n 3) The Sivir game that made me decide to try Vayne (game before had a tank diana jg+cho supp, game after had a very fed tank sion):\n https://preview.redd.it/5krdkdw24zpa1.png?width=622&format=png&auto=webp&s=acfa362b6f0053b3745300370acc5a92acfd9cad\n I was 7/7/5 3.5 item sivir, but I just did 0 damage and was twoshot by any given member of their team (except shen in a 1v1)\n If I were playing vayne what would the optimal build look like? Botrk rush?\n Is there a trick to laning against Jinx? Other than the cheese Bel'veth running us down, Vayne has a similarly short AA range to Sivir but doesn't have Sivir's poke, so I'd be a bit worried about Jinx in lane.\n I have a spreadsheet that I use to track vision/cs and rune efficacy, but comparatively I have relatively few data points for Vayne, so I can't make any significant conclusions right now based on my own experience other than subjective feel ingame.\n TLDR: What are the most optimal runes/builds for her crit/on-hit builds, what ability do I max first with which build, who do you ban, and how to optimally itemize against certain comps?\n I'm tempted to run some tests in the practice tool and make a spreadsheet, but I haven't done something like that before and it sounds like a ProjectTM, but if that data doesn't already exist/it would help others I may be willing to take on that challenge.",
+   "id": "12251a2",
+   "comments": [],
+   "age_days": 1293,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "I spent 2 years creating the ultimate Vayne Top Document detailing how to beat every single matchup",
+   "url": "https://www.reddit.com/r/vaynemains/comments/11zxg5k/i_spent_2_years_creating_the_ultimate_vayne_top/",
+   "published": "2023-03-23",
+   "author": "/u/SaskioLoL",
+   "body": "Hello Vayne mains! My name is Saskio and I have created the ultimate Vayne top document for you to become a menace and start gaining some lp. I have spent the past 2 years from playing in challenger all the way to smurfing in silver to get the data and games needed to teach you how to play Vayne top against most common matchups. This guide is catered towards complete newbies or advanced players wanting to polish up on certain matchups.\n The document includes \n Summoner spells\n Runes\n Personal thoughts\n Screenshots of the champion abilities and how to deal with them,\n Cut down values\n Links to the full vods of the matchup being played.\n Document Link: https://docs.google.com/spreadsheets/d/1qK4DnrgBJ5mqrcBAC9DgN1KvA8Hmd2cN5dxBvWW8G20/edit?usp=sharing\n Quick Video Explaining how to navigate the document: https://www.youtube.com/watch?v=4X3wyDH2FqE\n Aside from the document link I have made a youtube video explaining a ton of important concepts to help you learn Vayne more in depth.\n Vayne Top Youtube Guide: https://youtu.be/RSdrgaOMkAo\n ​\n Here are some quick notes I will leave for anybody who is learning or transitioning to Vayne top\n Ban Malphite or Teemo then dodge the other\n Don’t hover Vayne top but rather Quinn to bait your team to ban that instead\n Use /Deafen as you get in game\n Ignore those that tell you Vayne top is easy\n Focus on applying the concepts taught in the Youtube video\n You will start to realize Vayne Top is actually very challenging to play but very rewarding once you start learning the matchups\n ​\n If you guys have any questions feel free to ask them in the comments or join my stream sometime and say hello!\n Stream Link: https://www.twitch.tv/saskiolol",
+   "id": "11zxg5k",
+   "comments": [],
+   "age_days": 1296,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Questions about Vayne from a new Vayne player",
+   "url": "https://www.reddit.com/r/vaynemains/comments/z3jm8w/questions_about_vayne_from_a_new_vayne_player/",
+   "published": "2022-11-24",
+   "author": "/u/Abyssknight24",
+   "body": "I would like to ask some questions about Vayne because I recently started playing her and I do enjoy her gameplay.\n What are her core items.\n What are her biggest power spikes.\n Which item to get first.\n How to play when behind.\n Worst matchup\n Best matchups\n Best support \n Thanks in advance for any help.",
+   "id": "z3jm8w",
+   "comments": [],
+   "age_days": 1415,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Why I like the Ezreal matchup",
+   "url": "https://www.reddit.com/r/vaynemains/comments/w6usvh/why_i_like_the_ezreal_matchup/",
+   "published": "2022-07-24",
+   "author": "/u/vesall",
+   "body": "",
+   "id": "w6usvh",
+   "comments": [],
+   "age_days": 1538,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "is vayne STRONG or WEAK",
+   "url": "https://www.reddit.com/r/vaynemains/comments/vnvpn7/is_vayne_strong_or_weak/",
+   "published": "2022-06-30",
+   "author": "/u/KoalaMean4484",
+   "body": "so i see people say\n vayne is trash TOP\n vayne is OP TOP stop abusing her\n is it matchup dependant top or what?",
+   "id": "vnvpn7",
+   "comments": [],
+   "age_days": 1562,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Why is Vayne not much more relevant in Top Lane?",
+   "url": "https://www.reddit.com/r/vaynemains/comments/vhbntb/why_is_vayne_not_much_more_relevant_in_top_lane/",
+   "published": "2022-06-21",
+   "author": "/u/J1T_T3R",
+   "body": "So this is coming from a Tryndamere main, so i may be biased as Vayne does very well against my champ as well as every other melee champ, but it seems like she has very few losing matchups in the top lane and can be a pain in the ass to deal with.\n Yes i get that she is susceptible to ganks, but every toplaner is except for tham kench and camille.\n Just feels like she could be a perfect counterpick choice. Your comp may suffer a little, but as long as you are winning lane with a scaling champion like vayne, i don't think comp matters that much in soloQ.\n I'd like to listen what you (Vayne mains) have to say about this topic.",
+   "id": "vhbntb",
+   "comments": [],
+   "age_days": 1571,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "New Vayne player, absolutely adoring the champ. Got some questions about build/runes.",
+   "url": "https://www.reddit.com/r/vaynemains/comments/uh77g4/new_vayne_player_absolutely_adoring_the_champ_got/",
+   "published": "2022-05-03",
+   "author": "/u/andierooie",
+   "body": "Hey all,\n I'm a pretty fresh-faced ADC player, roleswapped from mid. Cut my teeth learning all the quirky ADCs like Jhin, Samira, Senna, Kindred, and Aphelios, now I want to try the basics. Vayne is insanely fun, feels like the fundamentals. You auto, deal bonus true on the autos so you always kill in a certain number of attacks, and get to augment your kiting with well-timed minidashes. I've got some questions about the build though...\n Items. \n Why doesn't Vayne build a Sheen item? Essence Reaver in particular. It seems like she would be procking the bonus damage off cooldown. I do get that CDR isn't that important on Vayne, but it seems like she would use tons of Sheen. Is it because she only does damage via W?\n Tank items. I see that Vaynes tend to spec into tank items later on, ranging from Wit's End and GA to a full-on Randuin's. Does Vayne's damage profile just afford her that luxury? That's pretty sweet. What tank items are good?\n Runes.\n What primary runes do you go and when? I go Lethal Tempo: Triumph, Alacrity, Coup on every game and it feels good, but are there alternatives? Can Vayne go Fleet in hard matchups? I assume she doesn't go Conq but I'm open to being surprised.\n Secondary runes. This is the big one. What the hell do you go? I've just been going the standard Overgrowth + Second Wind, which is my safety secondaries on new champs I'm insecure on. But what do you actually go? Every other secondary page seems to not quite fit.\n Thanks for any help!",
+   "id": "uh77g4",
+   "comments": [],
+   "age_days": 1620,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Whats a good support to vayne?",
+   "url": "https://www.reddit.com/r/vaynemains/comments/surp68/whats_a_good_support_to_vayne/",
+   "published": "2022-02-17",
+   "author": "/u/Kaisaforthewin",
+   "body": "Hey guys, I am a gold 2 with vayne as one of my mains. I wanted to know whats the best supporter for vayne in your eyes.\n Ofcourse its kinda matchup dependent but what do you prefer?\n Im currently not sure. Lulu is like insane but laning phase isnt that strong. Engage support has better lane but cant buff you in Teamfights ofcourse. And recently ive seen crazy run downs with a zilean.\n Im only gold 2 so pls tell me when im saying wrong stuff. Hope you have a great day and ty already! Greetings",
+   "id": "surp68",
+   "comments": [],
+   "age_days": 1695,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What do you think about vayne top?",
+   "url": "https://www.reddit.com/r/vaynemains/comments/qg3mhr/what_do_you_think_about_vayne_top/",
+   "published": "2021-10-26",
+   "author": "/u/nrwPlayer",
+   "body": "Hey guys, Don't hate me for this question. I think everyone who played vayne top more than just a counterpick knows that she isn't broken or so. Im a kayle main but actually play quite a lot of vayne top too. My main reason for this is that it feels like you have a more decent early game in average. You still have to play alot careful against certain matchups e.g.: irelia, camille. But my early feels way saver to scale than in the botlane. While its true that during midgame the enemy toplaner usually has greater impact in tfs. That is true for kayle too. My usual plan is to force one enemy to stay top until u got like 3 items. And for a lategamechamp its pretty good to be able to impact tfs later. After 3 or more items i dont really feel like it matters much that the team lacks frontline. Since i can split 1vs1 nearly everyone or kill their Frontline in tfs very fast. So i pretty much play her with a kayle playstyle and it works pretty fine. I played her pretty often but with random Supports too. But there it feels like i always fall behind in the early and have to comeback First and have to join big fights like dragon with less items. So whats ur opinion about vayne top compared to adc?:)",
+   "id": "qg3mhr",
+   "comments": [],
+   "age_days": 1809,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How to take on Caitlyn matchups as Vayne + dodging mechanics",
+   "url": "https://www.reddit.com/r/vaynemains/comments/q553ht/how_to_take_on_caitlyn_matchups_as_vayne_dodging/",
+   "published": "2021-10-10",
+   "author": "/u/Gyaam",
+   "body": "",
+   "id": "q553ht",
+   "comments": [],
+   "age_days": 1825,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Worst adc matchup?",
+   "url": "https://www.reddit.com/r/vaynemains/comments/oww6qi/worst_adc_matchup/",
+   "published": "2021-08-03",
+   "author": "/u/ieatcheesecakes",
+   "body": "These are my 6 least favorite maybe ziggs and mf deserve to be in there idk.\n View Poll",
+   "id": "oww6qi",
+   "comments": [],
+   "age_days": 1893,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What are your hardest matchups and bans",
+   "url": "https://www.reddit.com/r/vaynemains/comments/o3094p/what_are_your_hardest_matchups_and_bans/",
+   "published": "2021-06-18",
+   "author": "/u/m1kkY8",
+   "body": "",
+   "id": "o3094p",
+   "comments": [],
+   "age_days": 1939,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Hi VayneMains, I am an Engage Support player here who has come to ask what you want/don't want out of us in Laning phase and Midgame or even Lategame. Also to better learn your level/item power spikes, potential for all-in or trades, peeling advice, and any tips or tricks that could be helpful.",
+   "url": "https://www.reddit.com/r/vaynemains/comments/nzmwwf/hi_vaynemains_i_am_an_engage_support_player_here/",
+   "published": "2021-06-14",
+   "author": "/u/Suavarino",
+   "body": "I am Gold MMR, and am coming here to try to be a better Engage/Peel Support for you. I play Leona Naut and some Galio. And yes I realize matchups matter, so if there are any that are particularly tricky, I would like to hear about those too. Or ones we can particularly take advantage of. And what do you consider is your job is as a Vayne player overall. Level 2 advice, all-ins, tricks to peel for you, hell, anything you wanna share would be great.\n Hoping to get some advice from you all. I will doing this will all ADCs over the next month or 2 in order to hopefully become a better Support. I play JG some too, but still love playing engage/peel, it's a blast! \n Good luck the rest of the Season! :)",
+   "id": "nzmwwf",
+   "comments": [],
+   "age_days": 1943,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "I wanna start playing vayne so any tips ?",
+   "url": "https://www.reddit.com/r/vaynemains/comments/matxs2/i_wanna_start_playing_vayne_so_any_tips/",
+   "published": "2021-03-22",
+   "author": "/u/djojid0",
+   "body": "I am a bronze player started playing last year ( i was top main but found adc more fun) my main champion is jhin but i struggled to find someone fun to add to my 3 pool mains , i played vayne in aram and found she was fun to play so i decided to learn to play her . So how is she played ? I heard she's weak early so should i just farm until lvl 6 ? What are her best and worst matchups and what should i build ? If you have any more tips thanks in advance . Sorry for spelling mistakes i am not english native",
+   "id": "matxs2",
+   "comments": [],
+   "age_days": 2027,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "HoB vs PTA",
+   "url": "https://www.reddit.com/r/vaynemains/comments/knviey/hob_vs_pta/",
+   "published": "2020-12-31",
+   "author": "/u/Midieval",
+   "body": "New(ish) Vayne main looking to climb. I’ve experimented with both of these runes in different matchups, but I’m having a hard time deciding which feels more effective in what circumstances. Can any of my fellow Vayne nerds provide me with some advice on this?",
+   "id": "knviey",
+   "comments": [],
+   "age_days": 2108,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Crit or on-hit?",
+   "url": "https://www.reddit.com/r/vaynemains/comments/itky28/crit_or_onhit/",
+   "published": "2020-09-16",
+   "author": "/u/never_Lene",
+   "body": "Since I'm pretty much clueless about vayne builds n'stuff. I mean normally you just build on-hit, right? But like when is crit better than on-hit? Like in a special matchup or something?",
+   "id": "itky28",
+   "comments": [],
+   "age_days": 2214,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "500k Mastery Vayne Stream! | Rose BND",
+   "url": "https://www.reddit.com/r/vaynemains/comments/hlx4v3/500k_mastery_vayne_stream_rose_bnd/",
+   "published": "2020-07-06",
+   "author": "/u/UzaY-LoL",
+   "body": "Hey everyone! \n I am Rose BND and I have been playing Vayne every since 2013. Currently I have over 550k mastery points and I'll be streaming in a bit. If you have any questions concerning things such as matchups, builds etc feel free to come by and ask me anything! And if you just want to vibe with me thats fine ofcourse ;)\n ​\n Hope to see you there ! \n Rose\n ​\n twitch.tv/rosebnd",
+   "id": "hlx4v3",
+   "comments": [],
+   "age_days": 2286,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Why does Vayne counter Kai'Sa?",
+   "url": "https://www.reddit.com/r/vaynemains/comments/g7yu04/why_does_vayne_counter_kaisa/",
+   "published": "2020-04-25",
+   "author": "/u/Eisbraut",
+   "body": "I hear a lot this matchup is favorable for Vayne... why?",
+   "id": "g7yu04",
+   "comments": [],
+   "age_days": 2358,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to fight MF Leo?",
+   "url": "https://www.reddit.com/r/vaynemains/comments/fumeoq/how_to_fight_mf_leo/",
+   "published": "2020-04-04",
+   "author": "/u/SwiggitySwootyBoi",
+   "body": "Seriously, this botlane is the bane of every matchup I play including vayne. Even if I set them back early levels, MF just needs a BF sword and suddenly she can just melt me with one ultimate. I just can’t deal with this botlane, any advice?",
+   "id": "fumeoq",
+   "comments": [],
+   "age_days": 2379,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Fleet on Vayne",
+   "url": "https://www.reddit.com/r/vaynemains/comments/evv2cb/fleet_on_vayne/",
+   "published": "2020-01-29",
+   "author": "/u/bigbaffler",
+   "body": "PtA is the go to runeset with boots&biscuits as secondary. \n However, I'm experimenting with defensive runepages for hard matchups e.g. MF/Leona, Cait/Morg, etc. With PtA I make one mistake and the lane is over. I'm 1/2hp, can't contest CS...you know the feeling. \n ​\n Last game I played against MF/Ali, Ezreal mid, Teemo top. I used fleet, triumph, legend: tenacity (I felt I have more than enough AS with BotrK, RB, PD) CdG and Taste of Blood/Ravenous Hunter as secondary. Cull first back and scale. \n First I thought all the heal was overkill but it was pretty nice to survive MF's constant E harras in lane and tenacity helped alot against Teeto shrooms and Ali combo. \n ​\n This rune set lacks the trading power of PtA, probably a lot of DPS and the free boots. But when top Vaynes play Grasp and get Randiuns, I don't see why I would always build glass cannon as ADC, especially when I have no frontline or support to peel/engage for me. \n ​\n ​\n Thoughts?",
+   "id": "evv2cb",
+   "comments": [],
+   "age_days": 2445,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Senna matchup",
+   "url": "https://www.reddit.com/r/vaynemains/comments/eullzl/senna_matchup/",
+   "published": "2020-01-27",
+   "author": "/u/Hyuga_Vojin",
+   "body": "How to survive it? Her glacial augment and slow just destroy me so i lose lane and cs.\n What are the counters?",
+   "id": "eullzl",
+   "comments": [],
+   "age_days": 2447,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How can i defeat or at least counter Vayne top?",
+   "url": "https://www.reddit.com/r/vaynemains/comments/egr604/how_can_i_defeat_or_at_least_counter_vayne_top/",
+   "published": "2019-12-28",
+   "author": "/u/pavlovski0",
+   "body": "[ THIS ISN'T A HATE I JUST NEED HELP] I play a lot of toplane and Vayne is one of the hardest matchups nevermind the champ i play. I can't find her weakness other than being squishy which is irrelevant due to her mobility. But her W is the biggest problem the %hp damage spam is so frustrating to play against as a melee champ. And whenever i get close to her she knocks me back with her E then tumbles away with Q. So i wondered if some of the Vayne mains could help me out on how to counter Vayne top.",
+   "id": "egr604",
+   "comments": [],
+   "age_days": 2477,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Vayne Mains Community Montage by Vaysu - Plays needed",
+   "url": "https://www.reddit.com/r/vaynemains/comments/ecxqy1/vayne_mains_community_montage_by_vaysu_plays/",
+   "published": "2019-12-19",
+   "author": "/u/Antenoralol",
+   "body": "As Vaysu can't seem to get formatting to work, I'm posting on his behalf\n  \n Everything below this is from Vaysu's original post -\n  \n Hi everyone,\n  \n My name is Vaysu maybe you've heard the name before maybe not doesn't matter, what matters is that you don't click away right now and why? pretty easy because this is a perfect opportunity to show off your Vayne mechanics.\n  \n I regularly upload Vayne related content to my youtube channel (Approximately 27,000 subscribers).\n As for ranks, I'm a Grandmaster peak Vayne one trick on the EUW server.\n  \n Since its Christmas soon and 2019 is slowly ending I thought about making something special, so I decided to make a Montage but this time not about my Plays I wanna show to the world what Vayne Mains can do!\n My goal is to make a Vayne Mains Community Montage containing clips from you, the community.\n The end result will be uploaded to my Youtube channel, The Vayne Mains discord and will be available here on the subreddit.\n  \n HOW YOU SUBMIT YOUR PLAY!!! (Discord,Reddit,Email)\n  \n There are 2 Options:\n 1.I'm accepting self recorded clips but will not accept clips longer than 30 seconds. \n 2.I can record the play myself but I need your .rofl file. + Timers > you can find them under Documents > League of Legends > Replays\n  \n Simple rules: - I cannot Record the Play if new Patch will come out so make sure to send it fast\n Play should be montage worthy (not 900 ad soraka lvl 18 outplays teemo lvl 1)\n\n Vayne Clips only\n\n  \n Is there a minimum ELO required to submit?\n No, anyone is welcome to submit a play, regardless of rank. Normal mode games are fine but not mirror matchups please (No Vayne vs Vayne). The Quality of the play is what matters!\n  \n How can I help?\n There's plenty of ways you can support me\n Watching my videos\n Liking my videos\n Subscribing to my channel\n  \n Thats all about the Details:\n You can contact Vaysu on Discord at Vaysu#8267. \n Vaysu's Email: Vaysu1998@gmail.com\n You can also message me here on Reddit (/u/youtubeVaysu)\n  \n Thanks for taking the time to read my pitch for a montage, I hope we can together make a top quality montage and show the world what we as Vayne mains are capable of!\n ​ \n Video will be posted on this Channel:\n https://www.youtube.com/channel/UCOd63YKUOv2-Xm_wZ4Xm65Q?view_as=subscriber",
+   "id": "ecxqy1",
+   "comments": [],
+   "age_days": 2486,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "If you were to buy Shojin on Vayne, at which point of the game would you pick it up?",
+   "url": "https://www.reddit.com/r/vaynemains/comments/cdfd1s/if_you_were_to_buy_shojin_on_vayne_at_which_point/",
+   "published": "2019-07-15",
+   "author": "/u/piratagitano",
+   "body": "Before anyone comes up with the usual items, I am just trying to do a bit of research on what items could be useful in Vayne in certain matchups/games. I have bought it some times as a 5th/6th item.\n IMO, from that point on you usually get into fights with your ult, and shojin is really dependent on your ult timing but it felt really good to have the extra cd for the Q. Makes you think more about when to use ult and it provides a fair amount of AD. \n Just wanted to know your thoughts regarding this which I know is really not meta but wanted to see what other Vayne players thought.",
+   "id": "cdfd1s",
+   "comments": [],
+   "age_days": 2643,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How the hell are you supposed to play against Lucian?",
+   "url": "https://www.reddit.com/r/vaynemains/comments/cdg5ik/how_the_hell_are_you_supposed_to_play_against/",
+   "published": "2019-07-15",
+   "author": "/u/iwanthidan",
+   "body": "Got rekt hard by a Lucian smurf and Rakan today. The thing they say; ''dodge the q with your q'' is near impossible. It's so fast and I'm playing with 70-80 ping so it requires gosu levels of reaction. He just wins every single trade and gets ez kills with his superior range poke. Even cait matchups were easier for me. How do you play against an aggressive Lucian?",
+   "id": "cdg5ik",
+   "comments": [],
+   "age_days": 2643,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Builds, runes and the state of Vayne post nerfs (thoughts)",
+   "url": "https://www.reddit.com/r/vaynemains/comments/brs8oc/builds_runes_and_the_state_of_vayne_post_nerfs/",
+   "published": "2019-05-22",
+   "author": "/u/CookieBlitz",
+   "body": "Hello, I am a D4 ADC/Mid main, with almost 200k points on Vayne. I've keeping an eye on Vayne since the \"nerfs\" came live. I want to keep this clear and short, so I'll jump straight in.\n About the nerfs:\n -Q's CD refund: Noticeable pre-11 because you want to max W in 80% of the cases. Not that big of a deal, a needed nerf in my opinion.\n -Rageblade: Definitely took a hit but that doesn't stop it from being OP on Vayne. You might want to build it 3rd item sometimes though.\n State of Vayne/ADC:\n -Some teams have picked midlane/toplane Vayne at MSI as counterpicks. Against tanks and meaty bruisers, Vayne is a great option, I'd say even more than bruisers after all the Conq nerfs. She is also good against certain champs or weak lanes.\n -ADC Vayne is definitely top 5 to top 1 depending on team compositions and user skill. Draven, Sivir, Jhin and Vayne are the best SoloQ ADCS right now in my opinion. If you ban Draven you'll have an easier time if you are a Vayne main/OTP.\n -Vayne remains as a great pick overall, depending on where the meta goes. If tanks or enchanter supports become trendy, Vayne will definitely shine. \n Runes: PTA 100% of the cases. You can pick any secondary tree based on what is broken or matchup.\n Items: Pick BoRK as 1st item for ADC Vayne. For mid/top Vayne, it is a bit more open. You can go BoRK, Frozen Mallet or Wits End first, then pick another one of those or rageblade.\n The most important point about builds is: You do NOT need crit on Vayne. You can rely on PTA, BoRK, Wits End, Frozen Mallet and Rageblade to do very high damage while scaling quicker and better. The only crit item I'd consider buying is Essence Reaver (yes, CDR is not troll because you use your ulti and E have high CDs.), but even then, it's situational.These are the items you want to build on Vayne:\n -BoRK: 1st item unless you are against an AP threat\n -Wits End: 1st item against APs, you only skip this one if they do not have any AP damage.\n -Mallet: If they have mostly immobile champs this is really good. If not, skip and replace it for PD.\n -Rageblade: 2nd, 3rd or 4th item.\n -Stoneplate: Late game item, does NOT reduce your true damage output. Best option against assasins and divers by far. Better than PD.\n -QSS/Bloodthirster/GA: Situational, not much to explain",
+   "id": "brs8oc",
+   "comments": [],
+   "age_days": 2697,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Vayne Matchups Runes/Builds",
+   "url": "https://www.reddit.com/r/vaynemains/comments/b6yqpt/vayne_matchups_runesbuilds/",
+   "published": "2019-03-29",
+   "author": "/u/Shadow1212a",
+   "body": "I picked up lol about a month ago and have found vayne to be my fav champion atm, before I used to play riven. When playing riven I was able to find a discord that had information such as item builds against specific champions, what to look out for and what runes to use.\n I’ve looked for a while now and haven’t found something similar for vayne (could be due to my poor google skills). I was wondering if there is information centre with information like this.\n Edit: Found this, been really useful\n https://www.mobafire.com/league-of-legends/build/9-6-vayne-to-diamond-544839",
+   "id": "b6yqpt",
+   "comments": [],
+   "age_days": 2751,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "The r/vaynemains guide Introduction",
+   "url": "https://www.reddit.com/r/vaynemains/comments/9yzhj5/the_rvaynemains_guide_introduction/",
+   "published": "2018-11-21",
+   "author": "/u/SuperRiceBoi",
+   "body": "Hi all,\n I'm SuperRiceBoi, and I'm a Vayne Main from the NA server. A few weeks ago I wrote a post on some general Vayne advice for a user interested in improving at Vayne, and many of y'all thought it was good, so after talking with some of the subscribers and u/Antenoralol (one of our fearless mods) I decided to create a full guide for the subreddit doing some collaboration with other Vayne Mains to share here for both brand new and more experienced Vayne players to learn from.\n Life has been happening so I figured I'd create this guide as a series so I can get elements of the guide out to y'all instead of trying to get it all out at once. Of course, at the end I will compile all of the chapters into a single guide, but I think this way will allow some of the contributors to work on some basic videos for the different concepts to be discussed. And of course, I'll be working with the contributors to make sure this guide will provide the most valuable, with the best accuracy possible, information possible for its readers. \n The next chapter will be on why to pick up Vayne as a champion, as well as her pros and cons. \n Later chapters will go into items, runes, matchups, support synergy, laning, team fights, Vayne's kit, and invisibility, among other things.\n Thank you to everyone who's volunteered to help create this guide and proof read it for effectiveness and accuracy, both in video and written formats!\n If any of y'all would like to contribute, just leave a comment here or DM me.",
+   "id": "9yzhj5",
+   "comments": [],
+   "age_days": 2879,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Sharing my thoughts on Vaynes current state, also some rework ideas or balance changes ...",
+   "url": "https://www.reddit.com/r/vaynemains/comments/9xffg4/sharing_my_thoughts_on_vaynes_current_state_also/",
+   "published": "2018-11-15",
+   "author": "/u/ItsYourFinalHour",
+   "body": "Hello everyone, im ItsYourFinalHour and im 4 year Vayne main with over 700k mastery points so i think i have some kind of right to say some stuff about her current state so here we go.. Also please excuse me for my grammar !\n So first to know why is she so bad (my opinion) atm we first need to understand where she excels and where shes weak.\n So Vayne is a late game hypercarry with her whole kit revolving around her basic attacks. Shes supposed to suck early game, be decent mid game and be a complete beast late game.\n Now that we covered that stuff lets talk bout some thing that suck for her right now \n SUPPORT META - with lots of direct and indirect nerfs to enchanters (Janna, Lulu, Sona etc...) its only natural that support meta will shift more to more tank/cc champs like Alistar, Thresh, Blitzcrank and so on. So ... why is this bad ? Well to put it simply those supports like lets say thresh will never be able to make u stay alive better than some Lulu. Its a fact.\n\n ITEMS/BUILDS - So with our night hunter as of now we have 2 options for adc role when we are talking bout our builds\n\n a) CRIT BUILD (BURST BUILD)\n b) ON-HIT BUILD (DPS BUILD)\n Both builds have their flaws so lets see what are those flaws..\n CRIT - if u wanna build crit there are kinda 2 routes u can take and both of them ALSO have flaws\n a) go Stormrazor > AS Boots > Staticc Shiv > Infinity Edge and so on...\n b) go BF Sword > AS Boots > Zeal and then latter upgrading them to Shiv and IE\n First option simply put is : get first crit and then normal basics with few crits with 30% from Shiv here and there - but wait if i cant count on crits then i might as well just go on hit cause its more consistent.\n Second option is : get more crits with 60% with Shiv+IE but it costs a lot of gold which means u will just be useless since every other adc can just get stormrazor and do fine\n ON-HIT - its a classic BORK+Rageblade build that we mostly use these days\n In my opinion the flaw of this one is there is no burst not to mention u wont have ur Rageblade passive most of the times in teamfights.\n MATCHUPS - This is a similar problem like itemization. It all comes down to other adcs utilizing Stormrazor better than Vayne does.\n So, how do we get her to be good without completely changing her kit and who she is ? \n Here are few ideas\n 1) Let her have her Bouns AD on Tumble crit again, but reduce her current Tumble scaling.\n 2) Give her that PBE bug that was on her Q a while ago which allowed her Q to apply 2 stacks of W on the target BUT increase the CD of Tumble so she cant just spam it.\n 3) Replace her \"passive\" (it sucks its a fact) with her W and make it do 0.75 Max HP True DMG per LVL so it will be 13.5 at lvl 18.\n 3.5) Place her current passive on her R\n 4) Give her +25/+50 range while in her R\n 5) Make her get X% AS for X sec when she uses her Q\n 6) Give us back 70 AD LVL 3 R\n ​\n Those was all MY OPINION on her current state and how to make her better !",
+   "id": "9xffg4",
+   "comments": [],
+   "age_days": 2885,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Advices on Vayne",
+   "url": "https://www.reddit.com/r/vaynemains/comments/9ihwe7/advices_on_vayne/",
+   "published": "2018-09-24",
+   "author": "/u/salgadosp",
+   "body": "Hey guys! So I am an ADC main (notably Caitlyn, Jinx and Kai'Sa) trying to learn how to play this champion, as I like hyper carries marksmen. I have played 3 or 4 games with her. Did well in the first, building crit with SR. The other games were a nightmare. So I have a few questions. 1. What is the best way to trade in lane? 2. How to be impactful in TFs 3. In which situations should I press R? 4. Which build is better against Squishies? Tanks? Fed top/mid/jg? Any other advice (matchups or anything)?",
+   "id": "9ihwe7",
+   "comments": [],
+   "age_days": 2937,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Support Synergy: Nami, the Tidecaller",
+   "url": "https://www.reddit.com/r/vaynemains/comments/9hdxtx/support_synergy_nami_the_tidecaller/",
+   "published": "2018-09-20",
+   "author": "/u/Antenoralol",
+   "body": "Hello fellow Night Hunters!\n Due to the relative success of the ADC matchup threads, I have decided to start doing weekly discussions alongside the ADC threads where we can discuss synergies with each Support we play with in the bottom lane.\n  \n This week we will be discussing the best fish in League of Legends, Nami!\n Whether you play Vayne, Nami or both your input to the discussion is welcomed.\n  \n When providing your thoughts to the discussion, please keep the following in mind.\n What benefits do Vayne and Nami provide to one another?\n What are the weaknesses to a Vayne Nami lane? \n Do they hinder each other in any way? If so, how?\n How should Vayne and Nami play in the laning phase?\n How should Vayne and Nami play in the mid - late game?\n How would you rate the synergy and why? (S = Great, A = good, B = Average, C = Bad)\n Any matchups you don't like playing against as Vayne Nami and why?\n Anything else you wish to add?\n  \n Please keep all comments constructive and civil. \n  \n Next week will be either Lulu or Sona.",
+   "id": "9hdxtx",
+   "comments": [],
+   "age_days": 2941,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Weekly Matchup Thread #3: Kai'Sa, Daughter of the Void",
+   "url": "https://www.reddit.com/r/vaynemains/comments/8xyq9z/weekly_matchup_thread_3_kaisa_daughter_of_the_void/",
+   "published": "2018-07-11",
+   "author": "/u/Antenoralol",
+   "body": "Hey guys!  \n These threads are for Bot Lane matchups only. Matchup information for other lanes will not be available here, sorry!  \n  \n This week we will be looking at the Vayne vs Kai'Sa matchup.  \n  \n Everyone is welcome to contribute (Both Kai'Sa and Vayne Mains) but here are some questions to consider when replying.  \n Whom does this matchup generally favor?\n What do you feel Vayne's win condition is in this matchup?\n What do you feel Vayne's strengths and weaknesses are in this matchup?\n How do you play the laning phase?\n How do you play the mid - late game ?\n What runes and builds do you feel are necessary? (Any situational items you like to use etc)\n What Supports do you feel are the best in this matchup and why?\n Anything extra you'd like to add.  \n  \n For any Kai'Sa mains out there who'd like to contribute, please consider these additional questions.\n What Supports do you prefer in this matchup and why?\n What Supports do you feel can swing this matchup?\n What is your game plan as Kai'Sa? What is your goal?\n What do you feel influences the matchup the most? Player skill? Junglers? Support matchup?\n What do you want to avoid doing while playing against Vayne?\n  \n Thank you in advance for any contributions to the discussion!\n  \n Please keep comments constructive.\n  \n Comments like \"Ban her\" \"Dodge\" \"Alt +F4\" \"AFK\" will be removed.",
+   "id": "8xyq9z",
+   "comments": [],
+   "age_days": 3012,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Weekly Matchup Thread #2: Lucian, the Purifier",
+   "url": "https://www.reddit.com/r/vaynemains/comments/8w0kd8/weekly_matchup_thread_2_lucian_the_purifier/",
+   "published": "2018-07-04",
+   "author": "/u/Antenoralol",
+   "body": "Hey guys!\n I'd like to say a big thank you to both the Vayne and Miss Fortune mains who contributed to last weeks thread.  \n The replies were a joy to read.  \n  \n These threads are for Bot Lane matchups only. Top Lane matchup information will not be available here, sorry!  \n  \n This week we will be looking at the Vayne vs Lucian matchup.  \n  \n Everyone is welcome to contribute (Both Lucian and Vayne Mains) but here are some questions to consider when replying.  \n Whom does this matchup generally favor?\n What do you feel Vayne's win condition is in this matchup?\n What do you feel Vayne's strengths and weaknesses are in this matchup?\n How do you play the laning phase?\n How do you play the mid - late game ?\n What runes and builds do you feel are necessary? (Any situational items you like to use etc)\n What Supports do you feel are the best in this matchup and why?\n Anything extra you'd like to add.  \n  \n For any Lucian mains out there who'd like to contribute, please consider these additional questions.\n What Supports do you prefer in this matchup and why?\n What Supports do you feel can swing this matchup?\n What is your game plan as Lucian? What is your goal?\n What do you feel influences the matchup the most? Player skill? Junglers? Support matchup?\n What do you want to avoid doing while playing against Vayne?\n  \n Thank you in advance for any contributions to the discussion!\n  \n Please keep comments constructive.\n  \n Comments like \"Ban him\" \"Dodge\" \"Alt +F4\" \"AFK\" will be removed.",
+   "id": "8w0kd8",
+   "comments": [],
+   "age_days": 3019,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Matchup: Miss Fortune, the Bounty Hunter",
+   "url": "https://www.reddit.com/r/vaynemains/comments/8uj8us/matchup_miss_fortune_the_bounty_hunter/",
+   "published": "2018-06-28",
+   "author": "/u/Antenoralol",
+   "body": "Hey guys!\n This is a new thing I want to try out where each week I will make and sticky a post where we can discuss matchups for Vayne in the bot lane.\n These threads are for Bot Lane matchups only. Top Lane matchup information will not be available here, sorry!  \n  \n This week we will be looking at the Vayne vs Miss Fortune matchup.  \n  \n Everyone is welcome to contribute (Both MF and Vayne Mains) but here are some questions to consider when replying.  \n Whom does this matchup generally favor?\n What do you feel Vayne's win condition is in this matchup?\n What does Miss Fortune want to achieve in this matchup?\n What do you feel Vayne's strengths and weaknesses are in this matchup?\n How do you play the laning phase?\n How do you play the mid - late game ?\n What runes and builds do you feel are necessary? (Any situational items you like to use etc)\n What Supports do you feel are the best in this matchup and why?\n Anything extra you'd like to add.  \n  \n For any Miss Fortune mains out there who'd like to contribute, please consider these additional questions.\n What Supports do you prefer in this matchup?\n What Supports do you feel can swing this matchup?\n What do you feel influences the matchup the most? Player skill? Junglers? Support matchup?\n  \n Thank you in advance for any contributions to the discussion!\n Please keep comments constructive. \n Comments like \"Ban her\" \"Dodge\" \"Alt +F4\" \"AFK\" will be removed.",
+   "id": "8uj8us",
+   "comments": [],
+   "age_days": 3025,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "I think I found a new Vayne build, any higher ELO players want to chime in?",
+   "url": "https://www.reddit.com/r/vaynemains/comments/87ni7i/i_think_i_found_a_new_vayne_build_any_higher_elo/",
+   "published": "2018-03-28",
+   "author": "/u/kratos015",
+   "body": "So, rushing Rageblade first is actually pretty strong, but only if we build properly after we get it. The reason people don't like rushing Rageblade first is because they rush Bork or a zeal item afterward, which is a total waste of how the new Rageblade works. Rageblade by itself provides up to 73% AS at full stacks, and at full stacks gives 24% extra AD and this is where the item is truly busted. \n I don't see anyone running Inspiration as a secondary tree, so this is also why I feel people aren't getting good results with rushing Rageblade as you need the right runes to compliment it. \n Why go Inspiration second as Vayne? It's actually the best secondary on Vayne for a variety of reasons. I go with Magical Footwear and Future's Market because they are both incredibly useful as Vayne. The free boots is effectively free 300g, while also providing us with +10 MS extra and we get it between 8-10 minutes. Future's Market is absolutely incredible on Vayne as it makes all of your backs even stronger than normal. How many times have we been 100-200g short of being able to buy another item, even with good CS? The best part about this though is it is the only secondary tree that still provides us with 18% AS. Any other tree as a secondary seems kind of worthless on Vayne in my opinion as Vayne hasn't ever really needed help putting out damage, she needs help getting there and wants to do it as fast as possible. Getting to Vayne's mid/late game is so much easier and faster with free boots, future's market, and the extra attack speed. We get more AS from this as a secondary tree on top of 300g for free, as well as the ability to go into debt which is immensely useful for getting to Vayne's powerspikes that much faster. \n We still run Precision as a primary, of course. Fleet Footwork still reigns supreme on Vayne, amazing for sustaining the lane and the constant boosts of movement speed is incredibly useful with Vayne's passive, even with mediocre life steal early on in the game. \n Overheal is my favorite, as it allows you to continue life stealing extra health even at 100% HP. Free shields are always nice.\n We take Alacrity for the extra 18% AS. The 8% Lifesteal from Bloodline is nice in lane for helping to sustain, but you really do feel that missing 18% AS when you don't run Alacrity. Especially after they nerfed Vayne's AS% stats.\n Lastly, Coup De Grace seems like the best of the bunch for Vayne. We don't really want to be at a low enough health to take advantage of Last Stand, and Cut Down is a bit excessive as Vayne's W does a good enough job doing this. \n As for the build, the buildpath is Rageblade>Zerkers>Cloak>IE>BT/Mercurial (situational), Essence Reaver, and of course a defensive item of your choice. I'll explain the how and the why below.\n First up, why we build Rageblade first.\n Rageblade is 3000g and provides\n 25AP/25AD/25%AS on top of your on hit passive that also scales with bonus AD. The unique passive grants an extra 48% AS, 24% bonus AD and AP (irreverent for us). Assuming full stacks, the 3000g provides you with a whopping 73% AS (over double the AS from Shiv), 25 raw AD and 24% bonus AD (by the time you get Rageblade, your raw AD will be over 100, meaning you get an extra 24AD which only gets higher as you grab more AD items. And this is just raw stats, it doesn't even include the fact you can proc W in two autos instead of 3. \n So,\n 3000g on Rageblade for a first buy gives us up to 73% AS, up to 49-50AD, extra on-hit damage, and extra W procs. \n That same 3000g going the crit build will put you at a BF Sword, Zeal, and a Dagger, leaving you with 200g. This build path only provides us with 27% AS, 40AD, and 20% crit and 5% MS. \n For 200g more, we get nearly triple the AS and an extra 10AD, both of which will get higher as the game goes on and you get more items. That 20% crit we miss from not rushing Zeal/Shiv is provided from building Cloak for IE immediately after, finishing IE next as soon as possible. \n The build scales so much better than the crit build, while also providing stats similar to the crit build. You will have 30-50% less crit, but come late game when you have 200+AD more than normal you really don't notice it. \n At just 5 items in this build, you will have 500+AD with 40% crit compared to 250AD and 80% crit. \n So, 500AD x 2.5 (IE crit damage) = 1250 damage with a 40% chance.\n 250AD x 2.5 (IE crit damage) = 625 damage with 80% chance. 925 damage when combined with shiv/RFC proc. 775 damage if you go PD instead of RFC.\n So with the build I'm proposing, not only do our crits hit twice as hard (albeit half the time) but your normal autos will hurt more than normal as well as a result of your raw AD. \n The other power that lies in Rageblade is the 3000g price. Compare that to the ADs that rush IE or Essence Reaver, they need 600g more than we do to hit their 1 item power spike. This means that in an even lane, we will always hit our powerspike first. You may think stacking Rageblade can be difficult, however it's a lot easier than you think. While it doesn't provide the same waveclear that pre-nerf Shiv gave us, I feel like Rageblade clears waves faster than the new Shiv. Not having bonus minion damage really hurts and even has me questioning just how viable it is as a whole, not just on Vayne. You become an enormous threat with this item at full stacks because your trading is absolutely foolproof. Every time your enemy AD goes to CS, pop 'em with two autos to proc W, then just tumble out. Look like they'll retaliate/made a bad trade? Just condemn them away after one auto, now your self-peel comes with a W proc. Actually landing a stun on condemn is unbelievably deadly too. Auto/condemn into a wall, %true damage+stun. Pop your ult and auto them to death before they can even pop flash. If you have the micro to manage waves and your stacks, you can make some deadly trades in lane and absolutely snowball. Once you get Rageblade, the enemy team is now on a timer, because you will scale like a monster with every single item you purchase from that point on.\n We build Rageblade, then Zerkers and then IE. I am proposing RB>IE as the new 2 item powerspike. \n Alacrity gives 18% AS, Inspiration tree gives another 18% AS, Zerkers gives 35% AS, and Rageblade gives a static 25% AS and up to 73% AS with full stacks. With those runes, boots, and RB, we have a static 96% AS with up to 144% AS at full stacks. Building Shiv first only gives us a static 106% AS, but that requires we rush Shiv and leaves us with no damage.\n So if the numbers look so wonderful right now, why is it no one is doing well with rushing Rageblade? Because they rush Bork or a zeal item second. Bork is alright because it gives us the passive, active, and life steal.. but consider the new scaling aspect of Rageblade. Which of the following 3 items does Rageblade scale with the best? Bork, Zeal item, or IE? Remember, at full stacks we get 48% extra AS and 24% extra AD, so lets take the new scaling mechanic of Rageblade into consideration with the 3 aforementioned items. Remember, these figures assume full stacks.\n Bork. \n 40AD, becomes 50AD with Rageblade. 25%AS, becomes 73% AS with Rageblade Life steal\n We get a slight increase in AD from Rageblade, but a huge AS% increase. This may sound ok on paper, but consider that with the runes listed above, Rageblade, and Zerkers you have all the AS% you need as those 2 items (combined with these runes) give you all the AS you need to scale into the mid/late game with. Any AS after that is a waste of stats, when you have 1.5 attack speed at 10-15 minutes that becomes 1.8-1.9 attack speed as you level up, do you really need more attack speed? Even if you can actually take advantage of the 2.0+ attack speed, will your fast autos have much power to them? Both the numbers, and experimenting with the build shows that Bork as a second item hurts more than it helps.\n Zeal item (since most of us rush Shiv, I will be assuming Shiv for these numbers)\n 35% AS, becomes 83% AS with Rageblade. 30% crit 5% movement speed \n As you can see by the numbers, rushing a Zeal item after Rageblade is even worse than rushing Bork after. At least rushing Bork 2nd gives us some AD, but all shiv/zeal does for us after Rageblade is gives us attack speed that we really don't need, crit, and extra movement speed. The only reason we really build Shiv/Zeal is so we can stack crit, which IE and ER happen to provide us with. Now, onto Infinity Edge.\n Infinity Edge\n 70AD, becomes 87AD with Rageblade 20% crit+50% increased crit damage.\n This is what makes Rageblade so broken. 70AD from IE + 25AD from Rageblade + 8 AD from Doran's Blade = 103AD. 103AD x 24%AD (or 25 bonus AD) = 128AD with 20% crit. There isn't any other combination of two items that will not only provide you with this much AD at just two items, but also provides extra on-hit damage, procs W every two hits, AND gives you all the AS% you need for the entire game. \n Rageblade+IE is stupid because not only does it provide you with all of those stats, the on-hit, and extra W procs, but it is capable of taking down pretty much anyone. Extra W procs + on hit helps for tanks, and the crit+raw AD helps you handle squishies.\n From this point on, you start snowballing hard and become absolutely broken. Why? Well, at just two items we already have all of the AS% we need. So that means, unless we need to build a defensive item next, we are free to stack AD to our hearts content to take advantage of the 24% AD bonus. \n So, IE is the 2nd item we should be building. Rushing Cloak is best because Rageblade provides us with a decent amount of AD already, it's better to have the 20% crit chance at this point than it is to have the extra 40AD from BF Sword. Once we get Cloak, finish IE and move on to your 3rd item.\n 3rd item is always going to be a game dependent choice between Mercurial and Bloodthirster. Vamp Scepter should be build first, for the same reason we build Cloak first earlier. The extra 10% Life Steal is going to be a lot more useful at this point in the game than the extra 40AD from BF Sword (BT) or the extra 25AD from Pickaxe (Mercurial). The only exception to this would be if they have so much CC that rushing QSS becomes mandatory. As you can see, this is where things start becoming game dependent. Sometimes BT will be better than Mercurial because they have no hard CC and you don't need QSS. Sometimes, you need to rush QSS before you can even finish IE. And, sometimes in heavy poke lanes/hard matchups, we sometimes have to rush Vamp Scepter as a first item so we can farm all lane without being bullied out and losing CS.\n 4th item is going to be your defensive item, if you actually need it. Sometimes you have to rush Maw, or GA, both of which provide us with AD that Rageblade can scale with. If QSS/Schimitar has proved to be all you need, you can move on to any other item that provides AD. My personal preference for a last item?\n Last item, Essence Reaver. Sounds troll, right? Remember the stacking/scaling mechanic from Rageblade and you'll see why ER works. ER gives us an extra 70AD, which becomes even more than that when combined with the 24% AD from Rageblade. Not only that, but it bumps our crit chance up to 40%. Not quite the 50-80% we're used to, but it's a hell of a lot better than nothing. I mainly only built this because it builds out of BF Sword and provides a lot of raw AD. It just so happens to be an added benefit that this item will bump you up to a 30% CDR, allowing us to Q every 1.4s, condemn every 8.4s, and ult every 49s! (Assuming max rank for all spells).\n So, here's what full build looks like.\n Rageblade>Zerkers>IE>BT/Schimitar>defensive item (if needed)/ER>ER(if you didn't get 5th)/2nd IE (for raw AD).\n The end result? 1.8-1.9 AS, 500+AD, 30% CDR, 40% crit chance (on 500+AD instead of 250AD), 10-20% lifesteal, an the extra W procs. You become a force to be reckoned with at just 2 items, and it only gets worse as you get more gold, to the point of becoming absurdly broken late game. Worse than normal in fact. Why? Those of you that have been playing Vayne since season 3 as long as I have, has there ever been a viable build that allows you to hit over 500AD? Even before the nerfs to her R? Imagine the damage just your auto attacks alone will put out with that much raw AD. Not to mention when you crit. Combine this with life steal, 30%CDR, and the extra W procs and it legit just is not fair. \n Let me know what your thoughts are on this. It's quite obvious that Riot wasn't thinking when they made the changes to this item. Vayne is a hell of a lot more than just \"viable\" with this build.",
+   "id": "87ni7i",
+   "comments": [],
+   "age_days": 3117,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  }
+ ]
+}

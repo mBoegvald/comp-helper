@@ -1,0 +1,932 @@
+{
+ "champion": "Samira",
+ "subreddit": "samiramains",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "When to pick samira?",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/1v7x0u1/when_to_pick_samira/",
+   "published": "2026-07-27",
+   "author": "/u/iwakuuu",
+   "body": "I was otping her until I realized that shes NOT a good adc, I also play kaisa and sivir which are better at most matchups, now im thinking when to pick samira because I really like her and still want to play a lot of samira lanes.",
+   "id": "1v7x0u1",
+   "comments": [],
+   "age_days": 74,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Beginner samira tips",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/1uj3k2c/beginner_samira_tips/",
+   "published": "2026-06-29",
+   "author": "/u/TheFuckingFlower",
+   "body": "Newbie here, finding her incredibly fun and looking for some advice on how to play her better or if there is any spreadsheet regarding her matchups and support synergy? Help would be much appreciated.",
+   "id": "1uj3k2c",
+   "comments": [],
+   "age_days": 102,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Samira build question",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/1u6i7hb/samira_build_question/",
+   "published": "2026-06-15",
+   "author": "/u/LULWWW",
+   "body": "Im new to Samira and she is really fun and the climb feels very good tho i got a few question regarding build.\n When do I buy IE first and when do I buy Collecter first? Until now ive always bought collecter first but ive seen a few ppl who buy IE first. Why is that and when should I do it? \n\n Is there ever a World where I buy smt else then Collecter/IE (IE/collecter)? Some ppl buy Hubris, is it worth and if so in which scenario do i buy it?\n\n Ive seen a lot of talk about Jack of All trades and Dorans Helm start. Is it any good and smt I should always do or only in certain matchups? \n\n Would appricate any help.\n (For context in case it helps im currently p2 with a good indication towards emerald.)",
+   "id": "1u6i7hb",
+   "comments": [],
+   "age_days": 116,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Samira Mid Build (New Tech)",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/1tk0val/samira_mid_build_new_tech/",
+   "published": "2026-05-21",
+   "author": "/u/MadmansEpiphany",
+   "body": "Intro As a Samira enjoyer but hater of the ADC role, I've been OTPing Samira mid (with top secondary) for a couple of years now. Up until this split, Samira mid was playable (a lot more so than typical sheep players would think), but had no particular benefit compared to botlane. You could make it work, but it was a labor of love, and you were basically nerfing yourself compared to playing bot.\n This split, however, there is genuinely an advantage to playing Samira mid that you cannot physically get in botlane. That advantage is the Gluttonous Greaves upgrade, Immortal Path. I assume the upgraded boots have been discussed here before, but probably been widely considered cope (by neuronally deficient peers), so I want to share my experience and how I've been taking advantage of them. Btw, yes, I know you're still making your team have no mage in mid, maybe double adc, etc, etc by playing Samira mid; I'm not here to discuss that or get lectured about how \"Samira's passive needs a stun to be used\" (you actually need to take an exam if you unironically write that). Just here to share the build for those interested in learning about a different approach to the champ we all love.\n Build Runes for Samira mid are pretty stock standard:\n Conqueror, Triumph, Legend: Bloodline, and Last Stand. You can play around with secondaries, but I usually just default to Sudden Impact + Treasure Hunter.\n The item build is where I diverge the most from the general consensus. My build is:\n Start: Doran's Blade (always; the 2.5% omnivamp scales very nicely)\n 1st: Immortal Shieldbow\n Boots: Gluttonous Greaves\n 2nd: Infinity Edge\n 3rd: Lord Dominik's Regards (or rarely Mortal Reminder)\n 4th+: Situational. Kaenic Rookern against heavy AP (or high AP threat), QSS against high CC, Randuin's Omen against heavy AD (2+ crit users), Jak'Sho, Blood Thirster. Pretty much up to you.\n Reasoning \"Why not Collector?\"\n First of all, I generally don't like Collector, especially in mid. Even before this split I honestly prefered Stormrazor or Blood Thirster in mid. My philosophy is thus: Yes you can get ahead and snowball, etc, but there's more variety of matchups in mid and your role in midgame is different (you have to solo sidelane a lot more). You don't *have* to snowball lane to win. You scale really well. No point coinflipping with meh items (plus the reasons below).\n \"But why Shieldbow?\"\n There's approximately three reasons to go Shieldbow first. Firstly, it has a pretty good build path, so you can remain strong while building it and always keep your solo kill and skirmish threat (which, even without Collector, you have a lot of). Secondly, it synergizes extremely well with Last Stand and the new boots; I'll explain more in the next section. Thirdly, you are trying to scale as quickly as possible (which you do by finishing crit items) and Shieldbow is tied cheapest. Also, because I typically only build 3 crit items for 75%, I'm trying to make sure I have the best possible set of three, and Shieldbow makes the cut over Collector or Stormrazor every time.\n \"What's the synergy? Why are the boots good?\"\n First off, the 4% scalling to 10% omnivamp is extremely nice, and combined with Legend: Bloodline, Doran's Blade, and the boots' passive gives you very strong healing without even having to buy BT. But you already know that; after all, botlane Samira likes them too. The upgraded boots' passive is what we're *really* here for, though. Above 50% HP, you deal 5% increased damage. That's comparable to Cut Down, Coup de Grace, and Last Stand. With the first two, you have the potential to stack the bonuses, which could be worth exploring, but with Last Stand you ensure that 100% of the time, for the whole game, your damage is multiplied by at least 5%. For 1000g. In practice, I find the bonus damage over the course of a game tends to be in the same realm as Last Stand's (which actually offers higher damage than you're used to with this build, as you'll see soon). But wait, there's more! When you're below 50% HP, you gain 15% increased Healing and Shielding. I wonder what consistently provides us with a Shield when we're at low HP... Wait... does that let us stay alive longer at low HP keeping Last Stand's damage multiplier active without us dying, letting us do more damage, lifesteal more, and amplify our healing by 15% to stay alive even better? Couldn't be.... And all that's online after 1 item plus boots?? Surely Collector's still better, right? (lmfao)\n Again, the bonus to healing over the course of a game depends on how fights play out, but I've found it to almost always be higher than the total shielding of Shieldbow over a game, sometimes multiplicatively higher (so the boots alone give you more survivability than Shieldbow!).\n \"Why 75% crit?\"\n I'm not married to the idea of 75% crit to be honest, but I find that in the vast majority of situations you are much better off buying a situational defensive item afterwards, or even BT for insane healing, than you are trying to force one of the remaining low-value crit items (I haven't tested Hexoptics though, that one might be the exception here). I already top the damage charts almost every game, and I don't feel a lack of damage (except maybe against extremely tanky teams). Survivability is so much more important when you don't have a support following you around and you actively want to take 1v1s and 1v2s in the side lane.\n Final Thoughts By starting your build off with Shieldbow + Gluttonous Greaves and then building the highest damage crit items, you get damage that's likely higher than the standard botlane build *and* you heal much better at low HP, letting you keep pumping out damage (and potentially turn fights around).\n I didn't play Samira back when the Shieldbow mythic was a thing, but based on what I've seen from that era, this build is the closest you will ever get to that experience again in modern league. And on top of that, it's not just a novelty \"for-fun\" thing, but something I genuinely think is one of (if not *the*) most optimal ways to play Samira in midlane.\n It's also a very different experience to Samira botlane, so any mains feeling burnt out on that might have something to gain from trying it out. Be warned, however, Samira in mid is quite different to Samira in bot. Matchup knowledge is really important, and so is macro (knowing when you can sidelane, what 1v1s you can win, when you should group, etc), so I don't recommend trying it in ranked before you've had some practice.",
+   "id": "1tk0val",
+   "comments": [],
+   "age_days": 141,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Sup player looking for advice on how to play with Samira",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/1stt9et/sup_player_looking_for_advice_on_how_to_play_with/",
+   "published": "2026-04-23",
+   "author": "/u/Key-Cat433",
+   "body": "Hi, i mainly play tahm, alistar and rell.\n I have a friend who plays Samira, and I'd like to play better with him.\n Pls give me some advice !\n For example :\n - what should I focus on during lane/ teamfights \n - timings for roaming, for engaging the ennemi laner\n - matchups knowledge, who should I ban ? \n - champion pool \n - anyhting that comes to your mind !\n Also if there is some kind of guide made by the community, i would highly appreciate it !\n Thanks and sorry for any mistake I could have made, english is not my first language.",
+   "id": "1stt9et",
+   "comments": [],
+   "age_days": 169,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "New to Samira, which build do you go in what matchup ?",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/1sa09an/new_to_samira_which_build_do_you_go_in_what/",
+   "published": "2026-04-01",
+   "author": "/u/Next-You4966",
+   "body": "I'm new to Samira and want to otp her for a time but i dont really know how to build her, i build her always the same way : collector > IE > LDR or shieldbow or bloodthirster > situationals items (QSS and stuff like that) but i don't really know when to build what and against who, thx a lot in advance for those who will respond to my post",
+   "id": "1sa09an",
+   "comments": [],
+   "age_days": 191,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is Samira only niche?",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/1rukh6e/is_samira_only_niche/",
+   "published": "2026-03-15",
+   "author": "/u/fairydommother",
+   "body": "I asked the adc sub about csing with more melee champs because I really love Samira and Nilah. I have been informed that these are niche picks that should never be my go to/default.\n But i am having SO MUCH FUN with Samira! I love her playstyle and despite her lack of range she feels really good to play and her ult is so easy to combo into.\n Im only in Bronze. I know that to some extent you can climb with any champion, at least up to a certain point because champion mastery and skill level matter more than matchups at low elo. But csing as a melee champ is difficult.\n So, I guess my question here is, for the Samira mains, do you always pick her? Is she your default? Did you start with her in low elo and then relegate her to niche situations? Or did you pick her up later? Is it possible to main her and climb without one tricking? Or should I only be considering her for extremely specific matchups?\n Im just feeling discouraged. I feel like all the champions I like are either super hard to use, really bad, or extremely niche. Every time I find one I'm excited about I get tons of naysayers telling me I shouldn't play them when I ask for tips or something. And not just ADC, every role. Its making it hard to find where I fit in and what role I want to main and what my champion pool should be. \n Any words of wisdom?",
+   "id": "1rukh6e",
+   "comments": [],
+   "age_days": 208,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "E start vs Q start",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/1rkn2wi/e_start_vs_q_start/",
+   "published": "2026-03-04",
+   "author": "/u/Equal_Education3084",
+   "body": "So im new to Samira and i have seen some people say starting e is better than starting q. Is this true at all or is just viable in a few matchups?",
+   "id": "1rkn2wi",
+   "comments": [],
+   "age_days": 219,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "E max before Q max",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/1qkz07j/e_max_before_q_max/",
+   "published": "2026-01-23",
+   "author": "/u/Hour-Ad-3392",
+   "body": "Before you down vote, let me state what I exactly mean with that title.\n Q scaling got changed in the beginning of the season:\n Base dmg reduced by 5 at all ranks\n Ad ratio changed to 110% at all ranks from 95/102.5/110/117.5/125%\n So although it has 5 damage less at all ranks, you will have a bit more % ad scaling early on (which isn‘t crazy since you don‘t have that much ad early on anyway).\n So putting a point into Q gives 5 more dmg, 7,5% more ad scaling and 1 sec less cooldown.\n On the other hand, putting a point into E gives 10 more dmg, 5% more attack speed and 2 second less cooldown.\n Obviously the 2 second less is wasted a lot of times when you get a reset but the extra damage + attack speed seems really good.\n It‘s important to mention that with tripple tonic you have your 2nd ability maxxed a lot sooner than without it. So having both E and Q maxxed won‘t take too lang. You could also maybe just go E max till lvl 6 and after lvl 6 you max Q.\n I know you use Q a lot more than E but in some matchups where you mostly all-in the E max could be better than Q. Nilah also does this so she has more all in damage.\n What‘s your opinion on this? Do you think in some scenarios (with tripple tonic, against squishies with good engage + when snowballing) it would be better to max E than Q?",
+   "id": "1qkz07j",
+   "comments": [],
+   "age_days": 259,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Some Itemization Notes For The Community",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/1qb8q3r/some_itemization_notes_for_the_community/",
+   "published": "2026-01-12",
+   "author": "/u/Urasonlol",
+   "body": "Hi everyone! While I'm usually the one that posts the in-depth itemization guides, I haven't had enough time nor experience yet to actually give a confident response as to what we should build (standard Samira seems totally fine though!)\n That being said, I want to give some advice to those of you that are tinkering around with builds as well as a few things I've noticed or really enjoy right now just to help you guide yourselves in the right direction! At least, until I can update things in a solid way for everyone!\n Key Itemization Notes Data shows that ADCs are hitting their item spikes 1-2 minutes faster (this is increased further in later item slots). This means playing for a consistent 3-item curve is incredibly strong and STABLE. \n While I can appreciate damage calculations, I see a lot of people forget that components are incredibly important to consider. More damage on an item doesn't always mean better! If its build path hurts you the entire time you're building it, it is time wasted that you're not at peak strength. This is ESSENTIAL on a champion like Samira who wants to brawl and be as strong as possible at all times.\n ADCs are getting more money faster (similar to point 1) so PLEASE farm! Farm is easier to get than ever and it is worth more than ever. Get your CS, grab your items, and fight. \n Bot lane quest is huge! Please do not run around the map early wasting time. I am a huge fan of roaming on good timers as ADC but right now, its just hard to do so. You get points for staying in your lane and farming up.\n My Current Build Notes Inspiration is my favorite Cash Back - In terms of value, boots gave more because games were hard to reach more than 3+ items. Now that you constantly reach 3 items anyways, this is really nice value.\n Triple Tonic - This is my personal favorite but its not for everyone. You get free gold at lvl 3, a pretty big power spike at 6 that can turn a fight if used properly, and a free skill level at 9 which honestly doesn't matter too much but isn't wasted\n Cosmic Insight - If you don't trust your ability to use your lvl 6 elixir properly, cosmic insight is literally always good!\n \n Items to watch out for Endless Hunger - This item as a really solid build path and is actually pretty good. I personally slot it first in games with heavy CC (note that your damage is hit by a bit but survivability is MASSIVELY increased). You can also slot this in after you get at least 75% crit\n LDR - Giant Slayer is back! I don't know that I ever think there is a game to not build LDR as Samira. Should always be IE -> LDR but if facing like 3 tanks then sure, LDR -> IE.\n BT - Nothing much has changed with this item BUT, I do enjoy building it first vs tankier teams and honestly in general over collector if its not a thanos Samira angle. It takes some getting used to and I tend to only do this if I recall with 1300 gold for the BF sword. In this scenario I do BT -> IE -> LDR\n GA - With our extra item slot, its tempting to go GA but I will forever be a GA hater. You're just going to dive in deep, die, then die again. Please just get a tank item. Also, 75% crit is the minimum, you don't always need 100% if it means the trade off is living more often\n Umbral - I think this has potential as a first item but games are so stable right now that 1-item spikes don't really matter as much so this doesn't really fit. Spiking fast and hard early doesn't seem to do much tbh, so.... Meh.\n \n Other Rune Stuff Domination sucks still. Please don't. Thanks.\n Axiom Arcanist may have potential with Gathering Storm specifically with lifesteal centered builds but that's really the only place I can see it happening. That being said, Gathering Storm in general isn't that bad.\n Resolve is pretty fake as a tree for us right now.\n Tenacity shard has potential but needs more testing because of the HP loss you take. I can see this being decent vs CC heavy teams especially if you pair with mercs or Endless Hunger\n Scaling HP Shard is great. Unless you're playing a very close matchup early, scaling HP will break even at ~lvl 6 and games are pretty slow and steady so... Grab that scaling shard!\n \n Other Random Notes Stop selling your D-Blade early! PLEASE ITS JUST FREE STATS DON'T SELL IT\n Boots are still versatile but no one takes advantage of it. Swiftees are good if you can't get in range or need more mobility. Armor boots are obv great standard. Mercs are good for CC.\n Spam hitting towers isn't as useful anymore. Just hit it once every few waves and walk away! Plates do not fall off and the time you don't attack will stack up the \"demolish\" hit! This means you can play safer early on to hit your spikes to avoid jungle ganks. \n Baron baron baron baron. Last season brainwashed everyone into forgetting how valuable baron is at closing out games. The game is still objective centric even with Atakan gone. Play around your objectives and secure baron to close out games easily! It spawns earlier again!\n \n Closing Thoughts Games feel pretty decent as ADC which is odd to say because I unironically feel like I have less agency than before. That being said, I've enjoyed the season so far aside from the mage item abusers (looking at you AP rageblade) and facing Sivir who just AFK shoves 4fun and hits 5 items 4fun. Obviously I am always open to discussions and talks. I will try to work on the Mobafire guide again this season I'm sorry I've been on a bit of a hiatus with school. Samira bible info is still valuable even if the builds aren't updated! The notes I do have filled out still apply! \n I hope you're all having a great season so far and that you are working towards your dream rank. Have a great day :)",
+   "id": "1qb8q3r",
+   "comments": [],
+   "age_days": 270,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Which support is better for you?",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/1q9gix1/which_support_is_better_for_you/",
+   "published": "2026-01-10",
+   "author": "/u/AngelSwamp-",
+   "body": "Hey Samira mains,\n I have a friend who’s been maining Samira lately, and honestly idk what’s going on, but I feel kinda off when I play with him.\n I know enchanters like Nami aren’t really great with her, so I’ve tried Nautilus, Maokai, Leona and Rell, but nothing seems to work the way I expect. A lot of the time either he dies, I die, or both of us do, which obviously isn’t the idea.\n So I’d like to know which supports work best with Samira, what I should be picking in the right situations, and what to do when we’re against a counter matchup. Itemization recommendations for him are also welcome.\n Any advice is appreciated. Thanks in advance!\n (Is Bronze-Silver, LAN)\n https://preview.redd.it/k8w7mfmtalcg1.png?width=1600&format=png&auto=webp&s=43e813bb5e5a3d7420e3cd1b2a86096af071fa85\n https://preview.redd.it/d5daosiqclcg1.png?width=1600&format=png&auto=webp&s=d14f8e999d58ca4931efbfec1cf922dbdd04c38b",
+   "id": "1q9gix1",
+   "comments": [],
+   "age_days": 272,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to play with a Samira?",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/1p8qez6/how_to_play_with_a_samira/",
+   "published": "2025-11-28",
+   "author": "/u/FalconManPuncher",
+   "body": "Hi, Diamond Taric main here. I am struggling to understand when Samira is strong enough to go in and when she is weak. On the surface, Samira seems like a strong early game champion, but sometimes I feel that she just doesn't do enough damage to warrant committing heavy summs level 2-3 (my usual game plan with most aggro adcs). \n I'm not sure if I have the wrong idea of how Samira works (I usually duo with Kalista, Kindred, and Draven mains usually, so I might just have a poor skew of early game damage).\n Taric and Samira's stats are pretty good together, so I'm thinking it has to just be me and having a poor idea on how to play with a Samira.\n Another strategy I had was to play passive and scale till 2 items and have ultimate on hand, but it seems that strategy is often bad due to Samira having poor range to play safe.\n Due to Taric's low initiation range, I'm having trouble making impact on the champ compared to champs like Nautilus/Leona/Rell (which I also play but not to the best degree compared to Taric).\n Some suggestions on how to lane with a Samira and some matchup examples would be helpful. Thanks!",
+   "id": "1p8qez6",
+   "comments": [],
+   "age_days": 315,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Samira matchup tierlist (Marksmen edition)",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/1o0d1hc/samira_matchup_tierlist_marksmen_edition/",
+   "published": "2025-10-07",
+   "author": "/u/V1gorous1",
+   "body": "",
+   "id": "1o0d1hc",
+   "comments": [],
+   "age_days": 367,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Who do you ban as Samira and why?",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/1mjp6lj/who_do_you_ban_as_samira_and_why/",
+   "published": "2025-08-07",
+   "author": "/u/Auturgist",
+   "body": "I'm new to the champ (just started playing her as a change of pace from jungle main) and wondering who her worst matchups are... so, who do you ban and why?",
+   "id": "1mjp6lj",
+   "comments": [],
+   "age_days": 428,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Samira is now S+ tier on Emerald+",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/1laytk5/samira_is_now_s_tier_on_emerald/",
+   "published": "2025-06-14",
+   "author": "/u/Problem-Proud",
+   "body": "",
+   "id": "1laytk5",
+   "comments": [],
+   "age_days": 482,
+   "recency_weight": 0.7,
+   "topics": [],
+   "stale_items": false
+  },
+  {
+   "title": "Samira Early Build Damage Theorycrafting",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/1jjh6jk/samira_early_build_damage_theorycrafting/",
+   "published": "2025-03-25",
+   "author": "/u/silver1475",
+   "body": "I have been doing some test on how to approach the early levels, as data i gathered, this is what i found\n Lvl 7 Fast combo (1 Ranged and 1 Melee Attack) against a Target Dummy with 1500 HP and 50 armor\n [1] Collector (3000G) 55 AD, 25% Crit and 10 Lethality = 1100 to 1200dmg dealt\n [2] Dirk + NoonQuiver + Pickaxe (3275G) 60 AD, 20 Crit% and 10 Lethality = 1100 to 1200dmg dealt\n [3] Dirk + Shieldbow (4100G) 75 AD, 25 Crit% and 10 Lethality = 1300 to 1400dmg dealt\n [4] Dirk + B.F Sword + Pickaxe (3275G) 85 AD and 10 Lethality = 1295dmg dealt\n [5] Dirk + Infinite Edge (4550G) 85 AD, 25% Crit, 40% Crit+ = 1500 to 1700dmg dealt\n [6] Youmuu (2800G) 55 AD, 18 Lethality, 4% MS = 1137dmg dealt\n [7] Hubris without Passive (3000G) 60 AD, 18 Lethality, 10 AH = 1175dmg dealt\n [8] Youmuu + Dirk (3900G) 75 AD, 28 Lethality, 4% MS = 1384dmg dealt\n [9] Hubris w/o + Dirk (4100G) 80 AD, 28 Lethality, 10 AH = 1475dmg dealt\n [10] Dirk + Brutalizer (2437G) 45 AD, 23 Lethality, 10 AH= 1041dmg dealt\n [11] Collector + Brutalizer (4337G) 75 AD, 25% Crit, 15 Lethality, 10 AH = 1340 to 1400dmg dealt\n [12] Profane Hydra (Active) + Dirk (4300G) 80 AD, 28 Lethality, 10 AH = 1532dmg dealt\n Gold efficiency value per 1 damage:\n [1] 0.383g (1150dmg) I\n [2] 0.351g (1150dmg) C\n [3] 0.329g (1350dmg) I\n [4] 0.395g (1290dmg) C\n [5] 0.351g (1600dmg) C\n [6] 0.406g (1137dmg) I\n [7] 0.395g (1175dmg) I\n [8] 0.354g (1384dmg) I\n [9] 0.359g (1475dmg) I\n [10] 0.427g (1041dmg) C\n [11] 0.315g (1370dmg) I\n [12] 0.356g (1532dmg) I\n Component winner:\n [10] then [4]\n Item winner:\n [6] then [7] (both lethality)\n On 100% crit build only, [1] was the winner then [5] \n Pros and Cons: \n Lethality build are purely early or squishy damage, with later falling off \n Crit builds have a decent start,bgoing rampant as game goes on \n Going Dirk + Noonquiver can let you go for a 75% Crit build, since Collector is a bad crit item in lategame, without wasting gold your options are mostly Edge of Night, Youmuu's or Serpent fangs, or selling it for Mercurial Scimitar, Shojin, Guardian Angel or Death Dance\n Going hard Lethality lets you go for 25 AH, making her Q at Lvl 9 & 10 better than her autos, on par at 11, and barely worse upwards (Works as duplicating her DPS against single targets or more on melee Q), also, being possible to use EQ faster, making the fast combo optimal on use \n Shieldbow sacrifices 27% damage for survivability, the shield being worth at most 1148G\n Going past 25 AH is not worth\n Opinions:\n Go Dirk + Shieldbow or IE as the matchup requires, both are equally worth \n Go Collector when not having another carry on your team (no APC, or strong bruiser) to stack gold \n Can go Youmuu/Hubris when most squishy only \n Go Dirk + Brutalizer if you can snowball and win 100% with a lead, can opt for Profane Hydra>Hubris for max snowball, Profane Hydra>Collector for going crit earlier, or Youmuu>Collector and keep brutalizer till sold for the bit of CDR and damage \n Would like to hear what you all think!",
+   "id": "1jjh6jk",
+   "comments": [],
+   "age_days": 563,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "samira is weak (only if you want her to be weak)",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/1jdsltl/samira_is_weak_only_if_you_want_her_to_be_weak/",
+   "published": "2025-03-18",
+   "author": "/u/MitchHEHEXD",
+   "body": "https://imgur.com/a/Msv6Xeb - Pictures\n Hello everyone, long time no see\n I have been playing a \"new\" rune page and to my surprise its working like a charm.\n You know how you sit there sometimes and try to cook something new with samira and it just doesnt seem to hit? Many times i've ran into that problem but with this one i have been having a blast.\n Im currently sitting at Masters 163LP only locking in samira into every matchup and draft.\n The reason for this rune page is simple, HP. It makes me survive so many more scenarios and i dont get oneshot as much. Know that feeling when you are ahead but a random bruiser comes your way and just deletes you? Doesnt happen as much to me anymore. I take LEGEND: ALACRITY for the missing 10% ats rune. The build doesnt change really unless riot decides to change items (clueless).\n If you have any questions feel free to ask me down below i will try to answer all of them or come to my stream @ www.twitch.tv/myytch im live almost everyday.\n My brothers and sisters we all love samira for a reason let riot not hold you back and climb higher everday~\n Love you all",
+   "id": "1jdsltl",
+   "comments": [],
+   "age_days": 570,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I Wish Samira got the Katarina treatment",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/1jdi1lq/i_wish_samira_got_the_katarina_treatment/",
+   "published": "2025-03-17",
+   "author": "/u/Scruffy_Cat",
+   "body": "It just feels like Samira doesn't get to interact with a lot of the marksmen item system because she doesn't care about attack speed or on-hits, she wants AD, crit, and lifesteal and nothing else. She has zero build flexibility, and her inability to play into bad matchups is one of her biggest issues, imo. \n Imagine if Samira could rush Triforce or build Blade of the Ruined King. Sheen effects could be special-coded to apply to everybody hit by her Q slash like Gangplank's barrels. She'd have so many more cool items to choose from if she was leaned a bit away from full crit, and she'd have a much better time against bad matchups with more build flexibility. \n I don't think Samira should be building full attack speed or on-hits like a Kog'Maw, but letting her to be a \"weirdo\" like Ezreal or Zeri who is allowed to build a little bit tanky with stuff like Triforce and Spear of Shojin would be a healthier spot for her.",
+   "id": "1jdi1lq",
+   "comments": [],
+   "age_days": 571,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "The buff worked boys we are back🔥",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/1iizgrw/the_buff_worked_boys_we_are_back/",
+   "published": "2025-02-06",
+   "author": "/u/TooYoungToGiveUp173",
+   "body": "",
+   "id": "1iizgrw",
+   "comments": [],
+   "age_days": 610,
+   "recency_weight": 0.7,
+   "topics": [],
+   "stale_items": false
+  },
+  {
+   "title": "Im a hardstuck bronze samira main with positive winrate",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/1hqgeq0/im_a_hardstuck_bronze_samira_main_with_positive/",
+   "published": "2024-12-31",
+   "author": "/u/Stenkungen",
+   "body": "I almost always lose because my support doesnt know how to play alongside me. I like to dive at lvl 2. I can go 21/4 and get pentas, and my team will lose, as they dont realize they will not win unless im in the tf. I always go barrier, and build collector, boots, then IE and then mortal reminder or maw, depending on the matchup. Does anyone have any tips on how I can improve? I have 260k mastery but am at lvl 13 because I never get S. Match in the picture was an A+",
+   "id": "1hqgeq0",
+   "comments": [],
+   "age_days": 647,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Goodbye Midmira, Samidra arise! | Actually viable Samira mid build - special thanks to Urason",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/1bly01b/goodbye_midmira_samidra_arise_actually_viable/",
+   "published": "2024-03-23",
+   "author": "/u/VerdoneMangiasassi",
+   "body": "So, lately due to the grubs meta and the ridicolosly eloinflated support role, i've grown tired of playing bot. This patch u/Urasonlol came up with a very interesting strategy for samira based on gold efficiency, and that inspired me to try it in the midlane. Basically, the core strat of the build is saving up as much money as possible to get to IE + LDR spike ASAP and have an insane burst of power from midgame on.\n This changed fundamentally the paradigm of playing samira, no longer relying that much on snowballing early to be relevant in the midgame, which made her a lot more viable in the midlane than in botlane, and i'll proceed to tell you why. If you're looking for a more in-depth look at the build, check out the original Urason post https://www.reddit.com/r/SamiraMains/comments/1bjqk0h/statikk_believers_unite/ . I have expanded it by adding boots and defensive options.\n To put it shortly, Statikks is 400g cheaper than collector, boots are 300 free gold, skipping t2 boots is another 800g and future's market allows you to buy for around 250 gold earlier, for a grand total of an IE powerspike that comes 1750 gold earlier. Given a minionwave is 150 gold every 30 seconds, you get to IE 6 minutes earlier than before (i know there are cannon waves too, but let's be realistic, nobody gets all the cs in the wave anyways so it kinda balances out).\n The reason why this is so important is that Samira spikes in the midgame extremely hard compared to other adcarries, which she pays for not having the best lategame presence. What snowballing does is effectively allowing her to get to her powerspike faster than normal, which is exactly what this build does but without needing to get fed. This also means that if you get fed with it, you are a force out of control.\n Tldr: Samira mid game spike big. If mid spike come more early when enemies are more weak, spike more big. Samira stronk ooga booga.\n WHY SHOULD YOU LISTEN TO ME?\n Well, it's not like you have to, it's your choice. Although, i'm a multiseasonal diamond samira OTP, i've reached it both as support and as adc, i have over 500k on the champ shared between my accounts and i've been playing the game for 6 years now. The data i'm sharing was collected on my alt account in E4 elo, which doesn't make it all that reliable per se, but considering i have never touched midlane in my life, i don't know matchups, powerspikes nor cooldowns of my enemies, these results are quite impressive:\n ​\n https://preview.redd.it/eq3xkf6ge4qc1.png?width=327&format=png&auto=webp&s=8af2a292d7353a5a89ce0dbd565707059322ad4f\n ​\n https://preview.redd.it/mxuec5zge4qc1.png?width=371&format=png&auto=webp&s=219df3ff01a2cee8a8e9afd335bacebb1e680222\n WHY SAMIDRA?\n Since she gets the xp of a sololaner, she always has around 1200 gold of stats over botlane Samira through levels, she gets through her weak early levels much quicker and she gains extra quick access to lvl 5 q and lvl 2 ult. Also, due to the grubs meta, botlane Samira often spends a lot of time 1v1ing the enemy adc while the support roams; usually she gains the edge over her opponent by freezing the wave on him and forcing him to deal with her or lose xp, but Statikks doesn't allow her to do this anymore, which sucks. \n In the midlane instead, the ability to shove waves quickly empowers her main gameplan, which is to skirmish with the jungler as much as possible. Also she can make much more use of the neutral game power given by quiver and statikk because midlane champions typically don't have many cc to stop her from just keeping autoing them, sometimes not even the range like in melee champion's case.\n In the Botlane you're often stuck there praying that the topside fiesta is won, in the Midlane you partecipate to it an can greatly impact the outcome, securing yourself tons of kills and the grubs.\n ​\n These things combined make her spike in the midgame INSANELY stronger than bot samira, even if she doesn't have a lead.\n ​\n Here's the full list of the stats she gains with 2 more levels for the nerdiest ones among you:\n 216 hp | 576g\n 76 mana\n 1.10 hp5\n 1.4 mp5\n 9.4 armor | 188g\n 6.6 ad | 231g\n 2,6 mr | 36,4g\n 6,6 as | 165 g\n ​\n total gold (excluding mp5, hp5 and mana): 1192g\n ​\n WHY NOW? COULDN'T SAMIDRA WORK IN PREVIOUS PATCHES AS WELL?\n Midlane samira has always had 5 key flaws:\n 1 - poor neutral game\n 2 - poor waveclear\n 3 - bad 1v1 early\n 4 - no space to run down\n 5 - reliance on setup\n This build solves all of them thanks to statikk shiv. The item's attackspeed allows her to take short trades when she couldn't have before (generally Eing through a cs, dropping autos with atk speed steroid, Wing to get out) and it clears the wave faster without needing to walk up melee range. Also, thanks to the attackspeed she's able to play front to back in fights and skirmishes and still be relevant, which gives her flexibility.\n ​\n The problem of her weak earlygame is solved in two different ways:\n 1- Noonquiver makes it that much easier to contest and push the wave from range and not losing cs under turret\n 2- Statikks is so cheap that samira will always come back to lane with it completed before the enemy completes his item, giving her an extra edge to push for prio or take a very favourable trade\n The problem of her reliance on snowballing is solved by the build itself, so it doesn't really matter that you can't win the 1v1 anymore.\n ​\n SAMIDRA'S STRENGTHS\n Yes ok, Samira mid doesn't suck, but why the hell should i pick her over regular midlaners?\n 1- One of the strongest skirmishers in the midlane\n This strat in the early-mid game revolves around playing around your jungler. There is no mage who can match your 2v2 after your first back, and many assassins can't either, which is extremely valuable to fight over grubs and drakes, or even for scuttles. This doesn't require your jungler to play around you, simply if a fight is breaking out and you can go, you go. Your ultimate in the river is extremely strong and it wins most fights straight away.\n 2- Great teamfight presence\n Especially with this build that allows you to play less greedily about resources, you provide a lot of sheer teamfight power. Since you already have a dps, you can afford to play more aggressively and try out flanks, aggressive flashes and weird plays that as an adc you could not afford to do because of how reliant on you your team is to deal consistent damage. Often times I find myself straight flashing on the backline to oneshot them and burst everyone around, even if it means I die right after, just to let my team clean up and win the fight; you can see in some games I have a very high death count. Also thanks to statikks you can even decide to play front to back like a traditional ADC.\n 3- Self Sufficient\n She no longer relies on a random support to brawl and can be present for every single fight, increasing the chances of snowballing.\n She is a lot harder to gank than in botlane because of the map changes and how close the turret is: if you get ganked, just step forward and E back through the Jungler. Gg you're under turret, you don't need to coinflip on how many braincells your support has. \n 4- Unparalleld midgame power\n Seriously, it's ridicolous how strong she gets.\n ​\n 5- Harder to counter/troll\n Usually what happens for botlane Samira is that the support picks tank or disengage to not allow you to play around your spikes and slowly let you fall off, adcs take safe picks like smolder, Caitlyn, Vayne and ezreal to never give you an opening to 1v1 them, your jungler weaksides you because he has to play for grubs and herald, the midlaner doesnt want to swap because you're useless without a lead and suddenly you're out of the game.\n In the Midlane instead you can always make use of your powerspike and spread it anywhere on the map and you're more likely to see your jungler in your lane. This makes traditional counterpicks less impactful because you have the choice to simply play away from them for a good portion of the game, snowballing it to a point of no return. \n Oh, and you know that support that leaves bot forever to perma fight topside? That's your support now. \n LANING PLAYSTYLE\n The playstyle is foolproof: just do nothing. That's right, you don't win lane, just keep the wave neutral or pushed on your side, don't get ganked and don't trade unless forced to. All you're looking for is to soak up gold and xp without exposing yourself to risk until you get to your first back. Ideally keep the wave in the middle, so you can always rotate to a skirmish together with the other midlaner, and always hold a finger on your W to negate eventual ganks or attempts to all in from the enemies. Keep doing this until you come back with Statikk Shiv.\n POST STATIKK PLAYSTYLE\n Now life is much easier. Your trades hurt a lot more, your skirmishing power is good and your waveclear is great. At this stage there's still a chance of being pushed in, but if the enemy midlaner tries to push and roam, you just auto Q the wave - deleting it - and you follow. From now on all you're looking for is joining skirmishes and fights all around the map, keep an eye on the enemy jungler and on yours, also on both supports and objectives spawning. You don't give a fuck about the enemy laner, you're going to be stronger than him regardless of what he does as long as you can stay even in cs and kills or slightly behind. If your jungler ganks, you ball. Keep doing this until you get IE.\n POST IE PLAYSTYLE\n The world is your oyster. You have officially reached your spike and your damage is going to be NUTS, even on tanks. Keep the waves pushed and wander around the map causing chaos and disaster. It is very possible to 1v2 at this stage, and if youre fed even 1v3. From here on proceed to play like Samira normally does, except you're a lot stronger and you can even take sidelane against most opponents. \n ​\n HOW TO USE FUTURE'S MARKET\n This is your best friend and the main reason that allows you to always be stronger than your enemies at any stage of the game, even if youre not all that fed. Utilize this rune only to buy important powerspikes, like:\n - Quiver\n - A full item\n - Pickaxe\n - BF sword\n - T2 boots (if they actually have an impact, otherwise not worth it)\n - Crit cloak (only after IE is completed)\n ​\n ITEM BUILD\n There are three main starting options:\n Longsword + refillable: the most gold efficient start possible, therefore the weakest. Take it only into very easy lanes where not much is going to happen.\n Longsword + 3 pots: my most frequent start. It gives you good sustain to survive early against higher range characters, or to out sustain dorans ring users in general. Still very gold efficient.\n Dorans blade + potion: not ideal, but necessary against melee assassins to survive their burst. Useful if you expect to be ranked a lot as well. \n Your core items are statikk, IE and LDR, although if the enemies have no frontline i prefer closing out shieldbow third (if im fed) or bt (if i need an extra edge to get truly fed). If they have lots of lifesteal, consider mortal reminder instead of ldr.\n DEFENSIVE ITEMIZATION [UPDATED]\n We all know shieldbow is not all that defensive of an item, so here's a good list of defensives you can buy on Samira. My advice is to never build them until you have at least Statikk, IE and a cloak. You can indeed buy a component and sit on it, but don't finish the item before your 55% crit spike.\n Frozen Heart\n Very cheap, good amounts of armor, very useful in any situation really, especially if you go lifesteal third and not ldr. Samira can easily make use of the aoe. Pairs great with Steelcaps\n Randuin's\n Situational, only if they have 2+ crit users\n Abyssal Mask\n Yes I know, who even builds this item? Well, Samira! The cost is ridiculously low for the amount of stats it gives, and it gives extra mr for every enemy in a 550 range around her. It'ss not uncommon for sam to have 3+ people around her, and the stats can stack up to 110 mr, 300 hp and 10 AH into 5 enemies. With 3 around her it's still a solid 92 Mr, quite a deal! Not that great against long range poke tho. \n Kaenic Rookern\n More expensive alternative to Abyssal Mask, depending on what you need. It's great against AP assassins If they have too many opportunities to catch you isolated, great against Mr shred and poke as well. \n Jak'Sho\n Great as a build finisher If you haven't built other resistances yet.\n BOOTS OPTIONS [UPDATED]\n Steelcaps\n Classic, ya know the drill. Good into heavy ad and lots of autoattackers.\n Mercury\n Not great as an mr option, but better than nothing. Great against heavy cc comps, remember it doesn't work on knockups and the slow duration reduction is NOT slow power reduction. Against infinite slows (singed w, Anivia r, etc) it's worthless, against nasus W too most of the times. Useless against rylai users too as it's always reapplied every second by Landry's so you don't reduce the slow duration except for the last tick.\n Swiftness\n They're very cheap, and cheap is good. They're also great if they have a rylai user that can easily hit you (namely brand, cassio and zyra) or tons of powerful slows (udyr, nasus, janna,...)\n Ionians\n I haven't tried them out yet, but they're really cheap and they give you that fat flash cooldown reduction which sounds juicy af in the Midlane. I'm going to test them soon, try them out at your own peril.\n SUMMONER SPELLS [UPDATED]\n Cleanse: I've found it to be fairly useless in the Midlane except against specific matchups like lissandra, TF and vex. Most cc spells in mid are projectiles that you can block with W, also midlaners don't typically run exhaust and even if they did, Samidra doesn't play to kill in lane so it would still not matter much. It's better to buy qss if really needed and just sit on a different summoner\n Exhaust: the one I've found myself using the most. Great at both running enemies down and preventing burst from assassins and gankers.\n Barrier: Only when exhaust can't be used (generally long range poke mages)\n Ghost: great if the enemy teamcomp has a lot of frontliners and overall rundown champions (Gwen, yi, trynda, volibear, yasuo, Viego...), or a ton of disengage (janna, azir, etc). It allows you to play front to back and kite against rundown and to not be peeled off easily against disengage. Against Janna and slow-based kiters, pair it with Swifties for extra 'here's Johnny' energy. \n ​\n This is the guide! Let me know what you think, how it went for you or anything else really! I hope this helps the Samira mains community, i'm going to keep the post updated as i gain more experience on the lane and the pick!\n ​\n Special thanks again to daddy Urason for inspiring this strategy ❤️",
+   "id": "1bly01b",
+   "comments": [],
+   "age_days": 930,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Average Smolder matchup",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/1az8k49/average_smolder_matchup/",
+   "published": "2024-02-24",
+   "author": "/u/Waipon",
+   "body": "",
+   "id": "1az8k49",
+   "comments": [],
+   "age_days": 958,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Just hit Grandmaster playing Samira, AMA.",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/1ays15u/just_hit_grandmaster_playing_samira_ama/",
+   "published": "2024-02-24",
+   "author": "/u/skadabouYT",
+   "body": "Hi, I'm skadabou, I just hit GM playing Samira. I've been playing league since s3, but only started taking ranked seriously in s13.\n I make YT vids on Samira only, mostly highlights and funny edits for the moment. I will be making a guide soon, but in the meantime feel free to ask me anything.\n Why I play Samira: I used to play champs like Yasuo, Katarina, Yone, Akali, but when I tried Samira for the first time, I saw true 1v9 potential in the champ. I had so much fun so I decided to completely role swap to adc. IMO, she's like a Katarina on crack since there isn't such a thing as unplayable matchups. Ofc there are some harder matchups, but you can always win or at least go even.\n links:\n YT: https://www.youtube.com/@skadabou/videos\n op.gg : https://www.op.gg/summoners/na/skadabou-NA1\n https://preview.redd.it/6ilvxqym4ikc1.png?width=1271&format=png&auto=webp&s=7ed13aada314a2aacaed61175ec72a8c72689171",
+   "id": "1ays15u",
+   "comments": [],
+   "age_days": 958,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Anyone else having a hard time into the Hwei support matchup?",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/1asvfpw/anyone_else_having_a_hard_time_into_the_hwei/",
+   "published": "2024-02-17",
+   "author": "/u/1984ByGeorgeOrwell",
+   "body": "He's got everything on you, range, cc, disengage, it's hard to stick to him and even harder to get to him in the first place.",
+   "id": "1asvfpw",
+   "comments": [],
+   "age_days": 965,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Do you always pick Samira regardless of the match up?",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/15nf9yy/do_you_always_pick_samira_regardless_of_the_match/",
+   "published": "2023-08-10",
+   "author": "/u/Waric_the_VI",
+   "body": "I started playing rankeds on my second account lately picking only Samira. After getting lvl 30 I was placed in Gold 4 and then climbed to plat 4. I spent like 10 games now in plat 4 without gaining lp which is weird to me because I usually peaked plat 1 or 2, and now plat is like gold so it should be easy to climb for me, but it seems like its not.\n ​\n The last 15 games actually felt like I had no impact on the game and it was very much coinflip what support I get, if its an engage support I win if its an enchanter I lose. Now obviously Samira is better with engage supports but I thought if Iam better than my opponents surerly I will win games with bad match ups but I dont win those.\n That made me wonder if I should just pick her into good matchups. If I hover Samira and my support picks Xerath for example, is it troll to still pick Samira?\n It could also be that iam just bad I was always a midlaner and just became an ADC main like 2 or 3 months ago, so maybe my ADC skill level is actually plat 4, which is like old gold 3 lol\n Do you always pick Samira even with no set up for you? Should I stop picking Samira with enchanters or do I just need to get better?\n tempjivaozboxtnc - Summoner Stats - League of Legends (op.gg)",
+   "id": "15nf9yy",
+   "comments": [],
+   "age_days": 1156,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Anatema's Chains is a truly amazing item in some specific situations :) (Explaining build pathing)",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/13w6vis/anatemas_chains_is_a_truly_amazing_item_in_some/",
+   "published": "2023-05-31",
+   "author": "/u/iFeernandez",
+   "body": "This game was so hard only by Morde, who was so ahead and could destroy us without many problems. Specially cause he was focusing me the whole time with that Xin Zhao, meaning that if i died, all was lost on the rest of the fight.\n My first mythic was Youmuu's Ghostblade after i got Collector, in a first moment i wanted to try with Infinity Edge, but i was snowballing and four of them were squishy, (Zhao built armor as last item). But when the laning phase ended and we started to fight on mid, Morde broke my perfect KDA. By that moment he had THREE (was so feeded) armor items. (At the end he changed to Jakshoo, but he had Iceborn Gauntlet first). So well, i just had two lethality items plus Swiftness boots, cause i love the movement speed that gives me with Youmuu's (Literally you go flying arriving to every spot of the map) and the slow reduction on this matchup. For other hand, my team was so behind and Sion was spamming to FF and trolling sometimes :(\n I resisted with lethality items cause was so good against the other four enemies, but Morde didnt allow me to arrive to them many times. I built LDR, however the damage was not enough, and that man was destoying me in a few seconds. Then i tried to survive a bit more, building for first time Anatema's Chains, that i saw on some guides but i never didnt see a good moment to do it, until this game. That item was a win condition and the start of the comeback.\n 30% OF DAMAGE REDUCTION and -20% of tenacity for him, what the heell (With 650 HP and 20 Ability Haste stats) . A great choice against that champ who is being your unique problem to fight as you have to do. Then i went QSS, to get out of Morde's ult quickly, and i swapped my boots to Mercury's Treads, and my Mythic to Infinite Edge cause i was the only one who could do real damage to that Morde.\n I recommend to all of you Anatema's on that games that you feel a little bit alone in the chaos of fights, no being peeled and there is an enemy who is f*** you. Also, if you have gold and tempo, dont be afraid of change items on your builds (More talking about lategame when you are full build and stacking gold just buying potions). If you see you need to change the gamestyle, just do it.\n See you! :3\n https://preview.redd.it/6qlrio2xj33b1.png?width=1584&format=png&auto=webp&v=enabled&s=2537257fbc692b55ac2488c16ece8288269b481e",
+   "id": "13w6vis",
+   "comments": [],
+   "age_days": 1227,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "More Itemization Stuff!",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/13p67ip/more_itemization_stuff/",
+   "published": "2023-05-22",
+   "author": "/u/Urasonlol",
+   "body": "I'll be posting more and more as Riot continues to change stuff (best way to keep up to date is with Twitter or Mobafire guide. Can find both Pinned here on Samira Mains Reddit). Anyways! Here are the current Samira builds and why they work/are good as well as a few experimental ones! \n Build 1 (item abuse): Ghostblade -> Collector -> LDR/SB -> LDR/SB | You're just abusing the sheer amount of lethality that Ghostblade grants & the good mobility you get. This is THE Samira build right now. Once it gets nerfed, we will likely never use it again but it depends on the nerfs. Use this in 99% of your games right now. \n Build 2 (Consistent): This build has 2 different variants that I feel depend on your playstyle. Both can grab Vamp scepter whenever.\n * Stormrazor -> Vamp Scepter -> IE -> BT/SB | Good if you want a steady early game with a spike in your mid game. Its effective but not necessarily the best.\n * Collector -> Vamp Scepter -> IE -> BT/SB | If you're an aggressive player, this is your way to shine in the early game and snowball. \n Build 3 (likely my build once Ghostblade is gone): Vamp Scepter -> Collector (if I have engage)/Galeforce (if I don't) -> Collector/Galeforce -> SB/BT/LDR | This will likely be what I personally go with either every game or just versus hyper carries like Jinx. You snowball fast and hard. End the game before 25 mins and you're golden. \n Build 4 (Duskblade): Duskblade -> Collector -> BT/SB/LDR | This build has a LOT of damage early on but if you don't continue to snowball you fall off pretty hard. With its buffs coming soon, it may take over where Ghostblade left off but I'm unsure \n Overall/TLDR: Ghostblade is the best build atm. After that, we'll likely have matchup situational builds with one main common build. If Duskblade is broken after the buff, we will move on to that. Hope this helps and I'll continue to keep everyone updated as I do my best with doing the math, play testing, talking with Samira players, and tracking the best Samira players in the world. Have a good day!",
+   "id": "13p67ip",
+   "comments": [],
+   "age_days": 1236,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Is there a comprehensive Samira top matchup guide?",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/12smaff/is_there_a_comprehensive_samira_top_matchup_guide/",
+   "published": "2023-04-20",
+   "author": "/u/TheMrSanta",
+   "body": "Been loving playing Samira lately, but absolutely despise botlane. Been having some success playing her top, but some matchups are really throwing me off. I had a particularly bad time against illaoi, chogath and mord, but did really well against someone like sett and jax. Also been particularly struggling when the top and jg are queued together and I’m getting perma ganked by them. I feel I can win most 1v1s by myself but as soon as it turns into a 1v2 I almost always lose unless I’m really ahead. I know it’s not the best way to play Samira, but I’ve been having a good time, just want to see if y’all got more experience then me regarding top lane.",
+   "id": "12smaff",
+   "comments": [],
+   "age_days": 1268,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "So how do you fight a Veigar?",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/127ho12/so_how_do_you_fight_a_veigar/",
+   "published": "2023-03-31",
+   "author": "/u/Beginning-Senior",
+   "body": "So I'm a Samira mid player and my go to ban is Veigar mostly because he is a pain to go against but I never really fought him much because I always ban him, so my question is when I do fight him how do I exactly do in this matchup? His e counters my e and when I sort of try to all in he is able to duke me, maybe it's because I'm not playing it right, do you guys have any tips for me?",
+   "id": "127ho12",
+   "comments": [],
+   "age_days": 1288,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Samira blind pick / Matchups",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/10q4zph/samira_blind_pick_matchups/",
+   "published": "2023-01-31",
+   "author": "/u/Low-Finger2523",
+   "body": "Hey Samira Mains, I've been trying to get into this champion but i have a question for all Otps. When you are climbing, do you pick Samira regardless of your matchup? Or do you sometines go \"naah, this is not a Samira game\".\n I feel a bit unconfident if I see a team with alot of crowd controll or engage, and in those cases i tend to go Sivir or Xayah. What's your take on this? Thanks",
+   "id": "10q4zph",
+   "comments": [],
+   "age_days": 1347,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "New Season? NEW Q/A",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/10cuf6f/new_season_new_qa/",
+   "published": "2023-01-15",
+   "author": "/u/Grunclestann",
+   "body": "HELLLO RICE AND SAFFRON lovers!\n Welcome to Season 13, the jungle kingdom, I will be giving a guide on how to jungl- …. Oh.\n SIKE!!! Get this SAMIRA Q/A rolling!!\n Background: Hello I’m a part-time streamer, but full-time Samira 1-trick. I’ve been playing adc since early season 1 and have BEEN and ALWAYS will be a Samira main. She got me all the way to my peak rank of Masters 300LP and im here to answer any questions and concerns.\n Example: What’s the build with the new hydra and IE changes?\n Matchup questions? (Im great at giving you a simple and easy plan to win lane)\n Is she playable right now?\n Best Combos for certain scenarios?!? (I got them all)\n SO GET IN HERE you S-rank loving, E-spamming during ultie, Q-mashing, coin-tossing GAMERS!",
+   "id": "10cuf6f",
+   "comments": [],
+   "age_days": 1363,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "ULTIMATE Samira Guide + Matchup Sheet Combo - The True Samira Bible",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/109eaq5/ultimate_samira_guide_matchup_sheet_combo_the/",
+   "published": "2023-01-11",
+   "author": "/u/Urasonlol",
+   "body": "Hello everyone! I'm here for my average 8 month post where I post useful content for all of you to learn from and hopefully enjoy! If you don't know me yet, I'm Urason, an 800LP Peak ADC main that also mains Samira. I've been playing her since her release and have consistently reached high masters with her as well as have gotten multiple smurfs into high Diamond by one-tricking her. I absolutely love this champion and try my best to both create content for her and to master her. \n At the moment I offer two \"Guides\" that work great in unison together. First we've got our revamped, super in-depth Samira Mobafire Guide that'll breakdown all you need to know about the champion, her combos, her itemization, and more! -> https://www.mobafire.com/league-of-legends/build/13-1-urasons-grandmaster-in-depth-guide-to-samira-indepth-matchup-excel-sheet-592513 \n I was asked a TON for a Matchup sheet or breakdown of some kind so I decided to take on the challenge of doing an extremely indepth breakdown of every matchup. While I'm quite literally only 10% done at the moment, I will be adding additional features and a new champion every day! -> https://docs.google.com/spreadsheets/d/1oYEVK5l9RfxBYgBawihqAJAr9T5D09z1RlsnBxU3Pd0/edit#gid=1067186436 \n Using these two together should provide the most optimal Samira improvement experience while also helping you understand how you should break down matchups in your head. Plus, people always enjoy looking at how a high ranking player thinks about basic things within the game. If you have any questions you can ask me here, in a DM, on my Twitter @ Urasonlol, or even on discord! I'm always active on the Samira main's server so don't be afraid to @ me there if you have any questions, comments, critiques, or concerns. I also stream occasionally but I'll make a separate post about that at some point once I get fully set up again! Anyways, thanks for reading and have a great day! - Urason Artwork I had made for the NEW Matchup Sheet/Samira Bible. Done by the wonderful @ VisionofArchie on Twitter. Always a pleasure to with you friend",
+   "id": "109eaq5",
+   "comments": [],
+   "age_days": 1367,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "any \"high elo\" samira top/mid players to learn from?",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/zpwe3j/any_high_elo_samira_topmid_players_to_learn_from/",
+   "published": "2022-12-19",
+   "author": "/u/Large_Interaction_43",
+   "body": "i started playing samira recently and i had a ton of fun with her.\n im a top main so i just played her top but im looking for tips/matchups help. maybe a op.gg of players. is the goredrinker build viable? can i play her mid aswell?\n thanks for any help",
+   "id": "zpwe3j",
+   "comments": [],
+   "age_days": 1390,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "nilah matchup",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/xqtjpa/nilah_matchup/",
+   "published": "2022-09-29",
+   "author": "/u/-Xenorus-",
+   "body": "Is her matchups vs nilah really that unplayable? I haven't played alot of bot recently so i haven't done it myself also since i never see anyone play her. But how does she beat samira so badly? Ive seen alot of people say you ban or dodge her but i haven't seen it explained",
+   "id": "xqtjpa",
+   "comments": [],
+   "age_days": 1471,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How do you guys deal with xerath support.",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/x6wujq/how_do_you_guys_deal_with_xerath_support/",
+   "published": "2022-09-06",
+   "author": "/u/ARedJay",
+   "body": "Hey guys, I’m a gold 2-3 adc main, I play a lot of Samira but I can’t seem to figure out how to not auto lose when the enemy support picks xerath. I’ve tried taking super sustain focused runes, I’ve played the matchup with a bunch of different supports but I can’t seem to win the lane unless the xerath plays like garbage. Best I’ve been able to manage was not giving up any kills but I was like half an item behind the rest of the game. Any tips?",
+   "id": "x6wujq",
+   "comments": [],
+   "age_days": 1494,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "can samira be played mid ?",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/ws9jxy/can_samira_be_played_mid/",
+   "published": "2022-08-19",
+   "author": "/u/b8-gaming",
+   "body": "(im sylas otp)Ive been playing samira mid in my normal games and it usually with good outcomes And i really need a secondary AD pick to play when sylas is picked or banned and i dont see why not samira right? She has range, but still not very vulnerable at melee range She has mobility, not much but enough considering she also has the bladewall thing to dodge important cc skill shots when ganked or in 1v1 in general. I dont think her 1v1 potential is good but with practice and matchup knowledge i think it'd be playable Should i try and full on try to master that sleeper pick or just try smthing else like jayce or talon mid idk..",
+   "id": "ws9jxy",
+   "comments": [],
+   "age_days": 1512,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I Made A Matchup Tierlist For Samira",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/wquwmm/i_made_a_matchup_tierlist_for_samira/",
+   "published": "2022-08-17",
+   "author": "/u/Part_The_Sea",
+   "body": "",
+   "id": "wquwmm",
+   "comments": [],
+   "age_days": 1514,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Masters Samira 1-trick AMA :)",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/vdg4x8/masters_samira_1trick_ama/",
+   "published": "2022-06-16",
+   "author": "/u/Grunclestann",
+   "body": "Howdy all you Rice and Saffron lovers! \n Background: Hit masters with Samira. Consistently stayed masters with her during the entirety of S10. Returning after a short hiatus! \n OP.GG\n Possible questions: Build Path? 2nd item collector vs LDR? Runes? Matchups and how to play them? Best supports with our gun goddess? Combos? Tier list? Is Samira actually doggy after durability patch? Literally ANYTHING!! Hit me with it :)! I’ll respond ASAP!!\n EDIT: I will be actively checking this thread until June 21!\n EDIT2: Got permission from Mods to plug this! It’s a very education stream! Twitch.tv/professorj I am live every Thursday-Saturday from 5PM Pacific - however long :)! Play by play commentary/Interactive!",
+   "id": "vdg4x8",
+   "comments": [],
+   "age_days": 1576,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Made samira top-lane matchup tierlist for fun. Been playing her there from time to time and these are my experiences",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/v41lq7/made_samira_toplane_matchup_tierlist_for_fun_been/",
+   "published": "2022-06-03",
+   "author": "/u/Odkrywacz",
+   "body": "",
+   "id": "v41lq7",
+   "comments": [],
+   "age_days": 1589,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Lucian Main trying to learn samira",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/uo9fxw/lucian_main_trying_to_learn_samira/",
+   "published": "2022-05-12",
+   "author": "/u/Drurhang",
+   "body": "Came here looking for all the best tips you guys and gals have on Samira, because honestly I'm struggling with her. Not sure if I'm just genuinely bad or simply misunderstanding how she's supposed to operate, so:\n Builds, worst/best matchups & synergies, mechanics, your favorite offhand lore, combos, overall strengths and weaknesses, you name it. Anything that pops to mind I would highly appreciate.\n I'll start it off by saying I usually go SB first on her, into either ER or collector, into BT or IE depending on if I'm behind or ahead. Haven't really gotten further than 3 items. Thing is, my early game always goes poorly, except a match I just played with a panth supp. Not sure if she's weak early, if she needs a tank vs a mage support (I've gotten basically only Xerath's and Nami's so far), or again if I'm just playing her poorly. Could very well be that I'm just playing poorly.",
+   "id": "uo9fxw",
+   "comments": [],
+   "age_days": 1611,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Vayne matchup?",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/tnj4q4/vayne_matchup/",
+   "published": "2022-03-25",
+   "author": "/u/Filthy_Weeb_Slayer",
+   "body": "I was just wondering how to play this matchup. I thought she was garbage early game and so i could beat her if i get on top of her, but ended up getting chunked out by 1 silver bolts proc. Should i be trying to kill her in lane pre 6 or after?. Or should i just stay safe and farm?",
+   "id": "tnj4q4",
+   "comments": [],
+   "age_days": 1659,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Samira MID Project: Day 4 & 5",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/spm1wt/samira_mid_project_day_4_5/",
+   "published": "2022-02-11",
+   "author": "/u/EpicPotatoo",
+   "body": "Well hello there, long time no see. I'm back after a quick hiatus. In 2 days, I found the best runes for midlane Samira and also made some changes to my build. As always, you can read my notes below. I also prepared a little explanation on how I \"test\" stuff.\n *Final runes : Here are the best runes against mages and mage assasins (Veigar, Akali etc.) •Hail of Blades •Sudden impact •Eyeball collection •Ravenous hunter \n Best runes against fighters: •Conqueror •Triumph •Legend:Bloodline •Coup de grace \n *HoB should be used for early bullying and abusing enemie's lack of range. If they try to all in you, you probably win with melee attacks and Q. \n *Conqueror is for fighters. With stack damage, you can easily win a 1v1 at lvl 3.\n *Secondary runes depend on matchup. \n *Summoner spells: Use ignite and flash when up against champions with lots of sustainability in lane, and cleanse against CC hevy teams, so you can survive longer. \n New build: \n •Prowler's Claw •Bloodthirster •Collector •Yoummu's •Dominik's •Berserker's Greaves \n Bloodthirster is great with your melee Q, it can heal quite a bit. It also has that juicy crit. \n *Max order: Q,W,E\n *How I test: First of all, I made a custom game of 1v1 on SR with a friend. He is on the enemy team, and we simulate a laning phase. If I see the runes work, I play 5 games on mid with them. If 3 of those games are lost, I discard them. If I win 3, they pass as viable. If I lose 2, but win 3, I play one more match. If I win 2 but lose 3, they are also removed. I repeated this process for every single rune. For builds, I just try everything in normal matches. \n With all of this said, now it's YOUR turn to put the off-meta goggles on and help me. I will need you to try my playstyle in a few matches and tell me how it feels and how well you performed. If you do decide to test my pick, you must remember this- \"you are not ADC anymore, you are a flashy assassin. You must kill the squishy and roam at all costs\"\n That would be it for today. Btw I'm sorry about previous typos, I write these at midnight or 2 am, depending on my mood. I was very tired. Also, I'm sorry for merging 2 days into one. I couldn't write yesterday because I didn't feel so well. I'm having some \"rona\" problems... Soooo, I hope you find some success on mid. That's it, see you tomorrow.\n TL;DL : Read about the build and runes and be good little mice and test them for me.\n Also, I'm using a new grammar corrector, so no more \"grate\". For some reason, it always corrected great into \"grate\".",
+   "id": "spm1wt",
+   "comments": [],
+   "age_days": 1701,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Samira MID Project: Day 1",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/sma0ls/samira_mid_project_day_1/",
+   "published": "2022-02-06",
+   "author": "/u/EpicPotatoo",
+   "body": "Hello everyone, it's been 2 days since I started this project, and I'm here to report my work .So far I made some minor progress. I made the prototype build and roaming strategy. More on my progress down below.\n *What I did yesterday : My original idea was to make Samira into a flashy assasin and overall viable on mid lane. So I spent the entire evening yesterday watching assasin guides (Akali, Katarina, Yone). I already know how to play Zed fairly well, so that helped too. This helped me develop a strategy but also how to deal with assasin and what their weaknesses are.\n *Runes: I decided to eliminate some runes from testing (Unsealed Spellbook, Glacial Augment, First Strike, Guardian, Predator, Aery and Aftershock) becouse they definitely wouldn't or have no synergy with solo laners. So far I only tested Conqueror and Dark Harvest, but I still do not have enough data to know if they are the best ones, especially becouse I have lots of more runes to try out. The secondary rune page is entirely dependent on the matchup, but so far looks like domination works best against aggressive junglers.\n *Laning: Laning with Samira mid is relatively simple. So far it seems that lvl 1 is Samiras most vulnerable stage, therefore farming with ranged attacks and rarely taking trades with Q is the best option (again, more testing is required).\n *Roaming: The best time to roam is lvl6 becouse of the team-fights. Aldo roaming to help the jungler secure the drake is a good idea becouse most of the time the enemy bot or jungler will be there, so there is a high chance you will get a kill or at the very least an assist. Roaming bot 6 is the best option since no one expected a squishy ADC champ to take the risk and leave the lane, but usually this risk pays off. If you fo decide to ram be sure to ping early to notify your team about your idea (yes, not even your own team will expect it).\n *My prototype build: Dorans blade, pot/long sword,refill pot (starting items) Eclipse(Dmg, vamp) Berserker's Greaves (attack speed,duh!) Yoummu's (to get out of sticky dituations, roam faster and cooldown is nice) Collector(for its passive, killing a champion with it grants one extra grade) B.O.T.R.K (Survivability, atrack speed) Black Cleaver(for some more cooldown and hp)\n Conclusion: Today I definitely made the the \"skeleton\" for this playstyle, even tho this is only the beginning I am very optimistic about this Project. I hope that my playstyle ends up beeing noticed one day. Thank you all 3 of you for reading this wall of text. See you all tomorrow. P.S I would really appreciate if someone would help me in this project, but perhaps as I progress ppl will decide to give me some suggestions :-)",
+   "id": "sma0ls",
+   "comments": [],
+   "age_days": 1706,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Season 12 Theorycraft: Galeforce Samira",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/s9wxnt/season_12_theorycraft_galeforce_samira/",
+   "published": "2022-01-22",
+   "author": "/u/Zhukov41",
+   "body": "I know what you might be thinking: galeforce Samira has been discussed and tried before and she still needs shieldbow. But now with season 12 shieldbow nerfs I feel much weaker, I deal less damage and survive less. I recently saw that some Korean players are playing galeforce into bloodthirster aphelios, yone and yasou. Why wouldn’t this work on Samira? The extra dash on galeforce is nice as well as the extra damage and move speed compared to shieldbow. \n I would imagine the build path would be rushing vampiric scepter for lifesteal (same lifesteal as shieldbow) and then building galeforce into BT. Then either IE or collector/LDR. \n FYI I’m a Samira main in gold II, and I will try out this build when I can. \n Thoughts and comments appreciated.\n Update: so I played a few games on norms and a couple of aram games. And while this isn’t conclusive the build is definitely viable. BT has blocked more damage than SB. I feel more mobile so it’s great against long range champs. But I have yet to play with it while behind, I always seem to snowball. I haven’t won every game but that’s due to my teammates and it being norms not everyone cares about winning. I haven’t started playing ranked since the start of season 12 and won’t plan on doing it for a while. \n It’s especially nice to have the extra dash on galeforce that can be used during her ult. So if the enemy runs away you can run them down if u don’t have your e to dash again. I would imagine this build can work even while being behind, but since BT is expensive it would be harder to get power spikes. \n Build path: vampiric into galeforce and defensive boots then BT, IE, LDR, and finally GA\n Runes (standard Samira runes): Conq, triumph, bloodline, last stand/coup de grace (a few games with coup de grace, which I found dealt more damage so I’ll stick with this), taste of blood and ravenous hunter. \n Disclaimer: the games I played were against few assassins, but even when there were assassins as long as I had BT’s passive stacked I don’t get one shot and I can usually just escape with galeforce. My damage was great but I didn’t go against full tanks, mostly bruisers and squishy mages with low cc. I encourage other ppl to try this new build and let us know what happens. I genuinely think it’s viable into most matchups as long as the enemy doesn’t have multiple hyper fed assassins or plenty of hard cc. \n That being said I did feel a slight survivability issue. With SB (before nerfs haven’t tried this after nerfs) I can almost always 1v1 a fed master yi if I am fed as well. But one of those games I had a fed yi and I couldn’t 1v1 him and he would always target me during fights leading me to die early in some of that games fights. \n TLDR: galeforce into BT could be better than SB and standard Samira build. But it doesn’t work as well if you are behind or against a lot of assasins with plenty of cc.",
+   "id": "s9wxnt",
+   "comments": [],
+   "age_days": 1721,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "ban suggestion and poke matchup",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/rqnliw/ban_suggestion_and_poke_matchup/",
+   "published": "2021-12-28",
+   "author": "/u/red_vibes2",
+   "body": "i'm a master Samira main on euw, i'd like to hear from you fellow comrades which champ do you ban. My go to are yasuo/vayne but i'm starting to ban xerath because i feel that the matchup vs heavy poke Is kinda unplayable. What do you guys ban and do you have any info on how ti play into heavy poke matchups?",
+   "id": "rqnliw",
+   "comments": [],
+   "age_days": 1746,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "PoM vs Triumph",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/re5710/pom_vs_triumph/",
+   "published": "2021-12-11",
+   "author": "/u/cotanget",
+   "body": "Since you won't need to worry for that 100 mana cost as soon as you get your ult, you can swap for Triumph over PoM. But swapping the two runes have its pros and cons.\n If you take PoM:\n Pros: Can spam Q to both harass opponents and last hit minions from a longer range. You'll never have to worry for mana for the entirety of the game. Makes her comfortable to play in the early game even in a difficult matchup.\n Cons: The healing per kill on triumph is hard to ignore and is really useful in teamfights even if you can rely on lifesteal. You may lose some consecutive kills. Also the extra gold on kills.\n If you take Triumph:\n Pros: You'll have a higher chance to get those pentakills because of the healing per kill. The extra gold also helps you to reach your impactful items earlier and snowball harder. 100 hp + the healing on kill is better than only having 100hp left after a kill.\n Cons: Early game sucks because you'll need to manage your mana while using your Q for csing. Most of the time you have to rely on your autos and Samira doesn't have a nice auto attack range. Vulnerable to harder match ups. Also you can't confidently go for 2 or 3 ults in one teamfights because you'll ran out of mana in some cases. But getting an Essence Reaver can fix this.\n Even if Samira's ult has no mana cost you'll still have to spend mana on other abilities to get her passive to S which is still alot. Taking triumph would sometimes force me to buy Essence Reaver for the comfort of spamming Q.\n So is PoM worth swapping to Triumph and have Essence Reaver as mana comfort? Or Still take PoM to have other Items instead? Would Triumph + manaflow band be a good idea?",
+   "id": "re5710",
+   "comments": [],
+   "age_days": 1763,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Why is Jhin W not blockable?",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/qv45w7/why_is_jhin_w_not_blockable/",
+   "published": "2021-11-16",
+   "author": "/u/Lannister_Crimson",
+   "body": "It looks and feels like a projectile, but isn't treated so in purposes of Samira's W. It makes the Jhin matchup much more difficult until you get full boots. Can Yasuo not block it either?",
+   "id": "qv45w7",
+   "comments": [],
+   "age_days": 1788,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "My adc is really good on Samira (top 100 EUW) and I've been wondering. What's the perfect scenario for Samira? I'm talking about enemy team.",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/qgfvc4/my_adc_is_really_good_on_samira_top_100_euw_and/",
+   "published": "2021-10-26",
+   "author": "/u/ChristianEmboar",
+   "body": "If you could help me get some insight on when should we pick her (we got some losses on matchups where we had Poppy jg or Ezreal for example in enemy team)\n Ty in advance ^",
+   "id": "qgfvc4",
+   "comments": [],
+   "age_days": 1809,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Theorycrafting with Goredrinker and Possible Top Lane Bruiser Samira Build",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/q53s6c/theorycrafting_with_goredrinker_and_possible_top/",
+   "published": "2021-10-10",
+   "author": "/u/GetEquipped",
+   "body": "Preface: I'm fiddling with a top lane build. Being honest, I'm not great with Samria and I'm low Elo, so if a more experienced player wants to test this out and let me know how it goes.\n Goredrinker as a Mythic\n To say Goredrinker is currently a good item is an understatement. But it seems for Melee champs since the Arc is pretty small around you.\n However, Samira is an ADC who wants to get into the fight. She can also cast it during her Blade Whirl. (It also looks very similar to her Blade Whirl, but I'm digressing)\n Because she can cast it during her Blade Whirl, she can also use her E+Q to move around during the GD animation and keep your damage up. You can legit hide the Goredrinker cast during her combo as she jumps into the fight to heal up, AA once more, then Ult.\n Even better, Goredrinker doesn't have a ranged penalty. Most items effectiveness on actives are cut in half if they're ranged (Death's Dance, Steraks) But not Goredrinker, it's based on AD and Missing Health.\n It also increases AD based on missing health, which syngerizes well with \"Cut Down\" \"Last Stand\" rune. And it gives CDR based on Legendary item, not huge, but important later.\n Now Shieldbow is a great item, but what if we built her like a bruiser\n Here's where the other Items come in\n So ADC items are expensive. Shieldbow, Bloodthirster, and IE cost 3400. However, most of the Bruiser items cost around 3000-3100. This means we can get the items significantly earlier. Also, Samira doesn't need to build Attack Speed due to her ability casting nature so she can invest heavily in AD and still be effective (I know her Q and Ult benefit from crit, but let's brainstorm a bit)\n Boots as always are situational, I'm thinking Merc treads personally, but -shrug- If they have a lot of AD build Ninja Tabi, you need tenacity, build Mercs\n\n Sterak's Gage gives you a stack when you damage or are damaged by enemy champs damaged and refreshes max stacks when you damage one. Normally this isn't taken on Samira because Lifeline is a unique item feature with ShieldBow (Her Bread and Butter Item) but it's really easy to get the max stacks for the maximum shield amount, which triggers at 30% which is when Cut Down deals the most damage. \n\n Black Cleaver: Armor Shred on Hit and Move Speed per Stack. This gives Samira even more move speed in running someone down with her passive. You can also stack Cleaver very easily with her Ult. Granted I believe LDR may be better damage but that maxes out at 20% if they have more than 2000 health. LDR does give 35% armor Shred vs 30% for max stacks, But the armor shred applies to all physical damage and not just you.\n\n Deaths Dance: Now we're getting Spicy. Death's Dance stores 15% (Since she's coded as Ranged) of the Post mitigation damage dealt as a \"bleed\". However upon a takedown, she cleanses the bleed and heals 12% of her max health. It also gives a good amount of armor. I think this can be the sauce to make it work. I would probably build this before Black Cleaver unless they're rushing armor. I will also say if you're getting bullied in lane, you can buy a cloth armor and sit on it. \n Samira is a squishy champ, but delaying 15% of damage (On top of the Shield) to get a takdown and reset is huge.\n\n Possible last items\n Spirit Visage: Since it amplifies all healing and shields, it amps up the healing of Goredrinker, the shield of Steraks, the healing off Conqueror, and the healing off Death's Dance. It also gives a good amount of MR and CDR\n Titanic Hydra: Cleave damage, more health means more Damage. Not a bad choice.\n Ravenous Hydra: If you really want Omnivamp\n Silvermoon Dawn: CC Cleanse and MR\n Chainsword: Healing Reduction\n Collector: Old standby, is great for what it does\n \n Stats\n OK, stay with me, yes, no crit hurts your DPS, your ult and Q are weaker. But you still have 300 AD without Conq stacks or Titanic (Around 360 AD with)\n But with SV or Titanic Cleaver; (At level 18) you get 3700 health, and with Steraks, it grants you 280 shield per stack (1400 for 5 stacks) on a 60 second CD, or about 5100 effective health (Plus the 15% Damage stored from Death's dance) not including resistances \n Compared with ADC Samira who can get 2200+350 with BloodThirster and an 800 health shield at level 18 on a 90 second CD. That's 3200 effective health. And yeah, you get more Lifesteal with your ult, but having such a small pool of health as well as being in a grievous wounds meta, it's very easy to get bursted down.\n One bonus I did see is the large amount of CDR from the items, about 80 Ability Haste with Titanic (More with Ravenous and SV). Her Q is a flat 1 second CD, her W is on a 12 second CD and her E is on a 7 second CD (I know it resets on a take down, but it's nice if you don't secure a kill) Her Goredrinker is on a 9 second CD, which isn't bad all things considered. Having her Windwall on a 11 Second CD would be really good and may even mean you can get it off multiple times in fights.\n Her Move speed is like 468 compared to 451, negligible \n But being honest, and maybe these are just the games I play, I never get close to full build. Matches seem to be decided too fast, and if you were able to build up to 60% crit, the crit just becomes a \"Win more\" button. Like you were already in the lead. Bruiser items have the benefit of being built with much smaller basic items. Meaning if you're behind, you can still build components and gradually gain power instead of \"Well, I'm 200 gold off my BF sword, so i need to wait for a chance to solo grab a wave and steal a jungle camp.\"\n If you want to try it out\n Ranged Top Laners are a pain to deal with. Granted, Samira does less damage early than a Vayne, isn't as annoying as a Quinn, nor has the poke of a Jayce; but she does get that solo lane EXP which gives her access to her full tool kit. However, no CC support to get her passive off. I don't know. I do intend to fiddle more with this, take it into norms and test it out, but I suck as Samira, so maybe someone here might be interested.\n Her Passive melee does deal magic damage based on missing health, so it might be worth going into melee for a trade if they underestimate your damage.\n The Runes I'm thinking are basic Conq set up (Conq, Triumph, Bloodline, Cutdown Last Stand) and either Taste of Blood/Ravenous or Bone Plating and either Revitalize or Unflinching (Just less CC). I think in a lot of top lane matchups, having the Boneplating mitigation would be huge for her.\n I was also thinking Overheal, but I don't know if excess healing also counts things like HP5, Death Dance, Etc\n For Spells, Flash is kind of a must, but if you wanna live dangerously: Maybe TP instead.\n The second summoner go Barrier. It's on a 180 second CD, larger shield than Healing, would be easier to bait a 1v1 top (Again, with the melee Damage passive) or to pop it before an engage. Scales with Spirit Visage and Revitalize as well.\n Anyway, those are my thoughts and ideas: Any comments, suggestions, or is anyone crazy and foolish enough to be a daredevil?",
+   "id": "q53s6c",
+   "comments": [],
+   "age_days": 1825,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "should I play passive early?",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/pymcrs/should_i_play_passive_early/",
+   "published": "2021-09-30",
+   "author": "/u/InevitablyIncorrect",
+   "body": "picked up samira a few days ago, seems like she has a rough lane vs a lot of bot matchups, should i just be farming till mid game and just do teamfight samira things?",
+   "id": "pymcrs",
+   "comments": [],
+   "age_days": 1835,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Played this champ on release and then quit the ad carry roll, Now i wanna play her again.",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/pjk6zy/played_this_champ_on_release_and_then_quit_the_ad/",
+   "published": "2021-09-07",
+   "author": "/u/__black_star__",
+   "body": "Hey! Thank you for your time, as the title says, I mained samira for the first month of her release, i know she's basically the master yi of bot lane, but i quit the adc role after a short while cause this was the only champion i enjoyed playing other than off meta adcs like quin and gnar, \n Anyway, I know the champ got repeated nerfs and adjustments, I don't know much about her gameplay changed or if she is even viable anymore, another question is what are the new combos? i've seen some reddit videos on her ult procs and stuff, what are the good and bad matchups, what are the supports you should ignore, etc.. \n I played her only when she was at her strongest, but she apparently has been balanced now, so how do i play her? assume i'm a level 30 player.",
+   "id": "pjk6zy",
+   "comments": [],
+   "age_days": 1858,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What matchups not to go in at lvl 3?",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/oo0ecj/what_matchups_not_to_go_in_at_lvl_3/",
+   "published": "2021-07-20",
+   "author": "/u/Kwaffie",
+   "body": "Is there any matchups where you wouldn't go in with your engage support lvl 3 and is there any matchups you outscale and should just farm?\n Also i know that Leona is the best support for her but is there any support matchups that you shouldn't pick her in and what would you pick instead?\n Any help is appreciated!",
+   "id": "oo0ecj",
+   "comments": [],
+   "age_days": 1907,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "New to Samira",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/oe52kx/new_to_samira/",
+   "published": "2021-07-05",
+   "author": "/u/Snir17",
+   "body": "Maybe you saw this posts many times but... I just bought Samira cuz I loved her playstyle. I'm MF main, and I gonna play with a friend who's a Rell main(I understood Samira and Rell are a rly good lane), so I wanted to check if anyone can answer a few dumb questions: 1.any tips and tricks? 2.which runes should I take? 3.worst matchups? 4.which build? 5.anything else I should know? Sorry for asking such dumb questions.",
+   "id": "oe52kx",
+   "comments": [],
+   "age_days": 1922,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Support main here. How do I play with a Samira?",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/o8dnh8/support_main_here_how_do_i_play_with_a_samira/",
+   "published": "2021-06-26",
+   "author": "/u/ortfs",
+   "body": "Hi guys, \n I'm a long time player (gold/low plat for the past 5 seasons) who just transitioned to maining support in s11. Obviously I'm still learning all the matchups but I always struggle when I'm with a samira bot. Most of the time we both just end up getting chunked and forced to farm what we can under tower. \n I pick one of my engage champions (alistar or poppy) as I know Samira needs hard engage but apart from that I'm at a loss when it comes to how to play the lane. Hard engage isn't really my playstyle but I'm sure a lot of problems come from me not knowing how Samira works and how to play around her passives.\n Can anybody help me out and tell me what it is you need from a support? When are Samira's powerspikes? What other things do you wish supports would know about your champ? Thanks in advance :)",
+   "id": "o8dnh8",
+   "comments": [],
+   "age_days": 1931,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "My understanding of Samira and her myriad supports.",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/ltdfba/my_understanding_of_samira_and_her_myriad_supports/",
+   "published": "2021-02-27",
+   "author": "/u/AlexanderEmmeth",
+   "body": "Originally wrote this intended as a reply to another post in the sub about [ADC] matchups, but I figured others may benefit from it as well.\n Got Mastery 7 in about 35k points, had an 80% winrate out of my first 40 games on Samira pre-nerf, which got me to about #50 Samira NA on LeagueOfGraphs. As a LoL player since like 2014, playing 1 month of Samira taught me more about wave control, bot lane matchups, and teamfight dynamics than the last 3-4 years combined. Here's some of what I learned.\n Honestly, I don't care about the enemy ADC nearly as much as I do the supports (both mine and theirs).\n If you can, ask for a gap-closing tanky support, such as Rell, Nautilus, Thresh, Leona, etc., as these are ideal in several ways - passive knockup, burning enemy CC, setting up cleaner multi-person ults, and peeling for you later in the game.\n I'm personally comfortable picking Samira into most ADCs, but I will intentionally refrain from playing her if:\n (1) My support's champion has no synergy, such as Karma. There are better ADCs to play with these types of supports, and you can't always count on your jungler/other laners to fill that void that a more suitable support would fill.\n (2) If the enemy support AND adc will outpoke me without risking their own safety, such as a Seraphine + Senna/Ezreal lane. If it's just Senna/Ezreal without a pokey support, and my support has engage potential, then Samira is good to go. That's why I currently ban Seraphine instead of Senna.\n (3) If their lane actively counters dives/engages (eg. Alistar). This can become an issue not only in lane, but also the rest of the game. A buffing or self-buffing champion like Alistar or Lulu is also much harder to get kills on, and therefore you may be expecting a dash reset that never comes.\n To reiterate, if you have faith in your Samira mechanics, I would say your next concern should be the supports.\n I don't pay as much attention to ADC matchups, as they generally don't make me suffer as much, but some additional thoughts:\n Samira is not a 1v1 ADC. If you were to drop a Samira bot into baron pit at lvl6 vs a lvl6 Vayne or Tristana bot, my guess is that Samira loses. If you want to thrive, keep your support, jungler, or top laner glued to your hip. In teamfights, wait for the enemy to use CC + assassination tools (I'm looking @ you, Hecarim!) even if it makes your tanks suffer a bit at first.\n A disadvantageous ADC-to-ADC matchup can be fixed or made worse by the support matchup. Understand and Utilize this kind of dynamic. For example, Caitlin may outrange Samira (+ most ADCs), but that won't matter if your support can bring Caitlin into melee range (Thresh hook) or can bring you to her (Lantern). I only blind pick Samira if I've communicated to my support that I need a specific type of support champion.\n Additionally, even in a disadvantageous matchup, there are ways to survive and make a sudden comeback with a single ult using Immortal Shieldbow. Samira's different forms of Q and fast AA animation lets you farm under or near tower very efficiently. Sometimes too efficiently, though, so be careful of over-pushing. To no one's surprise, I like to freeze right outside my tower range. If you have vamp scepter, don't be afraid to tank minions for a few moments. It'll pay off when your jungler ganks.\n However, Samira never benefits by pushing up to the enemy's tower unless you need lane prio for rotates/drag.\n Lastly... any lane is winnable, even the ones that look the worst on-paper. Communicate with your support and jungler, get your mid to roam and your top to TP. Even if your support doesn't synergize, Samira is a teamfight champion - stay optimistic, farm diligently. There's a 5-man ult waiting for you.",
+   "id": "ltdfba",
+   "comments": [],
+   "age_days": 2050,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Updated Samira Guide!",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/lofp5j/updated_samira_guide/",
+   "published": "2021-02-20",
+   "author": "/u/EzVeryReall",
+   "body": "Hey everyone! I'm Urason, a D1 ADC who loves Samira and tries to constantly find new info about her! I've talked a ton with people from the discord as well as a lot of personal research myself, so I thought I'd put it into a guide! As my \"coding\" skills aren't amazing, I tried to make it look as best as possible. It's still a work in progress but it has indepth itemization and matchup info! ❤\n https://www.mobafire.com/league-of-legends/build/11-4-urasons-stylish-guide-to-samira-quot-ha-i-win-q-592513",
+   "id": "lofp5j",
+   "comments": [],
+   "age_days": 2057,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Matchup Thread: Samira, the Desert Rose",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/ji76zu/matchup_thread_samira_the_desert_rose/",
+   "published": "2020-10-26",
+   "author": "/u/BugsBonnie",
+   "body": "",
+   "id": "ji76zu",
+   "comments": [],
+   "age_days": 2174,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Samira Itemization And Builds Test",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/j1bls0/samira_itemization_and_builds_test/",
+   "published": "2020-09-28",
+   "author": "/u/migania",
+   "body": "I wanted to test itemization and builds on Samira, only first 2 items for now but if a mod would pin this post i would update it with more items and polishing.\n Rules: No runes that would change healing or damage numbers (the \"minirunes\" are 2x Adaptive Force+1x Armor).\n Dummies have 60 Armor and 1500 health (approximate to a level 13 squishy character, tanks/bruisers will have about 10-20 more Armor and 100-300 more health).\n R has 2 points into it.\n Only 2 items, no Dorans Blade etc.\n To check the numbers i ulted 15 times on average each combination (i would do more but it takes a lot of time for now, i will try to do 50 attempts to get the numbers better but i dont know when exactly).\n Healing numbers include 3.8 health from health regeneration (2x1.9 at level 13 since the ult takes 2 seconds to finish).\n Items tested will be ER, IE, DD, BT, PD and Stormrazor in different combinations.\n Disclaimer: Any combination of x+DD also heals you for ~8 health per target on E and W so remember that.\n  \n ER+DD Damage: 73 | 147 per tick\n Healing: Varies between 40-60 per target\n 1 target clip | 2 targets clip | 3 targets clip | 4 targets clip | Theres a limit of 4 dummies\n ER+BT Damage: 82 | 166 per tick\n Healing: Varies between 160-220 per target\n 1 target clip | 2 targets clip | 3 targets clip | 4 targets clip | Theres a limit of 4 dummies\n IE+DD Damage: 76 | 172 per tick\n Healing: Varies between 50-70 per target\n 1 target clip | 2 targets clip | 3 targets clip | 4 targets clip | Theres a limit of 4 dummies\n IE+BT Damage: 85 | 193 per tick\n Healing: Varies between 180-270 per target\n 1 target clip | 2 targets clip | 3 targets clip | 4 targets clip | Theres a limit of 4 dummies\n Stormrazor+DD Damage: 67 | 134 per tick\n Healing: Varies between 35-55 per target\n 1 target clip | 2 targets clip | 3 targets clip | 4 targets clip | (Theres a limit of 4 dummies)\n Stormrazor+BT Damage: 76 | 153 per tick\n Healing: Varies between 155-215 per target\n 1 target clip | 2 targets clip | 3 targets clip | 4 targets clip | (Theres a limit of 4 dummies)\n IE+PD Damage: 60 | 137 per tick (Please not that its not worth doing ER/Stormrazor+PD since it will just be less damage)\n Healing: Not available\n Its just damage numbers so no need for a clip\n BT+PD Damage: 60 | 122 per tick\n Healing: Varies between 120-170 per target\n 1 target clip | 2 targets clip | 3 targets clip | 4 targets clip | (Theres a limit of 4 dummies)\n It might be good if you are behind while running BT first item build but nothing more than that. BT+Pickaxe+Cloak of Agility already outperforms BT+PD while being way cheaper. The shield from PD might be nice for some super shield build (more in Builds section).\n  \n Now what about BT as first item? (Dummy has 50 Armor and 1200 health, approximate to a level 9 squishy character. One point into R, 1.4 health regeneration/s) Is it worth to skip crit item for it?\n BT Damage: 55 per tick\n Healing: 114 per target\n 1 target clip | 2 targets clip | (No need for more targets)\n IE Damage: 55 | 124 per tick\n Healing: Not available\n Its just damage numbers so no need for a clip\n ER Damage: 51 | 104 per tick\n Healing: Not available\n Its just damage numbers so no need for a clip\n Stormrazor Damage: 45 | 90 per tick\n Healing: Not available\n Its just damage numbers so no need for a clip\n  \n To people saying IE+Vampiric Scepter+ER is better than going IE+BT:\n IE+Vampiric Scepter+ER Damage: 88 | 199 per tick\n Healing: Varies between 120-170 per target\n In comparision to IE+BT you get a 3 | 6 damage difference per tick (see above for IE+BT). This is barely worth it. You get 25% more crit which some may think is better but its really not, the sheer amount of lifesteal+shield you get from IE+BT is way more valuable than getting ER. You dont really need the cdr that much and for mana you just take a rune if you find yourself running out of it.\n  \n So what Samira should be buying with all the text above? IE vs ER vs Stormrazor as first item - IE will always outperform the rest. You scale very well with AD and crit so the IE passive just adds to that. ER feels like a trap that early because you wont use the CDR anyway and you can just take a rune if you struggle with mana. The only high mana cost for you is your R. The cost difference between all of them is 100-200 gold and IE gives you too much goodies to not take it. Stormrazor is the worst of them by far.\n First 2 items - IE+BT will usually be the default. The ad, healing and shielding is just way too valuable. ER/Stormrazor as first item both suck, they are just not worth it. Take DD instead of BT only when you REALLY can use the Armor and Magic Resists it gives (works best with Tabis+DD or Mercs+DD since it will make you very tanky against chosen damage type). Remember that you take Tabis/Mercs for the passives mainly, not just for the Armor/Magic Resists (Tabis against high auto attack based teamcomps and Mercs against hard CC heavy comps).\n BT/DD as first item - Since your Q (and AAs) can crit too, IE will be the best choice 90% of the time. If you need some super sustain heavy build (more on that in the Builds section) you can take BT first (for example against very high poke or very high sustain matchups when you dont have a similar support yourself). DD will mostly be worse as first item but it wont be super terrible if you can use the Armor+Magic Resist combo really well. Remember that DD gives way less healing in comparision to BT especially when you have less ad early due to less items.\n Boots - Tabis/Mercs are both very good if you can use them for the passives (or for stacking defensives since there really isnt any Best in Slot boots, more in Builds section). Boots of Swiftness are my default choice if i dont need Tabis/Mercs, the 25% Slow Resistance on them is very nice too. Berserkers Greaves arent good in my opinion, you dont scale with attack speed and if you struggle due to low attack speed just take a rune/minirune for it or a Dagger if you really need it. \n BT+PD - The only time you should get this is if you go BT first. BT+Pickaxe+Cloak of Agility will already outperform BT+PD. The shield from PD can be nice in some specific all in matchups but its still just better to go for BT+Pickaxe+Cloak of Agility for the damage and more healing since you scale really well with AD and PD isnt giving you any.\n For now thats it since i only really looked into 2 items.\n One item that im thinking about into very Armor heavy comps is Black Cleaver, the stats are only kinda okayish but your R will quickly shred the Armor. Dont build it before you have 2 or 3 items if you want to test it but if you build it after 2 make sure your first 2 items are IE+BT. You also shouldnt build it if you dont have good physical damage dealers, if you want to build Armor pen for yourself just go for Dominiks/Mortal Reminder. BC+ER will give you 40% cdr if you go IE-BT-ER/BC-BC/ER. I will test it, i just need more time, again, i will be updating the post with whatever i test and get more results.\n  \n Now for the runes. This is a standard rune page i run into even/winning matchups. Conqueror - Probably Samiras strongest rune. Damage+healing is good and she stacks it super fast.\n Overheal/Triumph/Pressence of Mind - All of the runes in this row are good depending on situation and preference. I personally take Triumph but i will test taking Overheal for early big shielding build (more in Builds section). I dont like Pressence of Mind but if youre running out of mana you can take it.\n Legend: Alacrity/Legend: Tenacity/Legend: Bloodline - Another row with good choices. I personally go for Bloodline or Tenacity if enemies have a lot of hard CCs. If you arent used to low attack speed for AA+Q+AA or keep cancelling your AAs then you can take Alacrity.\n Coup de Grace/Cut Down/Last Stand - Yet another good tree, Coup de Grace into not a lot of tanky enemies, Cut Down into a lot of tanky enemies. I didnt try Last Stand yet but considering the healing we can get from our builds it might be worth it, i didnt play enough to see how good it is yet but when i will ill edit the post to tell my thoughts. Theres also a trick to make Cut Down more worth it in lane, instead of taking Doran items you would go for Cull, this makes the bonus higher in lane but due to Samiras low base health and attack range it can be difficult to do , go for it only when youre 100% sure and only into matchups that allow it.\n For the secondary: Taste of Blood - Gives nice healing and heals more the later into the game you are. Not bad to have.\n Ravenous Hunter - This one was a bit tricky for me at first because it heals % of ability damage. Our R deals damage in ticks, meaning, instead of the whole damage you deal, you only heal from the tick damage every time it ticks (this is also why you might feel like DD isnt healing as much as it should). Its still worth to take it, it gets only stronger and stronger the later into the game you go same as Taste of Blood, it heals more the more ad and crit you get (since crit gives more damage when it lands) and the more targets you hit with R. This also will heal a nice amount of your Q and a bit less from W and E (depending on how many targets you hit with W/E).\n Minirunes: 2x Adaptive Force+1x Armor/Magic Resist - Depending on the matchup i swap the last one, either Armor or Magic Resist. Most of the time its Armor through. I didnt test Defense but i never liked it on any champion.\n This is a standard rune page i run into bad/super bad matchups. Fleet Footwork - Many say that its not worth it but to me it is. It gives you more survivability and makes you take 1 for 1 auto in trade (or 0 for 1 for the opponent) instead of 1 for 2 (or 0 for 2).\n Rest of the rows i already explained above.\n For the secondary: Second Wind - Its very nice for sustain, you get Dorans Shield into bad matchups too which will work nicely.\n Revitalize - From the sources i checked it works for lifesteal and other healing effects. Doesnt work for health regen (so wont work for Dorans Shield) but its still nice to take.\n Minirunes: 1x Adaptive Force+2x Armor/2x Magic Resist/1x Armor+1x Magic Resist - Again, depending on the matchup. I didnt test Defense but i never liked it on any champion.\n Different rune pages that i still need to test:\n 1 (link) - I dont know if Glacial can be strong on Samira but i had an idea that with the right support and matchup it might work for a very bully lane (in your favor). On second row either Perfect Timing or Magical Footwear. Third row Biscuit Delivery to combo with 4th row Time Warp Tonic.\n 2 (link) - Bone Plating+Revitalize secondary, either for very brawly matchup or for a super all in heavy matchup (in your favor).\n 3 (link) - Sorcery secondary. A lot of combinations, Nullifying Orb, Manaflow Band, Celerity, Absolute Focus, Scorch, Waterwalking, Gathering Storm. These are the runes that i will test. Some might be very good, some a bit less but still useful.\n  \n Other runes that might seem interesting:\n Sudden Impact - If you take a level 9 Samira with ER only against a dummy that has 1200 health and 50 Armor, the ultimate ticks will deal 53 | 108 damage per tick instead of 51 | 104 per tick (20 damage increase for a full ultimate with 0 crits and 40 damage with full crits). With IE its 57 | 129 per tick instead of 55 | 124 per tick (20 damage increase for a full ultimate with 0 crits and 50 with full crits). This will generally increase your ult damage by 3 with no crit, 6 with crit and 7 with crit if you have IE. To me its not really worth using, note that the more Armor the target has the less damage it will provide (because at higher Armor levels it requires more Armor points to get % to damage reduction so same goes for countering damage reduction with lethality).\n Phase Rush - Samira is already quite fast when youre stacked on passive so theres no need for it. Maaaaaaybe into some super slow heavy comps but i simply dont see a use for this rune.\n Press the Attack - Conqueror is just a better option.\n Electrocute - I dont see it worth taking, Conqueror is much better.\n Dark Harvest - Not worth it.\n Hail of Blades - Not worth it. You dont need the burst of attack speed, youre already doing fine without it or just with some rune/item.\n Zombie Ward/Ghost Poro/Eyeball Collection - All are pretty nice if you can stack them due to scaling from AD and crit, Eyeball Collection will be the easiest to do so. Personally, if i wanted to take it, i would take one of these + Ravenous Hunter.\n Relentless Hunter - Pretty good choice that i didnt test yet, not sure if Ravenous Hunter isnt just better but maybe its worth against some comps that have Hecarim+Singed or something like that when you need to run away. I think it will get nerfed soon through so i will see.\n Shield Bash/Conditioning/Overgroth/Unflinching - This might be a little crazy but in some scenarios they might be decent, i will probably test it when ill have the ocassion to do so.\n  \n Builds My typical build into even/winning matchups is this: This rune page but adjust Coup de Grace/Cut Down/Last Stand and the minirunes to the matchup\n Starting item is Dorans Blade+potion.\n IE-BT-ER-Stormrazor/DD/Dominik/GA-Stormrazor/DD/Dominik/GA (depending on what i need and picked before) with boots in between. Theres a bit of choices you can take honestly, Hexdrinker/Malmortius isnt bad (but dont buy it early). If you have DD+Hex/Malmortius+BT+Mercs you will be very tanky against ap characters. GA is super valuable especially when you consider Samiras playstyle, you can get it even as third item after IE+BT, having DD+Tabis+BT+GA will make you very tanky against ad characters.\n Skill order ir R>Q>W>E.\n Note that there will be some small changes in runes but they mostly depend on the matchup so the more you play Samira the easier it will be for you to choose and decide. If you dont know any specific matchups yet use this for even/winning matchups.\n My build into losing/very bad matchups is this: This rune page but adjust Coup de Grace/Cut Down/Last Stand and the minirunes to the matchup.\n Starting item is Dorans Shield+potion.\n The build pretty much goes the same except that i will get the Refillable Potion to not lose too much gold on potions whenever possible or needed.\n Skill order is R>Q>W>E.\n Note that there will be some small changes in runes but they mostly depend on the matchup so the more you play Samira the easier it will be for you to choose and decide. If you dont know any specific matchups yet use this for losing/very bad matchups.\n BT first item build: This rune page but it will change depending on the matchup. You can take Fleet Footwork+Second Wind in losing/very bad matchups or Conqueror+Bone Plating into even/winning matchups. Adjust Coup de Grace/Cut Down/Last Stand and the minirunes to the matchup too.\n Starting item is either Dorans Blade+potion or Dorans Shield+potion depending on the matchup.\n The build is the same except you go for BT first instead of IE, after that go IE.\n Skill order is R>Q>W>E.\n The playstyle of this build looks that you get Overheal+BT+Revitalize and after you finish BT you stack BT+Overheal shield and go looking for an all in (bonus points if you have stuff like Janna/Lulu for even bigger shield but its better to get an all in support instead). If the enemies are alive after the all in you just go back to farming until you have the shields again and so on and so on.\n This is the only build you should go for PD second if you want the shield from it for whatever reason but if you do it you wont be able to get Hex/Malmortius so remember that. Its usually better to just go for IE second because Pickaxe+Cloak of Agility already outperforms PD.\n Shield Bash/Conditioning/Overgroth/Unflinching: This needs a lot of testing so i have nothing to say about it yet.\n Sorcery secondary: This needs a bit of testing so i have nothing to say about it yet.\n  \n  \n Questions: 1. Why is there only PD? What about other Zeal items? Samira isnt scaling with attack speed so the only stat from these items would be crit or the uniques. The uniques are pretty bad outside of PD (movement speed and shield but remember it wont stack with Hex/Malmortius). Since Samira already has rather high movement speed in combat (which you can also boost with certian runes) i dont feel the need for it, the shield is nice through but i feel like it gives too little to be able to compete with other items. Statikk isnt proced on your Q or R crits and it cant crit making it not worth it. Hurrican isnt giving anything to you but a funny thing is, it will proc in melee range even through when you use shapeshift heroes like Nidalee it wont proc in cat form. Firecannon is slightly better than Hurricane but still not worth it. In short: PD >>> Firecannon >>>>> Statikk=Hurricane.\n 2. Why are Berserkers Greaves bad? Again - Samira isnt scaling with attack speed, its better to go Tabi/Merc/Swiftiess. She already gains a bit of attack speed on her E.\n 3. Why are you not running anything for attack speed, isnt even a little bit useful? The later into the game the less attack speed will give you since you already will have higher attack speed and your E gives you attack speed too. Get attack speed rune/smallrune if you feel like you need it or Berserkers Greaves if you dont need Tabis/Mercs but i dont recommend it. The only little bit of attack speed i buy is when i get Stormrazor but i dont buy it for the attack speed.",
+   "id": "j1bls0",
+   "comments": [],
+   "age_days": 2202,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Thoughts on Samira",
+   "url": "https://www.reddit.com/r/SamiraMains/comments/iiwkuc/thoughts_on_samira/",
+   "published": "2020-08-29",
+   "author": "/u/Ghst_Wahle",
+   "body": "I am Katarina/Yasuo main, but was an adc main before and stopped playing adc because I prefer the play style of resets and low cd dashes (I mained Vayne but preferred the longer range of Kat's blink and the power of Yasuo's 1v1 in lane ). Holy shit. I'm back to an adc main. Samira/Vayne main now. (or in a couple weeks when I can actually play Samira). \n ​\n Now let me explain what I think of Samira (trying to not just go \"these are the abilities\")\n ​\n Old kat w (sort of) with yas w. Katarina e in almost every way apart from being a dash instead of blink. Katarina R and I assume a quadra will almost always bring back to 'S' status being able to ult again (like Katarina's passive reset with r cd, a quadra is enough to reset r again.). Q is much like Yasuo q, but I assume it will be longer range, and also like Yasuo, when cast with e, it becomes aoe. She also has an interaction with knock-ups, only in this case, she is knocking up after someone else immobilises them, instead of interacting with the knock-up itself.\n The q cd at max rank is an unbelievable 1.9 seconds without cdr, whether or not this is going to scale with cdr is unknown. Something interesting is how her attack range is technically the longest lvl1 , being able to dash to a target to auto attack at 800 range (with an immobilise), but this can probably be countered simply as she has got the worst range for adcs. along with Lucian, as all others with 500 attack range have ways to extend their range, (kog w, sivir w and tristana passive) So this means within the lane, I assume she will not be the best vs poke, as almost every adc will be able to poke with no return. but then again, if for example it was a caitlynn, if the cait was in kill range the Samira can e onto her and use melee damage to kill cait then e out into saftey, blocking any skillshots that come her way, that is where learning her damage will be SO important, much like katarina. Bad matchups will be dealt with by q'ing to get cs (like katarina) as I assume the q range is longer than her attack range. \n ​\n Supports: I believe agro supports will be good with Samira, her passive will mean playing in lane with a thresh, leona, naut, will be excellent (also swain). if Samira Can get close, with her support cc'ing, I assume the damage numbers at melee with combo'ing will be perfect to 2v2 when the enemy get caught by the naut q leona e etc. Particularly thresh, although the cc thresh gives will be hard to combo Samira's knock-up, the lantern will allow for aggressive plays without feeling naked with no escape, thresh lanterns you into a fight, and if you cant get a kill, you e out, not risk of not getting a kill and not being able to escape. And Samira R and thresh R are a true wombo-combo.\n Imagine getting 3 people inside thresh r and Samira takes the lantern straight into the action, r's (having stacked it already) then e's onto anyone that escapes, getting q melee and passive melee damage down plus e attack speed -which I hope stacks- \n My current thoughts on builds:\n PD seems to be important in many champions that engage like Samira, but PD early doesnt make sense as it gives no damage. Essence reaver seems extremely good as a first item if q scales with cdr, the cdr damage and crit seem perfect to synergize with her q and w(cdr) when you need damage, the other option is just raw damage; IE. But including the cdr, essence reaver might allow for more dps.\n But, it could be situational, if you are winning lane hard maybe going for an ie first could pay off\n ER>IE>PD>w/e This build may become standard\n Fed in lane? IE>ER>PD>w/e But I still think that the raw damage is not as good as the cdr that essence reaver gives.\n I was also thinking about stormrazor, but came to the conclusion that her e attack speed is double that of stormrazors, so it would only be built for the passive, but her range is so low anyway; there would be no proper way to trigger it. By the time its been triggered, you have already e'ed onto them... Most champs that take stormrazor are very long range, (Tristana and Caitlynn).",
+   "id": "iiwkuc",
+   "comments": [],
+   "age_days": 2232,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  }
+ ]
+}

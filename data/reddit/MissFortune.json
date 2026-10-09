@@ -1,0 +1,835 @@
+{
+ "champion": "Miss Fortune",
+ "subreddit": "missfortunemains",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "Bad matchups",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/1watiyy/bad_matchups/",
+   "published": "2026-09-08",
+   "author": "/u/Celis78429",
+   "body": "Hey so I'm a fairly new player (EDIT: Build advice would also be very welcome! I find I usually run either hubris or bloodthirster first.",
+   "id": "1watiyy",
+   "comments": [],
+   "age_days": 31,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Couple of housekeeping questions",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/1vc2kbp/couple_of_housekeeping_questions/",
+   "published": "2026-07-31",
+   "author": "/u/Silent_Storm505",
+   "body": "Hi guys! I’ve been having a lot of fun spamming MF these past two patches, and I just had a couple questions to improve my play. \n What skins feel best on MF? I’ve been using MVP T1 almost exclusively since it came out, and I know that MF isn’t an AAer, so it might not be as prevalent as on Ashe or Jinx, but what skins are commonly agreed upon that feel good to kite/play on?\n What rune page is best on her? Is it matchup dependent? I’ve been running exclusively Dark Harvest with the Hubris + Collector core, and for the most part, I’ve been seeing good success numbers-wise, but I’m wondering if there’s another keystone that works better into certain ADCs or supports. \n What’s the best way to maximize damage early? Late game, you run around and Love Tap squishes, and use LDR to shred through tanks, but early game…is it more effective to use the ATK Speed boost on Strut and shoot champ, minion, champ, minion? Or is it better to just shoot the champ like a normal ADC? \n Thank you all so much for any help!",
+   "id": "1vc2kbp",
+   "comments": [],
+   "age_days": 70,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "DeathFire touch on MF",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/1u0gzk8/deathfire_touch_on_mf/",
+   "published": "2026-06-08",
+   "author": "/u/Zealousideal_Fall513",
+   "body": "Hi i just went on dpm.lol to look at how the one tricks were playing mf and the 1st guy on that list was consistently using death fire touch (he is grandmaster in Korea). Has anyone tried this ?",
+   "id": "1u0gzk8",
+   "comments": [],
+   "age_days": 123,
+   "recency_weight": 1.0,
+   "topics": [],
+   "stale_items": false
+  },
+  {
+   "title": "When do you choose First Strike + Lethality and when PTA + BT?",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/1to2tuo/when_do_you_choose_first_strike_lethality_and/",
+   "published": "2026-05-26",
+   "author": "/u/realmadrid911",
+   "body": "There are two popular build paths on MF:\n First Strike: Hubris -> Collector -> IE\n Press the Attack: Bloodthirster -> Collector -> IE\n Some people also prefer to skip Hubris and rush Collector or Ghostblade instead.\n My question now is: In which matchup or against which team comp do you prefer the one over the other?",
+   "id": "1to2tuo",
+   "comments": [],
+   "age_days": 136,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What runes to take?",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/1srgfmj/what_runes_to_take/",
+   "published": "2026-04-21",
+   "author": "/u/Ok_Vegetable_3053",
+   "body": "I have a hard time thinking about runes should I take for a specific matchup. Can you guys help me out?",
+   "id": "1srgfmj",
+   "comments": [],
+   "age_days": 171,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "MF builds",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/1qyqhx2/mf_builds/",
+   "published": "2026-02-07",
+   "author": "/u/Clessx3",
+   "body": "Hey I recently started playing MF and I am a bit lost. I see they recommend going First strike, but sometimes I see people taking PTA with her. Should I just go FS every game or any specific matchups I should be taking PTA? Thank you.",
+   "id": "1qyqhx2",
+   "comments": [],
+   "age_days": 244,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Tier 3 boots or selling for a 6th item?",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/1jietk9/tier_3_boots_or_selling_for_a_6th_item/",
+   "published": "2025-03-24",
+   "author": "/u/TheNewFnafPlayer",
+   "body": "The debate about buying tier 3 boots always goes in the direction of buying them last. So I ask, should I upgrade my boots to tier 3 as part my build or should I sell it for another item? And in what matchups should I do it?",
+   "id": "1jietk9",
+   "comments": [],
+   "age_days": 564,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "The best miss fortune build",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/1dhtlfp/the_best_miss_fortune_build/",
+   "published": "2024-06-17",
+   "author": "/u/Adventurous_Click984",
+   "body": "Hi guys, making this post because I see a lot of build posts and just wanted to share my thoughts. Ive been able use this build in Challenger with great success. The runes are: First strike- free boots-biscuits- jack of all trades. Double scaling in the sorcery tree and double adaptive with flat hp. In lane, this is a trade and run heavy setup: widdle your opponent down playstyle not meant for all ins unless you have a super strong support like pyke. Playing around trade windows and not using your e to just proc first strike is important in lane. I think jack of all trades is better than cosmic insight because I majority of the time take barrier now which already has a low cooldown. Plus, with just d blade, dirk, and rectrix you have 5 individual stats granting you more adaptive force. The build path is opportunity-collector-ie/ldr-edge of night/essence reaver/bloodthirster. You want to rush opportunity always. its is a really cheap spike similar to what statik shiv is now but for mf. it gives lethality/ad/and movt speed plus extra burst when you trade on an enemy champion after being out of combat. With this spike I usually am able to win lane or explode the game vs adcs still trying to finish collector/ie/ or whatever other crit item thats built first. even kraken is atleast 300g more. collector second is an always for me. third you go either ie or ldr depending on what enemy champions are picked and how strong you are compared to them. 4th you go whichever you didnt build third. I usually buy swiftness boots after I complete ie, no matter if i build it 3rd or 4th. sometimes Ill buy swiftness boots after collector if they have crazy mobile champs or champs that can get onto you easily like yone, naafiri, tryndamere etc. lastly, Ill build essence reaver or edge of night. I like edge of night more for the spellshield and extra ult damage. You can buy bloodthirster last too if you really feel like it but ive never built it this season on mf.\n Some tips: Always try to setup a recall on item component spikes or item spikes. MF w ability is really op, and you can use it to be faster with items than your opponent. setting up dirk recall early and rectrix recall can be very good for snowballing a lead and then getting opportunity. same with collector, youll want to get another dirk spike and recall when you have bf sword.\n using your e to proc first strike before you ult is good in most scenarios but not every scenario. try to make sure first strike is up when you ult.\n -heal can be better than barrier in some lane matchups where u really need to get out of range of the enemy once you trade like into some draven lanes, twitch, or ashe lanes but I rarely take it.\n those are the only tips I have outside of general miss fortune knowledge.\n my opgg is https://www.op.gg/summoners/na/KENNY%20IS%20ALL%20IN-KT1x?queue_type=SOLORANKED\n you can look at the build there if anything is confusing.\n I really dont suggest going full crit- other champs do that better (aphelios, cait, jhin) and going lethality is your second best option although hybrid is better right now because of the crit buffs. I used to go full lethality last split and had good success with it.\n This build is very well rounded in your q damage, auto damage, and your ult does a lot because you have good lethality, armor pen, and crit chance. I think its quite practical for any rank too because the amount of damage you deal is truly 1v9. Miss fortune one of those simple champs who have clear weaknesses in high elo so if this champ can work there, it should work in lower elos where enemy teams underestimate dmg, facetank ults, and dont make space around her ult.\n My favorite part about miss fortune is that you dont really have to buy defensive items because movement speed is her defensive item.\n EDIT: AS SOON AS I MADE THIS POST THEYRE BUFFING MISS FORTUNE BUT NERFING OPPORTUNITY. HOPEFULLY THE BUFFS ARE GOOD",
+   "id": "1dhtlfp",
+   "comments": [],
+   "age_days": 844,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "MF's New Core and Alternative Items: A Comprehensive Chart",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/1cskymn/mfs_new_core_and_alternative_items_a/",
+   "published": "2024-05-15",
+   "author": "/u/pa5tacat",
+   "body": "Hi I am a emerald mf one trick. https://www.op.gg/summoners/na/horsin-horse\n I wanted to share some of my thoughts on what a Press the Attack build on MF will look like in most games for the 14.10 patch. This is a flexible build, so you can still choose any item if certain prerequisites are met.\n ⭐**Core items are Collector and Infinity edge every game for all builds.**⭐\n ⭐Runes⭐ (Note: I like to win lane, and biscuits help make that happen but Gathering Storm and Absolute Focus are options. Also I opt for free boots as they help you reach your two item spike faster.)\n Note on FIRST STRIKE: There may be a world where this rune is still used against teams that you know you will never be able to apply PDA. However, since lane phase and snowballing are so important, I think PDA is still the best choice in almost all situations. Also, First Strike received a bit of a gold nerf.\n https://preview.redd.it/e6bl4dspwn0d1.png?width=646&format=png&auto=webp&s=0cf80c29fd68c0a806a1ba6d00d5ebd33d6f06d9\n 🗡️❤️Option 1 🗡️❤️ - Original theory, tested well but option 2 feels better to me.\n https://preview.redd.it/wqhnw49nhm0d1.png?width=722&format=png&auto=webp&s=3b412a3782f5f59ff6622446e4abc0f67118ba56\n ⭐Option 2⭐ (faster damage spike) - this appears to be the strongest at snowballing you with two items.\n https://preview.redd.it/ij9jnqppym0d1.png?width=772&format=png&auto=webp&s=63e693d33fd00f294ed49f1226237e0bcdef1f8b\n 🛡️Option 3🛡️ VS** health stacking tanks with heartsteel, warmogs, unending despair, overlord's bloodmail etc**\n https://preview.redd.it/y1dsbx7lvn0d1.png?width=796&format=png&auto=webp&s=602b607825b2ceb3af3ede132bc530770e61ba0b\n Example game and item choice explained:\n The theme here is that you customize your build according to the matchups. Here's an example game where the Gragas + Nautilus + Malzahar crowd control was very difficult to handle, so I paused building crit and opted for Edge of Night. It not only saved my life, but I also used the shield to bait out Nautilus pulls, which then resulted in an easy pick.\n https://preview.redd.it/k9rjqnnz5v0d1.png?width=740&format=png&auto=webp&s=4b9ecb60a6fc25b155cf48f98f300313f45712dd\n It's not max damage but it was what I needed to secure the win for my team. Get your core items, then shape the rest around key attributes the enemy team has:\n IE + Collector then:\n Tanks - go anti tank\n CC - go spell shields\n Sins- go life steal, burst, shielding,\n Squishies - go lethality\n Can't auto attack- go items that amp your ultimate\n ⭐Core/most common choices Name Role Notes Build Order The Bloodthirster🗡️❤️ Defensive, Offensive(Trading), Utility, Movement Speed(strut), MF ❤️'s the Damage Profile The shield helps maintain your \"W\" strut passive. Core item. Great with enchanter supports. 1-2 or never The Collector⭐ Core, MF ❤️'s the Damage Profile AD++, Lethality++, Crit+. Excellent all-around choice. 1-2 Infinity Edge⭐ Core, Damage Stick, MF ❤️'s the Damage Profile AD+++, Crit+, Crit Damage++. Typically the 2nd or 3rd choice after The Collector. 2-3, 5 Lord Dominik's Regards / Mortal Reminder⭐🛡️ Core, Damage, Anti-Armor/Anti-Heal AD++, Pen+++, Crit%. Opt for Mortal Reminder against heal-heavy champions (Vlad, Lillia, or Darius...). 3-4 Boots - Berzerker -> sell for Yoomus Core (End Game), Attack Speed Transition to Yoummus - sell boots credit u/aCuria 2-3 -> 6 Alternative Items (Situational) Name Role Notes Build Order Edge of Night Anti-Squishy, Defensive HP + Spell Shield. Acts like a permanent Morgana spell shield. 3-5 or never Yun Tal Wildarrows Surprise Bleed, Core, max damage build AD++, AD passive++, CRIT++. Stacking bleed passive amplifies damage significantly after acquiring substantial AD. 4-5, or never Yommu's Ghostblade / Opportunity Anti-Squishy, Lane Dominance, Defensive More damage with Opportunity; better utility with Ghostblade. 1 or 6 (sell boots) Serpent's Fang Anti-Shield Essential against champs like Riven or teams with multiple shields. - BORK🛡️🗡️❤️ Anti-Tank, On-Hit Crucial against teams with 2-3 tanks; synergizes with other on-hit items. - Essence Reaver Damage, Sustain, Crit Used to give CDR, now helps with mana. Fun for builds, but not the top recommendation. - GA Defensive, Endgame Purchase, Good Against Assassins Can be sold and repurchased as needed based on passive cooldown. 4-5 or never Kraken Slayer🛡️ AD, AS, Damage Passive, ant-tank Low Health Damage Passive. Losing the crit isn't ideal, but shines in specific game scenarios. on-hit passive can be good vs tanks that you can auto attack while staying safe 1,2 or never Immortal Shieldbow AD, Crit, Defensive Shield Passive, Anti-Assassins. More AD and crit, less lifesteal. Alternative to Yun Tal Wild Arrows/Essence Reaver/Kraken Slayer. 3-4 or never Other Mentions Name Role Notes Build Order Manamune / Muramana Offensive, Sustain AD++, great with Comet for early-game E poke strategy. Best when synergizing with a poke support against non-healing/shield opponents. Still great, but not as important anymore due to Blue Buff being a free passive after 20 minutes. 1, 2, 3 Mercurial Scimitar Defensive High AD, excellent against pesky mages like Kassadin. 3, 4, 5 Today's Results:\n https://preview.redd.it/dr1z2tmp9n0d1.png?width=745&format=png&auto=webp&s=0b073f79601b5af2956d11cc696262d79ef6a715\n Updates\n ----UPDATE: Added Option 3 (vs tanks)After facing a 6000k health dr mundo it's clear you need kraken, bork and LDR/Mortal or you will lose.\n ----UPDATE: After a bunch of games going Collector into IE feels way more powerful then starting BT. You spike faster and since ADC scales better, it's hard to lose if you win lane.",
+   "id": "1cskymn",
+   "comments": [],
+   "age_days": 877,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "I feel like MF does significantly less damage than other adcs",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/1c0pqv7/i_feel_like_mf_does_significantly_less_damage/",
+   "published": "2024-04-10",
+   "author": "/u/Razberriezz",
+   "body": "I know her ult is a power-house, but as someone just starting to play her, I feel like in most matchups I get mowed down and I can't really punish people well. Am I just playing her wrong?",
+   "id": "1c0pqv7",
+   "comments": [],
+   "age_days": 912,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Season 14 Guide",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/1afxgvk/season_14_guide/",
+   "published": "2024-02-01",
+   "author": "/u/StrangeGamerHD19",
+   "body": "Any good MF guides for this season? Got into ranked this year and managed to climb from iron to gold with relative ease. Have a 61% win rate but starting to plateau, going win-lose win-lose. Usually, win my lane matchup but struggle to translate that advantage into mid and late-game. Struggling to adjust my build to suit opponent's team composition, there is always either a chonk who I cannot burst down, a shield fest champ who negates a lot of my damage or I just get assassinated/CC'd to smithereens. I feel like using my ultimate makes me a sitting duck and cannot seem to get the right positioning/timing. Any tips would be appreciated.",
+   "id": "1afxgvk",
+   "comments": [],
+   "age_days": 981,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Comet build theorycrafting",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/16jne29/comet_build_theorycrafting/",
+   "published": "2023-09-15",
+   "author": "/u/aCuria",
+   "body": "So i was looking at how 당신의 아이돌 plays MF - https://www.leagueofgraphs.com/summoner/kr/%EB%8B%B9%EC%8B%A0%EC%9D%98+%EC%95%84%EC%9D%B4%EB%8F%8C - https://www.youtube.com/watch?v=98yea_fJ0Lo\n Note that he runs Comet and PTA (not first strike). \n This is in line with my thinking about the current meta, I do not really like the first strike build.\n Mana Sustain For Comet builds we need some kind of early game mana, because E is a rather expensive spell. He seems to use these strategies: - Dorans Ring + 2 pots, very old-school build that MF used as far back as season 2/3 ish to spam E - Tear + 2 pots, he completes manamune 2nd or 3rd item\n Tear - Buy : 400g - Sell: 280g (120g loss) - Effect: +240 mana \n Dorans Ring - Buy : 400g - Sell: 160g (240g loss) - UNIQUE – DRAIN: Restore 1 mana every second, increased to 1.5 for 10 seconds when you damage an enemy champion. If you cannot gain mana, Heal power icon heal for「 45% of this value 」instead. - Breaks even with Tear mana after ~3-4min\n However I am theorycrafting that there is actually a super greedy (and old school) option, the 350g tear + refillable was considered OP and was nerfed by riot, but Fairy Charm can play the same role...: \n Fairy Charm + refillable (or 5 pots) - Buy : 250g - Sell: 175g (75g loss) - Effect: +50% base mana regeneration, - MF has 8 + 0.8/level base mana regen, so fairy charm is worth +4-5 mana/5s early game - Breaks even with Tear mana after ~4min\n Runes 당신의 아이돌 Takes these runes:\n Comet - Manaflow - Focus - Scorch\n Cheap Shot\n Either Ultimate Hunter or Treasure Hunter\n Double adaptive minor runes \n However... I do not believe in the Treasure Hunter rune in this context. Treasure Hunter's gold can be converted into 12.8 ad, while using eyeball collector instead gives us 18 ad. \n I dislike gold generating runes because at full build, gold generating runes have no value since we cannot convert the extra gold into stats. It is therefore better to take stat runes if the two options are equal in value \n I do think ultimate hunter is pretty interesting. My computer simulations have difficulty evaluating the value of \"utility\". From playtesting, with ultimate hunter and axiom we can spam ult at a very high frequency. This is important because with comet runes our damage with autos is much weaker than with PTA.\n Items His build seems to be: - Tear start - Duskblade, Berzerkers, Manamune, Edge of Night, Axiom, Serylda's Grudge, Zhonyas (!!) - He may build Edge of Night first (!) depending on matchup.\n After trying to improve this with computer simulations, I came up with this:\n Fairy Charm start (greedier than Tear, works the same for me) \n Duskblade, Boots1, Axiom, Bloodthirster, Last Whisper Item, Edge of Night\n Sell Boots1 for Collector or Zhonyas\n Edge of Night built first into CC\n Prefer LDR into tanks and Mortal into healing, otherwise Serylda's\n The idea is to respect 당신의 아이돌's playstyle, but improve the build for lower elo games. - Changed: Rune setup with Treasure hunter changed to Eyeball Collector. - Copied: Rune setup with Ultimate Hunter - Changed: Fairy Charm is more mana than Tear if we stay in lane longer than 4-5min. This certainly happens in low elo. Allows greedy refillable start, or more pots for sustain. - Copied: Duskblade start - Changed: Manamune changed to Bloodthirster, because computer simulation says Mamamune is weaker and from playtesting I know I do not need mana mid game. - Copied: Axiom always built before Collector for the utility - Copied: Edge of Night built first into CC - Changed: Serylda's Grudge not built blindly - Copied: Situational Zhonyas - Added: Collector if Zhonyas is not needed",
+   "id": "16jne29",
+   "comments": [],
+   "age_days": 1120,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How to counter Ezreal?",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/1512dqd/how_to_counter_ezreal/",
+   "published": "2023-07-16",
+   "author": "/u/JeffHuy225",
+   "body": "As a Miss Fortune main for past 3 months, I found matchup with Ezreal is like a living hell. His E dodge my Q,R and can easily finish me in 1 or 2 combo.\n Any advice to counter Ezreal?\n Most of the time, i tried building up lethality to increase dmg per shot as he is hard to shoot.",
+   "id": "1512dqd",
+   "comments": [],
+   "age_days": 1181,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "mf mains what is your hardest matchups both adc /sup",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/zckn5c/mf_mains_what_is_your_hardest_matchups_both_adc/",
+   "published": "2022-12-04",
+   "author": "/u/Several-Leopard-4672",
+   "body": "",
+   "id": "zckn5c",
+   "comments": [],
+   "age_days": 1405,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Saw CoreJJ (autofill adc) maxing W first on Korea server",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/ye0okp/saw_corejj_autofill_adc_maxing_w_first_on_korea/",
+   "published": "2022-10-26",
+   "author": "/u/AndersonKalista",
+   "body": "Is it underrated? The matchup was Miss Fortune & Sylas vs Nautilus and ? (don't remember adc unfortunately). \n This was from an old stream before worlds and he did his 1st Pick'ems.\n Thanks.",
+   "id": "ye0okp",
+   "comments": [],
+   "age_days": 1444,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Variations of build based on matchup",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/uvbilk/variations_of_build_based_on_matchup/",
+   "published": "2022-05-22",
+   "author": "/u/Cute_Assumption8472",
+   "body": "Hi there! Does anyone know a trust source of how to build MF based on enemy adc? I would love to know how to change my build in this way",
+   "id": "uvbilk",
+   "comments": [],
+   "age_days": 1601,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "This build will be OP",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/uskfe4/this_build_will_be_op/",
+   "published": "2022-05-18",
+   "author": "/u/dangrebsan",
+   "body": "I'll share a build i'm spamming for MF in my 2 acounts for a week with absolute success right now. I'm excited about it because i'm getting over 70% WR with it in my 2 accounts (mid silver MMR).\n It's a build that revolves around the Umbral Glaive potential, an idea proposed by Phill (MissFortuneDaBes) in his \"One-Shot\" build, btw, all credits to him:\n Playing this always makes me feel like i have more damage potential that i should have in every step of the way. All the vampirism, and also rushing the Tear in combination with UG's haste also provides a lot of safety since i'll have Make it Rain and Strut always available.\n The build antecipates the damage nerf we'll get on path 12.10, and I firmely believe it will go a long way, but we will see.\n Runes\n Primary Runes: Dark Harvest / Taste of Blood / Zombie Wards / Treasure Hunter\n Secondary Runes: Magical Footware / Biscuit Delivery\n The idea is to make good use of ZW (consider the Umbral Glaive) and TH. DH is a long known primary rune for MF, and ToB is choosen opposed to CS because the build will bet a lot on vampirism.\n Itemization\n Start with LS + 3 pots and then:\n Serrated Dirk -> Umbral Glaive -> Tear -> Vapiric Scepter -> Eclipse -> Beserker's Greaves\n Vapiric Scepter -> Last Whisper or B.F.Sword -> Bloodthirster or Lord Dominik's Regards\n Sell Umbral Glaive -> Buy Infinity Edge\n Complete Manamune (It will immediately improve to Muramana)\n Sell Boots\n Choose Between: Mortal Reminder, Serpents Fang, Edge of Nigth or Guardian Angel\n Playstyle Notes\n TL;DR is up to this point, so read the following if intrested ;)\n The idea for this build is to have something as forgiving as possible for low-elo players, as well as to provide unconventional \"power spike momentum\" in the curse of the match, bugging the minds of low-elo opponents.\n The Umbral Glaive is the center of the concept, since it will provide you with 50 AD, 10 Leth and 15 Haste, way before your opponend is expecting such a spike in lane. Even with farm around 6.5Cm i manage to build it somewere between 8 and 10 min. \n Biscuits is the reason we'll go Inspiration path secondary, since it give us the capacity to really compete with the opponent for 1st base time, the idea is to also make everything possible so we win on CS, amplifying the potential of a strategy built around this first item.\n We play very safe at the beggining, so we can focus on farming. Prefer zoning-out to early all-ins. Remeber that if you are simply even to most other ADCs in CS/Kills, very soon you will bring a Glaive to figth a Noonquiver + Boots/Pickaxe, so you don't really need that early kill.\n Whenever we come back with the Glaive, (or even SD+2LS), we turn the key and commit to a very aggressive playstyle in lane. Trading kills evenly is already a great advantage since we will be building into the OP Eclipse path. Spam abilities, go for the figth and back fast to get Mana back.\n You can get the Tear before you go into Eclipse if, like me, you are terrible with Mana management, and you can rush a dagger too (or even Beserker's outwright) for that sweet AS when you are facing a Lucian/Ezrael/Tristana and having a hard time using the Ultimate.\n Side note for those weird matchups is to always remeber that Glaive gives you absolute safety to go roamming the map, so going for that suprise gank in mid/top can go a long way! Also remember:\n Clear wards, Clear wards, Clear wards!! (mind ZW ans it's sinergy with UG)\n Leave the lane around 18~20min (late, i know, be patient) with UG/BG/Eclipse/Tear and we are golden. Our Ultimate really hurts, our A-Q-A combo slaps and you can go for smart mid-game rotations trying to secure picks and objectives. Even if your team is trowing, you can very often turn the game around with good tfs and picks.\n The building path from here starts to vary. Normally getting the VS next for that sinergy with ToB is very nice and provides safety for our ward clearing/pick-off roams. Then if you have a fed Tank go Whisper and if not B.F.S. Complete BT ans LDR, and finnaly sell our UG to finish your Infinity Edge securing that \"apex of a powerspike\" to fight the late-game.\n To wrap it up, you complete your Manamune to make good gold use of that early Tear. If it comes to it, you can sell boots for one of the utilitary items i proposed. We could rush one of those before 6th item of course, if the situation requires, but mind slot management please.",
+   "id": "uskfe4",
+   "comments": [],
+   "age_days": 1605,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Why W Start? Which matchups?",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/unlejm/why_w_start_which_matchups/",
+   "published": "2022-05-11",
+   "author": "/u/WizardXZDYoutube",
+   "body": "I've seen a lot of people go W start in some games and some go Q start. (And obviously some go E start when they go Comet -> E max)\n But what does W start give over Q start? I feel like the AA reset on Q is always better in short trades and even in long trades it's comparable, especially with your low base AD.\n The movement speed is amazing in teamfights but level 1 I really don't care for it.",
+   "id": "unlejm",
+   "comments": [],
+   "age_days": 1612,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "when should I build manamune?",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/t5brw4/when_should_i_build_manamune/",
+   "published": "2022-03-02",
+   "author": "/u/mitsurito",
+   "body": "I’ve been trying to learn mf (and ad in general) for like two weeks now and have been copying pro builds on u.gg but have seen a handful of games where they go manamune. I looked at ad and support matchups for the game and it seems completely random when they chose to go the item or not. I wanted to see if anyone in this subreddit had some insight that Im missing that can help me out",
+   "id": "t5brw4",
+   "comments": [],
+   "age_days": 1682,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "MF Build",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/rb7aqa/mf_build/",
+   "published": "2021-12-07",
+   "author": "/u/-Ryuga-",
+   "body": "What's in your opinion the go to build right now?\n I usually go for First strike against easy matchups (550 range ADCs mostly) and PTA against the remaining. I go comet only when I can't reach the enemy without putting myself in danger (Twitch Blitz, Draven + Strong Enchanters and Long range ADC + Poke Support)",
+   "id": "rb7aqa",
+   "comments": [],
+   "age_days": 1767,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Options for backup picks?",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/ps4mwv/options_for_backup_picks/",
+   "published": "2021-09-20",
+   "author": "/u/Chase2020J",
+   "body": "Hello everyone, I've been playing support for the last year and a half (started league two years ago) and have gone from Bronze to Gold maining support. However, I decided I wanted to switch roles and on my quest for a new place on the right I got MF in an ARAM, and although I've played her before, something just clicked with her kit and got me addicted. I've been spamming her in summoners rift for the last couple weeks with great success and a lot of fun and I've decided I want to main ADC and one trick Miss Fortune. I have learned a lot about game knowledge and macro while being a support main due to coachings, youtube, and high elo friends, and one of the biggest things that has annoyed me is how inefficiently people farm in my elo, and as a support I can't take the farm for myself to win games. I want to rely more on myself and also improve my mechanics, as that's the biggest weak point in my gameplay, so that's why I think adc is the right fit for me. With that backstory all out of the way (I apologize for rambling), my question is;\n What champions would you recommend for me when I can't play Miss Fortune, whether because she is picked or banned or she's terrible in the comp. I want to one trick her for the most part, but I also want a backup pick and an emergency pick. I want to keep my pool very small and for the most part focus on MF, as a large champ pool really hindered my learning when I played support. Some of the ADCs I've been thinking of are Ashe, Tristana (When I started the game I mained these two), Caitlyn, Varus, and Ezreal. I'm not a big fan of Vayne, Samira, Draven, or Lucian because I'm not very talented mechanically and I feel like they're harder to pull off. Ezreal is also similar, but I feel like I'm somewhat decent at him and I worry I need either him or Xayah in my pool to play versus dive comps, so maybe he could be my emergency pick. For a backup, I think it's best to have either a hypercarry (Either Jinx or Kog'Maw) to contrast the lane bully style of MF, or someone who counters MF in case it's picked against me, but ik adc matchups matter much less than any other role matchup. Varus and Tristana feel pretty good to play, and as I said I have some experience on Trist from a couple years ago. Sorry for such a long post, but I'd love to hear your opinions and any advice you have about maining MF. Thank you!",
+   "id": "ps4mwv",
+   "comments": [],
+   "age_days": 1845,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Looking to speed up my learning curve a bit: Which matchups does MF win early, and which does she lose?",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/op1mjf/looking_to_speed_up_my_learning_curve_a_bit_which/",
+   "published": "2021-07-21",
+   "author": "/u/shaidyn",
+   "body": "Hey, folks! I'm hoping to draw upon the wisdom of several hundred MF games played, before I play those games.\n One of the biggest piece of information I've learned over the course of the season is which matchups I win on my main (Zyra), and which I don't.\n So in the case of MF, which ADCs can she win an early all in against, and which will send her back to the fountain?\n (I know that bot lane isn't a 1v1 against ADCs, but I know supports way better than ADCs, so I can do that math already).",
+   "id": "op1mjf",
+   "comments": [],
+   "age_days": 1906,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "MF damage source?",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/oih1px/mf_damage_source/",
+   "published": "2021-07-12",
+   "author": "/u/DisappointedZoe",
+   "body": "Hello fellow MF mains, i really wanna play mf and main her , been having fun with her lately can i please get detailed info bout her pros cons and where does her dmg come from and whats best matchups , how well does she scale , crit orr lethality, if crit why BT second item? etc.. ty",
+   "id": "oih1px",
+   "comments": [],
+   "age_days": 1915,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Help with MF builds",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/ogupjn/help_with_mf_builds/",
+   "published": "2021-07-09",
+   "author": "/u/Straight_Ice_5191",
+   "body": "Hi guys! It has been a while since I haven’t played her and now I’m a bit confused about what to build.\n Here’s the different ones I am running: -Conqueror with kraken against tanky team -Pta with galeforce against team with 1 tank or if the lane matchup seems hard -Dark harvest with galeforce against all squishy team\n Is this the way to go or do i have it wrong? And also, is lethality build still a thing?\n Btw i alway 3 point Q into W max.\n Thanks :)",
+   "id": "ogupjn",
+   "comments": [],
+   "age_days": 1918,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How do i build on MF?",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/nsznhj/how_do_i_build_on_mf/",
+   "published": "2021-06-05",
+   "author": "/u/varuas120",
+   "body": "Mf build looks like a mess to me. On u.gg and op.gg the builds are with PTA and Conqueror but different skill orders. When I have to take PTA? and when I take Conqueror?\n The skill order should be Q>W>E>MAX Q>MAX W>MAX E right ? On blitz app I see streamers and pro maxing things randomly (I even saw someone not lv up Q or W until E maxed and then Max the other ability unlocked ). What is the pattern with abilities?\n And the itemization is also strange i see mostly Kraken or Galeforce but the in game clint want me to build Eclipse or Duskblade when i have conquer(Eclipse is not bad I think). Kraken is for killing tanks, i got it, but the other mythics?\n What i have to look in the matchup to decide the build? or anything is working on mf now ?",
+   "id": "nsznhj",
+   "comments": [],
+   "age_days": 1952,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Worst matchup",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/mc1phv/worst_matchup/",
+   "published": "2021-03-24",
+   "author": "/u/Snir17",
+   "body": "Who's your worst matchup in lane? Your absolute nightmare to play against as MF? For me it's Kaiss. Always perma ban her cuz no matter what I do, I lose. Especially against Kaisa and Leona. That's a living hell to play against.",
+   "id": "mc1phv",
+   "comments": [],
+   "age_days": 2025,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "MF recap",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/j0ogda/mf_recap/",
+   "published": "2020-09-27",
+   "author": "/u/tomaka19000",
+   "body": "Hi guys! Ive been out of league for a several months, and i wanna recap. What build suits her better? Crit? Let? Both? I mean i know when is 1+tank i should go crit and so on, but i ask for overall. Dark harvest or PTA? Are new combos or new synergies? Should i pay attention to a certain matchup?\n Thanks!",
+   "id": "j0ogda",
+   "comments": [],
+   "age_days": 2203,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "MFDB Lane Matchups",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/im1rvi/mfdb_lane_matchups/",
+   "published": "2020-09-03",
+   "author": "/u/drackmord92",
+   "body": "Hi there,\n Here is a spreadsheet of the MissFortuneDaBes videos I watched so far, with identity of ally support and enemy adc and support:\n https://docs.google.com/spreadsheets/d/1615wm6VZmyxjlLRwJXIUVumwuaHijqbiCrjQ05SHorU/edit?usp=sharing\n To sort by ally support, enemy adc or enemy support, just click on\n Data > Filter views > Create new temporary filter view\n I also plan to update this daily, at least for the forseeable future, so feel free to bookmark this post if you find it useful.\n Why?\n If you care why this even exists, it's because I'm very new to League of Legends and I'm working very hard on climbing the notoriously steep learning curve of the game, and also getting very encouraging results mainly thanks to this guy, whose video I watch daily before my own games and it's only thanks to him that I'm grasping all the basics this fast.\n In particular, in this period I'm putting a lot of effort in learning laning phase matchups, so I found myself maintaining this spreadsheet in order to be able to quickly re-watch a specific matchup if I find myself struggling with it often.\n P.s.:MFDB, if you are reading this post, thank you so much for your content, you really are the reason why I find this game so entertaining to learn.",
+   "id": "im1rvi",
+   "comments": [],
+   "age_days": 2227,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Miss Fortune Mid- The Journey Begins: Getting Started",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/hrkeb5/miss_fortune_mid_the_journey_begins_getting/",
+   "published": "2020-07-15",
+   "author": "/u/ItsDenver",
+   "body": "This is a poorly put together mini guide to Mid MF from the games I've played. The guide expects you have basic Knowledge of MF and her abilities.\n Runes:\n I find this page to work very well as its quite well rounded.\n Summoner Spells:\n Very Safe-Flash/Heal\n Aggressive-Flash/Ignite\n Frequent Trades-Flash/Barrier( Counters ignite. My favourite)\n Items:\n ​\n https://preview.redd.it/64hc7p9dcza51.png?width=462&format=png&auto=webp&s=6f1aca5785371d182f406b97366cc06b66c4a584\n Youmuu's and Duskblade are amazing for this build and i get them every game. \n Next I'd get a Black Cleaver as it provides Health, Armour Shred, Movement Speed and Cooldown Reduction, all stats useful for MF.\n\n Death's Dance is such a good item at the time of this post as it keeps you save from burst, gives you some resistances and provides some life-steal.\n\n Sanguine Blade is for when you're ahead and it turns you into a pseudo assassin,letting you pick off isolated targets that aren't smart enough to run from you.\n\n Mortal Reminder is your anti-heal,anti-tank item that you build situationally.\n Blade of the Ruined King is a great overall item granting you great attack speed, attack damage, lifesteal, and % health damage.\n Infinity Edge is not useful as it is on a crit build for MF but nevertheless it can potentially increase your damage.\n\n ​\n Abilities:\n Ability Sequence-R>Q>W>E However i start W due to the increased mobility and waveclear potential. \n The Love Tap passive makes your auto attacks hit hard when you poke.\n Q is your strongest poke tool but I'd recommend only attempting Qs you're sure you'll hit as it's easy to go overboard and run out of mana. \n Only ever use the W active when you're in a fight or in a winning engagement.\n E is pretty much only used for the slow or to safely proc a Dark Harvest stack.\n ​\n Dark Harvest:\n I started off playing MF mid when i initially discovered the wondrous world of Dark Harvest. This rune is such a powerful tool that keeps you relevant deep into the late game. there's nothing quite like 2 shotting the Lucian who thinks he's safe because Yuumi's on him. I can't stress the importance of making sure you're actively getting stacks during the laning phase. I find simply trying to proc love taps and crit Qs should keep the enemy at the 50% hp level at all times. An easy way to proc it if they're under 50% but you want to be safe is with your E.\n ​\n Laning Phase:\n To make good use of Dark Harvest you need to be constantly applying pressure on the enemy laner. your love taps allow you to exert this pressure by simply auto attacking them whenever you can. I may make an extended matchups guide at a later point. Being an ADC inherently MF has no problems CSing however most mid laners will have better wave clear than you. This isn't much of a problem though as it allows you to set up caster minions for crit Qs without worrying about pushing the wave. NEVER and i mean NEVER push the wave unless you have adequate vision. MF has next to no mobility excluding her strut and Youmuu's at a later stage. If a good jungler finds you out positioned you will be absolutely helpless.",
+   "id": "hrkeb5",
+   "comments": [],
+   "age_days": 2277,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "New member question: are Dark Harvest lethality build & Botrk W max build still viable?",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/gx1w2t/new_member_question_are_dark_harvest_lethality/",
+   "published": "2020-06-05",
+   "author": "/u/monosolo830",
+   "body": "I have played MF occasionally all the time but only recently I wanna use her to climb in ranked.\n So for now I’m sticking to the mainstream PtA crit build, but I know there had been alternatives. \n I want to know whether the dark harvest lethality build and the botrk W max build are still viable in certain matchups?\n Thank you:)",
+   "id": "gx1w2t",
+   "comments": [],
+   "age_days": 2317,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Mf Jack of all trades build",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/fqcdb2/mf_jack_of_all_trades_build/",
+   "published": "2020-03-28",
+   "author": "/u/xXenocrona",
+   "body": "Just going to get straight to the point.\n 2x B.F Sword, boots of choice, choose whatever best suits the situation you're going into. You have 80ad for 2600g and earlier strategical options without losing damage (as long as your gold gain is consistent though that's a case for any damage focused champion). Tons of cc? A quick silver sash and/or an edge of night will do you nicely, need a bit more survivability to go along with that overheal rune? Get an early lifesteal item or turn one of those bfs into bloodthirster. Maybe you're dealing with a metric crap ton of burst in laning phase and/or lvl 6 onwards? Grab a stopwatch and decide whether it'll be enough or if you think a GA/zhonyas will be best. If you feel as if you're doing fine and just want them big crits then finish that essence and ie in whichever order you want and move on from there. Rune options is up to you. For me, I'm using comet even though I used to bash it back when it was considered mf's best rune though for matchups without extremely oppressive supports I prefer pta.\n Current opgg https://na.op.gg/summoner/userName=bermudar",
+   "id": "fqcdb2",
+   "comments": [],
+   "age_days": 2386,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Crit or lethality??",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/f3icya/crit_or_lethality/",
+   "published": "2020-02-13",
+   "author": "/u/TheUncutGem",
+   "body": "Am gold 2 been cruising spamming crit builds on the fortune. Have been getting flamed occasionally for not going lethality. Obviously what works works and i like the usual crit build, but is there any Matchups or specific times it would be good to go lethality? Or is lethality straight up better im curious for your opinions!",
+   "id": "f3icya",
+   "comments": [],
+   "age_days": 2430,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Hybrid Support Build?",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/ejzmoh/hybrid_support_build/",
+   "published": "2020-01-04",
+   "author": "/u/BluePantera",
+   "body": "Hey friends. I picked up MF over the weekend and started running her in the support role. I've seen others do this as well but 99% of the time it seems to be full AD builds. I understand that she's an AA beast and her Q scales the best with AD items, but I started to toy around with a hybrid build and I was surprised by the results. Her Q still scales with AP albeit not as well, and both her E and R get better with AP items. I truly believe she's viable as a poke mage support with heavy hitting autos to boot.\n Keep in mind I'm a noob, so this may be a stupid way to build her as a support but I wanted to hear your thoughts.\n RUNES\n Originally I was using PTA with Overheal, Alacrity, and Last Stand. Secondary runes were Boots and Approach Velocity. But then I tried using Glacial Augment on her and holy crap...it's actually really good. Adding a slowing AA to her already stacked kit is quite nice.\n BUILD\n So this is the hybrid build I've been winning with. This obviously depends on the matchup but I've won against tank supports and enchanters with it.\n Start Sickle. First item is going to be Black Cleaver. If you're facing a squishy lane then you can replace BC with Umbral for the OP vision passive. Second item is Rylei's or Ludens. Third item would be either what you didn't get second or Liandrys. Then I go Youmuus, Nashors, and Duskblade.\n It's not a maximum lethality or damage build, but throwing in the AP items gives bonus damage while providing utility. I love all the things a MF can do as a support with this build. I never see this build anywhere but it feels so strong in low ELO.",
+   "id": "ejzmoh",
+   "comments": [],
+   "age_days": 2470,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "All builds currently",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/csospe/all_builds_currently/",
+   "published": "2019-08-19",
+   "author": "/u/limebuster",
+   "body": "​\n I did try the manamune build and it seems quite good even though its odd, i took pta with sorcery second from this: https://youtu.be/Nr7Upx_s7OU?t=106\n I did hear of a build which involves 3/4 IE's and ER and i am yet to try this but do let me know if you have!\n ​\n realistically you might need to change runes depending on matchups but anyways here they are! Please post any builds that you have come across that you think are good so we can share them to the community :)",
+   "id": "csospe",
+   "comments": [],
+   "age_days": 2608,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Questions about dark harvest",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/924f0n/questions_about_dark_harvest/",
+   "published": "2018-07-26",
+   "author": "/u/Fr0gmin123",
+   "body": "As dark harvest is a popular choice for MF currently, I want to try it out, I just have a few questions about it.\n Is the empowered attack’s bonus damage based off your total number of souls or the number of souls of the last thing you just killed (eg a larger camp just cleared would mean more dmg)\n\n If another teammate is using DH, and I helped him clear a camp or take drag etc, could I accidentally steal his souls or are they shared for both of us?\n\n What rune path do you guys usually take when using DH? I’m also guessing sorcery as the secondary rune but not sure.\n\n How long around does it take to reach 150 souls?\n\n I tend to play MF a bit passively, does DH promote a more aggressive play style?\n\n Compared to the other MF runes, is DH all around a better choice or is it dependent on matchups?\n\n Thanks for any help!",
+   "id": "924f0n",
+   "comments": [],
+   "age_days": 2997,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Returning to play MF",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/8wjlgb/returning_to_play_mf/",
+   "published": "2018-07-06",
+   "author": "/u/mood-2000",
+   "body": "Hello all,\n I used to spam MF a lot, but after 8.6 where they tweaked the Duskblade I stopped playing her. And now I want to play her again, so I have a few questions regarding her builds and gameplay. I tried to see pros and high elo players builds but they built differently and couldn't figure the best one.\n What is the best builds path for her? And what is there any situational build paths?\n What are the best runes?\n As I remember, MF was a lane bully against most ADCs, and after laning phase you should try to stay with your team to be able to land your ultimate on the enemy team. So did any of that change?\n What are her bad matchups right now?",
+   "id": "8wjlgb",
+   "comments": [],
+   "age_days": 3017,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How are you guys playing mF in this meta right now?",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/8vg5ax/how_are_you_guys_playing_mf_in_this_meta_right_now/",
+   "published": "2018-07-02",
+   "author": "/u/Sirenprince",
+   "body": "I probably just suck with her or I'm doing something wrong. On nerfplz.com she moved to God Tier ADC but honestly I don't get it? I don't feel useful even with Lethality after I get GB and DB because they usually have tanks or bruisers and I do 0 damage to them (mostly Garen, annoying as shit!). I know you're not supposed to build lethality vs tanks but with crit items nerfed I'm not really sure what to do. Pre-crit rework I always preferred crit mf and I never liked lethality anyways. \n I started taking Dark Harvest after people stopped going Comet, not sure I'm used to it yet, but I'm definitely not doing any of those 1 shot kills that I see people posting around here. And I would never go Conqueror because it's really gimmicky. \n So I guess my questions are, what items do I build if they have tanks/bruisers? Do I build these items even if they only have ONE? (1 garen for example). But the thing is that one single Garen can keep you busy and tank you/zone you for an entire fight. Should I take a different rune if they have tanks? Should I take PTA? Her Q applies a stack of it right? What do you do in hard lane matchups? Like when you get counterpicked (Draven, ugh). This one last match I tried going back to the roots and going Comet and maxing E to deal with Draven and I'm not sure if it worked (obv I didn't pick MF into Draven he picked before me :/ ).",
+   "id": "8vg5ax",
+   "comments": [],
+   "age_days": 3021,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Matchup/Support Synergy Megathread: Miss Fortune, the Bounty Hunter (x-post from r/AsheMains)",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/8vfj4z/matchupsupport_synergy_megathread_miss_fortune/",
+   "published": "2018-07-02",
+   "author": "/u/BugsBonnie",
+   "body": "",
+   "id": "8vfj4z",
+   "comments": [],
+   "age_days": 3021,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Matchup: Miss Fortune, the Bounty Hunter",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/8ujo0c/matchup_miss_fortune_the_bounty_hunter/",
+   "published": "2018-06-28",
+   "author": "/u/Antenoralol",
+   "body": "",
+   "id": "8ujo0c",
+   "comments": [],
+   "age_days": 3025,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "New to MF, Dark harvest or Aery?",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/8ql4i8/new_to_mf_dark_harvest_or_aery/",
+   "published": "2018-06-12",
+   "author": "/u/drnick5",
+   "body": "HI Folks, I'm an ADC main that basically only played Cait/Jinx/Tristana for the past 2 seasons. With the crit changes I played around with a few ADC's and have fallen in love with MF. (currently on a 9 game win streak!)\n I looked at probuilds and have been running her with Aery, but I've seen some people playing her with Dark harvest. Is this matchup based? or just playstyle? Aery seems pretty good in lane, with DH giving you more late game damage. \n Which item do you rush? I've been going Duskblade> Ghostblade> Black cleaver> LDR> Guardian Angel with Zerkers grieves somewhere between my 1st 2 items. \n Any help would be appreciated!",
+   "id": "8ql4i8",
+   "comments": [],
+   "age_days": 3041,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "I'm Zap, a mid main who's been playing Miss Fortune mid, here's my thoughts and guide.",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/8ps8rj/im_zap_a_mid_main_whos_been_playing_miss_fortune/",
+   "published": "2018-06-09",
+   "author": "/u/AnthonyBEScott",
+   "body": "Hello everyone. I go by Zap. I'm a mid main who flexes ADC as my off role. The type of champions I really enjoy are casters who can still AA in between spells. Champions like Jayce and Corki are among my favorite mid laners. Since the changes to crit, I've been looking for another ADC champion to pick up in bot. I've heard that comet was good for make it rain, so I tried it out and had a lot of fun. The next game, I got to play my main role and they picked Talon. I wanted to play something that was hard to all in, and can match his roam, while also making it impossible for him to farm, this is when I realized that MF was actually the perfect pick to counter Talon. 10 games later, 10 victories later, the opinion that MF is a viable mid solidified. I started to pick MF into champions I've had trouble with in the past, such as Lux and Xerath. They can't hit me if I'm too fast. They can't fight me unless I let them. I can clear and roam faster than 95% of mid laners. MF mid, is an insane pick and I'm actually fucking blown away nobody is talking about this. So, here's my guide. \n Let's first talk about runes. Because without these specific runes, I don't think this would work. I'll explain my thinking. \n https://imgur.com/a/zSTXEEA\n These specific runes make MF mid viable and oppressive. Let's run this down. Comet, is just for harass. It's piratically up every time you have \"Make it Rain\" up. Which you will spamming off cooldown to stack Manaflow band. When fully stacked, you regen mana which lets you stay in lane longer. Celerity I feel is obvious. Extra movement speed + Miss Fortune? Sounds great. You get extra AD from it, it's nice. Always take it. Waterwalking is imo a must. I see the argument for scorch, however your job isn't to 1v1 your laner. You want to push, and roam. When you get boots of swiftness, you can out roam 95% of mid laners, and you bring a lot to a gank. Also you get free stats when you are contesting river objectives, which is important. \n Now on to the most controversial bit. My second tree. I always buy Long Sword and refillable pots as my starting items. With Tonic, you get more out of your pots and extra movement speed which is helpful (which synergizes with Celerity btw). I take biscuits because it's just extra sustain and gives me mana back/increase mana permanently. The longer I stay in lane, the more I can hold my opponent hostage from backing, the better. I can just about outlane any mana mid laner, until they have to back on a bad wave, which always puts me ahead. I don't mind staying in lane longer than normal because my first back, is always a big first back, which snowballs the game from there. \n BUILD\n With the changes to Crit, I'm honestly not sure if it's worth it. Games are shorter, crit is too expensive and it's weaker than it was before. You don't really need it. Lethality is king. It's cheap, it's immediately effective and it makes your ult disgusting. \n Starting Items Long Sword and Refillable pots. Always. This is the most economic and efficient start. You will never spend gold on pots again and long sword builds into Dirk. You don't need sustain from blade because of runes.\n First back Depending on who I'm laning against, I'll either prioritize Dirk or Boots of Swiftness. I've yet to have a game where I wasn't unable to buy either on my first back. I almost always have at least 1200 gold. If I'm playing against a poke champion, I go swfities first. If I'm laning against an easier opponent, I go dirk and boots. \n Importance of Swifties I can't see a scenario where other boots would be better. It gives you so much speed, which makes your roams oppressive with your passive and riverwalker. It also makes it even harder for your opponent to get to you. You run so fast in lane, it's just about impossible to engage on her. She can farm safely because she can walk in and out so quickly, you won't have an opportunity to trade with her. And if someone were try to contest you farming, you throw down make it rain which plasters them with a massive slow and decent damage. \n Rush Items I always rush Ghostblade. It makes roaming even better, and getting in and out of situations more easy. Gives you more control over your positioning. You want to get to a spot where your ult is impactful, while also at the same time, being able to disengage on any bad encounters. Then I rush afterwards Duskblade for ward control and extra damage. \n Later Build As I said earlier, crit feels bad to build and is extremely expensive. I'm not sure it's worth it when there is much cheaper items that benefit MF as well. This is the what I call the \"flexing\" stage. Where just about anything I build is tailored for the game. I don't repeat the same build every game because it's the \"best build\". Everything is situational. However that being said, I do find most of my games, building a Blade of the Ruin King, 3rd feels REALLY nice. Gives you attack speed, and damage on AA when you don't have your empowered AA. It works well against tanks, helps you take objectives and the active is nice when coupled with everything listed above. However, today I'm going to play a lot of MF mid, and test whether or not Stormrazor is a better third purchase. From what I can tell, it always Crit on Q bounce. Which could be interesting. \n Items that are also good to get are Black Cleaver, Death's Dace, Last Whisper item (Must buy imo at some point), GA, Night's Vowel, Rapid Fire Cannon\n Let's talk laning phase and how you're supposed to play MF mid. I spam \"Make it Rain\" off cooldown because comet is timed to be just about the same. I try to get \"Make it Rain\" casted in center mass of my opponent, so they have to walk the furthest distance to get out of, maximizing the damage you do. Because of the slow, it's a 99% guarantee you're going to hit them with comet. It's free real estate. Luckily your first biscuit arrives right around when you have 90-120 mana, and manaflow should be completed on your last \"Make it Rain\" before you would go oom. When manaflow is completed, you will now regen mana, so you can keep spamming \"make it rain\". If you are playing against a melee mid, such as Talon (my favorite match up), everytime they go for CS, slap him with that massive slow and damage, you can walk up to him and AA + Q for decent damage and he won't be able to trade back. Against more traditional lanes, like against a Lux, abuse your movement speed and dodge her abilities, and use \"Make it Rain\" when you can, however unless you're absolutely sure you can, don't go for an AA or Q on them. Some matchups, you have to play safer than normal and bait out spells. The hardest match up imo is against LB because she has the ability to jump you and not fuck around with your \"make it rain\". So what I do is I'll walk forward and back, trying to bait her to use her jump, and when she does and it's unsuccessful, then I'll hit her with everything because she can't trade back. If you're hit with a spell, it will turn off your movement speed passive, just reactivate it with W and continue on with your business. You want to have it on as long as you can to maximize your lane control. The moment you lose your speed, is the moment your a shit tier adc playing in mid. Try to keep it up as much as possible. If you have too, back off and wait for it to come back up. When you get your first back, start trying to push and roam. \n The Power of Push and Roam\n Right now the best mid laners are champions that can push and roam, get the game to snowball. Luckily MF is built for that. It's easy to push and roam. Throw a \"make it rain on the wave\" and last hit the minions with your empowered AAs, then head top or bot. If you go through river, you'll be so freaking fast. By the time you reach either lane, you'll have \"make it rain\" back up, and you throw that down when you gank, which will always almost blow flashes to get out of the oppressive slow, and if they don't have it, they are dead. You are a burst champion. So just AA + Q them, and if you got dirk, that will do a lot of damage, but you should also have your ultimate if you need it, which is great to bring bot. \n What abilities do you max?\n Always max \"make it rain\" first. You want the slow and the damage. Yes, it's ap. But you want this be as impactful as much as possible. My issue with Q is that imo, it's unreliable damage, it also makes you step forward to use. \"Make it rain\" has a large AOE and you can cast it very far away. If you're being engaged on, throw it down and walk away. If you're being ganked, throw it down and walk away. If your JG is ganking your lane, throw it down and blow a flash or secure an easy kill. But the best part is if you throw this slow in the middle of a team fight, it's so potent. You can take advantage of that slow to use your ultimate, which gives you the most out of it. It's harder for them to walk out if they are slowed. The best part is the slow doesn't scale off of AP. It's a flat amount and because of this, you get the most out of it when it's maxed first. Second, max Strut because it increases your movement speed and attack speed. Which makes her safer and increases her total damage in team fights. My issue with Double Up, is that when you max it, you only get up to 100 base damage. It still scales at 1.0 at all ranks, so why even bother maxing it if it still deals great damage, without increasing the total amount by much? It also does a lot of damage if it crits, even when it's rank 1. It also applies on hit effects, so when you build a Blade of a Ruin King, you get full benefit from it. \n EDIT: I forgot to include summoner spells. Tbh, it's situational. Sometimes I run ignite, heal, TP or exhaust. It doesn't really matter that much. Just always run flash, and try to pick the best summoner against their comp. \n And that includes my guide. I'll answer any questions you may have. I'm a Gold player and since picking this up, I've climbed quite a bit. I haven't experience a situation where I felt she was weak as a mid. She's strong all game and provides a lot of the same tools other mids do, but with a different style. I expect MF to rise more and more, the worse other ADCs get. \n For full disclosure, I have yet to lane against a Zed, Fizz or Yasuo which I think will be absolutely bad matchups. I would not pick MF into those 3 champions. I don't usually blind pick MF either. I usually only pick MF is I think she will do good in lane and benefit the team comp. However I feel she's good in most games. \n http://na.op.gg/summoner/userName=%C5%B9ap",
+   "id": "8ps8rj",
+   "comments": [],
+   "age_days": 3044,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "MF Q Max playstyle Super guide V8.8",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/8dyfr3/mf_q_max_playstyle_super_guide_v88/",
+   "published": "2018-04-21",
+   "author": "/u/DahNoobie",
+   "body": "Small guide for you guys hate or love it I don't really care\n  \n Hello. I figured writing a small guide about MF as I just wanted to share some of my knowledge. I feel there are plenty of clueless people who don't really understand the way MF should be played or even how to build her.\n  \n So who am I? Why you should listen to my guide and information?\n  \n I'm pretty long time MF player from EUW. I started maining MF in the season six. Season seven I basically OTP'ed MF and season eight has been same. Obviously I can play other champs, and I often do as of the fact I happen to own pretty much accounts. ( Just got one account from d2 - d5 playing Quinn mainly ops). I consider myself to be in top 5. MF players in the world. There is one korean, or two - not entirely sure are the account owned by same person or not, one NA guy, and bunch of people in smaller servers at d1 / master - but I for fact know the skills level of those servers. Also, many of those people don't really play 90% of games as MF -but have rather abused MF when she has been in good state. (preason comet lethality buff good example patch.) They do not like actively play MF.\n  \n So okay I'm 90% of the time at the elo range of Diamond 2 - Low master. @ EUW.\n  \n Peak 200lp\n ATM D2 (Mainly D1 to be fair)\n Reached master during regular season, preseason, early season.\n Got a lots of experience from climbing at low elo especially at MF - done it extremely often (perma smurfing hehe).\n Current main account I will be linking only had last season D3 as of the fact my main got banned last season end. (Was d3 with 52/18 WR) Didn't even play MF that much LOL. And yes before anyones asks, I'm relatively toxic in game and passive aggressive.\n  \n My main account OP.GG.\n http://euw.op.gg/summoner/userName=jebahdonttalk\n  \n Few screenies of my master's / random pics to create bit more reliability. https://pbs.twimg.com/media/DVjg74nXkAABEzR.jpg:large (this season master) https://pbs.twimg.com/media/DLpIgycWAAEMEpX.jpg:large (random d2 acc last season) https://pbs.twimg.com/media/DPK8s6aWkAAxJna.jpg:large (preseason master s8) https://pbs.twimg.com/media/DDIoPJRWAAA-Uwh.jpg:large (first master s7)\n  \n Guide itself\n  \n Runes\n  \n I personally feel there are two ways to play Miss Fortune.\n The comet extremely ultimate focused build and play style along with comet lane dominance E max (I feel this is too ulti heavy and team reliant way to play)\n\n Aery / (Conqueror / PTA) - More flexible hybrid version of AA'ing and ulting Q max playstyle.\n  \n\n This guide is HEAVILY focused on the option 2. I feel its the best way to play MF. And in my opinion the way to go. Going to explain later on.\n  \n But currently as of Patch V8.8 I would highly suggest running Aery with Precision. Page would be. Aery + Manaflow + Celerity + Gathering Storm. Alacrity and Coup De Grace from Precision. I also mentioned Conqueror and PTA which works as well especially in the lower elo. In my opinion Aery > Conqueror > PTA. Conqueror works extremely well in especially easy matchups and in lower elo where people come to trade really stupidly. But also requires sharp eye to get that juicy true DMG to your ultimate and can be rather difficult. But is also works extremely well dominating lane.\n  \n So more in depth about why rune choices are these. Well. MF Is without doubt - early / mid game champion. Aery in general is good pick to establish more dominance during lane phase where the champion shines. And as this guide is about Q max MF. Proccing comet with Q max is rather awkward. And phase rush is obviously out of option. Manaflow band got recently upgraded and its extremely good on MF. You should be easily getting 4-8 stacks before your first base out of it. Ultimate hat is good, but MF wants lane dominance. Celerity is chosen single handedly to dodge ganks and get more pressure / dmg off during lane phase. Both options, Absolute focus and CDR rune would be extremely nice, but gank avoiding and general movement speed is too much to give up on. As what it comes to Gathering Storm - this one is more of an personal preference. Scorch is extremely good option as well. But I take Gathering Storm for that few AD, and as I also feel confident - if the game manages to slip late game to be able to be useful with that AD it gives - especially at 30 / 40 min mark. But feel free to use Scorch - this is 100% my personal preference. Precision runes are self explanatory. Obviously using Cut down when enemy team comp looks beefy is better than Coup De Grace. And Alacrity with it.\n  \n Matchups\n  \n It's extremely hard to compare bottom lane 2 v 2 matchups - as the trend currently is that bottom is heavily focused lane by both teams. Lots of 3 v 3, 4v4 and even 5v5 skirmishes even during laning phase happen. But generally speaking at the current patch 8.8. MF is pretty weak champion. There is no denying it. But in terms of soloque - there is not really any champion that isn't viable ATM so thats not excuse.\n  \n Generally speaking in terms of most 2 v 2 bottom lane matchups - MF should be the one dominating the lane because MF is extremely strong early game. MF is easily denied by tanky all in supports. (Alistar, Tahm Kench, Braum good examples.) In the end MF is extremely flexible what it comes to supports - because of the super strong lane phase. I personally try always banning CAITLYN or XAYAH. Xayah / Rakan is absurdly broken - and Caitlyn is annoying to deal with and has pretty similar goal in terms of lane as MF - To dominate it. Also Caitlyn + Morgana / Janna giga broken lane to lane VS. Hate it.\n  \n I personally feel like I can work with any support champions because of my experience. But personally feel like you should avoid laning with ANOTHER IMMOBILE AP MAGE OR SUPPORT. These are just examples. (These lanes are in terms of DAMAGE and DOMINANCE extremely strong - but you REALLY need to know what you're doing.) (Velkoz, Brand, Soraka, Sona, Nami.) You should get the point - these lanes work - if you're AWAKE and good at dodging ganks and having deep vision and information of enemy jungler position often.\n  \n For not so good MF players what it comes to lane matchups. I really suggest having support champion that can all in, but also save you from ganks - making you a lot more harder to camp and kill during lane phase (you're immobile and often applying a lot of pressure botside) Examples: Janna, Alistar, Tahm Kench, Karma, Lulu, Thresh, and so on. You should get the idea. But this and earlier text don't often matter - as of the fact its soloque and people just pick stuff they want to play. But if you for example have a duoq this should be helpful especially if you struggle dying often at lane.\n  \n It's hard currently to tell what ADC champions you should win and lose at bot because MF is kinda weak at the moment and bottom lane is always at least 2 v 2 lane. But directionally speaking you should. \n Win: Tristana, Twitch, Lucian, Kalista, Kog, Vayne, Jinx, Sivir, Ashe, Ezreal\n 50/50: Draven, Varus, Caitlyn, Jhin\n Lose: Xayah (especially if with rakan), Kaisa, and from 50/50 to add from here, Varus, Caitlyn too.\n  \n Laning\n  \n On lane you should focus poking enemy down with the extremely simply Q from creep with or without execute. Or AA -> Q -> AA combo directly if enemy comes in range. Also keeping eye on your manaflow stacks, but still maintaining to punish enemy when he last hits. I personally avoid using E at all costs as Q max MF. And only use it in ganks, saving my support, setupping for him or jungler and so on. Or catching people during mid game and so on. But as poke, never use it. Your Q deals superior DMG and costs less mana if you manage to bounce it even without execute. \n Also pay a lot of attention to stacking your manaflow band. Its extremely good for MF, and remember if you have lane dominance - you can easily base a lot earlier than enemy bottom does first time. Taking 2x longsword, longsword + boots, longsword 2x + boots, or dirk or something. You should have the pressure of the lane and especially in lower elo you can sneak base really easily, and enemy will be still scared - are you in bush trying to cheese them - or did you actually recall to base. Allowing you not to miss a lot of experience. And MF really does not need BF or pickaxe from first back - you can just stack longsword. And I highly suggest all of you to abuse REFILLABLE POTION during laning phase. It helps you to recover from certain trades, and you don't have sustain as MF but this potion makes up for it. It also resells for 60 gold. It is extremely good item for MF. Dont be afraid to base often, MF really scales off eve out of 2 swords. But this requires pretty much game knowledge - when its stupid - and when its good to base etc.\n  \n MF is kind of denier champion? Kinda. You need to focus on draining enemy dry during lane phase, shove and deny at tower when they base dumb - freeze and zone when you get opportunity. Basic lane control gets you extremely far. There are plenty of guides about wave control and for example proper recall timings and when to freeze, when not to and so on. Search stuff like this at youtube or something - this would take too long to explain. You should be the alpha male of the lane pretty much always setting the phase. Also AS MF Q drags minion aggro - abuse bushes. Poke from there - or force enemy bot to waste a ward there. Try cheese from bushes, especially if you manage to get the optimal situation of getting Drakthar during lane phase. \n !!!DEEPVISION IN ENEMY JUNGLE DURING LANE PHASE!!! \n This is extremely important. You're immobile champion. You need a lot of warning time and information about enemy jungler. On blue side when you have a good opportunity - try sneak a PINK WARD to their blue and use it there. From red side - try getting pink ward at river, at their golem bush or even at red. Every tiny bit of information enables you to abuse your lane harder and being the dominant early lane champ you're supposed to be. But do not overextend like idiot - no ward, support or team member will save you at that point.\n Laning itself as MF should be pretty easy. You're the bully of bottom lane. Only thing I can really say is that using your ult as zone tool can save you or your support during ganks as well - or your jungler. Your ultimate is extremely powerful tool and it can be used to zone and rescue team members too. At lane - and outside of lane. \n And especially in low elo - many bottom lane takes so harsh poke and dmg out of you - that you should be able to turn a lot of 2 v 3 ganks to your favour - or be completely ungankable as enemy keeps taking free damage during lane phase.\n  \n Build\n  \n I personally been experimenting lately. But still feel like Drakthar is still better rush than Ghostblade. But in my opinion, you can rush which one you want. I personally still build both those lethality item and sometimes I even build the third lethality item as well. Building MF is actually pretty hard. You need to think about the enemy team comp as whole and your comp as whole as well. But standard build in should be something like this:\n Boots\n Ghostblade\n Drakthar\n Lord Dominik's LW (SKIP IF NO ARMOR STACK / BF OR MORE LETHA OR QSS ETC)\n BF\n -\n BF stacking as MF is extremely efficient. Also - with flat lethality AD build like this - you can actually go 5th item Rageblade if you got ardent support and another bf making up the scaling as item part. No meme, is actualy efficient I did the math custom game while back. Feel free to go theorycraft at customs.\n Items I heavily suggest building: Dominik's LW, QSS / Mercurial Scimitar, Death's Dance. BF stacking will get you far too. I would love to build crit, its extremely fun to build crit, but I just feel often its extremely waste of gold - and only end up building crit in games I'm extremely far ahead that it doesn't really matter. Also buying Black Cleaver versus BEEFY comps is MUST.\n  \n But as MF is pretty unique champion - so are the builds. If enemy for example has two AP champion that will come to short range of you - feel free to build Merc's and hexdrinker - even Maw of Malmortius after lethality + LW / before - depending. Building MF is really unique. You need to adapt in games a lot. Personally I've many times gone randuin as fourth item vs full ad comps along with ninja tabies. Also abuse 500g AD elixir's if you have a good opportunity or for example in top of baron powerplay. It's 30 ad for couple minutes with additional lifesteal - with a price of 500 gold. And MF AD scales are insane. Infernal dragons are also extremely powerful with MF. MF scales insanely well out of the flat AD boost infernal dragons offer.\n  \n Often there are games - where you want to build crit, or black cleaver to deal with their frontline. But sometimes the best solution is to give up with the frontline - Itemizate in a way you can quickly smash their squishies in teamfight - and then proceed to deal with their huge tanks along with your team - if you managed to nuke their squishies with your ultimate or autoes. Thats why I feel like building MF, playing MF in depth is a lot harder than it looks like. \n  \n Miscellaneous stuff\n  \n Avoid picking MF with full AD team. Ninja tabies are still - extremely annoying item for MF. Despite you not having full AD team - enemy team will often have mostly tabies anyways. Tabies are really hard for MF and reducde your auto DMG so much its extremely annoying.\n\n Some supports you might think are bad with MF are actually extremely good. For example Lulu + MF or MF + Janna are extremely strong lanes. After all - your W movement speed (Strut) doesn't go off if you have a shield. \n\n I personally prefer swiftness shoes over anything - but often build tabies as they're so efficient vs multiple AD enemies. Avoid lucidity boots - they're extremely overrated IMO. Mercs are good boots choice too.\n\n Abuse the fact you're basically a AD caster - not ADC (kind of) with your builds. You can more freely build semi defensive items - or just stack BF's as of your insane AD scaling rather than going for whole item. Rather have hexdrinker + 2x bf then IE and one longsword.\n\n Abuse your autoattacks and strut - and your passive. Especially during lane Q and W can really help you trade insanely well. Especially with Ardent sups (Janna + Lulu Avoid building crit items. I know its extremely fun. I know it feels nice to one shot someone. I know its really feels amazing to see big juicy crits. But they also make you reliant of the crit change vs the damage lethality and last whisper / bf sword stacking brings. Will be a bummer to die in a 30min lategame teamfight as of the fact you went for crit build - instead of having safe lethality + ad stacking build which dmg output and potential you know extremely well as you've played with it for a long time and gotten used to it.\n\n Your worst enemies. Camille. Jax. Kayn, Irelia. Katarina. Big beefy tanks who don't allow you to ult. \n\n  \n End.\n  \n Feel free to add me @ EUW. Or follow me at twitter (@jebahhhh), ask question about MF or anything here, or at client or anywhere. I'm sorry this guide didn't go that in depth yet - but I try upgrading it as I time goes by to a wholesome good guide. I just had a urge to write it and did it - but this become bit of a mess. ATM I feel like I got too much to say. Hope the general idea is clear.\n  \n But ye feel free to critique or ask or trashtalk anything I don't mind and I will eagerly reply / talk.",
+   "id": "8dyfr3",
+   "comments": [],
+   "age_days": 3093,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "My Miss Fortune Build",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/8ah7qt/my_miss_fortune_build/",
+   "published": "2018-04-07",
+   "author": "/u/Death_Rex",
+   "body": "Hello everyone! I've recently got the GG MF skins gifted by my best friend, which causes me to play her again after I mained her for a bit back then when flat armor pen + black cleaver was her main build.\n I've played her every now and then when lethality was introduced, but I had no idea what her main build was. Now I've got the hots for our lovely redheaded lady again and started crafting my own build with runes and all. This is my result. I call it the \"Fiery Frontline Fortune\":\n Runes: -Press the Attack (referred to as PTA) -Presence of Mind -Legend: Bloodthirst -Coup de Grace / Cut Down -Manaflowband -Celerity\n Why? I play Miss Fortune around her passive. I take PTA into most matchups since it helps me getting massive damage onto the enemy laners. I make 3 quick autos which don't actually do much damage after the first one and trigger PTA passive. Then I auto a minion and refresh my passive on the marked enemy which gives me 8% more damage on that auto with my passive. It works better against tank supports when they want to take a stack with relic shield.\n I take Presence of Mind in combination with Manaflowband. With those two I can skip Essence Reaver, since I like to build other items which I'll list later. Getting 20% of mana back (it's even more than normal with Manaflowband that raises your max mana by 250). Getting 10% on my ultimate cooldown is nice too since it avoids building ER for the cooldown even more.\n I take Legend: Bloodthirst since I have no sort of sustain until I build a vampiric cepter (dorans blade makes the exception, but just having 3% lifesteal feels cheap. The runes increases it to a decent amount after a few stacks). Taking the attackspeed runes feels a bit like a waste since Miss Fortunes W gives enough attackspeed for me to do the job anyway.\n Well, Coup de Grace is good in most situations, and getting a kill or assist gives me even a bit of AD. I take Cut Down against a tanky team. I think no explanation is needed.\n Celerity works good with my build since I play her to be rather quick on the go since Miss Fortune has no displacements besides flash. Its especially important against pesky supports like Blitzcrank or Tresh.\n That summs up the runes. Now onto the build:\n I start with dorans blade and rush Youmuus (I just noticed that Youmuus in German doesn't have that one extra U at the end. Weird.) when I'm winning my lane hard. The movement speed helps me keeping up and the active can be really good to escape when I'm getting ganked without needing to burn my flash. The extra lethality helps me getting off even stronger passive-enhanced autoattacks. After Youmuus I build rather situational. If I feel like I'm getting too much poked at I build Death Dance. If I'm continuing my smashing I build Infinity Edge for obvious reasons. I normally put two points into my Q and start maxing W afterwards, that makes it possible to skip building an attackspeed item until midgame. The extra movementspeed I get from maxing W helps again with chasing and keeping up / escaping. I normally buy the boots of swiftness since they give me more movementspeed to support my playstyle. But its just a preference honestly.\n After I got my 3 core items (Youmuus, Infinity Edge and Death Dance) its finally time to buy a Phantom Dancer. It synergies with Death Dance which helps me surviving against an assassine or other 1v1 situations. Its also the zeal item with the most attackspeed, which allows me to build only one of it in combination with my W, reaching a pretty high attackspeed.\n The last item is most of the time a magic resist item like mercurial scimitar or malmortius. Its really situational. Could be a GA or another survival item.\n That's it. That's my \"Fiery Frontline Fortune\". What do you guys think? I'd be glad for any kind of response and even more happy if someone is inspired to test this build themselves.\n Thank you for reading and gl in the summoners rift!\n EDIT: Here is my op.gg for you to check out my damage. I played most of my games that I've won with a DuoQ partner who played almost exclusive Nautilus support. http://euw.op.gg/summoner/userName=Death%20Rex",
+   "id": "8ah7qt",
+   "comments": [],
+   "age_days": 3107,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "MF's E max with Morgana",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/7g5hal/mfs_e_max_with_morgana/",
+   "published": "2017-11-28",
+   "author": "/u/victorsevero",
+   "body": "What do you guys think about maxing E in lane (with comet)? I just went against a MF doing this with Morgana sup (maxing W, probably) and I got crushed because they were always using these 2 skills together. They could kill me just once in lane but the CS gap was insane. My bot lane was twitch/braum. Do you think this is reliable or only against certain matchups?",
+   "id": "7g5hal",
+   "comments": [],
+   "age_days": 3237,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Some questions about MF.",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/6ny56z/some_questions_about_mf/",
+   "published": "2017-07-18",
+   "author": "/u/TheSpasticSurgeon",
+   "body": "So I've used MF to climb and improve recently and it's worked pretty well. Her simplicity is nice and allows me to focus on the game, but with that said there are still some essential questions I have about here after over 150 games. I'll just list them out here for a lack of a better way to organize them.\n This is probably dependent on the matchup and what not, but do you even want to trade as MF? It seems to me that outside of her auto-q to punish when they go for cs, she has nothing in terms of trading power and is better of poking with q doubleshot. I can't think of a single champ that has a worse extended trade. \n\n I've heard that MF is weak very early on this sub, but to me she seems pretty good with her lovetap passive, though her overall power level is lower until about the first item spike. But to me that's still early game. \n\n Speaking of item spikes, at one point in the game is MF theoretically the strongest? From my observations it seems to be about 2-3 items, but if she can maintain her item lead she doesn't fall off that much. Definitely at her strongest when she can snowball a lead pre-20 and end it while she's obnoxious.\n\n About her ult. After 150 games I've realized that I never really press e and then ult right after the other, even though they go so well together with their range and synergy. Should I always press e and then r if they are in range, since the cast time on e is so miniscule and keeps them in your ult longer? What about in a crowded teamfight?\n\n I'm alone hiding in a bush and the lone enemy adc comes into lane alone and behind in items. How do I kill him most efficiently?",
+   "id": "6ny56z",
+   "comments": [],
+   "age_days": 3370,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "I'm thinking about becoming a MF Main, but i need some help",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/6fabhy/im_thinking_about_becoming_a_mf_main_but_i_need/",
+   "published": "2017-06-04",
+   "author": "/u/thomascostatom",
+   "body": "So, back in the day, i was a MF and Graves main, however, when they reworked those champs in the marksman update, i stop playing them because they were so different, now it's been a few months since i've played LoL for the last time and im thinking about maining her again, but i need a little help.\n 1-) What build(s) should i go for?\n 2-) What masteries should i go for?\n 3-) What are my hardest matchups?\n 4-) What are my easiest matchups?\n I'm really excited to play MF again and i would be grateful if you guys could help me.",
+   "id": "6fabhy",
+   "comments": [],
+   "age_days": 3414,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Weekly Matchup Thread: Alistar Edition",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/6de5a1/weekly_matchup_thread_alistar_edition/",
+   "published": "2017-05-26",
+   "author": "/u/Asahina-chan",
+   "body": "Greetings, bounty hunters. Since this is the first matchup thread, I'm going to assist you with some questions: \n Are you a support Miss Fortune player, or an adc Miss Fortune player?\n For Support Miss Fortune players:\n How difficult are the following phases against Alistar? Laning/Warding/Teamfighting.\n\n What has been your experience laning against Alistar? \n\n Do you have any tips/tricks for newer players? \n\n What do you usually build/Do you buy any special items to counteract Alistar? \n\n For ADC Miss Fortune players:\n How difficult are the following phases against Alistar? Early laning/Mid game teamfighting/Late game teamfighting.\n\n Do you make any specific modifications in your build when playing against Alistar? \n\n In what way can you outplay him? In what way can he outplay you? \n\n Is there anything you advice not to do against him? \n\n How good is Alistar support with Miss Fortune adc? \n\n What things do you keep an eye out for when you're playing with an Alistar? \n\n Are there any tips you recommend while playing with Alistar/against Alistar?\n\n Any other questions you'd like to ask about this specific matchup should be posted in the comment section.",
+   "id": "6de5a1",
+   "comments": [],
+   "age_days": 3423,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "The chosen direction | Feedback appreciated",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/6d7oe8/the_chosen_direction_feedback_appreciated/",
+   "published": "2017-05-25",
+   "author": "/u/Asahina-chan",
+   "body": "Greetings, bounty hunters. I hope everyone's well and good. \n You might have noticed that my first week as a moderator has come to an end. During this week, keeping your suggestions in mind, I have made some decisions for the future of our subreddit. \n The most important one, I believe, reflects your power as a community. This rule states that anyone can dispute a decision I've made.\n Example: I choose Captain Fortune as our stylesheet background, but most of the community wants Arcade. You can bring the issue to my attention, and I'll make a strawpoll for the community to decide which background looks better.\n Below is a list of additional decisions that have been made:\n Updating the subreddit's stylesheet. This is the task that will take the most time, particularly because I do not know how to code. I'm seeking help from my friends who know how to edit stylesheets, and I promise to bring you the best design you could've hoped for. \n\n New flairs that reflect skin choices and mastery points. \n\n Weekly matchup threads, starting today. I plan on matchup threads being a separate series from the usual moderator announcement you will notice at the top. \n\n A resource list that contains guides and additional useful information that can be utilized by newer players. \n\n Stricter, non-nazi enforcement of rules. This means no-spam, no harassment, no advertisements.",
+   "id": "6d7oe8",
+   "comments": [],
+   "age_days": 3424,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "New moderator | Subreddit redesign | Questions",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/6bq0gw/new_moderator_subreddit_redesign_questions/",
+   "published": "2017-05-17",
+   "author": "/u/Asahina-chan",
+   "body": "Greetings, fellow bounty hunters. \n You all might have noticed that this subreddit was in dire need of moderation. The old moderator, Ciel, has left and decided to transfer his moderator status to me. All of us should be thankful to him for his hard work in building and maintaining the subreddit. \n ABOUT ME\n I am a Diamond Miss Fortune main nearing 500k mastery points. I play on the NA server, and am passionate about Miss Fortune, in-game and even lore-wise. Miss Fortune Mains is the first subreddit I will mod, so please forgive me if the start is a bit shaky. \n I promise to bring civil, healthy discussion about Miss Fortune every week to the subreddit, and am currently planning weekly threads on builds, matchups, and even lore. \n SUBREDDIT REDESIGN\n The first sticky will focus on whether we actually need a subreddit re-design or not. This focuses primarily on background, style, rule list, and some other visual features. \n Next, any questions about me, approval of new moderators, the direction of Miss Fortune mains, or good suggestions can be asked below. \n That being said, I'll leave you guys on your merry way. \n \"Set sail!\"",
+   "id": "6bq0gw",
+   "comments": [],
+   "age_days": 3432,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Taking Miss Fortune to the competitive arena!",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/5g8xav/taking_miss_fortune_to_the_competitive_arena/",
+   "published": "2016-12-03",
+   "author": "/u/LightOfHeavenSG",
+   "body": "Hey fellow peeps. I am intending to bring Miss Fortune to a upcoming competition. I am appealing for any possible pitfalls that might wreck me hard. Be it team combinations, bottom matchups that I might have overlooked. \n And the last but not least, how will you build a team around MF as the ADC? I look forward to everyone's valuable opinion.",
+   "id": "5g8xav",
+   "comments": [],
+   "age_days": 3597,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Miss Fortune support",
+   "url": "https://www.reddit.com/r/MissFortuneMains/comments/53gldp/miss_fortune_support/",
+   "published": "2016-09-19",
+   "author": "/u/Asahina-chan",
+   "body": "Has anyone else been doing it? What build/masteries/runes do you use? What matchups do you play her into?",
+   "id": "53gldp",
+   "comments": [],
+   "age_days": 3672,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  }
+ ]
+}

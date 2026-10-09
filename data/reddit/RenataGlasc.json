@@ -1,0 +1,563 @@
+{
+ "champion": "Renata Glasc",
+ "subreddit": "renatamains",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "Has anyone tried Utility Renata Mid (Zilean-style) to fix her long Ult CD?",
+   "url": "https://www.reddit.com/r/RenataMains/comments/1vxybjv/has_anyone_tried_utility_renata_mid_zileanstyle/",
+   "published": "2026-08-25",
+   "author": "/u/LollerGlasc67",
+   "body": "Hey! As a Renata main, I always struggle against poke/enchanter matchups in the Bot lane, especially with her massive R cooldown.\n I’ve been testing her in the Midlane with a pure utility/fast-waveclear build (Hexplate -> Ionian Boots -> Imperial Mandate -> Malignance with Glacial Augment).\n The goal isn't to deal heavy damage, but to farm safely like a Zilean/Galio, get gold for Ultimate Haste, and hit a ~40s R cooldown by level 16 to enable teamfights and peel carries.\n Has anyone else tried shifting her to Mid or building heavy Ult Haste to bypass her high cooldowns? Would love to hear your thoughts!",
+   "id": "1vxybjv",
+   "comments": [],
+   "age_days": 45,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Renata Mid - Control Mage",
+   "url": "https://www.reddit.com/r/RenataMains/comments/1vd6fpv/renata_mid_control_mage/",
+   "published": "2026-08-02",
+   "author": "/u/KANGARAIDER",
+   "body": "Minimise. Stabilise. Amplify.",
+   "id": "1vd6fpv",
+   "comments": [],
+   "age_days": 68,
+   "recency_weight": 1.0,
+   "topics": [],
+   "stale_items": false
+  },
+  {
+   "title": "help a future renata otp player out",
+   "url": "https://www.reddit.com/r/RenataMains/comments/1vb36ki/help_a_future_renata_otp_player_out/",
+   "published": "2026-07-30",
+   "author": "/u/iamluno",
+   "body": "'Hi! my name is Luno, I live on the second floor', I've been playing league for the exact huge ammount of 5 days! (impressive, i would say as I haven't ragequit so far). Glasc is such an amazing Support, and I really liked her mechanics and game style. However I was surprised when searching that she's one of the least picked Sup of all time, why? Also I do not know anything about SUP role, builds, runes, how to actually play the game decently, I really want to OTP this champ no matter what, but it is very hard to do so without any fundamentals or the basic knowledge of the game itself, matchups and stuff. I would like any sort of help, such as guides, montages, twitch streamer references, advices, any sort of thing - I would be even interesting in being coached or joining a Voice Call for it, so if you would like to help a future Glasc brother out, i would be glad to! Thanks. Also sorry for my bad english, I am Brazillian! Cheers!\n I've made some items builds and Rune Builds, but I don't know anything about actually what every item does what synergies they have to each other, when to use them, how and which order should I go for, when to adapt the build. But if you would like to see what I've found (as I didn't came up with anything, duh) here it is: (thanks to whoever in this subreddit that made the Aggressive Suport and Macro Play Support Builds and Runes)\n Macro Play Support - MPS 1: Unsealed SpellBook, Cash Back, Triple Tonic, Cosmic Insight Taste of Blood, Relentless Hunter \n Damage and Utility Haste - AGS 3: Summon Aery, Manaflow Band, Transcendence, Scorch Ultimate Hunter, Cheap Shot \n vs Tank - AGS 1: Summon Aery, Manaflow Band, Transcendence, Scorch Alacrity, Cut Down \n Trading and Scaling - AGS 2: Summon Aery, Manaflow Band, Transcendence, Scorch Shield Bash, Revitalize \n Glasc 2nd: Guardian, Shield Bash, Bone Plating, Revitalize Sixth Sense, Relentless Hunter \n Glasc Tank: Guardian, Shield Bash, Bone Plating, Unflinching Deep Ward, Ultimate Hunter \n Catch & Lock - CS UH/ SB R: Glacial Augment, Cash Back, Triple Tonic, Cosmic Insight Ultimate Hunter, Cheap Shot \n Item Builds: \n Glasc SetSup: Lucidity, Shurelya, Locket, Imperial Mandate, Celestial Opposition or Solstice Sleigh and as situationals: Bandlepipes, Redemption, Knight's Vow, Mikael's, Ardent Censer \n Agressive Support: Bloodsong, Imperial Mandate, Berserker's Greaves, Bloodletter's Curse, and now 3 Situational Sets: SIT 1 - Scaling: Moonstone Renewer, SoFW, Ardent Censer; SIT 2 - AP Conversion: Dawncore, Shurelya's, SoFW; SIT 3 - Anti-Heal: Morellonomicon, Echoes of Helia \n Macro Play Support: Solstice Sleigh, Boots of Swiftness or Lucidity, Shurelya, Locket, Redemption, and now Zeke's or Knight's Vow \n Full tank: Celestial Opposition, Lucidity, Locket, Frozen Heart, Knight's Vow and now Abyssal Mask vs Magic Damage or Thornmail vs Physical Damage or Healing, or if i'm not being focused, then I go for utility item instead of Thornmail\n Also if you guys want to see my terrible stats, (GPT called me 'a Mediocre of a Support if I truly have these stats' LMAO) feel free to check my profile: LunoLOL#GLSC",
+   "id": "1vb36ki",
+   "comments": [],
+   "age_days": 71,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Bone Plating vs Second Wind and Revitalize vs Unflinching",
+   "url": "https://www.reddit.com/r/RenataMains/comments/1u9adjn/bone_plating_vs_second_wind_and_revitalize_vs/",
+   "published": "2026-06-18",
+   "author": "/u/KeepOnJumpin",
+   "body": "Warm afternoon to all,\n Been playing a lot of Renata Glasc in Silver (un)ranked and Swiftplay, with a Resolve primary and Inspiration secondary rune tree choice.\n I never move away from Guardian + Shield Bash for the early trades and survivability, but have been using Bone Plating + Revitalize as a core for better early game (Revitalize seems better overall especially with Locket and Redemption being so prevalent + synergy with Shield Bash), but there are matchups in which I find Bone Plating to be unreliable against lane poke, and others where Unflinching may help more than Revitalize, though it's a harder case to sell overall.\n For Inspiration I always get Cosmic Insight, then either Boots or Cash Back if the lane isn't too pokey, else Biscuits are very helpful (I like scaling HP runes for the extra lategame, but take Adaptive Force and Attack Speed for early game trades). Been also tinkering with Jack of All Trades but it's hard to justify over Cosmic Insight. \n How do you think about your Resolve tree choices? Do you ever deviate from Guardian + Shield Bash? And does Unflinching trump Revitalize in CC matchups (like Ashe, Pyke, Senna, Sona etc)? \n Appreciate your thoughts.",
+   "id": "1u9adjn",
+   "comments": [],
+   "age_days": 113,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Looking for help for new Renata player!",
+   "url": "https://www.reddit.com/r/RenataMains/comments/1tkjkg7/looking_for_help_for_new_renata_player/",
+   "published": "2026-05-22",
+   "author": "/u/Vast_Horror_8805",
+   "body": "Hi guys!\n Nami otp here, in master elo euw.\n With futur change inc, aka nerf to mandate for nami and some nerf to enchanter supp etc, i'm a bit scared to keep playing nami and im trying to find a new potential main.\n So i thought about renata, because i feel like she has a lot of similar things to nami.\n Can play very agressive lvl 1/2. good trade paterns, R kinda similiar, q and bubble in a way can be comparable etc.\n I like the fact that renata is somewhat an enchanter, somewhat a tanky supp, but not passive in lane behind his adc.\n So i had some questions about her please if you can help!\n First about matchups, while i can see to not pick her vs cait lux for instance, or like vel supp etc whats some good matchups, some ok/even and some bad dont pick?\n for instance she is a good disengage champ but is she actually good vs nauti and leo or rell? i feel like she does good vs stuff like nami lucian, what about stuff like jinx lulu/milio? \n about runes, why no one play aery if you like to spam auto lvl 1 and 2? is guardian rly that good? and why most high elo goes red rune secondary, with the movespeed out of combat rune, relentless hunter? but i saw no one take 3% movespeed in adapatative runes? i always take those on nami. \n is relentless hunter rly that peak for her? maybe for backing and roaming? its not like leo/nauti take that rune often.\n for items, i think im fine, i use onetricks.gg.\n And for mechanics feel free to teach me some good otp thing i probably dont know! for now i only know r + flash, idk if you can do stuff with flahs and q?\n also vs ali combo i think q doesnt stop his combo mid time? or im just slow? is there a thing to do vs him?\n thx! and i hope i find a potential new main, or at least a good pocket pick vs engage supp meta that might comeback next patch.\n edit : one last thing, is she weak haha? i saw her winrate being kinda low for very very low pickrate, usualy low pickrate, aka otp only tend to have 52%+ winrate even whe the champ is weak, like quinn top, zilean mid etc, i was a bit scared she might be too weak? but my flex games so far are good.",
+   "id": "1tkjkg7",
+   "comments": [],
+   "age_days": 140,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I did it some years ago and i did it again, Diamond 4 by one tricking Renata! (With glacial augment no less)",
+   "url": "https://www.reddit.com/r/RenataMains/comments/1s1jmxm/i_did_it_some_years_ago_and_i_did_it_again/",
+   "published": "2026-03-23",
+   "author": "/u/Dumbledore_Bot",
+   "body": "According to league of graphs i am also rank 64 renata player on EUW, although that's probably because nobody plays her.\n My rune setup is glacial augment cash back triple tonic jack of all trades with ultimate hunter deep ward. Sometimes against heavy poke lanes i take guardian font of life second wind revitalize instead.\n My build is Trailblazer as first item or force a nature if enemy bot deals magic damage. I then get either locket or bandlepipes, locket and fimbulwinter as last item. Ionian boots first, of course. I first back preferrably when i have 700 gold, i always buy boots and tear first.\n I pretty much pick Renata whenever possible. I only take Alistar or Taric if enemy picks Nautilus or Samira. Mel is also another nightmare matchup.\n Tricks which i've learned over the years:\n If you need to make an important pick, you can use your ultimate as a stun. If you ult one single target and there's nobody around you but teammates, you can place a ward down and they will target the ward instead.\n You can animation cancel your ultimate by casting Q and then using ult right away. As long as your Q lands, your opponent don't have time to avoid your ult. You can engage teamfights with flash Q ult if you find suitable angles.\n The slander against augment is complete nonsense. Some people claim that it reduces the dmg enemies deal to each other. I tried it out in practise tool and it doesn't work like that.",
+   "id": "1s1jmxm",
+   "comments": [],
+   "age_days": 200,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "New to the New Season - Build Options Feedback",
+   "url": "https://www.reddit.com/r/RenataMains/comments/1rjo87t/new_to_the_new_season_build_options_feedback/",
+   "published": "2026-03-03",
+   "author": "/u/KeepOnJumpin",
+   "body": "Good afternoon everybody,\n Got back to League for the first time since this new season and getting back to our beloved businesswoman:\n First item: is Bandlepipes a good catch-all first item, or is Redemption or Ardent Censer still the way to go?\n Support item upgrades: I almost always get Solstice Sleigh. Is there a case for picking other items as a good stable pick/matchup dependant?\n Tear + Upgrade: still not that worth it on her? I don't think Diadem synergises that well with her from what I've seen.\n Secondary Runes: of the following, which do you think gets you the most mileage: Ultimate Hunter, Transcendence, or Cosmic Insight?\n \n Thank you.",
+   "id": "1rjo87t",
+   "comments": [],
+   "age_days": 220,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Does Renata Win Lane?",
+   "url": "https://www.reddit.com/r/RenataMains/comments/1q62a4z/does_renata_win_lane/",
+   "published": "2026-01-07",
+   "author": "/u/bcollins96",
+   "body": "I’ve been pretty consistently playing her lately, unless the enemy team has little to no auto attack champs and are generally all long range. I still struggle playing those matchups with her. \n But in the games I do play with her, I’m having a positive win rate and MVP, 2nd, or 3rd on OPGG. In most of those matches I didn’t actual win lane, though. Am I doing something wrong? Is she meant to win lane? She doesn’t really scale with stats, but once I get 1-2 tanky support items I feel so much stronger (even with the enemies having a slight item advantage). \n Also, how do you measure success on her? I usually have low damage, low healing, and decent (but not great) shielding and cc.",
+   "id": "1q62a4z",
+   "comments": [],
+   "age_days": 275,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Renata set - optimal build and matchups",
+   "url": "https://www.reddit.com/r/RenataMains/comments/1mh9p1q/renata_set_optimal_build_and_matchups/",
+   "published": "2025-08-04",
+   "author": "/u/Pure_Appointment8953",
+   "body": "Hey guys, hope you’re all ok! Well, I’m gonna be honest with you guys: I’m really tired of building Renata as a active-bot. I mean, it has to be a way to be more effective than building all the support itens with actives to press, and ignore everything about CDR or AP or direct buffs to her allies. Also, the resolve tree is so numb… But I’m also insecure about the typical enchanter build, I mean… Ardent and Waterflow are good items and the AoE of her shield + the Aery/W combo are very useful, but… What more? Imperial? Shurelya? What atlas item? DreamMaker / Sleigh? Does Dawncore or Moonstone or Helia work on her? \n All of this to ask: what build is more optimal against specific matchups? Because I know her scalling really sucks, but with 200 AP that every enchanter can easily stack with peel items, her passive goes from 2.0 to ≈ 6.5, and that’s huge, considering that applies every single hit!",
+   "id": "1mh9p1q",
+   "comments": [],
+   "age_days": 431,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I was considering the idea of running grasp in pimey matchups...",
+   "url": "https://www.reddit.com/r/RenataMains/comments/1m59xza/i_was_considering_the_idea_of_running_grasp_in/",
+   "published": "2025-07-21",
+   "author": "/u/Responsible-Fox-9596",
+   "body": "...and changing my account name to \"Renata Grasp\".",
+   "id": "1m59xza",
+   "comments": [],
+   "age_days": 445,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Tips For Playing Renata",
+   "url": "https://www.reddit.com/r/RenataMains/comments/1iwpsj5/tips_for_playing_renata/",
+   "published": "2025-02-24",
+   "author": "/u/FormalPoem5733",
+   "body": "I’m a relatively new league player and I’ve been struggling to find a role and main so far but I’m really intrigued by Renata but before trying her I’d love to get some tips on her play style and in general what matchups she’s good against!! Thanks in advance for any tips :)",
+   "id": "1iwpsj5",
+   "comments": [],
+   "age_days": 592,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is Moonstone viable?",
+   "url": "https://www.reddit.com/r/RenataMains/comments/1hrzve1/is_moonstone_viable/",
+   "published": "2025-01-02",
+   "author": "/u/Van_Hinten",
+   "body": "Hello fellow Co-workers of Glasc Industries! I kinda main Renata, besides Bard with 1million points, since they kinda play the same. Somekind tanky, battle-enchanters with high impact Ults and unique kits. Since Solari and Redemption is the metabuild rn, I wondered of how efficent Moonstone is. It kinda solves Renatas problem with having no heals plus it´s boosting the other 2 items pretty good. I would´nt rush it, but does someone here has played the item recently or has playtested it? It probably is just a good 3rd item in some matchups, but especially against Dot´s I feel it could be worth it.\n Just to bring it up: I main support since season 3, played almost constantly and played almost every support champ a fair amount. Highest Rank was Plat 1 in S11 and Emerald 3 now.",
+   "id": "1hrzve1",
+   "comments": [],
+   "age_days": 645,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Hi! New Renata enthusiast.",
+   "url": "https://www.reddit.com/r/RenataMains/comments/1hbtzcd/hi_new_renata_enthusiast/",
+   "published": "2024-12-11",
+   "author": "/u/Steventaylor08080",
+   "body": "So I really like her vibe and I'm planning on making her. I'm a relatively new player and out of every enchanter she is the one I like the most. \n Do you have any tips? What are the roughest matchups? What her runes builds should look like? I usually build her tanky and go the guardian page. Focusing on being a tanky and harder to kill. Is that the right call? \n What should my perspective be on her?",
+   "id": "1hbtzcd",
+   "comments": [],
+   "age_days": 667,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I wanna learn renata",
+   "url": "https://www.reddit.com/r/RenataMains/comments/1f4g692/i_wanna_learn_renata/",
+   "published": "2024-08-29",
+   "author": "/u/Bigmantingbrev69",
+   "body": "I wanna learn renata but I ain’t got time for normals. Which matchups should I pick her into?",
+   "id": "1f4g692",
+   "comments": [],
+   "age_days": 771,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I don't think Renata is the problem",
+   "url": "https://www.reddit.com/r/RenataMains/comments/1d55wt3/i_dont_think_renata_is_the_problem/",
+   "published": "2024-05-31",
+   "author": "/u/kaylejenner",
+   "body": "I mean, I know all of Renata's problems, terrible AP ratios, lack of mobility, little shield, no direct healing in the kit, R being very slow, anyway, that's not the point. I created a new account to play just for Renata Glasc and I managed to get to the emerald on it last season. I tested all possible builds with her, enchanter, tank, poke, and I consider that I can have good effectiveness in all builds, I can sometimes win matchups in which I should lose against mages and even senna with that immoral range.\n The point is: I don't think the problem is actually Renata's kit, I can work miracles with what she has, of course I make some mistakes, after all I'm a human being and not a robot, but what has left me frustrated is: in all these matches, regardless of whether or not I won the lane, my adc simply gives up the game and consequently we lose. And don't come with \"help someone else on the team\", \"help those who are strong\", \"support can carry\", when a player gives up it's very unfair to play 4v5. The default is: jungle ganka bot lane 3 or 4 times and automatically my adc and my jungler start fighting in chat, regardless of whether we are stronger, or we win lane despite the camp, or we lose tower before 15 minutes, many of them are left with anger and give up trying to win.\n This happened several times in a row, just yesterday I played with a Jinx who after the third gank sold all her items, bought Deathcap and left random abilities around the map because she didn't want to play anymore. And another one with a vayne who, on the other side of the map was winning, tryndamere was trying to split push almost to the base, but because we were ganked 7 times, she started to start meaningless fights, trying to kill enemies with 4 levels of advantage and die continuously.\n I don't know if the elo is the problem, or protagonist syndrome, but take into account that Renata has a good kit, she is capable of poke, and win lane even in difficult matchups, the ideal is for you to play with a trustable adc as a duo.\n (on the other hand, out of frustration I played one of yuumi, with the intention of just giving shields the entire game without making amazing plays and miraculously won)",
+   "id": "1d55wt3",
+   "comments": [],
+   "age_days": 861,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Any tips for interested player?",
+   "url": "https://www.reddit.com/r/RenataMains/comments/17k22c4/any_tips_for_interested_player/",
+   "published": "2023-10-30",
+   "author": "/u/Alonestarfish",
+   "body": "I really do like Renata idea, style, etc, but playing her is a bit... wonky. Aside from how awesome it feels to hit clutch ult, everything seems a bit shaky mistakey. \n Like e is on paper good, helps allies, hurt enemies, yey, but in game it feels very insignificant. W can work sometimes, though that I'll blame on the team since apparently no one understands what it does. And Q is good, plain and simple. I guess the biggest problem for me however is the fighting range, since every ability has a pretty short range, which isn't a problem otherwise but Renata is basically immobile, which is pretty big deal when everyone else has either 700 movement speed or 3 dashes and can jump next to you and kill you in 2 secs (ahem Akali)\n So, what am I doing wrong? Is there a build that can help with this? Certain play style? Or is she really just that matchup depended?",
+   "id": "17k22c4",
+   "comments": [],
+   "age_days": 1075,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Navori renata is legit?",
+   "url": "https://www.reddit.com/r/RenataMains/comments/176q3mx/navori_renata_is_legit/",
+   "published": "2023-10-13",
+   "author": "/u/Godubermensch",
+   "body": "So , i was filled mid, and i'm in a only renata challenge, thinkering with builds n stuff, i saw someone here talking about navori and gave it a try, i used 3 w's minimum per TF and this by itself has a lot of value, are there any crazy mind that mains or play this playstyle? this was my first game with this build (other times i got mid i went support build)\n Matchup was melee wich helps a lot, she also has a really nice waveclear, the damage was ok-ish, not a solo carry, maybe after nashor ?",
+   "id": "176q3mx",
+   "comments": [],
+   "age_days": 1092,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Need Renata tips/Knowledge",
+   "url": "https://www.reddit.com/r/RenataMains/comments/14h6h5n/need_renata_tipsknowledge/",
+   "published": "2023-06-23",
+   "author": "/u/CiaIsMyWaifu",
+   "body": "My support friend has been on the Renata binge lately. She's doing well, but she could be doing better. I kinda want the rundown on all of Renata's builds and gameplay strats, if you don't know what to say, I'll leave a list of questions at the bottom, but tell me everything. \n The TLDR would be general strategy for success such as \"What should I do at levels 1-3?\" \"Does Renata have a standard safe poke combo? Should she be poking? When?\" As well as special mechanics and combos that may not be obvious but useful in practice. \n So heres a list, answer whatever you can.\n What are her best core builds (3 items) for gold/Platinum\n\n Does Renata poke? If so, when and how. Don't obsess too much over matchups, im sure a lot of it is just \"did they miss their CC? Okay go do your thing while its down\"\n\n Should Renata be roaming a lot like an Alistar? Or stick to the lane? Do we roam on resets or when adc dies? Or just sit under turret and soak xp?\n\n Is it better to W early for attack speed or time it around deaths like Zilean? What has been your most consistent and successful way using it?\n\n When someone gets gigafed or youre losing lane and way behind in levels getting oneshot, what do you do for success? How do you prevent it from happening in the first place next time?\n\n Who are her best lane partners? Or any amazing combos she likes to play around?\n\n What do your first few levels in lane look like? Do you have a consistent strat for getting ahead? Or is it all coinflip?\n\n What do you do between? Wait for 6? Do you have breakpoints for when you always finish an item? (I play Eve and aim for mythic before 13min for example, anything slower means im behind)\n\n Tell me your Renata combos and tricks",
+   "id": "14h6h5n",
+   "comments": [],
+   "age_days": 1204,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Do you guys have an excel or something with tips about matchups?",
+   "url": "https://www.reddit.com/r/RenataMains/comments/11zzejd/do_you_guys_have_an_excel_or_something_with_tips/",
+   "published": "2023-03-23",
+   "author": "/u/ChristianEmboar",
+   "body": "I wanted to learn this champ to play into naut in diamond, because every time I play Rakan or Rell I get astro fisted.",
+   "id": "11zzejd",
+   "comments": [],
+   "age_days": 1296,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "a few questions about renata from a silver I",
+   "url": "https://www.reddit.com/r/RenataMains/comments/z8sw3v/a_few_questions_about_renata_from_a_silver_i/",
+   "published": "2022-11-30",
+   "author": "/u/Ek-StaretzKaramazov",
+   "body": "hi, my nick is Staretz0, i play on brazil servers, currently using renata to climb with some sucess.\n i think renata ultimate don't count as damage inflict by her, if anyone could clarify that, would be great.\n i don't like building renata as a enchanter, i use the tank spec for her: guardian, font of life, conditioning, overgrowth, taste of blood, relentless hunter. as, af, scaling health.\n most matchups i dont fell the need for shurelya's and go for radiant virtue, and with less the 3 strong healer from the oposite team i go knight's vow, then zeke's, watchfull wardstone as 5 item the 4 item depends on the situacion, lucidity boots unless 3 or more aa reliant enemys or 4 or 5 enemy aps.\n i'm not very good at the game, but i fell very confident with my builds and runes, with the knowlege from stat sites i usually use lolalytics, and recently learn about leagueofitems.",
+   "id": "z8sw3v",
+   "comments": [],
+   "age_days": 1409,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Renata Glasc Definitive Guide (First Version XD)",
+   "url": "https://www.reddit.com/r/RenataMains/comments/yz70jh/renata_glasc_definitive_guide_first_version_xd/",
+   "published": "2022-11-19",
+   "author": "/u/cmentko",
+   "body": "Hello People >I see a lot of people in my games saying that most people who choose to play Renata don't know how to play. I'm always very sad about it, even if sometimes it comes with a compliment.\n So I had the idea of ​​making a guide on Renata because it seems to be unanimous that she is a complex champion.\n To help new players and the community as a whole, I gathered some of my ideas about the champion and I WOULD REALLY APPRECIATE EVERYONE'S CONTRIBUTION :D.\n Revisited an old comment of mine with some tips and made some changes.\n TELL ME WHAT YOU THINK AND HOW I CAN IMPROVE AND WHETHER OR NOT YOU AGREE WITH THE THINGS WRITTEN.\n Let's discuss :D.\n ​\n RUNES:\n · GUARDIAN\n · Shield Bash\n · Conditioning\n · Revitalize our Unflinching\n “This rune is perfect for Renata in almost any situation, so while you learn it I recommend that you keep it fixed. Only change tenacity to revitalize in match ups against enchanters.”\n · GLACIAL AUGMENT\n · Perfect Timing\n · Future's Market\n · Cosmic Insight\n “This rune makes Renata's early game much stronger, as well as making the more difficult matchups easier. So I usually use it against enchanters. But something important that needs to be thought about, is that it negates a lot of your ult's damage capacity, so if you have many champions that will be useful in your ult, don't take this rune.”\n (I don't use Aery or even Fleet Footwork, as I don't really fit that play style, PLEASE, if you use these runes feel free to explain how :D teach me)\n · SECONDARY RUNE RESOLVE (Conditioning + Revitalize our Unflinching):\n o I consider the best secondary for her if the first choice is GLACIAL the runes with the greatest impact are always Conditioning (for a safer late game), Revitalize (when tenacity is not necessary) and Unflinching (against matchups/teams with crowd control), but most of the runes in this tree work well for Renata, so feel free to vary them depending on the match up. NEVER get Font of Life, this rune heals your enemies on your ultimate.\n · SECONDARY RUNE INSPIRATION (Perfect Timing + Future's Market our Cosmic Insight):\n o I really like this combination because it works perfectly with the guardian rune against engage matcups. The stopwatch helps a lot against dives and ganks, as well as the futures market helps close out expensive items like Zhonyas. When I'm up against tough matchups like Thresh, I usually take Cosmic Insight instead**.**\n · SECONDARY RUNE SORCERY (Mana Flow + Transcendence):\n o I find myself picking up this rune whenever I consider that I'm going to trade a lot in lane and maybe want to pick up Reliquary as a starting item. this usually. This usually happens against enchanters and mages, example: Nami, Lulu, Zyra, Brand, Lux, Pyke. In the case against mages, I take Nullifying Orb and against enchanters I choose Mana Flow.\n · SECONDARY RUNE DOMINATION (Zombie Ward + Treasure Hunter):\n o It's an unusual choice, but it can usually be used in lanes where you have an adc with good pressure, in a favorable matchup. She is high risk so watch out. it helps a lot to accumulate item advantage, which makes a lot of difference for Renata.\n · SECONDARY RUNE PRECISION (Triumph + Coup de Grace):\n o I don't normally make this choice for secondary, but some of these runes still have a useful use for Renata, I just haven't found the exceptional situation where she fits. (maybe it doesn't exist). Triumph helps you earn close trades, grants extra gold, as well as helps you survive after resurrection with an extra life. As an ending, the best choice in my opinion is Coup de Grace, which also helps with your W, as it will deal more damage to enemies with less HP (its passive combo well with that). I haven't found any Legends useful for it other than Tenacity or Attack Speed, but I've never fully tested their efficiencies.\n ​\n ITEMS:\n 1. STARTERS:\n · Spellthief's Edge - is the best option, because she spends a lot of mana and you abuse her auto attack a lot;\n · Relic Shield - I only make this choice if I'm very insecure about the match up, usually against champions with a high range, but also against Thresh.\n ​\n 2. MITHIC:\n · Shurelya - best option against enchanters who also build this item.\n · Solari - great option against match ups that do a lot of burst ap or ad damage. You can use it against hard engage match ups, but the next option is better.\n · Evenshroud - great against hard engage match ups with a lot of crowd control, in addition to being an item that combs very well with your ultimate.\n · Mandate - I almost never use it because I believe that the use of other items is much better than the damage that the mandate does, but you can build it to test for yourself in easy games.\n ​\n 3. SITUATIONAL (All of these items are great choices for Renata depending on what you're playing against):\n · Redemption - good when you're in a game where the TFs are running long.\n · Chemtech Putrifier - great choice, because in this meta it is very difficult for him not to be useful.\n · Anathema's Chains - useful in single-carrier games (example: Vayne, Kayn, Yasuo Yone)\n · Mikael's Blessing - combines very well in match ups against crowd-controlled mages, as well as against hard-engage supports.\n “Zhonyas - this item in my opinion is essential for Renata, as it allows you to have great counter moves with your W, I will talk more about it in the tips.”\n ​\n SKILLS:\n Q/E/W/Q/E/R/E/E/E/W/R/W/W/W/Q/R/Q/Q\n - Never change for me\n TIPS (some of these tips are based on my play style, so don't consider them as the best way to use the champion):\n · Get used to her Q RANGE, she has a bit of a weird hitbox but over time you get the hang of it.\n · Renata has a WEAK EARLY GAME, but you can abuse her disengage a lot with Q against engage lanes. (A LOT AA)\n · In lane Renata's W works great as a simple MS and AS buff, you can use it that way when you don't have worries about your adc dying don't worry about using her W too soon when your adc is about to kill someone, as the effect resets when the user takes a kill.\n · Her W MS helps a lot in JG ganks.\n · The first level of your ultimate works much better as a source of desingage than a source of damage, with the help of your Q, you'll piss off a lot of JGs and Supports. Always remember that.\n · Use her W wisely in TFs because you will only use it once, in this case it is always better to wait for the right moment to resuscitate someone.\n · Stop Watch and Zhonyas are great items for Renata as they can stop gray life after you die with your W, this will give your allies more time to kill an enemy. Because it's an expensive item I usually choose to pick up future market to make it easier to buy it. But it still takes a while for you to be able to buy the item, so use your Stop Watch wisely.\n · Renata is a late-game monster, but it doesn't guarantee that you will win every game that lasts longer than 20 min. At this point in the game always try to position your ults well and hit your Q on as many targets as possible when they are grouped in your ultimate.\n · Renata has few difficult sup macht ups. But the worst are Soraka, Seraphine and Lulu.\n · Against hard-engage lanes if you position yourself well, use your Q to unengage and the right build you have nothing to worry about.\n · Your biggest problem with counters will be TFs against champions that cancel your ult, like Samira and Yasuo. For me, Samira is one of the worst match ups possible for Renata, so I always end up banishing her.\n · When using Zhonyas, if possible, use it after your death by W and always try to do as much damage as possible before using it.\n ​\n I think that's it.\n If you have any doubts about what I said, feel free to ask.\n And you all Renata Mains, feel free to disagree with everything i said too, it's just the best way i've found to play with the champ, there are probably many others.\n PLEASE SHARE YOUR EXPERIENCE WITH HER TO.",
+   "id": "yz70jh",
+   "comments": [],
+   "age_days": 1420,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Any glacial enjoyers?",
+   "url": "https://www.reddit.com/r/RenataMains/comments/y27u5y/any_glacial_enjoyers/",
+   "published": "2022-10-12",
+   "author": "/u/comfyposter",
+   "body": "I'm hopelessly addicted to this rune. The AoE slow feels omega strong and the damage reduction is like a cherry on top.\n I take it into every matchup aside from Leona",
+   "id": "y27u5y",
+   "comments": [],
+   "age_days": 1458,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Masters Renata Player! :)",
+   "url": "https://www.reddit.com/r/RenataMains/comments/x31l2q/masters_renata_player/",
+   "published": "2022-09-01",
+   "author": "/u/Rejiiiiiiii",
+   "body": "Hello! Im a masters [peak 196 lp] enchantress main and one of the main enchantresses I main is Renata! :) Im streaming rn follow if you want to follow up on it or even when im not live I have vods, etc! :) Used to be top 40 Renata NA but school so now Im top 60! https://www.leagueofgraphs.com/summoner/champions/renata/na/Illuminosity/all\n A quick question: which rune do your LIKE more (dont care on matchup rn): guardian, aery, or glacial?\n https://www.twitch.tv/rejieu\n heres one of my favorite support ult clips! (some w/ Renata)\n https://www.youtube.com/watch?v=-1GzNI5nlaw&t=13s",
+   "id": "x31l2q",
+   "comments": [],
+   "age_days": 1499,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Pro tips pls",
+   "url": "https://www.reddit.com/r/RenataMains/comments/vo8j25/pro_tips_pls/",
+   "published": "2022-06-30",
+   "author": "/u/Peanut_Critical",
+   "body": "I just got Renata. I know the basics, but not much else. I also do not play much enchanters. Is there anything, that I should know? Like most important ability, creative ways to use abilities and how to handle tough matchups.\n Thank you all.",
+   "id": "vo8j25",
+   "comments": [],
+   "age_days": 1562,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I would never imagine saying this but after 447 OTP Renata games I have hit MASTERS RANK!!! :)) THIS IS UNREAL FOR ME ;() Played only Tanknata with 60% WR. I have also pictured my indefinite runes, matchup winrates and some full build paths I found from my games as well! Any questions please hmu!",
+   "url": "https://www.reddit.com/r/RenataMains/comments/v9qqfg/i_would_never_imagine_saying_this_but_after_447/",
+   "published": "2022-06-11",
+   "author": "/u/AlphaNasher",
+   "body": "",
+   "id": "v9qqfg",
+   "comments": [],
+   "age_days": 1581,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Renata's role in the meta",
+   "url": "https://www.reddit.com/r/RenataMains/comments/tfolis/renatas_role_in_the_meta/",
+   "published": "2022-03-16",
+   "author": "/u/4ward1",
+   "body": "*Long post incoming\\*\n Hi everyone, I'm a low master player on EUW and I've mostly been playing Renata this patch, with a 66% wr: https://euw.op.gg/summoners/euw/IM4ward. I peaked last season on the OCE server at 440 LP playing mostly Pyke/Bard. I want to hear people's thoughts about where renata fits in the meta and how she should be played. Here are some of mine to get us started:\n Renata's role in games\n The current meta is very enchanter-oriented. In my view, the strongest supports in solo queue are Janna > Senna > Renata/Soraka/Lulu > Yuumi/Karma > else, in part because jinx/jhin/vayne are still a bit overtuned, and in part because the meta is favouring scaling playstyles centred on strong champs like Gwen/Viego/Graves etc., so enabler supports are having relatively large impact.\n Renata's place high on this tier list comes largely from her versatility. \n From the mid-game, she has decent roaming options and huge value in skirmishes with her w\n She has excellent team fight presence - she stops divers as well as janna/lulu and her steroid is arguably the best in the game (lulu's is better in some scenarios), particularly with reset champs (kat/viego) and high dmg champs that benefit from high attack speed and hard committing (samira/draven/tristana etc.)\n She isn't constrained to specific build paths and can take high value items (e.g. chemtech/mikaels) with almost no loss to her team fight impact \n Renata generates a huge amount of impact from \"playing slow\" in fights. She can interrupt all-ins easily with her q, w and r, so using these to prevent all-ins then playing around her passive and waiting out cooldowns usually lets her have more impact than the opposing support. \n Renata in the draft/comparing her to other options\n In my experience, Renata's hardest matchups are Velkoz>Xerath>Senna>Janna>Zyra/Brand>Zilean (twitch used to be meta here as well). Renata has very little lane pressure giving scaling champs a free pass. She struggles most with champs that can poke her down in lane and push fast, as the range on her e/q combo is low and the long cooldown gives opponents a very wide window to trade/force the wave. \n In longer teamfights, she tends to provide more value than other supports but can lose out to a decent Janna, a well-played senna or an exceptional Zilean. She is most likely to lose to scaling supports, who tend to have a free lane against her (and can set up dives on her pretty well with their poke and pushing potential) and can leverage it to become a significant high-range poke threat/burst threat in fights - Velkoz and Senna in particular are problems, but most supports still don't have them in their champ pools, and Senna is hard to pilot. \n She can also lose to successful roamers (e.g. pyke/bard), but counterganking even once or twice can usually even gold enough for her to get to and have a larger impact in late game teamfights, so it's a hard win for them. She doesn't often lose to engage supports. These are out of meta and will struggle to kill a guardian Renata lane if you and your adc play well, but may still have success forcing favourable team fights, particularly in lower elos. \n At the highest level of solo queue play that I see (200 lp or so, rip me), versatile support players usually respond to an early Renata grab with Senna/Janna if they are early pick, or Velkoz if they drop their pick and Velkoz looks playable against your comp. \n Builds\n Skills: Currently, everyone plays e > q > w, then max e > w > q in every game. The exception is at level 1, sometimes it's worth taking q to invade/bush camp. \n Runes: Guardian (font of life, conditioning/bone plating if they have all in, revitalize) is the most standard. For secondary, there are many playable options, but my favourites are inspire (perfect timing/time warp are my usual pickups, but cosmic insight and biscuit are great) and domination (ultimate hunter/relentless hunter are exceptional, the other pickup is low value and doesn't matter too much, I usually run zombie ward). Inspiration with glacial augment (perfect timing/biscuit/time warp or cosmic insight) is playable, as is aery (manaflow or nullifying/transcendence/waterwalking) with secondary in resolve.\n Items: IMO the most important part of playing Renata well is appropriate itemization. Keeping in mind your job is to deny engages and play slow, her primary mythic options are Shurelya's and locket. I tend to take Shurelya's because the active offers her the mobility she lacks in her kit and ability haste is insanely good on Renata, but locket is very good. I tend to take early boots to provide roaming pressure and take lucidities in most games, or tabi/merc treads if they are high value (if they have mostly ad damage or alternatively high magic dmg or reliance on landing cc combos). \n The big choice for Renata tends to come at second item. In my opinion, currently chemtech purifier is the best support item in the game. The other heal reduction options are expensive and make your carries give up damage for them, chemtech is extraordinary value on renata as it costs her almost nothing to pick it up at second item - if they have healing, TAKE IT, and if they have raka/yuumi, taking the oblivion orb before mythic is good if your jungler is coming botside at all. Mikaels is not a great item right now, but is sometimes a high value pickup if the enemy team are cc dependent (e.g. they have a liss and an ashe and your adc didn't take cleanse).\n Other general 2nd item options are staff of flowing water, redemption, anathema's chains, force of nature, frozen heart, randuin's and zhonyas. My general take here is that the lower the threat to you, the less you should invest in tank items as you can get a tiny bit more value off flowing water/redemption compared to the hard tank items. However, if, say, they have a full ap botside, merc treads > locket > force of nature makes the game very hard for them. Stopwatch is massively underrated on Renata. Knowing that you are safe to w another target because you can drop stopwatch increases your team fight impact - don't feel bad about picking it up before important fights and zhonyas can be a decent pick up against some teams (e.g. zed/vex/irelia oriented teams)\n For your general item choices, roughly I think the item tiers are something like purifier > shurelya's > locket > flowing water/redemption > stopwatch > mikaels (situational) > anathema's chains > zhonyas (situational) > frozen heart > fon > randuins. Wardstone is as always a great finisher. \n Imperial mandate and zeke's do similar things here, making it easier to turn your cc combo into a kill, but the items aren't in a fantastic spot and honestly I see Renata as fitting much better into \"play slow\" comps, rather than all-in comps. I think ardent is pretty bad at the moment and I don't build it, but it is an option and good players are building it situationally.",
+   "id": "tfolis",
+   "comments": [],
+   "age_days": 1668,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Thread about playstyle and runes",
+   "url": "https://www.reddit.com/r/RenataMains/comments/t05zkt/thread_about_playstyle_and_runes/",
+   "published": "2022-02-24",
+   "author": "/u/iWoNtHeSiTaTeE",
+   "body": "Hi everyone, I've been playing league since s9 and i recently started having fun as I used to at the beginning thanks to Renata, but the more i play her, the more she feels clunky and slow. I tried both building her semi-tank and enchanter, but i was feeling very unreliable both times if not for my W, which i max first. I tried aery, which i find good only in easy matchups and guardian, which i find okay, nothing specular as i heard people say. I refuse to play glacial since it defies the use of the R attack speed buff, but i saw some people playing phase rush on her and and hail of blades. Is HoB actually viable support, to make full use of the passive? Which build would be good with these two runes??",
+   "id": "t05zkt",
+   "comments": [],
+   "age_days": 1688,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Full Analysis on my build",
+   "url": "https://www.reddit.com/r/RenataMains/comments/sztvx4/full_analysis_on_my_build/",
+   "published": "2022-02-23",
+   "author": "/u/Nurse_Medusa",
+   "body": "At which point does Renata shine, what build works best with her kit, and how can we make her efficient? Please hear me out on my crazy build and I welcome constructive criticism. Build explanation at the bottom if you want to skip the build up. Be kind :)\n Runes:\n (Lethal Tempo - Triumph - Tenacity - Coup)\n (Bone plating - Overgrowth)\n (Attack speed, Armor, Magic resist)\n ​\n Build:\n (Steel Shoulder Guards) (Berserker Grieves) (Locket) (Knights vow / Anathema's Chains)\n ​\n ​\n Basic coverage\n Unlike other supports and many champions that have a signature move throughout I think Renata's strength transitions in the game. Q is a one time use situational move, W is good but you need to live for it and time it appropriately. E is great but falls off (more on that below). R is fun and I love it, but its SLOW and situational as you can't even use it in a 2v1 without minions around (it will just buff an bruiser to attack you) . However her passive scales upward and starts out good if you use it correctly. I believe her passive is her best attribute. I will elaborate later.\n The early phase is very important for the flow of the game. How do we make her better than other enchanters in later phases or early on?\n In my opinion her best option in laning phase is her passive and E. This changes to W and R in late game and a combination in middle. E an amazing trading tool and shouldn't be overlooked. It does decent damage and shields both you AND your ADC. That's incredible for pre6 fights. Q is hardly worth mentioning because it's hard to land, slow blockable and not usable twice in the same fight. W is not the best steroid comparatively to other enchanters that have 30+% scaling opposed to Renata's 1% scaling. The animation effect is cool and part of why I play Renata but its underwhelming in soloq when you compare it to the current S tier Soraka that can just fully heal from 10% health in 3 seconds.\n ​\n Other keystone options:\n Glacial might be good in matchups IF Q is easily assessable in laning. I personally don't like that it slows enemies from attacking each other and wastes the glacial duration while berserked. Aery isn't worth it beyond level 4 unless your maxing AP and AH AND don't die too much from having zero defense. Electrocute with high CD moves on a squishy with no evasion.... nope. Guardian works well and is my second favorite option. I will sometimes use it if I feel outranged by the support.\n ​\n Poor AP scaling and long cooldowns\n AP isn't efficient unless you have burst or frequency in which to utilize your abilities. She isn't really built for ether. It could work if you focus on plenty of haste. She has HIGH cd ratios with Q at 16 sec, W at ````~24 secs, and E at 10. Every ability shouldn't be over 9 seconds for a support... Sure you can build haste but is it worth it and WHEN will it be beneficial?\n Renata's passive and W have 1% ap scaling. Q has high scaling at 80% with only one use on a hard to hit move. Passive reliable damage if favorable over a one shot nuke. E at 50-55% ratios and is very good in laning but gets worse as the game continues. It can have a lot of worth with haste and AP but you will be blown up late game and in higher elo. Unlike Janna, raka, yuumi, lulu, karma, seraphine, morg, ect, Renata's shield can miss in a scrimmage. The shield is impossible to miss with Janna and I'm safe with 3 options if I'm jumped on. Her ultimate has 0% AP scaling.\n So AP can be good in certain match ups with AH if you don't get assassinated and they get caught by a really slow ultimate in a team fight.\n ​\n --------------------------------------------------------------------------------------------\n ​\n MY BUILD: Attack speed tank\n Passive and Lethal Tempo: Her passive does around 5-9 damage more in very early laning on EACH trigger. When an ADC is focusing the same target this becomes x4 on just 2 synchronized AA's. This damage scales well into midgame due to enemies scaling with more health, building more health, and your passive increasing over time. Leverage triggers from abilities and attacks for a double trigger on each of your attacks when in a team fight. It the most consistent option in her kit but you have to live for it AND have AS for it w/o sacrificing precious scarce gold. As a support in most divisions your number one goal should be to avoid being a hinderance by feeding and you need to live for what you are known for; W. It makes since to build tank in this way but how do we incorporate attack speed? Her armor scaling is high already so I included wits end but she needs health after locket. Most games shouldn't last for you to complete a 3rd item anyway. So to obtain AS when it matters most (laning) and have enough gold for mid game, I use lethal tempo, berserk greaves and attack speed runes. It is pretty strong early on with early AD from steel shoulder guards when used with her E to trade. Late game it triggers continuously in team fights if you have attack speed to upkeep the opportunities. This is wear LETHAL TEMPO comes in with berserker greaves. While some supports position and spam abilities or dive, I'm in the middle, can't be assassinated and waiting for a counter engage with R\n Mythic: Moonstone can't trigger often and continuously. That's why I didn't build traditional support items as a secondary like ardent. Shurelya's is great and my second option if I want to build AP. Evenshroud is conceptually nice as it increases damage to enemies damaging other enemies but it offers less than locket over all because of lockets active and passive to support with. Locket offers the most defense and support for your carry.\n Health: The second item must be a health item and there aren't many good options. My picks are (Knight's vow, Anathema's chain's, abyssal mask) at 2300, 2500, and 2700 gold. Knights vow is the cheapest option that keeps a good carry alive even longer and has nice synergy with W. Anathema's to survive the most fed enemy champion or assassin, I like this option when they only have one win condition, a rude assassin chasing you (which supports mains know this happens alot) or one AP champion. In gold elo and even plat I've had assassins dive and chase me thinking i was a free kill in turn they get killed or waste their ultimate. Abyssal rounds off the MR to the high armor ratio and is a decent overlooked support item.\n Gold item: I prefer steel shoulder guards. I don't like poking with spellthiefs because Renata has short range and I don't want to take free damage. AD to round of the AS for more DPS. Health is more beneficial than AP at this stage (CONSIDER THIS. The short range argument, and extra health may give two more auto attacks that does much more damage than AP scaled down from just abilities)\n Runes: Bone plating is great with E in laning and great with all ins. It usually saves me over 500 health over the average game. Font of life is nice since I'm building health or overgrowth can add more synergy. Triumph is nice gold income. I don't fully know how it works with W if it revives you but I like the idea if someone knows the order in which they activate.\n ​\n ​",
+   "id": "sztvx4",
+   "comments": [],
+   "age_days": 1689,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Newest Renata Data 2/21. Comprehensive.",
+   "url": "https://www.reddit.com/r/RenataMains/comments/sxncqf/newest_renata_data_221_comprehensive/",
+   "published": "2022-02-21",
+   "author": "/u/T51bwinterized",
+   "body": "I did a post on my alt account going over some of the results from the day 1 Renata data. Since there's been more time to collect data, I wanted to come back and go over the latest findings.\n Keep in mind that the data is still skewed by the rush of people trying to play her, as well as overall champ inexperience. The data is expected to continue to change as she becomes mostly played by mains.\n Roles\n I'll keep this one short. Renata is wildly underperforming in every single role besides support. This is true in every single ELO bracket. This extends to Bot too, where she is not performing well as an APC. Mid is the role where she's closest to viable, and some people are finding moderate success. Possible to improve in the future, but not likely. However, she isn't anywhere close to the 48% winrate line anywhere besides support.\n In support proper, her winrate is nearing or surpassing 50% in most ELOs and is still climbing. This is well above where she should be. This is the graph you'd expect from a champion whose about to be nerfed. Enjoy launch Renata while you can.\n Matchups\n In support, Renata's weakest matchups are disproportionately mages. Vel'Koz, Lux, Xerath, Brand, Zilean, Karma, Zyra, Swain, Morgana, and pokey enchanters like Soraka, Seraphine, Sona, and Senna (well she's only kinda an enchanter, but still is the type of champ who facerolls Renata).\n Meanwhile, Renata is overperforming into engage. Pyke, Nautilus, Thresh, Rakan, Pantheon, Leona, Alistar, and Galio are among her strongest matchups. Curiously the list of champions she beats also includes Bard and Lulu. Among melee champs, Blitzcrank, Braum, and Taric are her worst matchups.\n The advantages in matchups extends harder post-laning phase, after she power spikes. According to U.gg, her matchup list is very lopsided against her at 15 minutes, with her winning lanes only winning slightly and many of her losing lanes a blowout.\n This confirms with numbers the theorycrafting that in lane, Renata's strongest role is counter-engage. Her weak engage and atrocious range easily explain her weakness to poke and the relative overperformance of peel tanks over engage tanks.\n Allies\n Among ADCs, her best teamates are Vayne, Kog'Maw, Aphelios, and Twitch. Auto-attack hyper carries. This is stable across ELOs. However, some more aggressive early ADCs are also present. Samira, Miss Fortune, and Ashe. Kalista as well, but only in high ELO.\n She has much weaker synergy with caster and poke ADCs. Sivir, Ezreal, Senna, Caitlyn, Varus, and Xayah are lower performers. Surprisingly, Tristiana, Jinx, and Lucien were also underperforming with her. Draven, Kai'Sa, Zeri, and Jhin appear middle of the roads.\n She appears to still have a good winrate alongside bot mages like Veigar and Ziggs. But, when the data is normalized, she's actually doing sub-standard with them and the winrate is only kept up by the absurd winrate of APCs. She doesn't support them well.\n In other lanes, Skirmishers and tanks/bruisers who auto are are all better allies for her. WW especially in the jungle, and Yi in low ELo. Kayle, Jax, irelia, Tahm Kench, Gwen, Xin Zhao, Rammus, Jax, Mundo, Akshan, Vi, Trundle, Yasuo, and Quin all have above normalized winrates when played on a team with her.\n This all broadly makes sense, since Renata's W takes up much of her power budget, and it serves as extra safety and attack speed. All good stuff for auto-attack based champions, especially scaling carries.\n Keystones\n Guardian has not only remained by far the highest performing rune choice on Renata, but it has only continued to run up the score with more data. In Plat+ it is now nearing 55% winrate, and among the general populace it's above 53%. No other rune choice is even coming close.\n Glacial Augment, Aftershock, and Summon Aery are all about equivalent and are performing in the 49.5% to 50.5% among all players, and 50.5% to 51.5% among Plat+ players. Aftershock didn't really show up until there was more data, but the influx of players to Tank Renata has shown it a viable option.\n Few of the other rune choices are having any performance. Unsealed Spellbook has a good winrate, but too low sample size. Arcane Comet and Phase Rush have winrates in the 47% to 49% range and are approaching viability. Arcane Comet is better then Electrocute on pure AP builds. But, neither is fully viable. None of the keystones in Precision and Domination are performing meaningfully.\n Other Runes\n None of the runes in Precision have high enough winrate or playrate in either secondary or first to consider.\n Domination Tree is pretty viable for a secondary tree, but weaker for first tree. Ingenius Hunter and Cheapshot are the two highest performing. But, Relentless Hunter, Ultimate Hunter, Ghost Poro, Zombie Ward, and Taste of Blood all have viable winrates.\n In Sorcery , every rune is within viability. Nullifying Orb is slightly overperforming in low elo. Nimbus Cloak is overperforming in high elo. Transcendence is outperforming in low Elo. Gathering storm is outperforming in high Elo, and Waterwalking (!) is overperforming everywhere. Likely a consequence of strong roams.\n In Resolve, Font of Life is outperforming Shieldbash for Primary, but shieldbash is outperforming for secondary. Both are viable. Bone Plating and Conditioning are outperforming Second Wind, but all are viable. Overgrowth is outperforming Revitalize in High elo. Revitalize is outperforming in Low Elo. Possibly a consequence of higher tank item uptick in high elo.\n In Inspiration, Perfect Timing, Magical Footwear, Biscuits, Future's Market, Cosmic Insight, and Time Warp Tonic are all performing well. Approach Velocity is also performing well, but only in the primary tree.\n There do not appear to be any trap options among the stat bonuses. The AH in row 1 is slightly outperforming AS and Adaptive. The adaptive in Row 2 is slightly losing out to the tank stats, but is presumably somewhat better on enchanter and AP builds.\n Ability Orders\n E>W>Q remains the highest performing skill order with a 53-55% winrate. E>Q>W and W>E>Q trail behind with winrates that are roughly 1-2% lower. No other skill order is worth even considering. E>Q>W seems to be mostly a consequence of the strength of E start. W>E>Q might be viable with hyper carries. It also might reflect that 3 points of E into W isn't bad.\n Standard level 1-3 order is E>Q>W. However, in Plat+, Q>E>W is also a viable 1-3 order.\n Starting Items\n Relic Shield remains the better performing starting item over Spell Thief's Edge. However, They're consistently within 1% winrate of each other in all ELOs. Probably reflects that Renata's starting item is situational depending on MU.\n Boots\n As expected, Ionian Boots are among her highest performing boots, due to their AH. But, Mobis also has an above 50% winrate . Mobis is outperforming especially in high ELO,where Renata's roam potential is strongest.\n Tank Boots have so-so results, but a higher winrate in high ELO, which is presumably reflective of the higher uptake in defensive items. My conjectcture is that the win rates for Merc Treads and Steelcaps are likely to rise at the same time that rank builds get more common.\n Swifties and Sorc shoes are on the low end of viable. In situations where considering Swifties, Mobis might serve you better.\n Mythics\n Evenshroud and Locket sit on a throne of skulls made from their enemies. They're both in the 54.5% to 56.5% winrate category across ELOs. If you are not already building tank Renata, you are missing out. Evenshroud is slightly lower then Locket. But, they approach even in Low ELO, just because Evenshroud is easier to execute.\n Shattercrown and Everfrost have seen marked improvements winrates and are now around 50% in low ELO and 51% in high ELO. Everfrost is slightly stronger in high ELOs. Liandries and Ludens have seen no similar improvement, and should be considered fringe or nonviable. If you're going AP, you should pick one of the the two or Mandate. \n The winrates of all three enchanter mythics have normalized, and are within approximately 1% of each other in all ELOs. In low ELO they're in the 49% range, and in Plat+ they're in the 52% range. Mandate, Shurelya's, and Moonstone should all be considered viable/situational.\n Legendaries\n Among pure tank items: Zeke's Convergance (60%), Frozen Heart (60%), Anathema's Chains (60%), and Fimbulwinter (59) are all among Renata's highest performing items and should be considered strong options. Zeke's and Fimbulwinter proc on CC, while FH and Anathema's counter enemy melee carries, who Renata is a strong counterpick into. These results are fairly consistent in diffrent tiers of play. In high ELO, some people have been finding success with Knight's Vow (61%).\n Both of the \"Enchanter Tank\" items, Redemption (60%) and Mikhael's Blessing (57%), are both performing well and are viable in a variety of builds. They offer the benefits of enchanter builds and a bit of durability to boot. \n Similarly, many Mage Items that provide some sort of durability or safety are outperforming damage focused options. Many have AH and can be slotted into other tanky builds. Cosmic Drive (60%), Banshee's Veil (58%), Archangel's Staff (58%), Zhonya's Hourglass (57%) and Rylai's Scepter (58%). They offer her improved damage, but largely have stats and passives that help her survive close range. \n Pure Enchanter Items are viable and have largely good results on Renata. Ardent Censor is the best (58%), but she also benefits from Flowstaff (56%) and Purtirifier (56%). She's earmarked as an enchanter and has some enchanter abilities in her kit so it makes sense. Ardent synergizes with her passive. \n For players who wish to build damage items, the best results are largely options that contain some measure of durability. Rabadon's Deathcap (58%) and Mejai's Soulstealer (74%) have high winrates, but both are \"win more\" items that you'd only get if you were stomping the enemy. Lichbane (didn't find the overall number) and Demonic Embrace (56%) are relatively strong in lower ELOs. Lichbane because she waves autos, and Demonic for the HP. Shadowflame (56%), Horizon Focus (57%). and Morello (54%) are also not so bad options. Horizon procs on CC, and the all 3 have HP. However, high ELO players aren't having any success on any AP items that aren't more focused on durability. \n Special mention has to go Wardstone (66%). It's winrat eis buffed by the fact that it's only built super late game. But, it's high winrate is still indcative of it as being a very strong option on Renata. It also has strong synergy with other tanky builds.",
+   "id": "sxncqf",
+   "comments": [],
+   "age_days": 1691,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Has anyone else tried Fleet Footwork on Renata as a keystone yet?",
+   "url": "https://www.reddit.com/r/RenataMains/comments/sy3j2j/has_anyone_else_tried_fleet_footwork_on_renata_as/",
+   "published": "2022-02-21",
+   "author": "/u/Poncho--Libre",
+   "body": "I’ve played a handful of games with the Fleet Footwork (Presence of Mind, Legend: Alacrity/Tenacity, Coup de Grace/Cut Down) with Resolve secondary (Second Wind/Bone Plating and Revitalize). Reminder: Font of Life will heal enemy champs affected by your ult. \n While I think Guardian is probably better into most matchups, Fleet Footwork felt pretty solid for lane sustain and keeping up with early trades into lanes that are more poke heavy. The extra move speed off of autos plus the healing makes early burst trades more Renata sided, especially with the shield off of E.\n I’ve also been mostly rushing Mobis into Locket and Redemption as opposed to the usual Shurelyas/Mandate and Chemtank Putrifier route.",
+   "id": "sy3j2j",
+   "comments": [],
+   "age_days": 1691,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Renata Build Ideas / Thoughts",
+   "url": "https://www.reddit.com/r/RenataMains/comments/sr6zs0/renata_build_ideas_thoughts/",
+   "published": "2022-02-13",
+   "author": "/u/PyxisSiderum",
+   "body": "I'm a support main, mostly enchanters and off the bat there were a few things I noticed about Renata;\n Many elements of her kit specifically are similar to the likes of Lulu and Nami, two champions who I also main\n So after quite a bit of experimenting on the PBE I believe I've worked out the adequate builds and skill orders for her\n Beginning with her skill order: R>E>W>Q\n Now, naturally one maxes their R first for CDR but when it comes to W and E the choice may be more difficult so if you look at the similar champions I specified it was always a max order of their shields/heals -> their utility/buff -> their crowd control\n This being further amplified when you read her abilities\n Her abilities have long cooldowns and her Q's CD does not reduce with level only increasing in damage instantly telling us that the only way to truly enhance it is with items as for her W and E looking closely while much of her power is allocated to her w between the insane attack-speed and movement speed boost and the revive the choice I think would be maxing her E\n This being because it will have the lowest cd as you max it, and in addition after playing around with her, her base w already has quite the impact while her e offers more utility during the laning phase because of its versatility (You can also see this especially in Lulu's skill max of R>E>W>Q) \n The next big step for me were her runes and heres what I'd suggest:\n Sorcery\n Summon Aery (Because much of her laning phase is based around autoattacking to proc her bonus damage and she has many ways to apply it, such as her W but especially her E)\n Manaflow Band (I think we all know the strengths of this rune in comparison to others in it's section)\n Transcendence (Due to such high cooldowns Renata will need all the extra ability haste she needs)\n Gathering Storm (This one is more personal preference because while most people take scorch I choose this over it due to her high AP ratios on her E and Q as well as due to what I believe her items should be)\n Resolve (This tree is far more flexible in my opinion than the former though out of all the runes I choose the ones that made the most sense)\n Font of Life (Procs off of her q and e, what more is there to say? More sustain, more gain)\n Revitalize (Amping up those shields)\n Stat Boosts (These are purely subjective and change the most matchup to matchup though I highly recommend you always choose ability haste)\n Ability Haste\n Adaptive Force\n Armor \n Lastly, Renata's items\n Starter Items: Spelltheifs edge (Offensive support item and the other alternative being relic shield however this is more tanky and spellthiefs edge will enable that autoattacking playstyle with aery and overall can generate more gold if you play it correctly)\n Core Build:\n Imperial Mandate (This will proc off of all her spells and give her more AP for each item though Shurelya's Battlesong is still viable if that is more fitting to your playstyle, but I still highly recommend Imperial Mandate)\n Ionian Boots of Lucidity (I'm serious about that ability haste guys)\n Third Item is very matchup dependent (Chemtech Putrifier for antiheal, Ardent Censor to buff your ADC's, or Staff Of Flowing Water to buff your magic damage allies - Overall look for who has the chances of carrying on your team or who you need to counter on the enemy)\n Other Items:\n Depending upon what you get your third item Chemtech Putrifier / Ardent Censor / Staff Of Flowing Water are all amazing items in your build (see above)\n Though for more situational items follow much like you would with other enchanters\n Redemption for that \"comeback heal\" of sorts\n Mikael's Blessing if there is some insane cc or suppress ult that you'll be needing to cleanse\n Finally Watchful Wardstone: While this personally is not something I incorporate into my builds it can be very good for those looking to play more defensive and play the neutral partly through establishing vision\n **Note this build was more off of my personal playstyle which leans towards a more aggressive lane**\n (If anyone finds this helpful I'm considering making a guide on MOBAfire or maybe I'll release a separate post on her win cons and playstyle, so thoughts appreciated!)",
+   "id": "sr6zs0",
+   "comments": [],
+   "age_days": 1699,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Renata in another lane?",
+   "url": "https://www.reddit.com/r/RenataMains/comments/sq9jpz/renata_in_another_lane/",
+   "published": "2022-02-11",
+   "author": "/u/HaunterXD000",
+   "body": "I am a top main who plays for an amateur league in the mid lane. I absolutely love the design and flavor of the new champion, but she's very clearly made for support with her kit being almost entirely reliant on at least one ally and more than one enemy. \n However, we have seen time and again support champions being played in other lanes, such as karma mid in pro and the recent plague of Janna top.\n That's where I ask what people think about Renata in the mid lane. I think it could be fine as a lane neutralizer tech or even a ranged bully in some matchups, while providing insane gank support. However, I'm only a gold player who doesn't usually play mid lane.\n That's why I wanted to have this discussion. Does anyone think she could be viable in the mid lane? Does her viability increase in coordinated levels of play? What sort of runes and items would she build?",
+   "id": "sq9jpz",
+   "comments": [],
+   "age_days": 1701,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "For people who already tested renata, i got some questions:",
+   "url": "https://www.reddit.com/r/RenataMains/comments/sj8kts/for_people_who_already_tested_renata_i_got_some/",
+   "published": "2022-02-03",
+   "author": "/u/A_random_guy365",
+   "body": "So, i wasnt able to play her yet because the only time i actually picked her in PBE people dodged, this is very annoying and i hope it would be prohibited, but anyway, enough about my little rant, i want to ask somethings:\n First, ability order: i know her ult is top priority ( duration increase and cooldown reduction is necessary ) but what about her basic abilities?, Like, i know her W is very strong, but i also feel its something you can still use effectively at level 1, her Q seems like least priority since it doesnt increase the cc duration with level, and her E seems promising, but competes with W, so i wanted to know which to level up first\n Second, lanes and roles: which roles can renata succeed aside from support?, I feel like she could work very well with midlane because of how her kit can impact fights, and being in the center of the action can help her, although her poor wave clear might ruin everything, top would be amazing if it wasnt an island, i really dont know how can renata jg ever work, but i would love another jg enchanter like ivern, adc could be interesting ( lane partner to help her clear, easier access to fights, access to resources, etc ) but it would be the double support situation, which means botlane depends solo on someone else on the team for the damage, because i am pretty sure she cant compete in dmg turns to adcs like vayne and jinx\n Third, and last: what is her best build?, Full AP, or enchanter support?, Tbh, both seem really good and are really matchup dependant on my eyes, but yeah, just wanted to ask",
+   "id": "sj8kts",
+   "comments": [],
+   "age_days": 1709,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Renata fails to live up to her promised \"enchanter classification\"",
+   "url": "https://www.reddit.com/r/RenataMains/comments/sj3s43/renata_fails_to_live_up_to_her_promised_enchanter/",
+   "published": "2022-02-02",
+   "author": "/u/London_Tipton",
+   "body": "The reasons why she feels awful to play as are:\n - her astronomical cooldowns\n - crappy ability range\n - irrelevant shield\n - steroid/buff that usually just sits there unused bcos of its cooldown \n She will just get destroyed against poke matchups since she cannot be played as a backline shielding enchanter given her gigantic cooldown and pathetic shield value. She gets outscaled by dedicated enchanters and her effective range puts her in very dangerous positions where she can be easily engaged on. \n Majority of her strength is locked behind her: \n a) passive, which is extremely depended on her opponents — good luck auto-attacking vs mages who outrange you by 2 screens or casually walking up to engage supports asking to die \n b) W's revive \n This ability is so unhealthy... you're completely discouraged from using it as an attack/move speed steroid because the revive is too good to pass on, so you will most likely neglect using it. It really feels like you half of the game you play without a one ability \n c) Ultimate \n General thoughts: There's literally nothing you can do because your spells are constantly on cooldown, you're almost always OOM and if you can't proc her passive efficiently enough, which happens quite often, your damage/poke is totally worthless.\n Maybe in few months, once they hopefully nerf her W and R, she will get some powershifts to her Q and E — making her feel like she's actually doing something and not just getting carried by two broken abilities and strutting around in a glorious outfit lol",
+   "id": "sj3s43",
+   "comments": [],
+   "age_days": 1710,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  }
+ ]
+}

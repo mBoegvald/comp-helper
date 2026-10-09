@@ -1,0 +1,1432 @@
+{
+ "champion": "Camille",
+ "subreddit": "camillemains",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "A numbers breakdown of Conqueror and PTA",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1wpgyod/a_numbers_breakdown_of_conqueror_and_pta/",
+   "published": "2026-09-24",
+   "author": "/u/Anonymonamo",
+   "body": "Fellow enjoyers of BIG Q2 numbers! Warning, long post ahead.\n As is well-known, Grasp is an incredible rune for laning phase that synergizes well with Camille's short trading pattern. Unfortunately, it scales like ASS, and so Camille players often go for a more scaling setup with the Precision tree in easy matchups.\n The most common choice here is Conqueror. It gives AD, and Camille's kit scales well with AD. It makes good sense. Last year, however, Riot changed how PTA works so that it now amplifies true damage as well as physical damage. As a result of this change, Fiora players nowadays take PTA almost twice as often as they take Conqueror (per current patch Lolalytics E+), since it allows for stronger short trades without falling off that hard in longer engagements. Camille players, on the other hand, have not really caught on to this except in ranged matchups. My thesis is that PTA can be arguably just as strong, if not stronger, even against many melee champions.\n I've run some examples in practice tool. The setup is Precision+Resolve, with PTA/Last Stand/Shield Bash/Double Adaptive. Every combo will include one shield bash proc.\n Level Items Armor Combo PTA Conq Pre-stacked Conq 1 Dblade 0 AA+q+insta q 362 330 367 30 279 254 282 0 AA+q+AA+Q2 479 445 489 30 381 355 389 As we can see, with Q start, PTA wins quite handily if you get three autos off for a PTA proc. Even a fully pre-stacked Conqueror (which is quite unlikely level 1) only wins by single-digit more damage. If you hit fewer than three autos, Conqueror technically wins since it gives a rounding error amount of AD after one or two autos.\n Level Items Armor Combo PTA Conq Pre-stacked Conq 3 Dblade 0 E-Q2-W 381 389 426 30 308 314 344 Once again, Conqueror provides negligable amounts of extra damage in trades too short to proc PTA, unless you find a way to keep Conqueror stacks up between trades.\n Level Items Armor Combo PTA Conq Pre-stacked Conq 3 Dblade 0 E-AA-Q2-AA-W 636 595 644 30 504 473 512 This is a weird trading pattern. I do not know why I tested it. In any case, PTA barely loses to a full pre-stacked Conqueror in 3 AA trades.\n Level Items Armor Combo PTA Conq Pre-stacked Conq 3 Dblade 0 W-E-AA-Q1-AA-Q2 748 726 801 30 591 575 613 A long trade. As has been shown before, PTA wins any trade where you can proc 3 AA and can't pre-stack Conqueror beforehand. \n Level Items Armor Combo PTA Conq Pre-stacked Conq 6 Dblade+Sheen 0 W-E-AA-Q1-AA-Q2 1027 987 1046 50 738 712 743 Same combo but with level 6 and Sheen. \n Level Items Armor Combo PTA Conq Pre-stacked Conq 6 Dblade+Sheen 0 AA+q+AA+Q 804 732 795 50 590 541 585 PTA actually wins these auto-and-Q-only trades even versus a fully 12-stacked Conqueror!\n Level Items Armor Combo PTA Conq Pre-stacked Conq 6 Dblade+Sheen 0 W-E-AA-q1-AA-Q2-AA-AA-AA-Q1-AA-Q2 1980 1990 2050 50 1428 1437 1478 An unrealistically long engagement with suboptimal ability usage. I tried it mostly to see if Conqueror can stack itself fast enough in a single fight to actually beat PTA. Unfortunatly my practice tool kind of failed here since PTA's damage amplification ran out towards the last one or two autos hits since apparently fighting dummies doesn't count as being in combat. In any case, the damage is practically the same for PTA and Conqueror despite being a very long trade.\n Level Items Armor Combo PTA Conq Pre-stacked Conq 9 Dblade+Triforce 0 W-E-AA-q1-AA-Q2-AA-AA-AA-Q1-AA-Q2 3406 3209 3280 70 2297 2179 2223 Same combo as above, but level 9 and Triforce. \n Level Items Armor Combo PTA Conq Pre-stacked Conq 9 Dblade+Triforce 0 W-E-AA-q1-AA-Q2 1670 1604 1675 70 1129 1089 1132 Level Items Armor Combo PTA Conq Pre-stacked Conq 20 Tri+Rav+DD+Sterak+GA 0 AA+q+AA+Q 3304 3089 3203 70 2423 2273 2351 200 1878 1767 1824 Level Items Armor Combo PTA Conq Pre-stacked Conq 20 Tri+Rav+DD+Sterak+GA 0 W-E-AA-q1-AA-Q2-AA-AA-AA-Q1-AA-Q2 8256 8019 8125 70 5816 5647 5714 200 4306 4179 4221 Level Items Armor Combo Pre-stacked PTA Pre-stacked Conq 20 Tri+Rav+DD+Sterak+GA 0 Q2 1165 1134 Same long combo as in previous examples; obviously, at this point it no longer syncs up with attack speed/CDs anymore.\n All in all, I think PTA is quite underrated. As can be seen from the above examples, the only points of the game where Conqueror will realistically do more damage than PTA is in early game fights where you can keep Conqueror stacks up between trades and use multiple rotations without dropping stacks. Late game, even with Conqueror pre-stacked you deal less damage than an unstacked PTA. In any 1v1 where you use 3 AA's and don't enter the fight already stacked, PTA simply deals more damage, at all points of the game. Most importantly, PTA is quite decisively better in early short trades.\n Caveats to the above:\n Conqueror provides healing. Since it only starts healing after 12 stacks, this mostly matters in fights where you do multiple rotations. For this reason, fights against tanks should probably be better fought with Conqueror.\n\n PTA works worse with multiple enemy champions. While Conqueror is truly agnostic about how many people you're fighting, PTA requires you to land 3 hits on a single champion to get the damage. This can be an issue in hectic multi-people fights.\n\n I'm interested to hear your thoughts!",
+   "id": "1wpgyod",
+   "comments": [],
+   "age_days": 15,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Please help me become a Camille OTP 🙏🏼",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1w6jumm/please_help_me_become_a_camille_otp/",
+   "published": "2026-09-03",
+   "author": "/u/Accomplished-Rub-894",
+   "body": "I've recently discovered Camille top, and I think I've finally found a champion I genuinely want to one-trick.\n I've played a lot of different champions across every role, but I've never found one that I actually enjoy playing consistently. Even if I'm winning every game, after 7-10 games I get bored and either switch champs or switch roles just to try something different.\n But Camille... she just feels completely different from anything else I've played. The mobility, true damage, ability to outplay people, insane side-laning, and the feeling of being able to completely take over a fight once you get your items... there's something about her that's ridiculously satisfying.\n The problem is that I can already tell there's a massive difference between playing Camille and actually being good at Camille. I've only started seriously playing her recently, so right now I'm mostly focused on learning the fundamentals rather than just spamming games and hoping I improve.\n A few things I'm trying to understand:\n What's Camille's overall game plan during the early, mid, and late game?\n I've noticed I can actually kill a lot of lane bullies who normally dominate extended fights, like Sett, Aatrox, Renekton and Mordekaiser, during levels 1-3 if I play aggressively and use Ignite. But after level 3 and especially after my first base, I feel like the lane completely flips. Sometimes I feel like I can't even walk up to CS without getting punished and they just win every trade. How am I supposed to play this part of the lane, and when does Camille actually spike again?\n What are Camille's biggest power spikes? Is there a specific level/item combination where she becomes significantly stronger?\n When do you take tp-ignite vs flash-ignite?\n I don't really understand how I'm supposed to use E (Hookshot) correctly. I've seen good Camille players fly over what look like insanely thick walls, while when I try it, I can't get the second part of E to work. How exactly does the wall interaction work, and is there a trick to consistently getting those long E's?\n How should I approach teamfights? Should I mostly be looking for a flank and diving the backline?\n Which matchups should I be banning? I currently ban Darius, I know the matchup is winnable, but I just struggle into him...\n Is there an up-to-date matchup spreadsheet, guide, or OTP resource that the Camille community considers essential?\n What separates an average Camille player from a really good Camille player?\n And lastly, what habits should I start building now so I don't develop bad habits that will hold me back later?\n I'm not really looking for \"just play more games\" as advice. I'd like to understand what I'm supposed to be practicing and looking for in those games so I can actually improve deliberately.\n I really want to become genuinely great at this champion, so any advice, secret tricks, matchup knowledge, VODs, guides, or resources you guys think are worth studying would be massively appreciated.\n Thanks in advance!\n https://preview.redd.it/s14jws04cdnh1.png?width=1000&format=png&auto=webp&s=61d7180d27464c1502f5b1630e441156f24d3e43",
+   "id": "1w6jumm",
+   "comments": [],
+   "age_days": 36,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Aatrox matchup",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1vzahvw/aatrox_matchup/",
+   "published": "2026-08-26",
+   "author": "/u/MoayidAbdo",
+   "body": "i take grasp shieldbash, secendwind/boneplating, overgrowth, magical footwear and cosmic insight \n flash tp \n i always win 1-3 but then i think i just roll a dice every time i blind camille into him if aatrox player is a human i lose if he is not i win \n what should i do in this matchup \n i dont turbo int or feed but i take tp cosmic insight to affect the map and get a teammate a lead because in my head i already lost top or didnt win enough",
+   "id": "1vzahvw",
+   "comments": [],
+   "age_days": 44,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Did Jax matchup changed ?",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1vpuhcn/did_jax_matchup_changed/",
+   "published": "2026-08-16",
+   "author": "/u/Only-Refrigerator359",
+   "body": "Camille is 49%wr against Jax, but 52.3%wr above master.\n I don't understand, I've always banned Jax since the only time I played against it felt like I couldn't beat him from level 1 to level 18.\n Why do high elo players have such a good winrate against Jax ? Is Jax ban not mandatory anymore ? How to play against this champ in lane and can I 1v1 him at any moment ?",
+   "id": "1vpuhcn",
+   "comments": [],
+   "age_days": 54,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Camille mini rework proposal",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1vhcejl/camille_mini_rework_proposal/",
+   "published": "2026-08-06",
+   "author": "/u/varijor",
+   "body": "Hey, I've been a Camille OTP since shortly after her release, so I've played through almost every major version of her kit. For context, I reached 1,500 LP on EUNE this season. I know EUNE is generally considered less competitive than EUW. The last time I played seriously on EUW, around four years ago, I reached roughly rank 1,200. I've also reached Grandmaster with over a 70% win rate on Camille during a separate climb, and League of Graphs listed me as rank 1 Camille worldwide at one point.\n I am not mentioning any of this to suggest that every idea or number below must be correct. Rankings from sites like League of Graphs are far from definitive. I only want to provide context that this proposal comes from years of experience with the champion at a relatively high level.\n I understand that balancing Camille across different roles and skill levels is difficult. The goal of this mini rework is to reduce her early low-economy power while giving top Camille a healthier and more rewarding mid-to-late game. I tried to preserve her identity, counterplay and skill expression rather than simply add power to her existing kit.\n Goals Shift power away from Camille's early low-economy all-ins\n Reduce support Camille's early strength without restricting rune choices\n Reward precise use of Hookshot, Tactical Sweep and prepared Q2 engages\n Improve Camille's mid and late-game scaling as a top laner\n Base Stats Attack range: 125 -> 150\n Base mana: 339 -> 369\n Mana growth: 52 -> 50.25\n Adaptive Defenses (Passive) Cooldown: 18/14/10/6 -> 15/12/9/6 seconds at levels 1/7/13/19\n Shield strength: 20% maximum health -> 14/16/20/25% maximum health at levels 1/7/13/19\n Shield duration: 2 -> 2.25 seconds\n This reduces Camille's protection during early trades while giving her more frequent access to a stronger shield later. The final breakpoint rewards top Camille's access to levels 19 and 20.\n Precision Protocol (Q) Bonus attack range: 50 -> 25\n Bonus movement speed: 25/30/35/40/45% -> 20/25/30/35/40%\n New: Hitting a target with Precision Protocol makes Camille ghosted for 1 second\n Camille's total attack range while using Precision Protocol remains unchanged at 175 due to her increased base attack range.\n Tactical Sweep (W) Base damage: 60/85/110/135/160 (+60% bonus AD) -> 50/75/100/125/150 (+55% bonus AD)\n Mana cost: 50/55/60/65/70 -> 60/65/70/75/80\n Inner radius: 325 unchanged\n Outer radius: 650 -> 675\n Outer cone bonus damage: 6/6.5/7/7.5/8% (+2.5% per 100 bonus AD) -> 5/5.5/6/6.5/7% (+2.5% per 100 bonus AD) of the target's maximum health\n Outer cone healing remains at 100% of the bonus damage dealt to enemy champions\n New W Passive - Justice Retake Hitting an enemy champion with the outer cone of Tactical Sweep marks them with Justice Retake for 5 seconds.\n Camille's next Precision Protocol against the marked target consumes the mark and deals bonus true damage equal to 1% (+1.15/1.25/1.35/1.45/1.55% per 100 base AD) of the target's maximum health.\n If Justice Retake is consumed by a fully empowered Q2, its bonus true damage is doubled.\n If Justice Retake is consumed by a fully empowered Q2, Camille also heals for 2.5/2.5/3/3/3.5% of the total damage dealt by that attack, including Justice Retake.\n Q1 or an unempowered Q2 consumes the mark for its normal bonus damage. A fully empowered Q2 doubles the bonus damage and grants the healing effect.\n Tactical Sweep remains a weaker and more expensive laning tool. Its existing outer-cone damage and healing are preserved at reduced strength, while Justice Retake provides a stronger reward for committing to a properly prepared combo.\n Hookshot (E) Damage: 60/90/120/150/180 (+75% bonus AD) -> 50/80/110/140/170 (+85% bonus AD)\n Stun duration: 0.75 -> 0.65/0.65/0.7/0.75/0.75 seconds\n After casting Wall Dive, Camille gains 40/45/50/55/60% attack speed for 5 seconds\n If Wall Dive does not hit an enemy champion, the attack speed bonus is reduced by 50% to 20/22.5/25/27.5/30%\n New: Casting Hookshot grants Camille 10% bonus movement speed until Wall Dive resolves or the ability expires\n If Wall Dive hits an enemy champion, the movement speed bonus persists for 2 seconds after impact\n If Wall Dive does not hit an enemy champion, the movement speed bonus ends when the dash finishes\n If Hookshot does not connect to terrain or Wall Dive is not cast, the movement speed bonus ends when the ability expires\n The damage change is a nerf below 100 bonus AD and a buff above 100 bonus AD.\n The Hextech Ultimatum (R) Duration: 2.5/3.25/4 -> 2/3/4 seconds\n Expected Power Curve Early game: Weaker shields, lower E damage, shorter E stun, weaker W poke, higher W mana cost and shorter rank 1 ultimate\n Mid game: Power returns through passive uptime, bonus AD scaling and Justice Retake\n Late game: Stronger passive, improved E scaling and up to approximately 6.3% maximum health bonus true damage from a fully empowered Justice Retake Q2\n Support: Weaker early durability, base damage and lockdown\n Top: Better scaling through levels, items and the level 19 passive breakpoint\n Final Thoughts The most obvious alternative would be to simply prevent Camille from using Hail of Blades. I understand why that option comes to mind, especially when the goal is to reduce her strength as a support, but I don't think it would be the healthiest solution. Removing a specific rune from a champion would solve part of the problem by taking away build variety, and I'd rather see the distinction between top and support Camille created through her actual kit, level scaling and gold scaling.\n None of the numbers in this proposal should be treated as final. It's only a concept and a possible direction for the champion. The exact passive values, W damage, Justice Retake scaling and E bonuses would obviously need proper playtesting and adjustment. I don't have access to Riot's internal data, so I'm mainly trying to present the intended power curve and gameplay pattern rather than claim that every number is already perfectly balanced.\n Camille has never needed a universally strong laning phase to function. Even when her lane was difficult, experienced Camille players had ways to play around it through spacing, trade timing, wave management and matchup knowledge. I think that's an important part of what made the champion rewarding to learn.\n My goal isn't to make Camille inaccessible to everyone except OTPs. I'd simply like her performance to depend more on actual experience with the champion. Someone who plays her regularly should be rewarded for understanding her matchups, preparing Q2 correctly and choosing the right moment to commit. At the same time, she shouldn't be a champion that someone can randomly pick as support with Hail of Blades, leave lane early and immediately start forcing fights across the map mainly through strong early base values.\n I believe this direction would give Camille a clearer place as a champion that rewards mastery, while still keeping her available to anyone willing to put time into learning her. Thanks for taking the time to read the proposal.\n TL:DR This isn't intended as a direct Camille buff. The goal is to move power away from her early game and support role into top lane mid and late-game scaling.\n Camille gains 150 base attack range, but Q loses 25 bonus range, keeping its total attack range unchanged at 175. Q also grants less movement speed but makes Camille ghosted for 1 second.\n Her passive provides a smaller shield early, but has a shorter cooldown and eventually becomes stronger at levels 13 and 19.\n Tactical Sweep deals less base and outer-cone damage, costs more mana and retains its existing healing.\n Hitting outer W applies Justice Retake. Camille's next Q deals bonus maximum health true damage, which is doubled and provides minor healing when consumed by a fully empowered Q2.\n Hookshot has lower base damage but better bonus AD scaling. Its stun is shorter at early ranks, and missing a champion reduces its attack speed bonus by 50%.\n Casting Hookshot grants 10% movement speed. Hitting an enemy champion keeps the bonus for 2 seconds, while missing immediately removes it.\n Camille's rank 1 and rank 2 ultimate durations are reduced, weakening her early lockdown and support roaming.\n Preventing Camille from using Hail of Blades would be an easier solution, but it would remove rune variety instead of addressing the difference between top and support through her kit.\n All numbers are conceptual and would need proper playtesting and adjustment.",
+   "id": "1vhcejl",
+   "comments": [],
+   "age_days": 64,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Remove this character",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1vh6b5n/remove_this_character/",
+   "published": "2026-08-06",
+   "author": "/u/shinigami4869",
+   "body": "I don't even play league anymore,just watching some proplay but goddamn this champ was in the spot for couple of patches as support and riot just nuked the living hell out of it. Just remove camille at this point bro what can she even do?\n I'll tell you what she can't: scale into late game/be good early game/have any impact at all mid game/deal damage/have winning matchups...and the list goes on and on but I guess she has ult .\n Situational pick my ass",
+   "id": "1vh6b5n",
+   "comments": [],
+   "age_days": 64,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Camille changes first impressions",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1vfcj3a/camille_changes_first_impressions/",
+   "published": "2026-08-04",
+   "author": "/u/archymedian",
+   "body": "• Mana issues partially fixed (still to be tested) \n • Max shield amount nerfed; at that amount, it will at most protect you from 1 basic attack, and abilities will cause you to lose health anyway. It should be 15/18/20%. \n • Finally, they reduced the passive cooldown. I would have preferred it to stay at the initial 15 seconds with 15% shield at level 1. This means more trades early on and many more semi-guaranteed Grasp stacks. In the late game, you could be a bit tankier (considering they buffed Sterak a little). \n • Camille with Arcane Comet will return, I can guarantee it. At least 3 early points will be absolutely key, especially in ranged matchups.\n • Marches like Jax, Darius/Sett would no longer be unplayable, but Mordekaiser still needs to be banned. \n • There are no changes that directly boost their late game damage, but I think that being a bit tankier will give us more opportunities to survive fights. Even so, I would have liked some changes to the Q. Less scaling in exchange for percentage damage wouldn't have been bad at all. That's what I think; I'd like to know what you all think.",
+   "id": "1vfcj3a",
+   "comments": [],
+   "age_days": 66,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Camille *Dodge E* matchups personal opinion",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1vfozb1/camille_dodge_e_matchups_personal_opinion/",
+   "published": "2026-08-04",
+   "author": "/u/MoayidAbdo",
+   "body": "",
+   "id": "1vfozb1",
+   "comments": [],
+   "age_days": 66,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "The delusion on display",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1v6c2dv/the_delusion_on_display/",
+   "published": "2026-07-25",
+   "author": "/u/lub4os4",
+   "body": "I've been lurking in other champ subreddits, because its interesting to see what they think of their champion. Then i stumbled on this gem. Thankfully some of the people there actually know how busted their champion is, but there are also comments which are pure delusion.",
+   "id": "1v6c2dv",
+   "comments": [],
+   "age_days": 76,
+   "recency_weight": 1.0,
+   "topics": [],
+   "stale_items": false
+  },
+  {
+   "title": "Camille/Aatrox Rank 1 World - Starting my content journey!",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1us3u4c/camilleaatrox_rank_1_world_starting_my_content/",
+   "published": "2026-07-09",
+   "author": "/u/jadusjadd_",
+   "body": "Hi everyone,\n I'm currently sitting at Rank 1 on Camille and Aatrox EUW here's my opgg : aatrox#gank\n I've decided to start creating content to share some clips, matchups, and macro decisions that got me to the top of the ladder. I really want to help players understand the deeper mechanics and decision-making behind these champions.\n I’ll be posting Guides / Clips / VOD reviews / Stream highlights on my channels. If you’re interested in improving or just want to see high-elo gameplay, feel free to check them out:\n Twitch: jadusjadd\n YouTube/TikTok: jadusjadd\n I’m also open to answering any questions you have about specific matchups or builds in the comments. Let me know what kind of content you’d like to see!\n Also i'm from france so most of my content will be in french, does this bother you ? Let me know,\n posted the same in the aatroxmains reddit",
+   "id": "1us3u4c",
+   "comments": [],
+   "age_days": 92,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Duelos contra Fiora numa mesma partida.",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1uiw14o/duelos_contra_fiora_numa_mesma_partida/",
+   "published": "2026-06-29",
+   "author": "/u/AcrobaticTaste1549",
+   "body": "Na minha opinião, essa é a matchup mais divertida. Eu simplesmente amo enfrentar Fioras. \n Observação: Alguns são uma bagunça pois a partida estava extremamente estressante.",
+   "id": "1uiw14o",
+   "comments": [],
+   "age_days": 102,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Why does Camille feel so dead right now?",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1uhgsbq/why_does_camille_feel_so_dead_right_now/",
+   "published": "2026-06-27",
+   "author": "/u/konfitura17",
+   "body": "First of all, I want to thank all the Fiora mains who responded to my last post it was really interesting reading your opinion. Now I’ve got a question for Camille mains. I’m a Riven main Gold/Plat elo, and I’ve been hearing a lot of people say that Camille is currently in a really weak spot. I also remember Drututt saying she’s basically dead or just very weak right now. I don’t play Camille myself, so I’m curious what exactly is causing this. Is it her laning phase, items, matchups, or something else? I also have to say I kinda miss fighting against her, she always felt like a really interesting and skill based matchup. I’d love to hear your thoughts, especially from people who have been maining Camille for a long time",
+   "id": "1uhgsbq",
+   "comments": [],
+   "age_days": 104,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Pegando Mestre de Camille pela quarta vez no servidor BR e algumas considerações.",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1u1t2ba/pegando_mestre_de_camille_pela_quarta_vez_no/",
+   "published": "2026-06-10",
+   "author": "/u/AcrobaticTaste1549",
+   "body": "Bom, eu devo ter cerca de 4/5 mil jogos com essa campeã se juntar todas as contas que eu já tive. Então acredito que eu realmente saiba o que estou dizendo (na maioria das vezes).\n A última vez que a vi tão fraca foi talvez em 2017 ou 2018 quando ela tomou o nerf na ultimate que a fez perder o tempo da prisão... E agora, é a segunda vez que a vejo realmente bem fraca. \n Bom, o meta de campeões a distância na rota superior só desfavorece ainda mais Camille, pelo fato dela não ter quase nenhum dano relevante de início e também de não haver paredes (ah, a mudança do mapa foi de fato a PIOR coisa que aconteceu com ela). \n Renekton atualmente é meu ban permanente e recomendo banir campeões parecidos com ele. Veja, campeões como Renekton que é um \"brainrot\" devem, sempre que possível, serem banidos. Assim como o Mordekaiser, é um campeão que nessa match ele precisa errar MUITO, mas muito mesmo.\n Bana Teemo em elos inferiores e mude para Renekton/Mordekaiser em elos superiores. Apesar da matchup contra Teemo não ser exatamente difícil, ele acaba sendo extremamente eficiente contra a Camille com a cegueira. Isso pode lhe atrapalhar no meio/final de jogo, pois a cegueira dele é também uma utilidade. Diferente do Jax, o Teemo nega seu dano para qualquer campeão que tente atacar, enfim... É muito eficiente.\n Atualmente, apenas uma preferência, prefiro upar o \"E\" de início. Ele é ótimo para ditar o ritmo das trocas. Por exemplo, se um Darius vier te bater, tu pode usar sua passiva até o limite e atordoa-lo com o seu \"E\" e fugir logo em seguida. Além de ser ótimo para fugas nível 2 caso tome um gank. Ah, também ele é mais forte com conquistador e em trocar nível 1 (testei contra uma Irelia e venci).\n Algumas matchups não terá o que fazer, é simplesmente campeão superior. Rumble, por exemplo, quando bem jogado é simplesmente impossível de vencer. Ele não chega ser O Opressor, mas é bem impossível de vencer uma troca. É, talvez, a mesma sensação de jogar contra Warwick.\n Contra campeões a distância, pegue pressione o ataque, é ótima forma de fazer trocas pequenas. Mas evite de pegar contra Teemo e Kennen, pois eles conseguem facilmente sair da sua troca antes de usar a runa. Contra Teemo eu normalmente pego cometa e contra Kennen agilidade nos pés.\n Akali e GP são um dos counters mais difíceis. Simplesmente, o GP tem dano excessivo. Sua passiva, seu \"Q\", seu \"E\" e sua ultimate possuem dano o suficiente para ser a principal habilidade de dano de vários campeões. Já Akali é complicada devido a fumaça, então tenha mais cuidado com esses dois (talvez valha a pena, nesse caso, investir numa hidra raivosa logo de início).\n Não é só campeão a distância que pode pegar pressione ao ataque, mas também contra Yone e Zaahen, pois são campeões melees muito fracos no início.\n O único tanque problemático ao meu ver é o Malphite. Ele consegue ter uma troca muito boa contra a Camille e sua variedade de dano mágico e físico fazem o seu escudo perder eficiência, portanto é uma matchup para se tomar cuidado. \n Contra Irelia eu não pego aperto dos mortos vivos. Não vejo sentido pegar uma runa que escala vida contra um campeão que constrói rei destruído, portanto prefiro pegar conquistador e investir num \"all-win\".\n Gnar é uma matchup problemática se o mesmo pegar ritmo fatal, pois ele pode ganhar a troca mesmo estando no \"mini-gnar\". Por isso considero essa runa brainrot.\n Você pode construir manopla dos glacinatas contra Jax e Renekton (talvez em outras matchups) se estiver muito atrás. É incrivelmente eficiente contra ambos. Mas você perde a velocidade de ataque e dano nos minions, então farma fica um pouco mais difícil.\n Pare de sempre jogar pensando que não pode vencer uma troca. Não tenha medo de arriscar contra um Aatrox ou uma Fiora. Contra Aatrox, por exemplo, eu pego conquistador pois sei que uma troca bem feita eu consigo facilmente vencer. Contra Fiora, também não tenho medo do conquistador.\n Urgot é impossível se bem jogado. Real, é simplesmente impossível de vencer isso no início/meio/fim do jogo. É um campeão muito fácil contra a Camille pelo fato do \"E\" dele não ser parado por qualquer atordoamento ou coisa do tipo. É impossível começar uma troca contra ele sem ser atordoado por 1.5s e ativar sua passiva para se defender. \n Não inventa moda. Camille não é um campeão versátil em construções. Faça o padrão e mude poucas vezes, somente contra a exceção.\n Na maioria das vezes, mute o ping do seu time. Não há, atualmente, melhor toplaner para tomar decisões do que Camille. Ela é o melhor campeão para você ter noções de decisão de jogada, portanto é bem capaz do seu time te pingar para fazer jogadas que no fundo você sabe que não vai dar certo.\n Contra Vladimir você pega conquistador e tenta trocar contra ele nível 1 com o seu \"E\". Depois tenta sempre forçar a poça dele com o seu \"W\" ou caso consiga uma boa troca nível 1, não tenha medo e dê um \"all-win\". O Vladimir tem cooldowns bem altos no início do jogo.\n Camille rota meio é uma porcaria, não faça.\n Camille na selva até dá para fazer, mas é bem ruim também.\n Camille suporte funciona, mas perde eficiência rápido. Invista em quem vá carregar.\n Talvez seja tudo o que eu estou pensando no momento.",
+   "id": "1u1t2ba",
+   "comments": [],
+   "age_days": 121,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Matchups difíceis são mais gratificantes quando ganhamos",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1tv0alv/matchups_difíceis_são_mais_gratificantes_quando/",
+   "published": "2026-06-02",
+   "author": "/u/AcrobaticTaste1549",
+   "body": "https://reddit.com/link/1tv0alv/video/s8xssj8q0x4h1/player\n Sinto uma boa sensação após vencer uma matchup counter, exceto por campeões chatos como Akali e GP.",
+   "id": "1tv0alv",
+   "comments": [],
+   "age_days": 129,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "holy shit what is this champ state ?",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1tnyejr/holy_shit_what_is_this_champ_state/",
+   "published": "2026-05-26",
+   "author": "/u/Positive-Top7522",
+   "body": "I read the community guide matchup, and god I feel like he's outdated asf. Every tips doesnt work or i'm just ass. Garen ? He deal much dmg than the shield could absorb. Malphite ez lane ? Juste go stomped 100-0 me since lvl 3 idk what i'm doin. Am i just this bad ?",
+   "id": "1tnyejr",
+   "comments": [],
+   "age_days": 136,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Lost on Camille",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1to1qmb/lost_on_camille/",
+   "published": "2026-05-26",
+   "author": "/u/Zealousideal_Diet568",
+   "body": "I do love the champion itself, but it feels impossible to play her, I'm plat hardstuck with almost 200 games on Camille, at the very first, she felt great, I climbed from gold3 to plat 3 only with camille pretty easily, however now I feel stuck. It might be my fault, but I feel like every lane matchup is insanely hard, since lvl3 every champ (except ornn, mundo...) feels like they are stronger. I just have to be farming under tower for 15 minutes straight and then in the mid-late game its just a 50/50. I've watched so many videos of LiuBai Camille but his Camille feels much stronger than mine, I can't replicate the trades patterns, it's like in higher ranks ppl respect more the champion and it's \"easier\" to trade, while in low elo enemies don't respect and I just can't catch up that advantage. \n It got to a point where I switched to mid as Diana and now its going good, but I think it's because is alike Camille in the sense of going all in, while camille its not always all in.\n I don't know, I love Camille but I just can't play her.\n Any tips or suggestions, I'll read.",
+   "id": "1to1qmb",
+   "comments": [],
+   "age_days": 136,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What is Camilles gameplan? What defines Camille?",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1tkrfo7/what_is_camilles_gameplan_what_defines_camille/",
+   "published": "2026-05-22",
+   "author": "/u/RainAndThunderIsCool",
+   "body": "Hi,\n where does Camille Top stand right now? In past days, long ago, when I didnt played her, I always saw her as a 1v1 duelist with great scaling. But those days are long gone I think.\n When a Camille OTP shows a video how he carries game, but at the same time nearly died to a ADC or APC while beeing ahead, than I feel like Jax, Fiora would be better. Also her true damage sounds great on paper, but every assasin can do that \"burst\" to squishies, and her damage towards HP stacking enemies is laughable.\n When I play Ornn I always stack HP and she stops to do damage.\n Is she a lv1 snowball champ? Scaling champ? Can she weakside and scale back? Or is she more of a support now?\n When I watch top tier Camille OTPs, they win 1v1s really close, like If they made one little mistake its over. Often they also carry games through catching rather than \"fair\" 1v1s 2v2s and so on. Ofc not every example is the same, ofc camille can go 14/0 in lane vs really bad players.\n I am deciding between Fiora, Camille, Jax and so on. And I dont fully understood Camilles job.\n I watched a lot of matchups and gameplays, and what I keep seeing ist, more like a mid game catch the helpless squishy or 1v1 when super ahead.\n More like an assasin tbh.\n Fore sure I could be 100% wrong and misunderstood something. Why would you take Camille over other champs (besides liking to play her).",
+   "id": "1tkrfo7",
+   "comments": [],
+   "age_days": 140,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Mental block against Aatrox",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1tih5ax/mental_block_against_aatrox/",
+   "published": "2026-05-20",
+   "author": "/u/igetcuz",
+   "body": "Hey guys, I consistently struggle with this matchup but also refuse to waste a ban on it. \n It feels pointless trading or looking for any engage, there has been many times where Aatrox misses his Q sweetspots on 2 or even 3 of them but a simple auto makes the trade winning. \n If I somehow manage first blood I usually buy executioners which does nothing really. \n Just looking for general advice on how to go about this matchup. I do play a bit more aggressive in this lane and always swap between conq and grasp. \n Emerald pisslow for reference",
+   "id": "1tih5ax",
+   "comments": [],
+   "age_days": 142,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Hi, just need a little help in picking up Camille! Any help would be appreciated <3",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1tdh8s8/hi_just_need_a_little_help_in_picking_up_camille/",
+   "published": "2026-05-15",
+   "author": "/u/wizliamzz",
+   "body": "So I wanted to try a new top lane champ and add them to my ranked champ pool. I thought I'd love to play with Camille and learn her but it turns out I'm shocking at her but I get some good plays but I've played 7 matches with her over two days and won once...\n Any tips on learning her and what I should build into matchups because idk why I have been playing her in ranked (gold) and that's when i had like a 4 loss streak. I play Gwen, Ksante, Aurora, and my main Lillia in the top lane and its my main lane so I kinda need more champs to play. Criticism is accepted :'). Also I feel like I have just been getting loss after loss with any champion but I feel like that is a different topic on why I'm still not a pro after 7 years of playing.. 💔",
+   "id": "1tdh8s8",
+   "comments": [],
+   "age_days": 147,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Camille Community Matchups Spreadsheet",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1t8ugh8/camille_community_matchups_spreadsheet/",
+   "published": "2026-05-10",
+   "author": "/u/GyrosSteelBall",
+   "body": "Hey guys, LoLMatchups.GG now has a Camille Top Community Spreadsheet using Wizbe's tips with his Approval.\n The core of his tips are still gold but required updating so various high elo players of other champions have updated them (updated tips will says they are updated at the bottom with note, Debster a GM Camille OTP also gave his input for most of them, keep in mind he prefers a Conqueror every matchup playstyle). I still require some input for the matchups not marked with an update, if you understand the matchup\n https://preview.redd.it/t6ngnor3080h1.png?width=1552&format=png&auto=webp&s=638ec9a0d1b6b1807618a63596c5cbb686719682\n For each matchup, Debster/Drutdrutt's most recent Camille matchup Vods from level 1 will be uploaded under the matchup as well with a matchup timeline to traverse through his kills/deaths for the match. (along with other high elo streamers who played the match). If you are a streamer who would like their matchup vods added, join our discord and make a request (https://discord.gg/Bu2efQrJt)\n https://preview.redd.it/ihqa6kqr080h1.png?width=1567&format=png&auto=webp&s=1208f8a87a2804e4165d2c8757f89cc04ae1565b\n I've included Master+ statistics(last 30 days) laning statistics for each matchup being played along with the recommended build and the runes you should take for each matchup alongside the matchup Vods\n Anyone can write and share their own tips(their rank will be shown, you can share your social as well for attribution) for how to play any matchup to keep it fresh long term(you just need to login with your Riot Auth LoL account)\n LOLMATCHUPS.GG is an attempt to make matchup information more accessible to top/mid laners. We already have complete pages for Kassadin, Ambessa, Mundo, Kayle, Fiora, Mordekaiser, Riven, Zed, Ekko, Camille, Irelia, Gwen, Gnar, Garen, Chogath with more on the way!\n I would love any feedback you guys have on the website or the matchups. Thanks!\n https://lolmatchups.gg/Camille/matchups?lane=TOP",
+   "id": "1t8ugh8",
+   "comments": [],
+   "age_days": 152,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "New HOB",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1t46tdw/new_hob/",
+   "published": "2026-05-05",
+   "author": "/u/Adventurous_Raisin_8",
+   "body": "Damage wise, from my rather low elo experience (low masta), it seems way better than PTA early to midgame. Falls off super hard late game, but gives you access to insanely stupid frontloaded damage early on, so on matchups you're confident you can oneshot like squishy characters it seems better than PTA. The cooldown also lines up perfectly with E, meaning that you can safely level Q on ranged matchups without losing early game power.",
+   "id": "1t46tdw",
+   "comments": [],
+   "age_days": 157,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Looking for coaching",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1t2horx/looking_for_coaching/",
+   "published": "2026-05-03",
+   "author": "/u/Erdnase-triology",
+   "body": "Hi, basically title. I’m currently sitting in D4 and looking for a coach to help me climb to Master. I peaked D2 last year, and now I’ve finally decided to actually get good and push higher.\n I mainly play Camille, so I’m specifically looking for someone with strong experience on her who can help me refine my laning, matchups, and mid/late game decision-making.\n If you’ve had good experiences with a good Camille coach before, I’d really appreciate recommendations. Or if you’re a coach yourself and confident in your Camille knowledge, feel free to reach out.\n Cheers",
+   "id": "1t2horx",
+   "comments": [],
+   "age_days": 159,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Camel isn't bad she's just different",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1srse9u/camel_isnt_bad_shes_just_different/",
+   "published": "2026-04-21",
+   "author": "/u/malding_and_bad",
+   "body": "I've been seeing a lot of complaining and while I think a lot of it has merit, I believe it's important to also understand Camille's current identity. \n When looking at the description of most top lane champions, you'll see a subclass/archetype to them on the Wiki, and for Camille she's considered a \"fighter assassin\" under legacy class and a \"diver\" as her class. This tells us what riot wants Camille to currently be at the very least.\n The diver class are people akin to Nocturne, Vi, Ambessa, etc... and when looking at these classes you can infer some nuance. My interpretation is that Camille is meant to single out squishies later and aid the team in killing them, like a Nocurne or Vi, and similarly if behind she is going to struggle to do so alone but has a lot of value doing so with others around.\n I bring this up because so many people want to buff her laning phase or make her have more dueling capabilities, but the fact of the matter is she's not meant to duel, she's meant to single out targets for her team and get to that point in the midgame safely. She's capable of doing this in MOST matchups but just like any other champ, she has some horribly tough matchups, which means she's not blindable. Yes it sucks, but none of this means she's inherently weak just unfun to play as if you're used to her being a duelist which she just isn't meant to be as much anymore.\n All this being said, I would like to see changes to push her away from this diver pick champ like Vi or Nocturne and see riot focus more on her duelist aspect, even if it's lowering the duration people are stuck in her R and then buffing her damage early (like w so she can have some outplay potential vs Renekton) or giving her more waveclear somehow by lower cds (e change is actually nice for waveclear but just don't use it in front of ur laners face LOL). And before anyone says \"what's the opgg\" https://op.gg/lol/summoners/na/Avoh-Ellie",
+   "id": "1srse9u",
+   "comments": [],
+   "age_days": 171,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "My tierlist for Camille matchups",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1sbolvo/my_tierlist_for_camille_matchups/",
+   "published": "2026-04-03",
+   "author": "/u/Intelligent-Ad-1064",
+   "body": "So this is my Tierlist based on my Camille experience. Im Diamond rn and got 800k mastery on her.\n my tag: HugoEkitike#scp49\n Happy to hear your thoughts",
+   "id": "1sbolvo",
+   "comments": [],
+   "age_days": 189,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Worst Camille Matchups by Gold Deficit",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1rvcakp/worst_camille_matchups_by_gold_deficit/",
+   "published": "2026-03-16",
+   "author": "/u/GyrosSteelBall",
+   "body": "Analyzed from 9,000 Camille games in Masters+",
+   "id": "1rvcakp",
+   "comments": [],
+   "age_days": 207,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Help With Garen Lane",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1rs4ia3/help_with_garen_lane/",
+   "published": "2026-03-12",
+   "author": "/u/teedye_",
+   "body": "I play a decent bit of Camille and I know this is suppose to be her hardest winning matchup but every time I play it it feels like the fakest counter in the game but when I’ll play champs like Irelia into Yorick or Gwen into any tank it’s the most free thing in the world idk what’s different about this lane. I’ll trade around passive shield + bone platting but he just stands away from the wave and regens everything. If i fuck up one trade or he bush cheeses me with stride i just get one shot. I really don’t understand what i’m doing wrong, I’m plat if that matters. Someone pls help me with this i’m losing my mind over it lol.",
+   "id": "1rs4ia3",
+   "comments": [],
+   "age_days": 211,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "WHO IS THIS GUY ?",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1rf4jwy/who_is_this_guy/",
+   "published": "2026-02-26",
+   "author": "/u/OMARatatrah",
+   "body": "ok i have been looking up the best camilles globally and i stumbled on this guy who plays in Turkish server.\n he is currently rank 18 on Turkish server having 70% WR on camille playing 140 games.\n his summoner is: yiğit sütöz#sryr. \n and he seems to be consistently ahead in unwinnable lanes like renekton, darius (seems to perma ban Jax) . and 100% wr vs Aatrox and Sett is crazy. not here to glaze but really i need to know how he does it? \n his Matchups summary \n He goes Conq almost all games and PTA against ranged match-ups. i would be curious to see his gameplay but no streamers on turkey.",
+   "id": "1rf4jwy",
+   "comments": [],
+   "age_days": 225,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Camille balance rant",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1r9dqxe/camille_balance_rant/",
+   "published": "2026-02-19",
+   "author": "/u/Illustrious_Tank_995",
+   "body": "I see a lot of people on this page calling camel 'OP' or 'balanced,' and honestly, i question if we’re playing the same game. This champion is far from balanced; she is currently one of the worst champions in the game.\n When a scaling champion—who is primarily picked by OTPs in favorable matchups—has a win rate of 50% or less, it’s a blatant sign that the champion is garbage. Its the definition of high risk, low reward.\n i speak from experience i have 2 million mastery points on camel. When she was actually in the meta, i climbed to master 500 LP. Now? i cant even get past Diamond 2. My main, which is supposed to be a solo carry, simply doesnt have the power to get the job done anymore :P\n so rioters are 1,5 iq lets buff zed jungle.. \n The latest E buff is nothing but a joke and total ragebait. It achieves literally nothing. They just slapped a fake buff on her to sell the new skin. Typical Riot.",
+   "id": "1r9dqxe",
+   "comments": [],
+   "age_days": 232,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "We should play like dayvon benett.",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1r71h1v/we_should_play_like_dayvon_benett/",
+   "published": "2026-02-17",
+   "author": "/u/Aluzem",
+   "body": "Why Conqueror + Ignite/Flash Camille Feels Strong Right Now\n I’m still not completely comfortable playing Camille with Ignite + Flash, but I honestly think it’s the strongest setup at the moment — especially with Conqueror.\n Running Conqueror + Ignite/Flash gives you a lot of early pressure and strong extended trade potential.\n With this setup, you’re able to:\n • Consistently 3-wave crash in most matchups\n • Reset safely or let the wave bounce back to y\n • Contest strong early champions like Darius o\n • Win extended fights thanks to Conqueror stacking + Ignite pressure\n It’s definitely a high-risk, high-reward playstyle — but in the current meta, I feel like that kind of early pressure is almost necessary. Playing too safe often just puts you behind.\n That being said, in some matchups you can still go TP. I think that mostly comes down to personal preference and playstyle. If you prefer scaling, cross-map impact, or a safer lane, TP is still completely viable.\n ⸻\n Build Path & Itemization\n Instead of rushing Sheen, I’ve been stacking Long Swords early for stronger extended trades. The extra AD makes a noticeable difference in early all-ins and skirmishes.\n My usual build path:\n • Early Long Swords\n • Trinity Force\n • Ravenous Hydra\n • Death’s Dance\n I also tried Spear of Shojin, but Death’s Dance feels better right now. There’s so much burst damage in the game that the survivability and damage delay from DD feels more valuable.\n ⸻\n https://www.onetricks.gg/players/J9iOwbphVJQ7ICeHswHYvwRw2ntXf1XVinUuQffCpzztc5u-2l9TUrtnA80ui3gKPchR5c_WLHFN2A \n What are your thoughts? Are you consistently running Conqueror + Ignite, or do you still prefer Teleport in most games?",
+   "id": "1r71h1v",
+   "comments": [],
+   "age_days": 234,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How would our playstyle change if there was a rock in top lane?",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1r7m4be/how_would_our_playstyle_change_if_there_was_a/",
+   "published": "2026-02-17",
+   "author": "/u/offyrt",
+   "body": "Okay so lets imagine that there is a wall either:\n Literally in the middle of the lane\n\n Where atakhan wall used to be\n\n By pushing alcove further in\n\n How would you approach the lane, do you have specific matchups in mind that would turn it from 0 to 100?\n I wasnt playing that much during when the walls were closer so im curious.",
+   "id": "1r7m4be",
+   "comments": [],
+   "age_days": 234,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Camille is not strong champ in high elo. Stop spreading missinformation in this sub.",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1r2uegd/camille_is_not_strong_champ_in_high_elo_stop/",
+   "published": "2026-02-12",
+   "author": "/u/lovebellahadid",
+   "body": "She is not a threat in high elo for ages. She has 2 abilities in lane and cant take lead anymore. Has no winnin matchup ws human players also.",
+   "id": "1r2uegd",
+   "comments": [],
+   "age_days": 239,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "My matchup tierlist",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1r0wj06/my_matchup_tierlist/",
+   "published": "2026-02-10",
+   "author": "/u/Netakgod",
+   "body": "",
+   "id": "1r0wj06",
+   "comments": [],
+   "age_days": 241,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "challenger matchup tierlist",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1qz39bj/challenger_matchup_tierlist/",
+   "published": "2026-02-08",
+   "author": "/u/AvailablePeak1145",
+   "body": "ign: fliptik#skbdi",
+   "id": "1qz39bj",
+   "comments": [],
+   "age_days": 243,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Camille's current meta state",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1qxwm6z/camilles_current_meta_state/",
+   "published": "2026-02-06",
+   "author": "/u/Standard_Eggplant442",
+   "body": "Hello there. I've been playing Camille for a long time now, I have 700k+ mastery on her but she feels worse than when I started to learn her. When I started playing her I struggled a lot to master her trading patterns, once I learned about matchup knowledge I really dominated many games except some unplayable matchups like darius or jax. I've reached Emerald 3 with playing her but I always feel carried and not competent enough to actually influence the game anymore. I love her identity and game style and I've tried to forget about playing Camille because how weak she feels right now but the game style is just perfect for me. Although liking her identity her kit lacks any type of survivability and damage to be a figher, which by riot definition is \"durable and damage-focused melee champion that look to be in the thick of combat.\" I will start with base stats and for example I will bring zed and tryndamere to the pot. Camille's base armor and hp is lower than zed's. Mr is higher by 5. Tryndamere is also classed as fighter/assassin but his base hp is higher by 200+hp by lv20, armor is higher magic resist is the same. So much for the base stats, why is camille's base stats so low compared to champs that are meant to do similar things as camille. You might think its her E and movespeed from q, yeah you have mobility which can be easily countered by presence of a tank standing on the way to the carry. With current season changes to ADC items, some adc champs like yunara or zeri can 1v1 camille in the late game because having full ad comps that I can build full armor into is iron stuff. True damage is broken but being able to hit 1k true damage every 1.5-2 seconds to a single target is not compared to the whole other top lane champions roster. Enchanters heals or shields half or the whole q2 damage depending on the support champ, the ones that dont shield the full damage just has some kind of cc that allows their carry to kill me before i can execute my target. Another topic is sidelaning, you can sidelane as darius or aatrox because of the free teleport but you cant kill them as camille in the late game as long as they have any knowledge about how to play the matchup not to mention jax or fiora, they just run you down. In my opinion Camille is like kayle in the early game with easily counterable shield and e, but you dont have the scaling strength that kayle has. I agree that Camille shouldnt have as much late game power as kayle but her late game should be more rewarding. As of right now I only see her reasonable in jungle because although my full clear might be 10-15 seconds slower than the meta junglers I can have some impact on the game and my own gold income rather than losing prio in lane waiting for my tryforce and hoping for the best. I am wondering how in the world do some of you find Camille balanced due to her lack of damage and/or survivability. All opinions are welcome and critisize me as well as you can because I am losing my patience with Riot's deniability of Camille's sate",
+   "id": "1qxwm6z",
+   "comments": [],
+   "age_days": 245,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Just had my worst game ever upon trying out this champ, but I’m determined.",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1qv4lci/just_had_my_worst_game_ever_upon_trying_out_this/",
+   "published": "2026-02-03",
+   "author": "/u/Xanvoir_Fracier",
+   "body": "So, I love Camille’s design, and I think her gameplay is pretty fun. However, my first game in Draft with her was probably my worst game ever in my history of League.\n Even after such a bad experience and game, I still wish to try and master Camille. \n The game was against a Morde, and Camille felt incredibly both weak and squishy against him, but I know that’s because I did something wrong in my gameplay and not because of the champ.\n Does anyone have a easy to understand guide to actually play this champ right ? Matchups, runes, and all that jazz ?",
+   "id": "1qv4lci",
+   "comments": [],
+   "age_days": 248,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "My thoughts after 20 ranked games at high elo.",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1qbpb9s/my_thoughts_after_20_ranked_games_at_high_elo/",
+   "published": "2026-01-13",
+   "author": "/u/Netakgod",
+   "body": "1.Summoners we get tp after completing quest, and you have better homeguards. Flash ignite I think almost always. Flash is pretty op since it gives you more kills less deaths and better team fights. Ignite is must for some matchups and it gives you opportunity to kill opponents but before they could escape or outplay you with flash. If you have both you can get solokills more so items sooner. Now you don't have tp which you could use 2 times in Laning phase but with new homeguards it's not that bad. And afterwards you have tp which gives you shield if you tp which scales with shield bash but you don't have much HP until the game is decided already. I also play cosmic and cookies since I get summoners earlier and can get kills on that or escape death sooner and more times. If you get boots the Laning phase will be decided by time you get them. Earlier flash and ign is op. Especially vs champs that are not tanks. 2. Laning with flash ignite you are stronger in lane but ofc Laning is not that good so early levels try to get prio and get solo kill. Also if you have bad matchup or something you can invade enemy jg lv 1 with. You won't lose much XP usually just 1-3 minions. And he will be pretty fucked. Now try to get gold and you will see how it goes. Before since plates were only till 14 and you didn't win lane he had plates and you didn't now you will get them eventually too. Since you have weak Laning, wait for JG or opponents mistakes if you don't win 1v1. 3. Roaming well roaming has been nerfed since you should be in lane for quest but if you are losing hard I would recommend roaming especially if wawe is freezing or you pushed it. Now when you push wawe even early levels you can invade JG or roam mid since JG takes longer. Don't be afk either farm and split or roam. It's still junglers game and later on adc so if you can get yours ahead and their behind it is pretty good. But if you are winning lane get strong get plates. 4. Comeback this season I think comebacking is lot better. If they go for objectives and you are losing you can so much gold via plates that's it's crazy also camilie is very good at splitting. Baron doesn't give gold anymore so if everyone is on baron and your team gets 2 turrets it's pretty good deal if ur behind. Even if you are behind there will be opportunity to take towers. Look for picks, camilie is great at that and shutdowns. Since you have flash now it's even better. There were many games where I was behind and we won from 5k gold deficit. Even if you die a lot opponent will have shutdown and you will get the gold back eventually so just don't be afk and put some pressure either keep the stronger opponent there or get turrets when they help your team. 5. Higher XP I got lv 20 1 game I think. Unless you get shutdowns and have good team comps. Toplaners won't carry alone 95% of games. 6. Camilie strengths: early levels, try to get prio if you cannot then you will get pushed and you will get lv 4 sooner. Mobility and gang setup. I think camilie has the best roaming and looking for picks from all toplaners. Securing kills on gangs is very good also. She fits most teamcomps. In my elo not many people play tanks so usually I go sterak to be able to jump in in ult someone kill and survive. 7. Any questions ask or if you want coaching. https://op.gg/lol/summoners/euw/ADHD%20meds-SK1",
+   "id": "1qbpb9s",
+   "comments": [],
+   "age_days": 269,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "SOLUTION: Why is Camille sucks this season?",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1q9cgr4/solution_why_is_camille_sucks_this_season/",
+   "published": "2026-01-10",
+   "author": "/u/archymedian",
+   "body": "1. Homeguard: While it helps Camille in some ways, it also hurts her. Having less time to push with a champion who has NO waveclear is humiliating.\n 2. Level cap increase: Camille doesn't benefit in any way from any of her abilities with the level cap increase, except for increased base stats. True damage reaches 100% conversion at level 16, so levels 19 and 20 are only half as valuable for Camille. This greatly benefits champions with high base stats and stat growth (Sett, Darius, Kayle, Gwen, etc.) over item-dependent champions, who are left behind.\n 3. Teleport: Missions also give us teleport as a third summoner spell, which enables us to play ignite + flash and reduces the scenarios in which ignite + tp is viable. However, teleport has a very high cooldown (7 minutes) after completing the mission, so it is only possible to use it a maximum of two times per game (taking into account that the current maximum duration of games is approximately 30 minutes). The shield it grants—if you decide to take TP from the start—does not seem like an attractive improvement for Camille (in any duelist), and on the other hand, it benefits tanks and colossi much more. This, together with the tower crystals, makes split pushing a more attractive option, prioritizing Ignite + Flash for duels in sidelane and using teleport ONLY in decisive fights (third dragon/dragon soul, baron, sieges, etc.). Even so, I believe that TP deserves a reduction in its cooldown just because of the current length of games.\n 4. Splitpush: The removal of Athakan and the return of Baron at minute 20, along with the gold distributed among tower plates, make splitpush a viable playstyle again, enabling, in a way, solocarry. There are no longer objectives being contested every 3 minutes on the map, nor feats of strength, and games are not decided by losing a fight in Atakhan. For this reason, going for tier 2 towers carries more weight during fights if only dragon stacks are being contested.\n Therefore, everything learned during the previous season is officially obsolete, as these changes put duelists where they should be instead of turning them into slaves to team fights. Accumulating enough gold to be relevant in a decisive fight is once again Camille's strongest playstyle.\n BUILD, PLAYSTYLE & RUNES The build and runes can remain the same as always, but I would like to make a recommendation: Bloodline.\n This is something I've been working on lately, and I'd like you to try it out and give me your opinions. In possible scenarios, you can take Grasp + Deep Focus/Triumph and Bloodline. This enables the Tiamat rush after finishing Trinity to move directly to the next item: Hullbreaker.\n In recent posts, I've seen players recommend lethality items for Camille as a solution to her unviability. In my opinion, lethality is NOT viable for Camille. It's a stat that doesn't scale with her, and on the contrary, loses value over the course of the game. The true damage scaling of Q reaches 100% conversion at level 16, and if true damage and lethality ignore armor, and you already have true damage, why would you want lethality? It would only apply to basic attacks, E, and W, which are utility abilities and not damage abilities. This means sacrificing defensive stats from items in order to try to do damage that doesn't exist, and that you would do anyway with the normal build.\n In this context, Hullbreaker seems like an ideal choice to me. It facilitates split pushing and grants extra damage on your fifth basic attack. If that attack is Camille's Q2, the additional damage is converted to true damage, and you'll go from doing 450/500 damage per Q to 650/700. This damage also applies to turrets, so it's possible to charge the fifth attack on minions, and as soon as someone tries to defend, bam! You take away half their health bar. Finally, for your third item, you'll want to look for a DD or Sterak, or finish Ravenous Hydra and leave your defensive items as a fourth option if you're looking to fight for the third dragon/soul.\n With the Conqueror branch, we take this rune that heals you every time you kill minions (I forgot the name), Legend: Attack Speed And from there, whatever you want. The rush would be Ravenous Hydra - Trinity - Hullbreaker. It will take you a little longer to get to the Hull, but you'll also be able to deal with harassment and pressure matchups, such as Yorick.\n The runes don't change much, but the playstyle does. Remember that this season is all about tempo, so learn the concept well. If you're winning, you know how to play tempo, and your opponent doesn't, you'll crush them. If you're winning but don't know how to play tempo and your opponent does, they'll come back. If you both know how to play tempo, your team will have to step in.\n Something I forgot to mention: With the changes to minions, Cheated Recall may be back. TAKE ADVANTAGE OF IT, it will save you a lot of headaches with waves as long as you have a minimum of knowledge in wave control.\n Of course, this won't magically solve the problems that have been dragging on since last season, but at least it will make it less unbearable to play.\n That's all, if I forgot anything I'll write it in the comments. I'd like to hear your opinions and suggestions. Thank you!",
+   "id": "1q9cgr4",
+   "comments": [],
+   "age_days": 272,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Camille OTP journey in Ranked",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1ps15cl/camille_otp_journey_in_ranked/",
+   "published": "2025-12-21",
+   "author": "/u/Krane-San",
+   "body": "When I started playing league I used to play Garen top and Lux Mid. I was awful at the game and placed Iron 1 and soon dropped to Iron 4 the lowest of the low. It was at this point where I pulled the Coven Camille skin out of a chest. I had never seen a Camille in my games so it intrigued me. I decided to start playing her since she was one of the few champs I had a skin unlocked for and although I kept losing with her I loved her kit. I noticed her pick rate and ban rate were really low meaning she would be the perfect champ to master as a OTP since no one else seemed to be playing her especially in low elo.\n So I started playing Camille Top in ranked it was rough at first so much I didn't understand about her kit yet. But luckily many people in that elo also didn't know what she did. Overtime I used how to make the most of her abilities especially Q and R. Learning to last hit minion with Q1 into W Q2 the enemy champ and running away taking no dmg thanks to passive. Using R to Dodge tower shots and finishing low HP targets/Baiting enemies under tower when Passive and R was up to lock them in place. Felt so satisfying. Overtime I also learned which abilities can be negated by using R to jump over them and a lot of match-up that felt awful like Sett and Mord turned into matchups I could reliably win due to dodging crucial abilities with R. And as I've been learning how to play Camille better my rank has slowly been reflecting my growth as a player. It took a lot of time 3+years but I've climbed out if Iron and I've now just reached gold. \n I know it isn't high elo yet but being able to see my progress as a player Overtime has been super satisfying and I don't think I would've been able to do it if I didn't pick a OTP champ I'm really glad it was Camille. I recommend others to try and find a champ that isn't picked often to master because it just feels so satisfying and fulfilling to be able to climb over time using the same champ. \n Anyways hoping I can get to Plat in 2026 I'll continue striving to be a better Camille player and stick by her Buffs or nerfs.",
+   "id": "1ps15cl",
+   "comments": [],
+   "age_days": 292,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Camille current state",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1prbr48/camille_current_state/",
+   "published": "2025-12-20",
+   "author": "/u/OkAcanthocephala3269",
+   "body": "I started playing League at the end of 2024 so around 1 year ago now and shortly after I started to love playing Camille. In the beginning I inted a lot but after some time I really got the hang of it and now I climb from rank to rank with a current 60% winrate (just hit plat so I am not that good). When I recently found out about this reddit I noticed that a lot of people say she is in a really bad state (and looking at her winrate in any rank she really doesn't stand out or is even underperforming) and I wanted to ask if that is just the average bias or if it is actually true. I really don't know because I am aware that her prime was WAY stronger specially with things like Divine Sunderer etc. Personally I feel like she is in a decent spot even though there are certain matchups where I think \"how is that fair he can make so many mistakes and if I do one I am cooked\" but at the same time I think maybe it is just a skill issue from my side.\n Would really like some opinions and maybe ideas what could be done differently about her kit :)",
+   "id": "1prbr48",
+   "comments": [],
+   "age_days": 293,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Camille is officially the WORST Toplaner in the game by winrate (if u ignore ksante cuz its proplay etc..) Plat+",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1p61htq/camille_is_officially_the_worst_toplaner_in_the/",
+   "published": "2025-11-25",
+   "author": "/u/No-Agency2986",
+   "body": "",
+   "id": "1p61htq",
+   "comments": [],
+   "age_days": 318,
+   "recency_weight": 1.0,
+   "topics": [],
+   "stale_items": false
+  },
+  {
+   "title": "What’s the current state of Camille?",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1p2oj05/whats_the_current_state_of_camille/",
+   "published": "2025-11-21",
+   "author": "/u/LaTrinita",
+   "body": "Hi, I’m thinking of maining Camille and wanted to ask about her current state. Are most matchups really that oppressive right now?\n Can Camille reliably help her jungler on early crab or Herald, or will I always be half HP / stuck under tower because of abusive early matchups? I’m coming from Sett and K’Sante, where I’m used to dominating lane and imposing pressure. Is that realistic with Camille today?\n Thanks for the insight!\n PS: How does she compare to Ambessa in carry potential and laning strength?",
+   "id": "1p2oj05",
+   "comments": [],
+   "age_days": 322,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "This poor girl man, RIP",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1p0clfg/this_poor_girl_man_rip/",
+   "published": "2025-11-18",
+   "author": "/u/No-Agency2986",
+   "body": "",
+   "id": "1p0clfg",
+   "comments": [],
+   "age_days": 325,
+   "recency_weight": 1.0,
+   "topics": [],
+   "stale_items": false
+  },
+  {
+   "title": "Sion ws Camille back then Divine Sunderer a thing",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1otjrua/sion_ws_camille_back_then_divine_sunderer_a_thing/",
+   "published": "2025-11-10",
+   "author": "/u/lovebellahadid",
+   "body": "Right now this matchup just one sided. Cause Divine Sunderer deleted and Riot balanced Camille around Divine Sunderer.",
+   "id": "1otjrua",
+   "comments": [],
+   "age_days": 333,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What happened to Camille?",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1or4vt9/what_happened_to_camille/",
+   "published": "2025-11-07",
+   "author": "/u/GoodAdviceImao",
+   "body": "Hey so it’s been around a year and a half since I’ve played leauge consistently. I was a two trick of either Camille or Vladimir albeit Camille was my first ever one trick. I have well over a thousand hours on her alone. For most of the time I’ve played Camille she has always been stable in S tier. Sometimes in high S tier sometimes low S tier but she has always been a decent pick especially when I knew all her matchups and mechanical aspects. I came back to league recently just to find out that she is now low A tier at best which is weird to me because one of the main reasons Camille has seemed so strong to me was what she could do in the hands of a mechanically good player and how she could absolutely floor people in trades because of her passive shield and then w sustain with q burst while being able to take ignite and tp because of e mobility. But then I go ahead and play her a few times and she just feels SO much weaker but I can’t put a finger on what it is exactly and why she feels this way. I don’t really want to comb through all the changes to Camille in the last year and a half so I was wondering what yall think.",
+   "id": "1or4vt9",
+   "comments": [],
+   "age_days": 336,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Just played the best game in my life against a jax/mord top/mid(Camille still viable)",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1ogzsaj/just_played_the_best_game_in_my_life_against_a/",
+   "published": "2025-10-26",
+   "author": "/u/Amin_Elb",
+   "body": "I normally dont post on reddit but I had to share this. I firstpicked camille this game because fk it. (rank Plat1)\n Enemy picked jax top and mordekaiser mid so I knew I was going to get a rough game but thats not all. My team started dying to obvious ganks and flaming eachother. So I was playing as camille against fed laners except Jax(I diffed him ofcourse ;) ) and my teammates where just tiltplaying.\n Guys remember almost EVERY game is winnable if you can overcome bad mental. I was staying calm and just focussed on my own gameplay. When your whole team is behind just play for towers and wait till enemy starts getting cocky and starts making mistakes.\n I got a lot of shutdowns from overstaying enemies that were greeding for another wave or tower after a fight and being half HP. With my shutdowns I still went for neutral objectives(towers, jungle camps).\n Let me make it clear WAIT for enemy to make mistakes dont force anything. After like 4 shutdowns I was 1 item ahead and then I started playing for picks. I only went in when I know where every enemy was otherwise you could get jumped. After trashtalking a bit(psychological warfare) enemies were tilted and just started blind running into our jungle to kill me so we as team could just collect easy kills.\n I was hyperfocussed whole game. Eventhough I was ahead in gold every duel against jax and mordekaiser needed almost perfect spacing. Kinda fun to play those matchups. Unlike how a lot of you guys think Camille is very good against any champ. I truly believe that she doesnt have a \"hardcounter\" with patience and good spacing you can win lane against anything. She is still a very reliable pick. except against Darius fk that bs champ.",
+   "id": "1ogzsaj",
+   "comments": [],
+   "age_days": 348,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Stop playing grasp on Camille.",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1o6kp1m/stop_playing_grasp_on_camille/",
+   "published": "2025-10-14",
+   "author": "/u/SSthighs",
+   "body": "(I may get downvoted for this, but this is my opinion, this is the way I play Camille and have played for years and have reached Master with this style of gameplay.)\n Hello everyone for context, I am a master EUW Camille player, so I am not high elo or anything but I have played this champ for a while and I think I have some confidence in making a post like this.\n I understand that grasp is still the most used rune on our champ, it makes her laning a lot easier especially in those harder matchups. It also helps you if you are not confident mechanically on camille, specifically in laning where those extra grasp procs can be the difference to helping you win a trade.\n HOWEVER, despite grasps superiority in early game and lane pressure, we need to ask ourself, what type of champion is camille? camille was always meant to be a 1v9 ad carry champion, which this season we have not felt from her at all because of divine sunderer removal and the sustained nerfs she has received over the years. Grasp is NOT a scaling rune, but conqueror remains the BEST SCALING RUNE IN THIS GAME. And we need to utilise that. \n In addition, grasp into 'harder matchups' like volibear or renekton you might think is good, however grasp only works well IF YOU HAVE LANE PRIORITY. IF YOU ARE ABLE TO BE IN THE WAVE HITTING MINIONS, WHICH IN THESE MATCHUPS YOU DO NOT HAVE LANE PRIO. So even then when you are going grasp you are actually not even using to its fullest potential because you cant get those grasp procs and then you have a weaker late game because you havent gone conqueror.\n And then you may ask, ok but what about the easy matchups like garen or nasus; in this case you do have lane prio and you can get grasp procs very esaily. But is it worth it to just abuse grasp early when in fact you have a free scaling lane and you can just go conqueror and absolutely shit on them late game?? GRASP IS NOT THE ANSWER. I have ALWAYS been against grasp camille but I do not think it is the best rune on her by a mile.\n Conqueror gives AD per stack and THEN ALSO GIVES HEALING AFTER ITS FULLY STACKED, so imagine once you have conq fully stacked in late game on the sidelane and you are healing for every q2 rotation you can get off?? It is WAY better than whatever grasp has to offer in terms of late game.\n I go conqueror in 99% of my games and I have decent success with it - I RARELY PLAY GRASP, i only every play grasp IF im having a bad day and need some extra laning help.\n FOR RUNES:\n CONQUEROR\n -PRESENCE OF MIND ( YOU WILL HAVE NO MANA ISSUES IN LANE)\n -BLOODLINE (I UNDERSTAND BLOODLINE HAS BEEN NERFED BUT IT IS STILL THE BEST RUNE FOR CAMILLE, THAT EXTRA HEALING DOES SHOW; ALSO THIS COULD MEAN YOU CAN SWITCH FROM RAVENOUS TO TITANIC JUST BECAUSE YOU DO HAVE SOME FORM OF HEALING WHICH TITANIC DOES NOT GIVE, HOWEVER I HAVE NOT TRIED THIS IN A RANKED GAME YET) / ALACRITY IF YOU FEEL YOU WANT MORE ATTACK SPEED (ALSO OBVIOUSLY THE BETTER EARLY GAME RUNE.\n -LAST STAND/CUT DOWN (DEPENDS ON MATCHUP)\n RESOLVE TREE SECONDARY ALWAYS\n -SHIELD BASH\n -SECOND WIND INTO RANGED / CONDITIONING OR OVERGROWTH FOR EXTRA SCALING - I NEVER GO BONE PLATING.\n IN TERMS OF ITEMS:\n I STILL GO TRIFORCE --> RAVENOUS (STANDARD)\n 3RD ITEM - MAJORITY OF THE TIME GO SHOJIN (HOWEVER MAY GO DEATHS DANCE IF HEAVY AD, OR STERAKS IF I NEED THE EXTRA TENACITY)\n 4TH/5TH - DEATHS DANCE OR SHOJIN IF YOU DIDNT BUY ABOVE^ / STERAKS FOR MIXED DAMAGE AND HEAVY CC / MAW FOR AP HEAVY COMP.\n (maybe there is a better secrent korean build camille, however this is still the best build path for her)\n I am aware you will lose inspiration tree on camille, but the only good thing from that tree is the free boots, which even on camille you do not need to buy as early as other top lane champs just due to you rmobility from E and Q move speed.\n In addition, going conqueror will mean you do have a weaker early game, but that is something you have to play around, it helps you to know your cooldowns when a good window to trade is etc. It makes you a better player. I never said that conqueror is better than grasp early however you miss OUT ON SO MUCH DAMAGE ( AND HEALING) for not going conqueror late game. If you decide to go conqueror, I understand it will take time to adjust to, and it will be harder to play camille in laning, but it does reduce the lack of sidelaning ability and 1v1 ability camille used to have in prior seasons.\n I would like to point out that this post is just my opinion and I am not trying to force any of you guys to adopt this playstyle in the majority of your games, however I think grasp camille has a lot of flaws and conqueror helps make her late game so much better. thank you for reading!",
+   "id": "1o6kp1m",
+   "comments": [],
+   "age_days": 360,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Rank 1 camille is sad",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1o4z6ne/rank_1_camille_is_sad/",
+   "published": "2025-10-12",
+   "author": "/u/Ok_Ad_1077",
+   "body": "tbh im kinda happy coz i never used to use reddit but when i found a camille players here from every elo i knew that im not alone who is sufferin . im playing camille for 9 years almost OTP ( +88% of games ) i hard stomp in low elo but when i face people who knows how to play against her she become totally unplayable .. to be good with camille u need to make 0 mistakes in laning phase use enemy team mistakes and like i said before its never enough , simply coz 100% ofall top lane champs is a very hard matchup for example u can check the screenShot ( +500 lp lobby ) . im not able to 1 v1 her but icould get fed from her team which sad .so to make it simple = Farm, scale , trinity try 1v1 otherwise roam , play side . split pushgive prio to ur team for objective . but i dont feel my old days withcamille even i win 20/0 . back in the days i used to take divine in hard matchups .trust me the moment i take it with the right skill the game is over but im completely sad and i willgive u an example : lets say u are autofilled diam player . and im GM+ level u can simply take sett or ww or tahm or anycringe champ and with that u can kinda stop my potential tocarry early game and thats completely unfair . PLEASE RIOT WAKE THE F UP \n https://preview.redd.it/o4u4y7lklquf1.png?width=1055&format=png&auto=webp&s=4e45bc50b97b3a20a201c90a768e257e5ca8c99a",
+   "id": "1o4z6ne",
+   "comments": [],
+   "age_days": 362,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "[Balance Suggestion] My Ideas to Make Camille Viable in Top Lane Without Making Her OP (Inspired by Drututt and the Community)",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1o2vfn7/balance_suggestion_my_ideas_to_make_camille/",
+   "published": "2025-10-10",
+   "author": "/u/WindSeries",
+   "body": "Hi\n I'm offering my changes for Camille. As a former top Camille myself, my biggest hit is D1, so I'm not like druttut, but I'm taking inspiration from him and other discussions about Camille to make her viable, without making her S-tier or nerfing her. She's already been punished badly.\n Why These Changes? Reflection on Current Problems\n Early lane:\n Weak farm before Hydra (expensive items, powerspike, and \"playable\" from 2 items ~52%). No good 1v1 matchups (only ~55% vs. squishies like Yasuo). W (CD 15-11s) too risky vs. meta (Rumble spams W 3x during your CD, no shield proc). As druttut pointed out, I'm forced to play Doran Shield with Second Wind for sustain, farm under turret, and pray for good roams at level 6 (heavily dependent on allies and games). It's very frustrating if this plan doesn't work. One mistake = lane freeze = lane lost.\n Early scaling/Mid-Late:\n Should start being a 1v9 duelist and scaring opponents. Tanks like Renekton scale 10x better even though they get free HP sustain! R is good for locking down a target but not enough against a team. Depends heavily on the jungle to set up a gank, and is overrated since the Toplane's spacing. You miss a W or E = death. Because it's literally a disadvantage and harassment on yourself. She should already be more tanky without relying on a tank item as a second item like Hydra, for example.\n Objectives: Aim for a 52% win rate in the mid-late stages. Buff solo lane to avoid OP support. Make Camille's hextech more available without brain-deadness.\n Balance suggestion: She needs to remain her own signature, a mobile burst duelist on a single target. Compensatory nerfs to her kit to avoid S-tier.\n Base stats: Base HP regent: 8.5 → 9.5 (slight sustain to recover from bad trades, like Second Wind. Helps farm without Hydra, but not enough vs. meta sustain field.)\n Compensatory nerf: Mana regen: -0.5 (to avoid the mini rework, be careful with lightly used spells).\n Passive: If >40% shield down, gain +15% MS towards champions for 1.5s. Allows you to chase a good trade without having free MS.\n Optional: Increases +10 HP flat per activation if solo laned (does not buff jungle or support)\n Q: Q2 true damage → 85% based on leveling (as current, but buffed by 5%)\n Mini-rework: Like a leg throw. If Q2 hits a minion, procs a small Hydra beam with 15% of the damage on the minion. Doesn't allow wave clearing, but avoids relying on Hydra, activates only on Q2.\n Compensatory Nerf: To avoid spam, mana cost = +5 Maintains good scaling for farming and avoiding dependent hydras, and will be better against tanks in the late game.\n W: Heal per champion hit → 6-18% based on missing HP, allows for better sustain success if you take the risk while being low HP, without being op compared to other champions. CD reduced by 1.5s per champion hit (max 3s reduced). Allows for harassing without spam if used well. Slow on the outside of the cone +5%.\n Compensatory Nerf: 10% early damage reduction (not just a free poke)\n Stays weak if misused, improves win rate against sustain champions\n E: Resets stun to 0.9s if hit AS Buff: +5%\n Mini Rework: If E doesn't hit, allows a slight bounce back (a dash, like the hextech item, or like a bounce from Kshan's E at the end of his grapple). Reduces frustration if dodged, and prevents getting stuck\n Compensatory Nerf: +1s cd rank 1/2 (early game). Best setup without a jungler, avoid taking advantage of jungler setups in the early game.\n R: Flat DMG: 10/40/70 (rank 1/2/3) Current DMG: +2% current HP at all ranks\n Mini rework: AA on the enemy targeted by the R, refreshes current CD by 15%. Allows for a better chain burst on the target. True 1v9 against tanks late. Punishable and buff unusable if kited.\n Compensatory nerf: Duration -0.5s rank 1 (4→3.5s)\n What do you think? Would this make Camille more fun without breaking her? Any ideas for adjusting the numbers? Upvote if you want Riot to see this, and comment with your thoughts!\n Please, Riot, let's make Camille viable again.",
+   "id": "1o2vfn7",
+   "comments": [],
+   "age_days": 364,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Camille is beyond saving",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1o2fnp6/camille_is_beyond_saving/",
+   "published": "2025-10-09",
+   "author": "/u/drututt",
+   "body": "Hello drututt here, i haven't posted here in so long but with recent adjustments to camille i just need to rant about this character.\n I've been a very big camille enjoyer, thanks to camille i got a stable career and i climbed top of the ladder with her multiple times. I've been playing her on and off ever since mythics got removed but this \"adjustment\" has just been the last straw\n How out of touch is riot with those changes? Camilles by far best and only working strategy was going magical footwear and sitting on t1 socks until she gets 2-3 items considering she farms really bad pre hydra on top of all items being the most expesnive items in the game. Not to mention she has almost 0 good 1v1 matchups so her viability is very dependant on jungler just strong siding her (camille setup IS VERY OVERRATED after walls got spaced out in s14)\n Camille W is worst spell in the game im willing to say, vs any semi human champ on top lane its a death sentence casting it, her neutral is insanely bad, she cant just walk up and Q someone, and if u try to initiate with W almost EVERY CHAMPION THAT IS SEMI META has a way to either trade into her while she cant even proc her shield/tank it with a shield (rumble biggest offender can cast 3 w's during cd of camille sweep) \n The buff was aiming for power neutral cuz riot assumed we are casting W off cd, when in reality its just not a viable option. Camille on lane right now has basically a singular spell (Q) and it feels horrid to play her in current sustain meta that we have on top lane.\n Riot please revert the dogshit nerf you did to her E on rank 5 a season/two ago cuz camille support was op, we are reliving same timeline where camille was suffering on top cuz she was brokeon on other lane (it used to be jungle now it was support) \n Only way you can play current camille is go grasp dshield 2nd wind biscuits, get lvl 6 and just run mid/enemy jungle when enemy top freezes on you and pray enemy isn't lookng map, horrid state of a champion \"1v9\" MY FKING ASS BRO camille scaling is BEYOND dogshit, something like ambessa/renek/rumble demolish most of their lanes while scaling 10x better than camille\n BUT HAHAHAHA CHOGATH ULT ON Q 2 SEC CD LOOOOOL!\n THANKS FOR READING",
+   "id": "1o2fnp6",
+   "comments": [],
+   "age_days": 365,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Alternative strat with Camille",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1o2bhpm/alternative_strat_with_camille/",
+   "published": "2025-10-09",
+   "author": "/u/Adera1l",
+   "body": "Okay so, since our champion is kinda dog damage wise, scaling wise, sidelane wise. What do we think abt having a more roaming playstyle? Like when you do not take a substantial advantage in the first five level, looking a lot more for roaming windows, mby even going tiamat in really shitty matchup ?",
+   "id": "1o2bhpm",
+   "comments": [],
+   "age_days": 365,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Dropping this champ after 1,5 mil mastery",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1nyi33n/dropping_this_champ_after_15_mil_mastery/",
+   "published": "2025-10-05",
+   "author": "/u/ylnoooo",
+   "body": "I've reached Masters on west and GM on eune (ik boblow server) and honestly, this champ is actually so fucking ass - You have zero winning matchups, gets statcheked by every toplaner, zero lane prio (if bot is losing and you're not atleast 5/0 then just ff). And on top of that she has one of the most expensive builds in the entire game, just to be useless in sidelane 😭\n It seems like you need to basically play perfectly with her just to win against some braindead statchekers players, and in higer elos, in which they actually can play their champs, ur fucked in the ass and have zero agency in the entire game\n Honestly, even the buffs won't change anything, she actually needs some ad scaling change, so she can actually be relevant in late game as before. Right now just pick Ambessa, Jax or Gwen no need to bother yourself with this torment of a champ\n This is just my thoughts, yall can say skill issue or wtv",
+   "id": "1nyi33n",
+   "comments": [],
+   "age_days": 369,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is this guide still viable ?",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1mp2hbq/is_this_guide_still_viable/",
+   "published": "2025-08-13",
+   "author": "/u/cap_civil",
+   "body": "Jax/Gwen player here, totally new to Camille. I just want to know if this guide is still accurate for the matchup and the gameplay.",
+   "id": "1mp2hbq",
+   "comments": [],
+   "age_days": 422,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Complete community Camille matchup tier list + spreadsheet ! We're finally done, thanks to everyone who helped with it.",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1j08d3g/complete_community_camille_matchup_tier_list/",
+   "published": "2025-02-28",
+   "author": "/u/Yaruma_",
+   "body": "",
+   "id": "1j08d3g",
+   "comments": [],
+   "age_days": 588,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Final tier list and then I'll have to stop procrastinating to add Ambessa to the spreadsheet haha. I'm glad to announce the matchup tier list is now complete ! Treat today's post as a big thread for every matchup we didn't talk about, so either ask about them or give your takes and I'll add them",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1isqzed/final_tier_list_and_then_ill_have_to_stop/",
+   "published": "2025-02-18",
+   "author": "/u/Yaruma_",
+   "body": "",
+   "id": "1isqzed",
+   "comments": [],
+   "age_days": 598,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Finally a matchup I'm qualified to talk about ! Today we're discussing Riven",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1gx3zdp/finally_a_matchup_im_qualified_to_talk_about/",
+   "published": "2024-11-22",
+   "author": "/u/Yaruma_",
+   "body": "",
+   "id": "1gx3zdp",
+   "comments": [],
+   "age_days": 686,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I coded a Website for comparing Champion Winrates in 1v1 Fights at each Level",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1dwp8bc/i_coded_a_website_for_comparing_champion_winrates/",
+   "published": "2024-07-06",
+   "author": "/u/Nexosharp",
+   "body": "Hey,\n I’m currently working on a website for League of Legends players (already riot approved), which offers unique statistics that you won’t find on other platforms like OP.GG, U.GG, or Lolalytics.\n What makes It unique?\n 1v1 Winrates by Level: Compare how two champions perform against each other in solo fights at each level from 1 to 18. For example, you can see the win percentage for Darius vs Garen at level 1, 2, 3, and so on.\n Counter Search Tool: Input a champion’s name and find out which champions have overall the best win rates against them in 1v1 fights, based on millions of solo kills data.\n Further features for jungle & bot lane soon...\n All the data is scraped from real ranked (bronze to diamond) games, providing accurate and up-to-date statistics on champion matchups from the past 30 days.\n Since I don't use simple game outcomes or \"general overall\" statistics as a winrate, but rather actual data from millions of 1v1 fights for each individual champion and level, this tool can be useful for players who want to improve their understanding for certain matchups.\n So how is this helpful? For example, you are in loading screen, playing Camille Top against Aatrox and you wonder, if or when you will be statistically stronger or weaker in an all-in 1v1 fight against him. Just look it up on my site.\n https://preview.redd.it/f5877o7kdwad1.png?width=1266&format=png&auto=webp&s=38ce84e44e757026e9a0663ba664a960e23b99ab\n As you can see here, while Camille is stronger in early and late fights, Aatrox gets the upper hand as soon as he reaches Level 5. Aatrox overall has a 54.61% winrate in 1v1 fights against Camille based of 13784 processed 1v1 fights. Knowing that, you try to fight early to maybe get a kill and get ahead, but stay out of fights as soon as he reaches level 5 until level 10.\n If you are interested, you can check it out here: https://1v1showdown.lol\n As a small heads up, the website is in an early development state. I just started using the API a week ago, so there aren't that many solokills inside the database for every single matchup yet (30.1 million), however the size will increase daily. Also the Website is a bit slow right now and crashes sometimes if too many users connect to it at the same time, but if the site is well received by you, i will definitely change the web host, so that everything works more smoothly in the future.\n Let me know if you have any feedback, other feature requests or questions.",
+   "id": "1dwp8bc",
+   "comments": [],
+   "age_days": 825,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Inspired by a post on the Riven sub",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1dqulmq/inspired_by_a_post_on_the_riven_sub/",
+   "published": "2024-06-28",
+   "author": "/u/Yaruma_",
+   "body": "Such a fun matchup",
+   "id": "1dqulmq",
+   "comments": [],
+   "age_days": 833,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "S14 Camille matchups detailed tierlist updated as promised, personally the biggest problem for Camille isn't the weaker laning phase but that she is lacking damage to 1v1 compared to last season",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1ba83zq/s14_camille_matchups_detailed_tierlist_updated_as/",
+   "published": "2024-03-09",
+   "author": "/u/ZofiaOp",
+   "body": "",
+   "id": "1ba83zq",
+   "comments": [],
+   "age_days": 944,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "For those of u who think that Camille is bad right now, wait until next patch when 3 of her hardest matchups get buffed",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/1apzlt1/for_those_of_u_who_think_that_camille_is_bad/",
+   "published": "2024-02-13",
+   "author": "/u/No-Agency2986",
+   "body": "",
+   "id": "1apzlt1",
+   "comments": [],
+   "age_days": 969,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to Win Jax matchup, secret and tips, espero que les sirva :)",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/18dve5p/how_to_win_jax_matchup_secret_and_tips_espero_que/",
+   "published": "2023-12-08",
+   "author": "/u/ru_lo",
+   "body": "",
+   "id": "18dve5p",
+   "comments": [],
+   "age_days": 1036,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "New map changes will make Camille unplayable in alot of matchups",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/180pdvi/new_map_changes_will_make_camille_unplayable_in/",
+   "published": "2023-11-21",
+   "author": "/u/Krissekrim",
+   "body": "Since the release of Camille, toplane has mostly looked the same, something that Camille was designed around. Right now Camille has one pretty big weakspot in lane, this weakspot lies exactly in the middle of the lane where the minions waves meet.\n Current\n As you can see in the picture, in this spot Camille's Hookshot just barely reaches the southern and eastern wall aswell as the alcove wall. The reason for Camille being so vulnerable in this spot is because if the enemy chooses to trade they will have plenty of time to react to Camille's E since both parts of Hookshot will have the maximum travel time. This means Camille has no way of landing E unless the enemy chases you towards any of these walls and you're essentially playing with only 2 abilities in this position. To make you visualize this abit further lets take the Jax matchup as an example. \n While some of you will disagree with this, I, a player who's onetricked Camille to Challenger Euw will tell you that Jax would be a completely playable and even matchup, that even vs the best Jax players you could go out of laning phase even in cs IF it wasn't for this single spot. Normally how the trades in this matchup plays out is that as Camille you always want to be standing close to a wall and threaten to hit him with Q+Grasp in order to bait his E. Now 1 of 3 things will happen. 1. He presses E and is not in range and just opts to walk out - > Now you have a 15 second window to play aggressive with all your cooldowns before his E is back up. 2. He presses e and is in range so he chases you - > To prevent him from stunning you + W + Q out, you stun him with hookshot before he lands E and now you have the same window except you don't have Hookshot. 3. He presses E and Qs onto you - > In this case you can do the 2nd answer but if you have bone plating or are just stronger you can also opt to tank his combo and then run him down with all your cooldowns. If you follow this trading pattern when playing vs Jax you will find that it's actually very hard for Jax to find a winning trade vs Camille. However this changes in Camille's weakspot because she does not have access to wall. In this spot Jax can full combo you, walkout, and there is nothing you can do about it. Since you can't walk up for cs without taking a horrible trade, the only option for Camille in this spot is to drop cs and wait for the wave to come back in. While Jax is the worst offender of this since you can't even hit him back, almost every toplaner can use this to find favourable trades vs Camille.\n Toplane after s14 Preseason changes\n This is Camille in the same position with new s14 map. As you can see Camille's Hookshot range is not even close to the soutern and eastern walls. This means that what currently is just a spot will suddenly be an entire area where Camille can't trade properly. This will make matchups like Jax, Renekton and Darius completely unplayable and also matchups that were winning for Camille like Aatrox and Gnar significantly harder. Another thing to note is that all range champions like Jayce, Akshan and Quinn who you could E and run down if they overstepped will be alot harder to face. \n What will be way more important on Camille now is using wave management to try and negate this. When you know a neutral wavestate is coming, look to pull enemy minions to the left so the wave meets closer to the alcove wall and play off that. However it's not always you're allowed to just walk up and pull a wave vs alot of champions. Also playing closer to alcove wall will make it easier cause of the angle to get ran down by the enemy laner aswell as getting ganked. On slowpushes it's gonna be important to push at a speed to so the wave never reaches the middle and the wave meets at the opponents side of the lane so you have access to the eastern wall. However this aswell is not optimal since you're most likely (I might be wrong on this) never gonna be allowed to slowpush 3 waves and can only stack 2. This is inherently bad since you will denying less cs. Also your putting yourselves in a spot where it's easier to get ganked.\n I'm not sure how riot is going to fix this, Camille will have to be buffed eventually. As stated in the beginning Camille is afterall tuned around being able to use E in lane to trade. If Hookshot range and speed is buffed I think it's pretty clear Camille will be broken but if her Q and W are buffed to compensate for not being able to trade with E I think Camille will be broken too since by the looks of it apart from laning phase she likes the new map. Let me know what you guys think and if you have any solutions I would love to hear that aswell. Cheers!",
+   "id": "180pdvi",
+   "comments": [],
+   "age_days": 1053,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Weird stats - any advice on the GP matchup? Mid plat elo",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/118oraw/weird_stats_any_advice_on_the_gp_matchup_mid_plat/",
+   "published": "2023-02-22",
+   "author": "/u/forgottenpastry",
+   "body": "",
+   "id": "118oraw",
+   "comments": [],
+   "age_days": 1325,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Season 13 Camille Matchup Spreadsheet - Up to date, covers all champions, runes, summoners, matchup tips and items to build.",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/10doo34/season_13_camille_matchup_spreadsheet_up_to_date/",
+   "published": "2023-01-16",
+   "author": "/u/lolwizbe",
+   "body": "",
+   "id": "10doo34",
+   "comments": [],
+   "age_days": 1362,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "S13 Matchup Spreadsheet is coming..",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/107dsm0/s13_matchup_spreadsheet_is_coming/",
+   "published": "2023-01-09",
+   "author": "/u/lolwizbe",
+   "body": "Hey guys, sorry for the delay but just to reassure you that an up to date matchup sheet with all correct runes, ability starts, item starts for every champion in the game is on the way but it is taking me a lot longer than anticipated.\n Please bare with me I will get it out as soon as I can",
+   "id": "107dsm0",
+   "comments": [],
+   "age_days": 1369,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "My hot take on Camille matchups Plat 4, 60%wr",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/106mjpa/my_hot_take_on_camille_matchups_plat_4_60wr/",
+   "published": "2023-01-08",
+   "author": "/u/ShaedowCZ",
+   "body": "",
+   "id": "106mjpa",
+   "comments": [],
+   "age_days": 1370,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Love playing this matchup",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/zf5ssv/love_playing_this_matchup/",
+   "published": "2022-12-07",
+   "author": "/u/Littlecmobn",
+   "body": "",
+   "id": "zf5ssv",
+   "comments": [],
+   "age_days": 1402,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "New Camille Guide",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/z0xvy1/new_camille_guide/",
+   "published": "2022-11-21",
+   "author": "/u/lolwizbe",
+   "body": "Hey guys, for those of you who know me, I’m Wizbe and I’ve made a couple of different Camille guides + matchup spreadsheets over the years. \n I’m back playing again and will be making the most detailed guide I can to cover the new season changes. I’d like to see below what people would like covered, so far I was thinking:\n Build path options\n Matchup specific runes\n Matchup specific tips\n Runes if experienced\n Runes if inexperienced\n Strengths/Weaknesses in and out of laning phase \n If there are any topics or things you’d like to see included then please comment below :) I’ll try to add them all\n I’ll also look to return to streaming when season starts properly, so if you’d like to check me out give my twitch a follow :)\n twitch.tv/lolwizbe",
+   "id": "z0xvy1",
+   "comments": [],
+   "age_days": 1418,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "I made a matchup tierlist based on some posts in this subreddit",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/xaqghg/i_made_a_matchup_tierlist_based_on_some_posts_in/",
+   "published": "2022-09-10",
+   "author": "/u/xAegaeonx",
+   "body": "",
+   "id": "xaqghg",
+   "comments": [],
+   "age_days": 1490,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Camille E Bug - I was telling my friend how to play fiora matchup and to just miss your E to bait the parry. I meant the E2 not the E1...",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/vebgva/camille_e_bug_i_was_telling_my_friend_how_to_play/",
+   "published": "2022-06-17",
+   "author": "/u/lolwizbe",
+   "body": "",
+   "id": "vebgva",
+   "comments": [],
+   "age_days": 1575,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "i dont know why but my favorite matchup in the game Camille vs Fiora. i think this matchup is just so fun to play and skillful.",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/uwy7km/i_dont_know_why_but_my_favorite_matchup_in_the/",
+   "published": "2022-05-24",
+   "author": "/u/ireliathingskekw",
+   "body": "",
+   "id": "uwy7km",
+   "comments": [],
+   "age_days": 1599,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Hit 1M mastery with Camille yesterday. 3 seasons. Peaked Master 113lp. Here is my Mastery's guide for all matchup.",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/tgng2x/hit_1m_mastery_with_camille_yesterday_3_seasons/",
+   "published": "2022-03-17",
+   "author": "/u/1234okie1234",
+   "body": "",
+   "id": "tgng2x",
+   "comments": [],
+   "age_days": 1667,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "My experience with Camille for the past 100~ games since I started playing her. Matchup Tier list.",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/rkcscr/my_experience_with_camille_for_the_past_100_games/",
+   "published": "2021-12-20",
+   "author": "/u/Distinger_",
+   "body": "",
+   "id": "rkcscr",
+   "comments": [],
+   "age_days": 1754,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to clap mirror matchup witch sick mechanics",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/r5q8ab/how_to_clap_mirror_matchup_witch_sick_mechanics/",
+   "published": "2021-11-30",
+   "author": "/u/OnuTaavi",
+   "body": "",
+   "id": "r5q8ab",
+   "comments": [],
+   "age_days": 1774,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Going to start making matchup videos on youtube",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/qv64bp/going_to_start_making_matchup_videos_on_youtube/",
+   "published": "2021-11-16",
+   "author": "/u/lolwizbe",
+   "body": "As the title suggests, I'm going to be playing a lot more in Season 12 and making matchup videos as I have had several requests and Drututt's ones are a bit outdated.\n Before I begin, I'm not challenger, I'm not the best but I did hit Grandmaster this season before I took a 3 month break for personal reasons (proof: https://twitter.com/lolwizbe/status/1406021641948348421)\n I already have my current matchup sheet for season 11 which will probably be updated as well (here: https://docs.google.com/spreadsheets/d/14QVRumVrhnGutclFUQWsadkyPX8wewNNrpdMaJs0zaI/edit#gid=0)\n I am going to start with videos about how to lane vs each champion, including runes, trading patterns, when to push, when to freeze and when to slow push depending on different scenarios in your lane and be as detailed as I can per matchup. Also noticing when someone is in kill range and when you should be using certain abilities in trading.\n Obviously things will be slightly different with new runes in season 12 so I will get myself accustomed to these changes before jumping straight into guides, but I am making this post to ask what other info would be beneficial to you guys on the sub?\n Please comment below on what you would like to see on the video guides/if I missed anything out.\n My YouTube is: https://www.youtube.com/channel/UCApUQvZ79BL_K2aa9A-lTEQ. I will post on the sub once I start uploading too :)",
+   "id": "qv64bp",
+   "comments": [],
+   "age_days": 1788,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "My Camille Matchup Sheet - Take into account this is based off of thousands of games and playing the majority of these in masters+ - source of experience: https://twitter.com/lolwizbe",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/qtxm2t/my_camille_matchup_sheet_take_into_account_this/",
+   "published": "2021-11-14",
+   "author": "/u/lolwizbe",
+   "body": "",
+   "id": "qtxm2t",
+   "comments": [],
+   "age_days": 1790,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Teemo Matchup is going to be Hell now",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/q6xjr0/teemo_matchup_is_going_to_be_hell_now/",
+   "published": "2021-10-12",
+   "author": "/u/HezariLoL",
+   "body": "",
+   "id": "q6xjr0",
+   "comments": [],
+   "age_days": 1823,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Tierlist of matchups from 700 games this season (hardstuck gold player)",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/q2ahao/tierlist_of_matchups_from_700_games_this_season/",
+   "published": "2021-10-06",
+   "author": "/u/maksimumpawa",
+   "body": "",
+   "id": "q2ahao",
+   "comments": [],
+   "age_days": 1829,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Camille vs Sett matchup",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/psmc58/camille_vs_sett_matchup/",
+   "published": "2021-09-21",
+   "author": "/u/LeBlancxdd",
+   "body": "",
+   "id": "psmc58",
+   "comments": [],
+   "age_days": 1844,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "i tried to play Camille Jungle with Teemo matchup runes. She can literally full clear jungle. This is working in silver-gold elo. If they ve unmobile champs they cant escape from Camille's ganks. Also u can dive bottomlane w Camille jungle. Not much counter picks, ban Xin Xhao or KhaZix.",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/p8bpop/i_tried_to_play_camille_jungle_with_teemo_matchup/",
+   "published": "2021-08-20",
+   "author": "/u/LeBlancxdd",
+   "body": "",
+   "id": "p8bpop",
+   "comments": [],
+   "age_days": 1876,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Jax vs Camille matchup",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/nb0e1u/jax_vs_camille_matchup/",
+   "published": "2021-05-12",
+   "author": "/u/stygiandesolation",
+   "body": "",
+   "id": "nb0e1u",
+   "comments": [],
+   "age_days": 1976,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Standard Camille vs Vayne matchup but the Vayne was TFBlade. Had to say I was a bit happy",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/mkw57z/standard_camille_vs_vayne_matchup_but_the_vayne/",
+   "published": "2021-04-05",
+   "author": "/u/1234okie1234",
+   "body": "",
+   "id": "mkw57z",
+   "comments": [],
+   "age_days": 2013,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "When to Go conq when to Go grasp",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/lj9qcu/when_to_go_conq_when_to_go_grasp/",
+   "published": "2021-02-13",
+   "author": "/u/Jokar2071",
+   "body": "I can imagine going for conq when its a ranged matchup but when do I Go for Grasp I wanna learn the Champion Same goes for triforce and when do I go for sunderer?",
+   "id": "lj9qcu",
+   "comments": [],
+   "age_days": 2064,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Season 11 - Camille Runes. I've posted it before for Season 10 but I have updated the matchup spreadsheet as there are some small changes I think in her runes choices. I will also be releasing a video soon for item choices and build paths",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/jt9gal/season_11_camille_runes_ive_posted_it_before_for/",
+   "published": "2020-11-13",
+   "author": "/u/lolwizbe",
+   "body": "",
+   "id": "jt9gal",
+   "comments": [],
+   "age_days": 2156,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Hey guys, couple quick Camille questions for you experts:",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/iemve6/hey_guys_couple_quick_camille_questions_for_you/",
+   "published": "2020-08-22",
+   "author": "/u/Toplaners",
+   "body": "Hey guys, I'm a riven main looking to add Camille into my champ pool, since she does pretty well into lanes that riven struggles in or simply cannot kill(tanks, quinn, kennen). I figure if I can't kill a champion on riven early, I may as well play camille, scale better and have a healthier lane phase with more sustain.\n 1.) which lanes is a level 1 cheese/all in viable? I know the obvious ones like nasus, but are there other lanes that this is a good strategy? and what ability works best based on the matchup?\n I've thought about trying this into lanes such as Teemo, bush cheesing and starting either e or q depending on how he paths, but I'm wondering if cam would win the all in if I start q and teemo also started q when he sees me walk up, assuming I don't panic, and wait out the blind. or is it better to start e, assuming I land it.\n 2.) so far I've been taking grasp into squishy champs like riven/irelia/fiora to bully them early, and also sustain matchups where i feel I won't have more kill pressure with conq and the sustain and early pressure is more valuable, such as tryndamere and garen. What particular lanes would you go pta? I've seen certain people go pta into ranged matchups, but does it really give you that much more lane pressure to make it worth it over conq? I Find I do fine wth just putting 3 points in w and then going for all in trades with conq once I poke them down a bunch.\n Thanks guys, I did read the matchup sheets but I didn't really notice any of them advising to level 1 all in with the exception of like nasus/yorick",
+   "id": "iemve6",
+   "comments": [],
+   "age_days": 2239,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Drututt's Matchup Guides Complete Write-Up.",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/huovrq/drututts_matchup_guides_complete_writeup/",
+   "published": "2020-07-20",
+   "author": "/u/FuckingFuckery",
+   "body": "To quote my previous post: I made this for my own personal use in a notes app but figured it may help others. This obviously does not include all the information but it's good for an easy check over pre-game, please still watch the videos and sub to his channel to support his content. (Drututt, if you'd prefer this removed for whatever reason then please just let me know.)\n The formatting and general sentence structure is awful because it was just for my personal review so apologies in advance. Because of this, an occasional note will be from something Drututt's said on his stream but not in the guide or something I've personally observed.\n Gnar\n Conq Boots Biscuits. Double D Blade > Triforce Rush\n W - 1. Every time he Qs or autos you W him.\n 2 - E. Don’t engage, most of the time he will have priority first three levels, take the bullet and let him push. \n 3 - Q.\n 4,5 - E. Gives you CD to force his jump then go in next jump. 22 seconds on E. Can also bait jump against bad gnars.\n Without his mega, he’s super squishy so you can beat him when mini.\n Don’t engage unless his bar’s super low so he won’t transform. Has CD after he’s just turned mini.\n Can just play safe and scale, once you have tri there’s nothing gnar can do to you. If he makes a mistake kill him, if he doesn’t you can just play to scale.\n Sidelane, not teamfight. Take waves, then jungle camp.\n Wukong\n BONEPLATE SHIELD\n Q > E/W\n His E gives mr shield, don’t let him get\n You win level 1\n Wait for clone on wall before hooking behind character\n NEVER HOOKSHOT POST 6 UNLESS CAN KILL, MISS YOU DIE\n WIN POST TRIFORCE\n EXECUTIONERS GREAT, TABIS IF LOSING\n SPLIT>TEAMFIGHT\n FIORA\n BONEPLATE SHIELD\n Q LEVEL 1, CAN GIVE CS IF NECESSARY, AUTO WHEN SHE AUTOS minion, short trades QQ don’t wait Q2.\n WALK OUT TO AVOID BAD VITAL\n Hug wall to avoid ult proc\n Only trade when passive up\n W Level 2, lose even if hookshot hit. Jiggle W so parry misses, or wait for her q for guaranteed,.\n For parry, hold hookshot on wall, or throw so parry misses, or hug wall for quick parry. Never hookshot when both full health, poke with short trades.\n Executioners Rush, Double D Blade or sheen too.\n Darius\n Shield Bash Second Wind\n Don’t Facecheck bushes.\n If he started Q (he’s bad), walk up and Q and rush level2 all-in.\n If he takes W, you start W. > Q >E\n If he uses E to pull to engage, you can all-in or leave with hookshot. \n If he misses E he’s useless, if hits you out Q. W to exit trade.\n Wave has to be near your tower, if he Ws you and ghosts in the middle of the lane you can die and he’ll just E your E. Run to wall and insta E away if you have to. Never let him auto you for free.\n Best counterplay is jungle ganks, he gets trashed in 2v2 or 2v1.\n Outscale at Triforce Tabi Tiamat Vamp. All you have to do to win at this point is hide until he uses a Q, go in and R his second Q.\n If he misses E he’s useless, if hits you auto Q and W retreat .\n Go in whenever passive up, freeze on your side.\n Mordekaiser\n Boots Biscuit.\n Can cheese level 1 tribush, W start otherwise.\n E level 2, free trade if you hit. Same level 3 with Q.\n If D Ring start, spam W.\n 6: Never hookshot in, just trade with W>auto>Q.\n If he ults, get magic shield auto, R his Q hammer, hookshot away.\n If he overextends, great gank and bait target. Can still hookshot on and get his ult.\n Triforce Rush, free after, can Q1, E Q2. QSS last item if he’s issue.\n Sett\n Boneplate Shield\n W level 1, spam throughout matchup. Don’t stand between minions so he doesn’t get E stun, auto walk back.\n Q level 2.\n If he uses W post level 3, just hookshot in and all-in. Walk out of W true damage ALWAYS. Ult W when shield’s fading or to avoid true damage.\n Always walk to the side on trade to avoid haymaker true damage, passive doesn’t block.\n After lane: If Sett fed, teamfight. If you are, split. He offers more utility in team fights generally.\n Triforce rush.\n Tryndamere\n PTA, boots biscuits.\n Q level 1, play around passive whole matchup. Never let him get fury stack, if you leash then you have to care as he gets to stack.\n Hookshot only if he can’t all-in you back, no going back. You kill or he does.\n Aggro when no fury, pussy out when high.\n Can’t play safe, do not give free lane. Contest everything.\n If he doesn’t have ghost, you win. Free jungle gank to lane win.\n 6 you lose.\n After lane: Teamfight, DON’T split. Gank him with team. Do not play his split game, you’re not supposed to win 1v1.\n Malphite\n Boots Biscuits.\n W level 1, perma. Don’t let him get his shield back, don’t use it on his shield. Outsustain.\n Q 2. If walks up, Auto Q, and get Q2 if he lets you but don’t force it.\n E 3, all-in when shield down. \n 6: Can R Spam in front of you to avoid but don’t rely on. Don’t hookshot in when he has ult up, approach only with Qs, he WILL win. W > Auto Q > Walk back.\n Split, he team fights much better, force him to side where he loses to you.\n If malph full armour, shove waves and then rotate to fights first, takes too long to kill him.\n Urgot\n Boots Biscuits\n W level 1, with PTA his level 1 is SUPER STRONG. Play safe until 3.\n 3: W, auto Q, walk back. If he E’s in, he overextends you will win 1v1 unless he can proc all his legs. You win 3-5 because of his W cool down.\n 6: R to dodge his e then sidestep his q, his w will then target minions. OR r his R. If he hits R, disengage with hookshot.\n Splitting late, kite him, you lose if he hits E. Be respectful. Q2, walk back.\n Always go tabs.\n Gangplank\n Second Wind Shield Bash.\n D shield\n W level 1. Play safe, with bushes. 1 GP Q is worth 2 minions or more, don’t tank 1q for 1 minion.\n Passive until 3, at 3 if you hookshot in and he has barrel, instantly auto it then Q him.\n You walk over him on side post triforce if he doesn’t get barrels and he’s not very good ( won’t be for me).\n 6: Can R barrel.\n Farm lane, you likely won’t kill him and he won’t kill you without mess-ups, just play to split and outsclae. \n Poppy\n Boots Biscuits\n Start W, permapoke except on her shield. W > Q > E\n Play super safe, never let her dash on you, you will lose. Play middle of lane.\n Rush vamp scepter to sustain through the lane with W and Q. Ravenous > Tri.\n You don’t kill her, just farm and don’t get ganked.\n Always split, maybe rotate if you can get there faster than her.\n Shen \n Boneplate.\n Don’t get cheesed in Tri level 1.\n W start, you lose level 1. Don’t use until he uses Q to avoid shield.\n Q level 2, play around passive and bone plate.\n Wait for W to end, then auto Q Q. Wait for W to end and Q2 him, your duration is longer.\n Post 3, if he taunts in and Ws, hookshot in. Whoever E’s first loses.\n Shen good at setting up ganks.\n 6: Interrupt ult with your ult if he’s under tower so you don’t die. Check to see if him turning up will help before you interrupt. \n Shove him in with Tiamat if you’re far ahead post 6 so he can’t help. Keep shoving, punish his roams.\n Side lane, be respectful of his sticking, can still get ganked hard.\n Irelia\n Bash, Boneplate.\n Q level 1, can cheese tri. She has bigger auto range, just wait by low health minions and when she tries to get it auto q trades.\n E level 2, can go on her if she has lower health.\n LOSE if she has 3-5 stacks or has low health minions to get 5 off.\n POST ADD: Cannot fuck with her here she will all-in you every time. This is the key to the matchup.\n 6: R her R or her E.\n You lose once she has vamp scepter, don’t bother with Wing her she’ll heal it. Just play with jungler.\n You win after triforce tabi if you hit e. outsclae.\n She dashes to a minion, you auto q and walk back, whittle her.\n Vlad\n Boots Biscuits, PTA after conq nerf.\n Dring - start W>Q>E, farm safe until 3. Do not take damage this is his window for priority from your mistakes.\n Dshield - all in with E and rush level 2 Q.\n 3 points in E first this matchup.\n Hookshot on, let him pool (20 second cd). Walk back, e again when it’s up (with passive too if you can).\n Don’t take Qs for free, never empowered Q. Can see CD on his bar. Empty bar good time to go in.\n Don’t get executioners until late, his healing’s not the issue it’s getting to him. Sheen and stinger better.\n Side lane permanently, don’t let him team fight. You smash him unless he’s really ahead or you went armour. If he’s ahead, just keep your E, you can always run from him.\n Nasus\n Boots Biscuits.\n Level 1 Q, cheese tri if you can. If not contest him, auto QQ or Auto Q auto Q2.\n E level 2. Don’t push wave, freezing amazing.\n Don’t bother with using W much, EQ are your trading tools. He will heal Ws and you will push the wave.\n 6: Can’t hookshot in when he has ult unless you kill. Q1 on minion, auto Q2. Whittle him down.\n Teamfight if team can deal with him (CC, mixed damage), split otherwise.\n Ornn\n Boots Biscuits\n W Level 1 Spam, don’t push wave too hard.\n E Level 2 if he goes pillar (can E off it and interrupt his charge, use this all the time, it’s very strong), Q otherwise.\n Level 3 + if he’s casted pillar Q and bone plating is CD just E onto him.\n His W breath only the last gush gives brittle so walk behind him while he’s doing it (with Q1 MS pref), if he gets brittle auto he wins trade automatically. He will use W to avoid hookshot knock back.\n 6: R when his R is close to him so he can’t recast onto you. If he R’s further away, R his E coming in.\n Sidelane, he only wins if he’s an item ahead. Care his engage, hook dodge when he’s gonna R2.\n Aatrox\n Boneplate Shield.\n W level 1, spam poke. Can walk up auto before he has e to reposition qs.\n E level 2, if he uses Q1 + E, engage, couple autos then disengage, don’t overextend because passive.\n Level 3 on, if he whiffs Q1 sweetspot, continue to engage. Same with if he uses passive on minion. Can hug walls and fast hook engage, Q1 can’t hit then.\n If he hits W, walk out of side so he can’t Q3 and you can ult it.\n 6: Ult third Q, don’t overextend too much with autos because he’ll get passive back. Stay close to the pull if you can’t walk out of W so you can still R Q3.\n 6: Don’t hookshot in without a reason (he’s low etc.) poke until then, this is the only time he can win the matchup.\n Can oneshot you level 4 with full rotation, pay respect.\n Go executioners only if you have the right gold, otherwise get sheen or Double D later. If gold’s not right, get it after triforce.\n You outscale him hard post tri on sideline unless he’s well ahead.\n Teemo:\n Hard matchup.\n PTA with second wind shield bash and alacrity.\n W level 1 and spam throughout match, rush level 2 with W wave clear and engage with E, three points in E.\n IF he wastes blind, you can engage, has a high CD.\n Can also R his blind, has a different sound effect.\n Take sweeper for shroom.\n Corrupting potion > Tiamat > Triforce.\n Fiddle:\n E > Q > W\n E to interrupt drain early, R to cancel second drain. You straight up don’t win otherwise. Don’t need to force pre 6. Non damage threat if you just play safe and don’t force\n Very easy gank target\n Executioners\n Akali:\n Cons Boneplating Second Wind. D Shield. \n Spam A click in shroud.\n W start unless cheese, get hit by alkali q before W for sustain (second wind and life steal)\n E Level 2. Don’t E in unless she wastes shroud.\n Level 3. Can hug wall fast hookshot, alkali won’t E in time unless Faker.\n Generally otherwise, W and auto Q trading.\n 5/6, E. if you miss e you lose so care (always true, make sure you’re hitting it or you lose). \n Can R her R2, R where she’s coming from.\n Later on sideline, you brute force beat her (triforce + smash) i.e. stand in shroud.\n Shroud CD is everything in this matchup. \n If you’re behind you can peel alkali off carries well with R, if ahead just kill their backline.\n Kled\n Cons Boneplate Shieldbash\n Very easy matchup as long as you play safe 2+3\n Level 1 W spam, will smash because max hp dmg\n 2 - Q if he’s really low, E if you whiff W to disengage\n If skarl super low, best time for him to engage so just poke until it’s down\n Use passive after he autos to proc on W or Q2, he relies on burst\n Never fight with W, glow sword\n 6 - You win once sheen, if he engages Q E Auto Q2, ult his pistol.\n Garen\n Boots Biscuits\n 1- W start. Spam to stop passive. If he’s going for minion auto you auto him to get shield for Q that will come.\n Q 2. Q when he goes for a Q, only when you have passive.\n E 3. Only extend with hookshot when he’s low OR he’s used his W.\n 6 - Trade smart. Q his Q, don’t walk up without your passive, keep W for his passive. Don’t E in until he’s low etc.\n Double D Blade > Sheen.\n As long as you play around passive, he can’t 1v1 you UNLESS you E in when both full health because his R gives more combat.\n If he’s tank, push him in and rotate, take camps. You outscale hard. \n Maokai\n Boots Biscuits.\n Don’t go near bushes, stand on river walls.\n Level 1- W only when he Qs you early.\n 2 - Q, he’s stronger, don’t play aggressive, last hit and spam W.\n 3 - Never hookshot unless he’s used Q unless wall hug fast E, can cancel hookshot.\n If you have prio, slow shove 3rd wave and hard shove 4th for cheater. Double D Blade.\n If you have 800g, get executioners, if you have 1050 get sheen. Don’t get executioners if you got sheen, too much inventory space taken up.\n Later - Can kill Mao but his CC slows you down so much, most of the time unless he’s hard overextended, just shove, take jgl and fast rotate. Force him to side. If he uses W or Q on wave then you can get him a lot easier.\n Sylas\n Boots Biscuits, Executioners.\n All-in, don’t trade\n Riven\n Shield Bash and Bone Plate\n Riven can extended Q trade only if your shield and bone plating are down. Below 70% with no passive or bone plate, she lethal post 6.\n Q - 1. Walk up Q, yours will go off before hers. Wait for her Q Cd then and you can zone level 1. You win this.\n E - 2. Hug wall permanently. Every time she goes for extended trade, never be in her melee range, make her use her Qs and Es to get to you. Tank her Q2 with passive and then interrupt Q3 with hookshot.\n W. - 3. Don’t ever W her randomly, only when her E’s down. Or if she’s in lethal range to bait her E CD. Just wastes mana.\n Post first recall she wins. \n 6 - Can’t hookshot on her anymore unless R is CD. She can 100-0 if she waits out passive. Just play around shield and smart trades.\n R her Q3.\n Side lane you win unless Riven’s good but either way she can’t engage on you if you have E up. Get someone to shadow. Post 3 items you win but before then always respect her 1v1.\n Tabis really good vs her post tri.\n Vayne\n PTA Boots Biscuits\n Start D Shield > Triforce > Tabi > Tiamat\n E - 1. Hookshot, proc PTA and go back. Repeat (with passive) if needed.\n Q - 2. Attach, wait for tumble and go.\n W - 3. If you haven’t killed her, spam this from bushes. Don’t let her get auto Q, bad trade. Always play around bushes after this point. Don’t position around walls iwhere condemn can stun. If she wastes E, go in.\n 5,6 - E.\n 6 - Can ult her condemn (E). Never hookshot on her blindly unless for sure can hit, and auto Q auto R auto Q2.\n Sidelane don’t 1v1 if you’re even it’s coinflip, get someone to shadow or team fight because 5v5 better than hers.\n Illaoi\n Boots Biscuits\n Sheen > Executioners > Tri.\n 1 - W, OR GO FOR CHEESE WITH Auto Q auto Q. Spam W and wiggle constantly to avoid Q.\n 2 - E if she’s level 1 hookshot on. \n Most unsafe to be is your own tower, you want to be closer to hers. She gets free autos and Qs if you’re farming under tower, don’t let her push, DON’T LEASH.\n 3 - Q, either go for short trades with fast hook or auto QQ, walk back with W. If you can bait her E by hiding behind minions or juking then she’s not a champion, free trade. Matchup is all about dodging E now.\n Never use Q on tentacles if you’re fighting her.\n 6 - Ult her ult so she can’t spawn tentacles or dodge E.\n Later on side - Bait e now you have ms. If she ever gets her E you just hookshot, run away.\n Pantheon\n WQE. Second wind D Shield.\n Can’t do anything pre tri, spam W for sustain and cs after he damages you. Outscale massively, get gold back by splitting post tri.\n Quinn\n PTA, Second Wind.\n D Shield. \n 1 - W, only when she’s auto’d you to regain. Do this whole lane.\n 2 - E. If jgl comes, engage but otherwise this is JUST for disengage atm. Your E ALWAYS beats her E, this alone means Camille wins the matchup.\n 3 - Q.\n Only way Quinn wins is if you space poorly early game and take tons of harass.\n Spam W until she is low then all-in. If she’s close to your tower, you can E engage.\n Rush tiamat to shove her in so she can’t roam or to punish her roams. Don’t try to her follow, she’s faster. Permapush when she roams and spam ping. Maybe buy sheen if you can.\n You walk over her on side late game. Focus her or other priority targets in team fights.",
+   "id": "huovrq",
+   "comments": [],
+   "age_days": 2272,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "I'm thinking of creating my own matchup spreadsheet for Camille - would people be interested?",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/ha9ba5/im_thinking_of_creating_my_own_matchup/",
+   "published": "2020-06-16",
+   "author": "/u/lolwizbe",
+   "body": "I know there are already a couple of matchup spreadsheets out there already but some of them haven't been updated and others I don't necessarily agree on (For example just seen one that says Fiora is a hard matchup when it's one of the easiest to play in my opinion)\n Obviously this would take a long time so I am wondering if it's worth my time doing? Would people want me to create a spreadsheet? I'm an EUW Masters Camille OTP peaking 200LP so I have some fair experience on the champ.\n If I get good responses/enthusiasm from this thread then I'll for sure get started on it and release it publicly ASAP.\n ​\n - Wizbe",
+   "id": "ha9ba5",
+   "comments": [],
+   "age_days": 2306,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Really Useful video on how to play Camille's Matchups",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/gzlnec/really_useful_video_on_how_to_play_camilles/",
+   "published": "2020-06-09",
+   "author": "/u/redsnowdog5c",
+   "body": "",
+   "id": "gzlnec",
+   "comments": [],
+   "age_days": 2313,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Steph J M, Kimmothy, Cree",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/g9urk2/steph_j_m_kimmothy_cree/",
+   "published": "2020-04-28",
+   "author": "/u/deziin",
+   "body": "if you're on this community, this is a little message to you 3 I LOVE YOU ALL, just helped me with your videos, guides, matchups and many other things, hope i could have an opportunity to have a talk with you three one day. Please continue with your content. Once again I love you all\n I was trapped low elo, now I'm just climbing on and on with camille (main her 6 months already), i recommend you guys from this reddit follow these 3 streamers/youtubers for some tips.\n (sorry for my poor english, i live in Brazil)\n To: Kimmothy, Cree, Steph J Millz",
+   "id": "g9urk2",
+   "comments": [],
+   "age_days": 2355,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Challenger Camille matchup guide (almost every single toplane matchup)",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/ebhpqc/challenger_camille_matchup_guide_almost_every/",
+   "published": "2019-12-16",
+   "author": "/u/FriendlyNeigh",
+   "body": "Not sure if this has been done before but I decided to make a spreadsheet with all the Camille matchups, inspired by Elite500's Vladimir guide.\n I didnt go too much into details but I tried to roughly explain the matchups, I hope it helps!\n Spreadsheet link: https://docs.google.com/spreadsheets/d/1hJ0fnc8T-RIWt4C1o6wSdBbC_HOZhTHK4vHucI3__Cw/edit?usp=sharing\n Opgg: https://eune.op.gg/summoner/userName=EUNE%20SLAYER \n Would love to see how you view the matchups so feel free to comment if you disagree with something",
+   "id": "ebhpqc",
+   "comments": [],
+   "age_days": 2489,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Can the subreddit's guide be updated?",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/cscncq/can_the_subreddits_guide_be_updated/",
+   "published": "2019-08-19",
+   "author": "/u/Messigood",
+   "body": "I use this guide a lot as I imagine many people here do, but it is somewhat out of date. The mordekaiser matchup talks about old mordekaiser...\n Edit: The Mordekaiser bit is simply an example of what is out of date. I am totally fine in that matchup. I'm talking about the guide for new players and ones that are still learning the champ.",
+   "id": "cscncq",
+   "comments": [],
+   "age_days": 2608,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Questions about Camille top lane matchups.",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/c6a8e6/questions_about_camille_top_lane_matchups/",
+   "published": "2019-06-27",
+   "author": "/u/drututt",
+   "body": "Hello my name is Maks and im a huge Camille fan/player. I peaked rank 2 on EUNE and 743lp on EUW playing mostly Camille on top. I don't play in high elo anymore because it angered and stressed me way too much. I still own the EUNE account and i sold the EUW one. I still play the game at the diamond-gmaster ranks on EUW. I came here because i saw a lot of people strugglin a lot with the champion, saying mostly that her laning phase is really bad in some matchups. U can ask me here about a champ and i will deeply explain the matchup for u along with the optimal build/runes setup. https://eune.op.gg/summoner/userName=Drutut https://preview.redd.it/doj5gus8cy631.png?width=606&format=png&auto=webp&s=f7185c68ecb00f572a91db7686349097c31068a1",
+   "id": "c6a8e6",
+   "comments": [],
+   "age_days": 2661,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Camille Matchup Guide Series! Episode 1 - Jax",
+   "url": "https://www.reddit.com/r/CamilleMains/comments/7i2vcg/camille_matchup_guide_series_episode_1_jax/",
+   "published": "2017-12-07",
+   "author": "/u/weekndNA",
+   "body": "",
+   "id": "7i2vcg",
+   "comments": [],
+   "age_days": 3228,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  }
+ ]
+}

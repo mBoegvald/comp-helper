@@ -1,0 +1,872 @@
+{
+ "champion": "Neeko",
+ "subreddit": "neekomains",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "Thinking of picking up Neeko again for mid",
+   "url": "https://www.reddit.com/r/neekomains/comments/1x0rgnm/thinking_of_picking_up_neeko_again_for_mid/",
+   "published": "2026-10-08",
+   "author": "/u/matsuku",
+   "body": "What's her worst matchup? Build?",
+   "id": "1x0rgnm",
+   "comments": [],
+   "age_days": 1,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "[Huge Guide Update] I started uploading unedited VODs/Commentaries to show you exactly how to play every matchup from the sheet!",
+   "url": "https://www.reddit.com/r/neekomains/comments/1uskvfu/huge_guide_update_i_started_uploading_unedited/",
+   "published": "2026-07-10",
+   "author": "/u/_ElCeliacoLoco_",
+   "body": "Hello again, fellow tomatoes! 🍅\n The response to The Evil Neeko Guide has been absolutely insane, thank you all so much.\n Before diving into today's update, I want to give a massive shoutout and a huge thank you to amazing creators like Doglightning and PurplePixie for sharing and supporting my guide with their communities. Having backing from such awesome figures in the Neeko community means the world to me! 🙏✨\n To make the spreadsheet even more practical and give back to everyone, I’m adding a massive visual aid to it: I have started recording and uploading my games vs GM and Challengers!\n (again, thanks Doglightning for the brillant idea!)\n Whenever I play one of the matchups listed in the guide, I will record the game with live commentary explaining my thought process, wave management, and trading windows.\n (For those who missed it: The Evil Neeko Guide Post)\n ⚠️ Quick heads-up on the format of the videos: These are NOT over-edited, flashy videos with subtitles, memes, or clickbait. I am keeping them 100% raw. I just record the game, trim it, and upload it so you can see the pure, unedited high-elo gameplay.\n Also, I am not posting only 20/0 stomps or easy winning games. I'm specifically selecting games where the laning phase and overall gameplan are played correctly as explained in the guide. If the enemy just ints and I get randomly fed, you don't really learn anything from it. I want these VODs to be a straight-to-the-point, real-world visual tool for anyone who wants to see how the matchups actually function.\n How to find them: I am embedding the links directly inside the Google Sheet right next to each specific matchup, so you can read the theory and watch the practical execution in one click!\n That's all Folks! Good luck on the Rift! 🦎",
+   "id": "1uskvfu",
+   "comments": [],
+   "age_days": 91,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "It's officially here! 🍅 The Evil Neeko Guide (Massive Midlane Matchup Sheet) is now LIVE!",
+   "url": "https://www.reddit.com/r/neekomains/comments/1ulmjbg/its_officially_here_the_evil_neeko_guide_massive/",
+   "published": "2026-07-02",
+   "author": "/u/_ElCeliacoLoco_",
+   "body": "Hello again, fellow tomatoes! 🍅\n After hours and hours of writing, reviewing, and condensing my games from Master/GrandMaster SoloQ, I'm so excited to say that the first major version of The Evil Neeko Guide is officially ready for all of you!\n Since a high-elo meta changes rapidly and completing every single champion in the game with deep level-by-level details is a massive undertaking, I decided to build this as a Living Guide.\n Instead of making you wait months for a static PDF, I have completely covered the top 20+ most common midlane matchups you face in 80% of your games right now (including Ahri, Yone, Yasuo, Zed, Syndra, and more).\n What does a \"Living Guide\" mean? I will be updating this Google Sheet week after week directly from my high-elo games experience. I'll be adding the remaining niche matchups, patch adjustments, and upcoming sections like Itemization Tier Lists and Hidden Mechanics/Tricks dynamically!\n You can access the live spreadsheet here:\n 👉THE EVIL NEEKO MIDLANE GUIDE🍅\n Make sure to check the notes inside! If a matchup you are struggling with is still missing, please drop a comment here — I'll gladly prioritize it for the next weekly update!\n Thank you all so much for the insane support on my previous posts!!! Let me know your thoughts, your feedback, and what section you want me to expand next.\n Let's show them how evil a tomato can be! 🦎⚡",
+   "id": "1ulmjbg",
+   "comments": [],
+   "age_days": 99,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Sneak peek of the massive Neeko Mid Matchup Guide I'm working on! 🍅 - What do you guys think?",
+   "url": "https://www.reddit.com/r/neekomains/comments/1ui1ff8/sneak_peek_of_the_massive_neeko_mid_matchup_guide/",
+   "published": "2026-06-28",
+   "author": "/u/_ElCeliacoLoco_",
+   "body": "Hello again, fellow tomatoes! 🍅\n First of all, thank you SO MUCH for the incredible warmth and all the questions on my intro post a few days ago (in case you missed it, you can check it out here!). You guys are amazing!\n As promised, I’m grinding hard on the Ultimate Midlane Matchup Guide (aka \"The Evil Neeko Guide\"). Since it’s going to cover every single common matchup with deep level-by-level details, it’s taking some time to complete.\n To thank you for your patience, I wanted to share a little sneak peek / leak of one of my favorite matchups — Ahri!\n Quick confession: I'm still a bit new to posting on Reddit and when I tried to take a screenshot of the spreadsheet, the image quality looked pretty unreadable and messy. To fix my technical clumsiness, I decided to just clone the spreadsheet, wipe out the other lanes for now, and leave only the Ahri matchup completely visible so you can read it properly!\n You can check the live snippet directly here: Ahri Matchup Leak\n I want this tool to be as perfect and useful as possible for everyone, from low elo to high elo. Please let me know your thoughts on the formatting, the details, or if there is anything specific you'd love to see added!\n Back to the lab, see you on the Rift! 🦎✨",
+   "id": "1ui1ff8",
+   "comments": [],
+   "age_days": 103,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Just hit GM playing Neeko Mid last split! Wanted to say hi and answer any questions 🍅",
+   "url": "https://www.reddit.com/r/neekomains/comments/1ue4ohi/just_hit_gm_playing_neeko_mid_last_split_wanted/",
+   "published": "2026-06-24",
+   "author": "/u/_ElCeliacoLoco_",
+   "body": "Hello fellow tomatoes! 🍅\n I finally decided to stop lurking and join the subreddit. I'm a Neeko OTP playing her in the Midlane on EUW, and last split I managed to hit GrandMaster with her!\n I love this champion so much and I want to be active here to give back to the community. Feel free to drop any questions you have about matchups, builds, or mechanics in the comments—I’ll try to answer every single one! (I am also trying to answer already existing question posts here on the sub).\n Also, I'm currently working on a massive, very detailed matchup spreadsheet for you guys covering how to play lv1,2,3,6, runes, sums and general laneplan, so stay tuned. See you on the Rift! 🦎✨",
+   "id": "1ue4ohi",
+   "comments": [],
+   "age_days": 107,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Sharing some achievements and thoughts this season.",
+   "url": "https://www.reddit.com/r/neekomains/comments/1uat3di/sharing_some_achievements_and_thoughts_this_season/",
+   "published": "2026-06-20",
+   "author": "/u/MaterialPhrase5949",
+   "body": "Hi everyone! I am a Neeko OTP Jungle since 2022 and I’ve usually been hitting Rank 1 Neeko in league of graphs and Challenger when I do have the will to play though. I haven’t ranked much last season due to some personal reasons but I did try playing this season. So I originated from the PH Server which was now merged to Singapore which created SEA Server as known to date. This move was crazy since my overall ping spiked up badly. But I did play and reach Grandmaster and Rank 1 Neeko again on league of graphs this season.\n And oh my god on how league has changed in a year as well as a ton of Neeko nerfs.\n Jungling with Neeko became a bit more trickier due to minion spawn adjustment before you can gank a lane and some weird jungle pet bug that doesn’t hit the jungle camps when it needs to. Her base Q and W damage reduction really hurt her quite a bit as well.\n\n Stealth Mechanics/Passive Usage - The nerfs on this are just insanely huge. I don’t mind the minion changes when the tower hits, I think that’s actually fair enough, but please hide Neeko well Riot 😂. If Riot intended to make Neeko passive the same as the copied passive, Why is it that she can still be seen by Seraphine’s Passive Aura (Champion Trait), Hail of Blades rune shown under minion, Moonstone Renewer passing shields as a minion, Other old bugs such as Celestial Opposition was fixed too. However you cannot take plates on minion form (Minion Trait) When standing near the turret. Please I hope Riot makes up their mind for it. One thing more to mention that your W only cooldowns when the Clone Expires is actually such a pain. \n\n Damage and Overall Output - This season is pretty terrible to be honest. Just get a Negatron Cloak + Mercury Treads and you deal nothing even if you bought Stormsurge. I can see why tons of Neeko Support just builds tank on her. It’s just really unimaginable how much bruisers and tanks changed the course of the game. You’re very lucky though if you get a very squishy matchup and Neeko is still strong at that point, but on my perspective there are like 2-3 Bruisers per game and APC botlane, with free Bot Lane Quest 6th Item slot, they can just throw in any defensive item they want in that slot and well what do you know the next time you see them, you’re cooked. Neeko’s build path is great and really versatile, but she’s not the tomato I was used to. Looking at her win rate statistics. Yes she’s in a bad spot to be honest.\n\n Server Attitude - To be fair SEA Server is a mess as well. I think it’s been a pretty toxic run for me this season. Frequent Disconnections/Remake. People still running it down on Apex Tiers. Trashtalk and ego flaming. Griefing and lane inting. LP Inflation (I guess this is Riot’s fault). Frequent troll picks. Bad matchup analyzation. Win trading as well. I guess other servers do have the same issue as I do 😂.\n\n Would I recommend playing her (for new people) - Go ahead give it a shot! I loved her ever since. I hope you have fun playing her too! She’s very team reliant as of now. Better play with your team and enjoy in the rift! ❤️",
+   "id": "1uat3di",
+   "comments": [],
+   "age_days": 111,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "My Neeko mid matchup tierlist",
+   "url": "https://www.reddit.com/r/neekomains/comments/1rcxbce/my_neeko_mid_matchup_tierlist/",
+   "published": "2026-02-23",
+   "author": "/u/peachdelsy",
+   "body": "What is your experience with playing Neeko mid against these champions?\n I only put the ones I encounter most often. Couldnt find Malzahar but he is on the dodge list as well..",
+   "id": "1rcxbce",
+   "comments": [],
+   "age_days": 228,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Neeko Feels Outclassed by Other Supports",
+   "url": "https://www.reddit.com/r/neekomains/comments/1qpjk5m/neeko_feels_outclassed_by_other_supports/",
+   "published": "2026-01-28",
+   "author": "/u/WinRaRtrailInfinity",
+   "body": "I’ve played around 15 games with Neeko and honestly… she feels just okay. Not terrible, but it really feels like a lot of other champs just do her job better.\n For example, I recently played Lux for only 3 games and she felt way easier and more effective. Neeko’s range feels really limiting, and she’s insanely squishy when trying to take trades.\n Matchup-wise, it feels rough across the board:\n Against tanky supports: they either outscale you or just straight up eat your damage.\n Against poke supports (Lux, Vel’Koz, etc.): they poke and burst more safely, have better range, and scale harder into late game.\n Against enchanters: they bring so much more utility to their team even when they are behind unlike neeko\n I like Neeko’s concept and kit, but in practice it feels like you’re working harder for worse results compared to other mage supports. Anyone else feel the same, or am I missing something?",
+   "id": "1qpjk5m",
+   "comments": [],
+   "age_days": 254,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "HoB Ekko Matchup",
+   "url": "https://www.reddit.com/r/neekomains/comments/1q93ej4/hob_ekko_matchup/",
+   "published": "2026-01-10",
+   "author": "/u/FeedinggTime",
+   "body": "What do I do in this mid lane matchup?",
+   "id": "1q93ej4",
+   "comments": [],
+   "age_days": 272,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Questions for Neeko support mains – need some insights!",
+   "url": "https://www.reddit.com/r/neekomains/comments/1ooblth/questions_for_neeko_support_mains_need_some/",
+   "published": "2025-11-04",
+   "author": "/u/blunkelsito",
+   "body": "Hey everyone! I’m doing some research on different champions and wanted to get some input from experienced [Champion] mains or OTPs. I’d really appreciate it if you could help me out with any of the following questions (depending on what you know):\n Lane counters: What are Neeko’s hardest matchups in support, and which ones are generally favorable?\n Good comps / matchups: What kind of team compositions or enemy champions (from other roles) does Neeko support perform well against?\n Bad comps / matchups: On the flip side, what kind of team comps or champions make Neeko support struggle the most?",
+   "id": "1ooblth",
+   "comments": [],
+   "age_days": 339,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Why is Neeko considered weak against melee champions (e.g., Pantheon)?",
+   "url": "https://www.reddit.com/r/neekomains/comments/1leljre/why_is_neeko_considered_weak_against_melee/",
+   "published": "2025-06-18",
+   "author": "/u/Revolutionary_Art620",
+   "body": "I’ve always wondered why tools like Mobalytics or Matchub.app mark Neeko as weaker than most melee champions.\n Q: It’s useful for poking from a distance.\n W: You can dodge dashes or jumps aimed at you.\n E: You root them and create space by moving away.\n https://preview.redd.it/4ppap7copp7f1.png?width=494&format=png&auto=webp&s=fcd9a39f657131f3658a6bc06e615b80a72d81ac",
+   "id": "1leljre",
+   "comments": [],
+   "age_days": 478,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Farewell",
+   "url": "https://www.reddit.com/r/neekomains/comments/1l2zmnj/farewell/",
+   "published": "2025-06-04",
+   "author": "/u/INT_Hazy",
+   "body": "Today we bid farewell to W max Neeko, you brought us much joy over the years in finding creative ways to play a champ differently, in adapting do different matchups, in thinking outside the box. The day has finally come that Riot decided having fun doing that is wrong.\n May you live in our memories forever, and maybe, one day, find your way to us again.",
+   "id": "1l2zmnj",
+   "comments": [],
+   "age_days": 492,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Neeko supp",
+   "url": "https://www.reddit.com/r/neekomains/comments/1ku0d75/neeko_supp/",
+   "published": "2025-05-24",
+   "author": "/u/Relevant-Schedule820",
+   "body": "How to play with Neeko supp?\n I saw people are building things like frozen or abyssal mask so its not brand/lux mage style then i think so.\n Is she able to solo carry from supp?\n When to pick her? Can it be everygame or she rly struggle in some matchups?",
+   "id": "1ku0d75",
+   "comments": [],
+   "age_days": 503,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "tip for playing against neeko i just found out",
+   "url": "https://www.reddit.com/r/neekomains/comments/1i65ni1/tip_for_playing_against_neeko_i_just_found_out/",
+   "published": "2025-01-21",
+   "author": "/u/shieldgenerator7",
+   "body": "I found this quote from the urgot main's matchup bible:\n \"- If you press tab and her portrait lights up but you don't see her on the map, SHE IS A MINION!\"\n https://docs.google.com/spreadsheets/d/1sAMfo7X8nz1zhjmmV0EnSNEzWkveD5Ivot9312NMnMQ/edit?gid=576552123#gid=576552123\n i thought it was very funny, but also very insightful. its hard to know what the enemy sees when youre doing your tricks",
+   "id": "1i65ni1",
+   "comments": [],
+   "age_days": 626,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I hate people who only play by the meta whilst expecting everyone else to.",
+   "url": "https://www.reddit.com/r/neekomains/comments/1cj4jxo/i_hate_people_who_only_play_by_the_meta_whilst/",
+   "published": "2024-05-03",
+   "author": "/u/Unhappy_Hair_3626",
+   "body": "I'm a newly found Neeko main and have recently run into the issue (Not so recently) of people being toxic on account of me trying something out. I main Neeko ADC and often build AD items. Tonight I had one of the worst interactions with someone on account of me playing Neeko ADC. I matched Tristana ADC and Naafiri support which over my 150 games of Neeko AD has to be the hardest matchup for me. My support Rell, not happy that I had died twice early on, just decide to perma roam and be toxic. I've gotten to the point where I just can't stand people who only play S+ characters or meta builds.\n Whats funny though is that if we had just stayed together, we would have done much better. These are the stats of the game. Despite having a later start and the Tristana being hyperfed from roams, I still contested in damage. Off-meta builds can work and I'm just tired of people who think that you must use miss fortune janna to play the game.\n Build was PTA Kraken Slayer BotRK Rageblade Shieldbow and Phantom Dancers in that order",
+   "id": "1cj4jxo",
+   "comments": [],
+   "age_days": 889,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "I’ve finally done it!",
+   "url": "https://www.reddit.com/r/neekomains/comments/1cdepn2/ive_finally_done_it/",
+   "published": "2024-04-26",
+   "author": "/u/Unhappy_Hair_3626",
+   "body": "I’m still relatively new to League, but I’ve finally converted to the way of Neeko. I’m a ADC main who only plays ADC and support auto fill. The bot lane is my life. I’ve previously OTPed Twitch and Quinn ADC, but I’ve finally come to my favorite. NEEKO!\n Neeko is the most versatile ADC character I’ve played with amazing AD and AP builds along with a devastating team fight ult. I can build AD against many ADCs and shred through tanks and do insane sustain or I can play AP against matchups like Aphelios MF and still do well in lane.\n Tonight I’ve finally hit MR7 on Neeko, marking her as my first champion to hit MR7 and my favorite by far!\n Just wanted to ask anyone what the enjoyed about Neeko!\n For my builds if you guys wanted to know. I build BotRK, rageblade, Kraken Slayer, Terminus, Wits End, and Berserk Greaves for AD with Lethal Tempo. For AP I build Gnashors, Hextech Rocket belt, Rabaconds, Shadowflame, and Liandirs with Sorcorer boots and electrocute.\n Both really fun rolls that can dominate the ADC position!",
+   "id": "1cdepn2",
+   "comments": [],
+   "age_days": 896,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "I’m making a list of neeko’s pvp minion interactions! does anyone use her minion camouflage to dodge or avoid player targeted spells?",
+   "url": "https://www.reddit.com/r/neekomains/comments/19fflal/im_making_a_list_of_neekos_pvp_minion/",
+   "published": "2024-01-25",
+   "author": "/u/strxwberrybabe",
+   "body": "for example, if you turn into a minion while fizz ults you, you won’t get slowed and it won’t lock onto you and you can just walk out (easiest way to play that matchup). Or if you know Caitlyn is going to ult you, turn into a minion before she can!",
+   "id": "19fflal",
+   "comments": [],
+   "age_days": 988,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "It's been 8 months. How do y'all feel about Neeko?",
+   "url": "https://www.reddit.com/r/neekomains/comments/18qc3iq/its_been_8_months_how_do_yall_feel_about_neeko/",
+   "published": "2023-12-25",
+   "author": "/u/Rich_Petals",
+   "body": "Background: I used to main Neeko (plat). I have like 800k on her, and I loved her because she felt like the only champion that could consistently first blood snow ball into almost every matchup. I've always played her to carry. Then she got \"nerfed\" in the durability update, but it wasn't that bad, but the rework really hit me where it hurt. The shield is gone; the damage is lowered significantly across her kit; she felt like Orianna mid. I could find some success with her as a support, and it felt like she was meant to be a support, but I don't like to play support. Her pick rate is 5%, which is better at least. I liked her having a low play rate. \n It's been a few months, and whenever I launch League, I just think about how much fun I'd be having on old Neeko. I think the damage nerfs psychologically fucked with my mid-game play. \n ​\n I feel like a toddler while writing this. I haven't played her in weeks. Maybe I just need to try her again. IDK. I'm just saying all of this because I'm going to be leaving the Neeko reddit and discord. Maybe I'll come back, but I probably won't.\n Does anyone else here echo my thoughts? If not, how did your gameplay patterns shift for the better?\n Y'all are still the best OTP community IMO. I looked into others.",
+   "id": "18qc3iq",
+   "comments": [],
+   "age_days": 1019,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is it worth to master Neeko? If so, how do I do it?",
+   "url": "https://www.reddit.com/r/neekomains/comments/1826soa/is_it_worth_to_master_neeko_if_so_how_do_i_do_it/",
+   "published": "2023-11-23",
+   "author": "/u/NyankoMata",
+   "body": "Been playing Neeko for two years now next to Ahri and some other champs and it feels like she is hard to pull off in many matchups bc she scales pretty badly and her kit isnt very strong dmg wise if you fall behind. I feel like it might make more sense to go for Ahri or something instead. \n If I would want to try and slowly master Neeko, what do I need to do? Where do I start? I usually only play her on Mid with her usual AP build but also know there are builds with nashor for adc and top. Also I kinda suck at support Neeko and I rarely ever play jungle at all.",
+   "id": "1826soa",
+   "comments": [],
+   "age_days": 1051,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Hello, I am currently the highest ranked Neeko mid otp in EUW, and I created a detailed guide about Neeko mid and her midscope update, aswell as a spreadsheet going over every midlane matchup",
+   "url": "https://www.reddit.com/r/neekomains/comments/13cwoqq/hello_i_am_currently_the_highest_ranked_neeko_mid/",
+   "published": "2023-05-09",
+   "author": "/u/ReworkKaylePlease",
+   "body": "LINK TO THE GUIDE\n Hello,\n I'm Kekleon, and with 400lp I am currently the highest ranked AP Neeko mid otp on EUW.\n 2 years ago I already posted a guide when I was lower elo. After the midscope, I completly revamped it into what I think is a much better and interesting guide.\n ​\n The guide contains:\n - a detailed spreadsheet , going over every midlane matchup and which runes to take\n - item paths for multiple situations\n - ability skill order and summoner spells\n - how to play in early, mid, and late game\n - useful tricks: going over optimal passive usage, combos, and the most common W trick\n (- skin tierlist)\n ​\n Feel free to ask any questions, and please let me know if I forgot to mention something\n Also let me know if there was any mechanic that you've never known before :)\n Enjoy :)\n ​\n LINK TO THE GUIDE\n ​\n You can also find it on the right, under the \"Guides\" tab. \"u/ReworkKaylePlease's Neeko Mid guide\"\n (It would be cool if it was called \"Kekleon's Neeko mid guide\")",
+   "id": "13cwoqq",
+   "comments": [],
+   "age_days": 1249,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Long analysis and opinion on the Neeko rework",
+   "url": "https://www.reddit.com/r/neekomains/comments/13a44sy/long_analysis_and_opinion_on_the_neeko_rework/",
+   "published": "2023-05-06",
+   "author": "/u/YunoGGYT",
+   "body": "Hello, i have two and a half million mastery with neeko and i have reached master this season, this is a long and deep analysis on Neeko rework.\n ---------------------------------------------------------------------------------------------------------------------------------------\n 1) Changes in the E+Q combo, doing the math, before the first back you lose about 17-19 damage per combo (actually less because of the resistances).\n Neeko in the laning phase depending on the matchup, need 3 or 4 combos (more if they have shields or heals) of E+Q+aaW+Electrocute starting at lvl 4-6 without buying items to kill, and another combo for each potion of HP that the enemy has, so normally you should need 6 combos of E+Q+aaW+Electrocute, you lose 19 damage per combo, this is one aa every 3 combos, so you'll need two more auto attacks to kill someone in most cases, this isn't something that should affect your playstyle or feel bad in general.\n In fact the same thing happens in mid late game in reverse, with 140 ap (mythic + unnecessarily large rod) you are at a point of balance at patch 13.8.\n In the mid/late game with approximately 400 ap you do about 40 extra damage (-resistances), that is, one more aa. In ultra late game it's about 70 extra damage (a aa of level 18) with 600 ap full build.\n Opinion: In general it is a placebo change. If you play 100 games, it affects you in favor of some games and negatively in others, but most games probably won't affect you. (this change alone, regardless of the rest of the rework) \n ---------------------------------------------------------------------------------------------------------------------------------------\n 2) W changes are all buffs, more vision being able to check bush in a better way, more duration with the back, human shield for certain skill shots like Pyke Q, best chance of tricks.\n 3) Passive: they are also all buffs, harder to break and more help systems to create plays, the problem with the passive is the level of frustration it can generate in low elo, especially the transformation into a minion.\n Opinion: the changes to the W and the passive make it much more fun to play, but you have to see how much the level of frustration tolerance is in low elo against it. \n If in a month the ban rate escalates to 50%, for example, then the champion itself probably needs a nerf, i would prefer if it happened, before nerfing the rest of his kit, that a level requirement be put on the transformation into a minion (¿maybe lvl 9 or 11?).\n ---------------------------------------------------------------------------------------------------------------------------------------\n ---------------------------------------------------------------------------------------------------------------------------------------\n 4) Summary of changes R\n - increased CD\n - damage\n - shield removed\n +/- cc duration\n + reliable (easy to use)\n I am going to give many contexts to different situations and positions, because this is where a very different level of sensations is generated for the players.\n The first thing i am going to talk about is what is most answered to all this type of post\n ​\n Could it be that you don't use the passive well? (elo differences)\n I have played on my main account in master and in a smurf in platinum (and on the PBE), i could say that the amount of cheating tricks you can perform in master is 1/3 of platinum, i imagine that in challenger it is more negative for neeko, and in silver/bronze more in favor of neeko, so keep in mind that each elo has a different context and all players regardless of rating should have a good feeling.\n Now let's talk about numbers and then about contexts in the different stages of the game.\n ​\n ---------------------------------------------------------------------------------------------------------------------------------------\n Early game:\n At level 6 we normally already have Lost Chapter/Hextech Alternator/Blasting Wand (depending on what we buy) + runes + start item. We could say a calculation of approximately 50-60 AP.\n Because we lost a 0.30 AP ratio, we've lost about 15-18 damage + 50 base damage, totaling 65-68 damage (- enemy resistances), to this we must add the damage lost 11-12 damage from the E+Q combo with this amount of AP.\n This can make you feel like some matchups (especially vs sustain/shields), feel a lot worse as mid laner 1v1. \n But as support or jungle?\n If you have to do one more auto attack and your ally does the same, to make up for this loss of damage, you don't really feel like it's a real problem, and that your ultimate is more reliable gives a better feeling.\n ​\n Mid/Late game:\n When we have 400 ap and we are lvl 16, we lose 220 damage (- enemy resistances) vs neeko 13.8, but we gain 60 damage from E+Q combo, so we can do a balance of -150 damage, the problem is that we can only do this combo to enemies within the area of the Q, and not really to all those who hit with the R.\n So there will be a loss of 150 to 220 damage (- enemy resistances) to several enemies, if we put a good ult to 3 enemies we would be losing 450 to 660 damage, to 4 enemies it is a loss of 600 to 880, and if It was the perfect ult from 750 to 1100, obviously distributed to all enemies, if you have 600 ap, this goes from 220(400ap) to 280 damage (- enemy resistances).\n ​\n ---------------------------------------------------------------------------------------------------------------------------------------\n Now that lost damage in a teamfight is really better understood, i'm going to give even more context.\n Wen you play mid lane, you are supposed to be one of the main sources of damage for your team, and therefore damage is important.\n ​\n But when you play support?\n ​\n Utility is more important, since there is a main carry in the middle that does the damage, so having a more reliable ultimate with more CC duration is better for your team.\n Another thing i read a lot is that you should snowball with your passive and have more items to replace the lost damage, but there is a difference between the mid gameplay and the support/jungle gameplay, the rotations must be done in a limited time, you can't sit and wait for the wave to come in bot side to be able to gank.\n If you're a support and gank mid, you don't lose anything for doing it because if the gank is successful or doesn't share exp with the mid laner and the gold is generated from the item support, then he returns to his lane to receive the wave with the adc, in all this he has not really lost anything.\n The jungler can also spend this time waiting for his camps to respawn.\n ​\n But if a mid laner takes those times, they will stamp a wave on his tower and he will lose it, you could say that it compensates if the gank is successful, but if it is not successful, in addition to the wave that he lost by waiting for the arrival of the wave in the bot, you will lose another one until the play ends and you return to mid, it is a coinflip, which if it goes well you put your bot line ahead, but if it goes wrong, you lost the mid lane.\n Another difference, when you play support and the mid laner is lvl 16, normally the support is lvl 13, also you as a support normally have less access to gold, so you weren't using that wasted power scaling, so a more reliable CC is better.\n ​\n ---------------------------------------------------------------------------------------------------------------------------------------\n So a mid laner would rather lose 280 damage to a potential 1400 damage aoe full build in exchange for a more reliable CC?\n ---------------------------------------------------------------------------------------------------------------------------------------\n ​\n Looking at the statistics of Neeko mid win rate x minute 13.8 and 13.9, regardless of elo, you can see the following: \n ​\n If the game ends before the 20th minute, neeko has %1-2 more win rate (we could say it's easier to snowball with the passive).\n But at min 25, neeko loses a 3% win rate and 5% at min 30.\n ​\n ---------------------------------------------------------------------------------------------------------------------------------------\n Now i'm going to talk about the other non-damage changes of R.\n ​\n I was one of those who believed that the shield was useless most of the time, and that having the most reliable cc would be more useful, now i think it depends on the situation.\n ​\n In early skirmishes i think it's stronger to have the fast and reliable cc instead of the shield, but if you need to ult to the front line (example a darius over feed), the shield in these situations was more useful, because while you are stopping the front line and the shield protected you from the back line, also following the example of darius it protected you dot damage.\n ​\n Also to compensate for the faster and more reliable cc, they took part of the cc time after the burst, although in total it is 0.10 seconds more, those 0.10s feel more useful to your team than to you, this has its positive and negative values, the cc is more reliable and lasts longer, but you have less time to reposition yourself after the burst, something to keep in mind that you are in the middle of everyone, and if the enemy has tenacity, it is very likely that you will enter the fight but not be able to leave.\n ​\n Opinion: If you add the loss of damage from not being able to oneshot an enemy carry, with not being able to reposition yourself after the burst, it generates a very negative feeling in many players.\n ​\n Experienced neeko players who knew how to position themselves correctly to enter a teamfight with the previous ult, that we made good use of the passive, and we coordinated the flash times for objective fights, we could use the ult for multiple targets consistently, for these players, having a more reliable ult in exchange for so many nerfs generates very negative feelings.\n ​\n ---------------------------------------------------------------------------------------------------------------------------------------\n ---------------------------------------------------------------------------------------------------------------------------------------\n I don't have a conclusion on how to solve the problems and feelings generated by the new ultimate, or the old ultimate that also had its bad feelings. I just wanted to express the issues that some players seem to miss seeing as they play in different contexts.\n ​\n PS: My native language is not English, sorry if i misspelled something.",
+   "id": "13a44sy",
+   "comments": [],
+   "age_days": 1252,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "what ability do people like taking first on neeko?",
+   "url": "https://www.reddit.com/r/neekomains/comments/133mh9x/what_ability_do_people_like_taking_first_on_neeko/",
+   "published": "2023-04-30",
+   "author": "/u/ld1a",
+   "body": "as a neeko main, i never take Q first. it seems like the most reasonable option and its recommended by the game but i feel like Q is the worst u can take first. i almost always take E first and sometimes depending on the matchup i will take W. why? because the Q is weak on its own, especially at lvl 1, while the E and W are much stronger. W is good if you want to be able to preserve mana and AA poke a lot and the E is a root which does damage and allows for free AA damage. usually i'm gonna take E -> Q -> W but sometimes i even take E -> W -> Q. basically, my point is that taking E or W first allows for much more poke damage which can create a significant advantage early on and even earn you a few kills if you play it right/the enemy does a mistake.",
+   "id": "133mh9x",
+   "comments": [],
+   "age_days": 1258,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Rank 1 midlane Neeko matchup spreadsheet",
+   "url": "https://www.reddit.com/r/neekomains/comments/10ejq6c/rank_1_midlane_neeko_matchup_spreadsheet/",
+   "published": "2023-01-17",
+   "author": "/u/ReworkKaylePlease",
+   "body": "Hello\n while leagueofgraphs for sure isn't the most accurate , I am ranked the #1 Neeko in the world on their website.\n I recently created a spreadsheet containing every single midlane matchup, comments on how to play them, as well as runes for them\n ​\n Midlane Neeko matchups\n ​\n I also created a guide some time ago containing abilities, build paths, runes, etc. However its a bit outdated. I will update it as soon as the Neeko midscope update is live. Here it is regardless\n ​\n Any type of feedback is welcome!",
+   "id": "10ejq6c",
+   "comments": [],
+   "age_days": 1361,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Currently working on a Tanky ADC build",
+   "url": "https://www.reddit.com/r/neekomains/comments/yfi4q1/currently_working_on_a_tanky_adc_build/",
+   "published": "2022-10-28",
+   "author": "/u/WaffleBotAI",
+   "body": "Been trying out this Top Lane ADC build which makes Neeko a split-pushing kiting monster that gives her crazy durability if she does end up getting caught. So far, I've won 8 out of 10 games. \n Runes are: \n Grasp \n -Demolish( You can take Font of Life if you want to play for teamfights but I prefer split pushing)\n -Conditioning( Second wind and Bone plating are both usable depending on your matchup but I prefer the scaling of Conditioning)\n -Overgrowth\n -Legend: Alacrity\n -Coup de Grace\n My build path is currently:\n Doran's Blade > Vampiric Scepter > Berserker's Greaves/Other defensive boots > BoRK > Frostfire Gauntlet > Titanic Hydra > Wit's End/Sterak's Gage > Warmog's/Gargoyle",
+   "id": "yfi4q1",
+   "comments": [],
+   "age_days": 1442,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Some help pls",
+   "url": "https://www.reddit.com/r/neekomains/comments/xaiddh/some_help_pls/",
+   "published": "2022-09-10",
+   "author": "/u/Odd_Lawfulness2471",
+   "body": "As a Neeko almost one trick who plays Neeko in every lane but jungle, and hardstuck in bronze what is some advice from higher elo players. \n Like who to ban, certain matchups, macro if you can explain that.\n That would be great.",
+   "id": "xaiddh",
+   "comments": [],
+   "age_days": 1490,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "New to Neeko",
+   "url": "https://www.reddit.com/r/neekomains/comments/w2kczb/new_to_neeko/",
+   "published": "2022-07-19",
+   "author": "/u/Emergency_Oil4460",
+   "body": "Just started playing Neeko, I’m bronze and once I have about 20+ games with her + better knowledge of her matchups, tricks etc I want to take her to ranked\n She is so fun, does anyone have any tips for her?",
+   "id": "w2kczb",
+   "comments": [],
+   "age_days": 1543,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Insanely high winrate with Neeko against Varus - but why? (~65%)",
+   "url": "https://www.reddit.com/r/neekomains/comments/vet09n/insanely_high_winrate_with_neeko_against_varus/",
+   "published": "2022-06-17",
+   "author": "/u/bushmaker1337",
+   "body": "I spent some time looking which support champions have really high winrates against certain matchups. One of the most extraordinary numbers is, that a Neeko pick into a Varus let you statistically win 2 of 3 games.\n Dear Neeko mains, why is it?\n Is it because her W counters Varus R? But only that?\n https://lolalytics.com/lol/neeko/vs/varus/build/\n Thanks for your responses!",
+   "id": "vet09n",
+   "comments": [],
+   "age_days": 1575,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Neeko Bot",
+   "url": "https://www.reddit.com/r/neekomains/comments/u69uss/neeko_bot/",
+   "published": "2022-04-18",
+   "author": "/u/BlueSkylark93",
+   "body": "Hey I mainly play Bot these days (was Support Main before) and since my Champion pool has always been odd and I made good experiences with Neeko as Support so I wanted to try out Neeko as a farming Bot too. Though I am unsure about the Runes and matchups. \n Like I have seen On-Hit variants with PTA aswell as Aery for AD. Also the AP/AS variants with Nashors.\n So yeah what are good Rune Setups for her in Bot and what champions do you commonly ban against her. (Oh I also mainly play in low MMR ^^)",
+   "id": "u69uss",
+   "comments": [],
+   "age_days": 1635,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "12.7 Unique Bot Synergy, CC Solutions, etc.",
+   "url": "https://www.reddit.com/r/neekomains/comments/txt3xz/127_unique_bot_synergy_cc_solutions_etc/",
+   "published": "2022-04-06",
+   "author": "/u/shioris",
+   "body": "The 12.7 Buffs are good for on-hit neeko and recently Nasus (popularized by LS, recently seen in the LFL as an AD with Senna sup, and recently picked up by RGE Trymbi) has been making his way into the bot lane as a support with W max and E second. If you somehow, bless the lords, get Nasus suppport, he synergies well with heavy hitting ADs and on-hit ADs, the kill threat happens at level 2 where he withers into E's armor shred into Neeko E into Neeko W empowered auto. If properly timed, around level 9, it can be infinitely looped.\n If you find yourself in a glacial matchup or against Nasus (anything with a slow and where movement speed would be beneficial) as on-hit Neeko, then rush bork with phase rush.\n Base stats wise, 12.7 on-hit Neeko isn't as good as the first instance of on-hit Neeko, but there are more items that complement the style of play compared to the previous patches. I think that if you don't play AD Neeko, that the upcoming buffs to her will give Neeko an a good leeway to act as a blind pick as she can flex on-hit and AP (kinda like how Ryze in competitive before 12.7 was a good B1/R1R2 as he can flex top and mid since he was a battle mage with Fimbul/ winning match ups top). \n Can Neeko be competitively viable? She isn't but she has a small chance of making an appearance at MSI. LCK's T1's Keria, if his Thresh/Tahm is banned, then he has a limitless champion pool and likes picking Neeko support with Kalista (who is getting a 12.7 buff as well). If LPL's Victory 5 makes it, then Rookie once got a Penta on Neeko back when Glacial + GLP-800 was a thing, so maybe he randomly picks it. \n Thanks for coming to my random TED Talk, I'm from NA KEKW.",
+   "id": "txt3xz",
+   "comments": [],
+   "age_days": 1647,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Which lanes do you play neeko on?",
+   "url": "https://www.reddit.com/r/neekomains/comments/sysigj/which_lanes_do_you_play_neeko_on/",
+   "published": "2022-02-22",
+   "author": "/u/matbot55",
+   "body": "Neeko can technically be played in any lane, so I wanted to know where all of you play her.\n The majority of people will probably play her mid, but it would be interesting to see what other roles people play her.\n Personally I like to play her Mid or Support. I tried AD Neeko top, but I feel like there are too many bad matchups for it to be worth learning.",
+   "id": "sysigj",
+   "comments": [],
+   "age_days": 1690,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Just rolled this from hex tech, what are some good matchups to pick this strong tomato support?",
+   "url": "https://www.reddit.com/r/neekomains/comments/seybcf/just_rolled_this_from_hex_tech_what_are_some_good/",
+   "published": "2022-01-28",
+   "author": "/u/FantasticAznGuy",
+   "body": "",
+   "id": "seybcf",
+   "comments": [],
+   "age_days": 1715,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Just added in a ton of matchups for Neeko mid hope this helps with certain matchups.",
+   "url": "https://www.reddit.com/r/neekomains/comments/rf23p8/just_added_in_a_ton_of_matchups_for_neeko_mid/",
+   "published": "2021-12-13",
+   "author": "/u/NeeekoNeekoNiii",
+   "body": "",
+   "id": "rf23p8",
+   "comments": [],
+   "age_days": 1761,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "[UPDATE + AMA] Hi, I'm an EUW Masters Neeko OTP and I created a long guide about spells, items, runes, matchups, trades and many tricks that I used to climb all the way from d4 to Masters :)",
+   "url": "https://www.reddit.com/r/neekomains/comments/qtxfnr/update_ama_hi_im_an_euw_masters_neeko_otp_and_i/",
+   "published": "2021-11-14",
+   "author": "/u/ReworkKaylePlease",
+   "body": "Hello guys, I already posted my guide here 4-5 months ago, maybe some of you remember\n I updated my guide since then by adding new slides, updating Item builds/Rune choices and so on\n Link to the updated guide\n You can also find it on the right side under the \"Guides\" tab\n Ask me any questions and let me know if you think that I should add something :)",
+   "id": "qtxfnr",
+   "comments": [],
+   "age_days": 1790,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Hi, I'm an EUW Masters Neeko OTP and I created a long guide about items, runes, matchups and many tricks that I used to climb all the way from d4 to Masters :)",
+   "url": "https://www.reddit.com/r/neekomains/comments/os5d36/hi_im_an_euw_masters_neeko_otp_and_i_created_a/",
+   "published": "2021-07-26",
+   "author": "/u/ReworkKaylePlease",
+   "body": "https://docs.google.com/presentation/d/19-7JmPB6UZy-DXuZ4GQW6GEU9FZPHU8tBU-jg2abdrc/edit?usp=sharing \n ​\n PLEASE give me feedback on what you like and don't like :) enjoy :D\n you can also ask any other questions",
+   "id": "os5d36",
+   "comments": [],
+   "age_days": 1901,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "It's been a while since I've made this, but here's my Neekopedia!",
+   "url": "https://www.reddit.com/r/neekomains/comments/nfvto2/its_been_a_while_since_ive_made_this_but_heres_my/",
+   "published": "2021-05-19",
+   "author": "/u/Lukie_Rae",
+   "body": "It contains neeko combos, a basic idea on what to do for every role, matchup guides vs EVERY champion, some synergies, 10 viable rune pages, and more! \n I recently hit 2000 views on this so I want to share it to the subreddit! \n https://www.mobafire.com/league-of-legends/build/11-10-neekopedia-runes-roles-matchups-and-more-595294",
+   "id": "nfvto2",
+   "comments": [],
+   "age_days": 1969,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "yasuo vs ap neeko midlane matchup",
+   "url": "https://www.reddit.com/r/neekomains/comments/mu8gt4/yasuo_vs_ap_neeko_midlane_matchup/",
+   "published": "2021-04-19",
+   "author": "/u/neeposter",
+   "body": "I am doing this because I saw a neeko get utterly crushed by a yasuo while it's quite easy to counter with the good setup.\n first step play with double armor in your rune and gathering storm (so that you have an ap pool large enough to be useful in late game without bonus ap in the runes).\n step 2 start w/ W and poke the hell out of him lvl 1 so he can't do anything til lvl 3 \n step 3 rush tabis/seeker's zhonia is core build on neeko so it's not too problematic\n step 4 destroy him until the end of laning phase\n little tips: always remember that if yasuo doesn't max his dash he'll have a 30 sec cd by units so you can abuse him if he starts dashing everywhere for no reason\n electrocute is really strong because you'll have an enormous burst where yasuo will prefer long trades where he can stack his conqueror so try to trade him only when you can lock him down with your E then follow with Q and autos \n the empowered auto of neeko isn't blocked by yasuo's wind wall it's not really game breaker in the matchup but useful to know \n even by taking all of these precautions always remember that yasuo will win a 1v1 against neeko in late game \n those are the tips of a main neeko that considers yasuo like a cockroach ;) hope it helps you",
+   "id": "mu8gt4",
+   "comments": [],
+   "age_days": 1999,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Kassadin thought he had that easy mage matchup",
+   "url": "https://www.reddit.com/r/neekomains/comments/jyrlc8/kassadin_thought_he_had_that_easy_mage_matchup/",
+   "published": "2020-11-22",
+   "author": "/u/unclebenfranklin",
+   "body": "",
+   "id": "jyrlc8",
+   "comments": [],
+   "age_days": 2147,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Neeko Support Matchup Tier List",
+   "url": "https://www.reddit.com/r/neekomains/comments/hoaoj8/neeko_support_matchup_tier_list/",
+   "published": "2020-07-09",
+   "author": "/u/doglightning",
+   "body": "",
+   "id": "hoaoj8",
+   "comments": [],
+   "age_days": 2283,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "stop taking glacial augment! (low elo)",
+   "url": "https://www.reddit.com/r/neekomains/comments/glek46/stop_taking_glacial_augment_low_elo/",
+   "published": "2020-05-17",
+   "author": "/u/shut-up-vanessa",
+   "body": "title is an exaggeration, but hear me out.\n ​\n 90% of the time in soloqueue, you don't want to take glacial as an AP carry. yes, the utility is fantastic and reliable in the case that you don't do so well on your own, or against a tanky/short range comp in which sustained damage and soft cc trumps burst damage. but generally as an AP carry, it's vital to deal a truckload of damage to the enemy before they have the chance to get to you, and glacial just doesn't pop them. it's more of a slow tickle to death, which gives them time to react.\n ​\n after some practice with this build (1 and 2, i took comet into the hopeless matchups... lol), i find i have so much more freedom to dominate lane and roam to impact other lanes. notice how i took glacial in a one game; after seeing their comp, i realized i couldn't carry against 4 tanks/bruisers and opted to become a CC bot. in most other cases, with electrocute and a dark seal, i am able to oneshot the enemy pyke and rengar in one combo. isn't that SATISFYING??\n ​\n i used to only use glacial. now i only use it situationally. in the end, deleting assassins and carries before they damage your team is your role as a midlaner, and full burst is their kryptonite.\n ​\n if you want to read further into this type of playstyle, i believe the great NeekoNeekoNiii has a guide pinned to this subreddit, which has helped me improve my neeko gameplay significantly. i personally alternate between luden/protobelt rush situationally, and my 3rd+ items vary game to game, but at its core my build is an echo of theirs.\n ​\n i will reiterate that there's nothing wrong with glacial; it's just that, quite often, electrocute is the stronger choice for climbing solo.\n ​",
+   "id": "glek46",
+   "comments": [],
+   "age_days": 2336,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Neeko Guide Updated",
+   "url": "https://www.reddit.com/r/neekomains/comments/ge9qi4/neeko_guide_updated/",
+   "published": "2020-05-06",
+   "author": "/u/NeeekoNeekoNiii",
+   "body": "Hey guys I am Neeko Neeko Niii, a Diamond 1.3 Million Mastery point neeko main. I have finally gotten around and spent some time adding more to my neeko guide. Every build in the guide has it's own pros and cons. I have tested hundreds of games on these runes and tweaked them based on patches and metas. This guide will help explain and give people an idea of when a specific build is more helpful and will aid your laning phase compared to other like electrocute snowballs best into easy matchups or melees or comet into long ranged matchups. I really want to help out new neeko players and also pique the interest of other people who have not played neeko yet. If you disagree with anything I will be happy to have a debate about it or explain my reasoning for what I have on here. The other post was archived by reddit so no one could respond to the post at all. https://docs.google.com/document/d/1-ZHvw_epw-RQKOBT7RZECZ9SYD9-qQLaHWK4osU41kc/edit?usp=sharing",
+   "id": "ge9qi4",
+   "comments": [],
+   "age_days": 2347,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Adc Neeko????",
+   "url": "https://www.reddit.com/r/neekomains/comments/e048jn/adc_neeko/",
+   "published": "2019-11-22",
+   "author": "/u/diionysuspect",
+   "body": "In normals I have been playing Neeko in the adc role along with my duo support lux. Shes probally the reason it works but still.\n I have tried Press the Attack, but prefer Glacial Augment or Arcane Comet.\n There are two builds i go, depending on the matchup and my team comp.\n Full ad; Storm razor, bezerkers grieves, Infinity edge, ruunans hurricane, and bork. Order is up to preference.\n Hybrid; Rageblade First item, Hextech Gunblade, Ludens Echo, Ruunans Hurricane, your pick for boots.\n My support was a lux all 4 times because she was my duo, She started Q and I started E. This lead for a very early first blood almost every game. It was fun murdering a Mf 2 mins in.\n Does anyone else play this?\n I have played 4 games of this and won all of them!",
+   "id": "e048jn",
+   "comments": [],
+   "age_days": 2513,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "[Master] Neeko Support Guide - Runes, Items and Matchups!",
+   "url": "https://www.reddit.com/r/neekomains/comments/dwygf8/master_neeko_support_guide_runes_items_and/",
+   "published": "2019-11-15",
+   "author": "/u/doglightning",
+   "body": "",
+   "id": "dwygf8",
+   "comments": [],
+   "age_days": 2520,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Neeko Guide and Per-Champion Matchup Excel Sheet (Updated!)",
+   "url": "https://www.reddit.com/r/neekomains/comments/dsuems/neeko_guide_and_perchampion_matchup_excel_sheet/",
+   "published": "2019-11-07",
+   "author": "/u/d4rkph03n1x",
+   "body": "Hello fellow neeko mains! I have helped /u/NeeekoNeekoNiii update his Neeko Guide and he has also updated his excel per-matchup guide. All credit goes to him, all I did was help update it and make it looks better. \n If anyone has any suggestions or change ideas, feel free to PM me with ideas. Also, I have implemented a new item import set (found at the bottom of the docs guide). You can copy the code on the pastebin links and import the item sets into your league client to use in-game!\n This is obviously based on preference, so all of it is subjective, as there are many ways to play our strong tomato!\n Guide: PRESS ME\n Matchup Guide: PRESS ME\n WiP (In priority order): \n Export everything to MobaFire, start using that for mainstream stuff instead (WILL TAKE A WHILE).\n Update when preseason comes out\n Put in Crit neeko (yes, it's still viable. Hint: BoTRK -> Runaans -> Infinity Edge is a good starting point!)\n Put in Aftershock neeko\n Add runes for ADC\n Add runes for jungle\n Put in different rune page setups, and when one would take x over y depending on matchup\n Flesh out matchup guide with different optimized items based on how games go\n Here are some item sets for each rune set. If you feel that changes should be made, feel free to contact @Kiwi#4393 on discord in PMs. This is currently WiP as well.\n Electrocute: https://pastebin.com/fmT1xBEZ \n Comet: https://pastebin.com/2BiTbaeu \n Grasp: https://pastebin.com/QDN7e3fr \n Glacial: https://pastebin.com/ZaJv5kqz \n Support Electro: https://pastebin.com/D7rakNK1",
+   "id": "dsuems",
+   "comments": [],
+   "age_days": 2528,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "New Preseason / Season 10 Neeko mid rune page",
+   "url": "https://www.reddit.com/r/neekomains/comments/dssc6q/new_preseason_season_10_neeko_mid_rune_page/",
+   "published": "2019-11-07",
+   "author": "/u/NeeekoNeekoNiii",
+   "body": "​\n https://preview.redd.it/9iyaew3kw6x31.png?width=648&format=png&auto=webp&s=6c345385eb9d84cac0f1add50c61b0b15a2796ce\n Hi guys! You may know me around here, I'm a diamond Neeko OTP and I am known to test a lot of rune pages. Additionally, I have a guide set up for Neeko, and a matchup excel sheet.\n Recently, I've been testing some of the new patch runes on the PBE, and I found that Omnistone can be very good for Neeko's lane phase. She can proc most rune pages easily, and her different abilities work with many runes. For example, attack speed rune pages help her proc w more, electrocute allows for very devastating trades with your lane opponents, and most other rune pages will work with her one way or another.\n How it works: Omnistone has a 12-second cooldown after using the random rune you get. This allows Neeko to trade very often with people, as her abilities work well with electrocute, glacial, grasp, aftershock, PTA and is mediocre with many others. Later in the game, you can use hexflash to quickly flash over walls and use the movement speed buff you get from nimbus cloak to engage. Another trick is to only tap your hexflash and get about 50 move speed when chasing or running away. Also, using it to to land faster e roots, then Q, paired with neeko's w is insane. This rune page overall has a strong lane phase and a very good way to engage with nimbus cloak giving more speed based on your summoner spell cooldowns. Flash would not give more movespeed than hexflash because of cooldowns.\n Cons: This is entirely RNG based, so obviously getting a useless rune is bad, especially when it would be hard to proc (ex. landing conqueror proc on a xerath or vel'koz). However, this isn't too big of a deal since you would just need to play safer. Getting a bad rune could also potentially make you miss a kill, so take that into account as well.\n Item Build: Protobelt rush > sorcs > spellbinder > morello > dcap > void\n Standard combo: Spellbinder > ult > w > flash > proto > e > q\n Combo for engaging over walls: spellbinder > hexflash over wall > w the moment you get over the wall > ult > e > proto(animation cancel) > q > autoattack untill dead\n Combo when hexflash is up without using a wall: spellbinder > tap hexflash (get burst of movespeed around 50) > w > ult > e > proto(animation cancel) > q > autos",
+   "id": "dssc6q",
+   "comments": [],
+   "age_days": 2528,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Neeko Essentials from the top mastered Neeko NA (900k presently)",
+   "url": "https://www.reddit.com/r/neekomains/comments/cuhrvb/neeko_essentials_from_the_top_mastered_neeko_na/",
+   "published": "2019-08-23",
+   "author": "/u/Pickledfis",
+   "body": "Hello all, I am \"Neeko Sneako,\" one of the most mastered neekos in the world, and the top mastered in NA. People add me asking for neeko tips all the time. Here I will be compiling a list of tips and tricks that range from basic to advanced to essential in my opinion. Essentials are going to be things that absolutely every neeko should be aware of, basic or otherwise. and the Trickery section will be more advanced things pushing neeko's kit and nuances, things to think about etc. At the end I have included a juicy neeko technique I personally invented that i guarantee 99% of the playerbase is unaware of.\n  \n Essentials\n Flash > E: You can Flash during the windup of your E to approx double its range. This is the single most important thing neeko players should be aware of and practiced with. you can bait people into walking into a wave by standing far away and E>Flash to get long root while they thought they were safe.\n Passive Hotkey: You can and should bind the disguises to hotkeys. To do this, while in game press escape, on the Hotkeys tab, under the header \"Additional Hotkeys\" expand Abilities and Summoner Spells. From here, scroll to the bottom of this segment and add hot keys for \"Champion Specific Interaction\" 1-6. NOTE: The menu option only appears when playing in game as neeko. \n Zhonyas & Ult: This is a simple one, but neeko players should be aware that their ult continues to work while neeko is incapacitated (i.e. Zhonyas, pulled by urgot ult, eaten by tahm kench, hooked by thresh,pyke,blitz, kalsta R, while using snowball in ARAM, etc.\n W invisibility: You can use W as a way to help your ult get off by giving you brief period of untargetable with invisibility. W invis can also cancel a lot of ultimates that have windups and allow you to simply escape them even after they have clicked R on you. (Darius ult, Mordekaiser ult) \n Passive + Ult: This is simple and well known but is worth repeating. Neeko's ult is split into two segments: the windup/charge, and the pop-up damage/shield phase. While her disguise is on, only allies can see the long windup period where your ult is charging. This is especially useful and will be revisited in the trickery section.\n Clone Block: Another basic one but bears repeating, your clone has a hitbox after one second that can be used to block all sorts of projectiles. in lane it makes matchups like morgana really easy because the clones position always starts in front of you. This means you can use it as a moving windwall of sorts to aggressively block hooks/roots while doing your combos. Example: https://youtu.be/TvzRrocGLcw\n Wave Mechanics: Neeko's W is useful for a variety of wave manipulations. For instance if your adc is coming back to lane and the enemy minions are about die under your turret, you can send a clone forward to aggro them and turn them around/hold them out of your turrets range. This is useful in lanes where youre on the backfoot where every cs matters. Additionally you can start a slow push, this video by Doglightning covers it comprehensively: https://youtu.be/NEPT4R0YFbQ?t=498\n  \n Trickery\n Turret Backing: When an a friendly laner is low and walking to turret to back, ping that youre going in and ask them to back out of sight. Walk disguised as them with low health and simply back under turret but in a place where the enemy can flash to get you. pop ult, stun them under turret for the juicy money. This one gets greedy plat/diamond players all the time. Example: https://youtu.be/3XWejyklTrk\n Fake Desperation Sometimes when you get caught in an unfavorable position in lane, your instinct is to run to friendly ground/turret. Abuse this for the enemy's thought process as well. When low health with W up, shoot your clone back towards your turret, while you walk towards and through them. Most of the time they chase youre clone and ive often even seen junglers/laners flash for it while i walk into river. Be extra convincing and only walk in a straight line for as long as you can. Example: https://www.youtube.com/watch?v=b0OhMXBi6Zo\n Pretending to be the clone: This is maybe the most useful and successful tricky maneuver i do. In lane as support i often shoot my clone at them to get a cheeky reposition while invis to root/auto. If you notice they stop attacking the obvious clone every time, then there is an extremely high chance they will fall for this. When they arent under turret, simply shoot a clone back towards turret/lane bush on your side and walk directly at them. 9 out of 10 times they think its yet another clone and ignore you. Make sure you were disguised before shooting the clone so that your ult is invisible to the enemy, and simply start your ult while you freely walk into perfect positioning. Its honestly so effective and easy to do. Example: https://www.youtube.com/watch?v=-Y5p8g_KoBE\n Jungler Presence This one is more high level and really will only be more viable next patch when neeko gets undisguise on her passive. If you spend a lot of time undisguised, while being seen by minions, you can disguise as your jungler and walk into a bush with a control ward in it. Then walk out of the back of the bush and undisguise and walk into lane like normal as neeko. The enemy will not really consider you disguised at all and think your jungler is waiting for a cheeky gank. This allows the jungler to get free ganks in other lanes with misinformation, or even buy your own lane presence as they back off in case the jungler engages on them. EDIT: patch is live, example: https://www.youtube.com/watch?v=aYIf1L-Is5k\n Dual Gank: When pretending to gank, you should start disguised as jungler. From out of vision, shoot a jungler clone into lane. Now while invisible switch your disguise to the midlaner and walk in next to your clone. From the enemy perspective, it will look like a 2 man gank, and often burns sums or ults on the clone. I always shoot the jungler in a very forward and risky \"cut off\" path so that they target the clone instead of me. \n  \n Neeko Sneako: Supersonic clone\n So this is my special technique i found from a strange interaction i accidentally stumbled upon in game. As neeko, you actually have the option to make your clone go 2 vastly different speeds: the same speed as you OR double your current speed. All it requires is a high base movement speed and the rune hexflash. https://youtu.be/ppNTTkHLk0E\n The trick is simple to execute, although may take a bit of practice. You simply charge Hexflash until it teleports (minimum distance is ideal), let go, and press W as soon as you teleport. For some reason, part of the hexflash's speed is transferred into the clone and it causes it to move much faster. You wont really notice the speed increase until you get boots of mobis or your base speed is about ~500.\n  \n Now you may be wondering why this is useful in any regard, but understand the faster it goes, the farther it travels. This means standing on the edge of midlane you can send a supersonic clone towards baron and you have sight whereas with the normal clone even with mobis you only make it as far as the first bush in river. The crazy thing about this technique is that is scales with movement speed. With mobis, shurelyas, relentless hunter, a couple cloud drakes and elder... your clone legitimately covers 1/3-1/2 of the map. The scouting potential is actually insane. The other most common use i have for it, is sending speedy Hecarim/Udyr clones towards people. I have burned many flashes with speedy clones because people simply dont think neeko is capable of it.\n  \n Runes\n For those wondering what my common rune pages are they are as follows: (Keep in mind im a support neeko one trick and this doesnt apply to any other lanes, im sure they work fine but they probably arent optimal.)\n  \n Fun Support\n This is my actual favorite rune set that i run most often, and is set up to use my special technique. \n Electrocute, Cheap Shot, Ghost Poro, Relentless Hunter > Hexflash, Biscuit Delivery. \n This build is just meant to snowball outta lane, and get the nice neeko nuke by stuffing as much ap into her as possible. First back i rush Hextech Revolver. Then i rush Sorcerer boots before finishing protobelt Here i get one of Zhonyas/morellos/rabadons depending on the situation. This helps neeko to not fall off midgame, at this point i finish my protobelt and get spellbinder or whatever else the game calls for. I get sorc boots or mobi boots. The build is a hell of a lot of fun and you often do the most damage on the team.\n  \n Hope it helps, I may add more to this guide at a later date, if you have any questions ill be around the comments.",
+   "id": "cuhrvb",
+   "comments": [],
+   "age_days": 2604,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Matchup of the Week #21: Neeko, the Curious Chameleon (X-Post from r/LeBlancMains)",
+   "url": "https://www.reddit.com/r/neekomains/comments/cgq55o/matchup_of_the_week_21_neeko_the_curious/",
+   "published": "2019-07-23",
+   "author": "/u/Emiyaa",
+   "body": "",
+   "id": "cgq55o",
+   "comments": [],
+   "age_days": 2635,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Fancy Tricks vs. Universally Annoying Champs",
+   "url": "https://www.reddit.com/r/neekomains/comments/c80axv/fancy_tricks_vs_universally_annoying_champs/",
+   "published": "2019-07-01",
+   "author": "/u/she_never_did",
+   "body": "I've found that Neeko is really pretty strong against some of the more irritating matchups in various lanes. \n For instance, everybody hates playing against Teemo, but Shapesplitter can trigger his invisible bombs, rendering them pretty useless. \n Also, she can survive Morde's ult most of the time if she's got her W, E, and R up -- especially if she has Zhonya's. (One time a Morde tower-dived me with his ult, I survived with the aforementioned combo, also damaged him with my Q, and when we came back after 7 seconds my tower executed him and I got away scot-free). \n Pyke, Blitz, and Thresh usually regret hooking me when my R is up, too. And I take heavy CDR, so...it's hard to catch me without it by mid-game. \n What fancy tricks do you guys use to counter bad matchups?",
+   "id": "c80axv",
+   "comments": [],
+   "age_days": 2657,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Complete guide on how to win every matchup as Neeko",
+   "url": "https://www.reddit.com/r/neekomains/comments/bw2o2f/complete_guide_on_how_to_win_every_matchup_as/",
+   "published": "2019-06-02",
+   "author": "/u/hibari112",
+   "body": "For - win game\n If: enemy laner - lasthit minion => cast E Else: don't cast E",
+   "id": "bw2o2f",
+   "comments": [],
+   "age_days": 2686,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Neeko matchup guide I did last night",
+   "url": "https://www.reddit.com/r/neekomains/comments/b9nwmw/neeko_matchup_guide_i_did_last_night/",
+   "published": "2019-04-05",
+   "author": "/u/NeeekoNeekoNiii",
+   "body": "",
+   "id": "b9nwmw",
+   "comments": [],
+   "age_days": 2744,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Iron 2 - Diamond 4 tank neeko support only",
+   "url": "https://www.reddit.com/r/neekomains/comments/b3m5in/iron_2_diamond_4_tank_neeko_support_only/",
+   "published": "2019-03-21",
+   "author": "/u/doglightning",
+   "body": "This is my first time hitting diamond and I just love neeko so much.\n https://na.op.gg/summoner/userName=NeekoTank\n ​\n This site says im rank #23 neeko in NA\n https://www.leagueofgraphs.com/summoner/champions/neeko/na/NeekoTank#fightingData\n ​\n Runes:\n Primary Runes: Aftershock>Demolish>Conditioning>Overgrowth\n Secondary Runes: Celerity>Waterwalking\n Secondary Runes vs high poke (brand/zyra/vel); Biscuit Delivery>Approach Velocity\n Summoners: Flash and Exhaust\n Explanation:\n I run demolish because if you can poke your lane out then you can take a plate with your w passive fairly easily. Conditioning is really good with aftershock and is basically free stats. For the secondary runes I get celerity because it's really good with your w. Everytime you proc your w you are getting 15 extra ms and is very useful for getting ults off. For the runes vs poke lanes I get Biscuit Delivery soI can sustain the poke and since I put 3 pts in q early vs poke I usually need the mana. For summoners I get Exhaust and this is super important for 2 reasons. First reason is since we aren't going ap runes our kill pressure is alot lower until lvl 6 and exhaust will help cover mistakes bot lane allowing you to get to 6. The second reason I get exhaust is because it is extremely useful in catching up/keeping people inside your neeko ult which will get you more kills then ignite.\n ​\n Skill Order:\n vs most lanes: q-e-w-max e-max w-max q\n vs poke lane: q-e-w-q-q-max e-max w-max q\n vs melee support: w-e-w-q-w-max e-max w-max q\n Explanation:\n vs most lanes I only put one point in Q because it gives the least amount of utility compared to increase root duration and increase move speed/tower pressure on W. If I am facing poke lanes which is zyra/brand/vel I get 3 pts in Q early so I can compete in poke early. I do not consider healers poke lanes and I would recommend the e max allowing you to all in better. Finally vs melee lanes I take W lvl 1. This is extremely good because most of the time melee support will try to all in lvl 2 and w provides escape where if you took Q first you wouldn't have your escape until lvl 3. For example if a leona tries to e-q, you can stealth right as shes about to stun you and then walk away scott free. Another reason why w is super good is because you can proc your w easily on melee supports and low range adcs. Vs melee support with vayne/lucian I usually max w until its level 3 but if the adc is longer range I just leave it at one point.\n ​\n Build:\n Core: FrostFang>Boots of Swiftness>Redemption>Righteous Glory\n Secondary: Remnant of the Watchers>Abyssal Mask> Zhonyas\n Explanation: Do not upgrade frostfang because the extra ward isn't worth 950g compared to the other items. That being said I ALWAYS try to carry 2 pink on me every back. I used to run Mobis but I realized its actually really bad with neeko andI would never recommend it. The reason is because as neeko you are going to be getting very deep in the enemy lines a lot and using your w stealth to escape but the problem with mobis is you lose all your movespeed and will lose a lot of distance while escaping. This is why I always run boots if swiftness because you do not lose you ms and it reduces slows which will be on you if you dive. Redemption is amazing period. The heal allows you to go deep and survive. The health regen keeps you healthy and is way cheaper then zhonyas which is why I think ap neeko sucks because its bad until you get a couple very expensive items which supports can't afford. Righteous Glory is your bread and butter which I sometimes get before redemption depending on team comps. RG allows you to catch your opponent off guard and the AoE slow keeps everyone in your ult (even sometimes if they try to flash it). On top of its engage potential it gives more health regen then redemption which when paired together will make you never have to back unless you need wards. as for secondary Abyssal Mask increases you and your ap teammates dmg by 15% and is good if you need mr and zhonyas is good if your getting bursted before your ult goes off.\n ​\n LanePhase:\n In lane try to last until 6 as most matchup will lose to you at this point. Before 6 just safely try to poke with q or your combo which is e-q-w auto. Always make sure you get your w passive ready but do not take/mess up your adc farm or they will tilt. If you go to roam always change yourself to look like your jungler and you will look stronger than you actually are. Finally don't forget you have after shock. If they ever go on you just root the enemy adc and after shock will make you win the all in.\n Team fight phase:\n During this phase you need to determine what your team needs. If they need peel then let someone else engage and just land roots and ults near your adc with redemption to heal and righteous glory to slow them. If your team needs engage try to get flank angles and righteous glory into the enemy team with ult. right as your ult is about to pop make sure you have your redemption down as it will make your team less hesitant to follow up. Just remember that generally you do not want to just run at the enemy 5v5 with RG or you'll get bursted. You need to wait until you either have numbers advantage or you see someone split off that you can chase down. Do not forget to always send your clone into areas you are trying to set vision up before you enter so you don't have to face check.\n ​\n funny counters: with neeko w clone you can cuck kled ult, nunu w, cait traps, bard heals, mao ults and teemo shrooms by sending your clones at them.\n ​\n Feel free to ask questions :)\n ​\n Edit: I forgot to mention that you should go Ap if you have 2 tanks on your team or you won't have the dmg to win fights. For example I lost a game where I had a shen top and sej jungle because I went tank neeko and we couldn't win teamfights.",
+   "id": "b3m5in",
+   "comments": [],
+   "age_days": 2759,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Pro-tip: Using W drops minion aggro. A brief guide on how to abuse it in top lane.",
+   "url": "https://www.reddit.com/r/neekomains/comments/axaxwx/protip_using_w_drops_minion_aggro_a_brief_guide/",
+   "published": "2019-03-04",
+   "author": "/u/NekoKatarina",
+   "body": "This is one of the most underlooked strengths of Neeko. In top management of waves and knowing how they function when trading is one of the most important things, especially on bully's like pantheon and Neeko. \n By properly using her W to drop aggro you can:\n Garentee a winning trade every time it's off cool down.\n Simply using W after you AA to drop the wave means if they retaliate they will often take aggro, allowing a favorable trade.\n Pressure your opponent through threat of follow up.\n By using AA-> W you create pressure on the enemy. You have the option of following up the combo by running into them, confusing them with the direction of approach. From here you can either E Q and back off, not taking aggro, or follow up with a longer trade, or all in. \n Easily manipulate the wave by creating a slowpush or pulling the wave.\n By AAing your opponent early in a neutral wave you can manipulate it to push towards you or start slowpushing. To push the wave AA your enemy from your melee minions then immediately W before the casters fire. Due to staggered caster damage your wave will push towards them. Alternatively doing this while standing near your casters forces the enemy melee minions to focus on a single on of yours, pulling the wave into you.\n And that's about it. Honestly normally she's a really strong lane bully, but by using this mechanic you can absolutely dominate unsuspecting laners and swing even the toughest of matchups in your favor, you just have to understand how to use it.\n Also I'm working on few Neeko Guides right now, I just want to know what you folks are more interested in having complete first. You can answer here.",
+   "id": "axaxwx",
+   "comments": [],
+   "age_days": 2776,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "The most broken Neeko strategy! (Neeko ADC guide)",
+   "url": "https://www.reddit.com/r/neekomains/comments/ara1l1/the_most_broken_neeko_strategy_neeko_adc_guide/",
+   "published": "2019-02-16",
+   "author": "/u/Maxner92",
+   "body": "Some things about me I'm playing Neeko adc for a while now and truly amazing how easy it is to climb with her. Just for context, I am currently in my platin 2 promos and got a 73%wr so far. (my opgg https://euw.op.gg/summoner/userName=maxner)\n https://preview.redd.it/uqrsfjc61yg21.png?width=1045&format=png&auto=webp&s=994e1ae0a9218801bd9de6b0ef9c6f7b937dc2f5\n ​\n Now to the guide! For runes I like to use this:\n https://preview.redd.it/gxtook4n1yg21.png?width=645&format=png&auto=webp&s=53bbb1c9bdac11c4a84df4fdb1e924d0e5418696\n Lethal tempo is just great for trading and it destroys people after you land your e onto them. The rest is pretty much self-explanatory I guess, but feel free to ask if you have any questions!\n ​\n For items:\n Botrk first - it gives so much dmg and with the slow combined with your w speed, you can pretty much just run down the lane, chasing and killing every living thing that stands in your way. Also, the lifesteal helps a lot in harder matchups and for generally sustain.\n Rageblade second - this item is so insanely broken on neeko, with full stacks you can get the w on every two instead of three autoattacks. Nobody will be able to 1v1 you and it synergizes extremely well with botrk.\n Frozen Mallet third - this is the most unusual item, but its also the reason neeko works so well. It makes you very tanky so no assassin or fed toplaner will be able to oneshot you. In addition to that, it will slow whatever you attack, meaning that combined with your passive nobody will be able to escape from or chase you!\n The rest of the build is situational, I mostly go for Nashors and Zhonyas but there is a lot of other good stuff, for example Rabadons, Wit's end, Gunbblade, Runaans and a lot of other stuff you can experiment with.\n I also made a custom item set, you can import it here: https://pastebin.com/26Km3ZVL\n Gameplay / Abilities There is a lot to cover here, so I just go over the basics, if you are interested I can post videos about this on my newly created youtube channel (https://www.youtube.com/channel/UC-sMAyQFRLjEQfZ2q_HWOhw) or make more posts here, just tell me if you are interested.\n For abilities I just max w then e and last q. \n In the early game, you just try to cs and poke with every w proc, it deals so much dmg you basically win the lane from that alone. If the enemies are around 50%hp you can go for the all in with your support (if you are playing bot what I would recommend) just try to hit them with your e and chan cc them with your support, and if you are level 6 you can ult them too. If you are losing the matchup just try to freeze under your tower and wait for ganks. If the enemies play extremely passive just push into them and try to get platings, it's easy to damage towers with your w.\n After you get their tower you can try to swap with your toplane and get that tower aswell. After that go for herald and push midlane. If all of that was successful you should have a huge gold lead. If not, try to play around objectives, neeko is excellent at taking towers, dragons and barons with rageblade and her w. Neeko is good at splitpushing too, just try not to let your team die while opening up the nexus.\n In teamfights, you should usually keep your distance from every thread and just kill what is closest to you, with Frozen Mallet they can't escape your focus. If the enemy team has assassins or other champs that will dive the backline, ult just as they are about to collapse onto you. They will either get scared or rooted and your team can finish them.\n ​\n This should give you everything you need to know about neeko adc! If you have any feedback or questions be sure to let me know, this is my first ever post here or guide in general so I'm really curious about any feedback you might have!",
+   "id": "ara1l1",
+   "comments": [],
+   "age_days": 2792,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Hi, I challenged myself to mastery (lv 5) any champ in alphabetical order, and here I am looking for tips for my 125th Champion: Neeko.",
+   "url": "https://www.reddit.com/r/neekomains/comments/ar38uq/hi_i_challenged_myself_to_mastery_lv_5_any_champ/",
+   "published": "2019-02-16",
+   "author": "/u/quetsacloatl",
+   "body": "Hi, I'm Quetsacloatl, an EUW D5 player, I decided to try to master lv 5 every champion in league of legends in alphabetical order.\n I reached the end of letter W and it's time to go back and cover the last two released champions, this time is Neeko time.\n I've never played any game with him at all so I need all the help you can provide me.\n What am I suppose to do in the early game?\n\n When should I start to go aggro?\n\n How to play from behind?\n\n Which are the best runes options? Which is the best build pattern at the moment? And in particular Which are his core items I've to reach before I can consider myself useful?\n\n What am I supposed to do during the late game?\n\n Which are the best matchups and the worst ones?\n\n Should I just focus on farm and reach upgrades early on?\n\n HOW can I carry a game with her?\n\n Is mid, jungle or supp best role for her?? \n\n Why should I prefer Neekorather than any other tricky mage in the game?\n Can you give me any specific and hidden-pro \"trick\" for winning trades/lanes/skirmishes?\n The final question is:\n Which are the differences between a bad Neeko player, a good Neeko player, and a GREAT Neeko player?\n I hope someone will help me with my personal quest.\n Thank you",
+   "id": "ar38uq",
+   "comments": [],
+   "age_days": 2792,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Utilizing Our Collective Experiences",
+   "url": "https://www.reddit.com/r/neekomains/comments/a685cd/utilizing_our_collective_experiences/",
+   "published": "2018-12-14",
+   "author": "/u/Elknbur",
+   "body": "Hello everyone, I'm more of a lurker then a poster so I probably did something wrong so this may be taken down, but I had an idea to bring forward and hope that others agree. \n Something I would really like to see happen in our little neekovirse is to have a weekly matchup discussion! So neekos that have gained some more experience and lost a few more tails then the rest of us can share some of that along with some good suggestions on how we can better prepare ourselves. \n I'd start it myself but I have not gotten to play as much recently so I can't offer much, but I will one day I swear! \n No idea if anyone else is interested in this idea, and I'm prepared to watch this post blend into obscurity.",
+   "id": "a685cd",
+   "comments": [],
+   "age_days": 2856,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  }
+ ]
+}

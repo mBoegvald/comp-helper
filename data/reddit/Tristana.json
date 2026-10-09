@@ -1,0 +1,798 @@
+{
+ "champion": "Tristana",
+ "subreddit": "tristanamains",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "Tristana combos when W first is too risky",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/1q9z3dj/tristana_combos_when_w_first_is_too_risky/",
+   "published": "2026-01-11",
+   "author": "/u/Rare_Refuse_3801",
+   "body": "Even time I play Tristana, it feels like the enemy support is always someone like Poppy, Nautilus, or Neeko supports when where using W to jump in is really hard.\n After level 6, I usually go for W→ E→ A→ R→ A to quickly proc E, but using jump first feels pretty risky in these matchups.\n In those cases, what combo do you usually use?\n Source - op.gg desktop",
+   "id": "1q9z3dj",
+   "comments": [],
+   "age_days": 271,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Itemization question",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/1ofy1wz/itemization_question/",
+   "published": "2025-10-25",
+   "author": "/u/JohnM80",
+   "body": "I am still learning itemization, and looking at the #1 and #2 Tristana's in the world, their item builds are identical in 99% of games except for their first item. Nasa takes Collector, and Darksider takes Yun Tal. Aside from that they build the same. They don't appear to swap these items out depending on any matchups, and generally they both pick them every game.\n Can someone explain to me why anyone would choose one over the other?",
+   "id": "1ofy1wz",
+   "comments": [],
+   "age_days": 349,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Trist Build stats",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/1l3nkwa/trist_build_stats/",
+   "published": "2025-06-05",
+   "author": "/u/sclomabc",
+   "body": "Decide to do a little study on Trist build, using xPetu's site coachless.gg, here's a screenshot which shows some of the stuff (but not all). He has stated that he is fine with people taking screenshots like this so long as they don't just steal the whole site. As for my findings:\n Yun Tal should be your go to, there are certain situations in which Collector is useful but if there is even a single person building armor it immediately loses out to Yun Tal. \n\n Navori second is throwing, 3rd is only for similar situations where you would go collector, but the enemies can be a little bit tankier before last whisper becomes the go to.\n\n Defensive boots and items are goated, GA is hidden op on basically every adc and Tristana is no exception. Berserkers is still best if the damage is very mixed but if it's even like 70-30 go defensive boots. as for items 3rd item defensive, it is high WPA but when you take a closer look it is basically only good when you are getting dove heavily or are against super heavy poke and take lifesteal. 4th item is where it really starts to shine, meaning that Navori last is not unreasonable and should even be expected in most games.\n\n non-crit first items are so bad on her, and this does include midlane. If you still take Kraken on Tristana you are shooting yourself in the foot. I don't want to hear anything about early power, it is just worse.\n\n this is more a general adc thing but first purchase cull is incredibly good for getting to Yun Tal cleanly. \n\n HOB is so bad, I don't have it shown but never take it.",
+   "id": "1l3nkwa",
+   "comments": [],
+   "age_days": 491,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is Swain really an anti synergy?",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/1iqnfcb/is_swain_really_an_anti_synergy/",
+   "published": "2025-02-16",
+   "author": "/u/Ethoshow",
+   "body": "When I play with him our lane phase is quite nice. Is it because other supports do more than him in team fights?",
+   "id": "1iqnfcb",
+   "comments": [],
+   "age_days": 600,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Tristana ADC Laning Matchups",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/1ic7ss4/tristana_adc_laning_matchups/",
+   "published": "2025-01-28",
+   "author": "/u/j_fuj",
+   "body": "Tristana main here. I used to be a mid main with her and had a very good understanding of all her matchups in mid. I understood her lvl 2 and lvl 3 power spikes and the limits I could push against different champs. Now having swapped to playing her adc, I've lost my advantage. I often miscalculate support/adc pair synergy and damage outputs.\n Any tips specific for Tristana? I will learn a lot as I experience all the different matchups, but it will take a long time... so any info from you guys is appreciated.\n What supports does Tristana love to have? What's ideal laning scenarios? What counters me? What do i go even against? Who should I ban? Any tips and tricks and info related to matchups would be appreciated!\n As of right now, I find I really like yuumi, lulu, and Nami supports, seems the most consistent, but I do lose to certain lanes unexpectedly hard even with them so I don't know my weaknesses/strengths well.",
+   "id": "1ic7ss4",
+   "comments": [],
+   "age_days": 619,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What is your experience Tristana vs Sett?",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/1hffjky/what_is_your_experience_tristana_vs_sett/",
+   "published": "2024-12-16",
+   "author": "/u/pedwards75",
+   "body": "I played a game of Tristana ADC today vs a Sett support, and I was finding it very difficult to escape his E (pull). I kept trying to buffer it, but it seemed to catch me every time. It wasn't an especially difficult matchup, I just found it really frustrating that I kept getting hit by very telegraphed CC. It was Sett runs at me > I try to W buffer but E grabs me anyway > Draven runs me down. \n What is your experience playing vs Sett? Are you able to buffer his pull effectively? For me, I failed to buffer it so many times, it was more effective to get hit, and jump afterwards (either in or out, depending the situation). He spent most of the game just running at me, and I couldn't get many autos in trying to kite.",
+   "id": "1hffjky",
+   "comments": [],
+   "age_days": 662,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Anyone offering coaching?",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/1f65uyh/anyone_offering_coaching/",
+   "published": "2024-09-01",
+   "author": "/u/The-Dark-Photon",
+   "body": "Currently Iron 4, tristana mid, I've climbed to iron 1 30LP at one point but crashed back down, been iron for like 1.5 years, kind of sick of it. Nerfs should not affect the iron meta so I don't want to hear about those. I've watched quite literally 100s of hours of content and coaching, just doesnt click.\n I'm newish to PC gaming so maybe that's it but the reality is it's been a year+ and that's far too long to be iron. It sucks because I've spent so much time trying to get better and nothing turns into wins. I don't even blame my teammates besides a few select games which doesn't matter over the course of a season. \n I know the CS could be better but I'm literally trying to prioritize it over fights with my team and that still doesn't net a magical 8cs/min. I think part of the problem is not memorizing Every single matchup and champions abilities perfectly, with their cool downs and passives, but what robot can do that in when they're new?\n Idk it sounds a bit venty but I just want advice and ideally coaching. And play normals doesn't really seem to work because I dumpster fire them bc I get matched with new accounts bc my MMR is so bad, also most people aren't trying in normals regardless.\n Any advice? Op.gg: https://www.op.gg/summoners/na/TheDarkPhoton-NA1",
+   "id": "1f65uyh",
+   "comments": [],
+   "age_days": 768,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is Tristana mid getting more popular now?",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/1crau8d/is_tristana_mid_getting_more_popular_now/",
+   "published": "2024-05-13",
+   "author": "/u/Ethany523",
+   "body": "I've been watching MSI and other streamers lately and one thing I've noticed is that Tristana mid has seemed to increased in popularity, is this some sort of syngergy in draft or is it just a coincidence? I've been picking Tristana botlane but I'm wondering if midlane has less opposing matchups/better in 1v1 lanes",
+   "id": "1crau8d",
+   "comments": [],
+   "age_days": 879,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to improve your matchup understanding! VOD Review of Rookie, Nemesis and Faker Tristana mid.",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/1c3lcn0/how_to_improve_your_matchup_understanding_vod/",
+   "published": "2024-04-14",
+   "author": "/u/Ok-Marzipan4587",
+   "body": "Hey fellas, I just wanted to share a few tricks I use when looking for vods to improve my laning phase on Tristana mid. Simple ways you can improve your own review process and get better at a specific matchup. \n In this video I had a look at Tristana vs Leblanc in particular as well as an easy way to determine whether you should be focusing on improving your macro or micro in order to get the best results for the effort you put in. \n If even one person here learns something new from the video, then my job is done. Its a long one, but well worth the watch if you want to step up your review game. \n https://youtu.be/izqUsDdOXog?si=QUSMlltOSgtoQ3H-\n ​",
+   "id": "1c3lcn0",
+   "comments": [],
+   "age_days": 908,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "LVL 2 Engage vs Rocket Jump to Raptors (Trist Mid)",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/163r06l/lvl_2_engage_vs_rocket_jump_to_raptors_trist_mid/",
+   "published": "2023-08-28",
+   "author": "/u/FrostedEarth",
+   "body": "Just wondering which is better. Most matchups I can get a very good trade lvl 2, but then my W is down for when jungeler shows on raptors (Assuming I am Red side). If I didn't take the lvl 2 trade, I could easily kill the lvl 2 jungeler by jumping over.\n However, it's not a guarantee that the jg starts red side anyways, and if they spot me placing a ward (around 1:15), they usually skip raptors. Should I just go for the consistent play and lvl 2 engage on my laner, or save jump incase jg does start red?",
+   "id": "163r06l",
+   "comments": [],
+   "age_days": 1138,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is Tristana a good blind pick?",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/12nhjh6/is_tristana_a_good_blind_pick/",
+   "published": "2023-04-15",
+   "author": "/u/JotaD21",
+   "body": "Currently learning how to play ADC and well, i like Tristana kit since she can be played either as farming simulator or \"fuck it, we ball\" since lvl 2, has a long range with her passive, is also a tower shredder and mainly AA-based, worth to mention she's relatively safe but still able to deal tons of damage\n I know there's some matchups where she would be bullied like poke-lanes due to her early short range but overall, is she a good pick?",
+   "id": "12nhjh6",
+   "comments": [],
+   "age_days": 1273,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to deal with the Jayce matchup?",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/11cznrz/how_to_deal_with_the_jayce_matchup/",
+   "published": "2023-02-27",
+   "author": "/u/HanielTocqueville",
+   "body": "Hi, I often play Tristana top (and sometimes mid) and I have a few issues with the Jayce match-up. I don´t tend to die 1v1 to him but the match-up gets significantly harder after the first back: he becomes the bully. \n ​\n Evidently, Jayce should always get ganked due to his \"strongside\" and snowball nature, and in the majority of times that I play this match-up I´m often \"weaksiding,\" so that might explain why I tend to fail. \n ​\n Any tips? Or my assertion is correct that it is not possible to win this match-up after the first back and jg assists? \n ​\n (Im D2 atm)",
+   "id": "11cznrz",
+   "comments": [],
+   "age_days": 1320,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "worst trist matchups botlane?",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/zrbe7c/worst_trist_matchups_botlane/",
+   "published": "2022-12-21",
+   "author": "/u/ioCross",
+   "body": "holy fk trist seems so overtuned rn.. i just started playing her today after not playing her at all for a few seasons after getting my shit pushed in by a trist in a game... i've just been wrecking face, using both HOB and PTA.. so far my build's are always kraken into RFC into IE or BT depending on how badly i need the sustain, then LDR vs tanks or whatever standard comp-based deviation i go from there. \n ​\n https://preview.redd.it/cn0zr1dqr67a1.png?width=1040&format=png&auto=webp&s=502af4e610c496a5cb4174f6aa198823d71ea467\n is there a better/diff build for her or is this basically the most optimal? every time i think of building PD i just change my mind as the extra range with RFC plus the shards energize seems so much better to have than the 2 longswords if i cant complete the item right away or cant get zeal first. \n i know 4 games is a small sample but ive faced 4 diff adc types, long range poke with caitlyn, a MF/ashe combo, a lucian/nami lane and a samira/leona that i basically had no issues mopping up with , except the one game i took PTA instead of HOB. noticing a drastic difference in lvl 2 + early game allin power, i've just been sticking to HOB. \n is there a counter matchup that trist is really bad into? so far i thought i'd have trouble in the cait or lucian matchup, and the worst game i had at 8/6/15 where i almost lost lane was the lucian/nami lane, but i chalked that up to a bad support and the fact that i didnt have HOB which negated a lot of my pre lvl6 allins. \n any thoughts from more experienced trist botlaners would be appreciated.",
+   "id": "zrbe7c",
+   "comments": [],
+   "age_days": 1388,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Just hit masters with our favorite yordle!",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/y9w63t/just_hit_masters_with_our_favorite_yordle/",
+   "published": "2022-10-21",
+   "author": "/u/sonaw4",
+   "body": "I had been working on climbing through Diamond this season as in the previous few seasons I had only been playing until D4 and then coast until season end, but this year I wanted to see how far I could get. Been a Trist OTP since 2018 and am very passionate about builds, runes, matchups, etc. on her (well it's most of my League gameplay so why wouldn't I be lol) and I usually see questions about those when I scroll through this subreddit, so feel free to ask me about anything Tristana-related, I would be more than happy to discuss! \n Here's my op.gg\n Happy climbing, fellow Bandle Gunners! \n https://preview.redd.it/ea1y8knfb6v91.png?width=1547&format=png&auto=webp&s=5ea3ee67ae726d2961dd563ac4ba04aa8eb2bd85",
+   "id": "y9w63t",
+   "comments": [],
+   "age_days": 1449,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Tristana mid helps",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/vwjkvm/tristana_mid_helps/",
+   "published": "2022-07-11",
+   "author": "/u/NanoFero",
+   "body": "Hi guys, new on Tristana here, playing her in the midlane. Any guide, helps, tips tricks, matchup,build u would like to tell me it's well accepted, thank you in advance! :)",
+   "id": "vwjkvm",
+   "comments": [],
+   "age_days": 1551,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Tristana mid matchups",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/v67hdw/tristana_mid_matchups/",
+   "published": "2022-06-06",
+   "author": "/u/Mayodood",
+   "body": "Hi, fairly new tris player and trying to add her to my mid champ pool.\n Was wondering what are the free match ups I should always pick trist into and what are some of the hardest ones I should try to avoid?\n Also against ap assassins eg. Fizz and kata, what mr item and when do you guys buy it?\n Last question: Is trist good into galio? On paper it seems like a counter, but I have been having some trouble in this matchup, especially with his knockup cancelling my W.\n Thanks in advance!",
+   "id": "v67hdw",
+   "comments": [],
+   "age_days": 1586,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "High Elo Tristana Main willing to answer your questions!",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/upr9e3/high_elo_tristana_main_willing_to_answer_your/",
+   "published": "2022-05-14",
+   "author": "/u/Beneficial-Clerk-615",
+   "body": "Hey there everyone! I'm Scuba and I have over 4k games on Tristana, I peaked Challenger two seasons ago and have been coaching on ProGuides full-time ever since.\n I have played Tristana for many seasons and used her to climb through all elos, if you have any questions regarding rune pages, build paths, or matchups in the botlane or overall game-play through all stages of the game, feel free to ask any question, I'm here to help!\n I also coach on ProGuides and have coached on there for 3 years, had 640 members coached and never received a below 5 star review!\n If you have any further questions just drop them here and i'll reply to them as soon as I can!\n If you require any further assistance I can provide a lot more detail on my discord and within my sessions.",
+   "id": "upr9e3",
+   "comments": [],
+   "age_days": 1609,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Unflinching on Tristana mid",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/ta60at/unflinching_on_tristana_mid/",
+   "published": "2022-03-09",
+   "author": "/u/iceisak",
+   "body": "Unflinching is a rune in the resolve tree that grants 10% tenacity which increases to 30% once you have lost 70% of your hp.\n I have been spamming tristana mid for the past year and a half, taking unflinching in almost every single matchup where the enemy team has cc (ahri, lux, leona, Sejuani etc, Ashe). The rune lets you tank an ahri charm and still be able to sidestep her Q2, it lets you jump out of a roaming Leona´ s R E Q combo etc. It has saved me so many times by giving me a window to press W in the middle of their cc-chain.\n I recently hit Grandmaster for the first time by playing mostly tristana mid and decided to check on u.gg the stats on unflinching. In master's+, the rune has a 75% winrate when taken in the secondary tree. note, that it has a low playrate there and most of the matches are most likely me.\n The rune is strong in high elo but is also beginner friendly as it helps you survive when you get caught.\n So, please try it out and let me know what you think :P",
+   "id": "ta60at",
+   "comments": [],
+   "age_days": 1675,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Rank one Tristana EUNE willing to answer your questions!",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/r5zkuv/rank_one_tristana_eune_willing_to_answer_your/",
+   "published": "2021-11-30",
+   "author": "/u/Zonx9999",
+   "body": "Hello guys! I'm Zonx and I'm currently rank #1 Tristana EUNE have peaked GM 300+LP and I'm currently master.\n https://www.leagueofgraphs.com/summoner/eune/Im%20Jigsaw\n I mostly played Tristana/Lucian to get to higher rank so if you have any questions regarding her runes, builds, matchups or overall gameplay, feel free to ask I'm here to help!\n I'm also a coach for Proguides with over 2500+ hours of coaching so if you would like to seriously improve you know where to find me :)",
+   "id": "r5zkuv",
+   "comments": [],
+   "age_days": 1774,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Mid/top lane matchups",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/qrl33a/midtop_lane_matchups/",
+   "published": "2021-11-11",
+   "author": "/u/Worldly-Duty4521",
+   "body": "Against which type of champions is tristana mid really good? I was learning syndra on normals where the ther guy picked twitch and banned syndra so I went for tristana. I'm an adc player, not a fan of trist, but obviously can play it, and I hard stomped the game. So just wondering how many matchups exist where tristana mid/top is good. From my perspective it should be good into immobile mages like orianna ryze syndra xerath,",
+   "id": "qrl33a",
+   "comments": [],
+   "age_days": 1793,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "New to Tristana - tips",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/obkvaz/new_to_tristana_tips/",
+   "published": "2021-07-01",
+   "author": "/u/Snir17",
+   "body": "So I opened a second account in EUW with some friends, so I wanted to ask a few questions: 1.which support has the best synrgy with Tristana? 2.who's the worst matchups that I should ban? 3.any tips in general?",
+   "id": "obkvaz",
+   "comments": [],
+   "age_days": 1926,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to deal with Yasuo ADC",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/np3qu4/how_to_deal_with_yasuo_adc/",
+   "published": "2021-05-31",
+   "author": "/u/iko__",
+   "body": "Heya, I recently started playing ranked after 8 months of normals and I'm struggling a whole lot against this Yasuo ADC phenomenon. He's too beefy to be all-inned early so I usually take PTA against him, but then I just find myself falling behind more and more. I can't kill him early unless he fucks up, his shield + rushed lifesteal make him so hard to poke and windwall is always there to deny my damage if needed. Even if I just wait and farm I find myself falling behind so much, with 2 items he's already killing everything while I don't even know how to itemize against him (should I rush antiheal? How do I deal damage then? Should I go with the usual build or buy something super-specific for the matchup?). I'm sure everyone has found himself playing against a Yasuo ADC, so do you experienced players have any tips to deal with him? I don't think I want to use my ban card on a midlaner, idk... Thx in advance!",
+   "id": "np3qu4",
+   "comments": [],
+   "age_days": 1957,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Ideal matchups for Tristana Mid?",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/mqdohu/ideal_matchups_for_tristana_mid/",
+   "published": "2021-04-13",
+   "author": "/u/bgest37",
+   "body": "Hi guys, I'm a mid laner and was thinking of picking up Tristana. Mostly because I play a lot of Kassadin and I wanted to learn a counterpick for when enemy team picks Kassadin. \n What are some other good matchups for Tristana? I want to learn her without having to play verse the bad matchups atm so I wanna pick Trist any time the enemy first picks a good matchup.",
+   "id": "mqdohu",
+   "comments": [],
+   "age_days": 2005,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to counter Tristana",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/kx4oxi/how_to_counter_tristana/",
+   "published": "2021-01-14",
+   "author": "/u/yrgex",
+   "body": "I’m not a tristana main (I’ve only played her a handful of times) but whenever I play against tristana I get steamrolled. How do you play against her? Usually I try to outscale but my support ints or I get engaged on from 3 miles away and get 1 shot. I feel like it’s hard to play against the champ late game as well.\n Ps: I main kaisa so maybe it’s just a counter matchup idk.",
+   "id": "kx4oxi",
+   "comments": [],
+   "age_days": 2094,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Tristana builds",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/kn78jt/tristana_builds/",
+   "published": "2020-12-30",
+   "author": "/u/moffymotham",
+   "body": "So i've been trying out trist with lethality and it feels really satisfying to use,\n The build \n KS, Collector, PD, IE, ninja tabi or berserker greaves, and situational 6th item its normally mortal reminder or serpent fang against all the annoying champs with shield,\n The runes\n Hail of blades, Taste of blood, Ravenous hydra, Triumph,bloodline, most of the time double adaptive otherwise 1 adap and 1 AS and last is for matchup,\n ​\n The dmg on E is kind of insane and makes trist almost a full assassin but you can still play like a ADC \n and from my experience only graves with immortal shield bow is the only trouble you'll have,\n so good luck with the build guys and happy really early new years",
+   "id": "kn78jt",
+   "comments": [],
+   "age_days": 2109,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Tristana Build/Itemization",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/k4gxzd/tristana_builditemization/",
+   "published": "2020-12-01",
+   "author": "/u/HavenKai",
+   "body": "I stopped playing for a few weeks and came back to the new items and have been struggling the past couple of days to find something other than lethality ADCS that I could enjoy. After many brutal games of cait, ezreal, and Kaisa to name a few I think I found Tristana as my answer. \n The runes I've been running are PTA > Domination secondary\n Build path - \n Zerkers > Kraken Slayer > Storm Razor > BT/Mortal Reminder/Rapid Fire (Pick 2 based off needs) > IE last if I get to it\n ​\n Now obviously you can switch out one of the items to Lord Doms (probably BT or Mortal Reminder). I'm curious to try some other items out but Kraken Slayer has been doing loads. I wouldn't build Stonebow as Tristana can self peel with ult and has her W to disengage if needed. The damage from KS seems to be necessary in order to get assassinations on targets IMO not to mention the sustained damage.\n As usual wave management is key until level 3 which is when Tristana comes online. If you're against a hard matchup a tip is to not level your E lvl 1 meaning to hold onto the skill point and upgrade it when needed. This will help you control the wave a bit better. \n Any thoughts?",
+   "id": "k4gxzd",
+   "comments": [],
+   "age_days": 2138,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Tristana+Pantheon is really fun",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/j90hac/tristanapantheon_is_really_fun/",
+   "published": "2020-10-11",
+   "author": "/u/0lazy0",
+   "body": "Panth can stand really up close and deny CS, cause he’s not squish. His shield ability also blocks all damage so he can tower dive easily. His leap stuns so it combos well with Tristan jump+bomb. Very fun matchup",
+   "id": "j90hac",
+   "comments": [],
+   "age_days": 2189,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Tristana Mid build for Newbies",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/j6nwun/tristana_mid_build_for_newbies/",
+   "published": "2020-10-07",
+   "author": "/u/Threestuna",
+   "body": "Every single item in the game depending on matchup\n If enemy team has 2 Tanky champs Blade of the Ruined King Phantom Dancer Mortal Reminder Any boots\n If enemy team has 1 Tanky or no at all champ you can go full crit Infinity Edge Phantom dancer Rapidfire cannon Mortal Reminder Storm Razor any boots \n sutuative items:\n Assasins oneshot you? Guardian Angel Hard CC? Scimitar(QSS at least) [Gives sustain too] Need sustain? You can go bloodthirster in crit build instead of RFC\n PTA Triumph OR Overheal Alacrity Coup de gracé\n Second wind Overgrowth\n Attack speed AD Magic Res or Armor\n Why no demolish? Demolish is rune that pretty hard to use. You cant always push and break towers",
+   "id": "j6nwun",
+   "comments": [],
+   "age_days": 2193,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "This will be controversial, but I think that dark seal is a good situational item and can be a viable starting item on Tristana.",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/isq763/this_will_be_controversial_but_i_think_that_dark/",
+   "published": "2020-09-14",
+   "author": "/u/Camper_Samu",
+   "body": "(Oh boy, this is so out of meta and so controversial, but I'm going to post this anyway... rip my karma)\n Dark seal is a really dumb starting/1st item on Tristana, but it can be really good early on (especially in midlane).\n What you loose: 1. Early lifesteal/regen (kinda): You loose the lifesteal/hp on hit/regen you can get from more in-meta starter items like Doran's blade, Doran's shield or the Cull. 2. Bonus AD: Tristana AAs scale with AD, so you loose the 7 or 8 damage (or the bonus damage on minions) 3. Bonus HP: The 80 HP on Doran's items can be the MVP in some tough matchups.\n What you get: 1. Bonus AP (10 to 40 AP): This doesn't look too useful, but if you consider that W, R (if you decide to not sell the item) and E (lvl1 scaling is the same for both AP and AD, E passive extra dmg) all scale with AP, but I'm going to talk about this later. 2. +25% Potions efficiency + early rechargable: this supplies to the lack of sustain, and usually is enough, if you need more pots you can just recall and get an item while you're there. 3. Bonus Mana: I've seen that a lot of people say that the lack of Mana in early game can be really bad in a lot of situations with this champion (I noticed this too), and the +200 Mana and I noticed that it makes a big difference in a lot of situations (eg. you can be more aggressive with your abilities).\n Let's talk about scaling:\n As I said before, W, E and R all scale with AP (except for E, it scales with AD too), obviously you don't really want to deal a lot of damage with your W, it's an utility spell, but let's check out the advantages of this extra AP.\n W: You have more Mana in early game, so the W's huge cost will be a smaller issue, plus you deal a bit of extra damage on impact, and it can be a little helping hand when finishing an enemy; The scaling is 50% AP if you don't know it (so it's 95/295+5/20 dmg, not a huge difference, but it can be useful during tower dives on low hp enemies, becoming the difference between 1 or 2 AAs).\n R: Tristana's Ultimate has 100% AP scaling, this means that it's a 10-40 damage extra, it does not sound like a lot, but if you have a game where you are getting feeded and you have spare gold, you can buy Mejai's and get up to 145 extra damage (+10% MS) on R. This means that a level 1 R with a 16 stack Mejai's can deal the same damage of a level 2 R and you don't actually have to get the kill for the stack, you just need an assist (building Mejai's is risky tho, so do this when you know you probably won't die a lot)\n E: This is where most of the benefit comes in early, a level 1 E has the same scaling for both AD (50/130% + 110/286%(+15/39%xStack)) and AP (50+110%(+15%xStack)) plus, you get extra damage on E's passive that scales only with AP (25%) which can look like not much, but it gives a lot of help when clearing waves, especially with 2 or 3 stacks on the dark seal (the damage is 55/155 + 3/10 or +5/37 with Mejai's), it allows to oneshot all 3 mages way earlier in the game if you get some stacks and acts like a mini Runaan, allowing easier roaming because the wave is easier pushed towards the enemy; it allows you to play like Ahri, push the wave, roam, recall, get back to lane.\n Where it benefits the most: 1. Against hard wave pushing champs (eg. Ahri) (aka you need more crowd control). 2. More AD resistant champions but with weaker MR (better damage on W and R, you're better off build lethality tho). 3. When you need to clean your wave quicker because you need to roam.\n Where it benefits the less: 1. The majority of hard matchups (just play it safe ffs). 2. When you need to focus way more on poking a lot with AAs (and you won't jump too often) and less on farming. 3. Dealing more damage to a single object (Drakes, Rift Herald, scuttles for example)\n I don't have anything else to say other than please don't go \"xdxd u absolute n0b fuking play the meta u lil special snowflake\", I'm just discussing the viability of an item on a champ, I'm not saying \"This is the new meta and you are dumb if you take Doran's blade\".\n Good luck and thanks for coming to my TED talk.",
+   "id": "isq763",
+   "comments": [],
+   "age_days": 2216,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Tristana mid viable or troll?",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/icwj2u/tristana_mid_viable_or_troll/",
+   "published": "2020-08-19",
+   "author": "/u/SrAnimal20",
+   "body": "I dont like to play ADC so I play 3 games with tristana mid and lost, some help to stop trolling and improve with tristana (novice with tristana)build, rune,playstyle and matchup",
+   "id": "icwj2u",
+   "comments": [],
+   "age_days": 2242,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "First time Tristana experience",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/i2a2y3/first_time_tristana_experience/",
+   "published": "2020-08-02",
+   "author": "/u/Franks_Spice_Sauce",
+   "body": "So I tried out tris today and had a lot of fun. I enjoy jumping around blowing things up and attacking at the speed of light. All was good until late game where the bot laners simply overpowered us. What kind of tips do you guys have for bad bot lane matchups or generally annoying adc's like caitlin, ashe, and twitch?",
+   "id": "i2a2y3",
+   "comments": [],
+   "age_days": 2259,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "1.45 Million Point Tristana Only Twitch Streamer - ThePositiveGuy_",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/fhnjkj/145_million_point_tristana_only_twitch_streamer/",
+   "published": "2020-03-12",
+   "author": "/u/ChronicKneePainGuy",
+   "body": "Hey all, just getting started on Twitch been around for a couple months and started to stream recently!\n My twitch stream is twitch.tv/thepositiveguy_ (there is an underscore at the end of the name). League name is the same minus the underscore (_).\n I am currently Silver 2 and climbing slowly, maining Tristana ADC only! Finished last season Gold 2. I currently have just over 1.45 Million Mastery Points on the purple gurl and have no plans in stopping!\n If you are interested in a positive league of legends atmosphere, getting the occasional POGtips on Tristana, or even just watching someone who loves the champ and wants to master her over time play and commentate then drop in!\n My goal is to master Tristana and at the same time become an unstoppable force of positivity. I have not always been the most positive person on LoL but I have been trying to change that for the last 2 years and I think I am making amazing progress! I will only stream Ranked games and I only play on stream. I will pick Tristana into literally every matchup and I will never dodge, Ill play into anything and be positive and try to carry it until one day I CAN carry every game! \n No game is unwinnable when you have a Yordle on your team!\n I honestly have fun when people join my stream and chat, even if you dont follow lol. Since I started streaming this games become fun again, idk why and I cant explain it but its just fun knowing someone may be watching and can chat with you in real time. I think its cool and I am generally pretty happy and quirky so come have a gander if you want some good vibes and Tristana commentary!\n Ill probably be starting to stream around 630 EST tonight give or take! Im new and trying to stick to my times!\n Once again the stream is Twitch.tv/ThePositiveGuy_ and Ill be on around 630 EST with some Tristana Ranked Gameplay from a 1.45 Million Mastery Point Bandle Gunner!\n Even if you don't want to chat I hope you enjoy the stream and know that there will be Tristana only league streamer out there in the future who may at one point get to a more covetted rank! I may be low elo but some things I say can be very useful!\n Have a great day, if you stop by later thanks in advance! :)",
+   "id": "fhnjkj",
+   "comments": [],
+   "age_days": 2402,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Help out your fellow jungler",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/esgt54/help_out_your_fellow_jungler/",
+   "published": "2020-01-22",
+   "author": "/u/chillz234",
+   "body": "Hey! \n 1.What kind of ADC is Tristana, does she scale, have damage early on? \n What matchups favour her? \n\n How do you want your jungler to play around you? \n\n Thank you",
+   "id": "esgt54",
+   "comments": [],
+   "age_days": 2452,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "New Stormrazor",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/du747p/new_stormrazor/",
+   "published": "2019-11-10",
+   "author": "/u/sclomabc",
+   "body": "The new Stormrazor is gonna bring Tristan's back into the meta with it's early game power. In case you didn't know it now provides crit chance along with your energized attacks to stack so you can go Stormrazor, RFC/stattic then IE for a powerful 1 2 and 3 item spike and still have your boots and then 2 situational items so you could get phantom dancer or GA for assassin's or if your looking for raw damage get the zeal item you didn't get earlier then finish off your build with a bloodthirter. Tristan's might finally be meta after she kind of fell out for no reason other than matchups.",
+   "id": "du747p",
+   "comments": [],
+   "age_days": 2525,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Tristana top and mid?",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/b0l0uw/tristana_top_and_mid/",
+   "published": "2019-03-13",
+   "author": "/u/Izachiel",
+   "body": "Former Kayle main here ... not really happy about her current state, especially the non-ranged part.\n ​\n So i thought i move on and search for another hypercarry who can solo lane pretty safely (maybe not as strong as Kayle late, but still very strong).\n Since i have Firefighter Tristana lying around as skin shard for couple month now, i thought about if she could work and in my humble opinion, she might be viable.\n She may start out with subpar range (still enough to farm safely) but it will just get better and better.\n You can shove waves in really fast if needed for priority, you have a pretty reliable escape tool and from 6 on, a disengage on top.\n ​\n Tried it out a few games top, but not really the typcial matchups (played vs a Kayle who i completely destroyed, a Cassio who won vs me, both without jungle interference and a Vayne, who i won against pretty hard too)\n Do you guys have any experiences if she works well (or at least safe) in top lane especially vs the typcial top laners (like Riven, Jax, Fiora, Darius, Camille, Renekton etc.) , and is she really that good in lategame?\n ​\n Build would probably typical crit ADC build, although i am curious to try out different things and looking forward to it.\n ​\n PS: Silver/Gold rank",
+   "id": "b0l0uw",
+   "comments": [],
+   "age_days": 2767,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Week 20: R The Ultimate Buster Blaster",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/9kmm09/week_20_r_the_ultimate_buster_blaster/",
+   "published": "2018-10-02",
+   "author": "/u/Cain_The_Enabler",
+   "body": "This is a continuation of my ongoing Tristana tips and mechanics guides. These guides will come out semi weekly and are somewhat dependent on the previously posted ones. If this is your first time visiting r/TristanaMains I would highly recommend reading and mastering the mechanics outlined in the previous guides in the order they are posted. The ultimate goal behind this project is to create a community driven comprehensive guide to the Bandle Gunner herself, Tristana.\n Using E. Timing in Lane and Maximizing the Passive\n https://www.reddit.com/r/TristanaMains/comments/9d121a/week_17_using_e_timing_in_lane_and_maximizing_the/\n It is important for any ADC player to learn how a champion operates mechanically in the lane phase. Wave management is arguably the most fundamental and important skill of any ADC player and Tristana's E is the main tool that she has to this end. Please take the time to master utilizing her E in the early game as it is a mechanic unique to her and drastically effects the lane phase.\n W Mechanics. Resets and Synergy. Lane Vs Late\n https://www.reddit.com/r/TristanaMains/comments/9fo8qg/week_18_w_mechanics_resets_and_synergy_lane_vs/\n Tristana's W and its reset mechanics are what makes the champion viable in all iterations of the game. She'll be viable in every ELO including pro play because of the safety and teamfight potential this ability and its reset synergies afford. The problem with W is that the knowledge of the safety that it affords, in combination with the potential reset pop off, creates a feeling of invincibility for the seasoned Tristana player. Ironically more experienced Tristana players win less games on average than those relatively newer to the champion. I attribute this to the \"reset effect\" It is important to curb this feeling of invincibility to improve your overall performance and throw less.\n Q Use Cases. The Subtle Powerspike \n https://www.reddit.com/r/TristanaMains/comments/9i4zum/week_19_q_use_cases_the_subtle_powerspike/\n Proper use of Q in lane is not as straightforward as you may have come to believe. You must come to respect the fact that Q is the single most important damage tool that you have, In the late game you'll lose out on 2800 gold worth of stats if you fail to use it at ideal times during a teamfight or a siege. During the lane phase it is important to use this ability sparingly, but with purpose. Trading with Q is a very important skill to learn. Realize that using E in a trade will make your opponent raise the white flag and concede earlier than you may like. Maximize your damage by softening them up with a flurry of auto attacks first.\n Next week will be the release of the first edition of the wiki guide. This guide will be periodically updated for readability and formatting. I'll make sure to put it somewhere visible and easy to find in both New and Old Reddit. The following week will touch on items and then we will begin the matchup series.\n Ability Reference Buster Shot\n RANGE: 525 − 661 (BASED ON LEVEL) \n COST: 100 MANA \n COOLDOWN: 120 / 110 / 100\n ACTIVE: Tristana fires a massive cannonball at the target enemy, dealing magic damage and knocking back the target and all enemies around them.\n MAGIC DAMAGE:300 / 400 / 500 (+ 100% AP)\n KNOCKBACK DISTANCE:600 / 800 / 1000 \n Notes\n Tristana will automatically be ordered to attack the target of Buster Shot.\n The initial target is affected by single target spell effects, while subsequent targets take area of effect.\n Credit to leagueoflegends.wikia.com \n\n ​\n R The Ultimate Buster Blaster Buster Shot... This ability is wonderful. On its own it is a fantastic peel tool, but combined with W it makes Tristana the safest and most reliable late game ADCs in League of Legends. Buster shot is a straightforward tool and as such I'm not going to get too deep into it. For starters I want to make one thing absolutely clear. Let's define \"buster\" shall we?\n Buster (slang):\n a : a person or thing that stops or prevents something — usually used in combination\n crime-busters [=people who stop crimes, who catch criminals, etc.]\n b : a person or thing that breaks something apart — usually used in combination\n The new drug acts as a clot-buster. [=it causes blood clots to break apart]\n 2 US, informal + somewhat old-fashioned — used to address a man who is behaving in a way you do not like\n Wait a minute, buster. You're trying to trick me, aren't you?\n www.merriam-webster.com/dictionary/buster \n Sure a great many people will think buster shot and connect it to buster sword. It is not an incorrect association, but it does kind of miss the point. The ability's name is a wordplay on the use of the term buster. Think of it this way. This ability is the biggest middle finger any ADC has for those pesky busters trying to get you. You could call it a Tank-Buster, Assassin-Buster, or an ADC-Buster. You could call it an engage-buster, a dash-buster, a c**k-blocker. Above all it is the BUSTER-BUSTER!\n Tristana's voice lines allude to the core mechanic of this ability as well. This ability is a knockback, a peel tool and any use other than to this end should be considered sub-optimal. Of course we'll still break this rule...\n https://vignette.wikia.nocookie.net/leagueoflegends/images/e/ee/Tristana.spellR4.ogg/revision/latest?cb=20150114225110\n ​\n Tips on R Use in Lane\n As I stated before R is very straightforward. It is a peel tool, but it can do more than just stop a pesky jungler. Consider its use in creating separation between the enemy ADC and support during an enemy engage. Consider when you use it when escaping. R should be used as a last resort\n Tip One: If you feel like the enemy is going excessively aggro on you, for example, if a Vayne decides to ult and pick a fight that is your cue to GTFO. Make sure you use your R on the biggest threat to your life. In most cases this will be the enemy ADC, but in some cases a fed Brand for instance will be your target. Your goal is to disrupt the enemy's cool downs and get the enemy lane out of sync during a fight that they start. This will enable you take advantage of them later as most of Tristana's damage is loaded into her Q and E and not her R.\n Tip Two: In a gank, make sure that you re-position yourself so that the R knockback is maximized. Be careful not to R someone into a wall. Use W to create an optimal angle\n Tip Three: Hold your ult until after the enemy uses their main gap closer or ideally before they get into range for them. This will ensure that the peel will stick\n Tip Four: Try to prevent a set up engage before it happens.\n A few champion specific notes.\n Zed: Don't R a Zed if you think he is ulting you. Wait for the shadow to appear behind you and then W away followed up with an R. This is because Zed R out ranges your ult for most of the game.\n Lee: Lee can be knocked back during his second Q activation. Lees will also leave themselves open to a Buster Shot when they attempt to ward hop for a good R angle. If Lee is flanking you try to R him as he uses his ward hop. This can leave him dead in the water under your turret and, if he dies, it is a prime opportunity to type\"?\" in all chat and let the flame commence.\n Kayn: Sometimes it can be possible to ult him through a wall when he uses his E, but this is very difficult and usually impossible to time. Make sure you ult this guy early so he cannot land a single ability on you. This is a champion you will likely use a midair ult on.\n Vi: W away during the ult and R her after it lands.\n Graves: Wait for the smokescreen to W away and R him if he gets into your face, but generally Graves should not be your R target.\n Rammus: Ult this dude when you see him. Do NOT let him taunt you ok?\n Alistar: Ult him during his W if you know he is setting up a gank. This will make him look very silly and immediately prevent the gank.\n Camille: Ult her out of her circle thingy and watch it fizzle\n Kindred: See Camille\n ...\n Now this list can go on for a while and I am open to suggestions for other champion specific use cases, but you get the idea. As a general rule of thumb try to ult the damage away and try to ult the set up engage away before it happens. Knowing when and how to use R really only come with experience as it is a highly situational ability. As with any escape tool it is your responsibility to play around its CD. Expect your lane opponent to time your ultimate and organize a gank while it is down. As a result it is important to be aware of its CD at all times. If there is any ability that Tristana has that should be held it is her R. This ability is why people hate playing against her. It's basically a get out of jail free card and at later ranks it is a serious disruption tool.\n ​\n Tips on R Use Out of Lane: Target Selection\n ​\n Using your ult outside of lane phase should be focused on the enemy assassins first then followed by the fighters then the mages and then the tanks followed by the enemy ADC. It is important to note that assassins have a ton of gap closers, but rank 2 ultimate will knock these busters back to the fountain. \n Ult away the champion that is directly threatening your life\n Avoid ulting the tank. You can escape most tanks with a W\n Avoid ulting the ADC as it can foil your team's own engages and leaves you open to an assassin or fighter all in\n ​\n Final Tip KSing With R\n ​\n Don't do it! No really just don't do it. Not in lane and not ever. The purpose of the R is the knockback. Ok who am I kidding? Of course you'll try to KS with R, but this should only really be done in combo with your E to get that quick final stack. Remember that R will apply a stack to your E. R has a few interesting quirks when used in an all in combo. R will not lock you out from issuing an attack command after you cast it. This can allow you to auto attack after you R. This is a fun mechanic to play around with and when combined with proper animation canceling it can allow you to preform a lightning fast all in. The combo requires practice, but it is basically:\n Q>AA (cancel)>W>Midair E>AA>AA (cancel)>R>AA\n W onto the target if you have cojones in the lane phase, but get used to the safer:\n Q>AA (cancel)>E>(move attack move cancel) AA> AA (cancel)>W>R>AA\n Move attack move refers to canceling an AA or ability wind down with a move command. when used with AAs alone it is referred to a \"orb walking.\" This second combo will allow you to W forward or backwards if something unexpected happens like a flash or engage. The end result remains the same. \n THE ULTIMATE STYLE KILL INVOLVES DETONATING YOUR E WITH THE AA AFTER THE R KNOCKS THEM BACK This is purely style, but it is fun to play around with.\n ​\n Final Thoughts\n As I said R is straight forward, but its proper use as a peel tool revolves around timing and target selection. I'm not going to go into any more details than this with R as the ability is extremely situational. This ability has a low skill ceiling and is why Tristana is considered an \"easy\" champion. If you have any use tips or quirks against a specific champion feel free to add them below.",
+   "id": "9kmm09",
+   "comments": [],
+   "age_days": 2929,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Week 19: Q Use Cases. The Subtle Powerspike",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/9i4zum/week_19_q_use_cases_the_subtle_powerspike/",
+   "published": "2018-09-23",
+   "author": "/u/Cain_The_Enabler",
+   "body": "This is a continuation of my ongoing Tristana tips and mechanics guides. These guides will come out semi weekly and are somewhat dependent on the previously posted ones. If this is your first time visiting r/TristanaMains I would highly recommend reading and mastering the mechanics outlined in the previous guides in the order they are posted. The ultimate goal behind this project is to create a community driven comprehensive guide to the Bandle Gunner herself, Tristana.\n Using E. Timing in Lane and Maximizing the Passive\n https://www.reddit.com/r/TristanaMains/comments/9d121a/week_17_using_e_timing_in_lane_and_maximizing_the/\n It is important for any ADC player to learn how a champion operates mechanically in the lane phase. Wave management is arguably the most fundamental and important skill of any ADC player and Tristana's E is the main tool that she has to this end. Please take the time to master utilizing her E in the early game as it is a mechanic unique to her and drastically effects the lane phase.\n W Mechanics. Resets and Synergy. Lane Vs Late\n https://www.reddit.com/r/TristanaMains/comments/9fo8qg/week_18_w_mechanics_resets_and_synergy_lane_vs/\n Tristana's W and its reset mechanics are what makes the champion viable in all iterations of the game. She'll be viable in every ELO including pro play because of the safety and teamfight potential this ability and its reset synergies afford. The problem with W is that the knowledge of the safety that it affords, in combination with the potential reset pop off, creates a feeling of invincibility for the seasoned Tristana player. Ironically more experienced Tristana players win less games on average than those relatively newer to the champion. I attribute this to the \"reset effect\" It is important to curb this feeling of invincibility to improve your overall performance and throw less.\n Next week will be R and more combo mechanics. After that I'll flesh out the guide and begin placing it on the Wiki for anyone interested. While I'm doing this I'll start a matchup discussion for each ADC and support and link the discussions in the guide.\n Ability Reference Rapid Fire\n COOLDOWN: 20 / 19 / 18 / 17 / 16\n ACTIVE: Tristana gains bonus attack speed for 7 seconds.\n BONUS ATTACK SPEED: 50 / 65 / 80 / 95 / 110% \n Notes Ranking up Rapid Fire while it is active will not increase your attack speed because it applies a non-refreshing buff\n Rapid Fire has no cast time and does not interrupt Tristana's previous orders.\n Credit to leagueoflegends.wikia.com\n ​\n Q Use Cases: The Subtle Powerspike ​\n Before I go any further I want to make this one fact abundantly clear. Max rank Q is objectively overpowered. Tristana with Q up after level 13 is quite simply a terror on the rift. For this reason it is important to know when to use the ability and when to keep your trigger finger at the ready. Optimal Q use in lane varies from optimal Q use in team fights. Two things to keep in mind with the Q. Number One: IT COSTS NO MANA. Number Two: At rank one this ability provides 1300g WORTH OF FREE STATS. At max rank this ability provides a whopping 2800g worth of stats FOR FREE.\n ​\n Q's free stats and the fact that her E scales extremely well with AD are the main reasons why early AD is your go to. The Q is why people also consider BORK on her. It is also the reason why Blood Thirster is not that bad on her. The free attack speed allows her to stack the passive on both of these items quickly and reliably in the mid game. It allows you to be a safe pick into assassins and a reliable pick into tanks. There is simply nothing bad about this ability. The only problem you will run into is you'll find yourself using it too much and you'll spam Q mid fight waiting for it to come off cooldown like a druggie on withdrawal. So today we'll talk about when you should use your Q and when you should not. Too much of a good thing can be bad my dudes.\n ​\n Use Case One: The Level 2 Problem\n ​\n In mid to high ELOs enemy ADCs know that Tristana is strongest while her Q is active and weakest while it is on cooldown. Of course you likely wont get Q until level 3. Good supports will realize that pressing for an early kill vs Tristana at level 2 is essential in gaining lane momentum. I'm sure you have noticed this problem already. Your goal in the early game is to get momentum yourself and dictate the pace of the lane. To this end it is important to get to lane first. The jungler is a big boy he does not need you to do all the damage to the buff. Most of the time your support will stay behind for a few seconds anyway, but that's their job. Give the buff a fully stacked E and a few autos and book it to lane. It is very important to realize that this strategy of getting to lane early is not unique to Tristana. Get yourself in the habit of doing this for every ADC, but especially for Trist. Your early game should all be about getting past level 2 into level 3 alive and with lane priority.\n ​\n Use Case Two: Wave Management\n ​\n I'm going to be using this term a lot for this ability. Momentum Momentum Momentum. As i stated earlier Tristana is weakest while her Q is down and strongest while active. It is much less important to keep track of her E active from a resource management perspective Q use to equalize lane movement is very alluring, but be careful. If you use your Q too early you will be punished. When you use your Q to assist with your farming you should be doing it only when you can safely escape or hide behind minions. For example DONT use Q if you are slightly behind in last hitting creeps. This is because of the E passive. E passive usually equalizes the wave for you. DO use your Q when you are ahead in the lane and you want to quickly push into the enemy turret. This is because W will allow Tristana to play very safely even with priority. DONT use your Q while a minion wave is walking towards your turret. DO use your Q once the enemy wave crashes into the turret. Unless you can attack move like it is second nature waiting for the minions to stop moving will allow you to reap the full benefit of the ability. Q use in wave management takes time to get the feel for, but always keep this in mind when you use the ability:\n WHAT WILL I DO ONCE Q IS ON CD? WILL I BE SAFE FROM RETALIATION OR WILL I LEAVE MYSELF OPEN?\n If you used your Q to manage a wave and you see the enemy support walk into the brush on your side of the lane you probably should back off. Tracking Q's CD playing as or against Tristana will make or break the lane phase. (It's literally free stats for f\\*ks sake))\n ​\n Use Case Three: Trading in Lane\n ​\n Trading with Q is a much much more efficient use of the ability than wave management. If you have PTA it will be very easy for you to proc it while your Q is up. Watch the enemy lane and look for these situations.\n The tank support walks forward to last hit a melee minion ATTACK THE SUPPORT!\n \n The enemy ADC is tunneling on a cannon creep ATTACK THE ADC!\n \n The enemy support walks into the river ATTACK THE ADC!\n \n The enemy support walks into a warded bush on your side of the lane ATTACK THE SUPPORT!\n \n This list of situations can go on for a while, but keep in mind that, in all of these situations, without support assistance it will be unlikely that using E is a good idea. Get into the habit of using Q to trade and poke in these types of situations. The enemy lane is far less likely to respect your damage if THEY DON'T HAVE A GIANT TICKING BOMB ON THEIR FACE. Q is subtle and as a result you may find yourself in situations where people \"take the bait\" and wont run away for fear of being exploded. Your opponent may decide to take the trade and commit. Only when your opponent commits to a fight or you have been provided CC by your support should you consider using your E in a trade. A simple Q could be all you need to come out ahead in a fight and in the lane.\n It is also important to know that Q should be used BEFORE E in most trade situations. Using Q before E is important because it will not only allow you to soften them up for your E, but it also plays into E's mechanics. If you recall, the cast time of E is reduced by attack speed. Both the projectile and the animation will go much faster while Q is active. This is essential to consider when trying to quickly stack your E.\n Using Q first is also good because IT HAS NO CAST ANIMATION. I mean it does have a visual and audio cue but the ability will not interrupt your move commands. This allows you to get into position easier for a trade.\n To put things simply, trading with your Q at the proper time will catch a lot of ADCs and supports by surprise. Keeping your opponents low will play into their fear of being exploded by a QWER combo. A full health Tristana is terrifying if you are an enemy ADC at or below 75% HP. The more you are able to take advantage of beneficial trades without using your E the more effective the E will become in creating a fear response in your opponent once you finally use it on them. Play into the mind game and build momentum with your Q. An ADC who plays into this mind game has already lost the lane vs Tristana.\n As a final note on trading with your Q I want to touch on using your E active on the wave. Using your E on the wave can sometimes cause the enemy to \"take advantage\" of you. If you want to play a next level mind game try baiting people into playing around the E CD instead of the Q CD. If your opponent tries to fight you after you have shoved a lane with your E you have the benefit of more minions on your side and you still have your Q up. This use case is an exception to the \"use Q first\" rule in the lane phase. The goal here is to bait a fight and trade with Q. You will always have your W if things get too hairy.\n ​\n Use Case Four: Turret Pushing\n ​\n This will be a short point. If you find yourself attacking a turret freely it will likely be more beneficial to Q and auto a few times before you use your E. Or E proc and then come back to attack the turret with your Q up. This is because of the E radius increase when used on turrets. You'll likely draw turret aggro with the E so staggering the E and Q activation will maximize the damage that you deal to the turret. The ultimate turret pressure combo will involve quickly pushing a wave with your E. Then follow this up by attacking the turret with your Q up and the enemy is distracted by CSing under turret. After that you'll E when you notice the next wave has passed the midway point between the inner and outer turrets. Then you'll wait for the thinned out enemy wave, Q it into submission then W away for a recall.\n This pressure pattern is extremely dangerous and punishable. Make sure you are free from gank pressure BEFORE you attempt this.\n ​\n Use Case Five: Team Fighting\n ​\n It's an early lesson that league players learn. There comes a point in the game (20 minutes in) where objectives and team play become the focus of the game. This shift can actually happen earlier and is generally focused on a winning lane. For instance, you are playing Tristana (of course), and the jungler ganks. If this gank results in two kills with no one on your team dying AND you have a BF sword YOU WILL get the turret. As Tristana, first turret is the pipe dream. This objective signals the beginning of the midgame. Early midgame is called the \"rotation\" phase by most veterans. This is when, as an ADC, it is your job to aid the support with vision control and push down the next turret or objective. It is important to pick the next turret wisely. Choose the lane that is doing better in their 1v1 and ask politely for them to take the 1v2. A lot of the time in low ELO people will flame you for suggesting this. If they do this then just mute them and press their advantage together. When it's all said and done once this second turret gets taken down you'll likely want to call for neutrals like dragon or scuttle/herald to assist in taking down the losing or even lane's outer turret.\n I know this has nothing to do with your Q, but I simply wanted to make sure that we realize that the start of the rotation phase will dictate a change in your Q use. You will of course still use your Q on turrets if you are able to attack freely, but It should be noted that in a siege you simply MUST be sure that your Q will be up for a potential engage by the enemy team. If the enemy team can catch you while your Q is down in this phase of the game you'll lose out on a full item's worth of gold efficiency (2800g). When your ahead it's not that important, but when you are behind you best keep that rocket in your pocket for the time when you are able to freely auto the enemy team.\n In team fight you will wait for peel or for the enemy to focus someone other than you before you activate your Q. You will lose out on A METRIC TON of damage if you get CC'd during your Q. If you are not getting peel be sure to utilize your W>E>W reset to create distance from that pesky bruiser and press Q while they run away. The ideal situation to use Q in a teamfight is when the enemy is routed. This is when you'll look for resets. To list some of the use cases for a teamfight:\n You have peel and the fight is a fiesta\n The enemy used their CDs and your W is up\n The enemy switched targets because you W'd away\n The enemy is routed\n Pretty much the only thing you DON'T want to do is use your Q early. Yessir this is completely different than lane phase, but League is a completely different game after lane phase so this should be expected.\n ​\n Conclusion and Notes\n ​\n I know that my guide is very wordy right now. When I finish everything it will be a lot more deliberate and to the point. That being said, It should be noted that Q, from a reliability standpoint, should be your most essential damage tool that you have. Learning when and how to use Q will make Tristana feel less weak in the lane phase and will enable you to get more multi kills in the mid-late game. I'll see you next week when I'll talk about R.",
+   "id": "9i4zum",
+   "comments": [],
+   "age_days": 2938,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Week 18: W Mechanics. Resets and Synergy. Lane Vs Late",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/9fo8qg/week_18_w_mechanics_resets_and_synergy_lane_vs/",
+   "published": "2018-09-14",
+   "author": "/u/Cain_The_Enabler",
+   "body": "This is a continuation of my ongoing Tristana tips and mechanics guides. These guides will come out semi weekly and are somewhat dependent on the previously posted ones. If this is your first time visiting r/TristanaMains I would highly recommend reading and mastering the mechanics outlined in the previous guides in the order they are posted. The ultimate goal behind this project is to create a community driven comprehensive guide to the Bandle Gunner herself, Tristana.\n ​\n Using E. Timing in Lane and Maximizing the Passive\n ​\n https://www.reddit.com/r/TristanaMains/comments/9d121a/week_17_using_e_timing_in_lane_and_maximizing_the/\n It is important for any ADC player to learn how a champion operates mechanically in the lane phase. Wave management is arguably the most fundamental and important skill of any ADC player and Tristana's E is the main tool that she has to this end. Please take the time to master utilizing her E in the early game as it is a mechanic unique to her and drastically effects the lane phase.\n ​\n NEXT WEEK WILL BE Q\n ​\n Ability Reference Rocket Jump\n TARGET RANGE: 900\n COST: 60 MANA\n COOLDOWN: 22 / 20 / 18 / 16 / 14\n ACTIVE: Tristana dashes to the target location, dealing magic damage to all nearby enemies on impact and slowing them by 60%.\n MAGIC DAMAGE: 85 / 135 / 185 / 235 / 285 (+ 50% AP)\n **SLOW DURATION:**1 / 1.5 / 2 / 2.5 / 3\n On enemy champion takedowns or upon detonating Explosive Charge at maximum stacks on an enemy champion, Rocket Jump's cooldown is reset.\n Notes\n Tristana can still use basic attacks, abilities, summoner spells and item actives while in the air.\n Rocket Jump's speed depends on the distance of the jump. Melee range jumps are much shorter while long range jumps leave Tristana in the air significantly longer.\n Tristana is still targetable while jumping and can be hit by skillshots such as Ashe's Enchanted Crystal Arrow and Ezreal's Mystic Shot. Non-airborne crowd control effects, such as stuns and roots, will take effect upon landing and will not cancel the jump, with the exception of Veigar's Event Horizon.\n All airborne crowd control effects, such as knockups, knockbacks and pulls, will cancel the jump and then complete their effects as normal.\n \n Credit to leagueoflegends.wikia.com\n W Mechanics. Resets, Synergy and Lane Vs Late ​\n Part One: The Reset Effect\n ​\n Let's take a moment and begin discussing the most polarizing ability of any ADC in the game, Tristana's W. Its mechanics are notorious for literally throwing games or absolutely dominating them. Now it only takes a few games to discover the most iconic part of this ability, the reset. This reset mechanic, once learned and used successfully only a handful of times, creates a primal urge in a Tristana player. It's important to note that this urge is sometimes irresistible. Adrenaline and/or desperation can cause lapses in judgment that you may or may not immediately regret. This problem is not as pronounced in champions like Ezreal, Caitlyn, Vayne and Lucian for very simple reasons... The reset mechanic and the cooldown. It's not that you're a bad player for making these \"braindead\" W into the team and die \"plays,\" it's simply a mentality problem. It's an insatiable hunger to WATCH THINGS EXPLODE! and then jump away. If you have played assassins before I'm sure you know this feeling all too well\n Now that we got that out of the way I have a few tips I have encountered when it comes to minimizing these mistakes and recover from them when you make them you will make them... we all do.... First and most importantly you need to learn to accept and move on from a W throw. If you mess up and W to your death take a moment to calm yourself down and ask why you decided to do that. The usual answer is... greed and desperation.\n ​\n TIP ONE: Remind yourself that your W will reset on both kills and assists\n TIP TWO: Remind yourself that you are not an assassin and you need to survive as long as possible in a fight\n TIP THREE: Remind yourself that, unlike other ADCs, your gapcloser is on a very long cool down if you cannot get a reset\n TIP FOUR: Forgive yourself and accept your mistake\n TIP FIVE: CALM DOWN\n ​\n Managing the \"reset effect\" on your mentality is the main difference between a mediocre Tristana player and a great one. Even the most mechanical and experienced Tristana players will suffer from the \"reset effect.\" I strongly suggest you take the time to reflect upon these tips and stay as level headed as possible. It really goes a long way, because one bad W can lose a game... PERIOD!\n ​\n Part Two: Synergy with E and Various Mechanics\n ​\n No we will begin with more the more gameplay oriented part of this guide by discussing some of the simple and complex mechanics and a couple not so obvious tips when using W. As we have already reviewed, and as everyone knows, Tristana's W resets on kills and assists. There are however five additional core mechanics with W you will need to learn before you can master this champion.\n SYNERGY WITH E\n The first and most important, mechanic to learn is best described as synergy with your E and it has two parts; stacking and resets. First off is the stacking synergy. E will apply a stack for each auto attack and ability used on the target. This mechanic should only really be used in lane and in skirmishes as routinely using it in the late game can cause problems, as previously discussed. The second part is useful in all stages of the game and is EXTREMELY IMPORTANT to master. When you detonate a fully stacked E on a champion or turret your W will reset. In short:\n Landing abilities such as W on a target with E on them will apply a stack\n Detonating a fully stacked E on a champion or turret will rest your W\n With these facts in mind lets go over how to maximize them briefly. In lane the first part will be used exclusively to burst a target caught out of position. Be very careful when doing this and make sure that major CC abilities are down. These abilities include Braum passive and ultimate, Ashe ultimate, Varus ultimate, Thresh everything, Morgana Q and the list goes on. Only initiate this mechanic, in other words, in very clear pick and/or snowball related scenarios.\n The second part is a more risk averse related synergy. Maximizing the E reset mechanic usually involves learning a very counter intuitive play pattern. This involves using your E only on the target you are absolutely going to be able to attack. Sure it's very cool to watch a squishy target explode, but in most cases it will be better for you to learn to use it against tanks and bruisers running it down or junglers desperate for a gank. The latter of which is very important, because not only does the E dissuade your target from pressing forward it also opens up the potential for a double W (sounds weird to say this out loud). In lane phase you will use E synergy primarily to escape ganks, but its use in pick related situations should not be downplayed either, as it can enable you to stack the slow and counter a panic flash. In teamfights and skirmishes it would be advisable to primarily use E as a kiting tool vs tanks and bruisers because of this little know reset mechanic. Don't be afraid to W away from a fight. You'll get another reset. Learn to trust your team and remember W resets on assists as well.\n USING THE SLOW\n Let's get this out of the way. Using the W slow is generally something you should avoid doing except in pick and chasing situations, but don't underestimate it. The 60% slow on W is not something to ignore. Even with a one second duration it can be useful to save a fleeing support/ally. It can also assist in baiting out a flash when following up on a lane or skirmish pick situation. At the same time please be careful and NEVER use it during a teamfight. By now I'm sure you noticed a theme with Tristana's W. This theme is adjusting your playstyle as the game progresses. Failing to adjust after minute 20 has passed can result in a throw. Be sure to be mindful of this.\n THE MIDAIR COMBO MECHANIC\n Oh boy this mechanic is great fun! I'm serious, For me the allure of Tristana's design was not her reset mechanic, but the ability to literally attack and cast abilities mid-air. A few things to note about attacking mid W. You cannot auto attack during the wind up animation and while you are in the air Tristana will simply not be able to do it. What you need to do is learn how to \"animation cancel\" or \"buffer commands.\" This particular mechanic is not unique to her W. You can also \"buffer\" an attack with E and R as well. So what is input buffering you ask? Well this is a mechanic that takes a lot of explaining. I'd recommend watching some Riven \"animation canceling\" videos on Youtube as a ton of them are very educational as it relates to explaining this mechanic.\n A short and simple description requires knowledge of the different parts of an ability or attack animation. These parts are wind up, activation and wind down. Essentially, the point of \"animation canceling\" is to reduce the amount of time between abilities. This mechanic is ABSOLUTELY ESSENTIAL to reach the skill ceiling on Tristana. The E cancel is simple. All you do is E immediately after the activation phase on her auto attack animation. E has a wind down \"ability lockout\" but it is almost not noticeable because it is very short (for more on wind down ability lockout refer to riven W). So try begin animation canceling an auto attack wind down with E before you move on to W. W's lockouts are interesting. Tristana cannot technically auto attack midair, but similar to her E you can cancel the attack wind down with the W wind up animation. Now, while you cannot attack midair, this \"buffered auto attack\" will create the illusion of a midair auto attack You CAN however use Tristana's other abilities freely while midair. This means you can follow up the auto attack W animation cancel and immediately follow it up with a midair E or R. Using a midair E or R will disable the wind up wind down lockouts of said abilities and will replace them with the W lockouts (refer to Riven E>W combo). The W wind down lockout can only be canceled with a move command and simply will not work with an attack move click (again similar to Riven and universal to most wind down cancels). After that you will auto attack and then cancel the attack wind down with an R. R is also almost uniquely one of the few abilities that does not have any wind down lock out at all, but you will need to issue an attack move command BEFORE your target gets out of your attack range. I know this is very very technical. This is why i recommend watching a few Riven tutorials. Now I know this may not seem important and you may be saying, but hey can't I just use the midair E mechanic and call it a day? I suppose you could if you have trouble with your APM (*cough* 420 blaze it *cough*), but properly buffering auto attacks will change a 3-4 second combo into a 2 second combo. This can be the difference between getting the kill and the enemy flashing away. I strongly suggest practicing these \"buffering\" mechanics in the practice tool.\n 4. W STUN AND SNARE IMMUNITY AND DISPLACEMENT VULNERABILITY\n This is a very controversial mechanic when it come to Tristana, but it is not unique to her. Some champions like Ezreal can do this to a greater effect for instance. The mechanic is simply this. Once Tristana successfully executes a W command she will become invulnerable to stuns and roots as they relate to preventing the movement granted by the ability. What this mean is that if you notice you are about to be stunned by Braum passive Morgana Q etc you should W before you get hit, because even if it lands you will still move the full W distance. There are exceptions to this immunity. Tristana can be pulled out of the air from a displacement ability like Thresh E and Q as well as Alistar and Janna knockups. Be especially mindful of this as getting your W canceled by displacement puts it on CD and leaves you vulnerable. One small note Blitzcrank's grab is coded as a stun... something something small indie company. In short this mechanic, both the stun and snare immunity, and the displacement vulnerability are very important to be aware of. It will save you the headaches of jumping away from a Thresh after his second Q activation only to find yourself pulled out of the air by his E. Do yourself a favor and save your W until after these abilities hit if you cannot avoid them.\n 5. W WALL INTERACTIONS\n Just a short excerpt Tristana's W is one of, if not the longest, gap closers in the game. This means that she will have escape paths that other champions will have exceptional difficulty following. So keep that in mind while escaping a gank or when you are caught out in the jungle. It is better to W over a wall than it is to panic W immediately. Remain level headed and remind yourself of this fact and you will find yourself staring at a lot fewer gray screens. It is also worth mentioning a very interesting interaction that Tristana has with thicker walls. If your goal is to jump over one of these walls you can W just past the halfway point to \"instantly\" jump over it. This can be difficult to do at first and you may find yourself \"jumping in place\" from time to time, but as long as you keep in mind that in order to pull off the quick jump successfully you will need to already be able to jump over the wall if you were to cast it at max range and you will need to click W just past the halfway point of the wall but not entirely past the wall. Try watching Vandiril's Instant Malphite ultimate video on Youtube for a complete explanation of this mechanic.\n Part Three: Summary and Conclusion\n As you can probably tell the mechanics attached to Tristana's W are the more difficult and counter intuitive mechanics in her kit. This is to be expected of a utility focused ability, but the use cases of the ability are focused on one thing and one thing only. Be mindful of the game phase you are in and change your play style to match. Nine times out of ten an aggressive W into the enemy team will spell your death conversely failing to W into the enemy ADC during the right situations will leave the lane phase stale and your support bored. Now I'm going to save a detailed discussion of lane phase all in situations and matchups for a much later edition of the guide. In the mean time make sure that you master the W mechanics and internal mind games as they will make or break your Tristana experience. In conclusion Tristana's W is high risk high reward. Keep this in mind and build up experience. All-in champions tend to be the most volatile and unforgiving champions to master for good reason. Tristana's kit is deceptively simple, but the game and map awareness requirements to play her correctly are some of, if not the most difficult to master of any ADC in the game.\n Once again, forgive yourself for the W throws. The best pro's in the world make these mistakes even when a world championship is on the line. If someone flames you calm yourself down remind yourself of the part one tips. I simply cannot stress this enough.\n As before leave your comments and suggestions below. Any feedback is appreciated!",
+   "id": "9fo8qg",
+   "comments": [],
+   "age_days": 2947,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Press The Attack",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/9drp81/press_the_attack/",
+   "published": "2018-09-07",
+   "author": "/u/Grayska",
+   "body": "What matchups do i take this rune into?",
+   "id": "9drp81",
+   "comments": [],
+   "age_days": 2954,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Lethal Tempo",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/9d9jr7/lethal_tempo/",
+   "published": "2018-09-05",
+   "author": "/u/Grayska",
+   "body": "What matchups do i take this rune over fleet footwork? Edit (Wrong rune in title meant to put PTA)",
+   "id": "9d9jr7",
+   "comments": [],
+   "age_days": 2956,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Crit ADC nerfs, and what I've been doing",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/8t7vvl/crit_adc_nerfs_and_what_ive_been_doing/",
+   "published": "2018-06-23",
+   "author": "/u/LilNacho69",
+   "body": "I've been a Tristana one trick for so long, I ended up getting 2 million mastery points on her. So when the Item \"Changes\" came to \"help\" with league diversity, I ended up getting fucked really hard, just because I could only play Tristy. Anyway, I decided to try out some new stuff, which are playstyle changes and rune/build tweaks.\n As for runes at the moment, Fleet footwork still feels the strongest on Tristana. Press the Attack might just not be my rune, but I really don't think it beats FF still. FF with reduced healing is still a decent concept, kind of like why Thresh will always be relevant no matter how you nerf him. I started taking resolve secondaries instead of sorcery, with bone plating and second wind. These help me with laning phase a lot, and I actually would recommend you to try it out.\n So far, Stormrazor RFC IE is the optimal build path, as with any other crit adc. However, I now almost always start doran's shield now. Doran's shield + resolve secondaries have helped me survive laning much easier.\n As of right now, the primary way to deal with harass is to hard shove every wave you can get to. Using E on creep waves and even losing some in the process is still much better than getting shoved in. I have noticed that with so many mage/bruiser/wack picks, Tristana cannot trade against them, so hard shoving and forcing them to focus on cs is the best alternative.\n I think I should say that Trist mains should have a slight mindset change. Trist is weaker, and will lose more. It will be even more painful to go against Draven and MF and now, Lucian.\n I recently started playing Varus, got him to mastery 7 with 100k points. I really enjoy the champ, because of his high burst, which is a lot like Tristana in a sense, as Tristana bursts extremely hard level 6 with the Q E AA AA W R combo. Maybe give him a shot if it helps you de-tilt, I've been playing Varus against harder matchups for trist because his range will help.",
+   "id": "8t7vvl",
+   "comments": [],
+   "age_days": 3030,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Basic Tristana stuff,I've just picked her up",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/8bjm27/basic_tristana_stuffive_just_picked_her_up/",
+   "published": "2018-04-11",
+   "author": "/u/Challenger_Vuk",
+   "body": "Hey guys,whassup?I'm a bronze I eune player that has just picked Tristana up.I've been doin pretty fine,but as y'all know,bronze players are bad,and they need help.So do I.First off I would like to know how do I play her in lane,like am I passive and just ward and farm in the early game and scale?Or I can be agressive?Or it depends in the matchup or my supp?Also,what is Tristana's power spike?What is the biggest threat to her,or I'd better ask,what do I ban most of the time?What are the core mechanics and is there a twitch streamer or a youtuber that plays her often.Thanks in advance,hope ur havin a nice day.",
+   "id": "8bjm27",
+   "comments": [],
+   "age_days": 3103,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Advice against Draven",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/82od1k/advice_against_draven/",
+   "published": "2018-03-07",
+   "author": "/u/andersdigital",
+   "body": "I'm sitting on a 68% win rate right now with Trist.... in S4 :( The only matchup I currently have an issue with right now is Draven. I've been taking Doran's Shield, playing safe, farming as best I can, but he'll consistently chunk me for 1/3rd of my health if he manages to get an auto on me. God forbid when he get's 2 auto's on me, I have to back and miss out on a ton of farm because he has the pressure to push me in. I know I'll outscale him, and it's not a 1v1 game, but fuck this guy and his moustache. OP.GG http://euw.op.gg/summoner/userName=goodplayer95 Excuse all the ARAM's, there are some Trist vs Draven matches in there.",
+   "id": "82od1k",
+   "comments": [],
+   "age_days": 3138,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "A couple updates to the Sidebar Layout and the Wiki, some user assistance needed!",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/7rw4md/a_couple_updates_to_the_sidebar_layout_and_the/",
+   "published": "2018-01-21",
+   "author": "/u/ZhuhaiSyseros",
+   "body": "Hello Bandle Gunners!\n I've reworked the wiki and sidebar a bit today!\n So, what'd I do?\n First off I'll start with the sidebar.\n Sidebar Builds (the part I'll need user assistance on)\n The \"Tristana Builds\" section, which formerly showed 6 icons representing a build and was never updated nor given context has been replaced with \"Guides\". This is the part I'll need users to contribute to. If you've written a well written guide, You can submit it here or via pm and I'll look it through. If it looks alright, I'll throw it up on the sidebar, and you can guide your fellow cannon wielding comrades to victory!\n Hall of Fame\n The Hall of Fame has been partially purged. Previously it contained many usernames of people who had never asked to be on it. So it was rather clogged by people who aren't even here!\n So those names have been removed.\n If you would like to be on the hall of fame, you can refer to this handy guide I've written to walk you through the steps to know if you qualify and how you can provide proof that you do. \n You may also request your position be updated. For example, say you're in the 100k+ bracket, but you're 400k+ now. Simply do the same thing you'd do to request being added, except state you're requesting an update, rather than to be added.\n Wiki Index\n The index has been updated and new pages have been linked on it. These pages include: The Guide to the Hall of Fame, previously linked above, A short guide on how to update your flair if you can't figure it out, and how to add icons to your posts. (The last one may be outdated, it was not written by me, it was simply a thread we had made ages ago, as such I cannot promise it works, nor can I say the icons are all up to date)\n Weekly Threads\n Previously dead with a lot of blank spaces, I'll be running weekly discussion threads on various topics. Most likely stuff about items, roles, matchups and stuff like that. Just so people can go and look back at em easily. And they're kinda fun too. Sometimes I'll forget to make a new one though, so they're only \"kind of\" weekly. I easily lose track of what day it is.\n I'll try to remember to do weekly threads starting next week.\n And that's about it.\n It's small, but it helps make things a little nicer.",
+   "id": "7rw4md",
+   "comments": [],
+   "age_days": 3183,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Trristana Mains Help Me Out - Creating A Marksman Relative Power Grid",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/6jlrwc/trristana_mains_help_me_out_creating_a_marksman/",
+   "published": "2017-06-26",
+   "author": "/u/ToFHaxu",
+   "body": "Original post: https://redd.it/6jkr6r (please comment here if you have advice to give)\n https://gyazo.com/98d8880eef0eca0c5c4c0db92f4aea81\n Marksman higher (towards the green arrow) will generaly win from Marksman lower (towards the red arrow). Sorted per level.\n Dear Fellow Redditers,\n Help me perfecting this grid. I need everyone's input, this is just a geuss, a setup.\n I am trying to create a grid showing the relative power of marksman per level. I believe that a great part of getting better at league of legends is about knowing when you are stronger. What I’d like to attempt is to make a clear graph, that more or less shows for every possible Marksman matchup, when you can go for a fight. With this I hope to speed up the learning process not only for me, but also for my fellow Redditers. My idea is to make a sort of accurate setup, and with comments and idea’s of the whole community to make it as true as possible. I do understand that support matchups are also an important factor, but let’s only look at the simplified marksman relative power for complexity reasons.\n Let us make the following assumptions when analyzing the power of a Marksman:\n • When a marksman with a dash fights a marksman with a skillshot, they are equally skilled and the skills will hit half of the time.\n • Every marksman has a base Winrate of 50%. As of now a good Draven for example would stomp every matchup every time, but this would not give us general good material to analyze. Let’s try to imagine all marksman are balanced, and predict from there.\n • All fights are 1v1; Marksman vs Marksman\n • Ignore specific counter matchups, think about average strength, The higher placed Marksman is stronger on avarege than the Marksmans below it.\n • Lane bully’s don’t get an early lead, every Marksman has the same inventory at each level\n Quinn, Graves and Urgot are not represented, as they are not played in the marksman Role currently (patch7.13). \n Without further ado, here is the graph. Give me all the flame you got! What did I get wrong?\n https://gyazo.com/98d8880eef0eca0c5c4c0db92f4aea81",
+   "id": "6jlrwc",
+   "comments": [],
+   "age_days": 3392,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Why I max Rocket Jump on Tristana.",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/61ufnu/why_i_max_rocket_jump_on_tristana/",
+   "published": "2017-03-27",
+   "author": "/u/Shorassil",
+   "body": "Hello fellow Tristana mains o7 Recently I got asked on this thread why do I max W on Tristana instead of E or Q. I often get asked about it and I would like to share my train of though and playstyle. \n For credentials here is my perfomance on Tristana.\n So I am not a diamond or even platinium player (in fact, this is my first season where I started playing ranked), so while my playstyle works on Gold EUNE soloq it may become subpar in higher ELOs that I am not aware of. But I disgress, lets come to the topic.\n In my honest opinion Rocket Jump is the most important skill in Tristana kit. Long-dash with reset is her trade-mark (alongside great range and AS steroid) that allows for rapid repositions during teamfights and reward high-risk high-reward plays. But its much, much more when You put points into it.\n Lets look on progression of her W: Stats that are same for all levels: 60% slow on impact, 60 mana cost, 900 range\n 1. 60 dmg, 22s CD, Slow Duration 1s\n 2. 110 dmg, 20s CD, Slow Duration 1,5s\n 3. 160 dmg, 18s CD, Slow Duration 2s\n 4. 210 dmg, 16s CD, Slow Duration 2,5s\n 5. 260 dmg, 14s CD, Slow Duration 3s\n While damage may look really low (+50 dmg per skill rank) is in fact a huge ammount early game, for a skill that You can get reset on, not only from kill, but also from stacking up full E. The increase of slow duration makes Tristana extremely \"sticky\", she can safly procs her full E thanks to it, reseting her rocket jump that allows too inflict damage from it the second time (thus, suprassing early maxed E damage greatly. because of lack of AD scaling at this stage of game). Futhermore, getting reset from E on rocket jump allows Tristana to safly disengage if she finds that her all-in attemp goes south (wait, there was a lee sin in that bush?!). With Bilgewater Cutlass and Botrk running away from Tristana becomes extremely difficult, which allows her to get clean-up kills and snowball the game.\n Another perks of maxing W is: 14 second duration on rocket jumps makes Tristana a lot harder to chase, because during long-chases she can rj more frequently. She can use rocket jump to waveclear under tower, simply jump into minions, drop bomb in flight, land and get jackpot. While maxed E can do it too, You actually save precious seconds You could have used to go back or go help other lanes this way (You just need to be cautious that You used Your escape tool, so act safe untill its up again).\n Everything feels much more smoother on Trist with doing it that way. You want rocket jump early for kill-pressure on Your lane, this is early game. When You maxed W, You start maxing Q, You get Your BOTRK, Your Hurricane, You want that sweet Q AS and yeah, You are maxing it now and will have it for contesting Baron or other objectives. Now in late game, You already posses all that sweet AD, Infinity Edge, Lord Dominiks and everyone is cluttered in teamfights so pulling off E can do massive damage. Because leveling up E mostly improves AD scaling its works great to put points into it when You have mostly completed build.\n For build I always go: Bilgewater Cutlass -> Botrk -> Hurricane -> IE - > depends on game. Early game Bilgewater Cutlass and Botrk synergizes graetly with maxed W because: You can stay healthy on lane with early life-steal, which works great if You have to all-in enemy poke lane. You add 100 damage and another slow to Your combo. Attack Speed from Botrk helps to pull off stacked combo. \n My skill path is:\n 1: E\n 2. W\n 3. W -> From this point I am waiting for opening from either my or enemy support. I am confident that if I have more than 80% of health I can safly all-in enemy carry and if things goes wrong I will be able to rocket jump away from danger.\n 4. Q\n 5. W\n 6. R -> This is the moment I usually get bilgewater cutlass, I become very agressive at this moment unless I am playing against hard matchup (like Zyra or Draven), I can annihilate enemy carry within spawn of 4-5 seconds.\n 7. W\n 8. W -> Maxed out rocket jump, procced to max Q -> E. At this points first teamfights happens over dragon on river and Tristana abillity to catch people out of position (long dash +3 second slow, much like Ashe) is superb. I often dont even \"shoot enemy\", just rocket jump on top of them, inflict some damage (around 150-200 after resists), slow and back-off and let my team to follow up. \n And above else, jumping into enemy carries actually becomes a good thing. That syndra just wasted her ult and stun and is out of position (cause she greeded)? Jump on her and murder her. There is nothing she can do at this point, she cant peel You, she is slowed and she will be dead before she will escape Your range.\n Of course, my point is that with right mindset and skill, maxing W on Tristana is valid. That dosent means is always optimal (if You are against Zyra, You can forget about rocket jumping into enemy carry, because she will murder You). \n Edit: Formatting",
+   "id": "61ufnu",
+   "comments": [],
+   "age_days": 3483,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "I'm thinking about posting tristana matchups... Should I do it or no?",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/5zki1a/im_thinking_about_posting_tristana_matchups/",
+   "published": "2017-03-15",
+   "author": "/u/TwilightMole",
+   "body": "The title says it all. I noticed other /ChampionMains were doing it so I thought I would volunteer for ours. Good or bad idea?\n For clarification, These matchups would be for all viable AD's and support's individually and then bot lane combos. For example If I did three guides It would go as follows\n Blitzcrank\n Caitlyn\n Caitlyn + Blitzcrank\n Vote below!!!!",
+   "id": "5zki1a",
+   "comments": [],
+   "age_days": 3495,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Looking to start playing tristana",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/5wiknn/looking_to_start_playing_tristana/",
+   "published": "2017-02-27",
+   "author": "/u/asmicdragonn",
+   "body": "Hi guys, so, I am currently an otp varus (have been for 2 full seasons), but since everyone plays him lethality and is getting nerfed really hard next patch hes no longer on the fun side, I always play varus with guinsoos, bork or crit build, so as you can tell i like to play mechnically more than anything. so recently i played tristana in arurf and instantly fell in love how much kiting potential she has, and since i like off meta picks i really think she can be my next otp. any tips and tricks, which matchups are in her favour and all of that sort? i am currently plat 3 btw.\n Thanks for your time!",
+   "id": "5wiknn",
+   "comments": [],
+   "age_days": 3511,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Questions About Tristana",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/5eg39m/questions_about_tristana/",
+   "published": "2016-11-23",
+   "author": "/u/Jadarko",
+   "body": "After recently playing Tristana more and more, I've decided to main her! The only problem is I don't know much about her besides her abilities... so I have a few questions. What is her play style in lane, mid, and lategame? What are her main builds (if there is more than one)? Best/Worst Matchups? Tips and Tricks? That should be it, sorry if it's a lot but I want to know as much as I can! :D",
+   "id": "5eg39m",
+   "comments": [],
+   "age_days": 3607,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Matchups to not take Trist",
+   "url": "https://www.reddit.com/r/TristanaMains/comments/41gd7p/matchups_to_not_take_trist/",
+   "published": "2016-01-18",
+   "author": "/u/tkleman3",
+   "body": "I know the title seems treasonous, and as much as I love the little yordle (DT skin, omg) I know there are some matchups where I would be better off with a different champ. So, my question is, what kind of lane matchups/ team comps should I avoid picking Trist into?",
+   "id": "41gd7p",
+   "comments": [],
+   "age_days": 3917,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  }
+ ]
+}

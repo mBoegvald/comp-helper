@@ -1,0 +1,986 @@
+{
+ "champion": "Rumble",
+ "subreddit": "rumblemains",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "Rumble spreadsheet",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/1vve5ce/rumble_spreadsheet/",
+   "published": "2026-08-22",
+   "author": "/u/SebRev99",
+   "body": "Is there a Challenger (or high elo) spreadsheet for Rumble matchups? With runes and itemization that I can follow? I’m currently trying to climb up with him (Emerald 1). \n Thank you",
+   "id": "1vve5ce",
+   "comments": [],
+   "age_days": 48,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "x2 adaptive runes or 1 adaptive / 1 ability haste",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/1vj919i/x2_adaptive_runes_or_1_adaptive_1_ability_haste/",
+   "published": "2026-08-08",
+   "author": "/u/SebRev99",
+   "body": "Title. I don't know which one to take at the moment. Is it matchup based? or is there a general consensus. \n I'm talking top lane.",
+   "id": "1vj919i",
+   "comments": [],
+   "age_days": 62,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Rumble Support viable?",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/1umxal9/rumble_support_viable/",
+   "published": "2026-07-04",
+   "author": "/u/Wrong-Wallaby-5965",
+   "body": "After the recent Rumble nerfs, I know a lot of people have been struggling to make him work in lane or get consistent leads in some roles.\n I recently found something pretty interesting: a Master player who's been playing Rumble support with a solid win rate.\n Player: https://u.gg/lol/profile/euw1/pirok-3292/overview\n I've only tested it for a handful of games, so my sample size is still pretty small, but the results have been surprisingly good. I managed to climb to Diamond in just a few games with a high win rate.\n It definitely takes a bit of time to get used to because the playstyle is different. You're much squishier than when playing Rumble in solo lanes, so positioning matters a lot more. That said, if you play it correctly, your early-game 2v2 is actually really strong.\n The player maxes E → W → Q, while I initially went E → Q → W. I haven't tried the E → W → Q order yet, but I'm planning to test it over the next few games to see how it feels. You can get a lot of free poke with your E if you land it, and your Q is also great for trading. Your W shield helps absorb damage as you close the gap, making it much easier to win short trades.\n Another interesting thing is the rune setup. He takes Font of Life and Revitalize, so landing your E heals both you and your ADC heal. It's a pretty cool interaction that I don't think many people have considered. He also sometimes takes Bone Plating, but it's entirely matchup-dependent.\n The worst matchup I've run into so far is Twitch. I didn't ban him, but the player I got the build from always does, and after playing against him I completely understand why. Once Twitch hits level 6, he can easily shred both you and your ADC. Since Rumble support has no hard CC, you have no way to interrupt or punish his all in. He can simply pop his ultimate, use his range to either kill you outright or chunk you so hard that you're forced to reset.\n Like I said, the sample size is still pretty small, so it's too early to draw any solid conclusions. That said, in my experience it felt pretty strong. If you're already comfortable on Rumble and can adapt to the limitations that come with playing him as a support, I think it's definitely a viable pick.\n I'll post a screenshot of my recent games as well. At first, some people thought I was trolling since Rumble support is such an unconventional pick, but once I linked my account, they were fine with it.\n https://preview.redd.it/i8iz63e5l4bh1.png?width=206&format=png&auto=webp&s=9e28d702b7a644bc81c034ac66ec0d31600f71f0",
+   "id": "1umxal9",
+   "comments": [],
+   "age_days": 97,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Kayle matchup",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/1ugfzx6/kayle_matchup/",
+   "published": "2026-06-26",
+   "author": "/u/ProfessionalPie7261",
+   "body": "I picked rumble, enemy picked kayle. I helped to take void grubs , herald , 3 drakes (with soul). But I couldn't kill kayle in lane , she played safe, farmed all match. (kayle is my main champ btw). what could I do? we lost the game...",
+   "id": "1ugfzx6",
+   "comments": [],
+   "age_days": 105,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "sett matchup",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/1tnecdy/sett_matchup/",
+   "published": "2026-05-25",
+   "author": "/u/Unusual-Arrival4704",
+   "body": "how should i play against sett? i feel like i can play pretty well into most matchups but i always struggle against sett as rumble, i never know what to do in lane against him",
+   "id": "1tnecdy",
+   "comments": [],
+   "age_days": 137,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "the ambessa matchup is so unplayable",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/1tl2az2/the_ambessa_matchup_is_so_unplayable/",
+   "published": "2026-05-23",
+   "author": "/u/Leather-Young1014",
+   "body": "",
+   "id": "1tl2az2",
+   "comments": [],
+   "age_days": 139,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "This is the one thing I like about Rumble",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/1t1ple5/this_is_the_one_thing_i_like_about_rumble/",
+   "published": "2026-05-02",
+   "author": "/u/Victor_Von_Doom___",
+   "body": "Editing videos is hard\n The champs I used for the soldiers were based off lolalytics matchup data for masters+",
+   "id": "1t1ple5",
+   "comments": [],
+   "age_days": 160,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Discord Server reminder.",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/1snj83d/discord_server_reminder/",
+   "published": "2026-04-16",
+   "author": "/u/Psychological_Tone91",
+   "body": "I want to again share information about existence of our discord https://discord.gg/GcSbXma\n ALSO IF YOU DON'T SEE CERTAIN CHANNELS, PLEASE CHECK \"CHANNELS & ROLES\" TO FIX THE ISSUE!",
+   "id": "1snj83d",
+   "comments": [],
+   "age_days": 176,
+   "recency_weight": 1.0,
+   "topics": [],
+   "stale_items": false
+  },
+  {
+   "title": "Starting to play rumble, advice on different rune/items?",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/1sfxhbr/starting_to_play_rumble_advice_on_different/",
+   "published": "2026-04-08",
+   "author": "/u/Yusie_",
+   "body": "Hey all, I've started to pick up rumble as an AP pick in the top lane and was wondering about his less standard rune pages and item paths?\n I see people building things like first strike, phase rush, and conq and was hoping for some insight on what matchups do those work well into, what are the downsides etc.\n Also, was wondering for thoughts on runes like shield base on a more ap bruiser setup with like liandrys riftmaker bloodletters?\n For items, what lanes/team comps do you find yourself building rocketbelt into?",
+   "id": "1sfxhbr",
+   "comments": [],
+   "age_days": 184,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Help Complete the collaborative Rumble matchup spreadsheet - share tips on your favorite/hated matchups",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/1rw6t7b/help_complete_the_collaborative_rumble_matchup/",
+   "published": "2026-03-17",
+   "author": "/u/GyrosSteelBall",
+   "body": "Yesterday I posted some basic worst matchup data by gold diff for Rumble from lolmatchups\n But at its core, lolmatchups.net is a set of community matchups spreadsheets. For each matchup, supporting Master Tier Data is provided. In the rumble vs Irelia example above, we show supporting Master tier data like item/rune/skill information alongside indepth damage/laning statistics. (in this example, Rumble tends to get with more ganks and ends lane 25 cs behind and behind in XP against Irelia, looks like a yikes)\n Whats also useful are the matchup tips on how to play the matchup. Anyone can add their own tips(with riot auth) to share their knowledge with the community. (your RiotName and rank will be shown alongside your comment)\n Rumble in particular is one of the more mechnically challenging champions where matchup knowledge matters a lot and yet there are very few matchup resources for him top lane.\n Please share the niche rumble knowledge for your worst matchups you've learned through trial and error on the community spreadsheet to make matchup knowledge easily accessible for newer Rumble mains. \n https://lolmatchups.net/Rumble/matchups",
+   "id": "1rw6t7b",
+   "comments": [],
+   "age_days": 206,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Worst Rumble Matchups by Gold Deficit",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/1rv8urw/worst_rumble_matchups_by_gold_deficit/",
+   "published": "2026-03-16",
+   "author": "/u/GyrosSteelBall",
+   "body": "Analyzed from over 8,000 Rumble games in Masters+\n Data is from https://lolmatchups.net/Rumble/matchups",
+   "id": "1rv8urw",
+   "comments": [],
+   "age_days": 207,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "mid lane matchup tierlist",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/1qu6x3n/mid_lane_matchup_tierlist/",
+   "published": "2026-02-02",
+   "author": "/u/nitinismaldingXD",
+   "body": "https://preview.redd.it/2rxjx64i65hg1.png?width=986&format=png&auto=webp&s=f54ee320456c5ce8f1b8a9cca34d742d5835ae30\n 1k LP challenger rumble player. These matchups are based on high elo matchups and my personal experience. The 'lol' category are garbage picks you'd see in master tier that don't make any sense that I've come across. Feel free to ask about the matchups and why I think the way I do about certain matchups.",
+   "id": "1qu6x3n",
+   "comments": [],
+   "age_days": 249,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Rumble youtube",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/1qc6zae/rumble_youtube/",
+   "published": "2026-01-13",
+   "author": "/u/lowbudgetmemer",
+   "body": "Hey :)\n Today i was trying to find a one trick rumble youtuber and couldnt find a single one only some dead chanels from the past. Someone like solarbacca on GP or Atreus on Ksante i like to watch these two. Im a occasional Rumble player and have been experimenting with rumble mid and jg and im having a quiet a good time playing him so i wanted to find someone who can explain some more in depth details about rumble(itemization,runes,matchups,etc) because i was thinking about using him more while pushing ranks\n Thanks for hearing me out :)",
+   "id": "1qc6zae",
+   "comments": [],
+   "age_days": 269,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to trade against rumble in lane?",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/1p4msyh/how_to_trade_against_rumble_in_lane/",
+   "published": "2025-11-23",
+   "author": "/u/CompetitionTop7504",
+   "body": "So ive played league for 9 Years now played to diamond and still have no clue how to lane against him. \n Nothing feels right, if i play any ranged matchup he still reaches me with his q or e and trades even, untill his 6 and just straight running me down.\n Any Bruiser feels like losing to his insane dps. If i try to play around CD it feels like has has 0 CD on his Q and E. \n Is there even any hard matchup with rumble?",
+   "id": "1p4msyh",
+   "comments": [],
+   "age_days": 320,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "65% winrate rumble top to master",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/1ieny35/65_winrate_rumble_top_to_master/",
+   "published": "2025-01-31",
+   "author": "/u/CompuIsive",
+   "body": "Rumble top is actually insanely strong if you know how to generate a lead in lane. Any other role feels so significantly weaker for him. Most ranged matchups in the mid lane are so hard for you to trade into nowadays. I used to be a rumble jungle one trick before all the changes to him by phreak last season (I didn’t play last split because of it). He just feels rly bad to clear camps and ur early damage is much less without comet and scorch. Conq is okay vs melee champions but if enemy team is mostly ranged the rune most of the time is non existent and it’s like you don’t have a rune. First strike used to be my favorite rune however in its state now it’s the worst rune in the game. Until first strike gets changed to back to what it was I probably won’t play him in the jg again. \n Top lane most matchups you can very easily win with ignite if you are a good laner. My perma ban is Darius although I think it may be winnable if u take phase rush or ghost, I just haven’t tried yet. I am not sure why his winrate is still so low I win every matchup most games. I take ignite and never take tp. Having ignite for lane pressure and killing enemies at grub fights is really game changing. You really want to snowball as much as you can this season. This is a really snowball heavy season centered around big team fights which I think is why rumble is so good right now. After laning phase, I just make sure to push out the lane and walk to the next objective that’s spawning. There are so many objectives this season which rumble excels the most at because they force so much team fighting. \n I have been building liandrys into the new item blood letters curse if I see the enemy getting MR. If not I will build either riftmaker (if I’m ahead) or zhonya. Regardless though, my first 4 items are liandrys, riftmaker, bloodletters, zhonya. Just build in different order depending on the game. Other items that I situationally build are abysal or jacksho. If ur really ahead u can get death cap or shadow flame but HP is so broken this season I have been rarely getting these. \n Full runes on my op.gg Sambino#why",
+   "id": "1ieny35",
+   "comments": [],
+   "age_days": 616,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Do you guys have a Matchup Bible?",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/1i5ny6q/do_you_guys_have_a_matchup_bible/",
+   "published": "2025-01-20",
+   "author": "/u/Valeyardos_08",
+   "body": "https://docs.google.com/spreadsheets/d/1dub4yd5pJvEMhsrYaLYZxuwrlEMv3WIDuxRZm2_FGIU/edit?gid=0#gid=0 Akali\n https://docs.google.com/spreadsheets/u/0/d/1mcwg-nUMiFILgZMFmEqpns2csrVGmhxFgaYEv09FeJc/htmlview Camille\n https://docs.google.com/spreadsheets/d/1G9LsvtLELA5I5Le4ez3wxhysZH_4fk3qE38hMWfH64A/edit?gid=0#gid=0 Garen\n https://docs.google.com/spreadsheets/d/1EHPKbfxvH7iU8eUGFxnbVSNHm5WPuviA-9tX1nKlmEY/edit?gid=1873691667#gid=1873691667 Gwen\n https://www.reddit.com/r/Jaxmains/wiki/matchups/ Jax\n https://docs.google.com/spreadsheets/d/1HLzype7Y7ebco6bErmos4FNEEqhBMGZHVUEqESY54Xs/edit?gid=0#gid=0 Pantheon\n https://docs.google.com/spreadsheets/d/1Tsr94bcEKbZgj6PKN1VdVab1GCT0kOB5/htmlview#gid=408515930 Sett\n https://docs.google.com/spreadsheets/d/e/2PACX-1vRsx7P2pABGMYjmyR65z1pAut6j7pWyijtI3epgLpWAP3WKqt3zIxOfCWdyBsL9gkkXeCsMnPDpgXVv/pubhtml Teemo\n https://docs.google.com/spreadsheets/d/1sAMfo7X8nz1zhjmmV0EnSNEzWkveD5Ivot9312NMnMQ/edit?gid=576552123#gid=576552123 Urgot\n https://docs.google.com/spreadsheets/d/1_G-9I9TxAMc3td_nGEbYx2RufL-wFSY6uFyld1kv_3c/edit?gid=393895688#gid=393895688 Yorick",
+   "id": "1i5ny6q",
+   "comments": [],
+   "age_days": 627,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "In about 10 years of one-tricking Rumble, I don't remember a time when Rumble was in a worse state than this",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/1h45b3b/in_about_10_years_of_onetricking_rumble_i_dont/",
+   "published": "2024-12-01",
+   "author": "/u/OperationsRumble",
+   "body": "Title. I've been a Rumble one-trick since Season 5, circa. My peak is S12 Grandmaster (or was it S13? I can’t even remember), and I’ve played him in every possible lane, role, and meta. I’ve built every conceivable item and played against every matchup or duo lane you could ever imagine. Trust me when I say this is not a rant—this is an honest depiction of his current state: he’s good at absolutely nothing.\n Recently, I started an Unranked-to-Masters climb with a friend who’s a Camille OTP. Although we’re currently 19W 1L, it’s needless to say that he’s carrying every game. Meanwhile, I’m struggling to stomp lane against Platinum midlaners—with all due respect to Platinum players. Things are so desperate I even tried jungling with him, and let me tell you: it sucks. Things have never been worse. Rumble is literally good for nothing right now.\n He has no pushing power, no kill potential, and not even kill pressure. He simply lacks damage. At Level 7, your Q deals the same amount of damage it used to deal at Level 4. The nerfs have been catastrophic. He’s a champion that has completely lost his identity and is now reduced to being an ult bot that provides some supportive or follow-up damage on main targets.\n This is why I have decided I will build Sorcs → Liandry’s → Malignance → Horizon Focus → Rabadon’s → Filler. So I can ult whenever and try to maximize the only relevant thing that's left. Because unless you’re ridiculously ahead and casually roflstomping, your damage doesn’t matter.\n Rumble sucks, and he’s in the worst state he’s ever been. Play something else until things improve. You owe it to yourself.",
+   "id": "1h45b3b",
+   "comments": [],
+   "age_days": 677,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Tank Rumble feels so good",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/197e919/tank_rumble_feels_so_good/",
+   "published": "2024-01-15",
+   "author": "/u/Dbruser",
+   "body": "I've been trying out a build I saw buried in another post by a korean challenger where you go riftmaker into tank items (usually anathema's chains). (I go flash instead of ghost though) This build feels so good, it turns out as rumble you only need 1-200 ap and sorc boots to do crazy amounts of damage because of the % hp damage on q and overheat.\n Riftmaker + anathema's (and tank items) makes so many frustrating matchups in the side lane scale SOOO much better. I was always sick of outplaying assassiny/bursty fighters in the early game and still being at risk of being oneshot by overstepping (stuff like riven/rengar). With this build you actually can run them over when you are ahead in a side lane.\n Anathema's is actually a really good item (small amount of ap because of riftmaker passive) and makes you 1v1 most top laners (haven't tried vs tanks yet, but omnivamp and overheating passive+flamespitter sound really strong, I've destroyed tanks in teamfights). Anathema's also can be really clutch to throw it on the fed adc/midlaner to significantly reduce damage you take.\n Rumble's innate Mpen and % max hp damage make lots of tank items scale well with him (extra thornmail damage, abyssal mask mr reduction is great), unending despair can feel nice with the extra mpen.",
+   "id": "197e919",
+   "comments": [],
+   "age_days": 998,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Streaming Rumble Mid Only Gameplay",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/18uusnb/streaming_rumble_mid_only_gameplay/",
+   "published": "2023-12-31",
+   "author": "/u/akrei1",
+   "body": "Hey I'm pretty new here but I figured this would be the right place to post this here, I'm a GM/Challenger Peak player and strictly play rumble mid (even though I assume most people think it's bad) I've been able to consistently play him mid and climb with it. Anyways if anyone's curious to how to play rumble mid against any matchups and want to stop by you're more than welcome to if not though no worries hope you have a good day regardless :) https://www.twitch.tv/coltrae quick note I'm playing on a smurf right now just for end of season",
+   "id": "18uusnb",
+   "comments": [],
+   "age_days": 1013,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How should i counter rumble?",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/18u6yfj/how_should_i_counter_rumble/",
+   "published": "2023-12-30",
+   "author": "/u/Dazuir",
+   "body": "Hello, im here not to complain about rumble, but instead to learn how to play against him, i just got foldes by a rumble while playing pantheon, and i wanted to know how i should win or atleast survive that matchup",
+   "id": "18u6yfj",
+   "comments": [],
+   "age_days": 1014,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Toughest top lane matchups?",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/18i7goz/toughest_top_lane_matchups/",
+   "published": "2023-12-14",
+   "author": "/u/vrachtbeer",
+   "body": "Which matchups would you say are the toughest for top lane Rumble, and if possible why?",
+   "id": "18i7goz",
+   "comments": [],
+   "age_days": 1030,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Not A Fan of the Rework",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/14a9kgj/not_a_fan_of_the_rework/",
+   "published": "2023-06-15",
+   "author": "/u/JBWeekly",
+   "body": "Am I the only one that really doesn't like the rework? There are pros and cons to the change but I feel like the change basically ruined the playstyle I preferred which was the more wave shoving, scrappy duelist in the midlane that liked to roam at every opportunity. I've been trying him top, mid, and jungle just to see where he could be best placed and honestly it looks like top is best which is kind of boring. This is the way I see it:\n Pros: \n - Overheat doesn't last as long but you get more attack speed. So you aren't silenced for as long but you still get just as many if not more auto attacks depending on where you are in the game.\n - Having you E now give 20 heat does allow for level 2 empowered abilities which makes your level 2 fighting quite strong.\n - The % Max Health damage on Q is good against tankier targets without really needing to build in a particular way to kill tanks. \n ​\n Cons: \n I have two big cons with this \"rework\"\n - Q damage is WAY lower. You can no longer clear the wave with 1 Q so pushing into tower to either back or to roam to another lane is nearly impossible because of how slow it is. So they reduce damage to the minions while at the same time reducing the damage to champions who aren't stacking health so unless you vs a Swain or Galio or something along those lines in the midlane, you're just going to be straight up weaker than before and much less impactful.\n - If having less pushing power wasn't bad enough for roaming to help the team, the ultimate CD being longer and having less damage really secured that. I have always thought one of the biggest benefits to Rumble mid was to shove the wave and either roam to a side lane or invade since your wave pushing is very quick and you have your W to help move you through the river or JG much faster while the enemy farms under their tower. But now the Q is slower making that window more narrow. Along with that, your Ult CD is higher and does less damage so using it poorly or in a way that doesn't create an advantage now sets you back even further. The Equalizer used to be an ability that could turn a 1v2 against rumble into an even fight, now I think even if you land the ult in a 5v5 teamfight rather well, it's just equalizing the playing field since he feels like less of a scrappy fighting mage now and more like a slow burning bruiser. It's just not as fun.\n I know Riot made these changes to get Rumble out of the midlane. With the % Health damage on his Q they clearly want him back in the top lane. However, making his Q deal literally half the damage to the minion wave just ruins the pushing power tempo almost entirely. I might keep trying him top, mid seems a little more difficult with matchups, knowing me I will still try to take him mid just because the lane itself is much more fun. Just let me know your thoughts, but I feel like the character I loved is basically gone. I don't want to build tank, I don't want to build bruiser. There was nothing wrong with the semi-immobile battle mage that dealt good AoE damage and I felt like his kit was a good balance between easy to learn and hard to master. Now the overheat mechanic takes less thought and isn't as punished but I would much rather have the old Rumble to this one any day.",
+   "id": "14a9kgj",
+   "comments": [],
+   "age_days": 1212,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Allow Q to stack conqueror",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/1431qya/allow_q_to_stack_conqueror/",
+   "published": "2023-06-07",
+   "author": "/u/Scire1677",
+   "body": "They are changing rumble to be more bruser-like but his rune options do not match. Please finally allow q to stack conq just like how garen E does. It really makes zero sense that a bruiser-like version of Rumble would still run comet or electrocute. I am no Rumble main by any means (I play Rumble top for fun sometimes even though I am shit) but please change this shit. Rune versatility would allow rumble to be better vs other matchups (Tanks and shit) and not just going full mag pen and praying you could steamroll your opponents to win.",
+   "id": "1431qya",
+   "comments": [],
+   "age_days": 1220,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "150 heat feels so incredibly bad and clunky, even 140 would be much much better + other thoughts",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/142qgxs/150_heat_feels_so_incredibly_bad_and_clunky_even/",
+   "published": "2023-06-06",
+   "author": "/u/vinrar",
+   "body": "I have been playing Rumble on PBE 13.12 for the last few days since the login issues were resolved. Game quality is very low so I wont talk to numbers balancing at all, only how the new play pattern feels. I hope to convey what I imagine a lot of us feel (or will feel when it is released). Ideally to me he would still get top lane/jungle adjustments but no heat changes.\n While 150 is fine for your initial over heat (hover at 100 instead of 50), getting to the second overheat from 0 feels incredibly bad and it is incredibly important in laning duels (especially top), turning a 1v2 gank, tower pushing while keeping some tempo, doing jungle camps and objectives, etc.\n Phreak wants us to spend more time casting abilities (with danger zone) and less time overheating. However the less time we spend overheating (say starting at 50/150 heat), we actually spend that lull time doing 0 dps waiting for the extra rotation. [Say goodbye to omnivamp/bruiser builds here, consistent dps with sustain will always beat us]. He said he wanted to move us away from sit in a bush and burst someone play style, but he is actually pushing us further into it by reducing the time we can spend auto-attacking with the heat changes, and more reliant on a hit-and-run one combo doing something useful. Moving HP and base damage to scaling also reinforces this - less emphasis on laning phase and skirmishing (lower damage period, better for immobile melee ranges especially mid lane), and more on burst/relying on camping a bush to assassinate squishies mid-late game.\n Phreak actually noted he thought this was a buff, but I think he just doesn't understand the decisions Rumble has to make as a low range, squishy, immobile, no sustain, ability based carry (aka burst mage, aka inconsistent damage, aka periodically 0 dps, etc). Yes we have received some %HP Q damage which is great for top lane, but nothing else important has changed, there is no world we can stand in front of enemy front line in a teamfight and Q them like he said he wants without dying to their engage. [What we already do if we don't have front line is a variation of poke them and bait their engage, R something, survive using Zhonya's, and Flash Q overheat onto the backline, hoping it's a won fight].\n So that's the part that feels incredibly bad, the gameplay pattern with 150 heat, now for the clunky part of that.\n To go immediately from 0 to 100 heat you cast a variation of QW, E, E, QW for 40 + 10 + 10 + 40 = 100. No ability goes to waste, movement/kiting/spacing fills the first rotation cooldowns and all in overheat autos fill the second rotation cooldowns. [Like many champs you poke and then all in, except here we are melee and have to commit like an assassin without an escape ability or like a bruiser without sustain and durability scalings, literally just a small shield we use more for heat management.]\n So Phreak wants to fill the second rotation cooldowns with more spacing (I think he imagines something like Lillia who does it with 1 ability instead of 3) which doesn't actually work as we need to face the opponent in short range as much as possible for 3 seconds for Q to do damage, unlike literally everyone else who gets instant gratification or a full AOE like Fiddlesticks, except ASol and Velkoz who are balanced around standing still during their aimed channels. Then overheating in the third rotation cooldowns (which is the major nerf above, especially outside of PvP). It feels like 150 heat was chosen mathematically/symmetrically to achieve this without any extensive play testing, especially with the harpoon heat change affecting the underlying 50 heat pattern.\n Noting again this is about going from 0 to overheat after the first overheat, especially during the events mentioned in the second paragraph.\n Already due to harpoons being 20 heat there is already a wasted ability (an ability that comes up but you already just overheated, doubling the effective cooldown) in the intended new pattern. You'd think it would be QW, E, E, QW, E, Q (wasting W) for 40 + 20 + 20 + 40 + 20 + 20 = 160, but through actual testing of extended heat management you find the following:\n With near equal Q W E cooldowns (either through buying CDR or normal max Q scaling) E becomes out of sync with Q+W (I think because the 2nd harpoon is recharging before you cast, so it is up sooner and sooner the more rotations you do), you always end up with 140 heat (2 x Q+W, 3x E), then have to wait a full rotation at 0 dps, and then only get to cast one ability, say Q, wasting both W and E which just came up as well.\n Just noting again, this still eventually happens if you go the normal MPEN / low CDR build, but is extremely pronounced with CDR items. You only have 3 choices now and they all waste time/cooldowns/dps throughout every part of the game: the above, purposefully spacing abilities longer than their cooldowns/normal combos, waiting another rotation to dissipate heat in the middle of a fight as a 'carry'.\n In conclusion it just feels awful having more cycles of 0 dps/vulnerability with Rumble's many limitations and then only using 1 ability with the second overheat. I feel like the heat changes are actually pushing away from Phreak's stated Rumble goals in his video.\n Phreak said we would need to do some learning and adjusting which is true and fine when thought out and tested, but it's just a lazy excuse when it's either untested or even worse, clunky on purpose.\n Regarding optimal builds, Rumble only scales with AP (W %HP is not worth a tank/bruiser build, especially because we use it firstly for heat management and CDR doesn't work well). For Q %HP to be useful against frontline/bruisers with any HP and MR (read: tanks that do damage), you still need MPEN. So the build is still Sorcs/maybe Swifties, Rocketbelt, Shadowflame (or Zhonya's if behind or tanking the start of [winning!] fights), Rabadons, Void Staff, Zhonya's. With a Dark Seal/Mejai's somewhere if you're not dying for the won fights.\n ​\n All in all\n The %HP is great and means we don't have to sometimes do really very sub-optimal builds (Liandries/Demonic), especially when toplane.\n I feel the build is still full AP + MPEN with Ultimate Hunter so we can lean into the schtick even further and delete squishies especially with the slightly better mid-late scaling. I'd say we should do better against bruisers with the Q change, but with the fight lasting longer (less overheat, 0 dps issue) they will out sustain or just walk away if we are spacing instead of autoing on top of them.\n I really don't think Bruiser Rumble is viable with his lack of utility, sustain, and resistance scalings. So many better 'tanks that do damage'. Rumble does not ramp up effectiveness during a fight like Conq/AtkSpd champs, it peaks and troughs which is not good enough.\n Haven't even mentioned how bad the wave clear feels with less Q damage, fewer overheats, fewer early R's. Top lane, we will be even more vulnerable to ganks and poor wave states into bad matchups/early fights. Midlane might just have to give up more CS for roams. With less early durability/dmg and no overheat kill at level 2->3, maybe unplayable at high ranks due to the risks?\n Please revert the heat changes, it flows perfectly as is, hence the uproar at 7 second W last year. If you want longer fights/less burst and random auto attacks from Rumble, start with his abilities and scalings to add durability/outplay etc.\n At the very least change max heat to 140.\n ​\n Random 200 Years Rework Ideas\n Play Style - More ability focused, but the same overheat heavy autos of old. Add some creativity. Most damage to tanks and utility strength should scale with own tankiness, normal damage with AP.\n Passive - Remove attack speed but keep original slow hard hitting autos, no longer the uber kill threat. %HP damage on auto now scales with own total HP.\n Q - Same with %HP damage (scales with levels), but Overheat-Q applies a Shyvana-like burn to the ground (with more than just a flicker of Q), make DoT viable but also outplayable.\n W - Same shield (AP scaling) and small movement speed after a short jetpack dash (dash length scales with AP) which can only pass very small walls at base. Maintains current direction champion is facing before the hop for normal Q or creative Overheat-Q usage. If shield dissipates it should heal (effectiveness scales with bonus HP).\n E - Same damage and MR shred with AP scaling (AP Rumble must land EQ to do damage to bruisers, but HP Rumble should use Q + overheat auto), but splash the slow (bonus HP scaling) in a cone behind the detonation with small splash damage (for Demonic bruiser builds to proc a little), should help with farming/trading past minions in bad matchups and kiting 1v2 rather than relying on OP overheat attack speed to kill everything.\n R - Width scales with R level (1x, 1.5x, 2x, it's currently so skinny people can just instantly walk off it unless the situation is very good) but reduce the base damage and range. Damage should still scale with AP, but slow with bonus HP. Then it is worth of a 'team fight ultimate' cooldown imo.\n ​\n TLDR\n Rumble relies on overheat autos for lane and jungle tempo and now has less, wave clear was nerfed alongside it. 150 heat is clunky due to the 20 heat harpoon and harpoon recharge desyncing with QW, leads to wasting abilities, it feels even worse with more CDR which makes the overheat nerf even worse.\n Tank/bruiser Rumble is pointless due to his kit (only scales with AP, no utility). Changes lean towards jg/top lane but still for full AP + MPEN build to delete squishies on first overheat.\n ​\n I am a serial lurker and last posted to complain about Dynamic Queue on my normal reddit account. I think the new gameplay loop is clunky and if these changes go through I am very worried about his agency to carry games. Very happy to be wrong about these changes/ideas and for any feedback.",
+   "id": "142qgxs",
+   "comments": [],
+   "age_days": 1221,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Rumble will be really weak in 12.10",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/ujyceh/rumble_will_be_really_weak_in_1210/",
+   "published": "2022-05-06",
+   "author": "/u/EspionHS",
+   "body": "Rumble's probably the most negatively affected champion, power-wise, by the proposed changes in 12.10 Disclaimer that I'm talking about my own experience in grandmaster games, this might not apply to lower elos where people are worse at using ranged advantage.\n There's a few reasons why Rumble will be the most nerfed champion by 12.10\n Rumble's only big strength is all-inning people with dangerzone Q + E and overheat autos. If Rumble doesn't have enough damage to kill his target, he is silenced in melee range and is useless. In most game states (i.e. unless Rumble's already very far ahead), Rumble has just barely enough damage to kill the enemy if he lands all his abilities. Giving every champion more HP and resistances will make it for more likely for enemies to survive Rumble's cooldowns and then kill him after he's used everything. Think about how weak Rumble feels when you fall behind and can't do enough damage to kill your enemies-- now every game will feel like you're behind.\n\n -10% to all shielding is obviously a direct nerf to Rumble's W\n\n The new meta will be very unfavorable for Rumble. Rumble is hard countered by ranged DPS champions that can kite and stay out of his range. Every single ranged DPS champion is greatly buffed by the durability changes, so Rumble will be facing counters far more frequently. Ranged champions will benefit a lot more than melee champions from the flat HP and resistances increases, since these durability buffs make them much tankier relative to their previous base numbers. DPS champions also benefit more from durability changes than burst champions, since they don't rely on hitting a damage threshold to be effective. Rumble's other bad matchup archetype is melee bruisers like Gwen and Jax, who will also benefit greatly from the durability changes.\n Rumble's best matchups, melee burst champions like Qiyana, are heavily nerfed by the durability changes, so Rumble will be facing his good matchups a lot less frequently.\n\n The changes to tower damage are a big nerf to Rumble as well. Rumble's main consistent early-game play to get an advantage is to dive sidelanes with his ultimate, or dive a slowpushed wave mid with jungler. Increasing tower damage obviously decreases the likelihood of a dive being successful. Even in mid-late-game tower siege situations, Rumble is useless on defense and offense. He can't clear waves to help defend sieges, and he doesn't have the range to poke in an offensive siege. His only play in a siege situation is to dive, and diving will be much harder to execute when towers do 40% more damage.\n\n Rumble will be very weak in 12.10 unless he gets compensation buffs. He'll probably have around a 45% winrate with a less than 1% pickrate, only being played by dedicated mains. Rumble's kit is already low agency because he ONLY has damage... other than small slows and slight movespeed boost, he has no mobility or utility at all. Patch 12.10 is nerfing Rumble's entire kit, even his shield.\n tl;dr Rumble really needs to hit a damage threshold to be useful and that threshold is going to be much harder to hit. W shield is nerfed. Rumble counters are going to be buffed and more prevalent and his good matchups are nerfed and are going to be less prevalent. Rumble really likes tower diving and tower diving is getting nerfed.",
+   "id": "ujyceh",
+   "comments": [],
+   "age_days": 1617,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Riftmaker?",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/rh7d2r/riftmaker/",
+   "published": "2021-12-15",
+   "author": "/u/SemperFiMikey",
+   "body": "Does anyone here ever use Riftmaker vs certain matchups on Rumble? What runes do you use with Riftmaker and why? I've been experimenting with Conq, but I find it pretty hard to stack on Rumble.\n Lately, I've been taking Rocketbelt vs tanky comps and Night Harvester vs squishy comps. I've been trying to take Riftmaker with Conq once in awhile vs heavy sustain comps; do you think this is a bad idea?",
+   "id": "rh7d2r",
+   "comments": [],
+   "age_days": 1759,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Rumble 11.18 Thoughts",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/pkh5bu/rumble_1118_thoughts/",
+   "published": "2021-09-08",
+   "author": "/u/YukihiraJoel",
+   "body": "Overheat attack speed from 50% changed to 20%->80% based on level\n Scrap shield cd changed from 7 to 6 seconds. \n My Impression: Slightly power positive, but a big quality of life change. Helps in the hardest matchups, still winning vs popular melee mid champs early. \n Lower w cd makes heat management better early on and helps him in his toughest matchups, long range poke. \n He breaks even on the overheat attack speed at level 9, I’m going to say the attack speed nerf is painless after level 6. And the 80% attack speed overheat is going to make you a late game tank shredder. Might also give him enough dueling potential to split push, might be time to start picking up TP more often. \n Definitely still a midlaner\n Would like to hear your thoughts",
+   "id": "pkh5bu",
+   "comments": [],
+   "age_days": 1857,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Why Comet over Aery?",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/paph59/why_comet_over_aery/",
+   "published": "2021-08-24",
+   "author": "/u/VaccinalYeti",
+   "body": "Hi guys, fellow Rumble fan here. I'm playing him mid and today I was asking myself why I have never ever seen a Rumble going Aery.\n My thoughts: - It procs extremely easily against melees with Q, sometimes even two times, considering he's melee and stays fairly close to the target. - It procs on autos (which Rumble now uses a lot more than before thanks to the reworked passive). Yes, the rune is more valuable on ranged users but... -... Comet is dodgeable when Qing the enemy in lane, Aery is not. - it seems that it deals way more damage during laning phase (which is the phase that needs more damage as Rumble can bully harder and scales really well with ult later even without rune) - Aery is better against mobile enemies which are Rumble worst matchups to me (Yasuo, Yone, Akali are very skill based and difficult overall, more favourable for those enemies rather then Rumble imho) - Comet scales really well in teamfights, but is it really needed? - Comet after E hits 100% only against immobile enemies, which in this meta are the minority in midlane.\n That said, and leaving Conqueror/Electrocute out of the discussion as the playstyle is really different and not the topic here, what do you think? Is Aery worth thinking about (especially against mobile enemies) or am I not considering other strong points?",
+   "id": "paph59",
+   "comments": [],
+   "age_days": 1872,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Want to main rumble confused af so i got a couple questions",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/o8na8o/want_to_main_rumble_confused_af_so_i_got_a_couple/",
+   "published": "2021-06-27",
+   "author": "/u/IreallylikeMen",
+   "body": "So im a mid galio,sylas,kassa main and i want to get into rumble but i've never been so lost about concepts/macro on a champion before so i come asking here:\n What are my toughest matchups to ban \n When do i want to overheat and do i always want to sit on 50What are my spikes (level,item component,finished items)\n What runes do i take and in what situations (DH,Elec,Conq,Comet)\n What is my strenght as a champion (roaming,Skirmishing,Teamfighting,splitpushing etc)\n Mythic choices which and when\n Which champions synergize with rumble\n And what should i do when im ahead/behind\n I know im asking a lot of questions here but like i said ive never been so mentally stuck trying to learn a new champion and would greatly appreciate any responses",
+   "id": "o8na8o",
+   "comments": [],
+   "age_days": 1930,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Any high elo Rumble YouTuber/streamer?",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/nzh3lr/any_high_elo_rumble_youtuberstreamer/",
+   "published": "2021-06-14",
+   "author": "/u/ShinH32",
+   "body": "Hello I'm new to this champ and i really want to get better with him , do you guys know any otp rumble high elo that make videos on YouTube so I can get better and know every trick and matchups? Thanks!",
+   "id": "nzh3lr",
+   "comments": [],
+   "age_days": 1943,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "IceFireRumble - New OP Rumble build for Season 10!",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/nekkr3/icefirerumble_new_op_rumble_build_for_season_10/",
+   "published": "2021-05-17",
+   "author": "/u/Pierberto",
+   "body": "Hello fellow Rumblers,\n as many of you already know, I am a multiseasonal Rumble player that is always willing to test and reinvent the meta.\n Last season I achieved (using my understimated GoldenIngeniousRumble build) Silver 2 19 LP; sadly, Riot nerfed it the very next patch after MY post (GoldenIngeniousRumble - New OP Rumble build for Season 10!).\n Today, I am here to present to you the new way to play our favorite Yordle in the new season: Frostfire Gauntlet into off tank Rumble.\n The rune page is very simple: Grasp-Shield Bash-Boneplating-Revitalize+ToB-RavHunter into melee Matchups and Fleet-Triumph-Tenacity-Laststand+SecondWind-Revitalize into range Matchups.\n https://preview.redd.it/o3bxsoryhpz61.png?width=250&format=png&auto=webp&s=87cb3102a77f55e828ef777c2bb0961e3d56cd97\n Items\n Frostfire Gauntlet as Mythic\n Demonic Embrace and Zhonya are the only 2 AP items viable on this build: don't get baited into Rylai, it may seems like a good item but the icefire fist already slows enough.\n Everything else is situational tank item, like thornmail, spirit visage or frozen heart.\n ​\n Let me know in the comment if you think it is OP.\n I already tested it and I have so far a 100% WR in FlexQ out of 3 games!\n Thank you for your time and see you on the Rift!\n ​\n ​\n Stay Hungry, stay Rumble",
+   "id": "nekkr3",
+   "comments": [],
+   "age_days": 1971,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "For Rumble Top, when to conquer over comet?",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/n3phru/for_rumble_top_when_to_conquer_over_comet/",
+   "published": "2021-05-03",
+   "author": "/u/SpiderAsa",
+   "body": "With the passive buffs, conquerer seems like to could work and I've seen some VODS with it. Are there any specific matchups I should pick it over comet? This for top lane.",
+   "id": "n3phru",
+   "comments": [],
+   "age_days": 1985,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Sylas vs Rumble",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/mtu8ed/sylas_vs_rumble/",
+   "published": "2021-04-19",
+   "author": "/u/holy_terror",
+   "body": "Greetings I'm a low elo Rumble mid main. I'm having trouble with Sylas matchups. All the websites say I'm a big counter to him but I feel like I get dumpstered in lane. I'm running electrocute with sorc runes. Ultimate hunter.",
+   "id": "mtu8ed",
+   "comments": [],
+   "age_days": 1999,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "My Thoughts on Patch 11.8 Rumble Changes as D1 Rumble Mid Onetrick",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/ml1xnv/my_thoughts_on_patch_118_rumble_changes_as_d1/",
+   "published": "2021-04-06",
+   "author": "/u/EspionHS",
+   "body": "Link to changes\n For context, Mark Yetter says this change is to adjust Rumble from being a midlaner to a toplaner. He says \"A few shifts for champs that fell out of their playerbase's favorite position (mundo, rumble)\"\n Link to tweet \n First off I don't think Rumble players prefer playing him top over mid. The midlane roaming playstyle has way more agency and is more fun -- I know dozens of Rumble Mid players but no one that plays him top. I'd like to see how they're determining that toplane is the Rumble playerbases \"favorite position\".\n This is a nerf to Rumble Mid while being an almost irrelevant buff for Rumble Top. It's a nerf to Rumble Top in Magic matchups. Rumble will still hard lose all trades against toplaners like Irelia, Darius, Jax, Camille if he's trading overheat autos in melee range of them. Overheat autos will do about 12 more damage than before on a level 9 enemy who generally has around 1200 hp. As a D1 Rumble player I checked my match history and found that I get usually get around 10-15 overheat autoattacks off per game. With this change I'll get around 15-22 overheat autos off and they'll do on average ~20 more damage per auto. This is in exchange for having 5%+ less effective health against all magic damage lol. \n This is a terrible change that is a huge nerf to mid and magic top matchups. The overheat buff is irrelevant against toplaners since you still don't wanna be in 125 range of any toplaner anyways. RIOT please fix Rumble's item problem, you removed his 2 core items, Liandry's Torment and old Oblivion Orb with 15 flat pen and replaced it with mythic items that all have wasted stats (ability haste on Night Harvester does not work well because it just makes you overheat faster, mana on Liandry's/Ludens) or are terrible to use (Riftmaker fully stacks after Rumble uses all his cooldowns and then has no damage left, can't use Protobelt effectively because he has no survivability after dashing in). Rumble needs his items back or needs to be changed so that he can actually use the new items efficiently.\n EDIT: Riot has CHANGED the proposed changes to Rumble. New changes look way more interesting, MR nerfs might actually be justified. Link to changes",
+   "id": "ml1xnv",
+   "comments": [],
+   "age_days": 2012,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "What is the best way to play a Nasus matchup?",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/lb7wxf/what_is_the_best_way_to_play_a_nasus_matchup/",
+   "published": "2021-02-02",
+   "author": "/u/Sqareman",
+   "body": "",
+   "id": "lb7wxf",
+   "comments": [],
+   "age_days": 2075,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Yone matchup",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/kljkyq/yone_matchup/",
+   "published": "2020-12-28",
+   "author": "/u/meatballSpagetti",
+   "body": "Just played against yone mid. Felt like he was just stat checking me? Is this a winnable matchup lmao",
+   "id": "kljkyq",
+   "comments": [],
+   "age_days": 2111,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "S11 Item Guide",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/jsj7pt/s11_item_guide/",
+   "published": "2020-11-11",
+   "author": "/u/callme_obi",
+   "body": "I know the new items have only been around for a couple days, but with lots of PBE one-trick-Rumble gameplay and a few hours of watching one of our heroes Went Rumble I can bring you guys a guide to the new rumble build.\n Start:\n I used to start DShield into poke-heavy matchups and Dark Seal + Refillable into melee matchups for the extra AP. With the changes to Dark Seal (no longer gives bonus healing from potions) it isn't a great start as if you misplay an early trade you're screwed. The DRing changes (killing a minion gives +3 health if your champion does not use mana) make it a good start into melee matchups, but the sustain from DShield still makes it a good safe choice if you're running comet instead of electrocute.\n Early Build:\n Sorc's rush is still good into ranged matchups by helping you close the distance after you hit your E, but into melee matchups I have been opting to pick up some AP since you'll almost always be in range for Q. You can grab boots and Blasting Wand along with a dark seal if you think you'll snowball.\n Midgame Build:\n As we all know, our beloved yordle is very snowball reliant, and doesn't do as well going 5/5 as an Orianna or Syndra does. If you're confident in your skill and know you can get ahead by skirmishing with your jungler/winning objective fights, I'd recommend Night Harvester as your mythic. Its passive, \"The Reaping\" deals an additional ~250 damage per champion hit with an ability. This combined with electrocute will make almost anyone 1-combo-killable. The item also provides +25% move speed when proc’d for those silly carries that think they can flash away and not get burned by a full Q. The move speed feels great, as you don’t have much of a gap closer other than a 1 second move speed boost from W. Combining these two move speed bonuses finally makes Rumble fast enough to run down those champs with dashes/flashes. This is the item for assassin Rumble.\n The alternative, more well-rounded mythic is Riftmaker. You wont see a big difference at first, but you'll be doing an incredible amount of sustained damage throughout the match. The omnivamp isn't too noticeable unless you're running Sorcery and don't already have taste of blood from the electrocute tree. Plus, with everyone building grievous wounds so cheaply now, the omnivamp isn't very noticeable once those items are picked up by the enemy team. However, the flat magic pen along with the true damage passive makes this item scale pretty well. This is the item for consistent damage and sustain.\n Lategame Build:\n Yes, late game for Rumble starts at his 3rd item. You should be aiming to end the game soon as he likely doesn't scale as well as the enemy midlaner. Demonic Embrace is a must have item, followed by Zhonya's for R+Q+Stasis combo. If you didn't sell your Dark Seal then upgrade it to a Mejai's, but if you sold it then grab Void Staff. Last item depends on their comp. Need healing reduction? go Morello. Are you your team’s main source of damage? Grab a Rabadons and pray your team keeps you alive long enough to melt everyone in your path.\n In my opinion, Rumble is still a viable S11 mid pick regardless of your playstyle. I like electrocute Rumble mid and bursting carries down before they know what hit them, so I prefer Night Harvester. However, if you're more passive and just want consistent damage every fight, Riftmaker is the way to go. I'd consider starting Night Harvester if you've got a lead, and if the game goes late, swap to Riftmaker. The true damage will be a lot more effective in those late game teamfights. If you found this helpful, check out me and my gf's stream at twitch.tv/trickyhomieobi. I play Rumble almost exclusively, and my gf is a support main (of course). We stream every night at 8:30 ET. Hope you made use of this guide as it took some time to put together. If you've read all this then you are much more prepared for S11 than most other Rumble mains out there!\n TL;DR: DShield or DRing start. Grab Sorcs. Riftmaker/Night Harvester depending on your playstyle. Demonic Embrace->Zhonyas->Mejais/Void Staff->Rabadons/Morello.",
+   "id": "jsj7pt",
+   "comments": [],
+   "age_days": 2158,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Rumble mid with TP + Ignite - Thoughts?",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/jpxrym/rumble_mid_with_tp_ignite_thoughts/",
+   "published": "2020-11-07",
+   "author": "/u/borge2503",
+   "body": "Normally, I know that flash can provide \"damage\" in the sense of gap closing for more Autos, or range on q, or range on E. But In some matchups and when they enemy has a jungler with not really a lot of lock down.. I feel like TP+Ignite is a real banger- to bring you the \"best of both worlds :) \"\n Reasoning being that he still has that insane 1v1 solo kill potencial. But also has the ability to tp back to lane after getting ahead or being put behind. Also being able to sidelane much better with an extra fighting summoner spell as ignite is.\n ​\n I Know this doesn't go for everygame.. Against LeBlanc etc or Syndra, I would never go this, because you would just get caught perma with no flash as escape.. But there's plenty of midlaners this is viable against. Etc.. Ekko, Yasuo, Yone, Fizz, Orianna.\n Anyone tried this?",
+   "id": "jpxrym",
+   "comments": [],
+   "age_days": 2162,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "i feel like rumble top is in a horrible state right now",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/jobjbe/i_feel_like_rumble_top_is_in_a_horrible_state/",
+   "published": "2020-11-05",
+   "author": "/u/turtlehamstercroc",
+   "body": "I've tried to play rumble top and make it work. A lot. I've tried going phase rush, comet, electrocute, playng agressively level 1, go zhinyas second item, liandries into full tank, and many other builds, runes and playstyles, but it just doesn´t work. Today I played rumble into urgot, prettty decent matchup imo. Luckily for me, he didn't know how to play against rumble, so I ended up getting an early kill and a decent cs lead.\n About 10 minutes after that, my jg and mid decided to camp my lane to the point where urgot ended up being 0-7 and complaining in all chat that i couldnt beat him in a 1v1, so i decided to do so. He ended up killing me and surviving with a third of his hp. I'm not trying to say that urgot (or any other juggernaut for that matter) is broken, but even if he was 0-7-0 and i was 3-0-4, i had liandries, zhonyas and sorcs shoes completed while he only had phage, a kindlegem and mercs, i avoided getting hit by his e with zhonyas, dodged his ulti, but he still managed to win. It's so discouraging because this happens almost every time i decide to blind pick rumble top. it doesnt matter if i have a clear advantage over the enemy laner, dodge literally every single one of the 7 or so skillshot in illaoi's kit, or trade with a darius without losing half of my hp, because most top laners just destroy rumble. just look at some of the most popular top laners right now. wether its low or high elo, they all either beat rumble or go even with him. I think i'll just stick to playing gnar until the items changes go live to see if anything has changed. Hes pretty fun. But it just sucks that my favorite champion gets shit on so hard. he´s been like this for a long time, and the only matchups i can consistently win are ranged champions, jax, camille and gangplank. \n tl;dr: rumble top has a lot of bad matchups and only works either as a mid laner or as a counterpick",
+   "id": "jobjbe",
+   "comments": [],
+   "age_days": 2164,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How to deal with poke mages?",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/ivude4/how_to_deal_with_poke_mages/",
+   "published": "2020-09-19",
+   "author": "/u/yanderedevhomie",
+   "body": "I easily beat stuff like Akali and Yasuo, but then I play against someone like Neeko or Orianna and I get fucked. I can't seem to out-trade them even with empowered Q and E, as they just have such insane burst and they poke me down so hard. How to deal with these types of matchups?",
+   "id": "ivude4",
+   "comments": [],
+   "age_days": 2211,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Personal Rumble Cheat Sheet",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/i125gw/personal_rumble_cheat_sheet/",
+   "published": "2020-07-31",
+   "author": "/u/c0zyb0yz",
+   "body": "Hi guys I just came up with a small project about a \"cheat sheet\" for Rumble Mid users. I don't know if this is detailed(probably not) but I just wanted to give some people an idea of how to play the matchup. https://docs.google.com/spreadsheets/d/1p2H5aSl1cYAImO8IX4A_anYbJpfDv8iRPj6oouN4ZG8/edit?usp=sharing The guide is useful in learning matchups and how to play against them. It also includes some tips about how to climb and additional information about mid lane in general. I hope you guys learn something from the cheat sheet! Thank you! If you guys want more of these \"guides\" check out my channel https://www.youtube.com/channel/UCaKjIBg1qdJUCGsNxkIMyDA!",
+   "id": "i125gw",
+   "comments": [],
+   "age_days": 2261,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Can somebody explain Grasp on Rumble?",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/hzv4fn/can_somebody_explain_grasp_on_rumble/",
+   "published": "2020-07-29",
+   "author": "/u/HardstuckPlasticV",
+   "body": "I was recently opgg stalking Huni. He has been taking Grasp in some melee matchups like Wukong and Sett. I can't really tell why it would be better than the other runes, though. Nobody else seems to be using it anywhere. Thoughts?",
+   "id": "hzv4fn",
+   "comments": [],
+   "age_days": 2263,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Rumble FAQ's",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/hhg9s2/rumble_faqs/",
+   "published": "2020-06-28",
+   "author": "/u/ZaltySoup",
+   "body": "Hello (new) rumble mains, in this post you can find answers to commonly asked questions so there won't be another 20 \"elec or comet?\" posts, first of all i want to warn you for my english, i am not a native speaker.\n ​\n Runes\n Assuming you're playing Rumble mid. You will go electrocute most of the time, the other option you have is comet, electrocute is better imo but it’s more of a preference thing.\n Off meta runes:\n Phase rush: I think it is viable but i don't think it's better than electrocute.Why you would take it is because you can get more overheated auto's in with the MS, with phase rush you can also take approach velocity which can be pretty useful (it also got buffed recently)\n Conqueror people like to ask questions about, I don't recommend you going it since no, flamespitter doesn't stack it nor does equalizer. (only on first ignition but I hope you'd figure that out already) Also there isn't really something in the precision tree that rumble values.\n \"Not keystone\" runes:\n With electrocute go ToB>Eyeball>RavenousToB sustain outweighs cheap shot dmg.\n When Comet/phaserush go: Nimbus>(all 3 viable imo)>scorch/gathering\n Secondary tree\n Secondary sorc tree: Nimbus>anything other than water walking\n Secondary domination tree: ToB>Ravenous\n ​\n Builds:\n Sorc boots>Liandry>Oblivion orb>finish morello unless high need for defensive>situational\n Rylais? noSpellbinder? noProtobelt? noAll these items are kinda akward on rumble since other items are simply more important and by getting these you're delaying other items.\n ​\n Overheat:\n Abilities only get danger zone effects when OVER 50% heatTo use E while overheated the first E must already be used and then overheat,You can still use W or Q when at 90% heat.\n ​\n Matchups:\n Good matchups are champions you can easily bully out of lane and shove inThe bad ones are champions that outrange and outpoke you\n ​\n Dumb shit:\n everyone probably tried this \"Rocket heat juggling\"trying to get as much heat as possible only using E. dunno what the max is but my record is 40% heat (0 cdr)\n Mech's name is Tristy (probably cuz he like tristana)\n If you want more details watch Curtis' video it's really good, sub to him while you're at it,\n I hope this helps and feel free to correct me where i'm wrong.",
+   "id": "hhg9s2",
+   "comments": [],
+   "age_days": 2294,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Rumble Mid best and worst matchups?",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/hg8kwu/rumble_mid_best_and_worst_matchups/",
+   "published": "2020-06-26",
+   "author": "/u/C9Elite",
+   "body": "Looking to pick up Rumble mid after being an avid Rumble Top player a couple seasons ago.\n What are Rumble’s best and worst matchups mid lane? \n Also, how is he against Katarina, Talon, Leblanc, Kassadin?\n Thanks in advance!",
+   "id": "hg8kwu",
+   "comments": [],
+   "age_days": 2296,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Looking for a way back",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/gwxdw8/looking_for_a_way_back/",
+   "published": "2020-06-05",
+   "author": "/u/affedb",
+   "body": "I was a rumble top player back in s8-s9. I stopped playing him around world championship s9 because I struggled against most top lane matchups. I have constant fear against conqueror champions in top. Recently, I heard that rumble mid is on fire so I tried a game but still did not return to him. \n I miss the feeling of flamespitter straight burning down people and being a bully all early game. Is rumble top still viable in soloq now? If so, how have the situation changed? Do I still have to play Rumble mid? Is rumble still a huge early game bully? \n Plz help.",
+   "id": "gwxdw8",
+   "comments": [],
+   "age_days": 2317,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Sylas matchup",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/glrs6e/sylas_matchup/",
+   "published": "2020-05-18",
+   "author": "/u/TheCadorin",
+   "body": "Hi all!\n I'm a new Rumble mid main coming straight from Coach Curtis' video. I've been doing great with the champ and really like the playstyle.\n Now there is one champ I've been struggling against: Sylas. The three times I've faced him have been pretty tragic. From another post on this subreddit it seems like the strategy is to perma push him in and then roam. I've found that works well before the first back. But post 6 and with a first back I find myself unable to pressure him, since he just hard trades with me, trades that i loose heavily. I feel like I can't really contest the wave without putting myself at risk and so I either end up not having an impact on the game, or feeding while trying to push on him.\n So any tips would be appreciated on how to handle the matchup. Maybe I'm not playing the trade correctly or haven't figured out a way to push him without getting traded.\n Thanks for the feedback!\n Edit: OP.gg with a recent Sylas game if interested : https://na.op.gg/summoner/userName=Cadorin\n Edit 2: Curtis put Sylas as an A tier matchup, which is why I'm wondering why i get stomped so hard.",
+   "id": "glrs6e",
+   "comments": [],
+   "age_days": 2335,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Phase rush Rumble toplane?",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/fwl0jq/phase_rush_rumble_toplane/",
+   "published": "2020-04-07",
+   "author": "/u/greatbigbonghole",
+   "body": "I used to only go for Phase rush in matchups like Kled or Trynd, but with the recent buffs to phase rush and with the meta shifting away from very short and bursty teamfights to longer and there being more tanks in the game I am finding quite allot of value in phase rush. Also there being quite allot of slows in the game atm. Senna, Trundle fx. phase rush really helps u chase down kills or get away from ganks or bad teamfights.\n I realize comet is an obvious choice but swapping between comet, phase rush and conqueror honestly makes rumble top close to uncounterable. I think a discussion between comet or phase rush is kind of the same as one between Scorch or Gathering storm, If you are not required to win lane I would say gathering storm and phase rush is often a better choice.\n And by required to win lane I mean that if your team has better scaling, if the enemy has the stronger early game jungler, or simply if your teams wincondition is botlane. And ofcourse if you are playing a matchup where its really hard for both parts to get a solo kill. \n I would mostly say phase rush is for toplane rumble since its a longer lane and poking rarely matters as much as the all in potential, both because of teleports and often more sustain on toplane champs. \n Any thoughts, are you guys using phase rush?",
+   "id": "fwl0jq",
+   "comments": [],
+   "age_days": 2376,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "HOW TO DOMINATE WITH RUMBLE TOP",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/fskz42/how_to_dominate_with_rumble_top/",
+   "published": "2020-03-31",
+   "author": "/u/Supahafiya",
+   "body": "Firstly, to anyone who says Rumble top is dead...your just dead wrong. There is a new build that you have to go to have success in the toplane. \n The one way to survive in the intense 1v1s of top is to use the Forbidden rune.\n CONQUERER\n Now before you spam me with downvotes because of rumbles bad synergy with the rune, this is where the build comes in. And trust me, the synergy gets absolutely nuts.\n The build path is:\n Liandrys, Nashors Tooth, Morellos/Zhonyas, Morellos/Zhonyas/Void Staff, Deathcap\n ​\n You are already familiar with how busted liandries is on rumble and how it works with his slows. Now what if you were healing for all that damage?\n THIS is where nashors tooth comes in. Although it might seem troll it ties the build COMPLETELY together and allows you to still be useful when your overheated. Conq stacks from abilities and autos, rumble struggles to stack it because he tends to use all of his abilities instead of autoing. But with NASHORS this COMPLETELY CHANGES. Walk up to bruisers with your liandries burn, land a couple-quick autos and suddenly YOU ARE HEALING A TON. Also when you get overheated cause your beating them so hard, your passive that allows you to have extra damage on autos becomes ACTUALLY USEFUL as it combines with NASHORS TO BEAT THEM TO DEATH.\n This build still lets you do everything you used to do on rumble, just in the top lane, and better with more sustain. You don't have to blow your load, zhonyas and die, You can blow your load, fight a bit, zhonyas, blow your load again and fight before you die. \n BUT I HAVENT TALKED ABOUT THE BEST PART YET. Rumble loves CDR but most of his items just don't have it. NASHORS HAS A WHOLE 20% for you! YOU WILL HAVE 40% CDR BY LATEGAME AND YOUR ULT WILL BE ON A 35 SECOND COOLDOWN. Also your basic abilities will be spammable which just makes conq better. And remember when you overheat you can still beat them down.\n ​\n ITS TIME TO BRING THE ORIGINAL AP BRUISER BACK TOP RUMBLE MAINS LETS DO IT!\n Runes:\n Conq Transcendence \n Triumph Gathering Storm\n Legend Tenacity/Alacrity depending on matchup and enemy team\n Coup de Grace \n Adaptive Force\n Adaptive Force\n Amor/MR/Health depends on enemy team\n If it is a rough matchup you might want to go resolve secondary and then make your first adaptive force rune CDR so you can survive and spam damage later.",
+   "id": "fskz42",
+   "comments": [],
+   "age_days": 2383,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Hardest Toplane Matchups?",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/f5mfzu/hardest_toplane_matchups/",
+   "published": "2020-02-18",
+   "author": "/u/HardstuckPlasticV",
+   "body": "I was just curious about whether or not there's a consensus here on Rumble's hardest toplane matchups. I'm still not very experienced on him, so I have a hard time telling when I'm playing matchups badly vs. when they are hard counters. Thanks in advance!",
+   "id": "f5mfzu",
+   "comments": [],
+   "age_days": 2425,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Anyone else finding the current mid meta absolutely insufferable",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/erthox/anyone_else_finding_the_current_mid_meta/",
+   "published": "2020-01-21",
+   "author": "/u/Dawnsday",
+   "body": "Seriously every game is one of: Cass Ryze Kass Orianna Syndra. \n I feel like these are all some of our worst matchups",
+   "id": "erthox",
+   "comments": [],
+   "age_days": 2453,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How do I counter/play against Rumble?",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/eokfxk/how_do_i_counterplay_against_rumble/",
+   "published": "2020-01-14",
+   "author": "/u/Kazoky",
+   "body": "Everytime the enemy team locks in Rumble, I either have to dodge that game because I never learn how to counter Rumble or actually try and counter Rumble.\n I don't hate Rumble that much but I really do hate playing against him in lane. \n Are there any matchups that Rumble really hate and are there any effective ways to play against Rumble?",
+   "id": "eokfxk",
+   "comments": [],
+   "age_days": 2460,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Electrocute+resolve",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/em6rwl/electrocuteresolve/",
+   "published": "2020-01-09",
+   "author": "/u/Saltyonetrick",
+   "body": "Hi guys!\n So I've picked up rumble and used mostly arcane comet with domination secondary and conqueror with domination . I've recently noticed that Went goes electrocute with resolve every game. What would be the reason for it and why would I pick it over comet,conq or just electro with sorcery? Which matchups does it work well against?",
+   "id": "em6rwl",
+   "comments": [],
+   "age_days": 2465,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Worst midlane matchups",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/ej30n5/worst_midlane_matchups/",
+   "published": "2020-01-02",
+   "author": "/u/Iamjohnmiller",
+   "body": "Hi all...\n I have a Rumble otp account now, still unranked but am generally playing high gold/low plat right now\n What are the roughest matchups you find in the mid lane?\n I have issues with:\n Akali\n\n Vlad\n\n Diana\n\n Zoe (just hate this champ tbh)\n\n Recently got shit on by a D3 Talon and a D4 Xerath but I think those were more about the players just being much better than me than the matchup itself",
+   "id": "ej30n5",
+   "comments": [],
+   "age_days": 2472,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Rumble mid rune choice",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/dxq17e/rumble_mid_rune_choice/",
+   "published": "2019-11-17",
+   "author": "/u/ski233",
+   "body": "I have seen 2 main options for runes on Rumble Mid. The first and most common one is comet. It makes sense because its really easy to proc and allows easier poking in lane. However, I see that “Went Rumble” always runs electrocute and I’ve been trying it and it feels way better than comet. Since rumble mid is already such a lane bully, it feels way better getting a massive electrocute proc when you go all in rather than getting gradual poke dmg from comet. Also electrocute has way more impact once you are out of laning phase and going in. Can anyone convince me of why comet could be a better option unless its just a bad matchup where rumble cant go all in?",
+   "id": "dxq17e",
+   "comments": [],
+   "age_days": 2518,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Why you're not winning games with Top Rumble",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/d34a05/why_youre_not_winning_games_with_top_rumble/",
+   "published": "2019-09-12",
+   "author": "/u/asianenoughxd",
+   "body": "I saw a couple of posts recently and wanted to talk more about Top Rumble.\n Here's my OP.GG for reference:\n https://na.op.gg/summoner/userName=5mi\n ​\n I hit Challenger earlier in this season maining top Rumble and I think a lot of Rumble players don't know how to play him effectively in the top lane. The main advantages of playing Rumble mid are that you can take ignite and the fact that you can roam to either side lane more easily. Top lane, you get plenty of winning match-ups and the ability to roam mid, or teleport bottom.\n ​\n The first thing you need to fix is really simple, it's just keystone and starting items. Every rumble player knows about starting DShield or Cloth 4, but during my climb, I was using a couple of other item starts and recently also discovered the strength of Doran's Ring.\n ​\n Keystone\n ​\n Okay, so everyone knows that Comet and Electrocute are go-to keystones on Rumble, but you also need to take Conqueror. It's harder to utilize, but this is how you're going to win vs. a lot of other melee top lane tanks and bruisers. You don't have to run this every game, but it's definitely the superior keystone in some match-ups. Personally, I run this into most melee champions like Riven, GP, Sylas, and all tanks. Versus ranged champions, I definitely prefer comet.\n You need to change your trade patterns and that's probably going to be the hardest part. Your goal is this: 5 stack conqueror, overheated Q\n ​\n Normally with Comet, you just Q and W then back off. With Electrocute, you use Q and E and ignite if you have it. With Conqueror, though, you need to be thinking about your second Q. It's really rare for you to get a raw 5 stack conqueror with your Q on an initial fight so here's some realistic examples of how to accomplish this.\n ​\n Use W as needed in any trade, but I recommend idling at 40 or 50 heat and using W alongside Q to instantly overheat from 60/70.\n Poke with Q (1 stack), back off for 2-4 seconds, bait your opponent into trading while Q is down, E (2 stack), auto attack (3 stack), E or ultimate (4 stack), danger zone/overheated Q (5 stack). In terms of damage, you go about even by landing a fully stacked Conqueror Q with other masteries, but it becomes stronger than others if you land overheated auto attacks.\n When your opponent engages on you, you can use E R auto attack E Q to get your 5 stacks.\n ​\n Run Conqueror, Triumph, Tenacity, Coup de Grace/Last Stand as your primary. In most matchups, take taste of blood and ravenous hunter. Specifically versus Riven, I find that Shield Bash + Revitalize are better because you can aggressively fight her when she tries to all in.\n ​\n Starting Item\n In terms of items, you can take Doran's Shield, Cloth 4 potion, Ruby Crystal, or Amp tome depending on your match-up. But what I think is super under-rated is Doran's Ring start. I find that before I started using this, a lot of match-ups would end with me dying by 1 or 2 autos in all-ins. The 15 bonus AP helps put you over that kill-range and also makes your poke a little bit more effective.\n Doran’s Ring\n Match-up examples: Sylas, Jax, Malphite, Gangplank\n This is an extremely aggressive start that provides you AP. A lot of people are hesitant to take this because it has mana regeneration and it feels like a waste, but it’s still a really solid buy. Even without the mana regeneration, Doran’s ring is an efficient buy because it’s health and AP are worth 480 gold. What I really value about this item is that it allows you take 2 health potions and the 5 damage bonus damage it provides on minions, just like Doran’s Shield. Being able to push the wave and effective health in your initial laning is really undervalued. Doran’s ring and 2 health potions is 360 health, alongside 15 AP. You can compare that to Amp tome 1 pot which is 20 AP and 150 hp, as well as Doran’s Shield which is 230 health. Yes, Doran’s Shield gives you health regeneration, but you need to remember that this takes several minutes to break even and also that health regeneration is basically a worthless stat after your 2nd or 3rd base.\n ​\n Playstyle\n There's 3 scenarios you need to be aware of:\n Winning match-up, with or without jungle pressure\n I feel like most of you guys understand how to play Rumble and what his strengths are. Personally, I felt like he was the most OP top laner in the game when I was spamming him because he can almost always take lane priority and as a result control the wave. This alone gave me the confidence to win my games because I could eventually crash big waves to either dive my opponent, or roam/teleport. Sometimes, I freeze and force my opponents take bad trades with me and chunk them to half health or lower. From there, I can take lane priority because if they walk up again, they die. If my jungler is pathing top, I'll break my freeze and turn it into a slow push, trying to time it with my jungler finishing their camps. Since I chunked my opponent earlier with my freeze, it's really easy to dive since I can always back out with scrap shield. Lead with R, Q and E, and then back off while my jungler finishes for me.\n When you're able to win your lane but your jungler isn't coming to your lane, you still do the same thing. If your opponent is really low, you can try to solo dive them. If not, you should crash waves and then deep ward and/or roam mid. Since your opponent is under turret, you get to gank mid or teleport bottom for free while they need to catch all the minions you built up. You can do this on any champion, but I find that Rumble can pull this off in more games than other ones, so it's a reliable way for me to impact the map even when my enemy is playing too safe.\n No jungle pressure or enemy jungler is camping you\n In cases where my jungler isn't pathing to my lane, I would just make sure that I don't die and it's pretty easy to do that on Rumble as long as you don't get solo killed or die to a gank pre 6. You can always farm from a distance with E and let your opponent push into you. If they try to play extremely aggressively, it's easy to know that you're either getting ganked or they're trying to set one up later. The thing is that you can let them trade a little bit as long as you disengage with W and E because if they're diving you in your minion wave, this naturally causes the minion wave to come to you and you can just catch it under turret later. If your enemy inevitably tries to freeze a wave to force you to overextend, you ult the next minion wave and immediately recall. Buy a stop-watch if you think you'll get dove when you come back to lane.\n ​\n Losing match-up\n You can almost always just farm with your E and not die as Rumble. When waves crash into you, you need to slow push and build your own minion wave so that your opponent can't freeze. With a big enough minion wave, you can still win fights even in losing match-ups. If they're freezing and forcing you to move forward, you can either break the freeze with Q if you're healthy enough, or use ultimate to clear the waves. Remember that you don't need to kill your opponent to win games, especially if you're in a bad match-up. Going even or down a little farm is good enough.\n ​\n Mid/late game\n If you pull ahead during the lane phase, you can take lane priority in a side-lane afterwards. I find that, especially with Conqueror and Liandry's, it's really difficult for opponents to contest my push if I'm ahead. Like the lane phase, you just do the exact same thing. Slow push the side lane and group with your team. If no one is matching you, you fast push the wave and either walk to group with your team, or continue pushing for turret while looking for a teleport flank. When Baron is on the board, I almost always split push bottom with teleport and try to crash big waves. If I can do this, I immediately roam mid and try to force a 5v4 fight if someone comes to catch the wave I pushed in bottom. While they're still farming, my team has usually made a pick and we can transition that into pushing mid turrets or Baron.",
+   "id": "d34a05",
+   "comments": [],
+   "age_days": 2584,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Rejuv beads instead of Dorans shield? [LONG ASS POST]",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/ccas6m/rejuv_beads_instead_of_dorans_shield_long_ass_post/",
+   "published": "2019-07-12",
+   "author": "/u/Phrakturelol",
+   "body": "I was thinking about this as I lay in bed, watching Quas's stream. He did something that I hadn't seen - he built 3 rejuv beads and a health pot instead of Dorans shield and a health pot. Whilst this was on Darius, who has the highest health regen level 1, it got me thinking about whether or not this would be viable on Rumble.\n So.... would it be good? Economics behind the items After looking into the math's behind it, I think it may be worth trying.\n Let's start with resell gold. Unfortunately, Rejuv beads do not build into anything for Rumble, but neither does Dorans shield. Dorans shield costs 450, the same as 3 Rejuv beads. However, whilst the resell value of Dorans is only 180, each of the beads can be sold for 105.\n So, at the cost of stronger laning and sustain in lane, you're effective gold spend is -270 on Dorans shield, whilst it's only -135 on the beads. Or if you'd prefer, thats an extra 135 gold you're going to have in the midgame comparatively.\n It's also worth noting the flexibility of the Rejuv beads. At any point you are able to sacrifice 1 for an increase in gold, perhaps to reach a full item. I often find myself selling dorans shield early to get an extra 100 gold and this would be a much more cost effective way of achieving that.\n It's clear that if we're just looking to get to our key items quicker, then Rejuv beads are the clear winner in terms of both flexibility when selling and overall gold saved from the laning items.\n Regen stats behind the items please note that all below values are taken for health regen for every 5 seconds\n Although you may not really consider it when playing Rumble, he has a fairly high base health regen, at 8. His health regen growth is +0.6 for every level after.\n This means, at level 1, the regen beads are going to increase his health regen by 12 and for every level after, the regen beads will increase his health regen by a further 0.9.\n  \n So, what's the regen for dorans shield? Dorans shield has two components to its health regen. One being the flat passive of +6, and the other being a variable component, based on your current health and assuming you've taken damage recently. The variable component scales from +5 regen at 75% health to +15 at 25% health.\n Below, I've compared each of the items on their health regen.\n Level Regen Beads D75% D50% D25% 1 12 11 16 21 2 12.9 11 16 21 3 13.8 11 16 21 4 14.7 11 16 21 5 15.6 11 16 21 6 16.5 11 16 21 7 17.4 11 16 21 8 18.3 11 16 21 9 19.2 11 16 21 10 20.1 11 16 21 11 21 11 16 21  \n As you can see, Dorans shield is dramatically better if you're at very low health but the health regen is overall better IMO when you're above 50%. At level 6, the regen beads will provide the same health regen as a permanently active Dorans shield if you were at 50% health.\n Considering if you've taken a few bad trades and aren't looking to trade any further at 25% health for the fear of dying, you may not get to proc your dorans active at such a low health very often. \n It's also worth noting that unless the enemy breaks your shield, then you also won't get the bonus regen.\n The winner isn't so clear cut here, in terms of just the health regen in lane\n  \n So, if Regen beads are roughly the same in terms of regen provided, what's the point in taking Dorans Shield? - The obvious benefit is the health. Dorans Shield provides an additional 80 health on top of the regen. Whether or not the extra 80 health for laning is going to be worth 135 gold is up to you.\n  \n But, is there a third option? Yes actually. A third option would be to take a cloth armour + 1 regen bead instead of 2 regen beads. A single cloth armour gives you higher effective health than the dorans shield's +80 health. This is ssuming you have a single armour rune - maths behind this is (669(100+36.9)/100) vs (589(100+51.9)/100) \n This third option is also the most cost effective, effectively saving 405 gold from the original 500 as you're not going to sell the cloth armour, compared to saving 305 with the beads and only 180 with the shield. \n Whilst you may not be getting as large of a health regen boost compared to the Dorans in lane with this start, it puts you up a considerable amount of gold than you otherwise would be.\n  \n So, what conclusions can we draw from this? In my opinion, it's going to be worth it to pick up the cloth armour and 1 regen bead in lanes that you're going to get an early armguard. Armguard is extremely cost effective, so the earlier you can get it, the better. I'll be looking to use this in lanes against Zed, Yasuo, Riven etc. \n Aside from AD only matchups, it's a good idea to try the triple Rejuv beads and see if you like it. If you prefer it over Dorans, great! If you prefer Dorans over rejuv beads, that's cool too. It really boils down to whether or not you need the 80 health over the gold and flexibility increase. I'll certainly be trying both and I hope this post has convinced you to at least try it and let me know what you think.\n Any questions, comments? Let me know!\n Also if you managed to read this huge post, thanks for reading I guess. lol",
+   "id": "ccas6m",
+   "comments": [],
+   "age_days": 2646,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "An important laning mechanic: Stutter Step with Rumble Q.",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/a25v9k/an_important_laning_mechanic_stutter_step_with/",
+   "published": "2018-12-01",
+   "author": "/u/Crunchyfied",
+   "body": "Hey all,\n I've played Rumble on and off for 5 years. Was listed #1 Rumble in the world during Season 4 (lolskill) and was 14LP away from Challenger one tricking Rumble. I've since stopped playing him as much but wanted to share a little mechanic with everyone. I don't see it in a lot of Rumble guides and don't see it in this subreddit so thought it'd be appropriate to share.\n What is Stutter Stepping? Basically you click in front and behind of Rumble really fast while his Q is on. So he's constantly turning back and forth with his flame spitter. Stutter stepping works because Rumble's Q animation doesn't fully determine where the damage is applied. If you face one way at the beginning of a damage tick and then face an opposite direction at the end of the same damage tick, the damage is applied in both directions instead of just one. Even if the animation doesn't burn in a direction, if you turn quick enough the damage will still apply. This means you can do almost full damage to targets behind you, even if you don't face them for the entire time Flamespitter is activated.\n The damage tick is delayed enough where you can apply one single tick of damage in two directions. Stutter stepping works better when your cursor is clicking close to Rumble's character. \n Why Stutter Step? Here's some reasons why I've made stutter stepping a core mechanic in my gameplay.\n Clearing minions in front and behind you This is one of the first things to practice on when stutter stepping. If a minion wave is too split up to clear with a frontal Q, you can put yourself in the middle of the wave and stutter step between the front and back minions to deal damage to both parts. You can clear minions even if you aren't facing all of them directly.\n Kiting enemy champions The most important thing about mastering the Stutter step is so that you can kite enemies. If you time your clicks correctly, you can kite away from champs chasing you while dealing near full damage of flamespitter without having to directly face them. \n Or you can damage enemies who are at the edge of Flamespitter range and you don't want to walk close towards them. You can use Stutter step to inch towards enemies so they are damaged by Q while also inching backwards to safety. This mechanic works very well against melee matchups, especially Darius. You can damage Darius and be outside of his pull range if you stutter step correctly. Don't overstep against matchups that can kill you if they catch you.\n The moment they start advancing towards you, you can stutter step backwards to deal damage to them while running away. \n Example 1: Clearing minions on both sides of you https://streamable.com/klwa3\n\n Example 2: Damaging champions on both sides of you (1 dmg tick does not apply) https://streamable.com/cho9s\n\n Example 3: Kiting (sorry I couldn't get better clip but the idea is the same) https://streamable.com/rqh02\n\n Hope this post helped you out.",
+   "id": "a25v9k",
+   "comments": [],
+   "age_days": 2869,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Masters with Full Ap Rumble Mid",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/8h2xme/masters_with_full_ap_rumble_mid/",
+   "published": "2018-05-04",
+   "author": "/u/centxh",
+   "body": "Well almost full ap I lied but still I'll answer any questions on matchups or whatever http://na.op.gg/summoner/userName=went streaming twitch.tv/jussenk",
+   "id": "8h2xme",
+   "comments": [],
+   "age_days": 3080,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "[Serious] Let's talk about Rumble, his current state and future.",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/8d7gio/serious_lets_talk_about_rumble_his_current_state/",
+   "published": "2018-04-18",
+   "author": "/u/Zanshi44",
+   "body": "Hello and welcome to another of my rant threads, now before we dig in i just wnat to point out this is a legit serious discussion and will try highlight the current situation of the champion, what are his issues we know, what he needs and what future we're expecting for the little angry Yordle.\n Needless to say that Rumble is struggling so badly right now the current state of the game and meta and we talked about this several times with angry and salty threads and comments; but let's be real and say that we really are being dissed by Riot and there's no real communication between them and the Rumble maisn community to adresse the champion aside some Q&A now and then before going radio silent.\n Current Situation of Rumble\n After the small buff in patch 8.7, it seemed like it was aimed to give Rumble a small power to his early game since in fact he lacks presence in the early stages of the game and needed to some help.\n Unfortunatly the \"buff\" only helped the winrate jump by 1% and gave him some ability to witstand some matchups early game but quickly fade away after lvl5-8 depending on the matchups. Now some of you may actually say that the buff is really good and needed (which i 100% agree) but i still want point out that Riot still completly missing what's wrong with Rumble and what makes him bad.\n Reminder to the new people on Rumble that the problems started since patch 7.12 when they changed his Q numbers and CD and also his heat decay mechanic; but to that as it made Rumble extremly weak againt champions who have all-in power or ranged champions who can harass you non-stop without you able to retaliate.\n Given the Q numbers curenntly are one of the highest in the game but surprised that why he's struggling and i'll tell you why :\n The new Runes brought a lot of diversity and functionalities to the game and champions, some champions can synergize and abuse well the runes and others not so much.\n First thing to notice is DFT removal had a heavy impact on Rumble's laning ability and removed a lot of his damage power at early stages of the game, probably the biggest hit to Rumble.\n\n Second, defensive runes currently grants a lot of safety in lane for champions in lane and also can be combined with starting items to make things even more difficult. For example : laning as Rumble against a champion who can start with a doran's shield combined with resolve mastery tree can prove to be very problematic and difficult to deal with as it grants the user a lot of damage mitigation early levels and health regen; which leads the opposing laner being able to endure your damage and surving the lane to get his cheap MR items and come back to ignore you after in lane.\n\n Also, the Sorcery tree got hit many times with nerfs that kept affecting Rumble more and more. the only thing i thing off still useful to Rumble right now is Aery and ultimate hat. Scorche was good at first but riot had to nerf it to the ground.\n Third, MR items are super cheap and accessible early game and makes it very hard for Rumble to do anything from having a significant lead to a kill pressure. You can't ignore the fact that Rumble's items cost waaaaay too much to be efficient compared to cheap MR items that shuts him down faster. It's just frustrating to deal with.\n\n Finally, i need to point out that Rumble's kit is \"static\". And what i mean is it has no natural scaling because it's 100% item reliant. Let me clarify further so people don't get confused.\n\n When i say \"static\" is imean by that theree are champions that has a natural scaling by items (AP/AD/CDR/item passives...etc), for example like Riven : she has a great natural scaling because the more you invest in items and CDR (and other game mechanics) the more her kit scales exceptionally well and offers much more usefuleness. Rumble? not so much because all your skills are capped to fixed CD and capped by the heat mechanic. Now don't get me wrong, Rumble's kit is uniq but it doesn't scale at all past mid game and the kit is locked, so if Riven's E goes from 6 sec (max rank) to 3 sec with tons of CDR and AD scaling she can mitigate a lot of damage and have an insane ability to be mobile/kite/chase. I hope you guys understand what i'm pointing at now.\n and BTW, ever since the 7.12 changes we all noticed that Rumble has been unable to be a lane bully since it's his core identity just because he can't creat meaningful leads to transition into midgame and also can easly fall off the game if he dies in lane and it's all over for him (before 7.12, h was able to still recover in lane and creat leads and come back).\n What Rumble needs\n Rumble faces issues and challenges, but honestly can be fixed if only Riot is willing to aknowledge what i mentioned earlier.\n So what does Rumble need to become viable again? let's see...\n A compensation for the DFT removal, i've been thinking a lot about this and does make sense to me : give the Q a brurning passive that acts like DFT. I mean brand has it, why shouldn't Rumble too? Call it \"Afterburn\" or something. I think this would be a great help to bring back some lane power to him.\n\n I thnk one of Rumble's biggest issues is his W, i can't understand how this hasn't been talked about at Riot because it's very depressing ability that loses utility after the few first levels of the game as it offers nothing mid/late game but act as a heat generating source. Aslo the movement speed bonus is very negligeable and can hardly be uselful at later stages of the game given the power of tenacity and mobility that resists your E slows. The overall duration of the skill is just ridiculous and hardly has any impact after a while, it's just not good at all tbh. Like i said, it feel like Shen's old W (small shield but nothing else).\n\n What i think the better fix for the W is increasing the duration, bonus MS and give if a \"jet/dash\" effect. And maybe increase a bit the AP ratio.\n I heard a while abck that Riot was thinking about reverting the E changes and i hope they do not because that was the best QoL change Rumble had since, because currently it's his only tool to farme in lane against oppressive champions (the irony when Rumble was called oppressive and nerfed lol).\n\n The Equalizer; alright this one is seriously important that Rumble is historically known for having one of the best ultimates in the game and can be really game changing and impactful if well executed. Right now it lost it's glory seing how powerful MR items are right now and champions are very mobile assisted with supports who can help mitigate a lot of it's threat.\n\n My toughts to bring back it's threat, after a lot of discussions with other Rumble mains in higher tiers, is to : \n Give the ult a grounding effect that prevents champions from quicky doding/flashing and making the ult lose fast it's effectivness/threat.\n\n Increase the R ratio numbers accordingly to the scaling of the game and MR items acquisitions by ennemy champions. As we all know late game is a nightmare for Rumble because he's not a late game champion, so this should halp him stay fairly relevant at least.\n\n Give back the impact damage when the R lands on the ground and instantly damaging the champions hit by (still debating wether this should be a good idea or not but wanted to put it here so i could see what people might think).\n\n Future of Rumble\n From what i see it as experienced Rumble enthousiast since season 3, if things continue like this, the way Riot is treating the champion and not hiving clear ideas on the champion despite the community really did point out the issues but got ignored and instead went for a Q buff that did only increase the winrate by 1% but remains in the same bad state; i think it's not promising for the Yordle as like a lot of people quit playing him because the champion doesn't offer anything better than the current meta champions and he's a high risk pick that has little to nothing as reward. I quit Rumble personally and focused playing GP and Singed which i find very more impactful and useful than him and also have better success with them.\n We'll probably see Rumble one day great again, but not anytime soon as MSI is on the doors but one may still hope for the patches before worlds : who knows, we may hear good news.\n Thank you for reading and let me know what you think, may add some stuff i missed later.\n Edit : spelling errors.",
+   "id": "8d7gio",
+   "comments": [],
+   "age_days": 3096,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Riot is still blind the the real issue and refuse to listen",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/83as8f/riot_is_still_blind_the_the_real_issue_and_refuse/",
+   "published": "2018-03-09",
+   "author": "/u/Zanshi44",
+   "body": "Hello my fellow Rumble player, \n I want talk about the recent controversy on riot's balance team and their \"attemps\" to give attention to Rumble and fix him, i feel like i need to get this out of my system because the more and more i wait and read theyr supposed \"goals\" frustrates me and makes me feel like we're mere \"players\" and not customers so bear with me and i apologize in advance for my english mistakes and will try to fix any.\n Rumble\n Rumble by definition is an AP toplaner classified as a lane bully as core identity as a champion in the league of legends universe. Ever since his release his gameplay was defined by agressive laning phase and dominance against many matchups.\n His main role in the team is taking controle over the lane, keeping in check toplane champion if he can (depending on matchups) and being a fire power in team fights for his team with his glorious and amazing ability The Equalizer well known for being a game changing ability if well executed.\n Rumble is 100% extremly dependant on items and his team, he has been known for scaling with items only as his kit doesn't allow him any smooth self dependancy compared to many champion.\n He uses a uniq and fun mechanic called \"Heat\", this feature makes his kit very resky/reward : the more you generate heat, the more bonus damage you deal with the trade if you enter the \"Overheat mode\" you're silenced and weak with no defenses.\n It's also better to remind Rumble's goals were always to be as much effective in early/mid game as possible because his late games has always been known for falling off and less effective/reliable.\n Riot has been know for sometime to be very agressive with buffs and nerfs, and sometimes doing so can lead to problematic balance issues to uniq champions (hi Ryze) and most of you remember many nerfs towards Rumble imemdiatly killed him fast from appearing and being viable in Solo Q or Competitive (remember the R nerfs? yeah that was a very brutal nerf and left out for a long time).\n Before new Runes introduced\n The latest nerf/changes to his Q and heat mechanic really hit hard Rumble and i've been very vocal about at that time that wasn't a good idea because how long the CD was the Q and the heat decay was going to make Rumble's dueling/lane ability very clunky and not satisfying as the champion was already ahrd enough to manage on his own in lane because the champion was deemed \"oppressive\" and if you ask me i've never been satisfied by that claim tbh.\n Moving forward, ever since the changes took effect most of us were forced and frustrated to play the new changes trying to adapte and we all felt how bad it was because we quickly noticed the big issues that created :\n His laning phase went from good to medium effective.\n\n Many champions that were countered by Rumble found big windows to breath and survive and get MR items faster than ever.\n\n His lane dominance was gone for good, he connot create any good leads that makes able to move in a better spot to mid game, not even a small leads is enougha nymore.\n\n The ability to take risky overheating duels became a real danger to him and more often his mark of death and completly losing the lane.\n\n The ability to turn around ganks in his favor is long gone for good.\n\n Dying to a single gank seals his laning phase and pretty much forced to just play scared and farme with E from far.\n\n Champions thatw ere supposed to be weak early game now have better laning phase than him and can even bully him and push him out of lane. \n\n If Rumble is behind, he's no use for his team and becomes a heavy liability to them since he's extremly Item dependant and connot creat leads on his own anymore.\n\n MR items are very cheap and accessible early game which was always an issue for Rumble for a while.\n\n These are the consequences of the changes on Q and heat before the new Runes, now let's talk about when new Runes were introduced and what new issues created for Rumble that really sealed his fate.\n After new Runes introduced\n This is where the doomsday came for Rumble, with the removal of DFT Rumble suffered a huge nerf and was immediatly felt by the Rumble community despite the promises from Riot to compensate him which frankly they did nothing to him.\n I wanna point out that the new Runes were very unfavorable for Rumble since it created many MANY safety options for man toplaners; i kid you not how absurde the situation became for Rumble later when multiple nerfs came to Sorcery tree making more and more nerfs for Rumble and digging his grave at teh same time.\n The situation was so ridiculous that tanks who used to be afraid of Rumble are now abusing him and even killing him since they have better and suited kits for the lane and reliable damage and scale way better than him. As for carry toplaner like Riven nad Fiora who are supposed to have a weak laning phase are now extremly efficent in lane don't even care how good are you on Rumble because no matter what they can't lose to you and they will outscale you no matter what. The sad part is anyone currently can snowball hard on Rumble.\n Riot's recent attempts to fix/buff Rumble\n Recently i've seen good news that finally the champion is getting some serious attention from riot and i'm very happy about.\n The Equalizer (R) Total Damage (over 5s) :: 650 / 925 / 1200 (+150%AP) >>> 700 / 1000 / 1300 (+175%AP)\n Flamespitter (Q) Total Damage :: 135 / 180 / 225 / 270 / 315 (+ 110% AP) >>> 150 / 200 / 250 / 300 / 350 (+110% AP) Damage to minions :: 75% >>> 70%\n However it quicky turned into a nightmare because it was cleary they aren't listening what the community has been telling them about the real issue as i talked about and instead they went for a stright forward buff to his ultimate. My first reaction was \"just why?\". \n The buff seemed a great idea honestly and very much needed for the current state of the game since Rumble late game is non existent with the current power of MR items, heals and shields. Also many champions have the ability to dash/jump/escape his ult easly and fast negating it's utility/efficiency. But i was really sad that they're still completly missing the big issue here : his laning phase is absolute disaster compared to many champions short CD chain abilities/CC while his main ability has a really big CD and champion can easly avoid, wait out and doesn't do enough damage needed for trades. Rumble seems to never get a good faire trade and anytime you do, you also take heavy damage.\n Also it's a huge nerf to minion damage and Rumble is shitty at farming under tower already because of how bad his early Q CD and how easly he can be pushed out under tower, it doesn't make sense if they think about Rumble being able to push and roam? HE ALREADY STRUGGLES IN LANE LET ALONE TRY TO ROAM. Just gives you an idea if the person who's working on teh champion doesn't have any idea what's good and abd for Rumble and makes me really sad.\n I need to highlight also his W is utter shit and useless, IT DOESNT DO ANYTHING !!! Think of it as the old Shen's W : small shield....but nothing. The small bust of speed in his outdated kit compared to other champions is a joke ! I don't ever remember using my W for something other than generating heat and i would even dare the balance team to ask the core Rumble players what they use their W for and it would be the same thing : heat generating because the shield currently doesn't cover anything against how strong other toplaners are now.\n I keep telling this over and over and over : the Q and heat changes will always be there as the core issue no matter how much you buff Rumble, hell give him 200 lvl1 Q damage and it won't make a difference because of how long the CD is and leaves Rumble very vulnurable and abusable since he has no means of defense or sustain, like i said he can't rely on himself anymore in lane and has to either stay far and farme safely or play aggressive to easly die and auto lose the lane and becoems a burden to his team and it's pretty much boring at any case.\n Personal note \n I'm a player and a customer at the same time, i understand that a champion that i really like can sometimes be strong or OP and needs nerfs/fixes/adjustements. But i also buy with real money cosmetics to enhance my enjoyement and game experience so i can enjoy playing him even more and showcase how much i love the champion. My personal isse here is i pay with real money while i live in a poor country and it's a horrible feeling to know the champion i love playing isn't fun or good anymore : it's one of the worst feelings ever and i'm not sure if Riot does understand this side. \n I don't want Rumble to be strong or OP : i just want the champion to be playable and decent, i'll put my own effort to make him better in the game with faire and propre buffs/fixes and adjustements; i just want to enjoy playing him again...but they're not listening....",
+   "id": "83as8f",
+   "comments": [],
+   "age_days": 3136,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "The state of Rumble and what changed during the preseason [DISCUSSION]",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/7tm7ps/the_state_of_rumble_and_what_changed_during_the/",
+   "published": "2018-01-28",
+   "author": "/u/Phrakturelol",
+   "body": "Who am I?\n I'm Ready 2 Rumble, or should I say Ready 2 RumbIe now.\n It's been a while since I've posted to this subreddit or have been active in the Rumble community so some of you may not have heard of me. I am a high elo Rumble player on EUW that used to stream a fair bit. \n My peak is 205 LP in Master before my account was perm banned and I took a break from the game.\n  \n So, how is Rumble currently??\n Aside from when he was getting bans before they changed his Q, Rumble is in one of the best spots he's been for a long time, at least when looking at solo Q play.\n  \n What actually changed and why do I think this?\n During this preseason, the largest changes we've ever had came into fruition. This includes the removal of DFT, yes, but along with it many more changes that positively impacted Rumble. \n Firstly: The removal of Runes and masteries. \n The removal of runes meant that whilst Rumble retained the same AP (AND ARMOUR!) level one that he was previously getting, his opponents we're missing a whole 12 magic resist level 1. This is huge. Once you hit level 3/4/5 you should be out damaging and winning most trades.\n Secondly: The introduction of stopwatch and boots mastery. \n Rumble's main powerspike has always been midgame, these help Rumble reach it almost 1000 gold earlier. \n Rumble is one of the very few champs who usually buy Zhonyas second item. With these two runes you should be finding yourself with Liandrys + Zhonyas at ~15 minutes most games. \n In addition to this, as you will know, the Zhonyas effect is extremely overpowered early game, not only does it allow you to survive when normally you wouldn't, it increases Rumble's ability to 2v1 outplay massively.\n Thirdly: The general meta right now. \n Out of the top 10 played champions toplane right now, 5 of them are Rumble favoured matchups. \n Just incase you didn't know which matchups you should be favoured in, that's Jax, Yasuo, Nasus, Riven and Gangplank. Unless you misplay or you're getting hard camped, you will win these matchups every time.\n The other 5 are complete skill matchups, but if you play correctly and know how to play against them then you should have no trouble beating them either.\n The benefit Rumble has over all these champions is his midgame and how early he gets to it with stop watch and boots rune.\n  \n The Removal of DFT\n It's important to talk about the implications that the removal of DFT had for Rumble. Although we never had solid numbers for how much damage it was doing, it's safe to assume that at the end of a long game it probably was hitting the 5 or 6, maybe even 7k damage mark.\n Comparing this to meteor only doing 3 or 4k in a long game probably seems and feels bad to you, but the benefits far outway the negatives. If you feel like you're lacking damage lategame and you're regularly having 40 minute games, maybe consider taking gathering storm instead of scorch.\n  \n Closing thoughts\n Honestly Rumble is in a great spot right now and on top of this he's in a fun toplane meta where the amount of farming until lategame is minimal. Other than GP playing safe or maybe a Gnar lane it's straight out brawling the whole game with almost all lanes being centered around outplays.\n  \n Questions, discussion?\n I would like to hear what you have to say about Rumble, your current rank and how the climb is going for you. If you're having difficulty with a particular matchup please let me know and I'll either post a video of the matchup or I'll give you general tips.\n An example of when I've done this in the past is against Darius: https://www.youtube.com/watch?v=VyAb2nLid4M",
+   "id": "7tm7ps",
+   "comments": [],
+   "age_days": 3176,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "The Long awaited Rumble VS Darius matchup guide! [Ready 2 Rumble]",
+   "url": "https://www.reddit.com/r/Rumblemains/comments/64zlm4/the_long_awaited_rumble_vs_darius_matchup_guide/",
+   "published": "2017-04-12",
+   "author": "/u/Phrakturelol",
+   "body": "",
+   "id": "64zlm4",
+   "comments": [],
+   "age_days": 3467,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  }
+ ]
+}

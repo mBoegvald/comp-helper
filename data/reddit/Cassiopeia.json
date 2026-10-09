@@ -1,0 +1,1001 @@
+{
+ "champion": "Cassiopeia",
+ "subreddit": "cassiopeiamains",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "Any tips to closing out the game?",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/1w1siro/any_tips_to_closing_out_the_game/",
+   "published": "2026-08-29",
+   "author": "/u/EstablishmentIcy4771",
+   "body": "The laning phase usually feels really good and I'm able to gain leads in most matchups. In the mid-late game however, I don't understand how to progress the game. Even if I'm up multiple kills and lots of cs I feel like a passenger. Should I focus on split pushing more? On other mage champions I feel confident in pushing sides and then grouping mid to force start the fight myself, but often I find the lack of range and hard cc setup make it difficult. There are points where I feel like my champion should be insane (2-3 items multiple kills 9-10 cspm) but I'm unable to force my advantage like other longer range mages. \n Any tips or streamers you recommend?",
+   "id": "1w1siro",
+   "comments": [],
+   "age_days": 41,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "A listicle of 20 Cassiopeia matchups - UPDATED",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/1v34whq/a_listicle_of_20_cassiopeia_matchups_updated/",
+   "published": "2026-07-22",
+   "author": "/u/AntiqueLayer9645",
+   "body": "(This is a follow-up post from 10 months ago. There is new information, and finally I can revisit this project 😭 ) \n I find it kinda hard to find one centralized place to look up detailed Cassiopeia's matchups that actually guide you through level-by-level laning, kill thresholds, teamfight strategies, and other more knowledge-based parts of the game (backing for items, when to chunk hp to set up a future kill, etc.), so I decided to make a website to consolidate the information I can find around the internets. I can't say I'm a good player by any stretch (plat at my best), so all of the content will need huge improvements over time, especially with the help of this sub. This website is a very very early alpha prototype, but I hope to soon be able to cover all important matchups for Cassiopeia. It would be absolutely amazing to get your feedback on how to improve this Cassiopeia database and website :)\n Currently, I've gathered information for 21 matchups: Ahri, Akali, Anivia, Annie, Aurelion Sol, Azir, Fizz, Katarina, LeBlanc, Lissandra, Lux, Orianna, Sylas, Syndra, Taliyah, Talon, Twisted Fate, Viktor, Yasuo, Yone, Zed\n https://www.upmatched.xyz/champions/cassiopeia/",
+   "id": "1v34whq",
+   "comments": [],
+   "age_days": 79,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Cassiopeia build and runes?",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/1v1frht/cassiopeia_build_and_runes/",
+   "published": "2026-07-20",
+   "author": "/u/babysl8er",
+   "body": "Hey new to the snake, literally picked her up a day ago. I’m seeing most people run her conq with sorcery on second for mana but I’ve seen a few takes recommending deathfire and even storm raider for kiting. What are her best runes and do they change based on the matchup?\n For the build I’ve been doing, dr x2 pots starter and rushing rod of ages into seraph’s and then rylais or liandrys. I want to know other build paths I can explore and does anyone know why isn’t cosmic drive built on cass? I’m super new so if you have any other suggestions or tips for me do share! preciate it",
+   "id": "1v1frht",
+   "comments": [],
+   "age_days": 81,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "In the span of two days I went from \"ITS SO OVER\" to \"WE WON\" to \"ITS SO OVER\"",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/1tvhue7/in_the_span_of_two_days_i_went_from_its_so_over/",
+   "published": "2026-06-03",
+   "author": "/u/Xeranica",
+   "body": "\"We still want to work on a changelist that preserves some of her strengths and the things that her players love about her,\" \n So more base damage and less AP ratio then? 💀🤡",
+   "id": "1tvhue7",
+   "comments": [],
+   "age_days": 128,
+   "recency_weight": 1.0,
+   "topics": [],
+   "stale_items": false
+  },
+  {
+   "title": "Cass is beyond broken rn (New-ish build)",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/1ttheqv/cass_is_beyond_broken_rn_newish_build/",
+   "published": "2026-06-01",
+   "author": "/u/Influentikz",
+   "body": "Hi gamers, i'm the guy who made the phase rush Cassio stuff from prev season. I've been playing Cass a-lot now, and well, she's only been omega buffed since then.\n her Sorcery tree is actually viable as a main tree now, you can literally go anything, conq or DFT are ofc your main options (General idea is you go Conq for Scaling or vs Melee matchups who go dshield/second wind anyway, or DFT vs mages/bad sustain champs.)\n While you should obviously mix and match your runes to what you need, like DFT/haste and cutdown for more dmg, or bone plating overgrowth secondary for more stat-checking lane phase/scaling.\n The biggest winner is DFT/Approach velocity or Conq/Approach Velocity.\n Shards (Never really changes) - AH - MS - Scaling HP\n DFT - Manaflow - Trans - Scorch \n or Conq - POM - Haste - Cutdown/Coupe vs Second Wind abusers\n Approach velocity, you go Rylais right? How original, yeah the interaction is still OP.\n You can then either go free boots for the +10 MS which is buffed by your passive, or you can go triple tonic/cashback if you need to get boots on a first base (like vs syndra/hwei champs) \n But they also added a new item called DHELM, and Cassio just so happens to be one of the best users of it. \n You start tear --> DHELM/Darkseal ( You can replace Dseal for mana crystal if ur having trouble managing mana with one mana rune) into Rylais rush, into finishing seraphs. --> Bloodletters etc whatever you need.\n Boots wise, you have all the options in the world, adc mid? Go Tabi, Mercs vs heavy cc mids, Omnivamp boots for stat check and a bigger archangel shield/support shields, or Swifties if they have any slows. I tend to go omnivamp boots the most because the stat-check it provides you is insane. \n Your biggest spike will still always be Rylais, and your 2nd biggest spike where you can basically 1v1 any midlaner if you play it right is Seraphs with omnivamp boots. I think ROA is lowkey useless on her now and I can't go back to playing with it.\n Skill order, please don't put any points into your ult after 6. It only adds 100dmg.\n There will also be times you don't need to put points in your W early, because getting 2 points in Q is really important for spacing on midlane, sometimes I don't take W till lvl 9/10. Trust me you'll understand once you try it, but if you're playing into champions with obvious dashes like Naafiri or Sylas, then yeah obviously level it up at 4.\n Currently not playing a lot of ranked but climbing has been easy as I went from d2 to 131lp in a day 80% WR abusing this build alone.\n Hope you guys found this info useful, RIP Phase Rush.",
+   "id": "1ttheqv",
+   "comments": [],
+   "age_days": 130,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Why is Cass getting picked in Pro more lately",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/1t82u5o/why_is_cass_getting_picked_in_pro_more_lately/",
+   "published": "2026-05-09",
+   "author": "/u/Uriz_0613",
+   "body": "I just noticed that Cass is getting drafted more in pro recently, specifically in LPL. Why is that? I know she's a good matchup against Ryze but that's always been the case since then and yet her presence in proplay is only going up recently. Is the DFT and glut greaves addition that strong? Also, I noticed that she's not being played as the main carry but more of a controller/secondary carry. Maybe it's just me, but if I play Cass or any battlemage in that regard, I better be the main carry. But maybe it's just how pro players roll.",
+   "id": "1t82u5o",
+   "comments": [],
+   "age_days": 153,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Do anyone know any website or youtuber where i can learn most of cassio matchups?",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/1s1r6we/do_anyone_know_any_website_or_youtuber_where_i/",
+   "published": "2026-03-23",
+   "author": "/u/Pale_Refrigerator685",
+   "body": "I been playing this season only cass and im tryna search for some help against mostly oriannas , syndras and viktors because most of the times id lost lane fase. Is there any yt or website for this?",
+   "id": "1s1r6we",
+   "comments": [],
+   "age_days": 200,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Why does it say Cassiopeia has a favorable matchup on Xerath? That shit is pure torture in laning phase",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/1qzw2he/why_does_it_say_cassiopeia_has_a_favorable/",
+   "published": "2026-02-09",
+   "author": "/u/Rosa-Hoesa",
+   "body": "",
+   "id": "1qzw2he",
+   "comments": [],
+   "age_days": 242,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I main Cass, what should be my second/third pick?",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/1qoogm1/i_main_cass_what_should_be_my_secondthird_pick/",
+   "published": "2026-01-27",
+   "author": "/u/JayBuzz",
+   "body": "I love Cassiopeia but I can no longer pick her into every matchup and be useful. What is everyone's favorite counter-the-cass-counter picks and a fun third pick they've been using?",
+   "id": "1qoogm1",
+   "comments": [],
+   "age_days": 255,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Learn, Matchups, tips etc",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/1qhthkp/learn_matchups_tips_etc/",
+   "published": "2026-01-20",
+   "author": "/u/Hatemenosferatu",
+   "body": "Hi yall, well i'm Asking for som tips and if theres any guide or streamer, also build on this champ, i casually play her but not seriously, rn i'm on D2. As i said, i play her for fun but lately My otp (Camille) seems too weak and i can't stand any other \"safe\" ap top since i don't play any ap and i don't enhoy play other ap champ Either, and Even so Cassio seems to beat to fuck Camilles counters so, i want to learn Cassio, i'm Open to all opinions.",
+   "id": "1qhthkp",
+   "comments": [],
+   "age_days": 262,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "IS ANYONE ELSE SPACEGLIDING?",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/1q7v7w3/is_anyone_else_spacegliding/",
+   "published": "2026-01-09",
+   "author": "/u/TheFluffiestCatt",
+   "body": "this season makes no sense at all but abuse home guards I see no point in taking tp unless the matchup is just despair. I’m running flash ghost and going swifties when I can (if you go midlane you get the t3 upgrade and it’s like 26 ap when you are in q ms) Also I think the midlane role is a bit ovetuned, It feels SO GOOD when you hit the empowered recall and t3 boots you become a strongest person in the game for a little bit. Am I delusional? Are you guys space gliding? THIS IS SO FUN \n (Disclaimer most of my testing has been done around diamond elo but I’ve been seeing some of my masters friends in my games as well, I’d say my personal data is coming from a d2-ish range so not the best, which is why I wanted to see if I’m delusional or not)",
+   "id": "1q7v7w3",
+   "comments": [],
+   "age_days": 273,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What’s your hardest matchup with Cass and your easiest?",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/1pnm1gu/whats_your_hardest_matchup_with_cass_and_your/",
+   "published": "2025-12-15",
+   "author": "/u/ItsFocal",
+   "body": "Personally Hardest for me would be Mundo and Easiest would be Zaahen",
+   "id": "1pnm1gu",
+   "comments": [],
+   "age_days": 298,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to start with Cassio",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/1pl28tx/how_to_start_with_cassio/",
+   "published": "2025-12-12",
+   "author": "/u/Dangerous-File3335",
+   "body": "Hi ! I am new to playing Cassio and was wondering if you had any tips for playing her (majorly mid). I just don't know anything about matchups or item with Cassio ? Feel free to say anything that could help, even the littlest tips is welcome ! Thank you very much !",
+   "id": "1pl28tx",
+   "comments": [],
+   "age_days": 301,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Cassiopeia tier 1 boots analysis with new passive",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/1pif9nn/cassiopeia_tier_1_boots_analysis_with_new_passive/",
+   "published": "2025-12-09",
+   "author": "/u/Randomis11",
+   "body": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRNiv3gHlWDeAByUlw6_0rO1rUoNMY-7Loa1EWDKbPGeOdGh2oh2dWKquNgkTEy57gd95GrLMj--6HQ/pubhtml\n Poorly reflects early game strength, since she begins the game without boots\n Thats the link to a google sheets I made. I went into it curious when I should buy tier 2 boots simply from a movement speed perspective. At what level am is my movement speed nerfed if I have level 1 boots? So all this data is while I have tier 1 boots.\n A few reminders\n :The q movement speed is only for an instant; the bonus ms decays rapidly.\n :I bought boots at level 1, which is obviously not relevant to real games\n :If you can land q early on in a skirmish, it just seems like a buff. Since cassio can reliably land q on melees (good matchups) but not on ranged champions (bad matchups) I see this change as one that will further polarize Cassiopeia's winrate depending on who she is laning against. She is already considered an exclusively counterpick champion as it is, this could make it more so.\n :Movement speed independent of q is more important arguably, since that is what she uses to walk up and begin using abilities. She's pretty short ranged\n :Simply from a movement speed perspective, you probably want tier 2 boots around level 11? Definitely before you finish the quest though, if you are mid lane. Remember you do not need to base to upgrade from tier 2 to tier 3 boots.\n :As a cassio otp, I have little to say regarding how access to tier 2/3 boots passives will change Cassio. No idea.",
+   "id": "1pif9nn",
+   "comments": [],
+   "age_days": 304,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How good is cassio as a safe and consistent top pick?",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/1ofx89h/how_good_is_cassio_as_a_safe_and_consistent_top/",
+   "published": "2025-10-25",
+   "author": "/u/Euphoric_Seesaw_9639",
+   "body": "The question being basiclly the title of how good cassio is in toplane as i like to play cassioand im looking for a good ranged top pick .\n so how good is she in most games and how well do you do into most matchups and how safe are in terms of getting ganked and how good could you peel yourself when enemy laners jumps at you.",
+   "id": "1ofx89h",
+   "comments": [],
+   "age_days": 349,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How do you play against Gwen?",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/1oaooyt/how_do_you_play_against_gwen/",
+   "published": "2025-10-19",
+   "author": "/u/GREYSKALL",
+   "body": "Got absolutely run over by Gwen in midlane in yesterday's clash. \n I wasn't fast enough to run away when she dashes, of the Q's that I would have landed, she was in her W so it didn't register.\n Is this just an incredibly hard matchup/significant skill-issue on my part, or are there things one can do to improve that lane?\n Maybe an early null-magic mantle helps?",
+   "id": "1oaooyt",
+   "comments": [],
+   "age_days": 355,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "The sad state of Cassiopeia, an Underloved and misunderstood champion.",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/1l5zum7/the_sad_state_of_cassiopeia_an_underloved_and/",
+   "published": "2025-06-08",
+   "author": "/u/HailMisery",
+   "body": "- I would like to start off by saying I have around a million mastery points on Cassiopeia I've peaked masters. \n Cassiopeia used to be my favorite champion In the entire game for a good amount of time I've been playing this champion for around 5 and a half years, a champion I originally wanted to \"Master\" I would proudly say this Is one of Riots best designed champions In the game, a near perfect design for a Battle-mage and a lane bully. \n That Is Cassiopeia's glaring problem she Is far to good In the right match ups, she can be unstoppable In the right settings and completely unplayable In the wrong situations, Cassiopeia has always been a lane dominant champion. \n This Is probably the only champion In the entire game out of the 170 champions In the game were her glaring Issue Is suffering from success, this champion Is in desperate need of a buff after her Ratios got completely gutted. \n That's why I mained Cassiopeia for years, because she Is completely player dependent, (This Isn't an ego thing) This champion gets nerfed because some players are too good at the champion, Including playing Into champions that this champion Is dominant into. \n - Cassiopeia poison on her Q does damage not anymore\n - Liandries and similar AP items Cassiopeia is dependent on being good for her to succeed Completely nerfed\n This champion Is incredibly underwhelming now mid to late game, her numbers are just far to underwhelming after the harsh nerfs given to her passive and Items. \n I just feel like you can't main Cassiopeia anymore this season she's just a niche pick now an under-loved champion, I really hope Riot can do something like I mention below, Cassiopeia should forever and always be a lane bully and a dominant champion you can solo carry games on, a solo carry champion Is a rarity these days In Mid lane a dying breed of champions. \n I don't want any of Cassiopeia's abilities changed, a mid-scope update or mini-rework to her passive is all she needs to be a good champion once more\n I feel like Cassiopeia's passive should get changed into something that gives all her abilities poison because she Is a snake and her core fundamental part of her kit Is poison.\n a scaling poison would fit near perfectly with her kit.\n It'll make hitting Cassiopeia Q even more rewarding, just give the poison a 2x damage AMP (within reason) \n Another champion I want to fall back in love with to 1-trick but just can't because of her glaring Issues, the only champion In league of legends suffering from the Issue of being too powerful In certain situations and unplayable in others.",
+   "id": "1l5zum7",
+   "comments": [],
+   "age_days": 488,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "[EDUCATIONAL] Challenger Cassiopeia shares the tricks of the trade for season 14 + AMA",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/1c1zc05/educational_challenger_cassiopeia_shares_the/",
+   "published": "2024-04-12",
+   "author": "/u/Ok-Marzipan4587",
+   "body": "Hey everyone!\n My name is Fighto, I've been challenger since season 8 and spent some time in the pro scene. I've been maining Cassiopeia for many years now but season 14 has been a bit underwhelming for her, with the removal of gargoyles and +flat HP on archangels staff being the two biggest factors. \n I made a video showing off a new build that I've been running with huge success on patch 14.7 and it might surprise you. I've also tried to dissect the inner workings of my decision making process on Cass, so you can hopefully take something away to help with your solo queue climb.\n ​\n If you have any Cassio specific questions about items or matchups feel free to ask away below, I'd love to chat with the community. \n https://youtu.be/OV6cmhbrdXQ",
+   "id": "1c1zc05",
+   "comments": [],
+   "age_days": 910,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "I've just hit 1K LP for a 2nd split (NA) in a row and heres some of my stats from my climb!",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/1bte9fl/ive_just_hit_1k_lp_for_a_2nd_split_na_in_a_row/",
+   "published": "2024-04-01",
+   "author": "/u/RadioNorth471",
+   "body": "​\n u.gg: https://u.gg/lol/profile/na1/sour%20gummy%20worm-ape/overview \n 1k: https://i.imgur.com/6p9NZTI.png\n last split proof of 1k: https://i.imgur.com/i2uB4M1.png\n I played 620 (League Of Graphs) games split across top, mid, and bot lane with a overall 53.9% win rate!\n Top : 248 games, 55.6% W/R\n Mid : 169 games, 51.5% W/R\n Bot : 203 games, 53.7% W/R\n Side note for this section, the games of Cass I have differ per stats site, but deeplol is the only way to get matchup specific stats :)\n Top lane Matchup pool/WR : https://i.imgur.com/dID2cPo.png Fun fact: All 6 of my riven losses are against Viper in NA and hes the only riven to ever beat me this split \n Mid Lane : https://i.imgur.com/zSne6zV.png \n Bot Lane : https://i.imgur.com/skAto7v.png , Bonus: https://i.imgur.com/nvJFuX6.png Bot lane support win rates W/ Cass (For me)\n Side note I don't think stats mean everything for some matchups / supps that I play with or against don't mean I don't think they pair well or Cass goes poorly into the champ for all of these images.\n In the coming weeks, I'll also be working on a full matchup (Not completely in depth) / Cass guide for team fights, side laning, map movements and all possible rune/build setups for season 14! \n Now that I've hit 1k I'll be attempting an unranked to masters on EUW while playing with 160 Ping as soon as this post goes live and the coming days/weeks (5 day trip in 2 days)\n It'll be educational and if you want to watch or ask me any questions about Cass or my climb I'd be more than happy to answer ! \n twitch.tv/abzorbcass",
+   "id": "1bte9fl",
+   "comments": [],
+   "age_days": 921,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "New movespeed rune looks insane on Cassio",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/192telu/new_movespeed_rune_looks_insane_on_cassio/",
+   "published": "2024-01-09",
+   "author": "/u/PollitoGX",
+   "body": "https://twitter.com/Spideraxe30/status/1744836666706063523?t=LFEC9bga42VlrRxRnkRnug&s=19\n This looks really really good on Cassio to me. Makes matchups like Syndra / Xerath / Anivia much more playable. Can also be really good into melees you want to run down",
+   "id": "192telu",
+   "comments": [],
+   "age_days": 1004,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Cassiopeia needs some buffs or QoL changes/smaller mid scope to be able to function again.",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/184ymjd/cassiopeia_needs_some_buffs_or_qol_changessmaller/",
+   "published": "2023-11-27",
+   "author": "/u/Kordben",
+   "body": "I'm one of those who despise RoA ever isnce it was reintroduced as it's a terrible item that only serves to hide issues rather than fix them.\n With the Removal of Crown and gargoyle her options are shirnking for the next season.\n Passive: \n She starts with 328 base MS and gains 4/level. At lvl 6 she has 352 MS. \n Zed-Akali starts at 345 MS. \n Qiyana-Talon-Naafiri-Katarina at 335. \n It's a problem because most champions starts with boots into skill shot oriented matchups.Boots give +45 MS+ extras. With boots Akali is at 390 MS and Naafiri is at 380 MS. \n Cassio reaches 380MS at level 13. \n This is a big deal because you don't have access to 18 Magic Penetration or 20 AH or 25MR and 30% tenacity or 20 armor.\n She is already doing poor in control mage oriented meta and it is shifting towards a burst meta which again is not her most favored meta.\n The new items and changes are neutral at best to Cassio. Or just bad.\n Her Q has holds the her powerbudget and it feels awful to land because you deal just average damage with E. \n W miasma feels decent to use but uh...It's probably no longer enough into most matchups.\n E is more problematic as it's damage is bound to land Q which feels acceptable-allright as it rewards good prediction skills and such BUT\n E's total damage: 52 − 120 (based on level) + (20 / 40 / 60 / 80 / 100) (+ 70% AP) \n E's total heal: 10 / 11.5 / 13 / 14.5 / 16% AP \n R would be good if it were able to work properly. \n Magic Damage: 150 / 250 / 350 (+ 50% AP) + stun in close range if they face towards you.\n For contrast: \n Azir R Damage: 200 / 400 / 600 (+ 75% AP) + knock into targeted direction. with combo it has high range\n Aurelion Sol R Base Damage: 150 / 250 / 350 (+ 60% AP)/Empowered Damage:187.5 / 312.5 / 437.5 (+ 81.25% AP). Stuns in an ever increasing range. Empowered version also slows and reveal\n Orianna R Damage :250 / 400 / 550 (+ 95% AP) + Pulls everyone to orb.\n Vex R Damage:75 / 125 / 175 (+ 20% AP) + Damage:150 / 250 / 350 (+ 50% AP) (R1+R2). Gap closer\n Annie R Damage Damage:150 / 275 / 400 (+ 75% AP) (not counting tibbers attacks, just landing the spell) + Stun sometime\n Syndra R Damage per Sphere: 90 / 130 / 170 (+ 17% AP). At max rank with 7 sphere its 1190 damage + 17 AP/ sphere + execute below 15% HP.\n Cassiopeia is working well into short ranged teams with good build options but in the next season she has not god too good itemisation options and her gameplay becoming more lackluster with every champion release.\n It would be good if she could go reach 1k AP or beyond to be able to fight against burst and GW items. For a champion who plays like an ADC BUT has Ability Power and have no access to tank or healing items with low damage/second unless you land a skillshot she feels pretty underwhelming to play regardless of meta.\n She has 1,4% pick rate from 16k games in silver\n She has 1,4% pick rate from 14k games in gold\n She has 1,5% pick rate from 16,5k games in plat\n She has 1,6% pick rate from 13k games in emer\n She has 1,8% pick rate from 4k games in dia\n All around 50-51%win rate. You can say consistency would help her out if you play but the thing is why would you play her when Azir serves as a better \"APC\" on mid lane, Asol as a better carry or any other mage with a slight range as a better carry.\n Cassio is weak and undertuned right now. She is for years but everybody caught up to her and left her behind as meta and options shaped out and got sharpened.\n ​\n ​",
+   "id": "184ymjd",
+   "comments": [],
+   "age_days": 1047,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "A friend of mine is Cassiopeia OTP in masters and she just posted a huge rant in our discord group. What do you all think?",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/17jpj3r/a_friend_of_mine_is_cassiopeia_otp_in_masters_and/",
+   "published": "2023-10-30",
+   "author": "/u/Kordben",
+   "body": "In short I'm a part of a small group of friends of frineds of friends, on discord, and we keep playing and helping each other to improve in game and stuff, a small discord group of sorts with all friendly faces.\n One of them, from master elo, just posted the following in rage after a close game she lost.:\n \"I think numbers need to be adjusted as I didn't properly tought out them but I believe Cassiopeia needs adjustments for the game. \n I seen the previous versions of her kit, mostly her passive which was permanently changed around 7.0 or a bit sooner IDK and I frankly don't think she was ever properly compensated for it on the long run. AFAIK misamsa was updated. Imagine it was super shit spell, not justified the grounding with it. \n So on that part the update made some cool changes to Q W E BUT it was more of patching a bleeding wound instead of giving it propal health treatment. \n Her kit is getting outdated more and more as a new champion is getting released so I came up with a bit of an update based on her previous versions. What do you think? \n Passive: Curse of the Ascendant\n She gains 4+MS with every level. \n Cassiopeia permanently gains a stack of Serpentine Grace for:\n Poisoning an enemy champion (per second), \n Killing a poisoned unit, \n Casting Twin Fang on a poisoned enemy champion.\n 50 Stacks: Twin Fang healing is increased by an additional 25% of tAP and you can choose one of the boots pasisve you can’t buy \n 100 Stacks: 25% increased ability haste and your poison's apply Griewous Wound.\n 200 Stacks: 20% increased ability power and 15% + Magic Penetration (based on AP).\n If you are a scaling mage you should scale like one heck of a mage. Having the options to build 6 items feels like a bait. You will never reach 6 items state in 8/10 of games BUT you surely will be playing 10/10 of games without having access to boots. Which is a major disadvantage in every matchup.\n Ohh before you answer:\n Look at Naafiri, she is a fine champion whom I have no issues with. SHe meant for low elo and in high elo's she is replaced by some of the top tier Assassins like Akali and Zed thus she has extreme amount of play potential and god learning curve for all kind of players BUT look at her ultime. It has 4-6? different self buffs. \n Bonus AD, \n Shield (scales with AD) \n Burst-Decaying MS \n + 2-3-4 Bonus Pets \n 50% passive CD reduction.\n All of this boosted with a reset on the first take down.\n Her fucking R offers more things to play wth than Cassio's entire kit....again, i like that champ but look at how much more she gets for being a \"simple champ to teach players how to play an Assassin\".\n What cassiopeia do in comparison:\n Passive grants you 4MS / level and you don't have access to boots passives.\n Q applies a DoT and grants you short MS\n W grounds\n E deals piss damage unless you hit posioned target\n R Stuns if it's not bugged.\n Cassiopeia is a great champion but if this is the new standard then thing should be changing a little. \n Look at Syndra. Her mid-scope is one of the most successful one Riot has ever done. \n Look at Azir. Way more approachable for players since the re adjustments. Even I could pick it up and you guys seen me last year. You know how much I was struggling with that champion last year....If I can play him now pretty sure everyone can lol...\n Look at Aurelion Sol. Not high elo friendly champ for sure but his scaling with range and damage is the biggest fun I had with any champ post 15 mins....It's crazy good after you getting through the target dummy state.\n I'm actually struggling to keep pushing for higher LP. APM number is really high on her. For a Mage who akins more to ADC champsshe sure took the hardest lessons from both classes, not in the good way. Complex champions and difficult champions are fine until it does not put you into a disadvntage.\n IDK I might just burned out for working 4x as hard as the enemy champions to have the same level of success. I'magine playing K'sante mid. That champ is actually rewarding. Not just because he is flashy as a good fuck but because he offers options with that busted shit he has as a kit.\n I picked her because I liked the challenge to have a champ who is mechanically demanding and engaging champ so she rewards you really well but this is less and less the case as the game evolves. When champions can dodge skillshots without moving with cursors or just can constantly all in you without having to worry about your damage, presence you know shit is real...\n Cassiopeia scales well but honestly i feel like that scaling is medicore at best. It's not justified. I put 2 mill mastery into this champion and it feels worthless at the moment. I never cared about the meta you all know. I love challenge. But lately challeneg is not something I have when I'm picking her....:(\"\n ​",
+   "id": "17jpj3r",
+   "comments": [],
+   "age_days": 1075,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Would anyone actually watch if I made more Cassio videos like these? - Challenger Cass Main + AMA",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/145fqmr/would_anyone_actually_watch_if_i_made_more_cassio/",
+   "published": "2023-06-09",
+   "author": "/u/MoeZaic99",
+   "body": "Videos: MoeZaic - YouTube \n Hello! I think this is the first time I post on this subreddit. I made some Cassio videos and wonder people here like this stuff. But since I am here, I'm down to do an AMA if anyone would like to ask any questions about Cassio, matchups, tips, etc. :) \n opggs: Multi-Search - League of Legends (op.gg) (took a break from main after lost chall but will be getting it back this month) \n Stream: MoeZaic - Twitch",
+   "id": "145fqmr",
+   "comments": [],
+   "age_days": 1218,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Matchup tier list from a challenger otp perspective",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/12mqezu/matchup_tier_list_from_a_challenger_otp/",
+   "published": "2023-04-15",
+   "author": "/u/Latter-Pirate-1663",
+   "body": "",
+   "id": "12mqezu",
+   "comments": [],
+   "age_days": 1273,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I saw one, so here is my oppinion on matchups",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/11o4vyy/i_saw_one_so_here_is_my_oppinion_on_matchups/",
+   "published": "2023-03-10",
+   "author": "/u/Lemon_Elderflower",
+   "body": "",
+   "id": "11o4vyy",
+   "comments": [],
+   "age_days": 1309,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "New asol matchup: cassio favored?",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/110gu9n/new_asol_matchup_cassio_favored/",
+   "published": "2023-02-12",
+   "author": "/u/Yung__Stalin",
+   "body": "It seems this matchup is GREAT for cassio.\n Everytime he uses Q he has to stand still so we get an easy Q + W off and run him down.\n I played the matchup ones and destroyed the lane.\n How have you guys experienced this matchup so far?",
+   "id": "110gu9n",
+   "comments": [],
+   "age_days": 1335,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Our champ is not weak",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/za1msw/our_champ_is_not_weak/",
+   "published": "2022-12-01",
+   "author": "/u/SteeleStriker",
+   "body": "I am sick of seeing posts saying cassiopeia needs a rework, She’s too weak now, takes too long to scale. Too many counter matchups.\n She is a hard champ. One of the hardest in the game. Her scaling does not take too long and she doesn’t need to be reworked. Her winrate is good among otps because of the fact that she is phenomenal when mastered.\n I wish I could see more cool clips and tips regarding her rather than just complaining that you are yardstick due to your champion. There are cassiopeia otps in challenger in every region for a reason. Can we please agree as a community to stop complaining.",
+   "id": "za1msw",
+   "comments": [],
+   "age_days": 1408,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "WHat do you think of Cassiopeia's state nowdays?",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/y09hps/what_do_you_think_of_cassiopeias_state_nowdays/",
+   "published": "2022-10-10",
+   "author": "/u/Kordben",
+   "body": "I personally realised I play less Cassio these days and more Vladimir-Ekko-Syndra and this cham just fallen out of my pool out of nowhere.\n I'm not sure if I'm the only one who feelsl ike this but as meta changes so does the feeling of success or rather the joy of playing with her. \n NGL I always play for win and and even in loose I like to enjoy the games but feels like Cassio can do less and less with every patch. I can still pick her into some unfavorable matchup but it's not the same. \n Feels like she is outdated. - She always felt like that but now more than ever. Like I always was a Syndra main but these last seasons they gutted her so I went to Cassio-Vlad and it felt good. Meta favored her and I like her being able to build 6 items and it's fun to play.\n But lately I started play less Cassio, more Vlad Ekko Yone and now that Syndra midscope has arrived I'm not really feeling the need to play this champ anymore. But hell I love this champ.",
+   "id": "y09hps",
+   "comments": [],
+   "age_days": 1460,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Is conq really much better than other runes?",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/w68mfy/is_conq_really_much_better_than_other_runes/",
+   "published": "2022-07-23",
+   "author": "/u/Dependent-Loan-4978",
+   "body": "On the paper, conqueror mixes well with Cassiopeia. She can proc it pretty quickly and the AP + the healing scales well with her. But what about other runes?\n First Strike could be interesting in some melee matchups where cassio can engage first most of the time, Electrocute could also give her more burst during trades in lane. Phase rush could be interesting when you face an enemy team you can kite or chase a lot.\n What i dislike about conqueror is the fact the rune starts to be interesting when already half of a fight is done. The nerf of the healing in general with the durability patch makes me also reconsider how good it is. I think it'll always be worth it to play conqueror on her but i'm surprised to not see other playstyles in terms of runes (Or maybe i just didn't find any)\n What do you think of conqueror compared to other runes? I'm curious to see the point of view of other cassiopeia mains!",
+   "id": "w68mfy",
+   "comments": [],
+   "age_days": 1539,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "For me Hard and Easy Cassiopeia matchups. :)",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/w2sflq/for_me_hard_and_easy_cassiopeia_matchups/",
+   "published": "2022-07-19",
+   "author": "/u/Mhyritff",
+   "body": "",
+   "id": "w2sflq",
+   "comments": [],
+   "age_days": 1543,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How do you deal with Yone ?",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/vyulz7/how_do_you_deal_with_yone/",
+   "published": "2022-07-14",
+   "author": "/u/dedaio",
+   "body": "I get absolutely destroyed by him. I have only two ways to play this matchup : \n play a normal game and end up 0/5 and have a fed Yone. \n\n from level 3 (and especially afterwards) stay out of range whenever his Q3 is up, get zoned from xp and farm, end lane 0/0 but 30cs and 2 levels behind. \n\n I feel this matchup shouldn't be as hard as it is to me. What am I doing wrong ?",
+   "id": "vyulz7",
+   "comments": [],
+   "age_days": 1548,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Perma ban zac or zed??",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/vux2fa/perma_ban_zac_or_zed/",
+   "published": "2022-07-09",
+   "author": "/u/No_Blacksmith1112",
+   "body": "I can't play zed matchup anymore for some reason and i tried everything conqueror with corrupting + biscuits for pressure and sustain bone plating exhaust and even different skins I JUST CAN'T DEAL WITH ZED \n on the other hand Zac just ruins my entire gameplay and makes my life hell during all the parts of the game do you guys have any tips?",
+   "id": "vux2fa",
+   "comments": [],
+   "age_days": 1553,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "What's your current ban when you play Cassio?",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/vlrubo/whats_your_current_ban_when_you_play_cassio/",
+   "published": "2022-06-27",
+   "author": "/u/Unnwavy",
+   "body": "Hey everyone,\n I was curious what Cassio players ban because I feel a lot of matchup can be very annoying but for different reasons. \n My current ban is Veigar, but I think I might be wasting my ban on him. It just bothers me that he can choose to ignore me for a big part of the lane and just play from very far until he finds a roam opportunity or scales to the point where one rotation of him can one shot.\n I feel like control mages (Viktor Orianna Syndra) are not frequent enough at my elo (Gold III) to justify banning one of them.\n Other options I am considering are Xerath, Vel'koz, Lux and Akali. The first three because I just get outranged, and Akali because I feel like her sustain makes her very hard to poke down, she just wins the all-in unless she severely missplays, I can't follow her roams without being at a severe risk of just getting killed, and she can snowball very easily if she can get a kill, whether on me or someone else.",
+   "id": "vlrubo",
+   "comments": [],
+   "age_days": 1565,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Season 12 Cassiopeia Guides & Discussion",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/rw8wr8/season_12_cassiopeia_guides_discussion/",
+   "published": "2022-01-05",
+   "author": "/u/Unstopebble",
+   "body": "Based on stats sites, the current builds for Cassiopeia seem generally appropriate, although Ravenous Hunter is likely overused. With this post, I hope to provide better understanding for anyone still confused or looking to optimize or explore different setups. I haven't played enough to explain as in-depth as I have in past seasons, so I'll focus on details that I think are most important. Feel free to share your thoughts as well!\n 12.2 updates:\n Rylai's much more situationally viable (Cosmic Drive less situationally optimal)\n Liandry's or Luden's more situationally viable (with Rylai's)\n Battle Mage Playstyle Guide Coach Curtis posted a great video guide which covers the battle mage playstyle that excels against low ranged, squishy enemies: https://www.youtube.com/watch?v=EwwRExDlHf4\n If you don't pick Cassiopeia with bad team comps, his runes and itemization suggestions are excellent for mid/top (they can also be good bot, but are much more situational). Minor corrections are that you don't need to start Tear (unless you rush 2800g mythic -> Archangel's), Riftmaker isn't necessarily bad from behind (I'll explain more below), and Abyssal Mask is not worth it unless against multiple melees.\n ​\n ​\n ​\n Additional Thoughts For those seeking additional understanding, I'll elaborate on some of the runes and itemization and cover the main alternatives that Coach Curtis didn't fully explain, with focus on changes since season 11. Other details are in the season 11 Community Guide or can be discussed on this post.\n Runes Compared to season 11, Cassiopeia's best runes for Precision or Sorcery are pretty much the same, except Celerity is a bit more valuable with Phase Rush because it compensates lower MS from Phase Rush early game and there's now AH from Seraph's. Coach Curtis excluded Phase Rush from his rune suggestions because Cosmic Drive provides sufficient MS for his playstyle, but Phase Rush can still situationally be better for scaling or against long ranged enemies, especially against slows or when other items are higher priority than Cosmic Drive. Electrocute became slightly more situationally viable because it often synergizes with Luden's setups that have improved.\n Ravenous Hunter's repeated nerfs have made it no longer standard, especially the higher the elo. It can still be optimal if you get stacks early/deal a lot of damage (usually with Liandry's against tanks/bruisers, or with Luden's against squishies that deal unavoidable damage). However, Resolve secondary became a commonly more reliable alternative by the end of season 11 and especially with season 12 changes: Taste of Blood isn't as crucial early because buffs to E damage and mana provide Cassiopeia with enough kill pressure without having to poke first, and early scuttles don't need to be fought over. Conditioning synergizes with resistances (especially the now cheaper Stoneplate and its Aegis component), but it's also very valuable for the resistances it provides when Cassiopeia's resistances are low (especially with her low base armor and against common flat pen), more so than what Ravenous Hunter would typically heal in fights. While you do have the option to purchase resistances, Conditioning can provide sufficient resistances while reaching item powerspikes faster. Boneplating can provide the best defense early against matchups that can't proc it from afar (again because mana isn't as needed), and Cassiopeia will still have good defensive scaling from season 12 itemization. Overgrowth isn't particularly great unless you're low on income, but it's typically the best other rune for Resolve because it adds survivability. Unflinching is an option if the enemy has a lot of cleansable CC, and Revitalize is extremely rarely an option depending on how much use you can make of Barrier and healing/shielding from teammates or Riftmaker.\n I mentioned in the Community Guide and especially after patch 11.6 that Precision, Sorcery, and Inspiration are alternative secondaries. Manaflow + Transcendence or Celerity provide mana sustain and stats that are particularly useful with Riftmaker, Electrocute, or a lack of Seraph's, especially for waveclear. PoM + Coup de Grace is similar but more focused on early laning/fighting, and Tenacity is useful if you don’t take Cleanse (like when you need TP for toplane or when Cleanse isn’t effective in lane). Biscuits + Time Warp Tonic with Corrupting Pots provides additional early healing/MS compared to Precision’s tenacity or damage. A combination of Perfect Timing (for an earlier Stopwatch/Zhonya’s against dives), Future's Market (for item spikes), Biscuits (for additional sustain), Cosmic Insight (scaling option for lower CD on summoner spells and items that use item haste), and Approach Velocity (scaling option for MS when teammates have CC or you build an early Everfrost/Rylai’s) can instead provide niche benefits. Ingenious Hunter has been a great situational alternative to Ravenous Hunter since Luden's got buffed to have its passive CD reduced by abilities, and especially after huge buffs to the item haste of Ingenious Hunter itself. Its benefits are very similar to Biscuits + Cosmic Insight, offering some healing post early game and much more item haste, in exchange for some mana early game and summoner spell haste.\n The scaling health flex rune received a long-deserved buff at the end of season 11. Its gold value is higher at lvl 6 compared to the armor flex rune and lvl 7 for the MR flex rune, but it typically doesn't actually outscale until mid game due to Cassiopeia's low base armor and weakness against poke, her healing, and her health from itemization. Therefore, while the scaling health flex rune is much more viable than previously, its main use case is only for lanes that you focus on farming and aren't too threatened (there are exceptions, but they're extremely niche and based on numerous factors). It's especially effective with Conditioning/Overgrowth or resistances from itemization, and against mixed enemy damage or unknown enemy laners. For defense from flex runes (to survive really difficult matchups or to focus on offensive items), it's now usually better to combine the scaling health rune with a resistance rune rather than use double resistances.\n Mythic Runes are pretty flexible with each mythic, although there are certain synergies (like Electrocute/item haste with Luden's or mana sustain with Riftmaker), and there are other synergies (that should be considered if fully optimizing) for additional itemization. For the sake of default mythics, I would say that Crown of the Shattered Queen is most common for non mains, Liandry's is most common in general, Everfrost is most common with decent team comps, and Luden's and Riftmaker are most common for hypercarrying. Being adaptable is beneficial, but it's not particularly necessary except for building Liandry's against multiple tanks.\n Crown of the Shattered Queen: It's the most common mythic for mid, but I recommend against it for most situations if you main Cassiopeia. Its best use cases are against enemies that can't proc the passive easily (which is rare, especially the higher the elo), when you can't afford Liandry's or Luden's (and they aren't that much better based on team comps/playstyle), or when you shove side waves a lot (passive helps disengage, and MS helps rotate). Otherwise, I view it as a lower risk, lower reward option, which can still be a good thing if you don't know Cassiopeia's limits that well.\n Sample build: Crown of the Shattered Queen -> Seraph's/Cosmic Drive/Zhonya's/Banshee's/Rylai's -> Stoneplate/Void Staff\n Liandry's: Its use cases remain the same (effective against all enemies and scales well, especially against high health enemies), but the other mythics have become more situationally viable as alternatives, especially for mid.\n Sample build: Liandry's -> Seraph's/Cosmic Drive/Zhonya's/Banshee's/Rylai's -> Void Staff/Morellonomicon\n Everfrost: Its use cases remain mostly the same (health and CC powerspike, especially against divers), but it shifted some scaling power toward an earlier powerspike that's often useful for mid and situationally bot. It should usually be replaced with another mythic after full build.\n Sample build: Everfrost -> Seraph's/Cosmic Drive/Zhonya's/Banshee's/Rylai's -> Stoneplate/Void Staff\n Luden's: Its uses cases remain the same (damage and mobility against squishy enemies), but it's less reliant on snowballing or enemies not building MR. It utilizes item haste from runes that have become more viable. Seraph's much cheaper completion cost of 2200 with Tear provide earlier access to additional magic pen from Luden's mythic passive; the health and AH also compensate Luden's lack of these stats. Shadowflame is another new option that synergizes well by providing more magic pen and flat AP for burst damage. Coach Curtis excluded Luden's from his itemization suggestions because it's not meant for the \"Mike Tyson playstyle\" of fighting enemies that get in your range, but it still works with defensive setups. Luden's can be used for the early powerspike against squishies and then transition into survivability when you have enough damage, which is especially critical when your team has no engage against long ranged enemies.\n Sample build: Luden's -> Seraph's/Shadowflame/Cosmic Drive/Zhonya's/Banshee's/Rylai's -> Void Staff\n Riftmaker: Its use cases remain mostly the same (damage and survivability against reachable enemies), but it became better compared to Everfrost for scaling survivability + damage, and it became worse compared to Luden's against high ranged enemies. I built it quite often prior to its shift toward scaling that made it much more niche, but it's now frequently viable again for carrying. Cassiopeia's buffs to E damage and mana help with mana sustain that's missing from Riftmaker. Cosmic Drive synergizes better than Rylai's with Riftmaker, and it became often better than Rylai's in general; the new Aether Wisp component also especially helps a lot with reaching and sticking on enemies, which is important with Riftmaker. The resistances of the cheaper Stoneplate and its Aegis component synergize very well with Riftmaker's omnivamp and health. Coach Curtis stated that Riftmaker is terrible from behind, which is often true, but when you're much better than your opponents and team comps are decent, you can often still reach item powerspikes needed to carry. Regardless, you'll have sufficient mana to farm CS with Manaflow Band (Resolve or Domination aren't necessary for the battle mage playstyle, especially not with Riftmaker which provides omnivamp and health), and Riftmaker can be better compared to Everfrost (if enemies have a lot of tenacity/MR), Crown of the Shattered Queen (if enemies can proc the passive without overcommitting), or Liandry's/Luden's (if you need tankiness).\n Sample build: Riftmaker -> Cosmic Drive/Seraph's/Zhonya's -> Stoneplate/Frozen Heart\n Legendaries Cosmic Drive is typically a priority, and Seraph's can be too but more so for higher elos or non mains. Other common legendaries are Zhonya's, Rylai’s, and Void Staff. Banshee's, Stoneplate, and Morellonomicon are less popular, but situationally excellent choices.\n Cosmic Drive vs Rylai’s: I previously usually preferred Rylai's over Cosmic Drive because of the agency its slows offer. The situations I would prioritize Cosmic Drive over Rylai's were when I planned to splitpush a lot (less enemies to apply slows to and teammates to use slows), or when I wanted the AH components (against low ranged and not fed enough to buy full Rylai's) and my team had enough reliable CC. Even if Cosmic Drive had slightly higher potential, I would choose Rylai's for consistency and also partly to reduce required micro. However, Cosmic Drive became a lot stronger for Cassiopeia with its new passive that provides AP and MS after 3 attacks to an enemy champ. Its Aether Wisp component is usually better, compared to Kindlegem or Rylai's components, for proactivity. The AH (which Rylai's doesn't have) is also more useful now due to more frequent fights caused by objective bounties. Yet, Rylai's also received huge buffs to its cost that (combined with components that weren't that good) was previously the main reason it was lower priority. Therefore, I now prioritize Rylai's over Cosmic Drive if I can easily afford it, have time to sit on components until I can afford it, or if the slow is especially useful (when my team doesn't have that much CC and enemies have high MS, dashes that are based on MS, or long range). It can also be used as a crutch if you're unconfident in landing abilities.\n Stoneplate: It became Cassiopeia's situational best defensive item because of its cheaper cost, Ravenous Hunter nerfs (often not enough survivability from the rune), and a lot of health from runes/items, along with other minor indirect changes. Same as previously, it's better to delay it until you have a large health pool and enough damage, but you can sit on the resistances (especially the Aegis component that is now also cheaper) to optimize effective health.\n Seraph's: It pretty much changed from being for a combo of waveclear and damage to a combo of waveclear, damage, and survivability. It's slightly more common as an earlier item due to the cheaper cost that can result in a faster powerspike.\n Shadowflame: It's usually lower priority than other items, only worth it if enemies don't build MR, or if they don't build much MR after you build Luden's/Void Staff.\n Demonic Embrace: It's slightly worse for its previous niche best situations, but its more situationally viable with high health builds like what Coach Curtis suggested. It can be bought as early as 2nd item against high health enemies, or else it should typically be after at least 3 health/resistance items.\n Horizon Focus: It's extremely situational (compared to not viable previously) as a late game alternative to Rabadon's (for cheaper cost) or Void Staff (if only 1 or 2 enemies have MR), especially if you want the passive's vision on enemies. It should be built after Rylai's unless enemies lack divers.\n ​\n ​\n ​\n Season 11 Guides The guides from season 11 haven't been updated, but a lot of the content is still very relevant for season 12. The information in the Phase Rush vs Conqueror Guidelines google doc, the tips & tricks in both the Community Guide and video, and the Midlane Matchup Guide ability notes and summoner spell suggestions have mostly stayed the same since season 11.",
+   "id": "rw8wr8",
+   "comments": [],
+   "age_days": 1738,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "new cassiopeia player looking for some advice",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/pfbcw0/new_cassiopeia_player_looking_for_some_advice/",
+   "published": "2021-08-31",
+   "author": "/u/MyFatherIsNotHere",
+   "body": "basically what the title means, i have been kinda stuck on low masters for 2 months now and decided to start learning the champ because i always felt like it was broken as fuck, played some games with decent results and was looking for some tips to learn the champs, like matchups, some weird combos and when to fight my opponent",
+   "id": "pfbcw0",
+   "comments": [],
+   "age_days": 1865,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "From a 1v9 Carry Perspective, does Cass do better Top or Mid?",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/ov47i5/from_a_1v9_carry_perspective_does_cass_do_better/",
+   "published": "2021-07-31",
+   "author": "/u/MrSpookShire",
+   "body": "Or maybe it doesn’t matter? I’m a top lane tank main (Ornn, Tahm, Maokai) and I was looking to change it up a bit. Cass just catches my eye, dunno what exactly, but she just seems fun to play from what I’ve watched and read so far. \n Can I take her top and carry games? Or should I learn her matchups mid? Also, does the debate between Phase Rush vs Conq apply to both lanes as well? Just wasn’t sure if a top lane cass and a mid lane cass have many differences, if any. \n Thank you, and sorry in advance if my questions come off as…narrow minded.",
+   "id": "ov47i5",
+   "comments": [],
+   "age_days": 1896,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "What I took from MidBeast’s new Cass video",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/okfaws/what_i_took_from_midbeasts_new_cass_video/",
+   "published": "2021-07-14",
+   "author": "/u/Kaylefeet",
+   "body": "1) Cassiopeia is an insanely high roll champion, you can basically always 1v2 with summs \n 2) Just because you’re facing an unfavorable matchup (xerath in the video) doesn’t necessarily mean you are in a disadvantage at all. Xerath bullies in lane. Cassiopiea dominates in skrimishes, each champion has their pros and cons so adjust your playstyle to what your champion excels in. ->\n 3) hard auto shove waves nearing mid game to influence other lanes/the jungle or just snatch yourself a blue. Her kit allows her to obliterate skuttle and drag.\n 4) She is one of the few ranged champions that can straight up one shot most. The combo I took from the video was R W E Q E. Get yourself an oracles/pink and camp a bush/invade their jungle/gank a lane. You can bait your mid by fake rotating bot and hiding in a bush to ambush them. Bush camping should at least get your one or two kills every match\n 5) Side lane a bit with her mid game to keep your isolation advantage and play more with fog of war.\n I’m new to cassiopiea and trying to pick her up so I apologize for anything I said that is actually false or misleading. Please correct me and I would love any tips you guys have.",
+   "id": "okfaws",
+   "comments": [],
+   "age_days": 1913,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Cassiopeia the only champion above a 50% winrate with an avg kd of under 1.5 (Diamond2+)",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/nqf31d/cassiopeia_the_only_champion_above_a_50_winrate/",
+   "published": "2021-06-02",
+   "author": "/u/SupremeGodBoiii",
+   "body": "Cassiopeia has collectively the lowest avg kd in league of legends right now in diamond+ elo. Her playrate has shot down to the point thats its comparable to azir and corki. She is also not gated by proplay buffs/nerfs (such as ryze) since she sees almost no proplay and games she does get picked, she does notoriously terrible (not picked at msi too). What hit this champion the hardest? Was it seraphs shield removal, her armor change that made her lv1 armor go from 28 to 18 (in an ad assassin mid meta), or the fact that she has most losinng matchups in current meta on mid with a champion design that has no innate scaling (pen/%/true) other than an extra item slot that does not take into effect post 35 minutes. Players who reached high ranks (bobby cass/huntervault/moontaco) all rarely play her anymore or when they do they severely underpeform (bobby plays her to maintain challenger but has an atrocious kd in last 50~ games of her avg, hunter branched out to orianna and picks cassio when it seems safe, taco rarely plays her and now plays kassadin vladimir it seems unless its a favorable matchup)\n Edit #1: According to permaban (high challenger euw midlaner accounts being Rank 1 Macro and No God Complex), “cassio has almost no guaranteed winning matchups, her itemization is s*** since she needs wonky weak items, seraphs and rylais or everfrost. Even kassadin I not go seraphs anymore because its too slow but that champion goes out of mana within 5 spells casts even with tear.Her range is terrible and the fact that she needs to land a very easily dodged skillshot to deal damage is not worth the tradeoff of damage that she does. Her ulti is f***ing garbage anyone with hands dodge it past d4 and usually requires flash to ever land. Just look punisher, he even basically quit her”\n Edit #2: Not sure if I can post link here but the ex 2k lp rank1 superserver cassiopeia said a couple months ago that ‘rough translation’ “cassiopeia is only playable if your jungler can play around you. Usually xin zhao jarvan zac are very good since they do good setup for you. Her biggest flaw is if she get behind it is almost impossible to come back, where her biggest strength is if she gets a small lead early and enemy jugnle/support do not stop her, she can make game unplayable for enemy laner.” He has since dropped from the rank1 position and seems to play katarina and vladimir, opting to not have played cassiopeia in a long time.\n Edit#3: moontaco “cassiopeia is usually not a fun champion anymore since she gets hit hard indirectly from nerfs. Conq/phaserush nerfs aimed at others hit her hard. They took away 10 armor to make her stop being a botlaner (where she iss till better than other roles) without realizing that she went bot because most of her midnmatchups are unplayable, and giving her more mr wont help. She loses to most mages just from being poked out, without seraphs most assassins run her over once they bait out her w, her r will never land against humans unless she flashes/bush control, and she just does not scale in a meta where games are over at 20. Her toplane matchups are now terrible with stridebreaker being an item. Her itemization is terrible too, most builds going either liandries/rylais or everfrost/drive which are extremely expensive due to seraphs being required to be able to cast more than 6 spells. And regardless at three items you sit at 380 ap max? She may be my favorite champion but at the end of the day, why should I play a closerange battlemage that cannot tank a hit, needs a goldsink for terrible items, countered by movement speed and range, and has almost no meta winning matchups (other than toplaners or sylas) or even offmeta mage picks when ai could just play anivia that does everything she does but better?\n Edit #4: look into comments for bobbys input\n She has a 40% wr in every region that doesnt have depressed cassio otps duoclimbing to diamond3ish with an 80% wr before stagnating (euw im looking at you)\n BRING BACK OLD CASSIO PASSIVE",
+   "id": "nqf31d",
+   "comments": [],
+   "age_days": 1955,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "After over 2m mastery on cass, and playing her since she dropped. This season has made me not want to play her.",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/nn4v55/after_over_2m_mastery_on_cass_and_playing_her/",
+   "published": "2021-05-28",
+   "author": "/u/Lashdemonca",
+   "body": "There are a multitude of factors that have played into this. And I want to see if anyone else agrees with me. And for reference, the highest I have managed to climb is only D2, 53LP. So I may be entirely wrong, And if so. Please tell me your strategies for overcoming these obstacles. \n The two largest problems I have run into are these:\n ---------------------------------------------------------------------------\n Lack of agency\n &\n Loss of identity\n -----------------------------------------------------------------------------------------------------------------------------------------------------\n Now lets begin with loss of agency, as that is what I have felt most affected by, as well as the main changes that have affected this. \n With the most recent item variety in league, there has been a reduction in the amount of items that make cass \"Feel good\". The loss of the active on seraphs lead to a significant reduction in counterreply and \"WOW\" plays, champions that before you could bait into seraphs shield (fizz, zed, assassins, garen ult) have all now gained more kill pressure on cass. This lowers late game counterplay, and the overall feel of playing cass in the mid-game as well. \n Another significant loss is the amount of healing within our kit. The significant reduction in the healing from conq and ravenous has affected cass's ability to kite within fights. This is compounded by the introduction of items such as collector. The \"Im 5 HP but still in this!\" feeling is gone, and the ability to take prolonged trades and just plain SURVIVE teamfights is mitigated severely by the new mobility items galeforce, stridebreaker, and prowlers claw. There are too many mobility options being afforded to champions that were already hard to deal with. Such as garen and zed. \n The above has lead to a loss in the ability to \"1 v 5\" when ahead. Something that last season cass had the capability of doing. You are so heavily reliant on your team for engage that you spend most of the game waiting for people to engage so you can follow up.\n ----------------------------------------------------------------------------------------------------------------------------------------------------- \n And next, the loss of Identity. \n The dream for a cass player is to be a mid to late game monster that excels in single target damage and kiting, while remaining alive through healing and correct q and w usage to keep gap. As previously mentioned, gap is significantly harder to deal with, and with stridebreaker actually having a cooldown that is SHORTER than you w, your ability to handle assassins and kite is even more reduced. \n There are simply better champions in the current meta that have the above. A prime example is sylas currently. HE is neigh unkillable, heals, has utility for the team, and has insane single target lockdown and damage. Allowing him to be a midgame monster, with a significant say in the lategame. \n This is not to say that cass is useless. But her item choice is limited currently. YEs you CAN build everfrost/riftmaker/ludens/liandries. But the current meta does not give you much of a choice. Usually you build liandries, and dont stray from that unless in specific matchups.\n ____________________________________________________________________________________________________________ \n If anyone agree/disagrees with these comments. I would love to hear down below. Because if Im just doing something TERRIBLY Wrong, I want to know. I am not certain if anyone else is having the issues that I am closing out games ,or establishing a lead. \n In the meantime, Im just going to stay playing in the jungle, at least I feel like I'm doing something to help the team win.",
+   "id": "nn4v55",
+   "comments": [],
+   "age_days": 1960,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Cassiopeia´s champion identity",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/lvzny0/cassiopeias_champion_identity/",
+   "published": "2021-03-02",
+   "author": "/u/Sluutonyay",
+   "body": "Hello to all snakes in this sub-reddit :) ,\n I am a katarina main and I want to understand other champions too, starting with cassiopeia because she seems very cool and strong to me. \n I hope someone can help me by writing a few sentences about her:\n 1.Items and summs\n 2.Scaling,\n 3.Roaming potential, \n 4.Mid-game positioning (i guess she wants to be in a sidelane),\n 5.Teamfighting (how does cassio want to play a teamfight and where on the map does she want a fight to happen), \n 6.Laning phase (ideal pace of the lane, back timers, starting items), \n 7.Matchups (what champions do counter her and what champions does she counter +why? -> matchup-tierlist or a video?),\n 8.What are her strenghts and weaknesses in general.\n I thank you all in advance and i hope you have a very nice day",
+   "id": "lvzny0",
+   "comments": [],
+   "age_days": 2047,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Started a coaching channel dedicated to Cassiopeia and midlane !",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/liej7v/started_a_coaching_channel_dedicated_to/",
+   "published": "2021-02-12",
+   "author": "/u/PollitoGX",
+   "body": "Hey guys ! \n You may remember me as the guy who offered coaching for cassio mains, which I still do btw, msg me or add me on discord: PollitoGX#5466, and I'll coach you asap ! I'll try to record sessions with autorisation of the player and post them on the channel. Also if any of you got a name idea for it I'd appreciate it ahah \n I'm on an old computer for now so I can't edit my videos and don't have good visuals yet. But,\n I'm planning to make it more professional as time goes on.\n There will be 5 playlists on it: \n Everything cassiopeia: Some top format videos with tips and tricks, and things to know about cassiopeia, whether build, or mechanics, etc etc..\n Matchup explained: A complete guide for each cassio matchup \n Individual coaching sessions: Well, individual coachings session \n Group coaching sessions: I was planning on making more general sessions, usually in group, about more general aspects of midlane\n Coaching myself to master: I want to make it to master tier before trying to coach for pros, so I'll review my games, and post it on youtube every time !\n For now there are 2 videos from the coaching myself to master series, which are kinda brute because as I said I can't really edit videos yet, but I'll do it once I get my computer back.\n Here is the link of the channel :\n https://www.youtube.com/channel/UCwqQOQ0qX_nWeHC0w6dYUWw \n I'd love some feedback on the coachings and videos, as it's some different kind when coaching myself or others ahah \n Anyway hope I can help some of you, and I'd really appreciate feedback ! \n Thank you and have a nice day and good luck on the rift !",
+   "id": "liej7v",
+   "comments": [],
+   "age_days": 2065,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Cassio Seraphine botlane",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/lbmm0f/cassio_seraphine_botlane/",
+   "published": "2021-02-03",
+   "author": "/u/Banane100sucre",
+   "body": "If you like playing cassio but struggle with midlane matchups, or struggle to snowball your lead, then you should try this botlane duo.\n Why is it strong ?\n You are pretty much safe in lane and has a really good ult synergy as the charm makes them look at you. Your team fight is godlike even playing from behind. Seraphine heals and stuns are pefect pealing for you\n How to play it ?\n Lvl 1-5 : play safe, you can either conceed and farm under turret or play aggro with Seraphine’s poke. You can also 100-0 any adc if she hits the stun + your w, you will at least get summs.\n Post 6 : any miss positioning from the ennemies have to be punished by Seraphine’s ult. Then as the charm makes them look at you it’s a free ult for you and usually a double kill potential.\n Team fight : just play around every objectives and vision control. 5v5 is pretty free as both ults are gamebreaker. Your snowball in botlane is higher as you can get high prio for drakes and rotate to do an early nash.\n This duo has literally made me plat with Diamond MMR as I was stuck gold on my main mid accound.\n If you have any suggestions or doubts I’m open to it.",
+   "id": "lbmm0f",
+   "comments": [],
+   "age_days": 2074,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Cassiopeia Guides Updated for Start of Season 11",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/ktlsdf/cassiopeia_guides_updated_for_start_of_season_11/",
+   "published": "2021-01-09",
+   "author": "/u/Unstopebble",
+   "body": "The guides are updated for the start of season 11! Feedback for improving them is still welcome.\n Cassiopeia Community Guide\n https://docs.google.com/document/d/1HrqC2JCe4UoapgqL-ezmxIdp3oWsPTJNGoh4tP-UlWg/\n Patch 11.10 thoughts:\n Riftmaker more situationally viable (Everfrost less situationally optimal, especially in lower elos)\n Phase Rush weaker early game and slightly stronger late game\n Abyssal Mask viable mid-late game against low ranged and high magic damage enemies\n Patch 11.6 updates:\n Luden's much more situationally viable\n Liandry's less situationally optimal\n Seeker's much less situationally optimal (alternatives are sitting on Cloth Armor, or building health, or Lost Chapter to play around waves/calculated fights)\n Ravenous Hunter no longer standard for toplane or high elo (alternative secondaries are Manaflow + Transcendence/Celerity, PoM + Tenacity/Coup de Grace, or Stopwatch/Future's Market/Biscuits/Cosmic Insight/Approach Velocity)\n Comet more situationally viable with Luden's, especially botlane\n Horizon Focus no longer viable (Cosmic Drive, Banshee's, and now Rabadon's are better alternatives)\n Patch 11.4 updates:\n Everfrost much more situationally viable (other mythics less situationally optimal)\n Cosmic Drive much more situationally viable\n Conqueror stronger toplane because of Everfrost and Cosmic Drive buffs and jungle nerfs\n Patch 11.3 updates:\n Riftmaker adjusted (less viable against long ranged or in combination with Rylai's; more viable for all-ins or for late game)\n Chemtech Putrifier more situationally viable\n Horizon Focus viable late game against long ranged enemies\n There are bookmark links in the Table of Contents and some in the Summary. If you just want to find builds, stat websites are best. If you're looking to learn Cassiopeia, the guide contains in-depth thought processes and a lot of information that isn't anywhere else. My sections are very in depth for those who really want to optimize, but the Summary is shortened, while still containing valuable info.\n Cassiopeia has changed a lot, especially with itemization, so I deleted the contributions from previous seasons, but the old link still exists. I also want to highlight that the Abilities section of the Summary and the Advanced Techniques in Cassiopeia's Strengths and Weaknesses cover several ability interactions that people have asked about. The Phase Rush vs Conqueror Guidelines are in the Builds section of the Summary, but here is the link to access it quicker.\n Right now, the information is only from me, so if you're interested in adding to the guide, please contact me. You can also simply comment here about what you're trying out regarding runes, itemization, abilities, gameplay, etc. There are a lot of misunderstandings and incorrect premises regarding itemization, but I think that explaining everything would make the important information too difficult to read through, so if there's anything that isn't clear, feel free to ask.\n Phase Rush vs Conqueror Guidelines\n https://docs.google.com/document/d/1bucI_KoKWjvO6c-qSEDuuBW-LLQrkgVv3npNOvnTwcE\n This probably won't make much of a difference toward people asking about it, but I'm just going to repeat again what the link is ;)\n Cassiopeia Tips & Tricks\n https://www.youtube.com/watch?v=xYY-oZuRV5A\n This explains and provides gameplay examples of some of the most important Cassiopeia tips and tricks. It was made by /u/DrowsyzZ at the end of last season, but it's still relevant.\n Cassiopeia Midlane Matchup Guide\n https://docs.google.com/document/d/1Tu-fZPrQiVXTgnj_4NFVshHG8gClUzWKnCpzHeyqj9k/\n Read through the Important Generalizations section for additional info to avoid misunderstanding. There are bookmark links in the Table of Contents. Only the most common midlane matchups are added. If you'd like the less common ones to be added, just let me know which ones. Also, if someone wants to organize the formatting better, that would be appreciated.\n The changes are mostly small regarding matchup favorabilities, items, and summoner spells. I indicated what I'm uncertain about with 3 asterisks (***), and I added Lucian, Pantheon, and Yone.\n Comprehensive Cassiopeia Support Guide\n https://docs.google.com/document/d/1KijJWiaDYEz0uRkeSCCPaSG5wSAWeghjgMRc9rdXhQU/\n I removed Cassiopeia support from my sections of the Cassiopeia Community Guide because it no generally longer deviates from other roles that much and took up a lot of space. There are bookmark links in the Table of Contents. The Gameplay section isn't updated since 9.22, but I can do that if there's interest.",
+   "id": "ktlsdf",
+   "comments": [],
+   "age_days": 2099,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Setup Thoughts and Plans for Season 11 Guides",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/k3m4t1/setup_thoughts_and_plans_for_season_11_guides/",
+   "published": "2020-11-30",
+   "author": "/u/Unstopebble",
+   "body": "Note: This post is updated for 10.25, and the season 10 guides are here. \n Itemization I'm going to cover the main choices that people have asked about. I have enough exposure to the new items to apply my logic and calculations toward them, but I have not tested thoroughly, so feel free to disagree with anything.\n Starting Item\n Doran's Ring got significant buffs for preseason and should still be the default starting item if you're expecting to fight before first back.\n Tear is best if you're trying to farm and scale. Last season I recommended Sapphire Crystal + Refillable, if you were able to dominate lane, for the cost efficiency and better early mana. Although Tear has almost the same mana as Sapphire Crystal now, I don't similarly recommend the start for dominating lane because you don't get Refillable, and with PoM giving mana regen, Cass getting increased mana per level, and Doran's Ring being stronger, Doran's Ring is actually better for trades and all-ins. The exceptions (when Tear is stronger than Doran's Ring) are with no poison or in full all-ins that you win, so it can still make sense in lower elos where enemies may not respect your all-in or there are more random jungle skirmishes. You can still buy Doran's Ring after first back.\n Corrupting Pots are still for lower risk lower reward sustain or for trades that you lose health in.\n Mythic\n Liandry's is standard because it's effective against all enemies (it's the best Mythic against tanks, but also provides poke against squishies) and scales well.\n Luden's is effective against squishies, especially high ranged ones if you don't have Phase Rush or teammate CC, but for it to definitely be optimal, the enemy also needs to not built MR. Even against high health enemies, if they don't build MR, Luden's has the potential to deal similar damage from the magic pen alone, especially in skirmishes rather than full teamfights, and it also provides MS.\n Riftmaker lacks mana sustain, and grievous wounds are very accessible in preseason, so it seems like it can only be optimal if you don't use Ravenous Hunter (you'll make more use of the omnivamp), or in lower elos if you can force takedowns with Presence of Mind.\n Imperial Mandate after Rylai's has a slightly weaker laning phase, but it's the strongest combo during midgame if you don't need a defensive item or extra mana sustain (you'll have enough mana sustain if you teamfight, rather than sidelane, and your team has enough damage). For those that don't know, Rylai's makes each ability proc Imperial Mandate's damage until a teammate procs the mark (and possibly even after that; I'm not sure).\n Everfrost is extremely unpopular, but I've used it a lot on Cass support, and it feels like it should be worth it for short games against dive champs. The combo of flat AP, health, and the active is by far the strongest early game against divers. One thing that you need to get used to is the fact that Everfrost's active usually needs to be saved for counterengage, chain CC, or flanks because it travels slowly. It's extremely effective when snaring enemies in your W.\n Demonic Embrace\n Demonic Embrace is only best when taking full teamfights against high health enemies. People overestimate the value of its %health damage, and the resistances don't justify the cost nor are they part of the build path. Cass can deal much more damage with other items, although potentially with more difficulty due to having to position and target select well rather than applying a DoT.\n Rylai's vs Cosmic Drive\n Cosmic Drive has the better build path because of its AH, but with Liandry's AH, the relative difference is very diminished. The completed Rylai's is better against good opponents if your team is lacking CC. Against bad opponents when your team is lacking CC, Cosmic Drive is simply more beneficial for yourself.\n People have argued that getting both is a waste because you have enough kiting/chasing power from one. However, these items are more nuanced than simply helping kite/chase. Rylai's slows are for weakening your opponents; you prevent their ability to dodge skillshots, reposition, chase, or escape. Cosmic Drive is for buffing yourself; you can better dodge skillshots, reposition, chase, or escape. Therefore, getting both doesn't have any diminished value, although you may still prioritize a different item after one of them.\n Muramana vs Seraph's\n Muramana is quite strong on Cass now because it provides AH and doesn't consume mana, while Seraph's only offers AP and a little more max mana. It's only worth buying Muramana as a 2nd item for its AH, cheaper cost, and mixed damage. It does much more damage if you don't land poison, and it does only slightly less damage (until enemies get armor or you get Rabadon's) if you land abilities, but it heals less. Seraph's is otherwise better, but should be built 3rd or later unless you really need more waveclear and are willing to sacrifice survivability. (10.25)\n Runes Runes are similar to last season. I'm covering the ones that got changed the most, but feel free to ask about others.\n Conqueror vs Phase Rush\n I think most of the explanation from my original post is still applicable, but Conqueror has become better in higher elos and weaker in lower elos (relative to previously). Conqueror's higher early AP and lower healing makes it more early game focused, and Presence of Mind's mana regen allows for more short trades. Luden's or Cosmic Drive's MS can help compensate lack of Phase Rush MS. Due to less healing for Conqueror and from grievous wounds, Phase Rush, Transcendence, and Gathering Storm can all be more effective late game.\n Transcendence vs Celerity\n Transcendence is stronger early than previously, and although the 20% reduction of current CD at level 11 doesn't help Cass' low CDs as much as other champs, it's still very strong with teamfight takedowns for her W, which is already so strong in teamfights, and it can be the small difference between having Q available. It's therefore still usually better than Celerity unless you can make excellent use of the MS mainly against high ranged champs.\n Summoner Spells Summoner spells are similar to last season, but I think the value of Barrier has gone up a lot because there is a lot of burst, Cass has more early mana to fight (can play more aggressive to use Barrier's early strength and don't need utility from other summoner spells to help finish kills) and especially because Cass has less access to defensive itemization until late game. Ghost value is a lot lower because of less survivability that was needed to solo carry with it and because of MS items.\n Season 11 Guide Plans I've updated my Comprehensive Cassiopeia Support Guide, and for the Cassiopeia Community Guide, most of the tips are the same, and I can update general information before the start of season 11. However, I don't plan to play enough to go as in-depth or cover as many choices as I have in the past, nor to maintain objectivity for the Midlane Matchup Guide. It would be great if others can add to the Community Guide right before the start of season 11 (you can do it now, but there will be probably be more changes in preseason), or make their own guides (please only do that if you're formatting uniquely like with a video; otherwise, there are too many sources, and I'll only pin what I or the community think are the best). I don't think a Plat+ requirement is necessary anymore because it seems that there are now different builds that can work better in lower elos.\n The Midlane Matchup lane concepts should mostly be the same, but items, summoner spells, favorabilities (not that important since it was referring to optimal play), and especially mana-related tips may have changed a bit. Also, I haven't added Yone, Brand, or Seraphine yet because I haven't laned against them enough or seen enough matchup videos. Feel free to discuss any of the above, but make sure you provide explanations.",
+   "id": "k3m4t1",
+   "comments": [],
+   "age_days": 2139,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "My quick toughts on s11 item build and runes!",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/jslpz5/my_quick_toughts_on_s11_item_build_and_runes/",
+   "published": "2020-11-12",
+   "author": "/u/Palandium",
+   "body": "I have to apologise for typing errors i did this as the title stated quick and i wont have the time to edit them out right now ill do it when im home from work!\n Runes:\n First if all Secondarys wont change Taste if Blood Raveounse always never ever do smth different there! Samw goes for the Adaptive Runes. CDR , Adaptive Force or Restitance ( If your facibg a hard matchup) , Resistance.\n Primary i feel like Conq is still too good atm even tho i myself am an advocate for phase rush but thats just personal preference since i like the extra playmaking abillity.\n Starting : I woud always start with Ring except ur in a Matchup where you cant really trade the enemy and just try too outscale. The early trade value of ring is too good imo aswell as the fact that cheat bases feel stronger then ever so u can get a nice free base with ur third wave and get your tear.\n Mythic: Luden: havent expierimented alot with it the Movementspeed is nice otherwise meh you can try a full movement speed \" Im Hyper Damage Lilia \"Build now as one reddit user already statet but i personally really dislike Ludens and havent tested it so far.\n Liandrys: Is my personal preference maybe a bit for nostalgia reasons but also since the build path is much more convinient but i see that rift can be stronger in a lot of situations. I woud still go for Liandrys most of the time since the omni vap is just overkill if you play the last stand barrier build.\n Rift: Maybe the best atm as i said i personally preferr Liandry but i think Rift can be good in heavy teading matchups/assasin matchups.\n Otherstuff:\n Seraph: Still a must buy tough it dropped in priority for me i woud only really buy ir first/second if youre behind and need the mana to constantly shove.\n Cosmic Drive: Must buy espacially if youre ahead i honestly really like this item since it compensates for mssing movementspeed when u run the Conq build. I normally woud buil it second atm.\n Demonic Embrace: Im still undecided on this one. I feel like its a must buy shud u decide to buy Rift but otherwise im still not sure. I really like the double liandrys efdecr bzt its probably just overkill. The fact that you get resistances is pretty nice tho.\n Zhoniays : I mean... its hourglass obv its great. I personally dislike the item thats just my opinion and not smth fact relatet tho. I feel cassios identy is all about mobillity and Hourglass just stops it i woud just buy it vs heavy ad matchups e.g. Zed but personally i opt for smth wirh more spice\n Banshees : Same as with the Hourglass always situationally good vs heavy ap or skillshot reliant teams!\n Rylais: since Liandrys dosent deal more dmg to movement impaired things i feel like Rylais is just a worse Cosmix drive since they both have basically the same effecr. The deciding differnce is that the slow also helps your team mates while the movement speed from cosmic drive gives u more controll. Im not sure yet if its still a worthy buy or to just throw it out the window.\n Morellos: basically just build it last and sit on the orb if you need the anit heal\n Rabadons : honetsly what shud i say other then yes\n Void Staff : If the enemy stacks mr its a good 4th 5th item but as Banshees and Hourglass just situational esp since Ridt gives u pen anyway and Liandrys shreds tanks regardless of their mr\n Horizon Focus Guide: Honestly i gavent tested this yet but my theory goes like that. Rift + Rylai + this coud be border line op but im not quite sure yet. This is just viable if u bild rylais honestly.\n Spirit Visage: if the enemys have 3+ aps buy it last item u wont die anymore. My prederd qay for restiances but i get that banshees is probably better in net worth. The synergie wirh the Last Stand Barriere Build is sick tho.\n Frozen Heart: As with spirit visage enemy has 3+ad preffarble adcs buy it as 6th Also my öreferd way to get ad resistances .\n Shoes : ....... ;)\n I hope we can have a nice disscussion here about the items and which to build when!",
+   "id": "jslpz5",
+   "comments": [],
+   "age_days": 2157,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Does anyone know of a quality matchup guide for Cassiopeia?",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/jiib56/does_anyone_know_of_a_quality_matchup_guide_for/",
+   "published": "2020-10-26",
+   "author": "/u/OrbitalPandaXYZ",
+   "body": "I just starting playing her, and I'm having a lot of fun with the snake. I want to get a fast track to understanding her matchups (obviously I need games to properly learn then, but I want to have some theory in my head going in). Do any of you guys know any notable resources?",
+   "id": "jiib56",
+   "comments": [],
+   "age_days": 2174,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "New to Cassio",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/jh8lgz/new_to_cassio/",
+   "published": "2020-10-24",
+   "author": "/u/Keanureeves10",
+   "body": "Hello guys, As the title suggests I’m new to this champ and tbh I’m having so fun with her. I love playing late game 1 v 9 champs (especially ones that can sustain through fights/ heal through them). \n I posted here to look for advice that only you Cassio experts can offer. I’m a mid main and my current mains include vlad, yas and yone. I’m definitely looking to add this champ to my pool. \n So, what tips/tricks/mechanics would you guys have that are super handy? Freezing is basically my best friend😂 so I know I won’t have troubles with that. \n Also, I went against Leblanc and fizz and these matchups felt really bad. Is it just me? Please lemme know what I could do here.\n Plus I’ve noticed that cassio’s gank setup feels pretty nice early game. Usually people underestimate you and walk up the lane where I have the wave frozen. Then I just get my duo jungle to gank lv3/4 and if they have some sort of hard cc it’s almost guaranteed kill. With w, I can get free q and spam e to win😂.\n Sorry if the post is too long and if I went on tangents😂\n Cheers",
+   "id": "jh8lgz",
+   "comments": [],
+   "age_days": 2176,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Always Feeding into Assasins",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/jh15gl/always_feeding_into_assasins/",
+   "published": "2020-10-24",
+   "author": "/u/reddit_rar",
+   "body": "I love Cass. But I hate playing her now because I always feed into assassins. \n Whether its Ekko or Zed or Katarina or Sylas or Yone or Yasuo or Akali or Fizz. I always die, I always lose lane, and I always feed. \n I just don't believe this lvl 1-2 harass bullshit. If I do everything right I can maybe bring them to 60% health, but they take corrupting potion always so they just heal it back up. I run out of mana faster then them, I run out of health faster than them , and I just always die. \n I've heard all the common stuff about \"auto early to harass\" and \"Q-E-E-E\" lvl 2, but it just doesnt work when I do it. They take Electrocute or Conqueror with Ignite and kill me. \n I've started taking Phase Rush and Teleport just so I can escape and come back to lane but I still die. \n Idk what to do. Like, its so tilting I've started becoming toxic to Ekko and Fizz and Yone in the mid lane. \n Honestly thinking of giving up cass because of how frustrating these matchups are for me.",
+   "id": "jh15gl",
+   "comments": [],
+   "age_days": 2176,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "%45cdr Cassio is OP",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/iuemid/45cdr_cassio_is_op/",
+   "published": "2020-09-17",
+   "author": "/u/PMME_BOOBS_OR_FOXES",
+   "body": "I've just had a game where I built Seraph's (%20cdr), Banshee's (%10cdr) and Rabadon's vs Neeko. \n I had phase rush, but by mistake I took trasendence (%10cdr) and the +%5 max cdr, +%5 cdr runes and holy shit I can really feel that %45.\n I'm not saying it literally is op and you'll instawin, but try it out on normals vs matchups where you run phase rush, it's fun. As Riot said, %40cdr is not casting spells %40 faster but more like %60 or something due to the weird way cdr works.",
+   "id": "iuemid",
+   "comments": [],
+   "age_days": 2213,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Trying to play Cassiopeia, but all I do is inting.",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/itasfi/trying_to_play_cassiopeia_but_all_i_do_is_inting/",
+   "published": "2020-09-15",
+   "author": "/u/Morlino",
+   "body": "I'm trying to add Cassiopeia in my champion pull, but I can't win any game. I'm not saying I can't carry, no, all I'm saying, that a fucking Shako's box represents more threat than my Cassiopeia. I'm probably the worst Cassiopeia player ever lived. I can't win any trade, I can't do shit in teamfights, I'm literally a dogshit with this champ. I just don't understand how to make her work.\n Last time I picked her in Vladimir matchup, cause U.GG said \"she's good, buddy, go pick her up, you won't be stomped this time\" and I got got fucked right under my snake-tail. Vlad outsustained me, I lost every trade and he ended up zoning me from minions. I just didn't understand how Cassio supposed to play. I really need your help guys, cause it's rare, when I got fucked but still enjoyed the champion.\n Do I passively farm or should I poke? Should I try winning lane? All I'm asking is some rules I would keep in mind, so I won't pull my team into deepest shit they'll be having ptsd from.\n https://preview.redd.it/lha7wd1gubn51.png?width=781&format=png&auto=webp&s=54bd81edb7ffeabe1edd2f82e1bb4f1fb7551f7a",
+   "id": "itasfi",
+   "comments": [],
+   "age_days": 2215,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "A little dodge I made.",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/hbylpu/a_little_dodge_i_made/",
+   "published": "2020-06-19",
+   "author": "/u/typhoncz",
+   "body": "Just wanted to share one of my 1v2 outplays with you guys :) hope you'll like it a bit.\n ​\n Also, what do you think is the biggest counter on cass? Many people say it's Syndra, but so far it was fairly okay for me. \n (Imho Vlad is a very easy matchup, that R gets landed without a problem. I've been the most successful as Diana against Cass)\n https://reddit.com/link/hbylpu/video/e0cudychku551/player",
+   "id": "hbylpu",
+   "comments": [],
+   "age_days": 2303,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is Irelia a skill matchup? lolalytics.com shows the wr is basically 50% at gold, but at lower and higher elos it slightly favors Cass. How do you handle Irelia?",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/gr90yo/is_irelia_a_skill_matchup_lolalyticscom_shows_the/",
+   "published": "2020-05-27",
+   "author": "/u/match_replay_alytics",
+   "body": "",
+   "id": "gr90yo",
+   "comments": [],
+   "age_days": 2326,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Carrying into Xerath",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/gcym14/carrying_into_xerath/",
+   "published": "2020-05-03",
+   "author": "/u/Tom7980",
+   "body": "Have been on a good string of games on Cassio recently but I find myself struggling to carry games when I meet Xerath purely because I feel I can't snowball the lane hard enough and he has plenty of long range waveclear to help him play safe but still shove me to tower. \n Is there anything I can do to impact the game more than run teleport and ask for ganks? Is teleporting to sidelanes and letting him push in mid worth it or should I just hope the team comes out even enough that I can carry through the mid game? \n I'm okay with the lane matchup now as I can play around my Q and look for him mispositioning but definitely want to be more impactful than farming my lane and waiting as I don't want to leave the game to chance on which of my sidelanes loses hard enough that me playing safe means nothing. \n Appreciate any and all answers if you've had a good game into Xerath let me know!",
+   "id": "gcym14",
+   "comments": [],
+   "age_days": 2350,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Vs Syndra",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/fqr8et/vs_syndra/",
+   "published": "2020-03-28",
+   "author": "/u/TheAbsoluteZer0",
+   "body": "A matchup that I struggle in is Syndra. I feel like every time I land a q, she can e or w me to slow/stun me and I can't get in range to punish her. Her Q hurts more than Cass, she shoves faster, and her all in at 6 is better. Any tips? I was thinking Q max because I can actually hit her with them, but I feel like E max with Conq is just too busted to pass up.",
+   "id": "fqr8et",
+   "comments": [],
+   "age_days": 2386,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to fight Kassadin as Cass?",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/fkw77i/how_to_fight_kassadin_as_cass/",
+   "published": "2020-03-18",
+   "author": "/u/Sterlynny",
+   "body": "I know that you're supposed to bully him with autos, but the sustain from fleetfoot work and corrupting pots seem to make autoing useless. I obviously can't really use spells because I don't have the mana in the early game without tear to bully him too hard. In one particular game the Kassadin built Abyssal mask and dealt damage while receiving practically nothing in return. In fact, he can go with purely mana and defensive items and he can still take half my hp.\n I don't know, I just feel so frustrated in this match up. You have to play well if you're 1v1ing Kassadin in a fight, while all he has to do is ult you. Some may say to use w, but even when I do so when he jumps me, he justs tanks everything I try to throw at him and still chunks me. \n Please help, I feel so helpless in this matchup.",
+   "id": "fkw77i",
+   "comments": [],
+   "age_days": 2396,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Cassiopeia Guides Updated for Start of Season 10",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/elyr9o/cassiopeia_guides_updated_for_start_of_season_10/",
+   "published": "2020-01-08",
+   "author": "/u/Unstopebble",
+   "body": "The guides are updated for the start of season 10! Feedback for improving them is still welcome.\n Cassiopeia Community Guide\n https://docs.google.com/document/d/1mEYccaKGkAzDlxkd8QWTuLYf8FUr4O8zBytNDu0CQhY/\n There are bookmark links in the Table of Contents and some in the Summary. If you just want to find builds, stat websites are best. If you're looking to learn Cassiopeia, the guide contains the thought processes of high elo/very experienced Cassiopeia mains and a lot of information that isn't anywhere else. My sections are very in depth for those who really want to optimize, but the Summary is shortened, while still containing valuable info.\n The main changes since the mid season 9 update are the addition of Conqueror usage and Cassiopeia support changes. I also want to highlight that the Abilities section of the Summary and the Advanced Techniques in Cassiopeia's Strengths and Weaknesses cover several ability interactions that people have asked about. The Phase Rush vs Conqueror Guidelines are in the Builds section of the Summary, but here is the link to access it quicker.\n Only the Summary and SIither's and my sections contain recently updated information, so if you're interested in adding to the guide and are Plat 3+ or very experienced with Cassiopeia, please contact me. You can also simply comment here about what you're trying out regarding runes, itemization, abilities, gameplay, etc.\n Cassiopeia Tips & Tricks\n https://www.youtube.com/watch?v=xYY-oZuRV5A\n This explains and provides gameplay examples of some of the most important Cassiopeia tips and tricks. It was made by /u/DrowsyzZ\n Cassiopeia Midlane Matchup Guide\n https://docs.google.com/document/d/1Tu-fZPrQiVXTgnj_4NFVshHG8gClUzWKnCpzHeyqj9k/\n Read through the Important Generalizations section for additional info and to avoid misunderstanding. There are bookmark links in the Table of Contents. Only the most common midlane matchups are added. If you'd like the less common ones to be added, just let me know which ones. Also, if someone wants to organize the formatting better, that would be appreciated.\n Comprehensive Cassiopeia Support Guide\n https://docs.google.com/document/d/1x_DaNRXPyf0yr0l5neL2gec9MAjOrw3nj7ftIfJGPE8/\n Cassiopeia support is covered in my sections of the Cassiopeia Community Guide, so this guide is just for more insight into how it compares to other supports, what it can do, and its history. There are bookmark links in the Table of Contents. The Gameplay section isn't updated since 9.22, but I can do that if there's interest.",
+   "id": "elyr9o",
+   "comments": [],
+   "age_days": 2466,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Cassiopeia Midlane Matchup Guide",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/edz24z/cassiopeia_midlane_matchup_guide/",
+   "published": "2019-12-22",
+   "author": "/u/Unstopebble",
+   "body": "The midlane matchup guide is still in progress: https://docs.google.com/document/d/1Tu-fZPrQiVXTgnj_4NFVshHG8gClUzWKnCpzHeyqj9k/\n It would be great if I could get some feedback on what people want regarding the content. If someone wants to organize the formatting when it's done, that would be appreciated as well.\n EDIT: The most common midlane matchups are complete. If you'd like the less common ones to be added, just let me know which ones.",
+   "id": "edz24z",
+   "comments": [],
+   "age_days": 2483,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Phase Rush vs Conqueror Guidelines",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/e80rdj/phase_rush_vs_conqueror_guidelines/",
+   "published": "2019-12-08",
+   "author": "/u/Unstopebble",
+   "body": "This post is pretty late because I didn't expect the current Conqueror to be released and not nerfed more for Cassiopeia, but hopefully it's still helpful for those who haven't tested enough yet or would like to know more specifics. Also, based on PBE, patch 9.24 Conqueror Cassiopeia should still remain viable and situationally superior, especially in lower elos.\n General advantages of each: Phase Rush advantages are higher skill cap in lane, more escape potential, more agency in teamfights, and more damage potential mid-late game. Conqueror advantages are lower skill floor, more damage in lane, more gank turnaround potential, and tenacity.\n Choosing between them (order based on priority and specificness): Elo:\n Below Diamond Platinum (9.24), Conqueror is almost always better, except possibly for non mains toplane, but Ghost would need to be used against very long ranged champs.\n For Diamond+ Platinum+ (9.24), Conqueror is still usually better, for non mains and bot, except for a few matchups and toplane (10.13).\n If you're not in one of these categories or think that you use Phase Rush very well (usually requires being a main), you should consider champs in game.\n Champs:\n You should consider all champs, with more focus on the champs that you'll interact with the most (usually your lane opponent > the junglers/supports).\n Phase Rush has increasing value against high ranged or mobile enemies, slows, and skillshots. It also provides more agency post laning when your opponents play well and your team doesn't have good setup for you.\n Conqueror has increasing value against low ranged/immobile enemies and Cleansable CC, especially if you don't want Cleanse or QSS. It also works better when you're able to splitpush mid game or your team has good setup for you.\n If you follow these guidelines, your keystone choice will always be very good, but a lot of team comps have a mixture of these aspects, so for more specifics, you should consider your playstyle.\n Playstyle:\n Phase Rush is better for players that reposition, target select, and dodge abilities well and for creating plays post laning. Conqueror is better for players that land their abilities well and for dominating against low ranged enemies and playing front to back.\n Even against matchups where Phase Rush is ideal, playstyles can favor Conqueror more. Against melees like Tryn (his autos/crits give Fury, his W slows, and crits lower his E CD), Darius (his W and E slow, and his whole kit requires getting in range), Kled (his Q slows, pulls, and applies grievous wounds), Mundo (his Q slows, and you can't heal as much off him because of how tanky he is), Conqueror can still be used to snowball and close out a game early. Against high ranged like Xerath, Vel'Koz, and Orianna (all have a lot of skillshots to dodge and slows, outrange, and lack Cleansable hard CC), Conqueror can still be used with Ghost or to farm and then teamfight front to back.\n Even when Conqueror is ideal, a player with very good kiting and dodging skills can avoid more damage than Conqueror heals, will have more safety if they don't land abilities that well, and don't lose out on snowballing potential if they're passive in lane.\n Additional Notes: Compared to with Phase Rush, with Conqueror:\n Scaling CDR flex rune is utilized better because it synergizes with Conqueror stat increases, and it lacks Transcendence CDR\n Tear -> Rylai's, and Rylai's in general, is stronger because there's more early snowballing potential and sticking power is more needed\n Cleanse and QSS have less value because of tenacity\n Exhaust has more value because the slow helps stick (for stacks)/kite (no Phase Rush MS) and outstat (mitigate enemy burst)\n Other rune and build choices remain pretty close to the same as in the guide\n Q start is stronger (but higher risk) against lane opponents that aren't strong level 1 because it can damage the enemy and generate Conqueror stacks starting from level 1 (use MS to add autos if possible) without spending as much mana as E start\n W at level 3 is less ideal because it's better to save enough mana for extended trades\n Q max 2nd is more favored compared to W max 2nd because of no Phase Rush MS\n Assassin matchups:\n People have asked about the assassin matchups because they have a mixture of qualities that synergize or don't synergize with both keystones, so I'll elaborate.\n If you're trying to win lane against assassins, Phase Rush is better (but more difficult) in 1 v 1s because it's better for short trades and can allow you to force extended trades (you won't be able to take extended trades with Conqueror unless the enemy fights you or makes mistakes, which is totally a possibility the lower the elo). Ekko is an exception (Conqueror is better) because even though he can be played as an assassin later in the game, his burst is way lower in lane, such that you can force extended trades (10.13). If the enemy jungler (or roaming support) isn't a strong ganker (you can push and auto more freely), you're able to 1 v 2 (you can potentially build resists to counter both enemies), or you play around skirmishes with teammates (such as 2 v 2s), Conqueror is stronger but slightly riskier (you have to land abilities against mobile, bursty enemies).\n If you're trying to survive lane against assassins, Conqueror is much easier. As long as you have basic wave management and don't waste your poison, Conqueror makes it much harder for the enemy to force fights on you. LeBlanc is an exception (Phase Rush is better) because of her ranged burst and powerful gank setup/followup with her W and E. If you don't manage waves decently/waste your poison, then Phase Rush can help you disengage ganks/trades. If you do fall very behind, Phase Rush will help slightly more because you can disengage better, but Conqueror provides better comeback potential if enemies make mistakes (you can trade kill or outplay), which they very often do the lower the elo (although you might not necessarily want to rely on that).\n Post laning, keep in mind that the keystones' effectiveness early game can affect how ahead or behind you are. In regards to the assassin you're against, I think both keystones are equally useful post laning, so the rest of team comps matters more besides your playstyle. Conqueror helps more in front to back fights because you simply have more stats. Assassins typically enter a fight after it has started, and you can stack your Conqueror before then. Phase Rush helps more for making your own plays by being able to chase down assassins (you won't be able to chase them unless they waste their escape or misplay unless your teammates CC them) and target select better (use the MS to threaten carries more). It also helps more if you need to kite, but you won't necessarily be able to kite against assassins, and it's worse if you get hard CC'd.",
+   "id": "e80rdj",
+   "comments": [],
+   "age_days": 2497,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Why would I pick Cass.",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/caubjh/why_would_i_pick_cass/",
+   "published": "2019-07-09",
+   "author": "/u/Shaqelton",
+   "body": "So question goes like this -\n I'm an Azir main (600k-ish), play a lot of Viktor too, always wanted to pick Cassio up but never really clicked with her because of one thing that really messed me up (the fact her E does not cancel previous movement command, IDK why, just couldn't handle it). Now recently I made a point to get good on her, got myself together, played her to M5 and got my M6 three games afterwards, which was about 20 mins ago.\n My question is this - why oh why aside from her being cool af, would I pick her instead of Azir in a certain game? They both are control mages, both shred objectives, both have self peel, but still - Azir gives better waveclear, AOE damage in teamfights, mobility, engage (without flash), and I'm at a point where I have no weak matchups on him besides Xerath/Syndra whom I'm fine against but if just waveclear and scale. Often in other matchups I get solokills with him at lv3/4.\n So - what does she do/give that he doesn't?\n I think I'm unsure because I know Azir so well but don't know Cass, would love to hear some opinions.\n Thx!",
+   "id": "caubjh",
+   "comments": [],
+   "age_days": 2649,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I stopped being lazy and did the math",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/amcxt2/i_stopped_being_lazy_and_did_the_math/",
+   "published": "2019-02-02",
+   "author": "/u/ekkoOnLSD",
+   "body": "So basically next patch Cassio is nerfed compared to now when you're My question basically was : \"how will the different spell max orders compare to each other once nerfs hit\"\n For all these numbers I kept a stable amount of AP (25) because the ratios don't change when you max X or Y so it doesn't matter\n ​\n Max / level Q+E Q+2*E Q+3*E Q / level 3 220 307.5 395 Q / level 5 263 358.5 454 Q / level 7 306 409.5 513 Q / level 9 369 500.5 632 ​\n E / level 3 205 312.5 420 E / level 5 233 368.5 504 E / level 7 261 424.5 588 E / level 9 324 515.5 707 ​\n Now for the mixed maxing patterns\n ​\n 2 points Q -> E / level 5 248 363.5 479 2 points Q -> E / level 7 276 419.5 563 ​\n 3 points Q -> E / level 7 291 414.5 538 3 points Q -> E / level 9 319 470.5 622 ​\n Conclusions : Post nerf, Q max is still potent in some matchups in my opinion, there are a lot of lanes where you don't want to / can't land multiple E's after Qing someone. For example here you see that if you can E 2x for each Q you hit you're only losing 15 damage compared to being in E max.\n ​\n The only situation where E max gives you significantly more DPS is when hitting 3x E for 1 Q.\n ​\n To state some obvious shit :\n 3 point Q into E is weak at level 9 both in terms of poke and DPS\n 2 points into Q -> E is kinda in between for level 5 and 7, doesn't weaken you at 9\n Cassio level 1-2 is not nerfed so still very strong\n I like AP heavy builds on Cass because her AP ratio's are actually nuts, i'm probably going to stick to Deathcap third.\n There's probably a lot more to say about these numbers but i'm feeling lazy once more, I'll leave the rest to you snakes\n ​",
+   "id": "amcxt2",
+   "comments": [],
+   "age_days": 2806,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Comet, Q -> W max, and Luden's Explanation",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/a3rm59/comet_q_w_max_and_ludens_explanation/",
+   "published": "2018-12-06",
+   "author": "/u/Unstopebble",
+   "body": "A lot of players are not understanding what makes the current meta build so effective, so I'll provide an overview here. You will have to look up the stats of everything (can be found on the wikia) if you want the specifics.\n ​\n Background info:\n Phase rush is extremely effective on Cass because she doesn't need a damage keystone with all the damage output she has, and the mobility allows her to kite/chase better. However, comet is also effective because it adds damage earlier, and it also lowers in CD most on Cass due to her ability spam; phase rush is less necessary when you q -> w max because you get additional MS when you land q, and your w is a lower CD + bigger slow. It will land most of the time with w, r, or rylai's or if you harass when enemies are attacking something (like cs'ing), and even if it doesn't, it's something to force opponents to dodge, which can drop their damage or make their movement more readable for landing other abilities.\n Ever since Cass' e nerfs awhile back, q and w have been strong options worth leveling earlier in the game. Cass also got a damage buff on her q in the middle of season 8. Leveling q provides the most damage during short trades, and it also costs less mana than e assuming you follow up with e's. Due to Cass' high mana costs, leveling q early in the game allows you to trade more effectively. Leveling w not only lowers the CD of the ability, but also ends up costing less mana than e spam and increases the slow up to 80%, which is extremely effective against grouped enemies during skirmishes and teamfights; having this maxed 2nd in these scenarios has always been optimal but something that most players hadn't been doing. The reason why e max with mana items is better is because it has the most extended fight damage, which is essential in extended trades/all ins. Combining all this info together, the optimal ability order that I had been using last season was 2-4 points in q based on matchup and game state (better to level it when I can land more q's and I don't have as much mana sustain), followed by 3-5 points in e, then w max. It could change in unique situations, such as fully maxing q against team comps that I don't have access to e'ing, maxing w even earlier against grouped enemies where the slow + grounding would be effective, or maxing w last like normal when there isn't much grouping (especially against champs that will just dash over it). I did q -> w max on Cass support for mana sustain and because it allows her to deal similar damage without putting herself in danger (which ends up making her do more damage than otherwise).\n In season 8, tear got heavily nerfed, such that it's very expensive and doesn't refund as much mana. It's therefore extremely weak on purchase, evens out after getting a couple hundred stacks, then scales well. It's still a very good item for Cass because of her high mana costs, but it is more of a scaling choice, whereas Luden's (and its build path) spike much faster. However, note that without tear, it's even more crucial that you don't put points into e early (q max first) because you will go oom quicker. Side note: RoA was actually optimal in heavy trading lanes due to the catalyst passive, but it won't be important in this discussion.\n With enough skill, Cass was actually very strong last season because she beat every class other than assassins, and outscaled assassins. She was simply outclassed by the S tier picks: Irelia, Akali, and Aatrox.\n Changes:\n Cass was not directly changed, but there are multiple indirect changes. Cass was indirectly nerfed by the celerity change (which is garbage now) and ravenous hunter nerf (very negligible). The stat choices (rather than being attached to runes) don't benefit Cass in particular, but she does get an increase in damage early with the extra AP that she scales extremely well off (since her rework, she's had high AP ratios to compensate for not being able to purchase sorc shoes). The biggest changes were the shifts in meta. Tower plating and bounties have heavily nerfed assassins, making them lanes that Cass can play to win rather than just outscale (not saying that she couldn't beat them before, but before it was reliant on her being significantly better than her opponent). Also, tanks are not being played because they got nerfed by the stat choices (the defensive choices really suck), and they're not fun when they're weak (it's preseason). When enemies aren't as tanky, Cass doesn't need as much mana to kill things. Lastly, games are a shorter and more of fiestas, probably mostly because it's preseason.\n Differences between comet and phase rush:\n Imo, comet is not stronger than phase rush. People are just copying the build, which in its entirety is more successful, but not tied to comet. The reason why comet is good is because it adds more laning damage, phase rush isn't always necessary with q -> w max, and it adds \"free\" damage in fights (which becomes more important when lacking mana due to building Luden's). Phase rush has about the same strength (sometimes more; sometimes less), depending on how much it can be used to kite/chase. It can not only prevent deaths and lead to kills, it can also end up adding more damage due to the extra mobility, but besides early game where you can auto, you would still have to use abilities, which will be an issue if you don't have the mana sustain.\n Differences between Luden's vs Archangel's:\n Luden's is only good with q -> w max or at least q -> e max in order to conserve mana.\n There are no differences pre-tear purchase, but if people weren't leveling q before, they will notice the extra strength from doing that now. Once tear would've been bought, Luden's path is stronger because you have extra stats of whatever you need. Once tear would have some stacks, it would be just as efficient due to the mana sustain, but with blue buff, Luden's path is still stronger because you would have both mana sustain and more stats. By the time Luden's is purchased, it is MUCH stronger than archangel's; it adds a ton of damage and even helps waveclear. Even compared to other champs, Cass abuses Luden's extremely hard because she can proc the passive more frequently due to her ability spam, and her passive allows her to outrun other champs + her abilities have higher AP scalings (if other champs were to buy boots, they would delay their Luden's powerspike, but if they don't buy boots, they will get run down by Cass). Once seraph's would've been completed, seraph's is slightly stronger assuming mana issues, but Luden's is slightly stronger assuming no mana issues (seraph's provides a shield, while Luden's provides more damage). As the game progresses, Cass gets more AP from base mana + seraph's passive, and especially with points in e, Cass quickly goes oom; if it gets late enough, she will go oom even with blue buff. However, Luden's passive still spreads rylai's/liandry's/morello passives, so it's quite effective in grouped fights. Seraph's outscales, but Luden's can somewhat balance out with blue buffs. Although I haven't seen anyone do it, I think that when it hits late game, it's best to buy a tear (850 gold spent on mana instead of 40 AP is better at that point) -> archangel's; really late, Luden's would be sold if there's a more effective item based on the situation. This makes the build better than if you were just stuck with Luden's the whole game.\n Overall:\n The build is only optimal in master+ elo because the powerspike is better used and the game's are closed out better. It is especially powerful if given blue buffs, but otherwise pretty even with or weaker than archangel's (using my ability order; the pure e max all the time is usually suboptimal), especially if games are less of a fiesta/e max 2nd would be good (it would be better than w max if enemies aren't grouped or if all in damage is necessary). Even when archangel's should technically be better, it's worth noting the earlier powerspike of Luden's, which can simply help ensure that team mates don't just tilt when losing early. Overall, the playstyle is higher reward for taking lower risk because you can just throw q's and w's, which can be better for individual players in elos that are lower simply because they weren't optimizing e max e usage, in which they'd have to kite around a fight much better. The significantly lower winrate in lower elos, despite the meta changes in favor of Cass and the fact that people are w maxing 2nd (extremely impactful in teamfights, but something that could've been done with standard archangel's and just wasn't), speaks for that.",
+   "id": "a3rm59",
+   "comments": [],
+   "age_days": 2864,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Null Magic Mantle on Cassiopeia early is super underrated.",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/7crvmb/null_magic_mantle_on_cassiopeia_early_is_super/",
+   "published": "2017-11-14",
+   "author": "/u/Collamus",
+   "body": "With the changes to base stats in the preseason most mage's MR at level 1 is 30. This means that purchasing a null magic mantle immediately after tear (I know how much you RoA users hate being delayed your item but hear me out) nearly doubles your MR with a 450 gold item. \n The calculations to determine damage mitigation (more accurately to say the damage multiplier) of magic resist and armor is 100 divided by 100 + total armor or magic resist value. For example if someone has 30 magic resist then they will have a damage multiplier of 0.769... meaning that you will take approximately 23% less magic damage. With the null magic mantle that goes to 35% damage reduction... a 12% decrease in damage taken. \n But wait it gets better; with the buff to sorc shoes (+18 magic pen), the introduction of sudden impact (+8 magic pen) and the fact that some ap assassins also go haunting guise, a lot of your mr will be ignored, so instead with sudden impact you can treat your mr value being 22 instead of 30, which means you have only 18% damage reduction. If they have sorc shoes as well as sudden impact your base mr goes down to a mere 4, meaning you only get 4% damage reduction. With null magic mantle however, those numbers go up substantially. If we are just accounting sudden impact, the damage resistance with null magic mantle is 32% (compared to 18%) and if we account sorc shoes, the damage resistance with null magic mantle is 23% (compared to 4%) a 19% difference. \n While null magic mantle doesn't build into much, it DOES build into banshees veil, which helps against most AP assassins anyway, or abyssal mask, which is an excellant late game item against full AP or near full AP team comps. As we all know cassiopeia is very much a champion where if you survive the enemie's burst you win outright with your sustain damage, and with the buff to assassins in preseason, null magic mantle is definitely something to consider on cass in any AP matchup where we are up against a lot of poke or burst (think syndra, xerath, lux, fizz, leblanc, etc.). Thanks for reading this far and good luck on the rift!",
+   "id": "7crvmb",
+   "comments": [],
+   "age_days": 3251,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Cassiopeia Mains Community Guide FINISHED!",
+   "url": "https://www.reddit.com/r/CassiopeiaMains/comments/6g4os9/cassiopeia_mains_community_guide_finished/",
+   "published": "2017-06-08",
+   "author": "/u/heroicsej",
+   "body": "Update (1-18-18) - This guide is pretty old now, while it applies to Cassio's mechanics and general strategy, the item builds and runes are very outdated. In the near future (hopefully), we'll come out with a S8 Cassio guide once we get more of an idea of her state in the current meta. Keep an eye out!\n Update (9-4-2018) - The guide has been updated!\n Here's the link!!\n For any of the players featured in the guide, if you see anything you want changed, feel free to message me as the guide is editable and will continue to grow with more information. If you weren't included in the guide, and you'd like to be, the form will be left up and you will be added whenever I get the chance. \n -Blu\n Edit: The matchup section part of the guide will be done at a later time.",
+   "id": "6g4os9",
+   "comments": [],
+   "age_days": 3410,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  }
+ ]
+}

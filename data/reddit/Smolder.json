@@ -1,0 +1,890 @@
+{
+ "champion": "Smolder",
+ "subreddit": "smoldermains",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "Personal Smolder build i did to survive early game",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1wbdw4o/personal_smolder_build_i_did_to_survive_early_game/",
+   "published": "2026-09-09",
+   "author": "/u/YonRaptail",
+   "body": "I am trying a different personal build and explaining how it works, i am still testing it, but for one game, it looks pretty fine. OFC it has it's pros and cons for games around B3 - B1 ( trying to get back to S1 like in the past ).\n 🆕EDIT : presence of mind gives a cashback of 4.8 , 5.44 , 6.08 , 6.42 , 7.36 , 8 . 9.6 . with other theoretical calculations, cut down has more value regardless of time.\n thanks to danield1302\n Runes : Deathfire touch , Manaflow Band , Celerity , Gathering Stom , Legend - Haste , Cut down , +9 adaptive force , +2% ms , +10~+180 hp per level\n Summoners : TP - Flash , beacuse flying is difficult\n How it works , pros and cons and the reasons behind :\n TL;DR : Low elo fights early game i want survive and not run out of mana\n the key difference between JOAT and Legend Haste is that you gain AH during laning phase VS when shopping. if you can proc manaflow everytime it's avilable, you can avoid running OOM in no time, do some poke, and get some stacks, closing it around 6m30s on average. JOAT gives you +12 AD and around +10 AH , but legend - haste can give you +1.5 per stack. A stack = 25 minions , kill / assist , help get first drake if possible. If you manage to get early kills/assists and first dragon with your jng, it's perfect.\n pros : more mana, dinamic AH and more respect JOAT , more stacks\n cons : no +12 AD bonus , mana runes lose a lot of efficiency once you close ER, no free boots for birthday, NO BISCUITS !\n In some matchups you can forget manaflow if you have no way to deal consistent poke on enemies, so you focus on farming\n Build : Essence Reaver, Gluttonous greaves , Black Cleaver , Rapid Fire Cannon , Infinity Edge , Endless Hunger , Spear of Shojin\n i go with the ER, boots, BC , and depending on how the game is going, i can opt for IE if i want damage, or RFC if i want poke range or wave manipulation to splash Q on minions , but item 3-4 must be these two for me or i get a crater of loss potential ( like in first draft test game ) . 5 endless hunger to get an AH boost, and close with shojin last, unless i get a shitton of gold somehow earlier and i can complete it in no time, because it gives the powah only when completed, and maximizes dmg% .\n Game test in ranked ofc.\n https://mobalytics.gg/lol/match/euw/yonraptail-ita/7977948133\n i suffered a lot because they had 3 solid champs. i loved the names of teemo , shen, and rammus.\n 5:55 , killed the bot, completed manaflow, Q lv3 cd flat 4.5 into 3.98 , legend haste 2-10 68%\n 6:38 , we got drake\n 10:53 , bambee dived and died, i made snackbot flee, but spike flashed taunt on me under enemy tower and i died, but i managed to aa the crystal. i was suffering a bit, closed ER\n Lv 7 Q lv 4 flat cd 4 into 3.14 , 94 stacks , legend haste 5-10 48% ,\n game became a mess in bot.\n 16:44 completed legend haste, got second drake, maxed Q flat 3.5s in game 2.41 , 158 stacks.\n endgame 48m fullbuild, spells cd : Q 1.52s W 4.35s E 6.97s R 52.73s , 544 stacks.\n Things to consider : shojin doesn't seems to proc passive on first spell hit, and bc now need multiple instances of damage to proc the 30% armor reduction .\n I am open to discuss about this thing.",
+   "id": "1wbdw4o",
+   "comments": [],
+   "age_days": 30,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Smolder build discussion - Crit vs Bruiser, Deathfire Touch vs Fleet Footwork, Teleport vs Barrier?",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1vpddpl/smolder_build_discussion_crit_vs_bruiser/",
+   "published": "2026-08-15",
+   "author": "/u/Aristotelion",
+   "body": "Hey everyone, I’m a low elo Smolder player (around Gold/Plat). My friend I usually duo with is around Gold/Silver. I have roughly 50 games on Smolder with around a 55% win rate (It used to be higher, but apparently playing ranked at 4 AM while being slightly intoxicated wasn’t the best idea lol).\n I’m mainly interested in hearing what more experienced Smolder players think and whether there are things I could improve.\n 1. Item build – Crit vs Bruiser and build order\n I’m personally not a huge fan of Black Cleaver for damage reasons, especially after the recent nerfs. My usual pool of items is:\n Essence Reaver → Infinity Edge or Rapid Firecannon → Lord Dominik’s Regards → Spear of Shojin or Endless Hunger\n I basically build some combination of these every game. I also always go for the Omnivamp boots.\n What I’m mainly unsure about is the order.\n For example:\n Essence Reaver → Infinity Edge → Rapid Firecannon? (more damage?)\n Essence Reaver → Rapid Firecannon → Infinity Edge? (for matchups where the extra range matters?)\n Should Spear of Shojin or Endless Hunger sometimes come before Infinity Edge or Rapid Firecannon?\n When should Lord Dominik’s Regards be bought early?\n Are there situations where the Bruiser-oriented build is clearly better than Crit, and is Black Cleaver still worth building despite the nerfs? I’d especially like to hear how you decide between Crit and Bruiser Smolder and how you determine your 2nd/3rd item.\n 2. Runes – Deathfire Touch vs Fleet Footwork\n I’ve basically always played Deathfire Touch, mostly because it seems to be the established/default rune. But when I read the numbers, Deathfire Touch honestly doesn’t look like it deals that much damage.\n Would Fleet Footwork make sense, especially into heavy poke lanes where the sustain and movement speed could help?\n I also have quite a lot of mana problems before Essence Reaver. Would something like Manaflow Band or another mana rune actually be worth taking?\n I’m also curious how important things like Magical Footwear and Jack of All Trades are with my item build. Are they strong enough that you really don’t want to give them up?\n 3. Summoner Spells – Teleport vs Barrier\n I personally really like Teleport instead of Barrier.\n My reasoning is: Smolder doesn’t really want to fight early anyway, so Teleport helps me maintain farm, tempo, and better recall timings. It makes bad lane states much less punishing and also makes greedy lane decisions or recalls less punishing.\n Later in the game, I’m usually positioned far enough back that Barrier often doesn’t feel like the difference between living and dying, especially when I’m heavily CC'd while dying.\n 4. General Smolder tips/ A few more general questions:\n What would you consider a good stacks per minute target on Smolder?\n Are there any lesser-known tricks or habits that made you noticeably better at Smolder?\n Lastly, I just wanna say that I really dislike Smolder only having two skins, and neither of them being particularly special. :/\n Thanks in advance! I would love to hear what you guys are running and why. :)",
+   "id": "1vpddpl",
+   "comments": [],
+   "age_days": 55,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "New Smolder, but I'm main mid.",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1v38fh4/new_smolder_but_im_main_mid/",
+   "published": "2026-07-22",
+   "author": "/u/BananaLatin",
+   "body": "Hey there! I'm new on this champ so I'm looking for some advice to play it. \n Let me explain what I really have questions about....\n What's the best build and runes? I'm kassawin main too so I understand easily how to scale with smolder but would be really helpful to know between grasp and DFT which one is the best rune on smolder? If it depends on the matchup let me know that, please \n\n Where does he damage come from? Yeah I know he scales well but for example when I was learning Kass, I believe if someone tell me for example \"your first power spike is at first item against mages\" \"when you get lvl 6 start playing more risky don't worry about your damage believe me you probably have enough to deal 30% of health even if you are a late game champ\" this kind of things that casual smolder player doesn't know. \n\n Some hidden mechanics I should know, tips and tricks, for example idk \"Kass has R flash combo\", \"AA+Q\" these stuffs.",
+   "id": "1v38fh4",
+   "comments": [],
+   "age_days": 79,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to get out of emerald?",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1uzso8s/how_to_get_out_of_emerald/",
+   "published": "2026-07-18",
+   "author": "/u/Missbunocu08",
+   "body": "Genuine question, is it even possible to get out of emerald with this champ? I have over 500 matches on him and he is by far my favorite champ and some of the most fun I've ever had in league.\n The second I hit emerald 2 I'm matched with a mage support and a powerfarming jungler.\n I see the same pattern over and over, fights deep in the enemy jungle that give a massive gold advantage, the team doing anything in their power to steal waves and deny me the 225 stacks before the 3rd dragon fight. Is there anything that I can do besides maybe queueing up with a duo jungler? Duo with a sup would be out of the question as that would put me against duo mid/JG on the enemy team.\n I've heard the advice before that I should be following even bad calls and fight with the team but this feels like a complete coin flip that can put me behind for the entire game.\n I tend to play pretty safe, especially in bad matchups. And I get 225 at around 21/23 minutes I'm average matches and 25 in losing matchups.\n Any tips are greatly appreciated.",
+   "id": "1uzso8s",
+   "comments": [],
+   "age_days": 83,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "When do you build BC?",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1u0xm52/when_do_you_build_bc/",
+   "published": "2026-06-09",
+   "author": "/u/_Tempo",
+   "body": "Right now I always build ER and either Shojin or RFC second depending on how tanky the enemy team are, and IE or Last Whisper after RFC. But I see everyone mostly still build the bruiser build with BC same as before the DFT changes. So I’m wondering why? Isn’t building Last Whisper has more value now that the passive scales with crit? Do you build full bruiser with BC in certain matchups?",
+   "id": "1u0xm52",
+   "comments": [],
+   "age_days": 122,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Challenger again after the reset!",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1tk47sr/challenger_again_after_the_reset/",
+   "published": "2026-05-22",
+   "author": "/u/bluwunkVT",
+   "body": "idk why but I still get smolder a lot in my games even though hes supposed to be banned a lot\n I play a mix of bruiser builds and hubris crit and I alsp in solo lanes when I get filled if the matchup is ok\n AMA!",
+   "id": "1tk47sr",
+   "comments": [],
+   "age_days": 140,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to Deal with Poke?",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1t3bt5x/how_to_deal_with_poke/",
+   "published": "2026-05-04",
+   "author": "/u/DrFizics",
+   "body": "Guys, I think I just played the worst game of my life. I went 3/12/5.\n For context, I’m a bronze/silver player who recently picked up Smolder (around 20 - 30 games), and I’ve been having a great time. Usually, no matter how lane goes, I feel like once I hit ~25 minutes I can carry teamfights.\n But this game was completely different.\n I was playing Smolder with a Nami support into Xerath + Varus, and the lane felt straight-up unplayable. I’m decent at dodging skillshots, but there were just so many that I could never safely walk up to farm. I was getting zoned insanely hard (like 2 CS/min for a solid 5 - 10 minutes). Every time I stepped up, I’d lose half my HP.\n I even rushed boots to help with dodging, but it barely made a difference. On top of that, our jungler was pathing top while we were permanently shoved under tower the entire laning phase.\n I didn’t hit my 125 stack spike until around 22 minutes, and we ended up FFing shortly after.\n So what I’m trying to understand is: how are you actually supposed to play this lane?\n I get that dodging skillshots is important, but even if I dodge most of them, I still can’t walk up to farm without getting chunked. Is there something fundamentally I should be doing differently in this matchup?\n Also, is this just a skill diff on my part? I was under the impression that Smolder does well into Varus, but this lane felt completely one-sided. It honestly felt like we had to play perfectly just to survive, while they could farm safely and poke for free.",
+   "id": "1t3bt5x",
+   "comments": [],
+   "age_days": 158,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Easiest fuck up champ that riot made",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1szxzvi/easiest_fuck_up_champ_that_riot_made/",
+   "published": "2026-04-30",
+   "author": "/u/THEGREATESTDERP",
+   "body": "How is this champ not even considered broken?\n Top 4 counters aren't even ADC's. I'm so over with Riot's obliviousness.\n What's your opinion as a Smolder main?\n https://preview.redd.it/y5mkmwp4acyg1.png?width=378&format=png&auto=webp&s=dc29e83ab6b37dbdc4816e805487a1c32a43d10e",
+   "id": "1szxzvi",
+   "comments": [],
+   "age_days": 162,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Are there some matchups that are just unplayable? How do you lane against damage supports?",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1sayptv/are_there_some_matchups_that_are_just_unplayable/",
+   "published": "2026-04-03",
+   "author": "/u/bamjacklert",
+   "body": "I've noticed that I do very well into tanks, which isn't a huge surprise, but lose lane almost immediately to poke. Things like Brand, Seraphine, and Senna just make doing anything so difficult on Smolder. Am I correct that these are pretty unwinnable, and the best that I can do against heavy poke is to just stay back and try to pick up as much farm as I can?",
+   "id": "1sayptv",
+   "comments": [],
+   "age_days": 189,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Always losing.. kinda",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1rzbu9r/always_losing_kinda/",
+   "published": "2026-03-20",
+   "author": "/u/DerDorianK",
+   "body": "So.. yeah this feels kinda stupidly to ask, but I know how smolder is weak early. But, I’m E3-E2 up and down for the last week. It seems like.. that I lose all the time , until I have my 225 stacks. From there the game is free. Every CS is contested in lane so permanent, that I trade 200 hp for 4 stacks. Unless I have a engage support, than farming is free. I don’t want to blame anyone. Maybe I’m just really bad at trading. The question in general. Is it normal you lose every matchup til level 6-9 or ER Spike and every first Canon wave crashes in to your tower no matter what ?",
+   "id": "1rzbu9r",
+   "comments": [],
+   "age_days": 203,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Following bad plays",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1rxu71b/following_bad_plays/",
+   "published": "2026-03-19",
+   "author": "/u/Missbunocu08",
+   "body": "Hey fellow smolder enjoyers. I've got an interesting topic today that is haunting me during my climb.\n I'm currently struggling with emerald 2 and I've noticed that most games are lost or made significaly harder from some of the worst plays imaginable. I know the game is mostly about punishing enemy mistakes but what do you do when when someone in your team is making an objectively bad play while expecting you to follow his decision? Ignoring it mostly leads to tilt, pinging accomplishes the same thing and following the play can sometimes throw the entire game.\n Some very common examples:\n Invades early, my jungler is a lvl 6 dependent champ and is invading enemy bot side with no vision, expecting me as a smolder to follow. Do you in any reality follow that play? Usually it leads to the mid and bot collapsing and ruining the early game.\n\n Bad engages by support. Karma engaging into tahm and tristana out of boredom. We were even in CS and stacking was going well but the support suddenly decides that it's time for the enemy ADC to get a nice lead. This is very common, especially vs very bad matchups. Ignoring the support will cause him to never touch bot lane again.\n\n Drake fights, there a multiple scenarios here.\n\n A very common occurrence, my jungler is lvl 5 and decides to contest the lvl 6 enemy jungler at drake. \n There is also another scenario where the enemy shoves the wave and has a stronger early game champ like jinx that can easily zone you. Do you take the fight?\n Our team is behind and still wants to contest an ocean drake/soul with bad vision. This has lead to so many defeats, that ocean drake is a curse.\n The cursed 20 min drake fight when smolder is usually at 200 stacks, very close to the power spike but the team is bloodthirsty and doesn't want to delay the fight by a minute \n Ganks at the worst possible moment. With smolder I'm used to be the weak side and I don't really mind but there are occasions when the jungler forces a gank in the worst possible moment. Couple scenarios:\n Enemy has a monster tank like tahm or nautilus and my jungler wants to dive causing usually a 2 for 1 trade.\n Wave is crashed into my tower and I would be losing multiple waves of gold + stacks to a potential flash burn. \n I'm recalling due to low HP and that's the exact moment my jungler decides to force a fight. \n With reasonable teammates, most of those issues could be easily solved with communication but this doesn't apply to soloqueue.\n Any advice is greatly appreciated.",
+   "id": "1rxu71b",
+   "comments": [],
+   "age_days": 204,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Sheen or Caulfield’s First?",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1ryb14y/sheen_or_caulfields_first/",
+   "published": "2026-03-19",
+   "author": "/u/Qatarik",
+   "body": "ER is definitely the goal. But should you go sheen or caulfield’s first? I’ve been always doing caulfields into t1 boots into sheen. But idk if that’s right. \n Is it the case where if you back with 900g you get sheen? Or is it matchup dependent? Any help appreciated.",
+   "id": "1ryb14y",
+   "comments": [],
+   "age_days": 204,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Tips an tricks",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1rlc1sg/tips_an_tricks/",
+   "published": "2026-03-05",
+   "author": "/u/Equal-Accountant-867",
+   "body": "Whats your tips and tricks to not fall\n behind with the stacking? In the harder matchups i usually find myself with 200 stacks at 25-26 mins and maybe in some games that i win the early i still find myself lower in stacks than what i was wishing for.\n How many stacks/min should i aim for? How do you manage to get stacks and be consistent with it?\n One very big problem that i have its the fact that after a game i find myself Q cs for stacks and expecting more dmg . Its like i forget about the 0\n dmg smolder has in early",
+   "id": "1rlc1sg",
+   "comments": [],
+   "age_days": 218,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What are you typical in game times for 25 - 125 and 225 stacks?",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1rlwxxr/what_are_you_typical_in_game_times_for_25_125_and/",
+   "published": "2026-03-05",
+   "author": "/u/Noevum",
+   "body": "Hello everyone, I’ve been planning it quite a bit of Smolder, mastery level 10 on him I enjoy playing him a lot.\n Typically, for the people who are in bottling what times do you get your 25, 125, and 225 stacks. I’ve been averaging 25 stacks around the four minute mark with some games either being three or up to even five depending on lane matchup. \n For 125 I feel like I’m hovering around 15 minutes. I’m usually around 20 stacks below an equivalent to the time in game if that were to be a number.\n For 225 the fastest I’ve done is around 17 minutes and that’s when I went mid lane against a Galio mid, other than that, I usually aim around 2030 to 2230 sometimes even Amy up to 25 when I’m super tilted lol\n Curious, what your thoughts are by the way I’m emerald two player LOL",
+   "id": "1rlwxxr",
+   "comments": [],
+   "age_days": 218,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Smolder ADC in LCS",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1rimfn7/smolder_adc_in_lcs/",
+   "published": "2026-03-02",
+   "author": "/u/EtherealCatt",
+   "body": "https://preview.redd.it/sgn1khkr2lmg1.png?width=224&format=png&auto=webp&s=c78a1a9324a27fd2beb66e0b9a6056c8a61b1bfc\n Today C9 locked in Smolder vs Lyon, followed by instant counter of Kai'Sa. Unfortunately for C9, Zven was not able to pull a miracle. What are your opinions? \n I personally think they should've banned Kai'sa, as it's the only champion, ironically, I was never able to win on Smolder, and this game honestly showed how unplayable this matchup is. \n Also, it always feels like pro-play Smolders build on autopilot with FFW, ER and Shojin. I don't understand why there is no divergence from that build in any matchup.",
+   "id": "1rimfn7",
+   "comments": [],
+   "age_days": 221,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Laning Advice against double Poke Lanes",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1rhl90r/laning_advice_against_double_poke_lanes/",
+   "published": "2026-03-01",
+   "author": "/u/AjaniMain",
+   "body": "Been trying to rank up as Smolder, duoing with a mainly enchantress support player playing Milio, but got super disheartened after getting destroyed by a double poke lane. Specifically, Lux and Cait. Spent the entire game trying to cs undertower, which just resulted in them poking us down the entire time. I've always struggled into these matchups but it felt truly unplayable.\n Searching online doesn't really help since it's always 'Just dodge skillshots' which is much easier said then done",
+   "id": "1rhl90r",
+   "comments": [],
+   "age_days": 222,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "[RESTORED+UPD] Challenger OTP Smolder 1000+LPS — 73.3% in 86 Games New build👀 AMA",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1rc56z8/restoredupd_challenger_otp_smolder_1000lps_733_in/",
+   "published": "2026-02-23",
+   "author": "/u/Creative_Clothes8988",
+   "body": "Enjoy the new changes :) So a lot of people told me that my previous post got taken down and wanted me to restore it. It was mb, after I shared this community’s Ds link, the post imploded. So, I decided to temporarily bring it back until the original one comes back to life x).\n I also reorganized a few things because the guide was a bit messy in some parts.\n Keywords (Control+F -> word | if you are looking for something in particular) Runes\n First back\n Core\n About the spells\n AP Twitch Vs Edge of Night\n Situational items\n Slots options\n Standard Damage build\n Build Examples\n Boots option\n Bans\n Hope this helps for those skipping the full post to find specific details (like serching that new build x.x)\n Old Post\n https://www.reddit.com/r/SmolderMains/comments/1f2wdqe/comment/lk9rajo/?context=3\n Runes: Sorcery / Precision Bluwunk explain this runes in her guide\n First of all, I’d like to thank u/bluwunkVT (hi if you’re reading this). Her guide helped me a lot to build the setup I’m currently using, and I think every Smodler mains should read it to understand builds, matchups , tips , tricks, etc.\n https://www.mobafire.com/league-of-legends/build/bluwunk-challenger-smolder-guide-16-2-649203\n Runes: Sorcery / inspiration New runes :)\n Someone in the Discord (join if you’re not in already) asked me, “Why go Bloodline if at some point the build had Eternal Hunger and in some cases Mercurial Scimitar?”\n After thinking about it a bit, he actually makes a lot of sense. When I first made the build, I was thinking about Bluwunk’s rune setup, and in her case it makes sense because she builds Bloodthirster as her sixth item.\n So he suggested that the Inspiration tree would make a lot more sense with my build: Cashback (broken rune) plus one more option. You can go either:\n Triple Tonic\n or\n Cosmic Insight\n Personally, I think Cosmic Insight is really good because it reduces the cooldown of your summoner spells:\n Flash ≈ 250 seconds\n Exhaust ≈ 200 seconds\n And also your item cooldowns:\n Mercurial Scimitar: 90s → 82s\n Edge of Night: 40s → 36s\n But Triple Tonic has much higher early scaling potential because of the skill potion (I don’t use it though, since I always forget to use the Adaptive Force potion :C\n Top n°2 \n Top n°2 :3\n Here’s an ss from League of Graphs | lolalytics (Smolder – Global) along with a link to my OP.GG\n About a year ago I made a post about reaching Challenger with Smolder — 56% WR in 109 games (pretty low xd, but you have to consider that at the time Smolder had a 46.5% WR, so climbing was kinda crazy… plus I couldn’t even hover him because teammates would instantly ban him XDDD)\n 2025\n Let’s break down the build because it’s actually very versatile:\n Always Doran’s Blade + 1 potion.\n Dblade + potion\n First back:\n Ideally you want 1350g to buy Cull + Sheen, but if that’s not possible, here are the alternative backs:\n First back BUY\n 700g = long sword 2x\n 750g = boots + cull\n 900g = sheen (More scaling) or long sword 2x (Better early)\n 1050g = Caulfield's Warhammer\n 1250 = sheen +long sword\n 1350g = sheen + cull\n In scaling matchups (like Jinx) or against APCs, always try to buy Cull. This season the extra gold it gives is kinda broken, especially with the ADC quest.\n You can also go Refillable Potion in difficult matchups (Caitlyn lux, APC matchups, Lucian Nami).\n CORE\n After testing a lot of games and builds, I think these are the two core items you should run every game.\n Why not Hubris?\n Because Edge of Night gives you A LOT of self-peel against certain champions (Singed, Blitzcrank, Nautilus, Evelynn, AP and AD Twitch, and the list goes on). It also gives you a very strong spike with Essence Reaver + Dirk — you can melt almost every ADC with one spell rotation(aa,q,w,e, r) and practically win almost every trade.\n CORE 2\n 1st and 2nd slots are always Essence Reaver → Edge of Night.\n Eternal Hunger is an item that should be included in every build, whether this one or another, because of the huge value it provides. The build isn’t necessarily:\n Essence Reaver → Edge of Night → Eternal Hunger.\n I’ll explain it later in the build examples.\n If you don’t believe me, check Xpetu’s take on Eternal Hunger on Smolder.\n Xpetu take on Eternal Hunger on smolder\n About the spells when take Barrier exhaust or cleanse? Exhaust Vs Barrier Vs Cleanse\n So the build has three options: Exhaust, Barrier, or Cleanse. I’m not going to go into detail about Cleanse because it’s situational and only necessary against comps with 3+ heavy hard CC champions. Even then, you’ll eventually build Mercurial Scimitar anyway.\n For example, against Gnar, Volibear, Ashe, and Seraphine, you should take Cleanse + Mercurial Scimitar .\n Barrier: Barrier is useful when you’re playing against APCS (Hwei Karma) or heavy poke lanes (Ezreal, Karma). It has a low cooldown, so you’ll be able to activate Nimbus Cloak much more often than with Exhaust.\n Exhaust: If you’re using this build, you should take this spell 99.99999% of the time. There are two reasons for that.\n First, most ADCs currently run Barrier. By having Exhaust available, you can deny a lot of damage from burst-heavy champions—more than a Barrier would be able to protect against. For example, against Miss Fortune, Twitch, or Lucian. This gives you the opportunity to match them in a 1v1, which can translate into a kill in matchups where you normally wouldn’t expect to be able to kill them.\n Second, Nimbus Cloak has excellent synergy with this spell. You gain a 35% decaying movement speed boost while slowing the enemy by 40% for 3 seconds, which gives you strong chase potential. It also helps you secure early kills and hit your power spikes faster. In addition, it allows your jungler to have a much more reliable gank thanks to the slow — and on top of that, people playing against Smolder generally don’t take Cleanse.\n Nimbus CD Ms\n Here are some usage examples: Exhaust totally negates Akali's play\n Defensive Exhaust on Akali\n MS to chase Akali + dodge/negate E damage = kill and escape ✔\n Chase exhaust\n Smol\n About AP Twitch Vs Edge of Night: AP Twitch is a problematic champion and people say “there’s no way to beat him, right?\"\n Actually, yes there is — Edge of Night + Exhaust.\n AP Twitch’s main source of damage is his E. Usually he goes invisible with Q and then W E, like in the example clip.\n Twitch AP vs Edge of Night\n The damage may look high, but with ER + Edge of Night + Exhaust, you can burst him easily. If you can’t fight, disengaging is also very easy just use e and fly of your problems because he won’t have enough damage.\n It’s basically a lose-lose situation for Twitch:\n To remove your Edge of Night, he can’t stay invisible anymore.\n You don’t need to wait for him to reveal himself (which denies AP Twitch’s playstyle).\n Now he has to use W + E or auto + E instead — with or without stealth — just to remove Edge of Night.\n Other examples where Edge of Night is very useful: Vs Blitzcrank: If you space correctly, his only way to engage is Flash + R.\n Vs Pyke: He can no longer just Q you — he has to use E or R first, which makes him much more predictable.\n Vs Karthus: No more random R damage.\n Vs Malphite: With good spacing he can’t just Flash + R. His only option would be Protobelt, which is generally not a good item (not talking about Jungle Malphite with Smite).\n Etc.\n Situational items https://preview.redd.it/dm5cajtqb5lg1.png?width=367&format=png&auto=webp&s=ea02b4616cda2a0dd9796370d56134348627fe31\n There are 4 categories that I consider when creating my build.\n Damage Items: I build these items to help my team, whether it's by reducing armor, reducing shields, or applying slows\n LDR or Mortal Reminder: You can buy these in the 3rd or 4th slot, but it depends on how much you need armor penetration or anti-healing at that moment.\n Bastionbreaker or Infinity Edge: Always buy in the 6th slot. IE is only worth it with 100% crit. You can buy Bastionbreaker in the 3rd or 6th slot; in the 3rd slot, it spikes harder against teams with low armor, but in the 6th slot, it helps a lot with pushing or taking an objective after a teamfight (e.g., taking towers or Baron).\n Utility items: I build these items to help my team, whether it's by reducing armor, reducing shields, or applying slows\n Serpent's Fang: 5th or 6th slot. Niche item only useful when the enemy team has many shields, e.g., (Udyr top, Ivern jungle, Lulu support). Generally, I recommend going Mortal Reminder -> Serpent's Fang because shields usually go hand in hand with healing. (Do not build it if someone else on your team is building it).\n Black Cleaver: 3rd or 4th slot. When the team has a lot of AD damage and they are DPS champions who don’t usually build Black Cleaver (like Yone top or Qiyana jungle), you can build it yourself to boost your team’s overall damage, acting as a sort of supportive offensive item.\n Serylda's Grudge: Meme item, build it once in the 6th slot; it's decent against compositions with no mobility.\n (Don’t build it if your team is full AD but you’re the only consistent DPS (for example, Jayce top and Lee Sin jungle).\n Smodler is very good at stacking quickly:\n Q applies 1 Black Cleaver stack\n W applies stacks per target, so: With 2 targets → 2 Black Cleaver stacks\n With 3 targets → 2–3 Black Cleaver stacks\n With 4 targets → 2–4 Black Cleaver stacks\n \n (This mechanic is inconsistent because it depends on positioning and the weird 0.01s stack timing interaction.)\n E: 1 bolt gives you 1 stack, 5 bolts give you full Black Cleaver stacks\n R: 1 Black Cleaver Stack\n Arcane comet : 1 Black Cleaver Stack\n About Black Cleaver:\n DO NOT build it if someone on your team is already building it (you can always ask them). In that case, it’s better to go Lord Dominik’s Regards or Mortal Reminder instead.\n I also don’t recommend Black Cleaver below Master. In those elos, raw damage tends to be more valuable than utility.\n And let’s be honest — the moment your teammates see Black Cleaver, they’re going to start spam pinging it and won’t understand the reasoning anyway XD\n DEFENSIVE ITEMS (Only build if you really need to) Frozen Heart: 3rd Slot Cheap item + gives AH; useful against AA-dependent comps (Jax, Rengar, Azir, Kai'Sa).\n Mercurial Scimitar: 3rd ,4th or 5th Slots: Generally good when the enemy has heavy CC (Ryze, Rakan, Cho’Gath W silence + Q slow). You can build it 3rd or 4th by swapping with RFC (3rd Mercurial Scimitar and 4th RFC OR 3rd RFC and 4th Mercurial Scimitar). Additionally, the movement speed it provides is very useful: 50% bonus total movement speed and ghosting for 2 seconds.\n Randuin's Omen: 3rd slot niche item. Useful when the enemy team has crit-dependent enemies (Rengar top, Kindred jungle, Draven ADC, Twitch ADC).\n Dead Man's Plate: 3rd slot. Useful when the enemy team has slows, plus you need MS (Movement Speed) and the AD damage is non-critical (See BUILD 3 from build for an example).\n Kaenic Rookern: 3rd slot. Very useful against compositions with bursty AP-dependent champions (Aurora mid, LeBlanc mid, Mel mid, and some AP in the jungle like Diana, etc.).\n Maw of Malmortius: 3rd slot. The AD alternative to Mercurial Scimitar, though I prefer Mercurial Scimitar. This option maximizes your damage while maintaining a defensive aspect, although I think the shield is bait.\n Death's Dance: 3rd slot. It’s the same as Maw of Malmortius but the AD option (unlike Frozen Heart, Randuin's Omen, or Dead Man's Plate). It provides a lot of AD and AH, though the times I’ve used it, I feel the armor combined with the passive isn't very useful for surviving assassins (and sometimes there are both AD and AP assassins in the enemy comp).\n SELF PEEL ITEMS : Rapid Firecannon: 3rd, 4th, 5th, or 6th Slot. MS, Crit, and Range—everything Smolder needs; great synergy with Celerity.\n Stormrazor: Slot depends on when you buy RFC -> Stormrazor is an item for kiting compositions with high MS (+Celerity buff) or those that can close the gap very easily; it is not useful without RFC.\n Immortal Shieldbow: Personally, I’m a hater of this item because I feel that for 3000 gold it provides mediocre stats; you can build it as a 3rd, 4th, 5th, or 6th slot.\n Guardian Angel: 5th or 6th slot item. It’s a self-peel item to buy time or to prevent enemies from collecting your shutdown; however, remember that if you use GA, lose a teamfight, and they end the game while your passive is propped, it means the item failed its purpose.\n Zhonya's Hourglass: I'm not really sure which slot it fits into; it’s a niche item, only useful against Rengar R or Camille R (helping you avoid building other defensive items), but in general, rn it is useless.\n Slots options What you go 3rd, 4th, or 5th, 6th Slots is up to you but i explain a standard build for maximize damage or when to go defensive.\n Sometimes I like going tankier, or going bruiser and pick Black Cleaver if I have a lot of AD in my comp to help shred armor.\n But whether it’s 3rd, 4th, 5th, or even 6th item, you MUST go Eternal Hunger.\n It gives:\n +65 attack damage\n +5% omnivamp (100% effective agains champs)\n +20% tenacity\n Famine: Gain 5 (+ 10% bonus AD) ability haste.\n Unique – Feast: Scoring a takedown against an enemy champion within 3 seconds of damaging them grants you 15% omnivamp for 8 seconds.\n So no, you can’t skip it :c (sorry, Shojin lovers).\n Standard Build\n A lot of you asked about a standard build (raw damage more than survivability), which means a normal full offensive build, so here it is:\n 1st – Essence Reaver\n 2nd – Edge of Night\n 3rd – Varies:\n Lord Dominik’s Regards: Build if there are a lot of tanks and no healing.\n Mortal Reminder: Build if there are tanks and healing. (If you build any other item 3rd and you need this, then build it 4th, but first buy the 800g anti-heal component).\n Eternal Hunger: Best scaling option but not optimal because of low early AD.\n Rapid Firecannon (RFC): Build if the enemy comp has long range or a lot of movement speed (vs. Singed, Aatrox, Mundo, etc.). This is the best option.\n Mercurial Scimitar: Build vs. mage bot lanes or heavy/hard CC.\n 4th Slot\n Lord Dominik’s Regards\n Mortal Reminder\n Rapid Firecannon (RFC)\n Eternal Hunger\n 5th Slot\n Lord Dominik’s Regards\n Mortal Reminder\n Rapid Firecannon (RFC)\n Eternal Hunger\n 6th Slot\n Guardian Angel\n The Bloodthirster\n Tanky Items (Frozen Heart, Randuin's Omen, etc.)\n Zhonya's Hourglass / Mercurial Scimitar\n Or any items from Damage items or Utility items\n So a Standard Damage build should look like this: Against 1 hard CC (Ambessa R, Warwick R, Lux Q, Zoe E, Morgana Q)\n ER → EoN → Mercurial Scimitar → Dominik’s → Eternal Hunger → RFC\n Against poke lanes\n ER → EoN → RFC → Eternal Hunger → Dominik’s → Mercurial Scimitar or Bloodthirster or Bastionbreaker for max damage\n Against AD kiteable comps\n ER → EoN → Eternal Hunger → Stormrazor → RFC → Dominik\n (Always try to go Stormrazor → RFC)\n This is the most standard I can think of, because in reality I like going 1 tank item in addition to Mercurial Scimitar in one of the slots to deny the enemy ADC or APC, etc.\n Build Examples As I mentioned above, the 3rd, 4th, 5th, and 6th items are flexible slots — you can build whatever you need depending on the game.\n Example 1:\n When the team has a lot of AD damage and they are DPS champions who don’t usually build Black Cleaver (like Yone top or Qiyana jungle), you can build it yourself to boost your team’s overall damage, acting as a sort of supportive offensive item.\n (Don’t build it if your team is full AD but you’re the only consistent DPS (for example, Jayce top and Lee Sin jungle).\n Smolder is very good at stacking quickly:\n Q applies 1 stack\n W applies stacks per target, so: With 2 targets → 2 Black Cleaver stacks\n With 3 targets → 2–3 Black Cleaver stacks\n With 4 targets → 2–4 Black Cleaver stacks\n \n (This mechanic is inconsistent because it depends on positioning and the weird 0.01s stack timing interaction.)\n E: 5 bolts give you full Black Cleaver stacks\n R: 1 Black Cleaver Stacks\n Arcane comet : 1 Black Cleaver Stacks\n About Black Cleaver:\n DO NOT build it if someone on your team is already building it (you can always ask them). In that case, it’s better to go Lord Dominik’s Regards or Mortal Reminder instead.\n I also don’t recommend Black Cleaver below Master. In those elos, raw damage tends to be more valuable than utility.\n And let’s be honest — the moment your teammates see Black Cleaver, they’re going to start spam pinging it and won’t understand the reasoning anyway XD\n Build 1 ER → Edge of Night → RFC → Mercurial Scimitar → Black Cleaver → Eternal Hunger\n https://imgur.com/a/OJN32hL\n In this game I followed this build path for the following reasons:\n 3rd – RFC:\n Champions like Cho’Gath, Ryze, Talon, Yunara, and Rakan have strong gap closers, so in this situation you need around ~410 movement speed. This lets you poke safely with Q.\n 4th – Mercurial Scimitar:\n Generally good when the enemy has heavy CC (Ryze, Rakan, Cho’Gath W silence + Q slow). You can build it 3rd or 4th by swapping with RFC.\n 5th – Black Cleaver:\n Very cost-efficient with Yone as a DPS carry and Qiyana as an assassin vs Ryze, Rakan, Cho’Gath.\n 6th – Eternal Hunger (must):\n With Gathering Storm and full build you get ~35.8 ability haste from it.\n In total you reach around 75 ability haste with the full build.\n Boots: Steelcaps\n Why? To resist Yunara and Talon burst.\n Build 2 ER → Edge of Night → Frozen Heart → Eternal Hunger → Mercurial Scimitar → RFC\n https://imgur.com/a/u2CsVgx\n In this game I followed this build path for the following reasons:\n 3rd – Frozen Heart (was testing the item):\n It’s a niche item that works against auto-attack-dependent comps.\n It gives armor and ability haste, but most importantly attack speed reduction.\n Since they had a “screamer comp” (Rengar, Azir, Jax, Kai’Sa), it helps not only to avoid getting one-shot by Rengar but also helps teammates if these champions dive into the area.\n 4th – Eternal Hunger:\n I built it 4th because I was fed at the time, but RFC could have also worked here.\n 5th – Mercurial Scimitar:\n Useful for:\n MR vs Azir\n Jax E + Flash stun\n Kai’Sa The movement speed is also very useful to escape (50% bonus total movement speed + Celerity for 2 seconds, kind of like a mini Ghost).\n 6th – RFC:\n I had 2600 gold at that point, but it’s still very useful to maintain range against these types of champions.\n Why Steelcaps?\n To resist Rengar burst and Kai’Sa’s Kraken damage early.\n Result: Rengar didn’t use R on me a single time XD\n BUILD 3 ER → Edge of Night → Dead Man’s Plate → Eternal Hunger → Black Cleaver → RFC\n In this game, I followed this build path for the following reasons:\n 3rd – Dead Man’s Plate\n It might look strange to go this item third, right? But their team was full of gap-closers (except Senna, although she has a lot of movement speed).\n Dead Man’s Plate reduces the effects of slows by 15% (see: https://imgur.com/a/prda5Kd), and 4 of them had a slow (top, jungle, mid, support).\n On top of that, since their jungler and top were fed, I needed an item that gave me armor, health, and — most importantly — movement speed.\n Other armor options:\n Frozen Heart – Not useful against Akali.\n Randuin’s Omen – The slow is nice, but it’s useless if they don’t have a lot of crit (Aatrox doesn’t count because he shouldn’t even be able to touch you — if he does, it’s 100% a misplay).\n Those were basically the only AD defensive options I could consider.\n 4th – Eternal Hunger – Standard core 4th item. It enables healing, especially since I used Inspiration as my secondary tree (Cash Back / Cosmic Insight).\n 5th – Black Cleaver – It might seem contradictory since they only have one AD (Talon), but I actually needed it for the health and the additional movement speed. The armor reduction is completely secondary.\n 6th – RFC – Great last item for this game. It gives movement speed and a lot of spacing. I didn’t want to get close to their comp — the farther away I am, the harder it is for them to engage on me.\n Boots: Steelcaps\n Why?\n Double AD bot lane. Kai’Sa doesn’t build AP items until her second item, if she even goes AP. They also have Aatrox top and Kha’Zix jungle.\n BUILD 4 (WIP :P) I will add more builds over time in this section and explain the reasoning behind them, but in general you should experiment for yourselves. What works for me in the 3rd, 4th, 5th, and 6th slots might not be what works best for you.\n Almost any item can be viable on Smolder as long as you adapt it to the specific game you’re playing.\n At least from the 3rd item onward, the choice is yours.\n Boots option Bluwunk explains in her guide better than I do why each pair of boots is good, but my logic is the following:\n Swiftness Boots:\n The best option in most cases. The 55 movement speed lets you resist slows, and most importantly, it enables you to kite and chase. With around 419 MS, you can outrun and pressure most ADCs.\n Plated Steelcaps (Tabis):\n Good against AD-heavy comps or double ADC lanes (Senna, Miss Fortune, Draven, Pyke). Very useful in those situations.\n Mercury’s Treads:\n Niche boots — mainly against APCs and when the enemy team has a lot of CC.\n Ionian Boots of Lucidity:\n Omega TRASH XD\n Finally, here are some examples of the build in action:\n Examples of the build + variations\n Variatons 2\n Bans Personally, bans depend on each player, because sometimes the “counter” is more mental than it actually is in reality. That being said, bans are also elo-dependent, so these would be my bans in each elo:\n Permaban (master+)\n Aphelios is my permaban. At least in my opinion, his kit is busted, and right now I think he’s the best champion to climb with. He’s a lane bully against low-range champions from level 1 with Calibrum, and after the laning phase it doesn’t get much better — with three items he completely destroys you from range with almost any weapon combination. His scaling throughout most of the game is superior to yours (although after the nerf, I’m not sure about his exact current state).\n https://preview.redd.it/ovk98v3e0jkg1.png?width=542&format=png&auto=webp&s=172c3a662c84380d5ff1fe7762032c6c2eff8612\n (Iron - Challenger)\n Caitlyn is a ban worth in all elos. She’s a popular champion who can deny you a large part of the game, especially in the early game where you should be getting as many stacks as possible. On top of that, she has scaling similar to yours.\n Even though most Caitlyns don’t know how to properly apply pressure, even when they’re paired with a poke support xd.\n https://preview.redd.it/ojyj2j5yzikg1.png?width=425&format=png&auto=webp&s=a348e47dc7e957f0265ee2144c3cc77af7e39a35\n (master- )\n Lucian is a hard champion to lane against, especially when he’s paired with Nami. His all-ins are very strong, and if he snowballs, it’s basically game over.\n Lucian\n (Emerald - )\n Twitch is a problematic champion, and even with this build, if you don’t know what you’re doing, you’re going to have a very hard game — at least if he’s going AD. If he’s playing AP, you shouldn’t have too many issues.\n The biggest problem with Twitch is that his early game is actually very strong against yours. From level 1 he can apply pressure with his Q, and if you’re not paying attention, it’s very easy for him to snowball the entire game. He can also roam mid and pressure you by making you think he’s still bot. This matchup feels really miserable, although…\n I would actually recommend playing it, because there comes a point where you can match him, and it turns into a skill matchup.\n Da rat\n My ban order is: Aphelios – Caitlyn – Whatever someone picked in the last game (Master+). It’s unlikely that below this rank you’ll run into the same person twice\n Thanks for using the build :)\n I hope you enjoy this new variation of the Hubris build from bluwunk. a lot of you la han probado desde que hice el post (de hecho en el parche 16.3 habia publicado la build pero el post original murio RIP)\n Personally, I think Hubris is a good item, but it’s too much risk for a reward you won’t have 100% of the time during the game. \n With the new Hubris buffs, maybe Edge of Night could be built third, or you could delay EoN—but who knows 👀\n With this variant you get more peel, more HP, and the spell shield — which is extremely annoying to deal with and very useful for baiting abilities.\n AMA :3 about the builds — there are so many possibilities every game.\n 1000+ lps stonks 🤑",
+   "id": "1rc56z8",
+   "comments": [],
+   "age_days": 228,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to play against bad early game matchups?",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1qyoum6/how_to_play_against_bad_early_game_matchups/",
+   "published": "2026-02-07",
+   "author": "/u/Designer_Essay_83",
+   "body": "I’ve been having a lot of games where I literally can’t play early. I try to get a bunch of short trades with my Q and w but in the end after a few deaths from my support they’re just to strong to look at. After that I can’t even stack because I’m too contested. I don’t know if it’s my fault these leads are happening but it has to be after like 4/6 games of this. Does anyone know how to minimize those early losses? For example, I just had a smolder (me) and senna vs a pantheon misfortune and it fet unplayable. It doesn’t help that you get flamed for being behind early because of how toxic this game is. Does anyone have any tips?",
+   "id": "1qyoum6",
+   "comments": [],
+   "age_days": 244,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What is some need to know information about playing smolder?",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1qjkv3l/what_is_some_need_to_know_information_about/",
+   "published": "2026-01-22",
+   "author": "/u/PPPimPim",
+   "body": "So I’ve recently picked up smolder and have been playing him a lot, I’ve been finding a lot of success so far and I’m now looking to take this champ to the next level. I’m currently sitting at emerald 2 with about 80% Winrate and around 30 games on smolder this season.\n What are some good combos I should be practicing? I know about the ult from behind and am getting used to doing it some of the times but I’m wondering if there are more things like that? What are some good fundamentals to have on smolder regarding stacking? Should I prio last hitting minions with q or going for the poke with q instead early game? Is it worth using ult for stacks or should I save it for fights? \n What are the biggest powerspikes when playing smolder apart from the obvious 225 stacks? My build is almost always ER -> spear of shojin-> rapidfire -IE or Mortal reminder. Is this build path optimal or is it better to go for an earlier IE? What item spikes are very significant for smolder? What items should I be looking to build when I’m mega fed? Which boots other than lucidity boots are worth buying in games? \n I’ve been playing a lot with arcane comet and feel like I consistently get better value from it but what matchups is the fleet runepage strictly better? I’ve also seen people run PTA but not really considering it for my games. \n What are the hard counters for smolder that I should know about? I don’t feel like any of the adcs really outscale smolder except maybe a jinx with a couple passive stacks but I may be very wrong here. \n I appreciate any responses and wish you all the best of luck in your games :)",
+   "id": "1qjkv3l",
+   "comments": [],
+   "age_days": 260,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Decided to main smolder, few questions if you dont mind answering",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1qh4n93/decided_to_main_smolder_few_questions_if_you_dont/",
+   "published": "2026-01-19",
+   "author": "/u/Redditcummer23",
+   "body": "Generally what is the most ideal support for a duo to play if were playing safe and for drake, and are there any items you need to carry fights apart from essence reaver/rfc/executioners? I like shojin but feel like its something you buy if youre ahead or if the game goes long, i usually run cashback but i feel like footwear might be more value because smolder wants speed, also are there any matchups where you would go first strike because you know you can lane bully turbo hard? im talking specifically useless adc + support combinations or just trends. \n also, i feel like you should back less as smolder than most adc, after you get essence reaver you can keep farming forever until you have the next item just to get to 225 stacks fast.\n I play twitch and usually buy dark seal if i feel i wont die since it gives great value if u can get even a few stacks, does smolder benefit from AP enough that you would pick it up? or is attack speed/armor/ad better utility stats to just buy something with spare gold, the W damage i feel like is slightly underrated for early hybrid damage.\n Is there a must ban? lately i ban kaisa if im solo and khazix if i have pre, i just dont like playing against it but i have no clue if its a good mu\n How good is absorb life? it feels good but missing triumph hurts sometimes, i never go POM i know some people run it but it falls off entirely after 1 item, is the stacks you get from being able to constantly poke in lane worth it?\n I think smolder is a very non item reliant ADC, safe to say he can afford to give up damage to buy antiheal correct? of course in an ideal world my sup and whatever lane is losing should buy it, but after RFD and ER you have solid damage to hold you to 225 stacks where you just kill anything in range\n I have about 50 games on smolder and i am just gold EUW on twitch/samira/chogath but i actually prefer to play safe so im hoping i can get to plat emerald this season, plus smolder feels super smooth to play.\n Thanks in advance!",
+   "id": "1qh4n93",
+   "comments": [],
+   "age_days": 263,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Get your Ranked games in now before he gets nerfed",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1q7xa8c/get_your_ranked_games_in_now_before_he_gets_nerfed/",
+   "published": "2026-01-09",
+   "author": "/u/maxxxM2",
+   "body": "Smolder is finally gonna be viable again and they are gonna kill him I can already tell",
+   "id": "1q7xa8c",
+   "comments": [],
+   "age_days": 273,
+   "recency_weight": 1.0,
+   "topics": [],
+   "stale_items": false
+  },
+  {
+   "title": "Surviving early game on soloq",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1p20z5i/surviving_early_game_on_soloq/",
+   "published": "2025-11-20",
+   "author": "/u/Affectionate_Fly5178",
+   "body": "I recently discovered smolder and love playing him, but I have issue with early game.\n My support often also picks scaling, or bad matchup champion, and they just start fighting enemy no matter what. Unfortunatelly Smolder has such bad early trades( or maybe I am bad lol), that I either follow him and we die together or let him die a couple od times and keep farming. Unfortunatelly even then I am left 1 vs 2 and enemy adc gets fed and later when I hit my powerspikes its too little to late.\n I am only gold 4 so it might be skill issue, but what can I do, should I tell my support at the start of the game: we dont win 2 vs 2 early, just start back and lets farm?",
+   "id": "1p20z5i",
+   "comments": [],
+   "age_days": 323,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What champs are free matchup for smolder mid?",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1ov33c5/what_champs_are_free_matchup_for_smolder_mid/",
+   "published": "2025-11-12",
+   "author": "/u/thickbear1",
+   "body": "I usually pick smolder if i see a malzahar since it's pretty much a free lane but what other champion does smolder do really well against in the midlane?",
+   "id": "1ov33c5",
+   "comments": [],
+   "age_days": 331,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Midlane matchups",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1otvncb/midlane_matchups/",
+   "published": "2025-11-11",
+   "author": "/u/StarZ_YT",
+   "body": "Ive been enjoying midlane smolder quite a lot recently but still mostly play mages bc i know my matchups pretty well, what are good and bad matchups on smolder? I never really blind him unless i have an apc and or top/jgl ap (smolder is kinda my only ad champ midlane tbh) I like going into yone, malz and do decently against akali but other than that I got no clue what to avoid or pick into.",
+   "id": "1otvncb",
+   "comments": [],
+   "age_days": 332,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Ban phase for diamond",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1op4cae/ban_phase_for_diamond/",
+   "published": "2025-11-05",
+   "author": "/u/PlantPoop",
+   "body": "Started playing ADC smolder a month ago? Got to diamond by just playing safe, scaling then winning fights with 225 and 3 items.\n Just want to know who you guys ban as smolder mains? I’ve been banning Kai’sa cause it feels she just goes on top of me late game and 1 shots me before I can even poke her team with rfc Q’s. Laning against her is fine but I’ve found hard lane matchups to be hook supports as well as mf, lucian and weirdly aphelios?\n Any advice for my elo?\n Also what timer should I be hitting 225? Sometimes it feels like I’m just off getting my burn for a crucial fight so I’m not so sure if I’m stacking well.",
+   "id": "1op4cae",
+   "comments": [],
+   "age_days": 338,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Returning player liking smolder, general climbing tips?",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1o60sgo/returning_player_liking_smolder_general_climbing/",
+   "published": "2025-10-14",
+   "author": "/u/Moroax",
+   "body": "Hello, \n Was placed in iron coming back after many years (lul, we used to call silver iron as a joke) I haven’t played much since maybe 6 months after Jhin’s release I think. \n have climbed to mid silver, some solo and some with a Shen top 1 trick duo. I’m hoping to get to at least gold, if not plat this season. I play bot and mid alternating based on mood. \n I really am liking smolder after playing him a few times in norms and bringing him to ranked. However, late game i find it hard even with 400+ stacks full build to carry bc of his lower range, and characters like jax, yasuo, shaco etc just being able to get on me so easily even when playing safe. People don't position well in silver, take dumb fights when they think they're ahead at 30+ mins and it feels like no matter where i position, 1 suicide bruiser or assassin is diving me from an angle I can’t deal with. \n Any tips on this? Is there better itemization I can be doing? Or is this just the inherent weakness of solo Q adc? \n Here’s some match history examples. Both losses I was fed and playing well and couldn’t close it out despite it being close. I just wish I knew how to close those games out more consistently. Even on the games we won, I died too much in later fights making the win a bit more of a struggle than I sensed it could have been based off my strength. I’m stacking and farming well I think, but teamfights are hard later.\n As for build So far ive been using:\n fleet footwork -> reaver -> shojin -> IE against most matchups.\n I was told against vayne lane to try:\n arcane comet rune -> reaver -> triforce and i did and it felt ok too. Am I doing anything obviously wrong? Any late game items I should be trying it doesn’t look like I have even on the wins? Any helpful tips at all appreciated",
+   "id": "1o60sgo",
+   "comments": [],
+   "age_days": 360,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Hi I'm looking for a Smolder main to duo with around Plat elo NA",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1nzsvec/hi_im_looking_for_a_smolder_main_to_duo_with/",
+   "published": "2025-10-06",
+   "author": "/u/Ok-Payment-2773",
+   "body": "Hello! I am looking for a Smolder player to climb with around platinum/low emerald elo NA. I am a support player with a diverse champion to play. I really want to duo with a late game hypercarry champ since my usual teammates are allergic to playing any of them, and Smolder is just my playstyle of supporting a play safe and scale ADC. Like I mentioned, I can play pretty much any support except Thresh, and Blitzcrank, and know my type matchups and the best synergy for Smolder (imo its Braum, Milio, and Nami). If you are interested in duoing with a support that knows how to play around for you, then DM me!",
+   "id": "1nzsvec",
+   "comments": [],
+   "age_days": 368,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How is Smolder in solo lanes now?",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1nxcbjy/how_is_smolder_in_solo_lanes_now/",
+   "published": "2025-10-03",
+   "author": "/u/Beautiful_Divide1720",
+   "body": "I'm giving up on bot. Not because of finding matchups hard or getting skill diffed but having bad supports just dictate my entire game makes me want to slam my head on the wall. I was a solo lane grasp Smolder player before but never played him again there after the changes.",
+   "id": "1nxcbjy",
+   "comments": [],
+   "age_days": 371,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is there no counterplay against Twitch?",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1nvcqoa/is_there_no_counterplay_against_twitch/",
+   "published": "2025-10-01",
+   "author": "/u/Northless_Path",
+   "body": "I have over 300 games of Smolder and I can safely say, I know how to play through some of the most annoying matchups against Smolder like Jinx, Draven, and Lucian. But there is one ADC that I have never been able to overcome and when I do win the game, it's because I had a fed top or mid to kill it for me and that's Twitch. This rat truly feels like the ultimate Smolder counter. He outranges, outdamages, and outscales Smolder all game. It feels legitimately unplayable when Twitch can go invis, posture anywhere he wants, press R, and oneshot me before I realize where he even is and can press anything to defend myself. Going defensive doesn't help either. I buy steelcaps and sheildbow, and he melts right through all of that. Should I just keep him as my permaban or is there any crucial tips you can give me for this matchup?",
+   "id": "1nvcqoa",
+   "comments": [],
+   "age_days": 373,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Smolder build past 2 items depending on matchup",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1nu9lok/smolder_build_past_2_items_depending_on_matchup/",
+   "published": "2025-09-30",
+   "author": "/u/jounicorn",
+   "body": "Hi guys, im 600k Jhin who transitioned to playing Smolder and I'm loving it.\n I think there is potential for a variety of builds for Smolder, but despite that I usually go for the the same build over and over and I would like to discuss the 3rd-5th item for smolder.\n To begin with I always rush Essence Reaver, Spear of Shojin and I go CDR boots.\n My most recent game I was very ahead and was playing vs:\n GP top\n Zac jgl\n (Fed) Katarina mid\n Jinx bot\n Blitzcrank\n So I was getting obliterated by Katarina so I thought that I would build Hexdrinker, would it be good idea and do I upgrade to Maw because it also has CDR?\n Since the enemy team only had 1 AP carry I thought Hexdrinkes is not worth it, so I didn't go for it.\n Also because I was ahead I could either go super aggresive buying IE 3rd? But recently I read in an interview, that while ahead you should buy defensive and while behind you should go offensive.\n I also thought of buying Edge of Night for blitz hook, but I guess Lethality is meh for Smolder?\n How big is the RFC? Could I go defensive 3rd item and RFC 4th or could I completely avoid RFC depending on matchups? Most of enemy team was melee anyway in this match.\n Lastly, do you ever buy triforce? I love this item but did never try it on Smolder but I think it could be good for the kit?\n I'm just a noob stuck in gold EUW and would like general ideas for build paths for Smolder\n Cheers",
+   "id": "1nu9lok",
+   "comments": [],
+   "age_days": 374,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What to start mid?",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1nneai9/what_to_start_mid/",
+   "published": "2025-09-22",
+   "author": "/u/StarZ_YT",
+   "body": "Hi there smolder mains, im a midlaner who has recently been playing smolder and absolutely enjoys playing him but im a bit lost with the starting item, dblade feels nice for sure but i dont feel like there is that much value from it since most matchups mid will be untradable early so would dshield possibly work better or maybe ring for more mana sustain?",
+   "id": "1nneai9",
+   "comments": [],
+   "age_days": 382,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "fleet and comet are the only good runes?",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1momqyg/fleet_and_comet_are_the_only_good_runes/",
+   "published": "2025-08-12",
+   "author": "/u/el_sopa_",
+   "body": "i use only that 2 runes, but i feel maybe in some matchups PTA could be good, or maybe grasp in top or mid? i dont know",
+   "id": "1momqyg",
+   "comments": [],
+   "age_days": 423,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Smolder mid",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1lmuel3/smolder_mid/",
+   "published": "2025-06-28",
+   "author": "/u/IIGhostSniperII",
+   "body": "Hi guys i'm a main midlaner but i really like smolder's design. Is he really bad like u.gg says? Or he is a good pick at least as a counterpick in certain matchups? Thank you so much",
+   "id": "1lmuel3",
+   "comments": [],
+   "age_days": 468,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "SMOLDERS DESIGN IS FLAWED BUT NOT A FAILED DESIGN (0.4% MAIN RATE) Is appalling",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1jicm16/smolders_design_is_flawed_but_not_a_failed_design/",
+   "published": "2025-03-23",
+   "author": "/u/HailMisery",
+   "body": "Riot please listen to me, as someone who has tried picking up Smolder and maining smolder time and time again this champion has do much potential to be Incredibly rewarding to play but In this current state Smolder Is not rewarding to play and this Is just incredibly underwhelming why? \n • 1. I feel like Riot doesn't like scaling champions because they are a \"Problem\" Late game this champions whole gimmick is to scale I don't understand why he gets diminishing returns from his passive the later into the game you are with more stacks, I don't know maybe I am wrong maybe Riot does like scaling champion they just don't know how to approach it which Is understandable. \n • 2. Smolders passive Is the most flawed part of his Kit In my opinion there's plenty of ways that his passive could be given a mini-rework / mid-scope I feel like Smolders passive doesn't even need to be split 3 ways AD/AP/TR Getting rid of smolders true damage from his passive would be a big upgrade and just giving him more flat scaling AP damage kind of like Aurelion Sols passive on his Q were It does %HP AP damage. \n This Isn't inherently copying Aurelion Sols kit this would just be a huge upgrade, Smolder Q execute Is just Aurelion Sols E execute but on a different ability am I wrong?\n Smolder Q should have Its AP scaling from his passive scale with stacks, and the AP should burn exactly like his true damage does, this would reward people building unique Items like Liandries and aren't stuck building crit, Smolder was Inherently designed to be a hybrid champion so please Riot let him be a hybrid scaling champion with his (STACKS) The core fundamental of hit kit\n This Is just my opinion tho I'd love to hear other peoples opinion on how his passive could be changed for the better and not be completely useless later on into the game. \n • 3. Riot his other abilities and how he was built as a champion ARE COMPLETELY FINE THATS WHAT MAKES SMOLDER SMOLDER his design Is unique and something special that shouldn't be changed Smolders design Isn't a failed design he Is flawed after all of the hard nerfs and changes and mid-scopes. he has taken a massive hit \n • 4. Itemization doesn't matter this Is self explanatory first Item win-rate Is completely irrelevant look at deaths dance win-rate and games played now look at Hubris win-rate and games played there are thousands of factors such as enemy teams 15ing ext, yes I know crit Is in for this iteration of Smolder I am genuinely curios who likes playing this Iteration of Smolder, I feel like the Liandries build / AP hybrid build was exponentially more enjoyable then whatever state this champion Is in now (THAT DOESN'T SCALE WITH STACKS)\n • 5. Most Importantly smolders main rate, a (champion having 0.4% main rate Is absolutely atrocious) It just goes to show how much this champion sucks, this champion not ONLY has a low main rate he has a low win-rate, nobody wants to main an underwhelming low winrate Irrelevant champion that doesn't feel rewarding to play, Riot I know for a fact you can figure out something with his passive I don't care what It Is. \n Smolders \"Infinitely scaling passive\" Is a joke Riot please I know for a fact people want to main this champion they just cant at the moment It Isn't Riots fault I know they've tried and failed but smolder SHOULD BE VIABLE.",
+   "id": "1jicm16",
+   "comments": [],
+   "age_days": 565,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Smolder Is looking really broken this patch Riot might have to nerf him again",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1jh24vx/smolder_is_looking_really_broken_this_patch_riot/",
+   "published": "2025-03-22",
+   "author": "/u/HailMisery",
+   "body": "I think his winrate went up about 0.3%? Thank you Riot all of this champions underlying Issues stayed the exact same, please just rework his passive to and make his stacks more valuable :D",
+   "id": "1jh24vx",
+   "comments": [],
+   "age_days": 566,
+   "recency_weight": 0.7,
+   "topics": [],
+   "stale_items": false
+  },
+  {
+   "title": "I failed lane against Yone. Help.",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1j40c2y/i_failed_lane_against_yone_help/",
+   "published": "2025-03-05",
+   "author": "/u/11101010_dott",
+   "body": "I'm not really a Smolder main, exactly. More like a want-to-be. I play mid and mostly mages, and I'm not good at the game at all, being stuck around Gold and not really putting in the effort or time to improve enough to climb.\n I started playing smolder because he's a cute dragon, and I like scaling champions, and I needed an AD mid in my pool. I saw Smolder is a good pick into Yone, which also seems great to me, because I really cannot lane against either of the wind brothers without going insane.\n So today Yone was picked, and I switched from my usual mage pick to Smolder mid, and tried to just take it easy and stack up. But I died to a flash Q3→R under turret at lvl 7, and it just went downhill from there. I think I wound up 0/4/0 and under 200 stacks at 20 mins.\n I tried Grasp/Precision, and didn't build crit. Just buying a tear then triforce then muramana. I basically just want to ask for any advice on how to play this \"Good Matchup\" and avoid feeding/dying so my team doesn't have to deal with a fed full crit Yone one-shotting everyone, and I can have stacks and money to help out eventually.",
+   "id": "1j40c2y",
+   "comments": [],
+   "age_days": 583,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Rank #37 Smolder Main Globally - AMA!",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1ivx4gx/rank_37_smolder_main_globally_ama/",
+   "published": "2025-02-23",
+   "author": "/u/JuandisimoDeluxe",
+   "body": "Hey r/smoldermains!\n I've climbed my way to rank #37 this season playing Smolder and wanted to share my experience with the community and learn a few things. I absolutely love playing this dragon and I have spammed maybe 5000 games on him. I want to help others improve their game to boost our lil man's win rate ;-;. Whether you're looking to pick up Smolder or are trying to push to higher ranks, I'm here to share my knowledge!\n Some quick info about me:\n Currently rank #37 globally with Smolder - Although Emerald 2-1 ATM, i started climbing this acct from Iron and should hit GM this season.\n Been maining Smolder since release\n Favorite Core: ER into IE, then Shojins\n Preferred playstyle: IE Second Item/Jaksho Second Item (They greatly differ in the mid-game)\n Ask me anything about builds, matchups, positioning, ability combos, or general tips for climbing with our favorite dragon!\n https://www.leagueofgraphs.com/summoner/lan/ImCallingMyMom-LAN1",
+   "id": "1ivx4gx",
+   "comments": [],
+   "age_days": 593,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Help laning against Teemo",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1iuwn9n/help_laning_against_teemo/",
+   "published": "2025-02-21",
+   "author": "/u/MoonlightKobold",
+   "body": "This matchup feels like it wouldn't be difficult as his blind doesn't affect my Q, but it feels like I can't do anything against him while he's constantly able to poke me away from my CS.\n On any other champion, I'd rush lifesteal or MR to counter him, but without my ER powerspike he only gets further ahead. Is there anything I can do against Teemo, or do I just have to rely extra hard on my support to get me through laning phase?",
+   "id": "1iuwn9n",
+   "comments": [],
+   "age_days": 595,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What are Smolder mid's good matchups?",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1ig6skn/what_are_smolder_mids_good_matchups/",
+   "published": "2025-02-02",
+   "author": "/u/huggenotter",
+   "body": "Hello dear Smolder mains!\n I am a decently high elo control mage player, who has been enjoying Smolder mid on my smurf for a couple of games. And I want to pick him up on my main (mid master), when the game allows it. I know he has been picked in pro play in some matchups, like Yone(?). \n However, I do not play enough to be able to afford to lose 20 games in order to experiment on matchups. My emerald 4 games on my smurf dont feel like they give me a fair assessment of the matchups, and the stats for Smolder mid are quite lack luster. \n Are there any Smolder mid players here who can tell me what matchups mid you think are the best for Smolder?\n tyty",
+   "id": "1ig6skn",
+   "comments": [],
+   "age_days": 614,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "AMA and SMOLDER BUILD/GUIDE //**FROM A MULTISEASON CHALLENGER OTP SMOLDER 58% WR 200 GAMES**//",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1htygyn/ama_and_smolder_buildguide_from_a_multiseason/",
+   "published": "2025-01-05",
+   "author": "/u/Creative_Clothes8988",
+   "body": "FAQ: Old post: https://www.reddit.com/r/SmolderMains/comments/1f2wdqe/ama_i_reached_challenger_mostly_playing_smolder/\n Op.gg: https://www.op.gg/summoners/las/cacamagica300-LAS?hl=es_ES\n Why that name? : I was 15 years old, and this account was just for playing casually with friends. I never thought I’d climb it to Challenger in this one.\n What do you ban? : Caitlyn or Ashe, depending on my team’s picks.\n Why not Draven?: There aren’t many good Draven players. Most don’t know how to fully utilize the champion, and the few who do are indeed a problem.\n Why dont you use hubris? : I don’t like it because it doesn’t offer survivability and falls off in late game. Essence Reaver (ER) and Shojin are better in every game. (Although in low elo around Master and below, Hubris can be 100% viable.)\n So, what do you build?: ER/Shojin and (RFC) if I’m very fed or if I need extra range\n Depending on the game, I build items like:\n BOOTS:\n Boots of Swiftness: Top Tier Boots for kitting\n Plated Steelcaps: Good vs AD COMPS\n Mercury's Treads: Good vs CC comps\n Ionian Boots of Lucidity: Cheap option but not the best boots\n 3rd 4th 5th Malmortius : Good third item if there's an AP feed and the rest of the team isn’t a problem.\n Black Cleaver: ONLY USE IF YOUR TEAM IS FULL AD and no one needs to build cleaver's\n Liandry: Good if your team doesnt have ap champ and Usefull against melee hp stackers\n Riftmaker: Good against melee comps but only viable when building HP-heavy setups, such as ER, Shojin, Black Cleaver, Liandry, and Riftmaker.\n TOP TIER COMBO against shield + healing teams (mortal reminder - Serpent's Fang )\n Mercurial Scimitar: Good against CC\n Mortal reminder : Good anti-heal (No compro dominik porque existen otros objetos mucho mejores )\n Banshee's Veil / Edge of Night: Ideal for AP comps or countering annoying abilities like Malphite’s R or Blitzcrank’s Q otherwise\n Death's Dance: A great defensive item with nice stats (+60 attack damage, +15 ability haste, +50 armor), very useful for AD comps that lack critical damage.\n Randuin's Omen: Good against Crit AD Comps Ex: (Yone, Aphelios, Talon, Rengar)\n Kaenic Rookern (Burst) / Force of Nature (Poke) : Top tier against AP comps\n Some Game examples: https://imgur.com/a/I4dY37b\n Runes:\n FFT INSPIRATION:\n https://imgur.com/a/xfBACE9\n FFT SORCERY:\n https://imgur.com/a/By2wSKA\n I also use Conqueror with the same rune setup as above; it helps a lot when FFT isn't as necessary.\n Matchups:\n Synergies:\n Playstyle:\n STACKS GOAL First, the stack goals are 5:00 minute mark (25), 15:00 minute mark (125), and (20:00–22:00 minute mark) (225). This doesn’t mean you’ll always be able to reach these goals at the expected times; there are bot comps that allow it and others that don’t, even though this is the ideal scenario in most cases.\n Tips: Don't hold back your mana in lane, try to maximize its usage by spending it intelligently. Additionally, to gain stacks, you can sometimes trade HP + mana to pull off the W-Q-E combo and secure extra stacks.\n 14-minute mark, you should rotate to mid and send your mid laner to bot. This allows you to farm stacks from the raptors (+6 stacks) while avoiding being in the bot lane, as it's not ideal for the ADC to go to sidelanes after the 14-minute mark in the game.\n 0-25 stacks 0-5 MIN If there is an invade on your side, starting with W makes it easy to get 4-5 stacks.\n In the other case, start with your Q. Focus on farming minions with your Q, and if the opportunity arises, throw a Q at the adc or the supp. When using W, try to hit both of them with your W to get +2 stacks (otherwise try to go only for +1 stack). Use your E if you want to go for a short trade; my preferred combo is W-Q-E or Q-W-E and then back off. People often panic and overuse abilities when pressured like this.\n Use the practice tool to farm using only your Q. Try to avoid using auto-attacks. I've seen many people miss their Qs, which causes them to lose a lot of sctacks in the long run.\n 25-125 stacks 5-15 MIN Use step 2 from the first section**.**\n It's a bit obvious, but try to secure at least 5 minions from each wave. Going all out to get all 6 usually makes you lose 3 stacks in the process.\n Now that you have 25 stacks, you can hit the wave and the champions at the same time. This way, you can gain extra stacks if the enemy bot lane misposition.\n 125-225 stacks 15-25 MIN Here it's very easy to gain stacks; Try to make the fireballs from Q hit the enemies while you're in lane. Look for the angle through the minions to get +1 stack.\n I’ll update tomorrow with the matchups, playstyle, synergies and stack goals. For now AMA :)\n https://preview.redd.it/wrv5xt6j04be1.png?width=1713&format=png&auto=webp&s=920a95cebcc81f0ac66dbadef6da77029f0fdbde",
+   "id": "1htygyn",
+   "comments": [],
+   "age_days": 642,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Looking for builds/runes",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1hqct32/looking_for_buildsrunes/",
+   "published": "2024-12-31",
+   "author": "/u/Kalazh47",
+   "body": "Hey guys, since tear isnt really played on smolder anymore and crit kinda feels weak im looking for different builds for squishy comp matchups and against tanks. Like full hard ad smolder (Hubris, Reaver, Shieldbow, Bt, ?) Or bruiser smolder with dmg and tank items mixed. Anyone has good situational builds or tipps?",
+   "id": "1hqct32",
+   "comments": [],
+   "age_days": 647,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "After 95 Smolder games in 16 days: Smolder got me out of my ''elo hell'' & back into EM4 in Solo Q. Things i've learned.",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1gtto0w/after_95_smolder_games_in_16_days_smolder_got_me/",
+   "published": "2024-11-18",
+   "author": "/u/Entarizo",
+   "body": "Hey everyone: new here! Thought this topic could use some positive vibes by sharing my experiences with the champ, and sharing my small success story:.\n First of all: here's the account where the magic happens: https://www.leagueofgraphs.com/summoner/euw/DepressedBySoloQ-EUW\n TLDR: more games does make a difference, Don't be afraid to change runes, builds and playstyles, and always ban irelia.\n Context and full story: (skip if not intrested): Reaching emerald 4 in Solo Q again is a huge deal for me. I'm a 30-year old, season 3 veteran (and proud owner of victorious elise) and while it sounds pretty ''cringe'': i feel myself getting older + mechanically at times unable to keep up. Therefore i made it my ''league mission'' especially since season 11, to always at least end platinum (before emerald was a thing) or emerald before the end of the season, which i was able to do the past couple of splits in both flex and solo/duo. I peaked Diamond 4 in S9 & 10, and that was enough for me, but Ending EM4 felt like the bare minimum i allowed myself to end on. I realize Emerald 4, being only at the top 10% of the playerbase, feels negligible to most of the higher elo players among us, but to me, being around the top 10% means being better than more than 89% of the player base. Not spectacular, but certainly respectable.\n When last ranked reset happened however, i dropped off. Hard. Champions i enjoyed didn't work out for me, and i was getting desperate. Stumbled around Smolder mostly during worlds, and i liked the fact that it was 1 champion that was able to flexed into multiple roles. If i got filled into adc, it seems like a good champ to pick up. And i started playing with Smolder.... in the botlane!\n -Learning point #1: The ugly truth is that for all that is holy, practice this champ in normals/bots first.\n Safe to say: Botlane Smolder without practice nor insight into the botlane-meta/dynamic was not working out for me: https://www.leagueofgraphs.com/summoner/champions/smolder/euw/DepressedBySoloQ-EUW/adc/soloqueue\n Frankly: i had no idea what i was doing. And certainly: i made the very common and insanely bad mistake of not playing this champ in bots/normals, before playing this champ in ranked. I just copied the build i saw pro-players using, and jumped into ranked like an idiot. Funnily enough, my only win on Smolder bot was vs one of his worst matchups, because our jungler went 10/0. I was losing all my lanes and certainly not having the time of my life.\n - Learning point #2: Solo-Lane Smolder worked wonders for me, despite it being worse globally.\n Botlane smolder was not working for me, I had difficulty having to take both my enemies & allies damage into account in the early game, and felt like when i was preforming bad, it would be even worse for the team, since i indirectly impacted the gold income of 4 players negatively (2x enemy bot/support, myself+ 1x our support), making it infinitely harder to execute a comeback. In the solo-lanes, you are generally both dealing with and impacting only 2 people: yourself and your direct opponent. My go to mantra: just survive, cs as much as possible, and try to follow-up if your lane state allows you to.\n My first game in the solo-lane went noticeably better: https://www.leagueofgraphs.com/match/euw/7172482116#participant3\n I felt like i was actually able to contribute more. Csing was getting better as well, and i was getting into my comfort zone playing a champion that is able to consistently cs with abilities, rather than basic attacks. (unsuprisingly veigar is one of my favorite as well). Getting to lategame meant it was my time to shine, and weaving the occassional auto attack while pressing my abilities and positioning was something everyone, even me, was able to do. The more games i got in, the more i felt comfortable, and at home, in playing the little drake :)\n - Learning point #3, you gotta play games, a lot of games, before you finally find your ultimate setup in runes, items and gameplay. Suprisingly, that does not always involve Grasp.\n It's definetly not all sunshines and rainbows: i started playing Smolder at PLAT2, at one point, i was GOLD1. I kept losing winnable (and unwinnable) games. Sometimes i preformed well, sometimes i didn't, but i felt that my own preformance couldn't always be the reason why we were losing so much.\n And then, about a week ago, approaching winrates between the 35 and 40%, it hit me: maybe the runes, builds and playstyle the pro-players use aren't just working for me. What else is there?\n I started some digging in the leagueofgraphs site, on both commonly used builds, and at the lower popularities but higher winrate builds., That gave me clues on stuff i wanted to try out. I went from the standard Grasp/demolish/boneplating/overgrowth+ Sorcery manaflow/transcendence to a precision fleet footwork + presence of mind setup. Then while watching some streamers, i came across the jack of all trades rune for extra early cdr, along with biscuit delivery. Last but not least, i went for Essence reaver rush (with boots of swiftness before essence reaver in very specific matchups) first item, instead of tear into tri-force. Grasp forces you to aggressively trade and weave basics, leaving you vulnerable in lane. Fleet footwork allows you to be more passive in the laning phase, meaning more safety.\n This Setup worked wonders for me, and directly resulted in me being able to climb. While getting to essence reaver is an whole ordeal on it's own, and the lack of mana really can make your early game even weaker than the usual, as soon as you buy essence reaver, your champion just feels straight up different. Never will you be out of mana, meaning higher cs numers. better sidelane farming + allowing you to take longer, extended fights & trades in the late-early to mid game. This change directly resulted in me increasing my winrate from sub 40 to a very solid 55+%. At time of writing, i got a 59% winrate in the toplane over 61 games. The downside of this build? Your real powerspike is late, very late, like over 20 minutes late. The essence reaver nerfs hit smolder very hard in the past (riot august confirms), but will likely never be reverted since it's would directly impact pro play. Therefore buying essence reaver + triforce feels bad, but feels worth it in the long run.\n - Learning point #4, Know your role: you are the late-game insurance of the team, prepare your mental and let your team in advance know what you are capable, and uncapable to do. Plan accordingly.\n Plenty of times, I let my team in a realistic way know whats up. My early game is shit, so i leash my jungler when asked while playing top, told the jungler to just try to focus the other lanes, and only come if it's within his pathing. Your job is just to farm for 20 minutes. get your stacks with cs and trades, and try to sometimes help taking grubs/rift herald when the wave-state allows. Don't use this as an excuse to go 0/5 out of laning every game, but going 0/5 out of laning doesn't have to mean the game is lost either. Just try to do the best you can, and keep playing. Late game will be your redemption arc.\n The longer the game goes, the more you will be able to make your mark. More often than not i ended being either the 2nd or highest total damage on the team, let alone the game. Smolder is a redemption arc. Weak early, strong late. Remember that, and allow yourself to get into the late game. If i had better mechanics, a better keybind set-up ( i still play locked camera and regular auto attack mouse clicks instead of keyboard imputs), and don't get me started on my subpar judgement calls. then im confident that i would have lost way less games compared to my final result. you can see in the included links. A 60 to 70% winrate is imo very much possible in my case, and your case as well.\n . - Learning point #5: Always ban Irelia.\n https://www.leagueofgraphs.com/champions/builds/smolder/vs-irelia\n https://www.leagueofgraphs.com/match/euw/7176774106#participant1\n enough said. Played this matchup once. And never again.\n The end. If you came this far, thank you for reading. Stay strong, keep climbing folks. We play the best dragon :)",
+   "id": "1gtto0w",
+   "comments": [],
+   "age_days": 690,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Smolder PBE CHANGES 2024 November 11 (Patch 14.23)",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1gp5et3/smolder_pbe_changes_2024_november_11_patch_1423/",
+   "published": "2024-11-11",
+   "author": "/u/Creative_Clothes8988",
+   "body": "First, I want to thank the person who made the original post compiling this information.\n https://www.reddit.com/r/leagueoflegends/comments/1gp4kgx/pbe_datamine_2024_november_11_patch_1423_changes/?utm_source=share&utm_medium=mweb3x&utm_name=mweb3xcss&utm_term=1&utm_content=share_button\n What do you think about these changes? It seems they are shifting Smolder’s magic damage toward more physical damage and lethality, which is a bit counterintuitive since it appears he will have more power in 1v1 matchups, where he shouldn’t excel.\n Smolder Q: primary damage: base: 15-55 --> 65-125\n AD scaling: 100% total --> 130% bonus\n stack scaling: 40% --> 30%\n these values are still amped by x1.0-x1.75 at 0%-100% crit chance\n \n tier 2 bounces: base bolts: 1 --> 2\n bolts stack scaling: +1 per 67 stacks --> +1 per 125 stacks\n bounce damage: x0.75 --> x0.5\n \n tier 3 burn: bAD scaling: 2.0%% --> 2.5%%\n AP scaling: 1.0%% --> removed\n stack scaling: 0.8%% --> removed\n \n non-champion damage: x1.1 --> x1.0\n tooltip now notes the x0.5 lifesteal modifier (actual effect unchanged)\n now refunds 15 mana if at least one target dies\n \n W: cost: 60 all ranks --> 50-70\n missile damage: base: 45-165 --> 30-110\n bAD scaling: 25% --> 60%\n AP scaling: 20% --> removed\n \n explosion damage: base: 25-85 --> 30-110\n bAD scaling: 25% --> 60%\n AP scaling: 80% (unchanged)\n \n non-champion damage: x1.4 --> x1.0\n \n E: damage per bolt: base: 15-35 --> 5-25\n tAD scaling: 10% --> 25%\n \n stacks bonus damage scaling: 20% --> 10%\n extra bolts: +1 per 133 stacks --> +1 per 100 stacks\n \n R: now deals x0.5 damage to non-champions\n cooldown: 140s / 130s / 120s --> 120s all ranks",
+   "id": "1gp5et3",
+   "comments": [],
+   "age_days": 697,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How Do You Play this champion?",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1g38mcc/how_do_you_play_this_champion/",
+   "published": "2024-10-14",
+   "author": "/u/A_R5568",
+   "body": "Genuinely the weakest thing I've ever played. Completely useless until 125 stacks?? I feel so fucking weak every game-- most midlane matchups are unplayable man.",
+   "id": "1g38mcc",
+   "comments": [],
+   "age_days": 725,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Smolder isnt OP (in solo queue)",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1g1ix6f/smolder_isnt_op_in_solo_queue/",
+   "published": "2024-10-11",
+   "author": "/u/Past-Reflection1756",
+   "body": "I've seen this uptick of people saying smolder is mega busted, but i think people must be absolute psycho wack trippin cuz his solo queue stats are pretty whatever and his performance in matches is good but not some incredible menace.\n No, its PRO SCENE smolder is crazy, you know the place where they know how to coordinate and funnel gold n xp and cover for weaknesses and set up kills and peels?\n Like yea in pro scene yes then Smolder is nutzy kookoo, but its NOT solo queue. \n So all these people talking about Smolder being this beast that's ruining their games are just talking out their ass cuz its pro scene where hes a problem, not your everyday uncoordinated gooftroplis that is solo queue lol and anyone saying so is basically just saying random stuff and trying to pretend it has merit just cuz smolder annoys them personally.\n Honestly I dont know how anyone can take these \"smolder is ruining my games\" solo queue arguements seriously to begin with. Like really I swear people are acting like they haven't seen what the other ADCs can DO. For example Jinx can blast your whole squad when she's fed. And Aphelios? Holy shit.\n Meanwhile if smolder is fed he straight up isnt anywhere near their strength with the same money, and on top of that getting fed also doesn't his stacking much at all. So basically Smolder only comes online around 20 minutes EVEN if hes fed, Smolder legit cant even be accelerated all that seriously by getting fed like other adcs can.\n When people say hes this insane champ honestly I feel people are either just saying nonsense cuz they're mad at an adc working somewhat at all, or just that some people are affected by the psychological effect of \"oh no he has stacks\" or the giant sound his execution makes when you die to it.\n Cuz otherwise again his stats are only aight. Sure he gets decent dmg numbers in matches through getting some pokes or good shots on clumps if lucky, but really hes just as killable as any other adc while doing his damage slower and more spaced out.\n Plus onus note: His solo queue is even worse when hes put into solo lanes, idk why people insist on doing this cuz hes a really weak ass laner and in solo lanes you'll often end up in matchups vs some strong stompy dudes. Tho people just like to mindlessly mimic pro play I guess haha\n And so again, its PRO SCENE that hes a problem and if you see anyone arguing about Smolder in solo queue then they're basically full of shit lol, even the stats for solo queue dont match up to their arguements.",
+   "id": "1g1ix6f",
+   "comments": [],
+   "age_days": 728,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Wizard Smolder, my personal build",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1frzbt9/wizard_smolder_my_personal_build/",
+   "published": "2024-09-29",
+   "author": "/u/Azravir",
+   "body": "Hello everyone, I’m Azra, a big fan of turning our little dragon child into a full blown wizard, and proponent of shifting him into a more mage-like playstyle (which he kinda already has). Below I’ll describe my build. It’s disjointed because I originally intended it to be a reply to a different thread, but thought it should perhaps stand on its own I’ve never (or maybe only once?) made a post before so credit to u/krax260 talking about horizon focus in a thread below mine for inspiring this post.\n For runes - rune page with celerity + gathering storm as secondary should work, though I prefer either first strike or just going blue for comet and manaflow with taste of blood and eyeball collector secondary. Plan to experiment with dark harvest soon but haven’t yet.\n For the build - nashors tooth first because q splash applies nashors and allows for easy stacking even with ap build, lich bane deathcap 2&3 to add burst and just give bigger numbers. Add storm surge + cosmic drive for move speed and more ap plus cdr. Last item is more so up for grabs I think but I usually go liandry for burn synergy. I think given the move speed nerfs those items may be more necessary now, but horizon focus could potentially replace liandry to shift the build further into a burst oriented playstyle around w, which already exists within this build path. Play around with things though!\n For reference, to see my old ranks - Azravir#0000 on NA, and for recent games - Adagium#NA1 on NA or Senixial#NA1 on NA Neither Adagium or Senixial are ranked, and I stopped playing ranked on my old main account back in season 9/10 because I hit gm for a split and felt satisfied so I turned my focus to my PhD studies.\n Not all my games are on smolder but I have ~400k on him not counting arena, where I finished around 8000 points as a smolder player.\n The build plays a lot more like a mage because of w’s massive ap ratio (1.0 if single target, but add .8 for each additional target), making them even more of a nightmare to engage into. The recent item and smolder changes did hurt the build a lot, removing ~150 damage from q by losing the ap ratio, and removing a fair amount of damage by lowering total ap from the build in general and the nashors ratio, but since that affects everyone it’s less impactful. Hard matchups max w and waveclear spam, easy matchups max q and stack. \n Let me know what you think and feel free to play around with the build.",
+   "id": "1frzbt9",
+   "comments": [],
+   "age_days": 740,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "What's Your Average Elo with Our Little Guy as ADC?",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1ej8h63/whats_your_average_elo_with_our_little_guy_as_adc/",
+   "published": "2024-08-03",
+   "author": "/u/Creative_Clothes8988",
+   "body": "After spending some time on the Discord, I've become curious about the question in the title. From what I've seen, most players rank between Iron and Emerald, with very few Diamond+ players posting. I'm not sure how reliable sites like op.gg are, where this champion's pick rate is around 10%. I believe a significant portion of this rate is due to players choosing him as a top or mid-laner rather than as an ADC, for obvious reasons—the champion doesn't perform well early. Even if you manage to survive until the 20-24 minute mark, aiming for around 225 stacks, this doesn't guarantee a victory.\n https://preview.redd.it/qns12rt2bhgd1.png?width=1876&format=png&auto=webp&s=cbcb3da6b4f892c218733a62486d859c7fe7ff14\n Despite his clear early-game weaknesses, I think he's a fantastic champion with an incredible variety of builds, some viable and some off-meta. I'm currently playing him a lot because I don't like to be tied to the meta and prefer playing whatever I find fun or ᶜᵘᵗᵉ. People shouldn't be discouraged by the perception that this champion is weak. I know things don’t always go as planned, like winning every game, but with enough patience and a willingness to learn, it's possible to carry seemingly impossible games against unfavorable matchups. However, I'm curious to hear your opinions.\n https://preview.redd.it/1dhdry98ehgd1.png?width=1023&format=png&auto=webp&s=e11283a5f787f3aa1fbed96532b0bc1a1597ea94",
+   "id": "1ej8h63",
+   "comments": [],
+   "age_days": 797,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Who do you ban as Smolder?",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1e1v6c3/who_do_you_ban_as_smolder/",
+   "published": "2024-07-12",
+   "author": "/u/RellenD",
+   "body": "For a while, I was meme-banning Ahri, but whenever I get an Ashe opposite me it's game over for Smolder. I feel like nothing messes Smolder up like slows. \n Maybe I'm wrong, maybe there's a worse lane matchup for him. Who don't you like to see on the other team as Smolder?",
+   "id": "1e1v6c3",
+   "comments": [],
+   "age_days": 819,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "The sad situation of smolder ( Riot devs please )",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1cv07kp/the_sad_situation_of_smolder_riot_devs_please/",
+   "published": "2024-05-18",
+   "author": "/u/guelry12",
+   "body": "(Sorry for my english, If i wrong in something correct me.)\n Smolder is currently the worst adc of the patch, losing in practically every phase of the game (Early game / Late game). 2 ad can make a difference but he needs big changes to get back into the game.\n The first problem is that there are no items that work with the smolder. they removed the \"sheen\" from the \"essencer reaver\", removed the ad/cdr and %Damage based on crit chance from navori, They removed the ad from \"Rapid Firecannon\" and the crit from \"Bloodthirster\". the smolder is mandatory to make bruiser items Because they are the only items that give ad/cdr to smolder.\n Smolder couldn't have the scale he used to have. what made smolder strong in the past was its ability to stack the execute in %Hp, that was very strong, riot removed that, now smolder scales damage and only damage, before you ask me -but all scale champions, scale damage BRUH.\n I want to use some examples:\n Senna: she scales range, crit, ad and lifesteel. Because of this she makes lethality items to complement the critical chance she gains.\n Aurelion sol: He scales with More ability range, %damage on his abilities, distance and %execute. the more stacks he gains, the more damage he receives.\n Smolder: damage and burn %Health. Just that, and his ult doesn't scale with his passive stacks like other champions (Senna and Aurelion)\n I like the champion, but what they did to him was one of the biggest messes in the history of lol.\n ; - ;\n https://preview.redd.it/yu87hx7fh71d1.png?width=1110&format=png&auto=webp&s=df00a92e8fd7a657663731074b254214180808c5\n https://preview.redd.it/p672vbfgh71d1.png?width=1108&format=png&auto=webp&s=f136910b016160948e4a4c330854722abe22ba27",
+   "id": "1cv07kp",
+   "comments": [],
+   "age_days": 874,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How long does it take for you guys to get 225 stacks?",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1c8xb9x/how_long_does_it_take_for_you_guys_to_get_225/",
+   "published": "2024-04-20",
+   "author": "/u/MrsnD_",
+   "body": "Personally, I notice that I take about 30-35 minutes depending on the matchups I face in bottom lane. I feel like this is a bit too long, but I'm not sure.",
+   "id": "1c8xb9x",
+   "comments": [],
+   "age_days": 902,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How can I survive Smolder's miserable early game without feeding?",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1bppnaq/how_can_i_survive_smolders_miserable_early_game/",
+   "published": "2024-03-28",
+   "author": "/u/MammothBoar",
+   "body": "Question in title, I love Smolder and how he plays but no matter what I try every matchup outpowers me and crushes me. Is it really just a case of cowering under tower until I hit 225 stacks or is there hope in this rotten world for a baby dragon trying to get by?",
+   "id": "1bppnaq",
+   "comments": [],
+   "age_days": 925,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Draconic Advice Needed!",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1bdrc9a/draconic_advice_needed/",
+   "published": "2024-03-13",
+   "author": "/u/YuumiFloff",
+   "body": "Hi guys! I've been enjoying Smolder like no other champion before ever since he got released and I don't plan to drop him no matter what nerfs come his way. However..\n I've noticed I'm lacking something with him. I have 40% winrate in the past 10 games and even when I win lane and I do well-ish, we still lose! At first I thought it might've been my team since most of the time I'll get really rough matchups or allies but.. I also believe it's on me since I've noticed I deal less than average Smolders on mid lane (I'd like to play bot but the moment Smolder gets banned I'm done for so I've opted to just pick my usual mages if he gets banned which are champs I know how to use)\n I've tried a few builds, crit, lifesteal, new ap build etc, so far the one I seem to have the most utility with is Trinity > Ionian Boots > Shojin > Riftmaker etc, I tend to also reach 225 stacks about 20-26 mins.\n Is there anything from my gameplay I can improve? I roam whenever I can to help jungle fight for scuttle or for a kill, however I've noticed I don't deal as much as I should which is concerning. I also use comet vs pokey lanes so they back off and fleet when I cannot outdamage them. I prefer using barrier or tp as well, should I consider using ghost instead?\n Advice is super welcome, thank you fellow dragons 🙏",
+   "id": "1bdrc9a",
+   "comments": [],
+   "age_days": 940,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "thoughts on Aurelion Sol matchup in botlane ?",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1bbp6ko/thoughts_on_aurelion_sol_matchup_in_botlane/",
+   "published": "2024-03-10",
+   "author": "/u/LotusPetals12",
+   "body": "I usually pick smolder when i have first pick in blue side, otherwise i ban him but some games i'm sure i could play him even if ennemy has first pick so i'd be willing to leave him open even then and paying vs him some games if it means i get to play him more games. \n i recently started playing a bit of asol mid, i got told by friends he should be a good matchup botlane into Smolder, do you all have any thoughts on this matchup, have you ever played it or do you see how asol botlane would be a good answer to Smolder ?",
+   "id": "1bbp6ko",
+   "comments": [],
+   "age_days": 943,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "against yasuo?",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1b79wfx/against_yasuo/",
+   "published": "2024-03-05",
+   "author": "/u/RampartsRampage",
+   "body": "has anyone survived this matchup? ive encountered yasuo adc quite a few times this week and me and the support always turbo feed because we are powerless against his kit, more so because he is always with leona/naut/mao\n I cant poke him, his shield blocks my already small damage and is up really fast (tried maxing Q/W)\n spacing is really hard, yoi have to stay away from the wave or he can dash to you, but that also enables their support to land skillshots easily\n After 25 stacks is harder to freeze lane when your Q is Aoe, and he can just freeze really well\n I always get dived and he can safely enter and exit turret range killing me\n also he usually saves windwall to completely negate my ult",
+   "id": "1b79wfx",
+   "comments": [],
+   "age_days": 948,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Smolder Toplane with Grasp actually feels viable",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1b18daw/smolder_toplane_with_grasp_actually_feels_viable/",
+   "published": "2024-02-27",
+   "author": "/u/Obvious-Bet-1338",
+   "body": "title. I am testing it currently in emerald. Yes I am aware it doesn’t work into some matchups. 225 stacks around min 17~21 average Grasp allows you to take good trades/chunks enemy well and give you tankiness.\n My build is currently: Swifties into Shojin or Iceborn Gauntlet -> Rookern / Frozen Hard / RFC depending on the enemy comp\n Q max, but sometimes to answer push you need 3 points in W \n What’s ur opinion ?",
+   "id": "1b18daw",
+   "comments": [],
+   "age_days": 955,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Smolder KR Build",
+   "url": "https://www.reddit.com/r/SmolderMains/comments/1ahuw9t/smolder_kr_build/",
+   "published": "2024-02-03",
+   "author": "/u/Elysonn",
+   "body": "So it seems the KR server has found a way to mitigate Smolder's weak early game by ''abusing'' his AP scaling on W. Doran's Ring start and situational dark seal while putting up to 3 points into W seems like a great way to poke enemies and have a safer early game. Comet works great too in some matchups . Here is a video for reference by Dobby https://www.youtube.com/watch?v=Moln9FRWHaU\n ​\n https://preview.redd.it/2c5xmqgj4dgc1.png?width=1060&format=png&auto=webp&s=79c19e84c0df8e22658597306242a4c3d4a0ef81",
+   "id": "1ahuw9t",
+   "comments": [],
+   "age_days": 979,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  }
+ ]
+}

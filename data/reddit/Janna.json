@@ -1,0 +1,876 @@
+{
+ "champion": "Janna",
+ "subreddit": "janna",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "Janna Matchup Difficulty Tierlist (AND EXPLANATIONS) (left to right matters)",
+   "url": "https://www.reddit.com/r/Janna/comments/1wrnix9/janna_matchup_difficulty_tierlist_and/",
+   "published": "2026-09-27",
+   "author": "/u/TundraEuw",
+   "body": "Hello, I've peaked rank 400 in 2024 playing support, mostly karma and janna. I've coached many players across all elos, even LPL academy players and LCK trainees.\n For explanations, you can refer to this google doc:\n https://docs.google.com/document/d/1ptuKy8elXe2IRamq_-VjIopIQzHWSBxIlGyQEqEbLbE/edit?usp=sharing\n Feel free to ask any questions below",
+   "id": "1wrnix9",
+   "comments": [],
+   "age_days": 12,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is Janna just bad right now, at least compared to other enchanters?",
+   "url": "https://www.reddit.com/r/Janna/comments/1w3fx1j/is_janna_just_bad_right_now_at_least_compared_to/",
+   "published": "2026-08-31",
+   "author": "/u/Lucaines",
+   "body": "So, let me preface - I feel like the title comes off a bit hating, but I'm genuinely just trying to feel out her place in the meta.\n I used to be a Janna main/OTP a few years ago, but like two years ago, I completely made the shift to Nami. Before that, I played both, depending on who I was in the mood for. Imo, they both fulfill similar purposes (heal/shields; damage buffs; slows, speed ups; CC, disengages), but neither was really better than the other, they were both good, and it just depended on your exact playstyle, mood, and matchups.\n Nowadays though, I really find myself asking... \"Why play Janna if you can just play Nami?\"\n I feel like Nami can do everything Janna can do, but then also more on top of it. The only thing I'm missing from Nami technically is the knockback. That is very helpful. But everything else Janna has? There are other supports with better shields, and, again, Nami has the damage boost as well (with hers even being more versatile + having a slow attached to it; not just AD that ends as soon as the shield breaks). There are other supports with slows - again, Nami, for example. Nami, Milio, can disengage just as well as she can. Other enchanters have better poke, too. Janna can technically roam well, but I'm getting good roams on Nami as well. \n With all of that, I struggle to find Janna's identity. She's meant to be the disengage queen, but I really feel like Nami and Milio do that just as well and offer so much more ontop of it.\n I'm really not trying to talk shit on Janna and get people to pick Nami instead or whatever. I just wonder what everyone else thinks about her rn.\n Also, if I'm right about her underperforming, do we know if Riot has any plans of changing that? If she's being looked at, considered for a buff or rework, etc? I mean... has to be, no? She used to be pretty popular and a staple, a classic. Now, I really hardly ever see her. \n Edit: I forgot to add, what kinda sealed the switch was the changes to her shield like... 3 years ago? I really liked getting Heal and Shield power. It fulfilled my fantasy of protecting my team very nicely. I get enemies off of my team and get rewarded for it by getting a big shield I can put on my teammates. It's like how everyone likes big damage numbers - I like big shield and heal numbers! Now, you get rewarded by reducing the shield cooldown. Which on paper should be useful, but always felt a bit clunky to me. It technically incentives shielding first, but I want CC first; stop the enemy from getting into range, and only shield when the enemy IS in range and hitting my teammate. Now I have to, what, shield first, let my teammate get hit? Or I CC while they're shielded, but then I technically waste shield health - and when the CC runs out, the shield ran out as well.",
+   "id": "1w3fx1j",
+   "comments": [],
+   "age_days": 39,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How",
+   "url": "https://www.reddit.com/r/Janna/comments/1w3be3l/how/",
+   "published": "2026-08-31",
+   "author": "/u/RRSemoHunter",
+   "body": "It looks like The more you play janna the worse you get with her?!? I get that some of these stats are scewed because of low elo players running it down with her but still on paper this look really wierd.",
+   "id": "1w3be3l",
+   "comments": [],
+   "age_days": 39,
+   "recency_weight": 1.0,
+   "topics": [],
+   "stale_items": false
+  },
+  {
+   "title": "Janna Build Guide | Season 16",
+   "url": "https://www.reddit.com/r/Janna/comments/1sbntx2/janna_build_guide_season_16/",
+   "published": "2026-04-03",
+   "author": "/u/meowgasasuke",
+   "body": "1. Rune Configurations There are three primary Keystone options depending on your matchup and playstyle.\n A. Primary Keystones\n • Summon Aery (Standard): The most consistent and scalable option. Maximizes the value of your E (Eye of the Storm) and provides constant poke. It is the safest choice for most games.\n • Glacial Augment (Vs. Hard Engage): Always take this against heavy engage (Leona, Nautilus, etc.). It slows the engage and provides a \"mini-exhaust\" effect. Best for catching enemies from the Fog of War with Q or for massive disengage with your R. Try to apply it to both the Support and ADC during lane.\n • Arcane Comet (Lane Bully/Poke): Only recommended if you are \"smurfing\" or in lower ELOs. It helps stomp the lane via W poke but scales poorly. It is objectively worse than Aery or Glacial in high-level play.\n B. Primary Tree Synergies\n • Sorcery Tree (Aery/Comet):\n • Manaflow Band: 99% of the time the best option for resource management.\n • Celerity: Essential for Janna’s MS-to-damage scaling.\n • Scorch: Choose this if your playstyle revolves around early-game roaming and skirmishes.\n • Gathering Storm: Focused on scaling and playing a bit more passively; still viable for roaming.\n • Inspiration Tree (Glacial):\n • Cash Back: Hexflash is mediocre on enchanters, and Magical Footwear is a trap because Janna must buy boots on her first back.\n • Triple Tonic: For the extra gold and skill points.\n • Final Row: Cosmic Insight, Approach Velocity, or Jack of all Trades (all three are viable).\n C. Secondary Rune Options\n • Resolve Tree (The Scaling Choice): Best if you want to provide maximum utility to your team.\n • Runes: Font of Life and Revitalize.\n • Note: If choosing this, pair it with Gathering Storm in the primary tree for maximum late-game peel efficiency.\n • Domination Tree (The Roaming Choice):\n • Runes: Cheap Shot (for extra poke damage) or Eyeball Collection, paired with Relentless Hunter for map presence.\n D. Stat Shards (Tutorial)\n • Row 1 (Offense): * +9 AP: Everything in your kit scales with AP (including the AD buff on your E).\n • +8 Ability Haste: A great alternative to spam more abilities.\n • (Avoid Attack Speed).\n • Row 2 (Flex): * +2.5% Movement Speed: Always choose this. MS is the most important stat on Janna.\n • Row 3 (Defense): * +65 Health: Best for early fights and roaming. Since Janna roams often, you might lag in levels, making \"Scaling HP\" less effective than flat HP in the early-to-mid game.\n 2. Optimized Itemization A. Boots Selection\n • Boots of Swiftness (Standard): Increases passive damage, roaming capability, and allows for perfect positioning for peel. Always your first purchase.\n • Ionian Boots of Lucidity (Core with Glacial): Focuses on maximum Haste to keep your Q (the Glacial activator) available as often as possible.\n B. Support Item Evolution\n • Dream Maker: The default choice. Provides automatic damage buffs and damage mitigation for your carry.\n • Solstice Sleigh: Activate it with W to grant movement speed and health. Choose this for extreme kiting against \"run-at-you\" champions (Olaf, Hecarim). Only pick if you can use W safely without dying.\n 3. Build Paths Build A: Standard Peel (Best with Aery)\n Focuses on maximizing shield strength and team survival.\n Moonstone Renewer: 99% of the time your first item. Incredible synergy with Aery.\n\n Redemption: 99% of the time your second item.\n\n • Situational: Mikael’s Blessing (vs. Ashe or heavy CC), Ardent Censer (with Hypercarries), or Staff of Flowing Water (if your team is AP-heavy).\n Dawncore: The \"Rabadon’s\" for enchanters. It is expensive, but the power spike is insane. If your economy is poor, buy one of the items you skipped in Step 2.\n\n Situational Item.\n\n Build B: Anti-Engage / Anti-Burst (Best with Glacial)\n Focuses on raw Healing/Shielding power and counter-initiation.\n Redemption (First Item): Standard start. Buy Mikael’s first if against heavy CC (Ashe/Leona). You can go Ardent first if your Hypercarry (Vayne/Kog/Jinx) is already fed.\n\n Second Item: Ardent Censer, Staff of Flowing Water, or Locket of the Iron Solari against assassins.\n\n Dawncore: Only if you didn't buy Locket. Dawncore loses efficiency with Locket's lack of mana regen.\n\n Situational Item.\n\n • Note: Do not rush Moonstone with Glacial as they don't synergize well. You can buy Moonstone as a last item.\n Build C: Hyper Late-Game / Vs. Tanks\n The highest scaling build, but with a very weak early game.\n Tear of the Goddess: Buy on your first back.\n\n Echoes of Helia: For constant healing and damage through W and E spam.\n\n Cradle of Vitality (Tear Evolution).\n\n Dawncore: Massive synergy with the mana regeneration from the Tear item, hitting the AP ceiling.\n\n Situational: Ardent Censer or Staff of Flowing Water.\n\n • Note: This build depends on being able to use W without dying to charge Helia. Only use against 2-3 tanks (e.g., Mundo + Sion + Leona).\n (I used AI to translate the guide because English is not my main language, but the guide was created by me.)",
+   "id": "1sbntx2",
+   "comments": [],
+   "age_days": 189,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "These are the 2 most popular build in high elo (Glacial being #1), but when do you use which one?",
+   "url": "https://www.reddit.com/r/Janna/comments/1qgn84b/these_are_the_2_most_popular_build_in_high_elo/",
+   "published": "2026-01-18",
+   "author": "/u/Old_Focus8857",
+   "body": "Both of them seem good on Janna been using the glacial one a lot and having good success but I wonder if the other build is good in certain matchups or adc's? When would you use either or. Or just stick only to glacial.\n THANKS!",
+   "id": "1qgn84b",
+   "comments": [],
+   "age_days": 264,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Do you E max first into hard matchups?",
+   "url": "https://www.reddit.com/r/Janna/comments/1prprvz/do_you_e_max_first_into_hard_matchups/",
+   "published": "2025-12-20",
+   "author": "/u/SomeP",
+   "body": "Some matchups feel so pointless trying to trade with W so i'm wondering if I should be maxing E first. What do you guys do?",
+   "id": "1prprvz",
+   "comments": [],
+   "age_days": 293,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Reached Diamond with Janna",
+   "url": "https://www.reddit.com/r/Janna/comments/1pqqgjt/reached_diamond_with_janna/",
+   "published": "2025-12-19",
+   "author": "/u/JjuAa",
+   "body": "https://preview.redd.it/tjqzdg31z68g1.png?width=1297&format=png&auto=webp&s=700d44d0b9dfa160f62f86ffadb338f6daa13a14\n A couple weeks ago I asked you guys if you can pick Janna in every comp/matchup, you said yes and gave me some good advices. So I started playing Janna\n It's my first time playing support and I had a lot of fun learning the role and the champ. Felt really useful and started to see more of the game and understand it better. I was previously a mid lane main so this was an incredible experience for learning the game in general.\n After almost 90 games climbing from Platinum, I finally reached diamond and is a good note to end the season to.",
+   "id": "1pqqgjt",
+   "comments": [],
+   "age_days": 294,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Needing Tips For Tornadoing More Effectively As A Noob",
+   "url": "https://www.reddit.com/r/Janna/comments/1p3ove0/needing_tips_for_tornadoing_more_effectively_as_a/",
+   "published": "2025-11-22",
+   "author": "/u/_trash_can",
+   "body": "Hi all, I'm a support/jg main playing in silver elo looking to get better with Janna. I feel very comfortable with enchanters like Lulu, Nami, and Karma, but find Janna very tough to be optimally effective. My main issue is that she is known as the queen of peel but I find it incredibly difficult to cancel dashes with her Q. \n When it comes to Leona, Naut, and Pyke if you have vision you can usually predict when they want to engage- I've tried two methods. If I wait until I see the hook coming to press Q twice very quickly, the hook will usually land as they travel fast and the engage support gets knocked up for half a second rather close to my adc (which is pretty ineffective peel on my part). I've also tried prepping a tornado behind my carry when the engage support approaches, but usually they just move to the side a bit and get out of its range completely, making us very vulnerabe. It sounds easy to say just position correctly but there is also always a nearby ashe ready to slow my buns or caitlyn trying to net and delete me. I face a similar dash canceling issue with champs like Viego and Pantheon who have point and click dash-stuns, but those are shorter range and easier to just back off from.\n I also struggle when it comes to assassins like Yi and Ekko who are able to dash right past a tornado, or Akali who flies around in every direction so fast I would never be able to land anything. Yi for example, if I hold a tornado until after he Qs my carry then he gets knocked up for half a second and it feels ineffective. I can ult him away but if he is also ulting and its mid game or later he can catch up pretty easily with extra MS plus his Q cooldown being low. Due to my skill issue I am very bad as the queen of peel in these situations. When I watch videos of masters+ level Janna players they appear to have the most perfect timing down to the millisecond, which I don't have the hands or game knowedge for. Are there any combos that I'm missing that help with this kind of disengage (eg Nami E before bubbling enemy)?\n Also side question - Is it any good to take glacial into enemy immobile mage supports like Zyra or Xerath? I struggle in poke matchups a lot, maybe guardian would be better? Sometimes it happens that there is maybe Zaahen top, Yi jungle, and Fizz mid where Janna's peel could be helpful but the support matchup is bad. I usually just go aery and pray my ADC knows how to dodge skillshots in these situations.\n Thank you for any tips you can provide :)",
+   "id": "1p3ove0",
+   "comments": [],
+   "age_days": 321,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Vs Ashe/Seraphine",
+   "url": "https://www.reddit.com/r/Janna/comments/1p46kfw/vs_asheseraphine/",
+   "published": "2025-11-22",
+   "author": "/u/Sodozi",
+   "body": "Uma das matchups que mais enfrento em SoloQ é Ashe + Seraphine. como vocês se comportam diante deles, principalmente considerando o poder de Poke deles?\n Como se comportar contra champs de poke em geral? Vel'koz, Xerath, Lux, Neeko, etc?",
+   "id": "1p46kfw",
+   "comments": [],
+   "age_days": 321,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I love Janna Vs Lee Sin, gotta be my favorite matchup to play",
+   "url": "https://www.reddit.com/r/Janna/comments/1p3c45v/i_love_janna_vs_lee_sin_gotta_be_my_favorite/",
+   "published": "2025-11-21",
+   "author": "/u/Suetham016",
+   "body": "",
+   "id": "1p3c45v",
+   "comments": [],
+   "age_days": 322,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "GUIDE: How to decide between Aery vs Glacial: A Data Driven Approach",
+   "url": "https://www.reddit.com/r/Janna/comments/1loti1j/guide_how_to_decide_between_aery_vs_glacial_a/",
+   "published": "2025-07-01",
+   "author": "/u/LeagueLaughLove",
+   "body": "I look over a few of Janna's matchups and ADCs and compared glacial to aery, Here's what I found with a bit of my own analysis.\n Ally ADC:\n Take glacial when your ADC has skillshots or is a caster, it helps them land their spells and play those short trades. Take Aery when your ADC is more auto-centric. Two exceptions: 1. Jhin works better with Aery setup because Jhin due to his kit being execute centric 2. Ashe works better with Glacial because she likes running people down with approach velocity\n Enemy Support:\n Take glacial into high range engage champs (Naut, Thresh, Rakan), because it's harder to bully them in lane(?), and mages who are easily run down. Take Aery into enchanters to trade with them in lane, lower range engage champions (Leona, Ali, Rell) because you can bully them more safely, and burst champs (Pyke, Pantheon) because that extra shielding is valuable.",
+   "id": "1loti1j",
+   "comments": [],
+   "age_days": 465,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Collection of Janna Tips (Beginner/Intermediate)",
+   "url": "https://www.reddit.com/r/Janna/comments/1j6tokx/collection_of_janna_tips_beginnerintermediate/",
+   "published": "2025-03-08",
+   "author": "/u/tdooooo",
+   "body": "In my experience, Janna is the most versatile enchanter in regards to playstyle, runes, and build. A good Janna will adjust depending on the matchup in bot lane and intended roles. Hail of Blades is underrated and particularly nasty against any melee engage since Janna can reliably disrupt engage attempts with quick cast tornado. The highest damage output in early lane all-ins.\n Glacial is best when you want more playmaking or heavy peel, but do not have the ability to trade safely in lane.\n Comet is great for an aggressive, roaming player that wants to poke without full-commitment.\n Aery is reasonable in any build, but has less maximum impact than the other choices. The safe option, if you will.\n \n Janna needs to be aggressive in early lane against melee supports, especially those that do not have access to their full combo yet. Your entire success tends to come down to how hard you can bully them early on--it's a domino effect. Good trades and interrupts force the enemy ADC to concede minions and wave control, force an early back, make it risky for the enemy support to roam, make it easy for your jungler to steal camps or take dragon uncontested, etc.\n \n A passive lane is a safe lane, but it gives the enemy support more options. If you want to succeed, you must force the enemy lane to play on your terms.\n Against enchanters or mage supports, your windows of opportunity are harder to find but still available if you know what to look for. Bait and pester their support and ADC to lure poke spells on you, which you have a much easier to time avoiding than your ADC. Against bad supports, this will get you through a bad lane.\n A smart enemy support will ignore Janna and put everything on the ADC. Janna's early shielding has a long cooldown that can be punished easily. In these circumstances, you need to abuse fog of war and make it risky to force trades on your ADC. Janna can setup ganks well and has enough followup CC to burn summoner spells on a gank target. Janna WANTS all-ins against ranged supports. If they can poke her down first, she is at a massive disadvantage.\n A good tornado will typically decide the all-in or 2v2. Do not burn this spell lightly. Prioritize denying gap closers. If you are not in a position to stop the engage, charge it as long as possible while still hitting the ADC.\n Be unpredictable with tornadoes. Aim for gaps between walls, change the release time, aim from behind walls. You want to do anything that will make you hard to read.\n Maxing Zephyr is generally the default. It aids Janna in poke and in map rotations. Shield is a trap that I will only max when there is no roaming opportunities or chances to safely trade.\n Solstice Sleigh plays into Janna's style best in my opinion. A boost of speed will generally save allies more often than an extra 100-200 hp on a shield. That speed can save your ADC from having to burn flash, or allow you to hold onto your tornado. It's also excellent for counter-engage followup.\n Janna is an excellent roamer and deep warder. Janna is hard to kill. This is a big reason why you would choose Janna over a different enchanter. You want to go for wards other enchanters couldn't risk going for. The Deep ward rune is exceptional on supports like her, Bard, and Pyke.\n This is a general support tip that often goes unmentioned---try to stay off the map as much as possible. Janna is fast and can move quickly. You want to make the other team second guess if you are in lane or roaming the map. It puts pressure on the enemy mid laner and can give the enemy bot lane a false sense of numbers. If you are playing alongside your carry, it is usually better to do so from bushes.\n \n Monsoon's greatest strength is the instant knockback. It immediately disrupts assassins and divers. It forces teams to use other resources (flash, ultimates) to re-enter a fight. It can separate enemy divers from their team's frontline and carries. The heal is powerful and can help decide a close fight, but it can be risky to fully charge. Timing is crucial, but so is creativity. The best Janna players look for opportunities to save allies and isolate enemies at the same time.\n Monsoon is excellent at denying junglers proximity to Baron or Dragon for a steal.\n Everyone will whiff a monsoon at one point or another. Do not sweat it. It is typically far worse to channel the spell too late than it is too early.",
+   "id": "1j6tokx",
+   "comments": [],
+   "age_days": 580,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Bored at work so I made a matchup tier list",
+   "url": "https://www.reddit.com/r/Janna/comments/1imrxiq/bored_at_work_so_i_made_a_matchup_tier_list/",
+   "published": "2025-02-11",
+   "author": "/u/CurrentIndividual766",
+   "body": "Currently around emerald/Diamond elo so not the most knowledgeable about the game. Lemme know your thoughts!",
+   "id": "1imrxiq",
+   "comments": [],
+   "age_days": 605,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "When do i actually play aggressiv as janna (and how to?)",
+   "url": "https://www.reddit.com/r/Janna/comments/1euxjqs/when_do_i_actually_play_aggressiv_as_janna_and/",
+   "published": "2024-08-18",
+   "author": "/u/SailorJennie",
+   "body": "Hello everyone,\n First of all, I apologize for any mistakes in my English because I'm French, so... anyway, on to the real deal: Janna.\n I really like Janna—she’s amazing—but I struggle to find the correct way to build her and play her. I usually lean towards a defensive playstyle, maxing E first and building items that greatly reinforce the shield, like Redemption, Moonstone, and Mikael’s. This is my go-to approach, especially if I'm first pick. If there are big assassins (Talon, Zed, Rengar) or heavy engage champions (Zac, Leona, Nautilus, Rell) on the enemy team, I'll pick Janna. Even in bad matchups against artillery supports or stronger enchanters (looking at you, Lulu), I still choose Janna if I see big threats in the mid game (Zac, Vi, any assassins), because I trust my ability to dodge, max my shield, and just \"brute force\" through the laning phase.\n However, I frequently see posts about how Janna is actually good at poking the enemy, and I'm like, are we even playing the same champ? Yes, maxing W is fun, and the damage is decent, the cooldown is short—but so is the range. I know a lot of people play the EoH, Moonstone, and Shurelya's combo, and yes, sometimes it works very well. But when I try to adopt this more aggressive playstyle, I quickly run into problems:\n The W is good, yes, but the range is so short that I usually lose health trying to use it. Sure, I can use it without getting hit sometimes, but if I'm maxing the spell, it's for the damage, not just to stack Manaflow Band.\n The damage is decent, but I feel the shield is better. I can’t count how many times I've tried so hard to play aggressively, but after 10 minutes, I feel like the opportunities to use W disappear, and I’m left with a small shield on a long cooldown that doesn’t protect anyone from anything.\n Poking often exposes me for little to no reward, especially if I take an auto-attack or, worse, get engaged on. If I’m laning against an engage support, I feel it’s better to just stick to my ADC and cancel the engage when it happens. Against an enchanter, I usually lose trades in the long run (Lulu can max shield and damage in one spell, and many other enchanters have heals, which are better than shields in the long run for obvious reasons). Mage supports simply have more range than my W, and my shield (not maxed) doesn’t protect my ADC from their poke (like Lux’s E).\n The shield gets reduced cooldown per level and becomes stronger, and I’m left wondering: is it better for me to deal 200 more damage, which my ADC could have done in one or two auto-attacks if they survived with my shield?\n Sorry if this is a bit messy; once again, I'm French. Am I missing something so obvious that I just can't see it?\n By the way, why is no one playing with Glacial Augment anymore? The rune still rocks against specific comps.",
+   "id": "1euxjqs",
+   "comments": [],
+   "age_days": 782,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Current Rank 1 Janna :D *90%wr*",
+   "url": "https://www.reddit.com/r/Janna/comments/1dvm5pl/current_rank_1_janna_d_90wr/",
+   "published": "2024-07-05",
+   "author": "/u/Porasch",
+   "body": "Hey! I'm currently the Rank 1 Janna with almost 90% win rate in high master low gm, and was wondering if anyone would be interested in a detailed guide for her, talking about how to play all matchups, tips and tricks and simply how to consistently carry with her.\n I really wanna help every Janna enjoyer achieve their ranked goal (or just learn a thing or two) without feeling the need to play a different champion just \"for lp\"\n my ign is: Po Ash#143, if anyone wants to check\n any feedback is appreciated!\n https://preview.redd.it/6ru07m8qmlad1.png?width=392&format=png&auto=webp&s=4e87da7f5609c2ae2643d95d84ceac6b3f7ab83e\n edit* I have seen some people asking for coaching, so here is my page https://gamersensei.com/senseis/po if you are looking for it c:\n edit2* I finally have a first version of the Janna Bible: https://docs.google.com/spreadsheets/d/1BbwOh_c2R0q0m8GDRnWaL6_zMcy7qBHPDj0bUUPGSLY/edit?usp=sharing",
+   "id": "1dvm5pl",
+   "comments": [],
+   "age_days": 826,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Building Situational on Janna",
+   "url": "https://www.reddit.com/r/Janna/comments/1ajplcg/building_situational_on_janna/",
+   "published": "2024-02-05",
+   "author": "/u/ZarahXenon",
+   "body": "Janna has a lot of strong runes and item builds right now. In my opinion you loose out on a lot of potential if you go same build every game. I always change runes and items depending on matchup and adapt within the game. I tried a lot of different builds and watched a lot of YouTube videos and Streams and here is what I build depending on the situation (working great so far) - let me know what you think and which one is your favorite build to play! \n Early to mid game damage build: \n This one is the most popular one right now. It’s a solid build and it’s fun to play. \n Good if: it‘s best in games where you have an early to mid game oriented team and/or a lot of ad dmg and/or the enemies having beefy front liners with a lot of health (max hp ap dmg of ZazZak)\n Bad if: in my opinion it’s not a good build if you have a super scaling team and/or playing against a lot of assassins or squishy divers\n Runes: Comet or Aery > mana flow band > celerity > gathering storm (scorch if you have a really favored lane matchup) / 2nd eyeball collection or zombie ward > relentless or ingenious hunter (keep in mind that relentless hunter „only“ gives out of combat movement speed that’s why ingenious is a bit better in my opinion) \n Build: ZazZak as quest item / first back Boots and Dark Seal > rush Swifties > Imperial Mandate > Upgrade to Mejais if game goes good and you’re close to 10 stacks > Shurelyas (still good stats and a good active) > Situational (buff item; Wardstone; Mikaels …)\n Hyper scaling late game build: \n This one is also a solid build which makes Janna’s shield and healing scale super hard. Including revitalize and font of life (procs with every Q and W applying buffs like ardent / SoF to your mates) is a must. \n Good if: you have a super hard scaling team and/or you play a loosing lane in a matchup where you also can’t roam a lot\n Bad if: the rest of your team doesn’t scale well and/or the enemy team outscales you \n Runes: Aery > mana flow band > celerity > gathering storm / 2nd font of life > revitalize \n Build: Dream Maker as quest item / first back Boots; Dark Seal if game goes good > Lucidity Boots > Moonstone and Redemption (situational which one first) > Dawn Core > SoF or Ardent \n Flexi enchanter mid to late game build: \n This build is more flexible. I go for it if I have a mixed team where I adapt my build duo to what’s happening in game. I take the runes from build A or B depending on the matchup and if I wanna lean towards a more dmg oriented build (runes A) or a more buff oriented build (runes B). I start with Boots, either Swifties or Lucidity. For the quest item I go for Dream Maker (ZazZak if they have tanks and we need a bit more damage) and then I buy: Imperial Mandate if we need a bit more damage; Moonstone if we need more sustain and the fights are more front to back; Redemption if I want more map impact; Locket if there is an enemy Karthus or they have an assassin like Katarina > Ardent or SoF > Redemption or Mikaels > Wardstone or whatever is needed \n Super early game HoB build: \n In my opinion HoB is a trap at least in 90% of games. Jannas aa range is too short to get good trades in lane and the rune gets worse the longer the game goes. BUT it helps to apply bloodsong more often and that item was pretty broken. Idk if it’s still that strong after the nerf and I only played it once because it’s only viable if you can get auto attacks out safely. I think this build (HoB > Bloodsong > Swifties > Imperial) is only viable if you play against meeles where you can easily auto > w > auto / auto. If you play against a tank support ZazZak might just be better, this build is only good if they also have a short ranged adc which you can poke down too. \n Always keep in mind to adapt those builds within the game. Sometimes you wanna swap build order because you need an item sooner or switch items (eg. someone on your team is super fed and you wanna rush SoF or Ardent; you need a Mikaels really badly; and so on). For the support quest items I only take Celestial Opposition if they have a complete assassins team and heavily dive on me. Solstice Sleigh is a nice item but cooldown is too high. \n Sorry for the super long post - hope it helps. Let me know your thoughts on it and share your favorite builds :)",
+   "id": "1ajplcg",
+   "comments": [],
+   "age_days": 977,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Is it possible to OTP Janna",
+   "url": "https://www.reddit.com/r/Janna/comments/16iqrqi/is_it_possible_to_otp_janna/",
+   "published": "2023-09-14",
+   "author": "/u/RedRood255",
+   "body": "Heyyyy,\n I search for a main, i really love the support position and than i saw Janna and really loves her kit. But by looking some guides very much persons say it isnt possible to play Janna in some matchups. So my question: Is Janna a Champion i could always pick and OTP or is she in some matchups always bad, doesnt matter how good i play.",
+   "id": "16iqrqi",
+   "comments": [],
+   "age_days": 1121,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How is the Sona matchup?",
+   "url": "https://www.reddit.com/r/Janna/comments/15x59zs/how_is_the_sona_matchup/",
+   "published": "2023-08-21",
+   "author": "/u/FabioSxO",
+   "body": "I want to play Sona as a secondary pick while Janna is my first pick. Since Janna pretty much will only get picked and not really banned, I was looking if I could play Sona as my secondary pick while it also being a counter to Janna lanes.\n So, how is the matchup against Sona as Janna?",
+   "id": "15x59zs",
+   "comments": [],
+   "age_days": 1145,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "A question to all Janna otp's",
+   "url": "https://www.reddit.com/r/Janna/comments/14mybwi/a_question_to_all_janna_otps/",
+   "published": "2023-06-30",
+   "author": "/u/Dunno978",
+   "body": "I am a Support main, mostly playing Rell, Soraka and Leo, but I wanted to play more Janna aswell, as I enjoy the Championdesign. I know she is a godtier anti-engage, but struggle to pick her against enchanters, which I for some reason mostly play against, so it feels that i cannot pick her. So to my question, how do you play into the likes of Milio, Soraka or Lulu? I know Janna is not only Anti-Engage, but i feel a bit usless into these matchups. Any tips? \n ​",
+   "id": "14mybwi",
+   "comments": [],
+   "age_days": 1197,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How do I play against engage supports?",
+   "url": "https://www.reddit.com/r/Janna/comments/127szqd/how_do_i_play_against_engage_supports/",
+   "published": "2023-03-31",
+   "author": "/u/ProjectPasta",
+   "body": "I haven’t really had a lot of issue playing against engage supports last season but with the changing meta I see myself losing against them quite often. Any tips on how to play matchups better against Leona, Alistar, Rakan, Rell etc.? Thank you in advance :)",
+   "id": "127szqd",
+   "comments": [],
+   "age_days": 1288,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Returning/Aspiring Janna Player",
+   "url": "https://www.reddit.com/r/Janna/comments/11ljdav/returningaspiring_janna_player/",
+   "published": "2023-03-08",
+   "author": "/u/tretrey11",
+   "body": "Hello fellow zephyrs, fair weather friends and soothing winds!\n As you can see by the title, I am a returning Janna Player who's been itching to get back into playing her for quite some time. I played a lot of Janna back before her pre-rework/midscope update era (bc her W max + E refund on knockups era always has been and always will be that bxtch). And I've tried to play Janna after her rework, but she just seems different and not my cup of tea. However, I REALLY wanna get back into playing her because I've seen the play setups and outplay potential you can do with her Q, her Ult and even her shield. Sidenote: I also grinded my butt off to get her prestige skin so I feel like I have to start playing her lol. So if it's not trouble, could my fellow Janna enthusiasts provide me with some tips & tricks for playing her as a beginner and when are the correct situations to use your ult. Especially how to hit those Q's because my Q's are flops. Plus what are the keystones and runes you can go with her? I know the new Glacial is the standard go-to rune for Janna, but can you still go comet or guardian in situational matchups? Also can you pick Janna into every matchup? or should you only pick her as a counterpick?\n Thank you all for the future tips and tricks and I'll be sure to keep y'all updated on my journey with Janna.\n Stay Breezy my fair weather friends!",
+   "id": "11ljdav",
+   "comments": [],
+   "age_days": 1311,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Senna matchup",
+   "url": "https://www.reddit.com/r/Janna/comments/vwjmjg/senna_matchup/",
+   "published": "2022-07-11",
+   "author": "/u/maiden_des_mondes",
+   "body": "Most poke lanes aren't too tough to manage IMO but Senna always feels pretty coinflippy whether my teammates can play towards botlane and punish Senna's immobility or not. \n 2v2 (ofc somewhat dependant on AD matchup) usually doesn't feel great for obvious reasons so I regularly gravitate towards playing with my jungler rather than for lane.\n How do you approach the matchup? Do you adjust your runes/build in a particular fashion? \n I always get annoyed when I keep landing nados while my carry gives away free 86 gold randomly trading with Senna. What are your strategies?",
+   "id": "vwjmjg",
+   "comments": [],
+   "age_days": 1551,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Janna into every lane or situational pick",
+   "url": "https://www.reddit.com/r/Janna/comments/t2fnwx/janna_into_every_lane_or_situational_pick/",
+   "published": "2022-02-27",
+   "author": "/u/filthonacid",
+   "body": "Hey guys, \n do you pick Janna in every lane like blind or just situational when its a fine matchup? Iam maining her for quite a long time now but its hard to win games if I get countered in champ select especially when I have to play against long range ADC and Support.\n Best regards",
+   "id": "t2fnwx",
+   "comments": [],
+   "age_days": 1685,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Some tips from a challenger Janna main",
+   "url": "https://www.reddit.com/r/Janna/comments/srg76q/some_tips_from_a_challenger_janna_main/",
+   "published": "2022-02-13",
+   "author": "/u/gkhsieh",
+   "body": "So after 2 seasons of not playing competitively, I hit challenger again, maining Janna. My op.gg: https://na.op.gg/summoners/na/wakanari \n Here's some random gameplay tips for you guys. Feel free to ask questions about anything.\n 1) If your team is invading at level 1, start sweeper. In low elo, sweep if you see an enemy place a ward while they are retreating. It will be back up by the time you are in lane.\n In high elo, people start to ward for invades (most commonly the jungler places a ward and recalls for sweeper), so you should consider sweeping when entering the enemy jungle.\n 2) Otherwise, place your ward somewhere on the map, then recall and switch to sweeper. Sweeper is OP in lane because it helps you gain control of the lane bushes. Also, if you see them ward river or tribush, you can clear it and make it easier for your jungler to gank.\n So where should you place the ward? If you think the enemy will invade, ward where they are most likely to invade. In low elo, people usually just run into the bot jungle so you can just ward the river pixel bush, retreat, and recall.\n In high elo, you should consider warding the tribush because there's no counterplay to an invade from that angle, assuming proper execution.\n Otherwise, in low elo, ward the central bot lane bush so the enemy support can't easily take control of it (you'll have vision of it for the first wave).\n In high elo, you should consider warding the closest lane bush if you might get cheesed. For example, Taliyah supports often Q from that bush and take a huge chunk of HP while zoning you from the wave.\n On red side, I really like to ward the enemy bot lane tribush from drake pit. This ward is good because you will know if the enemy bot lane leashed their jungler. Watch a video on the \"Scarra ward\" and practice this in practice tool. I do it by zooming in and clicking on the snail's neck, but sometimes there's no snail, so you'll have to do it off muscle memory.\n 3) If your top side gets invaded, get a teammate to counter-invade their bot side and ward their camps. This is a simple tip that will give your team valuable information on the enemy jungler's first clear. On red side, I like to ward raptors, while on blue side, I like to ward between gromp and blue buff.\n For example, if you see the enemy jungler start bot side, you can usually be quite confident that the lane will be 2v2 for 2-3 minutes. Then, ideally you crash the wave and play safer when the bot side camps respawn.\n 4) To poke the enemy in lane, cast Q from an unwarded bush and stay in it until you release the tornado. The enemy cannot see your tornado charging up unless they gain vision of you while charging. This is part of why sweeper is so good.\n In low elo, you can usually just aim at where the enemies are currently standing, because they don't move around that much.\n In high elo, you should aim at where the ADC will be when they are last hitting a minion. So aim at the minion offset by the ADC's range, then release the tornado right before the minion is about to die. I'd guess this works for me around 3/4 of the time.\n If the tornado lands, as long as you aren't at risk of dying, you can follow up with W or a basic attack, then retreat back into the (unwarded) bush so they can't easily hit back.\n The poke itself isn't actually that important; it's the Spellthief's Edge stacks that are. Vision is very important, so the faster you complete your support item quest, the better. And of course, it helps you generate gold for your first item.\n 5) Consider saving Glacial Augment for the right moment. In general, it's extremely important to have Glacial Augment in fights.\n In laning phase, if your jungler is coming to gank soon, save your Glacial Augment (don't use your Q) for when they arrive. You can then Flash + Q (or sometimes even just walk up and Q) for a huge slow, often forcing the enemies to flash away or just die if they don't have it.\n In teamfights, try to save your Glacial Augment for when the fight is committed. So don't waste it by randomly casting your Q to poke before a teamfight. On the other hand, if proccing Glacial Augment would significantly delay the enemy team (for example, allowing you to secure an objective), it's worth doing.\n 6) Consider saving your W in teamfights. Janna is extremely vulnerable when her W is on cooldown because of how slow she is. Your W doesn't do much damage anyway, so if you need to stay fast to run away from enemies, don't use your W. If you're not in danger, then you are likely favored to win the fight and can cast W at your leisure.\n For example, if you have Moonstone Renewer and are teamfighting, you can continuously proc it by running forward and basic attacking, then retreating. If you've used your W, it's much harder to weave in and out without getting one-shot.\n 7) Always think about timers. This is more of a high elo tip, because I'd say the difference between diamond and challenger is the understanding and usage of timers.\n A timer is basically a period of time where you don't need to be in lane and can roam. One timer that everyone knows how to use is recalling after pushing in a wave, because you won't lose much minion gold or XP. Your timer begins as soon as you reach base, so if your ADC doesn't need you to help crash the wave, you can recall early, quickly buy items, and decide where to go.\n Things you can do on this timer are: ward for your mid laner, join your jungler for a gank (usually mid, because top is far away and your ADC will be vulnerable to enemy timers), hover your jungler to protect from a potential invade, hover your mid laner to protect from a gank, or join your jungler + mid/top laner when they are taking rift herald (frequently in very high elo). Basically, you should either try to create a lead with your timer or protect your team from enemy timers. For example, if the enemy Leona recalled and might be roaming mid, you should ping \"careful\" and \"on the way\" to potentially countergank mid.\n Another example that most people know but sometimes forget about is that when the enemy crashes a wave, they might choose to spend their timer roaming rather than recalling. For example, if Talon pushes in the wave, you should be concerned about getting ganked or even being dove 4v2, so ward your jungle and retreat if you see them coming, even if it means losing gold and XP.\n One timer that a lot of people forget about is when an enemy dies. For example, if your team kills the enemy Zed and crashes the wave, Zed now has a timer to gank bot when he respawns, so watch out!\n In the early game, if you know where the enemy jungler started (almost always bot in master and below), you want to play safer when their bot side camps are up, because that is their jungler's timer to gank you. If your jungler is also bot side and you think you win 3v3, you can continue to play aggressively and try to force a winning skirmish. Of course, try and communicate this with your team (an assistance ping accompanied by \"come countergank\" is fine).\n Perhaps the most important timer in the mid game is the mid wave timer. Before doing anything on the map, you really want mid priority. This means pushing mid as a team, and as support, this usually means helping your ADC push the wave before going to ward. Then, when the enemy is catching the wave, you now have a timer to invade jungle, place or clear vision, steal camps, bush cheese, do drake, etc. If the enemy team doesn't respect your timer, you can either make a pick if you're strong, force a favorable fight with numbers advantage while one of them is catching the wave, or just retreat and let them lose the gold and XP from the wave.\n In low elo, as long as you're playing off your own timers, you will win. Paying attention to enemy timers matters much more when climbing to high diamond and above.\n 8) When buying components for your mythic item, get Kindlegem before Bandleglass Mirror unless you need an item slot for Magical Footwear. This is assuming you're going one of the enchanter support items (not Locket of the Iron Solari).\n For example, let's say you have Amplifying Tome from first back, and on second back you can either get Bandleglass Mirror + Ruby Crystal (915g) or Kindlegem (800g). The former gains 50% base mana regen, 150 health, and 10 ability haste, whereas the latter gains 200 health and 10 ability haste. Mana regen is pretty good, but I'd rather have 50 health as I don't think Janna has severe mana issues unless you're frequently casting E.\n Of course, even better is to have Kindlegem + Amplifying Tome + Faerie Charm (your other item slots are Spellthief's Edge, consumable, and another consumable or space for magical boots).\n 9) Buy fewer control wards, and make sure you place them in safe spots. Early game, it's ok to just buy one control ward and place it in tribush for blue side or in jungle entrance bush for red side.\n Starting from the mid game, some players will buy 2 control wards on every base and spam them on the map to clear vision. This is a huge waste of gold, especially on enchanters who scale well with support items. If you place two control wards and kill one ward, you've cost 180 gold (2*75 + 30 when the enemies kill it) to gain 30 gold.\n Control wards should be placed in a safe location to set up a base of vision, prevent flanks, and deny information on your team's rotations, whereas normal wards should be used to extend map control into enemy territory. Generally, control wards should not be used just to clear a single ward unless also fulfilling one of the above purposes.\n 10) Consider saving sweeper. Try to keep track of where the enemy is. For example, if you saw the enemy support walk into your bot jungle, you can be pretty sure that it's warded. So when it's safe, you can sweep the area and clear the wards. Usually, it's safe when you have mid prio (the wave has pushed into the enemy's side and you see someone catching it) or when your team is grouping with you, which may be uncommon in low elo.\n This means don't use sweeper in an area where nobody has been, because there won't be wards there. This sounds obvious, but a lot of players will sweep an area just because they feel like it rather than thinking about where the enemy wards are.\n Also, if an objective is spawning soon, save your sweeper for when you are taking or retaking control of the area. Most people know this applies to wards and that you should ward around objectives that are coming up, but a lot of players don't apply this idea to sweeper.\n 11) If you're weak side, avoid taking trades. This matters more in higher elo. For those who aren't familiar with the terms, strong side refers to the side of the map that has a numbers advantage, or the side that has equal numbers but stronger champions (Renekton, for example) such that you would win a skirmish. Weak side is simply the opposite.\n To elaborate, when weak side, don't take trades where you will be chunked and have no way to quickly sustain back up, even if you deal the same damage to the enemy. This is because if you're weak side, usually the enemy bot is their strong side. So, even if you take slightly favorable trades and your ADC is 60% HP while theirs is 50% HP, it's easy for the enemy mid/jungler to come and gank or dive you because your team can't defend you guys bot while playing top side.\n On the other hand, it's ok and often advantageous to take slightly unfavorable trades if you expect your jungler to come gank or dive, because you will kill them much faster.\n 12) In lane, even if it's a losing matchup, you can still play actively. First, if you use the earlier tip about casting Q from an unwarded bush, eventually the enemy will use potions, alleviating some pressure. However, if you don't have bush control, you should try to bait out the enemy's spells by running back and forth just in between the maximum range of their abilities. This is called tethering, and it may help to watch a video on it before trying to do this in your own games. It also helps if you have high APM by quickly clicking back and forth. Even diamond and master players don't do this consistently.\n This can be done in most ranged matchups. For example, against Brand, walk up to him like you're going to hit him, then walk back. A lot of the time, they will use their spell at max range and miss. The idea is to slowly attack their mana pool, and you can also think of it as allowing your ADC to farm a few extra minions each time the enemy support misses an ability.\n That's all for now. I'll edit in more if I think of any.",
+   "id": "srg76q",
+   "comments": [],
+   "age_days": 1699,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How do you play against hook champs (Pyke, Naut, Blitz)? Bonus, what about Post-6 Lux?",
+   "url": "https://www.reddit.com/r/Janna/comments/snrdk8/how_do_you_play_against_hook_champs_pyke_naut/",
+   "published": "2022-02-08",
+   "author": "/u/an_angry_beaver",
+   "body": "I know hook champions are supposed to be a matchup that Janna wins, but I somehow keep losing these matchups (because I'm new / bad) :(\n I can't seem to stop them from hooking my ADC (especially Pyke). Does Q not interrupt hooks? I've also tried harassing them with Q, W to get them away from my ADC but that's gotten me hooked a few times. Any suggestions?\n Post-6 Lux has always been a nightmare for me. Q+R just deletes me or my ADC. All strategy I've read is either outdated (before the nerf to W and Janna's passive) or tells me to play an engage champion (which doesn't help me when she's picked after I pick Janna...) Thanks for your help.",
+   "id": "snrdk8",
+   "comments": [],
+   "age_days": 1704,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What we know so far. The new way to build Janna",
+   "url": "https://www.reddit.com/r/Janna/comments/s9fbxl/what_we_know_so_far_the_new_way_to_build_janna/",
+   "published": "2022-01-21",
+   "author": "/u/AzerimReddit",
+   "body": "Pokey Janna is no more.\n Welcome to the age of Janna, the peel monster.\n All data is according to https://lolalytics.com/lol/janna/build/\n Only Plat+ games taken into account. All regions. There isn't a lot of data to go with for Diamond+ games and not that much for Plat+ to begin with.\n How the build should go now:\n Glacial Augment has 58%(!!!) win rate. Aery has 53%, Guardian has 53%. Comet has 50%.\n Glacial Augment is the way to go.\n All further data will take only games played with Glacial Augment. https://lolalytics.com/lol/janna/build/?keystone=8351\n In the inspiration tree there are a lot of viable options. Footwear or Timing, Biscuit or Market and Cosmic Insight or Tonic. Biscuit Delivery + Time Warp Tonic are most likely the way to go.\n With secondary runes all other trees except Precision are viable. I recommend Font of Life + Revitalize.\n In small runes haste seems to be the best, in second and third row chose based on matchup.\n Starting item - Spellthief's Edge. Relic Shield *might* be viable or even better but there isn't enough data for that.\n Ionian Boots seem like the way to go but Mobility Boots are still viable.\n Moonstone Renewer seems like the best mythic item followed by Shurelya's. Locket and Imperial Mandate might be worth a shot, not enough data for them.\n Redemption seems to be the best first legendary item for the build. Putrifier and Ardent are still\n very good.\n Maxing order should be E > W > Q.\n TLDR:\n Janna now seems to be significantly better at peeling at the cost of lane poke. New build is Glacial Augment with Moonstone Renewer.",
+   "id": "s9fbxl",
+   "comments": [],
+   "age_days": 1722,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Some Janna Stats from lolalytics and a few rune tips!",
+   "url": "https://www.reddit.com/r/Janna/comments/s9cq7k/some_janna_stats_from_lolalytics_and_a_few_rune/",
+   "published": "2022-01-21",
+   "author": "/u/AerithRayne",
+   "body": "Edit: adding both links and screencaps of the link's info so that those on mobile aren't left behind. \n Seems that according to lolanalytic, Janna is doing well and in fact is doing better the higher the elo she is.\n In Plat+, W is the common first pick with Spellthiefs, and this has the lowest winrate of the group of 52%.\n Screencap: https://i.imgur.com/YnTUgRr.png\n In Diamond+, we see Q start and Spellthiefs with a 54%.\n Screencap: https://i.imgur.com/kihgtJG.png\n And for Master+, not only Q start but Relic with a whopping 58% AND a 20% pick rate.\n Screencap: https://i.imgur.com/A4kw4h6.png\n These could be for a variety of reasons, but it's interesting that the higher the elo, the crazier her winrate.\n Further, it seems that Jannas that wait until level 4 to pick up E have a higher winrate than picking up E at levels 1-3. Seems counter-intuitive for \"she's an afk shield bot now.\"\n (No link, just scroll down past the graphs, matchups, and builds sections)\n Screencap: https://i.imgur.com/bQoS1el.png\n Bonus: her E passive affects the 50% immediate potion heal from Tonic Warp in the Inspiration tree. It's rare we ever had heal/shield power to confirm it, but making sure everyone knows this little interaction. Neat that it gives movespeed for those who aren't putting points into W. Font of Life is, of course, benefited from heal/shield. These two runes are some of her highest winrates but are under the radar.\n Edit: Adding some extra stuff\n In Master+, she's the third most picked champ, top picked support, and top 15 for winrate overall, though those ahead of her in winrate have 6.5% or less pickrate (meaning mostly mains/OTPs). \n Maybe she's not trash tier after all.",
+   "id": "s9cq7k",
+   "comments": [],
+   "age_days": 1722,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Janna LIVE i - New Year. New Beginnings…",
+   "url": "https://www.reddit.com/r/Janna/comments/rtwwut/janna_live_i_new_year_new_beginnings/",
+   "published": "2022-01-02",
+   "author": "/u/aroushthekween",
+   "body": "https://preview.redd.it/go5ps8vy44d81.png?width=1920&format=png&auto=webp&s=cf47c01aefdd65792ed6a7d92be8a1ecdea9c231\n Mic check. Am I coming in?\n ​\n This is Janna LIVE at the r/Janna subreddit to wish you a very Happy New Year and bring you the latest developments.\n It is going to be another beautiful year for our community.\n ​\n New Look\n 2022 is here and the subreddit is shaping up to get a fresh new look and the likelihood of it being fabulous nearing 100%!\n Layout inspired by Sacred Sword Janna\n ​\n Giveaway\n I am LIVE at the scene and it is cats and dogs here!\n r/Janna have partnered up with r/SupportLoL to host a GIVEAWAY to celebrate the new year and what better way to celebrate than with a new skin!\n Do not forget to enter by commenting under this linked post.\n The winner can choose from one of these skins\n ​\n The Road Ahead\n The r/Janna team have some exciting new things planned for 2022 and I will be right back after a word from the moderators.\n ​\n Thank you Janna.\n First of all, we want to thank our community for being the most amazing people and sticking by and supporting us throughout last year.\n For 2022, we have some amazing plans and events planned for Janna mains and all we can disclose now is the beginning of matchup threads; the first one being hinted below.\n And back to you Janna!\n Does this look familiar?\n ​\n Hold onto your hats!\n With everything planned, you are in for the storm of the century. Expect big things…\n ​\n Janna signing off!\n https://preview.redd.it/hhr8t34vu5981.png?width=1920&format=png&auto=webp&s=d0ad2f4c3ac41b50d588958d308647f6c7c3f2f8",
+   "id": "rtwwut",
+   "comments": [],
+   "age_days": 1741,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Support matchups where you should not pick Janna into?",
+   "url": "https://www.reddit.com/r/Janna/comments/rpel5n/support_matchups_where_you_should_not_pick_janna/",
+   "published": "2021-12-27",
+   "author": "/u/Rooxstart",
+   "body": "",
+   "id": "rpel5n",
+   "comments": [],
+   "age_days": 1747,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Positive Outlook on the Proposed Janna Changes",
+   "url": "https://www.reddit.com/r/Janna/comments/rdnaob/positive_outlook_on_the_proposed_janna_changes/",
+   "published": "2021-12-11",
+   "author": "/u/phoebes_gladys",
+   "body": "Having accumulated over 2 million points on Janna over the past couple of seasons (as well as Chally playing Janna in S10), I think that the proposed Janna changes look pretty uncalled for, but are aiming towards the correct direction.\n This post is created directly from my own experience and thus may not apply to every Janna player out there. Feel free to leave your own take/criticisms in the comments.\n PREFACE\n To me, Janna used to be an enchanter who would peel for the AD through double tap Qs and ult, but her identity has changed significantly after her shield received decay. Maxing E in lane was no longer really an option as you would have no pressure in lane and so the Comet build arose as a catalyst to further promote what Riot appeared to shift Janna towards: a playstyle that revolved around strategy and taking risks rather than one that allowed players to just sit back safely to scale and win. This playstyle also encouraged roaming as points would be placed into W to increase both damage and MS—effectively changing Janna’s role somewhere between an enchanter who would sit bot lane to scale with AD safely to that of a disruptor who would impact other lanes as well as use Q and W movement speed more offensively than traditional enchanters would. An example of a disruptor would be Bard or Aurelion Sol who both cannot lane very effectively, and thus have to resort to roaming to make leads elsewhere. They also have abilities that close off zones (Bard Q, Janna Q) or force players to play a lot safer than usual (Bard ult, Janna MS, Aurelion E).\n CURRENT\n Fast forward to today, the identity of Janna is still controversial. Some people play her as a traditional enchanter like Lulu, others play her hyper aggressively, looking to not only win bot lane, but also to roam and impact the whole map. L9 Ap0calypse, who was well-known for reaching rank 1 in EUW as a Janna OTP, plays Janna somewhere in between, but gears more towards the disruptor role. He uses Q in lane aggressively both in lane and out of lane to secure health advantages or simply to get picks on the map that could help his team get a free drake or turret. However, he very sparingly walks up to W to harass because he knows that the risk far outweighs the reward. Think about it: Janna poke may be annoying to play against, but you can never really die to Janna unless you get hit by a tornado, which is at the moment quite unreliable. In contrast, if Janna gets caught by a CC like Lux Q early on, she disintegrates immediately unless she is running Guardian (which is very suboptimal). If worse comes to worse, recalling and building a refillable potion in combination with Legend: Bloodline, Vamp Scepter, or Taste of Blood essentially negates Janna’s poke damage.\n I would like to add here that I try my best to imitate Ap0calypse’s playstyle, so I am a strong advocate for Riot shifting Janna’s role into one that is more like a disruptor that comes with a few enchanter tendencies.\n THE CHANGES\n Refer to https://twitter.com/RiotAugust/status/1469062516370071552/photo/1 for the changes.\n Personally, I believe that all of Janna’s lane matchups are skill and knowledge matchups—if you play perfectly, you can win even the most grueling lanes like the Caitlyn & Lux combo. In contrast, if you play poorly, you can lose even the easiest lanes like Ezreal & Taric. I do however have an understanding that there are matchups where Janna simply has a tough time in, and those are the ones where Janna is faced with a ranged support like Lulu or Nami.\n Looking at the changes up front, it looks like Janna’s laning power has significantly been gutted with the reduction of her Attack Range to 500 as well as the removal of her attacks and W from dealing bonus damage based on her bonus MS. I also tried out Janna’s new W range on PBE (changed from 550 edge to edge to 650 center to center) and the range is absolutely negligible—you will still face retaliation when you walk up to W. With that said, the increase in damage for W as a compensation for the removal of bonus damage is nice, but definitely does not make up for the amount of damage Janna has now (which is still considerably poor when compared with other supports; Lulu E lv 1 = 80 base damage vs Janna W lv 1 = 55 base damage).\n Overall, these lane-centric nerfs are uncalled for especially since Janna already struggles against current meta supports and ADCs. As it is right now, it takes a lot more effort to win lane as Janna than it is to win against her. To play Janna, she needs to be played perfectly—if she missteps, she gives up the entire lane and ends up being zoned off from the minion wave. This is because most of her survivability is injected into her MS—this movement speed however does not help her sustain from unavoidable poke like autoattacks or Lulu E/Nami W. These nerfs will make her poor matchups feel worse and may increase her reliance on statcheck builds like Comet Scorch to maintain presence in lane, but we must look at these changes holistically before concluding whether these nerfs are justified.\n Before looking at the more positive changes, I just want to comment on the changes to E, which are somewhat uncalled for. In Janna’s current state, the cooldown of shield is fine as it is neither too high nor too spammable. It rewards skill expression as more often than not, Janna players are looking to land Q or W just for that crucial CD reduction on E to save our ally. I would rather they keep the shield CD and it’s CDR mechanic intact and just remove shield decay entirely. With Shield Reaver having been in the meta for a while now as well as the recently introduced Shadowflame, there is no reason why Janna who is one of the worst performing enchanters at the moment to still have shield decay. Perhaps the AD buff is underrated and thus calls for shield decay to counteract it, but I would rather the shield have a less duration than it has right now because it is currently useless during laning phase (unless you run E max scaling Aery).\n Aside from the more negative changes that affect lane presence, Janna did receive massive buffs in Q travel speed as well as in overall movement speed.\n Lots of players seem to underestimate how much faster tornadoes can travel with just 0.25 seconds difference, but you would have to test it out yourself on PBE as I did. In the current patch, Janna’s tornado is extremely slow and unreliable (even when fired from fog of war). With the upcoming Q buffs, it will not only be easier to land double tap tornadoes, but also charged ones.\n On another positive note, Janna’s base and W bonus movement speed got buffed, allowing her to roam better than ever. I was able to reach even higher MS than current patch with less resources (e.g., less points in W, tier 1 boots only, transcendence over celerity). Only downside I see is if she gets caught and is unable to run away because there are no allies around.\n THOUGHTS ON OVERALL CHANGES\n It is definitely odd to see Janna’s lane presence get nerfed when she already has a difficult time laning. Lots of people complain about Janna’s W dealing too much damage, but I do not believe those players know how to play against Janna (just auto her when she tries to poke you, poke sticks on her more than it sticks on you granted you have Legend: Bloodline, Vamp Scepter, or Taste of Blood). Because most of Janna’s survivability revolves around her MS, point-and-click autoattacks and spells greatly hinder Janna’s laning phase. The sad truth is that in order for Janna to even have presence in lane at the moment (against ranged supports), she has to either land her Qs which is unreliable or run statcheck Comet Scorch build. Even with the statcheck Comet Scorch build, Janna can get outdamaged or outsustained by supports like Lulu or Soraka who do not even need to run early game runes to maintain presence in lane. With the nerfs, it will be a lot more difficult for Janna to find angles to get free spellthief stacks as she will have to put herself at more risk to harass.\n Regardless, the buffs in Q speed will probably make up for these nerfs in laning phase as it will be a lot easier to land tornado than before. When enemy engages, a double tap tornado is more likely to hit as it is faster, allowing you or your AD to survive or to turn a fight around. Janna players who are comfortable with spamming tornado in lane without facing consequences will also use this buff to get free spellthief stacks as a fast charged tornado can be followed up with W and auto (although may put yourself at more risk this time around in exchange for a greater chance in hitting tornado).\n If laning phase still does not go well, Janna players can make use of the ridiculous amount of movement speed she gets from overall base and W MS buffs to roam and impact the map. Unfortunately, they did make it so that Janna’s tornado only deals 80% to minions, which can disrupt Janna’s free backs/roams or lane pressure. All too often after killing enemy laner, I would fire a Q at the wave and my ADC would clear it up fast while getting a turret plate, allowing us a free back with little consequence. I would also use Q to shove waves just so the enemy would have to deal with the wave before retaliating when harassed (this worked GREAT against enchanters as their wave clear is very low compared to Janna’s). This would also allow for more creative tornado angles to harass from or create prio for your jungler. Now this is not as achievable as before.\n CONCLUSION\n All in all, I am really excited for these Janna changes as this promotes the skillful disruptor playstyle over one that sits back and peels. Players are going to need to rely more on Q to do the work than simply just pressing E, which to me is great since it shows skill expression. If I were to want to play enchanter shieldbot, I would resort to Lulu, who in my opinion takes significantly less skill than Janna (unless her ult is used to cancel a dash).\n Obviously Janna’s laning phase is going to be weaker than usual, but I believe that it can be mitigated through skillful tornado placements (especially since they will be a lot easier to hit from now on). With the tornado change, it allows Janna to poke even more safely than before—just not as potent in damage. The 3 second W slow will guarantee these tornadoes to hit no matter what as well.\n 3 points in W and then E max will probably remain the dominant skill order as there is no reason to max Q. The few points in W will help Janna maintain and achieve greater movement speed than before as well as allow her to have somewhat of a presence in lane. As for runes, aggressive Comet build with Scorch and ToB may remain popular unless players opt to play a more defensive enchanter playstyle where they choose survive lane scaling Aery Absolute Focus Gathering Storm Eyeball Hunter and max E straight up instead. Whether or not it is still worth it to take Boots of Swiftness or Celerity is up to the player preference as Janna no longer deals additional damage based on her MS (and as I mentioned, Janna already gets a load of MS from buffs alone without T2 boots). I myself will opt for Transcendence as well as 8 Ability Haste, Shurelya’s, and CDR boots to upkeep tornadoes, W, and shield to disrupt enemy team.\n I have a feeling that Ap0 (https://euw.op.gg/summoner/userName=PATRiCK%20BATEMANZ) will really enjoy this mini rework as well since he uses charged tornadoes at the maximum potential, often hitting 2 or more targets with it during crucial moments of teamfights consistently.\n With this rework, tornado and roaming will be the highlight of playing Janna. Great Janna players will now clearly be distinguished from good Janna players as it entails that one must rely less on shield and more on when to roam as well as how to predict where enemies will be to make extraordinary use out of her tornado (both in lane and in teamfights).\n EDIT:\n If you are interested in disruptor Janna gameplay, feel free to watch videos of Ap0 playing Janna on Youtube, or some clips I have posted on my profile (no, I get no benefit whatsoever, plus you can learn a thing or two!).",
+   "id": "rdnaob",
+   "comments": [],
+   "age_days": 1763,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "The Janna Changes Do NOT Nerf Her Kit, Just Change Them (Discussion)",
+   "url": "https://www.reddit.com/r/Janna/comments/rdin6m/the_janna_changes_do_not_nerf_her_kit_just_change/",
+   "published": "2021-12-10",
+   "author": "/u/tdoggo12",
+   "body": "The PBE changes to Janna's kit have created a wildfire on this sub-reddit. Pretty much everyone is calling the changes a huge nerf, but they are looking at these changes with a narrow-mind. This is an unpopular opinion, but I agree with Riot and think these changes buff Janna overall. That being said, these changes come at the cost of less versatility (particularly in lane). To get a better idea on what I am getting at, here is a quick recap on what the changes are doing:\n Nerfs\n Removed movement speed scaling bonus damage\n Lower auto attack range\n Less Damage to Minions on Tornado\n Longer Zephyr Cooldown\n Removed shield-cooldown refund\n Removed Ally Mobility Bonus Towards Janna\n Buffs\n Stronger Tornado Overall (Speed/Travel Distance) \n Longer Slow Duration on Zephyr\n Longer Cast Range on Zephyr\n Stronger Movement Speed Passive on Zephyr\n Lower Shield Cooldown\n Bonus Movement Speed Towards Allies\n Any competent Janna player should see one thing from these changes--she is going to be MUCH stronger at roaming. All of these changes make her much more dangerous in a jungle skirmish or mid lane gank. If Janna chooses to put points in Zephyr early on, she has a scary level of lockdown for her jungler. Not only will she get to her allies in other lanes faster with the reworked passive, but she will also punish the enemy target with a brutal three second slow AND from a further range. The tornado is icing on the cake because the changes will make it even more difficult to dodge. These changes make roaming a lot less risky overall because they also greatly increase her self-peel. \n These changes also drastically buff her in engage support matchups. A three second slow and greater cast range makes it much easier to punish mis-positioned enemies with additional auto attacks. It will be much easier for your ADC to sneak in an extra auto attack in an active trade. A lot of people said that the 0.25 second tornado travel speed buff was negligible. It's actually a noticeable buff, in the right matchup. The current tornado hard counters Leona, Thresh, Alistar, Rakan, and Pyke and the likes with perfect timing. However, the frame for this is small. A Tornado can easily interrupt the Zenith Blade dash, but it needs to be executed VERY quickly to stop her before she gets in range for the auto attack stun. Alistar, Xin Zhao, and Akali are similar. With the travel speed buff, it will be much harder for them to close the gap with their respective dashes, even if Janna is slightly late in casting the tornado. This change also makes flash-tornado engages much harder to react to. That being said, this change is minimal to range supports, who are hardly ever close enough for this to matter to begin with.\n These strengths naturally come at the cost of much weaker trading into mage and enchanter supports. Janna will need to choose her fights carefully since she won't have the luxury of distance to get out of a bad trade. This is not inherently a bad thing though because it will set her further apart from other enchanter options. Her current Zephyr-trade pattern is not that different from a Karma or Nami. I would argue that the Janna changes are what Riot should try to do more of in the enchanter pool. A lot of the enchanters have high overlap and are chosen over one-another because of the meta or number differences instead of tactical differences in the roster.\n The changes will probably push some Janna players away, but also bring new ones in. If you like to stick to your carry in lane and focus on maximizing peel upkeep, there are better options. If you prefer a more macro-oriented support with high impact CC and mobility, this Janna rework is near perfect.",
+   "id": "rdin6m",
+   "comments": [],
+   "age_days": 1764,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Movespeed build or CDR build for Janna? I'm torn.",
+   "url": "https://www.reddit.com/r/Janna/comments/qr0tvs/movespeed_build_or_cdr_build_for_janna_im_torn/",
+   "published": "2021-11-10",
+   "author": "/u/Sirenprince",
+   "body": "Celerity + Swiftness boots (maybe even Waterwalking) for a more speedy Janna playstyle with roams to help the team? Or Transcendence + Lucidity boots for less cooldown on your skills?\n I've tried both and I like... both. Though when I go for CDR and less movement, I feel myself so slow getting anywhere. And when I go for celerity + swifties, I feel like my cooldowns are too long, especially my ult, I've been trying out ultimate hunter with taste of blood instead of ravenous hunter, and actually having my ult up earlier for certain situations really does help.\n I haven't played much this season, only enough to get to Gold, because I've been focused on other games lately, but depending on the season I go for Plat/Diamond if I'm invested in league.\n Also... Aery or Comet? I just feel like Comet puts so much pressure in lane and has such synergy with her W. I really like the extra shield from Aery though.\n I also like going into the Resolve tree (secondary) sometimes to get Revitalize and Bone Plating.\n Sometimes I even go full Guardian + relic shield if the enemy lane matchup is too hard.\n there's just too many choices aaaaaaaaaaaa I don't even know why I like playing Janna so much, even considering she's like garbage rn compared to other enchanters and other supports, but I've been playing her as my main since season 1, sigh",
+   "id": "qr0tvs",
+   "comments": [],
+   "age_days": 1794,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "This is the only way to win in the Yuumi Matchup",
+   "url": "https://www.reddit.com/r/Janna/comments/qdvd78/this_is_the_only_way_to_win_in_the_yuumi_matchup/",
+   "published": "2021-10-23",
+   "author": "/u/HalexUwU",
+   "body": "",
+   "id": "qdvd78",
+   "comments": [],
+   "age_days": 1812,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "So this is a new item getting added to the preseason me thinks and maybe it could be good on Janna. Like it would be probably better than Mandate in matchups, where the defensive stats would be good for you, for example when they have lots of assassins or idk. The passive also procs on her Q W and R",
+   "url": "https://www.reddit.com/r/Janna/comments/qbptyn/so_this_is_a_new_item_getting_added_to_the/",
+   "published": "2021-10-20",
+   "author": "/u/0Rutra0",
+   "body": "",
+   "id": "qbptyn",
+   "comments": [],
+   "age_days": 1815,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Janna vs Braum",
+   "url": "https://www.reddit.com/r/Janna/comments/m6jirl/janna_vs_braum/",
+   "published": "2021-03-16",
+   "author": "/u/iMachs",
+   "body": "I am an otp Janna and i find it difficult to play vs Braum i mean i thought i can just go aggresive and poke him but he can jump to his allies. \n ​\n Also I saw another Janna matchups have been talked about over the years on this subreddit and it would help if we all could make some updated tricks and play styles for every matchup!! :p",
+   "id": "m6jirl",
+   "comments": [],
+   "age_days": 2033,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "The Ultimate Compilation of Matchups in League - And How You Can Help it Grow!",
+   "url": "https://www.reddit.com/r/Janna/comments/l21xlr/the_ultimate_compilation_of_matchups_in_league/",
+   "published": "2021-01-21",
+   "author": "/u/OrbitalPandaXYZ",
+   "body": "Hey everyone! My name's Orbital Panda and I'm currently creating a matchup guide compilation for every champion in the game! While it's only a google doc as of right now, the ultimate goal is to expand it into a full fledged website that'll act as a central hub for all things educational league content. Here's a link to the spreadsheet as is https://docs.google.com/document/d/1W_sKM_p2tDofHD8wGCb--PKEF0MFqyqDPuWbzvgs4GA/edit?usp=sharing\n Currently, I'm still gathering content to display. The majority of champs don't have easily accessible matchup guides, and those that do are often incomplete, outdated, provide little information, or various combinations of the aforementioned issues. For this reason, I'm asking the community at large to provide their own matchup spreadsheets, as well to share any that they have found useful in the past.\n Yes, Timmy, this means I want your hastily scribbled, heavily biased notes. I know you've played 20 games of League in the last year and still call yourself hardstuck silver, but I still want that spreadsheet.\n On the other hand, if you can call yourself a distinguished one trick in some way than I'd appreciate your input even more, and I can show you some of it through putting down your name, your twitch and other related socials ;)\n If you'd like to contribute anything to this project whatsoever, please don't hesitate to contact me through the channels listed below! I will have to ask for you to avoid DMing me on Reddit however, as I seldom check it.\n Discord: Canada#0579\n Email: orbitalpandastreaming@gmail.com",
+   "id": "l21xlr",
+   "comments": [],
+   "age_days": 2087,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I would appreciate any matchup information about Braum for a guide I am writing",
+   "url": "https://www.reddit.com/r/Janna/comments/kilxds/i_would_appreciate_any_matchup_information_about/",
+   "published": "2020-12-23",
+   "author": "/u/VapeLord172",
+   "body": "Hello! I am currently writing a guide on Braum and right now I am working on the matchups section. I know the general outline on most matchups but, as I don't play every support, I'm not entirely sure if my information is correct. Would any of you be able to write some info or some cool tricks about your champ and how they match-up against Braum? Any information is greatly appreciated and I will try to be active in the comments :)\n Here is the link to the guide if any of you are interested: https://www.mobafire.com/league-of-legends/build/10-25-new-season-11-braum-support-guide-in-progress-587431",
+   "id": "kilxds",
+   "comments": [],
+   "age_days": 2116,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "My personal (somewhat optimistic) take on Janna in Season 11",
+   "url": "https://www.reddit.com/r/Janna/comments/j87dls/my_personal_somewhat_optimistic_take_on_janna_in/",
+   "published": "2020-10-09",
+   "author": "/u/Noah__Webster",
+   "body": "Before I discuss the new items next season, I would like to establish a few ideas that guide these opinions. Also, I apologize for the incoming wall of text lol. \n Janna is a unique champion in that she is an enchanter, but she also has access to very strong peeling tools that allow her to scale extremely hard regardless of how they tune her damage and other numbers in her kit. On top of that, she currently has a relatively strong laning phase that often has advantageous matchups into certain champs that might otherwise be a problem for other enchanters. I personally think that with W max and comet, she is even or favored into almost every matchup that isn't a long rage mage support pick. And a lot of the \"even\" matchups are skill matchups that you can absolutely win. \n On top of that, she is basically meta proof. Enchanters can struggle in metas that aren't more focused on front-to-back teamfighting, but her insane peel somewhat negates that weakness. And then she is obviously great in tank/ADC-centric metas as well, like most enchanters. \n I see Janna as having two primary strengths, currently. Her laning phase and her ability to scale into a teamfight/peeling monster. This is shown in her current builds today. The Comet/W max build indexes into her laning phase, but she still scales really hard. Something like Aery/Guardian with a 2-3 points in W and then an E max scales harder and indexes more power into late game away from the laning power she holds. I think that this trend will continue so long as she doesn't undergo any large changes. The comet style has been considered stronger for a while, but it appears that an Aery build (still going Domination secondary and maxing W) that is more down the middle of the all-out aggro set up is statistically slightly better right now, but it is less popular. \n However you want to build her, her kit will always allow her to scale and be relevant come teamfighting. \n That being said, I see her builds going one of two ways with the new items. It will depend on the meta and the final strength of the items, but I really do think she will still be fine regardless of which is her \"go to\" setup, and I see the potential for her being broken with one of them. But as I've said, her kit scales so well, I just don't see her ever being that weak with her current kit. Yes, enchanter itemization seems to be weaker in the current iteration, but I don't think it is as severe as people think, and Janna can still scale well independent of items.\n Defensive Setup: Aery/Guardian\n\n Realistically any of the mythics could work, but I see Locket as the most likely in this setup. I think people are hugely sleeping on the strength of locket through the passive (remember how OP old locket was?) and how fat the shield active will be. Renewer could be good if it keeps getting buffed, especially with the haste passive. Shurelya's seems generally good and universally useful. The new Imperial Mandate still could be bought without going full aggro mode, also.\n\n 2-4 points in W, then E max. Maybe rarely straight E max, but I don't see it with her current numbers.\n\n Survive and scale\n\n Pick Enchanter items based on the game state, focusing on utility and prioritizing stacking ability haste. \n\n In this setup, I see Janna going Aery/Guardian depending on lane matchup/comps. This is when you just want to scale and you don't think you can win lane. \n People seem to be under the impression that this iteration will be very weak, but I'm not that convinced. I do think it will be slightly weaker than a defensive setup on live, but I don't think it's a massive difference. You will have less AP, but you will most likely have more CDR and heal/shield power. Something to keep in mind is that Janna scales incredibly well with CDR. It gives her more access to her peeling, and any ability that gets reduced by flat amounts, such as the shield, loves it even more. You can very realistically get up over 40%/45% equivalent with AH. 100 AH is equal to 50% CDR, and you get 50 right off of Lucidity Boots, Transcendence, and your mythic, which is the same as 33% CDR. \n Another thing to consider is that Heal/Shield power is effectively the same as AP if you don't care about your damage. For example, 50% H/S power would increase the size of your shield by the same amount as ~158 AP. It would also effectively increase your AP by 50% when applying shields or healing. It also allows things like Locket or Renewer to scale off of items when they don't have AP scalings. \n With heal/shield power being more plentiful, shields should only be slightly smaller due to the smaller amounts of AP in the builds. And the extra CDR enhances the rest of your kit. I'm optimistic that she will be at least a 50% WR champ, even if there are no buffs to the current enchanter item iterations. \n New Version of Current W/Comet Setup: Comet (Domination secondary for cheap shot)\n\n At least 3 points in W\n\n Imperial Mandate first\n\n Goal is to actively win lane\n\n Still scale into late game with other enchanter items, but leverage your early power\n\n First off, I just want to say that Imperial Mandate is absolutely nutty. I'm pretty sure it is going up on PBE in like an hour, and I'm pretty convinced it's gonna be absolutely broken. I'm gonna try to test it tonight. \n So the W focused Janna build doesn't really scale all that hard with AP, so the lack of AP in the new items isn't that worrying (plus she'll just go Mandate and Staff of Flowing Water and still have relative amounts of AP, if not more than Live if she wants AP). Your W gets a lot of its damage from scorch, cheap shot, and the guaranteed comet hit with the slow. Adding 100 guaranteed (and potentially double that) on a 6 second cooldown will be absolutely broken. The W build is already very strong, and this Imperial Mandate appears to give that build an even stronger first item spike than Athene's on live. \n For comparison, Luden's on live has a proc of 100 damage with a 10% AP scaling. Imperial Mandate will be 100 guaranteed damage on a 6 second cooldown at level 7 (80-140 based on level is ~+3 per level). If your ally procs the mark, that's 200 damage at level 7. Comet does 30-100 based on level and with a 20-8 second CD with only a 20% AP scaling, and it's already great on her. Your basically getting a second, stronger Comet that can't miss. And that's without the doubled damage from an ally proc.\n I can't put into words how broken this seems. Even if the damage were halved on the Mandate passive, I think you still buy it for this setup and it still seems very strong. \n And you still just buy enchanter items afterwards, max E second, and you're only marginally weaker in teamfights at level 13. You still scale insanely well. \n I think the Imperial Mandate/Comet setup will be stronger, and I don't think it is currently balanced. But even if that gets removed, I think you just go Shurelya's with Comet or just go a more defensive route.\n Overall, I'm generally optimistic that Janna will still be a strong solo queue champ. She always has been, and I don't think she's ruined. I think she will be weaker if Imperial Mandate is nerfed/removed, but I still think she'll be strong. I think we are kinda spoiled by how strong she has been for so long.",
+   "id": "j87dls",
+   "comments": [],
+   "age_days": 2191,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "URF Janna",
+   "url": "https://www.reddit.com/r/Janna/comments/j77m98/urf_janna/",
+   "published": "2020-10-08",
+   "author": "/u/DragonWarlock7",
+   "body": "I’ve been playing a lot of Janna in URF lately. It’s so much fun and I’m glad the Q cd was correct from the start this time. I’m looking for suggestions/fun builds to try cuz I’ve been basically going the same-ish build with minor modifications based on matchups.\n Aery > nimbus cloak > celerity > water walking\n Cheap shot (which feels underwhelming at 200 average damage) > relentless hunter\n Ghost & Flash so I can go zoom and boom.\n Spellbinder > Morello(if needed)/Sorc shoes> Deathcap/Voidstaff (if needed) > Banshees/Zhonyas (or both) > deathcap (if I didn’t get it earlier) > more spellbinder if I have an open slot/no situational item needed, with the occasional Athene’s 2nd/3rd item if needed. \n Max Q (for massive poke and wave clear) > E > W\n I still usually do the least damage on my team sitting at ~50% win rate in the past 20 games. And even if I’m solo mid and denying the enemy mid scale/farm/plates cuz that’s what Janna excels at, while scaling myself, if a sideline goes out of hand it’s hard to carry or help the team, but it’s still fun regardless, and possible especially if the other side lane is fed.\n I tried the empowered healing/shielding build once but I was doing less shielding and healing than what most broken heals in URF do, so I drifted away for more damage.\n Just curious what y’all do if you play Janna URF and if there’s another fun build I could try that would make for an interesting game.",
+   "id": "j77m98",
+   "comments": [],
+   "age_days": 2192,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Have some questions about Janna since i'm pretty new at her and support role.",
+   "url": "https://www.reddit.com/r/Janna/comments/isiw1x/have_some_questions_about_janna_since_im_pretty/",
+   "published": "2020-09-14",
+   "author": "/u/FabioSxO",
+   "body": "I'm pretty new at support and Janna, which items do you typically buy first/second/third backs as Janna? Imo boots are pretty good on Janna but don't know if they are the right call.\n Then when would you go Ardent and when Athene first item?\n What's are your core items? \n What are her powerspikes in terms of levels and items? \n How do you use your Q versus matchups like Lulu/Nami/Soraka/etc? I know that her Q is rlly good versus champs like Thresh to peel off their engages but don't know versus Poke/Enchanter supports.\n When would you build Shurelya and when Mikael? As which item? second? third? fourth?\n Any video/guides you recommend?",
+   "id": "isiw1x",
+   "comments": [],
+   "age_days": 2216,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How do you play against a Nami support? Is it a skill matchup?",
+   "url": "https://www.reddit.com/r/Janna/comments/h79uvl/how_do_you_play_against_a_nami_support_is_it_a/",
+   "published": "2020-06-12",
+   "author": "/u/match_replay_alytics",
+   "body": "",
+   "id": "h79uvl",
+   "comments": [],
+   "age_days": 2310,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Janna matchup tierlists",
+   "url": "https://www.reddit.com/r/Janna/comments/gm88wr/janna_matchup_tierlists/",
+   "published": "2020-05-18",
+   "author": "/u/IPaINiC",
+   "body": "Hi guys, im a high diamond euw janna player. I made some tierlists for janna matchups. I hope you can learn something from it and if you want to correct something you can write it down.\n I have to say, this is just the laning matchup! Sure u can go 0/0/0 out of the lane but thats not carrying in my eyes.\n To my janna:\n -aggressiv playstyle\n -comet, manaflow band, transcendence (more def)/absolute focus (more aggressiv), scorch\n -taste of blood with ghost pro (aggressiv) or bone plating with revitalize (def)\n -2x adaptive force, mr only if heavy ap in the enemy team\n ​\n Janna vs adc tierlist\n Janna good with adc\n Janna vs supp",
+   "id": "gm88wr",
+   "comments": [],
+   "age_days": 2335,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Finally achieved diamond for the first time, playing only janna & nami :D",
+   "url": "https://www.reddit.com/r/Janna/comments/f2kbz9/finally_achieved_diamond_for_the_first_time/",
+   "published": "2020-02-12",
+   "author": "/u/blackcoffeeuwu",
+   "body": "It sure has been a wild ride, but I guarantee anyone can climb to this rank as long as you are dedicated enough!!! \n I wanted to post this just in case anyone had any questions. I am more than happy to help answer them. When I was in gold I was very confused about some things regarding matchups/builds, so I wanted to be that person who can help, or if you’re just curious for anything. \n My opgg: \n https://na.op.gg/summoner/userName=Bad+coffee",
+   "id": "f2kbz9",
+   "comments": [],
+   "age_days": 2431,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Janna Mains Moving Forward!",
+   "url": "https://www.reddit.com/r/Janna/comments/dybcgt/janna_mains_moving_forward/",
+   "published": "2019-11-18",
+   "author": "/u/chaserofthemoon",
+   "body": "Dear people of the subreddit, \n Your voices have been heard! It's nice to meet you all, I am chaserofthemoon, also known as moon, and I am the owner of the official Janna mains discord. People have pointed out that mods weren't active on the subreddit and I wasn't aware of it but now that I am made aware I will take it into my own hands to give this subreddit the attention that it deserves. Together with other mods we'll try to bring the community back together! \n Moving forward a few points that we want to bring to your attention: \n - Revamping the clubs list: what this means is that we will try to reach out to everyone that is on the list right now, update it so the summoner names will be the right ones and all the requirements needed to join it. \n - Making sure things are correctly visible with new-reddit \n - Hosting a tournament: there will be a 1 v 1 tournament hosted in the Janna Mains Discord and we are looking at the weekend of 6 to 8 December! It's been a while since we've hosted one so we hope to see people join it. More information will be posted about the tournament on the subreddit and in the Discord. \n These are only a few things of course but we all have to start somewhere! People also mentioned threads about matchups, this will still need a bit more time before we get this going since we aren't sure yet how exactly we will do this to make it the best possible. Ideas are always welcome by leaving a message on this thread or messaging me personally on the subreddit. \n I hope you all feel a bit more comfortable now and I'm looking forward to seeing your posts on the subreddit and hopefully a visit in the Discord! Leave a message here with feedback you want to give, and I will get back to you as soon as possible.\n (Now I'm also crossing my fingers that the layout of this post will be ok because of old/New Reddit and me being a newbie/dummy)",
+   "id": "dybcgt",
+   "comments": [],
+   "age_days": 2517,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to handle matchups outranged?",
+   "url": "https://www.reddit.com/r/Janna/comments/csiq0z/how_to_handle_matchups_outranged/",
+   "published": "2019-08-19",
+   "author": "/u/greenSharkk",
+   "body": "Vel'koz, Lulu, etc. I go coin to reliably earn gold, but I want to use spellthief's and not have 0 income",
+   "id": "csiq0z",
+   "comments": [],
+   "age_days": 2608,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Diamond Janna video guide - Items, Matchups, Runes and basic tips (4:18)",
+   "url": "https://www.reddit.com/r/Janna/comments/ai0m8y/diamond_janna_video_guide_items_matchups_runes/",
+   "published": "2019-01-20",
+   "author": "/u/SwaggyBone",
+   "body": "Hey guys!\n I've decided to make a guide of my main Champion, Jann!\n This guide contains basic things like items, runes and lane matchups, my goal was to keep it short.\n Let me know if you like this video!\n https://www.youtube.com/watch?v=mQ6-tPzgpWE\n I am a support main and regularly Streaming on www.twitch.tv/Jaylinkin",
+   "id": "ai0m8y",
+   "comments": [],
+   "age_days": 2819,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Brand Matchup mechanics",
+   "url": "https://www.reddit.com/r/Janna/comments/8yn5b1/brand_matchup_mechanics/",
+   "published": "2018-07-13",
+   "author": "/u/Moflete",
+   "body": "Hello Guys! I was just playing some normals and found out about an amazing trick you can use against Brand.\n So Brand deals just a lot of damage and your adc will die quickly if he's not careful, but a Janna support is the exception to that rule. Turns out that if you max E and stay always at the same level as the enemy Brand, your E+aery, when decayed by 1 second, will shield EXACTLY the same damage of Lava-man's W. \n I found this out when a Draven adc just kept running into brand's abilities and got a seriously decaying health bar. I went to check some statistis and apparently it is true during laning phase. Because of that, if you use your E as soon as the W animation appears, it will be completely negated!! Even more, if your timing is right and shield the damage before 0.75 seconds, a bit of the shield will remain, securing the best short trade EVER with the enemy botlane.\n This is just an insta-tilt for the enemy brand because eventually your shield will be on a lower cooldown than his attacks (with inspiration secondary runes), and poor Brand will do exactly no damage to your adc in lane. \n Of course, because we are the best and only Janna mains; our Janna dodges all of the mentioned W's (with her excessive mobility), and dear Brand can forget about countering you.\n Try this out and you will realize how effective it is. If your adc actually helps you trade, YOU WILL STOMP AS THE ULTIMATE JANNA GOD YOU ARE.\n Thanks ;)",
+   "id": "8yn5b1",
+   "comments": [],
+   "age_days": 3010,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Janna Full Build/Matchups",
+   "url": "https://www.reddit.com/r/Janna/comments/8jr7v3/janna_full_buildmatchups/",
+   "published": "2018-05-16",
+   "author": "/u/JannaOP2k18",
+   "body": "Whats a final full build on Janna?\n Also, what matchups are favorable for Janna? I played against a miss-fortune recently and I basically got shit on. Still won, but still. Any tips?",
+   "id": "8jr7v3",
+   "comments": [],
+   "age_days": 3068,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Any Season 8 Guides for Maining Janna?",
+   "url": "https://www.reddit.com/r/Janna/comments/8dv7j8/any_season_8_guides_for_maining_janna/",
+   "published": "2018-04-21",
+   "author": "/u/tsukuyomin",
+   "body": "Hello there! I'm rather new to the League, starting out about 2 weeks before 2017 World Championship. I've barely played solo q (around 20-30 games) but I'm working on it. I'm currently a support main, is there any good guides out there that I can refer to and hopefully add Janna to my champ pool? Also, any links about how to play against different kind of bottom lane matchups would be nice. Thanks for your help!",
+   "id": "8dv7j8",
+   "comments": [],
+   "age_days": 3093,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "When do you take coin over spellthief?",
+   "url": "https://www.reddit.com/r/Janna/comments/8c9pqq/when_do_you_take_coin_over_spellthief/",
+   "published": "2018-04-14",
+   "author": "/u/LordofLMaD",
+   "body": "I know to take coin in matchups where it's hard to poke and/or if your adc just needs to farm. But what specific champs/matchups should I take coin?",
+   "id": "8c9pqq",
+   "comments": [],
+   "age_days": 3100,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I love maxing W over E in a lot of matchups now",
+   "url": "https://www.reddit.com/r/Janna/comments/7dq0p5/i_love_maxing_w_over_e_in_a_lot_of_matchups_now/",
+   "published": "2017-11-18",
+   "author": "/u/justforweed",
+   "body": "So much guaranteed dmg with Aery!! Janna still feels super strong this preseason. YOur guys' thoughts?",
+   "id": "7dq0p5",
+   "comments": [],
+   "age_days": 3247,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Quick Thoughts / Discussion About Janna's PBE changes",
+   "url": "https://www.reddit.com/r/Janna/comments/6sl544/quick_thoughts_discussion_about_jannas_pbe_changes/",
+   "published": "2017-08-09",
+   "author": "/u/Chopsticks77",
+   "body": "Janna received some nerfs / changed on the PBE: https://gyazo.com/d4d67a081f41193154e899073880ce78\n The CD of her Q and E are increased (3s each), also E mana cost up (+20 mana). However, she is rewarded when using W on an enemy champion (-2s CD on all spells; +40-80 mana) and W has no cost. Following these changes, Janna's play style will probably need to be slightly adjusted. But not all is bad news!\n The Positive\n Effect on R\n A positive interaction with her new W is that Janna players that use W on enemies more often will be rewarded with a lower CD of R. Therefore, post-6 (and after using ult); using W whenever possible on enemies could also be a strategic option to progressively decrease R CD.\n Potentially slightly stronger EW (QW) spell rotations in team fights mid-late game (with 45% CDR)\n The -2s CD reward from W does not counterbalance the 3s increase (nerf) in CD for Q and E early game (given 10% CDR). With 45% CDR however, E can be used again after 5.15s [7.15s - 2S (from W)] (vs 5.5s pre-nerf @45% CDR). More precisely, Janna's EW rotation of spells in a fight can theoretically be: E, W ...[delay of 5.15s for E]... E...[delay of 4.6s for W]...W... [remaining delay of 0.55s for E]... E. (cast time was considered 0, so these are not 100% accurate). Similarly, Janna can Q more frequently with the repeated W reward. Needless to say, Janna ideally should not W-E, but E-W instead. In addition, Janna is less likely to go OOM during team fights with W mana reward. Since, W has no cost; Janna can W an enemy to gain 80 mana (lvl 5). Sometimes this may give Janna just enough mana to cast R or E in a fight while OOM for \"flashy\" Janna mechanics!\n The Negative\n Janna may become more vulnerable\n Janna may need to place herself in more vulnerable positions in order to benefit from the W rewards (risk vs reward). Also, the increasing use of W makes her lose her W passive more often, potentially making her vulnerable when used unfavorably. This means that no-boots Janna build may no longer be viable if a player wants to gain W rewards as often as possible. In addition, because of this increase in vulnerability, full gold per 10 runes on Janna will be riskier than before. These factors are examples that also indirectly delay Janna's ardent censer power-spike.\n Side note about gold generation: On top of mana and gold coins in lane, coin line has contributed in making Janna a snowballing monster. More precisely, if Janna's team is winning, Janna will close out the victory relatively easily most of the time, by design. What does this have to do with coin-line? Given that Janna is a support that usually gets a ton of assists easily (particularly in those \"winning\" games) Janna has an insane synergy with coin's additional 40 gold coin from assists. Hence, getting more gold from coin itself than other supports on average. That feeling when coins come flying at your body (sometimes dead) during team fights :)\n Janna's early levels are even weaker, particularly vs poke\n With the current Janna CD on E, she can pretty much shield the ADC for every single trade, and more (e.g. shield to increase noob ADC's AD to help them not miss the juicy canon minion XD). Needless to say, shielding the ADC (or Janna) will now need to be more selective in lane and will not be able to shield repeated \"optimal\" offences from enemy poke (i.e. enemy poking as soon as their CD are done) [see comparisons below]. Also, E mana cost are increased; but that will be a smaller issue in lane with mana coins, however mana coins were recently nerfed so we will see how that plays out.\n Sheild vs Poke CD comparisons (vs aggressive poke match-ups):\n Janna's LIVE Sheild CD level 1 (10% CDR): 9.0s\n Janna's PBE Sheild CD level 1 (10% CDR): 11.7s\n Sona's Q with Spelltheif (5% CDR): 7.6s\n Nami's W with Spelltheif (5% CDR): 9.5s\n Lulu's Q with Spelltheif (5% CDR): 6.6s\n Conclusion (TLDR)\n Altogether, the PBE changes on Janna reduce her effectiveness in lane, increase her skill expression (rewarding spell rotation) and potentially make her more vulnerable (increase risk). These alterations are probably the result of her dominance and effectiveness in solo/duo queue, particularly in higher elo where she is siting at 57% WR (#1) and 30% pickrate (#1 for supports) (see: http://diamond.lolalytics.com/champion/Janna/). Her dominance was a combination of several factors, including her peeling strengths by design, buffs to ancient coin line as well as her particularly strong synergy with ardent censer and compounding effects of healing / shielding items & windspeaker's blessing; and finally previous nerfs to certain hard match ups (e.g. malz, lulu, zyra).\n That's all I could think of for now, but may add more later with your help!\n Additional thoughts about new Janna? \n With the new W, is spellthief Janna an alternative option in certain matchups?",
+   "id": "6sl544",
+   "comments": [],
+   "age_days": 3348,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Becoming a Janna main! What are good/bad matchups with Janna?",
+   "url": "https://www.reddit.com/r/Janna/comments/5ww4cn/becoming_a_janna_main_what_are_goodbad_matchups/",
+   "published": "2017-03-01",
+   "author": "/u/kolvenik",
+   "body": "Hello fellow Janna mains! \n I've been playing LoL for 1 year. Last season i got to Gold 5 as Bard main. This season I played less games and got to Silver 3, got tilted and dropped to Silver 5 so I picked Janna... dude, she got me from Silver 5 to Silver 3 50LP in 2 days with +80% win rate wtf.\n So, I was wondering, what are thos echampioins you hate lane against? And, in the other hand, champions (supports) who you know that is gonna be free lane?\n Sorry for gramatical mistakes, english is not my first language. Thank you all for your answers.",
+   "id": "5ww4cn",
+   "comments": [],
+   "age_days": 3509,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Janna runes",
+   "url": "https://www.reddit.com/r/Janna/comments/5n7y60/janna_runes/",
+   "published": "2017-01-10",
+   "author": "/u/Viscachacha",
+   "body": "Hello everyone.\n I have 20 rune pages and use precisely 3 of them. I only have 1 standard ap page with the usual mr, magic pen, ap, etc. I'm kind of clueless about runes, so I was wondering if someone could provide me with some good pages for specific matchups, ie: aggressive, defensive, tanky, etc.\n Thanks! :)",
+   "id": "5n7y60",
+   "comments": [],
+   "age_days": 3559,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Bard vs Janna Matchup Discussion",
+   "url": "https://www.reddit.com/r/Janna/comments/5ic0ja/bard_vs_janna_matchup_discussion/",
+   "published": "2016-12-14",
+   "author": "/u/WindWielder",
+   "body": "Hey everyone! I'd like to start discussing bot lane matchups with Janna, starting with Bard since he was requested. Anyone from /r/Janna or /r/Bardmains is welcome to contribute! Be sure to mention which side of the matchup you play. Some topics to discuss can include but are not limited to:\n Lane Strategy and Counterplay\n Itemization\n Synergies with ADCs and Junglers \n Runes and Masteries \n Teamfight Strategy",
+   "id": "5ic0ja",
+   "comments": [],
+   "age_days": 3586,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  }
+ ]
+}

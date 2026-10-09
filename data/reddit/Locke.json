@@ -1,0 +1,25 @@
+{
+ "champion": "Locke",
+ "subreddit": "lockemains",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "How to play yone matchup?",
+   "url": "https://www.reddit.com/r/LockeMains/comments/1uyycrx/how_to_play_yone_matchup/",
+   "published": "2026-07-17",
+   "author": "/u/FrostWareYT",
+   "body": "Hi there, I need some advice on how to win against Yone. I've always had a tough time going against that abomination of champ design on any character, but I REALLY can't seem to CS or secure kills against him on Locke. What do I need to do to beat him?",
+   "id": "1uyycrx",
+   "comments": [],
+   "age_days": 84,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  }
+ ]
+}

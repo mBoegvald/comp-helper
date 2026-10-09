@@ -1,0 +1,932 @@
+{
+ "champion": "Gnar",
+ "subreddit": "gnarmains",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "Trundle Matchup",
+   "url": "https://www.reddit.com/r/GnarMains/comments/1wwm3me/trundle_matchup/",
+   "published": "2026-10-03",
+   "author": "/u/_rockroyal_",
+   "body": "It seems like Trundle should be a pretty favorable matchup for Gnar (just based on stats), but I can't figure out how to play the lane. You definitely can't fight him (makes sense, Trundle is a stat checker), but that means that I feel forced to play very passively since he can always just run through the wave at me. Is there more to this matchup that I'm missing?",
+   "id": "1wwm3me",
+   "comments": [],
+   "age_days": 6,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I've been bronze support for 5 years! Gnar helped me get to gold and it's so validating. Much love to fellow Gnar players <3",
+   "url": "https://www.reddit.com/r/GnarMains/comments/1wru552/ive_been_bronze_support_for_5_years_gnar_helped/",
+   "published": "2026-09-27",
+   "author": "/u/PM_ME_lM_BORED_",
+   "body": "I know it's still low elo! I'm just a 30-year-old guy who started playing with my buddies 6 years ago, and this felt great and wanted to share! \n For context: I played with my friends as support for years. Only ever made it to silver when I duo'd. My mechanics have been shit since I never grew up with PC games. I had even told my friend once, \"I know I'll never be more than bronze level, and I'm okay with that.\" \n Then league released WASD and controller support (which I know is controversial). Still, I got an Azeron, and I felt that EVERYTHING felt smoother. Made me enjoy the game a lot more, and I could focus on learning, macro, items, wave state, etc, since I wasn't putting all my focus into piloting a champ. I could also venture out of support since I could hold my own. \n For discussion if anyone reads this far: what are some tips you have for matchups? Not even difficult ones, even matchups that you consider free, and what makes them free. \n My own enlightening matchup was Darius, who I've now beaten every instance (only four tbf). It took one game where he ulted me from 75% health to zero as mini that made me realize I would forever aim to just go even in lane, and only fight if conditions were perfect. The moment runs towards me, uses a summoners, anything, I'd just dip without any hesitation. Eventually, they get frustrated and do something dumb like tower dive, or constantly push the wave in and not realize my jungler is around the corner. \n My toughest matchup is 1) Morde and 2) Sett, but I think it's because I haven't went against them too often. \n Anyway, hope this is allowed! I'm taking a break after grinding lol.",
+   "id": "1wru552",
+   "comments": [],
+   "age_days": 12,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Mordekaiser matchup",
+   "url": "https://www.reddit.com/r/GnarMains/comments/1w9chxy/mordekaiser_matchup/",
+   "published": "2026-09-07",
+   "author": "/u/phantomdancer17",
+   "body": "What is the general gameplan against Mordekaiser?\n I was ahead 30cs and 2 kills. He clicks ult on me whole Mega and autos me to death.\n What am I supposed to do? Throw away 1200g for one champion that is not even ahead?",
+   "id": "1w9chxy",
+   "comments": [],
+   "age_days": 32,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Has anyone had good games vs Jax or Heimer",
+   "url": "https://www.reddit.com/r/GnarMains/comments/1uqzvk1/has_anyone_had_good_games_vs_jax_or_heimer/",
+   "published": "2026-07-08",
+   "author": "/u/Cluosion",
+   "body": "I’m losing faith in gnar cause of stuff like Jax QAAW combo doing so much damage to mini letting him gatekeep wave and a majority of the lane using e to win trade then repeating QAAW to chunk me hard.\n Similarly with heimer I feel like I always lose lane and I just have to stay afloat then make up for it with macro plays to win.\n I am just not sure how to win these matchups consistently, I feel like with a good enemy laner you just lose to Jax as gnar in lane and then he will have really high macro value after lane especially if he kneecapped your cs/min.\n Any thoughts or strategies that yall have found to work? or are yall feeling the same right now?",
+   "id": "1uqzvk1",
+   "comments": [],
+   "age_days": 93,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Introducing the Gnar statik build",
+   "url": "https://www.reddit.com/r/GnarMains/comments/1u7lzgr/introducing_the_gnar_statik_build/",
+   "published": "2026-06-16",
+   "author": "/u/Orobou",
+   "body": "I tried engineering a gnar statik build recently and using it in master elo (for like 40+ games). It kinda works, so I wanted to share it with you!\n Pros: You can cheese a lot of matchups (especially squishy ones like Teemo, Yasuo, Vayne, Varus), you have high sustain, movespeed, splitpush pressure on the map, really good for snowball\n Cons: You are half as useful in fights, your allies will flame you, not too good if you are already losing\n ----------------------------------------\n The trick with this build is to take advantage of some synergies:\n - Jack'of'all'trades and Doran Helmet/Statik Shiv + Lifesteal boots + health regen or CDR item : you can reach 10 stats with these (easy +25 damage)\n - Statik shiv x Hullbreaker procs together (hullbreaker's 5th attack deals extra damage, each statik thunder add a stack)\n - Statik shiv x Titanic, Terminus, Wit's end, BOTRK all proc on-hit too (Terminus even add extra stacks), though I mostly recommend Titanic because you might need some HP\n - Omnivamp lifesteal with Statik is great\n Once you complete statik shiv, your waveclear and structure damage become ridiculous, you get lane prio against most enemies which allows you to roam or defend turrets more easily. With hullbreaker + statik alone you have 410 MS so enemies have a really hard time catching you too! To carry, you just splitpush 90% of the time\n I'd say it's less strong than the standard Trinity build, but pretty nice for cheesing tough matchups and snowballing.\n ----------------------------------------\n Here's a clip of a streamer reacting positively to my build https://www.twitch.tv/bang2/clip/NastyJoyousBaconRickroll-tEE6XzUWSpLXW_Dp\n Please give it a try! (use at your own risk)\n edit: formatting",
+   "id": "1u7lzgr",
+   "comments": [],
+   "age_days": 115,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "You are Gnar. Not Sett, not Teemo, not Shyvana, not Malphite.",
+   "url": "https://www.reddit.com/r/GnarMains/comments/1tdcrqy/you_are_gnar_not_sett_not_teemo_not_shyvana_not/",
+   "published": "2026-05-14",
+   "author": "/u/GnarMainsThrowaway",
+   "body": "1. You are not Sett. Respect your E cooldown and low Rage bar. In my quest of getting better at this champion, I watched a lot of VODs and replays. The MAJORITY of the time Gnar gets solokilled, it's always the same situation. Gnar used E (Hop) to disengage, then goes back in to farm a minion while his rage bar is white (50% or less). It doesn't matter if you are full HP, any skilled opponent playing a bruiser will immediately flash ignite all-in combo you. You are not a juggernaut, you are a squishy ranged top.\n Gnar has 2 defensive abilities: hopping away, and transforming mid-fight. Without this, your \"champion\" (read: caster minion) can literally only do two things: throw a boomerang (Q) and auto attack.\n So, if your E is on cooldown and your rage bar is white, sit back. Throw a Q here and there if you want your cannon so badly. But you MUST respect your opponent.\n 2. You are not Teemo. Your levels 1 to 6 have a lot more in common with Kayle than Teemo. Sometimes, you'll start to lane against some Sett or even Riven player, and you'll see them go in a bush, get out to last hit, go back in, giving you free reign over the wave state, as if you were some hyper oppressive Aurora top. This is a lack of matchup knowledge.\n Gnar is weak early. His range is terrible - 100 units less than Teemo, only 50 more than Urgot at level 1. The only thing he is really good at is disengaging. The intelligent enemy Sett will instead be extremely aggressive and volatile, bashing the first wave, getting level 2 before you, and running at you with murderous intent.\n So, when you approach lane, quickly vibe-check them to see what kind of player they are, walking with your wave, warding the first bush if they are trying to cheese, and if they are the intelligent kind of player... accept it.\n Let them push, but only softly. Take the minions they aren't guarding too heavily, and thin down the approaching wave a bit. If they engage, disengage with E, do a short little re-trade with your auto-attacks, but not too much, unless they really messed up and missed all their skills. Be chill, get your farm. Stay high HP.\n The only times you can really play the game are when you have 80%+ Rage, because Mega Gnar completely disregards this early weakness, he is completely OP.\n After level 6 with nice Boots of Swiftness bought on your first recall, you become a true champion and can start to play a lot more aggressively.\n 3. You are not Shyvana. Be on time to teamfights with 60-80% Rage. Without Mega Gnar, Gnar is just a nerfed Vayne. He has no Passive, no active W, and most importantly no Ultimate. So, if you want to contest that Dragon, but you show up with 0% Rage and the Tired debuff that you get from recently un-transforming, you are... not very useful to the team.\n However, Mini Gnar is not useless either. He has great tank shredding power, which applies pressure to the enemy frontline and makes them think twice about zoning your carries. If you show up to a teamfight having just recently transformed, the intelligent enemy team will just stare at you for 15 seconds, then engage once you un-transform. You will feel pressured to use your Ultimate before you lose it, and will do a catastrophic int, often involving some stupid E-flash-R with none of your team following up.\n So, the ideal sweet spot is to arrive to teamfights with a yellow Rage bar. This means you can auto-attack the Cho'Gath or Nautilus posturing aggressively, then seamlessly swap to Mega form once the fight breaks out, making the most of both your forms like a true shapeshifter.\n Yes, this means you sometimes have to stop farming a wave and just let minions die so you can keep a good Rage level and not prematurely transform. If you don't like it, go play Shyvana.\n 4. You are not Malphite. Gnar is not usually primary engage. Keyword, usually. Yes, if you stand just out of vision behind a wall, and the enemy team walks up cluelessly, and you hop over the wall only to 5-man slam right into your team's Diana ultimate, their Nexus might as well instantly explode. But this is a rare scenario.\n Most of the time, the enemy team knows where you are, and is aware of the threat your Ultimate poses. Even though Gnar is not super popular, the clips of pro-players instantly winning games off a fat Gnar R are just too memorable. So, if you just jump in like a Malphite would, you will eat every peeling ability under the sun (unlike the rock, you are not Unstoppable) and pathetically perish.\n Gnar is secondary engage. Once the fight breaks out and people are throwing spells everywhere, they have MUCH less mental energy spent on recognizing your threat. You are not Malphite, you are not Zac, you are not Kled. You don't just \"go in\".\n The ideal Gnar teamfight: you are Mini, auto-attacking their Ornn and throwing some Qs. Ornn gets frustrated and starts throwing some spells, maybe even his Ultimate. Then, once he is engaging on your team and his backline is rushing to follow up, only THEN do you double jump off his head and slam the backline into the wall. Counter-engage. Now all their carries are stunned, no one follows up on Ornn's engage, he dies, and then your team collapses with you on the enemy backline.\n If you watch the aforementioned pro-play clips, this is almost always how it goes. Gnar isn't starting the fight, he is bringing it to a climax. You'll especially notice that they tend to fight in Mega form for some time, holding their ultimate until they find the perfect angle with a Flash-R.",
+   "id": "1tdcrqy",
+   "comments": [],
+   "age_days": 148,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Statikks Shiv vs Yorick",
+   "url": "https://www.reddit.com/r/GnarMains/comments/1t6kgxz/statikks_shiv_vs_yorick/",
+   "published": "2026-05-07",
+   "author": "/u/expert_on_the_matter",
+   "body": "Guys try this if you haven't.\n I can't tell you if it's actually optimal but it sure as hell makes a unfun matchup bearable.",
+   "id": "1t6kgxz",
+   "comments": [],
+   "age_days": 155,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Gnar journey started",
+   "url": "https://www.reddit.com/r/GnarMains/comments/1syf3hq/gnar_journey_started/",
+   "published": "2026-04-28",
+   "author": "/u/SeriousAlternative39",
+   "body": "Since the season will reset I started practicing Gnar in my main. I'm losing every single matchup, but I'm enjoying SO MUCH. What a amazing champion!!!\n https://preview.redd.it/g39b633v20yg1.png?width=932&format=png&auto=webp&s=4f7100c92d80a0dfee62427a69bde1d9cb6e8e32",
+   "id": "1syf3hq",
+   "comments": [],
+   "age_days": 164,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Gnar Community Matchups Spreadsheet",
+   "url": "https://www.reddit.com/r/GnarMains/comments/1soka6z/gnar_community_matchups_spreadsheet/",
+   "published": "2026-04-18",
+   "author": "/u/GyrosSteelBall",
+   "body": "Hey guys I've made a community spreadsheet for all of the Gnar top matchups with the help of Wyvern#1022 (u/Dragonlord1022)\n I've included Master+ statistics(last 30 days) for each matchup along with the recommended build and the runes you should take for each matchup and an embed high elo video example of the matchup\n Anyone can share their tips(their rank will be shown, you can share your social as well for attribution).\n LoLMatchups.GG is an attempt to make matchup information more accessible to top/mid laners. We already have complete pages for Ambessa, Mundo, Kayle, Fiora, Mordekaiser, Riven, Zed, Ekko, Camille, Irelia, Gwen, Garen, Chogath with more on the way!\n I would love any feedback you guys have on the website or the matchups. Thanks!\n https://lolmatchups.gg/Gnar/matchups",
+   "id": "1soka6z",
+   "comments": [],
+   "age_days": 174,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "You should know about 민이나르, arguably the best Gnar one-trick in the world",
+   "url": "https://www.reddit.com/r/GnarMains/comments/1si23hv/you_should_know_about_민이나르_arguably_the_best_gnar/",
+   "published": "2026-04-10",
+   "author": "/u/GnarMainsThrowaway",
+   "body": "This is 민이나르 \"MiniGnar\", a Grandmaster player in Korea who only plays Gnar top every non-autofill game. This is heavy duty material; at the time I am posting this, his last match was against T1 Doran (https://en.wikipedia.org/wiki/Doran_(gamer), TL;DR, this is the top laner on Faker's team in his last Worlds win) on Ambessa where 민이나르 won lane and got multiple solokills. He did that with the T1 Gnar skin, meaning he beat a pro player with the skin named after their team.\n Think about that for a second, you queue up for a nice game of Soloqueue and your lane opponent has a Wikipedia page. And you beat them.\n If you enable OTP only on onetricks.gg, you will see that he is ranked #1 in the world.\n Where this gets interesting is that he streams most of his games here and has a Youtube channel with some highlights and a tier list. Of course, all of this is in Korean, which I don't understand a word of, but watching his POV gameplay against hardcore matchups like Irelia or Sylas has really helped me improve my own gameplay.\n Some interesting details:\n He uses the E bounce mid-air transform into W/R animation cancel every single game at some point. For the unaware, this is when you press E as you are at 99 rage and it's building into 100, which lets you cast an ability in mid-air and buffer your stun so it instantly happens as you land. I started using this a lot in my Soloqueue games; it's not actually that hard once you practice it, and catches a lot of people off-guard, especially Fioras trying to wait for my W to parry.\n He plays against a counter matchup pretty much every game where he is first pick, because this is just the way things work in his ELO. He still commonly succeeds at holding his own in these matchups.\n He is always looking for the best ultimate angle in teamfights, whether that's flashing from behind a wall or landing a really slick animation cancel. A lot to learn from there as well.\n He goes Conqueror as his keystone every single game unless it's a very oppressive ranged top (Vayne, Lucian) in which case he takes Fleet Footwork, and takes either Flash/Teleport or Flash/Barrier if he is in a highly volatile matchup like Sylas. He never takes Grasp of the Undying.\n He likes to build Spear of Shojin as a third item (after Trinity Force and Black Cleaver), as he likes how short on cooldown and powerful the Mega Gnar Q gets with it, which provides a lot of sidelane power and waveclear. He also likes rushing Hollow Radiance if he is against Akali.\n He is extremely aggressive in lane and will usually solokill his opponent at some point or die trying, even in Mini Gnar form. He loves to use his E offensively and take advantage of the attack speed the moment his enemy misses a key spell. It's a treat to watch how he uses his Flash for some crazy outplays and escapes with two-digits HP half the time.\n According to his tier list, Nasus, Jayce and Kennen are extremely hard matchups, Garen, Malphite, Irelia, Yorick and Singed are pretty hard but beatable, Fiora, Mordekaiser and Poppy are on the easier side, and Sion, Shen and Cho'Gath are, as he puts it, \"gold vending machines\". Have a look at it, it's quite different from the common consensus.\n His personal permaban is Jayce.\n His favourite skin is T1 Gnar.",
+   "id": "1si23hv",
+   "comments": [],
+   "age_days": 182,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Malph matchup advice",
+   "url": "https://www.reddit.com/r/GnarMains/comments/1s1ec2n/malph_matchup_advice/",
+   "published": "2026-03-23",
+   "author": "/u/ConsiderationIcy968",
+   "body": "Hello, I'm a mid main (emerald) looking to swap top. I played like 30 gnar games, and half of them vs malph litterally. Do you have any advice ? I just get poked down, goes like 0/2 in lane even cs then the game is a flip depending on my team, and I have no dmg whatsoever. For build I go fleet second wind trinity black cleaver.",
+   "id": "1s1ec2n",
+   "comments": [],
+   "age_days": 200,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "\"Do you like ma bork bork\"",
+   "url": "https://www.reddit.com/r/GnarMains/comments/1ryla01/do_you_like_ma_bork_bork/",
+   "published": "2026-03-20",
+   "author": "/u/Mascaras777",
+   "body": "how yall feel about running bork on gnar, what matchups do you use it\n is it to troll because you cannot afford ford\n ma diamond bork",
+   "id": "1ryla01",
+   "comments": [],
+   "age_days": 203,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Gnar Jungle Itemization Discussion",
+   "url": "https://www.reddit.com/r/GnarMains/comments/1r8s8e7/gnar_jungle_itemization_discussion/",
+   "published": "2026-02-19",
+   "author": "/u/kain0s",
+   "body": "I'm revisiting Gnar jungle with a lot of success so far this season, but trying to work out optimized builds into different picks. I've seen some Gnar jungle mains in Plat ranked, so I know it can be solid in the right hands. \n Trinity -> BC -> Steraks is goated and works decently in the jungle, but runs into some problems:\n It's harder to predict where enemy Xin Zhao/Briar will come from (or when), and poor timing or aggressive counter-jungling can be rough in some matchups\n Gnar jungle is more about quick engagements rather than lane pressure.\n I often discover I'm the only one capable of front-lining on my team\n For these reasons, I find myself wanting alternative -- more tanky -- optional builds. The following items feel decent and have good win rates, but there sample size is too small to reliably predict whether they're solid upgrades or not. \n What are the best items in the jungle?\n Titanic Hydra\n Heartsteel\n Sundering Sky\n Jak'sho / Randuins Omen / etc tank items \n Jak==Best overall?\n Possible Alternatives to standard or tank items:\n BotRK, Bandlepipes, Serpent's Fang, Hextech Gunblade, etc\n Recently I've ran Berserkers rush -> Titanic -> Steraks -> Overlord's Bloodmail and it felt really good. Thoughts?\n Gnar Jungle Mains:\n Plat 3, 57% win rate: https://www.leagueofgraphs.com/summoner/euw/naderz-8344\n Plat 3, 54% win rate: https://www.leagueofgraphs.com/summoner/na/Gnarmai-NA1",
+   "id": "1r8s8e7",
+   "comments": [],
+   "age_days": 232,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Playing against Nasus",
+   "url": "https://www.reddit.com/r/GnarMains/comments/1r2mk57/playing_against_nasus/",
+   "published": "2026-02-12",
+   "author": "/u/54HU1K",
+   "body": "So, I've been struggling with the Gnar/Nasus matchup lately, so I've been trying a lot of builds against it and so far this has been the build with best results I've gotten, the problem is that I don't know the order in which I should be building the items.\n The thing is that I'm not very good at the game (just being promoted to bronze 2) and I don't know if its just a skill issue or really a building issue.\n Ps. Srry for bad english, Its not my first language",
+   "id": "1r2mk57",
+   "comments": [],
+   "age_days": 239,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "With this new season, I've been wondering... Could Dusk and Dawn somehow replace Trinity somehow/matchup?",
+   "url": "https://www.reddit.com/r/GnarMains/comments/1qngzms/with_this_new_season_ive_been_wondering_could/",
+   "published": "2026-01-26",
+   "author": "/u/Sami_bobo",
+   "body": "It's already a fact that this item is being broken for all champions who can build it. But does it synergize well with, specifically, Mini Gnar and his passive? And what about Protoplasm Harness and Endless Hunger?",
+   "id": "1qngzms",
+   "comments": [],
+   "age_days": 256,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Gnar Support to High Elo!",
+   "url": "https://www.reddit.com/r/GnarMains/comments/1pyugo1/gnar_support_to_high_elo/",
+   "published": "2025-12-29",
+   "author": "/u/Spirec_R",
+   "body": "Mostly just wanted to share my super good run I had before heading home for the holidays with Gnar support on stream, climbed from Eme 1 to Diamond 3 85LP !! When I get back home I'll be continuing streamin every Saturday and hope to hit Masters next season.\n Been theory crafting a lot while home on slight item/rune optimizations, however I do think that Comet>Nimbus>Celerity>Scorch and Font of Life>Revitalize is his BiS rune page for 80%~ lanes. Triumph and Cut Down are better in lanes with aggro adcs where you need to come out on top early and wont be severely poked or trading as a opposed to playing around mega all ins. Grasp may have use cases in the very rare lanes like fasting Senna or Alistar where Comet poke isn't effective and the enemy is lower range in the minion wave generally, but those are rare. Locket is the goat for first item rush, I dont think theres almost any game where you shouldn't build it first in a lot of my experimentation so far, 2nd should be Knights/Zekes, 3rd will probably end up being Dead Man's/Cleaver imo but I didnt test those much in these games as I was over fixated on giving up my selfish desire to deal damage and just full support item maxing. I think Thornmail, Redemption, and Mikaels all can have their use cases, but arent super worth it a lot of the time thanks to the mana they provide, but aren't useless.\n Seen a lot of people claim Gnar poke isn't strong in lane, yet this is the only role where Reversearangs are actually viable and consistent with Comet! Plus with FoL and Revitalize, if you land Qs when your runes are up you usually go positive in most neutral interactions, even in enchanter lanes. And his all in even without AD level 3 and 6 will still beat out most other engage supports just due to cracked base stats in mega. I think the biggest weakness in his engage being predictable, especially in high elo, may actually turn into a macro strength if I play it right. If Gnar postures or threatens an engage around 90% rage, there's a very good chance to pull the enemy jg to bot and then just play chicken, wasting their tempo with no intention to engage or pop mega. Thanks to not having to shove waves, in most lanes barring bullet hells (double AP/poke bot lanes) you have SIGNIFICANTLY more control over when to go mega for fights and objectives, I genuinely think it may be arguably on par for viability as top lane when optimized (poor boy is just weak in general, I'm not gonna claim he's meta or OP in support lol)\n Curious to hear yalls thoughts, feel free to AMA from alternative runes, items, and matchups!",
+   "id": "1pyugo1",
+   "comments": [],
+   "age_days": 284,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "gnar vs zaahen",
+   "url": "https://www.reddit.com/r/GnarMains/comments/1pa5ewc/gnar_vs_zaahen/",
+   "published": "2025-11-30",
+   "author": "/u/Adera1l",
+   "body": "extremely free matchup, cant understand why stats doesnt show it, every time he dash in with bone plating up he just has to flash out, its hard to dive him bc ult and cc, but he cant touch cs. \n Do you guys know why the wr isnt that high?",
+   "id": "1pa5ewc",
+   "comments": [],
+   "age_days": 313,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "GNAR!! A Wild Journey!",
+   "url": "https://www.reddit.com/r/GnarMains/comments/1gmacgm/gnar_a_wild_journey/",
+   "published": "2024-11-08",
+   "author": "/u/Wooden_Teach_6796",
+   "body": "Speak up, community!\n I'm embarking on a journey with our beloved Gnar, and the objective is clear: I will play with him until I reach mastery 10 and climb as many links as possible. After that? I'm retiring the little (or giant) yordle forever. This post is not about “playing like Viego” who dominates all champions; it's about the true commitment to mastering Gnar from end to end.\n Before starting this marathon, I wanted to ask for your views on what really makes a Gnar shine: • Essential Builds: What’s working right now? What item is never missing from your arsenal? • Counter picks: Who are the worst matchups and how do you deal with them? Any tips for getting out alive from a Teemo, Irelia or Darius? • Strategies: Best way to control Mega form? When to focus on side lane and when to group with the team? What are the best rotations to maintain pressure?\n Thank you to everyone who can contribute to this journey! Let's leave Gnar at the top of my profile and then end this journey with a flourish. I count on your tips and support!",
+   "id": "1gmacgm",
+   "comments": [],
+   "age_days": 700,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How you all feel about theses changes ? Would be PTA viable on gnar in some matchups ?",
+   "url": "https://www.reddit.com/r/GnarMains/comments/1ch380w/how_you_all_feel_about_theses_changes_would_be/",
+   "published": "2024-04-30",
+   "author": "/u/Ill-Calligrapher5190",
+   "body": "I feel great that yasuo and yone no longer will be able to one shot gnar now haha",
+   "id": "1ch380w",
+   "comments": [],
+   "age_days": 892,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "My honest reaction to Darius matchup and something goes wrong",
+   "url": "https://www.reddit.com/r/GnarMains/comments/1aulgva/my_honest_reaction_to_darius_matchup_and/",
+   "published": "2024-02-19",
+   "author": "/u/CLEVERCLOVER8",
+   "body": "",
+   "id": "1aulgva",
+   "comments": [],
+   "age_days": 963,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "With the new Preseason changes released, lets look at the item changed and discuss what to build on Gnar.",
+   "url": "https://www.reddit.com/r/GnarMains/comments/180az9h/with_the_new_preseason_changes_released_lets_look/",
+   "published": "2023-11-21",
+   "author": "/u/vyqya",
+   "body": "For those who haven't seen the changes yet: https://www.gameleap.com/news/league-of-legends-preseason-2024-all-item-changes-so-far. Keep in mind it is just a leak and not yet confirmed so may subject to change.\n First things first, mythic items are removed/ returned to normal items.\n 📷 \n Trinity Force \n Total Cost: 3133 gold\n Item Recipe: Sheen + Phage + Hearthbound Axe + 33 gold\n 50 Attack Damage\n 33% Attack Speed\n 300 Health\n 10 Ability Haste\n Passive – Spellblade: After using an Ability, your next Attack is enhanced with an additional 114 = (200% base physical damage). 1.5 seconds cooldown.\n Passive – Quicken: Attacking a unit grants 20 Move Speed for 2 seconds.\n For triforce, its three fold strike has been removed, so no more stacking bonus base AD, but instead the item gives 10 more AD straight up. Also something worth mentioning is that the passive movespeed buff has been nerfed to 2 seconds, on the live server it lasts for 5 seconds. This will definitely be a noticeable change in Mini Gnar's kiting ability. Nevertheless I think this is still Gnar's first item, the attack and movespeed for kiting, it gives health, ability haste and spellblade effect for dueling and taking down turrets.\n ​\n 📷 \n Stridebreaker\n Total Cost: 3000 gold\n Item Recipe: Phage + Pickaxe + Dagger + 725 gold\n 50 Attack Damage\n 20% Attack Speed\n 400 Health\n Active – Halting Slash: Slow enemies in a radius centered around you by 25% and gain 25% bonus movement speed per champion hit that decays over 2 seconds. Can move while casting. 15-second cooldown.\n Passive – Heroic Gait: Dealing physical damage grants you 20 bonus movement speed for 2 seconds.\n I don't know how many of you were building Strikebreaker as a mythic but now It seems gutted. The main takeaway is the active slash slow is reduced to 25%, but it also gives you movespeed of the same amount decaying over 2 seconds. The thing is Gnar already has slow in his Q where its actually stronger at max rank (35%) as well as the movespeed in his W passive where it will be stronger when Gnar learns his ult, so this 25% slow/bonus movespeed just feels underwhelming. The bigger problem is that the halting slash will deal no damage. One of the perks of Stridebreaker is that it can be used to help waveclear and push, but you can't even do that anymore, so I personally think it is no longer viable, only as a niche item.\n Now the rest of the items:\n 📷 \n Black Cleaver \n Total Cost: 3000 gold\n Item Recipe: Kindlegem + Caulfield’s Warhammer + Long Sword + 750 gold\n 55 Attack Damage\n 400 Health\n 15 Ability Haste\n Passive – Carve: Dealing physical damage to a champion applies a stack of 4% Armor reduction for 6 seconds (max 24% Armor reduction).\n Passive – Furror: Attacking a unit grants 20 Move Speed for 2 seconds.\n Main takeaway here is that ability got cut in half, to compensate the item is 100 gold cheaper, and the movespeed now is a flat 20 without stacking, so definitely still a solid item after Triforce.\n ​\n 📷 \n Hullbreaker\n Total Cost: 3000 gold\n Item Recipe: Tunneler + Nether Shard + Pickaxe + 125 gold\n 65 Attack Damage\n 350 Health\n 5% Movement Speed\n Passive – Skipper: Basic attacks grant a stack (up to a maximum of 5 stacks). Attacking an enemy champion or epic monster while at max stacks consumers all stacks to deal 150% base AD bonus physical damage, increased to 400% against structures.\n Passive – Boarding Part: Nearby allied Siege and Super Minions gain 15-90 bonus armor and magic resistance (based on level).\n Now with the removal of the Boarding Party passive that gave bonus auto attack damage to turrets and bonus Armor/resistance but lowered for ranged users, it comes more gold efficient. Instead it has this stacking passive that does bonus auto attack damage at max stacks that works on enemies, but also against turrets where it is stronger. The main takeaway is that you don't have been to alone for the passive to work, so Gnar can build this item to split push or group and siege without losing gold value. \n ​\n 📷 \n Spear of Shojin\n Total Cost: 3100 gold\n Item Recipe: Kindlegem + Caulfield’s Warhammer + Pickaxe + 325 gold\n Passive – Dragonforce: Your non-ultimate spells gain 15 Ability Haste\n Passive – Focused Will: Spell hits grant stacks, up to 3. Your spells deal 3% increased damage for each stack (up to 9%).\n Item performance will differ for melee and ranged users.\n Spear of Shojin definitely had an interesting change, it gives flat haste instead of scaling with AD, but also increased spell damage. It still retains the ranged/melee user performance difference, but the gist of this item for Gnar is to stack its passive in Mini form and when transformed to Mega form you have max stacks up and running. It won't be a must buy but I personally think it is a nice niche item, good to have if you want more damage for a stronger all in. \n ​\n 📷\n NEW\n Sundered Sky \n Total Cost: 3100 gold\n Item Recipe: Tunneler + Caulfield’s Warhammer + 900 gold\n 55 Attack Damage\n 15 Ability Haste\n 300 Health\n Passive – Lightshield Strike: The first attack against a champion will critically strike for 150% damage and heals for 110% base AD +8% of missing health.\n This is one of the new items and at first glance it seems to be the replacement for Goredrinker. It actually seems somewhat viable for Gnar since its passive procs on auto attacks which is perfect to Mini Gnar with his ranged autos. We still don't know the full extent of the passive such as the cooldown, but it is definitely and item to lookout for.\n ​\n 📷\n NEW\n Terminus\n Total Cost: 3200\n Item Recipe: Recurve Bow + Last Whisper + Dagger + 750 gold\n 40 Attack Damage\n 30% Attack Speed\n Passive – Shadow: Attacks apply 30 magic damage on-hit.\n Passive – Juxtaposition: Alternate between Light and Dark on-hits each attack. Light attacks grant 3-5 armor and magic resist (up to 15-25) for 5 seconds. Dark attacks grant 6% armor penetration and magic penetration (up to 30%) for 5 seconds.\n Now this item is considered as a marksman item but I just thought it was interesting to include it here. It is essentially an upgraded wits end (that item also changed, it now no longer has AD but tenacity). It gives AD, attack speed, on-hit damage and a stacking mechanic that gives bonus defensive stats (max 25) and armor penetration (max 30%). Keep in mind this item is still a glass cannon, it gives armor/resistance but it needs to stack and in the grand scheme of things 25 armor/resistance is not that much. However it is a powerful niche item that can be build if you're ahead or if you're against a tank or a champion that is easy to kite such as Garen or Sett to effectively stack the passive. The 30% armor penetration seems bonkers if Mega Gnar form and if built in conjunction with Black Cleaver you could just delete tanks. \n ​\n 📷 \n Dead Man’s Plate\n Total Cost: 3100 gold\n Item Recipe: Winged Moonplate + Chain Vest + Ruby Crystal + 1100 gold\n 300 Health\n 45 Armor\n 5% Movement Speed\n Passive – Shipwrecker: While moving, build up to 40 bonus Move Speed. Your next Attack discharges built up Move Speed to deal up to 40 (+100% base AD) bonus physical damage.\n Passive – Unsinkable: The strength of movement slowing effects is reduced by 25%.\n Dead mans plate has already been a viable item on Gnar, but now it seems to be even more viable, mainly because of the new passive reducing movement slowing effects by 25%, basically swifties boots. It really helps in matchups that has a of slows like Olaf, Darius, Tahm Kench and makings kiting easier. \n ​\n There are way more items changes that I haven't mentioned because I don't think they were that noteworthy or applicable to Gnar. So opinions on these item changes?\n ​",
+   "id": "180az9h",
+   "comments": [],
+   "age_days": 1053,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Gnar matchup chart (masters+ player)",
+   "url": "https://www.reddit.com/r/GnarMains/comments/16m0ygk/gnar_matchup_chart_masters_player/",
+   "published": "2023-09-18",
+   "author": "/u/Puzzleheaded_Map6249",
+   "body": "didn't find any updated matchup help in the subreddit, so I decided to make a quick matchup chart on how matchups go for me on the current meta. If anyone disagrees or needs help understanding, feel free to comment, that's the purpose for this post.\n General guidelines for tiers:\n (-2): Enemy champ has really easy ways to kill you and it's impossible to punish.\n (-1): Enemy champ can kill you on sight, but there is a fair space for counterplay.\n (0): Both champs can heavily punish each other for their mistakes, it usually ends up being a matchup knowledge contest.\n (+1): Enemy champ needs specific setup to kill you, but otherwise you can abuse them.\n (+2):Enemy chanmp has no tools against you.\n Note: Made this in 5-10 minutes, so you might see some weird things.\n OPGG for credibility just in case: https://www.op.gg/summoners/las/E%20ve\n https://preview.redd.it/xffxuju7p1pb1.png?width=1140&format=png&auto=webp&s=7ca26e8a82b776a13ed6a1fe83e15f1171376290\n ​",
+   "id": "16m0ygk",
+   "comments": [],
+   "age_days": 1117,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What is holding Gnar back In Solo queue?",
+   "url": "https://www.reddit.com/r/GnarMains/comments/11iw1h8/what_is_holding_gnar_back_in_solo_queue/",
+   "published": "2023-03-05",
+   "author": "/u/Phr33k101",
+   "body": "Hey all,\n I've been trying to expand my stable of top lane champs for purposes of ranked, and Gnar caught my eye due to his frequent appearance in pro play. From what I have seen he seems like a safe pick that provides significant utility for the team, while also functioning as a viable damage threat (and indeed, this seems to be the case when watching pro play). Despite this, when I looked at his winrate in solo queue games it seems that he has more losing matchups than winning ones, even when filtering to see his performance at high elo. Is Gnar stuck in the Azir trap of being great in pro play but really mediocre in normal, or are the statistics misleading in some way/is there another explanation? Very curious, as I think the little guy seems cool but I don't want to devote a significant amount of time to learning a champion if I will in all likelihood not be good enough to win with him consistently!",
+   "id": "11iw1h8",
+   "comments": [],
+   "age_days": 1314,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "is gnar ACTUALLY a bully?",
+   "url": "https://www.reddit.com/r/GnarMains/comments/w9fh55/is_gnar_actually_a_bully/",
+   "published": "2022-07-27",
+   "author": "/u/alejandrosquid",
+   "body": "I really like gnar as a character but when I play him he seems not that powerful as people say he is. For starters his auto range is not that great considering you need to get pretty close to someone and most top lane matchups can just use their gap closer to fk him up. He was already pretty squishy in mini form. Is mini form even meant to bully people or just scale? Mini gnar doesnt even seem that strong until like 2 items and even then his powerspike is not that impressive compared to other top laners. Is farming the way to go, and only fight in mega?",
+   "id": "w9fh55",
+   "comments": [],
+   "age_days": 1535,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "when to pick gnar?",
+   "url": "https://www.reddit.com/r/GnarMains/comments/vjwpov/when_to_pick_gnar/",
+   "published": "2022-06-24",
+   "author": "/u/Cr1zzle_",
+   "body": "I’m a Jayce main and I was looking to add gnar to my champ pool(Jayce, Aatrox, Kayle) and I was just wondering when I should lock in gnar, like teamcomp matchup and stuff like that, also give me some tips too that would be really helpful(teamfights, builds, when to go what runes) thanks in advance",
+   "id": "vjwpov",
+   "comments": [],
+   "age_days": 1568,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Are there any good Gnar streamers",
+   "url": "https://www.reddit.com/r/GnarMains/comments/suwwrt/are_there_any_good_gnar_streamers/",
+   "published": "2022-02-17",
+   "author": "/u/xabierfam",
+   "body": "I recently started to pick up the Champ and I wondered if there were any streamers that I can watch to learn a bit more about the champ and various matchups, and not only YouTube videos that end up being giga stomps so you don't learn what to do when behind.",
+   "id": "suwwrt",
+   "comments": [],
+   "age_days": 1695,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I feel like i'm not in control of my own passive.",
+   "url": "https://www.reddit.com/r/GnarMains/comments/r8ofgu/i_feel_like_im_not_in_control_of_my_own_passive/",
+   "published": "2021-12-04",
+   "author": "/u/Xenqii",
+   "body": "I feel like i'm being punished by my own passive, take a matchup with nasus for example. i don't have any hard engage or cc on mini gnar so he'll just keep punishing me for stacks but when i transform, he'll just all in me, ult me, exhaust and then run back. it feels like every time my passive procs, i just get punished by myself. what can i do to fix this?",
+   "id": "r8ofgu",
+   "comments": [],
+   "age_days": 1770,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Gnar VS Nasus",
+   "url": "https://www.reddit.com/r/GnarMains/comments/r4evm1/gnar_vs_nasus/",
+   "published": "2021-11-28",
+   "author": "/u/ePoc-J",
+   "body": "So I was looking at similar post about this match up, One of my hardest matchup becasue I don't know how to zone him at all. He just AOE the wave and runs plays extremely passive. Wither is annoying. Anyone mind giving me some tips?",
+   "id": "r4evm1",
+   "comments": [],
+   "age_days": 1776,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Olaf matchup... Axes hurt",
+   "url": "https://www.reddit.com/r/GnarMains/comments/pghmxk/olaf_matchup_axes_hurt/",
+   "published": "2021-09-02",
+   "author": "/u/udMohicano",
+   "body": "I've just been deleted by a Olaf toplane. I had a Fleet setup with boneplating secondary and rushed antiheal... I felt like I can't do anything. Axes hurt...",
+   "id": "pghmxk",
+   "comments": [],
+   "age_days": 1863,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Sett Matchup",
+   "url": "https://www.reddit.com/r/GnarMains/comments/p12ggi/sett_matchup/",
+   "published": "2021-08-09",
+   "author": "/u/Kuraizin",
+   "body": "I can always beat a sett in the lane, but then he scales really well and starts to destroy teamfights even though he's super weak. I wanted to understand if it's just me who goes through this against sett or someone else has already been through this, because this has become quite common for me.",
+   "id": "p12ggi",
+   "comments": [],
+   "age_days": 1887,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Nasus matchup",
+   "url": "https://www.reddit.com/r/GnarMains/comments/o4ynjj/nasus_matchup/",
+   "published": "2021-06-21",
+   "author": "/u/RLaughEmote",
+   "body": "View Poll",
+   "id": "o4ynjj",
+   "comments": [],
+   "age_days": 1936,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Gnar vs Urgot Matchup",
+   "url": "https://www.reddit.com/r/GnarMains/comments/nfsxtr/gnar_vs_urgot_matchup/",
+   "published": "2021-05-19",
+   "author": "/u/TheProuDog",
+   "body": "Hi,\n Urgot is one of my mains and I have a hard time laning against Gnar. I feel like a good Gnar can always kite me and I shouldn't fight him when he is Mega. How do you guys play against Urgot? Opgg says Urgot wins the matchup, how so?\n What is the goal of Gnar in lane? How does Gnar scale in comparison to Urgot? What shouldn't/should Gnar do against Urgot in lane?",
+   "id": "nfsxtr",
+   "comments": [],
+   "age_days": 1969,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Master/GM Gnar matchups/build guide",
+   "url": "https://www.reddit.com/r/GnarMains/comments/n8fy5h/mastergm_gnar_matchupsbuild_guide/",
+   "published": "2021-05-09",
+   "author": "/u/Bewbiou",
+   "body": "Hi guys ! \n As I appear to be rank 1 gnar player on opgg, I often get added on league for advice. \n I thought I'd share with you the guide I made on how I PERSONALLY play gnar.\n Hope you like it, enjoy ! \n https://docs.google.com/document/d/1aEvOWCg8iNdcohib4OGrCrRzcQHoikJt8lEvI3lGFZ4/\n If you have further questions, feel free to DM me on twitter (Bewbiou)",
+   "id": "n8fy5h",
+   "comments": [],
+   "age_days": 1979,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How good is Conqueror on Gnar on tank matchups?",
+   "url": "https://www.reddit.com/r/GnarMains/comments/my9jex/how_good_is_conqueror_on_gnar_on_tank_matchups/",
+   "published": "2021-04-25",
+   "author": "/u/TheFoca",
+   "body": "Blade just uploaded a video where he used and recommended using conqueror against tanks where you are most likely going to have extended fights https://www.youtube.com/watch?v=rNAIEQj7jD4 opinions on this?",
+   "id": "my9jex",
+   "comments": [],
+   "age_days": 1993,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Lethal tempo on gnar?",
+   "url": "https://www.reddit.com/r/GnarMains/comments/mqxa49/lethal_tempo_on_gnar/",
+   "published": "2021-04-14",
+   "author": "/u/Thedeefact",
+   "body": "So I'm quite new on gnar and just want to experiment abit. \n I find it hard to proc grasp in alot of matchups for it to be really efficient.\n And fleet I also dont get the most of since its 20% for ranged. \n But I feel like lethal tempo would be really great since alot of Gnars damage comes from autos. \n Thoughts? Pros / cons ? \n I think it might be abit more hyper carry playstyle with more damage rather than bruiser/tank playstyle. Even tho you can still use the tank playstyle since you get ALOT of attack speed while ur mega",
+   "id": "mqxa49",
+   "comments": [],
+   "age_days": 2004,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Gnar / Fiora advice",
+   "url": "https://www.reddit.com/r/GnarMains/comments/lz4nfd/gnar_fiora_advice/",
+   "published": "2021-03-06",
+   "author": "/u/Colpaertt",
+   "body": "Hello dear Gnar mains.\n Recently I picked up Gnar as a new champion and really enjoyed playing him. Partly thanks to pro-play, I fell in love with its Champion design. But my all-time main still remains Fiora. I often got stuck with Fiora because I found some matchups really hard, but no other top laner appealed to me so I kept spamming Fiora. I think it is better if I expand my pool to 2 champions, namely Gnar and Fiora. I have a lot of experience with Fiora, but I am fairly new with Gnar. My question was, I don't know if there are people who are familiar with these 2 champions. But in which situation I should choose which champion. The most difficult matchups with Fiora I personally find Malphite, Akali and Vayne, but this is very personal. Are there people with more experience who know in which situation I should not choose Fiora and choose Gnar or vice versa? Of course there will be situations where both are bad I think. But so, what is your vision of the best matchups for both champions and where does Gnar dominate while Fiora is less so, for example?\n ​\n Btw I posted this in both subreddits.",
+   "id": "lz4nfd",
+   "comments": [],
+   "age_days": 2043,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Why does LS keep saying gnar is bad?",
+   "url": "https://www.reddit.com/r/GnarMains/comments/lkcvpt/why_does_ls_keep_saying_gnar_is_bad/",
+   "published": "2021-02-15",
+   "author": "/u/SlCKXpT",
+   "body": "Whenever Gnar gets drafted or in the patchnotes or talking about his tierlist, lastshadow always says Gnar is a terrible champion, however all the stats point otherwise. Gnar is Stier on u.gg, lolalytics and opgg tierlists. Gnar is one of the most picked champions in proplay and Gnar has no real counter matchups. So why does LS keep harping that Gnar is bad? What’s his reasoning?",
+   "id": "lkcvpt",
+   "comments": [],
+   "age_days": 2062,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "New build I like vs tough matchups or AD comps. Thoughts? (*not middle game)",
+   "url": "https://www.reddit.com/r/GnarMains/comments/ksr39f/new_build_i_like_vs_tough_matchups_or_ad_comps/",
+   "published": "2021-01-08",
+   "author": "/u/Jayewize",
+   "body": "",
+   "id": "ksr39f",
+   "comments": [],
+   "age_days": 2100,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "A Comprehensive Guide to Gnar During Preseason - Gnar Itemization/Matchups Database, Builds - Thing in the Ice",
+   "url": "https://www.reddit.com/r/GnarMains/comments/jrruus/a_comprehensive_guide_to_gnar_during_preseason/",
+   "published": "2020-11-10",
+   "author": "/u/thingintheice_",
+   "body": "​\n Hi, I’m Thing in the Ice, a Diamond Gnar main from NA, here to bring you a big post to help guide you through preseason playing Gnar. There’s a ton of changes that benefit Gnar from little to game changing. I recently put together a database that lists every usable item for Gnar. From stats to interactions, it’s all there to help guide you! I also updated my Matchups Spreadsheet and attached it to the itemization database for easy viewing all in one place!\n ​\n Gnar Database Links (Airtable) This is something I’ve been working on for a long time now. It’s nowhere near finished, but I think it’s in a pretty nice state just in time for preseason.\n Itemization Database Lists almost every usable (to a degree) item by Gnar with item costs, stats, interactions, etc. It also hooks into the database below, giving insight on what items are good into certain champions!\n Matchups Database For those of you who actively use my older matchups spreadsheet, you should feel very familiar with this version. It now shows each individual champion's key cooldowns and also hooks into the database above, giving you specific information about the items in starting and core build paths.\n I'm still actively working on both of these, so expect a lot more within the next month!\n ​\n Notable Preseason Changes Tiamat and the Hydras Probably the biggest game changer for Gnar are the changes to Tiamat and both Ravenous and Titanic Hydra. All of these items can now be used on ranged champions. This is massive for Gnar, practically fixing Mini Gnar’s lack of wave clear, allowing him to apply a ton of pressure across the map.\n Trinity Force Trinity Force got a lot of changes as well, making it Gnar’s best Mythic item. It’s Mythic Passive gives all of your Legendary items 10% attack speed. This allows Gnar to build health and defensive stats freely, giving him free DPS each completed Legendary item. Sheen also got cheaper (700g). Hearthbound Axe, its new component item, also gives Gnar AD, attack speed and move speed, replacing Phage.\n Rageblade Moving down the list, let’s talk about Rageblade. It no longer gives double pen, but now gives 40% attack speed, 20% crit chance, and a crit chance-to-AD passive. Rageblade is also now a 2,600 gold cost item! The coolest thing here though is the amount of on-hit effects added into the game with preseason that Rageblade will multiply. Titanic Hydra and Black Cleaver being the biggest ones. Rageblade also got a new component item, Rageknife, which acts as Rageblade without its double on-hit effect passive, only costing 800g! Another thing to note is that some on-hit effects now benefit from Life Steal.\n Doran’s Blade A smaller, but definitely impactful change was made to Doran’s Blade as well. It now gives 2.5% Omnivamp instead of Life Steal. This is good for Gnar because he’s now able to heal off of abilities (the big one being Mini Gnar W) instead of just auto attacks.\n This is only naming a few. For a bigger list of changes, check out the itemization database linked above!\n ​\n Builds I’m still testing a long list of builds, but these are a few that popped out to me playing on PBE for the past month or so (for runes, I go Conqueror/Domination and Conqueror/Resolve every game):\n ​\n Tiamat → Trinity Force → Titanic Hydra → Guinsoo’s Rageblade → Black Cleaver\n I probably got the most success out of this build. I wasn’t running Rageblade until Riot pushed buffs to Rageblade (2,600g from 3,200g) to PBE on the 4th. With Rageblade being so cheap, it felt nice to fit it in to double proc Titanic Hydra. Going into a Black Cleaver afterwards for the added on-hit effect, bonus Health for Titanic Hydra and the 25 Ability Haste also felt really good.\n ​\n Tiamat → Trinity Force → Ravenous Hydra\n Just a variation of the build above. Going Ravenous instead of Titanic gives Gnar more Ability Haste and Omnivamp. Ravenous Hydra also procs on abilities.\n ​\n Tiamat → Goredrinker → Ravenous Hydra\n This build gives an absurd amount of sustain. Goredrinker active also procs Ravenous Hydra, giving Gnar some insane added AoE. Good teamfighting build.\n ​\n Tiamat → Divine Sunderer → Titanic Hydra → Guinsoo's Rageblade → Black Cleaver\n Solid tank killer. Gnar ends up being pretty tanky too.\n ​\n Frostfire Gauntlet → Spirit Visage → Gargoyle Stoneplate\n I’m not a fan of tank Gnar, but I’m leaving this one here because I know there are a lot of tank Gnar players out there. Very solid tank build. Spirit Visage now amps shields too, giving Gargoyle some crazy big shields. I normally take Grasp/Domination when running a build like this as well. The AoE burn from Immolate will heal you with Ravenous Hunter. This is further increased by Spirit Visage.\n ​\n Bonus for Fun Builds Eclipse → The Collector\n Had a lot of fun with this one. Eclipse gives Gnar some insane dueling power and slapping The Collector on top of it allows for Gnar’s ult to one shot squishies.\n ​\n Kraken Slayer → Guinsoo’s Rageblade\n Standard on-hit build and wrist breaker. Be sure to take runes that give you Item Haste (Ingenious Hunter) because Kraken Slayer has a 2s lock-out timer.\n ​\n Riftmaker → Demonic Embrace\n I didn’t play much AP Gnar on PBE, but from what I did play this item combo felt pretty nice. Demonic Embrace gives you a nice amount of defensive stats.\n ​\n Ending Note For those of you who are looking for more, I stream over on Twitch and will be doing a 24 hour stream tomorrow (Wednesday, the 11th) for the start of preseason. Feel free to ask questions in chat! I’m also available 24/7 over on Discord at thing#5189. Any feedback is appreciated.\n Overall, this is a big season for Gnar! I’ll be making another post in a month or so once the meta starts to settle down and I'm able to learn more, but for now, GL HF!",
+   "id": "jrruus",
+   "comments": [],
+   "age_days": 2159,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "So I started playing Gnar yesterday, and I'm loving the champ, any tips like runes and matchups?",
+   "url": "https://www.reddit.com/r/GnarMains/comments/icphnx/so_i_started_playing_gnar_yesterday_and_im_loving/",
+   "published": "2020-08-19",
+   "author": "/u/StarStarly",
+   "body": "^",
+   "id": "icphnx",
+   "comments": [],
+   "age_days": 2242,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "how to beat camille",
+   "url": "https://www.reddit.com/r/GnarMains/comments/ib9shl/how_to_beat_camille/",
+   "published": "2020-08-17",
+   "author": "/u/astroyuumi",
+   "body": "Tips on how to lane against camille? (Also I am new to gnar & top lane and don't know matchups well).",
+   "id": "ib9shl",
+   "comments": [],
+   "age_days": 2244,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Help with teemo matchup",
+   "url": "https://www.reddit.com/r/GnarMains/comments/iatufy/help_with_teemo_matchup/",
+   "published": "2020-08-16",
+   "author": "/u/Husjuky",
+   "body": "Hello everyone, recently I've been struggling to win lane against teemos but I'm probably just bad.\n I would like to know what you guys think about this matchup and what can I do to win vs teemo.\n Tell me what runes you guys use when you are against teemo, what you build first and what I can do to struggle less. Thank you.\n Edit: thank you guys for your helpful tips, I'll try them!",
+   "id": "iatufy",
+   "comments": [],
+   "age_days": 2245,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "I don't understand Gnar builds",
+   "url": "https://www.reddit.com/r/GnarMains/comments/hiht2c/i_dont_understand_gnar_builds/",
+   "published": "2020-06-30",
+   "author": "/u/gramineous",
+   "body": "So I gave Gnar a few shots yesterday, started looking at a bunch of guides and gameplay videos and stats for the champ and all that jazz and I don't understand how the current Gnar build came about. I'm writing out my thought processes on what seems to make more sense to me, and would really appreciate opinions and corrections.\n Disclaimer: I'm hesistant to call myself \"good\" at League. I haven't super-tryharded since Season 8 where I hit Diamond playing Pyke support (and hit Plat 1 100LP an infuriating number of times playing Urgot Top after his rework in the same season before Pyke carried me across the finish line). For now I mainly fuck around with mates most of the time in flex queue, and sit in low plat soloq, but I've had a surge of motivation for the league the past fortnight-ish to put in a bit more effort.\n Anyway, thoughts:\n ​\n Items:\n Black Cleaver as a first item is questionable. If you're buying it for the Phage movespeed, that movespeed is halved while you're in Mini-form, making it significantly less useful as a kiting tool. Additionally, given you have a slow on Q and a movespeed buff when you proc W, Phage passive seems a bit redundant. In Mega-form, you have a slow on Q, a stun on W, a jump+slow on E and a stun/displacement on Ult, so I'm doubtful the full 20 ms on hit will make the difference in staying on top of someone or not. If your logic behind the Phage purchase is to pressure and poke them early on, then buying a Kindlegem with the Phage is, in a vacuum, a terrible choice. Unless you absolutely have to all-in to kill your lane opponent the health won't be doing much. Finally, the Black Cleaver armour shred is overrated, both in terms of what it provides to your team-comp and what it provides to you. Sure a tank might rush a Sunfire Cape against you, but with the number of matchups in Top where you're against Tri-force/Botrk/Black Cleaver builds, you're really only shredding their base armour and maybe Ninja Tabi too. In regards to team-utility ADCs have their own armour-shred options for late-game, and building to supplement your ADCs significantly lower damage early-game is a waste. You might have an AD threat on your team in the jungle, but they have to be in your lane to take advantage of that shred, and if you're jungler is in your lane it's more likely to be as a gank/2v1 situation where the slight damage boost from the shred is unlikely to be the deciding factor in whether or not your lane opponent dies.\n ​\n If you value the cdr early from Black Cleaver and want damage to bully your opponent then building a Caulfield's Warhammer for the 25AD + 10% cdr (versus 15AD from Phage) and sit on that before going into other items, like high-elo Aatrox players do.\n ​\n Frozen Mallet is also super questionable as an item, especially with Black Cleaver. The same arguments I made against Phage line up here, in that Mini-Gnar has tools to kite already and Mega-Gnar has tools to lockdown enemies. Additionally, whilst the item helps run people down who overextend in a sidelane (by increasing the time it'd take them to run away and under a turret in a 1v1), by the time your second item is finished teams are going to want to start grouping up more, where the enemy ADC, Mage, and Engage/Mage Support will have enough of a threat that walking up to them and auto-attacking for the slow is unnecessarily risky at best. Coupled with the bad buildpath (a Giant's Belt offers no additional utility or damage, the stacking nature of Jaurim's Fist reduces its worth as a power-spike) and the fact that, combined with Black Cleaver, you've built a character with a lot of health and not a lot of resistances to supplement that health (especially with all the Botrk-users around nowadays, or Liandry's users, or tanks with %Max HP damage built into their kits).\n ​\n And again, if you value the cdr from Black Cleaver and the way it interacts with your abilities, going from BC straight into an item which has a passive that only works on auto-attacks doesn't make sense. If you're trying to optimise for leveraging your abilities on Gnar, Black Cleaver + Death's Dance makes more sense. If you're trying to optimise for leveraging your autoattacks/kiting/Mini-Gnar, Bortk + Frozen Mallet would seem to be a better option.\n ​\n Like the best argument for the current build is saying that you don't want to put all your eggs in one basket given the two item pairings I mentioned above favour Mega and Mini forms respectively, and that SoloQ can be chaotic, so being able to get solid mileage from both forms makes sense. But that doesn't explain high-elo games where there's more organisation, or against team comps where your team has to play a certain way that benefits one of your forms dramatically more. For example, if you are your team's sole/main engage, and the other team is playing a more defensively/poke orientated comp, fights are going to be starting because you did something as Mega-Gnar. If the enemy team is particularly engage-heavy and your comp is more defensive, they're going to be more inclined to fighting when you're in Mini-form, so building to minimise your weaknesses makes more sense (since Mega-Gnar's cc will provide enough defensive utility without item support). Black Cleaver + Frozen Mallet works as a generalist build, but it's built disproportionately often to the situations and team-comps that would warrant it.\n ​\n Skill Order:\n I don't get why people will max W over E second so consistently. If you're doing it for the magic damage against enemies that build armour to make your damage harder to itemize against, then building Black Cleaver, an item that shreds armour, makes no sense. If you're doing it to deal with an opponent stacking defensive items (like Sunfire) against you, then waiting until you have 5 points in Q to put points in W is inefficient (many support champs go for 2-3 points in their poke ability before switching to another ability to max, like Thresh with E, Karma with Q, Yuumi with Q, Athene's build-Lux with E. Additionally, some jungle champs mix up their skill order depending on what a game needs, Kayn can put 2-3 points in Q for farming early on before maxing W for its higher impact, AP Shaco can do 2-3 points W to supplement clear before maxing E, Volibear can do 3 points Q for the movespeed in ganks before maxing W for better sustained damage).\n ​\n Additionally, the scaling on Mega-Gnar W is absolute garbage. Ever since the buff to Mega-Gnar W yonks back that gave it a flat 7 second cooldown at all ranks, the only benefit you get form levelling it up is 30 damage per rank, and in Mini-Gnar 2% Max HP damage, but only if you hit them three times. Points in E give -2.5s CD per rank, and either 35 damage + 5% attack speed in Mini-Gnar, or 45 damage in Mega-Gnar. With the general mobility creep in League, being able to keep up with other champs and deal with terrain becomes more and more important as well.\n ​\n Runes:\n Gnar definitely has issues in regards to keystone synergy with his kit, thankfully that's not a radical statement in the slightest. My issue is with the lack of synergy most keystone choices have with Gnar's itemisation as well, and how it seems like runes aren't properly adapted to matchups.\n ​\n Conqueror on ranged champs requires that they spam abilities to stack it efficiently and make the most out of it, since getting 1 out of 12 stacks with autoattacks is horribly inefficient. Given Mini-Gnar literally has no active ability on his W, and E-ing onto someone is a niche use compared to E-ing to dodge, reposition, chase, or run away, Conqueror requires you to commit to (the previously mentioned) Mega-Gnar and cdr builds to get your mileage from it. Given how players spend much more time in Mini than Mega form early on though, hampering your snowballing potential with a suboptimal rune is pretty questionable unless it was a matchup where snowballing was unlikely anyway.\n ​\n Press the Attack is a solid option, due to offering damage that is most accessible in Mini-Gnar form to help snowball. However it has its issues due to the difficulty in quickly procing it in Mega form, occasional redundancy if a teammate takes it too, how it interacts with Mini-Gnar W, and how it interacts with a large chunk of matchups. If you're in a matchup where you want to do short trades with the opponent because they can trade back with you if you expose yourself too long, odds are this is through procing your W with auto-Q-auto. Having to throw another auto in there, after already procing your W's damage, means you're telegraphing your intentions more and leaving yourself open to retaliation with your main damage skill, your Q, on cooldown. Additionally, the standard Gnar build's item path isn't particularly synergistic with PTA - because PTA is completely reliant on autos to proc, building Black Cleaver with its associated cdr is completely mismatched, Frozen Mallet with its auto-based effect would make a better first item. Additionally, Botrk also would make sense, as the attack speed helps to proc PTA faster, and if you're in a situation where your lane warrants a pure damage keystone, then building a pure damage item (compared to Black Cleaver and Frozen Mallet) is playing to your strengths better.\n ​\n Grasp of the Undying has its uses where snowballing through a pure damage keystone is difficult, sustain helps your matchup, and the HP stacking from the keystone's effect helps supplement your mid and late game. That said, it makes little sense with the standard Gnar build. Grasp deals magic damage scaling with your HP and activating on autos, so building Black Cleaver for its early AD, CDR, and armour shred to multiply your AD damage misaligns with the keystone on three separate counts. Frozen Mallet's statline skews more towards HP for maximising Grasp damage and sustain, has the inbuilt slow to make retaliation from your Grasp procs less impactful, and is an altogether more defensively orientated item to make less likely that being out-damaged in a fight (due to your keystone choice) results in your death. Were you to go for a Grasp build, I would seriously question the worth of including Black Cleaver in your build early (or at all for that matter) due to the inefficiency of stacking health without resistances. If you still prefer the idea behind building in such a way as to be a generalist that can function in both Mega and Mini forms as the standard Black Cleaver into Frozen Mallet build purports, you could make arguments for a Grasp build going Mallet into Death's Dance instead, as it provides resistances to complement your health, AD to make up for your health-dominant build at this point that leaves you less of a threat than may be ideal, and sustain-based passives that synergise with the benefits and cooldown of Grasp of the Undying.\n ​\n Fleet Footwork provides sustain, which Gnar lacks, and movespeed, which synergises with Mini-Gnar's kite-heavy playstyle. I can see the logic behind taking it, but question the synergy with Gnar's itemisation. Given Fleet provides a flat value of healing, itemising as heavily as Gnar does for HP with Black Cleaver + Frozen Mallet makes this healing less significant where resistances instead would make that healing provide more effective HP. Additionally, taking a keystone that affects your movement speed while building an item that provides movement speed in Phage (and an item that affects the enemy's movement in Frozen Mallet) seems redundant. If you're taking a keystone to help you kite, and provide effective HP with its healing, you want your items to make up for your lack of damage, so rushing a Caulfield's Warhammer (like I mentioned much earlier in this post) would provide this, as well as taking advantage of the bonus AD ratio on Fleet Footwork to get more healing out of it. Additionally, if you want to get resistances to make your effective HP that much more effective, going for Death's Dance as a first item provides this, and makes use of the Caulfield's Warhammer, and is generally as an item skewed towards favouring your Mega-Gnar form (due to the vamp passive working on abilities, which Mega-Gnar uses more of than Mini-Gnar's auto-attacks, and the ranged/melee disparity on the bleed passive), meaning that with a Mini-Gnar skewed keystone in the mix you've got a generalist combination of a first item and keystone, which mimics the idea behind the generic Black Cleaver + Frozen Mallet build in being a generalist build that can cater to either form in a fight.\n ​\n Glacial Augment is the last \"real\" option for a keystone on Gnar, but due to its lack of flashiness and how the more powerful items with an active that slows are AP items, is generally ignored. That said, with Botrk being a more viable item these days (as well as its synergy with procing W as Mini-Gnar with the attack speed), Bilgewater Cutlass can provide a slow field earlier than any other Glacial-synergistic item. If you were to do a Glacial Augment build, you would want to go for a Bilgewater Cutlass to make up for the lack of damage (or sustain) in your keystone choice. From there, Botrk is your most obvious option to build. Given Glacial Augment generally needs items to truly shine, in contrast to Conqueror or PTA, the best situation to go this build would be against a lane where your opponent either isn't a threat early on or has to itemise in a way that limits their kill threat very early on (ie. Gangplank, Urgot, Vladimir, generally champs whose likely starting item is a Doran's shield), as well as doubling down on taking a weaker first few minutes of the game to scale better later by starting with a Cull.\n (As an aside, when I used to play Urgot as I mentioned at the top of this post, it was with a Youmuu's Ghostblade rush and Glacial Augment, the two items providing the movement speed disparity that used to be Urgot's bread and butter with building Black Cleaver into Righteous Glory, but spiking harder at one item than two items.)\n ​\n In summary, I'm probably over-thinking things, but at the same time there's been new builds and such to crop up even when established champions have a standard build already, like how Deadman's Plate and Rapid Fire Cannon existed in the game with Bard for ages before that become a common build on him, and how Liandry's Torment third item on Gangplank is starting to be seen as a viable option. With other Black Cleaver users such as Darius, Illaoi, and Sett moving away from that and onto Tri-force themselves, and Frozen Mallet being only really used by Senna builds on the regular nowadays, Gnar players sticking to items that are definitely on the weaker side seems like it might be a mistake.",
+   "id": "hiht2c",
+   "comments": [],
+   "age_days": 2292,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Discussion: How to appropriately buff Gnar",
+   "url": "https://www.reddit.com/r/GnarMains/comments/helkst/discussion_how_to_appropriately_buff_gnar/",
+   "published": "2020-06-23",
+   "author": "/u/crazycollegekid",
+   "body": "This post originally got lost back when posts were randomly getting deleted. I've decided to repost this discussion since Gnar is receiving yet another buff. I've left my thoughts about the current changes in an update at the end.\n Everyone is probably aware that Riot seems to be extremely cautious in buffing Gnar, specifically mini gnar, and have been giving slight buffs to mega gnar over the last few patches. Personally I think the R and W cool down buffs were great (as long as you aren't playing into Sylas, RIP), but overall fail to address some of his core weaknesses in the current meta. I want to lay down some of the reasons why I think Gnar had become weak in the last couple of seasons and open up discussion on what would be some healthy buffs to make him more viable at higher levels of play. Incoming wall of text:\n First off, Gnar received a number of nerfs that significantly hurt his damage and safety in lane:\n 6.18\n Hop /Crunch Cooldown increased to 22 / 19.5 / 17 / 14.5 / 12 seconds from 18 / 16.5 / 15 / 13.5 / 12.\n \n 8.4\n Boomerang Throw Base on-catch cooldown reduction reduced to 40% from 45%.\n \n GNAR! REMOVED: Passively increasing Boomerang Throw on-catch cooldown reduction to 50 / 55 / 60%.\n \n Then there are the changes to Gnars core items:\n 7.4 Black Cleaver\n Health increased to 400 from 300.\n Attack damage reduced to 40 from 50.\n 6.18 Frozen Mallet\n Health increased to 700 from 650.\n Attack damage reduced to 30 from 40.\n 8.4\n Ranged attack slow reduced to 20% from 30%.\n Gnar lost 20 AD from his core build. As higher and higher amounts of damage crept into the game, Gnar simply couldn't keep up. On top of that, he had a lot of trouble surviving the increased amounts of burst in the game. And while I think the Frozen mallet changes were completely fair, they did nerf Gnar, and he does struggle in games with many high mobility champions.\n Things start to get really bad after patch 8.6,\n 8.6 - Conqueror Added\n Precision Keystone rune. PASSIVE: Dealing or receiving damage generates one stack every second for the next 3 seconds. After reaching 4 stacks, your next basic attack within 3 seconds against an enemy champion grants 10 − 35 (based on level) bonus Attack Damage for 3 seconds and converts 20% of your damage to champions to true damage for the duration. Dealing or receiving damage will refresh the triggering attack duration.\n Melee champions refresh the bonus damage duration when damaging enemy champions.\n \n The addition of conqueror and several champion releases and reworks ushered in a meta of bruiser carry top laners, adding to the list of unfavorable matchups for Gnar (ie, Irelia, Jax, Pantheon, Wukong, Sett and others). It also pushed tanks out of the meta completely, which Gnar historically played well into.\n Lastly, at the end of season 9, likely in response to the abomination that was on-hit Neeko top, Riot made item and rune changes to help melees better deal with ranged top laners:\n 9.23\n Doran's Shield\n Bonus health regeneration increased to 0 − 40 (based on current missing health) from 0 − 30 (based on current missing health).\n Regeneration duration reduced to 8 seconds from 10.\n NEW EFFECT: Regeneration is now 66% effective for ranged champions or when triggered by AoE, DoT, or proc effects.\n Nimbus Cloak\n Effect trigger changed to casting a summoner spell from casting your ultimate ability.\n Bonus movement speed changed to 15% − 35% (based on summoner spell cooldown) from 100 flat movement speed. Higher cooldown summoner spells grant more movement speed.\n Both these changes gave low mobility bruisers great options against Gnar. Take for example the Darius matchup, one which was traditionally Gnar favored for a long time. Doran's Shield now better mitigates early game poke. Post level 6, Ghost + Nimbus cloak gives Darius plenty of instant speed to run Gnar down. As of now Darius has a 54% winrate against Gnar in plat+ over 300 games. Furthermore, the nerf to Doran's shield on ranged champs hurts Gnar when played into other ranged top laners that outrange and out bully him (ie Vayne, Quinn, Teemo, Kalista).\n In summary, the loss of damage and safety, combined with a wider range of unfavorable matchups has left mini gnar in a fairly weak state. So where do we go from here? I think Riot has every reason to be cautious in buffing mini Gnar lest he become oppressive. However, I do think mini Gnar needs some kind of buff to make him viable in higher elos where players are much better at exploiting mini gnars weaknesses.\n What are the communities thoughts/suggestions in terms of buffs for Gnar?\n To start off the discussion here's my suggestion: Gnar is an interesting champion in that his Rage Gene gives him bonus movement speed and attack range based on level. This gives Gnar an interesting power curve which makes him weak early game, but scale well into the mid game, and later fall off late game. This range and move speed is very important for Gnar's trading patterns and safety in a lot of matchups. I think if riot could tune some of this power to come online faster I think it would be a healthy buff without giving him any more flat damage or health.\n Patch 10.13 Update:\n Hop (E) attack speed changed from 20/30/40/50/60% to 40/45/50/55/60%\n attack speed duration increased from 3s to 4s\n I personally like this buff. It buffs E when used offensively, but also provides more kiting power (more hyper procs) when used defensively. I think it's an interesting way to buff to E without changing the cooldown, and 2 levels worth of attack speed is nothing to scoff at. As for the conqueror nerfs, I think this will help some of his difficult matchups against conqueror users where Gnar is forced to take a more defensive keystone anyways (Grasp, Fleet). Personally, I like to run conqueror in a lot of matchups since I think Gnar lacks damage in the current meta, but I'll have to see if the nerfs justify switching to something else like PTA.",
+   "id": "helkst",
+   "comments": [],
+   "age_days": 2299,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How the My Account's Hidden Number Made Me a Gnar Main",
+   "url": "https://www.reddit.com/r/GnarMains/comments/fvzsm1/how_the_my_accounts_hidden_number_made_me_a_gnar/",
+   "published": "2020-04-06",
+   "author": "/u/hooontaaah",
+   "body": "For those who don't know, there is a number associated with every Riot account, and these numbers are put in order in champ select to determine pick order. Almost every night I play a few games with the same team of 5, and my number had me consistently picking first. This was problematic, because of all my friends I am among the worst players (Currently ranked Silver 2, with our best player in low diamond). I constantly found that I would first pick a top laner that I liked, and the enemy top laner (usually already above my skill level) would pick a strong counter and crush me in lane. I got sick of always feeling like I was powerless in champ select, and started doing some research on a pick that would be safe into almost any matchup. \n It only took one night of playing Gnar to feel like something clicked. He is so versatile, offering range and harass part of the time, and tankiness and engage at others. He could escape ganks in creative ways, chase or flee effectively, and could be helpful when behind. To top it all off, he is capable of making game winning plays when ahead, and is a ton of fun. Since the start of the season he has become the champ I have the highest mastery on, and I am one token away from Mastery Level 7. \n I've learned how to vary my build and play appropriately in different match ups. I have shouted for joy when the reverse boomerang snipe actually works. I have sworn in anger when my ult just barely does not stun. I've turned lanes around with a surprise transform during a tower dive. This little sucker is fun as hell, and it's been a blast to slaw my way up the ladder listening to his gibberish.",
+   "id": "fvzsm1",
+   "comments": [],
+   "age_days": 2377,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Could the reworked Wukong be Gnar's new worst matchup?",
+   "url": "https://www.reddit.com/r/GnarMains/comments/fjp3fi/could_the_reworked_wukong_be_gnars_new_worst/",
+   "published": "2020-03-16",
+   "author": "/u/Corvus_Cuervo_LoL",
+   "body": "Wukong is already a bad matchup for Gnar, with his targeted, decent-range gap closer, stealth, and armor shred. The only thing is, he's rarely played top. (Or at all, for that matter.) However, with the \"rework\" and buffed bruiser items, I think it's logical to expect a decent rise in his popularity. The rework also gives Wukong a small dash for his W, a longer lasting clone, which can now autoattack (for reduced damage),and his ult can now be cast twice, doing a knockup each cast. What do you guys think? Would Wukong be a wise, go-to ban? (Currently I perma-ban Jax.)",
+   "id": "fjp3fi",
+   "comments": [],
+   "age_days": 2398,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Help to learn gnar",
+   "url": "https://www.reddit.com/r/GnarMains/comments/elenim/help_to_learn_gnar/",
+   "published": "2020-01-07",
+   "author": "/u/Simonezzz04",
+   "body": "Im pretty new to gnar (35k points), I want to become main gnar but Im bad in lane. Can any1 help me maybe with telling me the worst matchups too?",
+   "id": "elenim",
+   "comments": [],
+   "age_days": 2467,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Made it to Plat <3",
+   "url": "https://www.reddit.com/r/GnarMains/comments/ducfj4/made_it_to_plat_3/",
+   "published": "2019-11-10",
+   "author": "/u/ThomasRight",
+   "body": "‎‏Happy to announce my Gnar grind payed off, From Gold 4 when I embraced The Missing Link and the Gold 1 promo crysis, I made my goal this year. Hope you guys did too.\n https://eune.op.gg/summoner/userName=Thomas Right I'd love for your opinions on builds and runes I took on my matchups ;)",
+   "id": "ducfj4",
+   "comments": [],
+   "age_days": 2525,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "What’s a good Attack Speed item to build?",
+   "url": "https://www.reddit.com/r/GnarMains/comments/drj64b/whats_a_good_attack_speed_item_to_build/",
+   "published": "2019-11-04",
+   "author": "/u/azuriteii",
+   "body": "I’ve been trying to utilize his AS capability recently and I’ve never known what to build, should it be depending on matchup or should there be a set item to buy no matter what. I’ve been utilizing Wit’s End (against AP) and Nashor’s Tooth (for the Passive W and R)",
+   "id": "drj64b",
+   "comments": [],
+   "age_days": 2531,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "The Ultimate Gnar Guide - Thing in the Ice",
+   "url": "https://www.reddit.com/r/GnarMains/comments/avxf22/the_ultimate_gnar_guide_thing_in_the_ice/",
+   "published": "2019-02-28",
+   "author": "/u/thingintheice_",
+   "body": "Hey guys! I recently transferred over all of the information on my original Gnar guide that was posted here a while back onto Mobafire and updated it to patch 9.4. Everything has been reformatted for your viewing pleasure.\n Guide Matchups Spreadsheet ​\n A little bit about myself... I'm a Diamond Gnar main and have been playing him since he was released. I started playing League around the end of S3. I also stream educational Gnar gameplay over on Twitch.\n ​\n I update this guide regularly with each patch and have more planned for it in the future. If you have any questions or feedback, please let me know!",
+   "id": "avxf22",
+   "comments": [],
+   "age_days": 2780,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Best Rune Pages for Preseason - A General Guide",
+   "url": "https://www.reddit.com/r/GnarMains/comments/a211ih/best_rune_pages_for_preseason_a_general_guide/",
+   "published": "2018-12-01",
+   "author": "/u/thingintheice_",
+   "body": "Hi. I get a lot of questions regarding what runes to take this preseason, so I figured I would put something together to help. These will all be listed on my guide for preseason once I finish the update, but for now, let's go over the pages that shine the most for Gnar in my opinion:\n ​\n Best Overall Key Stones ​\n Fleet Footwork - Precision with Sorcery/Domination/Resolve\n ​\n Fleet Footwork is still Gnar's best overall key stone. Not much has changed here for our little guy. It still gives us a lot of value compared to every other key stone. You have the option of going down Sorcery, Domination, or Resolve as your secondary. These are all matchup dependent, so choose a secondary depending on what you're playing against.\n ​\n Kleptomancy - Inspiration with Precision/Resolve/Domination\n ​\n Since Klepto got changed, Gnar is making a lot of gold with it. Taking Approach Velocity allows you to get both Klepto procs off very easily after hitting your Q. This allows you to get your power spike a lot faster. More gold means more damage. I like to take Precision secondary for Alacrity. This also makes it easier to get both procs off. I think this key stone has a ton of potential to be the best, but more testing is needed. Give it a go and let me know what you think.\n ​\n Best Key Stone for Hard Matchups ​\n Grasp of the Undying - Resolve with Domination/Sorcery/Precision\n ​\n Grasp of the Undying is still performing very well into Gnar's hard matchups. Now that we are no longer tied to Precision for attack speed, we can dive into things like Domination secondary and take Taste of Blood and Ravenous Hunter which makes Gnar very, very difficult to kill with all of that sustain. I think Grasp/Domination is the best page for Gnar's hard matchups. Things like Irelia, Camille, Yasuo, etc. You can still take Sorcery/Precision secondary too, depending on what you are up against.\n ​\n Best Key Stone for Squishy Matchups (Most Squishies) ​\n Aery - Sorcery with Domination/Precision/Resolve\n ​\n Aery still performs exceptionally well into champions that are squishy and hard to get into auto range as Gnar. Things like Pantheon, Quinn, etc. Again, since we are no longer tied to Precision for attack speed, you can dive into Domination and Resolve secondary now.\n ​\n Best Key Stone for Extended Fights (Most Tanks) ​\n Press the Attack - Precision with Domination/Sorcery/Resolve\n ​\n PTA is still very good for extended fights. Not much has changed here.\n ​\n Please note that this is a very general guide for now. These pages aren't very specific. My guide that's stickied at the top of this subreddit will be updated very soon with everything preseason. Also expect a better way to view each matchup with specific item paths, rune pages, and tips. This all should be done very soon! :) Let me know if you have any questions.\n ​\n ​",
+   "id": "a211ih",
+   "comments": [],
+   "age_days": 2869,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Playing Gnar in Preseason - What to Expect and Early Thoughts",
+   "url": "https://www.reddit.com/r/GnarMains/comments/9ytnmj/playing_gnar_in_preseason_what_to_expect_and/",
+   "published": "2018-11-20",
+   "author": "/u/thingintheice_",
+   "body": "Hi! I'm Thing in the Ice, a Diamond Gnar main from NA, here to break down some things that impact our beloved champion in preseason. I will be streaming Gnar preseason gameplay for 10+ hours starting at 6 PM EST today (11/20/2018) over at https://www.twitch.tv/thingintheice_!\n ​\n First off, let's begin with the most exciting for us Gnar mains; Runes.\n ​\n Stat Shards\n ​\n Now that stats aren't tied to specific rune trees, a whole bunch of new options have opened up for Gnar. We are no longer primarily \"forced\" to go down the Precision tree for attack speed. This opens up things like Domination/Sorcery, Sorcery/Resolve, and so on and so forth... These are just a few examples. This one change alone is incredible for Gnar. More options are always a good thing.\n ​\n As for stat shards themselves, these will mostly depend on matchups and play style. A cookie cutter stat shard build would be: Attack Speed, Adaptive Damage, and Health. Double stacking resistances will also be very good into hard matchups.\n ​\n Before I list some rune pages to get excited for, let's go over a few more things...\n ​\n Turret Plating and What It Means for Gnar\n ​\n Turret Plating will extend laning phase. This is a really nice addition for Gnar. On top of that, each plate that gets destroyed grants 160 gold (divided among nearby champions). There are a total of five plates on a turret and these plates disappear at the 14:00 minute mark. Any plates that are left on the turret at this time will be removed and the chance to cash out on a total of 800 gold is gone. This is huge.\n ​\n Now, let's get into the fun stuff...\n ​\n Possible Rune Pages (Serious and Fun)\n ​\n Before we get into these pages, please keep in mind that these are cookie cutter pages since most runes revolve around matchups! These are also just SOME possible choices, not all. I'll add more to this post as we go.\n ​\n Sorcery/Resolve - \"The Return of Aery\"\n ​\n Aery - Nullifying Orb, Celerity, Gathering Storm - Demolish, Bone Plating\n ​\n Explanation: Now that we can take Sorcery and defensive runes while still being able to get attack speed, Aery is looking very promising again. We are now well rounded with a bit of everything in this page; poke, defensive stats, and attack speed for proccing our W.\n ​\n Domination/Precision - \"Me Damage\"\n ​\n Dark Harvest - Taste of Blood, Ghost Poro, Ravenous Hunter - Triumph, Alacrity\n ​\n Explanation: New Dark Harvest rewards poke with more damage. This is something Gnar likes. Not really much else to say here.\n ​\n Sorcery/Inspiration - \"Sonic Speed\"\n ​\n Phase Rush - Nimbus Cloak, Celerity, Waterwalking - Magicial Footwear, Approach Velocity\n ​\n Explanation: With the changes to Celerity stacked with Phase Rush, other movement speed runes, and your W passive, Gnar moves at the speed of lightning. This page is some incredible fun.\n ​\n With all this said, remember that it's still very early to tell what's going to be the \"end all be all\". For now, here's a list of things to watch closely during the chaos of playing in preseason:\n ​\n Demolish\n Dark Harvest\n Klepto\n Guinsoo's Rageblade\n Gnar's Winrate",
+   "id": "9ytnmj",
+   "comments": [],
+   "age_days": 2880,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Just me, or is Gnar incredibly weak right now?",
+   "url": "https://www.reddit.com/r/GnarMains/comments/9r5fr3/just_me_or_is_gnar_incredibly_weak_right_now/",
+   "published": "2018-10-25",
+   "author": "/u/Two-Nuhh",
+   "body": "Compared to other champs, Gnar feels so bad in lane. \n ​\n Statistically speaking- across all ranks, out of 46 champs in top lane, Gnar will go even, or better against 8 of them. (These numbers fluctuate a little bit if you change what ELO you're looking at, but the theme I'm getting is he's bottom of the barrel Tier) (https://u.gg/lol/champions/gnar/matchups/?rank=overall) \n ​\n Gnar is practically a nonexistent champ in high ELO, and I'd venture a guess it's because he has so few favorable match-ups. \n ​\n I love this champ and his uniqueness, but, I can't bring myself to play him because I feel like a detriment to my team. Am I incorrect to think this, or, is Gnar actually in a bad spot right now? \n ​\n Your responses and conversation are appreciated.\n ​\n ​",
+   "id": "9r5fr3",
+   "comments": [],
+   "age_days": 2906,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "The Ultimate Gnar Guide - Patch 8.16",
+   "url": "https://www.reddit.com/r/GnarMains/comments/9aktg7/the_ultimate_gnar_guide_patch_816/",
+   "published": "2018-08-27",
+   "author": "/u/thingintheice_",
+   "body": "Edit: UPDATED FOR PRESEASON! Ignore the title. I completely forgot that Reddit doesn't allow you to edit titles.\n ​\n Hi, I'm Thing in the Ice, a Diamond Gnar main from North America, here to bring you the ultimate guide to Gnar!\n ​\n Most Gnar guides out there are outdated and lack important information. I think I've created something that we can all look to when we have questions regarding Gnar. From basic information, breakdowns of Runes, item usage, matchup information, to advanced tricks. These are all included in the guide.\n ​\n This guide will be updated with every patch. Please note that because of this, the guide will never be \"finished.\" Luckily, Google Docs allows us to make changes to the guide live. Expect an update very soon after every major patch!\n ​\n I am also very much open to any feedback you may have. If you do have feedback for me, feel free to send a DM! This is something not only looked at by the community, but also made by the community.\n ​\n With all of that being said, please enjoy Thing in the Ice's Gnar Guide!\n ​\n Edit: I highly recommend disabling print layout under \"View\" for an easier read!",
+   "id": "9aktg7",
+   "comments": [],
+   "age_days": 2965,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Updated Interim beginner's Guide + Subreddit FAQ/Rules for posting",
+   "url": "https://www.reddit.com/r/GnarMains/comments/7xfzuv/updated_interim_beginners_guide_subreddit/",
+   "published": "2018-02-14",
+   "author": "/u/BountyHunterZ3r0",
+   "body": "(The old post was outdated & didn't list runes and whatnot. We're working on a really cool thing for y'all, but for now, here's a hodge-podge of some new stuff and some old stuff all copy-pasted together.)\n Join the Gameplay & Community Discords for an updated, more complete guide and pictures of builds more fully integrated w/ the guide.\n Greeting traveler! Welcome to the subreddit dedicated to League of Legend's best Yordle thing! If you've just picked up Gnar or are new to the sub lemme hook you up with some sweet links to quickly help get you to a competent place with Gnar. \n WARNING: if you post a \"new to Gnar, any tips?\" thread it will be deleted and you will be notified of its deletion as well as redirected here. If you're new and have a question try playing 5 games with your question in mind before you ask it here. The same goes for \"Why can't I get an S/S+\" (for which the answer is always \"your farm is too low\"). We're a very welcoming community but if we are to grow then basic questions cannot populate our page\n Also make yourself familiar with our subreddit's rules on the sidebar, especially the shitposting one. I'm very serious about that one\n Also also Snow Day Gnar comes out every winter, so you'll just have to be patient if you want that skin Runes: 1 2&3\n Beginner's Guide to Gnar\n Gnar has a highly variable playstyle which needs to change based on what form you're in as well as what champion your opponent is playing. In general, however, each form has a basic strategy which is adapted for the lane matchup\n In Mini, you'll look to poke down your opponent through your ranged auto attacks before going all-in with a Mega Gnar combo. Most top laners are melee, which means that with good footwork (not the keystone Fleet Footwork) you'll be able to get incremental free poke at very low risk. Good footwork cannot be understated though, and for that reason it's advised that you use your \"A\" key to learn your maximum attack range at the various stages of the game (Mini Gnar's attack range scales with levels, and is therefore not static). You're squishy in Mini form though, so you're voulnerable to being all-in'ed yourself.\n Utilizing your Q effectively is key to mastering Gnar. When it hits an enemy (minion or champion) it'll do reduced damage to all enemies hit after the first one and it will also immediately begin to return, and this return path is calculated by your movement direction immediately before it began its return path. Catching your Q is pretty important, because your early attack range in Mini is quite short, so you'll frequently find yourself using Q to CS safely. Try to always catch your Q if doing so doesn't put you in immediate danger of getting rekt. Poking with Q can also be tricky in Mini because throwing out Qs will often result in incidental shoving of the wave towards your opponent. Sometimes this is good, like when you're looking to poke the enemy under their tower so that you can dive them or force them to back because they're too low. Often times though, if you're not careful, you'll end up putting the wave under their tower when you're perfectly comfortable CS'ing under tower (Nasus). Use your Q to CS, use it to poke, use it to shove waves in, but knowing when you're doing each and why is the key. \n Your W is your key source of damage against tanks, and is therefore one of your most invaluable tools against champions like Cho'Gath. You'll often proc this through an auto-attack (AA) > Q > AA combo. You can also get a ring of W from jumping on someone with your E, but please, for the love of god, don't use your E just to get a stack of W. It's never worth it unless you're absolutely SURE you can kill. It also gives an attack speed buff if you bounce off of someone, so you might find yourself hopping away from someone to get out of a sticky situation and then (if you have FM/BC) turning right back to them and kiting with your increased attack speed until you're shredding them! This is super situational though, and it's almost always best to just save it for an escape or to engage before turning into Mega. \n Your E is the most skill-intensive ability that Gnar has, simply because it has such a long cooldown. Giving up your E because you mispositioned early can be game-changing, because you no longer have the ability to play forward in lane (because you can't E away from a gank), and using your E when both teams are positioning for a teamfight means that you'll probably have to flash if you want to be your team's initiator. \n In Mega, you're either starting fights, or you're ending them - ideally both by the time you're done Hulking out. Mega Gnar is a form which is prone to being bullied because he's melee. He has very few tools to trade. He does have combo tools though, and this is the niche you have to play into when you're Mega. Don't be afraid to go from an annoying lane bully in Mini to a very shy tower-hugging Mega Gnar back into an annoying lane bully 15 seconds later. Diving the enemy team in Mega is priority #1 in teamfights, BUT, if you have no rage and your team engages or gets engaged on, you'll have to play a more DPS-centric ADC-like role. One of the most important parts about playing Gnar is not to get hung-up on the idea that you have to be Mega Gnar to be useful in teamfights. That said though, here's how to make the most out of Mega's abilities.\n Mega Q makes you commit to walking all the way over to the boulder after you throw it in order to get the cooldown reset. Keep this in mind if you're doing something like throwing your Q at a Darius, because you're gonna need to walk over to Darius to get that back, and he's not gonna let you get that back for free. It's AOE on impact, so throwing it out on a wave of caster minions should let you kill them with basically 1 auto attack each or a mega W on all 3. \n Mega W is super telegraphed, so your only real targets are slow champs and people you've already stunned with your ult. Don't use this against champs like Fiora unless she's already used Riposte, and try not to rely on this stun landing if your opponent has a dash. Your Mega E's slow does assist in landing this though because Mega E slows in and AOE. If you do land this, you can weave in an auto attack right after the animation ends before you throw out a Q to squeeze in a bit more DPS in combos. \n Mega E doesn't double jump unless you transform into mega during the middle of the E, so its range is basically halved. Just like in Mini, don't waste this.\n Your R is pretty simple. You can only use it when you're Mega and it stuns if you throw the enemy into a wall. If you can learn to animation cancel it from your E, that's awesome, but it's not even close to something you need to learn to be succesful on Gnar. Just make sure you're setting yourself up to be in Mega when your team is looking to teamfight or when your jungler is coming for a gank/dive. All opponents are sent to the same distance away, regardless of how far away from you they were when you ulted them.\n BASIC COMBOS\n Your basic poke combo is: AA > Q > AA for the W proc (in Mini)\n Ult combo is typically (in Mega) R > Q > W > AA - Note that the animation for Q can be shortened if you press W right after\n Extended Damage ult combo (for lane fights) (in Mega) R > AA > W > AA > Q\n ADVANCED TIPS AND TRICKS COMPENDIUM\n Gnar E > R Animation Cancel Example\n Discussion/Analysis of Gnar's Rage\n Important Links (On the sidebar)\n For Gnar mains and their builds on the current patch, check Champion.gg & LoLAlytics & Probuilds\n Things Nano is wrong about\n Celerity bonus for W-Hyper proc\n Objectively correct ranking of Gnar skins\n Wave management vids\n https://www.youtube.com/watch?v=aDHbSFNN7MA - Really good wave management analysis - only watch first 20 minutes\n https://www.youtube.com/watch?v=rai19DSjO_E - Part 2 of above, also only watch first 20 minutes\n https://www.youtube.com/watch?v=vYDoeclwhQI - same as above except not as good, only first 15 min\n https://www.youtube.com/watch?v=eQz3yU5tzJ0&list=PLzHaU28zdQ4GAMfVf_aASyiB4dheLsONx - only watch the first 3",
+   "id": "7xfzuv",
+   "comments": [],
+   "age_days": 3159,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Sterak's Buff = more people playing Irelia. Let's talk matchup strats",
+   "url": "https://www.reddit.com/r/GnarMains/comments/75mg37/steraks_buff_more_people_playing_irelia_lets_talk/",
+   "published": "2017-10-11",
+   "author": "/u/BountyHunterZ3r0",
+   "body": "Ok. So it's been a whole year since we've talked about Irelia (except for this post which was ostensibly about playing other champions against her... You should still read the top comments though, especially Nanobyte's and Accf124's), and if you're like me and have a champion you'd like to keep permanently banned which isn't Irelia, then I think we can all agree we're due for another bonafide matchup discussion. Here's what I've gleaned from previous posts:\n 1) Don't let her get those Q reset jumps onto you from minions. You're gonna have to be cognizant of the HP of your own minions. You're in her lane now, not the other way around.\n 2) Don't shove the wave early - in fact, let it push towards you (but don't let it reset off of your tower. Freeze it on your half of the lane). She sets up ganks super easily and you need control of the wave. She doesn't have many tools for hard shoving except for wasting her ult and quickly executing a bunch of minions with Q when they're all low. Poke her early too which she can't get a full rotation of abilities on you & you have the ranged advantage before 1st transformation\n 3) Be aware that those extended Mega combos where you weave in autos likely won't work because of her passive which shortens the duration of CC.\n Also, buy Tabis and HP. She has true damage so generally HP > Armor, but only a by little bit and the right mix of both is better than strictly HP.\n Other than that, it's been a while since I've played this matchup and I'm afraid I can't contribute more. If you've got some insight feel free to post it. Specifically, itemization updated for the current patch as well as lane strategies for positioning and how to play various points in the lane @ certain lvls/item spikes.\n We (the mod team) are going to be trying something different on this matchup thread, where we'll be actively deleting comments which are factually wrong about how you should play the lane (judged by people much better than us). We want this thread to serve as a quick reference for everyone.",
+   "id": "75mg37",
+   "comments": [],
+   "age_days": 3285,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Gnar Thoughts by Gnar x Kennen",
+   "url": "https://www.reddit.com/r/GnarMains/comments/61slbr/gnar_thoughts_by_gnar_x_kennen/",
+   "published": "2017-03-27",
+   "author": "/u/Nanobyte427",
+   "body": "Gnar x Kennen is currently the highest rated Gnar player according to lolskill. I had the pleasure of asking him a bunch of questions regarding Gnar, and compiled his answers below. Massive thanks to him for taking the time to answer all these questions!\n Rush Hexdrinker when laning against Rumble, Teemo and Kennen. Hexdrinker + Spectre’s Cowl used to be good, but the meta shifted so you can no longer get away with so little damage. Get Frozen Mallet second against Rumble and Teemo, and get The Black Cleaver second against Kennen because Frozen Mallet is useless against him. Only upgrade the Hexdrinker to Maw of Malmortius if you are snowballing and against two or more AP champions, otherwise sell it. Maw of Malmortius replaces Guardian Angel in your build and should be upgraded as a third item if you get it. Against Fiora, Yasuo, Renekton, Irelia, and Jax, rush Ninja Tabi and Frozen Mallet. Make sure to trade heavily early on against Fiora and Yasuo, since they do not spike until they get their first item. Against lethality champions such as Jayce, Quinn, and Pantheon, rush Sunfire Cape for the armor, damage, and waveclear. Sunfire Cape has nothing to do with rage generation, and is entirely about being able to trade and survive, as well as push the wave into the enemy tower when the enemy goes to roam. Take Grasp of the Undying whenever you would buy Sunfire Cape and against Irelia. Rush Frozen Mallet against Darius. The first item against Nasus depends on if he rushes tank items or not; if Nasus gets tank items, rush The Black Cleaver, otherwise rush Frozen Mallet. You should buy an early executioner’s calling against Vladimir, Swain, Warwick, and Mundo, and can optionally get it against Maokai and Trundle. However, you do not need it against Nasus. Never upgrade Executioner’s Calling into Mortal Reminder, even if your ADC refuses to get it.\n Only start with Doran’s Blade or Doran’s Shield; everything else is bad. Start Doran’s Shield against ranged champions and Pantheon, otherwise start Doran’s Blade. You can pick up a second Doran’s Blade against early game champions if you have to back early and only have around 500 gold. If you aren’t against an early game champion, get Long Sword and Refillable Potion instead. If you have enough gold to get a Long Sword and a Ruby Crystal, get those instead. For your third item, get Guardian Angel if you are snowballing, or Randuin’s Omen or Spirit Visage depending on the enemy team. Mercury Treads are good when the enemy team has two to three or more crowd control spells affected by Tenacity. Ninja Tabi are good when the enemy team has at least two champs that damage primarily through basic attacks (for example a basic attack top laner and the enemy ADC). If you don’t need either, you can get Boots of Swiftness against heavy slows. Thornmail is a good item if there are three or more basic attack champions on the enemy team. Like Maw of Malmortius, it replaces Guardian Angel in your build. However, it should be purchased as a fourth or fifth item after Randuin’s Omen, depending on the enemy team. You can get Dead Man’s Plate instead of Randuin’s Omen if the enemy team has no crit champions. Banshee’s Veil is ok as a second magic resist item against very heavy AP, but Maw of Malmortius works well too. Banshee’s Veil is mediocre for Gnar compared to Spirit Visage because Spirit Visage has CDR. If Banshee’s Veil had CDR instead, it would absolutely be the better item for Gnar. Warmog’s Armor is never good due to the stats. Blade of the Ruined King isn’t as good as Frozen Mallet or The Black Cleaver, and you don’t usually need a third damage item. Wit’s End is maybe ok against a full AP team, but normal magic resist items are better. Never get Cull on Gnar; it’s bad on him. Trinity Force is way too expensive and the build path sucks for Gnar, so it’s a bad item on him. Ghostblade used to be decent when it gave attack speed, but since the attack speed has been removed, it’s bad on Gnar. Edge of Night is too expensive and Gnar can’t abuse the stats, since he is generally not a good lethality champion. Sterak’s Gage doesn’t give good stats and the passive is too unreliable for it to be a good item on Gnar.\n For masteries, take 12/0/18 Grasp of the Undying if you would get Sunfire Cape and against Irelia, otherwise take 18/0/12 Fervor of Battle. Thunderlord’s Decree is entirely outclassed by Fervor of Battle and Grasp of the Undying. Courage of the Collosus cannot be activated as Mini Gnar, and isn’t that strong in Mega Gnar since your crowd control duration prevents the shield from having much impact. Warlord’s Bloodlust sucks on Gnar and will still be bad after the buffs since Gnar does not build much AD and he does not build crit. Stoneborn Pact is useless for lane, and the heals are too weak late game to be useful. The 5% extra max health is nothing compared to Fervor of Battle or Grasp of the Undying.\n For runes, you should always take AD marks and attack speed quints. Seals and glyphs are situational. Take health per level seals against AP lanes, otherwise take flat armor seals. Against pure AD lanes, take 6 scaling CDR glyphs and 3 scaling MR glyphs. Against Kennen and Teemo, take armor seals and flat MR glyphs. \n You should get Control Wards when you have lane control, so you can actually defend them. Control Wards are much less useful if the enemy laner clears them out constantly, so they are not worth using in top lane. If you don’t have lane control, you can put a Control Ward in the river bush to help your mid laner. You should not change your playstyle based on the enemy jungler (i.e. don’t change runes depending on enemy jungler). You can use your ult on the enemy laner even if you don’t have kill pressure as poke so that you gain more pressure in lane. This is best to do right before you transform back into Mini Gnar so that you can kite the enemy afterwards. You should splitpush whenever you have Teleport off cooldown and can win a 1v1 against the enemy top laner. Don’t bother splitpushing in low elo, since your team will constantly 4v5 and lose. However, grouping isn’t that strong below Diamond since your teammates don’t know what to do anyways.\n Before patch 7.6, Gnar was fine, and was used as a Renekton and Rumble counter in pro play. After the buffs, he is pretty good, and will be over the top in pro play. If Frozen Mallet were to be removed, Gnar would need stronger slows on his Q to be viable (longer duration and/or strength). He would probably build Blade of the Ruined King instead of Frozen Mallet, sometimes getting Maw of Malmortius instead depending on the matchup. Gnar cannot work as a jungler right now because he has a low clear speed, lacks sustain, reliable crowd control to set up ganks as Mini Gnar, and a strong early game to duel other junglers. Gnar can’t work a mid laner because he doesn’t have enough range to trade back and he has very little waveclear so he just gets shoved in constantly.\n And of course, the most important answer of all: the best skins are Dino Gnar and Snow Day Gnar. The pink chroma is his favorite.",
+   "id": "61slbr",
+   "comments": [],
+   "age_days": 3483,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "What Champion.gg statistics say about Gnar in Patch 6.9",
+   "url": "https://www.reddit.com/r/GnarMains/comments/4ilhcz/what_championgg_statistics_say_about_gnar_in/",
+   "published": "2016-05-09",
+   "author": "/u/Nanobyte427",
+   "body": "The first thing to make clear is that winrate, playrate, etc do not necessarily dictate exactly how strong a champion is at a given moment. They do, however provide some insight into how well a champion is doing, how easy they are, etc. Champion.gg only analyzes Platinum+ ranked games, and the data does change over the course of the patch. http://champion.gg/champion/Gnar\n The average number of ranked games these Gnar players have is 57.62, meaning they are fairly experienced Gnar players and are fairly representative of Gnar's actual power, but should be succeeding less than champions that have more experienced players. Gnar's current playrate is 3.07%, meaning that he is still picked top lane fairly frequently, but not anywhere nearly as much as the \"meta\" top laners like Maokai and Ekko. His playrate has been on a consistent decline since his buffs, and this patch is no different. His banrate is only 0.13%, which is less than Aatrox of all champions. Nobody seems to think that Gnar is banworthy, meaning they think he isn't that strong compared to meta top laners. However, this is a perception of power, not the actual power of Gnar. Gnar's winrate increased to 49.80% this patch from 48.36% last patch, meaning he is stronger than last patch at any rate. I'm going to largely attribute this change to the nerfs to Sunfire Cape and the buff to The Black Cleaver, but there are likely many other important factors that play into it as well. Gnar's winrate is currently highest in the 0-30 minute mark and falls off to its lowest at 35-40 minutes before pulling up a bit at 40+ minutes. I think this is almost entirely because Gnar can get The Black Cleaver earlier and then start building tanky sooner, allowing him to be much more relevant early on and capitalize on his strong base damage. Build wise, Banshee's Veil seems to be much better than Spirit Visage now, as it is in both the most frequent and highest winrate builds. Interestingly, Guardian Angel is in both of them as well. I would personally take Zz'rot Portal over GA for mixed resistances, but apparently it's a good item for Gnar. 12/0/18 Grasp of the Undying is still the most popular keystone, but 18/0/12 Fervor of Battle seems to be performing much better than Grasp right now. Gnar's worst matchups by winrate are currently Wukong, Ekko, and Olaf, and his best matchups are Poppy, Jax, and Teemo (Vladimir wasn't included due to being hotfix buffed, but he is the best matchup for Gnar right now). Gnar still isn't meta, but I do think he has the potential to start making a return to the meta soon once people figure out how to build properly with all of the changes and champions get balanced around the changes.",
+   "id": "4ilhcz",
+   "comments": [],
+   "age_days": 3805,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  }
+ ]
+}

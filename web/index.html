@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pick Helper</title>
+<style>
+:root {
+  --bg: #f4f5f7; --panel: #ffffff; --panel-2: #f0f2f5; --line: #dde1e7; --text: #1b1f27; --muted: #5d6675;
+  --accent: #2f6fde; --accent-text: #ffffff; --good: #1f8a4c; --good-bg: #e3f4ea; --bad: #c4372f; --bad-bg: #fbe7e5;
+  --even: #6b7380; --even-bg: #eceef1; --warn: #a86a00; --warn-bg: #fdf1dc; --you: #e8effc;
+  --shadow: 0 1px 2px rgba(16, 24, 40, .06), 0 1px 3px rgba(16, 24, 40, .08);
+  --radius: 10px; --mono: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1218; --panel: #171b23; --panel-2: #1e232d; --line: #2b313d; --text: #e6e9ef; --muted: #98a1b1;
+    --accent: #5b8ff0; --accent-text: #0b1020; --good: #4cc27f; --good-bg: #16301f; --bad: #f0736a; --bad-bg: #3a1c1a;
+    --even: #a2aab8; --even-bg: #232833; --warn: #f0b44c; --warn-bg: #3a2c12; --you: #1b2840;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .4);
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1218; --panel: #171b23; --panel-2: #1e232d; --line: #2b313d; --text: #e6e9ef; --muted: #98a1b1;
+  --accent: #5b8ff0; --accent-text: #0b1020; --good: #4cc27f; --good-bg: #16301f; --bad: #f0736a; --bad-bg: #3a1c1a;
+  --even: #a2aab8; --even-bg: #232833; --warn: #f0b44c; --warn-bg: #3a2c12; --you: #1b2840;
+  --shadow: 0 1px 2px rgba(0, 0, 0, .4);
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--text); font: 14px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+button, input, select { font: inherit; color: inherit; }
+a { color: var(--accent); }
+
+header { position: sticky; top: 0; z-index: 5; background: var(--panel); border-bottom: 1px solid var(--line); }
+.bar { max-width: 1240px; margin: 0 auto; padding: 10px 16px; display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.brand { font-weight: 700; font-size: 16px; margin-right: 4px; }
+.pills { display: flex; gap: 6px; flex-wrap: wrap; }
+.pill { font-size: 12px; color: var(--muted); background: var(--panel-2); border: 1px solid var(--line); border-radius: 99px; padding: 2px 9px; white-space: nowrap; }
+.pill.run { color: var(--warn); background: var(--warn-bg); border-color: transparent; }
+nav { margin-left: auto; display: flex; gap: 4px; }
+nav button { border: 0; background: none; padding: 7px 12px; border-radius: 8px; cursor: pointer; color: var(--muted); font-weight: 600; }
+nav button[aria-selected="true"] { background: var(--panel-2); color: var(--text); }
+
+main { max-width: 1240px; margin: 0 auto; padding: 16px; }
+.view[hidden] { display: none !important; }
+.grid { display: grid; grid-template-columns: 400px 1fr; gap: 16px; align-items: start; }
+@media (max-width: 900px) { .grid { grid-template-columns: 1fr; } nav { margin-left: 0; } }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 14px; }
+.panel + .panel { margin-top: 12px; }
+h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 0 0 10px; }
+h3 { font-size: 15px; margin: 0; }
+.muted { color: var(--muted); }
+.small { font-size: 12px; }
+
+.seg { display: grid; grid-template-columns: repeat(5, 1fr); background: var(--panel-2); border: 1px solid var(--line); border-radius: 9px; padding: 3px; gap: 3px; }
+.seg button { border: 0; background: none; padding: 7px 0; border-radius: 7px; cursor: pointer; font-weight: 600; color: var(--muted); }
+@media (max-width: 420px) { .seg button { font-size: 12px; } .card-top { grid-template-columns: 22px 40px 1fr auto; gap: 8px; } .icon { width: 40px; height: 40px; } .teams { grid-template-columns: 1fr; } }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--accent-text); }
+
+.teams { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 12px; }
+.team h4 { margin: 0 0 6px; font-size: 12px; color: var(--muted); font-weight: 600; }
+.slot { display: grid; grid-template-columns: 26px 1fr; align-items: center; gap: 6px; margin-bottom: 5px; }
+.slot .r { font-size: 11px; color: var(--muted); font-weight: 700; text-transform: uppercase; }
+.slot input { width: 100%; min-width: 0; }
+.slot.you input { background: var(--you); border-style: dashed; font-weight: 600; }
+.slot.main input { border-color: var(--accent); }
+input[type="text"], input:not([type]), select { background: var(--panel); border: 1px solid var(--line); border-radius: 7px; padding: 6px 8px; outline: none; }
+input:focus, select:focus { border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 22%, transparent); }
+input.unknown { border-color: var(--bad); }
+.hint { font-size: 11px; color: var(--bad); min-height: 0; }
+
+.opts { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 12px; }
+.opts label, .field label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 3px; font-weight: 600; }
+.opts select { width: 100%; }
+.field { margin-top: 10px; }
+.chips { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; border: 1px solid var(--line); border-radius: 7px; padding: 4px; background: var(--panel); }
+.chips input { border: 0; flex: 1; min-width: 110px; padding: 3px 4px; box-shadow: none !important; }
+.chip { display: inline-flex; align-items: center; gap: 4px; background: var(--panel-2); border: 1px solid var(--line); border-radius: 99px; padding: 1px 4px 1px 9px; font-size: 12px; }
+.chip button { border: 0; background: none; cursor: pointer; color: var(--muted); padding: 0 4px; font-size: 14px; line-height: 1; }
+.row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.btn { border: 1px solid var(--line); background: var(--panel); border-radius: 8px; padding: 7px 12px; cursor: pointer; font-weight: 600; }
+.btn:hover { background: var(--panel-2); }
+.btn.primary { background: var(--accent); color: var(--accent-text); border-color: transparent; }
+.btn.danger { color: var(--bad); }
+.btn:disabled { opacity: .5; cursor: default; }
+
+.res-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
+.res-head h3 { font-size: 17px; }
+.cards { display: grid; gap: 10px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
+.card-top { display: grid; grid-template-columns: 30px 48px 1fr auto; gap: 12px; align-items: center; padding: 12px 14px 8px; }
+.rank { font-size: 18px; font-weight: 700; color: var(--muted); text-align: center; }
+.icon { width: 48px; height: 48px; border-radius: 9px; background: var(--panel-2); display: grid; place-items: center; font-weight: 700; color: var(--muted); overflow: hidden; flex: none; }
+.icon img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.icon.sm { width: 26px; height: 26px; border-radius: 6px; font-size: 11px; }
+.name { font-size: 16px; font-weight: 700; }
+.sub { font-size: 12px; color: var(--muted); }
+.score { text-align: right; }
+.score b { font-size: 20px; font-variant-numeric: tabular-nums; }
+.score .meter { width: 90px; height: 6px; background: var(--panel-2); border-radius: 99px; overflow: hidden; margin-top: 4px; }
+.score .meter i { display: block; height: 100%; background: var(--accent); border-radius: 99px; }
+.lane { margin: 0 14px; padding: 8px 10px; border-radius: 8px; background: var(--panel-2); display: flex; gap: 10px 16px; flex-wrap: wrap; align-items: center; font-size: 13px; }
+.lane .stat b { font-variant-numeric: tabular-nums; }
+.tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 99px; }
+.tag.Favored { color: var(--good); background: var(--good-bg); }
+.tag.Unfavored { color: var(--bad); background: var(--bad-bg); }
+.tag.Even { color: var(--even); background: var(--even-bg); }
+.tag.low { color: var(--warn); background: var(--warn-bg); }
+.reasons { display: flex; flex-wrap: wrap; gap: 5px; padding: 8px 14px 0; }
+.reason { font-size: 12px; padding: 2px 8px; border-radius: 6px; border: 1px solid var(--line); background: var(--panel); white-space: nowrap; }
+.reason.pos { border-color: color-mix(in srgb, var(--good) 40%, var(--line)); }
+.reason.neg { border-color: color-mix(in srgb, var(--bad) 40%, var(--line)); }
+.reason b { font-variant-numeric: tabular-nums; }
+.reason.pos b { color: var(--good); } .reason.neg b { color: var(--bad); }
+details { padding: 6px 14px 12px; }
+details summary { cursor: pointer; color: var(--accent); font-size: 13px; font-weight: 600; padding: 4px 0; list-style: none; }
+details summary::-webkit-details-marker { display: none; }
+details summary::before { content: "▸ "; } details[open] summary::before { content: "▾ "; }
+.detail { display: grid; gap: 12px; margin-top: 6px; }
+.detail h5 { margin: 0 0 4px; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+.kv { display: grid; grid-template-columns: 120px 1fr; gap: 3px 10px; font-size: 13px; }
+.kv dt { color: var(--muted); } .kv dd { margin: 0; }
+.note { background: var(--panel-2); border-left: 3px solid var(--accent); padding: 6px 10px; border-radius: 0 6px 6px 0; font-size: 13px; }
+.snips { display: grid; gap: 6px; }
+.snip { font-size: 13px; padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); }
+.snip .meta { font-size: 11px; color: var(--muted); margin-top: 3px; }
+.avoid { margin-top: 16px; }
+.avoid .card-top { padding-bottom: 12px; }
+.empty { text-align: center; padding: 40px 16px; color: var(--muted); }
+.err { color: var(--bad); background: var(--bad-bg); border-radius: 8px; padding: 8px 12px; margin-bottom: 10px; }
+
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); }
+th { color: var(--muted); font-size: 12px; font-weight: 600; cursor: pointer; user-select: none; white-space: nowrap; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+tbody tr { cursor: pointer; } tbody tr:hover { background: var(--panel-2); } tbody tr.sel { background: var(--you); }
+.tablewrap { max-height: 70vh; overflow: auto; }
+.oppcell { display: flex; gap: 8px; align-items: center; }
+
+.stages { display: grid; gap: 8px; }
+.stage { display: grid; grid-template-columns: 1fr auto; gap: 10px; align-items: center; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; }
+.stage p { margin: 2px 0 0; font-size: 12px; color: var(--muted); }
+pre.log { background: var(--panel-2); border: 1px solid var(--line); border-radius: 8px; padding: 10px; font: 12px/1.45 var(--mono); max-height: 420px; overflow: auto; white-space: pre-wrap; word-break: break-word; margin: 0; }
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 99px; background: var(--even); margin-right: 6px; vertical-align: 1px; }
+.dot.on { background: var(--warn); animation: pulse 1.2s infinite; }
+@keyframes pulse { 50% { opacity: .35; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <span class="brand">Pick Helper</span>
+    <div class="pills" id="pills"></div>
+    <nav role="tablist">
+      <button role="tab" data-view="draft" aria-selected="true">Draft</button>
+      <button role="tab" data-view="lookup" aria-selected="false">Lookup</button>
+      <button role="tab" data-view="data" aria-selected="false">Data</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- DRAFT -->
+  <section class="view" id="view-draft">
+    <div class="grid">
+      <div>
+        <div class="panel">
+          <h2>I'm picking</h2>
+          <div class="seg" id="roleSeg"></div>
+          <div class="teams">
+            <div class="team"><h4>Your team</h4><div id="allySlots"></div></div>
+            <div class="team"><h4>Enemy team</h4><div id="enemySlots"></div></div>
+          </div>
+          <div class="opts">
+            <div><label for="style">Comp style</label>
+              <select id="style"><option value="">Any</option></select></div>
+            <div><label for="need">Damage</label>
+              <select id="need"><option value="">Auto</option><option value="ap">Need AP</option><option value="ad">Need AD</option></select></div>
+          </div>
+          <div class="field">
+            <label for="unavailInput">Unavailable (bans, fearless)</label>
+            <div class="chips" id="unavailChips"><input id="unavailInput" list="champList" placeholder="Type a name, press Enter"></div>
+          </div>
+          <div class="row" style="margin-top:12px; justify-content: space-between">
+            <span class="small muted" id="draftHint">Fill in what you know. Empty slots are fine.</span>
+            <button class="btn" id="clearDraft">Clear draft</button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div id="draftErr"></div>
+        <div class="res-head"><h3 id="resTitle">Best picks</h3><span class="small muted" id="resMeta"></span></div>
+        <div class="cards" id="cards"></div>
+        <div class="avoid" id="avoid"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOOKUP -->
+  <section class="view" id="view-lookup" hidden>
+    <div class="grid">
+      <div>
+        <div class="panel">
+          <h2>Look up a champion</h2>
+          <div class="seg" id="lkRoleSeg"></div>
+          <div class="field"><label for="lkChamp">Champion</label><input id="lkChamp" list="champList" placeholder="e.g. Zed" style="width:100%"></div>
+          <div class="field"><label for="lkFilter">Filter opponents</label><input id="lkFilter" placeholder="type to filter" style="width:100%"></div>
+          <div id="lkCard" style="margin-top:12px"></div>
+        </div>
+      </div>
+      <div>
+        <div id="lkErr"></div>
+        <div class="panel" id="lkDetailPanel" hidden><div id="lkDetail"></div></div>
+        <div class="panel" id="lkTablePanel" hidden>
+          <div class="res-head"><h3 id="lkTitle"></h3><span class="small muted">Click a row for the full matchup</span></div>
+          <div class="tablewrap"><table id="lkTable"></table></div>
+        </div>
+        <div class="empty" id="lkEmpty">Pick a role and type a champion to see every matchup with win rates, notes and Reddit tips.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DATA -->
+  <section class="view" id="view-data" hidden>
+    <div class="grid">
+      <div>
+        <div class="panel">
+          <h2>What's in the data</h2>
+          <table id="dataTable"></table>
+          <p class="small muted" id="dataMeta" style="margin-bottom:0"></p>
+        </div>
+      </div>
+      <div>
+        <div class="panel">
+          <h2>Update</h2>
+          <div class="stages" id="stages"></div>
+          <p class="small muted">Updates run in the background and keep going if you close this page. Only one runs at a time. Stopping is safe: finished champions are kept and the next run continues.</p>
+        </div>
+        <div class="panel">
+          <div class="res-head"><h3><span class="dot" id="runDot"></span><span id="runText">Idle</span></h3>
+            <button class="btn danger" id="stopBtn" hidden>Stop</button></div>
+          <pre class="log" id="log">No log yet.</pre>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<datalist id="champList"></datalist>
+
+<script>
+"use strict";
+const ROLES = ["top", "jungle", "mid", "bot", "support"];
+const ROLE_LABEL = { top: "Top", jungle: "Jungle", mid: "Mid", bot: "Bot", support: "Support" };
+const DIFF_HELP = "Win rate compared with what these two champions usually win. Favored is +2 or more, Unfavored is -2 or less. A champion with a low overall win rate can be Favored at 49%.";
+const ROLE_SHORT = { top: "TOP", jungle: "JG", mid: "MID", bot: "BOT", support: "SUP" };
+const STAGES = [
+  ["lolalytics", "Refresh win rates", "All roles from Lolalytics. About 5 minutes. Do this after each patch."],
+  ["reddit", "Fetch missing Reddit", "Only champions without Reddit data. One request per minute, so new champions take 2 to 4 minutes each."],
+  ["tips", "Rebuild tips", "Re-extract Reddit tips into the workbooks. Seconds."],
+  ["comments", "Fetch Reddit comments", "Replies to the best threads per champion. Many hours, run it overnight."],
+  ["all", "Everything", "Win rates, then missing Reddit, then tips."],
+];
+
+// ---------- small helpers
+const $ = (s, el = document) => el.querySelector(s);
+const h = (tag, attrs = {}, ...kids) => {
+  const el = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (v == null || v === false) continue;
+    if (k === "class") el.className = v;
+    else if (k.startsWith("on")) el.addEventListener(k.slice(2), v);
+    else el.setAttribute(k, v === true ? "" : v);
+  }
+  for (const kid of kids.flat()) if (kid != null && kid !== false) el.append(kid.nodeType ? kid : document.createTextNode(String(kid)));
+  return el;
+};
+const fmt = (v, d = 1) => (v == null || isNaN(v) ? "–" : (v > 0 ? "+" : "") + Number(v).toFixed(d));
+const pct = v => (v == null ? "–" : Number(v).toFixed(1) + "%");
+const store = {
+  get(k, d) { try { const v = localStorage.getItem("ph." + k); return v == null ? d : JSON.parse(v); } catch { return d; } },
+  set(k, v) { try { localStorage.setItem("ph." + k, JSON.stringify(v)); } catch { /* private window: fine */ } },
+};
+async function api(path, body) {
+  const r = await fetch(path, body ? { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) } : {});
+  const d = await r.json().catch(() => ({ error: `HTTP ${r.status}` }));
+  if (!r.ok || d.error) throw new Error(d.error || `HTTP ${r.status}`);
+  return d;
+}
+const debounce = (fn, ms) => { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; };
+const safeUrl = u => (/^https:\/\/(www\.|old\.)?reddit\.com\//.test(u || "") ? u : null);
+const ago = ts => {
+  if (!ts) return "never";
+  const s = Date.now() / 1000 - ts;
+  if (s < 3600) return Math.max(1, Math.round(s / 60)) + " min ago";
+  if (s < 86400) return Math.round(s / 3600) + " h ago";
+  return Math.round(s / 86400) + " days ago";
+};
+
+// ---------- champion icons (Riot's public image server; initials when offline)
+const ICON_ID = { "Wukong": "MonkeyKing", "Nunu & Willump": "Nunu", "Renata Glasc": "Renata", "Kai'Sa": "Kaisa",
+  "Kha'Zix": "Khazix", "Cho'Gath": "Chogath", "Vel'Koz": "Velkoz", "Bel'Veth": "Belveth", "LeBlanc": "Leblanc",
+  "K'Sante": "KSante", "Dr. Mundo": "DrMundo" };
+let ddVersion = null;
+fetch("https://ddragon.leagueoflegends.com/api/versions.json").then(r => r.json()).then(v => {
+  ddVersion = v[0];
+  document.querySelectorAll(".icon[data-champ]").forEach(el => fillIcon(el, el.dataset.champ));
+}).catch(() => {});
+function fillIcon(el, name) {
+  el.textContent = name.replace(/[^A-Za-z ]/g, "").split(" ").map(w => w[0]).join("").slice(0, 2).toUpperCase();
+  if (!ddVersion) return;
+  const id = ICON_ID[name] || name.replace(/[^A-Za-z]/g, "");
+  const img = new Image();
+  img.alt = "";
+  img.onload = () => { el.textContent = ""; el.append(img); };
+  img.src = `https://ddragon.leagueoflegends.com/cdn/${ddVersion}/img/champion/${id}.png`;
+}
+const icon = (name, cls = "") => { const el = h("div", { class: "icon " + cls, "data-champ": name }); fillIcon(el, name); return el; };
+
+// ---------- state
+let META = null;
+const state = Object.assign({ role: "mid", ally: {}, enemy: {}, style: "", need: "", unavailable: [], lkRole: "mid", lkChamp: "" },
+  store.get("state", {}));
+const save = () => store.set("state", state);
+try {  // a draft in the address bar (#draft=...) overrides the remembered one, so drafts can be bookmarked
+  const m = location.hash.match(/^#draft=(.+)$/);
+  if (m) Object.assign(state, JSON.parse(decodeURIComponent(m[1])));
+} catch { /* ignore a broken link */ }
+
+// ---------- tabs
+document.querySelectorAll("nav button").forEach(b => b.addEventListener("click", () => showView(b.dataset.view)));
+function showView(v) {
+  document.querySelectorAll("nav button").forEach(b => b.setAttribute("aria-selected", b.dataset.view === v));
+  document.querySelectorAll(".view").forEach(s => (s.hidden = s.id !== "view-" + v));
+  store.set("view", v);
+  if (v === "data") refreshStatus();
+}
+
+// ---------- header pills
+function renderPills(running) {
+  const p = $("#pills");
+  p.replaceChildren();
+  if (!META) return;
+  if (META.patch) p.append(h("span", { class: "pill", title: "Lolalytics patch and rank" }, "Patch " + META.patch));
+  p.append(h("span", { class: "pill", title: "Champions with Reddit data" }, `Reddit: ${META.reddit_champions} champions`));
+  if (running) p.append(h("span", { class: "pill run" }, "Update running"));
+}
+
+// ---------- role segments
+function segment(el, value, onPick) {
+  el.replaceChildren(...ROLES.map(r => h("button", { "aria-pressed": r === value, onclick: () => onPick(r) }, ROLE_LABEL[r])));
+}
+
+// ---------- draft
+function renderSlots() {
+  segment($("#roleSeg"), state.role, r => { state.role = r; save(); renderSlots(); recompute(); });
+  for (const side of ["ally", "enemy"]) {
+    const box = $(side === "ally" ? "#allySlots" : "#enemySlots");
+    box.replaceChildren();
+    for (const r of ROLES) {
+      const you = side === "ally" && r === state.role;
+      const main = side === "enemy" && r === state.role;
+      const inp = h("input", { list: "champList", id: `${side}-${r}`, autocomplete: "off", spellcheck: "false",
+        placeholder: you ? "You" : main ? "Lane opponent" : ROLE_LABEL[r], disabled: you,
+        "aria-label": `${side === "ally" ? "Your" : "Enemy"} ${ROLE_LABEL[r]}` });
+      inp.value = you ? "" : (state[side][r] || "");
+      inp.addEventListener("input", () => { state[side][r] = inp.value; save(); recomputeSoon(); });
+      box.append(h("div", { class: "slot" + (you ? " you" : "") + (main ? " main" : "") }, h("span", { class: "r" }, ROLE_SHORT[r]), inp));
+    }
+  }
+}
+function renderChips() {
+  const box = $("#unavailChips"), inp = $("#unavailInput");
+  box.querySelectorAll(".chip").forEach(c => c.remove());
+  state.unavailable.forEach((n, i) => box.insertBefore(h("span", { class: "chip" }, n,
+    h("button", { title: "Remove", "aria-label": "Remove " + n, onclick: () => { state.unavailable.splice(i, 1); save(); renderChips(); recompute(); } }, "×")), inp));
+}
+function addUnavailable(v) {
+  v = v.trim();
+  if (!v) return;
+  const canon = META?.names.find(n => n.toLowerCase() === v.toLowerCase()) || v;
+  if (!state.unavailable.some(n => n.toLowerCase() === canon.toLowerCase())) state.unavailable.push(canon);
+  save(); renderChips(); recompute();
+}
+$("#unavailInput").addEventListener("keydown", e => {
+  if (e.key === "Enter" || e.key === ",") { e.preventDefault(); addUnavailable(e.target.value); e.target.value = ""; }
+  else if (e.key === "Backspace" && !e.target.value && state.unavailable.length) { state.unavailable.pop(); save(); renderChips(); recompute(); }
+});
+$("#unavailInput").addEventListener("change", e => {  // picking from the suggestion list
+  if (META?.names.includes(e.target.value)) { addUnavailable(e.target.value); e.target.value = ""; }
+});
+$("#style").addEventListener("change", e => { state.style = e.target.value; save(); recompute(); });
+$("#need").addEventListener("change", e => { state.need = e.target.value; save(); recompute(); });
+$("#clearDraft").addEventListener("click", () => {
+  state.ally = {}; state.enemy = {}; state.unavailable = []; state.style = ""; state.need = "";
+  $("#style").value = ""; $("#need").value = ""; save(); renderSlots(); renderChips(); recompute();
+});
+
+const recomputeSoon = debounce(() => recompute(), 300);
+let reqId = 0;
+async function recompute() {
+  const id = ++reqId;
+  const body = { role: state.role, ally: state.ally, enemy: state.enemy, style: state.style, need: state.need,
+                 unavailable: state.unavailable, top: 8 };
+  try {
+    const d = await api("/api/recommend", body);
+    if (id !== reqId) return;
+    $("#draftErr").replaceChildren();
+    renderResults(d);
+  } catch (e) {
+    if (id !== reqId) return;
+    $("#draftErr").replaceChildren(h("div", { class: "err" }, e.message));
+  }
+}
+function markSlots(slots) {
+  for (const side of ["ally", "enemy"]) for (const r of ROLES) {
+    const inp = $(`#${side}-${r}`);
+    if (!inp || inp.disabled) continue;
+    const s = slots[`${side}.${r}`];
+    const bad = !!inp.value.trim() && s && !s.known;
+    inp.classList.toggle("unknown", bad);
+    inp.title = bad ? "Unknown champion name" : (s?.name && s.name.toLowerCase() !== inp.value.trim().toLowerCase() ? "Read as " + s.name : "");
+  }
+}
+
+function labelTag(label, low) {
+  const frag = [];
+  if (label) frag.push(h("span", { class: "tag " + label }, label));
+  if (low) frag.push(h("span", { class: "tag low", title: "Fewer than 200 games: the picker trusts it at 70%" }, "low sample"));
+  return frag;
+}
+function reasonChip(p) {
+  const cls = p.value > 0 ? "pos" : p.value < 0 ? "neg" : "";
+  let text;
+  if (p.kind === "matchup") {
+    const bits = p.main ? "" : [p.wr != null ? pct(p.wr) : null, p.games ? p.games + " games" : null].filter(Boolean).join(", ");
+    text = p.main ? `lane vs ${p.enemy_name}` : `vs ${p.enemy_name}${bits ? " · " + bits : ""}`;
+  } else text = p.text;
+  return h("span", { class: "reason " + cls, title: p.kind === "matchup" && !p.main ? "Other enemies count one third" : "" },
+    h("b", {}, fmt(p.value)), " ", text);
+}
+function matchupDetail(m, champ) {
+  const box = h("div", { class: "detail" });
+  if (m && (m.tips.length || m.hand_result)) {
+    box.append(h("div", {}, h("h5", {}, "Lane notes"),
+      ...m.tips.map(t => h("div", { class: "note" }, t.who !== champ ? `${t.who}'s side: ` : "", t.text)),
+      m.hand_result ? h("div", { class: "small muted", style: "margin-top:4px" },
+        `Hand label: ${m.hand_result}${m.mismatch ? " (disagrees with the win rate)" : ""}`) : null));
+  }
+  if (m && m.reddit.length) {
+    for (const r of m.reddit) {
+      box.append(h("div", {}, h("h5", {}, `From ${r.who} mains · ${r.mentions} mentions · newest ${r.newest || "?"}`),
+        h("div", { class: "snips" }, ...r.tips.map(t => h("div", { class: "snip" }, t.text,
+          h("div", { class: "meta" }, t.date || "", safeUrl(t.url) ? [" · ", h("a", { href: safeUrl(t.url), target: "_blank", rel: "noopener noreferrer" }, "thread")] : null))))));
+    }
+  }
+  if (m && !m.tips.length && !m.reddit.length) box.append(h("div", { class: "small muted" }, "No notes or Reddit tips for this matchup yet."));
+  return box;
+}
+function champFacts(c) {
+  const rows = [["Pick when", c.when], ["Comps", c.comps], ["Good into", c.good], ["Struggles into", c.bad], ["Blind pick", c.blind]]
+    .filter(([, v]) => v);
+  return h("dl", { class: "kv" }, ...rows.flatMap(([k, v]) => [h("dt", {}, k), h("dd", {}, v)]));
+}
+function card(p, i, maxScore, light) {
+  const top = h("div", { class: "card-top" },
+    h("div", { class: "rank" }, light ? "" : i + 1), icon(p.name),
+    h("div", {}, h("div", { class: "name" }, p.name), h("div", { class: "sub" }, [p.arch, p.dmg, p.blind === "Yes" ? "blind-safe" : null].filter(Boolean).join(" · "))),
+    h("div", { class: "score" }, h("b", {}, fmt(p.score)),
+      light ? null : h("div", { class: "meter" }, h("i", { style: `width:${Math.max(4, Math.min(100, (p.score / (maxScore || 1)) * 100))}%` }))));
+  const el = h("article", { class: "card" }, top);
+  if (light) { top.after(h("div", { class: "reasons", style: "padding-bottom:12px" }, ...p.parts.map(reasonChip))); return el; }
+  if (p.lane && p.lane.wr != null) {
+    el.append(h("div", { class: "lane" },
+      h("span", {}, "vs ", h("b", {}, p.lane.opp)),
+      h("span", { class: "stat" }, "Win rate ", h("b", {}, pct(p.lane.wr))),
+      h("span", { class: "stat", title: DIFF_HELP }, h("b", {}, fmt(p.lane.dnorm)), " vs usual"),
+      h("span", { class: "stat" }, h("b", {}, p.lane.games), " games"),
+      ...labelTag(p.lane.label, p.lane.low_sample)));
+  }
+  el.append(h("div", { class: "reasons" }, ...(p.parts.length ? p.parts.map(reasonChip) : [h("span", { class: "small muted" }, "No specific reasons, ranked on general fit")])));
+  const det = h("details", {}, h("summary", {}, p.lane ? "Lane notes, Reddit tips and champion info" : "Champion info"));
+  det.addEventListener("toggle", () => {
+    if (!det.open || det.dataset.done) return;
+    det.dataset.done = 1;
+    det.append(h("div", { class: "detail" }, p.lane ? matchupDetail(p.lane, p.name) : null, h("div", {}, h("h5", {}, p.name), champFacts(p))));
+  }, { once: false });
+  el.append(det);
+  return el;
+}
+function renderResults(d) {
+  markSlots(d.slots);
+  $("#resTitle").textContent = d.enemy_main ? `Best ${ROLE_LABEL[d.role].toLowerCase()} picks into ${d.enemy_main}` : `Best ${ROLE_LABEL[d.role].toLowerCase()} blind picks`;
+  const bits = [`${d.candidates} candidates`];
+  if (d.style) bits.push(`${d.style} comp`);
+  if (d.need) bits.push(state.need ? `needs ${d.need.toUpperCase()}` : `auto: team needs ${d.need.toUpperCase()}`);
+  else if (!state.need) bits.push("damage balanced");
+  $("#resMeta").textContent = bits.join(" · ");
+  $("#need").options[0].textContent = d.need_detected ? `Auto (${d.need_detected.toUpperCase()})` : "Auto";
+  const max = Math.max(...d.picks.map(p => p.score), 1);
+  $("#cards").replaceChildren(...(d.picks.length ? d.picks.map((p, i) => card(p, i, max)) : [h("div", { class: "empty" }, "No candidates left. Check the unavailable list.")]));
+  $("#avoid").replaceChildren(...(d.avoid.length ? [h("h2", {}, "Avoid"), h("div", { class: "cards" }, ...d.avoid.map(p => card(p, 0, max, true)))] : []));
+}
+
+// ---------- lookup
+let lkData = null, lkSort = { key: "score", dir: -1 }, lkSel = null;
+function renderLookupControls() {
+  segment($("#lkRoleSeg"), state.lkRole, r => { state.lkRole = r; save(); renderLookupControls(); lookup(); });
+}
+const lookupSoon = debounce(() => lookup(), 350);
+$("#lkChamp").addEventListener("input", e => { state.lkChamp = e.target.value; save(); lookupSoon(); });
+$("#lkFilter").addEventListener("input", () => renderLookupTable());
+async function lookup() {
+  const name = (state.lkChamp || "").trim();
+  $("#lkErr").replaceChildren();
+  if (!name) { lkData = null; $("#lkTablePanel").hidden = true; $("#lkDetailPanel").hidden = true; $("#lkEmpty").hidden = false; $("#lkCard").replaceChildren(); return; }
+  try {
+    lkData = await api(`/api/champion?role=${state.lkRole}&name=${encodeURIComponent(name)}`);
+  } catch (e) { $("#lkErr").replaceChildren(h("div", { class: "err" }, e.message)); return; }
+  lkSel = null;
+  $("#lkDetailPanel").hidden = true;
+  const c = lkData.champion;
+  $("#lkCard").replaceChildren(h("div", { class: "row" }, icon(c.name), h("div", {}, h("div", { class: "name" }, c.name),
+    h("div", { class: "sub" }, lkData.in_role ? [c.arch, c.dmg].filter(Boolean).join(" · ") : `Not in the ${ROLE_LABEL[lkData.role].toLowerCase()} pool`))),
+    lkData.in_role ? h("div", { style: "margin-top:10px" }, champFacts(c)) : null);
+  $("#lkTitle").textContent = `${c.name} ${ROLE_LABEL[lkData.role].toLowerCase()}: ${lkData.matchups.length} matchups`;
+  $("#lkEmpty").hidden = !!lkData.matchups.length;
+  if (!lkData.matchups.length) $("#lkEmpty").textContent = `No ${ROLE_LABEL[lkData.role].toLowerCase()} matchup data for ${c.name}.`;
+  $("#lkTablePanel").hidden = !lkData.matchups.length;
+  renderLookupTable();
+}
+function renderLookupTable() {
+  if (!lkData) return;
+  const f = $("#lkFilter").value.trim().toLowerCase();
+  const cols = [["opp", "Opponent"], ["score", "Score", 1], ["wr", "Win rate", 1], ["dnorm", "vs usual", 1], ["games", "Games", 1], ["label", "Result"], ["reddit", "Reddit tips", 1]];
+  let rows = lkData.matchups.filter(m => !f || m.opp.toLowerCase().includes(f));
+  rows = rows.slice().sort((a, b) => {
+    const x = a[lkSort.key], y = b[lkSort.key];
+    if (x == null) return 1; if (y == null) return -1;
+    return (typeof x === "string" ? x.localeCompare(y) : x - y) * lkSort.dir;
+  });
+  const head = h("tr", {}, ...cols.map(([k, t, num]) => h("th", { class: num ? "num" : "", onclick: () => {
+    lkSort = { key: k, dir: lkSort.key === k ? -lkSort.dir : (num ? -1 : 1) }; renderLookupTable(); } },
+    t, lkSort.key === k ? (lkSort.dir > 0 ? " ▴" : " ▾") : "")));
+  const body = rows.map(m => h("tr", { class: m.opp === lkSel ? "sel" : "", onclick: () => openMatchup(m.opp) },
+    h("td", {}, h("span", { class: "oppcell" }, icon(m.opp, "sm"), m.opp, m.notes ? h("span", { class: "small muted", title: "Has hand-written lane notes" }, " ✎") : null)),
+    h("td", { class: "num" }, fmt(m.score)), h("td", { class: "num" }, pct(m.wr)), h("td", { class: "num", title: DIFF_HELP }, fmt(m.dnorm)), h("td", { class: "num" }, m.games ?? "–"),
+    h("td", {}, ...labelTag(m.label, m.low_sample)), h("td", { class: "num" }, m.reddit || "")));
+  $("#lkTable").replaceChildren(h("thead", {}, head), h("tbody", {}, ...body));
+}
+async function openMatchup(opp) {
+  lkSel = opp; renderLookupTable();
+  try {
+    const m = await api(`/api/matchup?role=${state.lkRole}&a=${encodeURIComponent(lkData.champion.name)}&b=${encodeURIComponent(opp)}`);
+    $("#lkDetail").replaceChildren(
+      h("div", { class: "row", style: "margin-bottom:10px" }, icon(m.champ), h("h3", {}, `${m.champ} vs ${m.opp}`), icon(m.opp)),
+      m.wr != null ? h("div", { class: "lane", style: "margin:0 0 10px" },
+        h("span", { class: "stat" }, "Win rate ", h("b", {}, pct(m.wr))), h("span", { class: "stat" }, h("b", {}, m.games), " games"),
+        h("span", { class: "stat", title: DIFF_HELP }, h("b", {}, fmt(m.dnorm)), " vs usual"), ...labelTag(m.label, m.low_sample)) : h("p", { class: "small muted" }, "No win-rate data for this pair."),
+      matchupDetail(m, m.champ));
+    $("#lkDetailPanel").hidden = false;
+    $("#lkDetailPanel").scrollIntoView({ behavior: "smooth", block: "nearest" });
+  } catch (e) { $("#lkErr").replaceChildren(h("div", { class: "err" }, e.message)); }
+}
+
+// ---------- data
+function renderData() {
+  if (!META) return;
+  $("#dataTable").replaceChildren(h("thead", {}, h("tr", {}, h("th", {}, "Role"), h("th", { class: "num" }, "Champions"), h("th", { class: "num" }, "Matchups"), h("th", {}, "Built"))),
+    h("tbody", {}, ...META.roles.map(r => h("tr", { style: "cursor:default" }, h("td", {}, ROLE_LABEL[r.id]), h("td", { class: "num" }, r.champions.length),
+      h("td", { class: "num" }, r.matchups), h("td", {}, ago(r.updated))))));
+  $("#dataMeta").textContent = `Win rates: Lolalytics ${META.patch || "?"}. Reddit: ${META.reddit_champions} champions. Tips rebuilt ${ago(META.tips_updated)}.`;
+  $("#stages").replaceChildren(...STAGES.map(([id, title, desc]) => h("div", { class: "stage" },
+    h("div", {}, h("b", {}, title), h("p", {}, desc)),
+    h("button", { class: "btn" + (id === "lolalytics" ? " primary" : ""), "data-stage": id, onclick: () => startUpdate(id, title) }, "Run"))));
+}
+async function startUpdate(stage, title) {
+  if (stage === "comments" && !confirm("This takes many hours at one Reddit request per minute. Start it?")) return;
+  try { await api("/api/update", { stage }); } catch (e) { alert(e.message); }
+  setTimeout(refreshStatus, 800);
+}
+$("#stopBtn").addEventListener("click", async () => {
+  if (!confirm("Stop the running update? Finished work is kept.")) return;
+  try { await api("/api/stop", {}); } catch (e) { alert(e.message); }
+  setTimeout(refreshStatus, 800);
+});
+let wasRunning = false;
+async function refreshStatus() {
+  let s;
+  try { s = await api("/api/status"); } catch { return; }
+  $("#runDot").classList.toggle("on", s.running);
+  $("#runText").textContent = s.running ? "Update running" : "Idle";
+  $("#stopBtn").hidden = !s.running;
+  document.querySelectorAll("[data-stage]").forEach(b => (b.disabled = s.running));
+  const log = $("#log"), atBottom = log.scrollHeight - log.scrollTop - log.clientHeight < 40;
+  log.textContent = s.log || "No log yet.";
+  if (atBottom) log.scrollTop = log.scrollHeight;
+  if (wasRunning && !s.running) await loadMeta(true);  // just finished: pick up the new data
+  wasRunning = s.running;
+  renderPills(s.running);
+}
+setInterval(() => { if (!document.hidden && (wasRunning || !$("#view-data").hidden)) refreshStatus(); }, 3000);
+
+// ---------- boot
+async function loadMeta(refresh) {
+  META = await api("/api/meta");
+  $("#champList").replaceChildren(...META.names.map(n => h("option", { value: n })));
+  if (!refresh) {
+    $("#style").append(...META.styles.map(s => h("option", { value: s }, s[0].toUpperCase() + s.slice(1))));
+    $("#style").value = state.style || ""; $("#need").value = state.need || "";
+  }
+  renderPills(wasRunning); renderData();
+  if (refresh) { recompute(); if (state.lkChamp) lookup(); }
+}
+(async function boot() {
+  renderSlots(); renderChips(); renderLookupControls();
+  $("#lkChamp").value = state.lkChamp || "";
+  try { await loadMeta(); } catch (e) {
+    $("#draftErr").replaceChildren(h("div", { class: "err" }, "Could not load data: " + e.message)); return;
+  }
+  recompute();
+  if (state.lkChamp) lookup();
+  showView(store.get("view", "draft"));
+  refreshStatus();
+})();
+</script>
+</body>
+</html>

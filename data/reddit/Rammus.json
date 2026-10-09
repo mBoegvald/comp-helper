@@ -1,0 +1,751 @@
+{
+ "champion": "Rammus",
+ "subreddit": "rammusmains",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "Rammus Tier E, 1% pickrate, 49% winrate but I've still seen people who think it's okay.",
+   "url": "https://www.reddit.com/r/RammusMains/comments/1s4jz5j/rammus_tier_e_1_pickrate_49_winrate_but_ive_still/",
+   "published": "2026-03-26",
+   "author": "/u/XxAgueloGeixX",
+   "body": "Riot bring back the E attack speed",
+   "id": "1s4jz5j",
+   "comments": [],
+   "age_days": 197,
+   "recency_weight": 1.0,
+   "topics": [],
+   "stale_items": false
+  },
+  {
+   "title": "Hello Rammus top is still playable?",
+   "url": "https://www.reddit.com/r/RammusMains/comments/1nq3lc0/hello_rammus_top_is_still_playable/",
+   "published": "2025-09-25",
+   "author": "/u/Odd-Increase-9943",
+   "body": "I’m a Singed OTP, but I’d like to have a second pick for tough proxy matchups. Rammus still looks viable on top lane? I really like rammus gameplay but I’m bad jgl.",
+   "id": "1nq3lc0",
+   "comments": [],
+   "age_days": 379,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I like reworked Rammus",
+   "url": "https://www.reddit.com/r/RammusMains/comments/1nftp8x/i_like_reworked_rammus/",
+   "published": "2025-09-13",
+   "author": "/u/_trash_can",
+   "body": "Hi all, I'm new to Rammus and never played him before his recent rework. I came on this subreddit to find tips and builds and have been shocked to find so much negativity around his rework.\n I'm finding him to be rather versatile and has become my blind pick after about 50 games with him in Silver 2-3. At least at my elo, his kit is incredible. He zooms around the map and is able to be where he needs to be, with strong ganks early on. You can itemize him a thousand different ways as his kit scales with both armor and MR and uses both AD and AP damage. \n For example, If you're going agaisnt an assassin heavy comp or someone on the enemy team gets gigafed, you can build full tank and act as a CC support after engaging with Q and/or R. If the enemy comp has a lot of tankiness you can do Thornmail->Liandrys->Abyssal mask as his Q, W, and R are all magic damage. You launch yourself with Q&R into their back line, press W then E the carry while AAing and watch everyone burn around you. If they are adc heavy you can go full bruiser and chunk the hell out of their health. Unless I go full tank, I never have issues hitting 20-33k damage in a 30-40min game. When I go full tank, I've hit 200k self mitigated damage in a matchup where I built full AD tank to counter a gigafed draven. With W activated, I got his armor over 750 lol.\n His kit is insanely versatile as well. He has CC with Q, E, and R. His E can even be used like a close range a point and click charm as enemies follow you if you walk the other direction. He also has both engage and disengage with Q and R. Take ghost and activate it before Qing and you can escape a pretty much any bad situation with decent judgment on when to back out. He even has okay waveclear with Q and W to push if needed, at least a bit better than someone like Poppy for example. All of this allows him to stay Impactful the entire game.\n I know my elo is probably helping his versatility a lot, but i just wanted to post this to encourage everyone to give him a real chance. I don't know why people on this subreddit are so negative about the rework, but I hope you are able to see some of the doors that have been opened for Rammus :)",
+   "id": "1nftp8x",
+   "comments": [],
+   "age_days": 391,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Changes I would make to Rammus. QOL and able to build damage against any opponent.",
+   "url": "https://www.reddit.com/r/RammusMains/comments/1lltpnb/changes_i_would_make_to_rammus_qol_and_able_to/",
+   "published": "2025-06-27",
+   "author": "/u/NovaNomii",
+   "body": "Rammus currently can not build damage, which is especially problematic when behind, where tankiness isnt useful, you need to be able to kill the enemy. Other tanks can build damage: AP / Liandry: Amumu, Zac. AD / Steraks: Skarner, Poppy, Dr Mundo, Sion. Sejuani being one example of a tank jungler who cant, and she clearly suffers from it in my opinion, low agency, very team reliant.\n Rammus can only deal dmg when the opponent chooses to allow Rammus to damage them, being largely reliant on Reflect from W and Thornmail, which requires 1. They choose to auto attack you. 2 They have high attack speed. 3. They have no brain and dont build tenacity, magic resist or resist shred. 4. Their allies dont defend them in any way. 5. They int draft and you pick late enough that you can counter them. Reflect is simply not an asset that Rammus has, instead its a big red button on the enemy's keyboard THAT THEY NEED TO PRESS only then allowing you to benefit from your own kit. \n In short: Rammus has low damage agency on his own, its gatekept behind the enemy inting. Ontop of that he has been the champion who is most dependent on synergies and matchups combined in the entire game, Top 6 in each. https://machineloling.com/2024/12/17/blindability/\n So here are the changes I would make, to allow Rammus to build more damage, by his own choice, that cannot be countered simply with items, draft and interaction choices, all outside of his control.\n But first a quality of life change, W Q interrupting eachother. Make starting a Q or R that lasts for less than 1 second while in W, put you back into active W after Q / R Animation, as if the W duration was uninterrupted, but obv no W benefits during Q / R Animation. This would make him way smoother to play.\n E gives 7 second attack speed buff 20% to 30%, remove the magic damage to monsters, its very unsymmetrical design not working on champs. More dmg agency, better with on hit / AD.\n Q and Ult should have bonus AD ratios similar to their current ap ratios (100% Q, 60% R, 160% Q into R). Prob lower base damage a bit, since it would be a big buff with AD from passive. Makes AD better.\n Give Rammus a higher attack speed ratio 0.625 to 0.675 or 0.7. Building AS would be better, aswell as making the E attack speed better.\n Give W a small shield with a hp ratio, something like 50 + 3% max hp for 3 seconds, maybe bigger if something else was nerfed. Gives rammus some defense against true dmg / resists shred, have a barrier before losing hp. Allowing him to not be useless when low hp, hp scaling and shield bash interaction.\n I also have 3 Wild Card changes which are probably a bit more out there:\n Hitting Q and QR give 5-10% MS for 4-5?? seconds, so you can actually chase people down and auto. Gives stick potential after E ends, more autos in W even without E or if they are out of R slow. More dmg agency. (Q and Ult slows overlap with E duration, which means Rammus actually has 0 real tools to stick in melee after E duration, especially if they get out of ult) so the ms duration needs to be above 2s.\n Give thornmail an mr ratio? Makes him and other thornmail users more MR and Armor equal, probably makes thornmail even more mandatory on rammus tho.\n Reducing Rammus resists, like Black cleaver or bloodletters, shouldn’t reduce or should be reduced less, his resist ratios on damage, so passive AD and W reflect, shouldn’t be reduced by shreds. Makes his dmg get countered less by shreds. Might be hard to code or buggy, probably gives Viego 200 resists and 100 ad from looking at rammus\n These changes should allow Rammus to work better in drafts where he wont get alot of reflect damage, and should allow him to build more offensively when he needs to, aswell as making him less annoying to play as.",
+   "id": "1lltpnb",
+   "comments": [],
+   "age_days": 469,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Rammus is unironically good against 2+AP",
+   "url": "https://www.reddit.com/r/RammusMains/comments/1ll0g8f/rammus_is_unironically_good_against_2ap/",
+   "published": "2025-06-26",
+   "author": "/u/yjs0191",
+   "body": "With the recent nerf AD assasin/carry easily shreds rammus if appropriate fed. This is especially true since riot forced players to choose items with higher MR than HP(along with armor of course). But mediocre MR is much more useful than mediocre armor systematically. \n Also AP standing mages usually don't have dps to capitalize over rammus's abandning of HP stats. (also rammus is fast to hit all skill shots) They are so slow in team fights rammus R and a short taunt with E(since players are incentived to proritized W over E with recent buff) is enough.. \n AP assasins also struggle to one shot rammus and an even short cc could be fatal to their fragile HP. Although this is a tougher matchup if it eventually gets fed. \n Items will look like 1. Thornnail 2. Jaksho 3. (pure MR)\n In team fights you would try to jump on ap mages and after killing them leave the team fights with Q(which should be the first skill to max) before I get shreded by AD dealers. \n The jungling buff kind of forces players to industriously farm constantly, but I gotta admit that it helps the player to get three items earlier in the game and win team fights. \n And no, rammus will never be able to deal damages as it did before the rework because it cannot take as much Autto attacks as before. But if you can have fun with fast speed and crzy engage and high teamfight potential rammus is still very much alive.",
+   "id": "1ll0g8f",
+   "comments": [],
+   "age_days": 470,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Some new concept about Rammus skills pop up like pop corn in my head. If you had any thoughts or Idea's pls let the community enjoy your idea's too ! I'm thrilled to know !",
+   "url": "https://www.reddit.com/r/RammusMains/comments/1kkzpck/some_new_concept_about_rammus_skills_pop_up_like/",
+   "published": "2025-05-12",
+   "author": "/u/Ok_Agency8149",
+   "body": "(P) Innate Scale with Armor and Magic Resist // This one's Very important! Make it happenn so Rammus can be played vs most of matchups. You make other champion viable vs a lot of matchup why Rammus should'nt?\n (Q) Same thing but add a trample trail effect (Like aftershock on the ultimate, but a trail that follow him) behind or/and around him. (Remove 3 Aftershocks effect on the ultimate indeed)\n (W) Same thing but add basic attack on-hit vs magic damage and physical damage. (PS: i think this one we already got it no?) + when the W stance end or cancelled, fire off all of his spikes in every direction (AOE) around him. Dealing true damage. (Thanks to Visible_Potential926 for this idea\n (E) Same thing but should also taunt every enemies if they very near/around Rammus. Keep attack speed scaling.\n (R) Any Idea ? Should It stay the same? or be a different one or this ability could empowered his thorn damage ? I dont know... Boost of Armor and Magic resist? \n Please let me know ! Be free to speak your minds. I am repeating myself but like in the old post i made, I'm eager to read you !",
+   "id": "1kkzpck",
+   "comments": [],
+   "age_days": 515,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "u.gg suggests sorc shoes?",
+   "url": "https://www.reddit.com/r/RammusMains/comments/1jr4tby/ugg_suggests_sorc_shoes/",
+   "published": "2025-04-04",
+   "author": "/u/meesehead8",
+   "body": "Is u.gg trolling or am I not cognitively gifted enough to see why this should be built?\n https://preview.redd.it/kzccjsb3crse1.png?width=1516&format=png&auto=webp&s=902a2e92e29ef9da41661fddb8e07b6239f7507c",
+   "id": "1jr4tby",
+   "comments": [],
+   "age_days": 553,
+   "recency_weight": 0.7,
+   "topics": [],
+   "stale_items": false
+  },
+  {
+   "title": "Wtf",
+   "url": "https://www.reddit.com/r/RammusMains/comments/1io7ig4/wtf/",
+   "published": "2025-02-13",
+   "author": "/u/XxAgueloGeixX",
+   "body": "Rammus is supposed to be a counter pick champion, this means he is only played when there are favorable matchups or by people who play him well, now he has a negative win rate with a 1% pick rate, this means a favorable game for Rammus or a good player is going to lose in most cases, now imagine a game where he is facing counters or the person playing him is playing him poorly, the answer is Rammus is going to have a -40% win rate in that game, its like having a trashy bot afk champion",
+   "id": "1io7ig4",
+   "comments": [],
+   "age_days": 603,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Briar is a joke matchap...",
+   "url": "https://www.reddit.com/r/RammusMains/comments/1ieuphu/briar_is_a_joke_matchap/",
+   "published": "2025-02-01",
+   "author": "/u/Big_Boytryanother",
+   "body": "..and I'm not laughing. Been Rammus otp(when enemy team is not AP/CC heavy) in jungle somewhere around season 11 and season 12, then switched to other roles and champs because I just started playing league and Rammus was my first ever main. Not that much because of his gameplay, but because of how he resembled silly funny turtle. Today got in the game with 2 AP champs, and 3(!!!) AD champs, two of which were autoatack based(!!!) and one of theme were BRIAR(!!!) THAT FELT LIKE A WET DREAM! Until I got melted by briar in every teamfight. Vex and Swain didn't gave me that much trouble because once I taunt them — my teammates tear them apart. That was true with Briar until I felt how she munched my shell with botrk and bunch of antitank/bruiser items + healed herself like there was no tomorrow despite my brumble.\n So my role in teamfights just boiled down to taunt her off my teammates and die in 4 swings. In previous season I wanted to cheer when she landed her ult on me, because that just meant death for her in 3-4 seconds. Today when that happened I just quietly walked away from my teammates to not spread fear from her ult and died despite my W and full tank build. \n Jungle clear is still atrociously slow, damage is non-existent, survivability is okay, but not as good as it used to be. Before I could not solo most of the champs in league, but I ate autoatackers for breakfast knowing well that I can just get away with it and buy myself another armor peace later. \n What happened? Even Rammus's favorable matchups is not as good as it used to be? Briar is still was less of a problem for my team because Rammus just denied her munching on poor ADC, but she just munched me instead and THEN my adc. I was not even that far behind! Had bunch of assists and few kills, we were even with items, I even outfarmed her.\n After this game I was not even mad, or tilted, or sad I underperformed. I knew I did my best and just felt like being hit with million damage by briar was silly.",
+   "id": "1ieuphu",
+   "comments": [],
+   "age_days": 615,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Ideal ability order?",
+   "url": "https://www.reddit.com/r/RammusMains/comments/1gxz01f/ideal_ability_order/",
+   "published": "2024-11-23",
+   "author": "/u/Shirazmatas",
+   "body": "https://preview.redd.it/vyqw37ewen2e1.png?width=897&format=png&auto=webp&s=bee4e57e4799ae153d2dfaae93aaf23b9e094783\n I've started to mix picking W and E depending on matchup. What do you guys think? Is there a point in putting points into Q ever? Now that the cooldown is the same as lvl 3 q was before. Should it be equal spread w to e? What scenarios would W max be viable?",
+   "id": "1gxz01f",
+   "comments": [],
+   "age_days": 685,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Rammus versus full AD is bait?",
+   "url": "https://www.reddit.com/r/RammusMains/comments/1g4h558/rammus_versus_full_ad_is_bait/",
+   "published": "2024-10-15",
+   "author": "/u/Marconidas",
+   "body": "So some of the worst matchups Rammus can get are versus AD champions despite the fact that Rammus has potentially the highest armor in the game, and some of the best matchups are versus AP champions.\n Imo this is for two reasons:\n 1 - Rammus is a significantly bad champion to keep around in teamfight as he lacks powerful CC or sustain for it, so champions that are good on prolonged trades or that can disengage easily (mostly AD) are actually good versus Rammus and champions that are mostly for burst with no way wait fail to kill Rammus and are bait for Rammus when he get MR item.\n 2 - By having at least some magic damage enemy there is a reason to build Abyssal Mask, which actually increases his combo damage by much more than by building something else as 2nd or 3rd item.",
+   "id": "1g4h558",
+   "comments": [],
+   "age_days": 724,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "is this thing viable top?",
+   "url": "https://www.reddit.com/r/RammusMains/comments/1d7yap4/is_this_thing_viable_top/",
+   "published": "2024-06-04",
+   "author": "/u/stzfrank",
+   "body": "I have played with him in jungle before, and just like with bardo, I go in a complete zen mode. However, I wanted to try him toplane and so far I have a 100% wr in 15 games. I do proxy the first waves to avoid interacting with the laners since it's a death sentence if I do (i assume so, the first level at least.)\n The question is; is this viable toplane? do I have unwinnable matchups / counters? if so (most likely), which ones?\n Is proxying a good strat?\n Thanks in advance",
+   "id": "1d7yap4",
+   "comments": [],
+   "age_days": 857,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Rammus top vs GP",
+   "url": "https://www.reddit.com/r/RammusMains/comments/1bg1m58/rammus_top_vs_gp/",
+   "published": "2024-03-16",
+   "author": "/u/LazerFruit1",
+   "body": "How is this matchup supposed to go, the wr is rammus favoured but playing it felt like i couldn't do anything vs GP. Even sitting under tower i was getting chunked without being able to do anything",
+   "id": "1bg1m58",
+   "comments": [],
+   "age_days": 937,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I need an opinion",
+   "url": "https://www.reddit.com/r/RammusMains/comments/141k8ml/i_need_an_opinion/",
+   "published": "2023-06-05",
+   "author": "/u/Playtester74",
+   "body": "In general which mythic after Thornmail. Jak sho? or Evenshroud. I can't seem to figure it out either way. On the one hand it feels like evenshroud is just good and 900 G cheaper. On the other hand jak sho is maybe stronger in 1v1? can't figure it out would love a hand. On another note this champ is broken in low elo. Even when you have a bad matchup into 2 champs on the other side.\n View Poll",
+   "id": "141k8ml",
+   "comments": [],
+   "age_days": 1222,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How easy is Rammus mid against these champs?",
+   "url": "https://www.reddit.com/r/RammusMains/comments/x6x8kd/how_easy_is_rammus_mid_against_these_champs/",
+   "published": "2022-09-06",
+   "author": "/u/andrewbruck",
+   "body": "Can someone please rate the following matchups out of 10 for Rammus mid vs Yasuo Yone Irelia Akshan Zed Talon\n Also, has anyone got any experience doing this? Is it free match up providing they dont get fed off the roams?\n Thanks",
+   "id": "x6x8kd",
+   "comments": [],
+   "age_days": 1494,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Rammus top lane",
+   "url": "https://www.reddit.com/r/RammusMains/comments/vuhwtd/rammus_top_lane/",
+   "published": "2022-07-08",
+   "author": "/u/110178max",
+   "body": "What are bad matchups for rammus top. Besides fiora",
+   "id": "vuhwtd",
+   "comments": [],
+   "age_days": 1554,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Matchups to avoid?",
+   "url": "https://www.reddit.com/r/RammusMains/comments/vq1ir7/matchups_to_avoid/",
+   "published": "2022-07-02",
+   "author": "/u/JediJJ02",
+   "body": "Hello! I've started playing League recently and really like Rammus. That said I want to learn some of the lanes before I try jungle so I can understand it better. I've never seen him anywhere besides top and jg. Can he do any other lanes? What matchups should I avoid in top lane? Thanks!",
+   "id": "vq1ir7",
+   "comments": [],
+   "age_days": 1560,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Experimenting with proxy top vs bad matchups. Enemy jungler malding...",
+   "url": "https://www.reddit.com/r/RammusMains/comments/vohqum/experimenting_with_proxy_top_vs_bad_matchups/",
+   "published": "2022-06-30",
+   "author": "/u/Sir-Smiff",
+   "body": "",
+   "id": "vohqum",
+   "comments": [],
+   "age_days": 1562,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Who do you consider is your arch-enemy??",
+   "url": "https://www.reddit.com/r/RammusMains/comments/uznfkc/who_do_you_consider_is_your_archenemy/",
+   "published": "2022-05-28",
+   "author": "/u/HrPrZ110",
+   "body": "There are some matchups where I am like, “yeah, I can handle this Viego/Nocturne/whoever”. So I play around where they may be and take fights/counter gank to wherever they may end up.\n But when I see that Master Yi get locked in, idk man….I feel this adrenaline rush take over me and get super excited!\n The rest of the team is like, shit, a Yi! And I am like, guys, don’t worry, we got this! Mind u, I have been able to beat a Yi at level 1, LOL! Boost of confidence for the rest of the team. So for me, I consider Master Yi as my #1 nemesis because of how we I can neutralize him!\n What about the rest of ya?? Who do ya consider your #1 arch-enemy? Could be anyone for any reason!",
+   "id": "uznfkc",
+   "comments": [],
+   "age_days": 1595,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Ok guys, want to main him",
+   "url": "https://www.reddit.com/r/RammusMains/comments/tommgn/ok_guys_want_to_main_him/",
+   "published": "2022-03-26",
+   "author": "/u/Mr_Inkling",
+   "body": "So, i played him a little and he's really funny, I love him. But... How should I play? Build path? Matchups and all? I know it's a tank but I saw a lot of various builds. So help please 😂",
+   "id": "tommgn",
+   "comments": [],
+   "age_days": 1658,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "JG against Udyr?",
+   "url": "https://www.reddit.com/r/RammusMains/comments/sz4r8b/jg_against_udyr/",
+   "published": "2022-02-23",
+   "author": "/u/LegalPierre",
+   "body": "What’s the build path and how am I supposed to play this matchup. I always lose going against an udyr jg. Just don’t know what to do, he’s fast so I can’t escape with q I can’t fight him. Unsure what to do.\n Here’s op.gg if you see anything I should fix https://na.op.gg/summoners/na/WillyDustice",
+   "id": "sz4r8b",
+   "comments": [],
+   "age_days": 1689,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Trying to Get Back Into LoL. Rammus Tips Needed",
+   "url": "https://www.reddit.com/r/RammusMains/comments/qcf5tk/trying_to_get_back_into_lol_rammus_tips_needed/",
+   "published": "2021-10-21",
+   "author": "/u/SAFFATLOL",
+   "body": "Hello, I haven't played the game in over a year and am trying to get back in to it and hit gold before the end of the season. I'd like to go back to playing champions I'm comfortable with I.E. Rammus so I'm just looking to see if anybody has any tips or things I should try to do when using him. Any matchups I should avoid right now? How is he in the meta and what is good to itemize on him right now other than the usual Thornmail? I usually jungle.",
+   "id": "qcf5tk",
+   "comments": [],
+   "age_days": 1814,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I want ur opinion",
+   "url": "https://www.reddit.com/r/RammusMains/comments/pswcfz/i_want_ur_opinion/",
+   "published": "2021-09-22",
+   "author": "/u/moms_spaghetti27",
+   "body": "As a silver player who has been struggling I loved Rammus.\n Easy to pilot, and very rewarding and fun playstyle, and kinda unique.\n After 50+ matches on Ranked with 60% win rate and reaching mastery level 7 with 45,000 mastery points I want to know if I should keep maining him or should I move on to another jungler.\n Because as much as I love Rammus, i feel that he can be easily Invaded, and falls behind in terms of damage compared to other junglers who can single handedly take over the game.\n Should I move to a better suited jungler who fits into the meta or should I stick to Rammus no matter how much of a coin flip it feels playing him into some matchups ?",
+   "id": "pswcfz",
+   "comments": [],
+   "age_days": 1843,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "In what matchups is Predator a better choice than aftershock?",
+   "url": "https://www.reddit.com/r/RammusMains/comments/myw9ha/in_what_matchups_is_predator_a_better_choice_than/",
+   "published": "2021-04-26",
+   "author": "/u/Kachow96",
+   "body": "OK spikey bois, basically what the title says, in what matchups/against which team comps would Predator currently be the better rune choice over Aftershock?\n I'm a 200k rammus main and I take aftershock every match but I was wondering if Predator would actually give me the edge in any matches?",
+   "id": "myw9ha",
+   "comments": [],
+   "age_days": 1992,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "What is your favorite matchup to have legendary battles with?",
+   "url": "https://www.reddit.com/r/RammusMains/comments/l07c43/what_is_your_favorite_matchup_to_have_legendary/",
+   "published": "2021-01-19",
+   "author": "/u/DavidZone23",
+   "body": "Mine is volibear, they are so intense and close and it doesn't end in 3 sec like with an adc",
+   "id": "l07c43",
+   "comments": [],
+   "age_days": 2089,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Rammus Top",
+   "url": "https://www.reddit.com/r/RammusMains/comments/inpfl9/rammus_top/",
+   "published": "2020-09-06",
+   "author": "/u/Brroto",
+   "body": "Have any of you tried Rammus top at all? I’m not a Rammus main at all, but I picked him top into an AD matchup and I must say it was quite something. Aftershock, Sunfire, Thornmail and watching that poor bastard kill themselves is quite entertaining. I would never first pick it just because if they pick AP top then it’s kinda lame but I though it was pretty fun.",
+   "id": "inpfl9",
+   "comments": [],
+   "age_days": 2224,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Best build vs Yi?",
+   "url": "https://www.reddit.com/r/RammusMains/comments/imccyw/best_build_vs_yi/",
+   "published": "2020-09-04",
+   "author": "/u/glevi",
+   "body": "I feel like if he gets even slightly ahead this matchup becomes unplayable. Just cuts through armor and w. Perhaps I’m buying the wrong items? Cinder/thornmail core, what next?\n ​\n https://preview.redd.it/wudy7s2rz3l51.png?width=761&format=png&auto=webp&s=a9dd6dbdee9f12f18bbb5df51c985119f16af4ad",
+   "id": "imccyw",
+   "comments": [],
+   "age_days": 2226,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "ok. Build",
+   "url": "https://www.reddit.com/r/RammusMains/comments/id6t0n/ok_build/",
+   "published": "2020-08-20",
+   "author": "/u/XXXWasSomethingElse",
+   "body": "Hello\n Im a new Rammus player I used to main Thresh Pyke Akali Fiddlesticks Rakan Rengar Zed Senna and recently ive been playing a looot of Yone, hit level 6 on him\n So as you can see i didnt play tanks pretty much at all\n The only tanks i played a bit were zac ornn and i guess volibear\n So i came here to ask you guys How do you... Spin\n I mean how do you play Rammus? Build runes matchups? Tips?\n Ive heard that attack speed smite is better than tank smite Is it true?\n I appreciate all your help and Keep on rolling!\n ok.",
+   "id": "id6t0n",
+   "comments": [],
+   "age_days": 2241,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Is Warwick a good matchup for Rammus?",
+   "url": "https://www.reddit.com/r/RammusMains/comments/ic0zn1/is_warwick_a_good_matchup_for_rammus/",
+   "published": "2020-08-18",
+   "author": "/u/Mr_mroczny",
+   "body": "Well, I have this problem cuz i'm confused about Rammus vs Warwick matchup. Some websites say that Rammus destroys ww and some tells that ww destroys Rammus and I really don't know what is true anymore. I think that Warwick is a counter for Rammus but just in case I would like to ask you for your answer fellow Rammus mains.",
+   "id": "ic0zn1",
+   "comments": [],
+   "age_days": 2243,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I think yuumi and rammus is too op. I literally just won a matchup as rammus against 4 AP champs including a fed vladimir",
+   "url": "https://www.reddit.com/r/RammusMains/comments/hlgjgm/i_think_yuumi_and_rammus_is_too_op_i_literally/",
+   "published": "2020-07-05",
+   "author": "/u/Furoxeh",
+   "body": "​\n https://preview.redd.it/dyfec4l4sy851.png?width=835&format=png&auto=webp&s=9159c54be25d47cb29d2ff259d73087a6454ee9f",
+   "id": "hlgjgm",
+   "comments": [],
+   "age_days": 2287,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Who wins Rammus vs Yi Matchup?",
+   "url": "https://www.reddit.com/r/RammusMains/comments/gj4x3z/who_wins_rammus_vs_yi_matchup/",
+   "published": "2020-05-13",
+   "author": "/u/thetrapper88",
+   "body": "New to rammus and I feel it's a stupid question but I play mid not JG and I just started playing JG. I fought a Yi pre 6 and beat him. Who wins early, mid and late? And Why?\n Thank you!",
+   "id": "gj4x3z",
+   "comments": [],
+   "age_days": 2340,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What do you think about this build?",
+   "url": "https://www.reddit.com/r/RammusMains/comments/fprnro/what_do_you_think_about_this_build/",
+   "published": "2020-03-27",
+   "author": "/u/AxewTV",
+   "body": "Red smite with Cinderhulk, Boots of Mobility, Thornmail, Spirit Visage, Frozen Heart, Death's Dance/some other tank item. Spirit Visage because I take Revitalize and Ravenous Hunter in runes. Red smite because I like it more than Blue. Death's Dance because I think it might be a great item on him now.\n Edit: Thank you for all your responses. Now I know that: 1. Never build Frozen Heart, not worth it. 2. Revitalize gives +5% healing only (it sucks compared to Overgrowth and Unflinching) so I will probably change it to Unflinching because god damn, 35% tenacity from one rune is a lot. 3. Death's Dance has low synergy with Cinderhulk but I don't really care about that. \n What if I go Gunblade instead of Death's Dance? The build would be pretty similar to Balori's healing Rammus toplane build. 1. Red smite with Cinderhulk, 2. Boots of Mobility (might take other boots depending on the matchup), 3. Thornmail, 4. Spirit Visage, 5. Liandry's Torment (gives AP and has a pretty good synergy with Cinderhulk, I guess)/some other tank item, 6. Gunblade (a lot of healing and slow so I can chase better).\n Edit 2: I just tried Bloodrazor Rammus and I god damn love it. The build I went with: Blue smite with Bloodrazor, Boots of Swiftness, Sunfire Cape, Wit's End, Guardian Angel, Thornmail. I finished Thornmail last item but I took Vest right at the beginning. My stats were 9/2/27, 153 CS in 29 minutes. I might change Blue smite for Red smite and max Q>E>W instead of Q>W>E like I usually do. Forget anything I said earlier. Bloodrazor OP.",
+   "id": "fprnro",
+   "comments": [],
+   "age_days": 2387,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Rushing Righteous Glory 2nd into really bad matchups?",
+   "url": "https://www.reddit.com/r/RammusMains/comments/fchvr7/rushing_righteous_glory_2nd_into_really_bad/",
+   "published": "2020-03-02",
+   "author": "/u/GyrosSteelBall",
+   "body": "hey I've been playing bloodrazor rammus for a few weeks now and I've found i struggle really badly into certain champions that cancel powerball with ease(anivia, cassiopeia, jayce, trundle). I find with righteous glory 2nd item I can usually just outspeed their abilities and get in but then my stats are pretty bad tank wise and I die since righteous glory feels bad early.\n Do you just not pick rammus into these champions? How do you guys play into Anivia in general",
+   "id": "fchvr7",
+   "comments": [],
+   "age_days": 2412,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Rammus Matchups",
+   "url": "https://www.reddit.com/r/RammusMains/comments/b5mfl1/rammus_matchups/",
+   "published": "2019-03-26",
+   "author": "/u/LoLMigratingCoconut",
+   "body": "Hi Rammus mains! \n I'm a Kindred otp who, being a squishy adc jungler, hates champions that can jump on me and kill me before I can ill them. Mainly mobile bruiser/skirmisher champs like xin zhao, lee sin, and master yi. I recently played rammus in urf and norms, and had a ton of fun being unkillable and spamming \"STOP HITTING YOURSELF\"! I was wondering, since rammus counters most auto based add champs, how are his matchups into these champions(so I can pick him instead of kindred into these champions): jarvan, reksai, vi, xin zhao, pantheon, master yi, lee sin, and olaf. \n Thanks for the help, and sorry for the weirdly worded sentences; I'm really tired right now!",
+   "id": "b5mfl1",
+   "comments": [],
+   "age_days": 2754,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "BEST MR ITEM?",
+   "url": "https://www.reddit.com/r/RammusMains/comments/b5twd4/best_mr_item/",
+   "published": "2019-03-26",
+   "author": "/u/bryce2887",
+   "body": "I’ve been going against some AP heavy teams lately and haven’t had as much success as I feel like I should have. I’ve tried abyssal mask but it seems like once they chunk a piece of my health, it’s just pointless and I have no health regen and have to literally base after a trade. So I think I found the solution??! which is acquiring Spirits Visage as my early game MR item. I usually rush bami’s, bramble vest, cinderhulk, then I look to make situational buys(MR or more Armor). But maybe I’m missing something or just playing the MR rammus build all wrong??. But I need some feedback! I’m sick of not being the amordillo Rito made me out to be!(haha).I get it’s not ideal to pick Rammus into ap matchups but sometimes that’s just how it is ahah. I also just want to add I feel dead mans is the absolute best buy after bramble, and cinderhulk(buy thronmail later) for ad heavy enemy teams. argue w me on that! :p. Anyways, let me hear what ya think fellow rammys! xD",
+   "id": "b5twd4",
+   "comments": [],
+   "age_days": 2754,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Rammus vs Twitch jungle matchup",
+   "url": "https://www.reddit.com/r/RammusMains/comments/axl97c/rammus_vs_twitch_jungle_matchup/",
+   "published": "2019-03-05",
+   "author": "/u/Fiddle_my_Niggle",
+   "body": "",
+   "id": "axl97c",
+   "comments": [],
+   "age_days": 2775,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Rammus top matchups?",
+   "url": "https://www.reddit.com/r/RammusMains/comments/aj3q6f/rammus_top_matchups/",
+   "published": "2019-01-23",
+   "author": "/u/Yaosuo",
+   "body": "What should I pick rammus into for top lane? I know his best matchup is yasuo and he's pretty ok into most bruisers but what are his bad matchups that I should avoid picking him into?",
+   "id": "aj3q6f",
+   "comments": [],
+   "age_days": 2816,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "New MR7 Rammus here!",
+   "url": "https://www.reddit.com/r/RammusMains/comments/8l6roi/new_mr7_rammus_here/",
+   "published": "2018-05-22",
+   "author": "/u/Swailwort",
+   "body": "Wanted to share my build that carried me through all mastery, basically Cinderhulk, Thornmail, Frozen Heart, Ninja Tabi and the last place would depend on matchup\n Heavy AD: Dead Mans and Randuins\n Heavy AP: Gargoyle and Zzrot\n Both: Deas Mans and Zzrot.\n Throught the game you just powefarm whenever a camp is up, unless you are in the middle of a gank.\n Build Order\n 0: Stalkers 1: Thormail 2: Frozen Heart 3: Any 4:Tabi 5:Any 6:Cinderhulk\n Edit Why Cinder last? Armor is main source of Rammus power, both in damage and survivability, which gives him more EHP compared to the raw health increase from Cinder.",
+   "id": "8l6roi",
+   "comments": [],
+   "age_days": 3062,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Rammus - matchups and strenghts",
+   "url": "https://www.reddit.com/r/RammusMains/comments/8hpvf0/rammus_matchups_and_strenghts/",
+   "published": "2018-05-07",
+   "author": "/u/tatuzera",
+   "body": "I really dont know which levels and who rammus can win the 1x1/ the strenghts i think is the ganks/ obviously and focus in the counterganks too/ tell me more master of rammus/ please",
+   "id": "8hpvf0",
+   "comments": [],
+   "age_days": 3077,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Questions for the Amumu VS Rammus Matchup",
+   "url": "https://www.reddit.com/r/RammusMains/comments/7z9dq6/questions_for_the_amumu_vs_rammus_matchup/",
+   "published": "2018-02-21",
+   "author": "/u/OrangeSalvation",
+   "body": "Ok so I've casually played Rammus as a backup jungler since I first started playing League, which was I believe sometime near the end of season 4. My point being that I've played Rammus on and off for quite a while. Within the last year I started to main him, and quickly jumped from 20K mastery to 263K mastery.\n Now that that's out of the way let me get to my main point. Through all of my Rammus experience, I rarely feel like I'm in a bad matchup against the enemy jungler. Most champions who are foolish enough to invade me get little from it and almost never kill me. However, despite this, of all the possible champions Amumu seems to be the exception for me. Almost every time he invades me I can do nothing to stop him from zoning me entirely off of my own buffs and taking them for himself, the only way it seems I can stop him is by out smiting him.\n So, do any of you struggle with Amumu? And do any of you have a solution to an exceptionally good Amumu who invades you properly? The last time I was up against one he never invaded to my pleasure, and I quickly won the game. But whenever one pulls it off properly I just seem screwed.",
+   "id": "7z9dq6",
+   "comments": [],
+   "age_days": 3152,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Who do you ban, and how do you handle the trundle matchup?",
+   "url": "https://www.reddit.com/r/RammusMains/comments/7rejfb/who_do_you_ban_and_how_do_you_handle_the_trundle/",
+   "published": "2018-01-19",
+   "author": "/u/immatipyou",
+   "body": "With the new season starting im playing alot more ranked again. Ive been banning warwick or xin zhao depending on who i hate more on any given day as im pretty low elo and I feel they constantly pick off my team. I was just wondering who do you ban?\n I also feel like i should ban trundle cuz the rare game i go against a trundle messes me up. His pillar stops the Q and I always try to wait out the ult before i go in. Any tips on the matchup or should i switch to banning trundle?",
+   "id": "7rejfb",
+   "comments": [],
+   "age_days": 3185,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to solo carry out of low ELO on Rammus?",
+   "url": "https://www.reddit.com/r/RammusMains/comments/7qxw2u/how_to_solo_carry_out_of_low_elo_on_rammus/",
+   "published": "2018-01-17",
+   "author": "/u/SkjaldbakaEngineer",
+   "body": "Hi I'm a low silver-high bronze Rammus/Udyr main but lately I've been finding Udyr to be too risky and matchup-reliant and so I've been leaning harder on the Rammus- but it seems that even in the games where I gank as actively as possible; I win the ones where my laners are better and I lose the ones where my laners are worse. Any tips on turning the tide? Especially against Xin Zhao or Shyvana?",
+   "id": "7qxw2u",
+   "comments": [],
+   "age_days": 3187,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is Iron Skin viable to compensate for the nerfs this patch?",
+   "url": "https://www.reddit.com/r/RammusMains/comments/7fo4qd/is_iron_skin_viable_to_compensate_for_the_nerfs/",
+   "published": "2017-11-26",
+   "author": "/u/Fed_Express",
+   "body": "+5 armor in addition to % armor increase when you pop a refillable.\n The rune basically reverts the nerf however it sacrifices Conditioning which gives way more stats later in the game.\n Seems to me like a tradeoff of a stronger early game vs. an empowered mid-late game.\n Could this be a thing in some tough early game matchups?",
+   "id": "7fo4qd",
+   "comments": [],
+   "age_days": 3239,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "rammus vs master to with deaths dance",
+   "url": "https://www.reddit.com/r/RammusMains/comments/7a7y8u/rammus_vs_master_to_with_deaths_dance/",
+   "published": "2017-11-02",
+   "author": "/u/4YearsOfBronze",
+   "body": "so traditionally I've always thought of rammus as the best counter to master yi. but just now I went against a really fed yi. I was shutting him down every time we fought, just according to plan. then he built deaths dance, and suddenly he was unkillable. it's the 35% damage taken over time or whatever, and it totally ruins this matchup. I had cinderhulk tabis thornmail randuins dead man's and I still couldn't 1v1 him.\n any suggestions?",
+   "id": "7a7y8u",
+   "comments": [],
+   "age_days": 3263,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "An OK jungle guide.",
+   "url": "https://www.reddit.com/r/RammusMains/comments/6f8q23/an_ok_jungle_guide/",
+   "published": "2017-06-04",
+   "author": "/u/KamikazeSaintx",
+   "body": "Diamond rammus main. I've been having huge success with the new rammus in the jungle. I currently have a winrate of 80% (20W 5L) 4.62 KDA for the last 2 weeks. I think he is so incredibly strong in his current state. I honestly think he is probably the current strongest jungler in the game.\n For masteries I'm running 12/0/18 taking undying over CoC.\n For runes I'm running flat AS reds, armor yellows, flat as quints, and cdr blues. The cdr blues are interchangable for mr per level, or really anything else you want to put. The AS runes are a massive improvement for his clear and his dueling potential.\n For the perfect scenario items, I buy cinderhulk-thornmail-swifties-DMP-wits end-randuins. But that's against an full ad team, which isn't very realiable in the current meta. I also think that challenging smite is better than chilling smite now that his ult slows. I would do the same build for a single ap team, maybe change the wits end for any abyssal mask if you need the health, or want to be more team friendly. For a double/triple ap team. I typically go cinderhulk-thornmail-merc-wits end-abyssal-dmp. You can change the order you buy wits end/abyssal, but buying both gives you a massive amount of resistance and damage. Edit: Since the latest patch, i've been building righteous glory into knights vow right after my thornmail, it gives you more health than my previous build, for nearly the same amount of armor and with the bonus of the utility of those items, I'm often skipping an mr item outside of merc treads, unless there's a fed, or multiple APCs on the enemy team. This gives you slightly less damage than the wits end build, but makes up with a lot of team utility.\n Cinderhulk into thornmail is core every game, with boots obviously being changed per the game needs, merc for the mr/tenacity. Thornmail just increases your overall damage output by a huge amount, against any target, not only ad targets. I've also been leaning towards wits end for my single MR item, it gives you a huge dps increase, and with the passive mr steal, it gives you quite a lot of mr to increase with your w. \n For the skill build, I personally go E>Q>W, with the AS runes the bonus AS from taunt gives you absurdly strong single target damage with your passive, this gives you really strong dueling potential, and with the extra taunt duration your ganks are extremely strong as well. You are stronger than just about any other jungler at early levels, so do not fear about fights. Kha is really the only jungler stronger than you at 1v1s until you get a thornmail. The Q>E>W max is also quite strong, 6 sec powerball is pretty insane for map movement, however in my opinion it's weaker than the bigger single target damage, and increased taunt you would get from E max.\n Edit: http://i.imgur.com/kYcV1AJ.png Definitely very strong. I'm also sure I've missed a lot of stuff in this guide, I didn't want it to be too long of a text post. Just let me know if you have any questions, or information vs matchups or anything and I'll try my best to help.\n https://media.giphy.com/media/xUA7aN68YnHJN9KZyg/giphy.gif After I picked up my thornmail, I immediately went to look for a fight. Sorry for the quality, low spec pc.",
+   "id": "6f8q23",
+   "comments": [],
+   "age_days": 3414,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "So with the new Rammus",
+   "url": "https://www.reddit.com/r/RammusMains/comments/6bz2tj/so_with_the_new_rammus/",
+   "published": "2017-05-18",
+   "author": "/u/Coco292",
+   "body": "Let's discuss item builds for top and jungle. Cinderhulk still seems to be the staple, do you think we go titanic/wit's as first item after depending on the matchup or do we still go full armor?",
+   "id": "6bz2tj",
+   "comments": [],
+   "age_days": 3431,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Positive musings regarding the Rammus changes.",
+   "url": "https://www.reddit.com/r/RammusMains/comments/6bqktt/positive_musings_regarding_the_rammus_changes/",
+   "published": "2017-05-17",
+   "author": "/u/Fluffy017",
+   "body": "Alright, so I just finished my first game on Rammus since the changes. The W slow still feels REALLY bad; while I can understand maybe having some form of self-slow on the ability (because mechanically and lore-wise it makes sense), 60% definitely feels like overkill. However, being able to toggle it off early after your target leaves the area of influence you have is alright.\n This first game I was playing top Rammus, against a Darius. As you might guess, Darius bullied me pretty hard early, but I managed to get some decent farm under tower. My build path went Titanic Hydra>Ninja Tabi>Thornmail>Deadman's Plate>Wit's End.\n At this point, I'm actually going to disagree with a lot of people currently testing the new Rammus: maxing E in lane just feels...off. While the taunt duration is nice for ganks, the AS steroid that's on it now doesn't feel particularly noticeable. Maxing Q second helps tremendously, since with a bit of CDR you can get the cooldown lower than old URF Rammus (where I believe his CD was something like 4 seconds at max rank Q.)\n Overall, I think new Rammus is a splitpushing monster. Put him in a solo lane against an AD matchup, and I think he could even rival Quinn by using Q to follow her roams. I have yet to try him in the jungle, but I'll edit this post with that write-up when I get the chance. Current skill pathing feels right with maxing R>E>Q>W.\n My masteries were 12/0/18, running Grasp. Rune page was my old Rammus jungle page, with AS reds, Scaling CDR blues, Armor yellows, and MS quints.",
+   "id": "6bqktt",
+   "comments": [],
+   "age_days": 3432,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Finally about to hit Level 7 Mastery on Rammus.",
+   "url": "https://www.reddit.com/r/RammusMains/comments/5h17sy/finally_about_to_hit_level_7_mastery_on_rammus/",
+   "published": "2016-12-07",
+   "author": "/u/ScalpelTiger",
+   "body": "I've been dying to get that beautiful blue mastery emblem for my favorite champion. The idea of an uber-tanky character that has a form of super-mobility was what got me into League of Legends in the first place. \n Getting S Ranks with Rammus, as I'm sure you all know, isn't easy. I'd like to go so far as to say that it's RIDICULOUSLY hard. Rammus can't really farm too well early, or without the proper items and that hampers your chance at an S badly. However it can be done, and I've gotten the hang of what to do to secure those S ranks for that swank emblem and for posterity and would love to share some tips to see more Rammus players with some prestige this season.\n Don't leave after ganking bot lane. Tremors puts an enormous dent in towers, and if you can secure a double kill for bot lane you can either put them extremely far ahead or even take the tower right after by staying in lane and just ulting it. That first tower money helps your team so much and should be one of your primary foci when you jungle as Rammus.\n\n Titanic Hydra. I know I'll catch flak for this since it's not one of his conventional tank items to build into but the Tiamat early can help you farm MUCH faster, and keep your CS high enough to bring you that much closer to S Rank. You don't necessarily need to rush Titanic Hydra but the Tiamat should be purchased early so you can speed clear camps and start making money faster. \n\n Boost your laners. Is that Annie mid lane 3 and 0, but Bot Lane is getting stomped and raging at you for a gank? Mute bot lane and secure Annie another kill or counter-gank. Get her so fed that she will carry the losing lanes that can't handle their matchup. In lower ELO, I often found myself getting screwed over trying to help awful lanes and even when I did turn things around for them, they still under-performed with the leads I spoon-fed them. Sure you're supposed to help losing lanes, but prioritize ganking for winning lanes. This goes double for champions that can snowball violently off of small leads like Irelia, Jhin, Syndra, etc. \n\n I hope any of that helps those of you struggling to secure S ranks with Rammus. Best of luck to you in your placements!",
+   "id": "5h17sy",
+   "comments": [],
+   "age_days": 3593,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  }
+ ]
+}

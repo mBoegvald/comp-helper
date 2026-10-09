@@ -1,0 +1,1519 @@
+{
+ "champion": "Nasus",
+ "subreddit": "nasusmains",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "hardest matchup",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1x01gsq/hardest_matchup/",
+   "published": "2026-10-07",
+   "author": "/u/Hefty-Reply-8136",
+   "body": "whats you hardest nasus top matchup?",
+   "id": "1x01gsq",
+   "comments": [],
+   "age_days": 2,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Do y'all feel like nasus feels better in mid lane than top lane?",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1wwuwc2/do_yall_feel_like_nasus_feels_better_in_mid_lane/",
+   "published": "2026-10-03",
+   "author": "/u/AbbreviationsFew7333",
+   "body": "I have been playing mid nasus since like 2 years.I wanted to play in top lane since I saw post in top mains and wanted to play but damn, do I just lack the skill or is he just super hard to play on top lane? \n In mid lane you don't really get zoned off exp and you can stack better since the shorter lane but top is like hell bro I just played against a morde and sure I didn't lost hard(I did lost lane and died like 3 times and sure I haven't played top matchups for a while) but it was such a pain in Laning compared to my mid plays.maybe it could have been just a bad game but every time I remember playing nasus on top feels like \"just sit there and watch your minions die while enemy top gets a 30 CS lead\"\n Have I gone soft by playing mid or do y'all have easier time in mid too.",
+   "id": "1wwuwc2",
+   "comments": [],
+   "age_days": 6,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How does Nasus mid have terrible GD15 but high winrate against these certain champs?",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1vy2gx4/how_does_nasus_mid_have_terrible_gd15_but_high/",
+   "published": "2026-08-25",
+   "author": "/u/itshyunbin",
+   "body": "Hello all, I'm a Yone mid OTP looking to pick up Nasus mid to cover Yone's counters (Zed, Irelia, Yasuo, Vex, Akshan).\n In the first image, Nasus mid has matchups like Kassadin, where Nasus is behind by a whopping -339.1 gold at 15mins, but has an equally whopping 57% winrate.\n However, in the second image, Nasus also has matchups like Sylas where he's still behind -503.5 GD15, but has a low 48% winrate.\n So he's behind af in early gold against both, but eventually dominates against Kassadin while losing to Sylas. The same pattern is peppered across most of his matchups - he'll be behind early but randomly win against some and lose against others.\n This pattern makes sense against someone like Irelia, because she dominates in lane but falls off hard late. But Kassadin, Azir, Diana are all strong late, yet Nasus dominates them despite not countering them in lane. Why is this?\n https://preview.redd.it/fqp9vfzecjlh1.png?width=1018&format=png&auto=webp&s=89125d6d37d9a75d6a86516a76421c8b973d34a3\n https://preview.redd.it/ccwec3ogcjlh1.png?width=1014&format=png&auto=webp&s=d8280127e27b0fc07e0df80fb24587dbc178f8d6",
+   "id": "1vy2gx4",
+   "comments": [],
+   "age_days": 45,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Dear nasus mains",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1vtlbh4/dear_nasus_mains/",
+   "published": "2026-08-20",
+   "author": "/u/Just_some_mild_Ad4K",
+   "body": "How do you feel about the lifesteal nerf? Would you have rather had a revert? All I can imagine is this will leave(considering the buff) his good matchups better, but his bad ones will either be even more impossible or best case scenario neutral.\n Sincerely a singed nasus two trick pony who was affected a ton by the \"minor\" stat nerf to singes ultimate.",
+   "id": "1vtlbh4",
+   "comments": [],
+   "age_days": 50,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "26.16 Anounced stacking changes",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1vg3klh/2616_anounced_stacking_changes/",
+   "published": "2026-08-05",
+   "author": "/u/moscow_snow_night",
+   "body": "Its seems really nice. In short, \"small stack\" will give 4, \"big stack\" will give 10. I did some quick calculation, it seems like nice buff for lane.\n Minion Total minions by 30 Stacked minions by 30 Stacks old Stacks New Melee 174 50 150 200 Caster 174 70 210 280 Cannon 28 15 180 150 Total 540 630 Its quick, not entirely accurate math as it depends on matchups etc. It includes spawned minions by 30min, some average stacked by that time). Inaccuaracies aside, its clearly a buff.\n I excluded champ executions, because they are not that influential, not that we get 10 Q executions per game (I wish).",
+   "id": "1vg3klh",
+   "comments": [],
+   "age_days": 65,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "League Classic - Nasus build/runes/masteries?",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1v9qqle/league_classic_nasus_buildrunesmasteries/",
+   "published": "2026-07-29",
+   "author": "/u/supra95",
+   "body": "Thought it could be useful to have a discussion thread for League Classic to discuss things like optimal runes, boots choice, build path, mysteries, etc.\n Some random thoughts ive had from my PBE testing to start us off:\n General build for me has been: mercs/tabis, trinity, frozen heart, spirit visage, randuins, thornmail/banshees (haven't tested everything, would appreciate thoughts on: warmogs, force of nature, iceborn gauntlet, black cleaver)\n Have been unsure whether its better to start off with 10-15% CDR from runes/masteries and go over/under the CDR cap, or to just start at 0% and get to 40% from 2 items\n 9/21/0 masteries for most matchups: unyielding/block are great vs early poke, CC/slow reduction are nice - maybe 9/0/21 is better for easier lanes? (CDR, movespeed, life steal, ghost/flash duration reduction)\n E-max should be strong again vs range matchups, but i've been getting slapped when ive tried it - probably need a rune page with magic pen, mana regen, AP, etc.\n A page with armor seals + quints + marks + cloth 5 should allow us to just farm through AD bullies like pantheon\n They seem to have removed CDR quints and hybrid pen marks? Ult/auto attacks do a higher % of your damage so hybrid pen marks should be great if they bring them back, and CDR quints would allow ~20% CDR level 1\n Been running ghost/flash every game without thinking, but ghost/tp might be better",
+   "id": "1v9qqle",
+   "comments": [],
+   "age_days": 72,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How do you decide to buy items on nasus?",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1v84wsy/how_do_you_decide_to_buy_items_on_nasus/",
+   "published": "2026-07-27",
+   "author": "/u/MaleficentMeeting199",
+   "body": "Hi bronze player here. I’ve been climbing with nasus and really enjoying it. One question I have though I how do people decide what to buy during the game. I have been following recommendations tab but I know I can have more impact on my games if I am able to buy more suited items for the given matchup or teamcomp I’m fighting up against. The typical item sequence for me is boots, trinity force, frozen heart, spirit visage, thornmail and finally jak sho.",
+   "id": "1v84wsy",
+   "comments": [],
+   "age_days": 74,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Nasus win = knowledge gap",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1v4ti9j/nasus_win_knowledge_gap/",
+   "published": "2026-07-23",
+   "author": "/u/Gigundobrain",
+   "body": "The only way to win on Nasus is to genuinely just be more knowledgeable than enemy laner. Most important knowledge is waves, then matchup, then back timers. This is sort of a duh statement but I just wanted to glaze US nasus mains. WE outplay through knowledge instead of mechanics! \n IGN is podicc#NA1 and I ❤️ susan\n Best skin is armored titan because of evangelism chroma.",
+   "id": "1v4ti9j",
+   "comments": [],
+   "age_days": 78,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Kayle matchup",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1v48pwy/kayle_matchup/",
+   "published": "2026-07-23",
+   "author": "/u/Ice_King-699",
+   "body": "I've had a match in diamond with this 2 mil point Kayle. She Q maxed, tenacity shard, ghost and flash, swifties rush. Whenever I W'd her she'd just Q me and run away without any problems and she'd go back to poking me. I just noticed how strong that Q slow is if you max it\n Do I just copy what she does? Swifties rush, tenacity shard and few points in W before Q? I usually have no problems in this matchup",
+   "id": "1v48pwy",
+   "comments": [],
+   "age_days": 78,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "An listicle of 20 Nasus matchups",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1v33tl4/an_listicle_of_20_nasus_matchups/",
+   "published": "2026-07-22",
+   "author": "/u/AntiqueLayer9645",
+   "body": "I find it kinda hard to find one centralized place to look up detailed Nasus's matchups that actually guide you through level-by-level laning, kill thresholds, teamfight strategies, and other more knowledge-based parts of the game (backing for items, when to chunk hp to set up a future kill, etc.), so I decided to make a website to consolidate the information I can find around the internets. I can't say I'm a good player by any stretch (plat at my best), so all of the content will need huge improvements over time, especially with the help of this sub. This website is a very very early alpha prototype, but I hope to soon be able to cover all important matchups and top/jungle for Nasus. It would be absolutely amazing to get your feedback on how to improve this Nasus database and website :)\n Currently, I've gathered information for 20 matchups: Aatrox, Camille, Cho, Darius, Fiora, Garen, Gnar, Illaoi, Jax, Jayce, KSante, Kennen, Kled, Mord, Ornn, Renekton, Riven, Sion, Teemo, Tryn, Yorick\n https://www.upmatched.xyz/browse.html?champion=nasus",
+   "id": "1v33tl4",
+   "comments": [],
+   "age_days": 79,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Reviewing top/mid/jungle data and my predictions for 2026",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1v0cszp/reviewing_topmidjungle_data_and_my_predictions/",
+   "published": "2026-07-19",
+   "author": "/u/d8gfdu89fdgfdu32432",
+   "body": "I made several predictions in 2025 for 2026, and enough time has passed to review them.\n TLDR: pretty much all my predictions were right.\n Top lane I said the new season would be worse for Nasus in high elo (but fine in low elo) mainly due to top laners being able to take Ignite and Faelights allowing for higher aggression. Looking at the data, Nasus is high tier in Gold. In Plat/Emerald, he drops to mid tier. In Diamond+, he drops to low tier.\n In Diamond+, his win rate was ~49.5%. Though, his pick rate was ~2.5%, which was extremely low and in the very niche category. He was played much less than other niche top lane champs like Vayne, Yasuo, Gragas, and Singed. Lolalytics ranked him very low at 72nd and 90th (Diamond and Masters+).\n Lolalytics top lane data patch 16.13\n Rank Win rate (game avg.) Pick rate Pick rate ranking Champ Ranking Tier Gold 50.51% 4.45% 12 36 / 106 A- Plat 50.44% 3.88% 18 56 / 107 B Emerald 50.20% 3.32% 25 64 / 105 B- Diamond 49.76% 2.76% 33 72 / 108 C+ Masters+ 49.32% 2.23% 36 90 / 115 C Some people might think 49.5% win rate is fine, but that doesn't factor for pick rate. With extremely low pick rates, win rates don't show the full story. A 49.5% win rate on a low pick rate champ usually isn't equivalent to the same win rate on a high pick rate champ because low pick rate champs are played in limited scenarios that inflate the win rate:\n Nasus is mostly played by mains in high ELO\n Going through the Onetrick rankings, a moderate number of players had a Some people have Nasus top as their secondary role, which would result in easier top lane games since matchmaking typically gives an auto filled opponent in this scenario (new 2026 matchmaking changes)\n There is also low pick rate advantage. People have less practice and matchup knowledge against champs with low pick rates, and they are less likely to counter pick. If Nasus had high pick rate, his counter play would be known much better and he would be punished far harder.\n While you can reach Masters+ one tricking Nasus top, it's much harder than playing a high pick rate/tier champ. Nasus's pick rate is high in low ranks and decreases at higher ranks because it's hard to achieve high ranks with Nasus (resulting in less people playing Nasus at high ranks).\n Ignite seemed to be a major reason why Nasus performed much worse this season since it punishes Nasus’s weak laning phase harder and counters his life steal throughout the game. Zaahen suffered a similar fate. Zaahen is similar to Nasus in the sense that he's a lifesteal champ with weak laning and strong mid/late game, but he gets heavily punished by Ignite. Zaahen was one of the most played top lane champs in the last patch of 2025 but has now dropped to 22nd in pick rate. Ironically, the drop in Zaahen's pick rates heavily benefited Nasus since Zaahen was one of Nasus's worst matchups and a large reason why Nasus's win rate was low last season. Looking at the current counter matchups for Nasus, Zaahen is still one of Nasus's lowest win rate matchups.\n https://www.reddit.com/r/nasusmains/comments/1pcmzmx/2026_might_suck_for_nasus/\n https://www.reddit.com/r/nasusmains/comments/1pg8p1f/faelights_changes_are_very_bad_for_nasus/\n Mid lane Back in 2025, Nasus was almost entirely played top lane and Nasus mid was largely forgotten/abandoned. I predicted that Nasus mid would be better than top in the new season due to:\n Free T3 Boots of Lucidity upgrade\n Much less Ignite usage\n No Faelight disadvantages\n Better matchups in general\n Being able to return to lane very fast (not mentioned in my post)\n While Nasus mid didn't become meta, it seemed like mid was better than top. Looking the Onetrick rankings, the top 10 highest ranked Nasus players, mostly play him mid/jungle.\n Top 10 ranked Nasus players\n https://www.reddit.com/r/nasusmains/comments/1pdlwxq/im_calling_it_now_mid_lane_nasus_will_become_meta/\n Nasus jungle For most of this season, Nasus jungle was considered a low elo troll pick by almost everyone, but at the start of the season, I already mentioned that it was strong and better than top lane. Now that Nasus jungle has been discovered and being played far more, the data clearly proves my point.\n On patch 16.13 (pre-Protoplasm Harness nerf), Nasus was one of the highest win rate junglers across all ranks.\n All ranks\n Plat\n Emerald\n Diamond+\n He was also performing well in pro play, with a 69.6% win rate, and it was much higher initially (before it caught on).\n Nasus pro play stats\n Comparing the win and pick rates for Nasus top and jungle, jungle greatly outperformed top in both and it wasn’t close. Starting from Plat, jungle had ~3% higher win rate than top lane.\n Lolalytics game average win rates patch 16.13\n Rank Jungle win rate Top win rate Difference Masters+ 52.2% 49.3% 2.8% Diamond 52.4% 49.8% 2.7% Emerald 53.6% 50.2% 3.4% Plat 53.4% 50.4% 2.9% Gold 53.2% 50.5% 2.7% All ranks 53.1% 50.4% 2.7% Furthermore, jungle has become Nasus's most played role across all ranks, with the difference in play rate increasing at higher ranks. At Emerald+, Nasus Jungle is played 18.2% more than top lane. Also, Nasus jungle is still fairly new and growing. Given more time without nerfs, the jungle pick rate will increase even further.\n Lolalytics role pick rates patch 16.14\n Not only did I predict Nasus jungle was strong. I also already created his best build at the start of the season, which is currently being used by almost all pub and pro players. My build was slightly different because that was before the Bandlepipes nerf when Bandlepipes was op, but the core of my build was similar, which was IBG/Protoplasm Harness > Frozen Heart/Spirit Visage.\n Emerald+ jungle build order (patch 16.13)\n Emerald+ jungle build order with boots (patch 16.13)\n Pro play jungle item build stats\n Fleet Footwork vs Phase Rush/Stormraider's Surge I've been a long-term hater of Phase Rush, and now there's data to undeniably prove my point.\n Fleet Footwork was long thought of as purely a laning phase rune and Phase Rush was considered to be the better post-laning phase rune. The Nasus jungle data completely disproves this. Fleet Footwork has by far the highest pick and win rate in jungle. Nasus doesn't have to lane in jungle, but Fleet Footwork is still his best rune in jungle, which proves that Fleet Footwork isn't purely a laning phase rune. Also, since Nasus usually gets free farm in the jungle, his best scaling runes are typically chosen, which also proves that Fleet is his best scaling rune.\n u.gg Jungle Primary rune data patch 16.3\n Data: https://u.gg/lol/champions/nasus/runes-table?role=jungle&patch=16_13\n Even in pro play (the top level), Fleet Footwork + Inspiration are the only runes used in jungle. The highest level players have unanimously agreed that these are his best runes in jungle.\n Pro play jungle rune stats\n There's simply no debate that Fleet Footwork is by far his best rune in jungle. It has a 90% pick rate and the highest win rate across all ranks and levels of play.\n Some people might argue that it's the rest of the Precision tree doing the work, but this is disproven by the pick rate for the other primary Precision runes, which indicate they are much worse than Fleet Footwork. Press The Attack, Conqueror, and Lethal Tempo should perform similarly to Fleet Footwork since they use the same secondary runes, but that isn't the case.\n Some people might argue that the ms boost is useful for farming the jungle, but it's negligible. You get a ms boost like 5% of the time while farming. The healing you get from it is also insignificant since life steal keeps you at full hp always after the first clear.\n Historically, Fleet Footwork has always had higher win and pick rate than Phase Rush in top lane. The same pattern is observed in jungle with Fleet Footwork completely dominating rune selection, and this time, there is no excuse for it. The main arguments people always use for Phase Rush having lower win rates are:\n it's primarily used in bad matchups. This isn't applicable in jungle. It's also incorrect in general since the Onetrick data shows that the people who use Phase Rush/Stormraider's Surge use it in practically every match and it's extremely rare for people to use both Fleet Footwork and Phase Rush at comparable rates.\n it's harder to use than Fleet Footwork. This argument is no longer relevant with Stormraider's Surge being far easier to use compared to Phase Rush. It's even easier to use in jungle since it requires 0 thinking for when to use it. You just hit them and get your speed boost.\n Looking at the rune table data posted earlier, Stormraider's Surge is actually weak in jungle. In Diamond+, it has an 8.57% pick rate and 49.16% win rate, which was much lower than Fleet Footwork at 89.27% pick rate and 52.34% win rate. What's even worse is that:\n it's probably the die-hard Phase Rush/Stormraider's Surge Nasus mains using it, so the win rate would be lower if non-mains were using it\n Stormraider's Surge has a much stronger effect than Phase Rush (assuming you don't have to lane) since it lasts 1 second longer and has a much higher speed boost at most levels, so if Phase Rush was still around, it would have even lower win rate in jungle, and there's data to prove it (since people were already playing Nasus jungle when Phase Rush was still around). Lolalytics has data back to patch 16.6. Phase Rush was removed in patch 16.9. The data consistently showed that Phase Rush had lower win rate than Stormraider's Surge and Fleet Footwork. On average, the win rates in Emerald+ were 55% for Fleet Footwork, 52% for Stormraider's Surge, and 49.5% for Phase Rush. Note that these are overall win rates, which are much higher, and not game average win rates (like on ugg). For ugg win rates, I have a screenshot from patch 16.4, which shows a similar pattern.\n Unironically, I think the people who call Nasus jungle weak are the same people using Phase Rush/Stormraider's Surge on him, which checks out because Nasus jungle is weak when those runes are used.\n When Phase Rush was around, the common saying was that you had to use Phase Rush at high ELO, but the reality was that people were just used to Phase Rush and didn't want to re-learn new runes. When Phase Rush was removed, players were forced to switch. Looking at the top 10 Nasus players on Onetricks now, Fleet is the top choice and used by 7/10 of the players.\n Top 10 ranked Nasus players\n https://www.reddit.com/r/nasusmains/comments/1pnhd7q/is_phase_rush_a_hipster_rune/\n https://www.reddit.com/r/nasusmains/comments/1rohjc5/why_is_fleet_still_the_best_rune_on_nasus_in/",
+   "id": "1v0cszp",
+   "comments": [],
+   "age_days": 82,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "To everyone who plays Nasus: let's make ourselves heard by Rioter Meddler",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1uvxfvi/to_everyone_who_plays_nasus_lets_make_ourselves/",
+   "published": "2026-07-14",
+   "author": "/u/Daggerkill",
+   "body": "Anyone who can comment on my reply to Riot meddlr, he usually replies a lot and reads Reddit, I talked about how excited I am to play Nasus in Classic, but I also vented about his current state in normal League of Legends. You guys who play Nasus, share your points and let's see if he can hear us, he's been quite active there lately.\n https://www.reddit.com/r/LeagueClassic/comments/1uvqnat/comment/oxdqn2c/?context=3\n Sorry if anything is inconsistent, as I used a translator.",
+   "id": "1uvxfvi",
+   "comments": [],
+   "age_days": 87,
+   "recency_weight": 1.0,
+   "topics": [],
+   "stale_items": false
+  },
+  {
+   "title": "Thoughts on Build?",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1unrtq1/thoughts_on_build/",
+   "published": "2026-07-05",
+   "author": "/u/yamomsahoooo",
+   "body": "https://preview.redd.it/qt2gbw6jzbbh1.png?width=854&format=png&auto=webp&s=0e50303019e185e979e1845b6b082712bc7ca2f9\n Sheen + boots first back ofc\n 2 cloth's into steel sigil (if you need it for match up) or SV rush (if needed for matchup)\n Protoplasm -> Immortal Path -> SV -> DD -> EH -> Finish Triforce\n At full build we should have 90% lifesteal on takedown When below 40% hp (while Last Stand is in full effect)\n Protoplasm should heal for 1.66x more than it normally would (Revitalize x Immortal Path x Spirit Visage)\n We have Protoplasm healing, DD healing, Excessive lifesteal amplifiers and healing amplifiers and respectable resistances without ult and more than enough with ult. We also have 86 (+15 from legend) ability haste at 4 items.\n Edit: Oh yeah, also heals and shields casted on you are 1.66x stronger, so if you have a Karma, Raka or any enchanter support good luck to the enemy team with putting you down.",
+   "id": "1unrtq1",
+   "comments": [],
+   "age_days": 96,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How do you play into K'Sante?",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1umyrql/how_do_you_play_into_ksante/",
+   "published": "2026-07-04",
+   "author": "/u/MeisWasTaken",
+   "body": "I can't quite work out how this lane is supposed to work because his kit is incredibly potent against champions with little to no mobility. Is this lane even remotely playable at all if he just freezes on bramble vest? Is there some kind of tech I'm missing because I've never seen Nasus win this matchup before, let alone even survive lane.",
+   "id": "1umyrql",
+   "comments": [],
+   "age_days": 97,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Matchup help",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1uj890k/matchup_help/",
+   "published": "2026-06-29",
+   "author": "/u/Wakapse",
+   "body": "I need help with these matchup: Ilaoi, urgot, darius, aatrox, ambessa, pantheon, jax, varus, temo, morde, olaf, trynm, voli, and prob more\n I just go E max and spam E? until like pant or jax can jump on me and punish me\n Or get perma poke under tower, bully wtv\n Need it pls",
+   "id": "1uj890k",
+   "comments": [],
+   "age_days": 102,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Nasus JG Vs Permainvaders",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1ucd98g/nasus_jg_vs_permainvaders/",
+   "published": "2026-06-22",
+   "author": "/u/Pooty_McPoot",
+   "body": "I'm in high plat/low emerald and that has become a nightmare for Nasus jungle. I can still see some great success but it is entirely dependent on what the other side picks. If they pick like a tank or slow jungler I know I can safely farm all I want and scale hard, but unfortunately at these ranks it's almost nonstop champs like Graves and BV/Shyv who can just take all your camps for free because of how bad Nasus early game is. Is there anything at all that can be done in such matchups or is Nasus just dead in the water in them?\n And yes, I regularly tell my team in advance when the enemy picks a hard counterjungler that they're basically a free kill if we catch them because of W, but alas, teams ignore it 90% of the time.",
+   "id": "1ucd98g",
+   "comments": [],
+   "age_days": 109,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Irelia matchup",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1t9as6f/irelia_matchup/",
+   "published": "2026-05-10",
+   "author": "/u/Wakapse",
+   "body": "This matchup feel unplayble if she human and have brain she just slow push the 3 wave and cheater recall and then respect the bounce feel unplayble, u can't freeze or otherwise u lose half u hp ik u will outscale her but the laning phase is horrible\n I would like to know how to play again her, do i rush branble vest, shen or steelcaps? do i go gaulnet or trinity force? \n And i wanna know if i should freeze a big wave sacrifice my hp or just let it under my tower, farm then my wave will bounce on her tower and she will freeze",
+   "id": "1t9as6f",
+   "comments": [],
+   "age_days": 152,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Just hit Master with 47 Games as Nasus Jungle :D",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1t47jcy/just_hit_master_with_47_games_as_nasus_jungle_d/",
+   "published": "2026-05-05",
+   "author": "/u/nasuscaramelo",
+   "body": "Played mostly Jungle, but could get wins in mostly any role I played in, this champion is all about resilience and focusing on stability, I could turn bad games into wins even when behind. Here's some tips I gathered during my time learning the champion:\n Every enemy matchup is hard until level 6, he's not a early game champion even in the Jungle;\n Ward the other side of your Jungle at 0:40 to spot if you're going to get invaded on the other side(happens a lot specially against high elo junglers);\n During my full clear tests, the best runes were CDR, ADAP, TENAZ(almost the same as taking AS one, loses 1s, still finishes 3:14~15) - RED>Krugs>Chickens>Wolves>Gromp>Blue(Reverse the clear if starting on the other side);\n If invaded give up the camps on this side, you will only win if the enemy is very bad(which is rare in diamond 2+), just go to the other side and farm, don't try to invade their jungle your camps will spawn faster than theirs and you'll get XP back based on your lower level(Rubber Band XP is OP);\n Don't try to scuttle if the enemy jungler is there, you will lose if it's an 1v1;\n Level 6 is your goal during the early game, when you get there you're 100% Online and then try to get more ganks/dives during that time;\n Only gank if it's 100% sure your team will get the kill, if not don't even try;\n Try to find ganks when you have ghost up, this is your anti-kite pass, mostly no one will stop you from getting to the enemy carry;\n Item order is: Start: Gustwalker(always)>Sheen>Protoplasm>Trinity(Iceborn if you're the only Tank)>Jakshoo>Situational Items are Visage(if against 2+AP and they build anti-heal), Randuin(against 2+ Crit dealers), Bramblevest(only if they have 2+ healing champions and don't upgrade to Thorn until it's the last item), Nature's(vs Lillia/Brand+ champs that build Rylai/AP DoT), Deadman's(enemy AD is weak and is the only AD dealer), Frozen Heart(vs On-Hit/Poke Ezreal, Ashe, Varus, Irelia, Jax), Bandlepipes(My personal favourite: you have 2+Auto Attackers i.e.: Jax/Irelia Top and ADC bot);\n Try to consistently keep your camps farmed, the faster you clear the faster you stack, try to reach these milestones: 5m=90~/10m=200~/20m=400~/25=500~(these are my averages, a lot of stuff happens, negativelly mostly during the early, but your decisions matter a lot during the game, so think carefully before making a play)\n If there's an objective and the game is even and you don't have Ult, concede to the enemy team, only make plays with Ult available, if you have Ult+Ghost surely go for every objective, 1v2s are very possible with both up;\n Most of the trades you'd probably lose are winnable with proper spacing so train this a lot during your sessions, this especially in my opinion is the difference between an average Nasus to a Good Nasus(Abuse the range you get from empowered Q and your Ultimate)\n W the strongest Auto Attacker on the enemy team, not only the ADC, doesn't matter if you W the ADC if there's an 8/0 fed Irelia in the enemy team;\n Your main goal during Team fights is neutralizing the strongest AA-DPS, W then you have two choices, If you can run then down without being kited, go for it, if not, protect your carries at all costs, 2-3 damage dealers in your team are already at advantage just because of my favourite concept of this game: STAT CHECKING;\n Your ult + W are the gods of Stat Check, you can basically win fights by W the carry and Ulting; You become a Wall for your Team while doing from half of their HP to almost 80% of their health just by Aura Farming if they dare to get close to you, if they take dmg from all the duration of your Ultimate;\n From 30min+ the clock starts ticking, here you must find a way to end the game ASAP, Nasus isn't like Veigar/Senna that scales, just because of one thing= Range. Why? When it's 40mins~ everyone will be level 18 for sure, the enemy ADC and APC will have Dominiks and Void Staff, GA, Zhonyas, they can stall you long enough in the late game, remember if you're Ultless you're screwed, if they survive the hell you give them during those 15s, they win and the problem with that are Death Timers, if you lose a fight during the 40min milestone, it's almost a minute of respawn time and it's GG GL next game;\n These are all the tips I can get from memory, hope you find these useful, if you have any questions, want to discuss any point or even add more tips I'm all ears 😃\n My profile and Oikaton's Guide which helped me a lot when I was learning upvote if you wish it's very good and has good information, I have some matchup conditions that I disagree from personal experience, but I think It can be different for each player and skill;\n It's my first Reddit Post, Thank you all 😃\n Edit: Just realized I'm currently TOP 1 Nasus in my Region! I'm Japan's Dogekage!\n Edit2 Item Set Copy and Paste on ItemSet to Import directly to your Client!: {\"title\":\"Jungle\",\"associatedMaps\":[11],\"associatedChampions\":[75],\"blocks\":[{\"items\":[{\"id\":\"1102\",\"count\":1},{\"id\":\"3364\",\"count\":1},{\"id\":\"3057\",\"count\":1},{\"id\":\"3009\",\"count\":1}],\"type\":\"Early\"},{\"items\":[{\"id\":\"2525\",\"count\":1},{\"id\":\"3078\",\"count\":1},{\"id\":\"6665\",\"count\":1},{\"id\":\"3110\",\"count\":1},{\"id\":\"3065\",\"count\":1}],\"type\":\"Common\"},{\"items\":[{\"id\":\"4401\",\"count\":1},{\"id\":\"3742\",\"count\":1},{\"id\":\"2524\",\"count\":1},{\"id\":\"3143\",\"count\":1}],\"type\":\"Situational\"}]}",
+   "id": "1t47jcy",
+   "comments": [],
+   "age_days": 157,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Why is winter's approach/fimbulwinter good?",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1t30wd4/why_is_winters_approachfimbulwinter_good/",
+   "published": "2026-05-03",
+   "author": "/u/Automatic_Net_7391",
+   "body": "I was checking out statistics and ran into something odd. Winter's approach seems to be outperforming pretty much everything, and it goes against everything I think I know about building Nasus and sounds like it sucks.\n Building tear early seems like a huge setback for a champion who already has low early economy, so is delaying your sheen item plus just having 0 resistances. And yet, the stats say it is good and I cannot comprehend why.\n Is it a giga counter to a certain matchup and has an inflated winrate or is there something else I am missing? I genuinely cannot wrap my head around this someone help my slow brain.",
+   "id": "1t30wd4",
+   "comments": [],
+   "age_days": 159,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Starting getting tired being OTP nasus",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1sxhg02/starting_getting_tired_being_otp_nasus/",
+   "published": "2026-04-27",
+   "author": "/u/Wakapse",
+   "body": "I'm a OTP nasus try my best playing well, wave management, scalling everything and after that i lose, i play mid and top and is never enought no matter how munch i try i can't even 1v9 i have to get really really fed to hard carry but is hard to solo kill with nasus, i just get CC or get kit very hard, last game i was 950 stack around and i still die getting kite, cc or get one shoot, i love the gameplay of the champion but i feel like climb with this champion feel impossible, u need to get a winning team for win and have impact, otherwise having a losing game will make u automatcly lose no matter how i'm fed, there some matchup too that feel unplayble, for exemple at top, if u face like a ambessa, riven or anything that human and zone u, respect the bounce, have a brain it's almost impossible to scale and win lane, trading health for wave is not even worth since some champion can 100-0 in one combo or even dive you, being behind is almost impossible to come back since u have no stack, no dmg what to do? play side lane and farm but now u team do 4v5 and yk the result, even when u winning and start playing around u team, u delay u stack(sometime) since u have to help you team, obj, ik i have prob bad macro but i'm just plat \n Idk what to do tbh i wanna keep playing him but it's just i'm getting tired of that \n i try to search for some tutorial but tutorial date since season 14 or less, there no a lot of streamer that play nasus and do guide about it that very sad, i wish i could do that kind of content but i'm suck at the game and explaining\n Now i reconvert myself to nasus Mid, since top i get bully very hard, it's nice but there is certain matchup is feel impossible (azir, sylas, syndra, leblanc and more) and playing under tower it's very hard too since u can get perma poke and that it ik u have to dodge but it's not that easy (i play on laptop, 60fps low quality, not use to it) \n At the end, the champion is very fun to play but climb with this feel very painful i wish he can get a rework, be a late game champion or buff\n I need to talk abt it since i getting insane XDD\n If u guys have any streamer, guide, advices anything im glad to hear\n My opgg:(not my main since is OCE and i'm in EUW rn)\n https://op.gg/fr/lol/summoners/euw/Noah17Like-EUW",
+   "id": "1sxhg02",
+   "comments": [],
+   "age_days": 165,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "When to take Graps/Fleet/Phase rush",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1swh4l7/when_to_take_grapsfleetphase_rush/",
+   "published": "2026-04-26",
+   "author": "/u/Wakapse",
+   "body": "Personnally i take graps when do blue build or again tank, fleet just for stacking safely and phase rush again hard matchup like darius aatrox jayce is it good?",
+   "id": "1swh4l7",
+   "comments": [],
+   "age_days": 166,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Syndra matchup",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1svo4xv/syndra_matchup/",
+   "published": "2026-04-25",
+   "author": "/u/Wakapse",
+   "body": "How to laning phase again her? she perma poke me even under tower if i all in she push me with her spell she just spam all her ability and kill me after",
+   "id": "1svo4xv",
+   "comments": [],
+   "age_days": 167,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to improve nasus laning phase",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1ssyc6k/how_to_improve_nasus_laning_phase/",
+   "published": "2026-04-22",
+   "author": "/u/Wakapse",
+   "body": "When play nasus top or mid, it's very hard to play again certain matchup, most of the time they know what to do slow push, cheater recall, let the wave bounce, punish me, perma poke and kill me under tower, like akali, aatrox, ahri if i die 1 time i lose the lane completly but if they die they can always come back, how to improve it? do u guys have streamer youtuber? like a lot",
+   "id": "1ssyc6k",
+   "comments": [],
+   "age_days": 170,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "We might have a new delicious starter vs melee matchups",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1slp6or/we_might_have_a_new_delicious_starter_vs_melee/",
+   "published": "2026-04-14",
+   "author": "/u/yolowagon",
+   "body": "",
+   "id": "1slp6or",
+   "comments": [],
+   "age_days": 178,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Nasus weaknesses and how to overcome them?",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1shhzeo/nasus_weaknesses_and_how_to_overcome_them/",
+   "published": "2026-04-10",
+   "author": "/u/Taverntrainer",
+   "body": "Hello guys, im a jungle main, but whenever i get filled top and i get an easy matchup i absolutly love to play nasus.\n (nasus jungle doesnt work for me, cause i play highly tempo oriented in jgl and this just doesnt fit his playstyle).\n So for example when the enemy blinds malph, i like to pick nasus. I really like to outsustain enemy laner and i think this is one of nasus strength. Another strength is his 1 v 1 potential and the strength i like the most is clearing turrets. Bro just melts them, specially with ult active.\n Now the strength of melting turrets is often connected/rely on actually beeing able to attack turrets. Over the course of games, you can attack turrets, when you solo kill the enemy laner or when the enemy laner is away, doing something else. And sometimes, when the laner is in lane, but you have omega laneprowess (my buzzword for, i can attack the turret, while the enemy is attacking me, cause im so ahead).\n The problem with this (most of the time and its only my (pretty low elo) perspective), is the situations how this can occur.\n Most of my solo kills in lane are, when the enemy pushes far up and I then run them down with ult and ghost, before they reach their own turret. But when i get a solo kill like this, i still need to push the wave, so i can start attacking the turret. Same situation, different example, i get a solokill, cause the enemy fails to dive me (happens quite alot (in perspective of solokills, not overall)), where i then also have to push the wave first, before i can attack the turret.\n When the enemy laner is away, they most of the time have pushed their wave in before, or i need to clear atleast one wave, before i can reach the turret. This happens quite alot in my games, cause nasus is known to not leave lane that often, but crush you 1 v 1, so alot of players try to get equity on the map, where nasus cant really match them.\n This leads us to one of (imo) nasus biggest weakness: his waveclear. In nasus it feels extra special, because most nasus players i see highly emphasize stacking over pushing.\n So my question (sorry for the long introduction) is on the topic of sunfire (the MR version, since the armor version is troll).\n Downside: less stacks (but I think you can play around the burn a bit, so you dont lose too many stacks), cant attack turret when enemy close (but this scenario doesnt happen to me that often, cause you kinda have to be really far ahead and also be really sure you dont get ganked/roamed on).\n Upside: way more push == more turret dmg, nasus wants to be really close to every enemy he fights so he can perma auto/q --> good use of sunfire dmg in teamfights, little extra: more ap dmg on a more ad oriented fighter can be good.\n This matters mostly for the games, where you dont see yourself as the biggest win condition and just try to be as useful in progressing the game as you can (which is roughly my mindset whenever i get filled (I rarely ever carry a game where im filled, prob also cause when you filed from top to mid its not as bad as if you get filled from jungle to a lane (not saying there is no difference in top or mid, just saying its less different then the swap from jgl).\n So my question is, would it be omega troll to buy the MR sunfire or can it be good in certain situations? You could also exchange sunfire with some form of tiamat item, i just prefer to be tanky when offrole then squishy cause its more stable.",
+   "id": "1shhzeo",
+   "comments": [],
+   "age_days": 182,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to stack properly?",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1s08grn/how_to_stack_properly/",
+   "published": "2026-03-22",
+   "author": "/u/CandidCartoonist6411",
+   "body": "I have issue is to stack properly, at 20min i can be like at 200 stack or even less(depending on the matchup), when i stacking on side lane, the obj come up and since i dont have enought dmg i'm useless on teamfight, soo instant i go stacking and get blame for it or i just join teamfight and leave a lot of stack behind, what should i do? how many time per minute?",
+   "id": "1s08grn",
+   "comments": [],
+   "age_days": 201,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Help me with these matchup",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1rnpyq8/help_me_with_these_matchup/",
+   "published": "2026-03-08",
+   "author": "/u/Wakapse",
+   "body": "I always lose again them: Poppy, jax, sett, urgot, riven, illaoi, irelia, ornn and sion there probably more but idk\n Im low plat, mastery 34 with nasus i don't find any guide with specific matchup and situational item\n I try nasus mid too it's good but sometime in certains matchup u get bully very hard, it's kinda boring too\n I have some question:\n When is the powerspike? lvl 6? or 9? \n Phase rush is it better than fleet? \n Should i go full tank after trinity or go some bruiser\n If u guys have any creator who do video abt nasus i really glad to have",
+   "id": "1rnpyq8",
+   "comments": [],
+   "age_days": 215,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Oh no",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1rfub3k/oh_no/",
+   "published": "2026-02-27",
+   "author": "/u/d8gfdu89fdgfdu32432",
+   "body": "Garen is currently Nasus's 2nd worst matchup and he's getting buffed next patch. This one will hurt more since his pick rate is very high.",
+   "id": "1rfub3k",
+   "comments": [],
+   "age_days": 224,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Looks like Illoai is back on the menu",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1rbhp7w/looks_like_illoai_is_back_on_the_menu/",
+   "published": "2026-02-22",
+   "author": "/u/d8gfdu89fdgfdu32432",
+   "body": "Illoai got buffed this patch and she's back to being Nasus's worst matchup both in win rate and lane.",
+   "id": "1rbhp7w",
+   "comments": [],
+   "age_days": 229,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "1300 lp 5.6 kda Best Nasus World explains Nasus mid in s16",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1ralg8s/1300_lp_56_kda_best_nasus_world_explains_nasus/",
+   "published": "2026-02-21",
+   "author": "/u/PsychopathicTop",
+   "body": "Well I found my Reddit and Youtube login info so here I am back again (ㆆ_ㆆ)/. Like last time I will be on Reddit for the next 2-3 days answering as many questions as I can if i get any, after that you guys most likely won't see me again for another year ggggggg--- I currently hold the highest and second highest lp accs for Nasus in the world on onetricks.gg, as well as the all time highest Lp ever at 1300 lp, and this time I've actually been otping Nasus mid unlike last season's 50/50 split between Nasus and Jax (Toplane). 1 Hour long video for the homies, the tiktok brains that can't consume any actual real info GTFO, don't ask me to make stuff in tiktok/shorts format (it's a real request from someone that said they couldn't bother watching my 40 min video with timestamps last year), and as always hope you guys can learn something from the video and happy stacking.\n What to Ban?\n I always ban Ambessa since my Toplane days, but realistically Anivia/ryze/orianna are higher prio bans for midlane in that order.\n https://www.youtube.com/watch?v=HMrHG_7ehUw\n https://www.twitch.tv/psychopathictop https://discord.gg/GyASK4kWsh https://x.com/PsychopathicTop My accounts: \n https://op.gg/lol/summoners/na/Maestro-TEMPO\n https://op.gg/lol/summoners/na/%E9%BB%91%E6%AD%BB%E7%89%9F%20Kokushibo-DEMON\n If you guys are interested in seeing the most common matchups I get in chall and my winrate vs them\n https://preview.redd.it/oagjhh230tkg1.png?width=1108&format=png&auto=webp&s=f742169f13b4c906cd6d279899ba54e760573a2a\n https://preview.redd.it/njo0ccmi0tkg1.png?width=1102&format=png&auto=webp&s=ff8eba42a681992328226f0830ed087ff30361d3\n Other account matchups",
+   "id": "1ralg8s",
+   "comments": [],
+   "age_days": 230,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Combat runes on Nasus?",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1r620ho/combat_runes_on_nasus/",
+   "published": "2026-02-16",
+   "author": "/u/Repulsive-While-381",
+   "body": "I play garen and darius and i've been working on the Nasus matchup, (around gold rank) but the past 2 ive seen ran a combat rune (summon aery or arcane comet) and he just starts E and spams E on me, by the time he is close to OOM at all im way way way too low to even try touching him, and he just stacks for free. What am i missing here?",
+   "id": "1r620ho",
+   "comments": [],
+   "age_days": 235,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Help with this Matchup",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1r6n4is/help_with_this_matchup/",
+   "published": "2026-02-16",
+   "author": "/u/Suddenly_NB",
+   "body": "https://op.gg/lol/summoners/na/%25E5%2587%25AF%25E5%25B0%2594%2520%25E6%25AD%25A3%25E4%25B9%2589%25E5%25A4%25A9%25E4%25BD%25BF-Kayle/matches/06xScrsgHNjQL0PHO_ZVRdZq5kMTmhLOrPogh2kGUXE%3D/1770944582000\n https://preview.redd.it/osb6bes9fxjg1.png?width=744&format=png&auto=webp&s=0197066d84ee80d80ebe41ea5827198872353436\n What can I really complain about when I won the game but... I lost lane from first wave level 1 (which I can recognize my error there, not warding bush and got zoned) but after that I was just rightly unable to do anything versus Jax. I think I was 0/6 or so leaving laning phase, Akali even lane swapped me because she was at least kind of able to fight jax in the mid game. I think eventually I outscaled once I was really able to get stacks, but yeah, the CS diff.\n So I suppose my questions are: Was PR a good call here, or should I have gone something else? (still learning to identify when to PR or fleet)\n What should my trading pattern with grasp Jax look like? If I tried to CS or get stacks, he'd leap, stun, auto, and heal any damage I may have done while being able to pretty easily walk away. Is it better to open with wither on him, or use wither as he's trying to leave a trade? Would this be a lane to put 3 points into E?\n Itemization felt weird here since he ended up going AP Jax, I didn't go into Frozen heart and did trinity, mercs, then spirit visage. Mostly I just kind of worked as engage/peel to keep them off my akali and Cait. \n How is the Jax match up supposed to be for Nasus? My take is the wither counters him, but my friends take is that Jax counters Nasus, because Jax E also blocks Nasus Q Which sure, but I can just not Q for his E duration, wither and walk out, right?\n Would AD Jax or AP Jax be a harder match up?",
+   "id": "1r6n4is",
+   "comments": [],
+   "age_days": 235,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Why is Urgot consistently Nasus's lowest win rate matchup?",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1r320c7/why_is_urgot_consistently_nasuss_lowest_win_rate/",
+   "published": "2026-02-12",
+   "author": "/u/d8gfdu89fdgfdu32432",
+   "body": "Urgot has been Nasus's lowest win rate matchup for many patches, but Urgot doesn't really beat Nasus hard in lane. He's only up 500 gold at 15 minutes on average, which is relatively low compared to normal.\n https://u.gg/lol/champions/nasus/counter",
+   "id": "1r320c7",
+   "comments": [],
+   "age_days": 239,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "i need help",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1qu7hjz/i_need_help/",
+   "published": "2026-02-02",
+   "author": "/u/kdaswshwdied",
+   "body": "so for context, i just want to learn how to play more than 3 characters, and nasus felt good. ive been playing the game for 2 months now and know how most tank items work. but whenever i play him, i just keep getting pushed and just doesnt provide anything to the team. in like 1 out of 10 games i actually have more than 5 kills. i dont really know how to win matchups, how to build him against certain champs. just explain it to me like im five. thanks for advice (only toplaners i played until now are teemo and volibear fyi)",
+   "id": "1qu7hjz",
+   "comments": [],
+   "age_days": 249,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How do you lane vs Irelia?",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1qrz51u/how_do_you_lane_vs_irelia/",
+   "published": "2026-01-31",
+   "author": "/u/Few-Branch4320",
+   "body": "It feels like every build sucks against her in lane. If you go Q max, she freezes lane. If you go E max, she can still easily reach you with dashes and she never gets poked down since she goes Vamp Scepter. Looking at the lane counters, she's currently the 3rd worst lane matchup for Nasus. On average, Nasus players are down 1150 gold, which is massive.\n https://preview.redd.it/6787sbakyngg1.png?width=320&format=png&auto=webp&s=1da84993fea642975bb26807697e0843b3bdb8d1",
+   "id": "1qrz51u",
+   "comments": [],
+   "age_days": 251,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Not taking Sorcery tree as primary is actually the next-level mind game as AP Nasus",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1qr04lf/not_taking_sorcery_tree_as_primary_is_actually/",
+   "published": "2026-01-30",
+   "author": "/u/d8gfdu89fdgfdu32432",
+   "body": "Almost all AP Nasus players take Sorcery as the primary tree, but going another tree is actually the next-level mindgame. Basically, if your opponent isn't stupid, they will always buy Doran's Shield when they see Aery/Comet and sometimes Phase Rush expecting AP Nasus. If they see another tree as primary, they will always go Doran's Blade expecting Q max. Going another tree baits them into buying Doran's Blade, and most matchups will have a bad time into AP Nasus with Doran's Blade. As for what other tree to take, I recommend Inspiration with Spellbook, so you can have Ignite during laning phase.",
+   "id": "1qr04lf",
+   "comments": [],
+   "age_days": 252,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "PTA Nasus into easier matchups and low range comps?",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1qperzz/pta_nasus_into_easier_matchups_and_low_range_comps/",
+   "published": "2026-01-28",
+   "author": "/u/Possiblynotaweeb",
+   "body": "Hi non main here,\n Into easier matchups (autoattackers) where you can freely run them down post 6, can't you run PTA as ur keystone? Or does the enemy comp also need to be low range in order to run PTA? You won't need fleet to run down low range comps, so PTA value is huge considering that all ur dmg is from autos and the 8% increased dmg will significantly increase the dmg of Q autos. Surely PTA has its place as a niche keystone that can be taken when these conditions are met right?",
+   "id": "1qperzz",
+   "comments": [],
+   "age_days": 254,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Why not run approach velocity into easier matchups (autoattackers)",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1qp7qho/why_not_run_approach_velocity_into_easier/",
+   "published": "2026-01-28",
+   "author": "/u/Possiblynotaweeb",
+   "body": "Hi non main here,\n I was wondering why approach velocity isn't really taken at all. I get that nasus is weak pre 6, so second wind and unflinching really helps with surviving to 6 and helps later on with getting kited out in teamfights. But since MS is such a problem on him, why not run boots + approach into easier matchups (autoattackers like tryndamere, yasuo, jax, etc).\n I saw that on onetricks.gg that it's only really taken with phase rush.",
+   "id": "1qp7qho",
+   "comments": [],
+   "age_days": 254,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What is the best build to go for both nasus mid and top?",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1qoof2l/what_is_the_best_build_to_go_for_both_nasus_mid/",
+   "published": "2026-01-27",
+   "author": "/u/Equivalent_Space_631",
+   "body": "I’m just getting back into LoL and noticed a lot of different builds for Nasus in the new patch for mid and top lane. I’m curious to know what you guys usually use and maybe what specific builds you go against certain matchups. Thanks!",
+   "id": "1qoof2l",
+   "comments": [],
+   "age_days": 255,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Nasus statistically loses the most lp to Zaahen",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1q41z08/nasus_statistically_loses_the_most_lp_to_zaahen/",
+   "published": "2026-01-04",
+   "author": "/u/d8gfdu89fdgfdu32432",
+   "body": "A while ago, I made a post saying \"Zaahen is quickly becoming one of Nasus's worst matchups\" and to wait for Zaahen players to learn the champ. It's been 1.5 months since then and the data is proving everything I've said: Zaahen is one of Nasus's worst matchups and Nasus loses the most LP to Zaahen (at Emerald+).\n Nasus is currently at 46.3% win rate against Zaahen (at Emerald+). Nasus has matchups with lower win rates, but Nasus has the highest number of losses and hence lp loss against Zaahen. Keep in mind that Zaahen also had a 60% ban rate over this period, so once his ban rate drops, Nasus will be losing even more games to Zaahen. Here are the Emerald+ stats.\n https://preview.redd.it/93e1hpschebg1.png?width=257&format=png&auto=webp&s=bbab93ddfd86c98bac8a7d1adab241211e6deb36\n https://blitz.gg/lol/champions/Nasus/counters/?role=null&duoRole=null&tier=EMERALD%2B&queue=RANKED_SOLO_5X5&region=WORLD\n Interestingly, Zaahen is only a terrible matchup at Emerald+. I checked the stats below Emerald and it's only a slightly unfavourable matchup at Gold and Plat. From Iron to Silver, Nasus is actually favoured against Zaahen, so it seems Zaahen players are dog shit at him below Emerald.",
+   "id": "1q41z08",
+   "comments": [],
+   "age_days": 278,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I need help!!!",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1pmqv7j/i_need_help/",
+   "published": "2025-12-14",
+   "author": "/u/Dhavok_",
+   "body": "Can you explain to me how to optimize nasus at best, how to play some difficult matchups etc... I saw replays where there is for example E LV 1, when should I use the E of LV 1? Or runes?",
+   "id": "1pmqv7j",
+   "comments": [],
+   "age_days": 299,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "im dumb and i need help being dumb",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1pl2p0x/im_dumb_and_i_need_help_being_dumb/",
+   "published": "2025-12-12",
+   "author": "/u/Low_Investigator_991",
+   "body": "i do not like to think, thats why i love doing nasus, since all i gotta do is to Stack, so being the dumbass i am, i 90% of the time make the same build only changing small stuff like choosing mr over armor depending on the enemy party, so, to be more effectively dumb, could Someone recommend me some items i could get away with in most matchups? RN i always do the CDR boots, Trinity force, Frozen heart and then some stuff like thornmail and jak'sho, i dont really know If this is what im supposed to be making as nasus\n SUMARIZING, Recommend me some items nasus likes in general and maybe some hints about what items to Go for in specific matchups",
+   "id": "1pl2p0x",
+   "comments": [],
+   "age_days": 301,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "AP NASUS, GOOD OR BAD?",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1pi751s/ap_nasus_good_or_bad/",
+   "published": "2025-12-09",
+   "author": "/u/HonkhonkMaxxing",
+   "body": "I've been wanting to experiment a bit on top lane and thought about trying AP nasus. I know it’s usually considered a meme build but I’ve heard that his W and E actually scale pretty well with AP \n Anyone here has experience with AP Nasus in the current patch? \n What build do you recommend? \n\n What runes should I run? \n\n Is AP Nasus even playable on top lane or is it better to take him mid/support \n\n Which matchups are easy for him and which should I absolutely avoid?",
+   "id": "1pi751s",
+   "comments": [],
+   "age_days": 304,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "New season actually seems to be pretty good for Nasus",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1pbrf1k/new_season_actually_seems_to_be_pretty_good_for/",
+   "published": "2025-12-01",
+   "author": "/u/d8gfdu89fdgfdu32432",
+   "body": "The biggest change is the nerf to objective gameplay, which Nasus is mediocre at in higher elo since he gets kited and deleted much faster in team fights. Staying in the side lane and split pushing, which got buffed hard, is preferable but not possible currently.\n I think they also removed the petals along with Atakhan, which is very good, since the adaptive damage is a net negative for Nasus.\n Feats of Strength have been removed, replaced by normal rewards like First Blood and First Turret gold returning.\n This is big since Nasus typically gives away early kills and potentially first turret.\n The new items also look pretty good for Nasus.\n Top lane now gets free TP from completing the quest, which allows Nasus to take Flash + Ghost, which helps with his kiting issues. The main downside of this change is that it allows every top laner to take Ignite against Nasus since they typically don't need TP early. This is pretty bad since Ignite drastically increases kill pressure from most matchups and the Grievous Wounds is heavily detrimental at all stages of the game.",
+   "id": "1pbrf1k",
+   "comments": [],
+   "age_days": 312,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Zaahen is quickly becoming one of Nasus's worst matchups",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1p4zivl/zaahen_is_quickly_becoming_one_of_nasuss_worst/",
+   "published": "2025-11-23",
+   "author": "/u/d8gfdu89fdgfdu32432",
+   "body": "His already at 54% win rate in Plat+ and Emerald+ and 56% win rate in Diamond+ (against Nasus). It's been less than a week since his release, so it's just going to get worse once Zaahen players learn the champ.\n Laning phase against him actually isn't that bad. On average Nasus is only down by 500 gold. The reason why Zaahen has such a high win rate against Nasus is that Zaahen is a hyper scaler. He typically loses lane (similar to Nasus), but against Nasus he gets free farm, so later on, he annihilates your team.\n https://preview.redd.it/bryoxbxcy23g1.png?width=321&format=png&auto=webp&s=645b43feafd3a1972a751344837851c56c772a90\n https://preview.redd.it/8opqv67ey23g1.png?width=320&format=png&auto=webp&s=63fcb6d33a54f60d04d76366a77f91f202b8d6b9\n https://u.gg/lol/champions/nasus/counter",
+   "id": "1p4zivl",
+   "comments": [],
+   "age_days": 320,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Aatrox may be currently the hardest matchup for nasus in top in high elo",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1oseolg/aatrox_may_be_currently_the_hardest_matchup_for/",
+   "published": "2025-11-09",
+   "author": "/u/Brief_Lime_5011",
+   "body": "This matchup was bereable in the past pre E nerf, cause u were able to poke him really hard or even u could try going q max when divine sunderer was on the game, but in the current meta I think there is 0 way to face aatrox in high elo, e max doesn't work anymore because is not enough poke and q max is basically impossible if he's a good aatrox, his combo deals an insane amount of damage, the only way to deal with this matchup rn is getting help by your jg and that he gives you a lead, otherwise, there is nothing you can do.",
+   "id": "1oseolg",
+   "comments": [],
+   "age_days": 334,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "This my matchup tier list as 2k games masters nasus onetrick.",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1os113u/this_my_matchup_tier_list_as_2k_games_masters/",
+   "published": "2025-11-08",
+   "author": "/u/CANECANECANECANE1",
+   "body": "",
+   "id": "1os113u",
+   "comments": [],
+   "age_days": 335,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Nasus Tierlist",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1onxtsc/nasus_tierlist/",
+   "published": "2025-11-04",
+   "author": "/u/DeliciousRock6782",
+   "body": "https://preview.redd.it/ayl8kpjcz5zf1.png?width=933&format=png&auto=webp&s=492de6b8150062ec79ce2c6b3237b6380aefedb1\n Here is the link if you want to make your own: https://tiermaker.com/create/top-lane-match-ups-lol-season-13-15621845\n Hot take, nasus has no HARD COUNTERS (aside from the demon that shall not be named), every possible problem you can come across has a workaround. \n Comment if you disagree with anything!",
+   "id": "1onxtsc",
+   "comments": [],
+   "age_days": 339,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "LMFAOOOOO NASUS JG > NASUS TOP NOW AHAHHAHA",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1ody003/lmfaooooo_nasus_jg_nasus_top_now_ahahhaha/",
+   "published": "2025-10-23",
+   "author": "/u/yamomsahoooo",
+   "body": "NASUS TOP NOW AHAHHAHA\" title=\"LMFAOOOOO NASUS JG > NASUS TOP NOW AHAHHAHA\" /> https://preview.redd.it/5zlh3vxzptwf1.png?width=1155&format=png&auto=webp&s=318c03dbfec4d3be9ab226ab1f6eb79afdc85843\n https://preview.redd.it/2c98wqp0qtwf1.png?width=1151&format=png&auto=webp&s=0428b858a63698e4e1bc28eca5185560efc8fc62\n Never in my life did I think Nasus jungle would be doing better than Nasus top holy shit this patch is BRUTAL for Nasus",
+   "id": "1ody003",
+   "comments": [],
+   "age_days": 351,
+   "recency_weight": 1.0,
+   "topics": [],
+   "stale_items": false
+  },
+  {
+   "title": "Gold nasus (state of nasus rn rant)",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1o303s0/gold_nasus_state_of_nasus_rn_rant/",
+   "published": "2025-10-10",
+   "author": "/u/Nopurposeinliving",
+   "body": "Hi guys I just hit gold using nasus only and I'm not sure what to do I feel like I'm stuck my playstyle keeps changing whenever I feel stuck or I just watch a gameplay.wether it is runes or build.but speaking of gold I think I hit it in less than a month (not consistent tho some days I'm not playing but I hit it in less than 30 days I think I just started playing as well)I can drop my user and can you guys recommend some analysis sites Tr7ingtogetgood#1468 u guys can check I think I'ma round 50% wr or less my plays are inconsistent as well as I said my playstyle keeps changing.But the main topic I want to talk about is the state of nasus rn I think he's really weak early in a lot of matchup actually I'm always gapped and trying to rely on teammates but as well I don't want the devs to rework him I like his skill I only play nasus most of the time btw and his kit is really fun it's just that I feel his weak rn and I don't want the devs to rework or buff him like crazy because I don't want other people banning or using him only after the buff idk if it's ego but I sometimes get clown for picking nasus ilbut I really like his playstyle because it also affects my enemy like a nasus is destroying them but I believe nasus need a buff but I don't want people playing him after tho.what do u guys think as a new player I don't even know what to do I want to hit challenger only using nasus can u guys help me like recommend some YouTubers I'm open to old and recent gameplays thanks so much.",
+   "id": "1o303s0",
+   "comments": [],
+   "age_days": 364,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "70% wr 1000 lp only Challenger Nasus player in the world explains s15",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1kjp28d/70_wr_1000_lp_only_challenger_nasus_player_in_the/",
+   "published": "2025-05-11",
+   "author": "/u/PsychopathicTop",
+   "body": "PsychopathicTop here, New reddit handle, the old one does not have my name and I don't really use reddit anyways. I will try to answer some questions on here for the next 2-3 days if I get any, after that I probably just won't check reddit (I don't use it). I currently hold the highest and second highest lp accs for Nasus in the world on onetricks.gg, I've not been hard otping this season but it doesn't change anything, 3 accs over 1k lp at one point should be enough to prove my point. If I really tried I can do a Nasus otp acc and get 1k with the same wr if not higher, but it's just boring. I don't have much to prove nowdays, been chall since s9 and was 1k lp s13 and s14 and now s15 (basically otped in both s13 and 14), I have lots of time this year so I will try my best to climb higher. I explain almost everything in the youtube video, including why I don't play Nasus mid anymore and the reasons behind it etc etc. In the near future I might make more videos mostly of vods in challenger and rant about my thought processes behind the matchups.\n Hope you guys can get something from this video, not too difficult to make but still took a while. The concepts in the video are explained in a way that would benefit newer players more. A lot of the stuff on this reddit through a skim are misconceptualized, the video capitalizes on some of the common misconceptions of the champ, I hope it can clear some things up.\n I highly recommend going through the whole video but it's a lot of ranting so I do apologize, I understand it's not everyones style (there are timestamps for ADHD friends)\n https://youtu.be/dLmS6kFVwqQ\n https://www.twitch.tv/psychopathictop https://discord.gg/GyASK4kWsh One of my accounts:\n https://op.gg/lol/summoners/na/9%20PDFS%20CANT%20WIN-WHY\n If you guys are interested in seeing the most common matchups I get in chall and my winrate vs them \n https://preview.redd.it/30bf20ozw10f1.png?width=1095&format=png&auto=webp&s=3d352c52bfa13acedaa0ca856b3926e70c3dcf38\n https://preview.redd.it/cl0uecv0x10f1.png?width=1132&format=png&auto=webp&s=53512c0094b672235e8642205d58d70f96cd5171\n One of my other chall accs most common matchups & wr before I started to ban jayce",
+   "id": "1kjp28d",
+   "comments": [],
+   "age_days": 516,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "By request, my thoughs on Nasus (Pre-Buff) after hitting Master with 80% winrate.",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1buu24g/by_request_my_thoughs_on_nasus_prebuff_after/",
+   "published": "2024-04-03",
+   "author": "/u/ThebritishPoro",
+   "body": "As requested in my other thread, I'll be discussing some key points about the champion and my thoughts about his state balance wise.\n Firstly, I actually don't think Nasus was particularly weak, even before the buffs, despite originally thinking this was the case in season 14. It was more a case of it taking more time than expected for me to find the best way to play the champion in Season 14.\n So, what changed?\n Firstly: E Max got worse. There's multiple reasons for this, but mostly it's because of two. Firstly, people are harder to poke out of lane. Doran's shield got buffed, Aery got nerfed out of viability, scaling HP runes were added to the game, tank itemisation got better. Speaking of the scaling HP runes, that's the second reason. You don't want to take double adaptive anymore. Haste Double Scaling HP feels SO good.\n So, to conclude that ramble, the amount of matchups where I play 5E 5W decreased dramatically. There's still a few, like GP, where the poke is really felt, and Darius, where I want as much control over the wave as possible, but I'll now talk about the runes and skill orders I'm running.\n RUNES 1: Standard\n ​\n Standard Runes\n RUNES 2: Easy Lane\n ​\n Easy Lane Runes\n RUNES 3: E5W5 in PR Necessary Matchups.\n ​\n When You Need PR\n SKILL ORDER 1: Most Matchups - E3 Q3 W5\n This is the most versatile setup available. It has the perfect mix of E damage for poke and waveclear, Q damage and CD for all ins and stacking, and W coming online for drake fights at level 13. This is what I play most games. To hit your waveclear breakpoint with the runes we're taking you'll need to buy an Amp tome. You can either sit on this and resell, which is fine, losing only 120 gold, or, in a lot of matchups, complete it into oblivion orb.\n SKILL ORDER 2: Easy Matchups - E2 Q5 W3\n This setup gets you the most stacks and gives you the strongest powerspike at level 13 / 14. This is what Dog Old 8 is playing. I only opt for this in easy matchups as I find the extra point in E makes life much easier in harder lanes, allowing you to crash waves and play off the bounces.\n SKILL ORDER 3: Unplayable Matchups / Poke Matchups - E5 W5\n This setup gets you through Aatrox, Olaf, Darius lanes, and lets you play the aggressor in matchups like Quinn, Kennen, and GP. It's basically the Season 13 style I was playing, and I still play it from time to time in the right matchups. A lot of the time you'll be playing this with Phase Rush since most matchups where you need PR are hard matchups.\n Finally I'll post a tier list of completed items to help with itemisation, but pretty much every game I'm buying Trinity and FH, with Visage/Abyssal changing depending on how much magic damage my team has.\n Feel free to ask about any of the items and their placement, or any items that I didn't put on the list, and I'll do my best to answer in the comments.\n ​\n https://preview.redd.it/gb717pkty9sc1.png?width=515&format=png&auto=webp&s=c1dae639bb6fb3b46fc0d7435b36b2aa5760d2a4",
+   "id": "1buu24g",
+   "comments": [],
+   "age_days": 919,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Nasus is basically the only stacking champ who actually has to choose between stacks or trading now",
+   "url": "https://www.reddit.com/r/nasusmains/comments/1bbwgti/nasus_is_basically_the_only_stacking_champ_who/",
+   "published": "2024-03-11",
+   "author": "/u/Zaparapapa",
+   "body": "The only close second to nasus I could think of is gp, but gp doesnt really lose much from q spamming champions since he can just barrel the wave and get all/most of the stacks anyway, plus he gets income/stats from grasp/first strike, and he does it from range.\n Not only does nasus have to risk his life the most for stacks(unless the matchup is so free u just outheal any harass), he also scales worse than alot of other stacking champions who can stack off other champions(and usually from range)\n As nasus you basically have 2 choices\n 1: You go E max nasus and sacrifice stacking to bully ur lane opponent and get perfect cs.\n 2: Give up lane priority for 15 minutes of the game until you can finally start to fight back against some champions.\n Personally I prefer E max nasus because in higher elos its way more important to have control in your lane and being able to rotate over having 200+ extra stacks.\n Imo, its very weird that the champion who has to risk the most, and is regarded as THE stacking champion, is barely rewarded for being able to get high stacks, by the time u actually do have many stacks, everyones damage is so high in the game that you just get blown up before you can get in melee and get multiple rotations of q.\n ​\n Imo, this champion either needs to be able to stack with q on champions, or he needs to get stronger at certain breakpoints like at 300 stacks, q range is increased by 30 range, at 600 q cd in ult is reduced by 60% instead of 50%, and maybe at 900 stacks, the grand finale at 50 minutes into the game, he gets some super op buff from having 900 stacks, maybe he gains 30% movespeed towards withered targets or something.\n ​\n ​\n ​",
+   "id": "1bbwgti",
+   "comments": [],
+   "age_days": 942,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Nasus Matchups",
+   "url": "https://www.reddit.com/r/nasusmains/comments/14n3hr8/nasus_matchups/",
+   "published": "2023-06-30",
+   "author": "/u/GRAD3US",
+   "body": "",
+   "id": "14n3hr8",
+   "comments": [],
+   "age_days": 1197,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "toplane matchups tier list (patch 13.10)",
+   "url": "https://www.reddit.com/r/nasusmains/comments/13vi4f7/toplane_matchups_tier_list_patch_1310/",
+   "published": "2023-05-30",
+   "author": "/u/Cat_Bot4",
+   "body": "",
+   "id": "13vi4f7",
+   "comments": [],
+   "age_days": 1228,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Had a terrible matchup with Teemo, ended with a pentakill",
+   "url": "https://www.reddit.com/r/nasusmains/comments/138xsrb/had_a_terrible_matchup_with_teemo_ended_with_a/",
+   "published": "2023-05-05",
+   "author": "/u/ShrekONeal",
+   "body": "",
+   "id": "138xsrb",
+   "comments": [],
+   "age_days": 1253,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Toplane matchups based on my personal experiences (thoughs?)",
+   "url": "https://www.reddit.com/r/nasusmains/comments/10qn8zv/toplane_matchups_based_on_my_personal_experiences/",
+   "published": "2023-02-01",
+   "author": "/u/Cat_Bot4",
+   "body": "",
+   "id": "10qn8zv",
+   "comments": [],
+   "age_days": 1346,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Nasus matchup tier list (gold -plat)",
+   "url": "https://www.reddit.com/r/nasusmains/comments/yyshyg/nasus_matchup_tier_list_gold_plat/",
+   "published": "2022-11-18",
+   "author": "/u/RLaughEmote",
+   "body": "",
+   "id": "yyshyg",
+   "comments": [],
+   "age_days": 1421,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Aery nasus matchup tier list (TOP)",
+   "url": "https://www.reddit.com/r/nasusmains/comments/yu2mmf/aery_nasus_matchup_tier_list_top/",
+   "published": "2022-11-13",
+   "author": "/u/Sad-Ad-9181",
+   "body": "",
+   "id": "yu2mmf",
+   "comments": [],
+   "age_days": 1426,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Mordekaiser matchup be like:",
+   "url": "https://www.reddit.com/r/nasusmains/comments/yr74qn/mordekaiser_matchup_be_like/",
+   "published": "2022-11-10",
+   "author": "/u/Cat_Bot4",
+   "body": "",
+   "id": "yr74qn",
+   "comments": [],
+   "age_days": 1429,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Mid Susan is great",
+   "url": "https://www.reddit.com/r/nasusmains/comments/xipofp/mid_susan_is_great/",
+   "published": "2022-09-19",
+   "author": "/u/Mindless-Bobcat-2758",
+   "body": "Since the post I've made it here asking on why so many midsus i started playing him on mid and it is (imo) way better than top,i had no trouble against shit like zed and Yone and sustained a lot vs lux and shit like that, plus,if edgy assassin player roams i take his tower,the only aids matchup I've had was ahri,but only that,midsus is the way to go.",
+   "id": "xipofp",
+   "comments": [],
+   "age_days": 1481,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Finally I've had a good game, but even there I had an AFK in my team.",
+   "url": "https://www.reddit.com/r/nasusmains/comments/tfb4ft/finally_ive_had_a_good_game_but_even_there_i_had/",
+   "published": "2022-03-16",
+   "author": "/u/TheRealKirun",
+   "body": "​\n https://preview.redd.it/e0fw51d4won81.png?width=1278&format=png&auto=webp&s=31deca455c0f1bca0237a02bad9520d020866c58\n Usually Kayle is free matchup, but her dmg after 6 with lethal tempo was disgusting, anyway.",
+   "id": "tfb4ft",
+   "comments": [],
+   "age_days": 1668,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I just wanted to say thanks for all the help.",
+   "url": "https://www.reddit.com/r/nasusmains/comments/ramk7g/i_just_wanted_to_say_thanks_for_all_the_help/",
+   "published": "2021-12-07",
+   "author": "/u/shaidyn",
+   "body": "I'm a support main trying to learn top lane so I can become a more independant, proactive player, and I settled on Nasus as my main champion in that role. I just wanted to say thanks for all the help and advice. I've had several games today where I won difficult matchups, by employing the tips and tricks y'all have shared. Even when I lost games, I know I did well in my lane and did my job well.\n The highlight of my nasus so far has been TP'ing to a team fight, everybody being dead except yuumi, who jumped on me and proceeded to net me a quadra.",
+   "id": "ramk7g",
+   "comments": [],
+   "age_days": 1767,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What if Nasus ult caused fear?",
+   "url": "https://www.reddit.com/r/nasusmains/comments/prnzef/what_if_nasus_ult_caused_fear/",
+   "published": "2021-09-20",
+   "author": "/u/Scary-Aspect-2446",
+   "body": "Have you ever wondered what could happen if Nasus ult could causes fear?\n Recently I was wondering what if Nasus on LoL were similar to Nasus on LoR, because Nasus on LoR causes fear at his last upgrade, and on LoL he just gets big and thats it (ik that he gets 50% cd and bla bla). But have you ever wondered what could happen if our doggo could cause fear status to anyone nearby? would it be like fiddlesticks? or maybe make him better for teamfights or difficult matchups? I really want to know your opinion about that.",
+   "id": "prnzef",
+   "comments": [],
+   "age_days": 1845,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Darius vs Vayne ban?",
+   "url": "https://www.reddit.com/r/nasusmains/comments/oxxvd1/darius_vs_vayne_ban/",
+   "published": "2021-08-04",
+   "author": "/u/joshglen",
+   "body": "Hi all, I have been banning Darius for almost every ranked game for the last 2 years (as he was cancer back then) but I am considering switching over to a Vayne ban just because of how cancer she is. Is the darius matchup better, relative to like a garen or tahm kench (which are the lowest win rates in gold rn)?",
+   "id": "oxxvd1",
+   "comments": [],
+   "age_days": 1892,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "After climbing with Nasus from D2 to Masters 296 LP with ~205 games playing top and mid lane I made a matchup tierlist based on my experience",
+   "url": "https://www.reddit.com/r/nasusmains/comments/oli9b2/after_climbing_with_nasus_from_d2_to_masters_296/",
+   "published": "2021-07-16",
+   "author": "/u/Voxthar",
+   "body": "",
+   "id": "oli9b2",
+   "comments": [],
+   "age_days": 1911,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Nasus matchup tier list from my experience",
+   "url": "https://www.reddit.com/r/nasusmains/comments/nmclxy/nasus_matchup_tier_list_from_my_experience/",
+   "published": "2021-05-27",
+   "author": "/u/RLaughEmote",
+   "body": "",
+   "id": "nmclxy",
+   "comments": [],
+   "age_days": 1961,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Nasus matchup tier list based on my experience,in what you disagree /agree? (I especified \"hard counter if played well\" because if the guy just pushers the wave 3381919 times obviously you will destroy him)",
+   "url": "https://www.reddit.com/r/nasusmains/comments/n4y2gv/nasus_matchup_tier_list_based_on_my_experiencein/",
+   "published": "2021-05-04",
+   "author": "/u/afaff123",
+   "body": "",
+   "id": "n4y2gv",
+   "comments": [],
+   "age_days": 1984,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Garen matchup be like :",
+   "url": "https://www.reddit.com/r/nasusmains/comments/n1s4uk/garen_matchup_be_like/",
+   "published": "2021-04-30",
+   "author": "/u/RLaughEmote",
+   "body": "",
+   "id": "n1s4uk",
+   "comments": [],
+   "age_days": 1988,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Wave control tip - How to always be safe under your tower",
+   "url": "https://www.reddit.com/r/nasusmains/comments/n1a3y4/wave_control_tip_how_to_always_be_safe_under_your/",
+   "published": "2021-04-29",
+   "author": "/u/Crunchyfied",
+   "body": "Many of you might already know this but you can manipulate the waves to always push towards you by utilizing Nasus' weak early game. What I mean is purposely make the enemy harass you at the right times and position.\n Example\n Garen - Garen is probably the easiest to use this trick on. At level 1 if you step up to last hit the first wave of minions, Garen will most likely Q you. This makes your minions stop hitting his minions and aggro onto him instead. Congrats he's automatically pushing to you already. This tip applies to nearly every matchup. Step up to last hit the 1st wave of creeps and let the enemy auto you. As long as you don't draw enemy minion aggro to yourself, the lane will always push to you. Second tip to manipulate your lane against Garen: If your wave is bigger than Garen's and you don't want to be pushing because he can freeze and ruin your laning phase, walk up and play aggressive towards him. Try to let him Q you and spin on you while you are in the middle of all your minions. His E will thin down your wave while he's only focusing on harassing you. Obviously you need to assess how much HP you can sacrifice to do this but it works a charm if you're healthy (I also utilize bone plating when I bait out harass to minimize damage I take.)\n\n Camille - This strat works for Camille too. Always position yourself in the middle of your 3 ranged minions so when she tries to harass you with W she'll hit your minions as well and push her lane. \n\n Kled - Pretend to go for CS and Kled will throw his bear trap at you, make sure you're near minions since the bear trap damages everything it passes through.\n\n Etc etc... Use this concept against a variety of matchups and see how you can use your enemy's aggressive to your advantage.",
+   "id": "n1a3y4",
+   "comments": [],
+   "age_days": 1989,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Darius matchup be like :",
+   "url": "https://www.reddit.com/r/nasusmains/comments/mybbmf/darius_matchup_be_like/",
+   "published": "2021-04-25",
+   "author": "/u/RLaughEmote",
+   "body": "",
+   "id": "mybbmf",
+   "comments": [],
+   "age_days": 1993,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Finally hit plat after two seasons of Nasus one trick grind... If anyone has gameplay/matchup questions I'm happy to share what little knowledge I've gained over 900 Nasus games",
+   "url": "https://www.reddit.com/r/nasusmains/comments/maw361/finally_hit_plat_after_two_seasons_of_nasus_one/",
+   "published": "2021-03-22",
+   "author": "/u/Fershick",
+   "body": "https://na.op.gg/summoner/userName=toeshoes12\n Probably going to take a break off the dog now, maybe try some different roles. Happy to help and share knowledge if anyone is trying to pick him up or climb etc",
+   "id": "maw361",
+   "comments": [],
+   "age_days": 2027,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "love this matchup",
+   "url": "https://www.reddit.com/r/nasusmains/comments/m5qa1w/love_this_matchup/",
+   "published": "2021-03-15",
+   "author": "/u/stygiandesolation",
+   "body": "",
+   "id": "m5qa1w",
+   "comments": [],
+   "age_days": 2034,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Stridebreaker against yorick",
+   "url": "https://www.reddit.com/r/nasusmains/comments/lr0dlh/stridebreaker_against_yorick/",
+   "published": "2021-02-24",
+   "author": "/u/Mormanade",
+   "body": "Due to yorick being one of nasus's harder matchups, if you go stride breaker (usually into essence then tank), you can dash over his wall making the matchup easier. I can't see any other matchup you would do this for (other than maybe anivia top).",
+   "id": "lr0dlh",
+   "comments": [],
+   "age_days": 2053,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "WUKONG MATCHUP DISCUSSION",
+   "url": "https://www.reddit.com/r/nasusmains/comments/lnclzh/wukong_matchup_discussion/",
+   "published": "2021-02-19",
+   "author": "/u/stygiandesolation",
+   "body": "",
+   "id": "lnclzh",
+   "comments": [],
+   "age_days": 2058,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Migrating to Nasus from Another Bonk King in Yorick - Questions",
+   "url": "https://www.reddit.com/r/nasusmains/comments/llxug4/migrating_to_nasus_from_another_bonk_king_in/",
+   "published": "2021-02-17",
+   "author": "/u/simpatheticsimp",
+   "body": "Brand new to Nasus, but have enjoyed playing him early on, as he seems to be a flat-out better version of Yorick at the moment. In the Nasus x Yorick matchup in particular, Nasus can struggle Pre 6 against him (or most champs period) but if he survives and Yorick isn't fed, Yorick's entire existence is doomed, as Nasus just matches him, flashes over Yorick W, and game over. I'll still play Yorick, but certainly less until his bugs get fixed.\n Now I'm done with venting, I have a couple general questions on Nasus:\n Couple of ban suggestions? I've seen Darius and Voli recommended,, any other perma bans I should consider?\n Rune Page: Always heard Nasus' biggest weakness is that he doesn't really have a great primary rune to run, hence Spellbook becoming prevalant. Would you recommend this to a new Nasus player (gold)? If so, assuming you go ghost-flash, what order of spells do you normally go through? Any tips on Spellbook in general appreciated. Phase rush considerable?\n Itemization: Many seem to rush Divine on Nasus. I've done a lot of research (through Yorick's lens) on the fighter mythics, which hopefully translates fairly well into Nasus' kit. I assume spellblade is generally encouraged,, whether it's from Triforce or Divine (played a game with Essence Reaver rush,, guessing that's a bit meh?). Does it make sense to build damage on him (standard Qmax nasus) or is health/resistance king since your Q inf scales?\n Playstyle/When to Pick Him: Is he generally good into ranged matchups (Vlad/Kennen/Vayne etc.)? Should I avoid picking him when the enemy team has lots of CC, or is there a certain thing to look at and say it's not a Nasus game? Should I consider Nasus as a tank or a bruiser or juggernaut or something else? I'm assuming his splitpush vs. teamfight ratio is similar to that of Yorick.\n Top/Jungle: Likely to play him top only. But is there any reason to play him Jungle when I fill there? Assuming a juicy leash is needed?\n Thanks for any advice given, it's appreciated.\n Cheers",
+   "id": "llxug4",
+   "comments": [],
+   "age_days": 2060,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Nasus matchup tier list from my experience",
+   "url": "https://www.reddit.com/r/nasusmains/comments/lg0zko/nasus_matchup_tier_list_from_my_experience/",
+   "published": "2021-02-09",
+   "author": "/u/RLaughEmote",
+   "body": "",
+   "id": "lg0zko",
+   "comments": [],
+   "age_days": 2068,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "13yo Diamond Nasus Guide",
+   "url": "https://www.reddit.com/r/nasusmains/comments/l1lo7x/13yo_diamond_nasus_guide/",
+   "published": "2021-01-20",
+   "author": "/u/Thanatos_lol",
+   "body": "Hello guys, Thanatos here, you guys may remember me from my last reddit post where I said I am a 13yo diamond nasus streamer. Lately, school has been tough and I haven't been getting the time to stream. But I did make a guide on everything (literally) you need know on nasus. Since my guide does not include matchups, I doubt it will be of use to anybody d3+ but I believe if you are below that rank this guide will probably learn you something new. It covers all season 11 builds, runes, what to do each stage of the game, etc.https://docs.google.com/document/d/139rqoSro338EDa37rbhIdsQMnbg5Xh50lF4QjwC8Oek/edit?usp=sharingLet me know if you have any comments or questions. \n Also, I will be streaming tonight at 10 pm est if anyone cares to drop by",
+   "id": "l1lo7x",
+   "comments": [],
+   "age_days": 2088,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "[Rant] for the life of me, I cant make Nasus work",
+   "url": "https://www.reddit.com/r/nasusmains/comments/kurxiv/rant_for_the_life_of_me_i_cant_make_nasus_work/",
+   "published": "2021-01-11",
+   "author": "/u/randomguy012912",
+   "body": "I can win and close games very easily up until high diamond. But as soon as I reach GM+ games, i get gigastomped every single game.\n Since its the start of the season, i was placed into gm/chall games and as soon as I pick Nasus, the enemy will ALWAYS counterpick me. Well, its usually no big deal, i can handle counterpicks, but oh no, it doesnt end there. The enemy jungler will set a camp top EVERY game so i can never run my lane opponent down.\n Usually what happens is the enemy jg will start bot side, path top side, then gank me. One of two scenarios will happen. Either my lane is slow pushed in and i get dove, or my lane is slow pushed TOWARDS the opponent because my lane opponent will not fking cs and will stay back like a soraka because he knows i have to stack last hit and will give me free stacks for the first two waves, so it will be slowpushed towards them.\n You might say, just shove at cannon wave or 2nd wave. But nope, if i start spamming e and AA the wave, my opponent will match my push so it will perma freeze. I would then have o fall back and lose full waves due to the threat of the jungler which I know is top side or just be greedy and conintue to try to shove the wave and die.\n After the initial gank, i shit you not, the jungler will stay top lane and wait for me to walk back up, then regank. This has happened in ALL of my placements games and some of them even had the support roam top.\n If i comment saying that the jungler was camping me, i would just get the response 'dont play nasus then' from my teammates. Nasus is the only champ i can play at high elo and I am just not interested in any other champs aside from kass and vlad (both of which i cant perform at high elo since I dont know all matchups yet) \n I really want to drop nasus because of how abusable he is but he is just my fav champ but its just unfun to get camped to oblivion and i know for a fact that its my fault because i just choose to keep playing him. \n Sorry for the rant. Had to let it out",
+   "id": "kurxiv",
+   "comments": [],
+   "age_days": 2097,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What can I do as Nasus against hard matchups like Darius or Teemo?",
+   "url": "https://www.reddit.com/r/nasusmains/comments/kv3tnm/what_can_i_do_as_nasus_against_hard_matchups_like/",
+   "published": "2021-01-11",
+   "author": "/u/cyborgfan12",
+   "body": "I have been having trouble in lane against hard matchups like Teemo, Darius and Camille. Is there a way I can not get destroyed, or maybe even win lane?",
+   "id": "kv3tnm",
+   "comments": [],
+   "age_days": 2097,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "five days two master accs (decayed from grandmaster in s10)",
+   "url": "https://www.reddit.com/r/nasusmains/comments/k8zi3b/five_days_two_master_accs_decayed_from/",
+   "published": "2020-12-08",
+   "author": "/u/INFERNALCANE",
+   "body": "Yo, Psychopathic Top here.\n Old account had some Lp gain problems and I was getting +13 -24 in d1 playing vs academy/pro players on alts every other game, despite having around 70% wr for a while on that account I couldn't climb because of this Lp bug (heard Santorin had an 80% wr acc in d1 getting +14 -24 hehe xd).\n Figured I would just hop back on some old decayed accs and speed run games with no lp gain issues. https://na.op.gg/summoner/userName=Rope%20Is%20Required\n https://na.op.gg/summoner/userName=toplane+canedom\n From what I have tested so far (around 150 games on Nasus in pre season, spread across multiple accounts), I will give some small adjustments to my previous post. Nerfs to Sunfire next patch (10.25) means that Sunfire should no longer be considered in our builds. Go back to Sunderer, as it provides more hp than Sunfire after next patch (Sunfire just got hit too many times since pre season release to be good anymore). Nerf to Muramana DOES NOT effect Nasus, it only hits mages (mid late dmg provided by Muramana still comes from ur Q). Tear is still staple in this build, however do note that when your team needs a tank, I highly suggest not finishing tear into Muramana second, but instead go straight into tank items such as Frozen Heart, Visage or Thornmail. 3rd or 4th item should always be Steraks. That item blocks around 1k damage per teamfight and that allows you to put in 2-3 more Qs, as well as some survivability. Finish Muramana 4th or as last item if needed. Optimizing into more tanky items early can provide a lot more for your team, especially when playing weakside. Skipping Muramana does not change ANYTHING for early game, the playstyle stays the same (triple E max), and you will still get a lot of pressure. A common perception is thinking that going this build stunts stack growth, but it really doesn't. I have consistently being hitting 100 - 120 stacks despite maxing E and doing this build vs pro players so far in pre season, and stacks around 20 minutes will still be around 300-400 depending on how much catching up you want to do around 10-15 minutes. This is due to the fact that you are basically getting a free lane by harassing most of the meta picks (ranged tops, some fighters) out of the lane, and especially in high elo having lane tempo/prio, and an enemy laner that's consistently below 50% hp from my E spam, means that your jungler can easily preform a dive on them with you. Instead of the one getting dove, you are now in control of most lane states. This build works both for weakside play and strongside play, very versatile build path and never runs out of mana. Extremely strong in dueling, and provides good survivability in teamfights.\n I will keep the community updated if possible. This style of play is very different from my build and playstyle in s9 and s10. I will drop a detailed guide like last years after I have collected more information on matchups, etc. So far, I've had fun playing and testing new builds for Nasus this season. Perhaps I won't ditch you guys like I did in s10 AHAHAHAHHA (80% Jax spammer).\n GL my homies.\n P.S. 1 v 9 gamer clip go watch real quick for maximum dopamine\n https://www.youtube.com/watch?v=NOtbJLGpUPs&ab_channel=PsychopathicTop\n https://preview.redd.it/2guckajltw361.png?width=862&format=png&auto=webp&s=445d1e0b5370daaf5de3b1a78a0760bacd170e78",
+   "id": "k8zi3b",
+   "comments": [],
+   "age_days": 2131,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Brand New potentially meta changing build for Nasus (quick guide) -Psychopathic Top",
+   "url": "https://www.reddit.com/r/nasusmains/comments/k4gvcl/brand_new_potentially_meta_changing_build_for/",
+   "published": "2020-12-01",
+   "author": "/u/INFERNALCANE",
+   "body": "What's good guys,\n Psychopathic Top here. Sorry for the lack of updates what not, I rarely use Reddit unless I'm posting something important. Sadly I got Twitch banned a while back, Around this year February, when some of my dumb friends spammed inappropriate things in my channel while I was afk, So I can't, as of rn, stream new builds etc for you guys (In the future I might upload YouTube videos of me explaining stuff, we will see). Alright. Let's cut to the main topic.\n Since season ended and new items rolled into place for pre-season, Nasus got put into an arguably worse spot then before, at least in High Elo. Season 10 I did not play as much as s9, but I still had 3 alt accounts climb up to around 300-400 lp ish with mostly Jax and some Nasus. Nasus felt boring to play in s10, so I shifted mostly to Jax. Obviously people try out new things in the Pre-season, and that was my intention with Nasus. The go to build currently for many people would be the Sunderer route, as it seems like the perfect item for Nasus, with extra armor/mr penetration, a respectable amount of haste (cdr), HP, lifesteal, as well as being a sheen item. However, remember this: other bruisers can also build this item, and many other items that Nasus cannot even utilize. Things like Ravenous Hydra, Botrk, Black Cleaver are things that really doesn't work with Nasus's kit, but they are broken, and meta bruisers all build these. Getting a kill early with Nasus also feels a lot less significant, while the consequence of being down cs (which should be the case if you are Q maxing vs a good opponent) and getting dove is amplified a LOT MORE then last season. Games tend to be shorter, items are overall cheaper, and getting behind means there is no come back. At the start, I tried my oldschool build on a few accounts (Sunderer, Stoneplate, Steraks), and almost every single game I was punished for been behind in cs and xp, my kp was below 20% in most of those games, and even when I had a lead in lane, I walk out of it just to get 1 shot by Krakenslayer adc or a fed mage in mid.\n So obviously there is a huge problem with this build path. Nasus dropped to tier 5 on opgg and his winrate also tanked after the first week of pre-season. This is when I looked around the regions to see if there were any Nasus players above masters (apart from one of my accounts, Juvenile and Carnarius from EUW) and I found a gem: https://www.op.gg/summoner/userName=milgnon. Now if one told me that this was a viable way to play nasus a month ago, I would have told them they were delusional. While testing builds this week, I brought back an old triple Dring build on one of my alt accounts (around d2-master ish games), where I took tp flash and harassed my laner with E, then transition into Sunderer Cosmic Drive for a mixture of ap and ad. This worked pretty well, but it had one nasty flaw: vs very good players or champs that have sustain in lane before items, this build doesn't actually work and can mess up your waves instead. So it was a niche build, something I would do vs perhaps ranged characters. Now this is when I stumbled upon the Korean Nasus build. This person goes Tear of the goddess into Manamune then Sunfire, rushes Lucidity boots as FIRST item almost every single game, and his sitting at around 100 lp masters in Korea. Woah. Hold on. At first glance it was troll as fuck, and I thought this guy was doing some ultimate bravery shit, but then I realized something very interesting: New Tear actually stacks extremely fast with Nasus E. Using E once while having tear on a minion wave and the enemy laner gives around 9 bonus mana (6 from the champion, 3 from minions). W once and that's another 6 mana. As everyone know, triple E max nasus is pretty mana reliant, but having tear almost means that you never run out of mana when spamming Es. I studied this guys gameplay, and he doesn't use E to shove wave, he uses it to reliably last hit and get in a little bit of harass onto the enemy laner. In other words, THIS build does not fuck up your wave. Basing for lucidity boots on first back, from what I can see, has two major benefits: 15 haste and the ms to juke abilities and evade a gank. On second back he usually grabs a sheen and just sit on it. Then he opts to finish Tear into Manamune (questionable, will get into it later), after that he gets Sunfire. Here is where the damage starts to make sense. Nasus actually gets around 200 ad with just Sunfire and full stacked Muramana. That is nasty damage. Tbh, Sheen isn't even needed in this build. The pure damage you get from these two items are more then enough to run enemies down. After that he grabs either Deadmans plate or Force of nature, and I'm guessing another tank item and finishing the sheen item (Essence reaver imo) last. Now I will explain my experiences playing this and my adjustments to his build.\n Dopa said once on stream that he steals some of his builds from other people, and what makes him stand out is that he takes other people's ideas, and then build on top of it with his own, improving it over time and eventually it will out preform the old. I am attempting to do that with this Korean Nasus's build. There are some twerks that were needed for this build to work better, and I will list them below:\n - Taking manaflow band instead of nimbus cloak.\n - Taking triumph over Presence of mind.\n - Doran's ring is around 128% gold efficient without its passive. Possibly abusable for first back. (first back double D-ring instead of lucidity boots)\n - Most importantly, going Sunfire before finishing Tear into Muramana might (should) be a better call.\n So the original build's runes are- Fleet footwork, POM, tenacity, last stand. Secondary nimbus + transcendence. I do not really agree with POM, as the changes to it doesn't actually add more mana into your entire mana pool (It now gives 15% mana/energy after takedown), which does not increase Muramana damage, nor is it needed because with this build Nasus already runs on a lot of mana. For secondary, Manaflow band is better because getting the extra 250 mana as well as regen super early on really allows Nasus to abuse the perma E- spam, allowing your back timings to be nice as well as fixing the wave if its in an unfavorable position. Nimbus isn't really needed, as fleet in itself is not only a tiny bit of sustain, it is also a mini phase rush in a sense where you get a bit of ms when you auto the enemy, and with ghost and early boots there's no point in extra movement speed. First backing with 2 D rings in favorable E max matchups such as ranged champs allow you to completely annihilate them while still stacking cannons to keep mid/late game intact. Getting lane prio and lane dominance is extremely important this season, as you do not want to at all fall behind early. Obviously in lanes that cannot really be E maxed into (such as irelia, camille, or tanks in general), just rush lucidity boots and focus on last hitting and harassing ur laner a bit with E. Lastly, I see no purpose in sitting on Caulfield's warhammer (Manamune component) or rushing Manamune first, but instead finishing Sunfire should be the better route, as being tanky on Nasus is still needed. Oh, and try to fit sheen into the build early, but it isn't a mandatory item anymore in this build. Mid game you will be hitting for 700 ish damage with just 300 stacks at 20 min with completed Sunfire + Muramana. Sheen proc is good, but it is not longer core. After Sunfire Muramana, just opt into full tank of your own choice depending on enemy team-comp, or another option could be Cosmic drive 3rd, as imo it is an extremely underrated and slept on item for Nasus. It gives 75 ap to ampt up your E as well as your R, and 30 haste (one of the highest haste items in the game rn), 200 hp, as well as a passive that allows you to move faster when you hit an ability. It gives around 30 extra ms for free just for hitting your E.\n I actually laned vs Tfblade's Jax this morning with this build, and despite playing weakside I was able to still go even in lane and even win 1 v 1 with just a tear and lucidity boots. I will link some pictures of my games in the bottom to give you guys a better idea of what to build etc.\n This isn't really a detailed guide or anything, as the pre-season is far from finished, and there are still a lot of things I want to test. However, this is an extremely interesting and fun build, and potentially a staple in the future. We are looking at some Nasus buffs in 10.25 (don't know what it is but anything is good at this point xd), so also stay tuned for that I guess. I will try to answer some questions but don't expect a lot, like I said I dislike using Reddit, and only come on here once in a while to post something interesting or guides or what not so people can have better gaming experience with the dawg. Alright anyways pce out, comment thoughts below and ill see what I can do.\n ​\n Ghost flash still, ability order: E Q E W E R for the first 6 levels, then after that Q max\n ​\n Runes and shit \n ​\n Example Full build (150 haste baby aka 60% cdr 0.5 second urf Q mode in ranked) \n https://na.op.gg/summoner/userName=AGO%C3%91Y\n HERE IS THE OPGG IF ANYONE WANT TO STALK MY NEWER BUILDS ETC. If you guys are interested to see how I play the lane phase etc can also download my vod through League client, and watch them urselves.",
+   "id": "k4gvcl",
+   "comments": [],
+   "age_days": 2138,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "What is Nasus struggling against right now?",
+   "url": "https://www.reddit.com/r/nasusmains/comments/jvaoz0/what_is_nasus_struggling_against_right_now/",
+   "published": "2020-11-16",
+   "author": "/u/Jagd3",
+   "body": "Hello Nasus mains. I do not play nasus very often but I can understand the appeal. I do play top lane quite a bit so I see him pretty often. I am used to usually being stronger than him early, but knowing I am on a clock to close out the game, similar to a less extreme version of kayle. With the addition of new items and the recent buff to the armor on his ult my usual matchups against him have been turned on their head.\n I am pretty sure he still struggles against AP top laners like teemo and Ryze, but are there any AD matchups that give you guys trouble? What about those matchups makes it hard? I like to play AD tops and I want to know how I can improve my matchup against Nasus so any tips you have are appreciated.",
+   "id": "jvaoz0",
+   "comments": [],
+   "age_days": 2153,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "I feel nasus is going to be screwed over for next season.",
+   "url": "https://www.reddit.com/r/nasusmains/comments/j7lflt/i_feel_nasus_is_going_to_be_screwed_over_for_next/",
+   "published": "2020-10-08",
+   "author": "/u/Dwarfz",
+   "body": "While I know things like goredrinker or divine devourer seem great on paper, there are just so many issues to accommodate for when we approach the next season. First is his the issue of ability haste, the diminishing returns on ability haste feels absolutely awful on nasus in my experience, where component cdr stacking (sheen, stinger, kindlegem, into glacial shroud or transcendance) seems awful to do. especially since sheen no longer gives cdr (or mana) while still being the same cost as live and a huge power spike and comfort for nasus farming, and stinger or it's equivalent is no longer useful cause trinity force on nasus would be a bad choice since he doesn't need *as* much attack speed as the item gives with the mythic passive. The small ammount of attack speed nasus got from trinity force was perfect as it let nasus smoothly auto cancel his Q for that much needed extra dps especially before he snowballs off of stacks, divine devourer does not do this and makes him feel SUPER clunky. Another thing, even with divine devourer, ionian boots, transcendance, the haste rune shard, and another form of ability haste item, you barely reach 40% cdr while you sacrafice the huge defensive aspect that comes from either merc trads or ninja tabi (or plated steelcaps as they are called on PBE) while also not getting the attack speed which makes nasus Q buttery smooth.\n ​\n Here is also another thing, the teemo matchup for example got MAJORLY tilted in teemo's favor thanks to the mythic items, allow me to explain why. In live I *always* shit on teemo as nasus thanks to the ability to rush adaptive helm and using a transcendance rune to give me the 20% cdr early on which I direly need (as well as a sheen if I get ahead). In PBE, adaptive is completely gone and essentially replaced with force of nature, which is a legendary item that gives a good chunk of magic resist, and does give extra 4-5 mr 5 times... for each UNIQUE ability cast, meaning it will not auto stack off of teemo DOT as well as the adaptive helm does. Force of nature also does not give DCR and is not a mythic, so while your dumb ass is trying to build a defensive item, teemo will get his liandry's anguish which gives him more mana and %hp damage. Now I looked at berserker suit, and it is a good magic resist item that gives haste, but it provides no adaptation towards teemo's DOT damage OR his liandry's damage so he will shred you anyways given liandry's anguish is an absurdly good item on teemo now which gives him more ability haste then you on top of it. And now because you built a mythic tank item to be defensive, you can no longer use any sheen item unless you want to be a crit nasus with essence reaver. So congratulations, you got outplayed in champ select, enjoy the CBT unless the jungler tents your lane.\n ​\n I hope riot looks at these issues but I really doubt they will. What do you guys think?",
+   "id": "j7lflt",
+   "comments": [],
+   "age_days": 2192,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Shouldn’t nasus be amazing late game?",
+   "url": "https://www.reddit.com/r/nasusmains/comments/icb40b/shouldnt_nasus_be_amazing_late_game/",
+   "published": "2020-08-18",
+   "author": "/u/Silvermonk7780",
+   "body": "I know he gets melted by adcs because he isn’t a true tank late game, but relatively a should spirit fire DESTROY the other tank?\n 45% total armor/mr reduction is no joke. If your team has a black cleaver user then in a tank vs tank matchup would nasus with ult on and a lifesteal item really be less tanky than an orn?",
+   "id": "icb40b",
+   "comments": [],
+   "age_days": 2243,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "As a long time Nasus lover to the point of getting a Nasus quote, I played against him in lane for the first time today as Jax. Dear God he is not balanced.",
+   "url": "https://www.reddit.com/r/nasusmains/comments/hopnfl/as_a_long_time_nasus_lover_to_the_point_of/",
+   "published": "2020-07-10",
+   "author": "/u/Sammie2469",
+   "body": "I love Nasus, he's my favourite champion in the game. I have a tattoo of a Nasus Quote on my arm. I adore the guy.\n He's unbelievably strong. His Q stack buffs were great at the time but right now he feels to incredibly strong. It's hard to lose lane against him and he can fairly easily win games these days when played correctly.\n I never thought I'd actually say it but I genuinely believe Nasus is overpowered. Maybe not in super high elo but generally he's very very VERY strong. It's so easy to stack and his Wither is absurd. Seems almost impossible to lose any matchup after getting Sheen.",
+   "id": "hopnfl",
+   "comments": [],
+   "age_days": 2282,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Nasus vs. Renekton matchup at 40 minutes long",
+   "url": "https://www.reddit.com/r/nasusmains/comments/h8mfq4/nasus_vs_renekton_matchup_at_40_minutes_long/",
+   "published": "2020-06-14",
+   "author": "/u/Taafah",
+   "body": "​\n https://preview.redd.it/voytqi6mps451.png?width=640&format=png&auto=webp&s=e340b09a3e9a904433a86acfe16800fbb822635b",
+   "id": "h8mfq4",
+   "comments": [],
+   "age_days": 2308,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Nasus vs Trundle",
+   "url": "https://www.reddit.com/r/nasusmains/comments/gya4pb/nasus_vs_trundle/",
+   "published": "2020-06-07",
+   "author": "/u/loaidacbiet",
+   "body": "I've played Nasus since s3 and have played against countless matchups but to this very day, Trundle is the hardest matchup i've ever encountered. Laning vs him is not hard but he's like an anti-nasus that makes snowballing seemingly impossible. All in him ? Nah he'll just R you back and out smack you. Sustain battle ? Yeah good luck with that. Out team fighting ? Again he can just R you + Use E to peel for his carries. Do you have ANY WAY TO win vs him ???",
+   "id": "gya4pb",
+   "comments": [],
+   "age_days": 2315,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What are currently Nasus's best and worst matchups?",
+   "url": "https://www.reddit.com/r/nasusmains/comments/ggpfrn/what_are_currently_nasuss_best_and_worst_matchups/",
+   "published": "2020-05-09",
+   "author": "/u/Crimson_talon",
+   "body": "I'd like to make a list for anyone who wants to get a little bit of background on their matchup before going through champ select into a game. Please reply with any champs and your reasonings as to why you think they're a good/bad matchup! I've already included some myself, and if you'd also like to add to those let me know!\n ​\n Nasus's BEST Matchups:\n Singed [Reasonings]: There's nothing much a Singed can do to a Nasus. It's the same vice versa, as Nasus can't really do much to a Singed either, so it's a pretty boring farm lane. However, that's exactly what Nasus wants in a lane. Even if Singed tries to proxy waves, Nasus just gets to free farm and stack under tower. Eventually when Nasus gets enough CDR and tanky items, he can just hold the wave outside of his tower even if Singed decides to proxy, and stack every minion.\n \n Maokai [Reasonings]: A Maokai doesn't really have the damage to bully a Nasus out of lane. Especially considering Maokai is getting nerfed in the upcoming patch 10.10, he'll be a pretty easy laner to match as Nasus. Maokai can't do anything to punish Nasus for walking up to stack, and once Nasus builds a spectres cowl, Maokai does nothing.\n \n Vladimir [Reasonings]: For the same reasonings as Maokai, Vladimir early does not really have the damage to bully a Nasus out of lane. After one back and a spectres cowl, Nasus will stop taking damage from a Vladimir, and lifesteal any poke back up with Q. Also, once Nasus builds a sheen, he'll outdamage any Vlad. A good item to also get is a bramble vest to negate Vladimir's heal if it's annoying.\n \n Kayle [Reasonings]: She's basically a minion pre level 11, and has little to no damage until she starts scaling, which allows Nasus to free stack in the early game. She's also an auto attack based champion, so Nasus wither counters her really well. She doesn't build tanky items, which means into the mid game Nasus can two or three shot her with Q.\n \n Sion [Reasonings]: Sion doesn't really have anything in his kit to punish a Nasus. Only thing he can do is perhaps do a short trade if Nasus walks up to stack, but in the long run Sion just doesn't have the poke or sustain to bully Nasus out of stacks. \n \n Nasus's WORST Matchups:\n Darius [Reasonings]: Incredible lane bully with a good early game, any good Darius can keep you out of stacking and getting EXP if you do not have jungle help. Passive bleed negates Nasus's innate lifesteal. Darius E prevents you from walking up at all as well. He also scales fairly well.\n \n Sett [Reasonings]: Also an incredible lane bully. His E allows him to zone Nasus off of stacks. New builds of Sett have included rushing a first item BoRK, which is a really good item against Nasus with % health damage and a gap-closing slow. His W allows him to spit back true damage if you try to all in him, also giving him a decaying but large shield. Can't really trade with him either, as his short E/Q/W combo burst does way more than any short Nasus trade. Also has a similar version of Garen's health regen passive.\n \n Garen [Reasonings]: His Q removes W slow. Innate health regen means he's always healthy to take trades and fights, and his ult is true damage. W gives him damage mitigation as well.\n \n Riven [Reasonings]: Any good Riven will be able to bully a Nasus out of lane. However, that's any 'good' Riven, but seeing how most Riven players are one trick ponies anyways, that's usually always the case. She has immense gap closing potential, great gank set up, and has every CC known to man in her kit. However, you do out-scale her.\n \n Gangplank [Reasonings]: I saw the post about Gangplank, so I decided to also include him here. His W (orange) removes our wither, although it is a much longer cooldown than Nasus W so you can bait his orange with a wither, then just wither him again. He also has a lot of poke with his Q, which also procs grasp for him and gives him more sustain in the lane. Gangplank isn't that popular of a pick at the moment, however those that do play him tend to play him really well.\n \n Gnar [Reasonings]: Gnar is overall just a much better version of Nasus (at first). He's extremely tanky, with a tremendous amount of CC loaded into his kit. (Boomerang has a huge slow, multiple stuns that can chain on his mega form, etc). He has huge gap closing/escaping potential with his hops, and even if you wither him he can still run away. He can also kite really easily.\n \n Kled [Reasonings]: Kled has a huge gap closer if he latches his chain, and is really tanky with his mount. He can also remount with a good combo in a few seconds, so you basically have to kill him like three times over. However, the most terrible thing about this matchup is: if he hits his latch on you and pulls you and fights you, he has innate grievous wounds, which completely makes your extra lifesteal on Qs negated. He also has insane damage early if he does manage to latch onto you.\n \n Jax [Reasonings]: Jax's counterstrike makes it pretty frustrating to fight him at any stage of the game. He gets free dodges from Nasus's main source of damage (Qs) and all the while gets to auto away at Nasus and chunk for a good trade. Also, his counterstrike stuns for more free damage, and has a leap for a gap closer or escape. He also scales much harder than Nasus, and can shred any Nasus in the late game. His counterstrike also ends up on an extremely short cooldown in the late game.\n \n ​\n Edit 1: Added Sion and Kayle to best matchups, and Jax to worst",
+   "id": "ggpfrn",
+   "comments": [],
+   "age_days": 2344,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Sett is tough matchup",
+   "url": "https://www.reddit.com/r/nasusmains/comments/epyq4y/sett_is_tough_matchup/",
+   "published": "2020-01-17",
+   "author": "/u/TorpazZz",
+   "body": "It has a very easy to execute combo, and costless because no mana. Even under tower he can do this combo because of the great shield he gets he can only submit 1 tower shot dmg, and shredding half of your hp.\n ​\n Only option is all-in and not taking damage for nothing by just farming. If Sett is not ahead, from level 6 and sheen you win all-in. But if he got a big cs lead earlier or a kill from a gank, this matchup get real hard...\n ​\n Sett ~ Riven matchup-wise",
+   "id": "epyq4y",
+   "comments": [],
+   "age_days": 2457,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Well I guess no one posts/visits here often, so I’m gonna give those that do some freelo.",
+   "url": "https://www.reddit.com/r/nasusmains/comments/eczng3/well_i_guess_no_one_postsvisits_here_often_so_im/",
+   "published": "2019-12-19",
+   "author": "/u/Ser3nity91",
+   "body": "First off I am d4 on NA peaked d3 promos several times to D2. I was top 100 heimerdinger world this past season, at some point. I still am really good the champ, but I faced a nasus running the typical E max into cancer lanes like I do, but he went triple Doran’s ring. And holy crap he was insta clearing waves lvl 5 I couldn’t harass, and couldn’tpunish him at all. I pride myself in my laning and the only truly hard matchup for me was irelia, but I have to say nasus E max was worse. I was like well maybe I need to revisit this build. Hence I tweaked it for my own purpose, and fully embraced the scale and I am currently 7 and 0 on it D3 from d4 0 lp. Keep in mind no normal games just straight to ranked. \n Still testing it out, but I believe this build is far superior than any other playstyle on nasus right now because it has no way to punish it, because his base E damage is insane coupled with the fact that conq got removed so you just ban master yi/vayne and no one can kill you. \n Runes: take one adaptive and two resists based on the lane double down on armor or magic resist:\n Masteries: phase>manaflow>transcendence>gathering then I take legend tenancity and the new busted rune Presence of mind. \n This playstyle is largely possible due to the massive amount of mana you now have from 2 runes, as nasus biggest issue imo is his mana costs outside of mobility. \n Skill order: R>E>Q>W; I sometimes take only 3 or 4 points in E if I’m smashing lane so I can move to q stacking. \n To play this style effectively there is 3 phases. Survive, stack, and split. You have to communicate with your team a small bit too, especially at lower elo. \n Phase 1: survive the lane till first back usually you start dorans ring and aim for a back to get another Doran’s ring and a mana crystal or at the very least a second Doran’s. Then you immediately rush sheen for stacking purposes. First item in 99% of situations is iceborne (yes triforce gives nasus huge damage, but it also does nothing to help him chase people and it’s too expensive for you to spike on time with this playstyle unless you are way ahead for some reason). Typically in this phase depending on the matchup you start phase to of stacking and freezing or keep shoving wave, and taking cannon stacks when you can, this phase ends when you have your first item as typically by then no one can duel you anymore. \n Phase 2: Stack. You want at least 200 stacks by 20 min. 500 by 30 if it goes 40 min etc. depending on game state you should be getting 300 stacks every 10 min after 30. Take jungle camps for the 12 stack too, but without making your jungle afk please, be courteous. I usually take enemy jungle camps as much as possible. \n Phase 3: Split. Intelligently. This is your wincon. No one can duel you if you play it well with this build, except master yi/Vayne cause red smite is OP and true damage is awfully balanced. Don’t push if your lanes aren’t pushing or you can’t see 4/5 enemy teammates, or if you are unable to relatively safely take an an objective/trade your life for baron etc. splitting is an art you can watch other videos on it, but it really is pretty freaking easy if you know how to watch the map and whether or not your team is in position to take something or defend an objective. If you can’t push 100% of the time just slow freeze and stack. When you push tho don’t bother getting those extra stacks just e the wave you need to get tower ASAP. DO NOT waste time getting stacks just push the wave as fast as possible and pop that ult and take the nexus’s \n Build is flexible, but besides iceborne as core usually go spirit visage/adaptive helm>thornmail>deaths dance>visage/steraks/whatever. Boots depends on game state and amount of cc. Always tabis or mercs no exception. Deaths dance usually last or near last, but full build and 500 stacks at least you legit just can’t die while ult is up, and even then your still able to tank turret forever while healing off Qs. \n Hard matchup: only Darius, because most of them just bring ignite and/or ghost into you and will try to continuously cheese you with their insanely high 5 stack damage. You will be down 20 cs against a good one, but even without jungle help after 1st item and lvl 11 he can’t duel you. Pro tip is to always rush bramble vs conq abusers soon your iceborne. It makes the 1v1 farrrrr easier. \n Anyways Tl;Dr: nasus E max is insane, iceborne is better than Tri, dog is back bois. Also grammar might be awful, I’m sorry. \n All of the above is my stated opinions, I’ll try and answer questions, but just keep in mind I can’t teach the lane phase you just have to know it’s ok to give CS and be down 20 cs, don’t play risky, just don’t die. Once you master this playstyle even in hard matchups being down only 10 cs is pretty common.",
+   "id": "eczng3",
+   "comments": [],
+   "age_days": 2486,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "+12 is the amount of kills I get in this matchup.",
+   "url": "https://www.reddit.com/r/nasusmains/comments/dsf0xv/12_is_the_amount_of_kills_i_get_in_this_matchup/",
+   "published": "2019-11-06",
+   "author": "/u/pturgeon01",
+   "body": "",
+   "id": "dsf0xv",
+   "comments": [],
+   "age_days": 2529,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Step by step in depth guide for Nasus vs ranged and poke matchups.",
+   "url": "https://www.reddit.com/r/nasusmains/comments/cuw62k/step_by_step_in_depth_guide_for_nasus_vs_ranged/",
+   "published": "2019-08-24",
+   "author": "/u/Thicc-Daddy2",
+   "body": "Hi guys, I'm a little Nasus main like yourselves. I'm currently unranked, but I usually play with mid gold/high silver players. This here is everything I know from experience about cheese and poke lanes and how I win lane AND win game almost every single time against them. \n This build is specific for ranged matchups and is not as effective vs straight toplaners.\n This guide assumes that you have an iron 3 Yummi jungle with -27 IQ who prefers to afk farm over ganking an overextended squishy with low hp. \n Runes: Fleet footwork, triumph, bloodline/tenacity, last stand - Manaflow, transcendence - adaptive force, adaptive force, armor/mr. Ghost-Flash. \n So, here's what I do. I start with Doran's ring and 2 pots. I pick E first skill. Try to get the first 3 melee with 1 E and poke the enemy at the same time to proc manaflow by walking up and baiting them to go closer to minions. They usually no life try to poke you whenever there's a chance.\n Why fleet? Fleet is extremely underrated on Nasus and its by far my highest winrate keystone vs ranged and poke Champs. The healing sustains you so much early and the speed burst allows you to run back to safety before you get poked any more early and allows you to chase better mid/late game. But most importantly, it procs from minions. This is the exact reason why people pick fleet over electrocute on kassadin. He's a late game monster like Nasus but has a very poor early game. The moment I dropped my ego and started taking fleet, I had much more success in my games. \n Why not Conq? Conqueror is a late game keystone and it's unforgiving for Champs that are weak early like Nasus. It's more effective vs tanky matchups. But, against squishies, you don't get any value out of it except in teamfights. \n Why not grasp? Grasp is superior to fleet in terms of damage AND healing. But, you'll never proc it.\n Why D ring? Because picking ring first item sustains your mana AND converts your double adaptive force into AP, which gives you bonus 18 AP and now you have 32 AP level 1, which increases the damage from your E. Picking Corrupting potion will not convert your adaptive force and it'll remain as 10 AD and you'll deal much less damage with E. \n Why E first? Starting with Q will force you to walk to the first 3 melee minions, but fleet and your passive can't out sustain their poke yet. You might give up 6 stacks here, but you saved alot of hp. With Q first and regular start, you'll have to attack a melee, Q the second and attack the third. But, with this you have stayed long enough for Vayne to get the third attack, for Karma to Q and farm 2 klepto procs and for the rat to beat the crap out of you. Remember that gold is stronger than stacks. \n At level 2, you get Q and start moving in circles or up and down or any random movement just to charge your fleet. Only walk up to cs when you have Fleet ready and poke with E only when you have manaflow stack to use less mana and to get cs so you make the most value out of it.\n At level 3 if your jungle is aggressive or at your jungle side take W. If not, take E2. Keep doing the same in the previous step. 👆\n Play around your minion wave and make use of your minion agro. A good player will poke you and back to avoid minion agro, which is good for you. A bad player will commit to poking you like a Vayne committing to get the third auto, which is also good for you since they now lost alot of hp making themselves more vulnerable to gank(if your jungle has a brain). \n Put 1 point in W, rush E3 and start maxing Q. \n For items, at first back, if you have gold for sheen, buy it and second back at 900g for 2 Doran's blades. \n If you couldn't back at sheen, buy a sapphire crystal and a doran's blade. Second back, you should get sheen and another D blade.\n OK, why the 2 D blades? A doran's item has 200% the gold efficiency of component items with the same stats, meaning that you get double the stats you'd get for the same amount of gold. The 2 blades give you 16 AD, 160hp, 6% lifesteal. Having 16 AD outweighs the 15 AP from D ring and convert your double adaptive force into 10 AD. At this point, if you play with bloodline you might have 2-3% from it and you mostly have 20-22% lifesteal by then(12% passive + 2% bloodline + 6% x2 blades). Now you should start farming more aggressively as you now heal for the same or more than poke while still poking with your E. (Edit: fleet healing scales with AD and AP so it also makes fleet stronger on top of the extra lifesteal) \n After that build a Kindlegem for AP matchups or glacial shroud for AD matchups then build towards Triforce/IBG into your normal build path. \n Nasus normally hits his massive powerspike at level 9 when he gets Q5. This build however spikes at level 10 when you proc transcendence. \n At level 10 you'll be at 30% CDR and you should be looking for an all in. If you didn't die earlier, you should easily kill the enemy laner with ghost.\n Why should you bother yourself with all this? The whole point of this build/playstyle is to have as much poke and lane pressure as them. They'll reach a point where they're very low hp in lane and can't take more poke so they either Have to back, or stay with low hp which you basically flash Q to kill them. They have the range advantage, but have little sustain. This build gives you both range AND sustain advantages since the outer half of E outranges all marksmen in the game. You'll be surprised by how effective this is. \n Bonus tip for mains with good game knowledge. With this build you're probably down 50-100 stacks of what you normally would. With manaflow and 30-40% CDR, you can burn your ult to power stack a whole jungle side or a large wave waiting at your tower. This is hyper aggressive and you should only do this if you have good vision and good tracking of all enemies. Enemy team now has a 45s window to kill you.\n How I do it. I usually splitpush bot or top. When there are enemies at the tower and I'm about to go back. I stack the nearest jungle quarter and back. When you reach lane, you have your ult at like 10-15s remaining. \n That's it guys. Let me know what you think and if you have any questions about any matchup, I'll try to help as much as I can.\n Edit: Here are some matchup-specific tips.\n Vayne: Take E first. In lane, poke her with E and stack with fleet. If she commits to the third attack and gets inside your wave, punish her by dropping E and W for extended minion agro and armor shred(minions deal physical damage). Vayne's E1(the knochback) has a 20s CD. When you decide to all in, bait her E and wait for her to do the mistake and get in your wither range. Drop the wither and do your thing.\n the rat: play the same using the steps above and buy oracle lens at your second back. When you all in, scan the area in front of you and don't step on mushrooms. Always have a control ward with you. All in when you connect a wither. If the rat runs to river where he had setup alot mushrooms, drop your control ward to disable them and focus on him then stack his shrooms. \n Vladimir: very easy matchup. I take fleet with conditioning, overgrowth. Take Q first skill and don't waste your time poking him with E, he heals for so much in lane. Play around his empowered Q. The white bar that turns red indicates his empowered Q. Back off when you see it turn yellow. Before you all in, bait him to poke you to burn his phase rush because phase rush reduces slows by 70% and will totally deny your wither. Wait for him to do the mistake and connect wither, should be a free kill.",
+   "id": "cuw62k",
+   "comments": [],
+   "age_days": 2603,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Nasus counter builds for every match up (My personal notes)",
+   "url": "https://www.reddit.com/r/nasusmains/comments/c0e7vt/nasus_counter_builds_for_every_match_up_my/",
+   "published": "2019-06-14",
+   "author": "/u/Shozaan",
+   "body": "hello i'm a nasus main who mained nasus for 3 years with over 3k games on him, i reached D4 on 8 accounts and D3 on 2 accounts just this season maining nasus (i probably coulda pushed for a higher rank if i played on just 1 acc but that would be too tilting), i've started taking some notes in season 9 and these are my current counter builds for every top lane match up as of patch 9.12, i thought others may find interest in my personal notes, i am testing stuff and learning everyday from my games.\n edit : updated some match ups \n General item build (build order almost always changes but usually this)\n Doran's Shield\n Sheen\n Kindlegem/Triforce Rush\n Tabi/Mercs\n Kindlegem (if not built earlier)\n Bramble Vest\n Sterak's Gage\n Spirit Visage\n Thornmail\n whatever 6th item\n ​\n ---------------------------------------------------------\n Illaoi\n Flash - EXHAUST\n Conq - Triumph - Bloodline - Last Stand\n Condition - Overgrowth\n S CDR - AR - S HP\n ​\n hardcounters nasus, kinda stat check lane\n SURVIVE EARLY\n illaoi usually will hold on to her E once ur strong enough\n and then use it at pointblank making it impossibe to win without exhaust, if she however uses her E before for whatever reason and misses\n you'll have a window to kill, you NEED to always look for leads in this match up\n ​\n CLOTH + 4 POTS start\n Sheen\n Bramble\n 1 Triforce\n 2 Tabis\n Caulfield's Warhammer/Kindlegem\n 3 Death's Dance(Pref)/Sterak's Gage\n 4 Sterak's Gage/Thornmail\n 5 Thornmail/Spirit Visage\n ​\n (this is the matchup that caused me to start this list btw)\n ---------------------------------------------------------\n Darius\n Flash - Ghost\n Conq - Triumph - Bloodline - Last Stand\n Biscuits - Cosmic\n S CDR - AR - S HP\n ​\n known counter, if you aren't experienced there might be other better setups\n ---------------------------------------------------------\n Jax\n Flash - Ghost\n Conq - Triumph - Bloodline/Tenacity - Last Stand\n Condition - Overgrowth\n S CDR - AR - S HP\n ​\n scales too well, has too much hp and dmg and mobility and can 1 v 9, no solution against a good jax\n ---------------------------------------------------------\n Kled\n Flash - Ghost\n Spellbook - Footwear - Biscuits - Cosmic\n Condition - Overgrowth\n S CDR - AR 2x\n ​\n don't disrepsect his all-in power especially early, he can dive you from pretty much full hp if u fk up\n get ignite early when u plan to all-in him, when he's unmounted then use ignite and kill before remount\n this way you will easily kill and maintain a lead\n ---------------------------------------------------------\n Trundle\n Flash - Ghost\n Conq - Triumph - Bloodline - Last Stand\n Biscuits - Cosmic\n S CDR - AR 2x\n ---------------------------------------------------------\n Camille\n Flash - Ghost\n Spellbook - Footwear - Biscuits - Cosmic\n Condition - Overgrowth\n S CDR - AR - S HP\n ---------------------------------------------------------\n Fiora\n Flash - Ghost\n Conq - Triumph - Bloodline/Tenacity - Last Stand\n Biscuits - Cosmic\n S CDR - AR 2X\n ​\n start cloth 4 pots into this one\n Sheen\n Bramble\n 1 Triforce\n 2 Tabis\n Kindlegem\n ---------------------------------------------------------\n Garen\n Flash - Ghost\n Conq - Triumph - Tenacity(will help against silence)/Bloodline - Last Stand\n Condition - Overgrowth\n S CDR - AR 2x\n ---------------------------------------------------------\n Gnar\n Flash - Ghost\n Conq - Triumph - Tenacity - Last Stand\n Footwear/Biscuits - Cosmic\n S CDR - AR 2X\n ​\n start cloth 4 pots into this one\n righteous glory route is open if needed\n always second max E\n ---------------------------------------------------------\n Irelia\n Flash - Ghost\n Conq - Triumph - Bloodline/Tenacity - Last Stand\n Condition - Overgrowth\n S CDR - AR - S HP\n ​\n don't disrespect her all-in early and don't get poked for no reason\n when ur level 7~ with Sheen you can look to kill her pretty easily and repetitively.\n ---------------------------------------------------------\n Kayle\n Flash - Ghost\n Conq - Triumph - Tenacity - Last Stand\n Condition - Overgrowth\n S CDR - AR - MR\n ---------------------------------------------------------\n Kennen\n Flash - Ghost\n Spellbook - Footwear - Biscuits - Cosmic\n Condition - Overgrowth\n S CDR - AR - MR\n ​\n 3 points into wither after Q maxing may be viable\n ---------------------------------------------------------\n Poppy\n Flash - Ghost\n Spellbook - Footwear - Biscuits - Cosmic\n Condition - Overgrowth\n S CDR - AR 2x\n ---------------------------------------------------------\n Riven\n Flash - Ghost\n Spellbook - Footwear - Biscuits - Cosmic\n Condition - Overgrowth\n S CDR - AR 2x\n ​\n (un-sure what works best) 3 points into wither secondary may be viable\n righteous glory route is open if needed\n both of these strats will make you weaker in a 1 v 1 stat check tho\n DO NOT do both at the same time\n if you can get leads without either of these that'll be great\n ---------------------------------------------------------\n Shen\n Flash - Ghost\n Conq - Triumph - Tenacity - Last Stand\n Condition - Overgrowth\n S CDR - AR - S HP\n ---------------------------------------------------------\n Singed\n Flash - Ghost\n Conq - Triumph - Tenacity - Last Stand\n Footwear - Cosmic\n S CDR - MR - S HP\n ​\n second 3 points into wither if you plan to solo kill him\n second E max will help you win 1 v 2 tho\n ---------------------------------------------------------\n Tryndamere\n Flash - Ghost\n Grasp - Demolish - Condition - Overgrowth\n Biscuits - Cosmic\n S CDR - AR 2x\n ​\n we're going grasp mainly cause of how he can auto our turret for free, and grasp can punish that a bit\n also if ur holdin the wave near ur turret u can get some procs, don't go for too much tho.\n ​\n do put 3 points into wither secondary\n ---------------------------------------------------------\n Gangplank\n Flash - Ghost\n Spellbook - Footwear - Biscuits - Cosmic\n Condition - Overgrowth\n S CDR - AR 2x\n ​\n the plan is to stack as much as we can early\n and then immediately run down this fool once we have glory\n combo starts wither > glory > wither\n ​\n Reju Bead 3x (Sell 1 bead later)\n Sheen\n 1 Righteous Glory\n 2 Tri Force\n 3 Mercs/Tabis\n 4 Zz'Rot Portal\n 5 Sterak's Gage\n 6 (Armor Item)\n ---------------------------------------------------------\n Master Yi\n Flash - Ghost\n Conq - Triumph - Bloodline - Last Stand\n Footwear - Cosmic\n S CDR - AR - S HP\n ​\n hardcounters nasus, look to scale safely and well early and by lvl 7~ \n attempt to jebait his abilites or some shit > kite cane > kill for an early lead, and then non stop look for more leads\n essentially you don't want this game to be an afk farming game.\n your main goal this game is to non stop shutdown the yi.\n ​\n 1 Triforce\n 2 Tabis\n Caulfield's Warhammer\n Bramble\n 3 Death's Dance\n 4 Thornmail\n 5 Guardian Angel\n 6 Sterak's Gage\n ---------------------------------------------------------\n Renekton\n Flash - Ghost\n Grasp - Demolish - Bone Plating - Unflinching\n Biscuits - Cosmic\n S CDR - AR 2x\n ​\n we're going grasp mainly cause of how he can auto our turret for free, and grasp can punish that a bit\n this is one of those champions where if piloted well, it's damn near impossible to win lane against\n ---------------------------------------------------------\n Aatrox\n Flash - Ghost\n Conq - Triumph - Bloodline/Tenacity - Last Stand\n Condition - Overgrowth\n S CDR - AR 2x\n ​\n we goin conq instead of unsealed to be able to get earlier boots vs him, as they are very effective\n and it's also generally better cause he has alot of hp and lifesteal and you wanna finish him quicker\n not that you can't do that with spellbook tho...\n early game learn to predict his q's and run into him to avoid the sweet spot and then run back to safety.\n if you do that you may have to dodge his W on your way out as well\n ---------------------------------------------------------\n Urgot\n Flash - Ghost\n Conq - Triumph - Bloodline - Last Stand\n Condition - Overgrowth\n S CDR - AR - S HP\n ​\n try to stay on one side of him when running him down so that you don't proc alot of legs\n ---------------------------------------------------------\n Maokai\n Flash - Ghost\n Conq - Triumph - Tenacity - Last Stand\n Footwear - Cosmic\n S CDR - MR 2x\n ---------------------------------------------------------\n Malphite\n Flash - Ghost\n Conq - Triumph - Tenacity - Last Stand\n Condition - Overgrowth\n S CDR - MR 2x\n ---------------------------------------------------------\n Nautilus\n Flash - Ghost\n Conq - Triumph - Tenacity - Last Stand\n Condition - Overgrowth\n S CDR - MR 2x\n ---------------------------------------------------------\n Cho'Gath\n Flash - Ghost\n Conq - Triumph - Tenacity - Last Stand\n Footwear - Cosmic\n S CDR + MR 2x\n ​\n if u think you'll have trouble catchin up with him cause of that knockup\n try having like 2-3 early points into W after Q maxing\n ideally you should always dodge those and not need more then 1 point in wither\n also he'll get so tanky eventually that'll you probably need the E points to kill him\n ​\n 1 Tri Force\n 2 Mercs\n Kindlegem\n 3 Sterak's Gage\n 4 Thornmail\n 5 Spirit Visage\n 6 Zz'Rot Portal\n ---------------------------------------------------------\n Tahm Kench\n Flash - Ghost\n Conq - Triumph - Tenacity - Last Stand\n Biscuits - Cosmic\n S CDR - MR 2x\n ​\n Try to rush Mercs into him earlier, maybe right after Sheen?\n ---------------------------------------------------------\n Ryze\n Flash - Ghost\n Spellbook - Footwear - Biscuits - Cosmic\n Condition - Overgrowth\n S CDR - MR 2x\n ---------------------------------------------------------\n Sylas\n Flash - Ghost\n Conq - Triumph - Bloodline/Tenacity - Last Stand\n Condition - Overgrowth\n S CDR - MR 2x\n ---------------------------------------------------------\n Malzahar\n Spellbook - Footwear - Biscuits - Cosmic\n Condition - Overgrowth\n S CDR - MR 2x\n ​\n Rush QSS and in-between 120-150 stacks im sure pretty you can just kill him and then repeat over and over.\n ​\n QSS (Rush instead of Sheen)\n 1 Triforce\n 2 Merc/Tabis/Kindlegem\n ---------------------------------------------------------\n Vladimir\n Flash - Ghost\n Spellbook - Footwear - Biscuits - Cosmic\n Condition - Overgrowth\n S CDR - MR 2x\n ---------------------------------------------------------\n Mordekaiser\n Flash - Ghost\n Conq - Triumph - Bloodline - Last Stand\n Footwear/Biscuits - Cosmic\n S CDR - MR 2x\n ​\n his E can setup for ganks so watch out for that\n other than that he's just a less oppressive darius\n ---------------------------------------------------------\n Pyke\n Flash - Ghost\n Conq - Triumph - Tenacity - Last Stand\n Footwear/Biscuits - Cosmic\n S CDR - AR 2x\n ---------------------------------------------------------\n Twisted Fate\n Flash - Ghost\n Conq - Triumph - Tenacity - Last Stand\n Biscuits - Cosmic\n S CDR - AR - MR\n ---------------------------------------------------------\n Yasuo\n Flash - Ghost\n Conq - Triumph - Bloodline/Tenacity - Last Stand\n Condition - Overgrowth\n ​\n S CDR - AR - S HP\n ---------------------------------------------------------\n Shaco\n Flash - Ghost\n Conq - Triumph - Tenacity/Bloodline - Last Stand\n Condition - Overgrowth\n ​\n S CDR - AR - MR\n ---------------------------------------------------------\n ​\n ​\n E MAX BUILDS :-\n Doran's Ring start\n either 3 points E or full E max\n ​\n ​\n ---------------------------------------------------------\n Teemo\n Flash - Ghost\n Conq - Triumph - Tenacity - Last Stand\n Manaflow - Scorch\n Adaptive Dmg 2x - MR\n ​\n Need 40% CDR from items with these runes\n ---------------------------------------------------------\n Sion\n Flash - Ghost\n Conq - Triumph - Tenacity - Last Stand\n Manaflow - Scorch\n Adaptive Dmg 2x - AR\n ​\n Need 40% CDR from items with these runes\n ---------------------------------------------------------\n Pantheon\n Flash - Ghost\n Arcane/Aery - Manaflow - Transcendence - Scorch\n Biscuits - Cosmic\n Adaptive Dmg 2x - AR\n ---------------------------------------------------------\n Neeko\n Flash - Ghost\n Arcane/Aery - Manaflow - Transcendence - Scorch\n Biscuits - Cosmic\n Adaptive Dmg 2x - AR\n ​\n hardcounters nasus, about the same cancer level of vayne or more\n you'll be playing on your range limits\n and always have to keep being mindful of her root's speed (essentially you must predict it)\n ---------------------------------------------------------\n Volibear\n Flash - IGNITE\n Arcane/Aery - Manaflow - Transcendence - Scorch\n Biscuits - Cosmic\n Adaptive Dmg 2x - AR\n ​\n has huge all-in and stat checking power especially early its kinda impossible to survive him as Q max\n no real solution in this match up\n ---------------------------------------------------------\n Jayce\n Flash - Ghost\n Arcane/Aery - Manaflow - Transcendence - Scorch\n Biscuits - Cosmic\n Adaptive Dmg 2x - AR\n ---------------------------------------------------------\n Quinn\n Flash - IGNITE\n Arcane/Aery - Manaflow - Transcendence - Scorch\n Biscuits - Cosmic\n Adaptive Dmg 2x - AR\n ​\n you hard shit on quinn with this build it's actually funny and enjoyable\n ---------------------------------------------------------\n Vayne\n Flash - Ghost\n Arcane/Aery - Manaflow - Transcendence - Scorch\n Biscuits - Cosmic\n Adaptive Dmg 2x - AR\n ​\n Another nasus hardcounter, this is the one match up where you really want your jungler to play to your lane\n unlike for example darius match up\n ---------------------------------------------------------\n Lucian\n Flash - Ghost\n Arcane/Aery - Manaflow - Transcendence - Scorch\n Biscuits - Cosmic\n Adaptive Dmg 2x - AR\n ---------------------------------------------------------\n Heimerdinger\n Flash - TELEPORT\n Arcane/Aery - Manaflow - Transcendence - Scorch\n Biscuits - Cosmic\n Adaptive Dmg 2x - MR\n ---------------------------------------------------------\n ​\n ​\n Champs i haven't made enough tests against and are unsure yet of the best builds against : -\n ​\n ​\n ​\n ---------------------------------------------------------\n Zilean\n Flash - Ghost\n Spellbook - Footwear - Biscuits - Cosmic\n Condition - Overgrowth\n S CDR - MR 2x\n ​\n Hard Counter, i assume cleanse + ghost early could allow for a kill early and then you attempt to maintain it\n by non stop spliting their team through pressuring, you will have alot of stacks\n just don't ever teamfight.\n ---------------------------------------------------------\n Yorick\n Flash - Ghost\n Conq - Triumph - Bloodline - Last Stand\n Condition - Overgrowth ???\n S CDR - AR 2x\n ​\n is this secondary better then footwear + cosmic? is secondary inspiration too squishy?\n ---------------------------------------------------------\n Anivia\n ​\n Hard Counters Nasus.\n ---------------------------------------------------------\n Ekko\n ​\n a good ekko is super annoying/difficult to deal with.\n ---------------------------------------------------------\n Hecarim\n ​\n i assume Conq\n ---------------------------------------------------------\n Jarvan\n ---------------------------------------------------------\n Karma\n Flash - Ghost\n ​\n unsure which is better E max or Q max, also what runes for each playstyle? what items?\n what works best? need alot of testing.\n ---------------------------------------------------------\n Lissandra\n ---------------------------------------------------------\n Olaf\n ---------------------------------------------------------\n Ornn\n Flash - Ghost\n Conq - Triumph - Tenacity - Last Stand\n Biscuits - Cosmic ???\n S CDR - MR - AR ???\n ---------------------------------------------------------\n Rengar\n ---------------------------------------------------------\n Rumble\n ---------------------------------------------------------\n Swain\n ---------------------------------------------------------\n Udyr\n ---------------------------------------------------------\n Viktor\n ---------------------------------------------------------\n Wukong",
+   "id": "c0e7vt",
+   "comments": [],
+   "age_days": 2674,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "If anyone is interested in watching relatively high elo nasus main",
+   "url": "https://www.reddit.com/r/nasusmains/comments/a5w0mq/if_anyone_is_interested_in_watching_relatively/",
+   "published": "2018-12-13",
+   "author": "/u/INFERNALCANE",
+   "body": "Starting next year (s9) I would be trying to start up a stream of some sort if possible, mostly focusing on nasus gameplay at elos around d3-d1 and higher depending on how it goes, mostly ghost flash conq nasus and maxing q into every matchup. Would people want to watch that? Throughout this year I had a lot of people asking me about my builds etc game play and stuff, so i thought instead of individual dms I would instead just set up a stream. Still trying to get masters with q max only. I will be focusing on showing how to play agro with q max nasus in the early game to apply pressure, win lane etc.\n Edit1: Cool stuff guys, I really appricate the feedback and will try and do my best to get stream going start of next year! cheers guys, lets make nasus great again!! (kapp) (maybe one day)",
+   "id": "a5w0mq",
+   "comments": [],
+   "age_days": 2857,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "I believe that AP Nasus is how Nasus is actually supposed to be played. Here's why.",
+   "url": "https://www.reddit.com/r/nasusmains/comments/94p772/i_believe_that_ap_nasus_is_how_nasus_is_actually/",
+   "published": "2018-08-05",
+   "author": "/u/SoupRyze",
+   "body": "Hi. I believe that AP Nasus is how Nasus is actually supposed to be played. Here's why:\n He doesn't get kited. Actually, he does get kited, but he doesn't really care about whether he's kited or not, because a majority of his damage source is from his E, so as long as you can land that E onto, well, anyone, you're pretty much good to go. That's why AP Nasus doesn't have to go into melee range and chase people down to give them DEH CANE, he can just burn them with the flames from hell.\n\n Your E is actually a really, really good spell. When maxed it gives 35% armor penetration and that's pretty much a Lord Dominik's Regard for everyone on your team for free and since you're playing AP Nasus, you will be maxing this first so you're pretty much getting all of this from level 9. It also deals a HELLA damage, from 258 + 72% AP up to a whooping 430 +120% AP for 5 seconds, and another thing, this thing is HUGE. A Karthus with his E maxed does 550 + 100% AP in 5 seconds, and Karthus doesn't even max E first, so basically you're throwing out Karthus passive on the ground for your enemies to step on. Coupled this with Rylais and Liandries, anyone who steps on this shit is pretty much fucked: they are stripped off their armor, they are slowed and are taking %max HP AP burn and is eating what is pretty much Karthus E without Karthus actually being there. Oh and also you pretty much outshove everyone in the game, even Aurelion Sol, so if it's a scary matchup and AP Nasus can't really fight them, just press E and watch them waste their resources to push back into you. \n\n Your W is a mini exhaust that you can spam on things that are diving you and your backline, not much to say about this, it's just overall a good spell.\n\n Your Q when coupled with Lich Bane will still hurt tons if not even more. True, you probably won't have as many stacks as a conventional Nasus, but your Qs now have +50% AP ratio to make up for the stacks you don't have. Coupled this with your R and I assure that you are still hella scary at close range, and the best thing is you don't get hit by ADCs and cowards who hit you from far away, because what you will be doing as AP Nasus is essentially be the \"gate keeper\" for your team in teamfights. You stand in between your frontline and backline, casting your E on as many people as possible to, well, damage them and help melt the enemy frontline before they breach through your frontline. Anything that tries to dive your team, now they have to fight the 4k HP Nasus along with his backline, and you press Q on them and now they are at half HP because believe it or not your Q still hurts and is burning from the flames that comes from your glorious doggo body. What's that, the enemy's backline just punched the shit out of your frontline and now they are trying to approach you and your little friends? Well they either have to pass your very balanced Spirit Fire, or they take the long way and gives up good positioning to stay safe from scary circle of BS, and should they come too close, you still have a melee range nuke to send them to the underworld. \n\n Conclusion: AP Nasus is strong independent doggo midlaner who doesn't get kited, isn't tied to any specific playstyle, and is very good boy.",
+   "id": "94p772",
+   "comments": [],
+   "age_days": 2987,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "The \"Quas Build\" Helpthread",
+   "url": "https://www.reddit.com/r/nasusmains/comments/5bnh42/the_quas_build_helpthread/",
+   "published": "2016-11-07",
+   "author": "/u/Umarrii",
+   "body": "The \"Quas Build\" Helpthread Preface There seems to be quite a lot of interest in this new method of playing Nasus, so regardless of personal opinion whether we like it or not, it's a playstyle people are free to use and personally I think everyone's playstyle should be respected. It may work for some, may not for others, it's for you to try and find what works best for you and how you want to play. Let this thread serve as a helpful resource for anyone seeking an introduction or assistance with this method.\n Many Nasus Mains and Quas himself agree that this method probably won't be best suited for lower elos where teams are less coordinated. It's recommended that you use this playstyle in hard matchups or higher elo of play where you and your teammates have strong knowledge of macroplay and are coordinated. The \"normal\" style of Nasus will probably yield you more success but this is something else to try out.\n Introduction Who is Quas? Quas is a professional League of Legends player who played in the NA LCS for NRG eSports in the Top Lane during the Summer Split.\n Why did this build only just come about now? In patch 6.21, Nasus received changes to his R, giving him Armour and Magic Resist instead of AD. Alongside this, the extra range provided by Q and R now stack. The changes in the Patch Notes can be found here (imgur).\n What is the \"Quas Build\"? Max E first instead of Q\n Quas has been maxing E first instead of the standard Q. Maxing E provides stronger trades during the lane and provide some kill pressure on the enemy. This extra pressure in lane comes at the cost of sacrificing sacrificing stacks on your Q.\n You might not need to start with E level 1, and can opt for Q when you're not under any real pressure at level 1.\n Double Doran's Ring and Corrupting Potion early\n Quas starts with a Doran's Ring when at risk of being all-in'd by the enemy laner (e.g: Riven) as this makes it easier to farm with E and ensure you aren't completely deprived of CS/XP.\n Starting with Corrupting Potion is more optimal when needing the extra sustain in the health/mana it provides until obtaining enough gold for at least a doran's ring on the first back.\n Obtain Q stacks after lane dominance has been obtained.\n Lane dominance is obtained through having kill pressure on your enemy laner. This is often obtained through being ahead on the enemy laner through a combination of kills, health, mana, gold, XP, the ability to punish the enemy through trades or jungle presence.\n You can then farm stacks using Q without contention. You probably will also have more CDR which will allow you to stack Q quicker.\n Make use of extra tankiness from Ult to win fights in lane to obtain lane dominance.\n\n You don't have to splitpush, you can group and be a huge frontline for your carries.\n\n Build Runes Image of Armour Rune Page\n Image of MR Rune Page\n Page Marks Seals Glyphs Quintessences Armour 9 x Attack Speed 9 x Health/lvl 3 x MR/level & 6 x CDR/lvl 3 x Armour MR 9 x Attack Speed 9 x Health/lvl 3 x MR/level & 6 x CDR/lvl 3 x MR Masteries 0/18/12 with Stormraider's Surge.\n Image of Masteries Page\n Item Build This seems to vary game-to-game.\n So against AD opponents, he seems to go for a raptor's cloak for the armour, then finishing into a Zz'rot, Tabis and then a Spirit Visage to make the core of your build.\n Against AP opponents, he goes the negatron cloak for the MR, then finishing into a Zz'rot or stacking more MR through a Spirit Visage.\n However this seems to vary every game. If you're able to pressure in lane with just a cloth armour/null-magic mantel then he goes for the Sheen right after where he continue stacking in lane whilst pressuring.\n Be sure to check the links to Quas' accounts below to see what he's been building!\n Here are some images of his item builds recenltly:\n http://i.imgur.com/h4H0pFH.png\n http://i.imgur.com/KX7Dh3Z.png\n http://i.imgur.com/l7iWYmB.png\n Resources Quas' Account \"Entranced\" OP.GG\n Quas' Account \"Por el Medallon\" OP.GG\n Quas on Twitch\n YouTube VoDs\n /r/NasusMains Quas Build Theorycraft\n Dong Huap - \"New Quas Nasus Vs Old Stack Q Nasus\" - YouTube\n Have any questions? Feel free to ask any questions down below and the community of /r/NasusMains will do their best to answer them!\n Another great place to ask Quas about questions is via his stream!\n Feedback If there's anything you want to be added or changed in this thread, feel free to let me know! I myself am an avid League of Legends player but not a Nasus Main so your knowledge is likely to be better than mine.\n Many thanks,\n Umarrii.\n Ty for the gold kind stranger doge, hope this helped you :)",
+   "id": "5bnh42",
+   "comments": [],
+   "age_days": 3623,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  }
+ ]
+}

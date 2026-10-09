@@ -1,0 +1,951 @@
+{
+ "champion": "Malphite",
+ "subreddit": "malphitemains",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "Typical Matchup in Toplane",
+   "url": "https://www.reddit.com/r/malphitemains/comments/1wyu47z/typical_matchup_in_toplane/",
+   "published": "2026-10-06",
+   "author": "/u/reerylthyo",
+   "body": "",
+   "id": "1wyu47z",
+   "comments": [],
+   "age_days": 3,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "A listicle of 25 Malphite matchups",
+   "url": "https://www.reddit.com/r/malphitemains/comments/1v4ibx3/a_listicle_of_25_malphite_matchups/",
+   "published": "2026-07-23",
+   "author": "/u/AntiqueLayer9645",
+   "body": "I find it kinda hard to find one centralized place to look up detailed Malphite's matchups that actually guide you through level-by-level laning, kill thresholds, teamfight strategies, and other more knowledge-based parts of the game (backing for items, when to chunk hp to set up a future kill, etc.). Here is my attempt to consolidate the information I can find around the internets. I can't say I'm a good player by any stretch (plat at my best), so all of the content will need huge improvements over time, especially with the help of this sub. It would be absolutely amazing to get your feedback on how to improve this Malphite database and website :)\n Currently, I've gathered information for 25 matchups: Aatrox, Camille, Cho'Gath, Darius, Fiora, Garen, Gnar, Illaoi, Irelia, Jax, Jayce, K'Sante, Kennen, Kled, Mordekaiser, Ornn, Renekton, Riven, Sett, Shen, Sion, Teemo, Tryndamere, Vladimir, Yorick\n https://www.upmatched.xyz/champions/malphite/",
+   "id": "1v4ibx3",
+   "comments": [],
+   "age_days": 78,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Malphite Main's Bench",
+   "url": "https://www.reddit.com/r/malphitemains/comments/1ud07py/malphite_mains_bench/",
+   "published": "2026-06-22",
+   "author": "/u/Both_Inspection_9959",
+   "body": "Hey all,\n What is your champ bench so that you can \"cover your bases\" so to speak when malphite is banned or not a good matchup?",
+   "id": "1ud07py",
+   "comments": [],
+   "age_days": 109,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Who is malphite mid good into?",
+   "url": "https://www.reddit.com/r/malphitemains/comments/1t701qj/who_is_malphite_mid_good_into/",
+   "published": "2026-05-08",
+   "author": "/u/tft002",
+   "body": "I recently started playing him (as a mid main) as counterpick into either zed or full ad teams. It's worked wonders personally. \n From a matchup pwrsepctive, who else would he be good into? I assume othwr ad assassins like talon/qiyana, what about yasuo?",
+   "id": "1t701qj",
+   "comments": [],
+   "age_days": 154,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "As an urgot main",
+   "url": "https://www.reddit.com/r/malphitemains/comments/1t64cnr/as_an_urgot_main/",
+   "published": "2026-05-07",
+   "author": "/u/Blackiechan808",
+   "body": "Hey guys,\n I’m plat 3 and I’m urgot main and thought about adding another champ to the pool that will be an AP option and also help in being a tank and also an ap option, I hate mord and banning him so I won’t play him, I don’t like how kayle works that is mostly a gambling, Gwen is nice but didn’t like her enough after trying her.\n I am leaning between him and ornn\n May I know some tips, matchups, builds, runes and who should I watch?\n Some matchups I’ve been struggling are(non adding the horrible ranged top lanes) for example malph but I don’t despite him like mord, yorick, rumble, Olaf can be annoying as well, ksante, TK.\n Anything will help thanks in advance guys :) ROCK SOLID",
+   "id": "1t64cnr",
+   "comments": [],
+   "age_days": 155,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I need help to really fuck an irelia",
+   "url": "https://www.reddit.com/r/malphitemains/comments/1t1q99k/i_need_help_to_really_fuck_an_irelia/",
+   "published": "2026-05-02",
+   "author": "/u/suculusalam",
+   "body": "I've made a bet with my friend that I'd pick malp and he picks irelia in toplane. I'd kill him at least 3 times with 40cs diff before he can kill me even once. He is a jungle main but plays irelia mid from time to time. I played this matchup both as malp and ire plenty of times so I know it fairly well, but I need to win this with no risk. We both are emerald. What should I do to guarantre my win.",
+   "id": "1t1q99k",
+   "comments": [],
+   "age_days": 160,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Why W max last?",
+   "url": "https://www.reddit.com/r/malphitemains/comments/1rdh67f/why_w_max_last/",
+   "published": "2026-02-24",
+   "author": "/u/HashTagJustSayings",
+   "body": "I want to pick up malphite after trying him a couple times, but I'm confused at the build guides always maxing W last. I can understand maxing Q into poke matchups, but wouldn't the passive Armor boost make you want to max W sooner than later?",
+   "id": "1rdh67f",
+   "comments": [],
+   "age_days": 227,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Whenever I pick malph into good matchups xD",
+   "url": "https://www.reddit.com/r/malphitemains/comments/1qsfmcw/whenever_i_pick_malph_into_good_matchups_xd/",
+   "published": "2026-01-31",
+   "author": "/u/Zurku",
+   "body": "",
+   "id": "1qsfmcw",
+   "comments": [],
+   "age_days": 251,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "malphite spreadsheet",
+   "url": "https://www.reddit.com/r/malphitemains/comments/1p6d07o/malphite_spreadsheet/",
+   "published": "2025-11-25",
+   "author": "/u/Hunt_EG",
+   "body": "guys anyone got an updated malphite matchup and builds guide spreadsheet, cuz everything out there is just outdated or just bad.",
+   "id": "1p6d07o",
+   "comments": [],
+   "age_days": 318,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Sion???",
+   "url": "https://www.reddit.com/r/malphitemains/comments/1oopvuh/sion/",
+   "published": "2025-11-05",
+   "author": "/u/sekelleu",
+   "body": "What can big rock do against Sion? What items do you guys like to buy in this matchup?",
+   "id": "1oopvuh",
+   "comments": [],
+   "age_days": 338,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Matchup against Jax tips pls",
+   "url": "https://www.reddit.com/r/malphitemains/comments/1ooiang/matchup_against_jax_tips_pls/",
+   "published": "2025-11-04",
+   "author": "/u/UsualTheory7461",
+   "body": "Hello, I am a Silver elo player and I would like to know how to fight against Jax, builds, first itens and runes to go against him in the lane and tips for the matchup",
+   "id": "1ooiang",
+   "comments": [],
+   "age_days": 339,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Does this champion explanation even sound right?",
+   "url": "https://www.reddit.com/r/malphitemains/comments/1on538t/does_this_champion_explanation_even_sound_right/",
+   "published": "2025-11-03",
+   "author": "/u/Time_Force_9698",
+   "body": "source-https://op.gg/lol/champions/malphite/build/top\n Kinda feels like a surface-level answer tbh. I don’t really play Malphite, so I wanted to check. It’s kinda cool, but I actually asked about a match and it gave me a totally random response 💀",
+   "id": "1on538t",
+   "comments": [],
+   "age_days": 340,
+   "recency_weight": 1.0,
+   "topics": [
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What are some creative malphite ''combos'' or playstyle varieties?",
+   "url": "https://www.reddit.com/r/malphitemains/comments/1odn4nh/what_are_some_creative_malphite_combos_or/",
+   "published": "2025-10-22",
+   "author": "/u/TupluTV",
+   "body": "In terms of builds ive seen some creativity in this sub like a HoB one but thats all ive seen. In terms of ''combos'' i know malph is this braindead champ but i feel like there can be some creative moves, but i feel like its limited to matchups. The flashes or hextech belt to bait key abililties/flashes are all just the norm now, whether it be for fun or not, i also sometimes flash and ult akali under tower when she uses e2 but thats about it. Does anyone have cheese tactics like this? Or maybe a playstyle and build more focused on 1v1? I guess it kinda goes against the champ's playstyle itself but im not really looking for anything to play in ranked...even if it would probably work since im in bronze 4 anyways lol (climbed mostly with malph mid and top btw💪💪💪). So if anyone has any experience about matchup dependent cheeses or playstyles, would love to know!",
+   "id": "1odn4nh",
+   "comments": [],
+   "age_days": 352,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "When do I go AP Malphite over Armor?",
+   "url": "https://www.reddit.com/r/malphitemains/comments/1jvn529/when_do_i_go_ap_malphite_over_armor/",
+   "published": "2025-04-10",
+   "author": "/u/bringthewaffle",
+   "body": "Question in title. I'm a Silver 2 top laner that loves malphite but tends to blindly follow builds instead of understanding matchups. Wanted to know which scenarios I should be build AP instead of the traditional armor?",
+   "id": "1jvn529",
+   "comments": [],
+   "age_days": 547,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Any good cheat sheet for what matchups to take comet vs grasp in toplane?",
+   "url": "https://www.reddit.com/r/malphitemains/comments/18lldbq/any_good_cheat_sheet_for_what_matchups_to_take/",
+   "published": "2023-12-18",
+   "author": "/u/lookherebroimfun",
+   "body": "Gangplank?\n Riven? \n Fiora?\n Comet vs grasp is a completely different playstyle (Q max vs taking 1 point), and choosing wrong can really screw your lane.",
+   "id": "18lldbq",
+   "comments": [],
+   "age_days": 1026,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "What is a good second champion to add to Malphite?",
+   "url": "https://www.reddit.com/r/malphitemains/comments/175h26t/what_is_a_good_second_champion_to_add_to_malphite/",
+   "published": "2023-10-11",
+   "author": "/u/HODLingMONKEY",
+   "body": "Im currently Silver 3 playing Top and I have started playing Malphite against AD bruisers that used to give me a lot of trouble (mainly Tryndamere, i hate that stupid champ). I have some situational picks that go to depending on what my enemy picks:\n Mundo, when the enemy picks Darius. He just cant get close to me with my passive, I dont feed him, farm with cleaver and scale better \n Nasus, when the enemy is Teemo, I put 2 points in Q and max W, that little rat cant do anything after that. \n But I dont enjoy the playstyle particularly of both of these champs, I just like the matchups. Ive been considering blind picking Malphite when I have to but I dont know if that’s viable. \n What is a good second champ to pick when Malph is not viable (lots of AP) or I dont know what I will be up against?",
+   "id": "175h26t",
+   "comments": [],
+   "age_days": 1094,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "A tip for playing Malphite top into all matchups",
+   "url": "https://www.reddit.com/r/malphitemains/comments/11z9g4j/a_tip_for_playing_malphite_top_into_all_matchups/",
+   "published": "2023-03-23",
+   "author": "/u/josefjson",
+   "body": "I know this might be basic but whatever. Here's just a simple tip to make laning easier. \n If you're facing an AD champ, except certain cases, go tank Malphite, stack armor. Into AP champs, and also Illaoi, Ornn and Sion, run AP Malphite. Stand behind minions and perma poke with Q. Start with Dorans ring, Tear or Corrupting. When you have 1300, get lost chapter. From then on your lane will be playable. Basically, if the matchup is unplayable as tank, go AP. \n Also, remember that their top and mid might switch after they see Malphite to counter you.",
+   "id": "11z9g4j",
+   "comments": [],
+   "age_days": 1296,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "malphite tier list matchup. What are all your takes?",
+   "url": "https://www.reddit.com/r/malphitemains/comments/yglznz/malphite_tier_list_matchup_what_are_all_your_takes/",
+   "published": "2022-10-29",
+   "author": "/u/DankMagician2500",
+   "body": "",
+   "id": "yglznz",
+   "comments": [],
+   "age_days": 1441,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "yo, guys. i want to otp this mountain dude.",
+   "url": "https://www.reddit.com/r/malphitemains/comments/w2oud5/yo_guys_i_want_to_otp_this_mountain_dude/",
+   "published": "2022-07-19",
+   "author": "/u/palalila09",
+   "body": "Im bronze 1 adc main(but i also played a lot of top in the past so im quite familiar with the role)who got sicked tired of this role and want to climb again to gold 4 in the most boring and chill fashion ever (maining THE ROCKy balboa himself). I choose this champ because he is probably the easiest thing to play in the game, has a lot of builds options like full ap, full tank, hybrid or even on hit build if you want some spicy stuff and it seems to not have very hard matchups in the toplane, at least in this elo where people doesnt know how to use their champs properly. What do you guys think? Sould i give him a try? I know there are much better options, but fuck it i just dont want to stress my brain anymore cuz i also dont have time to play that much as i used to.",
+   "id": "w2oud5",
+   "comments": [],
+   "age_days": 1543,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Want to learn Malphite because of 12.10 any tips on matchups you have would be appreciated a ton!",
+   "url": "https://www.reddit.com/r/malphitemains/comments/uk64nc/want_to_learn_malphite_because_of_1210_any_tips/",
+   "published": "2022-05-07",
+   "author": "/u/TrrDemo",
+   "body": "Looking to learn a well rounded tank and take Malphite into high elo games, currently I am an Irelia one trick taking xerath as an alternative if she gets banned. If anyone can tell me the matchups they think are the hardest, how to play as Malphite in these matchups and the easiest matchups he has I would love to hear what you have to say! I am going to be spamming him this week to get to know his kit better but I want to know going into fights how I should play from people who know him well. I would like to play him as a tank and not as an ultimate abuser. But yeah if anyone has any tips at all I would appreciate you giving me some!",
+   "id": "uk64nc",
+   "comments": [],
+   "age_days": 1616,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Looking for a champ to cover some of malphites bad matchups",
+   "url": "https://www.reddit.com/r/malphitemains/comments/uhacwk/looking_for_a_champ_to_cover_some_of_malphites/",
+   "published": "2022-05-03",
+   "author": "/u/Flinnes84",
+   "body": "Any recommendations for good champ pools to compliment malphite? I really love playing him top but mostly play draft and have a hard time when someone picks a champ that's a really rough matchup for him so looking for a top laner to cover some of those matchups. Thanks for the help :)",
+   "id": "uhacwk",
+   "comments": [],
+   "age_days": 1620,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How do i deal with champs that excel on extended fights early on?",
+   "url": "https://www.reddit.com/r/malphitemains/comments/t3jtgw/how_do_i_deal_with_champs_that_excel_on_extended/",
+   "published": "2022-02-28",
+   "author": "/u/Fan224",
+   "body": "I have recently been having trouble dealing with champs like yasuo, yone, irelia and similar. \n Who can genreally harrash you and trade safely while also having sustain in some way, but the main problem i have is that they are autoattackers with insane extended trading potential, if as malphite, or any other champion, i go near them they just melt me with LT (yasuo and yone). \n So do i rush steelcaps or warden's mail? Should i try to fight them or do i respect their early game? And also as Malphite should i max E or W in these matchups?",
+   "id": "t3jtgw",
+   "comments": [],
+   "age_days": 1684,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Which ability to max based on macthups",
+   "url": "https://www.reddit.com/r/malphitemains/comments/s8lovq/which_ability_to_max_based_on_macthups/",
+   "published": "2022-01-20",
+   "author": "/u/agapaleinad",
+   "body": "Hi, does anyone have a list of what abilities they max for each matchup? I primarily care about:\n Teemo Quinn GP Kennen Jayce Vayne Graves Wukong Tryndamere Gwen Kayle Gnar\n Thanks!",
+   "id": "s8lovq",
+   "comments": [],
+   "age_days": 1723,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Grasp Malphite is Dead, RIP (at least into Lethal Tempo champs)",
+   "url": "https://www.reddit.com/r/malphitemains/comments/rbn1d6/grasp_malphite_is_dead_rip_at_least_into_lethal/",
+   "published": "2021-12-08",
+   "author": "/u/night-light-6236",
+   "body": "Love Malphite. Really started to exploit him after picking up The Rock Titan's matchup guide. One of the best things about the matchup guide was learning about all the matchups that you can use Grasp of the Undying into. Melee champs like Tryndamere and Sett. Garen became an easy matchup for me with Grasp (He still is). Tryndamere was actually one of the easiest matchups, you just max Malphite's E and take grasp and boom, he literally can't play the game after your first buy. Which fits the theme for Malphite being a literal rock.\n But now after the Lethal Tempo rework you just can't walk up to champs that run Lethal Tempo, ever, they Just auto attack + Lethal Tempo through your E. Everyone is a Darius now, sometimes without cooldowns or Mana cost even, Sett, Tryndamere, Udyr, Nocturne. Everyone's worse than Darius now. \n They just slow push you into tower, cheater recall for an Item advantage and kill you in your wave when you try to crash your wave (break the freeze).\n It feels like they zone me off my wave even when it's big and slow-pushing towards them (which feels like having nails crammed up my nose).\n Grasp's charge-up time is a problem, by the time it charges on the first wave you might as well be dead.\n So RIP Grasp Malphite (into these matchups), I guess I'm going to try runes and builds that use Q max (Comet/Phase Rush) even though I know that Tryndamere and Sett can usually out sustain your Q poke.\n Any advice or guidance would be appreciated.\n My accounts on EUW are LpThief34,and Reaplocked.",
+   "id": "rbn1d6",
+   "comments": [],
+   "age_days": 1766,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Great Malphite Mid Strat",
+   "url": "https://www.reddit.com/r/malphitemains/comments/qi5utr/great_malphite_mid_strat/",
+   "published": "2021-10-29",
+   "author": "/u/Psycho-Marine",
+   "body": "Okay, so the reason I play malphite mid is because malphite hits hard against squishy champs which most mid laners are, once in awhile you'll get a galio or something but it's not seldom. Your hardest matchups in mid lane would be Sylas and echo due to their ultimate ability which is the reason I ban either one of those champs when I play this strategy.\n Runes are very simple, you're going to go arcane comet, mama flow band, absolute focus, and gathering storm. Arcane comet and mana flow band is to help you with poking lane, and gathering storm and absolute focus is to help burst down those squishies later on in the game.\n Secondary runes can be very versatile, I see a lot of people go domination, however I do like to go in the inspiration and pick free boots and futures market. \n Free boots is 300 gold Plus they're faster boots so they're actually more gold efficient than regular boots, this helps so you don't have to go with predator which will hurt your Laning phase and damage, and then the futures market is to help you buy your power Spike items faster for AP and ability haste. You can go ultimate hunter but you'll have so much ability haste with this build it may be too much, but by all means go for it if you prefer.\n You're going to take teleport and ignite, but you'll take flash against click cc'd champ or someone that can easily cc you for their Jungler to hop in and beat you. Example, veigars cage kinda makes it hard for to escape, so probably take flash. If it's a skill shot CC ability, take TP and ignite and play safe behind your minions. Teleport is to help you back door as well as TP bot or top or to objectives to ult and make plays and get your team ahead which is the purpose of this build and ignite is for that kill presence / to help against heals from enemy ADC/sup.\n You're basically going to start Q and you're only going to poke when you have arcane and mana flow up to try to save mana while still doing damage. You're going to play like a little bitch this game and just farm as safe as possible, it's fine to give up some CS but try to at least stay within XP range. \n Your first item that you're going to build is going to be luden's tempest, it gives everything that you need, ap, an AOE to help provide extra damage to enemy and to help clear faster, ability Haste, and it's not the most expensive item out there. After you get your free boots, you're going to go with CDR boots or magic pen boots if they have 2 or more tanks on their team. 2nd item is going to be hourglass if your mid lane champion is an AD champ, the reason being is because hour glass offers ap for your Q, E and R, ability haste, as well armor to help make you tankier and provide extra damage for W due to the armor scaling, it allows you to be invulnerable after your combo and it's very gold efficient.\n If you're against a mage or if the enemy team has two or more AP champs, you're going to build cosmic drive second. The reason for cosmic drive second is because it's not much more expensive than hourglass, it gives more AP for burstability, and it gives you a total of 40 ability haste on top of your 20 from luden's tempest and another 20 from CDR boots giving you 80% ability haste. \n If you built hour glass 2nd, get cosmic drive 3rd or vice versa. \n Once you have luden's tempest, cosmic drive and hourglass, you're going to have so much AP for burst, ability haste for R and Q, and armor to help against burst from enemy AD champs as well as empowers your W from the armor scaling. \n 5th and 6th item is situational. If they're a heavy AD and healing orientated team then I will go with something like thorn mail for my 5th and death cap for 6th to top off your burst damage, however you can go void staff into death cap if they're building MR and if you need some extra magic pen since you won't be having magic pen boots.\n Your main objective is to get your team ahead once you get 6. You will be roaming. You will be TPing bot or top (If top is a squishy) and you're just gonna ult them and try to get your team ahead. You're going to be ulting backline squishes to try to get them out of team fights so your team can clear up the rest of the enemy team. \n Good luck summoners and I can't wait to see more of you malphite mains climb up the ranks",
+   "id": "qi5utr",
+   "comments": [],
+   "age_days": 1806,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Fiora matchup",
+   "url": "https://www.reddit.com/r/malphitemains/comments/q7zlmy/fiora_matchup/",
+   "published": "2021-10-14",
+   "author": "/u/lukkiko",
+   "body": "I've been facing a lot of fioras recently and they always seem to have a huge advantage on me. Her kit is just hard to fight against, if I all in she can go invincible, she can catch up to me and just delete my health while getting hers back. I know a bit of what i should be doing but would like some advice on how to do it.",
+   "id": "q7zlmy",
+   "comments": [],
+   "age_days": 1821,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Malphite Appreciation post",
+   "url": "https://www.reddit.com/r/malphitemains/comments/p4ycsn/malphite_appreciation_post/",
+   "published": "2021-08-15",
+   "author": "/u/moms_spaghetti27",
+   "body": "Just what the post says.\n When I play Agaisnt ranged top laners with my mains, its complete and Absolute pain.\n But with Malphite I laugh the whole game.\n Vayne ? Teemo ?\n No problem.\n Just Q them to half health and all in them if they are dumb enough to stay.\n The champ truly brings peace to my mind Agaisnt such matchups.\n THANK YOU MALPHITE",
+   "id": "p4ycsn",
+   "comments": [],
+   "age_days": 1881,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Hello! I'm looking for a malphite main youtube channel, or something like that (and a in deep guide maybe).. Where i can learn all about the matchups and the champion in general. Ty guys <3",
+   "url": "https://www.reddit.com/r/malphitemains/comments/onvljq/hello_im_looking_for_a_malphite_main_youtube/",
+   "published": "2021-07-20",
+   "author": "/u/FernixG",
+   "body": "",
+   "id": "onvljq",
+   "comments": [],
+   "age_days": 1907,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I can't play tank malphite",
+   "url": "https://www.reddit.com/r/malphitemains/comments/o3fzvn/i_cant_play_tank_malphite/",
+   "published": "2021-06-19",
+   "author": "/u/ErrorMacr0",
+   "body": "Hi dear malphitemains members. I've a huge problem.\n Sounds weird but I literally can't play tank malph as a plat- dia elo tank main.I try diffrent rune trees (Grasp/comet) but my winrate in 40+ game is %40. (40 games not played full tank some of them ı play ap. I success more with ap build than tank lol).\n Most of the time ı stay under my tower. Farm patiently but no ı can't become tanky enough to beat Garen & Sett. Reworked mundo matchup is literally nightmare. Even Darius matchup feels much more comfortable.\n Do you have any suggestions?",
+   "id": "o3fzvn",
+   "comments": [],
+   "age_days": 1938,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Malphite vs Sylas matchup",
+   "url": "https://www.reddit.com/r/malphitemains/comments/nzs93k/malphite_vs_sylas_matchup/",
+   "published": "2021-06-14",
+   "author": "/u/Nukkzao",
+   "body": "",
+   "id": "nzs93k",
+   "comments": [],
+   "age_days": 1943,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to lane against Morgana?",
+   "url": "https://www.reddit.com/r/malphitemains/comments/nlxq1k/how_to_lane_against_morgana/",
+   "published": "2021-05-27",
+   "author": "/u/AryaRemembers",
+   "body": "I just laned against Morgana and we went 0-0 but she out farmed me by a lot.\n Her W heals her so much that even after an ult + EQWaa takes her down to 10%, she can stay in lane and heal back up. \n I love Malphite Q but it can only do so much against her root + W combo, and I couldn’t figure out how to close the gap fast enough to kill her before she could retreat to tower.\n Any advice for this matchup?",
+   "id": "nlxq1k",
+   "comments": [],
+   "age_days": 1961,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Divine Sunderer",
+   "url": "https://www.reddit.com/r/malphitemains/comments/ndjc4g/divine_sunderer/",
+   "published": "2021-05-16",
+   "author": "/u/knuckles664yeet",
+   "body": "You can consider this a meme build, or a troll pick, but I kinda love Divine Sunderer on Malphite. I've never seen it mentioned anyhere else, but divine sunderer is the closest item we have to my old favourite, Iceborn Gauntlets (old). I max W with grasp and just whap the enemy laner for a fat chunk. Probably doesn't work in most matchups, only tried it in two (Garen and Tryndamere). While I didn't hard win lane, I broke pretty even or a little ahead and could burst squishies pretty effectively without losing much tankiness. I still went tank items after, to be clear, just wanted my W to hurt as much as possible, and going full tank never feels as good. \n Edit: Read up on frostfire gauntlets, and it says it does extra damage on autos similar to sheen items, but it never felt very strong when I used it.",
+   "id": "ndjc4g",
+   "comments": [],
+   "age_days": 1972,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Runes",
+   "url": "https://www.reddit.com/r/malphitemains/comments/n0lttr/runes/",
+   "published": "2021-04-28",
+   "author": "/u/KingTightface",
+   "body": "Personally grasp myself other than in certain matchups where comet is a must. What runes do you guys prefer\n View Poll",
+   "id": "n0lttr",
+   "comments": [],
+   "age_days": 1990,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "W max or E max with grasp?",
+   "url": "https://www.reddit.com/r/malphitemains/comments/mw6vhv/w_max_or_e_max_with_grasp/",
+   "published": "2021-04-22",
+   "author": "/u/Argojit",
+   "body": "Hey. It seems like grasp and maxing either w or e seems better in melee matchups. but to me W seems like a better skill to max however, I've seen challenger malphs max E. Which one is better and why?",
+   "id": "mw6vhv",
+   "comments": [],
+   "age_days": 1996,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Malphite matchups tier list based on my experiencece",
+   "url": "https://www.reddit.com/r/malphitemains/comments/mo2n17/malphite_matchups_tier_list_based_on_my/",
+   "published": "2021-04-10",
+   "author": "/u/RLaughEmote",
+   "body": "",
+   "id": "mo2n17",
+   "comments": [],
+   "age_days": 2008,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "New and want suggestions",
+   "url": "https://www.reddit.com/r/malphitemains/comments/mfbq6q/new_and_want_suggestions/",
+   "published": "2021-03-28",
+   "author": "/u/bosskhan69",
+   "body": "Hello, Malphitemains\n I am a Toplaner. I mostly main Trynda / Darius and Volibear. (darius has a huge banrate nowa days i rarely get time to pick him) so i want to ask is it worth to master Malphite for Low Elo (bronze - silver ?) Also Need help with Build / Matchup SpreadSheet and a active mobafire guide (if possible). Also last question is there any Malphite Main youtuber if Yes please Share His Yt. Thank You Malphite Mains Looking forward to join the Rock Solid Gang",
+   "id": "mfbq6q",
+   "comments": [],
+   "age_days": 2021,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "AP Rock, Best Rock",
+   "url": "https://www.reddit.com/r/malphitemains/comments/l4b0qv/ap_rock_best_rock/",
+   "published": "2021-01-24",
+   "author": "/u/DoomedDissenter",
+   "body": "Anyone else digging the god rock mid, full AP? I've won my last 10 games straight with him, with an overall 65% win rate over 34 games in gold elo. Love the playstyle, definitely some hard matchups I've run into, but no one knows how to play against you at the same time. Keep grindin fam!\n ​\n ​\n https://preview.redd.it/mbc8q1z9cdd61.png?width=1093&format=png&auto=webp&s=da03fb5dc15bc0aaf7ae5ec5d39918295c73ad42",
+   "id": "l4b0qv",
+   "comments": [],
+   "age_days": 2084,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "The Ultimate Compilation of Matchups in League - And How You Can Help it Grow!",
+   "url": "https://www.reddit.com/r/malphitemains/comments/l232au/the_ultimate_compilation_of_matchups_in_league/",
+   "published": "2021-01-21",
+   "author": "/u/OrbitalPandaXYZ",
+   "body": "Hey everyone! My name's Orbital Panda and I'm currently creating a matchup guide compilation for every champion in the game! While it's only a google doc as of right now, the ultimate goal is to expand it into a full fledged website that'll act as a central hub for all things educational league content. Here's a link to the spreadsheet as is https://docs.google.com/document/d/1W_sKM_p2tDofHD8wGCb--PKEF0MFqyqDPuWbzvgs4GA/edit?usp=sharing\n Currently, I'm still gathering content to display. The majority of champs don't have easily accessible matchup guides, and those that do are often incomplete, outdated, provide little information, or various combinations of the aforementioned issues. For this reason, I'm asking the community at large to provide their own matchup spreadsheets, as well to share any that they have found useful in the past.\n Yes, Timmy, this means I want your hastily scribbled, heavily biased notes. I know you've played 20 games of League in the last year and still call yourself hardstuck silver, but I still want that spreadsheet.\n On the other hand, if you can call yourself a distinguished one trick in some way than I'd appreciate your input even more, and I can show you some of it through putting down your name, your twitch and other related socials ;)\n If you'd like to contribute anything to this project whatsoever, please don't hesitate to contact me through the channels listed below! I will have to ask for you to avoid DMing me on Reddit however, as I seldom check it.\n Discord: Canada#0579\n Email: orbitalpandastreaming@gmail.com",
+   "id": "l232au",
+   "comments": [],
+   "age_days": 2087,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Comet vs Grasp",
+   "url": "https://www.reddit.com/r/malphitemains/comments/kv4m5f/comet_vs_grasp/",
+   "published": "2021-01-11",
+   "author": "/u/varlikip",
+   "body": "Can you go for grasp besides matchups like sett,darius or aatrox?Because I dont think of any other matchup that you can pickup grasp for",
+   "id": "kv4m5f",
+   "comments": [],
+   "age_days": 2097,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "MALPHITE MATCHUPS SPREADSHEET",
+   "url": "https://www.reddit.com/r/malphitemains/comments/k8t5ur/malphite_matchups_spreadsheet/",
+   "published": "2020-12-08",
+   "author": "/u/di0g0_duarte",
+   "body": "Hey guys. Keeping it straight, Im a very factual person. I like to study league in order to get better. One thing that really helps me before each game, is to read my champion matchup spreadsheet on google documents to know the DIFFICULTY, the GAME STRATEGY and HOW SHOULD I PLAY AGAINST THE X CHAMPION, possible runes and/or build. Do you guys know any document where i can find this? \n here's some examples of what im looking for:\n https://docs.google.com/document/d/1drwcIj8Ryh2zv4aIT3lNjMqmXJgxsv4Nb3l8IycNkbI/edit\n https://docs.google.com/spreadsheets/d/1Lx-_eCZLWDTOLbsDwMfJCFG-jkwdxvGbt8oUtF6Rx9U/edit#gid=0",
+   "id": "k8t5ur",
+   "comments": [],
+   "age_days": 2131,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "What is the matchup that makes you want to go afk?",
+   "url": "https://www.reddit.com/r/malphitemains/comments/jie99l/what_is_the_matchup_that_makes_you_want_to_go_afk/",
+   "published": "2020-10-26",
+   "author": "/u/Hektoplasma",
+   "body": "I play top (Tryndamere/Jax/Fiora) and Malphite hard counters my champs, all I need to know is what is the worst matchup for this fucking unkillable rock, I usually pick Mordekaiser, but he's not that good of a lanebully and I can't impact teamfights as well, so what I need to know is: what is the pick that completely negates Malphite, thanks!",
+   "id": "jie99l",
+   "comments": [],
+   "age_days": 2174,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Fun matchup :) epic outplay",
+   "url": "https://www.reddit.com/r/malphitemains/comments/iyhjl9/fun_matchup_epic_outplay/",
+   "published": "2020-09-23",
+   "author": "/u/TryndaRightClick",
+   "body": "",
+   "id": "iyhjl9",
+   "comments": [],
+   "age_days": 2207,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "what happens in tank matchups when both junglers decide not to come top",
+   "url": "https://www.reddit.com/r/malphitemains/comments/iwgxfd/what_happens_in_tank_matchups_when_both_junglers/",
+   "published": "2020-09-20",
+   "author": "/u/Oirampok",
+   "body": "",
+   "id": "iwgxfd",
+   "comments": [],
+   "age_days": 2210,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to play the Shen matchup?",
+   "url": "https://www.reddit.com/r/malphitemains/comments/iujkuo/how_to_play_the_shen_matchup/",
+   "published": "2020-09-17",
+   "author": "/u/RipRipRPRippR",
+   "body": "He usually just E-Q's me chunks me then leaves. How do I trade back evenly?",
+   "id": "iujkuo",
+   "comments": [],
+   "age_days": 2213,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What do I do when Jax Q's me?",
+   "url": "https://www.reddit.com/r/malphitemains/comments/i4gujm/what_do_i_do_when_jax_qs_me/",
+   "published": "2020-08-05",
+   "author": "/u/NPultra",
+   "body": "I know Malphite counters Jax, but I keep losing trades since Jax outsustains me in lane. When Jax Q's me, he follows up with a W and E then walks off. At that point the only thing I can do is E followed by a Q and I pretty much lose the trade, how am I supposed to play this matchup?",
+   "id": "i4gujm",
+   "comments": [],
+   "age_days": 2256,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How do you beat AP Malphite as a mage?",
+   "url": "https://www.reddit.com/r/malphitemains/comments/hy4eps/how_do_you_beat_ap_malphite_as_a_mage/",
+   "published": "2020-07-26",
+   "author": "/u/99thLaw",
+   "body": "I’m a Viktor onetrick and I can’t beat Malphite. I rush merc threads against him every game into hexcore for the waveclear so I can shove and roam. I take barrier but he still one shots me through my merc treads.\n There honestly seems to be no counterplay, it’s actually disgusting how you just die whenever flash isn’t up. I can’t rush banshees because I’m rendering myself useless by not getting my hexcore so I would have to spend over 7000 gold for banshees merc treads and perfect hexcore and even then iso no damage because I went banshees second and I have no mana item.\n Then if he’s just smart he will wait untill his team pops my banshees and then he will still kill me with no counterplay. Meaning I have to get zhonyas, making myself even more useless by having to rush 2 defensive items. \n PHC, Merc Treads, Banshees, and Zhonyas is like 10k gold. So I have to wait at LEAST 13K gold to actually be relevant. \n Please could someone give me tips? I’m really struggling against the Malphite matchup and I’ve hit a wall.",
+   "id": "hy4eps",
+   "comments": [],
+   "age_days": 2266,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "What matchups should you dodge?",
+   "url": "https://www.reddit.com/r/malphitemains/comments/hszy1t/what_matchups_should_you_dodge/",
+   "published": "2020-07-17",
+   "author": "/u/axizz31",
+   "body": "I learned the hard way to dodge mundo top if my team has no one to kill him. In lane I cant fight him or poke him, if jungler is AP and mundo went MR he wont die to ganks, its the only matchup I can't do shit in so I just dodge. So whats your nightmare matchup you refuse to play?",
+   "id": "hszy1t",
+   "comments": [],
+   "age_days": 2275,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I just got Diamond on EUW from one-tricking Malphite and have no one to celebrate with",
+   "url": "https://www.reddit.com/r/malphitemains/comments/hpdckr/i_just_got_diamond_on_euw_from_onetricking/",
+   "published": "2020-07-11",
+   "author": "/u/CainBlackwing",
+   "body": "Hi guys!\n Just wanted to share some happy news that got me shouting out loud in my room when I hard carried my way to Diamond over the past 3 weeks playing only Malphite. Finally I have achieved what I wanted! I'm so happy. I will list the final game stats and my build here.\n ​\n https://preview.redd.it/riza3xhxc9a51.png?width=1581&format=png&auto=webp&s=b898e3dfa2c08f4a485e19388113b81fadb3b0fa\n https://preview.redd.it/8x5u2z3zc9a51.png?width=1286&format=png&auto=webp&s=2cd654ab4cbf562820355bfc6779fd00c76f1e6a\n https://euw.op.gg/summoner/userName=Sin%20VV\n That's 33,5k damage and 17,5k gold. Destroying Gnar in lane while getting camped by Gragas and killing them both. Have a great day and I will end this post with two words:\n TOP\n GAP\n EDIT: There have been a lot of questions about Fiora and Gnar matchup so here is my reply: Fiora and Gnar I treat mostly the same: Their pre-6 poke is a horror movie so I step away from the minion wave and farm a lot under tower until I have Sheen and Ulti (yes, I get Iceborn 1st item). After Sheen and ulti you can consider trading. Also get bramble 1st into Fiora. Both are semi-skill matchups where you can die if you get outplayed by boomerang, Gnar Ulti and Riposte.",
+   "id": "hpdckr",
+   "comments": [],
+   "age_days": 2281,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Thoughts on Malphite in the meta?",
+   "url": "https://www.reddit.com/r/malphitemains/comments/hnf8hb/thoughts_on_malphite_in_the_meta/",
+   "published": "2020-07-08",
+   "author": "/u/Jiri897",
+   "body": "I've had discussions with my friends and it seems that a lot of my friends think Malph is a \"broken\" champ saying how he can just 1 shot carries going full tank with no damaged items, or how he's just stupidly tanky later on in the game, yada yada yada. \n Imo, I think Malph is pretty strong in the meta (talking about Top lane), mostly because a lot of the AD tops (mostly bruisers) get countered hard by him, Irelia, Fiora, Riven, Jax, Tryndamere, Kled, Jayce etc. Malphite in most of these matchups just have to play safe and watch as they start to do no damage to you while you just straight up beat them. Now albeit there are rougher matchups for Malphite like Sett, Darius, or maybe Volibear but that's just in early lane phase and if you just play smart you will then outscale hard after. I think his main drawbacks are really his vulnerability to AP champs top (Morde and Vlad comes to mind) since he wants to build armor and his mana pool is low early, but a lot of that can be sort of remedied with getting MR or conserving mana respectively. Not overpowered but strong because of the champs he's facing.\n Not to mention Malphite is ocassionally seen in pro play sometimes as well, mostly against Wukong (who's strong and popular pick atm top). \n What are your guy's thoughts on Malphite? How strong is he? Feedback is very much welcome.",
+   "id": "hnf8hb",
+   "comments": [],
+   "age_days": 2284,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Malphite runes",
+   "url": "https://www.reddit.com/r/malphitemains/comments/h7aihl/malphite_runes/",
+   "published": "2020-06-12",
+   "author": "/u/HungrySomali",
+   "body": "Hello, i have been playing Malphite with a great success in low plat. Picked him up since he's such a free elo champ.\n I have been having great success with going gathering storm, since it gives you the bonus power and i'm not really going for kills in laning phase anyways, unless they're handed to me or i'm having really good matchup.\n Celerity vs Transcade is whatever, the CDR does it for me.\n However i have been thinking about going Phase rush instead of the comet.\n How do you guys feel about this?\n I have seen some malphite players go PtA, is it legit?\n For secondary runes i go insipiration, usually boots then timewarp tonic or maybe biscuits and sometimes approach velocity if they have somethning i need to chase. Really depends on the matchup The new AV is really cool on malphite. Sometimes i go precision secondary so i get the Triumph and the juicy bonus Tenacity.\n What are your rune setups?",
+   "id": "h7aihl",
+   "comments": [],
+   "age_days": 2310,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Typical Matchup in Toplane",
+   "url": "https://www.reddit.com/r/malphitemains/comments/gui63e/typical_matchup_in_toplane/",
+   "published": "2020-06-01",
+   "author": "/u/Millenium_Condor",
+   "body": "",
+   "id": "gui63e",
+   "comments": [],
+   "age_days": 2321,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Looking to main malphite (tips?)",
+   "url": "https://www.reddit.com/r/malphitemains/comments/gqcwpp/looking_to_main_malphite_tips/",
+   "published": "2020-05-25",
+   "author": "/u/jakevvw",
+   "body": "Hello malphite mains,\n I've been playing only malphite consistently for about 2weeks and im really liking the champ (im gold3 btw). \n Is there any good and public guide or matchup cheat sheet for malphite?\n I still struggle to know when to take Arcane Comet vs Grasp, or when to play agressive lvl1-3 since i dont know the matchups very well. I am also unsure about the itemization, when should i go full tank , hybrid or full ap?\n ​\n Thank you in advance for the attention.",
+   "id": "gqcwpp",
+   "comments": [],
+   "age_days": 2328,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Asking for options in some matchups",
+   "url": "https://www.reddit.com/r/malphitemains/comments/gi9hkx/asking_for_options_in_some_matchups/",
+   "published": "2020-05-12",
+   "author": "/u/FabioGC",
+   "body": "Hello guys,\n Malphite is my most played champ in the toplane but I struggle sometimes with some matchups.\n This is what I have been running:\n Sorcery:\n Comet\n Manaflow band\n Transcendence\n Scorch\n Resolve:\n Conditioning or Second wind (second vs AP poke like teemo I find it a better sustain option)\n Overgrowth\n 2 dmg and 1 armor / 1 mr in the 3 situational runes.\n I used to play with grasp but I feel like the comet helps early vs all matchups and that grasp is not that good but I have been considering to start using it in melee matchups. I don't like going aftershock cause it's like not having a rune in laning phase.\n I play Q max. E max second vs melee autoattackers (jax, trynda, irelia, camille) and vs AP champs. In this case I go bramble vest into tabi before going iceborn. W max second vs Ornn, Poppy (rarely seen tbh).\n I usually build Iceborn Gauntlet first vs AD, Abyssal Mask vs AP and Adaptive Helm vs AP poke (like teemo). I also go mercs vs AP laner. I like going warmogs (as 3rd item when I don't need randuins) because IG provides no health and by doing this I get healthier and more resistant.\n I'm trying to climb but sometimes I win my lane and the game is just over cause my team already fed and is tilted an don't wanna try go to teamfights. \n ​\n Is there any other rune options that I can go vs hard matchups? Do you guys have situational runes vs certain matchups? Or certain ability paths? I feel like I also fall behind cause I have to stay with the team and can't farm most of the games. Then I start getting melted by the enemy carries.\n ​\n I'd like some information. Thanks you in advance!",
+   "id": "gi9hkx",
+   "comments": [],
+   "age_days": 2341,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "When should I pick malphite? Machups",
+   "url": "https://www.reddit.com/r/malphitemains/comments/gf7p72/when_should_i_pick_malphite_machups/",
+   "published": "2020-05-07",
+   "author": "/u/gunalltheweeaboos",
+   "body": "Hi all, I enjoy picking malphite, but I can't call myself a main. I sometimes pick him when against jax or tryndamere, but even then I feel so useless until 6.\n Jax bursts me down with w max, trynda can all-in with crits and ignites.I never feel sure about picking malphite. Am I playing him wrong? \n I usually go grasp ( with shield bash, conditioning, overgrowth, then sorcery with transcendence and gathering storm).\n I feel like malphite is a non-champion before at least lvl 3. I can't stand near minions without having the enemy all-in me every time their dash comes up.\n Do you have any suggestions against these matchups? Jax, Fiora, Trynda and Camille",
+   "id": "gf7p72",
+   "comments": [],
+   "age_days": 2346,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How the fuck do i play against Trynd?",
+   "url": "https://www.reddit.com/r/malphitemains/comments/fci8gt/how_the_fuck_do_i_play_against_trynd/",
+   "published": "2020-03-02",
+   "author": "/u/Sternfeuer",
+   "body": "So please laugh at me as you want. I play a fair amount of Malph and do ok even in bad matchups. But every time i pick him against Trynd i just feed my ass off. Lvl 1 i cannot contest his push. Then i have to let him push in and the wave bounces. Lvl 2/3 he has full rage and if i step close he just AAs me. I need to E defensively he just spins out. This happens like 5 times and then im oom or if he got lucky crits i'm like 50% hp and he just runs me down. Usually they play ignite and before some items he completely laughs about my E thanks to lethal tempo. I've tried comet, but he can easily outsustain the poke and im squishy as fuck. I've tried grasp/inspiration (for cookies) and i just go oom.\n God forbid he gets a gank early, because then i just die.\n I know i'm an embaressment, pls help.",
+   "id": "fci8gt",
+   "comments": [],
+   "age_days": 2412,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Noob Malph main",
+   "url": "https://www.reddit.com/r/malphitemains/comments/ezjohr/noob_malph_main/",
+   "published": "2020-02-06",
+   "author": "/u/Big_Boss51",
+   "body": "Hey everyone, Malphite is my fav champ and I'm also new to League. For my skill level, I know I can play him well mechanically for the most part. I just really needed some tips and pointers.\n 1- I know it can be matchup dependent but as a rule of thumb, is it more viable to go AP Malphite or Tanky Malphite?\n 2- I seem to do pretty bad against ranged pokers like Teemo with only my Q to defend myself. How can I play around this?\n 3- Early game, I can be pretty bad at managing my mana, especially against pokers. How can I play around this?\n 4- The one thing I am pretty bad with Malph is farming (early game), his auto attacks barely do damage and it kinda feels clunky. How do you guys deal with this?\n Thank you everyone! Keep it ROCK SOLID.",
+   "id": "ezjohr",
+   "comments": [],
+   "age_days": 2437,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Skill Order for Lane Bully Matchups?",
+   "url": "https://www.reddit.com/r/malphitemains/comments/cnu8m3/skill_order_for_lane_bully_matchups/",
+   "published": "2019-08-08",
+   "author": "/u/HardstuckPlasticV",
+   "body": "Question in title. If you are up against something like a darius or Olaf that can run you down in extended trades, is there a consensus on the optimal skill order? I've been hearing that w max is good, but it doesn't seem as safe as q max with comet. Thanks in advance!",
+   "id": "cnu8m3",
+   "comments": [],
+   "age_days": 2619,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Maxing W",
+   "url": "https://www.reddit.com/r/malphitemains/comments/cfuqy9/maxing_w/",
+   "published": "2019-07-21",
+   "author": "/u/defiantnipple",
+   "body": "Hey guys, wondering what your thoughts are on a W max build, which is what I used to normally go vs. most melee matchups with grasp and a tanky build to great effect. It feels weaker to me now. Before, W max would have me autoing people for heavy damage after a few points in the ability, but no longer. I know its early but stats websites seem to indicate it's weaker. What do you guys think?",
+   "id": "cfuqy9",
+   "comments": [],
+   "age_days": 2637,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Good malphite build and when to go tank vs ap also issues with farming?",
+   "url": "https://www.reddit.com/r/malphitemains/comments/b2j72e/good_malphite_build_and_when_to_go_tank_vs_ap/",
+   "published": "2019-03-18",
+   "author": "/u/ynot269",
+   "body": "been playing a ton of malphite recently and having alot of fun but i struggle hard with farming, my build is rush ludens echo (for the cdr and burst) and then tank up.\n ​\n should i be going full ap and make my goal to nuke the adc? currently im the hard engage and i run transcendence and cosmic insight which gives me 45% cdr (makes the ult around 1 min cd which is HUGE) when I pick up IBG.\n ​\n I max E > W > Q since E is good for wave clear and like I said i struggle with farm heres [my op.gg](https://na.op.gg/summoner/userName=YourGFSays) if you want to take a look.\n I usually start Dorans ring for the mana regen and ap, unless Im in heavy poke matchup then ill go D shield.\n when i get ahead because of pure stats and the W max, I can get really tanky, but when I'm forced to build MR or behind with ludens, im really squishy as soon as I go in.\n ​\n If I go full ap what should the build be or what do you recommend?\n If I go full tank what do you recommend?\n ​\n also who are you guys banning, because i auto ban Darius, and there are some matchups where I regret doing so since he destroys some of the laners im against.",
+   "id": "b2j72e",
+   "comments": [],
+   "age_days": 2762,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Matchup of the Week : Malphite - Shard of the Monolith • r/YasuoMains",
+   "url": "https://www.reddit.com/r/malphitemains/comments/8ti0vd/matchup_of_the_week_malphite_shard_of_the/",
+   "published": "2018-06-24",
+   "author": "/u/SleepyLabrador",
+   "body": "",
+   "id": "8ti0vd",
+   "comments": [],
+   "age_days": 3029,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  }
+ ]
+}

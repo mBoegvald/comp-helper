@@ -1,0 +1,797 @@
+{
+ "champion": "Viktor",
+ "subreddit": "viktormains",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "guys! Viktor is amazing! I finally did it!",
+   "url": "https://www.reddit.com/r/viktormains/comments/1wc4vss/guys_viktor_is_amazing_i_finally_did_it/",
+   "published": "2026-09-10",
+   "author": "/u/Gator_art",
+   "body": "thats it, I won league. (I play him bot lane). \n only been playing league for a little over a year. now to hit plat >.>",
+   "id": "1wc4vss",
+   "comments": [],
+   "age_days": 29,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Hit Diamond on Viktor",
+   "url": "https://www.reddit.com/r/viktormains/comments/1up4u94/hit_diamond_on_viktor/",
+   "published": "2026-07-06",
+   "author": "/u/Arkanno",
+   "body": "Feels like my mid brain has expanded 10x since focusing on my Viktor this season after playing Xer/Ahri for years. Spent a lot of time learning how to consistently dominate lane against various matchup types and control the mid game with my power spike.\n Itemization also feels incredibly important as you have so many solid options after BFT.\n My permaban has been Akali, delete that champ riot thx.\n Let me know if you have any specific questions!",
+   "id": "1up4u94",
+   "comments": [],
+   "age_days": 95,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Viktor Main - Ask me anything!",
+   "url": "https://www.reddit.com/r/viktormains/comments/1u1v38e/viktor_main_ask_me_anything/",
+   "published": "2026-06-10",
+   "author": "/u/boon_gay",
+   "body": "https://preview.redd.it/48w2n4lmgi6h1.png?width=1272&format=png&auto=webp&s=60086725547039e548c3fad19d7afd7909258e92\n Hey. I recently hit chall again with okay stats, but I was very happy that I was able to do it within about 7 days. My last attempt took a bit over 2 weeks, so it was a considerable improvement (Though the LP gains this season are just cracked out of the wazoo, so honestly probably not).\n What I am not happy with is the wr because I had a 77% wr last run to 1k chall.\n I have played the game for 10 years now and settled on Viktor for the last 5. I am quite familiar with the builds, meta shifts, matchups, and tech over the years, and I would love to answer any questions under the sky.\n https://preview.redd.it/l8aetn2dpe6h1.png?width=386&format=png&auto=webp&s=2e36359ce72760115220698508406f6df34a561e",
+   "id": "1u1v38e",
+   "comments": [],
+   "age_days": 121,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "WHAT HAPPEND HERE, IS HE JUST UNPLAYABLE??? 46% WR Dia+ gg or what",
+   "url": "https://www.reddit.com/r/viktormains/comments/1nsvu9b/what_happend_here_is_he_just_unplayable_46_wr_dia/",
+   "published": "2025-09-28",
+   "author": "/u/Wonderful_Ad7919",
+   "body": "https://preview.redd.it/ti255s549yrf1.png?width=1747&format=png&auto=webp&s=5a5636d6fdafdd833d5988b60b05b509570360f6",
+   "id": "1nsvu9b",
+   "comments": [],
+   "age_days": 376,
+   "recency_weight": 0.7,
+   "topics": [],
+   "stale_items": false
+  },
+  {
+   "title": "I Manually Broke Down 14 Viktor Build Paths So I’d Stop Losing to the shopkeeper.",
+   "url": "https://www.reddit.com/r/viktormains/comments/1mehjmj/i_manually_broke_down_14_viktor_build_paths_so_id/",
+   "published": "2025-07-31",
+   "author": "/u/Slotherz",
+   "body": "So everyone knows as Viktor solo q players we are having a tough time this season. Respect to anyone continuing to try and climb on Viktor in Season 15; playing this champion currently feels rather unrewarding for the effort. I found his build to be quite difficult to get right and oftentimes felt lacking damage/impact on games, despite often having a good laning phase. This is a complaint I've seen often on this subreddit, and whilst I admit I can play a lot better as I continue to learn, I really wanted to optimise the build because there is so much conjecture (and honestly bullshit) about what items to build on Viktor in soloq.\n After hitting Emerald and realising how often I lost not from bad fights but from building poorly into the comp, I sat down and manually broke down 14 of the most common Viktor 3-item paths—using Lolalytics, sorted by win rate, pick rate, and sample size. This data is from 15.14, about 3 days ago. (The new patch hasn't got a big enough sample size yet). And yes, I tried to apply Phreak's advice about data to all my conclusions. TL;DR at bottom.\n PLEASE REMEMBER THESE ARE 3 ITEM STARTS ONLY; most games are over in this time. I'm not discussing 6-item builds here. Never stop building Deathcap/Void when needed. This is my opinion based on the data; feel free to have your own opinion.\n If you're curious about my climb so far: my account is: https://dpm.lol/NoRoamZone-MARZ\n Here’s what I found 👇 (Stop building ROA in your soloq games.)\n 🔥 Top Performing Builds\n 1. Blackfire Torch → Sorc Shoes → Liandry’s\n → 53.24% win rate\n → Best all-around build. Great vs bruisers, tanks, or mixed comps.\n 2. Luden’s → Sorc Shoes → Lich Bane\n → 54.21% win rate\n → High-risk burst option vs 3–4 squishies. Needs confidence and positioning.\n 3. BFT → Sorc Shoes → Lich Bane\n → 53.61% win rate\n → Sleeper OP. Spellweaver’s delight. Scales well, duels strong, feels fucking great.\n 4. BFT → Sorc Shoes → Shadowflame\n → Win Rate: 52.82% \n → This is also worth a mention as a LOW sample size build but clearly an effective build. I suspect it's used mostly in mixed comps, maybe with 1 bruiser and 4 squishies.\n 🚫 Builds That Fell Flat\n ROA → Liandry’s → Sorcs\n → 45.22% win rate. Your spike timing is awful. You’re tanky... but useless. There is so much data that shows ROA ain't it boys.\n Luden’s → Liandry’s\n → Bad synergy. Flat pen and %HP burn cancel each other’s strengths.\n Liandry’s before boots\n → Don't delay boots, just don't.\n 🧭 When to Build What\n 3+ squishies / NO tanks → Luden’s → Sorcs → Lich Bane\n\n 2+ tanks or HP bruisers → BFT → Sorcs → Liandry’s\n\n Mixed comp → BFT → Sorcs → Lich Bane OR BFT → Sorcs → Shadowflame (Either one on personal preferences)\n\n Heavy dive or CC → BFT → Mercs → Liandry’s (Zhonya’s 4th)\n\n My Wake-Up Game I was vs Zed (bruiser build), Wukong, Seraphine and Akali. I built ROA. → I will admit going ROA into burn felt okay and my early game was very stable, but I scaled like SHIT and did not pack the punch I needed to cut through mid game team fights, despite living for most of the fight.\n What I should’ve built: → Blackfire Torch → Sorcs → Liandry’s\n Lesson learned: build for them, not for you.\n **TL;DR\n Blackfire Torch is fucking KING into almost every comp.\n\n Luden’s is niche but deadly with Lich Bane vs. squish comps.\n\n ROA is giga bait unless you’re totally unpunished and have free scaling; even then you're better off with damage. STOP building this item if you want to deal damage and be useful. Even with the main tax considered, its statistical effectiveness in Soloq is abysmal. \n\n Again, statistically speaking, Lich Bane dominates win rates and is highly slept on for Viktor; build this item more.\n\n Build for matchup, spike timing, and survivability—not because ROA is recommended and everyoneis building it or the shop tells you to.",
+   "id": "1mehjmj",
+   "comments": [],
+   "age_days": 435,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "happy birthday viktor",
+   "url": "https://www.reddit.com/r/viktormains/comments/1hp1j6l/happy_birthday_viktor/",
+   "published": "2024-12-29",
+   "author": "/u/FeedoDeViktor",
+   "body": "",
+   "id": "1hp1j6l",
+   "comments": [],
+   "age_days": 649,
+   "recency_weight": 0.7,
+   "topics": [],
+   "stale_items": false
+  },
+  {
+   "title": "it hurts 😞",
+   "url": "https://www.reddit.com/r/viktormains/comments/1hanpta/it_hurts/",
+   "published": "2024-12-09",
+   "author": "/u/FeedoDeViktor",
+   "body": "",
+   "id": "1hanpta",
+   "comments": [],
+   "age_days": 669,
+   "recency_weight": 0.7,
+   "topics": [],
+   "stale_items": false
+  },
+  {
+   "title": "happy ending / bad ending",
+   "url": "https://www.reddit.com/r/viktormains/comments/1hal5uq/happy_ending_bad_ending/",
+   "published": "2024-12-09",
+   "author": "/u/FeedoDeViktor",
+   "body": "",
+   "id": "1hal5uq",
+   "comments": [],
+   "age_days": 669,
+   "recency_weight": 0.7,
+   "topics": [],
+   "stale_items": false
+  },
+  {
+   "title": "Can we maybe cut down on the predictions and doomering????",
+   "url": "https://www.reddit.com/r/viktormains/comments/1gne2mz/can_we_maybe_cut_down_on_the_predictions_and/",
+   "published": "2024-11-09",
+   "author": "/u/Frostfangs_Hunger",
+   "body": "Over the past few weeks/months many of us in the sub have been throwing out wild guesses and judgements about something we have next to zero information about. Viktor is seemingly slated to receive a VGU at the end of this month. In the new show were receiving tidbits and hints about what direction it seems Riot is going to take his character. But beyond these two things, we don't know anything concrete. \n Beyond that, Riot has been almost intelligence agency level top secret about the characters transformation. Yet I keep coming onto the sub and seeing post after post saying things like \"riot is ruining the character and turning him into something he never was\" and \"I liked the character in the first season, but he's turning into the worst written character ever.\" But the simple fact of the matter is that its way too early to tell or guess anything about what he will turn out to be, both storyline wise, art wise, or ability in game mechanics wise. \n I don't know how many of you are old enough, or have been around in the game long enough to see other champions VGUs. But there is something you can be sure of. Viktor at the end of the day will look more different to his current character, than the same. This was true of Mordekaiser, Swain, Pantheon, and even most recently Skarner. Believing otherwise is only setting yourself up for disappointment. With that being said, all hope isn't lost. Many of the people who played those champions and others like it still play them. Riot does a pretty damn good job of making the updates look and feel badass, and they tend to change the character in ways that make them more relevant to the modern game state. \n But by guessing, and judging, and postulating about it all this early; the only thing we are doing is sliding slowly into the state of dialogue and conflict that many of those other champs subs fell into around the time of their rework. Some of those communities had the bitterness take them over to such a degree, that they even fractured and turned into a series of multiple subs divided between the people appreciative of the update, and those who wanted the space to be reserved as a place of complaint about the old character being lost. But this is not productive or good for the community. \n League subs, at least in my estimation and experience, exist as spaces that mains can come together to discuss the champion in the game, the champions lore, and share fun plays and information on how to face off against certain matchups. They are extremely useful for new and veteran players to learn and share a sense of comradery over the champ. But if we continue doing what were doing we risk turning into the Aatrox mains sub around the time of his infamous rework and turning into a place devoid of anything but negativity. Or worse, we could even turn into the space of insanity and madness that is Ryzemains.....\n SO before we self detonate the sub preemptively, why don't we all just take a deep breath for the next 3 weeks and cool it on the speculation and judgement. We have at least that time to enjoy Viktor as he is. Anything that comes afterwards is unavoidable anyways.",
+   "id": "1gne2mz",
+   "comments": [],
+   "age_days": 699,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I coded a Website for comparing Champion Winrates in 1v1 Fights at each Level",
+   "url": "https://www.reddit.com/r/viktormains/comments/1e26k0f/i_coded_a_website_for_comparing_champion_winrates/",
+   "published": "2024-07-13",
+   "author": "/u/Nexosharp",
+   "body": "Hey,\n I’m currently working on a website for League of Legends players (already riot approved), which offers unique statistics that you won’t find on other platforms like OP.GG, U.GG, or Lolalytics.\n What makes It unique?\n 1v1 Winrates by Level: Compare how two champions perform against each other in solo fights at each level from 1 to 18. For example, you can see the 1v1 win percentage for Champion1 vs Champion2 at level 1, 2, 3, and so on.\n Counter Search Tool: Input a champion’s name and find out which champions have overall the best win rates against them in 1v1 fights, based on millions of solo kills data.\n Further features for jungle & bot lane soon...\n All the data is scraped from real ranked (bronze to diamond) games, providing accurate and up-to-date statistics on champion matchups from the past 30 days.\n Since I don't use simple game outcomes or \"general overall\" statistics as a winrate, but rather actual data from millions of 1v1 fights for each individual champion and level, this tool can be useful for players who want to improve their understanding for certain matchups.\n So how is this helpful? For example, you are in the loading screen, playing Viktor Mid against Ahri and you wonder if or when you will be statistically stronger or weaker in an all-in 1v1 fight against her. Just look it up on my site.\n https://preview.redd.it/9tbi81izy8cd1.png?width=1260&format=png&auto=webp&s=d63ff0d56eae183216f9f8a8e47b56d5a3aa3113\n As you can see here, while Viktor wins the first 2 levels against Ahri, he loses his advantage from levels 3 to 6, but then he starts to gain it back from level 8 onward. Ahri overall has a 47.03% winrate in 1v1 fights against Viktor based on 16,776 processed 1v1 fights. Knowing that, you should try to fight early, avoid fights from levels 3 to 8, and look for opportunities to engage again after level 8.\n If you are interested, you can check it out here: https://1v1showdown.lol\n As a small heads up, the website is in an early development state. I just started using the API a week ago, so there aren't that many solokills inside the database for every single matchup yet (30.1 million), however the size will increase daily.\n Please let me know if you have any feedback, other feature ideas or questions.",
+   "id": "1e26k0f",
+   "comments": [],
+   "age_days": 818,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Viktor matchup guide",
+   "url": "https://www.reddit.com/r/viktormains/comments/wru1cy/viktor_matchup_guide/",
+   "published": "2022-08-18",
+   "author": "/u/Froalith",
+   "body": "About a month ago i posted a guide on items and runes to replace Remmi's old guide which got deleted. Here is the 2nd part of the guide which features the matchups. This guide does not go as in depth as Remmi's old guide did as it only has the most common mid champions (I might add more later) whereas the old one pretty much had every pick that ever got played mid. I hope this will be helpful and if there are any suggestions, things you believe are missing or things you would like more clarification on please let me know. \n https://docs.google.com/document/d/1jumpVZa1_sT1mQdVglIuh26Ng98wVO7HcSz3I3-VACE/edit?usp=sharing",
+   "id": "wru1cy",
+   "comments": [],
+   "age_days": 1513,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Viktor Matchup Spreadsheet",
+   "url": "https://www.reddit.com/r/viktormains/comments/wqi74w/viktor_matchup_spreadsheet/",
+   "published": "2022-08-17",
+   "author": "/u/Vexorant",
+   "body": "EDIT: Hi everyone, I took into consideration a lot of feedback from the last 24 hours and have made extensive changes. Thanks to everyone in the comments who helped! Any other feedback is welcome. Please keep them coming! I want this spreadsheet to be as perfect as it can be for our community.\n Hi everyone,\n I'm Vexorant and I've been playing Viktor for about 2 years. I have quite a bit of matchup knowledge because of my time spent playing Viktor and I put together my own spreadsheet to use. I've been using it personally but considering Viktor is pretty lacking in resources online right now, I figured I should modify my spreadsheet to fit public standards and publish it for the community to use.\n If you have any questions, comments, or think things should be changed, please leave a comment on this thread and I will get back to you about it as quickly as I can! Keep in mind, all of these matchups are based on my experience. The highest I've ever climbed was Plat so to a high elo player, these matchups may look very different! Please keep any critical feedback CONSTRUCTIVE.\n https://docs.google.com/spreadsheets/d/1cFPR63KKZ93aOxxfJUHdhDKeySlNfpe3GRSKJU_DK5k/edit#gid=0",
+   "id": "wqi74w",
+   "comments": [],
+   "age_days": 1514,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Viktor runes/items guide",
+   "url": "https://www.reddit.com/r/viktormains/comments/w5muho/viktor_runesitems_guide/",
+   "published": "2022-07-22",
+   "author": "/u/Froalith",
+   "body": "Hey, since Remmi took down his guide there hasn't really been a replacement. I have decided to make something similar but just for items and runes. I hope this will be helpful and if there are any suggestions, things you believe are missing or things you would like more clarification on please let me know.\n https://docs.google.com/document/d/1qRNk4wwFz2tpOSozakWcn838ibKNav1Pmwk2n7pQWOQ/edit?usp=sharing\n EDIT: The matchup portion is here: https://www.reddit.com/r/viktormains/comments/wru1cy/viktor_matchup_guide/?utm_source=share&utm_medium=web2x&context=3\n EDIT2: I have not been updating the docs for the past 2 seasons and the item section is pretty much useless as mythics got removed. There is still some relevant information on runes and some side notes if anyone is interested, but it’s probably not a great source of information anymore.",
+   "id": "w5muho",
+   "comments": [],
+   "age_days": 1540,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Doing Unrank to Challenger with Viktor and hit Masters so far",
+   "url": "https://www.reddit.com/r/viktormains/comments/vsb18u/doing_unrank_to_challenger_with_viktor_and_hit/",
+   "published": "2022-07-05",
+   "author": "/u/KSienz",
+   "body": "Proof:\n Viktor Masters\n op.gg: https://na.op.gg/summoners/na/TheyTookMyBlue\n ​\n Hello my fellow Viktor Mains, as the title suggests I am doing a Viktor to Challenger series with *most* of my games being on Viktor. Most of the games are uploaded to my YouTube channel. Most of the are educational laning phase videos on matchups and minion wave management. \n Some key points I noticed while playing Viktor and relearning him. \n Aery is not bad especially if they have long-range poke that disables your First Strike(should you have it).\n You need a bunch of patience playing Viktor. It is like being an accountant, boring as hell but always consistent.\n Liandry's or Luden's are both fine. Liandry's will deal consistently more damage than Luden's but Luden's helps you snowball easier and helps you become more independent in sides/teamfights.\n Flash is better used for defensive situations rather than offensively.\n I alternate between Veigar, Corki(rip in 12.13), and Orianna. When I am put on AD I go Varus or Jhin. \n Feel free to ask me anything about Viktor or Mid Lane. Good luck, friends.",
+   "id": "vsb18u",
+   "comments": [],
+   "age_days": 1557,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Managed to reach Masters with Viktor",
+   "url": "https://www.reddit.com/r/viktormains/comments/vgzr65/managed_to_reach_masters_with_viktor/",
+   "published": "2022-06-21",
+   "author": "/u/Kegs_And_Parleys",
+   "body": "Proof: https://imgur.com/a/IimrMyJ \n op.gg: https://eune.op.gg/summoners/eune/Simon%2BPhilipp \n Mostly First Strike, Aery just feels useless, abuse the CD whenever it's up, most champions can't deny it from you if played correctly, Luden's is 99% best mythic, rest is either Liandry for full tank comps with non-threating ADCs or Everfrost for low mobility bruiser comps. Crown doesn't feel good as most champions can proc it before bursting you down, Zhonya is in my opinion better. I permaban Zed, new Zeri mid build is a skill matchup, very playable. \n Feel free to ask me more about playing Viktor, I am not by any means the best player out there, but I am more than happy to share my knowledge.",
+   "id": "vgzr65",
+   "comments": [],
+   "age_days": 1571,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "I am #2 Vik in NA and #8 in the world. AMA I would love to help out",
+   "url": "https://www.reddit.com/r/viktormains/comments/ucxrly/i_am_2_vik_in_na_and_8_in_the_world_ama_i_would/",
+   "published": "2022-04-27",
+   "author": "/u/rageius",
+   "body": "My stats: https://www.leagueofgraphs.com/summoner/na/Rageius\n I recently just hit masters for the first time and Viktor is my highest win rate by far. Feel free to ask questions about builds matchups or teamfighting and I will try to answer.",
+   "id": "ucxrly",
+   "comments": [],
+   "age_days": 1626,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Opinion - Shadowflame is a trap, lich bane is superior.",
+   "url": "https://www.reddit.com/r/viktormains/comments/svu9c3/opinion_shadowflame_is_a_trap_lich_bane_is/",
+   "published": "2022-02-18",
+   "author": "/u/Godzy",
+   "body": "I would like to preface this post by saying this is all just my opinion based off of my own research of stats, my season so far and watching viktor in proplay as well.\n  \n To start with lets break down the pros and cons of the 2 items.\n  \n Shadowflame pros; Higher AP, Pen is nice, Higher poke damage\n Shadowflame cons; Health, No haste, Poor build path, Poor scaling\n Lich bane pros; Movement speed, Build path, Passive, Scaling, Haste\n Lich bane cons; Less AP, Less poke damage, No pen\n  \n So with all this laid out I'll try to summarise below some of the key points as to why I think lich is better then shadowflame, the thing is none of them are really hard stat related. I feel some people have the tendency to look at just the hard numbers in which case shadowflame wins a fair bit of the time but there is so much nuance in league and especially in a champion like Viktor. \n  \n Movement speed\n With lich you gain 30 movement speed, this is literally like have another pair of basic boots with an extra 5 ms on them, it brings you up to 410 move speed which is still below the 415 cap where DR starts to apply. \n Movement speed is INCREDIBLY strong and is honestly my MAIN reason for thinking lich is better then shadowflame. It helps ALL the time EVERYWHERE doing EVERYTHING. Positioning, rotating, back to lane faster, dodging etc. It's the jack of all trades stat and is good in EVERY game. The pros list alone of what 30 MS can help you to achieve is incredibly long. \n  \n Spellbade Passive\n The thing about the passive is damage wise it actually got nerfed (pre 800 or so AP) this patch to account for the added haste, but it's still very strong. One of the main reasons I see people citing lich bane to be a poor item is that the value you receive from the passive is low as you aren't in that many situations to auto comparitively to the value you get from shadowflames E (and everything else) damage garuntee. \n Something to consider in this regard is to treat the passive like holding ignite. Alot of the time just having the THREAT of the ignite summoner is enough to change the outcome or even matchup of a situation. If you choose to NOT build lich you can't still choose to have spellblade. \n Spellblade for me is like Viktors 5th augment, when you need it, it's incredibly valuable and once you have 3 items in alot of games in can put alot of squishys into Q E - auto range for lethal where as shadowflame will need more time to achieve this. \n On top of this there is tower pushing pros as well as taking jg camps faster etc. \n  \n Haste and scaling\n Going to lump these 2 together as there isn't to much to touch on them. \n The haste on lich not only obviously helps us put out more rotations it also helps survive and chase better. This comes in the form of 3 things, offence is defence, more Qs for more movespeed and more Es/Qs/Ws for more slows. \n For scaling like I said above if you choose to not build lich you can't get the spellblade, which will scale the further the game goes on with the haste also scaling nicely with more ap and lower CDs to utilise it. \n  \n Build path\n Not going to touch on this to much but between the 2 items, lich banes build path is always going to win out, having to build a needlessly large rod on your second item will always be awkward and having to potentially sit on a ruby crystal isn't going to ever feel good. \n Every single purchase towards lich feels impactful and smooth, there is quite literally scenarios in which you will be forced to reset for a key early-mid game fight and are sitting on a 1000 gold unable to buy anything towards your shadowflame. Where for lich you're either purchasing a codex or an aether wisp, both super strong components. \n  \n Stats and pro play\n I've been an advocate of lich in the past on this sub in NICHE situations, that recently changed though when I noticed world class pros building the item post the haste change. With this I decided to delve deeper into looking into the item and how good it really may be since it's update. \n Faker/Showmaker are the pro's I've seen build it most with both having success with it. \n https://lolalytics.com/lol/viktor/build/ \n Is what I use for my research. At first I thought the winrate discrepancy between shadowflame and lich was potentially being skewed by smurfs having fun, I soon realised that no matter what elo+ tab you go over lich is 95% of the time just gapping every other item in the game at 2nd item built by a long way. \n  \n Closing thoughts\n Viktor is not an artillery mage, we aren't velkoz, xerath, ziggs, lux etc. We have STRONG long range damage on E but that's about it. The rest of our kit requires us to be at medium range and we are more akin to that of a battle mage with the movement speed from our Q, shielding from our Q and slows/zone control from QWE etc. \n Viktor is an opportunistic fighter who gets in the thick of it alot of the time and lich bane helps AUGMENT that identity even further! \n For the GLORIOUS EVOLUTION!! \n  \n Lastly, once again, these were just my opinions, my OPgg can be found here. http://oce.op.gg/summoner/userName=BoozBear",
+   "id": "svu9c3",
+   "comments": [],
+   "age_days": 1694,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Is vimtor strong into ahri?",
+   "url": "https://www.reddit.com/r/viktormains/comments/qhyayh/is_vimtor_strong_into_ahri/",
+   "published": "2021-10-28",
+   "author": "/u/OpticbatsTTV",
+   "body": "So i was playing ranked yesterday and i was into an ahri, this was only my second time playing viktor and i played well the first game ( played into lux) and this game i was bc a bit worried about, i knew ahri has charm and thats what i was most worried about. She poked me a lot in the beginning, but i learned to stay to one of the sides of my wave because she had to choose to poke me, or lose farm.\n Every time she would poke i would poke back, and i tried to push her off minions with E and popped her with Q and empowered autos a bit, and she had me under turret as i was playing a bit cautious. But i eventually was able to get a few kills and end up ending the game 7/2/13. I wanted to know if this was an easy matchup for viktor and i got lucky , or i actually just played pretty good.",
+   "id": "qhyayh",
+   "comments": [],
+   "age_days": 1807,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Hi I'm a Master Tier 60% Viktor botlane APC only player! | #1 Viktor NA #1 | Viktor Bot WORLD",
+   "url": "https://www.reddit.com/r/viktormains/comments/pp0yy6/hi_im_a_master_tier_60_viktor_botlane_apc_only/",
+   "published": "2021-09-15",
+   "author": "/u/Clutcheon",
+   "body": "My account name is Teemo is Ebola but online I've been going by Gagney. As in the title I'm a Master tier 60% WR Viktor botlane APC player. I was at one point in my climb the #1 Viktor in NA but since lost that title after taking a rather severe beat down near 300 LP masters. I call myself the #1 Viktor bot world because nobody plays Viktor adc from my experience and I wanted to bring you all an idea I think is worth giving a try. I went from platinum 2 to master tier in only 1 month of time. I had started the season late and had been hardstuck diamond for a long time. I'm also considered one of the best Viktor players in the world according to U.GG stats page for Viktor. \n Heres my op.gg \n Feel free to ask me questions about builds, matchups general Viktor stuff or climbing advice for whatever your heart desires. I don't go on reddit too often but I do go live on Twitch M-F 12am PST. Degen hours I know. I don't know if your allowed to self promote yourself so I'll just spoil cover my twitch link. I do provide coaching services for channel points if some are interested in that as well. TWITCH LINK >https://www.twitch.tv/gagney",
+   "id": "pp0yy6",
+   "comments": [],
+   "age_days": 1850,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Corrupting pot discussion",
+   "url": "https://www.reddit.com/r/viktormains/comments/o43b6e/corrupting_pot_discussion/",
+   "published": "2021-06-20",
+   "author": "/u/Godzy",
+   "body": "So, wanted to see what everyone's thougnts on cpot is, I was really just completely unaware of in my opinion how good it is and how it really helps (especially me at least) smoothen viktors early laning strengths.\n I initially came to the idea of maybe using it as I saw most pros would take it and found it quite curious so decided to give it a go.\n My understanding is your abilities will hit slightly less and you'll have less overall hp but what you gain (at face value) is the burn and some more regen.\n What I'm finding it is amazing for is aggressive early laning. My experience with viktor vs quite a few champs early was I could always get them low but would always run out of mana or just short on damage.\n With cpots burn combined with the mana regen for extra abilities this is no problem.\n You can punish most (Irelia says no) melee champs super hard and some other matchups I'm just finding easier with the help of cpot.\n To add to this, a huge boon in my opinion is dark seal as an item is ridiculously strong and fills a really nice, if you have 350g can buy sort of slot.\n The problem I used to have with it though is with viktor needing to build a tear +usually a bunch of books and boots, potion, pinks, quite often my inventory was just to full for it.\n With cpot this is all fixed as picking up dark seal is the equivalent of having your starter Dorans ring.\n Anyone else have any thoughts on it?\n After using it this week I'm surprised it is mentioned/discussed so little.",
+   "id": "o43b6e",
+   "comments": [],
+   "age_days": 1937,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Sylas Matchup",
+   "url": "https://www.reddit.com/r/viktormains/comments/nly18h/sylas_matchup/",
+   "published": "2021-05-27",
+   "author": "/u/Zixe_4993",
+   "body": "hi im new to viktor and im trying to learn him, i'v played against a sylas in lane last game and i am wondering how the frick do you lane against him exactly? what are the runes? what style do i adapt? farm or fight? because he is INFURIATING, i literally bought oblivion orb on my first back and the bastard still wins the trades, what do i do?\n i had phase rush, nimbus cloak, absolute focus and gathering storm with domination taste of blood and ravenous hunter.\n i do not ban him because i always ban zed, but now i think ill perma ban sylas while playing viktor. \n should i continue banning sylas while playing viktor or go back to banning zed? how are their matchups any different? i havent played against a zed as viktor because i'v been banning him.\n any tips would be appreciated",
+   "id": "nly18h",
+   "comments": [],
+   "age_days": 1961,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Trying to Main Viktor in Silver Elo. Any Tips?",
+   "url": "https://www.reddit.com/r/viktormains/comments/n8j82c/trying_to_main_viktor_in_silver_elo_any_tips/",
+   "published": "2021-05-09",
+   "author": "/u/TheRealIkamaz",
+   "body": "I've been watching quite a lot of guides about Viktor lately. I'm just confused about Viktor's item build paths and Viktor in general. Is lich bane as a second item bad? What runes to use in different matchups? Who to ban? Who are Viktor's biggest counters? Who can Viktor hard counter? What spells to use?",
+   "id": "n8j82c",
+   "comments": [],
+   "age_days": 1979,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Its time we to Evolve this Sub",
+   "url": "https://www.reddit.com/r/viktormains/comments/lo3t18/its_time_we_to_evolve_this_sub/",
+   "published": "2021-02-20",
+   "author": "/u/Krypton13372",
+   "body": "Guys its time to step our game up. To Show that we are the superior main culture. We need weekly pinned matchup discussions, we need to invite high elo OTP's to give AMA's and much more to start crossing the gap to other Main Subs which all obviously play inferior Champions. Those itemization discussions are the right step. But i feel like whe can get way more content out of this Sub than people showing their low elo outplays that have usually nothing to do with the champions kit itself. We all should strive for Evolution of ourselfs and improvement of our gameplay! So that every Challanger rank will be filled viktor otp's.",
+   "id": "lo3t18",
+   "comments": [],
+   "age_days": 2057,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Yone match up.",
+   "url": "https://www.reddit.com/r/viktormains/comments/llyxn0/yone_match_up/",
+   "published": "2021-02-17",
+   "author": "/u/Owt2getcha",
+   "body": "Is that match up even winnable honestly? I always take double armor Shield Bash Bone Plating which helps, but even with ignite aery I cannot poke him out of lane when he has Dorans shield and Fleet. Worse off he just roams even if I don't die to him and picks up kills, leading to him becoming immortal because shield bow is fair on melee mid laners. Late game you have very little hope of killing him as he has the Shieldbow passive and if he gets close enough to auto you he heals for like 400 a Q. Considering making him my perma mid ban at this point but if anyone has a secret to this matchup I'd love to hear it.",
+   "id": "llyxn0",
+   "comments": [],
+   "age_days": 2060,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Struggling with artillery mages",
+   "url": "https://www.reddit.com/r/viktormains/comments/lekx2q/struggling_with_artillery_mages/",
+   "published": "2021-02-07",
+   "author": "/u/ayebeepositive",
+   "body": "Any matchup/micro tips for playing against Lux/ziggs/xerath/velkoz? Ive historically played control mages and im coming along just fine getting viktor down, but ive also historically struggled with these 4 matchups, any advice?",
+   "id": "lekx2q",
+   "comments": [],
+   "age_days": 2070,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Complete S11 Viktor guide by Remmi",
+   "url": "https://www.reddit.com/r/viktormains/comments/l3ffhd/complete_s11_viktor_guide_by_remmi/",
+   "published": "2021-01-23",
+   "author": "/u/Remmi_",
+   "body": "Hey guys, my complete Viktor guide is updated for S11 and fully live! New champs like Yone and Seraphine are added to the matchups list, the Build section is much more clean now together with explanations for all items and rune keystones that are viable on Viktor.\n https://docs.google.com/document/d/1cMamRmGurvKtJPKiEjNmV5LcN-0hh0f6yYYpisHWbgk\n Embrace the new Viktor that doesnt sit back and farm passively in lane, but instead creates leads in lane and snowballs them into a godlike mid game, while still having a good late game!",
+   "id": "l3ffhd",
+   "comments": [],
+   "age_days": 2085,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Ask me anything about preseason Viktor",
+   "url": "https://www.reddit.com/r/viktormains/comments/k6mnr6/ask_me_anything_about_preseason_viktor/",
+   "published": "2020-12-04",
+   "author": "/u/TheAbsoluteZer0",
+   "body": "Hey guys! I was (very briefly) rank 1 Viktor during the preseason, and while I still think that Dun and a select few others are much better than me at Viktor, I feel pretty qualified to answer any questions regarding matchup knowledge, runes, item builds, or anything else you've wanted to know.\n Rank 1 Viktor: https://imgur.com/a/PxrZiHP\n My OP.GG: https://na.op.gg/summoner/userName=TheAbsoluteZer00\n I also stream on occasion and take questions about matchups while being informative: https://www.twitch.tv/theabsolutezer00",
+   "id": "k6mnr6",
+   "comments": [],
+   "age_days": 2135,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "My Viktor season 11 mini rework ideas",
+   "url": "https://www.reddit.com/r/viktormains/comments/jfamr0/my_viktor_season_11_mini_rework_ideas/",
+   "published": "2020-10-21",
+   "author": "/u/ekkoOnLSD",
+   "body": "Here's my rework idea for season 11 Viktor. In italics I wrote \"food for though\" ideas. \n Viktor Passive: Hextech Evolution\n Viktor generates research points by casting spells on enemy champions. Each spell generates different amounts of research. Viktor can spend those research points in his lab (in base) to upgrade any of his abilities. His R upgrade could be an upgrade of its own instead of upgrading once his other three spells are upgraded. \n Viktor augment: Viktor augments his mythic item at level 13, giving it an extra mythic passive. \"+6% bonus AP\" / legendary item. \n In an ideal world, all of Viktor's upgrades would be equally strong and Viktor would adapt the order in which he upgrades his spells from game to game. This is not compatible with the \"upgrade on kill/assist\" iteration since you cannot guarantee the upgrades will be spaced out in time (I really dislike this iteration). \n Viktor Q upgrade: Q upgrade unchanged\n Viktor W upgrade: 20% slow for 1s on non periodic damage -> Moving & attacking charges hextech energy, at 100 stacks Viktor's next spell will slow the target(s) down by 60% decaying over 2s.\n Viktor E upgrade: Thoughts about E upgrade further down\n Viktor R upgrade: Gains speed (buff the speed since it's now an upgrade in its own right), now reveals invisible targets (or just follows locked target no matter what). \n Extensive thoughts on E upgrade: \n First things first, E upgrade as it is now is a dedicated waveclear upgrade. Compared to other mages Viktor is completely out of line in that regard by being able to one shot caster minions at level 5 which is sooner then any other champion in the game. Being able to do that was necessary for Viktor because of his otherwise weak kit during lane phase. He needed the insane waveclear to survive since his laning is otherwise pretty poor (high mana costs, inefficient bases/early items). \n The pbe changes alleviate those early game weaknesses a lot, so reworking the E upgrade is both finally possible & mandatory. \n Here are some food for thought types of ideas\n Adjust numbers for his base E to one hit casters at level 9 ; E upgrade being able to reduce that number down to level 7. This would create situations where in certain matchups (very hard matchups where you want to get out of lane asap) E upgrade would be taken first and in other matchups you would delay it to get something else instead. \n Completely change E upgrade to gear it towards utility. This would be drastic but all upgrades being utility focused would give a nice array of options in terms of upgrade order. \n Keep E upgrade focused on damage but give it more of a \"damage to champions vibe\" for example have Aftershock do less damage overall but give it a \"% missing health\" amplifier. (This is basically very similar to reducing the damage done to minions by the aftershock)\n ​\n Example:\n 70 / 110 / 150 / 190 / 230 (+ 60% AP) -> 75/115/155/195/235 (+70% AP)\n 20 / 60 / 100 / 140 / 180 (+ 70% AP) -> 20/50/80/110/140 (+60% AP) aftershock damage bonus up to 50% damage when the target champion is below 30% hp \n 90 / 170 / 250 / 330 / 410 (+ 130% AP) -> 95/165/235/305/385 (+130%AP) minimum damage | 105/190/275/360/445 (+130%AP). \n This solution uses bonus damage to low hp champions as a way to keep the upgrade impactful & fun to use while still tackling the waveclear dilemna.",
+   "id": "jfamr0",
+   "comments": [],
+   "age_days": 2179,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Important Thoughts Regarding the State of PBE Viktor",
+   "url": "https://www.reddit.com/r/viktormains/comments/j6k4lo/important_thoughts_regarding_the_state_of_pbe/",
+   "published": "2020-10-07",
+   "author": "/u/XLNC-Raith",
+   "body": "So I wanted to make a post addressing something I've seen a good bit over the past few days. The mains seem to be divided into two camps, those who think the current changes are a tragedy on par with the hindenburg or the creation of aphelios (I fall into this group) and those who believe that the changes as they exist right now are granting viktor more agency and combat power early which should be better for his win rate overall. \n I have tried to convince myself of the second option. I am generally a very positive person, and after my initial doubts with the previous changes, I got to a place where I was excited to try the true late game monster that could be built with an extra item slot plus 30 percent ap. \n I cant seem to get excited about this version and this is why. I keep hearing how viktor with early augments will be stronger than he is on live for one reason or another. I dont dispute the fact that hexcore felt very weak as a first item. For 3k gold it really was kind of sad. That being said, it did offer a good amount of late game ap to offset that lackluster start. So as a response to the idea that viktor will be more lane dominant now and just perform better: Yes, with less mana on e plus the potential for early augments there is a world where new viktor beats old viktor in lane. If you throw them both in a 1v1 I dont doubt the new version will win out pre 2 items. The problem is that we wont be playing vs old viktor in lane. He isnt competing against his old play pattern. More importantly he isnt even playing into champions the way they are now. Nearly every one of Viks bad matchups are getting stronger due to the better items.\n Look at the items ad assassins in particular have access to now. Some of that stuff is truly obscene in how much kill threat it offers on 1 item. So while, in a vacuum he might be slightly stronger early, everyone else is going to be so much more powerful too. Vik is going up a little and they are going up alot. So despite the buffs, his lane will still feel even worse than it does now after first back. \n Futhermore attaching his augments to kills is so stupid in my opinion. Viktor isnt rengar. You dont go into lane expecting to get five kills before the end of laning phase (and this is coming from a guy who runs electrocute most games). Our boy has a few favorable matchups, but he loses to ALOT of the super aggressive meta picks. (Yes I know it is possible to outplay and win those matchups. That is to the point. For these examples assume you are playing against someone just as good or slightly better than you on one of those meta picks) Those are the same picks who are getting huge buffs from all these new items. What I love about vik isnt his lane dominance (go play syndra or some other early game champ for that) it is his consistency. Even in a bad matchup there is the promise that if I play smart and dont die while maintaining cs I will crush whoever I'm against at 2-3 items. Without the extra scaling off his passive, that guarantee is gone. Your bad early game doesnt pay off with late game dominance anymore. More than that, the nerf to e makes it to where you cant safely wave clear vs super strong early snowballers if they happen to get a lead either from you or a successful roam (think Lucian mid/fizz/zed). \n I guess the point of this post is to ask the question: why viktor? Why play him? As I said, formerly it was for guaranteed scaling and team fight dominance, but that is off the table right now. So why? Do we go poke with ludens? Why not just play xerath, lux, or ziggs? They are much better set up for the artillery mage style of play. Do we play for teamfight dominance through smart trades and zone control? Why not play syndra or oriana or another control mage who has access to their full kit from lv 3 and now will scale just as well as vik. Early game dominance? Dont make me laugh. Most of the meta picks are already some of the most early to mid game dominant champs and a weak control mage with half his kit isnt going to win out against an opponent of equal skill. \n My point is that with these changes I cant see a reason to play vik anymore. He has nothing to offer in exchange for being crippled by losing half his kit to his passive. There are so many better options that will actually feel satisfying to play. \n I feel like this change makes Viktor 'not bad' at alot of stuff, but not really 'good' at anything. We've gone from a steady progress toward late game perfection to a senseless plodding toward mediocrity. From a Glorious Evolution to a Meaningless Dissolution \n What do you guys think? (Sorry for the text bomb)",
+   "id": "j6k4lo",
+   "comments": [],
+   "age_days": 2193,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Potential Hexcore Mythic item solution",
+   "url": "https://www.reddit.com/r/viktormains/comments/j6mz5w/potential_hexcore_mythic_item_solution/",
+   "published": "2020-10-07",
+   "author": "/u/Valtaell",
+   "body": "I saw a suggestion to make Perfect Hexcore a mythic item, and I would like to add something to that.\n I think having hexcore as an ultimate mythic item would really elevate Viktor thematically. So, the Hexcores would function similarly to how it works work on live, so you buy 3 items of a determined cost, let's say 3000 - 3200 gold total for all 3 and get spell upgrades (1 per hexcore). The big difference would be that when you buy your first Hexcore you choose your Mythic stats and passives :\n You choose either to get health or mana (e.g. 75 HP per hexcore)\n You choose between spell haste, spell pen and spell vamp. Plus passive of +5 chosen stat on all legendary items when you finish your Perfect Hexcore\n You choose your mythic effect (e.g. Liandry's burn and dmg or Luden's splash damage and speed)\n The item gives 80 AP (20 + 30 + 30 per hexcore)\n And I would add a AP scaling passive, +5% AP per hexcore. In total 15% AP not to make it too OP\n Tell me what you think. I can imagine this being hard to implement, but I think it would be really fun and it would allow us to adapt directly to a matchup with the perfect hexcore (which we cannot do on live).And I think it would be thematically very satisfying.",
+   "id": "j6mz5w",
+   "comments": [],
+   "age_days": 2193,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Viktor's game plan, game counters and sinergies",
+   "url": "https://www.reddit.com/r/viktormains/comments/hv4op6/viktors_game_plan_game_counters_and_sinergies/",
+   "published": "2020-07-21",
+   "author": "/u/VaccinalYeti",
+   "body": "Hi guys! I'm a Viktor enthusiast currently playing in low elo (often against Golds-Plats because of friends) and I'm currently struggling to find out when to play him. I play lots of champions in every lane (I'm midlane Malzahar/Ziggs main) and Viktor is one of my personal all-time favourites, still if I am last pick I don't know why I should take him over someone else. I do know that he wants to scale, so it's better with and against slow/farming junglers, but the problem arises after laning phase:\n What do I have to search for when I look at my or enemy team? Does Viktor excel against squishy teams? Against low mobility bruisers? Against poke, burst or sustain? \n When big teamfights are not possible, do I look for picks, siege or something else I'm missing? \n Which are the champions I don't absolutely want to face in teamfights (not midlaners, I know the matchups well enough)? \n Considering that I'm duoing with a jungler, what are the champions with which Viktor sinergizes more?\n Thanks and sorry for my mediocre english!",
+   "id": "hv4op6",
+   "comments": [],
+   "age_days": 2271,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How do you deal with Katarina? Is she a counter? Skill matchup?",
+   "url": "https://www.reddit.com/r/viktormains/comments/gtdp09/how_do_you_deal_with_katarina_is_she_a_counter/",
+   "published": "2020-05-30",
+   "author": "/u/match_replay_alytics",
+   "body": "",
+   "id": "gtdp09",
+   "comments": [],
+   "age_days": 2323,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Win with Viktor is back! This time, the Akali matchup - Patch 10.8",
+   "url": "https://www.reddit.com/r/viktormains/comments/g77n65/win_with_viktor_is_back_this_time_the_akali/",
+   "published": "2020-04-24",
+   "author": "/u/Remmi_",
+   "body": "",
+   "id": "g77n65",
+   "comments": [],
+   "age_days": 2359,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Playing Viktor feels pointless even though hes my fav champ.",
+   "url": "https://www.reddit.com/r/viktormains/comments/ekzzrp/playing_viktor_feels_pointless_even_though_hes_my/",
+   "published": "2020-01-06",
+   "author": "/u/albertablood",
+   "body": "I really enjoyed league for a few years but i feel like its impossible to improve in the current game state. I main support with offroles in jungle, but my absolute favourite champion in this game is Viktor and its not close. Hes by far my favourite lore wise and IMO his kit is really cool.... but its almost impossible to lane mid or top as him and not get tilted at Quiyana or Ekko or literally anyone else getting half an item and one shotting me at level 5 or 6. Its probably champ diff/player diff but my god im out here trying to improve and its really hard. Im considering shelfing him forever just because theres no point in playing him if games are normally over at like 20 minutes in gold/plat Elo. Im probably garbage at the game and need more time than im giving myself but I currently feel like theres no hope for my gameplay. I dont want to be stuck playing support forever and want to branch out which is why im trying to do Viktor in normals, reading guides and whatnot, getting instantly tilted the second i get 1 shot by an assasin with a dirk or longsword. Why play Viktor when i can just play one of those champs and dash every 2 seconds and kill you in half a second with half an item. Probably gonna be a lot of people telling me to get gud on this like last time i posted on reddit. IDK how to do that without playing champs i feel are disgusting or not interesting... Viktor is awesome but almost every matchup is \"hard\". Or i suck.",
+   "id": "ekzzrp",
+   "comments": [],
+   "age_days": 2468,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Viktor guides hub - Dun, Remmi, and more to come",
+   "url": "https://www.reddit.com/r/viktormains/comments/ehmozd/viktor_guides_hub_dun_remmi_and_more_to_come/",
+   "published": "2019-12-30",
+   "author": "/u/Arcyvilk",
+   "body": "Dun - Best Viktor NA's guide to Viktor - Matchup spreadsheet\n Remmi - Viktor Mid Guide by Remmi- containing Builds, All matchups, Maokai runes and everything else\n Have more questions not answered in the guides? Join our Discord server and ask either the guide creators themselves, or visit #ask_viktor_mains channel!\n Updates to those guides, as well as new ones, will be added to this post!",
+   "id": "ehmozd",
+   "comments": [],
+   "age_days": 2475,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Best Viktor NA's guide to Viktor - Matchup spreadsheet",
+   "url": "https://www.reddit.com/r/viktormains/comments/egiesi/best_viktor_nas_guide_to_viktor_matchup/",
+   "published": "2019-12-27",
+   "author": "/u/coolrichkid123",
+   "body": "",
+   "id": "egiesi",
+   "comments": [],
+   "age_days": 2478,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Win with Viktor: Lux Matchup - Patch 9.20",
+   "url": "https://www.reddit.com/r/viktormains/comments/dmx96b/win_with_viktor_lux_matchup_patch_920/",
+   "published": "2019-10-25",
+   "author": "/u/Remmi_",
+   "body": "",
+   "id": "dmx96b",
+   "comments": [],
+   "age_days": 2541,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Viktor Mid Guide by Remmi- containing Builds, All matchups, Maokai runes and everything else",
+   "url": "https://www.reddit.com/r/viktormains/comments/dfk67u/viktor_mid_guide_by_remmi_containing_builds_all/",
+   "published": "2019-10-09",
+   "author": "/u/Remmi_",
+   "body": "GUIDE UPDATED FOR SEASON 10!\n I am Remmi, a high elo Viktor main that peaked at Grandmaster 326 lp with a ~57% winrate overall from ~100 games and ~65% winrate on Viktor. I created this guide for Viktor in the Mid lane.\n My stream link, where you can watch me play Viktor and explain what I'm doing in an educational manner and where you can find information about coaching on Viktor and Mid lane in general: https://www.twitch.tv/remmi__\n My op.gg: OPGG\n Youtube channel: Remmi LoL\n Grandmaster proof: screenshot1 , screenshot2\n Guide Link: https://docs.google.com/document/d/1cMamRmGurvKtJPKiEjNmV5LcN-0hh0f6yYYpisHWbgk\n Current guide patch: 10.20\n After the buffs and QoL changes Viktor received in patch 9.20 his damage is more reliable now, where good E positioning and timing and good R control are rewarded with more damage than before, when both his E and R damage was very unreliable. In return his Q shield is now much weaker due to the mana scaling being removed, so it is used more for the movement speed than for the shield now. His old W augment was replaced, so now it adds a 20% slow for 1s to all his spells apart from R ticks.\n The guide includes:\n Recommended Builds\n All Mid lane matchups\n Maokai Runes\n My thoughts on some specific items and runes that people asked about\n All reasonable Mid lane matchups are covered together with starting items, suggested builds, runes, summoner spells, information on how to play the lane matchup at each of the first 9 levels and special tips for that matchup.\n On the left, in the Outline, you can click the matchup you want to look at and it brings you to that page in the document. The matchups are sorted in alphabetical order.\n Maokai Runes are a specific rune page of mine designed against assassins and melee bruisers in Mid.\n The guide is going to be updated every few patches to be kept up to date.\n If you have any questions, thoughts or suggestions about the guide, feel free to write it in the comments bellow and I hope the guide helps you improve your Viktor skill and climb!",
+   "id": "dfk67u",
+   "comments": [],
+   "age_days": 2557,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Win with Viktor: Vel'Koz Matchup - Patch 9.19",
+   "url": "https://www.reddit.com/r/viktormains/comments/dcaaxt/win_with_viktor_velkoz_matchup_patch_919/",
+   "published": "2019-10-02",
+   "author": "/u/Remmi_",
+   "body": "",
+   "id": "dcaaxt",
+   "comments": [],
+   "age_days": 2564,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Win with Viktor- New educational Viktor content | In this video, Viktor vs Xerath",
+   "url": "https://www.reddit.com/r/viktormains/comments/cyn1kn/win_with_viktor_new_educational_viktor_content_in/",
+   "published": "2019-09-02",
+   "author": "/u/Remmi_",
+   "body": "Hi all,\n Win with Viktor is an educational series that I just started, where I will upload full vods of games from my stream, where I explain and demonstrate how to play the matchup featured in the game, not just in lane, but from start to end.\n Goal is to give educational Viktor content in video form, something I saw that people requested a lot.\n In this first video, it's gonna be the Xerath matchup, the 2nd biggest counter to Viktor, after Kassadin.\n Win with Viktor: Xerath Matchup - Patch 9.17: https://youtu.be/DzO7WYeJTTM\n All feedback is appreciated, if you are interested in more content like this, follow me on Twitch and subscribe on Youtube to get notified and if you are interested in coaching, check out the description in the Twitch channel, where you can find all information about it.\n Twitch: https://www.twitch.tv/remmi__\n Youtube: https://www.youtube.com/channel/UChm5JDbctGlSGIx27geIduw",
+   "id": "cyn1kn",
+   "comments": [],
+   "age_days": 2594,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Best Viktor Build IMO (D3 with 79% win rate on Viktor)",
+   "url": "https://www.reddit.com/r/viktormains/comments/bmlc6f/best_viktor_build_imo_d3_with_79_win_rate_on/",
+   "published": "2019-05-09",
+   "author": "/u/flaminghero122",
+   "body": "My op.gg: https://na.op.gg/summoner/userName=crown+dopa+faker\n Right now I think Viktor is in a sleeper/good spot right now. He's not hidden OP tier, but you can easily carry and win games with him right now.\n The build you guys should definitely go for now is this:\n https://imgur.com/S0A8brX\n Obviously you change the third rune to magic resist/armor/scaling health depending on the matchup.\n You can go Comet instead of Aery, but I only recommend that into uninteractive matchups like Galio. I always end up doing more damage with Aery at the end of the game based on stats. You can also go Gathering Storm vs Galio instead of Scorch. Scorch is bad vs anyone who usually takes Resolve because of Bone Plating.\n For your first item you should definitely look to get Perfect Hexcore first, however vs AD assassins like Zed or Talon you should look to get seekers first always, even if you have enough gold for first hexcore. \n What I like doing not just on Viktor but on other champs too is if you're playing vs a heavy AP assassin like Diana, Leblanc, or Fizz, you can just pick up a Null-Magic Mantle and sit on it for the rest of the game. If the enemy team is CC heavy you can finish it into Mercury Treads, otherwise you can buy Banshees later on in the game if they have more than one AP but not a lot of CC.\n Second item you should definitely get Ludens now. The reason why Ludens is so strong with this build is because you get 40% cdr with only that item. Around level 12 you should have ~42% cdr with Ludens (20%), Transcendence (10%), Cosmic Insight (5%), and Scaling CDR (Roughly 7% at level 12).\n After that, if you're fed you can go for Deathcap, Void Staff if they have heavy magic resist, or even Rylais if you have a slow gold income but no one is buying any MR, and they do not have any assassin threats. In the end however you should ALWAYS have Deathcap and void staff in your final build, those two items are super core on almost every mage. You can build Banshees or Zhonyas after Ludens if their AP or AD assassin is fed.\n For boots I almost always go Sorcerer Shoes, but sometimes go Mercury Treads vs heavy AP and CC.\n Build TLDR: Aery, with Inspiration secondary.\n Items: PHC -> Ludens -> Deathcap/Void -> Banshees/Rylais/Zhonyas, depends on matchups -> Deathcap/Void (whatever one you didnt build third)\n If you guys have any questions or want tips for climbing then I'll gladly answer.\n If you want to get better at Viktor, I highly recommend watching high elo Viktor streamers like Zane Prodigy, Dun (whenever he streams PepeHands), or keonu1.",
+   "id": "bmlc6f",
+   "comments": [],
+   "age_days": 2710,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Anyone been absolutely destroying now that scuttles spawn later?",
+   "url": "https://www.reddit.com/r/viktormains/comments/bkisd5/anyone_been_absolutely_destroying_now_that/",
+   "published": "2019-05-04",
+   "author": "/u/greekcel_25",
+   "body": "I've legit haven't dropped a game since the patch dropped and I've been playing him into every matchup. Feels pretty insane now that your jungler isn't basically forced to concede scuttle or possibly int it at scuttle and get behind because you picked vik. Also you won't have to waste mana for scuttle fight. You push strong level 1-3 advantage harder because junglers have less reason to be in the river early (gone are the days where j4 casually paths through your lane to scuttle while you have the push, effectively zoning you off half a wave with zero effort). From that I feel that everything goes better. I'm getting to back with 1150 gold every game, with the lane in a decent-good spot as well. From there its smooth sailing to multikills (got a quadra within 1st 5 games https://imgur.com/a/gmYr3aJ).",
+   "id": "bkisd5",
+   "comments": [],
+   "age_days": 2715,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "The 1v9 Viktor guide that you need and deserve",
+   "url": "https://www.reddit.com/r/viktormains/comments/b2f65m/the_1v9_viktor_guide_that_you_need_and_deserve/",
+   "published": "2019-03-18",
+   "author": "/u/SoupRyze",
+   "body": "1. Introduction (or “why the fuck should I even consider trying out this retarded build”) Greetings my children. I am SoupRyze, and as you can probably a tell from my name, I abuse Ryze for elo and Riot Games abuse me on a daily basis with nerfs. However, a couple months ago, I fought against a mana-tank Viktor and the dude beat me in a 1v1 when I was Ryze, and it never occurred to me up to that point the potential of Viktor as a battlemage as I have always thought he’s just another boring Orianna. Ever since I have tried to master Viktor, using every build and every rune combination possible, and with my big brain mass I have come upon this specific Viktor playstyle that everyone laughs at until they get absolutely fucking obliterated by it. Now if you are one of those weak individuals who play FOTM champs like Aftershock Lissandra and only play Viktor top with Kleptomancy or if you’re one of those whiny little kids who still reminisce about Crown in season 6 and his Viktor, you may find what I am about to unleash onto you a little hard to take in, and that’s ok, because I am not here to change random people’s opinions about a character in a video game. No, I’m here to talk about a specific playstyle that worked wonders for me, and is extremely fun if you can pull it off. Let’s get started.\n So... the big WHY question. You see, rather than asking yourself ”why” just ask yourself ”why not”. I’m going to be quite honest with you, League is a game, and if you’re here reading this guide 99.99% chances are that you don’t have any future in esports anyway, so why climb if you aren’t going to have any fun doing it? This playstyle allows Viktor to 1v9 harder than literally any other mages by killing everyone: if you want to 1v9 games by shoving and roaming, you should have played Aurelion Sol, if you want to 1v9 games by being a pseudo-assassin and shoving and roaming, you should have played Ahri, if you want to 1v9 games by shooting people with skillshots from really far away, Lux, Xerath or Syndra does it better... point is you can do everything better with every other mage if you keep trying to play Viktor like other mages are played. So instead of shoehorning him into the roles of other mages by taking runes and items that compensate for his weaknesses, we go full chad alpha mode and compensate for his weaknesses with our own mechanical prowess and take runes and items that synergize with him extremely well when you can pull it off. So now, instead of worrying that your Ahri can outroam you, you simply don’t give a fuck and become stronger at 2 items then she is at 3 items and oneshot people when they don’t expect you to, and instead of pissing people off when you are fed because you cheese your way to victory, you are now striking fear into their hearts and gaining respect by doing it because they simply have never seen Viktor played to his absolute fullest potential with the absolutely most ambitious set up possible. That’s how I play the game: you 1v9 or you demote straight to Bronze trying.\n 2. Mentality training and the importance of consistency (skip if you’re a Ryze main) Before we even begin, I’m going to have to tell you that you need a strong mentality to play this style of Viktor. Fortunately I have played Ryze for a long time so I am used to managing my abysmal mana pool, or getting flamed at by everyone because my Zed or Yasuo is roaming after I base to get my items, or taking jungle camps/side lane farm, etc. Your team will wonder what the fuck is going on, ping your items, tell you that you’re reported for trolling, telling you to “play safe and build IBG vs Zed”, and if your opponent laner gets a lucky kill somewhere early on your life is actually going to be hell. You need to either ignore them all, and mute everyone if you can’t take it, and remember that the Tab button is only there to tell you what items to buy against your enemies and ignore your inting botlane or the fed Jax that just bought a spear of Shojin on the enemy team. You play for yourself, and you play to win, and believe me when I say this: every single fucking game is winnable once you have 2.5-3 items because of how retardedly hard you spike with these items and runes. So if no one in the game believes that you’re gonna win, if you are set on your way for your core 2.5-3 items, then I believe that you can win this game. Do whatever you need to get gold: KS, take camps, take farm, you’re the carry and at the end of the day, no one is gonna flame you if you oneshot your enemies in every teamfight. Also, you need to stop telling yourself that your champion is weak, because if you’re not going to believe in yourself, who else will? Viktor is a hypercarry, not your plain old regular pussi mages that support mains pick up because they complain about their ADC and how no one appreciates them for what they do, so man the fuck up because the moment you lock in Viktor you are challenging 9 players to make you lose this game before you hit 3 items and forcefully yank LP out of their hands. \n So you may be wondering: what do I mean by consistency? Well this can mean many different things, but in this case it means “getting your core items without being too behind.” I personally don’t even lose lane that often after first Hexcore (and maybe tear/dark seal on top of it), but when I do (or when my teammates do and their fed laners go mid), I just keep waveclearing, keep defending siege, and never stop farming. As Viktor in general and even more true with this playstyle, dying early game is one of the worst thing you can do, so this sounds like a Korean advice but you absolutely cannot die. Don’t get baited by your teammates, don’t die to jungle ganks because you want to save your flash, etc. Your goal is to keep the game as slow-paced as possible before you get your items, and I don’t know how better to put it but when I first started out on Viktor I usually lost a lot of games because of something like dying once early trying to save my jungler and then my Zed roamed bot and get a double kill when I was down. You’re like the reverse Yasuo player: they go high-risk high-reward plays while you just want to stop those from happening, at least before you get your items.\n 3. Runes and Items (the secret sauce of the recipe) The runes\n As a Ryze main I am pretty knowledgeable when it comes to runes (haha comedy gold please let me marry your daughter). You will only use 2 primary keystones in this matchup: Dark Harvest and Electrocute. You will take Taste of Blood, Eyeball Collection, Ravenous Hunter, and Sorcery secondary (not Resolve, not Inspiration) with Transcendence and Gathering Storm. For stats shards you will take 10% CDR, adaptive force and then a defensive stat shard of your choice. Now you might be wondering what the fuck I’m smoking to have the balls to take this rune page into every matchup when everyone is shaking in their boots with Aery and Biscuits and Resolve tree, but fear not my children I will provide you with the explanation right below.\n The purpose of this set up is to get as much free offensive and CDR stat as possible and essentially invest all your resources into the mid and late game by sacrificing your early game. With this specific set up you will get 60-70 free AP from GS and Eyeball Collection, and 16-17% CDR at your first 2 items without building CDR and will hit like 39-40% CDR at your 3rd item (usually), and if the situation requires you to buy a defensive item like IBG or Abyssal Mask later on in the game this will synergize beautifully with these items as you will actually get even more AP from Transcendence overcap and from the mana scaling of Seraph’s Embrace (you get 55 AP out of buying an Iceborn Gauntlet before it’s even amped up by Deathcap with this set up and if this doesn’t sound kind of retarded to you then I don’t know what else to say). With this whole theme in mind, Dark Harvest comes into place, as you are essentially announcing to the whole server that you don’t even need a keystone for the first 20 minutes of the game to win against you trash kids. Even though it is nerfed to shit, the fact that all of Dark Harvest’s damage is meaningful damage and that you get resets when you kill people in teamfights make this rune really packs a serious punch when it matters. It also makes your ult a lot more deadly as it is now an absolutely terrifying execute at your disposal. Also, the difference between oneshotting someone and almost oneshotting someone in the late game is sometimes all it takes to change the state of the game: Dark Harvest’s damage is instant, and it’s huge (in late game), so Lulu can’t cuck you because you’re simply too bursty. This rune is my personal favorite, and you should really try it out because it just puts you on an entirely different league once you get a few stacks, but if you try it and don’t really like it, Electrocute is a good alternative due to the instantaneous burst that it gives. The thing is though Electrocute is kind of hard to proc in lane vs ranged matchups, and Dark Harvest is just better later on in the game (and don’t even pull out your math charts on me because sometimes you just throw out your combo and you use Electrocute on a tank whereas with Dark Harvest the damage will always be applied to the right person a.k.a enemy carries so damage numbers doesn’t mean everything), but if you’re fighting melee opponents Electrocute will be better due to how easy it is to proc onto melee champs off cooldown and the fact that melee champs in mid are usually scary motherfuckers who try to aggressively trade into you so you have to respond with your own punch or you will get run over by them as your rune set up is already ambitious enough. Basically Electrocute and Dark Harvest are interchangeable but I personally take Dark Harvest into ranged and easy melee matchups like Kayle and Electrocute into rough melee matchups. As for the stats shard, I guess you can try taking 2 defensive stat shards if you want to but without that single offensive stat shard you actually do negative damage and you really want to utilize Viktor’s annoying level 1-3 trades in your favor (even if you’re taking a really weak rune set up early on, you still outtrade many champions because of your Q shield and the fact that your E is practically undogeable). But all you need is the 10% CDR rune shard, you can take whatever you want with the remaining shards. On a side note, Absolute Focus is a trap card since you will mostly take equal HP trades a lot in lane to get DH stack rather than playing conservatively and only take free trades, and giving up 10% CDR and the ability to get more AP out of overcap CDR on items Viktor love to build anyway like IBG is not worth at all.\n The build\n Your core items should be PHC, Tear, Deathcap, Seraph’s and the rest is situational. Sometimes you will have to delay Seraphs for Void Staff if they are stacking MR, or Banshee’s/Zhonya’s if you REALLY REALLY need them (as you DO get a HUGE spike out of completing Seraph’s Embrace which includes ~200 AP, 20% CDR, a huge boost to your Q shield and dueling potential and a great active to save yourself), and since you get like 750-800 AP with these 3 items, sometimes you just buy IBG and Abyssal Mask so you can oneshot everyone while being a really tanky motherfucker. My favorite full build is 3 core items into Void Staff and Stoneplate, and there have been situations where I built a Zz’Rot after my core items just to protect the base from my 3 open inhibs. Tbh as long as it’s an AP or defensive item, you can fit it into the last 2 slots. I will go into more detail and give explanations for the build below.\n Your sums should be Flash (duh) and Teleport if you’re new to this build/looking to splitpush later on, Barrier/Heal to save yourself, Cleanse vs tough CCs (duh), and Ghost/Ignite if you have a big dick. Honestly take whatever you want to, there’s no difference between regular Viktor and this Viktor when it comes to sums anyway.\n You start the game with Sapphire crystal and Refillable pot (or Dark Seal if your jungler is someone like Twitch and Camille and you will get a level 2 gank). I can see some eyebrows raised here, and sure you can start with Corrupting Pot as an alternative, but I personally prefer Sapphire start because of 3 reasons: first, it makes your build path extremely flexible and speeds up your build (in case you back at a weird amount of gold and can’t buy Hexcore or have extra gold to spare, you can either buy Dark seal, Faerie’s charm, or a Tear and they will all build into one of your core items); second, the flat mana from Sapphire crystal is IMO way better than Doran’s ring for your aggressive level 1-3 trades where Viktor can be downright oppressive if played right (which is why C-pot is a good alternative due to the flat mana), and since you will most likely be taking Dark Harvest, this aggressive trading pattern will force your opponents to chunk their pots while you sit on refillable and force an early base for Tear and Dark Seal, essentially forcing them to waste 2 pots for nothing while you cash in on that sweet sweet DH stack; and finally, I’m a Ryze main and I’m very comfortable with this item start (bonus: Viktor’s shield has mana scaling so your shield is a bit bigger than usual if you start Sapphire crystal). For this specific playstyle, hitting that Deathcap second item means EVERYTHING so if you have Deathcap 350G faster than you should be that can mean the difference between a won teamfight in the midgame (and naturally, a Baron/Dragon) and you looking like a dumbass.\n “But when do I buy Tear?” Many people have asked me this question when they see my autistic posts, and the answer is very simple: whenever you have extra gold to complete it’s extra components and whenever you feel like you need the extra mana from Tear. The goal is to complete Tear + Perfect Hexcore as your first items, and then go on to build your Deathcap (and 90% of the time a Dark Seal somewhere in between). If you’re asking “when would I need the mana from Tear?”, I honestly can’t tell you because it’s kind of a “feel” that you get when you play a champ long enough, but what I can tell you is what comes across my mind when I consider buying Tear: first, do I need to use many spells to trade with this player, or do I just press E to shove the wave with Hexcore 1 and that’s it (for example, an Ahri player who literally does nothing but Q the wave and play extra safe all the way in the back = Tear + Hexcore 1 so I can match her waveclear and stop her from roaming too much, but if that Ahri holds onto her Q, plays aggressively into me to try and hit me with spells and doesn’t try to roam a lot then I don’t really need Tear and can just get Dark seal + Faerie’s charm so my own spells hit harder as she has to put herself in the range of my spells in order to play aggressively); second, am I getting blue buff, and is the enemy midlaner getting blue buff, and whose champion is better at mana sustain judging on our current items and our play pattern (for example, Ahri > Orianna > Ryze in terms of early mana sustain). One thing most people don’t realize is that since Tear essentially multiplied your effective mana pool (due to the mana refund passive) and Viktor’s Hexcore already gives him a bit of flat mana to work with, Tear gives Viktor more mana to work with than it does with other champions. Other than the mana sustain, you will start to notice the size of your Q shield to be significantly larger than a normal Viktor’s Q shield once the Tear stacks start to kick in.\n Now I’m gonna talk about Deathcap. First, why we build Deathcap so early on Viktor: Viktor’s retarded AP scalings along with the flat AP provided by Hexcore make it so that he can fully utilize Deathcap’s passive earlier than other champions (some other champions who can also rush Deathcap early such as Veigar and Ryze also have good AP scalings and free AP somewhere in their kit). Another reason why Deathcap rush is good on Viktor is that usually with whatever build you’re going with on Viktor (say, the most common build Hexcore and Luden’s into maybe a Deathcap), you most likely won’t be doing much other than waveclearing in the midgame anyway. Sure, you hurt if they stand in your E and R, but midgame simply isn’t Viktor’s time to shine yet; however, in the midgame you will find yourself sitting on large amounts of gold because you can stay in lane and waveclear for a very long time even without blue buff (Tear btw) and because your waveclear is so bullshit no one can really siege anything if you’re there, and Deathcap’s build path requires you to sit and farm for an extended amount of time so this is actually the most ideal time to buy it. When you complete your Deathcap and teamfights starts to break out everywhere on the map, you will find yourself having to move a lot and constantly participate in different fights, which means sometimes you will be basing very early while sitting on inadequate gold for a Large rod, and if another fight breaks out right now you will essentially be entering the fight while sitting on 1k because you can’t really buy anything which sucks, and if you decide not to sit on 1k and work towards another 3rd item that’s not Deathcap (for example, you’re now buying Morello 3rd after maybe Seraph’s or Luden’s second) because you only have enough gold for small components, enemies will buy MR, so now you will have to buy Void Staff and you will literally have to wait until your sixth item while constantly sitting on up to 2350 gold to finally start doing some real damage... If you don’t like my build, if you hate Tear, and you swear you will never take Dark Harvest and Electrocute, you do you and I won’t judge your weak ass Aery Inspiration Viktor, but if there’s anything you can take away from this long guide it’s that buying early Deathcap on Viktor allows him to carry fights from WAYYYYY earlier and helps a lot with his clunky itemization issue no matter what items you choose to buy on Viktor. If you’re looking to carry the fights by yourself, and not playing utility Viktor shaking in your boots with Banshee’s and Zhonya’s then you get this item, and you get it early. Since we are taking CDR runes, we do have some CDR to work with despite buying nothing but AP and a Tear (and a Dark seal), and since we are taking AP runes like Gathering Storm and Eyeball Collection, Deathcap will make these runes even more effective after you complete it. The only situation where you would NOT rush Deathcap second item is when your team has 4 AP for some reason and everyone on the enemy team is sitting on that Hexdrinker, then you will just have to bite the pillow and be prepared for a rough game and get Void staff + Lucidity boots and complete Deathcap 3rd at all costs and work with 28-30% CDR at 3 items (never happens to me because in these games I either dodge or pick Jayce), or when you are getting shit on and you are absolutely certain that another player on the team is going to hard 1v9 this game then you can just sit in the back and build to not die anymore (but if no one is winning, ignore flame and build damage because no one spikes harder and faster than Viktor at 2-3 items with this build and if you’re already behind this much then nothing but a miracle play is gonna save you anyway, so build to prepare yourself for that miracle play and seize the opportunity when it comes to you). Always ask yourself what you need after your 3 core items, as with these items and runes you now have access to way more options than a traditional Viktor build due to the free AP you get from Seraph’s mana-AP conversion and Transcendence CDR overcap and the unreal amount of AP you already have just with 3 items, he flexibility in itemization is absolutely amazing so utilize it.\n Rest of the build is quite flexible: if no one is building MR (or if the guy you want to oneshot isn’t building MR), then Seraph’s 3rd item is the best thing you can get as explained above. If they are stacking MR, Void Staff; too much healing, Morello; everyone is trying to tag you with CC, Banshee’s; fed AD Assassin, Zhonya’s; if you decide that you already have enough damage and wants to sidelane and adapt to an AP-bruiser playstyle who can still oneshot scrubs, we got IBG, Abyssal mask and every other tank/mana item you can think of. Whatever you decide to build, don’t delay Seraph’s by more than your 4th item (not including boots), it simply provides you with too much and should only be skipped when you absolutely need another item due to very extreme circumstances. Which brings us to...\n THE MEJAI’S TECHNOLOGY. This is the secret 3rd item on Viktor, and you can probably build this when you’re fed as fuck and no one would even care since you’re already oneshotting everyone anyway getting extra AP is honestly just overkill, but what if I tell you that this item is your final option when all hope is lost and your team is 10k+ gold behind? As said above, if you’re team is too behind and the only way to win is through miracle play, then this item is the fucking Bible that you recite as you make these miracle plays: because you probably have a Deathcap (or not, you can actually get Mejai’s before Deathcap) and because Viktor has downright retarded AP scalings, if you just stand back and trade your teammates’ lives for Mejai’s stacks (kills or assists doesn’t matter), eventually you will hit a point where you suddenly start oneshotting people for no reason until you realize you’re sitting on 700+ AP with nothing but Hexcore, Deathcap and Mejai’s. This is the ultimate big dick move, buying this means the entire enemy team is going focus you and you simply don’t give a fuck because your positioning is so godlike and that you’re just not going to die and you’re going to put these monkeys on your back and win the game by yourself. This is why we are sitting on a Dark seal (other than the fact that the item is just honestly so gold-efficient that it’s broken and everyone should just get one anyway), because one that Dark seal hits 6+ stacks, Mejai’s is gold efficient enough for purchase, and since you only lose 10 stacks on your death, if you are certain that you can get 2 kills and an assist (or 5 assists, or 1 kill and 3 assists) for your every death then it’s worth as fuck 100% of the time. You lose like 500G when you sell it, so if the extra AP gives you 2 kills you shouldn’t have gotten without the extra AP, then you’re already making profit with this purchase, and once you hit a certain amount of AP killing/last hitting someone as Viktor really isn’t that hard. Here’s a game where I sat on a Mejai’s with 0 stack then proceeded to stack it and won the game hard 1v9 style while carrying the 14k gold deficit on my back.\n As for boots, most of the time I buy Sorcs if I can because the burst is really feelsgoodman, but of course you itemize every game. An interesting choice is Lucidity boots to get that 30% CDR without buying any CDR items in case you need to get something like a avoid Staff or Morello as your 3rd item and you need to delay your Seraph’s as I said earlier, but just take whatever you need. Late game you can sell boots for Lich Bane or Spellbinder if you want to, and if you’re one of those sweaty fucks then you can hit them with the Mobis + Righteous glory technology as you run up to them and nuke them with your 700+ AP because Seraph’s mana/AP conversion is retarded.\n 4. The gameplay and all the little things that separate big dick chads from smol pp virgins If you have read the guide up to this very point, you probably already have an idea of how you should be playing with this build as I have pretty much said everything while explaining item builds and runes, but I’ll just sum it up here anyway and will add some points that will probably help your Viktor gameplay. The core gameplay of Viktor is essentially the same no matter what you build: you hit your skillshots onto people, and they die, so things like “how to hit E” and “how to effectively use my W” won’t be touched since you can just find them anywhere, but here is the things you need to take note of while using this big dick Viktor set up:\n Laning phase\n It’s much harder to lane as Viktor with this set up if you’re used to something like Aery and Inspiration secondary. First of all, mana management is going to be really tough for you: you don’t have Manaflow band, and you don’t have Biscuits, so every single E and Q you use has to have a purpose. You can’t be using random spells to last hit a minion that’s too dangerous to last hit, rather you will have to try and hit that minion and your laner opponent at the same time to make best use of your mana pool. Lucky for you, Viktor’s E is actually broken as fuck and if you are good enough it is actually impossible for people to dodge it unless they have a dash, and your Q is point and click, so with practice you will make the absolute best use of your mana. Another really tough thing you have to accomplish during the laning Phase is that you have to essentially trade aggressively to get DH stacks by putting both you and your laner below 50% (assuming you guys are both at he same skill level) while also not dying to ganks or giving up all your CS just to survive. Hexcore is already tough to buy due to its set build path and shitty component prices, and if you’re getting a Deathcap after that, it feels like you have to build 2 Hexcores due to the ridiculous component prices; Tear components, boots and Dark seal help to soften the process, but you’re going to have to sit on a large amount of gold while constantly forcing trades while trying to not run oom (although you will be fine after Tear) while trying to survive as a really immobile mage in the midlane (this is why I recommend taking TP if you’re new because it really helps your laning and allow you to get really good bases to help deal with these huge components costs). It’s tough, but it will be worth it.\n The midgame (pre-500 AP)\n Just farm. Farm everything. Take raptors, take wolves, take the kids back from Karen. Just make sure you’re there when enemy team is trying to siege, since your greatest asset is your waveclear, and if a big teamfight happens don’t ignore it as even though you’re not the strongest right now you still deal quite a bit of damage if people stand in your E and R and you just want to make sure that your team doesn’t just get rolled over here and you don’t even have a chance to finish your Deathcap just because your team has to 4v5. As long as you guys don’t get roll over, or in other words, even if the fight is lost but the enemy team can’t get any real objectives out of it, then you’re winning because they are failing to stop you from getting your items and ending the game before daddy Viktor decides to spank them all.\n The end game\n STAY. WITH. YOUR. TEAM. EVEN IF YOU HAVE TP. You should only be catching waves in sidelanes rather than actually splitpushing yourself. Of course if your team has absolutely no problem with winning 4v4 then sure you can split (and Viktor is quite a duelist himself so he’s actually pretty good in a sidelane) but most of the time you’re just way stronger in teamfights that you should leave the sidelane for someone else. Besides you have been AFK farming for long enough, it’s now time for you to group and win these fights for your team. This however doesn’t mean that you should run around mindlessly with your team while accomplishing nothing; if nothing is going on, keep farming and taking camps from both junglers, you outscale pretty much everyone anyway and gold is worth more on you at this point in the game. \n The big difference in terms of playstyle happens when you complete Seraph’s: you should now notice that with 40% CDR and an unusually large mana-shield your dueling potential is nothing to be scoffed at. This is the reason why I even picked up Viktor in the first place, because being a Ryze player myself there’s nothing I love more than running around oneshotting cute ADCs while tanking all the damage with my shields. You can play much more aggressive than a Viktor without a Seraph’s, people like Irelia and Akali will have to be careful if they jump on you and fail to instantly oneshot you because you’re going to kite them for days with that dumb shield you have. The trick here is to know your limit: usually as a Viktor player you don’t need to know how much damage you can take because if you build full AP without Seraph’s you really can’t take any damage anyway (a.k.a you’re squishy AF like every other mage out there) and if you are one of those sweaty Iceborn Klepto Viktor in toplane with IBG and Mask rush then you can pretty much take all the damage if you have these items. This is what I believe to be Viktor when he’s played at his absolute full potential: knowing how much damage you give and take with your shields and Ravenous Hunter, and using this to your advantage to perform riskier plays that bring you higher rewards. A Viktor without Seraph’s can’t face tank a Vel’Koz ult to get into a position to oneshot the enemy backline, while a tank Viktor can tank that shit but he can’t oneshot the enemy backline at 3 items, and only by building Seraph’s can you perform this play without running it down looking like a tard (and before you tank Viktor players out there try to tell me that your Hexcore IBG Rylai’s Viktor can oneshot backline, hitting both E and like 3 ticks or ult and a Q auto is not a oneshot in my eyes, if they blink and they are not already dead then you’re already taking too long to oneshot someone). This is the part where my experience with Ryze come into play: Viktor’s limit is actually really similar to Ryze’s limit; this means that if Ryze can win a 1v1 or can tank something, then Viktor can do the same thing. Their limits are not exactly the same (Ryze does slightly better against burst because his shield is bigger, but Viktor does slightly better against DPS since his shield is up more often) and the knowledge of your limit only comes with experience, but if you’re a Ryze player trying to pick up Viktor then you should find this little bit of information very useful to you.\n 5. Conclusion I wrote this on a plane because I have nothing to do, and I’ve said everything I need to say. I hope everyone can learn something from my experience being probably the only Viktor player around here to even consider building Tear anymore, and even if the build sounds dumb and “there’s no way it will work, Viktor stacks Tear too slow” or whatever it is, just try it out, because although I can’t guarantee that this is the absolute best build to climb with as Viktor, it’s the most fun build to play with as Viktor. And besides, if you actually want to climb, just play Janna and use a voice changer to bait some high-elo virgin ADCs to carry you, it’s much easier that way. I am SoupRyze, and I hope that with this guide I will lower Viktor’s winrate enough for a buff help you guys have more fun playing this dying champion and this dying game.",
+   "id": "b2f65m",
+   "comments": [],
+   "age_days": 2762,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Viktor Mid Guide by Remmi- containing Builds, Matchups, Maokai Runes and more",
+   "url": "https://www.reddit.com/r/viktormains/comments/aqkr77/viktor_mid_guide_by_remmi_containing_builds/",
+   "published": "2019-02-14",
+   "author": "/u/Remmi_",
+   "body": "Hello,\n I am Remmi, a Grandmaster Viktor main. I created this guide for Viktor in the Mid lane.\n My stream link: https://www.twitch.tv/remmi__My OPGG, Grandmaster screenshot\n The guide includes:\n Recommended Builds\n Mid lane matchups\n Maokai Runes\n My thoughts on some specific items and runes that people asked about\n All reasonable Mid lane matchups are covered together with starting items, suggested builds, runes, summoner spells, information on how to play the lane matchup at each of the first 9 levels and special tips for that matchup.\n On the left, in the Outline, you can click the matchup you want to look at and it brings you to that page in the document. The matchups are sorted in alphabetical order.\n For each champion, there is a patch the guide was last updated on, the goal is to update the guide after some time to keep the guide up to date with the live game.\n Maokai Runes are a specific rune page of mine designed against assassins in Mid.\n Guide Link: https://docs.google.com/document/d/1cMamRmGurvKtJPKiEjNmV5LcN-0hh0f6yYYpisHWbgk\n ​\n I would like to thank everyone for their feedback and support! I will link the post with the WIP version of the guide so that everyone can look up the discussion in the comments if they want. [Link to the old reddit post]\n If you have any question or thoughts about the guide, feel free to write it in the comments bellow.\n Edit: Updated for Patch 9.15",
+   "id": "aqkr77",
+   "comments": [],
+   "age_days": 2794,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Viktor Mid Matchup Guide by Remmi",
+   "url": "https://www.reddit.com/r/viktormains/comments/aj1hh3/viktor_mid_matchup_guide_by_remmi/",
+   "published": "2019-01-23",
+   "author": "/u/Remmi_",
+   "body": "Hello,\n I am Remmi, a Master tier Viktor main. I created this matchup guide for Viktor in the Mid Lane.\n This guide will cover all reasonable matchups that you can face on Mid as Viktor with starting items, suggested builds, runes, summoner spells, information on how to play the lane matchup at each of the first 9 levels and special tips for that matchup.\n It also includes the 2 current best Viktor builds(Ludens and Rylai-Dcap) and a specific rune page of mine called Maokai runes.\n On the left, in the Outline, you can click the matchup you want to look at and it brings you to that page in the document. The matchups are sorted in alphabetical order.\n At the time of posting, there are all matchup from Aatrox to Orianna, rest will be added in the near future and the guide will update each time a matchup is added, until all the matchups are covered.\n Next to each champion, there is a patch the guide was last updated on, the goal is to update the guide after some time to keep the guide up to date with the live game.\n Link to the guide: https://docs.google.com/document/d/1cMamRmGurvKtJPKiEjNmV5LcN-0hh0f6yYYpisHWbgk\n If you have anything you want to ask or suggest, feel free to write it in the comments bellow.\n EDIT 1: UPDATE! Matchups from Jayce to Orianna have been added to the guide!\n EDIT 2: The guide is completed with added build suggestions and thoughts on some runes and items. I will create a new post for the full guide and this post will be linked in the new post so that everyone still can see the discussion from the comments.\n Thank you everyone for the feedback and support!",
+   "id": "aj1hh3",
+   "comments": [],
+   "age_days": 2816,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "A look into the Viktor vs Kassadin matchup",
+   "url": "https://www.reddit.com/r/viktormains/comments/aciy8n/a_look_into_the_viktor_vs_kassadin_matchup/",
+   "published": "2019-01-04",
+   "author": "/u/Remmi_",
+   "body": "",
+   "id": "aciy8n",
+   "comments": [],
+   "age_days": 2835,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Top lane tank Viktor build",
+   "url": "https://www.reddit.com/r/viktormains/comments/96lli9/top_lane_tank_viktor_build/",
+   "published": "2018-08-12",
+   "author": "/u/Hn5624",
+   "body": "Heres the simple mathematics \n 1 archangles \n 1 perfect hex core \n 2 frozen hearts (or 1 abyssal mask/1 FH) \n 1 ninja tabi \n 1 iceborn gaunlet. \n Summoners: Flash + Barrier to survive early level ganks and all ins. \n This is a Q MAX FIRST STRATEGY, it will not work or be nearly as effective if you max E first . \n Rune Page =Phase Rush= must be taken into 90% of matchups. Reason being Q-AA-E easily procs it, letting you escape engages and ganks. Later on in the game it helps you kite.\n =Transcendence, vampirism = also required. You can very easily hit 40% CDR due to Iceborn + Glacial Shroud. After these two items, every 10% EXTRA cdr is converted into 20 AP. Basically This makes Seraphs and Frozen Heart both 130% Gold Efficient.\n Q does the most damage when maxed, and also has the lowest cooldown, perfect for trading especially when it gives a shield.\n\n Stats: (assuming transcendence rune) \n 550 AP \n 370 OR 270 ARMR \n 40% cdr \n 50 OR 95 MR \n 550 Shield on Q( every 2.5 seconds) \n 700~ Archangles shield \n Majority of the champions in the game, including ADCs will not be able to break your Q shield after frozen heart + iceborn. \n You can face tank majority of champions 1v1 and win just because of Q Shield Spam.\n Iceborn gaunlet was made for viktor. Lich bane gives him the damage to burst, but iceborn gives him the ability to effortlessly kite and sustain, which in my opinion is a much more intense and satisfying playstyle. \n Heres a Tank Viktor 2v5 with a little help from sona.\n https://www.youtube.com/watch?v=JkC_Ma8-AZs\n ​\n edit, stop downvoting me im scared D:",
+   "id": "96lli9",
+   "comments": [],
+   "age_days": 2980,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Viktor is getting buffed in 8.11",
+   "url": "https://www.reddit.com/r/viktormains/comments/8llpjk/viktor_is_getting_buffed_in_811/",
+   "published": "2018-05-23",
+   "author": "/u/Arneeman",
+   "body": "Here's the comment I just got from a rioter\n Not sure exactly what buffs they are considering, I'll edit this post when I know more. There doesn't seem to be anything on PBE yet .\n Update: The changes are on the PBE now!\n Q auto: 20-100 -> 20-140\n\n R scaling after first tick: 60% -> 70%\n\n In my opinion this is an okay buff number-wise, but really not what Viktor needs to be decent again. This buff has next to no impact on the early game where the main problem is: If your champion is too weak early game, the enemy mid can create a lead by roaming and having stronger 2v2s for scuttle etc. No matter how good you play the matchup, they can snowball the lead and close the game before you have time to get strong in this situation. This change would be way more impactful in a lategame focused meta, which I doubt will happen this season.",
+   "id": "8llpjk",
+   "comments": [],
+   "age_days": 3061,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What Runes I Take into Every Common Midlane Matchup",
+   "url": "https://www.reddit.com/r/viktormains/comments/86oybe/what_runes_i_take_into_every_common_midlane/",
+   "published": "2018-03-23",
+   "author": "/u/iRTimmy",
+   "body": "Hello fellow Viktor mains. Most of you probably don't know me but I am \"iRTimmy\" and \"Haruka Bae\" and am currently rank 162 on the NA Challenger ladder mostly maining Viktor. From my time lurking, I've seen a lot of posts on what runes people take into different matchups and I figured some people might find my input helpful. This is by no means an objectively right or only runes to take as there are too many different factors and situations to account for, this just works the best with the general mindset I have going into these matchups. I'll only be covering the champions that I happen to see in ranked games. Niche or uncommon picks such as Kennen or Gangplank mid will not be covered as I do not have enough experience going against them to give a confident description. You'll also see that I take Aery into most matchups rather than the more common Fleet Footwork, that's just because I tend to favor the early game and laning phase much more than I do other parts of the game. If you tend to play more for the late game because you are not confident in your ability to play aggressive in lane then Fleet Footwork or Unsealed Spellbook would work better. This is not an in depth matchup guide but rather me explaining what runes I take into the matchups and why. If you disagree on a certain matchup or are wondering how I play a certain matchup in depth, then feel free to share or ask.\n GENERAL GUIDELINES TO PICKING A KEYSTONE\n Aery\n In my years of playing Viktor, I have found most matchups to be dependent on forcing the enemy to take unfavorable back timings, creating a CS and EXP lead for yourself. Because of this, I will take Aery into most matchups that I think I can poke out of lane. Some might argue that the late game utility obtained from other keystone options far outstrip Aery due to their efficiency. But in my mind I believe that the early leads that can be gained from Aery will help you in the long run by getting you to a stronger state later in the game through snowballing, making up for Aery's late game inefficacy. You will see that I will often pair Scorch, Manaflow Band, and others in order to help me with this goal. If I need sustain in trade heavy matchups I will tend to take other forms of sustain such as biscuits.\n Fleet Footwork\n Although Fleet has been nerfed for Viktor, I believe that it is still a solid option and definitely the safest (meaning if you don't know what to take or you aren't sure how the lane will go, take this). This is for matchups where you might be able to poke them down but it is much more likely that you will be forced back sooner due to their kits, or after a certain point in the lane it will be impossible to force a back (due to sustain or itemization). If I know I will be able to force them to back and they will not be able to punish me, then I will take Aery instead.\n Unsealed Spellbook\n This is the most \"late game\" option out of all the keystones, I only take this into lanes where I know I will not be able to poke the enemy out of lane and I know that I will not take too much harass or poke to the point where I will need Fleet's sustain. This is for those non-interactive matchups where all the enemy does is afk push and are not punishable due to their defensive capabilities.\n Kleptomancy\n This is an extremely niche pick that I only take into two specific matchups: Vladimir and Kassadin. This is because the entire early lane dynamic consists of them using their Q on you and you are easily able to get a Q+auto off on them without taking other punishment in return. You cannot do this into other matchups because other champions have other tools in their kit that can punish you for going for a Q+auto but almost all of Kass and Vlad's trading power is in their Q, which has inherent strengths through sustain/shielding rather than damage. In these two matchups you will have to keep applying pressure by spamming your skills off CD in order to force a back and Klepto's consumables will help you with that. It also helps you with scaling into the late game as you will be proccing it every time your Q is back up. You might think that this is good into melee matchups but against good players, they will just back off before you get the empowered auto off. Since Vlad and Kass uses Q, you are guaranteed to get the proc off.\n I do not take any other keystones besides these. I have not tried out the others extensively but from what I can tell they just aren't as good as these options are.\n MATCHUPS\n Ahri\n Aery-Manaflow Band-Celerity-Scorch-Dematerializer-Cosmic Insight\n You will need to create a lead early pre 6 in order to prevent all-in potentials. Aery is to help poke her out of lane while Manaflow is to keep up the pressure. Nullifying Orb can also be good if you are afraid of dying but I am confident in myself to prevent Ahri's all-ins or survive without it. Celerity is to help dodge her skillshots while Scorch is to help keep up the pressure. Dematerializer is because many Ahri's will identify that you're trying to poke her out of lane and will try to hard shove to get a back, Dematerializer helps with your own push in order to help counter her push. Cosmic Insight is just the default best option left. Magical Footwear is the other best option left but since I value the early boots' movespeed against Ahri, I do not take it.\n Anivia\n Aery-Manaflow Band-Celerity-Scorch-Presence of Mind-Coup de Grace\n The primary tree options are the same as above. Think of Anivia as a weaker laner but you have 2-3x more health to go through due to egg and teleport. This is where presence of mind comes in, it will give you the mana you need to poke through all that health. And yes, you can go through all of it with your mana pool as long as you don't miss lasers or don't get Q autos off. The attack speed also helps to push, you will want to constantly be autoing the wave to push into her tower as she is not the best at CSing under tower. Coup de Grace will help you get more damage.\n Annie\n Aery-Manaflow-Absolute Focus-Scorch-Magical Footwear-Cosmic Insight\n In this matchup, you will want to trade Q+auto for her Q level 1, but after level 2 avoid getting the auto off. Most of your poke will come from lasers and your initial Q if she if she is using her Q to CS. Absolute Focus is for extra damage, you do not need to movement speed as you will mostly be playing out of Annie's Q range. this is also why I take Manaflow over nullifying orb, I will not try to trade with Annie past level 1, I will be poking her down from a longer range. Good Annie's will try to punish you with a Q when you go for a CS and it is fine to take a few but it will get to the point where she will have to back or she cannot walk forward because she is too low. Magical Footwear and Cosmic Insight are the default best options to take.\n Aurelion Sol\n Fleet Footwork-Presence of Mind-Legend:Tenacity-Coup de Grace-Manaflow-Celerity\n I find this to be one of Viktor's more difficult matchups as it is very hard to punish Asol without taking multiple stars to the face and you cannot poke him out of lane as he can push the wave instantly and take a safe back. Because of this, you will mostly want to let the wave push into you and hope that your teammates do not die before you hit 6. After 6 you can all in him with your ultimate and that is the one of the reasons I take Fleet over Spellbook, so that I can get the extra movement speed to dodge his abilities. It will also help with CSing under tower. The runes in the precision tree are just the best options and there aren't really any alternatives to them. I take Manaflow to stay in lane longer and Celerity to help get out of the Stars' range.\n Azir\n Fleet Footwork-Presence of Mind-Legend:Tenacity-Coup de Grace-Manaflow Band-Celerity\n Speaking of hard matchups, a good Azir player (most Challenger mid laners) will make Viktor's life miserable. His poke was (thankfully) hit pretty hard recently and can leave some room for trading back against worse Azir players but I will assume that the Azir will be able to poke me constantly in lane. Fleet is for the healing while I take Manaflow to stay in lane longer and Celerity to help avoid his soldiers (actually helps a lot at max range). You can get extra sustain by taking resolve/inspiration second but the stat distribution from those tree combinations aren't as good as precision+sorcery's so I do not take those.\n Brand\n Fleet Footwork-Presence of Mind-Legend:Tenacity-Coup de Grace-Manaflow Band-Celerity\n I admittedly do not see Brand very often but just from looking at his kit, I will assume that he is fairly similar to Azir except he is more susceptible to being poked out of lane. Aery+Inspiration(biscuits) is also a good option but I feel as though the movement speed from Fleet will help you dodge Brand's skillshots as most good Brands will try to W you when you go up to CS.\n Cassiopeia\n Fleet Footwork-Presence of Mind-Legend:Tenacity-Coup de Grace-Manaflow Band-Celerity\n With the AP item changes, Cassio has seen a resurgence. Abyssal Mask has gotten nerfed so Aery might be an option now but I will say Fleet is the number one choice in this matchup. Cassio is extremely difficult to poke out of lane even without her building MR due to her insane healing when she procs presence of mind on a level up. I have seen many Cassios heal back to full after leveling up and spamming twin fang onto the wave without an opportunity for me to punish due to her low Q CD. Because of this, I've recently found myself playing more passive and looking for an opportunity to all in post 6 if she gets below 70% HP (assuming I'm not low). You will need the movespeed from celerity+fleet in order to dodge Cassio Q, and when you do get hit, you will need the sustain from Fleet.\n Corki\n Aery-Manaflow Band-Celerity-Scorch-Magical Footwear-Cosmic Insight\n This is a matchup that you can easily poke to win. Just be careful when you go up for a Q, if you walk too predictably straight at him without trying to juke, he will hit you with his Q. If his Q is down, go aggressive onto him. I take Celerity over Absolute Focus because if Corki takes TP then it will be likely that you will be under that 70% HP threshold from trading and the movespeed helps to dodge Corki Q. Early boots can help dodge Corki Q but I find myself being able to dodge it without it so I often take Magical footwear, leaving Cosmic insight as the best remaining choice. Minion Dematerializer is also good here and can be taken over the other Inspiration choices.\n Diana\n Aery-Manaflow Band-Celerity-Scorch-Presence of Mind-Coup de Grace\n Diana's actually quite difficult to poke out of lane due to her shield and teleport but I find myself being able to poke her out more often than not so I take Aery. You usually want to let the wave push into you and create a freeze or hard shove into her tower and harass when she's going for casters and in either scenario, the attack speed from precision helps (you can shave the wave to create a slowpush or auto attack faster to shove). Presence of Mind is to help you retain your mana pool in order to keep up the pressure. Just remember to hold your skills until after you level up if you're close to leveling up. Try to punish her whenever you can and you will be able to make her back early then again after she teleports back.\n Ekko\n Aery-Manaflow Band-Celerity-Scorch-Magical Footwear-Minion Dematerializer\n Ekko's much easier to poke down and most Ekko's will often try to hard shove the first few waves. Don't let him walk up to the wave and Q for free, punish him for it. Aery+other sorcery runes will help you to get him low and force a back. Even with Corrupting, you should be able to burn through his health pool twice. Just be careful of his E+Q after level 2, walk sideways if you think he will go for it, I take celerity to help avoid this. Dematerializer will help when Ekko tries to hard shove the wave and Magical Footwear is the most cost efficient as you don't really need boots early against Ekko.\n Fizz\n Aery-Manaflow Band-Absolute Focus-Scorch-Magical Footwear-Cosmic Insight\n This is similar to Ekko except Fizz will not try to hard push (if he does then just freeze the wave in front of your tower). This is an extremely volatile matchup and is extremely punishing if you do not get a big item lead. Focus on punishing Fizz as much as you can and getting a lead before he can all-in you. Aery will help you push and the other sorcery runes will help you to keep up the pressure. Nullifying Orb will likely help in an all-in but I value the mana that you get from manaflow in order to pressure Fizz. Stopwatch is an option but 10 minutes is likely to late in the game for it to make a huge difference and cosmic insight will help you to pressure because it lowers your CD's.\n Galio\n Unsealed Spellbook-Magical Footwear-Dematerializer-Cosmic Insight-Celerity-Gathering Storm\n You will be able to harass Galio extremely hard in the early parts of the lane and some Galio's will make the mistake of underestimating your damage and can die. But from my experience, this does not happen most of the time and Galio's will just TP back with MR and continue afk shoving the wave with their Q. Because of this, I take the most lategame rune setup. You can switch to Teleport to get good back timings and switch to Ghost later in the game for teamfights. You can start the game with ignite to try and get a cheese kill and switch to TP/heal if it doesn't work out. Galio will not really be poking you down so you do not need biscuits or manaflow. Dematerializer is to help your own push and Gathering Storm is for lategame strength.\n Karma\n Unsealed Spellbook-Magical Footwear-Dematerializer-Cosmic Insight-Celerity-Gathering Storm\n This is basically the same as Galio, if you're going against a Karma mid it's most likely an autofill who's just gonna try and afk push and build MR if you try to poke her down. Since she has no sustain, there is a good chance you can poke her out of lane but her mantra Q can waveclear fast enough for her to get a safe back off and her E+W prevents all-ins. I usually try and go for lategame with Gathering Storm and Unsealed Spellbook. As long as you stay behind and not too close to your own minions, you won't get poked down so I don't see Fleet being better than Spellbook.\n Karthus\n Aery-Manaflow Band-Celerity-Scorch-Biscuit Delivery-Cosmic Insight\n I don't see Karthus very often but this is what I would go if I went against one. Aery for poke, Manaflow to keep poking, Celerity to dodge Q's, Scorch for poke, Biscuits to sustain through Karthus Q spam, and Cosmic Insight to poke more often. Dematerializer would also be good to take over Cosmic Insight or Biscuits.\n Kassadin\n Kleptomancy-Magical Footwear-Biscuit Delivery-Time Warp Tonic-Manaflow Band-Scorch\n I talked about this in the Klepto section above but you're gonna be proccing this a LOT against Kassadi because of how he likes to trade with Q's. Magical footwear is the default best in that line while Biscuit delivery is less for health sustain and more for mana sustain. Since you will be spamming abilities nonstop to get Kassadin out of lane, this will help you keep up the pressure. Time Warp Tonic is for all the consumables you will be using in lane, Cosmic Insight is also fine and also helps you pressure. I don't take Precision secondary because I'd rather get the AP than the attack speed, Manaflow and Scorch is to keep up the pressure.\n Katarina\n Aery-Nullifying Orb-Celerity-Scorch-Taste of Blood-Ravenous Hunter\n This is a bit of a unique one and I think there are a lot of alternatives to this. Katarina's basically a matchup where I don't really find myself running out of mana when I poke her, hence why I didn't take Manaflow. The thing I have to watch out for are the early level all-ins once she is 3, which is why I took Nullifying Orb. Celerity is to avoid her daggers as soon as I know where they will land. I don't take Inspiration second because Cosmic Insight is the only one I like from there, I highly value boots in order to avoid her daggers and biscuits aren't really required as she's either going all-in or she is playing passive. This is why I went domination as taste of blood will keep you at full health to prevent all ins (as opposed to biscuits which only work well when you are low) and ravenous hunter is a good late game option. It might also be good to take Resolve secondary with Bone plating+Chrysalis if you're really scared of getting all-in'ed by her but I know Katarina's damage well enough.\n Leblanc\n Aery-Manaflow Band-Celerity-Scorch-Bone Plating-Chrysalis\n As Chrysalis is new, this is subject to change but this is what I would take if I laned against Leblanc right now. This matchup you will basically be fighting/trading with her 24/7 so this is why I took resolve second in order to edge out in those engages. Aery is purely for the damage, Manaflow is required because she will teleport back and you will run out of mana otherwise, Celerity is the default best and scorch is to keep up the pressure. Bone plating and Chrysalis will lower her all-in potential substantially allowing you to poke her out of lane. Nullifying orb is also alright but this matchup is less about all-ins pre-6 and more about constant skirmishes.\n Lux\n Aery-Manaflow Band-Celerity-Scorch-Minion Dematerializer-Cosmic Insight\n Lux's shield has a cast time and otherwise she has no form of sustain and does not often take Teleport so this it is pretty easy to poke her out. Whether you take dematerializer or biscuits completely depends on the Lux player, if she will afk farm with E from a distance than dematerializer is vastly better but if she decides to try and play aggressive and E you to harass then Biscuits are better. This is pretty difficult to predict as the better players tend to be aggressive while the autofill support mains will just afk farm. I just take Dematerializer because Viktor's laser is easier to land so I should edge out in poke even without biscuits.\n Malzahar\n Aery-Manaflow Band-Celerity-Scorch-Minion Dematerializer-Cosmic Insight\n Malzahar will just try to afk push the wave but since he is very weak in the early levels, you will be able to punish him for using his spells on the wave. Use your spells off cooldown on him and you will easily be able to poke him out of lane and make him burn teleport, in which case you just do the same thing. Dematerializer is to help prevent the wave from pushing into you and the rest of the runes are for more poke/damage. I find myself going below 70% hp from residual E damage or voidling damage so I tend not to take absolute focus.\n Morgana\n Unsealed Spellbook-Magical Footwear-Dematerializer-Cosmic Insight-Celerity-Gathering Storm\n Basically the same as Karma, non-interactive lane that is incredibly difficult to punish. Play completely for late game with your rune page.\n Orianna\n Aery-Manaflow Band-Celerity-Scorch-Biscuit Delivery-Cosmic Insight\n This is the matchup I am most confident in, I almost never lose even to the best Orianna players in Challenger. You will be able to poke Orianna out of lane with your lasers and that is how you get a lead in the early levels so I always take Aery+manaflow+scorch. Oriannas can trade back well so Biscuits will help you to get through the lane and Celerity will help you avoid her ball. With Aery, you should almost always win out in terms of making Orianna back before you have to which I why I don't take Fleet. Watch out for the position of her ball and know her range. If you are not fully confident in this matchup then take Fleet.\n Ryze\n Unsealed Spellbook-Magical Footwear-Dematerializer-Cosmic Insight-Celerity-Gathering Storm\n This matchup might have changed with the nerfs to Abyssal Mask, which made Ryze basically unkillable but even without MR itemization, it's very unlikely that you will be able to poke Ryze out of lane. The reason for this is his large mana pool that can quickly push in waves for a safe back in which he does not lose many minions. I do not take Fleet because Ryze can't really poke or harass you down if you are being mindful of how many stacks he has. If you are too close when he gets his shield, you will eat a W+E+Q and he will run away. It's best to not even fight him because of his shield, you can possibly kill bad Ryze players by putting down your W before they W you and they will get stunned and you just all in them, but good Ryze players won't fall for that. I just play for late game. In lower ranks Aery might be better as most people are bad at Ryze until Master/Challenger.\n Swain\n Aery-Manaflow Band-Celerity-Scorch-Minion Dematerializer-Cosmic Insight\n I haven't played against Swain too much but against the Challengers that have played it, I was able to poke them out of lane with Aery. Swain has teleport and builds HP but doesn't havea way to avoid getting poked or a way to sustain unless he ults or you get hit by an E. Learn the range and mechanics of his E and assuming you avoid it, this lane should be pretty straight forward with this Aery page. Swain will likely push you in so Dematerializer is useful while cosmic insight is the best as boots early will be useful for dodging his E.\n Syndra\n Fleet Footwork-Presence of Mind-Legend:Tenacity-Coup de Grace-Manaflow Band-Celerity\n This is a toss-up between Fleet and Aery but I think the movespeed that you get from Fleet would edge it out. Going Aery+biscuits is the other option but can end up not working out as Syndra has a lot of tools to harass you out of lane. Going Manaflow allows you to keep lasering her to pressure her and celerity is really good for dodging her abilities.\n Taliyah\n Fleet Footwork-Presence of Mind-Legend:Tenacity-Coup de Grace-Manaflow Band-Celerity\n This is another toss-up between Fleet and Aery but for another reason. Since Taliyah can push waves so quickly, poking her out of lane would likely result in her hard shoving and getting a safe back timing out and all your work would have ended up being for nothing. But if you do manage to poke her out to the point where she can't go up to the wave because she's too low, then Aery ends up paying off big time. I find myself in the former situation more so I would take Fleet. The movement speed from fleet+celerity helps to dodge her abilities while the rest are just the default best options. \n Talon\n Aery-Manaflow Band-Absolute Focus-Scorch-Minion Dematerializer-Magical Footwear\n This is the basic \"pressure melee assassin before he gets to the point where he can all-in you\" story again. Take the entire sorcery tree dedicated to poke. Celerity can replace Absolute Focus but as long as you don't take too many return W's, you should be healthy enough to utilize absolute focus. Talon can shove well for an assassin so minion dematerializer is to counter shove while magical footwear is the most cost efficient remaining option.\n Twisted Fate\n Aery-Manaflow Band-Celerity-Scorch-Minion Dematerializer-Cosmic Insight\n You're going to want to pressure TF to the point where he can't ult post 6 because you're ahead in items and always pushing him into tower and Aery helps with that. Celerity is to avoid getting hit by TF cards, the movement speed is vital to running away from him when he picks out a card. Minion dematerializer is to counter TF's shoving power and Cosmic insight is the default best choice since you're likely going to want boots early against Twisted Fate in order to be fast enough to avoid his W and Q and for you to keep your ult on him.\n Veigar\n Aery-Manaflow Band-Celerity-Scorch-Magical Footwear-Cosmic Insight\n Veigar's extremely weak early so you constantly want to pressure him so he loses CS and potential stacks. Aery is for poke, celerity is to dodge his Q's (this is important to do in this matchup), W and E. Dematerializer can be good if you want boots early but they aren't required and typically I find myself freezing against Veigar more than I do pushing. That leaves footwear+cosmic insight as the remaining best options.\n Vel'Koz\n Aery-Manaflow Band-Celerity-Scorch-Minion Dematerializer-Cosmic Insight\n Vel'Koz's poke can be strong so Fleet is also a good option but as long as you understand how his Q works and don't get into E range, you should be able to reliably make him back through poke so I take Aery. Celerity is to help dodge abilities, Dematerializer is for helping you push and get minions when he tries to hard shove with W, and Cosmic Insight is the best remaining choice as you likely want boots early against Vel'Koz.\n Vladimir\n Kleptomancy-Magical Footwear-Biscuit Delivery-Time Warp Tonic-Manaflow Band-Scorch\n Pretty similar to Kassadin, you will walk up to him and Q+auto him and he will Q you back and you will win out and continuously gain consumables. Vlad will try to sustain but just use your abilities off cooldown on him and you will be able to outdamage his sustain, even through Dshield. He will likely TP back and you will be able to do the same thing unless you got terrible RNG with Klepto, in which case you will likely have to wait for a cannon wave to back and try again.\n Xerath\n Fleet Footwork-Presence of Mind-Legend:Tenacity-Coup de Grace-Manaflow Band-Celerity\n This will basically be a poke war where the person who backs first loses. Fleet is to help you dodge and sustain up while continuously lasering him. Stay away from minions to avoid him getting the push and harass at the same time. Manaflow will help you poke more while celerity will help you dodge.\n Yasuo\n Aery-Manaflow Band-Celerity-Scorch-Presence of Mind-Coup de Grace\n Most Yasuo players will go Dshield+resolve secondary in order to sustain through your harass but with precision secondary, you will be able to have enough mana to force him to back. Go all standard poke oriented runes in the sorcery tree, with celerity over absolute focus because Yasuo will be trading back with you after level 2, and take presence of mind for mana and coup de grace for more poke damage. The attack speed is useful for fighting Yasuo when he goes in on you and for last hitting under tower if you are trying to freeze.\n Zed\n Aery-Manaflow Band-Celerity-Scorch-Biscuit Delivery-Cosmic Insight\n Viktor is able to pressure Zed extremely hard early, walk up to him and juke to the side and force him to miss Q's on you instead of using it to CS. Aery is to help your poke damage and manaflow is to help you have enough mana. Celerity to help dodge shurikens (crucial because after level 3-4, the lane revolves around dodging shurikens). Biscuit Delivery is for sustain if or when he does land shurikens on you, you do not want to be low for an all-in. Cosmic insight is the best because early boots help to dodge shurikens.\n Ziggs\n Aery-Manaflow Band-Celerity-Scorch-Biscuit Delivery-Cosmic Insight\n Fleet would also work well because of Ziggs' poke but his poke is fairly weak compared to Azir or Xerath so I most often take Aery in order to force him to back early. Celerity to dodge his bombs and biscuit delivery to sustain up when he uses his Q on you. Dematerializer is also good if he decides to just shove the wave but not required. Stay away from your minions so he does not push+harass at the same time. Early boots are needed so cosmic insight over magical footwear.\n Zilean\n Aery-Manaflow Band-Celerity-Scorch-Minion Dematerializer-Cosmic Insight\n Not very common but conceptually the same as most other on this list, poke him down and force him to back early. Celerity to dodge bombs, dematerializer to shove because Zilean sucks at CSing under tower, and cosmic insight over magical footwear because you want early boots.\n Zoe\n Fleet Footwork-Presence of Mind-Legend:Tenacity-Coup de Grace-Manaflow Band-Celerity\n You should hope you never have to face this champ but if you do, then take Fleet because her waveclear is extremely fast and safe and you likely will not be able to poke her out of lane. Manaflow to stay in lane and celerity to help you dodge. Spellbook is also an option but Fleet is extremely useful because you're likely going to get poked and pushed in so the sustain, attack speed, and movespeed all help against Zoe.",
+   "id": "86oybe",
+   "comments": [],
+   "age_days": 3122,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Dun's Bruiser Viktor Build - Written Guide [8.2]",
+   "url": "https://www.reddit.com/r/viktormains/comments/7uqg1b/duns_bruiser_viktor_build_written_guide_82/",
+   "published": "2018-02-02",
+   "author": "/u/sitwm",
+   "body": "INTRO : This guide is solely based on my opinion after several testing of the build in ranked & facing certain matchups, though I do not know what Dun might think about the build but I can share my thoughts on it - so it might be different between each other's opinions. Credits goes to Dun for popularize the build and others who theory-crafted the build when it wasn't in the spotlight (I'm also uncertain on how to write the guide - whether its in a casual manner or a formal type so you can see mix of it; sorry in advance if anyone have troubles understanding))\n PROS & CONS\n PROS : \n Tanky\n\n More fun than usual \n\n Less punishing for positioning mistake \n\n Able to engage fights \n\n Everyone will question & ping your build \n\n CONS : \n Need to consistently pull off Q animation cancel to make full use \n\n You don't deal much in short period \n\n Your laser don't do much as they do, can't waveclear with single E late game\n\n Soloing blue buffs is cancerous \n\n Core Items reliant - up to 8000g \n\n You're not Dun so the build is 33% less effective \n\n RUNES :\n Primary Tree - I N S P I R A T I O N\n Keystone : Unsealed Spellbook\n Following this obnoxious meta, even Viktor have to resort to taking this now instead of Arcane Comet/Aery, this keystone is disgustingly strong and be able to cover Viktor's 1250g weakness on first hex core. You start off with Flash & Heal, and try to farm up the first upgrade, if you are forced to back - change the summoner spell still available (E.g. used Heal to escape but Flash is still up) to Teleport and use it to lane so you won't lose out on Gold / XP. This allows you to not fall off quickly when being put behind in a gank early on compared to Sorcery Viktor. Combined with CDR Boots & Cosmic Insight, Flash is only on 3 Minute cooldown, and Heal/Ghosts/Cleanse will up whenever you need it. Swap out summoner spells besides Flash according to situations, ADC is fed? Take Exhaust. Their support kept roaming? Take Cleanse, the list goes on and its self-explanatory \n Runes [2] : Perfect Timing\n Stopwatch is meta enough, I don't feel the need to explain this. A free one-way escape ticket so you won't get set too behind and able to sell it to get core items sooner. This build doesn't get Zhonya's Hourglass but the single active is good. Biscuit Delivery is decent if you don't have the need to rely on Stopwatch\n Runes [3] : Future's Market // Minion Dematerializer\n Future's Market allows you to get your expensive core items earlier, Minion Dematerializer can be used on Cannons early to shove faster or use it on Melee minions to get extra % damage on them (So your laser can one shot whole wave at some point - haven't tested but FM is better for now)\n Runes [4] : Cosmic Insight\n Self explanatory.\n Secondary Tree : S O R C E R Y\n Options to consider : Transcendence, Scorch, Gathering Storm, Celerity, Manaflow Band\n Transcendence is fine if you prefer CDR but the build can max out CDR at 3 items - personal opinion, I prefer movement speed from Celerity because the build gameplay revolves around using Q so you get more stats from it. Manaflow Band is great in lane, pretty self explanatory. Gathering Storm for late game comps (e.g. Gangplank - Sejuani - Viktor - Twitch - Lulu team comp) Scorch can help in bullying lane early so you still have that pressure in lane besides being a farmbot. Take any 2 of these and it should work fine \n BUILDS \n In order : Doran's Ring -> Perfect Hex Core & Lucidity Boots -> Abyssal Mask & Iceborn Gauntlet -> Liandry's Torment -> Void Staff/Rabadon/Rylai/etc \n Get your PHC asap with Lucidity Boots and start getting Abyssal Mask FIRST (unless against AD matchup but still have magic damage dealers), then Iceborn Gauntlet. After these 3 items, you should have notice significant boost in DPS - Liandry's Torment helps melting tankers in long fights and give HP to survive in fights. Last item can be anything - Void Staff if they starts stacking MR, Rylai is great for maximizing HP & Kiting, Rabadon if you have too much gold \n GAMEPLAY \n The gameplay for early game is not too different from how you should play - instead, play safer because your goal is to get your core items as soon as possible but do not play too passive. Balance out aggression and passiveness, only take short trades, and do not hug turret at all time, you still need to carry out role as a Mid Laner to help Junglers in invades/skirmishes/dragon fights/etc. After your PHC, AM, you're very tanky naturally and can start fighting aggressively, make use of Q speed boost and move around in fights, remember - this is not a burst Viktor with 3 spell rotations, this is a gameplay that works like an ideal battle mage, to linger around in fights and deals damage gradually. You can start fights by engaging with your R and split enemy's formation - you would not die quickly, but still have ample damage to burst out their carries late game. So don't worry about having no damage. I have not much to elaborate. TL;DR - You can't burst and most of your damage comes from Q AA \n REMARKS \n Sorry if the guide isn't fully complete or it feels lackluster, I'd only played it for a couple of games but I can feel the build's potential. If you haven't try it out, please do so - it seems stupid from paper but it works better than usual build. I'd answer any doubts in comment/replies section so please ask more as I don't want to make this guide any longer for readability. \n WILL IT BE STRONG?\n Definitely, I can see this build being the main build for Viktor if the Q buffs on shield go through & the Hex Core price is lowered. Since this build is focused on Q & R usage, laser doesn't matter that much but it'd be nice to have it buffs too \n EXTRA STUFFS \n I have no shame selling out - Clip of me 1v3ing 2 main carries and their support in a late game scenario, build included in video so it doesn't seem like im faking it. Look at how durable I am and how the Q are used \n\n I also write normal guide for Mobafire Check it out if you haven't.\n\n Thanks for reading",
+   "id": "7uqg1b",
+   "comments": [],
+   "age_days": 3171,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  }
+ ]
+}

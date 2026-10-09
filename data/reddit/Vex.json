@@ -1,0 +1,973 @@
+{
+ "champion": "Vex",
+ "subreddit": "vexmains",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "Which champ should I add to my champion pool (midlane)",
+   "url": "https://www.reddit.com/r/vexmains/comments/1wzqqpc/which_champ_should_i_add_to_my_champion_pool/",
+   "published": "2026-10-07",
+   "author": "/u/vagabondse",
+   "body": "Hello fellow Vex players. \n I'm currently stuck in low gold EUW and I'm basically one tricking Vex due to the sheer amount of Yone I face.\n That said, I'm looking to add a couple champions to my pool to make the climb even as a... Mechanically challenged player. \n More specifically, I'm looking for characters to pick into long range matchups and/or tanky comps. Thanks in advance!",
+   "id": "1wzqqpc",
+   "comments": [],
+   "age_days": 2,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Vex Build guide",
+   "url": "https://www.reddit.com/r/vexmains/comments/1wvgw19/vex_build_guide/",
+   "published": "2026-10-02",
+   "author": "/u/MNZ_Gaby",
+   "body": "Hey guys i made this quick guide on how to build vex in what is (in my opinion) the most optimized way.\n To sum up, Stormraider Surge and magic pen is op.\n Feel free to ask me any question you have wether about the build, matchups or general gameplay (there might be errors in the guide) \n https://www.onetricks.gg/en/guide/shrq5yy/2619-vex-guide-burst-artillery-by-convex",
+   "id": "1wvgw19",
+   "comments": [],
+   "age_days": 7,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Syndra",
+   "url": "https://www.reddit.com/r/vexmains/comments/1wsf8g5/syndra/",
+   "published": "2026-09-28",
+   "author": "/u/CleanMyAxe",
+   "body": "Have I been doing something wrong? In terms of regular mid laners, I've found Syndra and Viktor the hardest matchups and I typically permaban Syndra because she's the more popular champ and due to her easier CC I find she's able to impact the map harder than Viktor when ahead.\n However mobalytics and op.gg seem to suggest Vex is a strong pick into her? I know win rates aren't everything and can be distortive of other factors, like idk, maybe Vex players manage to accelerate the mid game with ults better than Syndra but in lane I definitely find her oppressive.",
+   "id": "1wsf8g5",
+   "comments": [],
+   "age_days": 11,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is Qiyana our best matchup?",
+   "url": "https://www.reddit.com/r/vexmains/comments/1vz9m9d/is_qiyana_our_best_matchup/",
+   "published": "2026-08-26",
+   "author": "/u/Static-Chicken",
+   "body": "I went against a Qiyana yesterday and it felt like I victimized her. Her medium range and dashes ment I got passive abuse while outranging her with Q. It was not even close.\n I went against a Jayce mid the following game and uh.... I got my ass handed to me for dinner. There was nothing I could do. From lvl 1 he went all in with his melee hammer and zoned me out with no draw backs. \n This was in normals but this guy felt like he knew what he was doing. Anyone else have similar experience?",
+   "id": "1vz9m9d",
+   "comments": [],
+   "age_days": 44,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Need advice on a second pick",
+   "url": "https://www.reddit.com/r/vexmains/comments/1v82i6b/need_advice_on_a_second_pick/",
+   "published": "2026-07-27",
+   "author": "/u/ZaPig",
+   "body": "So I'm relatively new but I really like playing vex, I'm just looking for a character to learn that does well against Vex's bad matchups. I've been seeing Fizz and Galio come up often but I'm not very sure",
+   "id": "1v82i6b",
+   "comments": [],
+   "age_days": 74,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Good secondary",
+   "url": "https://www.reddit.com/r/vexmains/comments/1uz0a5r/good_secondary/",
+   "published": "2026-07-17",
+   "author": "/u/CheesecakePlayful682",
+   "body": "Hey fellow Vex mains, what secondary do you guys use for Vex, I'm sorta running fizz right now but I don';t really enjoy it, I'm blanking on something else that's a kind of hybrid between assassin control mage, closest thing I can think of would be lissandra but still not really all that close \n Just got Plat for the 1st time and I don't want to coinflip or play hard losing matchups with Vex has I try to push for emerald \n I don't think it matters but here's my op.gg\n https://op.gg/lol/summoners/na/Papaya-1992\n any input would be great for a secondary",
+   "id": "1uz0a5r",
+   "comments": [],
+   "age_days": 84,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Vex Builds explained",
+   "url": "https://www.reddit.com/r/vexmains/comments/1ulwvcd/vex_builds_explained/",
+   "published": "2026-07-02",
+   "author": "/u/LordofShades66",
+   "body": "Hi everyone,\n I've seen lots of posts here by Vex players asking others what the correct build is. The answer, as is with most things in league, it depends.\n Video Version: https://www.youtube.com/watch?v=YhETDc8MM9E\n Vex as a character:\n Vex, since her release has been a burst mage (imagine an AP Assassin(not Locke)) her ultimate fantasy is landing an R + W onto 5 people and one shotting them all. To do that RIOT gave her high base spell DMG, medium CDs, and low AP scaling. This means she excels in mid-game fights against opponents who don't have lots of HP and MR. To be the most effective, you want to be building AP + Flat Magic Pen to do the highest possible amount of damage to these low HP/MR champions.\n Electrocute Build:\n HUGE EDIT!!!!! ::: phdm1234 on the youtube video commented and said to try Stormsurge first and at first I was like \"but what about mana though, but then it hit me that if you run manaflow bind + scorch and rush stormsurge into shadowflame it's actually so fricking good. The build path is solid, you spike very hard with Stormsurge + sorcs and it's only 50 gold more expensive than luden's. Everything below is still relevant but just skipping the mana item and going straight into Stormsurge + Shadowflame makes your mid game really good. Give it a try guys!!!!!!!\n The way I build Vex is Luden's > Sorc shoes >Shadowflame > Zhonias > Void Staff > Rabadon's\n This ensures I have good waveclear early, strong mid-game spike with Shadowflame and depending on how the game goes I can either pivot into Void Staff third or Zhonias/Banshee's for more defence. In some cases if my team is behind and the enemies don't have lots of MR, I'll build Stormsurge third to maximise my single target DPS and try to get a shutdown on the fed enemy members.\n Luden's or Malignance?:\n I am a firm believer that Vex doesn't need Ultimate Haste. You should be saving your R for key moments like Drake fights, large teamfights around objectives while trying to secure vision and Baron. You shouldn't be using R to one-tap every single overextended ADC chungus because for the next 1 minute and 30 or so seconds you will be highkey USELESS. Vex cannot facecheck, Vex cannot sidelane that well and she cannot play as good of a front-to-back teamfight as well as some of the more common Mid Mages. Where Vex truly shines, is when she is out of vision in those fights around objectives and she is able to come from an angle and hit multiple members of the enemy team. To do that, she must be meticulous in her R usage and save it for those moments. 1 good R can turn the game on its head whereas 15 small R one shots feel good but don't really progress the game that much( unless the pick leads to an objective).\n Shadowflame or Stormsurge?:\n Shadowflame gives 110 AP / 15 Magic Pen and you get to CRIT AGAINST LOW HP TARGETS. Stormsurge gives 90 AP / 15 Magic Pen / 6% move speed and about 100 extra damage on 1 target. Based on stats and value I believe that Shadowflame is the superior item. The only positive thing I can say about Stormsurge second is that it is slightly cheaper to build and the build path doesn't contain a large rod. In an extended teamfight, the value you get from Shadowflame's passive is 100x that of Stormsurge, AAAAnd you get 20 extra AP. Again maybe my 400 lp low masta brain isn't big enough to see the value of Stormsurge second, but I've had success with Shadowflame second and I will keep building it. It's a much better item and it's way more consistent.\n 3rd Item Options + WHEN TO BUILD DEFENSIVE VS OFFENSIVE:\n Before I list the options, here is my interpretation of League itemization: \"If the enemy has a baseball bat and I have nothing, I don't want to buy a vest so the attacks from the bat hurt less, I'd wanna buy a pointy stick so that I may try and fight back\" \"If I have a boomstick and the enemy has a baseball bat, I don't need to upgrade to a nuke, I'd want to buy the armour so I don't get hurt if I mess up and get too close\"\n TL;DR - OFFENSIVE WHEN BEHIND ; DEFENSIVE WHEN AHEAD\n Zhonya - Great item to buy when ahead and it works great with Vex's identity as someone who wants to dive, 1 shot and wait a few seconds for our second rotation of spells.\n Banshee - Very situational, not good to go spellshield into characters that can break it from far away( Xerath, Ezreal, Mel ) it's good vs Hard Engage (Naut, Leona) and 1 spell = death characters ( Syndra, Veigar, Karthus)\n Stormsurge - if you are behind and they don't have lots of MR stackers, go stormsurge third for the extra damage and pen.\n Cosmic Drive - if your entire team is winning and you don't really need to be that primary/secondary carry and damage dealer, you can build Cosmic for the extra Hp and Haste. Cosmic is really OP on Vex because she can make use of every stat and effect it provides very effectively.\n Void Staff/ Cryptbloom - If they are stacking tons of MR and you are the only one who can win the game, go Void. If they are stacking MR and your team has humans on therem go Cryptbloom.\n Rabadon's - You go this item third if you are like 15/3 and your team is combined 0/20, It's like a last ditch effort to try and win but keep in mind that vs decent players as soon as you show up with 1 or 2 large rods in your inventory they will build MR and it's gonna be a sad day.\n When should I build Anti-tank items on Vex?:\n Short answer: never.\n If you as Vex get to a point where you are the only reliable tank-killer on the team.... that game was lost 20 minutes ago. To be effective as a tank melter, you want consistent DPS, low cds and %max health dmg. Vex has 0 of those in her kit inherently. Yes you can build Liandry's and yes you can get more haste, but again, you never want to be close enough to the enemy tanks to hit them with multiple rotations in one fight, especially if you're the only one doing any DMG to them. Vs a very tanky draft, transition to the Chovy Build.\n The Chovy Build:\n Blackfire Torch > Lucidity Boots > Cosmic Drive > Zhonya > Shadowflame > Raabdon\n This build was played by the GOAT Chovy in Game 5 vs T1. He proceeded to demolish the T1 roster by playing Vex like a more traditional front-to-back mage with high HP, lots of Ability Haste and Phase Rush. This build is really good to go vs tankier team comps, champs with lots of anti-dive and sustain. You hit the same breakpoint(aka the point in which you can 1 shot the majority of the wave) as with Luden's but with the extra haste you can cast your Q every 2-3 seconds in those mid-game fights which really increases Vex's DPS output by allowing her to get multiple rotations of her E and W as well. That combined with the extra HP and movement speed from Cosmic and Phase Rush( Now Stormraider's Surge) makes her very strong at disrupting the enemy team and allowing her to reposition in a teamfight.\n Boots Selection\n Sorcs - I mean these are just the best option, you get flat pen and % pen after the upgrade. Vex loves these stats.\n Lucidity - you just go |ZOOOOOOM after you hit something with a spell and you get to cast more often.\n Tabis/Plated steelcaps - GREAT and I mean GREATTT!!!!! against Zed, Yone, Yas, Akshan and the majority of high auto-attacking drafts.\n Mercs - I feel like mercs are a bit of a scam... hear me out.. both mercs(pre-upgrade) and the null-magic mantle give you 20 MR. Just build something more offensive and a mantle if you are afraid of AP damage. Even after the upgrade you only get like 10 more MR. I would buy Mercs into a Syndra and other heavy CC comps to break free from their CC chains. Because with the mercs tenacity(the only thing you should be building them for, unless they are 5 AP) you can break free from a Syndra Q + E and avoid the W. Plus it helps break away from Leona E + Q and other annoying forms of CC.\n Swifties - I mean if they have like 5 skillshot heavy characters and you enjoy dodging more than doing dmg and surviving, sure go for it. But if not, just go one of the other ones.\n Omnivamp boots? - haven't even tried them tbf but might be interesting for the 5% extra dmg above half Health but it seems kinda meh.\n Greaves - nah\n Runes\n Electrocute - Fits in with her favourite trading patterns and increases her 1 shot potential so this is just the default.\n Dark Harvest - If you are smurfing, giga confident that you'll be able to get to 20+ stacks or you are vs something like a kassadin, vlad I'd go DH to have a chance at 1 shotting them late game.( if you get around 25 DH stacks and full build, you can 1 shot a fed vlad and kass) source: trust me bro.\n Stormraider's - It's the chovy build classic, gives Vex a ton more survivability and is easy to proc multiple times in a teamfight. Good choice but takes a bit of getting used to.\n Comet - Idk about this one, the highest ranked Vex atm likes to run comet, but I don't know how they like to play the laning phase. If you are looking to sit back and poke with Qs, you better be really good at landing those Qs. if you're playing it the traditional way of fearing with E and then Q auto then just go Electrocute. In a teamfight, Maybe you can hit multiple people with comet but I still feel like Elec is better for the 1 shot into reset into keeping the teamfight going.\n Cheap shot vs Taste of Blood - One gives you more TRUE dmg the other gives you sustain. If you want to be aggressive early, go for Cheap shot and if you just want to chill farm and survive go taste of blood\n Grisly Mementos vs Sixth Sense - Both are greatm if you don't know where the enemy team has placed their vision then sixth sense is good but it has a really long ahh cooldown and late game you'll be walking around the jungle and oh doy ofc they have a ward on drake and now you are playing down a rune for the next 250 seconds. Where grisly mementos allows you to have sweeper up every 30 or so seconds.\n Relentless vs Ultimate vs Treasure hunter - I like to go relentless to move around the map faster, this helps with roams and repositioning around objectives. Again, I believe that Vex doesn't need ultimate haste as she needs to save her R for the right moment, Treasure is good to get to those mid-game item spikes sooner, but as soon as the game hits 30 minutes and everyone is like full build that extra 600-700 gold is worthless and you're playing down a rune. Same with ultimate hunter where after lvl 16 you have your R up for every fight anyway so what's the point of extra haste?\n Secondary Tree -\n Precision -\n Cut down vs coup de grace - depends on whether they are tankier or squshier - I like to run Cut down because it deals extra dmg when they are above 60% and with shadowflame I get extra dmg when they are below 40% hp, It's perma free dmg. Coup helps with executing low hp targets so I guess it depends on your playstyle if you like to engage or sit back and wait for the right moment to strike. BOTH ARE GOOD!\n Legend haste - vs Triumph vs Presence of Mind - none of the other options in this tree are good. Legend haste is good because it gives basic ability haste which is great for Vex, Triumph is kinda meh because you don't really get to make use of it the same way a bruiser would and presence of mind is just a shittier manaflow bind, but I guess it's worth considering if you have mana issues.\n Sorcery -\n Manaflow bind - Again good choice if you have mana issues, which Vex kinda has early onm but as soon as you get lost chapter you are gucci.\n Transcendence - again, good choice for the haste, more haste = more spell rotations = more dmg = more kills = more ggs\n Axiom - guhhhhh idk, not a fan of this one. I have tried it but I don't feel like I'm getting any value from it and again it gives ultimate haste.\n Absolute focus - might be interesting to play around with for those 1 shot builds\n Scorch - this is the goat rune in my opinion because when you combine this with cheap shot and electrocute, one of your auto e auto combos takes away like 40% of their HP lvls 1-3 sooo broken and abusable.\n Gathering Storm - It's good if you're going the chovy build or if you know the game will go on for like 40+ minutes. Helps you stay relevant even in giga late.\n Resolve -\n I usually go resolve vs Zed only as I feel like I need to rush tabis and bone plating vs Zed otherwise I can't play. But you could take it into matchups you struggle with, your syndras, mels, xeraths could all be interesting to try second wind into to stay in lane longer and get to your spikes.\n Inspiration -\n I don't really go inspiration ever since they took out Corrupting pot. RIP.\n Little runes\n Attack speed - good for last hitting and trading in lane, but I have gone double adaptive into favourable melee matchups I'm looking to bully out of lane.\n Second is always adaptive\n Last - I go for flat HP instead of scaling unless Im doing the chovy build, because I need the HP to survive the early lane and if we get to late I feel like I;m one shot anyway so the extra 115 hp doesn't really change that much when Cait crits me for 1.5k.\n This has been my Vex build rant, if you made it this far... lol thanks I guess :D but yeah I can't get into every single matchup specific build because this post would be 10x longer, but if you have any specific questions I'll do my best to answer them :)",
+   "id": "1ulwvcd",
+   "comments": [],
+   "age_days": 99,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Locke Torture Method",
+   "url": "https://www.reddit.com/r/vexmains/comments/1ufjald/locke_torture_method/",
+   "published": "2026-06-25",
+   "author": "/u/Whosthatstar",
+   "body": "I want to preface this with the fact i dont main, or really play vex outside of aram mayhem, but i instalock(e) this champion everytime locke is taken from me to torture them for taking my pick and its genuinely so unplayable for them (if i cant have him, you will suffer for taking him)\n have fun with ur free matchup guys locke release is a big win for vex mains",
+   "id": "1ufjald",
+   "comments": [],
+   "age_days": 106,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Vex Matchup Tierlist from Rank 1 Vex OTP NA",
+   "url": "https://www.reddit.com/r/vexmains/comments/1u7uycj/vex_matchup_tierlist_from_rank_1_vex_otp_na/",
+   "published": "2026-06-17",
+   "author": "/u/Jugwetawatee",
+   "body": "Hello! Im Lonksha or TTV LONKSHA#vex. Im currently the #1 ranked vex OTP NA at around 700LP. I blind pick her almost every game at this point so I made this matchup spreadsheet. Im happy to answer any questions! (For the matchups not listed here, in general, all tanks are gonna be really hard, and all ad bruisers and ADCs should be relatively easy if you play smart). Of course ive won and lost ALL of these matchups, early leads and misplays can make any lane very volatile, and vex relies a lot on that.\n https://preview.redd.it/yi9eb975lq7h1.png?width=1140&format=png&auto=webp&s=d3c2bfd17012409acfd5503e4fee10848354cb93",
+   "id": "1u7uycj",
+   "comments": [],
+   "age_days": 114,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Tear of the goddess?",
+   "url": "https://www.reddit.com/r/vexmains/comments/1u79zog/tear_of_the_goddess/",
+   "published": "2026-06-16",
+   "author": "/u/Bitter_Individual116",
+   "body": "I started playing mid lane recently and decided to play Vex. What are your thoughts on running tear into matchups that heavily out waveclear you? I haven't bought it yet, but I was curious if it might be worth going for against something like a Malzahar. It delays your items a bit more than I'd like but I'm curious what better players than me have to say about it",
+   "id": "1u79zog",
+   "comments": [],
+   "age_days": 115,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Any video guides on playing Vex to counter Leblanc?",
+   "url": "https://www.reddit.com/r/vexmains/comments/1u0xwj1/any_video_guides_on_playing_vex_to_counter_leblanc/",
+   "published": "2026-06-09",
+   "author": "/u/CiaIsMyWaifu",
+   "body": "I always see Vex listed as an LB counter alongside other dash champs because of Gloom, but have no idea how to play those matchups to win consistently. If I miss an ability or they dodge they will immediately punish during the downtime, if I hold fear to use it on a shield, they will passively farm while I'm stuck farming without abilities. Given Vex's goal is to snowball I want to see the more proactive way to play the lane in a video guide ideally but I couldn't find any posted, just lots of mute high elo games.",
+   "id": "1u0xwj1",
+   "comments": [],
+   "age_days": 122,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Xerath Matchup",
+   "url": "https://www.reddit.com/r/vexmains/comments/1tioyii/xerath_matchup/",
+   "published": "2026-05-20",
+   "author": "/u/According-Bit-4207",
+   "body": "Any advice on how to handle this guy? I have tried a couple of different strategies, but it always ends up with me playing scared and getting poked down and ulted from his t2 tower. \n First strategy is standard farming and trading, but he seems to just out trade me with his poke and then can easily all in me. \n Second strategy is to just try and blow all of my cool downs on the wave so that he has to do the same. This worked okay for the first couple of waves but not as well after his LC because he can just spam cooldowns non stop.\n With both strategies I get boots first back to help dodge the skill shots. I have also looked at some vods and the biggest thing I notice is that they are more aggressive and that maybe the lane comes down to (1) do your best to dodge the q but you will eat some (2) punish the q cooldown with your combo and electrocute by staying close to him and (3) do your best to only eat his Q and not get stunned or slowed. \n Would appreciate it if anyone has any additional insight because unfortunately I get gapped insanely hard every time I go against this champ.",
+   "id": "1tioyii",
+   "comments": [],
+   "age_days": 142,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Trading Fundamentals as Vex",
+   "url": "https://www.reddit.com/r/vexmains/comments/1t9jjon/trading_fundamentals_as_vex/",
+   "published": "2026-05-10",
+   "author": "/u/LordofShades66",
+   "body": "Hey everyone, just made a Vex guide and this one focuses on early lane trading fundamentals. Ideally you want to pick Vex as a counterpick into the majority of melee mids but she can be quite effective vs most ranged matchups as well. Give it a watch and I hope you learn how to stomp those early lanes as Vex : ) gl and hf on the rift.\n https://www.youtube.com/watch?v=8Dx7D7xm-og",
+   "id": "1t9jjon",
+   "comments": [],
+   "age_days": 152,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to play against Naafiri or Fizz",
+   "url": "https://www.reddit.com/r/vexmains/comments/1t2oyfn/how_to_play_against_naafiri_or_fizz/",
+   "published": "2026-05-03",
+   "author": "/u/Jblanco1139",
+   "body": "I’m relatively new to league (less than a year) and new to midlane from ADC. Vex has been my favorite mid laner so far. But I noticed I really struggle in matchups where the enemy laner has some form of immunity like Naafiri or Fizz. I feel like I should be winning this matchup but it feels like I just get walked down lane or hunted down in the jungle during mid/late game without much counter-play. Any tips? Or is this actually not a winning match-up for Vex?",
+   "id": "1t2oyfn",
+   "comments": [],
+   "age_days": 159,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I wish Vex had higher highs...",
+   "url": "https://www.reddit.com/r/vexmains/comments/1soc895/i_wish_vex_had_higher_highs/",
+   "published": "2026-04-17",
+   "author": "/u/cronumic",
+   "body": "Ive been playing this champ a little more recently, blind pick usually into bad matchups... Somehow I can find solo kills and get fed but this champ just isnt very satisfying. With how hard it is to land Q/E on enemies with hands, having to use fear to farm wave. The lows are certainly low. But the highs?\n Normally an ult that resets on takedown gives you powerful and exciting moments... But you only really get to go in and Press Q and hope you dont die because your other abilities are still on cooldown.\n Am I grossly misunderstanding this champ or is this just how it is?",
+   "id": "1soc895",
+   "comments": [],
+   "age_days": 175,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Finally Hit Diamond!",
+   "url": "https://www.reddit.com/r/vexmains/comments/1sja8op/finally_hit_diamond/",
+   "published": "2026-04-12",
+   "author": "/u/Mavaas",
+   "body": "Hey everyone! I’m beyond hyped to share that I finally hit Diamond IV yesterday!\n This season has been a massive journey for me. I started all the way down in Bronze and climbed to Diamond with a 56% overall winrate. But the real star of the show was Vex—I managed to hit Rank #119 in EUW (#577 World) with a 61% winrate over nearly 60 games!\n Before picking up Vex, I was looking for a very specific playstyle: I wanted a champion with high-impact resets but also reliable CC. I tried other reset-heavy champs like Katarina, but they never felt right—they lacked the utility and the \"safety net\" that a good Fear (P) provides.\n Vex was the perfect match. Her kit is incredible because it gives you the best of both worlds: you can hard-CC an entire team and then start the reset chain to clean up the fight. In this meta of high mobility and constant dashes, she felt like a total cheat code. Seeing a Yasuo or Irelia constantly proc my marks made the climb through Emerald much more manageable.\n My League journey started back in 2022. I spent my first two years as an ADC main (bless those of you still grinding that role), but after a long break, I came back in 2025 with a fresh mindset. Swapping to Midlane was the best decision I ever made. I absolutely fell in love with the diversity of the role and how decisive your impact becomes as you climb higher.\n Honestly, the hardest part by far was Emerald. That place is a nightmare—the amount of trolls, toxic behavior, and weak mentalities was exhausting. It felt more like a test of patience than a test of skill at times.\n I wanted to give a huge shoutout to this community. Seriously, reading through the guides, the matchup tips, and the advice shared here has been a massive part of my improvement. You guys made the learning curve for Vex feel a lot less lonely and way more rewarding.\n I’m planning to hold this rank and soak in that well-earned Diamond banner for the rest of the split. Once the next split starts, I’ll be back to push even further!\n If anyone is struggling in Emerald, feel free to ask! I’d love to pay back some of the help I got here\n Stats: https://www.deeplol.gg/summoner/euw/Mavas-2677",
+   "id": "1sja8op",
+   "comments": [],
+   "age_days": 180,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Mel matchup",
+   "url": "https://www.reddit.com/r/vexmains/comments/1scnu5l/mel_matchup/",
+   "published": "2026-04-04",
+   "author": "/u/Competitive_Turn5028",
+   "body": "Played a game against Mel and felt like her w just counters me completely. Haven’t fed like that since I started playing league unless against a Smurf. \n Is Mel just a big counter to vex? Any tips on how to dodge her using w on my e fear? Was trying to preemptively dodge it but the e seemed to follow me \n If that’s the case what’s the game plan into the Mel matchup?",
+   "id": "1scnu5l",
+   "comments": [],
+   "age_days": 188,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Blackfire Torch vs Ludens Echo: When to build when?",
+   "url": "https://www.reddit.com/r/vexmains/comments/1scc91p/blackfire_torch_vs_ludens_echo_when_to_build_when/",
+   "published": "2026-04-04",
+   "author": "/u/DylanDEJ",
+   "body": "Hi, Vex main here.\n Im trying to understand when to buy Blackfire Torch. Every time I build it, I perform way worse than when I buy Ludens Echo. So against which matchups do I buy Blackfire Torch? And do I play her differently when using this build.\n Thanks in advance!",
+   "id": "1scc91p",
+   "comments": [],
+   "age_days": 188,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Any suggestions to improve?",
+   "url": "https://www.reddit.com/r/vexmains/comments/1s1dx7d/any_suggestions_to_improve/",
+   "published": "2026-03-23",
+   "author": "/u/PhilippoP",
+   "body": "Hi, i've been a Vex mid otp in the last three seasons and i've recently started playing ranked more often, hitting plat quite easily, where i got a little bit stuck in the past few weeks. Since i feel like i've quite mastered the patterns of the camp, knowing quite well how to play around passive and runes, i want to improve a little bit my drafting and counter lane ability. I am currently permabanning syndra, since i feel like anything my champ does, she does it better, but i know that the winrate against her is quite high so i guess it's my skill or psychological issue. On the other hand, i often blind pick, so i often get answered with some niche artillery mages, especially i find it difficult to play against xerath, mel and vel'koz. They have a range and poke that make me play a lot behind towers, and i often fall easily 20 cs behind, with waves pushed which let them move easily on the river and get some kp converted in an early 700 gold advantage, quite easy to snowball. What can i do to improve my laning against those champs? Or do i simply have to ban mel, since its the most common between the champs i feel difficult to face? Should i change some summoners or runes, since i always pick tp and electrocute+blue branch? (BTW, all the other lane matchups feel fine at this elo)",
+   "id": "1s1dx7d",
+   "comments": [],
+   "age_days": 200,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is vex primarily a counter pick?",
+   "url": "https://www.reddit.com/r/vexmains/comments/1rh2x6m/is_vex_primarily_a_counter_pick/",
+   "published": "2026-02-28",
+   "author": "/u/Turboren",
+   "body": "I've been trying to explore other champions to play and decided to try out vex. After a rough game against lux and zed I hopped on here to read about the matchups and found where people were saying they wouldn't blind pick her. Is this champion's main strengths as a pocket counter pick? I have played for many years but maybe play less than 50 games a year. I feel I have a slower reaction time and try to play range mages or tanks.\n https://op.gg/lol/summoners/na/Turboren-1592\n I'm not sure if it's worth the time for me since I play so little to put time into a counter pick champ, but the games I've had I've enjoyed her kit but have felt locked out of some games due to champions getting tanky enough to kill me after the combo.",
+   "id": "1rh2x6m",
+   "comments": [],
+   "age_days": 223,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "finally ranked up pretty much playing vex only",
+   "url": "https://www.reddit.com/r/vexmains/comments/1q0xw58/finally_ranked_up_pretty_much_playing_vex_only/",
+   "published": "2026-01-01",
+   "author": "/u/drop_of_faith",
+   "body": "https://op.gg/lol/summoners/na/freyja-112\n just some thoughts\n The worst matchup is Nunu jg. 2nd and 3rd worst matchups are Bard and Pyke support. Dark harvest is unusable mid, but pretty strong if playing vex bot. Syndra is mildly unplayable. Viktor is worse because he can choose to not engage in the lane. Naafiri is difficult to mind game early because it costs too much mana to fail. cheapshot vs taste of blood is preference. Relentless hunter feels so good, but ultimate hunter is probably mandatory. My lifetime cap in skill is probably D2, but I'll try. I think I'll run into a wall pretty soon picking Vex regardless of enemy team comp. If your team picks 2 ap, you have to pick something else.\n Besides syndra and viktor, I think vex always wins early. So just punish and force trades around electro cd. Make sure to recall on time for objectives.\n Oh and vex bot is really strong, but it's hard to play because your team will mental boom in champ select, and your support might only know how to play enchanters.\n edit: just wanted to be clear that i think i am dog at the game. d4 was a nice personal goal but overall I can tell how awful I am every single game. I just learned levels 1-6 how to get solokills. Most advice I can offer is basically learn to hold passive. if you don't freak out and just press abilities, holding your passive creates and denies many many opportunities.\n OH AND 800G back I always get dark seal, sapphire, and refillable. such a crazy goated first buy\n edit #2: OH MY GOD i got kicked back down to emerald 2. i've lost everytime against syndra. the moment I hit diamond it's ONLY viktors and syndra that i'm up against. what a nightmare. I think my advice for myself is to take TP into bad matchups. If you take ignite and don't have kill pressure, game is over.",
+   "id": "1q0xw58",
+   "comments": [],
+   "age_days": 281,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How do you keep your CS up high on Vex",
+   "url": "https://www.reddit.com/r/vexmains/comments/1mglb8w/how_do_you_keep_your_cs_up_high_on_vex/",
+   "published": "2025-08-03",
+   "author": "/u/Free_1004",
+   "body": "For some context i main Zed and Akali but i know mage fundermentals and if i get offered a good game for them i often pick ahri vex asol etc. On assassins i have quite and easy time holding 7.5-8 cpm into winning matchups even up to 10. I know the concept on how to in general maintain high Cs by sidelaning into skirmish rotation, but on Vex i for some reason only get around 6.5 cpm which is strange cuz i usually have more. I also looked over my Vods im not losing any uncontested minions (except maybe 5-10 a game). Is Vex clearspeed so low or is this skill issue on my side. I really cant tell why i have low CS in theory it should be at least 8 cpm.",
+   "id": "1mglb8w",
+   "comments": [],
+   "age_days": 432,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I am a Lux main who is trying to pick up Vex as a 2nd champ for Lux bad matchups and I managed to did a nice play! I am having a blast playing Vex :)",
+   "url": "https://www.reddit.com/r/vexmains/comments/1kiexjd/i_am_a_lux_main_who_is_trying_to_pick_up_vex_as_a/",
+   "published": "2025-05-09",
+   "author": "/u/Fancy-Rub-3797",
+   "body": "",
+   "id": "1kiexjd",
+   "comments": [],
+   "age_days": 518,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Vex's W Question.",
+   "url": "https://www.reddit.com/r/vexmains/comments/1ka0un3/vexs_w_question/",
+   "published": "2025-04-28",
+   "author": "/u/TheGlumLiving",
+   "body": "Hi. I'm a new player trying to play Vex. I went up against a Fizz in mid-lane, and every time he dashed at me, I tried pressing W to fear him with my shield, but it didn't work. I thought that Vex's main abilities always fear on contact when the timer is full and the icons turn blue, so I'm extremely confused. Am I missing something here or is Fizz just a bad matchup because he's fear immune?",
+   "id": "1ka0un3",
+   "comments": [],
+   "age_days": 529,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What other champs do yall play?",
+   "url": "https://www.reddit.com/r/vexmains/comments/1ipuspm/what_other_champs_do_yall_play/",
+   "published": "2025-02-15",
+   "author": "/u/dlatz21",
+   "body": "Hey guys! I just recently picked up Vex and I absolutely love her. My former main was Syndra, but quite frankly I wasn’t good enough to keep my dps up. Vex has changed everything for me! \n I’m looking to expand my champ pool for bad matchups or other situations where Vex isn’t the best choice.",
+   "id": "1ipuspm",
+   "comments": [],
+   "age_days": 601,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How does one play the lux matchup?",
+   "url": "https://www.reddit.com/r/vexmains/comments/1hil4qs/how_does_one_play_the_lux_matchup/",
+   "published": "2024-12-20",
+   "author": "/u/CwosontIsGod",
+   "body": "Im getting decent at vex, but one thing i cannot play against, is f**king lux.\n I can do decent against bad lux players, but go 1/9 to a decent or good one.\n is there something im missing? or should i just permaban. (it doesnt help that everyone is playing lux mid for no reason)\n If i seem a tad tilted. its bcuz i have just gone 2/10 against multiple luxes in almost consecutive matches",
+   "id": "1hil4qs",
+   "comments": [],
+   "age_days": 658,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is there a Vex matchup cheat sheet?",
+   "url": "https://www.reddit.com/r/vexmains/comments/1h1rzgp/is_there_a_vex_matchup_cheat_sheet/",
+   "published": "2024-11-28",
+   "author": "/u/Slow_Smart_4277",
+   "body": "Hi guys. I'm a low elo Vex main and I just wondered if there is some spreadsheet with the matchups for vex and maybe some tips against the enemy champs. I feel like most matchups are okay but it's harder to get kills in some. I started thinking about this recently when I played a lot against malzahar that if I get close enough to AA his passive then I'm in range for his R and then I just die or get chunked a lot. And I did not want to waste an ability and even less if I have fear up you know.\n So yeah. Is there some matchup tips I gan get mt hands on somewhere? anyone know?\n Thanks guys",
+   "id": "1h1rzgp",
+   "comments": [],
+   "age_days": 680,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What is the hardest Vex matchup?",
+   "url": "https://www.reddit.com/r/vexmains/comments/1gyzmv9/what_is_the_hardest_vex_matchup/",
+   "published": "2024-11-24",
+   "author": "/u/KelvinSouz",
+   "body": "Hey Vex mains! It's a quick question: Who is the champion that counters Vex the most? \n I'm asking it in all midlane subreddits, because while in toplane it's super obvious, in midlane counters aren't as strong as facing renekton as yasuo lol",
+   "id": "1gyzmv9",
+   "comments": [],
+   "age_days": 684,
+   "recency_weight": 0.7,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Any champions with similiar gameplay to Vex ?",
+   "url": "https://www.reddit.com/r/vexmains/comments/1e4ewtv/any_champions_with_similiar_gameplay_to_vex/",
+   "published": "2024-07-16",
+   "author": "/u/adamszan0414",
+   "body": "So I've been one tricking Vex ever since her release, started playing league 5 years ago and I never truly found the perfect champ for me until Vex came out, of course in the 2 years of OTPing my laning goes really well and I can also make the lane even in her tougher matchups.\n I feel like I mastered her quite well, that's why I started expanding my champ pool a bit, played around with Hwei, but he never really captured the essence of the fast paced and intercontinental ballistic missile playstyle that Vex has, after that I went to Irelia which was quite fun but it never really felt right playing her. \n Are there any champs with a similiar playstyle to hers that you guys would recommend ? Or should I just touch grass and feel the sunlight on my skin for once ?",
+   "id": "1e4ewtv",
+   "comments": [],
+   "age_days": 815,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Precision Secondary?",
+   "url": "https://www.reddit.com/r/vexmains/comments/1dxxcit/precision_secondary/",
+   "published": "2024-07-08",
+   "author": "/u/Hirotrum",
+   "body": "Ive been running scorch/manaflow as my secondary runes for a while, I've been thinking about switching to cut down/PoM for melee matchups where im able to harrass instead of just clearing and roaming all the time.\n I know most vexs take transcendence, but I've always felt that rune takes too long to really make an impact, and I can always wait a second or two in between ult resets anyway.",
+   "id": "1dxxcit",
+   "comments": [],
+   "age_days": 823,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Vex x Zoe matchup tech i found out",
+   "url": "https://www.reddit.com/r/vexmains/comments/1d1pcla/vex_x_zoe_matchup_tech_i_found_out/",
+   "published": "2024-05-27",
+   "author": "/u/Silfyn",
+   "body": "Sorry if this is common knowledge but ive never seen anyone talk about it.\n So, most of the time zoe in lane will try to kill you by using her ultimate to the sides of the wave to land the bubble on you, when she does that you can aim your ulti on top of where she will blink back to, you can even let yourself be hit with the bubble for maximum bait effect because you can recast your ultimate becoming unstopabble and dodging her sleepy cc!! its a very useful trick if youre a bit ahead and can oneshot her you just kill her every time she uses her ulti",
+   "id": "1d1pcla",
+   "comments": [],
+   "age_days": 865,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What do you think are the hardest matchups to face as Vex?",
+   "url": "https://www.reddit.com/r/vexmains/comments/1cvxxkl/what_do_you_think_are_the_hardest_matchups_to/",
+   "published": "2024-05-19",
+   "author": "/u/Ars_Lunar",
+   "body": "Hey all, vex enjoyer here. Pretty simple question, but what do you think are the hardest match-ups in mid lane? I personally detest going against Orianna, Karma and Ahri. I feel like they can more easily apply their damage on me while I get punished for even trying to poke, not to mention the shields and MS buffs Karma and Orianna get from their abilities",
+   "id": "1cvxxkl",
+   "comments": [],
+   "age_days": 873,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Challenger Vex shows you how to never lose a game again + AMA",
+   "url": "https://www.reddit.com/r/vexmains/comments/1bg1hfg/challenger_vex_shows_you_how_to_never_lose_a_game/",
+   "published": "2024-03-16",
+   "author": "/u/Ok-Marzipan4587",
+   "body": "Hey everyone!\n My name is Fighto, I've been challenger since season 8 and dabbled in the professional scene. Vex has been one of my favourite champions for years.\n I made a video covering how to avoid self sabotage when playing, as well as some practical tips to avoid using your teammates mistakes as an excuse for making your own.\n If you have any Vex specific questions about items or matchups feel free to ask away below and I'd love to get involved with the community.\n https://www.youtube.com/watch?v=stbz_0ioCQw&ab_channel=Fighto",
+   "id": "1bg1hfg",
+   "comments": [],
+   "age_days": 937,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Vex Top Potential Cheese",
+   "url": "https://www.reddit.com/r/vexmains/comments/1aue1rr/vex_top_potential_cheese/",
+   "published": "2024-02-19",
+   "author": "/u/MuskSniffer",
+   "body": "Disclaimer: I do not play Vex that often and this is purely theory. If you try this in a ranked game and int then don't blame me. \n Vex is traditionally played mid, obviously, however I believe she could work as a situational top laner, specifically into champions who dash a lot like Irelia or Fiora.\n Let's start with her pros:\n Ranged, so you can poke and harass a majority of top laners for free.\n High CC, so if someone does get on you then you can get them off.\n Passive allows lots of extra damage and CC vs some of the most annoying laners to face.\n Good wave clear, you're still Vex after all.\n Relative isolation of top lane means you'll likely get ganked less.\n Now her cons:\n Squishier than normal top laners, meaning if you don't get a big lead early you'll be less useful to your team, though that's part and parcel for ranged top laners.\n Low mobility compared to other ranged top lane picks meaning if you don't have your passive up you're liable to get jumped on and bursted down.\n Relative isolation of top lane means you'll have significantly fewer opportunities to roam which will net you less gold than in mid lane, making it far harder to scale if you don't get a lead early.\n Many matchups will be unfavorable for you, especially those that have good cc to disable you if you ulti them.\n As for your gameplan, it's pretty simple: Proc gloom as often as possible, poke your lane opponent, and if they get on you then use Personal Space (W). \n What do yall think? Pog or troll?",
+   "id": "1aue1rr",
+   "comments": [],
+   "age_days": 963,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Peribear's vex matchup tier list, thoughts?",
+   "url": "https://www.reddit.com/r/vexmains/comments/1aey0t0/peribears_vex_matchup_tier_list_thoughts/",
+   "published": "2024-01-30",
+   "author": "/u/Peribear",
+   "body": "",
+   "id": "1aey0t0",
+   "comments": [],
+   "age_days": 983,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What do you ban?",
+   "url": "https://www.reddit.com/r/vexmains/comments/19bds6o/what_do_you_ban/",
+   "published": "2024-01-20",
+   "author": "/u/Being_Potential",
+   "body": "Hi guys, plat/emerald here. I am fairly new to vex but I kinda got comfortable already and know her playstyle by now.\n What do you usually ban when ranking? \n I find that playing against Syndra/Ahri/Hwei/Vlad is a nightmare... I usually ban syndra but still it is a bit of luck, hoping the other midlaner does not pick any of the other mentioned champs. Also the matchup vs akali is fine, but I sometimes ban her because often my team sucks and due to the easy roaming possibilities, she gets fed anyways.\n ​\n What do you usually ban? Can you tell me a bit about your experience ranking with vex? I would appreciate if the comment also mentions the elo you got!",
+   "id": "19bds6o",
+   "comments": [],
+   "age_days": 993,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is it better to up W first at level 1 vs certain matchups",
+   "url": "https://www.reddit.com/r/vexmains/comments/19aiq0d/is_it_better_to_up_w_first_at_level_1_vs_certain/",
+   "published": "2024-01-19",
+   "author": "/u/OddDragonfruit7939",
+   "body": "Hello there, I have been enjoying Vex lately and her playstyle really fits me well. What Ive personally been struggling against is Yasuo mid and at first I cant seem to deal with him even at level 1 (yea ik huge skill issue on my part) I always up E first because I see master and challenger players do so? But I personally think that W performs well better at level 1 because it has much better radius, no delay and grants you an immediate shield (plus it even detonates the mark!) Compare to E which has a small delay and mark the enemy (which needs another A to consume that mark) So can anyone tell me the reason why many good players just go E at lvl 1 vs every single matchup. I tried using W first and completely dominate the lane since I just keep holding my fear and the yasuo cant do anything, sure he can trade but I deal more damage thanks to the shield, with E its a different story since he can get some AAs in and I ended up being at a disadvantage. I think it might even work with some other mobile champs such as Irelia. Thoughts?\n Srry if the post causes any confusion or inconvenience, I'm pretty new to League and I just wanna know what others think.\n TL;DR: Is it better to up W at lvl 1 instead of E vs mobile champs",
+   "id": "19aiq0d",
+   "comments": [],
+   "age_days": 994,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "is Vex generally a situational pick?",
+   "url": "https://www.reddit.com/r/vexmains/comments/18njd1l/is_vex_generally_a_situational_pick/",
+   "published": "2023-12-21",
+   "author": "/u/karpovcitto",
+   "body": "Sometimes I got fed but I just got stomped by a Yone and then by a Lux, it is Yone particularly hard to deal with as a Vex or I'm just bad.\n Also, is it worth to blind pick her/OTP her? I'm enjoying her playstyle but sometimes I got stomped and I think isn't woth, it is a matter of skill or she is just weak agains some matchups like Yone or Lux?",
+   "id": "18njd1l",
+   "comments": [],
+   "age_days": 1023,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What other champs do you have in your pool (if any)?",
+   "url": "https://www.reddit.com/r/vexmains/comments/185wtxu/what_other_champs_do_you_have_in_your_pool_if_any/",
+   "published": "2023-11-28",
+   "author": "/u/InconsistentAuthorr",
+   "body": "Hey guys, I'm pretty new to league (playing about two-three months now), and I've gotten pretty comfortable with playing Vex. I'm actually really excited that I found a solid main that I like playing so quickly and, though I'm in bronze now, it seems like she stays a good pick in most elos so I'm planning to stick with her. I know that most people try to get really good at two or three champions, though, so I was wondering if anyone had any advice on how to counter pick some of Vex's harder matchups (I've mostly had a tough time with Viktor, A Sol, Neeko, and Veigar), and how you decide your champ pool. I'd be happy to hear any other beginner advice about playing Vex as well if you have it.",
+   "id": "185wtxu",
+   "comments": [],
+   "age_days": 1046,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "What are my worst matchups?",
+   "url": "https://www.reddit.com/r/vexmains/comments/17v05np/what_are_my_worst_matchups/",
+   "published": "2023-11-14",
+   "author": "/u/Individual_Ad_7934",
+   "body": "I don´t really know yet who vex looses to more, sometimes i win against a ahri and other times i get stomped on, so my question is. Who do i loose most against in lane?",
+   "id": "17v05np",
+   "comments": [],
+   "age_days": 1060,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is Vex only a counterpick or is she blind-pickable (able to otp)?",
+   "url": "https://www.reddit.com/r/vexmains/comments/17opt44/is_vex_only_a_counterpick_or_is_she_blindpickable/",
+   "published": "2023-11-06",
+   "author": "/u/StrawberryPhelps11",
+   "body": "I just got this champion and am terrible at her, but going to try to learn. I know her real strength is kinda countering champs with a bunch of dashes like some melee asssassins. I feel like i’ve been seeing a ton more control mages mid lately, and not really sure how she’d hold up in that situation. \n for those of you that play her alot, how does she do in matchups against other mages, and scale into typical teamfights? is she a champ that needs to win her lane, or what should my objectives be in lane and then into midgame?\n if there is any really good indepth guide to playing her, id love to read or watch it, so any recommendations are awesome!\n ​\n thanks!",
+   "id": "17opt44",
+   "comments": [],
+   "age_days": 1068,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Over-reliance on ludens & electrocute",
+   "url": "https://www.reddit.com/r/vexmains/comments/16y0295/overreliance_on_ludens_electrocute/",
+   "published": "2023-10-02",
+   "author": "/u/MatchaWarrior",
+   "body": "It seems in general people push electrocute & ludens really hard on Vex - and I agree, if you take lane matchups & team compositions out of it it's the optimal combination for her kit in terms of maximising burst. It's to the point I never really see other builds being floated regardless of situation - with the exception of the old Everfrost build but I never really jelled with that. IMO its not as simple as always go Ludens + Elec.\n Check VEX101's OP.GG (Korean OTP Master Vex player). He regularly goes some combination of Liandry's & Comet when he feels Electrocute and/or Ludens is not viable for the game. Some thoughts on this:\n Against competent mid-long range mage players who can space, how often are you actually landing E+Q+W or E+Q+Auto in lane to proc electrocute without taking an even/bad trade. Comet actually works really well with Vex's kit because you can guarantee a hit with any fear ability. It makes E+Q a really chunky combo without walking into auto range to then get traded upon.\n If you are against even mid lane champs who stack HP (Swain, Vlad, Galio, etc.) Ludens feels really bad. That's not even considering tanky compositions - e.g. Leona / Rell bot, tank top / jgl. By building Liandry's you trade one shot potential on squishies for actually reasonable damage on high HP targets, increasing your chances of getting ulti resets off high HP targets by actually doing enough damage to matter.\n Anyway, interested to hear your thoughts on this. Just anecdotally, I found some more difficult Vex matchups a lot more playable in mid-high Emerald by following this more pragmatic approach to items & runes.",
+   "id": "16y0295",
+   "comments": [],
+   "age_days": 1103,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "I honestly think Vex is broken rn",
+   "url": "https://www.reddit.com/r/vexmains/comments/13y6nyk/i_honestly_think_vex_is_broken_rn/",
+   "published": "2023-06-02",
+   "author": "/u/marekt14",
+   "body": "At least in low elo\n Over this week I played a lot and spammed vex mid into any matchup and managed to get 68% wr over 55 games and climbed from g4 to p4 without much issue.\n What do you think? She seems very very strong this and previous patch, especially if enemies draft squishier comps",
+   "id": "13y6nyk",
+   "comments": [],
+   "age_days": 1225,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Malzahar matchup?",
+   "url": "https://www.reddit.com/r/vexmains/comments/10ak5a2/malzahar_matchup/",
+   "published": "2023-01-13",
+   "author": "/u/Zaq1996",
+   "body": "Been playing quite a bit of Vex but haven't played against that many Malzahar, so I'm not super familiar with the matchup. Just finished a game against one and it literally felt like I couldn't play. He just constantly pushed me under tower, and until I had LC I couldn't even come close to matching his wave clear. Even with LC I could at best match it, and certainly wasn't crashing anything into his tower so I could safely roam. I played safe and didn't die against him, but I also didn't do anything more than keep him off my tower. He could keep poking me a ton so I kept having to back, especially since I was runnyout of mana to try and farm. I ended the game with 3600 damage, and I'm pretty sure that was all from a single fight near dragon where I ulted in and got two kills before they ff'd (jg and bot were fed af). \n Basically, could barely farm (40cs behind, 120-160 at 20min), couldn't kill him, had almost no impact on the game (2-1-4, 3600 damage). How can I improve from this?",
+   "id": "10ak5a2",
+   "comments": [],
+   "age_days": 1365,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Dear Vex mains, I need your help to settle down a argument with my friend",
+   "url": "https://www.reddit.com/r/vexmains/comments/105476p/dear_vex_mains_i_need_your_help_to_settle_down_a/",
+   "published": "2023-01-06",
+   "author": "/u/Kairofox",
+   "body": "Hello, I'm a Vex main and my friend is a Vlad main, and we have entered a discussion that only can be solved with the help of strangers on the internet, it's very simple, I say that the Vex vs Vlad matchup is impossible for the Vex, in order for her to win the Vlad needs to int the lane, on the other side, my friend says that this matchup is heavily Vex sided and Vex wins easily, I tried to keep my bias out of the way, please help us see who's wrong\n View Poll",
+   "id": "105476p",
+   "comments": [],
+   "age_days": 1372,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I want to main vex any tips ?",
+   "url": "https://www.reddit.com/r/vexmains/comments/zwwovs/i_want_to_main_vex_any_tips/",
+   "published": "2022-12-28",
+   "author": "/u/FURY_Serialis",
+   "body": "Ive been meaning to find a new champ that suited my gamestyle. I usually like champs that can clear waves fast and roam, especially at mid lane and vex seems like a great option for me. Ive been trying to learn her recently but I know nothing about her matchups and what to do in those so called skill matchups so I sought out help by watching yt vids.Anyhow, im currently sitting comfortably at low diamond and I really dont wanna play her in ranked without knowing a single thing about the matchups. Any tips to share fellow vex players?",
+   "id": "zwwovs",
+   "comments": [],
+   "age_days": 1381,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "vex matchup tier list (my opinion)",
+   "url": "https://www.reddit.com/r/vexmains/comments/y2cmni/vex_matchup_tier_list_my_opinion/",
+   "published": "2022-10-12",
+   "author": "/u/PutDePeIutub",
+   "body": "",
+   "id": "y2cmni",
+   "comments": [],
+   "age_days": 1458,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Vex vs Lux - Midlane: How to deal with the matchup?",
+   "url": "https://www.reddit.com/r/vexmains/comments/w42r6z/vex_vs_lux_midlane_how_to_deal_with_the_matchup/",
+   "published": "2022-07-21",
+   "author": "/u/sephireicc",
+   "body": "I'm always having trouble here. She has the range and with her E going over minions, I just have trouble dodging it just by the speed and how big it is. I get whittled down. Especially, when I'm under tower while shes poking me right outside it's attack range. That goes on for a few mins, I fall behind and I just lose lane.\n What exactly could I do?",
+   "id": "w42r6z",
+   "comments": [],
+   "age_days": 1541,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Couldnt First Strike be kinda good on Vex ?",
+   "url": "https://www.reddit.com/r/vexmains/comments/vossbi/couldnt_first_strike_be_kinda_good_on_vex/",
+   "published": "2022-07-01",
+   "author": "/u/cptcapslok",
+   "body": "Basicly title. Obvly not in every matchup like Xerath since you will never get to use it but into low / mid range champs you should be able to use it consistently. \n You also can use the full inspiriation tree which is way better than red tree imo.\n The only problerms i see are that you have slightly less dmg early and you have to insta follow ult if you hit since the rune will run out otherwise but will do more dmg with your full combo and it also hits multiple champs. The extra gold is obv also nice.\n Any thoughts ?",
+   "id": "vossbi",
+   "comments": [],
+   "age_days": 1561,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Why isn't Vex as banned as other champions?",
+   "url": "https://www.reddit.com/r/vexmains/comments/ujkeeh/why_isnt_vex_as_banned_as_other_champions/",
+   "published": "2022-05-06",
+   "author": "/u/Frobi21",
+   "body": "I just searched this up and Vex is not as banned as Zed or Yasuo yet I feel like she doesn't have too many losing matchups, any reason why?",
+   "id": "ujkeeh",
+   "comments": [],
+   "age_days": 1617,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Dear Vex mains, what's the ONE thing that you like most about our edgy girl?",
+   "url": "https://www.reddit.com/r/vexmains/comments/syjdqz/dear_vex_mains_whats_the_one_thing_that_you_like/",
+   "published": "2022-02-22",
+   "author": "/u/Mokidekey",
+   "body": "Mine is the fact that against so many annoying melee matchups (Yasuo, Yone, Qiyana) we have a 1 button fuck off move. \n Leave my personal space!",
+   "id": "syjdqz",
+   "comments": [],
+   "age_days": 1690,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "going against xer'ath",
+   "url": "https://www.reddit.com/r/vexmains/comments/rrs81f/going_against_xerath/",
+   "published": "2021-12-30",
+   "author": "/u/nagle5000",
+   "body": "Hi!\n I have a very hard time in lane against xer'ath ... is this just a bad matchup? I am new to league, just started playing ranked this season, and have picked up vex mid, but it's tough against xer'ath. Wondering what to do here?\n Thanks!!",
+   "id": "rrs81f",
+   "comments": [],
+   "age_days": 1744,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Is this champ worth picking up?",
+   "url": "https://www.reddit.com/r/vexmains/comments/rd64f4/is_this_champ_worth_picking_up/",
+   "published": "2021-12-10",
+   "author": "/u/zoobloo7",
+   "body": "Hi i know this might be a biased place to ask but im just getting back into LoL and am going to play mid and am looking for somone to main, this character wasnt released when i last played was wondering if this character does well and has good matchups against common midlaners?",
+   "id": "rd64f4",
+   "comments": [],
+   "age_days": 1764,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Looking for some help laning against a Victor who knows what he's doing",
+   "url": "https://www.reddit.com/r/vexmains/comments/qua1c0/looking_for_some_help_laning_against_a_victor_who/",
+   "published": "2021-11-15",
+   "author": "/u/shaidyn",
+   "body": "Hey, folks! My journey to master Vex continues. I've got a good handle on most matchups, and I'm getting better at proc'ing electrocute to win trades.\n The matchup that's been causing me trouble this last week has been victor. They tend to start Q level one, so whereas I need to land a skillshot they can walk up and hit me with the point and click. After level 2, if I walk up to CS they'll throw out the laser. I have to choose between losing the CS, taking the damage, or attempting to tradeback with a skill shot that they likely dodge.\n So yeah, any clues? Thanks!",
+   "id": "qua1c0",
+   "comments": [],
+   "age_days": 1789,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Any tips for laning against talon?",
+   "url": "https://www.reddit.com/r/vexmains/comments/qkhcol/any_tips_for_laning_against_talon/",
+   "published": "2021-11-01",
+   "author": "/u/shaidyn",
+   "body": "Hey, folk! I've been learning vex and having a blast. Most lane matchups I feel pretty comfortable with, even if I just have to play safe. But I went against a talon whose goal wasn't to all in me or even to roam, but simply to poke me down so I had to leave lane. If I tried to AA him I ate the daggers, if I tried to play back he just walked into his range and threw the daggers... you get the idea. Any tips?",
+   "id": "qkhcol",
+   "comments": [],
+   "age_days": 1803,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Vex buildpaths - Runes into Mythic buildpaths",
+   "url": "https://www.reddit.com/r/vexmains/comments/q4l0fu/vex_buildpaths_runes_into_mythic_buildpaths/",
+   "published": "2021-10-09",
+   "author": "/u/your_almanac",
+   "body": "howdy vexers, i want to talk about the possible buildpaths vex can go and how they work.\n This will use a guide format, but it's supposed to be a discussion, just with my pov as base.\n I wrote this because ive seen a lot of discussion over what the best Vex Keystone is but i dont think there is a strict best one.\n ​\n Understanding Vex' gameplay in different situations\n Vex is a unique mage for the reason that she has two abilities that she wants to cast from range and two abilities she needs to be in melee range for. This sounds like a counterproductive design but when you play a bit of vex you realize that your Q is most of your dps in teamfight due to its low cooldown later on and you really only want to use your R for picks on squishy targets and clean ups. Now, clean ups and picks usually have higher impact on games than just having high dps but are indefinitely more risky, so its not always clear what you want to build for. Her kit is most effective at close range but she is a squishy mage after all and doesnt want to go into close range until you know its safe to do so.\n What i am getting at here is that different builds and runes enhance different situations and because Vex has no static gameplay it is not that easy to decide what to go for. Another important idea is that different rune sets want different build paths as they enhance different playstyles.\n ​\n Rune Sets and their Mythics\n The most popular Keystones on Vex are Electrocute and Arcane Comet, but i will also talk about Phase Rush, Dark Harvest and Unsealed Spellbook.\n ​\n Electrocute / Dark Harvest \n Electrocute and Dark Harvest fill the same role - doing the most damage possible when attempting an all-in (Dark Harvest outscales Electrocute at around 25 stacks). That means it's the best rune to have when you R in. Electrocute has the highest AP scaling of all damage Keystones and its more or less garantueed to hit the enemy. Its disadvantages are both the relative uselessness in even long range matchups and the fact that you have to put three points into the domination tree, one of the worse trees for vex. Obviously, Taste Of Blood is never bad to have and the bounty masteries can help you a lot too, but its not really comparable to the strength of the Sorcery, Inspiration and Resolve.\n Going with Electrocute or DH, Ludens Echo into Horizon Focus, later on building stuff like DCap and Void Staff will just straight up give you the most damage and will help with the goal of these Keystones: Killing squishy carries.\n ​\n Phase Rush / Unsealed Spellbook\n Phase Rush and Unsealed Spellbook offer Vex utility. The specific play that Phase Rush Vex is best at is R'ing in not to assassinate, but to open up a teamfight with a massive AoE fear. The combination of the fear itself and the MS and slow resistance of Phase Rush give Vex the space to get out of the center of the enemy attention.\n Unsealed Spellbook is just extremely good and underrated on midlane champions. In my experience, the reason why people dont really use it is that its just kind of an anxiety-inducing minigame thats a lot more complicated than the other Keystones. A good guide on using it can be found here. Vex can use most Summoner Spells: Flash, Ignite, Heal, Barrier, Ghost, Exhaust, Teleport are all great and even niche spells like Clarity if she goes out of mana in an important moment or Smite when you want to smite an objective.\n Phase Rush and Unsealed Spellbook can both go for a burst build like Electrocute or a dps/utility build with Everfrost, Cosmic Drive and whatever situational items you want. Phase Rush might prefer the burst build a bit more due to an enhanced opportunity of oneshotting a squihsy while engaging and Spellbook might prefer a dps build just because there are more peeling Summoner Spells than offensive ones.\n Generally, especially if you go for Phase Rush, Unsealed Spellbook or Arcane Comet you need to look at the enemy team and their win conditions and which builds allow you to disrupt those. If the enemy team is very squishy and has strong ranged carries, you might want to try bursting them. Against teams with a heavy frontline and strong melee champs the Everfrost-Cosmic Drive build will help you a lot at keeping distance.\n ​\n Arcane Comet\n Arcane Comet is the best laning rune. With scorch, her very long auto attacks and the possibility to go both into Resolve or Inspiration, she can absolutely bully some lanes. When picking Arcane Comet, be aware that this Keystone gets outscaled by every other possibilty. Less damage than both Electrocute and DH, while not even having a garantueed hit. Less utility than Phase Rush and Unsealed Spellbook. You dont enhance specific situations in teamfights or 1v1s, you only enhance your laning phase. And this is fine, because people in Leauge of Legends really like giving up when the early game goes wrong, so putting more weight on it can be a great decision.\n As its only picked for lane, you can go for any build with it in my opinion, although Everfrost might help with actually hitting comet.\n ​\n AP Scalings\n At the end of this i wanna talk about AP ratios real quick, because thats something people look at when talking about builds. Just looking at it, Vex has average AP ratios, pretty comparable to Lux. But what Vex ratios really helps is her really low Q cooldown. Her Q has a 60% AP ratio, which is pretty low but its both AoE and on a low cooldown. which means if you land it just twice, once on two people and once on one person, thats already 180% AP in damage in a extremely common teamfight scenario. At the end, as always with Vex, both lower AP builds and higher AP builds can work in different situations on Vex.\n ​\n Thats all",
+   "id": "q4l0fu",
+   "comments": [],
+   "age_days": 1826,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Vex into zed matchup tips?",
+   "url": "https://www.reddit.com/r/vexmains/comments/q10apq/vex_into_zed_matchup_tips/",
+   "published": "2021-10-04",
+   "author": "/u/hpl2000",
+   "body": "I get dumpstered by zed no matter what I do. I hold fear for when he jumps in, he gets feared, I land my shit, then he blows me up anyways even with a zhonyas. What the hell are you meant to do? Or does zed just counter vex like he does most champions?",
+   "id": "q10apq",
+   "comments": [],
+   "age_days": 1831,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Dedicated Vex Streamer",
+   "url": "https://www.reddit.com/r/vexmains/comments/pzujcf/dedicated_vex_streamer/",
+   "published": "2021-10-02",
+   "author": "/u/Critical_Factor_425",
+   "body": "Are there any Vex OTP streamers already? Wanna watch people play and possible matchup information but with it being banned in ranked and blind is literally people getting it left and right. Any possible streamers would also help",
+   "id": "pzujcf",
+   "comments": [],
+   "age_days": 1833,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Thoughts on the nerfs",
+   "url": "https://www.reddit.com/r/vexmains/comments/pwizz6/thoughts_on_the_nerfs/",
+   "published": "2021-09-27",
+   "author": "/u/UltimateViolet",
+   "body": "What do you guys think of the hotfix nerfs that Vex recently got?\n For those that might not have heard already, passive damage went from 30 - 180 + 25% AP to 30 - 140 + 20% AP and Q damage from 60 - 260 + 60% AP to 60 - 240 + 60% AP.\n Do you think it was justified? Was it too much/too little? Or did they get it right?\n I personally think the Gloom damage nerf was a little too much, 40 damage off arguably the most important part of her kit plus 5% scaling is huge and will probably impact the matchups/comps she should counter heavily. However, the Q damage nerf is fine and justified. Having such reliable waveclear on that low of a cooldown with a decent mana cost is way too good and it was understandable that it got nerfed.",
+   "id": "pwizz6",
+   "comments": [],
+   "age_days": 1838,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "My theories regarding the build, playstyle and combos (so far)",
+   "url": "https://www.reddit.com/r/vexmains/comments/puhkzq/my_theories_regarding_the_build_playstyle_and/",
+   "published": "2021-09-24",
+   "author": "/u/Backonja",
+   "body": "Im not a challenger or any good rank, however I’ve always liked theorising about item builds and combos when it came to champions. I would like to present my thoughts on what I think is going to be her build, her playstyle and her combos. Of course this is meant to be a discussion, so feel free to criticise my opinion, and present yours!\n The playstyle\n So far I think that the champion shes most similar to is annie. Their laning phase seems the same as in they both have to aquire their stuns/fears after some time, and then they can choose. Do they want to apply pressure in lane or keep on farming? With annie, you kinda do both. You hold onto your stun for some time, and then if you see the opponent refusing to get near you, you continue farming with abilities until you get your fear/stun again. Late game also feels similar in a way that if both annie and vex get a good ult, it completly changes the outcome of the teamfight.\n The main difference between annie is that unlike annie, vex doesnt lack mobility. Annies biggest problem is getting close to the opponent, and she very often has to sacrifice her flash or her build (aka go hextech protobelt instead of liandrys or ludens). Also vex has an amazing chase potential.\n Combos\n There are 2 combos that I came up with.\n First is the farming combo: E + Q\n You e first so that you can apply the stacks, and then you q to collect them, making it very easy for you to get your fear back.\n Second is the all in combo: r1 + r2 + w + e + q\n R2 + w are almost instant, meanwhile e + q makes it so that you damage them and take the stack for passive, meaning you can get fear again much sooner. Also I think the range doesnt matter, unless the opponet is really far away. In a very close range the stack applies a bit before q takes it.\n Note: I also tested this on a dummy and the combo had to parts (r2 and w and then e and q do their damage a tiny bit later). The combo seems to be just a tiny bit above 1 second, because the dps on the dummy was half of the total damage, meaning that the combo takes more than 1 second.\n Build\n Since I said that shes similar to annie, I think that she will also have a ludens build and a liandrys demonic build, but an additional build will be everfrost build. On all builds I think that zhonya is a must.\n Also I believe w should be maxed second in most cases and sometimes even first if vex is playing against a losing matchup. She is a scaling champion, so that shouldnt really make her any less powerful. Also against certain matchups I feel like e max will be more viable.\n I know this isnt anything too advanced but I wanted to share my opinion and see what you people think. Either way thank you for reading this!\n Edit: typos and grammar, also added a \"note\" for second combo",
+   "id": "puhkzq",
+   "comments": [],
+   "age_days": 1841,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "What would you say is Vex's worst matchup?",
+   "url": "https://www.reddit.com/r/vexmains/comments/pubxk4/what_would_you_say_is_vexs_worst_matchup/",
+   "published": "2021-09-24",
+   "author": "/u/TheSovietTurtle",
+   "body": "I played a game today and kinda realized I had no real idea who to ban in the ban phase as Vex. Everyone I could think of that annoyed me either had a blink of a dash that Vex could deal with. \n I think skirmishers and artillery mages may be her biggest issue? Graves, Vel'Koz, Lux, Xerath, etc. Curious to hear what you think, I've only played one game as her so far.",
+   "id": "pubxk4",
+   "comments": [],
+   "age_days": 1841,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Speculation regarding Vex matchups and her role on a team.",
+   "url": "https://www.reddit.com/r/vexmains/comments/pk1y9m/speculation_regarding_vex_matchups_and_her_role/",
+   "published": "2021-09-08",
+   "author": "/u/Soft_Contribution802",
+   "body": "Before you read : Take this all with a grain of salt. I'm posting this before AP ratios, numbers, or otherwise are released, so it won't be exact. \n Matchups :\n At the moment, her matchups can be kind of weird. \n She has a couple of issues. E looks pretty dodgeable, but that one's debatable as it depend on range and it's not super established as to how that scales. Q looks easily dodgeable for ranged characters, and it has quite a visible warning and delay, and W is quite close ranged all things considered. \n I'm not really going to cover what I think of her matching up into dash based champions, like Irelia or Yasuo, as those are pretty easy to figure out.\n The fact she has a fear on her W that's an instant explosion around her which she doesn't need to aim alone makes it a pretty hard time for any assassins or bruisers going after her, which is definitely nice. Overall she counters these champions pretty hard. \n Her main problem seems to lie within two classes : Mid range, high damage mages (Anivia, Ryze, Casseopia) and long range control mages (Orianna, Syndra, Viktor). \n Both of the classes mentioned beforehand scale really well. You don't really have the option of leaving them alone, which is a pretty huge problem for Vex, since she can't really touch them pre-6. They also have immense poke, making it so that Vex could be put at an early deficit straight out of the fountain. Allowing these control mages a free lane could easily spiral out of control. For Mid range mages especially, the lack of a gap closer Pre-6 means you practically can't CS without jungle proximity or your tower. \n However, in the case of control mages, Vex may have a ray of hope.\n It's no secret that for the most part, in the levels 6 and below, most, if not all control mages, lack high burst damage that will take you out of lane instantly. However, they still have decent poke. \n Vex could possibly tank her way through the poke damage with the W shield and shove the wave. Vex has 3 AOE damage abilities, all of which have potential to touch the entire wave. It's not unlikely that she can use this to permashove the wave until 6, where she could possibly go for an all in and poweful roams with R. \n Role :\n After she hits 6, her roams and general teamfight engage and follow up can become extremely deadly. A combo that could be use for arguably one of the most explosive initiations in the game is. \n (R1 + R2 + Flash [Situational] + W[Passive]) \n A 2 second (Yes, I counted the seconds in the trailer) fear in an AOE radius around her, combined with her fast R dash, could be extremely deadly. With flash, she has the potential to mark a frontliner with R and then flash onto the backline and W to fear, while interrupting potential dashes. However, this combo could be quite dangerous, and potentially hurt your team without adequate follow up, which can be difficult to find when the enemy is running away from the fear (Tip : Try to flash behind the ADC to pull them towards your team). However, It'll most definitely be invaluable in combo compositions, for example a Jarvan Ulti, Ziggs Ulti, or Engage support like Rell, as the sheer speed and range of the engage is absolutely ridiculous. \n (Watch out for stopwatch, though) \n At the moment, it's hard for me to pinpoint her exact role... I think she's comparable to the likes of Galio and Lissandra ; she's a battle mage with lots of CC and carries the potential to Engage a fight, but also is great for just following up on an engage with high burst damage and CC of her own. \n I think during laning she'll probably be focused on roaming and dominating the early game, at least against mages that outscale her. In matchup's that she's able to, it's likely that she'll be looking to just shove the wave and look for roams with her powerful 2 second fear. Otherwise, she might just be looking to survive the laning phase against most ranged characters. \n Hope you enjoyed this read! I'd love to hear other opinions on her potential role in the game, and what you think she might be when she releases. Again, this is all speculation, so take it with a grain of salt.",
+   "id": "pk1y9m",
+   "comments": [],
+   "age_days": 1857,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "So now that we know enough, support or not support?",
+   "url": "https://www.reddit.com/r/vexmains/comments/pjtdmj/so_now_that_we_know_enough_support_or_not_support/",
+   "published": "2021-09-07",
+   "author": "/u/xanat9",
+   "body": "Since her fear is kinda versatile, do you see her as a mage support?\n Her W fear should work very well as an anti engage, and or ranged matchups she may want to try to sneak a fear with e from the bushes?\n The only issue is that she may rely a lot on gold to deal damage, especially with her ultimate if you don't have kill pressure you are only a CC bot\n I don't see her jungler since her Q starts with a 9s cooldown, E above 10 and W above 20, plus being immobile outside of ulti",
+   "id": "pjtdmj",
+   "comments": [],
+   "age_days": 1858,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  }
+ ]
+}

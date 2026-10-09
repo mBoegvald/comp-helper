@@ -1,0 +1,826 @@
+{
+ "champion": "Annie",
+ "subreddit": "anniemains",
+ "feeds": [
+  "top_all:matchup",
+  "top_year:matchup"
+ ],
+ "threads": [
+  {
+   "title": "How do I beat Diana?",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/1rma5nw/how_do_i_beat_diana/",
+   "published": "2026-03-06",
+   "author": "/u/troy5566",
+   "body": "This is a matchup I expect to be even because she comes into my range, but her damage is just more than mine and I loses every time. And don’t get me started on her annoying poke that never misses. \n Any tips?",
+   "id": "1rma5nw",
+   "comments": [],
+   "age_days": 217,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Annie Matchup Spreadsheet",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/1pnf8vt/annie_matchup_spreadsheet/",
+   "published": "2025-12-15",
+   "author": "/u/LazyGuyinFinance",
+   "body": "Looking to add Annie to my champ pool mid. Is there an up to date matchup spreadsheet maintained by a streamer or anything like that? Anything that has a guide per champion on runes, item build, and recommended strategy? I've seen similar from OTP streamers like Tryandamere or Garen for example.",
+   "id": "1pnf8vt",
+   "comments": [],
+   "age_days": 298,
+   "recency_weight": 1.0,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Annie Items For 14.1 Thoughts/Discussion",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/1942u56/annie_items_for_141_thoughtsdiscussion/",
+   "published": "2024-01-11",
+   "author": "/u/Musical_Tragedy",
+   "body": "TLDR; Previous builds are still viable, the movespeed inflation is great for Annie, protobelt removal sucks, a lot of different options to choose from depending on comp, items are mostly buffed, AP>AH\n Edit: Protobelt is basically removed. The “new” one isn’t worth it.\n Edit 2: After testing Malignance I was wrong about it. The passive is way to bonkers because of its basically no cd. Remove everything I said about Ludens and replace it with Malignance \n To preface this I’m a 750 LP Annie main and she was the champ that first got me from bronze to diamond in s8\n Back in Season 13 I stalked a couple of high elo Annie players and experimented with different build paths. Annie IRL in particular was someone I reviewed a lot. Generally, there are 3 build paths for Annie:\n 1: Mythic+Defensive Core (Proto/Liandries/Ludens+Zhonyas/Banshees) Usually best option*\n This build path is usually paired with ignite+electrocute because you don’t need the extra damage from items like horizon or shadow flame (ugh)\n 2: Full On Damage (Mythic+Horizon+Rab/Void)\n 3: Kiting Build (Liandries+Cosmic+Rylais) Very situational*\n Usually ran with ghost. Self explanatory.\n Of course there’s still more variance in Annie’s build/rune path against different comps and matchups. Aery for example, can still be used with the mythic+defensive core build.\n These builds in season 14 are still replicable, although a few core items have been removed. Protobelt especially, was a huge playmaking item that I’m sad to see gone.\n ​\n Season 14 Items\n Stormsurge: The best rush when you don’t need mana against tanky comps. This is essentially protobelt’s replacement boasting a little higher damage, pen and constant mobility compared to proto’s dash. Imo, the 5% ms is one of the best parts of this item.\n Luden’s Companon: Still functions the same as old Ludens, and is stronger than Malignance. The extra waveclear and damage is much better than Malignance’s passive, and you can’t spam ult off cd if enemies are properly positioned.\n Liandries: Still the go to item against tanky/melee comps.\n Cosmic Drive: Got buffed due to the addition of the 5% ms buff and new passive. It now gives a flat ms buff upon damaging an enemy instead of stacking, opening up synergy with e and tibbers. Similarly to rylais, walking into enemy poke intentionally (with e) or precasting tibbrrs to run the enemy down will increase chasing/kiting potential.\n Shurelyas: I didn’t see these changes in the patch notes, but when I saw it in game it got me really excited. It now costs 2200 gold from 2300, provides 55 AP from 35, 15 AH, 8% ms and 150% regen+its old active. On paper, this seems to provide Annie with all the stats that she needs. The problem with old shurelyas is that the trade off was a lack of damage. However, with the new season lacking AH+ shurelyas giving extra ms and AP, Shurelyas is now a good item on Annie (theoretically). It would be a perfect 2nd or 3rd item, especially when you’re at a 2.2k gold breakpoint where you can’t afford any of the other items for a huge power spike. I still need to test this though.\n lich Bane: A little meme but with the new spell dance effect granting +50% Atk speed while the passive is active and the changes to missile speed, this might be viable (maybe?). You can potentially get off 2 procs in a rotation with E+Q/R auto+W+Q+Auto and it definitely feels a lot smoother than before. The AH is also not wasted because of the lack of it this season. Requires testing.\n Shadowflame: Now that horizon is dead, shadow flame is actually the best damage item to rush 2nd and doesn’t have a useless passive anymore. Hurray!\n Zhonyas/Banshees: Buffed from last season. Stopwatch is still good on Annie and now enemy non-ap champions now can’t mitigate your burst. The extra AP is also a lot more useful than AH.\n Void/Rabadons: Still good items.\n ROA/Archangel: I heavily dislike building these items because it lacks agency in a mode where early-mid game is king. However, it’s still fine against enemy dive heavy/tanky/melee comps. Probably more viable now that liandries doesn’t give mana.\n Example builds:\n Stormsurge+Zhonyas+Void Staff/Shurelyas\n Stormsurge/Ludens+Shadowflame+Rabadons/Void\n Liandries+Mana Item+Cosmic/Rylais\n Annie Top: I would like to mention the viability of Annie Top after discovering it from Annie IRL. Conceptually, it makes perfect sense. Annie is champ that deals bazongas of damage in return for being lower range compared to other mages. In top lane, most of the matchups are melee, meaning you don’t have to deal with stuff like orianna and Syndra anymore. The ranged matchups are favourable too because they’re not long range mages. Your stun also prevents enemies from jumping on you ever unless they want to get chunked for 30% of their hp. Ironically, I play tested this in masters and it‘s a really good counter against Jax (Annie vs. Jax quest when?)\n Conclusion\n Annie as a champion promotes build diversity and different play styles for different elos and players. She also has various builds/runes depending on enemy comp/matchup and you shouldn’t be going one singular build every game,\n The decrease in AH in favour of AP affects Annie positively, increasing her burst potential for s14. However, you should still get some AH and with some builds (like Stormsurge Shadowflame) you get none at all. This means that Lucidity boots are a better option (sometimes) in s14.\n Movespeed inflation is great for Annie, especially at higher elos and against Annie’s biggest counter—range. As a reminder, your runes should always contain relentless hunter, mana flow, and celerity. Taste of blood is also much better than cheap shot if you know how to abuse your auto range (Although cheap shot is still better against long range matchups).\n Asides from the removal of protobelt, the season 14 is looking good for Annie players so have fun on the new rift :)\n ​\n ​\n ​\n ​\n ​\n ​\n ​\n ​\n ​\n ​\n ​\n ​",
+   "id": "1942u56",
+   "comments": [],
+   "age_days": 1002,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Annie guides?",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/ydrlm3/annie_guides/",
+   "published": "2022-10-26",
+   "author": "/u/Mingsyko",
+   "body": "i really like annie as the champion, but i dont really know her playstyle\n for me i just q to last hit but if the enemy laner esteps up i will poke them with q\n when i have 3 stacks i put e on myself then i walk up with ms and q aut w electrocute proc and walk away, i keep doing that untill they die or i can all in them with ignite and r.\n i go ludens/everfrost/liandries/crown depending on matchups, ludens most matchups everfrost if i need to lock down ppl, liandries against tanks, crown against assasins.\n for runes i go electrocute cheapshot eyeball collection ultimate hunter secondary i take absolute focus and gathering storm\n atm im havng trouble going against assasins like kali or bursty mages like vlad and sylas, idk what to do into them. \n *side question: is annie top into bruisers good?\n if anyone can help with with any helpful tips or guides on annie that would be great, thank you!",
+   "id": "ydrlm3",
+   "comments": [],
+   "age_days": 1444,
+   "recency_weight": 0.4,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "NA Rank 1 Annie Match-Up Tier List! Here's My Personal Opinion/Experience on Annie's Matchups",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/ubfeyl/na_rank_1_annie_matchup_tier_list_heres_my/",
+   "published": "2022-04-25",
+   "author": "/u/DeterminedDragon",
+   "body": "",
+   "id": "ubfeyl",
+   "comments": [],
+   "age_days": 1628,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Annie matchup tier list what is your take?",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/u33x35/annie_matchup_tier_list_what_is_your_take/",
+   "published": "2022-04-13",
+   "author": "/u/DankMagician2500",
+   "body": "",
+   "id": "u33x35",
+   "comments": [],
+   "age_days": 1640,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How to play against certain matchups",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/s8zalj/how_to_play_against_certain_matchups/",
+   "published": "2022-01-21",
+   "author": "/u/bombdownx",
+   "body": "Been an annie main for years and years and there are certain matchups that I still find impossible. I'll talk about one but this issues can be applied to multiple. I recently got shit on by an ahri (per usual) and I just have 0 idea how to exist in that lane. The poke is insane and hard to dodge, but beyond that I've found if I get hit by ONE charm post 6, she can 100-0. Any advice appreciated.",
+   "id": "s8zalj",
+   "comments": [],
+   "age_days": 1722,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Hi! Thoughts on Annie being a support?",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/r8nh0q/hi_thoughts_on_annie_being_a_support/",
+   "published": "2021-12-04",
+   "author": "/u/josellecalugay",
+   "body": "Started playing Annie, and I’m a support main but I never tried her as a support. Is it viable? If it is, do you think Annie as a support will be a good one? Or will it be very hard? \n Also, what matchups do you think will I win and lose? like when is it good to use her, etc.",
+   "id": "r8nh0q",
+   "comments": [],
+   "age_days": 1770,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "When to pick Annie",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/qiv54x/when_to_pick_annie/",
+   "published": "2021-10-30",
+   "author": "/u/jcheesee",
+   "body": "Hey. So, I'm not really an Annie main, I mostly play lissandra and ekko but I've been looking for another champ and Annie seems like a very good option. So far I've only played her as an answer to Yone, which has had awesome results (so far every match a victory with 11/2 kd) so I had a question. Into which champs you recommend picking Annie? And what matchups you would say are annoying/unplayable? Thanks in advance !",
+   "id": "qiv54x",
+   "comments": [],
+   "age_days": 1805,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I'm doing research on what other subreddits think of the midlane Lux matchup, what does r/AnnieMains think?",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/q6y88j/im_doing_research_on_what_other_subreddits_think/",
+   "published": "2021-10-12",
+   "author": "/u/ThexLoneWolf",
+   "body": "A few weeks ago, I saw some discussion regarding the Katarina matchup on r/Lux. I asked r/KatarinaMains their thoughts on the matchup just to compare, and this inspired me to ask other midlaner's subreddits their thoughts on the Lux matchup. So, what does r/AnnieMains think of this matchup?\n View Poll",
+   "id": "q6y88j",
+   "comments": [],
+   "age_days": 1823,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "matchups",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/pnrn7s/matchups/",
+   "published": "2021-09-14",
+   "author": "/u/ScaldingMango",
+   "body": "What are the good/bad matchups for annie? I feel like she's so short range to play into mages, and you can't really do anything versus stuff like galio/kassadin, and assassins feel fine to play against",
+   "id": "pnrn7s",
+   "comments": [],
+   "age_days": 1851,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Outplayed one of Annie hardest matchups and I'm very happy about it",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/pirejk/outplayed_one_of_annie_hardest_matchups_and_im/",
+   "published": "2021-09-06",
+   "author": "/u/Sdcrusader",
+   "body": "",
+   "id": "pirejk",
+   "comments": [],
+   "age_days": 1859,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Annie vs Viego matchup guide",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/oin0no/annie_vs_viego_matchup_guide/",
+   "published": "2021-07-12",
+   "author": "/u/HoityToityOce",
+   "body": "",
+   "id": "oin0no",
+   "comments": [],
+   "age_days": 1915,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "runes Annie Bot",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/nnxvq9/runes_annie_bot/",
+   "published": "2021-05-29",
+   "author": "/u/Ridkik142",
+   "body": "Hello. Recently I saw that Annie Bot takes a comet in any matchup. Whoever knows why? What is its advantage over the execution of electricity? And at the same time, he almost always farms near the tower and does not try to beat the enemy in order to use the comet.",
+   "id": "nnxvq9",
+   "comments": [],
+   "age_days": 1959,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Matchup",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/mzmz5p/matchup/",
+   "published": "2021-04-27",
+   "author": "/u/Ridkik142",
+   "body": "Hello. I recently switched to mid and play Annie, because I really want them. I used to play it, watched a replay of a person who has 1,500,000 points on annie and is in a challenge. From lvl 1 he played very aggressively and won almost any matchup. I don't remember his nickname anymore. It’s hard for me to stand up against ranged magicians. I want to know how you stand against magicians such as lux, niko, xerat? Sometimes I come across very good deluxe, niko, zerat, which literally prevent me from farming. Who is better to ban? I usually ban either Fizz or Zed, but I still prefer ban Fizz.",
+   "id": "mzmz5p",
+   "comments": [],
+   "age_days": 1991,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Dark harvest ?",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/mu2rcm/dark_harvest/",
+   "published": "2021-04-19",
+   "author": "/u/Simthesia",
+   "body": "So I've been one tricking annie for most of the season in ranked , have about 200k on her but I didnt really realise until I played a game against someone who did jt that people take dark harvest on annie. I tend to go electrocute as standard and sometimes comet if I find the matchup really difficult but never dark harvest. Just wanted to get people opinions on this and when it's a good option , I'm just curious to try !",
+   "id": "mu2rcm",
+   "comments": [],
+   "age_days": 1999,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Finally vs'd a pro player to get you an Annie vs Syndra matchup guide",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/mmrbvt/finally_vsd_a_pro_player_to_get_you_an_annie_vs/",
+   "published": "2021-04-08",
+   "author": "/u/HoityToityOce",
+   "body": "",
+   "id": "mmrbvt",
+   "comments": [],
+   "age_days": 2010,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Annie High Elo (D1+) Annie mains here?",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/mhzyrj/annie_high_elo_d1_annie_mains_here/",
+   "published": "2021-04-01",
+   "author": "/u/ggrengar",
+   "body": "Hi, I posted a few months back how I hit d4 with 60% winrate with only annie, I'm D2 56% now which was my actual goal for the season. \n But since I hit it this early in the season, I wish to go for Masters and for that I still have a few unanswered questions about Annie. Certain matchups etc. \n Any high Elo Annie here I can shoot questions at?",
+   "id": "mhzyrj",
+   "comments": [],
+   "age_days": 2017,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Anivia matchup",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/m02vhi/anivia_matchup/",
+   "published": "2021-03-07",
+   "author": "/u/luzvn",
+   "body": "Hey, so normally I ban galio but recently I’ve been playing against lots of anivia and I’ve done terrible in lane every time. What am I missing when playing against anivia? Every time she lands her stun, almost half of my health is lost. She’s difficult to land my stun but she can lock me in lane and bully me. I’m banning her right now but I would like to know how to play against her. Thanks!",
+   "id": "m02vhi",
+   "comments": [],
+   "age_days": 2042,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I'm new on Annie and I'm peaking higher than ever with little effort. I still have some questions though.",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/luya2k/im_new_on_annie_and_im_peaking_higher_than_ever/",
+   "published": "2021-03-01",
+   "author": "/u/ggrengar",
+   "body": "Hello! I'm new on Annie (Started playing her around one and a half weeks ago) and on my main I was stuck in Plat4 playing top.\n Now I started playing Annie on my smurf and you can see the result of that in the picture attached. \n Now here are some few questions to high rank/ experienced Annie players:\n - Why does Annie Bot take comet only? And when does it make sense?\n - Why does Annie Bot skill E late? I've seen him skill it Lv 7 or a bit earlier but never on Lv2 - Lv3 whereas I think it's a great tool to disengage early on, catch the enemy offguard with a shield or just prevent otherwise fatal mistakes with your movespeed (when you can't get in range to the enemy with W) \n - Is Mejais not always (except for really hard lost-need-to-make-a-good-play-or-we-lose-matches) a must-have due to her being able to shield allies and gaining a lot of reliable stacks and movespeed? \n - When and why do you build Seraphs, I get it has a ton of AP and tear can be decent for early game, but is a little bonus AP really worth the slot of a decent utility item or an early rabadon?\n - Are Lucidity boots ever a good decision? \n - What's your guys' experience with Predator and when do you take it (I always take it on a matchup like cassio I can never win so I just try to get the team ahead, are there other good scenarios?)\n - What do you ban? (I always make sure Kassadin is banned and try to get Udyr out of there too)\n - Do you ever run out of inventory space because of Dark Seal? And if yes- how do you spend your gold efficiently without sitting on a lot of gold?\n I might add more later or remove the answered questions but thank you for your assistance. It's rare but I'm actually having so much fun playing at the moment so I would love to keep improving. \n https://preview.redd.it/ii19iqyiybk61.png?width=1026&format=png&auto=webp&s=0e0c196ecbc32f8db20db124a894a601f56771c5",
+   "id": "luya2k",
+   "comments": [],
+   "age_days": 2048,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Where to find indepth all matchup guide?",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/lk15vz/where_to_find_indepth_all_matchup_guide/",
+   "published": "2021-02-15",
+   "author": "/u/Cermyak",
+   "body": "I have literally no idea what to do in some matchups. Also how do you play rare matchups, like vs Trynda or Yi mid?",
+   "id": "lk15vz",
+   "comments": [],
+   "age_days": 2062,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Challenger Annie vs Coach Curtis Viktor | Matchup Guide",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/l2re0x/challenger_annie_vs_coach_curtis_viktor_matchup/",
+   "published": "2021-01-22",
+   "author": "/u/HoityToityOce",
+   "body": "",
+   "id": "l2re0x",
+   "comments": [],
+   "age_days": 2086,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How do you play against yasuo and yone?",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/kzzeud/how_do_you_play_against_yasuo_and_yone/",
+   "published": "2021-01-18",
+   "author": "/u/soularac",
+   "body": "The problem here is, I feel really powerless against them, I know it should be an easy matchup but since they have shield + 0 mana skills all trades seem lost since I'm wasting mana and they waste nothing. So here's the question, do you rush some armor like Seeker's Armguard? Use different runes?\n Just farm and wait for ganks? What do you do against them?",
+   "id": "kzzeud",
+   "comments": [],
+   "age_days": 2090,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Anivia matchup",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/kv8jip/anivia_matchup/",
+   "published": "2021-01-11",
+   "author": "/u/BigFeeder",
+   "body": "Hello,\n I'm curious how you guys play this matchup\n I hard win pre 6, I might not kill her but have lane prio all the time and get ahead in cs\n I just don't know how to deal with her after 6\n I have no chance against her waveclear, her passive works really well against my all in\n the only thing i managed to think of is roam after 6 a lot and get other lanes ahead,but that doesnt always work because from that i get behind slowly and she takes the tower, even if i get herald with jungler\n how do you guys play this?",
+   "id": "kv8jip",
+   "comments": [],
+   "age_days": 2097,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How should I play annie?",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/kpy21r/how_should_i_play_annie/",
+   "published": "2021-01-04",
+   "author": "/u/Filippo295",
+   "body": "I know that this could sound as a joke since she is extremely easy, but i am a new player, so please can you help me?\n First of all in lane i should stun with my Q and follow up with W right?\n Then in lane i simply keep the distance and if the enemy comes close to me i use the shield or stun them\n In teamfights she can stun a single target with her Q or multiple targets with her W. If she has her bear though, she places it (shielded) right on top of the enemy team and stuns with him\n If she wants to save/help an ally, she can shield them\n Btw does she roam?\n This is what i know about her. Is there something more? (Apart from matchups, decision making... i mean about her kit, is there something more to know?)\n One last question: how does she combines her abilities? I mean is there a specific order or simply she uses them singularly according to the situation and she only chains them (spams them) when she stuns?",
+   "id": "kpy21r",
+   "comments": [],
+   "age_days": 2104,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Fizz matchup",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/kj2clc/fizz_matchup/",
+   "published": "2020-12-23",
+   "author": "/u/Panda2813",
+   "body": "How do i fry the fish?",
+   "id": "kj2clc",
+   "comments": [],
+   "age_days": 2116,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "It's time to make the guide to end all guides.",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/jxypbg/its_time_to_make_the_guide_to_end_all_guides/",
+   "published": "2020-11-20",
+   "author": "/u/GlowingOctopus",
+   "body": "With completely new items, chaos has taken over the rift. In my quest to bring some order back to Runeterra, I am committing myself to a project I will come to regret. I am making a matchup guide for Annie. But not just any guide.\n This guide will strive to be the most complete, exhaustive guide the league community has ever seen. For EVERY champion matchup, it will have:\n Runes\n Items\n Difficulty Ratings\n Different info if a champ is played in two lanes\n Explanations for everything\n Gameplay videos\n (maybe other things if i think of them)\n It will also be updated every patch so it stays relevant.\n It's gonna all be done in google sheets, and here's the link:\n https://docs.google.com/spreadsheets/d/1QePDLcRmHzc70XczSoO0A1qE9EUiFZyyEzmzdfNzZHU/edit?usp=sharing\n Comments are enabled on the google sheet, so everyone can contribute, and I'll make sure I read everything and fix any bad judgments I make.\n I will be streaming the whole process, if you wanna join in and help me out live:\n https://www.twitch.tv/glowing_octopus\n ​\n ​\n ​\n ​\n This might take a while...",
+   "id": "jxypbg",
+   "comments": [],
+   "age_days": 2149,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "What are Annie's worst matchups?",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/jo5dcs/what_are_annies_worst_matchups/",
+   "published": "2020-11-04",
+   "author": "/u/NotTheTrueKing",
+   "body": "Hey all,\n I'm a support main who occasionally played Lux and Syndra mid, but after realizing that playing a long range champ like Lux means I basically haven't got a clue what I'm doing (and also because I can't CS), I've decided to pick up Annie. So far I'm only a few games in, but she feels pretty strong against assassins which typically blow up Lux, but I had a game against Ahri where the slight range disadvantage felt noticeable. What are Annie's worst matchups currently (e.g. who should I look to ban)?",
+   "id": "jo5dcs",
+   "comments": [],
+   "age_days": 2165,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Best Annie (leagueofgraphs not actually though) tips/thoughts on new E",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/jk7k5o/best_annie_leagueofgraphs_not_actually_though/",
+   "published": "2020-10-29",
+   "author": "/u/HoityToityOce",
+   "body": "Hi,\n Just thought I'd give some thoughts on the new E with no particular organisation. Just some dot points that I hope might help.\n E being a shield instead of Damage reduction assists in taking poke but not as much against bursts champs (or even champs that proc electrocute.\n With one of Annie support's weaknesses being taking poke, this shield helps immensely in support Annie but hurts mid Annie against certain matchups.\n Hurt matchups may include: Zed, Sylas, Syndra\n Matchups new E may help in: Orianna, Kassadin, Xerath (but not enough for her to have a good matchup, it does help though)\n the mana increase from 20 to 40 hurts immensely. Especially for Rylais/Liandries builds or low mana builds. Stack management and roaming will effect her already poor mana pool\n E can now be used to bait (for tower dives etc) as damage reduction does not do much when you're already extremely low on HP, shield allows bait opportunities\n E procs ardent now, but this doesn't make it a good item. May as well play ardent support if you want to play this style.\n E allies for quick assists if you can't make it to the fight yourself. This includes E'ing allies like Shen/Nocturne or even your adc's who are going for snipes. Annie can pick up assists more easily now. \n Mouse accuracy is more important now, as E'ing the ground will E yourself which is both good and bad. Good for stack management, Bad for clutch shields.\n Gl on the rift all.",
+   "id": "jk7k5o",
+   "comments": [],
+   "age_days": 2171,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Hi guys, newish to ranked looking to learn fundamentals on Annie",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/jd5upu/hi_guys_newish_to_ranked_looking_to_learn/",
+   "published": "2020-10-17",
+   "author": "/u/jerrythebob",
+   "body": "So I've been playing league for almost a year, and ranked for 2 months. Made it into Silver playing only azir, but with the state of the champ, and the realisation that fundamentals >>>> mechanics I've switched over to Annie to main.\n Could you guys show me the ways to approach different matchups and wave management vs different classes? I've always struggled against short cd control mages like ori and syndra so advice against them in particular? Vs assassins how long to hold onto stun? Indefinitely until they use abilities and cs with aa til then?\n I realise how much info I'm asking for, but any small pointers would be great! Cheers",
+   "id": "jd5upu",
+   "comments": [],
+   "age_days": 2183,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "How do you play the Talon matchup?",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/hlmzpr/how_do_you_play_the_talon_matchup/",
+   "published": "2020-07-05",
+   "author": "/u/Fed_Express",
+   "body": "My main difficulties are:\n 1). His waveclear for an assassin feels unfair. He already has so much damage and one shot potential but after his first buy with Tiamat, he just Ws the wave, presses his item active and I'm stuck fighting with several minions while he has all the priority instantly.\n 2). His roaming potential. After hard shoving every wave he just dissapears off the map and with mobies he can be top, mid or in our jungle in a few seconds it's actually impossible to control him as Annie early-mid game. I haven't been flamed or pinged yet but it's only a matter of time before a ragey bot lane duo decides to start flaming because I couldn't match the mobies Talon who one shot them.\n I just have no idea how to contain this champ when I struggle so much with waveclear and mana (spam a few extra skills early game and the mana is gone). The guy runs circles around the map while I'm fighting a cannon minion mid. \n Does anyone have any experience in this lane? Thanks.",
+   "id": "hlmzpr",
+   "comments": [],
+   "age_days": 2287,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "What are annies easiest and hardest matchups in lane?",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/h7r5c8/what_are_annies_easiest_and_hardest_matchups_in/",
+   "published": "2020-06-12",
+   "author": "/u/iownredditlol",
+   "body": "So far just from playing annie I have found vladimir really easy to play against, Diana really hard to play against and kassadin. So i just ban kass every game.",
+   "id": "h7r5c8",
+   "comments": [],
+   "age_days": 2310,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "New Matchup Spreadsheet From CuteMAU",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/h0vhxx/new_matchup_spreadsheet_from_cutemau/",
+   "published": "2020-06-11",
+   "author": "/u/Aphrobot",
+   "body": "",
+   "id": "h0vhxx",
+   "comments": [],
+   "age_days": 2311,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Diamond Annie doing coaching and streaming games. Come learn how I play certain matchups and games!",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/gmb61a/diamond_annie_doing_coaching_and_streaming_games/",
+   "published": "2020-05-18",
+   "author": "/u/Paperbagfham",
+   "body": "",
+   "id": "gmb61a",
+   "comments": [],
+   "age_days": 2335,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Want to main Annie, any tips?",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/getfy5/want_to_main_annie_any_tips/",
+   "published": "2020-05-06",
+   "author": "/u/Kyle_Bugden",
+   "body": "So I've been maining LeBlanc for a while now, but I've recently gotten bored of her. I thought Annie would be a cool champ to play.\n I've looked into builds and runes and stuff but I want advice from people that have experience and can give me good examples of matchups etc.\n What runes should I take and when?\n What are good core items for Annie and how should I build her into the late game?\n Does she scale well?\n Any tips and tricks would be appreciated, thx.",
+   "id": "getfy5",
+   "comments": [],
+   "age_days": 2347,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Challenger Annie vs Azir Matchup Guide",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/g4m12u/challenger_annie_vs_azir_matchup_guide/",
+   "published": "2020-04-20",
+   "author": "/u/HoityToityOce",
+   "body": "",
+   "id": "g4m12u",
+   "comments": [],
+   "age_days": 2363,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Annie vs Malzahar - matchup guide - Commentary video (diamond Smurf) - Rank 1 Annie World",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/fggyq0/annie_vs_malzahar_matchup_guide_commentary_video/",
+   "published": "2020-03-10",
+   "author": "/u/HoityToityOce",
+   "body": "",
+   "id": "fggyq0",
+   "comments": [],
+   "age_days": 2404,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I will be doing an educational Annie stream tomorrow on twitch!",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/f13kp7/i_will_be_doing_an_educational_annie_stream/",
+   "published": "2020-02-09",
+   "author": "/u/2-shfty",
+   "body": "Hey guys, I've been seeing a lot of people who are new to the champ or also new to the game asking questions on this subreddit, and I have given a lot of people answers that have helped me climb with her. SO I decided that I want to do an informational Annie stream testing all the builds that you guys see and run into all sorts of matchups that you guys might have questions about. No I am not a challenger Annie who is perfect at the game, but I peaked at gold 1 last season with about a 60% winrate on Annie with 280k points and can give you guys a realistic look at what low-mid elo players do against her and how to work against it! \n My stream is https://www.twitch.tv/tooshfty and ill be streaming Sunday, 2/9 at 1pm PST, feel free to join, ask questions, i would love to help anyone out!",
+   "id": "f13kp7",
+   "comments": [],
+   "age_days": 2434,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "I hit the highest amount of games played this season in EUW at 736 games and counting!!",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/drumeu/i_hit_the_highest_amount_of_games_played_this/",
+   "published": "2019-11-05",
+   "author": "/u/Carrotp02",
+   "body": "Annie games*\n With the season coming to a end in a few days-\n I have hit my peak of D2 this season in solo Q and i hit grandmasters in Flex Q primarily playing Annie. I also hit 1 million mastery points on Annie this season and I'm currently at 1.1 million mastery points! I started playing league in season 7 as well as Annie!\n I'm also happy to answer any questions about Annie from my experience of playing her this season from anything such as matchups to general tips (primarily mid/top lane Annie is my specialty)!\n ty OP.GG link - https://euw.op.gg/summoner/userName=TSU%20Tibbers \n ​\n TSU Tibbers\n ​\n OP.GG top played Annie EUW",
+   "id": "drumeu",
+   "comments": [],
+   "age_days": 2530,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "quick annie support guide in case anyone is interested",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/c5h4im/quick_annie_support_guide_in_case_anyone_is/",
+   "published": "2019-06-25",
+   "author": "/u/kjaat",
+   "body": "my op.gg if you don't want to read the whole guide: https://na.op.gg/summoner/userName=cam%C3%A9l%C3%A9on+curieux \n ​\n runes:\n electrocute - predator is bad because part of your job is protecting your adc and you won't have time to pop predator to get the extra damage if your adc gets engaged on, also makes your weak laning even worse\n cheap shot - tiny bit of extra damage but still better then the other options\n eyeball collection - free ap is always nice\n relentless hunter - movement speed is necessary for engaging without flash and roaming\n absolute focus - more ap\n gathering storm - even more ap\n ​\n core build:\n spellthief's edge + 2 potions - standard start, ancient coin + 2 potions may be justified against double poke lanes in higher elo where you will be punished for your lack of range and they have good positioning preventing you from just walking up and stunning them pre-6 (example: ezreal + sona). In these lanes, the loss of damage from going ancient coin will likely not matter as those champs are extremely squishy.\n first back - 300 gold = boots, 450 gold = frostfang, buy a pink ward if you have 75 gold left over\n second back - 800 gold + boots = sorcerer shoes if your team has engage or the other team is playing relatively immobile champions or if you are behind and need the extra damage. 600 gold + boots = mobi boots if you are quite ahead and got the kills instead of your adc, or if your team has no engage\n 1st core item: spellbinder - best stats for the money, don't forget to use the active right before you go in, can also help you run away\n 2nd core item: usually void staff - if the other team begins buying mr, you should get a void staff as your second item or if you have mobi boots because the % penetration represents a bigger damage increase on opponents with low mr without the flat pen from sorc shoes morellonomicon - if they have champions with significant healing (ex: soraka, vladimir, etc.)\n banshee's veil - if they have ap threats that are capable of one-shotting you (ex: leblanc, ap shyv) or a fed mage that you must focus but has skills that prevent you from walking up to them and ulting (ex: orianna, xerath)\n zhonya's hourglass - if they have ad threats that are capable of one-shotting you without you being able to react, assassins and bruisers (ex: zed, talon, vi)\n \n 3rd core item: rabadon's deathcap - massive damage increase once you get to this point in the game\n example full build: sorc shoes, spellbinder, void staff, rabadon's deathcap, zhonya's hourglass, eye of the watchers\n laning and matchups:\n annie is one of the weakest laners as a support, your job is mainly to focus on not dying so you don't fall behind and become unable to leverage your strong level 6 as well as ensuring that your adc stays alive (like every support)\n annie loses lane to pretty much every poke support if they leverage their range. the worst adcs to play against are: sivir, xayah, caitlyn, and ezreal. other adcs are ok to play against and your easiest support matchups are: thresh, janna, lulu, bard, and taric\n although you have 625 auto attack range, your auto attack animation takes so long that people can often trade back, so use your judgement when going for autos\n start w and charge 3 stacks in the fountain, that way you can use one w to push the wave and try and get level 2 first. with stun up, your level 2 is fairly strong and if the enemy laners are squishy and you manage to get a some poke damage from autos at level 1 or your adc pokes them, you can usually get a kill by w-flashing at level 2 if they are lower than 60% hp\n do not play up without your stun, as it is the only way that you can win a trade. don't be afraid to q a minion if you have alot of mana left and need to charge your stun, you will usually have plenty of mana in lane if the enemy lane doesn't run at you and let you cast your spells\n against hook champions, stand behind the minions (duh) and go for a q when they try to walk around minions to hook. if they don't proc their aftershock they are actually fairly squishy\n against engage champions with aftershock such as leona and alistar, walk past them and stun their adc after they use their cc on your adc. if you stun them you will do no damage and they will have already used their cc, which will cause you to lose the trade severely.\n against poke champions, all you can do is try to dodge and avoid getting forced out of lane. once you make it to level 6, you can flash in for a kill.\n mid-late game\n once you have your boots, you can look to roam, especially if you have your flash up. if they have an immobile mid laner, trying to gank is always worth a shot, and if you notice that your top laner is pushed up after you recall, you can lane gank by walking into the bush.\n your best shot at landing game-changing flash ults is around neutral objectives. use your sweeper to clear out vision and then sit in a bush that people would not expect you to stand in while your team pressures the objective. for example, if your team is taking baron, clear out all the bushes in the river, but stand in the bush next to the pixel bush instead of in the pixel bush where people will expect you to be.\n look for multiple people stacked on each other to flash ult, otherwise flash ult one of their carries. if you waste too much time looking for a good ult, your team may have already lost the fight, so it is important to make a decision quickly.\n playing around avoidance\n bind flash to your spacebar so that you can use your thumb to press flash and then use your index finger to press r. this is much faster than using your index finger to press flash and r. you can move the key to center the screen onto d or f (whichever your flash was on).\n against champions that can become untargetable (ex: master yi, fizz, vladimir, camille) use your q when they engage on your team, if they use their untargetable move to dodge your q, your stun is not consumed. once they reappear, ult them.\n against champions with temporary ways to block your stun (ex. sivir, fiora) only stack your stun up to 3 stacks and q them. once your q is about to collide with them, if they have not blocked your skill, press e and it will stun them. if they block your q, then ult them.\n against morgana: in lane, you can keep 3 stacks up and do the same trick i just mentioned, and later in the game use your flash unexpectedly or wait for her to use the shield.\n against champions with dashes or you are just running straight at someone that has flash up and it is obvious that your are going to ult them: use your movement speed to your advantage and get into q range to q instead so that you don't waste your ult, as some players will try to time the moment that you ult.\n ​\n hopefully this guide was helpful and i hope to see more of you guys out there trying annie as a support :p",
+   "id": "c5h4im",
+   "comments": [],
+   "age_days": 2663,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How do you play against ranged lane bullies?",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/c19xlf/how_do_you_play_against_ranged_lane_bullies/",
+   "published": "2019-06-16",
+   "author": "/u/Yonatann1",
+   "body": "When I say this, I mean AP lane bullies like xerath and xerath. Im curious on how others deal with the challenge, and want to see if there are other/better alternatives to beating lane bullies. currently I'll build negatron cloak in most matchup where the enemy has alot of AP poke or burst (such as fizz) it does it's job but I dont really build anything (although it typically gives me a lead). I build it because it's a cheap item and very effective. I then go on to build proto ext. I take comet (which might be the problem) to pretty much every lane because of the effective harass you get from it.",
+   "id": "c19xlf",
+   "comments": [],
+   "age_days": 2672,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "the note updates to the cutemau runepage are pretty funny",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/bpiybw/the_note_updates_to_the_cutemau_runepage_are/",
+   "published": "2019-05-16",
+   "author": "/u/9th_Planet_Pluto",
+   "body": "On Heimerdinger: \n \"If Annie uses AA on his turret, He gets angry and approaches. Then you can feed the big fuck to the guy who comes up.\"\n Anivia:\n \"You believe strongly in boots and 4pot. 1lv ~ 5lv Push the lane strongly. She can not farm in front of the tower.\"\n I'm a bit confused by some of them though.\n On Heimerdinger, does he mean AA turret, taunt heimer, and ult him? \n Irelia, \"Never give her an E-skill distance from 1lv to 2lv. He will inevitably push the lane to fill the passive. You start fighting when you get help from the tower.\" Does \"get help from the tower\" mean the turret, or your jungler?\n Karma, \"W skill's Master\", max W first? But he says \"only farm = win\" so I'm assuming Karma shoves in and you just w wave? Or do you shove wave with w? (I haven't played vs karma yet so dunno how the matchup goes).\n Kassadin, \"Do not desire to beat him from the beginning. First push the lane and torment him in front of the tower\" But aren't I supposed to \"beat\" him from the beginning by shoving him under turret and harassing? Because I sure as hell ain't winning after 6\n The only other problem I had with was veigar. He says to push wave hard and you can create a cs gap, but in a game I was playing, the enemy veigar was shoving the wave back to me (and actually beating me). I wasn't sure how to deal with that. Getting hit by one e+wq or simply a few qs would put me in lethal for him, and I wasn't able to shove him in.",
+   "id": "bpiybw",
+   "comments": [],
+   "age_days": 2703,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Question for Annie (top lane) players",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/b96vfx/question_for_annie_top_lane_players/",
+   "published": "2019-04-04",
+   "author": "/u/talonking22",
+   "body": "Hello my fellow annie mains. I tried playing Annie recently in top lane (I play her mostly in mid and support).\n So the thing is..I really play her bad in top, while in other lanes i play her much better, because i have problems in top, maybe you guys can help me overcome them.\n 1) First of all i can't harass enough early game this is mainly due to: A- Run out of mana quickly, most top lane champions are tanky and have good sustain, so it forces me to back a lot and lose cs.. B- It will make the wave push and make me easy gank. How do you harass effectively in top lane?\n 2) How do you deal with players who freeze waves? So in top lane if the enemy decides he can freeze and he freezes the wave well, how do you deal with that? Obviously you cant go and cs because you will either get chased if the enemy is good on items, or get ganked, both will result in you dying. So how do i deal with that as an immobile champion with low damage early game and no escape?\n 3) Which rune do you take? I take Dark Harvest or Comet..because its hard to roam from top so i dont take predator and electrocute is not that good against most top champions.\n 4) So because of mana issues i rush Lost Chapter, after this i can attack better but still do you have any idea for itemization? \n 5) Annie top can win easy if your jungler camps for you, after all you have nice CC and damage to kill with him, but IF your jungler ignores your lane for some reason (which in my case happens a lot) How do i play? and how do i play that lane from behind if i got killed like once or twice?\n 6) What are hard and easy matchups for top lane?\n 7) Last one...How do you lane generally in top lane? I dont like top lane its mostly a jungler/top lane and i dont have jungler with me most of the time! so i play passive, i stay near my turret and cs, but even then i tend to lose the turret more than often. So how can i improve my lanning in top? or should i just play another champ in top like Teemo or Quinn who can escape ganks easier and poke easier? Should i keep Annie just for mid and support? \n Any help will be appreciated! :) Thanks.",
+   "id": "b96vfx",
+   "comments": [],
+   "age_days": 2745,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Weekly Matchup Discussion - Sylas",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/b55rlz/weekly_matchup_discussion_sylas/",
+   "published": "2019-03-25",
+   "author": "/u/GlowingOctopus",
+   "body": "With Riot's newest champion seeing plenty of success across Summoner's Rift, he seemed like an appropriate champ to kick things off with.\n ​\n Sylas is generally played in either Mid or Top, and is an AP bruiser. He has a lot of early damage and mobility, as well as decent wave clear. His ultimate is what makes him so different from playing against most champions. He steals one of your ally's ultimates and uses it as his own. This means you must constantly adapt to what tools he has at his disposal.\n ​\n Some Quick Stats (data from op.gg)\n Sylas's winrate is almost 54% pre 25 mins, so try and respect his early pressure.\n His lane kill rate into Annie is sitting at 63%, respect his early damage and you'll scale better in most cases.\n He is currently sitting at a 50% ban rate, with a 7% play rate, so expect to play against him every 14 or 15 games.\n He is ranked as a tier 1 midlaner and toplaner (scary)\n He has a 54% win rate into Annie, making him one of her strongest counters at the moment, so watch out!\n ​\n Pros\n Farming with AAs makes it very hard for him to get in range to cc chain you (no pun intended) and kill you.\n Annie's reliable CC makes it easy to lock him down and focus him in team fights.\n Sylas's ult (using Tibbers) is significantly less useful on him than on you, since it cannot stun.\n ​\n Cons\n Sylas is a very sticky champion, with a double dash on his E, which makes it easy for him to get in range of you, especially if your stun isn't up.\n If he build rylais and/or liandrais, it turns Tibbers into an absolute unit, making your ult work really well with him.\n He has a deceptively large heal, facilitating tower dives or baiting you into situations where he was low health.\n Depending on the other champions on your team, he can sometimes capitalise off of VERY strong ultimates (Malphite, Neeko, Karthus, etc) and win the game though good use of them.\n ​\n All in all, Sylas is both a very strong champion and does well into Annie, while also having a high play rate, making him probably worthy of a ban if you don't currently prioritise other champs. However, many people are complaining about his heal and his damage, so we can probably expect him to be nerfed within a few patches.\n ​\n If you have any tips or tricks, or any other information, regarding this matchup, feel free to share it in the comments.\n ​\n Good luck to everyone on Summoner's Rift!\n ​\n ​\n ​",
+   "id": "b55rlz",
+   "comments": [],
+   "age_days": 2755,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Weekly Matchup Discussion.",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/b3futb/weekly_matchup_discussion/",
+   "published": "2019-03-20",
+   "author": "/u/GlowingOctopus",
+   "body": "As many of you know, many other main subs do weekly matchup discussions. Definitely seems like a good idea to me. Happy to post and pin weekly matchup discussions if there's interest? Let me know if that sounds like something that you guys would like!",
+   "id": "b3futb",
+   "comments": [],
+   "age_days": 2760,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Worst matchups for annie?",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/aveqtt/worst_matchups_for_annie/",
+   "published": "2019-02-27",
+   "author": "/u/Maxium_Player",
+   "body": "",
+   "id": "aveqtt",
+   "comments": [],
+   "age_days": 2781,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "I took a break from Annie.",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/a0l790/i_took_a_break_from_annie/",
+   "published": "2018-11-26",
+   "author": "/u/GlowingOctopus",
+   "body": "I was a pretty hardcore Annie main. I had about 650k mastery at the time, with the only other notable champion being Malz at 60k. Other than them, I had no other champion even up to level 4. It contributed to over 90% of my played games were on Annie.\n I started messing about with other roles and champions one day, mainly just the champs that I thought were fun. It started off with some Ivern jungle/support, into some fiddle in those roles,some MF adc and then some malphite jungle/top, then most recently into some Heimer adc.\n I had a good time, I fed a shit ton, I have a ranked wr of about 25% on Ivern (rito plz buff). It was a good time. But I also learnt something very important. \n Annie is suggested by a lot of people as a great champion to learn how to play the game. Her immobility coupled with her short range make positioning, vision and map awareness key elements of her gameplay. If you are caught even slightly out of position you pretty much immediately die more often than not. So because of this, combined with her simple kit and one shot potential, makes her a great pick to learn the game.\n That being said, it is still important to learn the game from all perspectives. If you confine yourself to one champion and a couple roles, it will be difficult to truly learn the game as a whole. \n My point is that while I’m now back to insta-locking Annie every game regardless of role, the last couple months playing other champions has greatly improved my overall gameplay of Annie. I now understand jungling more and therefore am more predictive of the enemy’s gank times and more proactive in helping my jungler around scuttle and invades. I’m more aware of botlane matchups, and can make more informed decisions on when to roam down. I better understand where certain champions powers lie, and now better play around their strengths. The list goes on.\n For anyone else out there who really does only play Annie. Kudos! She really is an awesome champion. But on the same token, I recommend just playing a few games of some other champions, play an actual support in the support role, play 5 games of jungle, and hopefully you’ll feel the difference in your gameplay.\n Thanks guys! Gl hf",
+   "id": "a0l790",
+   "comments": [],
+   "age_days": 2874,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup"
+   ],
+   "stale_items": false
+  },
+  {
+   "title": "Made it to diamond using only annie.",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/9wjign/made_it_to_diamond_using_only_annie/",
+   "published": "2018-11-12",
+   "author": "/u/teoreds",
+   "body": "I know it’s not a big achievement and that it’s still considered low elo but I’m really proud of myself and if someone on this subreddit is stuck in gold/plat feel free to ask me anything, I would love to give some advice.\n Worst matchup so far: Ryze (no matter how perfectly I play the early and midgame, I still can’t figure out how to avoid getting destroyed in fights by ryze after minute 25)\n Most challenging matchup: Irelia/Aatrox (I really like playing against these 2 champs because it’s really rewarding)\n Easiest matchup: Leblanc (I was really scared of this one, but after getting more confident on leblanc as a champion I learnt her weaknesses and understood that annie was a hard counter in many ways.)\n Favorite keystone: comet.\n op.gg: http://euw.op.gg/summoner/userName=p1+99lp",
+   "id": "9wjign",
+   "comments": [],
+   "age_days": 2888,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Summary of Cute Mau's Runes Video",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/9o3tfu/summary_of_cute_maus_runes_video/",
+   "published": "2018-10-14",
+   "author": "/u/Ruckus418",
+   "body": "I am quite new to Annie so I thought this video was interesting but wanted to store the info in an easier to look over format. Please reply with corrections if it looks like I misinterpreted something from the subtitles. \n Edit: link to vid https://youtu.be/HYHgOdejDbE\n Suggested runes to go with each keystone Arcane Comet: Manaflow band, Absolute Focus, Scorch Predator: Taste of Blood, Eyeball Collection, Relentless Hunter Electrocute: Taste of Blood, Eyeball Collection, Relentless Hunter Grasp: Bone Plating, Chrysalis, Overgrowth General use case / Beginner: Arcane Comet Dematerializer, Cosmic Insight vs Irelia or Zed: Arcane comet Bone Plating, Chrysalis vs Yasuo, Jayce, Aatrox (other AD): Arcane Comet Dematerializer, Cosmic Insight vs Lulu: Arcane Comet Dematerializer, Time Warp Tonic (corrupting pot start) Vs matchups you'll want to wait till 6 to go in also for heavy roaming talon, so you can counter roam Talon, TF, Aurelion Sol, Orianna, Anivia, Ahri, Xerath, Cassiopeia, Ziggs, Lux, Lissandra, Karthus, Azir, Brand: Predator Celerity, Scorch vs heavy poking champs like Lux, Xerath, Orianna, Anivia: Predator (replace taste of blood with cheap shot) Dematerializer, Cosmic Insight (start boots + pots) vs Ekko, Fizz, Vlad (AP assassins): (this is to burst enough damage to kill them before they use their escape) Electrocute Manaflow Band, Scorch vs LeBlanc: Electrocute Bone Plating, Chrysalis Vs Kassadin: (this allows you to ignore his spheres level 1-3 and push him and poke him under tower) Grasp Dematerializer, Time Warp Tonic (corrupting pot start) ​",
+   "id": "9o3tfu",
+   "comments": [],
+   "age_days": 2917,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "Build: Kannagi Yuuri D1 KR 70% win rate 3.6 kda",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/91w9vc/build_kannagi_yuuri_d1_kr_70_win_rate_36_kda/",
+   "published": "2018-07-25",
+   "author": "/u/sakamoe",
+   "body": "Just wanted to share the somewhat unusual (and very consistent) build of a high-elo one-trick that I stumbled upon! His overall Annie winrate is 72% with 189 games (137W-52L) which is obscenely high and a 3.60 KDA (8.3/3.9/5.8). He's 34W-16L (68%) in his recent games which were all mid diamond or higher.\n OPGG: http://www.op.gg/summoner/userName=Kannagi%20Yuuri\n Runes: https://i.imgur.com/gzGqTub.png\n Aery + Manaflow Band + Absolute Focus + Scorch\n Hextech Flash + Minion Dematerializer\n Doesn't seem to change runes depending on matchup. I checked like 15 or so different games and they all had the same runes.\n Summoners: Almost always Flash+Ignite\n Skill order: QWQW -> W max / Q second -> E at level 5/7/8. Feels like he takes E earlier against high burst champs but frequently delays it as late as level 8 in slower matchups.\n Start: Doran's + 2 pots\n Item build: He builds very consistently - in all but one of his last 50+ Annie games he's built the same things with only slight variations in order. Only built Raba in one game and no Luden's Echo at all.\n First back: Generally Dark Seal + Amplifying Tome + Boots. He seems to usually go for a kill around 4-5 min and backs afterwards to buy.\n Core: Sorc Boots + Protobelt. Sometimes even gets Sorc Boots first back instead of Seal + Tome.\n End: After core, he often goes for Liandry's, Morello, or Zhonya depending on the matchup. Void usually comes after whichever of those he gets first, and then he buys the other two. Last slot is flex.\n Anyways, it seems to be successful in high diamond Korea so it should work everywhere else haha. I'm most curious about who this guy is, since it seems to be a smurf (Silver 2 -> Plat 2 in a week & no Annie games last season) but I don't know of any other Annie mains who can maintain those winrates into D1 (Cute MAU for example is currently playing against similar elo with worse performance). The build seems consistent enough that it doesn't feel like a Challenger trying to see how far they can get with just Annie. Maybe a high-elo Chinese player? They're harder to look up X_X\n Edit:\n Thanks to /u/nopostingonredditxyz for the link to a Youtube vid of the guy! https://youtu.be/trQTCkrXUKM\n Found some vods based on the name there: https://space.bilibili.com/251495498/",
+   "id": "91w9vc",
+   "comments": [],
+   "age_days": 2998,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "MOBI ANNIE ! a Plat Guide for Annie ^^ for those looking for an alternate playstyle ! ( MIDLANE )",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/7u2zdr/mobi_annie_a_plat_guide_for_annie_for_those/",
+   "published": "2018-01-30",
+   "author": "/u/Rash_x",
+   "body": "Do u want to climb ? Do not play annie with classic builds. She is slow, has no dash, no utility (except 4 rota stun ). There is much better team fighting mages with dash or utility. \n But if u really want to climb with Annie you could use her massive damage output to help ur lanes, get urself ahead and 1 shot their squishies. How to do that? Just ABUSE RUNES !\n Everyone will tell you go either electro or aery - comet. They are classic mage annie builds. They are not bad just that playstyle is focused on 5 min flash timer. which is huge if u ask me for waiting 5 min to make a good aggresive play. \n Back in season 4 if I remember right I found out mobility annie. Its nerfed hard after the AA range nerf and mobi boots nerf but after with the new runes its more then viable. \n Disco Annie - My Runes \n Main tree: Inspiration Unsealed Spellbook > As u can read from the Anniemains its actually FlashRMains so we are not going to change ignite or flash we are just getting this for lower cd on Flash\n 1st Row > Perfect timing 2nd Row > Magical Footwear 3rd Row > Comic Insight ( More cdr on flash 210 sec flash cd combined with US)\n 2nd Tree Domination Most will find this useless but there is a hidden OP rune here. Out of Combat Move Speed and u will abuse this.\n 1st - Sudden Impact > I found this really good with flash. I get extra magic pen so good for u. 2nd - Relentless Hunter > this is the KEY runestone for this build. Once you get ur boots ( around min 9-10 depends on if u get a kill ) + Aether Wisp (Ludens move speed part) you will be running really fast. Relentless hunter gives u 8 + 8 per takedown. If u manage to get 3 kills its 32 bonus out of combat move speed.\n So how this setup works ? What you are going to do is farm till level 6 and back with 1250g at least. I always buy a red ward then look for matchup. If I can kill my lane oppenent with FlashR+ignite combo around %80 health I buy a Needless Large Rod and look for a kill on my lane. I ask for jungle to come also just in case for a counter gank while flashing in. If I have a hard match up I buy Aether Wisp. I go back to the lane and try to push my lane or I check other lanes if anyone is pushing on the enemy team. If yes I start to running to that lane and use my level 6 tibbers combo for an easy kill. And after that turn back to my lane and wait for my ulti for my next roam. \n Another tips and tricks\n I hardly waste my flash and tibbers before 1st back cuz of low dmg numbers. Annie benefits a lot from AP and scales really well. You need every extra bit of AP. So its really important to get AP before using ur first ulti flash combo.\n *Bot lane is really important, more harder to gank and more rewarding. I always look bot lane first to gank to open up the game. If you get ur bot lane ahead they will start to rotate the map for towers and it means more gold more flash - r chances cuz enemy will try to defend under tower. \n *With this build whenever ur jungler tries to fight with enemy jungler you will be there first. You are running really fast and make sure to use this !\n MINIMAP ! You are RELENTLESS HUNTER ! You HUNT PEOPLE ! so always but always LOOK AT UR MINIMAP ! Support ur JUNGLER.\n\n Buffs timing! When ur jungler gets his 2nd red buff ping him and gank together either bot or top ! With ur stun + red buff slow no way they can escape even if they flash. \n\n For full build its really up to u but I like 1 shotting people so Rabadon + Void Staff + Liandry + Sorc Boots is way to go for me.\n\n I rush Rabadon as a second item. Its not so common but annie with rabadon is a monster. IF Im behind I go for a cheaper way. Liandry + Rylai + Voidstaff is also really good combo\n\n If you have a carry toplaner or enemy have a carry top laner I also camp top lane. Lets say you have Yasuo top or Riven top. I make sure they get ahead. Or enemy have them I make srue they are behind. Ask for ur botlane to wait for ur help and play def while ganking top. \n\n I hope this helps ! Im plat and this works for me really well. If i u have any questions feel free to ask. \n && This build is not mine. Actually on new rune system its mine but I get this idea from someone else. I dont remember his name but this build is fun and really good to climb. Its all about roaming and helpin ur team. While you have a strong kit to do the trick ! = This was a reply to topic but I think more people should see it ! If you like and try it pls reply below ! Goodluck all !",
+   "id": "7u2zdr",
+   "comments": [],
+   "age_days": 3174,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  },
+  {
+   "title": "How I got out of Bronze - Annie Guide",
+   "url": "https://www.reddit.com/r/AnnieMains/comments/6e9687/how_i_got_out_of_bronze_annie_guide/",
+   "published": "2017-05-30",
+   "author": "/u/brandonthingy",
+   "body": "Hello /r/Anniemains , after the release of LS' tier list which suggests Annie as a S-tier champ in bronze-plat, I wanted to write a guide that explains how exactly you can climb rather than just locking in Annie. Annie kit is really simple, hence why it is suggested to climb so you can focus on your macro. After gaining 400k mastery points on Annie, I wanted to write a little guide for my little girl that got me to Gold. Feedback is always welcomed and even though I am only Gold, this guide should be very helpful for those wanting to get freelo with Annie. This is a repost from my guide on Summoner School.\n Summoner Spells Flash- Flash is a necessity on Annie and can be used both as an escape and engage tool. \n Ghost- When most of the enemy laner's damage comes from skill shots (Brand, Ziggs, Xerath)\n Exhaust- Got nerfed as an offensive spell a few patches ago and I only take it against Zed/Talon\n Ignite- With the nerf of Ghost and Exhaust, I've been mainly taking ignite to snowball my lane and secure kills. Or if the you need the grievous wounds for your matchup (Swain, Vlad) Take it 75% of my games\n Heal- If you are playing Annie APC\n TP- If you are in a matchup where you feel like you are going to get harassed a lot or you are not familiar with the matchup (Xerath, Ziggs, Lux). Or if you are going top. \n Smite- If you are going Annie jungle . . . \n Cleanse- If all 5 enemy champs have hard CC and none of the other summoner spells are useful in matchup (Very rarely taken)\n Overall, your second summoner spell depends on how confident you are in the matchup. If you feel like you are going to stomp the lane and win, take ignite. If you need help with the matchup, take a \"supporting\" summoner spell that will ease the laning phase. \n Masteries I generally run 0/18/12 or 12/18/0. If I feel like I want the extra AP and pen from ferocity I go 12/18/0 but I usually run 0/18/12 for the reduced cd on flash. I always run TLD because it adds to my burst and it can easily be use during lane. (q stun, w, AA) I don't feel like DFT is very strong on Annie, but that's just my thoughts. Annie Bot runs it, but I haven't had success with it. Generally, besides the keystone, everything is preference but there are some key things you need to put points in for Annie. Put points in masteries that will give MS. (Wanderer, explorer) If you are going 0/18/12, always get Insight for the reduced summoners. And because Annie is an AP champion, if you are going DFT, put points in the masteries that give you AP.. (lol)\n Runes I run a very similar rune page as Annie Bot which consist of:\n 1 AP quint\n\n 2 MS quints\n\n HP/lvl yellows\n\n Scaling CDR blues\n\n MP reds\n\n This is my standard setup for most of my games because Annie lacks mobility and the extra MS helps with dodging skill shots. The 1 AP quint should boost your trading for the early game while the rest is standard for midlaners.\n I have another rune page for AD matchups but I've hardly been using it because I haven't had many AD matchups lately. It consists of\n 3 AP quints\n MP reds\n Armor Yellows\n 6 Scaling CDR blues\n 3 Scaling AP blues\n Ability Order The for me and most Annie players is R>Q>W>E. You generally get E when you need it because it does reduce incoming damage so if you are taking a lot of harass from champions like Ahri and Lux, you can use E to reduce their pokes. Also against AD matchups, you generally want to take it before level 6. In most cases I take E level 7, but that's just me. In matchups where your laner is just shoving and has really good wave clear, I usually put 3 points in Q then max W to match it so they don't get free roams. This is generally against champions like Viktor, Ekko, etc. Or if you see that the enemy laner is simply roaming a lot because they got a lead, max W then as well. \n Starting Items In 99.9% of my games, I take dorans ring and 2 hp pots. You can take dark seal and refillable if you are confident you are going to win your lane, but I almost never risk it. (high risk, high reward start)\n Builds Generally, I have 3 build paths with core items and other situation items. \n The \"Kite\" Build \n In this build, I have Rylais and Liandries as my core. This build is good against team comps that have \"kiteable\" champions which generally consist of melee and low mobility champions. I usually go this build when I see the enemy team comp has at least 2/3 melee champions. If I can, I usually rush a haunting guise and then go into my Rylais. After I finish Rylais, I finish the haunting guise to Liandries. If you had a lead and you were able to get haunting guise but then fell behind, finish the liandries first and then go into Rylais. If I'm behind, I just rush rylais first and then go into situational items depending on how behind I am. When deciding which component of haunting guise to get first, see if you need the extra health to survive bursts or if you need more AP to finish off your enemies. This build is really nice on Annie and is one of my favorites because of how well it synergies with Tibbers. \n Extremely High Burst\n In this build, the core is luden's echo. I usually go this build if I back with enough gold for a large rod and I'm looking to snowball my lead. After Luden's, I fill the rest of my items with situational items. I don't build this often because I don't usually back with ~1250 gold because I play passive till 6.\n Bruiser/Tanky Annie\n In this build, the core is RoA. If you are unable to survive the burst of champions, this build is great for survivability and scales decently into the mid/late game. I generally go for the catalyst first for the extra HP and mana and finish the RoA around ~10 minutes. After RoA, I generally get other items that provide health such as Protobelt, Rylais, and Liandries. \n Boots\n I almost always run the CDR boots because it lowers the CD for my Flash which is really important on Annie. I sometimes run the Sorc boots if I am looking to kill my laner because they stacked either health or MR early on in the game. You can mobi's if you are playing Annie support and you are looking to roam. \n Situational Items\n Seekers Armguard/Zhonya\n Get this first against AD matchups and finish it as your 2nd or 3rd item. You should only rush zhonyas against Fizz or if you got stomped against a Zed. \n Protobelt\n I build this item if I'm essentially the only form of engage on the team or if I lost lane really hard. I use protobelt and basically be a \"stun-bot\" for my team. Protobelt helps get picks and provides a little mobility to Annie. \n Void Staff\n This item is a must in Annie's build. I usually get this as my 3/4 item depending on how much MR the enemy is building. This item makes sure that you consistently do damage throughout the game and scales well into the late game. \n Deathcap\n I very rarely build this item and when I do, it is always my last. It provides a lot of raw AP but I feel like other items provide things that are more useful to Annie. If you have completely snowballed out of control, you can build this as your 2/3rd item if you are looking to keep have insanely high burst. \n Morellonicom \n Because I run 10% scaling CDR and most of my items provide CDR, I almost never run Morello. I usually overcap and don't feel like I need the 20% cdr. You can build it if you decide not to run ignite against a healing champion like swain or vlad. But i just feel like other items provide better buffs too Annie while also providing CDR.\n Serath's Emprace\n If you are seeing that you are consistently low on mana and you need to consistently put out DPS because your team lacks it, you can build tear early on and start stacking it. I generally have it finished stacked around ~20 minutes and the shield is really nice on Annie. \n Liandries\n If the enemy team is generally squishy or if you are going the \"kite\" build, you can get liadries to do almost true damage to low MR champions. The burn is an extra to the high burst. \n Dark Seal/Mejais\n If you died multiple times early on, you can get a Dark Seal to help you snowball back into the game. If it ends up being basically useless (you get little to no stacks) you can sell it and get most of the gold back. I almost never, never, ever get Mejais. It's just so risky and is not worth to get on Annie. If you are EXTREMELY confident that you will not die, you can get Mejais. \n Banshee's Veil\n Get a null magic-mantle if you need the MR for matchups where you are getting harassed a lot. However, this is against AP matchups where you might need the shield during the game. If the enemy team has no way to pick me off and the shield is essentially going to be useless, build health items. So basically any matchups where the opposing laner has a way to pick you off (TF, Syndra, Veigar) or if you are being harassed a lot in lane and the enemy team comp has a way to pick you off (Against a Ziggs with a Blitzcrank support and Nautilus top) I honestly rarely build this item and miss abyssal scepter. \n Teamfighting Basically in a team fight, you are looking to provide consistent damage and/or engage. If you do not have a engager, you will most likely have to engage with a flash tibbers. If you see a 3+ tibbers or a FED carry is out of position, you can flash. But most of the times, you are going to follow up your engage, walk up and ult. During the fight when you have a stun, you can also look to peel for your adc. \n Tips Over the course of about 500 annie games, I learned these tips and tricks\n Dont forget about tibbers after you summon it. Consistently toggle tibbers during fights using R\n\n Use tibbers (when its summoned) to block skill shots. Say you are running away from a blitzcrank, use tibbers to block the path in which blitz can hook you. This does not mean summon tibbers to block a skill shot. The ult is too important to block a simple skill shot.\n\n Have three stacks and Q the enemy laner and mid Q, use your E to get the stun off. This catches most people off guard and you can then combo them while stunned\n\n Against slippery champions, (Zed, Fizz, Kat) stun them using Q first then drop your load. You dont understand how many times I have missed and seen people missed tibbers against these champions\n\n Similarly, if you are flashing for a single pick, flash Q instead of flash R. Q will follow the champion while tibbers can miss. Again this is only if you are flashing for a single champion, usually a fed carry out of position\n\n ONLY FLASH IF YOU NEED TO. You dont understand how many Annie's, me included, used flash to ult when you could have walked up and ulted. Most of my builds and runes enable me to walk up and ult so I am not completely flash dependent. \n\n You take significantly less damage from a tower shot if you use E as it is about to hit (Saved me countless number of times) \n\n Conclusion Anyhow, that is all I have to say and I hope you guys liked my very first guide. Any feedback and comments is welcomed. I hope this guide helps you in better understanding Annie and how she can gain you that juicy elo.",
+   "id": "6e9687",
+   "comments": [],
+   "age_days": 3419,
+   "recency_weight": 0.2,
+   "topics": [
+    "matchup",
+    "items",
+    "runes"
+   ],
+   "stale_items": true
+  }
+ ]
+}
