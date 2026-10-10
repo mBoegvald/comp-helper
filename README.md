@@ -51,3 +51,12 @@ Editing on the page comes with the new page. Until then the page's API takes edi
 defaults for new champions live in `role_data.py`.
 
 `NOTES.md` has the design notes and data caveats.
+
+## Develop
+
+`pip install -r requirements-dev.txt` (or `nix-shell` on NixOS), then:
+
+- `ruff check .` and `ruff format .` for lint and formatting
+- `pytest` for the tests (a temp database each time, never `data/pickhelper.db`)
+
+CI runs all of it on every push, with tests on Ubuntu and Windows.

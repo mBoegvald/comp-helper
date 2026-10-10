@@ -1,5 +1,21 @@
 # Pick helper: notes
 
+## Lint, tests and CI (2026-10-10)
+- ruff (lint + format, 120 columns; E501 off because the formatter owns line length) and pytest, pinned in
+  requirements-dev.txt and matched by shell.nix. The one-off reformat is listed in .git-blame-ignore-revs.
+- tests/ builds a small database per test with hand-checkable numbers (tests/conftest.py); the Lolalytics parser is
+  tested against a trimmed copy of a real counters page (tests/fixtures), so a site wording change shows up there
+  first. Real network calls are never made in tests.
+- CI (.github/workflows/ci.yml): lint once, tests on ubuntu and windows x Python 3.10 and 3.13. The first run on
+  2026-10-10 was the first time the Windows paths ran anywhere: the msvcrt lock passes. Still untested on Windows:
+  the .bat itself, DETACHED_PROCESS spawning and taskkill for Stop.
+- Found by the new checks: the AP fallback list split multi-word names (Aurelion Sol, Twisted Fate, Nunu & Willump
+  fell back to AD), and the page header read mid's patch only.
+- Hosting on a server (Docker) was considered and deferred: the page has no login and edits are open to anyone who
+  can reach it, so it needs auth or an authenticating reverse proxy before it listens beyond 127.0.0.1.
+- GitHub access from the dev machine: push over SSH with a deploy key on this repo only; gh uses a fine-grained
+  token owned by mBoegvald (own repos only), needing Pull requests read/write and Actions read.
+
 ## SQLite instead of workbooks (2026-10-10)
 - All data is in `data/pickhelper.db` (stdlib sqlite3, so the app needs no extra package; `db.py` has the schema).
   Generated tables (`lola`, `reddit_tips`, `reddit_snippet`) are replaced by updates in one transaction each;
@@ -18,8 +34,8 @@
 - build_role.py refuses to save a fetch with under 60% of the previous row count (site change or outage), so a
   broken scrape cannot wipe a role. update.py makes one database backup per day in data/backups (14 kept).
 - `PICKHELPER_DB=/path/copy.db` points everything at another database file (testing).
-- Dev on NixOS: `nix-shell -p python3` is enough; the app needs no packages. Python 3.11 packages are no longer
-  prebuilt in nixpkgs (openpyxl pulls in pandas, which then builds from source), so use the default python3.
+- Dev on NixOS: `nix-shell` (shell.nix) for python3, ruff and pytest. Python 3.11 packages are no longer prebuilt
+  in nixpkgs (openpyxl pulls in pandas, which then builds from source), so shell.nix uses the default python3.
 
 ## Web page and Windows (added 2026-10-09)
 - `webapp.py` serves `web/index.html` on 127.0.0.1:8765 (stdlib http.server). Launchers:
