@@ -1,5 +1,16 @@
 # Pick helper: notes
 
+## Editing and withdrawing notes (2026-10-10)
+- Authors edit their notes under My notes. A waiting or rejected note is changed in place and waits for review
+  (again). An edit of an approved note waits as a revision (community_note.revised_text/_source/_at) while the
+  approved text stays on the site, so fixing a typo never takes a good note away; the review queue tags it Edit and
+  shows what is on the site now. Approving replaces the text; rejecting keeps it and tells the author why ("Your
+  edit was not accepted." when no reason is given). Admins' own edits apply at once.
+- Authors can withdraw (delete) their notes in any state. Waiting edits count toward the 20-per-account limit;
+  blocking an account drops its waiting edits and keeps its approved text.
+- db.connect() adds columns newer than a table (ADDED_COLUMNS), like it renames old tables; the committed database
+  gets the revised_* columns the first time the app opens it.
+
 ## Hosting with Docker (2026-10-10)
 - docs/hosting.md is the deploy guide (Hetzner Cloud, DNS, Docker, admin account, updates, backups, restore).
 - docker-compose.yml: the app (hosted mode, --behind-proxy, non-root, health check, init for reaping) and Caddy
