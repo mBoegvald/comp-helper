@@ -292,3 +292,17 @@ def test_other_cookies_do_not_sign_you_out(hosted, others):
     me = json.loads(c.getresponse().read())
     c.close()
     assert me["user"]["username"] == "pleb"
+
+
+def test_notes_show_for_champions_with_an_apostrophe(hosted):
+    """Cho'Gath, Kai'Sa, Kha'Zix...: the notes index and the page's lookups must spell the key the same way."""
+    boss = sign_in(hosted, "boss", "admin password")
+    for body in (
+        {"role": "top", "champion": "Cho'Gath", "text": "Stack R on minions and monsters."},
+        {"role": "top", "champion": "Aatrox", "opponent": "Cho'Gath", "text": "Dodge his Q with your E."},
+    ):
+        assert request(hosted, "POST", "/api/notes", body, cookie=boss)[0] == 200
+    lookup = request(hosted, "GET", "/api/champion?role=top&name=Cho%27Gath")[1]
+    assert [n["text"] for n in lookup["community"]] == ["Stack R on minions and monsters."]
+    m = request(hosted, "GET", "/api/matchup?role=top&a=Aatrox&b=Cho%27Gath")[1]
+    assert [n["text"] for n in m["community"]] == ["Dodge his Q with your E."]

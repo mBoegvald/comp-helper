@@ -113,12 +113,13 @@ def reject_pending_of(conn, account_id: int, reason: str):
         db.touch(conn)
 
 
-def approved_index(conn) -> dict:
-    """(role, norm(champion), norm(opponent) or '') -> approved notes, oldest first, for showing on the page."""
+def approved_index(conn, key=db.norm) -> dict:
+    """(role, key(champion), key(opponent) or '') -> approved notes, oldest first, for showing on the page. `key` must
+    be the one the reader looks champions up with (webapp uses picker.key, which keeps apostrophes: Cho'Gath)."""
     out = {}
     for n in _rows(conn, "n.status = 'approved' ORDER BY n.reviewed_at, n.id"):
-        key = (n["role"], db.norm(n["champion"]), db.norm(n["opponent"]))
-        out.setdefault(key, []).append(
+        k = (n["role"], key(n["champion"]), key(n["opponent"]) if n["opponent"] else "")
+        out.setdefault(k, []).append(
             {
                 "id": n["id"],
                 "author": n["author"],

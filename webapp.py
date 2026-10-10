@@ -137,7 +137,7 @@ def community_notes():
     try:
         stamp = db.stamp(conn)
         if _notes_cache["stamp"] != stamp:
-            _notes_cache.update(stamp=stamp, data=notes.approved_index(conn))
+            _notes_cache.update(stamp=stamp, data=notes.approved_index(conn, key=picker.key))
     finally:
         conn.close()
     return _notes_cache["data"]
