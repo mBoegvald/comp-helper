@@ -11,20 +11,12 @@
 
   let { data }: { data: ChampionLookup } = $props();
 
-  let editing = $state(false);
-
   const champ = $derived(data.champion);
 
-  // another champion or role: close the editor. Compare values: `data` is reloaded after every change (an update,
-  // a saved note), which must not close an editor with unsaved text.
-  let shownFor = "";
-  $effect.pre(() => {
-    const key = `${data.role}|${champ.name}`;
-    if (key !== shownFor) {
-      shownFor = key;
-      editing = false;
-    }
-  });
+  // another champion or role closes the editor. `data` is reloaded after every change (an update, a saved note), but
+  // `shown` only changes value for another champion, so an editor with unsaved text stays open.
+  const shown = $derived(`${data.role}|${champ.name}`);
+  let editing = $derived.by(() => (void shown, false));
   const sub = $derived(
     data.in_role
       ? [champ.arch, champ.dmg].filter(Boolean).join(" · ")

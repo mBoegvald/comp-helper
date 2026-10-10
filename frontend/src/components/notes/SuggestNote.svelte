@@ -10,25 +10,15 @@
   let { role, champion, opponent = null }: { role: Role; champion: string; opponent?: string | null } = $props();
 
   const uid = $props.id();
-  let open = $state(false);
+  // another champion or matchup starts over. The props are re-read whenever the parent reloads its data (e.g. right
+  // after this note was saved), but `about` keeps its value then, so the "added" message stays.
+  const about = $derived(opponent ? `${champion} vs ${opponent}` : champion);
+  let open = $derived.by(() => (void about, false));
+  let done = $derived.by((): string | null => (void about, null));
+  let error = $derived.by((): string | null => (void about, null));
   let text = $state("");
   let source = $state("");
-  let error = $state<string | null>(null);
-  let done = $state<string | null>(null);
   let busy = $state(false);
-
-  const about = $derived(opponent ? `${champion} vs ${opponent}` : champion);
-
-  // another champion or matchup: start over. Compare values: the props are re-read whenever the parent reloads
-  // its data (e.g. right after this note was saved), which must not wipe the "added" message.
-  let shownFor = "";
-  $effect.pre(() => {
-    const key = `${champion}|${opponent ?? ""}`;
-    if (key !== shownFor) {
-      shownFor = key;
-      [open, done, error] = [false, null, null];
-    }
-  });
 
   async function submit(e: SubmitEvent) {
     e.preventDefault();

@@ -95,6 +95,16 @@ test("looking up another champion closes the editor", async ({ page }) => {
   await expect(page.getByRole("button", { name: "Edit notes" })).toBeVisible();
 });
 
+test("opening another matchup closes the matchup editor", async ({ page }) => {
+  const rows = page.locator("tbody tr").filter({ visible: true });
+  await rows.filter({ hasText: "Garen" }).click();
+  await page.getByRole("button", { name: "Edit", exact: true }).click();
+  await expect(page.getByLabel("Lane tip")).toBeVisible();
+  await rows.filter({ hasNotText: "Garen" }).first().click();
+  await expect(page.getByRole("heading", { name: /^Darius vs / })).not.toHaveText("Darius vs Garen");
+  await expect(page.getByLabel("Lane tip")).toHaveCount(0);
+});
+
 test("a champion can be picked with the keyboard", async ({ page }) => {
   const box = page.getByRole("combobox", { name: "Champion" });
   await box.fill("gar");

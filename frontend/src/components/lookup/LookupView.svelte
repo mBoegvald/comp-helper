@@ -12,7 +12,7 @@
   import MatchupPanel from "./MatchupPanel.svelte";
   import MatchupTable from "./MatchupTable.svelte";
 
-  let data = $state<ChampionLookup | null>(null);
+  let data = $state.raw<ChampionLookup | null>(null);
   let error = $state<string | null>(null);
   let filter = $state("");
   let selected = $state<string | null>(null);

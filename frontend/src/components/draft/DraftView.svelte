@@ -8,7 +8,7 @@
   import DraftForm from "./DraftForm.svelte";
   import PickResults from "./PickResults.svelte";
 
-  let result = $state<Recommendation | null>(null);
+  let result = $state.raw<Recommendation | null>(null);
   let error = $state<string | null>(null);
   let latest = 0; // answers to older requests are dropped
 

@@ -42,7 +42,7 @@
 
   const optionsFor = (f: Field, h: CuratedChampion) => (f.kind === "archetype" ? h.archetypes : (f.options ?? []));
 
-  let loaded = $state<CuratedChampion | null>(null);
+  let loaded = $state.raw<CuratedChampion | null>(null);
   let form = $state<Partial<Record<CuratedField, string>>>({});
   let error = $state<string | null>(null);
   let saving = $state(false);
