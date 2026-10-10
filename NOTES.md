@@ -1,5 +1,17 @@
 # Pick helper: notes
 
+## Review fixes (2026-10-10)
+- A full review of PRs #3-#9 (correctness and security) found these, now fixed with tests that fail without the fix:
+  community notes on Cho'Gath, Kai'Sa and co never showed (the notes index and the lookups spelled keys
+  differently); rewording a lane tip cleared a curated label that agreed with the data; parallel requests got past
+  the 20-waiting-notes cap; another cookie on the domain could sign users out; a crafted #draft= link broke the page
+  for good; a slow error showed on the wrong matchup; promoting a note had a race with another admin.
+- Security hardening: the server answers only requests for its own address (127.0.0.1 / localhost on its port, or a
+  name given with --public-host / PICKHELPER_PUBLIC_HOSTS), which closes DNS rebinding; Content-Length must be a
+  plain number up to 64 KiB and stalled connections close after 30 s; hosted 500s carry no internals (the traceback
+  goes to the server log); the page has a Content-Security-Policy, and browser tests fail on a violation.
+- Still open for the hosting PR: rate limits behind a reverse proxy need the real client address.
+
 ## "Hand" data is now "curated" (2026-10-10)
 - The admin's own champion and matchup knowledge (archetype, damage, comps, pick when, good/struggles into; a label
   and lane tip per matchup) was called the hand layer, from the hand-edited workbook cells. It is now curated:
