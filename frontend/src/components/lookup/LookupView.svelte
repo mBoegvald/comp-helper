@@ -5,6 +5,7 @@
   import { debounce } from "../../lib/format.ts";
   import { prefs } from "../../lib/prefs.svelte.ts";
   import type { ChampionLookup, Role } from "../../lib/types.ts";
+  import ChampInput from "../common/ChampInput.svelte";
   import ErrorBox from "../common/ErrorBox.svelte";
   import RoleSwitch from "../common/RoleSwitch.svelte";
   import ChampionSummary from "./ChampionSummary.svelte";
@@ -47,7 +48,7 @@
     <RoleSwitch bind:value={prefs.lkRole} />
     <div class="field">
       <label for="lk-champ">Champion</label>
-      <input id="lk-champ" list="champ-list" autocomplete="off" placeholder="e.g. Zed" bind:value={prefs.lkChamp} />
+      <ChampInput id="lk-champ" names={app.meta?.names ?? []} placeholder="e.g. Zed" bind:value={prefs.lkChamp} />
     </div>
     <div class="field">
       <label for="lk-filter">Filter opponents</label>
