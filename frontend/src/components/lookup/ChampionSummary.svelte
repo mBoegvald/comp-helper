@@ -15,11 +15,15 @@
 
   const champ = $derived(data.champion);
 
-  // another champion or role: close the editor
+  // another champion or role: close the editor. Compare values: `data` is reloaded after every change (an update,
+  // a saved note), which must not close an editor with unsaved text.
+  let shownFor = "";
   $effect.pre(() => {
-    void data.role;
-    void champ.name;
-    editing = false;
+    const key = `${data.role}|${champ.name}`;
+    if (key !== shownFor) {
+      shownFor = key;
+      editing = false;
+    }
   });
   const sub = $derived(
     data.in_role
