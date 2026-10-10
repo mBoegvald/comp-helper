@@ -688,10 +688,8 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header("X-Frame-Options", "DENY")
         for c in cookies:
             self.send_header("Set-Cookie", c)
-        # a browser that reloads or closes the page mid-answer hangs up; that is normal, not an error to print
-        with contextlib.suppress(BrokenPipeError, ConnectionResetError):
-            self.end_headers()
-            self.wfile.write(body)
+        self.end_headers()
+        self.wfile.write(body)
 
     def send_json(self, code, out, cookies=()):
         self.send(code, json.dumps(out, default=str).encode("utf-8"), "application/json", cookies)
@@ -785,6 +783,16 @@ class Handler(BaseHTTPRequestHandler):
         self.handle_any("POST")
 
 
+class Server(ThreadingHTTPServer):
+    """The HTTP server. A client that hangs up or stalls (a reloaded page, a dropped connection) is normal, not an
+    error to print; it can happen while reading the request or writing the answer."""
+
+    def handle_error(self, request, client_address):
+        if isinstance(sys.exc_info()[1], ConnectionError | TimeoutError):  # broken pipe, reset, aborted
+            return
+        super().handle_error(request, client_address)
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--port", type=int, default=8765)
@@ -815,7 +823,7 @@ def main():
     ports = [a.port] if a.hosted else range(a.port, a.port + 20)  # a server keeps its port or fails loudly
     for port in ports:
         try:
-            srv = ThreadingHTTPServer((a.host, port), Handler)
+            srv = Server((a.host, port), Handler)
             break
         except OSError:
             continue

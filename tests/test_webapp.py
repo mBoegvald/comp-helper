@@ -56,7 +56,7 @@ def test_bad_input_is_rejected(conn, fn, q):
 
 @pytest.fixture
 def server(conn):
-    srv = webapp.ThreadingHTTPServer(("127.0.0.1", 0), webapp.Handler)
+    srv = webapp.Server(("127.0.0.1", 0), webapp.Handler)
     threading.Thread(target=srv.serve_forever, daemon=True).start()
     yield f"http://127.0.0.1:{srv.server_address[1]}"
     srv.shutdown()
@@ -139,17 +139,23 @@ def test_unfinished_names_are_reported_but_not_scored(conn):
     assert webapp.api_recommend({"role": "top", "enemy": {"top": "gar"}})["enemy_main"] == "Garen"  # unique start
 
 
-def test_a_client_that_hangs_up_is_not_an_error():
-    """Reloading a page mid-answer closes the connection; writing the answer must not raise."""
-
-    class HungUp:
-        def write(self, _data):
-            raise BrokenPipeError
-
-    h = webapp.Handler.__new__(webapp.Handler)  # no socket needed
-    h.wfile, h.request_version, h.requestline, h.command = HungUp(), "HTTP/1.1", "GET / HTTP/1.1", "GET"
-    h.client_address = ("127.0.0.1", 0)
-    h.send(200, b"answer", "text/plain")  # does not raise
+def test_a_client_that_hangs_up_is_not_an_error(capsys):
+    """A reloaded page or dropped connection, while reading or writing: nothing printed. Real errors still are."""
+    srv = webapp.Server(("127.0.0.1", 0), webapp.Handler)
+    try:
+        for hangup in (BrokenPipeError(), ConnectionResetError(), ConnectionAbortedError(), TimeoutError()):
+            try:
+                raise hangup
+            except OSError:
+                srv.handle_error(None, ("127.0.0.1", 0))
+        assert capsys.readouterr().err == ""
+        try:
+            raise ValueError("a real bug")
+        except ValueError:
+            srv.handle_error(None, ("127.0.0.1", 0))
+        assert "a real bug" in capsys.readouterr().err
+    finally:
+        srv.server_close()
 
 
 def request_as(base, host, method="GET", path="/api/meta", body=None, origin=None):

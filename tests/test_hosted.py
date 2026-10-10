@@ -19,7 +19,7 @@ def hosted(conn, monkeypatch):
     monkeypatch.setitem(webapp.CONFIG, "hosted", True)
     auth.create_account(conn, "boss", "admin password", role="admin")
     auth.create_account(conn, "pleb", "contributor pw")
-    srv = webapp.ThreadingHTTPServer(("127.0.0.1", 0), webapp.Handler)
+    srv = webapp.Server(("127.0.0.1", 0), webapp.Handler)
     threading.Thread(target=srv.serve_forever, daemon=True).start()
     yield f"127.0.0.1:{srv.server_address[1]}"
     srv.shutdown()
