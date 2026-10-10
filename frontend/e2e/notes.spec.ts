@@ -83,6 +83,19 @@ test("a contributor's note waits for review and shows under My account", async (
   await expect(mine.getByText("Waiting for review")).toBeVisible();
 });
 
+test("opening another matchup closes a note being written", async ({ page }) => {
+  await as(page, newName("writer"), "writer password", true);
+  await openLookup(page, "Darius", "Garen");
+  await page
+    .locator(".panel", { hasText: "Darius vs Garen" })
+    .getByRole("button", { name: "+ Suggest a note" })
+    .click();
+  await expect(page.getByLabel("Your note on Darius vs Garen")).toBeVisible();
+  await page.locator("tbody tr").filter({ visible: true }).filter({ hasNotText: "Garen" }).first().click();
+  await expect(page.getByRole("heading", { name: /^Darius vs / })).not.toHaveText("Darius vs Garen");
+  await expect(page.getByLabel(/^Your note on Darius vs/)).toHaveCount(0);
+});
+
 test("the admin fixes and approves one note, and rejects another with a reason", async ({ page }) => {
   const writer = newName("writer");
   await as(page, writer, "writer password", true);
