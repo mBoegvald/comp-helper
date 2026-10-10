@@ -15,7 +15,6 @@
 
   let m = $state.raw<Matchup | null>(null);
   let error = $state<string | null>(null);
-  let panel = $state<HTMLDivElement>();
   let editing = $derived.by(() => (void opp, false)); // another opponent closes the editor
 
   $effect(() => {
@@ -32,11 +31,11 @@
     );
   });
 
-  // bring a newly opened matchup into view
-  $effect(() => {
+  // bring a newly opened matchup into view (an attachment reruns when `opp` changes)
+  function intoView(el: HTMLElement) {
     void opp;
-    panel?.scrollIntoView({ behavior: "smooth", block: "nearest" });
-  });
+    el.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }
 
   function saved(updated: Matchup) {
     m = updated;
@@ -45,7 +44,7 @@
   }
 </script>
 
-<div class="panel" bind:this={panel}>
+<div class="panel" {@attach intoView}>
   <ErrorBox message={error} />
   {#if m}
     <div class="row title">
