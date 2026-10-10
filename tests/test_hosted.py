@@ -307,3 +307,31 @@ def test_notes_show_for_champions_with_an_apostrophe(hosted):
     assert [n["text"] for n in lookup["community"]] == ["Stack R on minions and monsters."]
     m = request(hosted, "GET", "/api/matchup?role=top&a=Aatrox&b=Cho%27Gath")[1]
     assert [n["text"] for n in m["community"]] == ["Dodge his Q with your E."]
+
+
+SQL_ATTACKS = [
+    "'); DROP TABLE account; --",
+    "x' OR '1'='1",
+    "Robert'); UPDATE account SET role='admin' WHERE username='pleb'; --",
+    '" UNION SELECT pw_hash FROM account --',
+]
+
+
+def test_sql_in_notes_and_lookups_is_only_text(hosted, conn):
+    """SQL injection: whatever a contributor types is stored as typed and never runs."""
+    tables = {r[0] for r in conn.execute("SELECT name FROM sqlite_master WHERE type = 'table'")}
+    pleb = sign_in(hosted, "pleb", "contributor pw")
+    for attack in SQL_ATTACKS:
+        body = {"role": "top", "champion": "Darius", "opponent": "Garen", "text": f"note {attack}", "source": attack}
+        assert request(hosted, "POST", "/api/notes", body, cookie=pleb)[0] == 200
+    assert request(hosted, "GET", "/api/champion?role=top&name=Darius'%20OR%20'1'='1")[0] == 200
+    assert request(hosted, "GET", "/api/matchup?role=top&a=Darius&b=x'%3B%20DROP%20TABLE%20lola%3B--")[0] == 200
+    assert request(hosted, "POST", "/api/login", {"username": "boss' --", "password": "anything at all"})[0] == 400
+
+    assert {r[0] for r in conn.execute("SELECT name FROM sqlite_master WHERE type = 'table'")} == tables
+    assert conn.execute("SELECT count(*) FROM lola").fetchone()[0] == 5
+    assert [tuple(r) for r in conn.execute("SELECT username, role FROM account ORDER BY username")] == [
+        ("boss", "admin"),
+        ("pleb", "contributor"),
+    ]
+    assert [r[0] for r in conn.execute("SELECT source FROM community_note ORDER BY id")] == SQL_ATTACKS
