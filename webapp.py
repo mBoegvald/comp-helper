@@ -45,8 +45,8 @@ ASSET_TYPES = {
 }
 REDDIT_DIR = HERE / "data" / "reddit"
 _lock = threading.Lock()
-# set by main(): --hosted, --insecure-cookies, --public-host
-CONFIG = {"hosted": False, "secure_cookies": True, "public_hosts": set()}
+# set by main(): --hosted, --insecure-cookies, --public-host, --behind-proxy
+CONFIG = {"hosted": False, "secure_cookies": True, "public_hosts": set(), "behind_proxy": False}
 LOCAL_ADMIN = {"id": None, "username": "you", "role": "admin"}  # local mode: no accounts, you are admin
 SESSION_COOKIE = "ph_session"
 _tips_cache = {"stamp": None, "data": {}}
@@ -727,6 +727,16 @@ class Handler(BaseHTTPRequestHandler):
         port = self.server.server_address[1]
         return host in {f"127.0.0.1:{port}", f"localhost:{port}", *CONFIG["public_hosts"]}
 
+    def client_ip(self):
+        """The visitor's address. Behind the reverse proxy (--behind-proxy) every connection comes from the proxy,
+        which puts the visitor's address last in X-Forwarded-For. Without the option the header is ignored, since
+        anyone can send it."""
+        if CONFIG["behind_proxy"]:
+            forwarded = [p.strip() for p in (self.headers.get("X-Forwarded-For") or "").split(",") if p.strip()]
+            if forwarded:
+                return forwarded[-1]
+        return self.client_address[0]
+
     def same_origin(self):
         """Only our own page may send POSTs. Hosted mode also requires the Origin header, which browsers always
         send on fetch POSTs, so another website cannot act for a signed-in visitor."""
@@ -768,7 +778,7 @@ class Handler(BaseHTTPRequestHandler):
         else:
             q = {k: v[0] for k, v in urllib.parse.parse_qs(u.query).items()}
 
-        ctx = Ctx(ip=self.client_address[0])
+        ctx = Ctx(ip=self.client_ip())
         if CONFIG["hosted"]:
             ctx.token = self.session_token()
             ctx.user = _with_db(lambda conn: auth.session_account(conn, ctx.token))
@@ -829,13 +839,23 @@ def main():
         help="name the site is reached by, e.g. picks.example.com (repeatable; also PICKHELPER_PUBLIC_HOSTS)",
     )
     p.add_argument(
+        "--behind-proxy",
+        action="store_true",
+        default=os.environ.get("PICKHELPER_BEHIND_PROXY") == "1",
+        help="hosted behind a reverse proxy that sets X-Forwarded-For (Caddy in docker-compose.yml); "
+        "the app port must then only be reachable through the proxy",
+    )
+    p.add_argument(
         "--insecure-cookies",
         action="store_true",
         help="hosted mode without HTTPS, for testing only: session cookies without the Secure flag",
     )
     a = p.parse_args()
     CONFIG.update(
-        hosted=a.hosted, secure_cookies=not a.insecure_cookies, public_hosts={h.strip().lower() for h in a.public_host}
+        hosted=a.hosted,
+        secure_cookies=not a.insecure_cookies,
+        public_hosts={h.strip().lower() for h in a.public_host},
+        behind_proxy=a.behind_proxy,
     )
     srv = None
     ports = [a.port] if a.hosted else range(a.port, a.port + 20)  # a server keeps its port or fails loudly
@@ -852,6 +872,9 @@ def main():
     print(f"Pick helper running at {url}  ({mode})", flush=True)
     if not a.no_browser and not a.hosted:
         threading.Timer(0.6, lambda: webbrowser.open(url)).start()
+    # `docker stop` and service managers send SIGTERM; as a container's first process Python would ignore it and be
+    # killed after a timeout. Every write is a transaction, so stopping at any moment is safe.
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
     with contextlib.suppress(KeyboardInterrupt):
         srv.serve_forever()
 

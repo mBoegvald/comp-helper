@@ -1,0 +1,7 @@
+# What the image may contain; everything else (frontend sources, node_modules, .git, tests, logs) stays out.
+*
+!*.py
+!web/dist
+!data/pickhelper.db
+!data/reddit
+!docker

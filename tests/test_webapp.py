@@ -2,6 +2,7 @@
 
 import http.client
 import json
+import os
 import threading
 import urllib.error
 import urllib.request
@@ -249,3 +250,32 @@ def test_a_curated_label_that_agrees_with_the_data_survives_a_tip_edit(conn):
     webapp.api_curated_matchup_set(again)  # what the editor sends after rewording the tip
     row = conn.execute("SELECT result, tip FROM curated_matchup WHERE champion = 'Darius'").fetchone()
     assert tuple(row) == ("Favored", "new")
+
+
+@pytest.mark.skipif(os.name == "nt", reason="Windows has no SIGTERM to send; the .bat window is closed instead")
+def test_the_server_stops_at_once_on_sigterm(tmp_path):
+    """What `docker stop` sends. Without a handler, Python as a container's first process ignores it."""
+    import signal
+    import socket
+    import subprocess
+    import sys
+    import time
+
+    with socket.socket() as s:
+        s.bind(("127.0.0.1", 0))
+        port = s.getsockname()[1]
+    env = {**os.environ, "TMPDIR": str(tmp_path)}
+    proc = subprocess.Popen([sys.executable, "tests/e2e_server.py", "--port", str(port)], cwd=webapp.HERE, env=env,
+                            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)  # fmt: skip
+    try:
+        for _ in range(100):
+            with socket.socket() as s:
+                if s.connect_ex(("127.0.0.1", port)) == 0:
+                    break
+            time.sleep(0.1)
+        start = time.monotonic()
+        proc.send_signal(signal.SIGTERM)
+        assert proc.wait(timeout=5) == 0
+        assert time.monotonic() - start < 2
+    finally:
+        proc.kill()

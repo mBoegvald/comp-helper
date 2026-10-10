@@ -54,6 +54,8 @@ To edit, open a champion in **Lookup**: **Edit notes** on the champion card, or 
 
 `NOTES.md` has the design notes and data caveats.
 
+To run it as a website where others can read and suggest notes, see `docs/hosting.md` (Docker on a server).
+
 ## Develop
 
 `pip install -r requirements-dev.txt` (or `nix-shell` on NixOS), then:
