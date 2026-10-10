@@ -27,11 +27,14 @@
   $effect(() => {
     void app.dataVersion;
     const want = { role, champ, opp };
+    const current = () => want.role === role && want.champ === champ && want.opp === opp; // not a later click
     getMatchup(role, champ, opp).then(
       (r) => {
-        if (want.role === role && want.champ === champ && want.opp === opp) [m, error] = [r, null];
+        if (current()) [m, error] = [r, null];
       },
-      (e) => (error = errorMessage(e)),
+      (e) => {
+        if (current()) error = errorMessage(e);
+      },
     );
   });
 

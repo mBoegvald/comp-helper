@@ -126,3 +126,15 @@ test("rewording a tip keeps a label that agrees with the win rates", async ({ pa
   await save();
   await expect(page.locator(".notes").getByText("Second wording")).toHaveCount(0);
 });
+
+test("a slow failure for an earlier matchup does not show on the current one", async ({ page }) => {
+  await page.route(/\/api\/matchup\?.*b=Aatrox/, async (route) => {
+    await new Promise((r) => setTimeout(r, 800));
+    await route.fulfill({ status: 500, contentType: "application/json", body: '{"error":"old answer failed"}' });
+  });
+  await page.locator("tbody tr", { hasText: "Aatrox" }).filter({ visible: true }).click();
+  await page.locator("tbody tr", { hasText: "Garen" }).filter({ visible: true }).click();
+  await expect(page.getByRole("heading", { name: "Darius vs Garen" })).toBeVisible();
+  await page.waitForTimeout(1200); // the failing answer for Aatrox has arrived by now
+  await expect(page.getByText("old answer failed")).toHaveCount(0);
+});
