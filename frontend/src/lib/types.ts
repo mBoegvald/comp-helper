@@ -66,6 +66,7 @@ export interface Matchup {
   mismatch: boolean;
   tips: LaneNote[];
   reddit: RedditGroup[];
+  community: CommunityNote[]; // approved, from both sides (`who`)
 }
 
 /** One reason in a pick's score. */
@@ -138,6 +139,7 @@ export interface ChampionLookup {
   champion: Champion;
   in_role: boolean;
   matchups: MatchupRow[];
+  community: CommunityNote[]; // approved notes about the champion itself
 }
 
 /** /api/status */
@@ -188,4 +190,36 @@ export interface Account {
 /** /api/admin/accounts, /api/admin/block */
 export interface Accounts {
   accounts: Account[];
+}
+
+export type NoteStatus = "pending" | "approved" | "rejected";
+
+/** An approved community note as the page shows it. `who` is the side a matchup note was written from. */
+export interface CommunityNote {
+  id: number;
+  author: string | null;
+  text: string;
+  source: string | null;
+  approved_at: string | null;
+  who?: string;
+}
+
+/** A note as its author or the reviewing admin sees it. No opponent: a note about the champion itself. */
+export interface Suggestion {
+  id: number;
+  role: Role;
+  champion: string;
+  opponent: string | null;
+  text: string;
+  source: string | null;
+  status: NoteStatus;
+  author: string | null;
+  created_at: string;
+  reviewed_at: string | null;
+  review_note: string | null;
+}
+
+/** /api/notes/mine, /api/admin/review */
+export interface Suggestions {
+  notes: Suggestion[];
 }

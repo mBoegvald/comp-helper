@@ -4,7 +4,7 @@ import { prefs } from "./prefs.svelte.ts";
 import { load, save } from "./storage.ts";
 import type { Meta, Role } from "./types.ts";
 
-export type View = "draft" | "lookup" | "data" | "admin";
+export type View = "draft" | "lookup" | "data" | "mine" | "admin"; // mine: your notes (hosted)
 
 export const app = $state({
   view: load<View>("view", "draft"),

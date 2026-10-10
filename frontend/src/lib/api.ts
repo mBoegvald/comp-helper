@@ -12,6 +12,8 @@ import type {
   Recommendation,
   Role,
   Status,
+  Suggestion,
+  Suggestions,
 } from "./types.ts";
 
 async function request<T>(path: string, body?: object): Promise<T> {
@@ -50,3 +52,11 @@ export const signIn = (username: string, password: string) => request<Me>("/api/
 export const signOut = () => request<Me>("/api/logout", {});
 export const getAccounts = () => request<Accounts>("/api/admin/accounts");
 export const setBlocked = (id: number, blocked: boolean) => request<Accounts>("/api/admin/block", { id, blocked });
+
+export const suggestNote = (role: Role, champion: string, opponent: string | null, text: string, source: string) =>
+  request<{ note: Suggestion }>("/api/notes", { role, champion, opponent, text, source });
+export const getMyNotes = () => request<Suggestions>("/api/notes/mine");
+export const getReviewQueue = () => request<Suggestions>("/api/admin/review");
+export const reviewNote = (id: number, approve: boolean, text?: string, note?: string) =>
+  request<Suggestions>("/api/admin/review", { id, approve, text, note });
+export const deleteNote = (id: number) => request<Ok>("/api/admin/notes/delete", { id });
