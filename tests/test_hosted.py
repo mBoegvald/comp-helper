@@ -267,8 +267,9 @@ def test_admin_turns_a_note_into_the_lane_tip(hosted):
     assert request(hosted, "POST", "/api/admin/notes/promote", {"id": note_id}, cookie=pleb)[0] == 403
     boss = sign_in(hosted, "boss", "admin password")
     request(hosted, "POST", "/api/admin/review", {"id": note_id, "approve": True}, cookie=boss)
-    status, m, _ = request(hosted, "POST", "/api/admin/notes/promote", {"id": note_id}, cookie=boss)
-    assert status == 200 and m["community"] == []
+    assert request(hosted, "POST", "/api/admin/notes/promote", {"id": note_id}, cookie=boss)[:2] == (200, {"ok": True})
+    m = request(hosted, "GET", "/api/matchup?role=top&a=Darius&b=Garen")[1]
+    assert m["community"] == []
     assert [(t["who"], t["text"]) for t in m["tips"]] == [("Darius", "Trade when his Q is dwn. (from pleb)")]
     assert request(hosted, "POST", "/api/admin/notes/promote", {"id": note_id}, cookie=boss)[0] == 400  # gone
 

@@ -615,11 +615,11 @@ def api_admin_review(q, ctx):
 
 
 def api_admin_note_promote(q, ctx=None):
-    """An approved matchup note becomes the curated lane tip for its side; answers with the updated matchup."""
+    """An approved matchup note becomes the curated lane tip for its side. The page reloads its matchup itself
+    (the note's side need not be the side it is looking from)."""
     _hosted_only()
-    n = _with_db(lambda conn: notes.promote_to_tip(conn, int(q.get("id") or 0)))
-    champs = load(n["role"])[0]
-    return matchup(n["role"], picker.key(n["champion"]), find(n["opponent"], champs))
+    _with_db(lambda conn: notes.promote_to_tip(conn, int(q.get("id") or 0)))
+    return {"ok": True}
 
 
 def api_admin_note_delete(q, ctx=None):

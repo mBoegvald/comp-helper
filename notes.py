@@ -134,20 +134,19 @@ def approved_index(conn, key=db.norm) -> dict:
 
 def promote_to_tip(conn, note_id: int) -> dict:
     """An approved matchup note becomes the curated lane tip for its side, credited to its author, and leaves the
-    community notes so it is not shown twice. A curated label on that matchup stays. One transaction."""
-    n = get(conn, note_id)
-    if n["status"] != "approved" or not n["opponent"]:
-        raise NoteError("Only an approved note on a matchup can become its lane tip.")
-    tip = n["text"] + (f" (from {n['author']})" if n["author"] else "")
-    key = (n["role"], n["champion"], n["opponent"])
+    community notes so it is not shown twice. A curated label on that matchup stays. One transaction, and the note is
+    read inside it: a note another admin deleted or promoted a moment ago cannot become a tip."""
     with conn:
+        conn.execute("BEGIN IMMEDIATE")
+        n = get(conn, note_id)
+        if n["status"] != "approved" or not n["opponent"]:
+            raise NoteError("Only an approved note on a matchup can become its lane tip.")
+        tip = n["text"] + (f" (from {n['author']})" if n["author"] else "")
+        key = (n["role"], n["champion"], n["opponent"])
         row = conn.execute(
             "SELECT result FROM curated_matchup WHERE role = ? AND champion = ? AND opponent = ?", key
         ).fetchone()
-        conn.execute(
-            "INSERT OR REPLACE INTO curated_matchup VALUES (?, ?, ?, ?, ?, ?)",
-            (*key, row["result"] if row else None, tip, db.now()),
-        )
+        db.write_curated_matchup(conn, *key, row["result"] if row else None, tip)
         conn.execute("DELETE FROM community_note WHERE id = ?", (note_id,))
         db.touch(conn)
     return n

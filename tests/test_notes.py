@@ -190,3 +190,28 @@ def test_the_cap_holds_against_parallel_requests(conn, people, monkeypatch):
         t.join()
     assert len(notes.pending(conn)) == 5
     assert len(errors) == 35
+
+
+def test_two_admins_promoting_the_same_note_at_once_make_one_tip(conn, people):
+    """The note is read inside the locked transaction: the second admin finds it gone instead of writing again."""
+    import threading
+
+    n = notes.suggest(conn, people[0], "top", "Darius", "Garen", "Promoted by two admins at once.", approve=True)
+    results = []
+
+    def promote():
+        c = db.connect()
+        try:
+            notes.promote_to_tip(c, n["id"])
+            results.append("ok")
+        except notes.NoteError:
+            results.append("gone")
+        finally:
+            c.close()
+
+    threads = [threading.Thread(target=promote) for _ in range(8)]
+    for t in threads:
+        t.start()
+    for t in threads:
+        t.join()
+    assert sorted(results) == ["gone"] * 7 + ["ok"]
