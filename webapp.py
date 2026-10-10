@@ -45,7 +45,8 @@ ASSET_TYPES = {
 }
 REDDIT_DIR = HERE / "data" / "reddit"
 _lock = threading.Lock()
-CONFIG = {"hosted": False, "secure_cookies": True}  # set by main(): --hosted, --insecure-cookies
+# set by main(): --hosted, --insecure-cookies, --public-host
+CONFIG = {"hosted": False, "secure_cookies": True, "public_hosts": set()}
 LOCAL_ADMIN = {"id": None, "username": "you", "role": "admin"}  # local mode: no accounts, you are admin
 SESSION_COOKIE = "ph_session"
 _tips_cache = {"stamp": None, "data": {}}
@@ -707,6 +708,13 @@ class Handler(BaseHTTPRequestHandler):
             c.load(self.headers.get("Cookie") or "")
         return c[SESSION_COOKIE].value if SESSION_COOKIE in c else None
 
+    def addressed_to_us(self):
+        """Only requests for this server's own address. Without this, a website that points its own name at
+        127.0.0.1 (DNS rebinding) would pass the Origin check: its pages and this server then share a host name."""
+        host = (self.headers.get("Host") or "").lower()
+        port = self.server.server_address[1]
+        return host in {f"127.0.0.1:{port}", f"localhost:{port}", *CONFIG["public_hosts"]}
+
     def same_origin(self):
         """Only our own page may send POSTs. Hosted mode also requires the Origin header, which browsers always
         send on fetch POSTs, so another website cannot act for a signed-in visitor."""
@@ -716,6 +724,8 @@ class Handler(BaseHTTPRequestHandler):
         return urllib.parse.urlparse(origin).netloc == self.headers.get("Host")
 
     def handle_any(self, method):
+        if not self.addressed_to_us():
+            return self.send_json(421, {"error": "This server does not answer for that address."})
         u = urllib.parse.urlparse(self.path)
         if method == "GET" and u.path in ("/", "/index.html"):
             return self.send(200, PAGE.read_bytes(), "text/html; charset=utf-8")
@@ -783,12 +793,20 @@ def main():
     )
     p.add_argument("--host", default="127.0.0.1", help="address to listen on (hosted mode behind a proxy)")
     p.add_argument(
+        "--public-host",
+        action="append",
+        default=[h for h in os.environ.get("PICKHELPER_PUBLIC_HOSTS", "").split(",") if h.strip()],
+        help="name the site is reached by, e.g. picks.example.com (repeatable; also PICKHELPER_PUBLIC_HOSTS)",
+    )
+    p.add_argument(
         "--insecure-cookies",
         action="store_true",
         help="hosted mode without HTTPS, for testing only: session cookies without the Secure flag",
     )
     a = p.parse_args()
-    CONFIG.update(hosted=a.hosted, secure_cookies=not a.insecure_cookies)
+    CONFIG.update(
+        hosted=a.hosted, secure_cookies=not a.insecure_cookies, public_hosts={h.strip().lower() for h in a.public_host}
+    )
     srv = None
     ports = [a.port] if a.hosted else range(a.port, a.port + 20)  # a server keeps its port or fails loudly
     for port in ports:

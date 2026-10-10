@@ -150,3 +150,33 @@ def test_a_client_that_hangs_up_is_not_an_error():
     h.wfile, h.request_version, h.requestline, h.command = HungUp(), "HTTP/1.1", "GET / HTTP/1.1", "GET"
     h.client_address = ("127.0.0.1", 0)
     h.send(200, b"answer", "text/plain")  # does not raise
+
+
+def request_as(base, host, method="GET", path="/api/meta", body=None, origin=None):
+    """A request with a chosen Host header, as a DNS-rebinding page would send it."""
+    _, port = base.removeprefix("http://").split(":")
+    c = http.client.HTTPConnection("127.0.0.1", int(port), timeout=10)
+    headers = {"Host": host, "Content-Type": "application/json"}
+    if origin:
+        headers["Origin"] = origin
+    c.request(method, path, body=json.dumps(body) if body is not None else None, headers=headers)
+    status = c.getresponse().status
+    c.close()
+    return status
+
+
+def test_requests_for_another_host_name_are_refused(server, conn):
+    """DNS rebinding: evil.example resolves to 127.0.0.1, so Host and Origin match each other but are not ours."""
+    port = server.rsplit(":", 1)[1]
+    body = {"role": "top", "champion": "Garen", "opponent": "Darius", "tip": "planted"}
+    evil = f"evil.example:{port}"
+    assert request_as(server, evil, "POST", "/api/curated/matchup", body, origin=f"http://{evil}") == 421
+    assert request_as(server, evil) == 421  # reading too
+    assert conn.execute("SELECT count(*) FROM curated_matchup").fetchone()[0] == 0
+    assert request_as(server, f"localhost:{port}") == 200
+
+
+def test_a_configured_public_name_is_answered(server, monkeypatch):
+    monkeypatch.setitem(webapp.CONFIG, "public_hosts", {"picks.example.com"})
+    assert request_as(server, "picks.example.com") == 200
+    assert request_as(server, "other.example.com") == 421
