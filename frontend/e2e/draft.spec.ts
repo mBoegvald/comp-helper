@@ -100,3 +100,20 @@ test("a ban can be picked with the keyboard", async ({ page }) => {
   await expect(page.locator(".chip", { hasText: "Garen" })).toBeVisible();
   await expect(input).toHaveValue("");
 });
+
+test("a half-typed name does not change the picks", async ({ page }) => {
+  const slot = page.getByRole("combobox", { name: "Enemy Top" });
+  const asked = page.waitForResponse(
+    (r) => r.url().includes("/api/recommend") && r.request().postData()!.includes('"ga"'),
+  );
+  await slot.fill("ga");
+  await asked;
+  await expect(page.getByRole("heading", { name: "Best top blind picks" })).toBeVisible();
+  await expect(page.getByText(/into ga\b/)).toHaveCount(0);
+  await slot.press("Escape");
+  await expect(slot).toHaveClass(/unknown/); // still marked as not a champion
+
+  await slot.fill("gar");
+  await slot.press("Enter");
+  await expect(page.getByRole("heading", { name: "Best top picks into Garen" })).toBeVisible();
+});

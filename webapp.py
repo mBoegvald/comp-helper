@@ -283,7 +283,8 @@ def api_recommend(q, ctx=None):
             if not n or not str(n).strip() or (side == "ally" and r == role):
                 continue
             k = resolve(str(n))
-            out.append((r, k))
+            if k in names:  # unfinished or misspelled names ("ga") are reported in slots but not scored
+                out.append((r, k))
             slots[f"{side}.{r}"] = {"name": names.get(k), "known": k in names, "in_role": k in champs}
     enemy_main = next((k for r, k in enemies if r == role), None)
     enemy_keys = [k for _, k in enemies]

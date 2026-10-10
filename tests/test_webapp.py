@@ -128,3 +128,12 @@ def test_champion_outside_the_pool_has_the_full_shape(conn):
     d = webapp.api_champion({"role": "top", "name": "Ahri"})
     assert d["in_role"] is False
     assert set(d["champion"]) == {"name", "arch", "dmg", "comps", "good", "bad", "when", "blind"}
+
+
+def test_unfinished_names_are_reported_but_not_scored(conn):
+    """While typing, "ga" is no champion yet: it must not become the lane opponent or match notes as text."""
+    d = webapp.api_recommend({"role": "top", "enemy": {"top": "ga"}})
+    assert d["enemy_main"] is None
+    assert d["slots"]["enemy.top"]["known"] is False  # the page still marks the box
+    assert not any(p.get("enemy") == "ga" for pick in d["picks"] for p in pick["parts"])
+    assert webapp.api_recommend({"role": "top", "enemy": {"top": "gar"}})["enemy_main"] == "Garen"  # unique start
