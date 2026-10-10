@@ -162,3 +162,30 @@ export interface Ok {
   ok: boolean;
   error?: string;
 }
+
+/** A signed-in account (hosted mode). In local mode the server answers as the admin "you". */
+export interface User {
+  id: number | null;
+  username: string;
+  role: "contributor" | "admin";
+}
+
+/** /api/me, /api/login, /api/signup, /api/logout */
+export interface Me {
+  hosted: boolean;
+  user: User | null;
+  admin: boolean;
+}
+
+export interface Account {
+  id: number;
+  username: string;
+  role: "contributor" | "admin";
+  blocked: 0 | 1;
+  created_at: string;
+}
+
+/** /api/admin/accounts, /api/admin/block */
+export interface Accounts {
+  accounts: Account[];
+}

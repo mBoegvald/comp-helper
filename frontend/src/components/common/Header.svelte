@@ -1,13 +1,15 @@
 <script lang="ts">
   import { app, type View } from "../../lib/app.svelte.ts";
+  import { logout, session } from "../../lib/session.svelte.ts";
 
-  const TABS: { id: View; label: string }[] = [
+  let { view = $bindable(), onsignin }: { view: View; onsignin?: () => void } = $props();
+
+  const tabs = $derived<{ id: View; label: string }[]>([
     { id: "draft", label: "Draft" },
     { id: "lookup", label: "Lookup" },
     { id: "data", label: "Data" },
-  ];
-
-  let { view = $bindable() }: { view: View } = $props();
+    ...(session.hosted && session.admin ? [{ id: "admin" as const, label: "Admin" }] : []),
+  ]);
 </script>
 
 <header>
@@ -21,10 +23,20 @@
       {#if app.running}<span class="pill run">Update running</span>{/if}
     </div>
     <div class="tabs" role="tablist" aria-label="Views">
-      {#each TABS as t (t.id)}
+      {#each tabs as t (t.id)}
         <button role="tab" aria-selected={view === t.id} onclick={() => (view = t.id)}>{t.label}</button>
       {/each}
     </div>
+    {#if session.hosted}
+      <div class="account">
+        {#if session.user}
+          <span class="small muted">{session.user.username}{session.admin ? " (admin)" : ""}</span>
+          <button class="btn" onclick={logout}>Sign out</button>
+        {:else}
+          <button class="btn primary" onclick={onsignin}>Sign in</button>
+        {/if}
+      </div>
+    {/if}
   </div>
 </header>
 
@@ -82,6 +94,11 @@
     cursor: pointer;
     color: var(--muted);
     font-weight: 600;
+  }
+  .account {
+    display: flex;
+    gap: 8px;
+    align-items: center;
   }
   .tabs button[aria-selected="true"] {
     background: var(--panel-2);
