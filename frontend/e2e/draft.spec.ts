@@ -51,3 +51,52 @@ test("a card opens to its lane and champion info, and links to Lookup", async ({
   await expect(page.getByRole("tab", { name: "Lookup" })).toHaveAttribute("aria-selected", "true");
   await expect(page.getByLabel("Champion")).toHaveValue("Garen");
 });
+
+test("champions can be picked with the keyboard", async ({ page }) => {
+  const slot = page.getByRole("combobox", { name: "Enemy Top" });
+  await slot.fill("dar");
+  await expect(page.getByRole("option").first()).toHaveAccessibleName("Darius"); // the icon is hidden from readers
+  await expect(slot).toHaveAttribute("aria-expanded", "true");
+  await slot.press("Enter");
+  await expect(slot).toHaveValue("Darius");
+  await expect(page.getByRole("listbox")).toHaveCount(0);
+  await expect(page.getByRole("heading", { name: "Best top picks into Darius" })).toBeVisible();
+});
+
+test("arrow keys move through the suggestions, and Tab picks and moves on", async ({ page }) => {
+  const slot = page.getByRole("combobox", { name: "Enemy Top" });
+  await slot.fill("ga");
+  const options = page.getByRole("option");
+  await expect(options.nth(1)).toBeVisible();
+  await slot.press("ArrowDown");
+  await expect(options.nth(1)).toHaveAttribute("aria-selected", "true");
+  const second = (await options.nth(1).locator(".name").textContent())!;
+  await slot.press("Tab");
+  await expect(slot).toHaveValue(second);
+  await expect(page.getByRole("combobox", { name: "Enemy Jungle" })).toBeFocused();
+});
+
+test("Escape closes the suggestions and keeps the text", async ({ page }) => {
+  const slot = page.getByRole("combobox", { name: "Enemy Top" });
+  await slot.fill("gar");
+  await expect(page.getByRole("listbox")).toBeVisible();
+  await slot.press("Escape");
+  await expect(page.getByRole("listbox")).toHaveCount(0);
+  await expect(slot).toHaveValue("gar");
+});
+
+test("a suggestion can be clicked", async ({ page }) => {
+  const slot = page.getByRole("combobox", { name: "Enemy Top" });
+  await slot.fill("aat");
+  await page.getByRole("option", { name: "Aatrox" }).click();
+  await expect(slot).toHaveValue("Aatrox");
+  await expect(slot).toBeFocused(); // clicking does not take the focus away
+});
+
+test("a ban can be picked with the keyboard", async ({ page }) => {
+  const input = page.getByRole("combobox", { name: "Unavailable (bans, fearless)" });
+  await input.fill("gare");
+  await input.press("Enter");
+  await expect(page.locator(".chip", { hasText: "Garen" })).toBeVisible();
+  await expect(input).toHaveValue("");
+});

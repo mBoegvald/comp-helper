@@ -1,4 +1,6 @@
 <script lang="ts">
+  import ChampInput from "../common/ChampInput.svelte";
+
   /** Names as removable chips: type and press Enter or comma, or pick from the suggestions; Backspace removes the last. */
   interface Props {
     items: string[];
@@ -35,15 +37,7 @@
       <button type="button" title="Remove" aria-label="Remove {name}" onclick={() => items.splice(i, 1)}>×</button>
     </span>
   {/each}
-  <input
-    {id}
-    list="champ-list"
-    autocomplete="off"
-    {placeholder}
-    bind:value={text}
-    {onkeydown}
-    onchange={() => names.includes(text) && add(text)}
-  />
+  <ChampInput {id} {names} {placeholder} bare bind:value={text} onpick={add} {onkeydown} />
 </div>
 
 <style>
@@ -57,12 +51,10 @@
     padding: 4px;
     background: var(--panel);
   }
-  input {
-    border: 0;
+  .chips :global(.combo) {
     flex: 1;
+    width: auto;
     min-width: 110px;
-    padding: 3px 4px;
-    box-shadow: none !important;
   }
   .chip {
     display: inline-flex;

@@ -94,3 +94,11 @@ test("looking up another champion closes the editor", async ({ page }) => {
   await expect(page.getByLabel("Pick when")).toHaveCount(0);
   await expect(page.getByRole("button", { name: "Edit notes" })).toBeVisible();
 });
+
+test("a champion can be picked with the keyboard", async ({ page }) => {
+  const box = page.getByRole("combobox", { name: "Champion" });
+  await box.fill("gar");
+  await box.press("Enter");
+  await expect(box).toHaveValue("Garen");
+  await expect(page.getByRole("heading", { name: /^Garen top: \d+ matchups$/ })).toBeVisible();
+});

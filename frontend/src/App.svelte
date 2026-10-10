@@ -57,10 +57,6 @@
   {/if}
 </main>
 
-<datalist id="champ-list">
-  {#each app.meta?.names ?? [] as name (name)}<option value={name}></option>{/each}
-</datalist>
-
 <style>
   main {
     max-width: 1240px;
