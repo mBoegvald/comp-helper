@@ -31,6 +31,29 @@ def test_running_pid_is_readable_while_locked(tmp_path, monkeypatch):
     assert not update.is_running()
 
 
+def test_log_is_trimmed_to_whole_recent_lines(tmp_path, monkeypatch):
+    log = tmp_path / "update.log"
+    monkeypatch.setattr(update, "LOG", log)
+    monkeypatch.setattr(update, "LOG_MAX", 1000)
+    monkeypatch.setattr(update, "LOG_KEPT", 300)
+    lines = [f"line {i:04d} " + "x" * 30 for i in range(100)]
+    log.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+    update.trim_log()
+    kept = log.read_text(encoding="utf-8").splitlines()
+    assert 0 < len(kept) < 10 and kept == lines[-len(kept) :]  # the newest lines, none cut in half
+    assert log.stat().st_size <= 300
+
+    small = log.read_bytes()
+    update.trim_log()  # under the limit: left alone
+    assert log.read_bytes() == small
+
+
+def test_trim_log_without_a_log(tmp_path, monkeypatch):
+    monkeypatch.setattr(update, "LOG", tmp_path / "missing.log")
+    update.trim_log()
+
+
 def test_backup_once_per_day_and_pruned(conn, tmp_path, monkeypatch):
     monkeypatch.setattr(update, "BACKUPS", tmp_path / "backups")
     monkeypatch.setattr(update, "BACKUPS_KEPT", 2)

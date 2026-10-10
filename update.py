@@ -14,7 +14,7 @@ Options (or environment variables):
   --threads 12          REDDIT_COMMENT_THREADS   threads per champion for the comments stage
 
 Everything is saved in data/pickhelper.db; each run first makes that day's copy in data/backups.
-Progress goes to logs/update.log. Only one update runs at a time.
+Progress goes to logs/update.log (trimmed to its newest part when it grows past 2 MB). Only one update runs at a time.
 """
 
 import argparse
@@ -29,6 +29,8 @@ LOG = HERE / "logs" / "update.log"
 LOCK = HERE / "logs" / "update.lock"
 BACKUPS = HERE / "data" / "backups"
 BACKUPS_KEPT = 14
+LOG_MAX = 2_000_000  # bytes; past this, a run starts by cutting the log down to its last LOG_KEPT bytes
+LOG_KEPT = 500_000
 STAGES = ("all", "lolalytics", "reddit", "comments", "tips")
 
 
@@ -108,6 +110,21 @@ def running_pid():
         return None
 
 
+def trim_log():
+    """Keep logs/update.log small on a server that updates every week: past LOG_MAX, keep the last LOG_KEPT bytes,
+    from the start of a line. Called while holding the lock, so no run is writing to it."""
+    try:
+        if LOG.stat().st_size <= LOG_MAX:
+            return
+        with LOG.open("rb") as f:
+            f.seek(-LOG_KEPT, os.SEEK_END)
+            tail = f.read()
+        tail = tail[tail.find(b"\n") + 1 :]
+        LOG.write_bytes(tail)  # in place, not replaced: the web page may have it open on Windows
+    except OSError:
+        pass
+
+
 def run(args, what: str) -> bool:
     """Run one of our scripts with the current Python, output appended to the log."""
     env = dict(os.environ, PYTHONIOENCODING="utf-8", PYTHONUNBUFFERED="1")
@@ -159,6 +176,7 @@ def main(argv=None):
     if not lock.acquire():
         log("another update is already running, exiting")
         return 1
+    trim_log()
     what = a.stage
     log(f"started ({what}) for roles: {' '.join(roles)}")
 

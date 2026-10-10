@@ -62,6 +62,13 @@ added. Or from the server:
 docker compose exec app python update.py lolalytics
 ```
 
+To refresh the win rates every week without thinking about it, add to root's crontab (`crontab -e`); this runs on
+Thursday at 05:00, after Wednesday's patches, and its progress goes to `logs/update.log` as usual:
+
+```
+0 5 * * 4 cd /root/pickhelper && docker compose exec -T app python update.py lolalytics >/dev/null 2>&1
+```
+
 ## Updating the app
 
 ```
@@ -119,7 +126,8 @@ docker compose start app
 ## Logs and trouble
 
 - `docker compose logs app` shows the app, including tracebacks of server errors (visitors only see a plain message).
-- `docker compose exec app tail -50 logs/update.log` shows the last data update.
+- `docker compose exec app tail -50 logs/update.log` shows the last data update. The log trims itself to its newest
+  part past 2 MB, and Docker keeps at most 30 MB of logs per service, so neither fills the disk.
 - **"This server does not answer for that address"**: `DOMAIN` in `.env` does not match the address in the browser.
   Fix it and run `docker compose up -d`.
 - **No HTTPS / certificate errors**: the domain does not point at the server yet, or port 80 or 443 is blocked;
