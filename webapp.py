@@ -673,6 +673,7 @@ def allowed(user, access):
 
 class Handler(BaseHTTPRequestHandler):
     server_version = "PickHelper/1"
+    timeout = 30  # seconds a connection may stall (a body announced but never sent) before it is dropped
 
     def log_message(self, fmt, *args):  # quiet console
         pass
@@ -741,7 +742,10 @@ class Handler(BaseHTTPRequestHandler):
                 return self.send_json(403, {"error": "forbidden"})
             if CONFIG["hosted"] and not (self.headers.get("Content-Type") or "").startswith("application/json"):
                 return self.send_json(415, {"error": "send JSON"})
-            n = int(self.headers.get("Content-Length") or 0)
+            length = (self.headers.get("Content-Length") or "0").strip()
+            if not length.isdigit():  # negative or junk: reading it would hang or crash
+                return self.send_json(400, {"error": "bad Content-Length"})
+            n = int(length)
             if n > MAX_BODY:
                 return self.send_json(413, {"error": "request too large"})
             try:

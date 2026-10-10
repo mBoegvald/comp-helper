@@ -180,3 +180,33 @@ def test_a_configured_public_name_is_answered(server, monkeypatch):
     monkeypatch.setitem(webapp.CONFIG, "public_hosts", {"picks.example.com"})
     assert request_as(server, "picks.example.com") == 200
     assert request_as(server, "other.example.com") == 421
+
+
+def raw_post(base, length, body=b""):
+    """A POST with a hand-written Content-Length, as a broken or hostile client would send it."""
+    _, port = base.removeprefix("http://").split(":")
+    c = http.client.HTTPConnection("127.0.0.1", int(port), timeout=10)
+    c.putrequest("POST", "/api/recommend")
+    c.putheader("Content-Type", "application/json")
+    c.putheader("Content-Length", length)
+    c.endheaders(body)
+    status = c.getresponse().status
+    c.close()
+    return status
+
+
+@pytest.mark.parametrize("length", ["-1", "abc", "1e3", "+5"])
+def test_a_bad_content_length_is_refused_at_once(server, length):
+    assert raw_post(server, length) == 400
+
+
+def test_a_stalled_request_is_dropped(server, monkeypatch):
+    """A body that is announced but never sent must not hold a server thread forever."""
+    import socket
+
+    monkeypatch.setattr(webapp.Handler, "timeout", 1)
+    _, port = server.removeprefix("http://").split(":")
+    s = socket.create_connection(("127.0.0.1", int(port)), timeout=10)
+    s.sendall(f"POST /api/recommend HTTP/1.1\r\nHost: 127.0.0.1:{port}\r\nContent-Length: 1000\r\n\r\n{{}}".encode())
+    assert s.recv(1024) == b""  # the server gave up and closed the connection
+    s.close()
