@@ -178,6 +178,7 @@ export interface Me {
   hosted: boolean;
   user: User | null;
   admin: boolean;
+  contact: string; // who runs the hosted site, for the privacy page ("" when not set)
 }
 
 export interface Account {

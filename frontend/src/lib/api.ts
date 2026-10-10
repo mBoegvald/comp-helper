@@ -64,3 +64,4 @@ export const promoteNote = (id: number) => request<Ok>("/api/admin/notes/promote
 export const editNote = (id: number, text: string, source: string) =>
   request<{ note: Suggestion }>("/api/notes/edit", { id, text, source });
 export const withdrawNote = (id: number) => request<Ok>("/api/notes/withdraw", { id });
+export const deleteAccount = (password: string) => request<Me>("/api/account/delete", { password });
