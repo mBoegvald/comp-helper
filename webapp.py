@@ -17,6 +17,7 @@ import signal
 import subprocess
 import sys
 import threading
+import traceback
 import urllib.parse
 import webbrowser
 from http.cookies import SimpleCookie
@@ -773,7 +774,12 @@ class Handler(BaseHTTPRequestHandler):
         except (ValueError, KeyError) as e:
             out, code = {"error": str(e)}, 400
         except Exception as e:  # noqa: BLE001 - e.g. the database busy during an update
-            out, code = {"error": f"{type(e).__name__}: {e}. If an update is running, try again in a moment."}, 500
+            if CONFIG["hosted"]:  # visitors get no internals (paths, SQL); the admin finds them in the server log
+                traceback.print_exc()
+                out = {"error": "Something went wrong on the server. Please try again in a moment."}
+            else:
+                out = {"error": f"{type(e).__name__}: {e}. If an update is running, try again in a moment."}
+            code = 500
         self.send_json(code, out, ctx.cookies)
 
     def do_GET(self):

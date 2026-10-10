@@ -271,3 +271,13 @@ def test_admin_turns_a_note_into_the_lane_tip(hosted):
     assert status == 200 and m["community"] == []
     assert [(t["who"], t["text"]) for t in m["tips"]] == [("Darius", "Trade when his Q is dwn. (from pleb)")]
     assert request(hosted, "POST", "/api/admin/notes/promote", {"id": note_id}, cookie=boss)[0] == 400  # gone
+
+
+def test_server_errors_show_no_internals_when_hosted(hosted, monkeypatch, capsys):
+    def broken(_q, _ctx=None):
+        raise RuntimeError("secret detail: /srv/pickhelper/data/pickhelper.db")
+
+    monkeypatch.setitem(webapp.ROUTES, ("GET", "/api/meta"), (broken, webapp.PUBLIC))
+    status, d, _ = request(hosted, "GET", "/api/meta")
+    assert status == 500 and "secret detail" not in d["error"]
+    assert "secret detail" in capsys.readouterr().err  # but it is in the server log

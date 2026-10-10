@@ -216,3 +216,12 @@ def test_a_stalled_request_is_dropped(server, monkeypatch):
     s.sendall(f"POST /api/recommend HTTP/1.1\r\nHost: 127.0.0.1:{port}\r\nContent-Length: 1000\r\n\r\n{{}}".encode())
     assert s.recv(1024) == b""  # the server gave up and closed the connection
     s.close()
+
+
+def test_server_errors_say_what_happened_locally(server, monkeypatch):
+    def broken(_q, _ctx=None):
+        raise RuntimeError("detail for you")
+
+    monkeypatch.setitem(webapp.ROUTES, ("GET", "/api/meta"), (broken, webapp.PUBLIC))
+    status, d = call(server + "/api/meta")
+    assert status == 500 and "detail for you" in d["error"]
