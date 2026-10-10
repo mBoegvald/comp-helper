@@ -1,8 +1,9 @@
 name: CI
 
 on:
-  push:
   pull_request:
+  push:
+    branches: [main]  # a branch with a PR is already tested through the PR; no second run
 
 jobs:
   lint:
