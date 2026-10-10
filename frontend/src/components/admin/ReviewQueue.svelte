@@ -24,38 +24,71 @@
     <p class="small muted">Nothing to review. New suggestions show up here.</p>
   {/if}
   {#each review.notes as n (n.id)}
-    {@const link = safeLink(n.source)}
+    <!-- an edit of an approved note: the approved text stays on the site; decide on the edited text -->
+    {@const isEdit = n.revised_text !== null}
+    {@const proposed = n.revised_text ?? n.text}
+    {@const source = isEdit ? n.revised_source : n.source}
+    {@const link = safeLink(source)}
     <article>
       <div class="head">
-        <b>{ROLE_LABEL[n.role]} · {n.champion}{n.opponent ? ` vs ${n.opponent}` : " (the champion)"}</b>
-        <span class="small muted">{n.author ?? "a removed account"} · {n.created_at.slice(0, 10)}</span>
+        <b>
+          {ROLE_LABEL[n.role]} · {n.champion}{n.opponent ? ` vs ${n.opponent}` : " (the champion)"}
+          {#if isEdit}<span class="kind">Edit</span>{/if}
+        </b>
+        <span class="small muted">
+          {n.author ?? "a removed account"} · {(n.revised_at ?? n.created_at).slice(0, 10)}
+        </span>
       </div>
-      <label class="label" for="review-{n.id}">Note (fix it before approving if needed)</label>
+      {#if isEdit}
+        <p class="now"><span class="small muted">Now on the site:</span> {n.text}</p>
+      {/if}
+      <label class="label" for="review-{n.id}">
+        {isEdit ? "Edited note" : "Note"} (fix it before approving if needed)
+      </label>
       <textarea
         id="review-{n.id}"
         rows="3"
-        value={edits[n.id] ?? n.text}
+        value={edits[n.id] ?? proposed}
         oninput={(e) => (edits[n.id] = e.currentTarget.value)}></textarea>
-      {#if n.source}
+      {#if source}
         <p class="small muted">
-          Source: {#if link}<a href={link} target="_blank" rel="noopener noreferrer nofollow ugc">{n.source}</a
-            >{:else}{n.source}{/if}
+          Source: {#if link}<a href={link} target="_blank" rel="noopener noreferrer nofollow ugc">{source}</a
+            >{:else}{source}{/if}
         </p>
       {/if}
       <div class="row actions">
-        <button class="btn primary" disabled={busy === n.id} onclick={() => act(n.id, true, n.text)}>Approve</button>
+        <button class="btn primary" disabled={busy === n.id} onclick={() => act(n.id, true, proposed)}>
+          {isEdit ? "Approve edit" : "Approve"}
+        </button>
         <input
           aria-label="Reason for rejecting (optional)"
           placeholder="Reason for rejecting (optional)"
           bind:value={reasons[n.id]}
         />
-        <button class="btn danger" disabled={busy === n.id} onclick={() => act(n.id, false, n.text)}>Reject</button>
+        <button class="btn danger" disabled={busy === n.id} onclick={() => act(n.id, false, proposed)}>
+          {isEdit ? "Reject edit" : "Reject"}
+        </button>
       </div>
     </article>
   {/each}
 </div>
 
 <style>
+  .kind {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 1px 6px;
+    margin-left: 6px;
+    border-radius: 99px;
+    color: var(--warn);
+    background: var(--warn-bg);
+  }
+  .now {
+    margin: 0 0 6px;
+    padding-left: 8px;
+    border-left: 3px solid var(--good);
+    overflow-wrap: anywhere;
+  }
   article {
     border-top: 1px solid var(--line);
     padding: 10px 0;
