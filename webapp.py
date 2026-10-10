@@ -872,6 +872,9 @@ def main():
     print(f"Pick helper running at {url}  ({mode})", flush=True)
     if not a.no_browser and not a.hosted:
         threading.Timer(0.6, lambda: webbrowser.open(url)).start()
+    # `docker stop` and service managers send SIGTERM; as a container's first process Python would ignore it and be
+    # killed after a timeout. Every write is a transaction, so stopping at any moment is safe.
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))
     with contextlib.suppress(KeyboardInterrupt):
         srv.serve_forever()
 
