@@ -175,3 +175,88 @@ test("only one confirm at a time on a note", async ({ page }) => {
   await note.getByRole("button", { name: "Really delete?" }).click();
   await expect(note).toHaveCount(0);
 });
+
+/** A contributor with an approved note on Darius vs Garen. Returns the writer's name and the note's id. */
+async function approvedNoteBy(page: Page, text: string) {
+  const writer = newName("editor");
+  await as(page, writer, "editor password", true);
+  const r = await page.request.post("/api/notes", {
+    data: { role: "top", champion: "Darius", opponent: "Garen", text, source: "" },
+    headers: ORIGIN,
+  });
+  const { note } = await r.json();
+  await as(page, ADMIN.username, ADMIN.password);
+  await page.request.post("/api/admin/review", { data: { id: note.id, approve: true }, headers: ORIGIN });
+  await as(page, writer, "editor password");
+  return writer;
+}
+
+async function editInMyNotes(page: Page, from: string, to: string) {
+  await page.getByRole("tab", { name: "My notes" }).click();
+  const card = page.locator(".mine article", { hasText: from });
+  await card.getByRole("button", { name: "Edit" }).click();
+  await expect(card.getByText("the approved text stays on the site until then")).toBeVisible();
+  await card.getByLabel("Your note").fill(to);
+  await card.getByRole("button", { name: "Save" }).click();
+  await expect(card.getByText("Edit waiting for review")).toBeVisible();
+  return card;
+}
+
+const siteNotes = (page: Page) => page.locator(".panel", { hasText: "Darius vs Garen" }).locator(".note");
+
+test("an edit of an approved note waits for review while the old text stays on the site", async ({ page }) => {
+  const id = Date.now() % 1_000_000;
+  const [before, after] = [`Approved wording ${id}.`, `Better wording ${id}.`];
+  const writer = await approvedNoteBy(page, before);
+  const card = await editInMyNotes(page, before, after);
+  await expect(card).toContainText(`Your edit: ${after}`);
+
+  await openLookup(page, "Darius", "Garen");
+  await expect(siteNotes(page).filter({ hasText: before })).toBeVisible();
+  await expect(siteNotes(page).filter({ hasText: after })).toHaveCount(0);
+
+  await as(page, ADMIN.username, ADMIN.password);
+  await page.getByRole("tab", { name: /^Admin/ }).click();
+  const item = page.locator("article", { hasText: `Now on the site: ${before}` }).filter({ visible: true });
+  await expect(item.getByText("Edit", { exact: true })).toBeVisible();
+  await expect(item.getByLabel("Edited note (fix it before approving if needed)")).toHaveValue(after);
+  await item.getByRole("button", { name: "Approve edit" }).click();
+  await expect(item).toHaveCount(0);
+
+  await openLookup(page, "Darius", "Garen");
+  await expect(siteNotes(page).filter({ hasText: after })).toContainText(writer);
+  await expect(siteNotes(page).filter({ hasText: before })).toHaveCount(0);
+});
+
+test("a rejected edit keeps the old text and tells the author why", async ({ page }) => {
+  const id = Date.now() % 1_000_000;
+  const [before, after] = [`Kept wording ${id}.`, `Rejected wording ${id}.`];
+  const writer = await approvedNoteBy(page, before);
+  await editInMyNotes(page, before, after);
+
+  await as(page, ADMIN.username, ADMIN.password);
+  await page.getByRole("tab", { name: /^Admin/ }).click();
+  const item = page.locator("article", { hasText: `Now on the site: ${before}` }).filter({ visible: true });
+  await item.getByLabel("Reason for rejecting (optional)").fill("Less clear than before.");
+  await item.getByRole("button", { name: "Reject edit" }).click();
+  await expect(item).toHaveCount(0);
+
+  await as(page, writer, "editor password");
+  await page.getByRole("tab", { name: "My notes" }).click();
+  const card = page.locator(".mine article", { hasText: before });
+  await expect(card.getByText("Approved")).toBeVisible();
+  await expect(card).toContainText("your last edit was not accepted: Less clear than before.");
+  await expect(card.getByText("Your edit:")).toHaveCount(0);
+});
+
+test("an author withdraws a note, and it leaves the site", async ({ page }) => {
+  const text = `Withdrawn wording ${Date.now() % 1_000_000}.`;
+  await approvedNoteBy(page, text);
+  await page.getByRole("tab", { name: "My notes" }).click();
+  const card = page.locator(".mine article", { hasText: text });
+  await card.getByRole("button", { name: "Withdraw" }).click();
+  await card.getByRole("button", { name: "Really withdraw?" }).click();
+  await expect(card).toHaveCount(0);
+  await openLookup(page, "Darius", "Garen");
+  await expect(siteNotes(page).filter({ hasText: text })).toHaveCount(0);
+});
