@@ -4,7 +4,7 @@
   import type { Account } from "../../lib/types.ts";
   import ErrorBox from "../common/ErrorBox.svelte";
 
-  let accounts = $state<Account[]>([]);
+  let accounts = $state.raw<Account[]>([]);
   let error = $state<string | null>(null);
   let filter = $state("");
 

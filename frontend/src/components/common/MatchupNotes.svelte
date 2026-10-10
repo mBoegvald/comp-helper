@@ -36,7 +36,7 @@
           <div class="snip">
             {t.text}
             <div class="meta">
-              {t.date}{#if url}{" · "}<a href={url} target="_blank" rel="noopener noreferrer">thread</a>{/if}
+              {t.date}{#if url}&nbsp;· <a href={url} target="_blank" rel="noopener noreferrer">thread</a>{/if}
             </div>
           </div>
         {/each}
