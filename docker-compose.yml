@@ -1,9 +1,18 @@
 # Pick Helper on a server: the app, and Caddy in front for HTTPS. Put your domain in .env (see .env.example), then
 # `docker compose up -d --build`. The app port is not published: only Caddy can reach it. See docs/hosting.md.
+
+# container logs: at most 3 files of 10 MB per service, so they never fill the disk
+x-logging: &logging
+  driver: json-file
+  options:
+    max-size: 10m
+    max-file: "3"
+
 services:
   app:
     build: .
     restart: unless-stopped
+    logging: *logging
     init: true # reaps finished update processes started from the Data tab
     environment:
       PICKHELPER_PUBLIC_HOSTS: ${DOMAIN:?set DOMAIN in .env}
@@ -15,6 +24,7 @@ services:
   caddy:
     image: caddy:2.11.4-alpine
     restart: unless-stopped
+    logging: *logging
     depends_on: [app]
     ports:
       - "80:80"
