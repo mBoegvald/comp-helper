@@ -1,5 +1,16 @@
 # Pick helper: notes
 
+## Community notes with review (2026-10-10)
+- Hosted mode: signed-in users suggest a note on a champion or a matchup ("Suggest a note" in Lookup); it waits in
+  the admin's review queue (Admin tab, with the count on the tab) until approved, optionally with corrected text, or
+  rejected with a reason the author sees under My notes. Admins' own notes skip the queue; admins can delete notes.
+- notes.py holds the rules: 10 to 1000 characters on one line, a source of at most 200 characters that may only be a
+  link when it is http(s) (the page links it only for a plain http(s) URL, with rel=nofollow ugc), at most 20
+  waiting notes per account, and blocking an account rejects its waiting notes.
+- Approved notes come with /api/matchup (both sides, marked with `who`, like lane tips) and /api/champion. They are
+  read once into an index cached on the database stamp, not queried per matchup.
+- Local mode shows approved notes but takes no suggestions: there you edit your own notes directly.
+
 ## Accounts and hosted mode (2026-10-10)
 - Goal: a hosted site where anyone can read, people with accounts suggest notes, and the admin reviews them before
   they show (review queue: next PR; hosting with Docker: the one after). Decided: open sign-up, public reading,
