@@ -125,3 +125,43 @@ def test_writes_bump_the_stamp(conn, people):
     before = db.stamp(conn)
     notes.suggest(conn, people[0], "top", "Darius", None, "Bumps the stamp once.")
     assert db.stamp(conn) == before + 1
+
+
+def matchup_tip(conn, champion, opponent):
+    return conn.execute(
+        "SELECT result, tip FROM curated_matchup WHERE role = 'top' AND champion = ? AND opponent = ?",
+        (champion, opponent),
+    ).fetchone()
+
+
+def test_an_approved_note_becomes_the_lane_tip(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", "Garen", "Walk up when his Q is down.")
+    notes.review(conn, n["id"], approve=True)
+    notes.promote_to_tip(conn, n["id"])
+    assert tuple(matchup_tip(conn, "Darius", "Garen")) == (None, "Walk up when his Q is down. (from pleb)")
+    assert notes.approved_index(conn) == {}  # no longer shown twice
+    row = {(r["champ"], r["opp"]): r for r in db.matchups(conn, "top")}[("Darius", "Garen")]
+    assert row["tip"] == "Walk up when his Q is down. (from pleb)"
+
+
+def test_promoting_keeps_the_label_and_replaces_the_old_tip(conn, people):
+    db.set_curated_matchup(conn, "top", "Darius", "Garen", result="Favored", tip="Old tip")
+    n = notes.suggest(conn, people[0], "top", "Darius", "Garen", "A better tip for this lane.", approve=True)
+    notes.promote_to_tip(conn, n["id"])
+    assert tuple(matchup_tip(conn, "Darius", "Garen")) == ("Favored", "A better tip for this lane. (from pleb)")
+
+
+@pytest.mark.parametrize("approve, opponent", [(False, "Garen"), (True, None)])
+def test_only_approved_matchup_notes_can_be_promoted(conn, people, approve, opponent):
+    n = notes.suggest(conn, people[0], "top", "Darius", opponent, "Not something to promote.", approve=approve)
+    with pytest.raises(notes.NoteError, match="Only an approved note on a matchup"):
+        notes.promote_to_tip(conn, n["id"])
+    assert notes.get(conn, n["id"])  # left alone
+
+
+def test_a_note_without_author_is_promoted_without_credit(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", "Garen", "Outlives its author too.", approve=True)
+    with conn:
+        conn.execute("DELETE FROM account WHERE id = ?", (people[0],))
+    notes.promote_to_tip(conn, n["id"])
+    assert matchup_tip(conn, "Darius", "Garen")["tip"] == "Outlives its author too."
