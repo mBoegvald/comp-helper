@@ -1,5 +1,26 @@
 # Pick helper: notes
 
+## Svelte page and editing (2026-10-10)
+- frontend/: Svelte 5 + Vite in strict TypeScript; the API answers are typed in src/lib/types.ts (keep it in step
+  with webapp.py's api_* functions). Components per tab (draft/, lookup/, data/, edit/) plus
+  common/; shared state in src/lib/*.svelte.js (app: meta, update status, dataVersion; prefs: remembered draft under
+  the old 'ph.state' localStorage key, so drafts carried over). All three tabs stay mounted and are hidden, so
+  switching keeps each tab's state.
+- Views refetch when app.dataVersion changes: after an update finishes and after any saved edit.
+- web/dist is committed (Windows has no Node) and served by webapp.py, which only serves files under
+  web/dist/assets (tests cover '..' and %2e%2e paths). CI rebuilds and fails if web/dist differs (git status, not
+  git diff, because a stale build has new hashed file names).
+- npm deps were installed with --before two weeks back. npm audit flags source-map-js 1.2.1 (DoS on malicious
+  source maps, build time only, not reachable here); 1.2.2 was 10 days old on 2026-10-10, so update after
+  2026-10-14.
+- Tests: Vitest for src/lib (npm test) and Playwright in frontend/e2e (npm run e2e). Playwright starts
+  tests/e2e_server.py, which serves the built page on a fresh copy of tests/fixture_db.py (the same known numbers as
+  pytest), blocks Riot's icon server, and fails a test on any error thrown in the page. Hidden tabs stay mounted, so
+  locators for tables need .filter({ visible: true }). tsconfig.node.json covers the Node-side files (configs, e2e).
+- Checked in headless Chromium (driven over the DevTools protocol, against a copy of the database): all three tabs,
+  name matching, bans, sorting and filters, a real 'Rebuild tips' run with live status, and the edit flow
+  (save, shown everywhere, clear back to defaults). No page errors.
+
 ## Lint, tests and CI (2026-10-10)
 - ruff (lint + format, 120 columns; E501 off because the formatter owns line length) and pytest, pinned in
   requirements-dev.txt and matched by shell.nix. The one-off reformat is listed in .git-blame-ignore-revs.
