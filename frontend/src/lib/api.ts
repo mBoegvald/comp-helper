@@ -60,3 +60,4 @@ export const getReviewQueue = () => request<Suggestions>("/api/admin/review");
 export const reviewNote = (id: number, approve: boolean, text?: string, note?: string) =>
   request<Suggestions>("/api/admin/review", { id, approve, text, note });
 export const deleteNote = (id: number) => request<Ok>("/api/admin/notes/delete", { id });
+export const promoteNote = (id: number) => request<Matchup>("/api/admin/notes/promote", { id });
