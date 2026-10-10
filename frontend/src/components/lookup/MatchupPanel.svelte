@@ -16,13 +16,7 @@
   let m = $state<Matchup | null>(null);
   let error = $state<string | null>(null);
   let panel = $state<HTMLDivElement>();
-  let editing = $state(false);
-
-  // another opponent: close the editor
-  $effect.pre(() => {
-    void opp;
-    editing = false;
-  });
+  let editing = $derived.by(() => (void opp, false)); // another opponent closes the editor
 
   $effect(() => {
     void app.dataVersion;
