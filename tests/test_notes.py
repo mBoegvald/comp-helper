@@ -165,3 +165,28 @@ def test_a_note_without_author_is_promoted_without_credit(conn, people):
         conn.execute("DELETE FROM account WHERE id = ?", (people[0],))
     notes.promote_to_tip(conn, n["id"])
     assert matchup_tip(conn, "Darius", "Garen")["tip"] == "Outlives its author too."
+
+
+def test_the_cap_holds_against_parallel_requests(conn, people, monkeypatch):
+    """Each request has its own connection, like the server's threads: counting and inserting must be one step."""
+    import threading
+
+    monkeypatch.setattr(notes, "MAX_PENDING", 5)
+    errors = []
+
+    def one(i):
+        c = db.connect()
+        try:
+            notes.suggest(c, people[0], "top", "Darius", None, f"Parallel note number {i}.")
+        except notes.NoteError as e:
+            errors.append(e)
+        finally:
+            c.close()
+
+    threads = [threading.Thread(target=one, args=(i,)) for i in range(40)]
+    for t in threads:
+        t.start()
+    for t in threads:
+        t.join()
+    assert len(notes.pending(conn)) == 5
+    assert len(errors) == 35

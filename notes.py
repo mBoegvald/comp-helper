@@ -53,6 +53,7 @@ def suggest(conn, account_id: int, role: str, champion: str, opponent: str | Non
     """A new note on `champion` (or on champion vs `opponent`), waiting for review unless `approve` (admins)."""
     text, source = _clean_text(text), _clean_source(source)
     with conn:
+        conn.execute("BEGIN IMMEDIATE")  # take the write lock before counting: parallel requests line up at the cap
         waiting = conn.execute(
             "SELECT count(*) FROM community_note WHERE account_id = ? AND status = 'pending'", (account_id,)
         ).fetchone()[0]
