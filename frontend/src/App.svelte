@@ -2,6 +2,7 @@
   import { onMount } from "svelte";
   import AccountDialog from "./components/account/AccountDialog.svelte";
   import AdminView from "./components/admin/AdminView.svelte";
+  import MyNotes from "./components/notes/MyNotes.svelte";
   import ErrorBox from "./components/common/ErrorBox.svelte";
   import Header from "./components/common/Header.svelte";
   import DataView from "./components/data/DataView.svelte";
@@ -17,6 +18,11 @@
     loadSession();
     // update status is admin-only
     return pollStatus(() => session.admin && app.view === "data");
+  });
+
+  // signed out while on My notes
+  $effect(() => {
+    if (session.loaded && app.view === "mine" && !(session.hosted && session.user)) app.view = "draft";
   });
 
   // signed out of the admin account while on the Admin tab
@@ -35,6 +41,9 @@
     <section hidden={app.view !== "draft"}><DraftView /></section>
     <section hidden={app.view !== "lookup"}><LookupView /></section>
     <section hidden={app.view !== "data"}><DataView /></section>
+    {#if session.hosted && session.user}
+      <section hidden={app.view !== "mine"}><MyNotes /></section>
+    {/if}
     {#if session.hosted && session.admin}
       <section hidden={app.view !== "admin"}><AdminView /></section>
     {/if}
