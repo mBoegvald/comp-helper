@@ -2,3 +2,4 @@ __pycache__/
 logs/
 data/backups/
 *.db-journal
+frontend/node_modules/
