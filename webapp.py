@@ -29,6 +29,7 @@ sys.path.insert(0, str(HERE))
 
 import auth
 import db
+import notes
 import picker
 import role_data
 import update
@@ -49,6 +50,7 @@ LOCAL_ADMIN = {"id": None, "username": "you", "role": "admin"}  # local mode: no
 SESSION_COOKIE = "ph_session"
 _tips_cache = {"stamp": None, "data": {}}
 _names_cache = {"stamp": None, "names": {}}
+_notes_cache = {"stamp": None, "data": {}}
 
 
 # ---------------------------------------------------------------- data access
@@ -128,6 +130,18 @@ def reddit_tips():
     return data
 
 
+def community_notes():
+    """(role, champion key, opponent key or '') -> approved community notes, cached until the database changes."""
+    conn = db.connect()
+    try:
+        stamp = db.stamp(conn)
+        if _notes_cache["stamp"] != stamp:
+            _notes_cache.update(stamp=stamp, data=notes.approved_index(conn))
+    finally:
+        conn.close()
+    return _notes_cache["data"]
+
+
 def matchup(role, a, b):
     """Everything we know about champion a vs champion b in this role, from a's point of view."""
     champs, mu, info = load(role)
@@ -160,6 +174,8 @@ def matchup(role, a, b):
         r = rt.get((x, y))
         if r:
             d["reddit"].append({"who": display(x), "mentions": r["mentions"], "newest": r["newest"], "tips": r["tips"]})
+    cn = community_notes()  # each side's notes, like the lane tips
+    d["community"] = [{**n, "who": display(x)} for x, y in ((a, b), (b, a)) for n in cn.get((role, x, y), [])]
     return d
 
 
@@ -350,6 +366,7 @@ def api_champion(q, ctx=None):
         "champion": champ_card(champs[k]) if k in champs else empty_card(display(k)),
         "in_role": k in champs,
         "matchups": rows,
+        "community": community_notes().get((role, k, ""), []),
     }
 
 
@@ -549,7 +566,55 @@ def api_admin_block(q, ctx):
     if ctx.user and account_id == ctx.user["id"]:
         raise ValueError("You cannot block yourself.")
     _with_db(lambda conn: auth.set_blocked(conn, account_id, bool(q.get("blocked"))))
+    if q.get("blocked"):
+        _with_db(lambda conn: notes.reject_pending_of(conn, account_id, "account blocked"))
     return api_admin_accounts({}, ctx)
+
+
+# ---------------------------------------------------------------- community notes (hosted mode)
+
+
+def api_notes_suggest(q, ctx):
+    """A note on a champion (no opponent) or on champion vs opponent. Admins' notes are approved at once."""
+    _hosted_only()
+    role = role_of(q.get("role"))
+    champ = pool_name(role, q.get("champion"))
+    opp = None
+    if q.get("opponent"):
+        opp = display(find(str(q["opponent"]), load(role)[0]))
+        if picker.key(opp) not in all_names():
+            raise ValueError(f"unknown opponent {q['opponent']!r}")
+    admin = ctx.user["role"] == ADMIN
+    note = _with_db(
+        lambda conn: notes.suggest(
+            conn, ctx.user["id"], role, champ, opp, q.get("text"), q.get("source"), approve=admin
+        )
+    )
+    return {"note": note}
+
+
+def api_notes_mine(_q, ctx):
+    _hosted_only()
+    return {"notes": _with_db(lambda conn: notes.for_account(conn, ctx.user["id"]))}
+
+
+def api_admin_review_list(_q, ctx=None):
+    _hosted_only()
+    return {"notes": _with_db(notes.pending)}
+
+
+def api_admin_review(q, ctx):
+    """Approve (with `text` to correct it) or reject (with an optional `note` as reason) a waiting note."""
+    _hosted_only()
+    note_id, approve = int(q.get("id") or 0), bool(q.get("approve"))
+    _with_db(lambda conn: notes.review(conn, note_id, approve, q.get("text"), q.get("note")))
+    return api_admin_review_list({}, ctx)
+
+
+def api_admin_note_delete(q, ctx=None):
+    _hosted_only()
+    _with_db(lambda conn: notes.delete(conn, int(q.get("id") or 0)))
+    return {"ok": True}
 
 
 # ---------------------------------------------------------------- HTTP
@@ -573,6 +638,11 @@ ROUTES = {
     ("POST", "/api/hand/matchup"): (api_hand_matchup_set, ADMIN),
     ("GET", "/api/admin/accounts"): (api_admin_accounts, ADMIN),
     ("POST", "/api/admin/block"): (api_admin_block, ADMIN),
+    ("POST", "/api/notes"): (api_notes_suggest, USER),
+    ("GET", "/api/notes/mine"): (api_notes_mine, USER),
+    ("GET", "/api/admin/review"): (api_admin_review_list, ADMIN),
+    ("POST", "/api/admin/review"): (api_admin_review, ADMIN),
+    ("POST", "/api/admin/notes/delete"): (api_admin_note_delete, ADMIN),
 }
 MAX_BODY = 64 * 1024
 

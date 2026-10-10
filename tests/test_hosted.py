@@ -160,3 +160,102 @@ def test_local_mode_has_no_accounts(conn):
     }
     with pytest.raises(ValueError, match="hosted site"):
         webapp.api_login({"username": "x", "password": "y"}, webapp.Ctx("127.0.0.1"))
+
+
+# ---------------------------------------------------------------- community notes
+
+NOTE = {
+    "role": "top",
+    "champion": "Darius",
+    "opponent": "Garen",
+    "text": "Trade when his Q is dwn.",
+    "source": "my games",
+}
+
+
+def test_signed_out_visitors_cannot_suggest(hosted):
+    assert request(hosted, "POST", "/api/notes", NOTE)[0] == 401
+
+
+def test_a_suggestion_is_hidden_until_approved(hosted):
+    pleb = sign_in(hosted, "pleb", "contributor pw")
+    status, d, _ = request(hosted, "POST", "/api/notes", NOTE, cookie=pleb)
+    assert status == 200 and d["note"]["status"] == "pending"
+    assert request(hosted, "GET", "/api/matchup?role=top&a=Darius&b=Garen")[1]["community"] == []
+    mine = request(hosted, "GET", "/api/notes/mine", cookie=pleb)[1]["notes"]
+    assert [(n["text"], n["status"]) for n in mine] == [("Trade when his Q is dwn.", "pending")]
+
+    boss = sign_in(hosted, "boss", "admin password")
+    queue = request(hosted, "GET", "/api/admin/review", cookie=boss)[1]["notes"]
+    assert [(n["author"], n["champion"], n["opponent"]) for n in queue] == [("pleb", "Darius", "Garen")]
+    fixed = {"id": queue[0]["id"], "approve": True, "text": "Trade when his Q is down."}
+    assert request(hosted, "POST", "/api/admin/review", fixed, cookie=boss)[1]["notes"] == []
+
+    m = request(hosted, "GET", "/api/matchup?role=top&a=Darius&b=Garen")[1]  # signed out: visible to everyone
+    assert [(n["who"], n["author"], n["text"], n["source"]) for n in m["community"]] == [
+        ("Darius", "pleb", "Trade when his Q is down.", "my games")
+    ]
+    flipped = request(hosted, "GET", "/api/matchup?role=top&a=Garen&b=Darius")[1]["community"]
+    assert [n["who"] for n in flipped] == ["Darius"]  # still marked as Darius's side
+
+
+def test_champion_notes_show_on_the_champion(hosted):
+    boss = sign_in(hosted, "boss", "admin password")
+    body = {"role": "top", "champion": "darius", "text": "Hold W for the slow after Q."}
+    status, d, _ = request(hosted, "POST", "/api/notes", body, cookie=boss)
+    assert status == 200 and d["note"]["status"] == "approved"  # admins skip the queue
+    lookup = request(hosted, "GET", "/api/champion?role=top&name=Darius")[1]
+    assert [n["text"] for n in lookup["community"]] == ["Hold W for the slow after Q."]
+
+
+def test_rejected_notes_tell_their_author_why(hosted):
+    pleb = sign_in(hosted, "pleb", "contributor pw")
+    note_id = request(hosted, "POST", "/api/notes", NOTE, cookie=pleb)[1]["note"]["id"]
+    boss = sign_in(hosted, "boss", "admin password")
+    request(hosted, "POST", "/api/admin/review", {"id": note_id, "approve": False, "note": "Too vague."}, cookie=boss)
+    mine = request(hosted, "GET", "/api/notes/mine", cookie=pleb)[1]["notes"]
+    assert (mine[0]["status"], mine[0]["review_note"]) == ("rejected", "Too vague.")
+
+
+def test_contributors_cannot_review(hosted):
+    pleb = sign_in(hosted, "pleb", "contributor pw")
+    note_id = request(hosted, "POST", "/api/notes", NOTE, cookie=pleb)[1]["note"]["id"]
+    assert request(hosted, "GET", "/api/admin/review", cookie=pleb)[0] == 403
+    assert request(hosted, "POST", "/api/admin/review", {"id": note_id, "approve": True}, cookie=pleb)[0] == 403
+    assert request(hosted, "POST", "/api/admin/notes/delete", {"id": note_id}, cookie=pleb)[0] == 403
+
+
+@pytest.mark.parametrize(
+    "change, message",
+    [
+        ({"champion": "Nobody"}, "not a top champion"),
+        ({"opponent": "Notachamp"}, "unknown opponent"),
+        ({"text": "hi"}, "10 to"),
+    ],
+)
+def test_bad_suggestions_are_refused(hosted, change, message):
+    pleb = sign_in(hosted, "pleb", "contributor pw")
+    status, d, _ = request(hosted, "POST", "/api/notes", {**NOTE, **change}, cookie=pleb)
+    assert status == 400 and message in d["error"]
+
+
+def test_blocking_empties_the_account_from_the_queue(hosted, conn):
+    pleb = sign_in(hosted, "pleb", "contributor pw")
+    request(hosted, "POST", "/api/notes", NOTE, cookie=pleb)
+    boss = sign_in(hosted, "boss", "admin password")
+    pleb_id = conn.execute("SELECT id FROM account WHERE username = 'pleb'").fetchone()[0]
+    request(hosted, "POST", "/api/admin/block", {"id": pleb_id, "blocked": True}, cookie=boss)
+    assert request(hosted, "GET", "/api/admin/review", cookie=boss)[1]["notes"] == []
+
+
+def test_admin_can_delete_an_approved_note(hosted):
+    boss = sign_in(hosted, "boss", "admin password")
+    note_id = request(hosted, "POST", "/api/notes", NOTE, cookie=boss)[1]["note"]["id"]
+    assert request(hosted, "POST", "/api/admin/notes/delete", {"id": note_id}, cookie=boss)[0] == 200
+    assert request(hosted, "GET", "/api/matchup?role=top&a=Darius&b=Garen")[1]["community"] == []
+
+
+def test_local_mode_does_not_take_suggestions(conn):
+    with pytest.raises(ValueError, match="hosted site"):
+        webapp.api_notes_suggest(NOTE, webapp.Ctx("127.0.0.1", user=webapp.LOCAL_ADMIN))
+    assert webapp.api_matchup({"role": "top", "a": "Darius", "b": "Garen"})["community"] == []

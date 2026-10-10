@@ -1,6 +1,7 @@
 <script lang="ts">
   import { safeRedditUrl } from "../../lib/format.ts";
   import type { Matchup } from "../../lib/types.ts";
+  import CommunityNotes from "../notes/CommunityNotes.svelte";
 
   /** Hand-written lane notes and Reddit snippets for a matchup, seen from `champ`'s side. */
   let { m, champ }: { m: Matchup; champ: string } = $props();
@@ -21,6 +22,8 @@
     </section>
   {/if}
 
+  <CommunityNotes notes={m.community} {champ} />
+
   {#each m.reddit as r (r.who)}
     <section>
       <h5>From {r.who} mains · {r.mentions} mentions · newest {r.newest || "?"}</h5>
@@ -38,7 +41,7 @@
     </section>
   {/each}
 
-  {#if !m.tips.length && !m.reddit.length}
+  {#if !m.tips.length && !m.reddit.length && !m.community.length}
     <p class="small muted">No notes or Reddit tips for this matchup yet.</p>
   {/if}
 </div>

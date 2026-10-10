@@ -1,5 +1,6 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { ago, debounce, initials, percent, safeRedditUrl, signed } from "./format.ts";
+import { safeLink } from "./format.ts";
 
 describe("signed", () => {
   it.each([
@@ -72,4 +73,21 @@ describe("debounce", () => {
     expect(fn).toHaveBeenCalledOnce();
     expect(fn).toHaveBeenCalledWith("c");
   });
+});
+
+describe("safeLink", () => {
+  it.each(["https://www.reddit.com/r/DariusMains/", "http://example.com/guide", "https://youtu.be/abc"])(
+    "links %s",
+    (u) => expect(safeLink(u)).toBe(u),
+  );
+
+  it.each([
+    "javascript:alert(1)",
+    "a streamer called X", // a plain source stays text
+    "https://", // no host
+    "https://localhost/x", // no dot in the host
+    "https://evil.example/ x", // spaces
+    "data:text/html,hi",
+    null,
+  ])("keeps %s as text", (u) => expect(safeLink(u)).toBeNull());
 });

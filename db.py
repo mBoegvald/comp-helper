@@ -7,6 +7,7 @@ Generated tables, replaced by the update stages:
 Grow-only:
   pool           champions per role (discovered from Lolalytics, plus anyone with hand data)
 Accounts (hosted mode only, see auth.py): account, session (hashed tokens), attempt (rate limits).
+Community notes (hosted mode, see notes.py): community_note, suggested by accounts, shown once approved.
 Hand layer, written only by people (web page; first filled from the old workbooks), never by an update:
   hand_champion  per role and champion; NULL fields fall back to role_data.py
   hand_matchup   per role and pair: a hand label for 'Result for champion' and/or a lane tip
@@ -65,6 +66,13 @@ CREATE TABLE IF NOT EXISTS session (
   created_at TEXT NOT NULL, expires_at TEXT NOT NULL);
 CREATE TABLE IF NOT EXISTS attempt (ip TEXT NOT NULL, kind TEXT NOT NULL, at REAL NOT NULL);
 CREATE INDEX IF NOT EXISTS attempt_by_ip ON attempt (ip, kind, at);
+CREATE TABLE IF NOT EXISTS community_note (
+  id INTEGER PRIMARY KEY, role TEXT NOT NULL, champion TEXT NOT NULL, opponent TEXT, text TEXT NOT NULL, source TEXT,
+  account_id INTEGER REFERENCES account(id) ON DELETE SET NULL,
+  status TEXT NOT NULL DEFAULT 'pending' CHECK (status IN ('pending', 'approved', 'rejected')),
+  created_at TEXT NOT NULL, reviewed_at TEXT, review_note TEXT);
+CREATE INDEX IF NOT EXISTS community_note_by_status ON community_note (status, created_at);
+CREATE INDEX IF NOT EXISTS community_note_by_account ON community_note (account_id, status);
 """
 
 

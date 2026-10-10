@@ -17,6 +17,9 @@ export function ago(ts: number | null | undefined, now = Date.now() / 1000) {
 export const safeRedditUrl = (u: string | null | undefined) =>
   u && /^https:\/\/(www\.|old\.)?reddit\.com\//.test(u) ? u : null;
 
+/** A user-typed source as a link, only when it is a plain http(s) URL; anything else stays text. */
+export const safeLink = (u: string | null | undefined) => (u && /^https?:\/\/[^\s/]+\.[^\s]+$/i.test(u) ? u : null);
+
 export const initials = (name: string) =>
   name
     .replace(/[^A-Za-z ]/g, "")

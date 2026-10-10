@@ -6,6 +6,8 @@
   import ChampFacts from "../common/ChampFacts.svelte";
   import ChampIcon from "../common/ChampIcon.svelte";
   import ChampionEditor from "../edit/ChampionEditor.svelte";
+  import CommunityNotes from "../notes/CommunityNotes.svelte";
+  import SuggestNote from "../notes/SuggestNote.svelte";
 
   let { data }: { data: ChampionLookup } = $props();
 
@@ -13,11 +15,15 @@
 
   const champ = $derived(data.champion);
 
-  // another champion or role: close the editor
+  // another champion or role: close the editor. Compare values: `data` is reloaded after every change (an update,
+  // a saved note), which must not close an editor with unsaved text.
+  let shownFor = "";
   $effect.pre(() => {
-    void data.role;
-    void champ.name;
-    editing = false;
+    const key = `${data.role}|${champ.name}`;
+    if (key !== shownFor) {
+      shownFor = key;
+      editing = false;
+    }
   });
   const sub = $derived(
     data.in_role
@@ -52,6 +58,8 @@
   {:else if data.in_role}
     <div class="facts"><ChampFacts {champ} /></div>
   {/if}
+  {#if data.community.length}<div class="community"><CommunityNotes notes={data.community} /></div>{/if}
+  {#if data.in_role}<SuggestNote role={data.role} champion={champ.name} />{/if}
 </div>
 
 <style>
@@ -64,6 +72,9 @@
   .name {
     font-size: 16px;
     font-weight: 700;
+  }
+  .community {
+    margin-top: 12px;
   }
   .facts {
     margin-top: 10px;
