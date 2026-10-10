@@ -1,0 +1,337 @@
+"""Community notes: suggesting, reviewing and what gets shown (notes.py)."""
+
+import pytest
+
+import auth
+import db
+import notes
+
+
+@pytest.fixture
+def people(conn, monkeypatch):
+    """(contributor id, second contributor id) with cheap password hashing."""
+    monkeypatch.setattr(auth, "SCRYPT_N", 2**8)
+    monkeypatch.setattr(auth, "SCRYPT_P", 1)
+    return auth.create_account(conn, "pleb", "contributor pw"), auth.create_account(conn, "other", "contributor pw")
+
+
+def test_a_suggestion_waits_for_review(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", "Garen", "Trade when his Q is down.", "my games")
+    assert (n["status"], n["author"], n["opponent"], n["source"]) == ("pending", "pleb", "Garen", "my games")
+    assert notes.approved_index(conn) == {}  # nothing shown yet
+    assert [p["id"] for p in notes.pending(conn)] == [n["id"]]
+
+
+def test_admin_notes_are_approved_at_once(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", None, "A note from the admin.", approve=True)
+    assert n["status"] == "approved"
+    assert notes.pending(conn) == []
+
+
+def test_approve_with_corrected_text(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", "Garen", "Trade when his Q is dwn.")
+    done = notes.review(conn, n["id"], approve=True, text="Trade when his Q is down.")
+    assert (done["status"], done["text"]) == ("approved", "Trade when his Q is down.")
+    shown = notes.approved_index(conn)[("top", "darius", "garen")]
+    assert [s["text"] for s in shown] == ["Trade when his Q is down."]
+    assert shown[0]["author"] == "pleb"
+
+
+def test_reject_with_a_reason(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", None, "Darius is broken lol.")
+    done = notes.review(conn, n["id"], approve=False, review_note="Not a tip.")
+    assert (done["status"], done["review_note"]) == ("rejected", "Not a tip.")
+    assert notes.approved_index(conn) == {}
+    assert notes.for_account(conn, people[0])[0]["review_note"] == "Not a tip."
+
+
+def test_a_note_is_reviewed_once(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", None, "A perfectly fine note.")
+    notes.review(conn, n["id"], approve=True)
+    with pytest.raises(notes.NoteError, match="already reviewed"):
+        notes.review(conn, n["id"], approve=False)
+
+
+def test_champion_and_matchup_notes_are_kept_apart(conn, people):
+    for opp in (None, "Garen"):
+        n = notes.suggest(conn, people[0], "top", "Darius", opp, f"Note about {opp or 'Darius alone'}.")
+        notes.review(conn, n["id"], approve=True)
+    idx = notes.approved_index(conn)
+    assert [n["text"] for n in idx[("top", "darius", "")]] == ["Note about Darius alone."]
+    assert [n["text"] for n in idx[("top", "darius", "garen")]] == ["Note about Garen."]
+
+
+@pytest.mark.parametrize(
+    "text, source, message",
+    [
+        ("short", None, "10 to 1000"),
+        ("x" * 1001, None, "10 to 1000"),
+        ("A fine note.", "javascript:alert(1)//x://", "https://"),
+        ("A fine note.", "ftp://files.example/x", "https://"),
+        ("A fine note.", "s" * 201, "at most"),
+    ],
+)
+def test_bad_notes_are_refused(conn, people, text, source, message):
+    with pytest.raises(notes.NoteError, match=message):
+        notes.suggest(conn, people[0], "top", "Darius", None, text, source)
+
+
+def test_text_is_kept_on_one_line(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", None, "  Line one\n\n\nline   two  ")
+    assert n["text"] == "Line one line two"
+
+
+def test_links_and_plain_sources_are_fine(conn, people):
+    for source in ("https://www.reddit.com/r/DariusMains/", "http://example.com/guide", "a streamer called X"):
+        assert (
+            notes.suggest(conn, people[0], "top", "Darius", None, "A perfectly fine note.", source)["source"] == source
+        )
+
+
+def test_waiting_notes_are_capped_per_account(conn, people, monkeypatch):
+    monkeypatch.setattr(notes, "MAX_PENDING", 2)
+    for i in range(2):
+        notes.suggest(conn, people[0], "top", "Darius", None, f"Waiting note number {i}.")
+    with pytest.raises(notes.NoteError, match="waiting for review"):
+        notes.suggest(conn, people[0], "top", "Darius", None, "One note too many.")
+    notes.suggest(conn, people[1], "top", "Darius", None, "Someone else can still post.")
+
+
+def test_blocking_rejects_waiting_notes_only(conn, people):
+    kept = notes.suggest(conn, people[0], "top", "Darius", None, "Approved before the block.")
+    notes.review(conn, kept["id"], approve=True)
+    notes.suggest(conn, people[0], "top", "Darius", None, "Still waiting at the block.")
+    notes.reject_pending_of(conn, people[0], "account blocked")
+    assert notes.pending(conn) == []
+    assert [n["text"] for n in notes.approved_index(conn)[("top", "darius", "")]] == ["Approved before the block."]
+
+
+def test_delete_removes_a_note(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", None, "Will be deleted soon.", approve=True)
+    notes.delete(conn, n["id"])
+    assert notes.approved_index(conn) == {}
+    with pytest.raises(notes.NoteError):
+        notes.delete(conn, n["id"])
+
+
+def test_a_deleted_account_leaves_its_notes_without_author(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", None, "Outlives its author.", approve=True)
+    with conn:
+        conn.execute("DELETE FROM account WHERE id = ?", (people[0],))
+    assert notes.get(conn, n["id"])["author"] is None
+
+
+def test_writes_bump_the_stamp(conn, people):
+    before = db.stamp(conn)
+    notes.suggest(conn, people[0], "top", "Darius", None, "Bumps the stamp once.")
+    assert db.stamp(conn) == before + 1
+
+
+def matchup_tip(conn, champion, opponent):
+    return conn.execute(
+        "SELECT result, tip FROM curated_matchup WHERE role = 'top' AND champion = ? AND opponent = ?",
+        (champion, opponent),
+    ).fetchone()
+
+
+def test_an_approved_note_becomes_the_lane_tip(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", "Garen", "Walk up when his Q is down.")
+    notes.review(conn, n["id"], approve=True)
+    notes.promote_to_tip(conn, n["id"])
+    assert tuple(matchup_tip(conn, "Darius", "Garen")) == (None, "Walk up when his Q is down. (from pleb)")
+    assert notes.approved_index(conn) == {}  # no longer shown twice
+    row = {(r["champ"], r["opp"]): r for r in db.matchups(conn, "top")}[("Darius", "Garen")]
+    assert row["tip"] == "Walk up when his Q is down. (from pleb)"
+
+
+def test_promoting_keeps_the_label_and_replaces_the_old_tip(conn, people):
+    db.set_curated_matchup(conn, "top", "Darius", "Garen", result="Favored", tip="Old tip")
+    n = notes.suggest(conn, people[0], "top", "Darius", "Garen", "A better tip for this lane.", approve=True)
+    notes.promote_to_tip(conn, n["id"])
+    assert tuple(matchup_tip(conn, "Darius", "Garen")) == ("Favored", "A better tip for this lane. (from pleb)")
+
+
+@pytest.mark.parametrize("approve, opponent", [(False, "Garen"), (True, None)])
+def test_only_approved_matchup_notes_can_be_promoted(conn, people, approve, opponent):
+    n = notes.suggest(conn, people[0], "top", "Darius", opponent, "Not something to promote.", approve=approve)
+    with pytest.raises(notes.NoteError, match="Only an approved note on a matchup"):
+        notes.promote_to_tip(conn, n["id"])
+    assert notes.get(conn, n["id"])  # left alone
+
+
+def test_a_note_without_author_is_promoted_without_credit(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", "Garen", "Outlives its author too.", approve=True)
+    with conn:
+        conn.execute("DELETE FROM account WHERE id = ?", (people[0],))
+    notes.promote_to_tip(conn, n["id"])
+    assert matchup_tip(conn, "Darius", "Garen")["tip"] == "Outlives its author too."
+
+
+def test_the_cap_holds_against_parallel_requests(conn, people, monkeypatch):
+    """Each request has its own connection, like the server's threads: counting and inserting must be one step."""
+    import threading
+
+    monkeypatch.setattr(notes, "MAX_PENDING", 5)
+    errors = []
+
+    def one(i):
+        c = db.connect()
+        try:
+            notes.suggest(c, people[0], "top", "Darius", None, f"Parallel note number {i}.")
+        except notes.NoteError as e:
+            errors.append(e)
+        finally:
+            c.close()
+
+    threads = [threading.Thread(target=one, args=(i,)) for i in range(40)]
+    for t in threads:
+        t.start()
+    for t in threads:
+        t.join()
+    assert len(notes.pending(conn)) == 5
+    assert len(errors) == 35
+
+
+def test_two_admins_promoting_the_same_note_at_once_make_one_tip(conn, people):
+    """The note is read inside the locked transaction: the second admin finds it gone instead of writing again."""
+    import threading
+
+    n = notes.suggest(conn, people[0], "top", "Darius", "Garen", "Promoted by two admins at once.", approve=True)
+    results = []
+
+    def promote():
+        c = db.connect()
+        try:
+            notes.promote_to_tip(c, n["id"])
+            results.append("ok")
+        except notes.NoteError:
+            results.append("gone")
+        finally:
+            c.close()
+
+    threads = [threading.Thread(target=promote) for _ in range(8)]
+    for t in threads:
+        t.start()
+    for t in threads:
+        t.join()
+    assert sorted(results) == ["gone"] * 7 + ["ok"]
+
+
+# ---------------------------------------------------------------- editing and withdrawing
+
+
+def shown(conn):
+    return [n["text"] for ns in notes.approved_index(conn).values() for n in ns]
+
+
+def test_a_waiting_note_is_edited_in_place(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", None, "First version of the note.")
+    e = notes.edit(conn, people[0], n["id"], "Second version of the note.", "my games")
+    assert (e["status"], e["text"], e["source"], e["revised_text"]) == (
+        "pending",
+        "Second version of the note.",
+        "my games",
+        None,
+    )
+    assert [p["text"] for p in notes.pending(conn)] == ["Second version of the note."]
+
+
+def test_a_rejected_note_edited_waits_for_review_again(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", None, "Too vague a first try.")
+    notes.review(conn, n["id"], approve=False, review_note="Be specific.")
+    e = notes.edit(conn, people[0], n["id"], "Hold W until he dashes in, then slow him.")
+    assert (e["status"], e["review_note"]) == ("pending", None)
+    assert [p["id"] for p in notes.pending(conn)] == [n["id"]]
+
+
+def test_an_approved_note_stays_shown_while_its_edit_waits(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", None, "The approved text.", approve=False)
+    notes.review(conn, n["id"], approve=True)
+    e = notes.edit(conn, people[0], n["id"], "The edited text, not reviewed yet.", "a source")
+    assert (e["status"], e["text"], e["revised_text"]) == (
+        "approved",
+        "The approved text.",
+        "The edited text, not reviewed yet.",
+    )
+    assert shown(conn) == ["The approved text."]  # the site keeps the reviewed version
+    assert [p["revised_text"] for p in notes.pending(conn)] == ["The edited text, not reviewed yet."]
+
+
+def test_approving_an_edit_replaces_the_text(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", None, "The approved text.", approve=True)
+    notes.edit(conn, people[0], n["id"], "The edited text with a typo.", "new source")
+    done = notes.review(conn, n["id"], approve=True, text="The edited text without a typo.")
+    assert (done["text"], done["source"], done["revised_text"]) == (
+        "The edited text without a typo.",
+        "new source",
+        None,
+    )
+    assert shown(conn) == ["The edited text without a typo."]
+    assert notes.pending(conn) == []
+
+
+def test_rejecting_an_edit_keeps_the_old_text_and_says_why(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", None, "The approved text.", approve=True)
+    notes.edit(conn, people[0], n["id"], "Darius is broken, ban him.")
+    done = notes.review(conn, n["id"], approve=False, review_note="Not a tip.")
+    assert (done["status"], done["text"], done["revised_text"], done["review_note"]) == (
+        "approved",
+        "The approved text.",
+        None,
+        "Not a tip.",
+    )
+    notes.edit(conn, people[0], n["id"], "Another edit, rejected without a reason.")
+    assert notes.review(conn, n["id"], approve=False)["review_note"] == notes.EDIT_REJECTED  # the author still learns
+
+
+def test_admins_edit_their_own_notes_at_once(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", None, "An admin note.", approve=True)
+    e = notes.edit(conn, people[0], n["id"], "An admin note, improved.", approve=True)
+    assert (e["text"], e["revised_text"]) == ("An admin note, improved.", None)
+    assert notes.pending(conn) == []
+
+
+def test_only_the_author_edits_or_withdraws(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", None, "Someone else's note.")
+    with pytest.raises(notes.NoteError, match="your own"):
+        notes.edit(conn, people[1], n["id"], "Hijacked text for this note.")
+    with pytest.raises(notes.NoteError, match="your own"):
+        notes.withdraw(conn, people[1], n["id"])
+    assert notes.get(conn, n["id"])["text"] == "Someone else's note."
+
+
+def test_edits_are_checked_like_new_notes(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", None, "A fine note to edit.", approve=True)
+    with pytest.raises(notes.NoteError, match="10 to 1000"):
+        notes.edit(conn, people[0], n["id"], "short")
+    with pytest.raises(notes.NoteError, match="https://"):
+        notes.edit(conn, people[0], n["id"], "A fine edit of the note.", "javascript://x")
+
+
+def test_waiting_edits_count_toward_the_limit(conn, people, monkeypatch):
+    monkeypatch.setattr(notes, "MAX_PENDING", 2)
+    approved = [
+        notes.suggest(conn, people[0], "top", "Darius", None, f"Approved note {i}.", approve=True) for i in range(3)
+    ]
+    notes.suggest(conn, people[0], "top", "Darius", None, "One waiting note.")
+    notes.edit(conn, people[0], approved[0]["id"], "One waiting edit now.")
+    with pytest.raises(notes.NoteError, match="waiting for review"):
+        notes.edit(conn, people[0], approved[1]["id"], "No room for this edit.")
+    notes.edit(conn, people[0], approved[0]["id"], "Re-editing a waiting edit needs no room.")
+
+
+def test_withdrawing_removes_the_note_in_any_state(conn, people):
+    for approve in (False, True):
+        n = notes.suggest(conn, people[0], "top", "Darius", None, "A note to withdraw.", approve=approve)
+        notes.withdraw(conn, people[0], n["id"])
+        with pytest.raises(notes.NoteError):
+            notes.get(conn, n["id"])
+    assert shown(conn) == [] and notes.pending(conn) == []
+
+
+def test_blocking_drops_waiting_edits_and_keeps_approved_text(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", None, "Approved before the block.", approve=True)
+    notes.edit(conn, people[0], n["id"], "Edit waiting at the block.")
+    notes.reject_pending_of(conn, people[0], "account blocked")
+    assert notes.pending(conn) == []
+    assert shown(conn) == ["Approved before the block."]

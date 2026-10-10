@@ -44,5 +44,5 @@ export const STAGES: Stage[] = [
 ];
 
 // what the edit API accepts
-export const HAND_RESULTS = ["Favored", "Even", "Even / skill", "Unfavored"];
+export const CURATED_RESULTS = ["Favored", "Even", "Even / skill", "Unfavored"];
 export const BLIND_OPTIONS = ["Yes", "Mostly", "No"];

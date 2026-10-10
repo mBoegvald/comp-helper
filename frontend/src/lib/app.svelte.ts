@@ -4,7 +4,7 @@ import { prefs } from "./prefs.svelte.ts";
 import { load, save } from "./storage.ts";
 import type { Meta, Role } from "./types.ts";
 
-export type View = "draft" | "lookup" | "data";
+export type View = "draft" | "lookup" | "data" | "mine" | "admin" | "privacy"; // mine: your account (hosted)
 
 export const app = $state({
   view: load<View>("view", "draft"),
@@ -12,7 +12,7 @@ export const app = $state({
   error: null as string | null,
   running: false,
   log: "",
-  dataVersion: 0, // bumped when data changed (update finished, hand edit saved)
+  dataVersion: 0, // bumped when data changed (update finished, curated edit saved)
 });
 
 export async function loadMeta() {

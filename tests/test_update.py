@@ -31,6 +31,29 @@ def test_running_pid_is_readable_while_locked(tmp_path, monkeypatch):
     assert not update.is_running()
 
 
+def test_log_is_trimmed_to_whole_recent_lines(tmp_path, monkeypatch):
+    log = tmp_path / "update.log"
+    monkeypatch.setattr(update, "LOG", log)
+    monkeypatch.setattr(update, "LOG_MAX", 1000)
+    monkeypatch.setattr(update, "LOG_KEPT", 300)
+    lines = [f"line {i:04d} " + "x" * 30 for i in range(100)]
+    log.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+    update.trim_log()
+    kept = log.read_text(encoding="utf-8").splitlines()
+    assert 0 < len(kept) < 10 and kept == lines[-len(kept) :]  # the newest lines, none cut in half
+    assert log.stat().st_size <= 300
+
+    small = log.read_bytes()
+    update.trim_log()  # under the limit: left alone
+    assert log.read_bytes() == small
+
+
+def test_trim_log_without_a_log(tmp_path, monkeypatch):
+    monkeypatch.setattr(update, "LOG", tmp_path / "missing.log")
+    update.trim_log()
+
+
 def test_backup_once_per_day_and_pruned(conn, tmp_path, monkeypatch):
     monkeypatch.setattr(update, "BACKUPS", tmp_path / "backups")
     monkeypatch.setattr(update, "BACKUPS_KEPT", 2)
@@ -62,12 +85,12 @@ def fake_fetch(rows_per_champ):
     return fetch
 
 
-def test_build_role_replaces_data_and_keeps_hand_edits(conn, monkeypatch):
-    db.set_hand_matchup(conn, "top", "Garen", "Darius", tip="mine")
+def test_build_role_replaces_data_and_keeps_curated_edits(conn, monkeypatch):
+    db.set_curated_matchup(conn, "top", "Garen", "Darius", tip="mine")
     monkeypatch.setattr(build_role.lola, "fetch", fake_fetch(3))
     build_role.build("top", delay=0)
     assert conn.execute("SELECT DISTINCT patch FROM lola WHERE role = 'top'").fetchall()[0][0] == "16.21"
-    assert conn.execute("SELECT tip FROM hand_matchup").fetchone()[0] == "mine"
+    assert conn.execute("SELECT tip FROM curated_matchup").fetchone()[0] == "mine"
 
 
 def test_build_role_refuses_a_fetch_that_lost_most_rows(conn, monkeypatch):

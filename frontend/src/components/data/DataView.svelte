@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { session } from "../../lib/session.svelte.ts";
   import DataSummary from "./DataSummary.svelte";
   import UpdateLog from "./UpdateLog.svelte";
   import UpdateStages from "./UpdateStages.svelte";
@@ -6,8 +7,10 @@
 
 <div class="grid">
   <DataSummary />
-  <div>
-    <UpdateStages />
-    <UpdateLog />
-  </div>
+  {#if session.admin}
+    <div>
+      <UpdateStages />
+      <UpdateLog />
+    </div>
+  {/if}
 </div>

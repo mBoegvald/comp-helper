@@ -1,0 +1,7 @@
+# HTTPS for $DOMAIN (certificates from Let's Encrypt, renewed by Caddy) in front of the app. Caddy sets
+# X-Forwarded-For to the visitor's address, which the app uses with --behind-proxy.
+{$DOMAIN} {
+	encode zstd gzip
+	reverse_proxy app:8765
+	header Strict-Transport-Security "max-age=31536000"
+}

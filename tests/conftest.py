@@ -23,7 +23,16 @@ def conn(tmp_path, monkeypatch):
     picker._CACHE.clear()
     webapp._names_cache.update(stamp=None, names={})
     webapp._tips_cache.update(stamp=None, data={})
+    webapp._notes_cache.update(stamp=None, data={})  # keyed on the stamp, which restarts in every test database
     c = db.connect()
     seed(c)
     yield c
     c.close()
+
+
+@pytest.fixture(autouse=True)
+def local_mode(monkeypatch):
+    """Every test starts in local mode (no accounts); hosted tests switch it on themselves."""
+    monkeypatch.setitem(webapp.CONFIG, "hosted", False)
+    monkeypatch.setitem(webapp.CONFIG, "secure_cookies", True)
+    monkeypatch.setitem(webapp.CONFIG, "behind_proxy", False)

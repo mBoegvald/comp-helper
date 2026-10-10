@@ -8,7 +8,7 @@ Champion pool: every champion with >= POOL_MIN_GAMES games against one of the ro
 (Emerald+, current patch), plus every champion listed for the role in role_data.CHAMPS, plus whoever is already in
 the pool (it only grows). The role's lola rows are replaced in one transaction, so stopping halfway keeps the old
 data; a fetch that returns far fewer rows than before (site change, outage) is refused instead of saved.
-Hand edits live in their own tables and are never touched here; db.py combines both when the picker reads.
+Curated edits live in their own tables and are never touched here; db.py combines both when the picker reads.
 """
 
 import datetime as dt

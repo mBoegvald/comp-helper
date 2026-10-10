@@ -4,7 +4,7 @@ export type Role = "top" | "jungle" | "mid" | "bot" | "support";
 export type Label = "Favored" | "Even" | "Unfavored";
 export type Need = "ap" | "ad";
 
-/** A champion's notes for a role (hand edits, else role_data.py defaults). */
+/** A champion's notes for a role (curated edits, else role_data.py defaults). */
 export interface Champion {
   name: string;
   arch: string | null;
@@ -62,10 +62,11 @@ export interface Matchup {
   games?: number;
   label: Label | null;
   low_sample: boolean;
-  hand_result: string | null;
+  curated_result: string | null;
   mismatch: boolean;
   tips: LaneNote[];
   reddit: RedditGroup[];
+  community: CommunityNote[]; // approved, from both sides (`who`)
 }
 
 /** One reason in a pick's score. */
@@ -138,6 +139,7 @@ export interface ChampionLookup {
   champion: Champion;
   in_role: boolean;
   matchups: MatchupRow[];
+  community: CommunityNote[]; // approved notes about the champion itself
 }
 
 /** /api/status */
@@ -146,14 +148,15 @@ export interface Status {
   log: string;
 }
 
-export type HandField = "archetype" | "damage" | "comps" | "good_into" | "struggles_into" | "pick_when" | "blind_safe";
+export type CuratedField =
+  "archetype" | "damage" | "comps" | "good_into" | "struggles_into" | "pick_when" | "blind_safe";
 
-/** /api/hand/champion: a champion's hand edits and the defaults they override. */
-export interface HandChampion {
+/** /api/curated/champion: a champion's curated edits and the defaults they override. */
+export interface CuratedChampion {
   role: Role;
   champion: string;
-  hand: Record<HandField, string | null>;
-  defaults: Record<HandField, string>;
+  curated: Record<CuratedField, string | null>;
+  defaults: Record<CuratedField, string>;
   archetypes: string[];
   updated_at: string | null;
 }
@@ -161,4 +164,69 @@ export interface HandChampion {
 export interface Ok {
   ok: boolean;
   error?: string;
+}
+
+/** A signed-in account (hosted mode). In local mode the server answers as the admin "you". */
+export interface User {
+  id: number | null;
+  username: string;
+  role: "contributor" | "admin";
+}
+
+/** /api/me, /api/login, /api/signup, /api/logout */
+export interface Me {
+  hosted: boolean;
+  user: User | null;
+  admin: boolean;
+  contact: string; // who runs the hosted site, for the privacy page ("" when not set)
+}
+
+export interface Account {
+  id: number;
+  username: string;
+  role: "contributor" | "admin";
+  blocked: 0 | 1;
+  created_at: string;
+}
+
+/** /api/admin/accounts, /api/admin/block */
+export interface Accounts {
+  accounts: Account[];
+}
+
+export type NoteStatus = "pending" | "approved" | "rejected";
+
+/** An approved community note as the page shows it. `who` is the side a matchup note was written from. */
+export interface CommunityNote {
+  id: number;
+  author: string | null;
+  text: string;
+  source: string | null;
+  approved_at: string | null;
+  who?: string;
+}
+
+/** A note as its author or the reviewing admin sees it. No opponent: a note about the champion itself. */
+export interface Suggestion {
+  id: number;
+  role: Role;
+  champion: string;
+  opponent: string | null;
+  text: string;
+  source: string | null;
+  status: NoteStatus;
+  author: string | null;
+  created_at: string;
+  reviewed_at: string | null;
+  review_note: string | null;
+  // an edit of an approved note waiting for review; the approved text above stays shown until then
+  revised_text: string | null;
+  revised_source: string | null;
+  revised_at: string | null;
+  account_id: number | null;
+}
+
+/** /api/notes/mine, /api/admin/review */
+export interface Suggestions {
+  notes: Suggestion[];
 }

@@ -1,12 +1,14 @@
 <script lang="ts">
   import { errorMessage, getMatchup } from "../../lib/api.ts";
   import { app, dataChanged } from "../../lib/app.svelte.ts";
+  import { session } from "../../lib/session.svelte.ts";
   import type { Matchup, Role } from "../../lib/types.ts";
   import ChampIcon from "../common/ChampIcon.svelte";
   import ErrorBox from "../common/ErrorBox.svelte";
   import LaneStats from "../common/LaneStats.svelte";
   import MatchupNotes from "../common/MatchupNotes.svelte";
   import MatchupEditor from "../edit/MatchupEditor.svelte";
+  import SuggestNote from "../notes/SuggestNote.svelte";
 
   /** Everything about one pair in one role, from `champ`'s side. */
   let { role, champ, opp }: { role: Role; champ: string; opp: string } = $props();
@@ -25,11 +27,14 @@
   $effect(() => {
     void app.dataVersion;
     const want = { role, champ, opp };
+    const current = () => want.role === role && want.champ === champ && want.opp === opp; // not a later click
     getMatchup(role, champ, opp).then(
       (r) => {
-        if (want.role === role && want.champ === champ && want.opp === opp) [m, error] = [r, null];
+        if (current()) [m, error] = [r, null];
       },
-      (e) => (error = errorMessage(e)),
+      (e) => {
+        if (current()) error = errorMessage(e);
+      },
     );
   });
 
@@ -53,7 +58,7 @@
       <ChampIcon name={m.champ} />
       <h3>{m.champ} vs {m.opp}</h3>
       <ChampIcon name={m.opp} />
-      {#if !editing}<button class="btn edit" onclick={() => (editing = true)}>Edit</button>{/if}
+      {#if session.admin && !editing}<button class="btn edit" onclick={() => (editing = true)}>Edit</button>{/if}
     </div>
     {#if m.wr != null}
       <div class="stats"><LaneStats {m} /></div>
@@ -61,6 +66,7 @@
       <p class="small muted">No win-rate data for this pair.</p>
     {/if}
     <MatchupNotes {m} champ={m.champ} />
+    <SuggestNote {role} champion={m.champ} opponent={m.opp} />
     {#if editing}
       {#key m.opp}
         <MatchupEditor {role} {m} onsaved={saved} oncancel={() => (editing = false)} />

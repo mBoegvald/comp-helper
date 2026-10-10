@@ -1,6 +1,8 @@
 <script lang="ts">
+  import { app } from "../../lib/app.svelte.ts";
   import { ROLE_LABEL, ROLE_SHORT, ROLES } from "../../lib/constants.ts";
   import type { Role, Slot } from "../../lib/types.ts";
+  import ChampInput from "../common/ChampInput.svelte";
 
   /** Five name inputs for one team. `slots` is /api/recommend's reading of each typed name. */
   interface Props {
@@ -32,13 +34,11 @@
       {#if you}
         <input placeholder="You" disabled aria-label="Your {ROLE_LABEL[r]} (you)" />
       {:else}
-        <input
-          list="champ-list"
-          autocomplete="off"
-          spellcheck="false"
+        <ChampInput
+          names={app.meta?.names ?? []}
           placeholder={lane ? "Lane opponent" : ROLE_LABEL[r]}
-          aria-label="{side === 'ally' ? 'Your' : 'Enemy'} {ROLE_LABEL[r]}"
-          class:unknown={c.unknown}
+          label="{side === 'ally' ? 'Your' : 'Enemy'} {ROLE_LABEL[r]}"
+          unknown={c.unknown}
           title={c.title}
           bind:value={values[r]}
         />
@@ -67,19 +67,14 @@
     font-weight: 700;
     text-transform: uppercase;
   }
-  input {
+  .you input {
     width: 100%;
     min-width: 0;
-  }
-  .you input {
     background: var(--you);
     border-style: dashed;
     font-weight: 600;
   }
-  .lane input {
+  .lane :global(input) {
     border-color: var(--accent);
-  }
-  input.unknown {
-    border-color: var(--bad);
   }
 </style>

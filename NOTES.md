@@ -1,5 +1,94 @@
 # Pick helper: notes
 
+## Server upkeep (2026-10-10)
+- update.py trims logs/update.log to its last 500 KB (whole lines) when it passes 2 MB, at the start of a run while
+  holding the lock; rewritten in place, since the web page may have it open on Windows.
+- docker-compose.yml caps each service's container logs at 3 files of 10 MB.
+- docs/hosting.md has a weekly cron entry for the win rates (Thursday 05:00).
+
+## Privacy page and deleting accounts (2026-10-10)
+- Hosted mode has a Privacy page (footer link): what is stored (username, scrypt hash, notes and reviews, sign-in
+  cookie, sign-in/sign-up addresses for 24 hours, error logs), who sees it, Riot's icon server, backups kept at most
+  14 days, and the contact from `--contact` / `PICKHELPER_CONTACT` (`CONTACT` in .env).
+- "My notes" is now "My account", with "Delete my account" (password to confirm, rate limited like sign-in).
+  `manage.py delete-account NAME` does the same for the admin. Deleting removes the account, its sessions and all its
+  notes, and strips " (from NAME)" from curated lane tips. The last admin cannot be deleted.
+- Not legal advice: if the site grows beyond friends, have someone check it against GDPR.
+
+## Editing and withdrawing notes (2026-10-10)
+- Authors edit their notes under My notes. A waiting or rejected note is changed in place and waits for review
+  (again). An edit of an approved note waits as a revision (community_note.revised_text/_source/_at) while the
+  approved text stays on the site, so fixing a typo never takes a good note away; the review queue tags it Edit and
+  shows what is on the site now. Approving replaces the text; rejecting keeps it and tells the author why ("Your
+  edit was not accepted." when no reason is given). Admins' own edits apply at once.
+- Authors can withdraw (delete) their notes in any state. Waiting edits count toward the 20-per-account limit;
+  blocking an account drops its waiting edits and keeps its approved text.
+- db.connect() adds columns newer than a table (ADDED_COLUMNS), like it renames old tables; the committed database
+  gets the revised_* columns the first time the app opens it.
+
+## Hosting with Docker (2026-10-10)
+- docs/hosting.md is the deploy guide (Hetzner Cloud, DNS, Docker, admin account, updates, backups, restore).
+- docker-compose.yml: the app (hosted mode, --behind-proxy, non-root, health check, init for reaping) and Caddy
+  2.11.4 for HTTPS. Only Caddy publishes ports. Volumes: data (database, Reddit downloads, backups), logs, Caddy's
+  certificates. docker/entrypoint.sh fills an empty data volume from the image's copy once.
+- Kept the stdlib http.server instead of moving to WSGI/gunicorn: Caddy takes the TLS and slow-client work, the app
+  has timeouts, size limits and host checks, and the traffic is small. Revisit if the site gets busy.
+- Verified locally with rootless Podman: build, hosted start, non-root, health check, data surviving a new container,
+  SIGTERM stop in under a second, and Caddy replacing a visitor's X-Forwarded-For with the real address (so the
+  rate limits cannot be dodged). CI repeats the image checks on every PR.
+
+## Review fixes (2026-10-10)
+- A full review of PRs #3-#9 (correctness and security) found these, now fixed with tests that fail without the fix:
+  community notes on Cho'Gath, Kai'Sa and co never showed (the notes index and the lookups spelled keys
+  differently); rewording a lane tip cleared a curated label that agreed with the data; parallel requests got past
+  the 20-waiting-notes cap; another cookie on the domain could sign users out; a crafted #draft= link broke the page
+  for good; a slow error showed on the wrong matchup; promoting a note had a race with another admin.
+- Security hardening: the server answers only requests for its own address (127.0.0.1 / localhost on its port, or a
+  name given with --public-host / PICKHELPER_PUBLIC_HOSTS), which closes DNS rebinding; Content-Length must be a
+  plain number up to 64 KiB and stalled connections close after 30 s; hosted 500s carry no internals (the traceback
+  goes to the server log); the page has a Content-Security-Policy, and browser tests fail on a violation.
+- Rate limits behind the reverse proxy: done with --behind-proxy (see Hosting with Docker).
+
+## "Hand" data is now "curated" (2026-10-10)
+- The admin's own champion and matchup knowledge (archetype, damage, comps, pick when, good/struggles into; a label
+  and lane tip per matchup) was called the hand layer, from the hand-edited workbook cells. It is now curated:
+  tables curated_champion and curated_matchup, /api/curated/*, CuratedChampion in the page. The page says "Your
+  label" (local) or "Admin's label" (hosted).
+- Curated data feeds the scoring and only admins change it; community notes are text from users, shown after
+  review, and never change a score.
+- An admin can turn an approved matchup note into the curated lane tip of its side ("Make this the lane tip"):
+  the text is credited "(from author)", replaces that side's tip, and leaves the community notes (notes.promote_to_tip).
+- db.connect() renames old hand_* tables in place (RENAMED_TABLES), so older copies of the database keep working.
+  The sections below are history and still say "hand".
+
+## Community notes with review (2026-10-10)
+- Hosted mode: signed-in users suggest a note on a champion or a matchup ("Suggest a note" in Lookup); it waits in
+  the admin's review queue (Admin tab, with the count on the tab) until approved, optionally with corrected text, or
+  rejected with a reason the author sees under My notes. Admins' own notes skip the queue; admins can delete notes.
+- notes.py holds the rules: 10 to 1000 characters on one line, a source of at most 200 characters that may only be a
+  link when it is http(s) (the page links it only for a plain http(s) URL, with rel=nofollow ugc), at most 20
+  waiting notes per account, and blocking an account rejects its waiting notes.
+- Approved notes come with /api/matchup (both sides, marked with `who`, like lane tips) and /api/champion. They are
+  read once into an index cached on the database stamp, not queried per matchup.
+- Local mode shows approved notes but takes no suggestions: there you edit your own notes directly.
+
+## Accounts and hosted mode (2026-10-10)
+- Goal: a hosted site where anyone can read, people with accounts suggest notes, and the admin reviews them before
+  they show (review queue: next PR; hosting with Docker: the one after). Decided: open sign-up, public reading,
+  and the local Windows app stays without accounts (every request is the admin there).
+- `webapp.py --hosted` (or PICKHELPER_HOSTED=1) switches accounts on. Each route in ROUTES declares public, user or
+  admin; the server enforces it, the page only hides what the user cannot use.
+- auth.py: scrypt (N=2^14, r=8, p=5, stored per hash), session tokens stored as SHA-256 only, 30-day sessions, an
+  HttpOnly + SameSite=Lax + Secure cookie (`--insecure-cookies` drops Secure for testing without HTTPS). Hosted POSTs
+  need a matching Origin and a JSON body; bodies over 64 KiB are refused.
+- Rate limits per IP in the `attempt` table: sign-in 10 per 15 min, sign-up 3 per hour. Behind a reverse proxy the
+  client address is the proxy's, so hosting must pass the real address (X-Forwarded-For from the trusted proxy
+  only) or every visitor shares one limit. To do with the Docker setup.
+- `python manage.py create-admin NAME` (password asked at a prompt), `set-password`, `list`.
+- data/pickhelper.db in git must never hold accounts: the hosted database lives on the server.
+- Checked in headless Chromium in both modes: signed out, sign-up (with the short-password message), contributor,
+  admin with the Admin tab and blocking, and local mode unchanged. The session cookie is not readable from scripts.
+
 ## Svelte page and editing (2026-10-10)
 - frontend/: Svelte 5 + Vite in strict TypeScript; the API answers are typed in src/lib/types.ts (keep it in step
   with webapp.py's api_* functions). Components per tab (draft/, lookup/, data/, edit/) plus
@@ -40,7 +129,7 @@
 ## SQLite instead of workbooks (2026-10-10)
 - All data is in `data/pickhelper.db` (stdlib sqlite3, so the app needs no extra package; `db.py` has the schema).
   Generated tables (`lola`, `reddit_tips`, `reddit_snippet`) are replaced by updates in one transaction each;
-  `pool` only grows; the hand layer (`hand_champion`, `hand_matchup`, `role_note`) is written only by people.
+  `pool` only grows; the curated layer (`curated_champion`, `curated_matchup`, `role_note`) is written only by people.
   This replaces build_role.py's old merge, which had to guess which workbook cells were hand edits.
 - `db.champions(role)` / `db.matchups(role)` rebuild exactly what the workbooks held (verified: every score, label and
   tip identical for all five roles, plus five draft queries). One intended difference: 'Good into' no longer starts
@@ -49,8 +138,8 @@
   the text after the data-derived names. Mid has no role_data entries, so all its champion text is hand data.
 - `migrate_xlsx.py` did the one-off import (48 champion rows, 103 hand labels, 157 lane tips, mid's Comps/Notes);
   it was removed together with the workbooks and CSVs; all of them are in git history (commit 74eaf71 has them all).
-- Edits: GET/POST `/api/hand/champion` ({role, champion, fields}; '' or null resets a field to the default) and
-  POST `/api/hand/matchup` ({role, champion, opponent, result, tip}; result is Favored, Even, Even / skill,
+- Edits: GET/POST `/api/curated/champion` ({role, champion, fields}; '' or null resets a field to the default) and
+  POST `/api/curated/matchup` ({role, champion, opponent, result, tip}; result is Favored, Even, Even / skill,
   Unfavored or empty; both empty deletes the row). The Svelte page (next step) is the UI for these.
 - build_role.py refuses to save a fetch with under 60% of the previous row count (site change or outage), so a
   broken scrape cannot wipe a role. update.py makes one database backup per day in data/backups (14 kept).

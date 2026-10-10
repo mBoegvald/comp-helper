@@ -1,7 +1,7 @@
 <script lang="ts">
   import { untrack } from "svelte";
-  import { errorMessage, saveHandMatchup } from "../../lib/api.ts";
-  import { HAND_RESULTS } from "../../lib/constants.ts";
+  import { errorMessage, saveCuratedMatchup } from "../../lib/api.ts";
+  import { CURATED_RESULTS } from "../../lib/constants.ts";
   import type { Matchup, Role } from "../../lib/types.ts";
   import ErrorBox from "../common/ErrorBox.svelte";
 
@@ -16,7 +16,7 @@
 
   // the form starts from the saved note once; the parent creates a new editor per matchup
   const saved = untrack(() => ({
-    result: m.hand_result ?? "",
+    result: m.curated_result ?? "",
     tip: m.tips.find((t) => t.from === "notes" && t.who === m.champ)?.text ?? "",
   }));
   let result = $state(saved.result);
@@ -28,7 +28,7 @@
     e.preventDefault();
     saving = true;
     try {
-      onsaved?.(await saveHandMatchup(role, m.champ, m.opp, result, tip));
+      onsaved?.(await saveCuratedMatchup(role, m.champ, m.opp, result, tip));
     } catch (err) {
       error = errorMessage(err);
     } finally {
@@ -43,7 +43,7 @@
     <label for="edit-result">Result for {m.champ}</label>
     <select id="edit-result" bind:value={result}>
       <option value="">From the win rates ({m.label ?? "no data"})</option>
-      {#each HAND_RESULTS as r (r)}<option value={r}>{r}</option>{/each}
+      {#each CURATED_RESULTS as r (r)}<option value={r}>{r}</option>{/each}
     </select>
     <p class="small muted">The win rates decide the score when there are any; your label counts when there are none.</p>
   </div>
