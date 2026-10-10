@@ -288,8 +288,9 @@ def matchups(conn, role, comb=None, tips=None):
     return out
 
 
-def patch(conn, role="mid"):
-    r = conn.execute("SELECT patch, tier FROM lola WHERE role = ? AND patch != '' LIMIT 1", (role,)).fetchone()
+def patch(conn):
+    """Patch and rank of the most recent Lolalytics fetch, any role (e.g. '16.20 EMERALD+')."""
+    r = conn.execute("SELECT patch, tier FROM lola WHERE patch != '' ORDER BY fetched_at DESC LIMIT 1").fetchone()
     return f"{r['patch']} {r['tier']}".strip() if r else ""
 
 
