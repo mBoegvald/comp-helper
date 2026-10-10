@@ -27,3 +27,10 @@ def conn(tmp_path, monkeypatch):
     seed(c)
     yield c
     c.close()
+
+
+@pytest.fixture(autouse=True)
+def local_mode(monkeypatch):
+    """Every test starts in local mode (no accounts); hosted tests switch it on themselves."""
+    monkeypatch.setitem(webapp.CONFIG, "hosted", False)
+    monkeypatch.setitem(webapp.CONFIG, "secure_cookies", True)
