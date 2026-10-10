@@ -259,3 +259,15 @@ def test_local_mode_does_not_take_suggestions(conn):
     with pytest.raises(ValueError, match="hosted site"):
         webapp.api_notes_suggest(NOTE, webapp.Ctx("127.0.0.1", user=webapp.LOCAL_ADMIN))
     assert webapp.api_matchup({"role": "top", "a": "Darius", "b": "Garen"})["community"] == []
+
+
+def test_admin_turns_a_note_into_the_lane_tip(hosted):
+    pleb = sign_in(hosted, "pleb", "contributor pw")
+    note_id = request(hosted, "POST", "/api/notes", NOTE, cookie=pleb)[1]["note"]["id"]
+    assert request(hosted, "POST", "/api/admin/notes/promote", {"id": note_id}, cookie=pleb)[0] == 403
+    boss = sign_in(hosted, "boss", "admin password")
+    request(hosted, "POST", "/api/admin/review", {"id": note_id, "approve": True}, cookie=boss)
+    status, m, _ = request(hosted, "POST", "/api/admin/notes/promote", {"id": note_id}, cookie=boss)
+    assert status == 200 and m["community"] == []
+    assert [(t["who"], t["text"]) for t in m["tips"]] == [("Darius", "Trade when his Q is dwn. (from pleb)")]
+    assert request(hosted, "POST", "/api/admin/notes/promote", {"id": note_id}, cookie=boss)[0] == 400  # gone

@@ -612,6 +612,14 @@ def api_admin_review(q, ctx):
     return api_admin_review_list({}, ctx)
 
 
+def api_admin_note_promote(q, ctx=None):
+    """An approved matchup note becomes the curated lane tip for its side; answers with the updated matchup."""
+    _hosted_only()
+    n = _with_db(lambda conn: notes.promote_to_tip(conn, int(q.get("id") or 0)))
+    champs = load(n["role"])[0]
+    return matchup(n["role"], picker.key(n["champion"]), find(n["opponent"], champs))
+
+
 def api_admin_note_delete(q, ctx=None):
     _hosted_only()
     _with_db(lambda conn: notes.delete(conn, int(q.get("id") or 0)))
@@ -644,6 +652,7 @@ ROUTES = {
     ("GET", "/api/admin/review"): (api_admin_review_list, ADMIN),
     ("POST", "/api/admin/review"): (api_admin_review, ADMIN),
     ("POST", "/api/admin/notes/delete"): (api_admin_note_delete, ADMIN),
+    ("POST", "/api/admin/notes/promote"): (api_admin_note_promote, ADMIN),
 }
 MAX_BODY = 64 * 1024
 
