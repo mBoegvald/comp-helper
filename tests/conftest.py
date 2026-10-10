@@ -23,6 +23,7 @@ def conn(tmp_path, monkeypatch):
     picker._CACHE.clear()
     webapp._names_cache.update(stamp=None, names={})
     webapp._tips_cache.update(stamp=None, data={})
+    webapp._notes_cache.update(stamp=None, data={})  # keyed on the stamp, which restarts in every test database
     c = db.connect()
     seed(c)
     yield c
