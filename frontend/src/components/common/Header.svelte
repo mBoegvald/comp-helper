@@ -1,5 +1,6 @@
 <script lang="ts">
   import { app, type View } from "../../lib/app.svelte.ts";
+  import { review } from "../../lib/review.svelte.ts";
   import { logout, session } from "../../lib/session.svelte.ts";
 
   let { view = $bindable(), onsignin }: { view: View; onsignin?: () => void } = $props();
@@ -25,7 +26,11 @@
     </div>
     <div class="tabs" role="tablist" aria-label="Views">
       {#each tabs as t (t.id)}
-        <button role="tab" aria-selected={view === t.id} onclick={() => (view = t.id)}>{t.label}</button>
+        <button role="tab" aria-selected={view === t.id} onclick={() => (view = t.id)}>
+          {t.label}{#if t.id === "admin" && review.notes.length}<span class="badge" title="Notes waiting for review"
+              >{review.notes.length}</span
+            >{/if}
+        </button>
       {/each}
     </div>
     {#if session.hosted}
@@ -95,6 +100,14 @@
     cursor: pointer;
     color: var(--muted);
     font-weight: 600;
+  }
+  .badge {
+    margin-left: 6px;
+    font-size: 11px;
+    padding: 1px 6px;
+    border-radius: 99px;
+    background: var(--warn-bg);
+    color: var(--warn);
   }
   .account {
     display: flex;

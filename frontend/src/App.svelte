@@ -9,6 +9,7 @@
   import DraftView from "./components/draft/DraftView.svelte";
   import LookupView from "./components/lookup/LookupView.svelte";
   import { app, loadMeta, pollStatus } from "./lib/app.svelte.ts";
+  import { loadReview } from "./lib/review.svelte.ts";
   import { loadSession, session } from "./lib/session.svelte.ts";
 
   let accountDialog = $state<ReturnType<typeof AccountDialog>>();
@@ -18,6 +19,12 @@
     loadSession();
     // update status is admin-only
     return pollStatus(() => session.admin && app.view === "data");
+  });
+
+  // the review queue (and the count on the Admin tab): for admins, fresh on each tab switch
+  $effect(() => {
+    void app.view;
+    if (session.hosted && session.admin) loadReview();
   });
 
   // signed out while on My notes
