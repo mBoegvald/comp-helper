@@ -281,3 +281,14 @@ def test_server_errors_show_no_internals_when_hosted(hosted, monkeypatch, capsys
     status, d, _ = request(hosted, "GET", "/api/meta")
     assert status == 500 and "secret detail" not in d["error"]
     assert "secret detail" in capsys.readouterr().err  # but it is in the server log
+
+
+@pytest.mark.parametrize("others", ['theme={"x":1}', "x=a b", "_ga=GA1.2.3, consent=yes"])
+def test_other_cookies_do_not_sign_you_out(hosted, others):
+    """Cookies set by other apps on the same domain can have values Python's cookie parser rejects."""
+    token = sign_in(hosted, "pleb", "contributor pw")
+    c = http.client.HTTPConnection(hosted, timeout=10)
+    c.request("GET", "/api/me", headers={"Cookie": f"{others}; {webapp.SESSION_COOKIE}={token}; last=1"})
+    me = json.loads(c.getresponse().read())
+    c.close()
+    assert me["user"]["username"] == "pleb"

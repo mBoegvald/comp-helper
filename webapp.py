@@ -20,7 +20,6 @@ import threading
 import traceback
 import urllib.parse
 import webbrowser
-from http.cookies import SimpleCookie
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
@@ -712,10 +711,13 @@ class Handler(BaseHTTPRequestHandler):
         return self.send(200, f.read_bytes(), ASSET_TYPES[f.suffix])
 
     def session_token(self):
-        c = SimpleCookie()
-        with contextlib.suppress(Exception):
-            c.load(self.headers.get("Cookie") or "")
-        return c[SESSION_COOKIE].value if SESSION_COOKIE in c else None
+        """Our cookie, read by hand: Python's cookie parser drops the whole header at the first cookie it cannot parse
+        (a JSON value or a space, e.g. from analytics on the same domain), which signed users out."""
+        for part in (self.headers.get("Cookie") or "").split(";"):
+            name, _, value = part.strip().partition("=")
+            if name == SESSION_COOKIE and value:
+                return value
+        return None
 
     def addressed_to_us(self):
         """Only requests for this server's own address. Without this, a website that points its own name at
