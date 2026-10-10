@@ -7,7 +7,7 @@ Setup (one time):
   3. pip install praw
 
 Usage:
-  python fetch_reddit.py [--xlsx midlane_overview.xlsx | --champs "Zed,Viktor"] [--out data/reddit] [--threads 15] [--comments 40]
+  python fetch_reddit.py [--champs "Zed,Viktor"] [--out data/reddit] [--threads 15] [--comments 40]
 
 Output: data/reddit/<champion>.json with the subreddit's wiki pages (those whose name mentions matchup,
 counter, guide, faq or index) and the top matchup threads with their highest-scored top-level comments.
@@ -32,15 +32,6 @@ QUERIES = ["matchup", "matchups", "how to play against", "counter"]
 
 def sub_name(champ: str) -> str:
     return SUB_OVERRIDES.get(champ, re.sub(r"[^a-z0-9]", "", champ.lower()) + "mains")
-
-
-def champs_from_xlsx(path: Path):
-    import openpyxl
-    ws = openpyxl.load_workbook(path, read_only=True)["Champions"]
-    rows = ws.iter_rows(values_only=True)
-    header = [str(c).strip().lower() if c else "" for c in next(rows)]
-    col = next((i for i, h in enumerate(header) if h in ("champion", "name", "champ")), 0)
-    return [str(r[col]).strip() for r in rows if r and r[col]]
 
 
 def make_reddit():
@@ -94,13 +85,12 @@ def dump_champ(reddit, champ: str, out: Path, n_threads: int, n_comments: int):
 
 def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    p.add_argument("--xlsx", default="midlane_overview.xlsx")
     p.add_argument("--champs")
     p.add_argument("--out", default="data/reddit")
     p.add_argument("--threads", type=int, default=15, help="threads per search query")
     p.add_argument("--comments", type=int, default=40, help="top-level comments kept per thread")
     a = p.parse_args()
-    champs = [c.strip() for c in a.champs.split(",")] if a.champs else champs_from_xlsx(Path(a.xlsx))
+    champs = [c.strip() for c in a.champs.split(",")] if a.champs else __import__("fetch_reddit_rss").all_champions()
     reddit = make_reddit()
     reddit.read_only = True
     for c in champs:

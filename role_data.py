@@ -1,20 +1,20 @@
 """Hand-written role knowledge used to build the per-role workbooks and by the picker.
 
-ROLES: lolalytics lane name, workbook path, seed champions used to discover the lane's champion pool.
+ROLES: lolalytics lane name, seed champions used to discover the lane's champion pool.
 ARCHETYPES[role]: archetype -> (words that describe it in opponents' Good into / Struggles into text,
                                 default 'good into' text, default 'struggles into' text)
 CHAMPS[role][champion] = (archetype, damage, comps, pick when, blind-safe)
   comps uses the picker's style words: wombo/teamfight, poke/siege, pick, dive, split/flank, scaling/late/front-to-back
 DAMAGE: fallback damage type for champions missing from CHAMPS.
-Entries are opinions (Claude, Oct 2026); correct them in the generated xlsx, not here, once a workbook exists.
+Entries are opinions (Claude, Oct 2026). Edits made on the web page are stored in the database and win over these.
 """
 
 ROLES = {
-    "top":     {"lane": "top",     "xlsx": "roles/top.xlsx",     "seeds": ["renekton", "garen", "ornn", "jax"]},
-    "jungle":  {"lane": "jungle",  "xlsx": "roles/jungle.xlsx",  "seeds": ["leesin", "viego", "amumu", "graves"]},
-    "mid":     {"lane": "middle",  "xlsx": "midlane_overview.xlsx", "seeds": ["ahri", "zed", "orianna"]},
-    "bot":     {"lane": "bottom",  "xlsx": "roles/bot.xlsx",     "seeds": ["jinx", "caitlyn", "ezreal", "jhin"]},
-    "support": {"lane": "support", "xlsx": "roles/support.xlsx", "seeds": ["thresh", "lulu", "nautilus", "lux"]},
+    "top":     {"lane": "top",     "seeds": ["renekton", "garen", "ornn", "jax"]},
+    "jungle":  {"lane": "jungle",  "seeds": ["leesin", "viego", "amumu", "graves"]},
+    "mid":     {"lane": "middle",  "seeds": ["ahri", "zed", "orianna"]},
+    "bot":     {"lane": "bottom",  "seeds": ["jinx", "caitlyn", "ezreal", "jhin"]},
+    "support": {"lane": "support", "seeds": ["thresh", "lulu", "nautilus", "lux"]},
 }
 ROLE_ALIASES = {"jg": "jungle", "jng": "jungle", "jungler": "jungle", "middle": "mid", "adc": "bot", "bottom": "bot",
                 "sup": "support", "supp": "support", "toplane": "top"}
@@ -257,7 +257,7 @@ CHAMPS = {
  },
 }
 
-# Mid archetypes as used in midlane_overview.xlsx (hand-made). Words match picker.ARCH_WORDS.
+# Mid archetypes (hand-made). Words match picker.ARCH_WORDS.
 ARCHETYPES["mid"] = {
     "Control mage":     (["mages", "immobile"], "melee that must walk through zone control", "assassins and long-range poke"),
     "Artillery":        (["mages", "immobile", "long range", "poke"], "immobile champions and short-range mages", "assassins and dive"),

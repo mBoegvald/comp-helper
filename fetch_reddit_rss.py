@@ -13,7 +13,7 @@ old high-score ones. Every thread is annotated with age_days, recency_weight (1.
 and is older than ITEM_STALE_DAYS (2 years): item and rune advice that old is not useful, lane dynamics mostly are.
 
 Usage:
-  python3 fetch_reddit_rss.py [--xlsx midlane_overview.xlsx | --champs "Zed,Zilean"] [--out data/reddit]
+  python3 fetch_reddit_rss.py [--champs "Zed,Zilean"] [--out data/reddit]    # default: every champion in the database
                               [--queries "matchup"] [--comments 0] [--max-comment-threads 12] [--delay 60]
 
 --comments N fetches up to N comments for the --max-comment-threads most promising threads per champion: threads
@@ -63,13 +63,12 @@ def sub_name(champ: str) -> str:
     return o[0] if isinstance(o, list) else o
 
 
-def champs_from_xlsx(path: Path):
-    import openpyxl
-    ws = openpyxl.load_workbook(path, read_only=True)["Champions"]
-    rows = ws.iter_rows(values_only=True)
-    header = [str(c).strip().lower() if c else "" for c in next(rows)]
-    col = next((i for i, h in enumerate(header) if h in ("champion", "name", "champ")), 0)
-    return [str(r[col]).strip() for r in rows if r and r[col]]
+def all_champions():
+    """Every champion in any role's pool in data/pickhelper.db."""
+    import db
+    import role_data
+    conn = db.connect()
+    return sorted({c for r in role_data.ROLES for c in db.pool(conn, r)})
 
 
 def get(url: str, delay: float, tries: int = 5) -> str | None:
@@ -258,7 +257,6 @@ def fetch_champ(champ: str, queries, out_dir: Path, n_comments: int, delay: floa
 
 def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    p.add_argument("--xlsx", default="midlane_overview.xlsx")
     p.add_argument("--champs")
     p.add_argument("--out", default="data/reddit")
     p.add_argument("--queries", default="matchup", help="comma-separated search queries; each costs one request per time filter (all, year)")
@@ -266,7 +264,7 @@ def main():
     p.add_argument("--max-comment-threads", type=int, default=12, help="threads per champion to fetch comments for")
     p.add_argument("--delay", type=float, default=60, help="seconds between requests")
     a = p.parse_args()
-    champs = [c.strip() for c in a.champs.split(",") if c.strip()] if a.champs else champs_from_xlsx(Path(a.xlsx))
+    champs = [c.strip() for c in a.champs.split(",") if c.strip()] if a.champs else all_champions()
     queries = [q.strip() for q in a.queries.split(",") if q.strip()]
     for c in champs:
         fetch_champ(c, queries, Path(a.out), a.comments, a.delay, a.max_comment_threads)
