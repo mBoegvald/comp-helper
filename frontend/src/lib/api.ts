@@ -61,3 +61,6 @@ export const reviewNote = (id: number, approve: boolean, text?: string, note?: s
   request<Suggestions>("/api/admin/review", { id, approve, text, note });
 export const deleteNote = (id: number) => request<Ok>("/api/admin/notes/delete", { id });
 export const promoteNote = (id: number) => request<Ok>("/api/admin/notes/promote", { id });
+export const editNote = (id: number, text: string, source: string) =>
+  request<{ note: Suggestion }>("/api/notes/edit", { id, text, source });
+export const withdrawNote = (id: number) => request<Ok>("/api/notes/withdraw", { id });

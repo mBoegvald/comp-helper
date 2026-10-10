@@ -218,6 +218,11 @@ export interface Suggestion {
   created_at: string;
   reviewed_at: string | null;
   review_note: string | null;
+  // an edit of an approved note waiting for review; the approved text above stays shown until then
+  revised_text: string | null;
+  revised_source: string | null;
+  revised_at: string | null;
+  account_id: number | null;
 }
 
 /** /api/notes/mine, /api/admin/review */
