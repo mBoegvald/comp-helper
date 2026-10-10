@@ -333,10 +333,76 @@ def api_stop(_q):
     return {"ok": True}
 
 
+# ---------------------------------------------------------------- hand edits
+
+HAND_RESULTS = ("Favored", "Even", "Even / skill", "Unfavored")
+
+
+def pool_name(role, name):
+    """Exact champion name as stored for this role, for typed or key-shaped input."""
+    champs = load(role)[0]
+    k = find(str(name or ""), champs)
+    if k not in champs:
+        raise ValueError(f"{name!r} is not a {role} champion")
+    return champs[k]["name"]
+
+
+def api_hand_champion_get(q):
+    """What a champion's edit form needs: the hand edits, the role_data defaults they override, the archetypes."""
+    role = role_of(q.get("role"))
+    name = pool_name(role, q.get("name"))
+    conn = db.connect()
+    try:
+        r = conn.execute("SELECT * FROM hand_champion WHERE role = ? AND champion = ?", (role, name)).fetchone()
+    finally:
+        conn.close()
+    arch, dmg, comps, when, blind = db.defaults(role, name)
+    archs = role_data.ARCHETYPES.get(role, {})
+    _w, g_def, b_def = archs.get((r and r["archetype"]) or arch, ([], "", ""))
+    return {"role": role, "champion": name, "hand": {k: (r[k] if r else None) for k in db.HAND_CHAMP_FIELDS},
+            "defaults": {"archetype": arch, "damage": dmg, "comps": comps, "good_into": g_def, "struggles_into": b_def,
+                         "pick_when": when, "blind_safe": blind},
+            "archetypes": sorted(archs), "updated_at": r["updated_at"] if r else None}
+
+
+def api_hand_champion_set(q):
+    role = role_of(q.get("role"))
+    name = pool_name(role, q.get("champion"))
+    fields = q.get("fields") or {}
+    if not isinstance(fields, dict):
+        raise ValueError("fields must be an object")
+    conn = db.connect()
+    try:
+        db.set_hand_champion(conn, role, name, fields)
+    finally:
+        conn.close()
+    return api_hand_champion_get({"role": role, "name": name})
+
+
+def api_hand_matchup_set(q):
+    """Hand label and/or lane tip for champion vs opponent in a role; empty values remove them."""
+    role = role_of(q.get("role"))
+    champ = pool_name(role, q.get("champion"))
+    opp = display(find(str(q.get("opponent") or ""), load(role)[0]))
+    if picker.key(opp) not in all_names():
+        raise ValueError(f"unknown opponent {q.get('opponent')!r}")
+    result = (q.get("result") or "").strip() or None
+    if result and result not in HAND_RESULTS:
+        raise ValueError(f"result must be one of {', '.join(HAND_RESULTS)} or empty")
+    conn = db.connect()
+    try:
+        db.set_hand_matchup(conn, role, champ, opp, result, q.get("tip"))
+    finally:
+        conn.close()
+    return matchup(role, picker.key(champ), picker.key(opp))
+
+
 ROUTES = {
     ("GET", "/api/meta"): api_meta, ("POST", "/api/recommend"): api_recommend,
     ("GET", "/api/champion"): api_champion, ("GET", "/api/matchup"): api_matchup,
     ("GET", "/api/status"): api_status, ("POST", "/api/update"): api_update, ("POST", "/api/stop"): api_stop,
+    ("GET", "/api/hand/champion"): api_hand_champion_get, ("POST", "/api/hand/champion"): api_hand_champion_set,
+    ("POST", "/api/hand/matchup"): api_hand_matchup_set,
 }
 
 
