@@ -1,0 +1,33 @@
+# Pick Helper on a server: the app, and Caddy in front for HTTPS. Put your domain in .env (see .env.example), then
+# `docker compose up -d --build`. The app port is not published: only Caddy can reach it. See docs/hosting.md.
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    init: true # reaps finished update processes started from the Data tab
+    environment:
+      PICKHELPER_PUBLIC_HOSTS: ${DOMAIN:?set DOMAIN in .env}
+    volumes:
+      - data:/app/data
+      - logs:/app/logs
+
+  caddy:
+    image: caddy:2.11.4-alpine
+    restart: unless-stopped
+    depends_on: [app]
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    environment:
+      DOMAIN: ${DOMAIN:?set DOMAIN in .env}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  data:
+  logs:
+  caddy_data:
+  caddy_config:
