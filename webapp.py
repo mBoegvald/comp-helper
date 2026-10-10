@@ -657,6 +657,13 @@ ROUTES = {
     ("POST", "/api/admin/notes/promote"): (api_admin_note_promote, ADMIN),
 }
 MAX_BODY = 64 * 1024
+# What the page may load: its own scripts and styles, and champion icons from Riot. An injected script could
+# neither run nor send data elsewhere. Styles allow inline because Svelte sets style properties.
+CSP = (
+    "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; "
+    "img-src 'self' https://ddragon.leagueoflegends.com; connect-src 'self' https://ddragon.leagueoflegends.com; "
+    "object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'"
+)
 
 
 class Ctx:
@@ -687,6 +694,8 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header("X-Content-Type-Options", "nosniff")
         self.send_header("Referrer-Policy", "same-origin")
         self.send_header("X-Frame-Options", "DENY")
+        if ctype.startswith("text/html"):
+            self.send_header("Content-Security-Policy", CSP)
         for c in cookies:
             self.send_header("Set-Cookie", c)
         self.end_headers()

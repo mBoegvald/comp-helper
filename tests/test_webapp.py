@@ -225,3 +225,13 @@ def test_server_errors_say_what_happened_locally(server, monkeypatch):
     monkeypatch.setitem(webapp.ROUTES, ("GET", "/api/meta"), (broken, webapp.PUBLIC))
     status, d = call(server + "/api/meta")
     assert status == 500 and "detail for you" in d["error"]
+
+
+def test_the_page_has_a_content_security_policy(server):
+    status, _, _ = raw_get(server, "/")
+    _, port = server.removeprefix("http://").split(":")
+    c = http.client.HTTPConnection("127.0.0.1", int(port), timeout=10)
+    c.request("GET", "/")
+    csp = c.getresponse().getheader("Content-Security-Policy")
+    c.close()
+    assert status == 200 and "script-src 'self'" in csp and "frame-ancestors 'none'" in csp
