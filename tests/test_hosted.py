@@ -58,17 +58,17 @@ def test_signed_out_visitors_can_read_but_not_edit(hosted):
     assert request(hosted, "GET", "/api/me")[1] == {"hosted": True, "user": None, "admin": False}
     assert request(hosted, "POST", "/api/recommend", {"role": "top"})[0] == 200
     assert request(hosted, "GET", "/api/matchup?role=top&a=Aatrox&b=Darius")[0] == 200
-    for method, path in [("GET", "/api/status"), ("GET", "/api/hand/champion?role=top&name=Aatrox")]:
+    for method, path in [("GET", "/api/status"), ("GET", "/api/curated/champion?role=top&name=Aatrox")]:
         assert request(hosted, method, path)[0] == 401
     body = {"role": "top", "champion": "Garen", "opponent": "Darius", "tip": "x"}
-    assert request(hosted, "POST", "/api/hand/matchup", body)[0] == 401
+    assert request(hosted, "POST", "/api/curated/matchup", body)[0] == 401
     assert request(hosted, "POST", "/api/update", {"stage": "tips"})[0] == 401
 
 
 def test_contributors_cannot_do_admin_things(hosted):
     token = sign_in(hosted, "pleb", "contributor pw")
     body = {"role": "top", "champion": "Garen", "opponent": "Darius", "tip": "x"}
-    assert request(hosted, "POST", "/api/hand/matchup", body, cookie=token)[0] == 403
+    assert request(hosted, "POST", "/api/curated/matchup", body, cookie=token)[0] == 403
     assert request(hosted, "GET", "/api/admin/accounts", cookie=token)[0] == 403
     assert request(hosted, "POST", "/api/stop", {}, cookie=token)[0] == 403
 
@@ -76,7 +76,7 @@ def test_contributors_cannot_do_admin_things(hosted):
 def test_admin_can_edit_and_manage_accounts(hosted, conn):
     token = sign_in(hosted, "boss", "admin password")
     body = {"role": "top", "champion": "Garen", "opponent": "Darius", "tip": "admin tip"}
-    assert request(hosted, "POST", "/api/hand/matchup", body, cookie=token)[0] == 200
+    assert request(hosted, "POST", "/api/curated/matchup", body, cookie=token)[0] == 200
     status, d, _ = request(hosted, "GET", "/api/admin/accounts", cookie=token)
     assert status == 200 and [a["username"] for a in d["accounts"]] == ["boss", "pleb"]
 
@@ -134,7 +134,7 @@ def test_admin_cannot_block_themselves(hosted, conn):
 def test_posts_must_come_from_the_page(hosted, kwargs, status):
     token = sign_in(hosted, "boss", "admin password")
     body = {"role": "top", "champion": "Garen", "opponent": "Darius", "tip": "x"}
-    assert request(hosted, "POST", "/api/hand/matchup", body, cookie=token, **kwargs)[0] == status
+    assert request(hosted, "POST", "/api/curated/matchup", body, cookie=token, **kwargs)[0] == status
 
 
 def test_oversized_and_malformed_bodies(hosted):

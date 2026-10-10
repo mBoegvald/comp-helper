@@ -1,5 +1,5 @@
 """Community notes (hosted mode): signed-in users suggest a note on a champion or a matchup, an admin reviews it, and
-only approved notes are shown. A matchup note is written from the champion's side, like a hand lane tip.
+only approved notes are shown. A matchup note is written from the champion's side, like a curated lane tip.
 
 Spam brakes: length limits, at most MAX_PENDING waiting notes per account, a source that looks like a link must be
 http(s), and blocking an account rejects its waiting notes. Notes from admins are approved straight away.

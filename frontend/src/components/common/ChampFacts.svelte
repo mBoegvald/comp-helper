@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { Champion } from "../../lib/types.ts";
 
-  /** The champion's notes for a role: hand-written, or the defaults from role_data.py. */
+  /** The champion's notes for a role: curated, or the defaults from role_data.py. */
   let { champ }: { champ: Champion } = $props();
 
   const rows = $derived(

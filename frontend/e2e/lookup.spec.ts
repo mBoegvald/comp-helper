@@ -51,9 +51,9 @@ test("edits a matchup label and tip, then removes them", async ({ page }) => {
 
   const notes = page.locator(".notes");
   await expect(notes.getByText("E2E tip vs Garen")).toBeVisible();
-  await expect(notes.getByText("Hand label: Favored")).toBeVisible();
+  await expect(notes.getByText("Your label: Favored")).toBeVisible();
   await expect(
-    page.locator("tbody tr", { hasText: "Garen" }).filter({ visible: true }).getByTitle("Has hand-written lane notes"),
+    page.locator("tbody tr", { hasText: "Garen" }).filter({ visible: true }).getByTitle("Has your lane notes"),
   ).toBeVisible();
 
   await page.getByRole("button", { name: "Edit", exact: true }).click();

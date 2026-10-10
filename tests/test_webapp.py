@@ -26,26 +26,26 @@ def test_matchup_from_either_side(conn):
     assert a["dnorm"] == -b["dnorm"]
 
 
-def test_hand_champion_round_trip(conn):
-    d = webapp.api_hand_champion_set({"role": "top", "champion": "aatrox", "fields": {"pick_when": "Mine"}})
+def test_curated_champion_round_trip(conn):
+    d = webapp.api_curated_champion_set({"role": "top", "champion": "aatrox", "fields": {"pick_when": "Mine"}})
     assert d["champion"] == "Aatrox"
-    assert d["hand"]["pick_when"] == "Mine"
+    assert d["curated"]["pick_when"] == "Mine"
     assert d["defaults"]["pick_when"] == "You need a frontline with damage and sustain"
-    d = webapp.api_hand_champion_set({"role": "top", "champion": "Aatrox", "fields": {"pick_when": None}})
-    assert d["hand"]["pick_when"] is None
+    d = webapp.api_curated_champion_set({"role": "top", "champion": "Aatrox", "fields": {"pick_when": None}})
+    assert d["curated"]["pick_when"] is None
 
 
-def test_hand_matchup_round_trip(conn):
-    m = webapp.api_hand_matchup_set({"role": "top", "champion": "Garen", "opponent": "darius", "result": "Favored"})
-    assert (m["hand_result"], m["mismatch"]) == ("Favored", True)
+def test_curated_matchup_round_trip(conn):
+    m = webapp.api_curated_matchup_set({"role": "top", "champion": "Garen", "opponent": "darius", "result": "Favored"})
+    assert (m["curated_result"], m["mismatch"]) == ("Favored", True)
 
 
 @pytest.mark.parametrize(
     "fn, q",
     [
-        (webapp.api_hand_champion_set, {"role": "top", "champion": "Nobody", "fields": {}}),
-        (webapp.api_hand_champion_set, {"role": "top", "champion": "Aatrox", "fields": {"hack": 1}}),
-        (webapp.api_hand_matchup_set, {"role": "top", "champion": "Aatrox", "opponent": "Darius", "result": "<b>"}),
+        (webapp.api_curated_champion_set, {"role": "top", "champion": "Nobody", "fields": {}}),
+        (webapp.api_curated_champion_set, {"role": "top", "champion": "Aatrox", "fields": {"hack": 1}}),
+        (webapp.api_curated_matchup_set, {"role": "top", "champion": "Aatrox", "opponent": "Darius", "result": "<b>"}),
         (webapp.api_recommend, {"role": "nope"}),
     ],
 )
@@ -83,9 +83,9 @@ def test_server_routes(server):
 
 def test_edits_only_from_the_page_itself(server, conn):
     body = {"role": "top", "champion": "Garen", "opponent": "Darius", "tip": "t"}
-    assert call(server + "/api/hand/matchup", body, origin="http://evil.example")[0] == 403
-    assert conn.execute("SELECT count(*) FROM hand_matchup").fetchone()[0] == 0
-    status, d = call(server + "/api/hand/matchup", body, origin=server)
+    assert call(server + "/api/curated/matchup", body, origin="http://evil.example")[0] == 403
+    assert conn.execute("SELECT count(*) FROM curated_matchup").fetchone()[0] == 0
+    status, d = call(server + "/api/curated/matchup", body, origin=server)
     assert status == 200 and d["tips"][0]["text"] == "t"
 
 

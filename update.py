@@ -119,7 +119,7 @@ def run(args, what: str) -> bool:
 
 
 def backup():
-    """One copy of the database per day in data/backups (hand edits live there), the last BACKUPS_KEPT kept."""
+    """One copy of the database per day in data/backups (curated edits live there), the last BACKUPS_KEPT kept."""
     import db
 
     dest = BACKUPS / f"{dt.date.today()}_{db.PATH.name}"

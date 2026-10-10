@@ -1,6 +1,7 @@
 <script lang="ts">
   import { DIFF_HELP } from "../../lib/constants.ts";
   import { percent, signed } from "../../lib/format.ts";
+  import { session } from "../../lib/session.svelte.ts";
   import type { MatchupRow } from "../../lib/types.ts";
   import ChampIcon from "../common/ChampIcon.svelte";
   import ResultTag from "../common/ResultTag.svelte";
@@ -69,7 +70,10 @@
             <span class="opp">
               <ChampIcon name={m.opp} size="sm" />
               {m.opp}
-              {#if m.notes}<span class="small muted" title="Has hand-written lane notes">✎</span>{/if}
+              {#if m.notes}<span
+                  class="small muted"
+                  title={session.hosted ? "Has the admin's lane notes" : "Has your lane notes"}>✎</span
+                >{/if}
             </span>
           </td>
           <td class="num">{signed(m.score)}</td>

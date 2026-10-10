@@ -62,12 +62,12 @@ def fake_fetch(rows_per_champ):
     return fetch
 
 
-def test_build_role_replaces_data_and_keeps_hand_edits(conn, monkeypatch):
-    db.set_hand_matchup(conn, "top", "Garen", "Darius", tip="mine")
+def test_build_role_replaces_data_and_keeps_curated_edits(conn, monkeypatch):
+    db.set_curated_matchup(conn, "top", "Garen", "Darius", tip="mine")
     monkeypatch.setattr(build_role.lola, "fetch", fake_fetch(3))
     build_role.build("top", delay=0)
     assert conn.execute("SELECT DISTINCT patch FROM lola WHERE role = 'top'").fetchall()[0][0] == "16.21"
-    assert conn.execute("SELECT tip FROM hand_matchup").fetchone()[0] == "mine"
+    assert conn.execute("SELECT tip FROM curated_matchup").fetchone()[0] == "mine"
 
 
 def test_build_role_refuses_a_fetch_that_lost_most_rows(conn, monkeypatch):

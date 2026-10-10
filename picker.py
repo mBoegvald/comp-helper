@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Pick helper for any role. Reads data/pickhelper.db (see db.py); hand edits are made on the web page.
+"""Pick helper for any role. Reads data/pickhelper.db (see db.py); curated edits are made on the web page.
 
 Usage:
   python picker.py --role top vs Renekton          # best picks into an enemy laner (role defaults to mid)
@@ -147,7 +147,7 @@ def load_full(role=None):
     mu, info = {}, {}  # (champ, opp) -> (score, tip); (champ, opp) -> raw fields
     for row in rows:
         c, o, res, tip = row["champ"], row["opp"], row["result"], row["tip"]
-        hand_tip = tip
+        curated_tip = tip
         v = RESULT.get(res, 0)
         # use the normalised win-rate delta (both directions averaged) when present,
         # scaled so +-2 (the Favored/Unfavored threshold) maps to +-3
@@ -158,7 +158,7 @@ def load_full(role=None):
                 v = round(v * 0.7, 1)  # thin sample: trust it less
             if not tip:
                 tip = f"(lolalytics {dn:+.1f}, {int(games) if games else '?'} games)"
-        # first Reddit snippet rides along with the hand-written tip
+        # first Reddit snippet rides along with the curated tip
         rt = row["reddit_tips"]
         if rt:
             tip = f"{tip or ''} [reddit] {str(rt).split(' | ')[0][:200]}".strip()
@@ -169,7 +169,7 @@ def load_full(role=None):
             "opp": o,
             "score": v,
             "result": res,
-            "hand_tip": hand_tip,
+            "curated_tip": curated_tip,
             "wr": row["wr"],
             "dnorm": dn,
             "games": games,
