@@ -1,0 +1,164 @@
+// The JSON webapp.py sends, one type per answer. Keep in step with the api_* functions there.
+
+export type Role = "top" | "jungle" | "mid" | "bot" | "support";
+export type Label = "Favored" | "Even" | "Unfavored";
+export type Need = "ap" | "ad";
+
+/** A champion's notes for a role (hand edits, else role_data.py defaults). */
+export interface Champion {
+  name: string;
+  arch: string | null;
+  dmg: string | null;
+  comps: string | null;
+  good: string | null;
+  bad: string | null;
+  when: string | null;
+  blind: string | null;
+}
+
+export interface RoleInfo {
+  id: Role;
+  champions: string[];
+  matchups: number;
+  updated: number | null; // seconds since 1970
+}
+
+/** /api/meta */
+export interface Meta {
+  roles: RoleInfo[];
+  names: string[];
+  styles: string[];
+  patch: string;
+  reddit_champions: number;
+  tips_updated: number | null;
+}
+
+export interface LaneNote {
+  from: "notes";
+  who: string;
+  text: string;
+}
+
+export interface RedditSnippet {
+  text: string;
+  date: string;
+  url: string;
+}
+
+export interface RedditGroup {
+  who: string;
+  mentions: number;
+  newest: string;
+  tips: RedditSnippet[];
+}
+
+/** /api/matchup: everything about champ vs opp in one role, from champ's side. */
+export interface Matchup {
+  champ: string;
+  opp: string;
+  score: number | null;
+  wr?: number;
+  dnorm?: number;
+  games?: number;
+  label: Label | null;
+  low_sample: boolean;
+  hand_result: string | null;
+  mismatch: boolean;
+  tips: LaneNote[];
+  reddit: RedditGroup[];
+}
+
+/** One reason in a pick's score. */
+export interface Part {
+  kind: "matchup" | "text" | "archetype" | "style" | "damage" | "blind";
+  value: number;
+  enemy?: string;
+  enemy_name?: string;
+  main?: boolean;
+  text?: string;
+  wr?: number;
+  dnorm?: number;
+  games?: number;
+  label?: Label | null;
+  low_sample?: boolean;
+}
+
+export interface Pick extends Champion {
+  key: string;
+  score: number;
+  parts: Part[];
+  lane?: Matchup | null;
+}
+
+/** How /api/recommend read a typed name in one slot. */
+export interface Slot {
+  name: string | null;
+  known: boolean;
+  in_role: boolean;
+}
+
+/** /api/recommend */
+export interface Recommendation {
+  role: Role;
+  enemy_main: string | null;
+  need: Need | null;
+  need_detected: Need | null;
+  style: string | null;
+  slots: Record<string, Slot>; // "ally.top", "enemy.mid", ...
+  picks: Pick[];
+  avoid: Pick[];
+  candidates: number;
+}
+
+export interface DraftRequest {
+  role: Role;
+  ally: Partial<Record<Role, string>>;
+  enemy: Partial<Record<Role, string>>;
+  style: string;
+  need: string;
+  unavailable: string[];
+  top: number;
+}
+
+export interface MatchupRow {
+  opp: string;
+  score: number | null;
+  wr: number | null;
+  dnorm: number | null;
+  games: number | null;
+  label: Label | null;
+  low_sample: boolean;
+  notes: number;
+  reddit: number;
+}
+
+/** /api/champion: every matchup of one champion in one role. */
+export interface ChampionLookup {
+  role: Role;
+  champion: Champion;
+  in_role: boolean;
+  matchups: MatchupRow[];
+}
+
+/** /api/status */
+export interface Status {
+  running: boolean;
+  log: string;
+}
+
+export type HandField = "archetype" | "damage" | "comps" | "good_into" | "struggles_into" | "pick_when" | "blind_safe";
+
+/** /api/hand/champion: a champion's hand edits and the defaults they override. */
+export interface HandChampion {
+  role: Role;
+  champion: string;
+  hand: Record<HandField, string | null>;
+  defaults: Record<HandField, string>;
+  archetypes: string[];
+  updated_at: string | null;
+}
+
+export interface Ok {
+  ok: boolean;
+  error?: string;
+}
