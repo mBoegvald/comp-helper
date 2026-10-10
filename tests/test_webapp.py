@@ -137,3 +137,16 @@ def test_unfinished_names_are_reported_but_not_scored(conn):
     assert d["slots"]["enemy.top"]["known"] is False  # the page still marks the box
     assert not any(p.get("enemy") == "ga" for pick in d["picks"] for p in pick["parts"])
     assert webapp.api_recommend({"role": "top", "enemy": {"top": "gar"}})["enemy_main"] == "Garen"  # unique start
+
+
+def test_a_client_that_hangs_up_is_not_an_error():
+    """Reloading a page mid-answer closes the connection; writing the answer must not raise."""
+
+    class HungUp:
+        def write(self, _data):
+            raise BrokenPipeError
+
+    h = webapp.Handler.__new__(webapp.Handler)  # no socket needed
+    h.wfile, h.request_version, h.requestline, h.command = HungUp(), "HTTP/1.1", "GET / HTTP/1.1", "GET"
+    h.client_address = ("127.0.0.1", 0)
+    h.send(200, b"answer", "text/plain")  # does not raise

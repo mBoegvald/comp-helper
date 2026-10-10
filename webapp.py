@@ -686,8 +686,10 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header("X-Frame-Options", "DENY")
         for c in cookies:
             self.send_header("Set-Cookie", c)
-        self.end_headers()
-        self.wfile.write(body)
+        # a browser that reloads or closes the page mid-answer hangs up; that is normal, not an error to print
+        with contextlib.suppress(BrokenPipeError, ConnectionResetError):
+            self.end_headers()
+            self.wfile.write(body)
 
     def send_json(self, code, out, cookies=()):
         self.send(code, json.dumps(out, default=str).encode("utf-8"), "application/json", cookies)
