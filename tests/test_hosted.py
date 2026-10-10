@@ -365,3 +365,35 @@ def test_without_the_proxy_option_the_header_is_ignored(hosted, monkeypatch):
     monkeypatch.setitem(auth.LIMITS, "signup", (1, 3600))
     assert signup_from(hosted, "dodger1", "203.0.113.1") == 200
     assert signup_from(hosted, "dodger2", "203.0.113.2") == 429
+
+
+def test_an_edited_note_waits_for_review_while_the_old_text_shows(hosted, conn):
+    auth.create_account(conn, "other", "contributor pw")
+    pleb = sign_in(hosted, "pleb", "contributor pw")
+    note_id = request(hosted, "POST", "/api/notes", NOTE, cookie=pleb)[1]["note"]["id"]
+    boss = sign_in(hosted, "boss", "admin password")
+    request(hosted, "POST", "/api/admin/review", {"id": note_id, "approve": True}, cookie=boss)
+
+    edit = {"id": note_id, "text": "Trade when his Q is down, from max range.", "source": "my games"}
+    assert request(hosted, "POST", "/api/notes/edit", edit)[0] == 401
+    other = sign_in(hosted, "other", "contributor pw")
+    assert request(hosted, "POST", "/api/notes/edit", edit, cookie=other)[0] == 400  # not theirs
+    status, d, _ = request(hosted, "POST", "/api/notes/edit", edit, cookie=pleb)
+    assert status == 200 and d["note"]["revised_text"] == edit["text"]
+
+    shown = request(hosted, "GET", "/api/matchup?role=top&a=Darius&b=Garen")[1]["community"]
+    assert [n["text"] for n in shown] == ["Trade when his Q is dwn."]  # the approved version until reviewed
+    queue = request(hosted, "GET", "/api/admin/review", cookie=boss)[1]["notes"]
+    assert [(n["text"], n["revised_text"]) for n in queue] == [("Trade when his Q is dwn.", edit["text"])]
+    request(hosted, "POST", "/api/admin/review", {"id": note_id, "approve": True}, cookie=boss)
+    shown = request(hosted, "GET", "/api/matchup?role=top&a=Darius&b=Garen")[1]["community"]
+    assert [n["text"] for n in shown] == [edit["text"]]
+
+
+def test_an_author_withdraws_a_note(hosted):
+    pleb = sign_in(hosted, "pleb", "contributor pw")
+    note_id = request(hosted, "POST", "/api/notes", NOTE, cookie=pleb)[1]["note"]["id"]
+    boss = sign_in(hosted, "boss", "admin password")
+    assert request(hosted, "POST", "/api/notes/withdraw", {"id": note_id}, cookie=boss)[0] == 400  # not the admin's
+    assert request(hosted, "POST", "/api/notes/withdraw", {"id": note_id}, cookie=pleb)[:2] == (200, {"ok": True})
+    assert request(hosted, "GET", "/api/notes/mine", cookie=pleb)[1]["notes"] == []

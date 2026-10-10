@@ -596,6 +596,25 @@ def api_notes_suggest(q, ctx):
     return {"note": note}
 
 
+def api_notes_edit(q, ctx):
+    """The author changes their note; it waits for review again (an approved note keeps showing meanwhile). Admins'
+    edits apply at once."""
+    _hosted_only()
+    admin = ctx.user["role"] == ADMIN
+    note = _with_db(
+        lambda conn: notes.edit(
+            conn, ctx.user["id"], int(q.get("id") or 0), q.get("text"), q.get("source"), approve=admin
+        )
+    )
+    return {"note": note}
+
+
+def api_notes_withdraw(q, ctx):
+    _hosted_only()
+    _with_db(lambda conn: notes.withdraw(conn, ctx.user["id"], int(q.get("id") or 0)))
+    return {"ok": True}
+
+
 def api_notes_mine(_q, ctx):
     _hosted_only()
     return {"notes": _with_db(lambda conn: notes.for_account(conn, ctx.user["id"]))}
@@ -651,6 +670,8 @@ ROUTES = {
     ("POST", "/api/admin/block"): (api_admin_block, ADMIN),
     ("POST", "/api/notes"): (api_notes_suggest, USER),
     ("GET", "/api/notes/mine"): (api_notes_mine, USER),
+    ("POST", "/api/notes/edit"): (api_notes_edit, USER),
+    ("POST", "/api/notes/withdraw"): (api_notes_withdraw, USER),
     ("GET", "/api/admin/review"): (api_admin_review_list, ADMIN),
     ("POST", "/api/admin/review"): (api_admin_review, ADMIN),
     ("POST", "/api/admin/notes/delete"): (api_admin_note_delete, ADMIN),
