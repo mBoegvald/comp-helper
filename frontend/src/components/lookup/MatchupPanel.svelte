@@ -1,6 +1,7 @@
 <script lang="ts">
   import { errorMessage, getMatchup } from "../../lib/api.ts";
   import { app, dataChanged } from "../../lib/app.svelte.ts";
+  import { session } from "../../lib/session.svelte.ts";
   import type { Matchup, Role } from "../../lib/types.ts";
   import ChampIcon from "../common/ChampIcon.svelte";
   import ErrorBox from "../common/ErrorBox.svelte";
@@ -53,7 +54,7 @@
       <ChampIcon name={m.champ} />
       <h3>{m.champ} vs {m.opp}</h3>
       <ChampIcon name={m.opp} />
-      {#if !editing}<button class="btn edit" onclick={() => (editing = true)}>Edit</button>{/if}
+      {#if session.admin && !editing}<button class="btn edit" onclick={() => (editing = true)}>Edit</button>{/if}
     </div>
     {#if m.wr != null}
       <div class="stats"><LaneStats {m} /></div>

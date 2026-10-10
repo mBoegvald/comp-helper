@@ -1,5 +1,22 @@
 # Pick helper: notes
 
+## Accounts and hosted mode (2026-10-10)
+- Goal: a hosted site where anyone can read, people with accounts suggest notes, and the admin reviews them before
+  they show (review queue: next PR; hosting with Docker: the one after). Decided: open sign-up, public reading,
+  and the local Windows app stays without accounts (every request is the admin there).
+- `webapp.py --hosted` (or PICKHELPER_HOSTED=1) switches accounts on. Each route in ROUTES declares public, user or
+  admin; the server enforces it, the page only hides what the user cannot use.
+- auth.py: scrypt (N=2^14, r=8, p=5, stored per hash), session tokens stored as SHA-256 only, 30-day sessions, an
+  HttpOnly + SameSite=Lax + Secure cookie (`--insecure-cookies` drops Secure for testing without HTTPS). Hosted POSTs
+  need a matching Origin and a JSON body; bodies over 64 KiB are refused.
+- Rate limits per IP in the `attempt` table: sign-in 10 per 15 min, sign-up 3 per hour. Behind a reverse proxy the
+  client address is the proxy's, so hosting must pass the real address (X-Forwarded-For from the trusted proxy
+  only) or every visitor shares one limit. To do with the Docker setup.
+- `python manage.py create-admin NAME` (password asked at a prompt), `set-password`, `list`.
+- data/pickhelper.db in git must never hold accounts: the hosted database lives on the server.
+- Checked in headless Chromium in both modes: signed out, sign-up (with the short-password message), contributor,
+  admin with the Admin tab and blocking, and local mode unchanged. The session cookie is not readable from scripts.
+
 ## Svelte page and editing (2026-10-10)
 - frontend/: Svelte 5 + Vite in strict TypeScript; the API answers are typed in src/lib/types.ts (keep it in step
   with webapp.py's api_* functions). Components per tab (draft/, lookup/, data/, edit/) plus

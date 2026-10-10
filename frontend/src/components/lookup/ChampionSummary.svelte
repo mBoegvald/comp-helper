@@ -1,6 +1,7 @@
 <script lang="ts">
   import { dataChanged } from "../../lib/app.svelte.ts";
   import { ROLE_LABEL } from "../../lib/constants.ts";
+  import { session } from "../../lib/session.svelte.ts";
   import type { ChampionLookup } from "../../lib/types.ts";
   import ChampFacts from "../common/ChampFacts.svelte";
   import ChampIcon from "../common/ChampIcon.svelte";
@@ -32,7 +33,7 @@
       <div class="name">{champ.name}</div>
       <div class="small muted">{sub}</div>
     </div>
-    {#if data.in_role && !editing}
+    {#if data.in_role && session.admin && !editing}
       <button class="btn" onclick={() => (editing = true)}>Edit notes</button>
     {/if}
   </div>

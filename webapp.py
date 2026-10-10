@@ -19,6 +19,7 @@ import sys
 import threading
 import urllib.parse
 import webbrowser
+from http.cookies import SimpleCookie
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
@@ -26,6 +27,7 @@ HERE = Path(__file__).resolve().parent
 os.chdir(HERE)
 sys.path.insert(0, str(HERE))
 
+import auth
 import db
 import picker
 import role_data
@@ -42,6 +44,9 @@ ASSET_TYPES = {
 }
 REDDIT_DIR = HERE / "data" / "reddit"
 _lock = threading.Lock()
+CONFIG = {"hosted": False, "secure_cookies": True}  # set by main(): --hosted, --insecure-cookies
+LOCAL_ADMIN = {"id": None, "username": "you", "role": "admin"}  # local mode: no accounts, you are admin
+SESSION_COOKIE = "ph_session"
 _tips_cache = {"stamp": None, "data": {}}
 _names_cache = {"stamp": None, "names": {}}
 
@@ -207,7 +212,7 @@ def damage_of(name, role_hint=None):
 # ---------------------------------------------------------------- API
 
 
-def api_meta(_q):
+def api_meta(_q, ctx=None):
     conn = db.connect()
     try:
         updated = {r: epoch(db.get_meta(conn, f"lola_updated:{r}")) for r in role_data.ROLES}
@@ -246,7 +251,7 @@ def epoch(iso):
     return dt.datetime.strptime(iso, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=dt.timezone.utc).timestamp()
 
 
-def api_recommend(q):
+def api_recommend(q, ctx=None):
     role = role_of(q.get("role"))
     champs, mu, info = load(role)
     names = all_names()
@@ -318,7 +323,7 @@ def api_recommend(q):
     }
 
 
-def api_champion(q):
+def api_champion(q, ctx=None):
     role = role_of(q.get("role"))
     champs, mu, info = load(role)
     k = find(q.get("name", ""), champs)
@@ -348,13 +353,13 @@ def api_champion(q):
     }
 
 
-def api_matchup(q):
+def api_matchup(q, ctx=None):
     role = role_of(q.get("role"))
     champs = load(role)[0]
     return matchup(role, find(q.get("a", ""), champs), find(q.get("b", ""), champs))
 
 
-def api_status(_q):
+def api_status(_q, ctx=None):
     lines = []
     if update.LOG.exists():
         with update.LOG.open(encoding="utf-8", errors="replace") as f:
@@ -362,7 +367,7 @@ def api_status(_q):
     return {"running": update.is_running(), "log": "".join(lines)}
 
 
-def api_update(q):
+def api_update(q, ctx=None):
     stage = q.get("stage") or "all"
     if stage not in update.STAGES:
         raise ValueError(f"unknown stage {stage}")
@@ -378,7 +383,7 @@ def api_update(q):
     return {"ok": True}
 
 
-def api_stop(_q):
+def api_stop(_q, ctx=None):
     if not update.is_running():
         return {"ok": False, "error": "Nothing is running."}
     pid = update.running_pid()
@@ -410,7 +415,7 @@ def pool_name(role, name):
     return champs[k]["name"]
 
 
-def api_hand_champion_get(q):
+def api_hand_champion_get(q, ctx=None):
     """What a champion's edit form needs: the hand edits, the role_data defaults they override, the archetypes."""
     role = role_of(q.get("role"))
     name = pool_name(role, q.get("name"))
@@ -440,7 +445,7 @@ def api_hand_champion_get(q):
     }
 
 
-def api_hand_champion_set(q):
+def api_hand_champion_set(q, ctx=None):
     role = role_of(q.get("role"))
     name = pool_name(role, q.get("champion"))
     fields = q.get("fields") or {}
@@ -454,7 +459,7 @@ def api_hand_champion_set(q):
     return api_hand_champion_get({"role": role, "name": name})
 
 
-def api_hand_matchup_set(q):
+def api_hand_matchup_set(q, ctx=None):
     """Hand label and/or lane tip for champion vs opponent in a role; empty values remove them."""
     role = role_of(q.get("role"))
     champ = pool_name(role, q.get("champion"))
@@ -472,18 +477,117 @@ def api_hand_matchup_set(q):
     return matchup(role, picker.key(champ), picker.key(opp))
 
 
+# ---------------------------------------------------------------- accounts (hosted mode)
+
+
+def _hosted_only():
+    if not CONFIG["hosted"]:
+        raise ValueError("Accounts are only used on the hosted site.")
+
+
+def _session_cookie(token, max_age):
+    c = f"{SESSION_COOKIE}={token}; HttpOnly; SameSite=Lax; Path=/; Max-Age={max_age}"
+    return c + ("; Secure" if CONFIG["secure_cookies"] else "")
+
+
+def _with_db(fn):
+    conn = db.connect()
+    try:
+        return fn(conn)
+    finally:
+        conn.close()
+
+
+def api_me(_q, ctx=None):
+    user = ctx.user if ctx else LOCAL_ADMIN
+    return {"hosted": CONFIG["hosted"], "user": user, "admin": bool(user and user["role"] == "admin")}
+
+
+def api_signup(q, ctx):
+    _hosted_only()
+
+    def run(conn):
+        auth.rate_limit(conn, ctx.ip, "signup")
+        account_id = auth.create_account(conn, str(q.get("username") or ""), str(q.get("password") or ""))
+        return auth.start_session(conn, account_id)
+
+    token = _with_db(run)
+    ctx.cookies.append(_session_cookie(token, auth.SESSION_DAYS * 86400))
+    ctx.user = _with_db(lambda conn: auth.session_account(conn, token))
+    return api_me({}, ctx)
+
+
+def api_login(q, ctx):
+    _hosted_only()
+
+    def run(conn):
+        auth.rate_limit(conn, ctx.ip, "login")
+        return auth.login(conn, str(q.get("username") or ""), str(q.get("password") or ""))
+
+    token = _with_db(run)
+    ctx.cookies.append(_session_cookie(token, auth.SESSION_DAYS * 86400))
+    ctx.user = _with_db(lambda conn: auth.session_account(conn, token))
+    return api_me({}, ctx)
+
+
+def api_logout(_q, ctx):
+    _hosted_only()
+    _with_db(lambda conn: auth.logout(conn, ctx.token))
+    ctx.cookies.append(_session_cookie("", 0))
+    ctx.user = None
+    return api_me({}, ctx)
+
+
+def api_admin_accounts(_q, ctx=None):
+    _hosted_only()
+    return {"accounts": _with_db(auth.list_accounts)}
+
+
+def api_admin_block(q, ctx):
+    _hosted_only()
+    account_id = int(q.get("id") or 0)
+    if ctx.user and account_id == ctx.user["id"]:
+        raise ValueError("You cannot block yourself.")
+    _with_db(lambda conn: auth.set_blocked(conn, account_id, bool(q.get("blocked"))))
+    return api_admin_accounts({}, ctx)
+
+
+# ---------------------------------------------------------------- HTTP
+
+# who may call a route: everyone, a signed-in account, or an admin. In local mode every request is the admin.
+PUBLIC, USER, ADMIN = "public", "user", "admin"
 ROUTES = {
-    ("GET", "/api/meta"): api_meta,
-    ("POST", "/api/recommend"): api_recommend,
-    ("GET", "/api/champion"): api_champion,
-    ("GET", "/api/matchup"): api_matchup,
-    ("GET", "/api/status"): api_status,
-    ("POST", "/api/update"): api_update,
-    ("POST", "/api/stop"): api_stop,
-    ("GET", "/api/hand/champion"): api_hand_champion_get,
-    ("POST", "/api/hand/champion"): api_hand_champion_set,
-    ("POST", "/api/hand/matchup"): api_hand_matchup_set,
+    ("GET", "/api/me"): (api_me, PUBLIC),
+    ("GET", "/api/meta"): (api_meta, PUBLIC),
+    ("POST", "/api/recommend"): (api_recommend, PUBLIC),
+    ("GET", "/api/champion"): (api_champion, PUBLIC),
+    ("GET", "/api/matchup"): (api_matchup, PUBLIC),
+    ("POST", "/api/signup"): (api_signup, PUBLIC),
+    ("POST", "/api/login"): (api_login, PUBLIC),
+    ("POST", "/api/logout"): (api_logout, PUBLIC),
+    ("GET", "/api/status"): (api_status, ADMIN),
+    ("POST", "/api/update"): (api_update, ADMIN),
+    ("POST", "/api/stop"): (api_stop, ADMIN),
+    ("GET", "/api/hand/champion"): (api_hand_champion_get, ADMIN),
+    ("POST", "/api/hand/champion"): (api_hand_champion_set, ADMIN),
+    ("POST", "/api/hand/matchup"): (api_hand_matchup_set, ADMIN),
+    ("GET", "/api/admin/accounts"): (api_admin_accounts, ADMIN),
+    ("POST", "/api/admin/block"): (api_admin_block, ADMIN),
 }
+MAX_BODY = 64 * 1024
+
+
+class Ctx:
+    """One request: who is asking (None when signed out), from where, and cookies to set on the answer."""
+
+    def __init__(self, ip, token=None, user=None):
+        self.ip, self.token, self.user, self.cookies = ip, token, user, []
+
+
+def allowed(user, access):
+    if access == PUBLIC:
+        return True
+    return bool(user) and (access == USER or user["role"] == ADMIN)
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -492,20 +596,42 @@ class Handler(BaseHTTPRequestHandler):
     def log_message(self, fmt, *args):  # quiet console
         pass
 
-    def send(self, code, body: bytes, ctype):
+    def send(self, code, body: bytes, ctype, cookies=()):
         self.send_response(code)
         self.send_header("Content-Type", ctype)
         self.send_header("Content-Length", str(len(body)))
         self.send_header("Cache-Control", "no-store")
+        self.send_header("X-Content-Type-Options", "nosniff")
+        self.send_header("Referrer-Policy", "same-origin")
+        self.send_header("X-Frame-Options", "DENY")
+        for c in cookies:
+            self.send_header("Set-Cookie", c)
         self.end_headers()
         self.wfile.write(body)
+
+    def send_json(self, code, out, cookies=()):
+        self.send(code, json.dumps(out, default=str).encode("utf-8"), "application/json", cookies)
 
     def send_asset(self, path):
         """A file from web/dist/assets, never anything outside it (no '..' tricks)."""
         f = (DIST / urllib.parse.unquote(path).lstrip("/")).resolve()
         if (DIST / "assets").resolve() not in f.parents or f.suffix not in ASSET_TYPES or not f.is_file():
-            return self.send(404, b'{"error":"not found"}', "application/json")
+            return self.send_json(404, {"error": "not found"})
         return self.send(200, f.read_bytes(), ASSET_TYPES[f.suffix])
+
+    def session_token(self):
+        c = SimpleCookie()
+        with contextlib.suppress(Exception):
+            c.load(self.headers.get("Cookie") or "")
+        return c[SESSION_COOKIE].value if SESSION_COOKIE in c else None
+
+    def same_origin(self):
+        """Only our own page may send POSTs. Hosted mode also requires the Origin header, which browsers always
+        send on fetch POSTs, so another website cannot act for a signed-in visitor."""
+        origin = self.headers.get("Origin")
+        if not origin:
+            return not CONFIG["hosted"]
+        return urllib.parse.urlparse(origin).netloc == self.headers.get("Host")
 
     def handle_any(self, method):
         u = urllib.parse.urlparse(self.path)
@@ -513,28 +639,48 @@ class Handler(BaseHTTPRequestHandler):
             return self.send(200, PAGE.read_bytes(), "text/html; charset=utf-8")
         if method == "GET" and u.path.startswith("/assets/"):
             return self.send_asset(u.path)
-        fn = ROUTES.get((method, u.path))
-        if not fn:
-            return self.send(404, b'{"error":"not found"}', "application/json")
+        route = ROUTES.get((method, u.path))
+        if not route:
+            return self.send_json(404, {"error": "not found"})
+        fn, access = route
+
         if method == "POST":
-            # only accept requests from our own page (blocks other websites from poking the local server)
-            origin = self.headers.get("Origin")
-            if origin and urllib.parse.urlparse(origin).netloc != self.headers.get("Host"):
-                return self.send(403, b'{"error":"forbidden"}', "application/json")
+            if not self.same_origin():
+                return self.send_json(403, {"error": "forbidden"})
+            if CONFIG["hosted"] and not (self.headers.get("Content-Type") or "").startswith("application/json"):
+                return self.send_json(415, {"error": "send JSON"})
             n = int(self.headers.get("Content-Length") or 0)
-            q = json.loads(self.rfile.read(n) or b"{}") if n else {}
+            if n > MAX_BODY:
+                return self.send_json(413, {"error": "request too large"})
+            try:
+                q = json.loads(self.rfile.read(n) or b"{}") if n else {}
+            except ValueError:
+                return self.send_json(400, {"error": "invalid JSON"})
+            if not isinstance(q, dict):
+                return self.send_json(400, {"error": "send a JSON object"})
         else:
             q = {k: v[0] for k, v in urllib.parse.parse_qs(u.query).items()}
+
+        ctx = Ctx(ip=self.client_address[0])
+        if CONFIG["hosted"]:
+            ctx.token = self.session_token()
+            ctx.user = _with_db(lambda conn: auth.session_account(conn, ctx.token))
+        else:
+            ctx.user = LOCAL_ADMIN
+        if not allowed(ctx.user, access):
+            return self.send_json(403 if ctx.user else 401, {"error": "Sign in as an admin to do that."})
+
         try:
-            out = fn(q)
-            code = 200
+            out, code = fn(q, ctx), 200
+        except auth.RateLimited as e:
+            out, code = {"error": str(e)}, 429
         except FileNotFoundError as e:
             out, code = {"error": str(e)}, 404
         except (ValueError, KeyError) as e:
             out, code = {"error": str(e)}, 400
-        except Exception as e:  # noqa: BLE001 - e.g. a workbook half-written by a running update
+        except Exception as e:  # noqa: BLE001 - e.g. the database busy during an update
             out, code = {"error": f"{type(e).__name__}: {e}. If an update is running, try again in a moment."}, 500
-        self.send(code, json.dumps(out, default=str).encode("utf-8"), "application/json")
+        self.send_json(code, out, ctx.cookies)
 
     def do_GET(self):
         self.handle_any("GET")
@@ -547,19 +693,34 @@ def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--port", type=int, default=8765)
     p.add_argument("--no-browser", action="store_true")
+    p.add_argument(
+        "--hosted",
+        action="store_true",
+        default=os.environ.get("PICKHELPER_HOSTED") == "1",
+        help="accounts and sign-in (for running on a server); also PICKHELPER_HOSTED=1",
+    )
+    p.add_argument("--host", default="127.0.0.1", help="address to listen on (hosted mode behind a proxy)")
+    p.add_argument(
+        "--insecure-cookies",
+        action="store_true",
+        help="hosted mode without HTTPS, for testing only: session cookies without the Secure flag",
+    )
     a = p.parse_args()
+    CONFIG.update(hosted=a.hosted, secure_cookies=not a.insecure_cookies)
     srv = None
-    for port in range(a.port, a.port + 20):
+    ports = [a.port] if a.hosted else range(a.port, a.port + 20)  # a server keeps its port or fails loudly
+    for port in ports:
         try:
-            srv = ThreadingHTTPServer(("127.0.0.1", port), Handler)
+            srv = ThreadingHTTPServer((a.host, port), Handler)
             break
         except OSError:
             continue
     if not srv:
-        sys.exit(f"no free port between {a.port} and {a.port + 19}")
-    url = f"http://127.0.0.1:{srv.server_address[1]}/"
-    print(f"Pick helper running at {url}  (close this window or press Ctrl+C to stop)", flush=True)
-    if not a.no_browser:
+        sys.exit(f"no free port at {a.port}" + ("" if a.hosted else f" to {a.port + 19}"))
+    url = f"http://{a.host}:{srv.server_address[1]}/"
+    mode = "hosted mode (accounts on)" if a.hosted else "close this window or press Ctrl+C to stop"
+    print(f"Pick helper running at {url}  ({mode})", flush=True)
+    if not a.no_browser and not a.hosted:
         threading.Timer(0.6, lambda: webbrowser.open(url)).start()
     with contextlib.suppress(KeyboardInterrupt):
         srv.serve_forever()

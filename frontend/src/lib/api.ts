@@ -1,10 +1,12 @@
 // One function per endpoint of webapp.py. Errors come back as {error} with a 4xx/5xx status.
 import type {
+  Accounts,
   ChampionLookup,
   DraftRequest,
   HandChampion,
   HandField,
   Matchup,
+  Me,
   Meta,
   Ok,
   Recommendation,
@@ -41,3 +43,10 @@ export const saveHandChampion = (role: Role, champion: string, fields: Partial<R
   request<HandChampion>("/api/hand/champion", { role, champion, fields });
 export const saveHandMatchup = (role: Role, champion: string, opponent: string, result: string, tip: string) =>
   request<Matchup>("/api/hand/matchup", { role, champion, opponent, result, tip });
+
+export const getMe = () => request<Me>("/api/me");
+export const signUp = (username: string, password: string) => request<Me>("/api/signup", { username, password });
+export const signIn = (username: string, password: string) => request<Me>("/api/login", { username, password });
+export const signOut = () => request<Me>("/api/logout", {});
+export const getAccounts = () => request<Accounts>("/api/admin/accounts");
+export const setBlocked = (id: number, blocked: boolean) => request<Accounts>("/api/admin/block", { id, blocked });
