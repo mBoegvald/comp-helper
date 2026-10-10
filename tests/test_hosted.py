@@ -335,3 +335,33 @@ def test_sql_in_notes_and_lookups_is_only_text(hosted, conn):
         ("pleb", "contributor"),
     ]
     assert [r[0] for r in conn.execute("SELECT source FROM community_note ORDER BY id")] == SQL_ATTACKS
+
+
+def signup_from(hosted, name, forwarded=None):
+    c = http.client.HTTPConnection(hosted, timeout=10)
+    headers = {"Content-Type": "application/json", "Origin": f"http://{hosted}"}
+    if forwarded:
+        headers["X-Forwarded-For"] = forwarded
+    c.request(
+        "POST", "/api/signup", body=json.dumps({"username": name, "password": "a good password"}), headers=headers
+    )
+    status = c.getresponse().status
+    c.close()
+    return status
+
+
+def test_behind_the_proxy_each_visitor_has_their_own_limit(hosted, monkeypatch):
+    """Caddy puts the visitor's address last in X-Forwarded-For; a visitor's own value in front is ignored."""
+    monkeypatch.setitem(webapp.CONFIG, "behind_proxy", True)
+    monkeypatch.setitem(auth.LIMITS, "signup", (1, 3600))
+    assert signup_from(hosted, "visitor1", "203.0.113.5") == 200
+    assert signup_from(hosted, "visitor1b", "203.0.113.5") == 429  # same visitor again
+    assert signup_from(hosted, "visitor2", "198.51.100.7") == 200  # someone else
+    assert signup_from(hosted, "visitor1c", "198.51.100.99, 203.0.113.5") == 429  # faked first entry: still visitor 1
+
+
+def test_without_the_proxy_option_the_header_is_ignored(hosted, monkeypatch):
+    """Anyone can send X-Forwarded-For; trusting it without a proxy would let them dodge the limits."""
+    monkeypatch.setitem(auth.LIMITS, "signup", (1, 3600))
+    assert signup_from(hosted, "dodger1", "203.0.113.1") == 200
+    assert signup_from(hosted, "dodger2", "203.0.113.2") == 429
