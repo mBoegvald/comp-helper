@@ -8,6 +8,7 @@
   import LaneStats from "../common/LaneStats.svelte";
   import MatchupNotes from "../common/MatchupNotes.svelte";
   import MatchupEditor from "../edit/MatchupEditor.svelte";
+  import SuggestNote from "../notes/SuggestNote.svelte";
 
   /** Everything about one pair in one role, from `champ`'s side. */
   let { role, champ, opp }: { role: Role; champ: string; opp: string } = $props();
@@ -62,6 +63,7 @@
       <p class="small muted">No win-rate data for this pair.</p>
     {/if}
     <MatchupNotes {m} champ={m.champ} />
+    <SuggestNote {role} champion={m.champ} opponent={m.opp} />
     {#if editing}
       {#key m.opp}
         <MatchupEditor {role} {m} onsaved={saved} oncancel={() => (editing = false)} />

@@ -6,6 +6,8 @@
   import ChampFacts from "../common/ChampFacts.svelte";
   import ChampIcon from "../common/ChampIcon.svelte";
   import ChampionEditor from "../edit/ChampionEditor.svelte";
+  import CommunityNotes from "../notes/CommunityNotes.svelte";
+  import SuggestNote from "../notes/SuggestNote.svelte";
 
   let { data }: { data: ChampionLookup } = $props();
 
@@ -52,6 +54,8 @@
   {:else if data.in_role}
     <div class="facts"><ChampFacts {champ} /></div>
   {/if}
+  {#if data.community.length}<div class="community"><CommunityNotes notes={data.community} /></div>{/if}
+  {#if data.in_role}<SuggestNote role={data.role} champion={champ.name} />{/if}
 </div>
 
 <style>
@@ -64,6 +68,9 @@
   .name {
     font-size: 16px;
     font-weight: 700;
+  }
+  .community {
+    margin-top: 12px;
   }
   .facts {
     margin-top: 10px;
