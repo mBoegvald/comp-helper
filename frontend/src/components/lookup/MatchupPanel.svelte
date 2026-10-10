@@ -13,7 +13,7 @@
   /** Everything about one pair in one role, from `champ`'s side. */
   let { role, champ, opp }: { role: Role; champ: string; opp: string } = $props();
 
-  let m = $state<Matchup | null>(null);
+  let m = $state.raw<Matchup | null>(null);
   let error = $state<string | null>(null);
   let panel = $state<HTMLDivElement>();
   let editing = $derived.by(() => (void opp, false)); // another opponent closes the editor

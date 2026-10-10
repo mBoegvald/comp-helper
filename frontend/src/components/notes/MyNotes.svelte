@@ -5,7 +5,7 @@
   import ErrorBox from "../common/ErrorBox.svelte";
   import MyNote from "./MyNote.svelte";
 
-  let mine = $state<Suggestion[] | null>(null);
+  let mine = $state.raw<Suggestion[] | null>(null);
   let error = $state<string | null>(null);
 
   function load() {
