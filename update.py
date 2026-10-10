@@ -16,6 +16,7 @@ Options (or environment variables):
 Everything is saved in data/pickhelper.db; each run first makes that day's copy in data/backups.
 Progress goes to logs/update.log. Only one update runs at a time.
 """
+
 import argparse
 import datetime as dt
 import os
@@ -42,6 +43,7 @@ class Lock:
     """Exclusive lock on logs/update.lock. The OS drops it when the process exits, even after a crash.
     The PID of the running update is stored at the start of the file; on Windows the lock covers a byte far
     past it, because Windows byte locks also block other processes from reading the locked bytes."""
+
     OFFSET = 4096
 
     def __init__(self, path: Path):
@@ -52,17 +54,22 @@ class Lock:
         try:
             if os.name == "nt":
                 import msvcrt
+
                 self.f.seek(self.OFFSET)
                 msvcrt.locking(self.f.fileno(), msvcrt.LK_NBLCK, 1)
             else:
                 import fcntl
+
                 fcntl.flock(self.f.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
         except OSError:
             self.f.close()
             self.f = None
             return False
         if write_pid:
-            self.f.seek(0); self.f.truncate(); self.f.write(str(os.getpid())); self.f.flush()
+            self.f.seek(0)
+            self.f.truncate()
+            self.f.write(str(os.getpid()))
+            self.f.flush()
         return True
 
     def release(self):
@@ -71,10 +78,12 @@ class Lock:
         try:
             if os.name == "nt":
                 import msvcrt
+
                 self.f.seek(self.OFFSET)
                 msvcrt.locking(self.f.fileno(), msvcrt.LK_UNLCK, 1)
             else:
                 import fcntl
+
                 fcntl.flock(self.f.fileno(), fcntl.LOCK_UN)
         finally:
             self.f.close()
@@ -112,6 +121,7 @@ def run(args, what: str) -> bool:
 def backup():
     """One copy of the database per day in data/backups (hand edits live there), the last BACKUPS_KEPT kept."""
     import db
+
     dest = BACKUPS / f"{dt.date.today()}_{db.PATH.name}"
     if db.PATH.exists() and not dest.exists():
         db.backup(dest)
@@ -122,6 +132,7 @@ def backup():
 def reddit_champions(roles) -> str:
     """Union of the roles' champion pools."""
     import db
+
     conn = db.connect()
     return ",".join(sorted({c for r in roles for c in db.pool(conn, r)}))
 
@@ -138,6 +149,7 @@ def main(argv=None):
     (HERE / "logs").mkdir(exist_ok=True)
     (HERE / "data").mkdir(exist_ok=True)
     import role_data
+
     roles = [role_data.ROLE_ALIASES.get(r, r) for r in a.roles.replace(",", " ").split()]
     bad = [r for r in roles if r not in role_data.ROLES]
     if bad:
@@ -165,8 +177,13 @@ def main(argv=None):
             extra = ["--comments", "40", "--max-comment-threads", str(a.threads)]
             log(f"reddit: comments for the {a.threads} best threads of {n} champions, {a.delay:.0f}s between requests")
         else:
-            log(f"reddit: matchup threads for {n} champions, {a.delay:.0f}s between requests (finished ones are skipped)")
-        if run(["fetch_reddit_rss.py", "--champs", champs, "--out", "data/reddit", "--delay", str(a.delay), *extra], "reddit"):
+            log(
+                f"reddit: matchup threads for {n} champions, {a.delay:.0f}s between requests (finished ones are skipped)"
+            )
+        if run(
+            ["fetch_reddit_rss.py", "--champs", champs, "--out", "data/reddit", "--delay", str(a.delay), *extra],
+            "reddit",
+        ):
             log(f"reddit: done, {len(list((HERE / 'data' / 'reddit').glob('*.json')))} champion files in data/reddit")
 
     if what in ("all", "reddit", "comments", "tips"):

@@ -7,6 +7,7 @@
 Everything stays on this computer: the page reads and edits data/pickhelper.db, and the Data tab starts
 update.py in the background (it keeps running if you close the page or this window).
 """
+
 import argparse
 import datetime as dt
 import json
@@ -37,6 +38,7 @@ _names_cache = {"stamp": None, "names": {}}
 
 
 # ---------------------------------------------------------------- data access
+
 
 def role_of(r: str) -> str:
     r = (r or "mid").lower()
@@ -98,7 +100,10 @@ def reddit_tips():
         data = {}
         for r in conn.execute("SELECT * FROM reddit_tips"):
             data[(picker.key(r["champion"]), picker.key(r["opponent"]))] = {
-                "mentions": r["mentions"] or 0, "newest": r["newest"] or "", "tips": []}
+                "mentions": r["mentions"] or 0,
+                "newest": r["newest"] or "",
+                "tips": [],
+            }
         for r in conn.execute("SELECT * FROM reddit_snippet ORDER BY champion, opponent, rank"):
             d = data.get((picker.key(r["champion"]), picker.key(r["opponent"])))
             if d is not None and (r["text"] or "").strip():
@@ -117,9 +122,11 @@ def matchup(role, a, b):
     src = fwd or rev
     if src and isinstance(src.get("wr"), (int, float)):
         flip = src is rev
-        d.update(wr=round(100 - src["wr"], 2) if flip else src["wr"],
-                 dnorm=round(-src["dnorm"], 2) if flip else src["dnorm"],
-                 games=src["games"])
+        d.update(
+            wr=round(100 - src["wr"], 2) if flip else src["wr"],
+            dnorm=round(-src["dnorm"], 2) if flip else src["dnorm"],
+            games=src["games"],
+        )
     dn, games = d.get("dnorm"), d.get("games")
     if isinstance(dn, (int, float)):  # same thresholds as fetch_lolalytics.label, but keep the direction
         d["label"] = "Favored" if dn >= 2 else "Unfavored" if dn <= -2 else "Even"
@@ -158,8 +165,16 @@ def find(n, champs=None):
 
 
 def champ_card(c):
-    return {"name": c["name"], "arch": c["arch"], "dmg": c["dmg"], "comps": c["comps"], "good": c["good"],
-            "bad": c["bad"], "when": c["when"], "blind": c["blind"]}
+    return {
+        "name": c["name"],
+        "arch": c["arch"],
+        "dmg": c["dmg"],
+        "comps": c["comps"],
+        "good": c["good"],
+        "bad": c["bad"],
+        "when": c["when"],
+        "blind": c["blind"],
+    }
 
 
 def damage_of(name, role_hint=None):
@@ -177,6 +192,7 @@ def damage_of(name, role_hint=None):
 
 # ---------------------------------------------------------------- API
 
+
 def api_meta(_q):
     conn = db.connect()
     try:
@@ -188,13 +204,25 @@ def api_meta(_q):
     for r in role_data.ROLES:
         try:
             champs, mu, info = load(r)
-            roles.append({"id": r, "champions": sorted(c["name"] for c in champs.values()), "matchups": len(info),
-                          "updated": updated[r]})
+            roles.append(
+                {
+                    "id": r,
+                    "champions": sorted(c["name"] for c in champs.values()),
+                    "matchups": len(info),
+                    "updated": updated[r],
+                }
+            )
         except FileNotFoundError:
             roles.append({"id": r, "champions": [], "matchups": 0, "updated": None})
     reddit_files = list((HERE / "data" / "reddit").glob("*.json"))
-    return {"roles": roles, "names": sorted(set(all_names().values()), key=str.lower), "styles": list(picker.STYLE_WORDS),
-            "patch": patch, "reddit_champions": len(reddit_files), "tips_updated": tips_updated}
+    return {
+        "roles": roles,
+        "names": sorted(set(all_names().values()), key=str.lower),
+        "styles": list(picker.STYLE_WORDS),
+        "patch": patch,
+        "reddit_champions": len(reddit_files),
+        "tips_updated": tips_updated,
+    }
 
 
 def epoch(iso):
@@ -263,9 +291,17 @@ def api_recommend(q):
     top = max(1, min(int(q.get("top") or 8), 30))
     best = [card(s, c, p, True) for s, c, p in rows[:top]]
     worst = [card(s, c, p, False) for s, c, p in rows[::-1][:3] if s < 0]
-    return {"role": role, "enemy_main": display(enemy_main) if enemy_main else None, "need": need,
-            "need_detected": detected, "style": style, "slots": slots, "picks": best, "avoid": worst,
-            "candidates": len(rows)}
+    return {
+        "role": role,
+        "enemy_main": display(enemy_main) if enemy_main else None,
+        "need": need,
+        "need_detected": detected,
+        "style": style,
+        "slots": slots,
+        "picks": best,
+        "avoid": worst,
+        "candidates": len(rows),
+    }
 
 
 def api_champion(q):
@@ -277,12 +313,26 @@ def api_champion(q):
     rows = []
     for o in opps:
         m = matchup(role, k, o)
-        rows.append({"opp": display(o), "score": m["score"], "wr": m.get("wr"), "dnorm": m.get("dnorm"), "games": m.get("games"),
-                     "label": m.get("label"), "low_sample": m.get("low_sample"), "notes": len(m["tips"]),
-                     "reddit": sum(len(x["tips"]) for x in m["reddit"])})
+        rows.append(
+            {
+                "opp": display(o),
+                "score": m["score"],
+                "wr": m.get("wr"),
+                "dnorm": m.get("dnorm"),
+                "games": m.get("games"),
+                "label": m.get("label"),
+                "low_sample": m.get("low_sample"),
+                "notes": len(m["tips"]),
+                "reddit": sum(len(x["tips"]) for x in m["reddit"]),
+            }
+        )
     rows.sort(key=lambda r: -(r["score"] or 0))
-    return {"role": role, "champion": champ_card(champs[k]) if k in champs else {"name": display(k)},
-            "in_role": k in champs, "matchups": rows}
+    return {
+        "role": role,
+        "champion": champ_card(champs[k]) if k in champs else {"name": display(k)},
+        "in_role": k in champs,
+        "matchups": rows,
+    }
 
 
 def api_matchup(q):
@@ -322,7 +372,9 @@ def api_stop(_q):
     if not pid:
         return {"ok": False, "error": "Could not find the update process."}
     if os.name == "nt":
-        subprocess.call(["taskkill", "/PID", str(pid), "/T", "/F"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        subprocess.call(
+            ["taskkill", "/PID", str(pid), "/T", "/F"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
+        )
     else:
         subprocess.call(["pkill", "-TERM", "-P", str(pid)])
         try:
@@ -359,10 +411,22 @@ def api_hand_champion_get(q):
     arch, dmg, comps, when, blind = db.defaults(role, name)
     archs = role_data.ARCHETYPES.get(role, {})
     _w, g_def, b_def = archs.get((r and r["archetype"]) or arch, ([], "", ""))
-    return {"role": role, "champion": name, "hand": {k: (r[k] if r else None) for k in db.HAND_CHAMP_FIELDS},
-            "defaults": {"archetype": arch, "damage": dmg, "comps": comps, "good_into": g_def, "struggles_into": b_def,
-                         "pick_when": when, "blind_safe": blind},
-            "archetypes": sorted(archs), "updated_at": r["updated_at"] if r else None}
+    return {
+        "role": role,
+        "champion": name,
+        "hand": {k: (r[k] if r else None) for k in db.HAND_CHAMP_FIELDS},
+        "defaults": {
+            "archetype": arch,
+            "damage": dmg,
+            "comps": comps,
+            "good_into": g_def,
+            "struggles_into": b_def,
+            "pick_when": when,
+            "blind_safe": blind,
+        },
+        "archetypes": sorted(archs),
+        "updated_at": r["updated_at"] if r else None,
+    }
 
 
 def api_hand_champion_set(q):
@@ -398,10 +462,15 @@ def api_hand_matchup_set(q):
 
 
 ROUTES = {
-    ("GET", "/api/meta"): api_meta, ("POST", "/api/recommend"): api_recommend,
-    ("GET", "/api/champion"): api_champion, ("GET", "/api/matchup"): api_matchup,
-    ("GET", "/api/status"): api_status, ("POST", "/api/update"): api_update, ("POST", "/api/stop"): api_stop,
-    ("GET", "/api/hand/champion"): api_hand_champion_get, ("POST", "/api/hand/champion"): api_hand_champion_set,
+    ("GET", "/api/meta"): api_meta,
+    ("POST", "/api/recommend"): api_recommend,
+    ("GET", "/api/champion"): api_champion,
+    ("GET", "/api/matchup"): api_matchup,
+    ("GET", "/api/status"): api_status,
+    ("POST", "/api/update"): api_update,
+    ("POST", "/api/stop"): api_stop,
+    ("GET", "/api/hand/champion"): api_hand_champion_get,
+    ("POST", "/api/hand/champion"): api_hand_champion_set,
     ("POST", "/api/hand/matchup"): api_hand_matchup_set,
 }
 
