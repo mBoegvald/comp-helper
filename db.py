@@ -290,6 +290,7 @@ def matchups(conn, role, comb=None, tips=None):
             "source": None,
             "mismatch": None,
             "result": curated_label,
+            "curated_result": curated_label,  # the stored label itself, also when it agrees with the data
         }
         if v is not None:
             lab = label(v["dnorm"], v["games"])

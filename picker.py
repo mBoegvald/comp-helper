@@ -170,6 +170,7 @@ def load_full(role=None):
             "score": v,
             "result": res,
             "curated_tip": curated_tip,
+            "curated_result": row["curated_result"],
             "wr": row["wr"],
             "dnorm": dn,
             "games": games,

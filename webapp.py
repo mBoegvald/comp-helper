@@ -162,7 +162,8 @@ def matchup(role, a, b):
         d["low_sample"] = isinstance(games, (int, float)) and games < 200
     else:
         d["label"], d["low_sample"] = None, False
-    d["curated_result"] = (fwd or {}).get("result") if fwd and fwd.get("result") != fwd.get("label") else None
+    # the stored label as is: hiding it when it agreed with the data made the editor save it away
+    d["curated_result"] = (fwd or {}).get("curated_result")
     d["mismatch"] = bool((fwd or {}).get("mismatch"))
     d["tips"] = []
     if fwd and fwd.get("curated_tip"):

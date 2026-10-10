@@ -235,3 +235,17 @@ def test_the_page_has_a_content_security_policy(server):
     csp = c.getresponse().getheader("Content-Security-Policy")
     c.close()
     assert status == 200 and "script-src 'self'" in csp and "frame-ancestors 'none'" in csp
+
+
+def test_a_curated_label_that_agrees_with_the_data_survives_a_tip_edit(conn):
+    """Darius vs Aatrox is Favored in the data; the admin's own Favored must still come back, so that rewording the
+    tip in the editor (which starts from curated_result) does not clear the label."""
+    webapp.api_curated_matchup_set(
+        {"role": "top", "champion": "Darius", "opponent": "Aatrox", "result": "Favored", "tip": "x"}
+    )
+    m = webapp.api_matchup({"role": "top", "a": "Darius", "b": "Aatrox"})
+    assert (m["label"], m["curated_result"], m["mismatch"]) == ("Favored", "Favored", False)
+    again = {"role": "top", "champion": "Darius", "opponent": "Aatrox", "result": m["curated_result"], "tip": "new"}
+    webapp.api_curated_matchup_set(again)  # what the editor sends after rewording the tip
+    row = conn.execute("SELECT result, tip FROM curated_matchup WHERE champion = 'Darius'").fetchone()
+    assert tuple(row) == ("Favored", "new")
