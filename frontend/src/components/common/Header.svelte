@@ -9,7 +9,7 @@
     { id: "draft", label: "Draft" },
     { id: "lookup", label: "Lookup" },
     { id: "data", label: "Data" },
-    ...(session.hosted && session.user ? [{ id: "mine" as const, label: "My notes" }] : []),
+    ...(session.hosted && session.user ? [{ id: "mine" as const, label: "My account" }] : []),
     ...(session.hosted && session.admin ? [{ id: "admin" as const, label: "Admin" }] : []),
   ]);
 </script>

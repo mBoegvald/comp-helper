@@ -63,7 +63,7 @@ test("a source is only a link when it is an http(s) URL", async ({ page }) => {
   await expect(linked).toHaveAttribute("rel", /nofollow/);
 });
 
-test("a contributor's note waits for review and shows under My notes", async ({ page }) => {
+test("a contributor's note waits for review and shows under My account", async ({ page }) => {
   await as(page, newName("writer"), "writer password", true);
   await openLookup(page, "Darius", "Garen");
   const panel = page.locator(".panel", { hasText: "Darius vs Garen" });
@@ -77,7 +77,7 @@ test("a contributor's note waits for review and shows under My notes", async ({ 
   await expect(panel.getByRole("status")).toContainText("shows up once an admin approves it");
   await expect(panel.getByText("Walk up when his Q is down")).toHaveCount(0); // not shown before review
 
-  await page.getByRole("tab", { name: "My notes" }).click();
+  await page.getByRole("tab", { name: "My account" }).click();
   const mine = page.locator(".mine article", { hasText: "Walk up when his Q is down" });
   await expect(mine).toContainText("Top · Darius vs Garen");
   await expect(mine.getByText("Waiting for review")).toBeVisible();
@@ -125,7 +125,7 @@ test("the admin fixes and approves one note, and rejects another with a reason",
   await expect(shown).toContainText(writer);
 
   await as(page, writer, "writer password");
-  await page.getByRole("tab", { name: "My notes" }).click();
+  await page.getByRole("tab", { name: "My account" }).click();
   await expect(page.locator(".mine article", { hasText: "stay behind minions" }).getByText("Approved")).toBeVisible();
   const rejected = page.locator(".mine article", { hasText: "ban him every game" });
   await expect(rejected.getByText("Rejected")).toBeVisible();
@@ -192,7 +192,7 @@ async function approvedNoteBy(page: Page, text: string) {
 }
 
 async function editInMyNotes(page: Page, from: string, to: string) {
-  await page.getByRole("tab", { name: "My notes" }).click();
+  await page.getByRole("tab", { name: "My account" }).click();
   const card = page.locator(".mine article", { hasText: from });
   await card.getByRole("button", { name: "Edit" }).click();
   await expect(card.getByText("the approved text stays on the site until then")).toBeVisible();
@@ -242,7 +242,7 @@ test("a rejected edit keeps the old text and tells the author why", async ({ pag
   await expect(item).toHaveCount(0);
 
   await as(page, writer, "editor password");
-  await page.getByRole("tab", { name: "My notes" }).click();
+  await page.getByRole("tab", { name: "My account" }).click();
   const card = page.locator(".mine article", { hasText: before });
   await expect(card.getByText("Approved")).toBeVisible();
   await expect(card).toContainText("your last edit was not accepted: Less clear than before.");
@@ -252,7 +252,7 @@ test("a rejected edit keeps the old text and tells the author why", async ({ pag
 test("an author withdraws a note, and it leaves the site", async ({ page }) => {
   const text = `Withdrawn wording ${Date.now() % 1_000_000}.`;
   await approvedNoteBy(page, text);
-  await page.getByRole("tab", { name: "My notes" }).click();
+  await page.getByRole("tab", { name: "My account" }).click();
   const card = page.locator(".mine article", { hasText: text });
   await card.getByRole("button", { name: "Withdraw" }).click();
   await card.getByRole("button", { name: "Really withdraw?" }).click();

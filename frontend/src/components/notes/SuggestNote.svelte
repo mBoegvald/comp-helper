@@ -40,7 +40,7 @@
         done = "Your note was added.";
         dataChanged();
       } else {
-        done = "Thanks! Your note shows up once an admin approves it. Follow it under My notes.";
+        done = "Thanks! Your note shows up once an admin approves it. Follow it under My account.";
       }
     } catch (err) {
       error = errorMessage(err);

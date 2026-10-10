@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import AccountDialog from "./components/account/AccountDialog.svelte";
+  import DeleteAccount from "./components/account/DeleteAccount.svelte";
   import Privacy from "./components/account/Privacy.svelte";
   import AdminView from "./components/admin/AdminView.svelte";
   import MyNotes from "./components/notes/MyNotes.svelte";
@@ -33,7 +34,7 @@
     if (session.loaded && app.view === "privacy" && !session.hosted) app.view = "draft";
   });
 
-  // signed out while on My notes
+  // signed out while on My account
   $effect(() => {
     if (session.loaded && app.view === "mine" && !(session.hosted && session.user)) app.view = "draft";
   });
@@ -55,7 +56,7 @@
     <section hidden={app.view !== "lookup"}><LookupView /></section>
     <section hidden={app.view !== "data"}><DataView /></section>
     {#if session.hosted && session.user}
-      <section hidden={app.view !== "mine"}><MyNotes /></section>
+      <section class="account" hidden={app.view !== "mine"}><MyNotes /><DeleteAccount /></section>
     {/if}
     {#if session.hosted && session.admin}
       <section hidden={app.view !== "admin"}><AdminView /></section>
@@ -77,6 +78,11 @@
     max-width: 1240px;
     margin: 0 auto;
     padding: 8px 16px 24px;
+  }
+  .account {
+    display: grid;
+    gap: 16px;
+    max-width: 760px;
   }
   main {
     max-width: 1240px;
