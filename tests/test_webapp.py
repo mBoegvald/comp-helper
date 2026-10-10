@@ -56,7 +56,7 @@ def test_bad_input_is_rejected(conn, fn, q):
 
 @pytest.fixture
 def server(conn):
-    srv = webapp.ThreadingHTTPServer(("127.0.0.1", 0), webapp.Handler)
+    srv = webapp.Server(("127.0.0.1", 0), webapp.Handler)
     threading.Thread(target=srv.serve_forever, daemon=True).start()
     yield f"http://127.0.0.1:{srv.server_address[1]}"
     srv.shutdown()
@@ -139,14 +139,113 @@ def test_unfinished_names_are_reported_but_not_scored(conn):
     assert webapp.api_recommend({"role": "top", "enemy": {"top": "gar"}})["enemy_main"] == "Garen"  # unique start
 
 
-def test_a_client_that_hangs_up_is_not_an_error():
-    """Reloading a page mid-answer closes the connection; writing the answer must not raise."""
+def test_a_client_that_hangs_up_is_not_an_error(capsys):
+    """A reloaded page or dropped connection, while reading or writing: nothing printed. Real errors still are."""
+    srv = webapp.Server(("127.0.0.1", 0), webapp.Handler)
+    try:
+        for hangup in (BrokenPipeError(), ConnectionResetError(), ConnectionAbortedError(), TimeoutError()):
+            try:
+                raise hangup
+            except OSError:
+                srv.handle_error(None, ("127.0.0.1", 0))
+        assert capsys.readouterr().err == ""
+        try:
+            raise ValueError("a real bug")
+        except ValueError:
+            srv.handle_error(None, ("127.0.0.1", 0))
+        assert "a real bug" in capsys.readouterr().err
+    finally:
+        srv.server_close()
 
-    class HungUp:
-        def write(self, _data):
-            raise BrokenPipeError
 
-    h = webapp.Handler.__new__(webapp.Handler)  # no socket needed
-    h.wfile, h.request_version, h.requestline, h.command = HungUp(), "HTTP/1.1", "GET / HTTP/1.1", "GET"
-    h.client_address = ("127.0.0.1", 0)
-    h.send(200, b"answer", "text/plain")  # does not raise
+def request_as(base, host, method="GET", path="/api/meta", body=None, origin=None):
+    """A request with a chosen Host header, as a DNS-rebinding page would send it."""
+    _, port = base.removeprefix("http://").split(":")
+    c = http.client.HTTPConnection("127.0.0.1", int(port), timeout=10)
+    headers = {"Host": host, "Content-Type": "application/json"}
+    if origin:
+        headers["Origin"] = origin
+    c.request(method, path, body=json.dumps(body) if body is not None else None, headers=headers)
+    status = c.getresponse().status
+    c.close()
+    return status
+
+
+def test_requests_for_another_host_name_are_refused(server, conn):
+    """DNS rebinding: evil.example resolves to 127.0.0.1, so Host and Origin match each other but are not ours."""
+    port = server.rsplit(":", 1)[1]
+    body = {"role": "top", "champion": "Garen", "opponent": "Darius", "tip": "planted"}
+    evil = f"evil.example:{port}"
+    assert request_as(server, evil, "POST", "/api/curated/matchup", body, origin=f"http://{evil}") == 421
+    assert request_as(server, evil) == 421  # reading too
+    assert conn.execute("SELECT count(*) FROM curated_matchup").fetchone()[0] == 0
+    assert request_as(server, f"localhost:{port}") == 200
+
+
+def test_a_configured_public_name_is_answered(server, monkeypatch):
+    monkeypatch.setitem(webapp.CONFIG, "public_hosts", {"picks.example.com"})
+    assert request_as(server, "picks.example.com") == 200
+    assert request_as(server, "other.example.com") == 421
+
+
+def raw_post(base, length, body=b""):
+    """A POST with a hand-written Content-Length, as a broken or hostile client would send it."""
+    _, port = base.removeprefix("http://").split(":")
+    c = http.client.HTTPConnection("127.0.0.1", int(port), timeout=10)
+    c.putrequest("POST", "/api/recommend")
+    c.putheader("Content-Type", "application/json")
+    c.putheader("Content-Length", length)
+    c.endheaders(body)
+    status = c.getresponse().status
+    c.close()
+    return status
+
+
+@pytest.mark.parametrize("length", ["-1", "abc", "1e3", "+5"])
+def test_a_bad_content_length_is_refused_at_once(server, length):
+    assert raw_post(server, length) == 400
+
+
+def test_a_stalled_request_is_dropped(server, monkeypatch):
+    """A body that is announced but never sent must not hold a server thread forever."""
+    import socket
+
+    monkeypatch.setattr(webapp.Handler, "timeout", 1)
+    _, port = server.removeprefix("http://").split(":")
+    s = socket.create_connection(("127.0.0.1", int(port)), timeout=10)
+    s.sendall(f"POST /api/recommend HTTP/1.1\r\nHost: 127.0.0.1:{port}\r\nContent-Length: 1000\r\n\r\n{{}}".encode())
+    assert s.recv(1024) == b""  # the server gave up and closed the connection
+    s.close()
+
+
+def test_server_errors_say_what_happened_locally(server, monkeypatch):
+    def broken(_q, _ctx=None):
+        raise RuntimeError("detail for you")
+
+    monkeypatch.setitem(webapp.ROUTES, ("GET", "/api/meta"), (broken, webapp.PUBLIC))
+    status, d = call(server + "/api/meta")
+    assert status == 500 and "detail for you" in d["error"]
+
+
+def test_the_page_has_a_content_security_policy(server):
+    status, _, _ = raw_get(server, "/")
+    _, port = server.removeprefix("http://").split(":")
+    c = http.client.HTTPConnection("127.0.0.1", int(port), timeout=10)
+    c.request("GET", "/")
+    csp = c.getresponse().getheader("Content-Security-Policy")
+    c.close()
+    assert status == 200 and "script-src 'self'" in csp and "frame-ancestors 'none'" in csp
+
+
+def test_a_curated_label_that_agrees_with_the_data_survives_a_tip_edit(conn):
+    """Darius vs Aatrox is Favored in the data; the admin's own Favored must still come back, so that rewording the
+    tip in the editor (which starts from curated_result) does not clear the label."""
+    webapp.api_curated_matchup_set(
+        {"role": "top", "champion": "Darius", "opponent": "Aatrox", "result": "Favored", "tip": "x"}
+    )
+    m = webapp.api_matchup({"role": "top", "a": "Darius", "b": "Aatrox"})
+    assert (m["label"], m["curated_result"], m["mismatch"]) == ("Favored", "Favored", False)
+    again = {"role": "top", "champion": "Darius", "opponent": "Aatrox", "result": m["curated_result"], "tip": "new"}
+    webapp.api_curated_matchup_set(again)  # what the editor sends after rewording the tip
+    row = conn.execute("SELECT result, tip FROM curated_matchup WHERE champion = 'Darius'").fetchone()
+    assert tuple(row) == ("Favored", "new")

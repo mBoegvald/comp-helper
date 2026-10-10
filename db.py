@@ -290,6 +290,7 @@ def matchups(conn, role, comb=None, tips=None):
             "source": None,
             "mismatch": None,
             "result": curated_label,
+            "curated_result": curated_label,  # the stored label itself, also when it agrees with the data
         }
         if v is not None:
             lab = label(v["dnorm"], v["games"])
@@ -356,16 +357,21 @@ def set_curated_champion(conn, role, champion, fields: dict):
 
 def set_curated_matchup(conn, role, champion, opponent, result=None, tip=None):
     """Curated label ('Favored', 'Even', 'Unfavored' or free text) and lane tip for a pair; both empty removes the row."""
-    result, tip = (str(result).strip() or None) if result else None, (str(tip).strip() or None) if tip else None
     with conn:
-        if result or tip:
-            conn.execute(
-                "INSERT OR REPLACE INTO curated_matchup VALUES (?, ?, ?, ?, ?, ?)",
-                (role, champion, opponent, result, tip, now()),
-            )
-        else:
-            conn.execute(
-                "DELETE FROM curated_matchup WHERE role = ? AND champion = ? AND opponent = ?",
-                (role, champion, opponent),
-            )
+        write_curated_matchup(conn, role, champion, opponent, result, tip)
         touch(conn)
+
+
+def write_curated_matchup(conn, role, champion, opponent, result, tip):
+    """The write itself, inside the caller's transaction (set_curated_matchup, notes.promote_to_tip)."""
+    result, tip = (str(result).strip() or None) if result else None, (str(tip).strip() or None) if tip else None
+    if result or tip:
+        conn.execute(
+            "INSERT OR REPLACE INTO curated_matchup VALUES (?, ?, ?, ?, ?, ?)",
+            (role, champion, opponent, result, tip, now()),
+        )
+    else:
+        conn.execute(
+            "DELETE FROM curated_matchup WHERE role = ? AND champion = ? AND opponent = ?",
+            (role, champion, opponent),
+        )

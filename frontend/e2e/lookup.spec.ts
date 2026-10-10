@@ -102,3 +102,39 @@ test("a champion can be picked with the keyboard", async ({ page }) => {
   await expect(box).toHaveValue("Garen");
   await expect(page.getByRole("heading", { name: /^Garen top: \d+ matchups$/ })).toBeVisible();
 });
+
+test("rewording a tip keeps a label that agrees with the win rates", async ({ page }) => {
+  await page.locator("tbody tr", { hasText: "Aatrox" }).filter({ visible: true }).click();
+  await expect(page.locator(".lane").getByText("Favored")).toBeVisible(); // the data says Favored too
+  const save = () => page.locator("form", { hasText: "Lane tip" }).getByRole("button", { name: "Save" }).click();
+
+  await page.getByRole("button", { name: "Edit", exact: true }).click();
+  await page.getByLabel("Result for Darius").selectOption("Favored");
+  await page.getByLabel("Lane tip").fill("First wording");
+  await save();
+  await expect(page.locator(".notes").getByText("First wording")).toBeVisible();
+
+  await page.getByRole("button", { name: "Edit", exact: true }).click();
+  await expect(page.getByLabel("Result for Darius")).toHaveValue("Favored"); // starts from the saved label
+  await page.getByLabel("Lane tip").fill("Second wording");
+  await save();
+  await expect(page.locator(".notes").getByText("Your label: Favored")).toBeVisible();
+
+  await page.getByRole("button", { name: "Edit", exact: true }).click(); // clean up
+  await page.getByLabel("Result for Darius").selectOption("");
+  await page.getByLabel("Lane tip").fill("");
+  await save();
+  await expect(page.locator(".notes").getByText("Second wording")).toHaveCount(0);
+});
+
+test("a slow failure for an earlier matchup does not show on the current one", async ({ page }) => {
+  await page.route(/\/api\/matchup\?.*b=Aatrox/, async (route) => {
+    await new Promise((r) => setTimeout(r, 800));
+    await route.fulfill({ status: 500, contentType: "application/json", body: '{"error":"old answer failed"}' });
+  });
+  await page.locator("tbody tr", { hasText: "Aatrox" }).filter({ visible: true }).click();
+  await page.locator("tbody tr", { hasText: "Garen" }).filter({ visible: true }).click();
+  await expect(page.getByRole("heading", { name: "Darius vs Garen" })).toBeVisible();
+  await page.waitForTimeout(1200); // the failing answer for Aatrox has arrived by now
+  await expect(page.getByText("old answer failed")).toHaveCount(0);
+});

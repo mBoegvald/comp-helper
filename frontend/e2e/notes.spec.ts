@@ -159,3 +159,19 @@ test("the admin turns a note into the lane tip, and a second one replaces it", a
   await page.locator("form", { hasText: "Lane tip" }).getByRole("button", { name: "Save" }).click();
   await expect(laneNotes).toHaveCount(0);
 });
+
+test("only one confirm at a time on a note", async ({ page }) => {
+  await as(page, ADMIN.username, ADMIN.password);
+  await openLookup(page, "Darius", "Garen");
+  const panel = page.locator(".panel", { hasText: "Darius vs Garen" });
+  await panel.getByRole("button", { name: "+ Suggest a note" }).click();
+  await panel.getByLabel("Your note on Darius vs Garen").fill("A note to click around on.");
+  await panel.getByRole("button", { name: "Add note" }).click();
+  const note = panel.locator(".note", { hasText: "A note to click around on." });
+
+  await note.getByRole("button", { name: "Make this the lane tip" }).click();
+  await note.getByRole("button", { name: "Delete" }).click(); // arms Delete, disarms the other
+  await expect(note.getByRole("button", { name: "Make this the lane tip" })).toBeVisible();
+  await note.getByRole("button", { name: "Really delete?" }).click();
+  await expect(note).toHaveCount(0);
+});

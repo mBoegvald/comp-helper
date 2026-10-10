@@ -19,7 +19,7 @@ def hosted(conn, monkeypatch):
     monkeypatch.setitem(webapp.CONFIG, "hosted", True)
     auth.create_account(conn, "boss", "admin password", role="admin")
     auth.create_account(conn, "pleb", "contributor pw")
-    srv = webapp.ThreadingHTTPServer(("127.0.0.1", 0), webapp.Handler)
+    srv = webapp.Server(("127.0.0.1", 0), webapp.Handler)
     threading.Thread(target=srv.serve_forever, daemon=True).start()
     yield f"127.0.0.1:{srv.server_address[1]}"
     srv.shutdown()
@@ -267,7 +267,71 @@ def test_admin_turns_a_note_into_the_lane_tip(hosted):
     assert request(hosted, "POST", "/api/admin/notes/promote", {"id": note_id}, cookie=pleb)[0] == 403
     boss = sign_in(hosted, "boss", "admin password")
     request(hosted, "POST", "/api/admin/review", {"id": note_id, "approve": True}, cookie=boss)
-    status, m, _ = request(hosted, "POST", "/api/admin/notes/promote", {"id": note_id}, cookie=boss)
-    assert status == 200 and m["community"] == []
+    assert request(hosted, "POST", "/api/admin/notes/promote", {"id": note_id}, cookie=boss)[:2] == (200, {"ok": True})
+    m = request(hosted, "GET", "/api/matchup?role=top&a=Darius&b=Garen")[1]
+    assert m["community"] == []
     assert [(t["who"], t["text"]) for t in m["tips"]] == [("Darius", "Trade when his Q is dwn. (from pleb)")]
     assert request(hosted, "POST", "/api/admin/notes/promote", {"id": note_id}, cookie=boss)[0] == 400  # gone
+
+
+def test_server_errors_show_no_internals_when_hosted(hosted, monkeypatch, capsys):
+    def broken(_q, _ctx=None):
+        raise RuntimeError("secret detail: /srv/pickhelper/data/pickhelper.db")
+
+    monkeypatch.setitem(webapp.ROUTES, ("GET", "/api/meta"), (broken, webapp.PUBLIC))
+    status, d, _ = request(hosted, "GET", "/api/meta")
+    assert status == 500 and "secret detail" not in d["error"]
+    assert "secret detail" in capsys.readouterr().err  # but it is in the server log
+
+
+@pytest.mark.parametrize("others", ['theme={"x":1}', "x=a b", "_ga=GA1.2.3, consent=yes"])
+def test_other_cookies_do_not_sign_you_out(hosted, others):
+    """Cookies set by other apps on the same domain can have values Python's cookie parser rejects."""
+    token = sign_in(hosted, "pleb", "contributor pw")
+    c = http.client.HTTPConnection(hosted, timeout=10)
+    c.request("GET", "/api/me", headers={"Cookie": f"{others}; {webapp.SESSION_COOKIE}={token}; last=1"})
+    me = json.loads(c.getresponse().read())
+    c.close()
+    assert me["user"]["username"] == "pleb"
+
+
+def test_notes_show_for_champions_with_an_apostrophe(hosted):
+    """Cho'Gath, Kai'Sa, Kha'Zix...: the notes index and the page's lookups must spell the key the same way."""
+    boss = sign_in(hosted, "boss", "admin password")
+    for body in (
+        {"role": "top", "champion": "Cho'Gath", "text": "Stack R on minions and monsters."},
+        {"role": "top", "champion": "Aatrox", "opponent": "Cho'Gath", "text": "Dodge his Q with your E."},
+    ):
+        assert request(hosted, "POST", "/api/notes", body, cookie=boss)[0] == 200
+    lookup = request(hosted, "GET", "/api/champion?role=top&name=Cho%27Gath")[1]
+    assert [n["text"] for n in lookup["community"]] == ["Stack R on minions and monsters."]
+    m = request(hosted, "GET", "/api/matchup?role=top&a=Aatrox&b=Cho%27Gath")[1]
+    assert [n["text"] for n in m["community"]] == ["Dodge his Q with your E."]
+
+
+SQL_ATTACKS = [
+    "'); DROP TABLE account; --",
+    "x' OR '1'='1",
+    "Robert'); UPDATE account SET role='admin' WHERE username='pleb'; --",
+    '" UNION SELECT pw_hash FROM account --',
+]
+
+
+def test_sql_in_notes_and_lookups_is_only_text(hosted, conn):
+    """SQL injection: whatever a contributor types is stored as typed and never runs."""
+    tables = {r[0] for r in conn.execute("SELECT name FROM sqlite_master WHERE type = 'table'")}
+    pleb = sign_in(hosted, "pleb", "contributor pw")
+    for attack in SQL_ATTACKS:
+        body = {"role": "top", "champion": "Darius", "opponent": "Garen", "text": f"note {attack}", "source": attack}
+        assert request(hosted, "POST", "/api/notes", body, cookie=pleb)[0] == 200
+    assert request(hosted, "GET", "/api/champion?role=top&name=Darius'%20OR%20'1'='1")[0] == 200
+    assert request(hosted, "GET", "/api/matchup?role=top&a=Darius&b=x'%3B%20DROP%20TABLE%20lola%3B--")[0] == 200
+    assert request(hosted, "POST", "/api/login", {"username": "boss' --", "password": "anything at all"})[0] == 400
+
+    assert {r[0] for r in conn.execute("SELECT name FROM sqlite_master WHERE type = 'table'")} == tables
+    assert conn.execute("SELECT count(*) FROM lola").fetchone()[0] == 5
+    assert [tuple(r) for r in conn.execute("SELECT username, role FROM account ORDER BY username")] == [
+        ("boss", "admin"),
+        ("pleb", "contributor"),
+    ]
+    assert [r[0] for r in conn.execute("SELECT source FROM community_note ORDER BY id")] == SQL_ATTACKS

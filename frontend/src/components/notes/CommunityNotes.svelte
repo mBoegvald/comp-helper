@@ -20,7 +20,7 @@
 
   async function promote(id: number) {
     if (promoting !== id) {
-      promoting = id;
+      [promoting, confirming] = [id, null]; // one confirm at a time
       return;
     }
     promoting = null;
@@ -35,7 +35,7 @@
 
   async function remove(id: number) {
     if (confirming !== id) {
-      confirming = id;
+      [confirming, promoting] = [id, null];
       return;
     }
     confirming = null;
@@ -65,7 +65,11 @@
               >{:else}{n.source}{/if}
           {/if}
           {#if session.hosted && session.admin && n.who}
-            <button class="btn link del" onclick={() => promote(n.id)}>
+            <button
+              class="btn link del"
+              class:danger={promoting === n.id && tipOwners.includes(n.who)}
+              onclick={() => promote(n.id)}
+            >
               {promoting !== n.id
                 ? "Make this the lane tip"
                 : tipOwners.includes(n.who)

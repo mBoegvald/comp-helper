@@ -7,6 +7,9 @@ export const test = base.extend({
     await page.route(/ddragon\.leagueoflegends\.com/, (route) => route.abort());
     const errors: string[] = [];
     page.on("pageerror", (e) => errors.push(e.message));
+    page.on("console", (m) => {
+      if (m.type() === "error" && m.text().includes("Content Security Policy")) errors.push(m.text()); // CSP blocked something
+    });
     await page.goto("/");
     await use(page);
     expect(errors, "errors thrown in the page").toEqual([]);

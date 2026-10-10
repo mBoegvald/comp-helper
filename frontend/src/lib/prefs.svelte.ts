@@ -1,4 +1,5 @@
 // What the page remembers between visits. Same storage key as the old page, so a saved draft carries over.
+import { cleanPrefs } from "./cleanPrefs.ts";
 import { load, save } from "./storage.ts";
 import type { Role } from "./types.ts";
 
@@ -25,11 +26,11 @@ const DEFAULTS: Prefs = {
 };
 
 function initial(): Prefs {
-  const p: Prefs = { ...DEFAULTS, ...load<Partial<Prefs>>("state", {}) };
+  const p: Prefs = { ...DEFAULTS, ...cleanPrefs(load<unknown>("state", {})) };
   try {
     // a draft in the address bar (#draft={...}) wins, so drafts can be bookmarked
     const m = location.hash.match(/^#draft=(.+)$/);
-    if (m) Object.assign(p, JSON.parse(decodeURIComponent(m[1])));
+    if (m) Object.assign(p, cleanPrefs(JSON.parse(decodeURIComponent(m[1]))));
   } catch {
     // a broken link: keep the remembered draft
   }

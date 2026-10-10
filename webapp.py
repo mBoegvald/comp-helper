@@ -17,9 +17,9 @@ import signal
 import subprocess
 import sys
 import threading
+import traceback
 import urllib.parse
 import webbrowser
-from http.cookies import SimpleCookie
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
@@ -45,7 +45,8 @@ ASSET_TYPES = {
 }
 REDDIT_DIR = HERE / "data" / "reddit"
 _lock = threading.Lock()
-CONFIG = {"hosted": False, "secure_cookies": True}  # set by main(): --hosted, --insecure-cookies
+# set by main(): --hosted, --insecure-cookies, --public-host
+CONFIG = {"hosted": False, "secure_cookies": True, "public_hosts": set()}
 LOCAL_ADMIN = {"id": None, "username": "you", "role": "admin"}  # local mode: no accounts, you are admin
 SESSION_COOKIE = "ph_session"
 _tips_cache = {"stamp": None, "data": {}}
@@ -136,7 +137,7 @@ def community_notes():
     try:
         stamp = db.stamp(conn)
         if _notes_cache["stamp"] != stamp:
-            _notes_cache.update(stamp=stamp, data=notes.approved_index(conn))
+            _notes_cache.update(stamp=stamp, data=notes.approved_index(conn, key=picker.key))
     finally:
         conn.close()
     return _notes_cache["data"]
@@ -161,7 +162,8 @@ def matchup(role, a, b):
         d["low_sample"] = isinstance(games, (int, float)) and games < 200
     else:
         d["label"], d["low_sample"] = None, False
-    d["curated_result"] = (fwd or {}).get("result") if fwd and fwd.get("result") != fwd.get("label") else None
+    # the stored label as is: hiding it when it agreed with the data made the editor save it away
+    d["curated_result"] = (fwd or {}).get("curated_result")
     d["mismatch"] = bool((fwd or {}).get("mismatch"))
     d["tips"] = []
     if fwd and fwd.get("curated_tip"):
@@ -613,11 +615,11 @@ def api_admin_review(q, ctx):
 
 
 def api_admin_note_promote(q, ctx=None):
-    """An approved matchup note becomes the curated lane tip for its side; answers with the updated matchup."""
+    """An approved matchup note becomes the curated lane tip for its side. The page reloads its matchup itself
+    (the note's side need not be the side it is looking from)."""
     _hosted_only()
-    n = _with_db(lambda conn: notes.promote_to_tip(conn, int(q.get("id") or 0)))
-    champs = load(n["role"])[0]
-    return matchup(n["role"], picker.key(n["champion"]), find(n["opponent"], champs))
+    _with_db(lambda conn: notes.promote_to_tip(conn, int(q.get("id") or 0)))
+    return {"ok": True}
 
 
 def api_admin_note_delete(q, ctx=None):
@@ -655,6 +657,13 @@ ROUTES = {
     ("POST", "/api/admin/notes/promote"): (api_admin_note_promote, ADMIN),
 }
 MAX_BODY = 64 * 1024
+# What the page may load: its own scripts and styles, and champion icons from Riot. An injected script could
+# neither run nor send data elsewhere. Styles allow inline because Svelte sets style properties.
+CSP = (
+    "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; "
+    "img-src 'self' https://ddragon.leagueoflegends.com; connect-src 'self' https://ddragon.leagueoflegends.com; "
+    "object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'"
+)
 
 
 class Ctx:
@@ -672,6 +681,7 @@ def allowed(user, access):
 
 class Handler(BaseHTTPRequestHandler):
     server_version = "PickHelper/1"
+    timeout = 30  # seconds a connection may stall (a body announced but never sent) before it is dropped
 
     def log_message(self, fmt, *args):  # quiet console
         pass
@@ -684,12 +694,12 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header("X-Content-Type-Options", "nosniff")
         self.send_header("Referrer-Policy", "same-origin")
         self.send_header("X-Frame-Options", "DENY")
+        if ctype.startswith("text/html"):
+            self.send_header("Content-Security-Policy", CSP)
         for c in cookies:
             self.send_header("Set-Cookie", c)
-        # a browser that reloads or closes the page mid-answer hangs up; that is normal, not an error to print
-        with contextlib.suppress(BrokenPipeError, ConnectionResetError):
-            self.end_headers()
-            self.wfile.write(body)
+        self.end_headers()
+        self.wfile.write(body)
 
     def send_json(self, code, out, cookies=()):
         self.send(code, json.dumps(out, default=str).encode("utf-8"), "application/json", cookies)
@@ -702,10 +712,20 @@ class Handler(BaseHTTPRequestHandler):
         return self.send(200, f.read_bytes(), ASSET_TYPES[f.suffix])
 
     def session_token(self):
-        c = SimpleCookie()
-        with contextlib.suppress(Exception):
-            c.load(self.headers.get("Cookie") or "")
-        return c[SESSION_COOKIE].value if SESSION_COOKIE in c else None
+        """Our cookie, read by hand: Python's cookie parser drops the whole header at the first cookie it cannot parse
+        (a JSON value or a space, e.g. from analytics on the same domain), which signed users out."""
+        for part in (self.headers.get("Cookie") or "").split(";"):
+            name, _, value = part.strip().partition("=")
+            if name == SESSION_COOKIE and value:
+                return value
+        return None
+
+    def addressed_to_us(self):
+        """Only requests for this server's own address. Without this, a website that points its own name at
+        127.0.0.1 (DNS rebinding) would pass the Origin check: its pages and this server then share a host name."""
+        host = (self.headers.get("Host") or "").lower()
+        port = self.server.server_address[1]
+        return host in {f"127.0.0.1:{port}", f"localhost:{port}", *CONFIG["public_hosts"]}
 
     def same_origin(self):
         """Only our own page may send POSTs. Hosted mode also requires the Origin header, which browsers always
@@ -716,6 +736,8 @@ class Handler(BaseHTTPRequestHandler):
         return urllib.parse.urlparse(origin).netloc == self.headers.get("Host")
 
     def handle_any(self, method):
+        if not self.addressed_to_us():
+            return self.send_json(421, {"error": "This server does not answer for that address."})
         u = urllib.parse.urlparse(self.path)
         if method == "GET" and u.path in ("/", "/index.html"):
             return self.send(200, PAGE.read_bytes(), "text/html; charset=utf-8")
@@ -731,7 +753,10 @@ class Handler(BaseHTTPRequestHandler):
                 return self.send_json(403, {"error": "forbidden"})
             if CONFIG["hosted"] and not (self.headers.get("Content-Type") or "").startswith("application/json"):
                 return self.send_json(415, {"error": "send JSON"})
-            n = int(self.headers.get("Content-Length") or 0)
+            length = (self.headers.get("Content-Length") or "0").strip()
+            if not length.isdigit():  # negative or junk: reading it would hang or crash
+                return self.send_json(400, {"error": "bad Content-Length"})
+            n = int(length)
             if n > MAX_BODY:
                 return self.send_json(413, {"error": "request too large"})
             try:
@@ -761,7 +786,12 @@ class Handler(BaseHTTPRequestHandler):
         except (ValueError, KeyError) as e:
             out, code = {"error": str(e)}, 400
         except Exception as e:  # noqa: BLE001 - e.g. the database busy during an update
-            out, code = {"error": f"{type(e).__name__}: {e}. If an update is running, try again in a moment."}, 500
+            if CONFIG["hosted"]:  # visitors get no internals (paths, SQL); the admin finds them in the server log
+                traceback.print_exc()
+                out = {"error": "Something went wrong on the server. Please try again in a moment."}
+            else:
+                out = {"error": f"{type(e).__name__}: {e}. If an update is running, try again in a moment."}
+            code = 500
         self.send_json(code, out, ctx.cookies)
 
     def do_GET(self):
@@ -769,6 +799,16 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_POST(self):
         self.handle_any("POST")
+
+
+class Server(ThreadingHTTPServer):
+    """The HTTP server. A client that hangs up or stalls (a reloaded page, a dropped connection) is normal, not an
+    error to print; it can happen while reading the request or writing the answer."""
+
+    def handle_error(self, request, client_address):
+        if isinstance(sys.exc_info()[1], ConnectionError | TimeoutError):  # broken pipe, reset, aborted
+            return
+        super().handle_error(request, client_address)
 
 
 def main():
@@ -783,17 +823,25 @@ def main():
     )
     p.add_argument("--host", default="127.0.0.1", help="address to listen on (hosted mode behind a proxy)")
     p.add_argument(
+        "--public-host",
+        action="append",
+        default=[h for h in os.environ.get("PICKHELPER_PUBLIC_HOSTS", "").split(",") if h.strip()],
+        help="name the site is reached by, e.g. picks.example.com (repeatable; also PICKHELPER_PUBLIC_HOSTS)",
+    )
+    p.add_argument(
         "--insecure-cookies",
         action="store_true",
         help="hosted mode without HTTPS, for testing only: session cookies without the Secure flag",
     )
     a = p.parse_args()
-    CONFIG.update(hosted=a.hosted, secure_cookies=not a.insecure_cookies)
+    CONFIG.update(
+        hosted=a.hosted, secure_cookies=not a.insecure_cookies, public_hosts={h.strip().lower() for h in a.public_host}
+    )
     srv = None
     ports = [a.port] if a.hosted else range(a.port, a.port + 20)  # a server keeps its port or fails loudly
     for port in ports:
         try:
-            srv = ThreadingHTTPServer((a.host, port), Handler)
+            srv = Server((a.host, port), Handler)
             break
         except OSError:
             continue

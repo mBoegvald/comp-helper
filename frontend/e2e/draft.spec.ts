@@ -117,3 +117,14 @@ test("a half-typed name does not change the picks", async ({ page }) => {
   await slot.press("Enter");
   await expect(page.getByRole("heading", { name: "Best top picks into Garen" })).toBeVisible();
 });
+
+test("draft links: a valid one loads, a broken one does not break the page", async ({ page }) => {
+  const open = (draft: string) => page.goto(`/?link#draft=${encodeURIComponent(draft)}`); // "?" forces a real load
+  await open('{"role":"top","enemy":{"top":"Darius"}}');
+  await expect(page.getByRole("heading", { name: "Best top picks into Darius" })).toBeVisible();
+
+  await open('{"role":"top","ally":null,"enemy":["x"],"unavailable":"Garen"}');
+  await expect(page.getByRole("heading", { name: /^Best top / })).toBeVisible(); // the fixture fails on page errors
+  await page.reload(); // and the broken values were not saved
+  await expect(page.getByRole("combobox", { name: "Your Jungle" })).toBeVisible();
+});
