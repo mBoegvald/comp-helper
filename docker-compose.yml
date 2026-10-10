@@ -7,6 +7,7 @@ services:
     init: true # reaps finished update processes started from the Data tab
     environment:
       PICKHELPER_PUBLIC_HOSTS: ${DOMAIN:?set DOMAIN in .env}
+      PICKHELPER_CONTACT: ${CONTACT:-}
     volumes:
       - data:/app/data
       - logs:/app/logs

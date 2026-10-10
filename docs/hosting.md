@@ -36,7 +36,7 @@ curl -fsSL https://get.docker.com | sh
 git clone https://github.com/mBoegvald/comp-helper.git pickhelper
 cd pickhelper
 cp .env.example .env
-nano .env                      # set DOMAIN=picks.example.com (your domain)
+nano .env                      # set DOMAIN=picks.example.com (your domain) and CONTACT (your email)
 docker compose up -d --build
 docker compose ps              # app should show "healthy" within a minute
 ```
@@ -86,10 +86,27 @@ To do this every night, create the folder once (`mkdir -p /root/backups`), then 
 (`crontab -e`):
 
 ```
-30 4 * * * cd /root/pickhelper && docker compose exec -T app python manage.py backup data/backups/nightly-$(date +\%F).db && docker compose cp app:/app/data/backups/nightly-$(date +\%F).db /root/backups/
+30 4 * * * cd /root/pickhelper && docker compose exec -T app python manage.py backup data/backups/nightly-$(date +\%F).db && docker compose cp app:/app/data/backups/nightly-$(date +\%F).db /root/backups/ && docker compose exec -T app rm data/backups/nightly-$(date +\%F).db && find /root/backups -name 'nightly-*.db' -mtime +13 -delete
 ```
 
 and copy `/root/backups` off the server now and then (e.g. with `scp`), or enable Hetzner's server backups.
+
+Keep backups for at most 14 days, wherever they are: the privacy page promises that deleted accounts are gone from
+backups within that time. Delete manual copies when you are done with them.
+
+## Privacy and deleting accounts
+
+The site has a Privacy page (footer link) that says what is stored and for how long, with `CONTACT` from `.env` as
+the address to write to. Signed-in people delete their own account under **My account** (their password confirms
+it); their notes go with it, and their name is taken off lane tips made from their notes. If someone asks you
+instead:
+
+```
+docker compose exec app python manage.py delete-account theirname
+```
+
+It asks for the name again before deleting. The last admin account cannot be deleted. A restored backup brings deleted
+accounts back, so delete them again after restoring.
 
 ## Restoring a backup
 

@@ -1,5 +1,14 @@
 # Pick helper: notes
 
+## Privacy page and deleting accounts (2026-10-10)
+- Hosted mode has a Privacy page (footer link): what is stored (username, scrypt hash, notes and reviews, sign-in
+  cookie, sign-in/sign-up addresses for 24 hours, error logs), who sees it, Riot's icon server, backups kept at most
+  14 days, and the contact from `--contact` / `PICKHELPER_CONTACT` (`CONTACT` in .env).
+- "My notes" is now "My account", with "Delete my account" (password to confirm, rate limited like sign-in).
+  `manage.py delete-account NAME` does the same for the admin. Deleting removes the account, its sessions and all its
+  notes, and strips " (from NAME)" from curated lane tips. The last admin cannot be deleted.
+- Not legal advice: if the site grows beyond friends, have someone check it against GDPR.
+
 ## Editing and withdrawing notes (2026-10-10)
 - Authors edit their notes under My notes. A waiting or rejected note is changed in place and waits for review
   (again). An edit of an approved note waits as a revision (community_note.revised_text/_source/_at) while the
