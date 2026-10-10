@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-"""Local web page for the pick helper. Runs on Windows and Linux; only needs Python 3.10+ and openpyxl.
+"""Local web page for the pick helper. Runs on Windows and Linux; only needs Python 3.10+ (no extra packages).
 
   python webapp.py              # opens http://127.0.0.1:8765 in your browser
   python webapp.py --port 9000 --no-browser
 
-Everything stays on this computer: the page reads the workbooks in this folder, and the Data tab starts
+Everything stays on this computer: the page reads and edits data/pickhelper.db, and the Data tab starts
 update.py in the background (it keeps running if you close the page or this window).
 """
 import argparse
-import csv
+import datetime as dt
 import json
 import os
 import re
@@ -25,17 +25,12 @@ HERE = Path(__file__).resolve().parent
 os.chdir(HERE)
 sys.path.insert(0, str(HERE))
 
-try:
-    import openpyxl  # noqa: F401
-except ImportError:
-    sys.exit("openpyxl is missing. Install it with:  python -m pip install openpyxl")
-
+import db
 import picker
 import role_data
 import update
 
 PAGE = HERE / "web" / "index.html"
-TIPS_CSV = HERE / "data" / "reddit_tips.csv"
 _lock = threading.Lock()
 _tips_cache = {"stamp": None, "data": {}}
 _names_cache = {"stamp": None, "names": {}}
@@ -56,13 +51,17 @@ def load(role):
         return picker.load_full(role)
 
 
-def workbook_stamps():
-    return tuple(p.stat().st_mtime if p.exists() else 0 for p in (update.role_xlsx(r) for r in role_data.ROLES))
+def db_stamp():
+    conn = db.connect()
+    try:
+        return db.stamp(conn)
+    finally:
+        conn.close()
 
 
 def all_names():
-    """champion key -> display name, from every workbook plus the Reddit files."""
-    stamp = (workbook_stamps(), len(list((HERE / "data" / "reddit").glob("*.json"))))
+    """champion key -> display name, from every role plus the Reddit files."""
+    stamp = (db_stamp(), len(list((HERE / "data" / "reddit").glob("*.json"))))
     if _names_cache["stamp"] == stamp:
         return _names_cache["names"]
     names = {}
@@ -91,23 +90,21 @@ def display(k):
 
 def reddit_tips():
     """(champ key, opp key) -> list of snippets written by champ's mains about the matchup."""
-    stamp = TIPS_CSV.stat().st_mtime if TIPS_CSV.exists() else None
-    if _tips_cache["stamp"] == stamp:
-        return _tips_cache["data"]
-    data = {}
-    if stamp:
-        with TIPS_CSV.open(newline="", encoding="utf-8") as fh:
-            for r in csv.DictReader(fh):
-                tips = []
-                for i in (1, 2, 3):
-                    t = (r.get(f"tip{i}") or "").strip()
-                    if not t:
-                        continue
-                    src = (r.get(f"src{i}") or "").split(" ", 1)
-                    date, url = (src + [""])[:2] if len(src) > 1 else ("", src[0])
-                    tips.append({"text": t, "date": date, "url": url})
-                data[(picker.key(r["champion"]), picker.key(r["opponent"]))] = {
-                    "mentions": int(float(r.get("mentions") or 0)), "newest": r.get("newest") or "", "tips": tips}
+    conn = db.connect()
+    try:
+        stamp = db.get_meta(conn, "tips_updated")
+        if _tips_cache["stamp"] == stamp:
+            return _tips_cache["data"]
+        data = {}
+        for r in conn.execute("SELECT * FROM reddit_tips"):
+            data[(picker.key(r["champion"]), picker.key(r["opponent"]))] = {
+                "mentions": r["mentions"] or 0, "newest": r["newest"] or "", "tips": []}
+        for r in conn.execute("SELECT * FROM reddit_snippet ORDER BY champion, opponent, rank"):
+            d = data.get((picker.key(r["champion"]), picker.key(r["opponent"])))
+            if d is not None and (r["text"] or "").strip():
+                d["tips"].append({"text": r["text"].strip(), "date": r["published"] or "", "url": r["url"] or ""})
+    finally:
+        conn.close()
     _tips_cache.update(stamp=stamp, data=data)
     return data
 
@@ -181,30 +178,30 @@ def damage_of(name, role_hint=None):
 # ---------------------------------------------------------------- API
 
 def api_meta(_q):
+    conn = db.connect()
+    try:
+        updated = {r: epoch(db.get_meta(conn, f"lola_updated:{r}")) for r in role_data.ROLES}
+        patch, tips_updated = db.patch(conn), epoch(db.get_meta(conn, "tips_updated"))
+    finally:
+        conn.close()
     roles = []
     for r in role_data.ROLES:
-        x = update.role_xlsx(r)
         try:
             champs, mu, info = load(r)
             roles.append({"id": r, "champions": sorted(c["name"] for c in champs.values()), "matchups": len(info),
-                          "updated": x.stat().st_mtime})
+                          "updated": updated[r]})
         except FileNotFoundError:
             roles.append({"id": r, "champions": [], "matchups": 0, "updated": None})
-    patch = ""
-    try:
-        import openpyxl as ox
-        ws = ox.load_workbook(update.role_xlsx("mid"), read_only=True)["Matchups"]
-        it = ws.iter_rows(values_only=True)
-        h = [str(x or "").lower() for x in next(it)]
-        if "lola patch" in h:
-            i = h.index("lola patch")
-            patch = next((r[i] for r in it if r and len(r) > i and r[i]), "")
-    except Exception:  # noqa: BLE001 - freshness info is best effort
-        pass
     reddit_files = list((HERE / "data" / "reddit").glob("*.json"))
     return {"roles": roles, "names": sorted(set(all_names().values()), key=str.lower), "styles": list(picker.STYLE_WORDS),
-            "patch": patch, "reddit_champions": len(reddit_files),
-            "tips_updated": TIPS_CSV.stat().st_mtime if TIPS_CSV.exists() else None}
+            "patch": patch, "reddit_champions": len(reddit_files), "tips_updated": tips_updated}
+
+
+def epoch(iso):
+    """'2026-10-09T20:17:03Z' -> seconds since 1970 (what the page's 'ago' expects), or None."""
+    if not iso:
+        return None
+    return dt.datetime.strptime(iso, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=dt.timezone.utc).timestamp()
 
 
 def api_recommend(q):
@@ -336,10 +333,76 @@ def api_stop(_q):
     return {"ok": True}
 
 
+# ---------------------------------------------------------------- hand edits
+
+HAND_RESULTS = ("Favored", "Even", "Even / skill", "Unfavored")
+
+
+def pool_name(role, name):
+    """Exact champion name as stored for this role, for typed or key-shaped input."""
+    champs = load(role)[0]
+    k = find(str(name or ""), champs)
+    if k not in champs:
+        raise ValueError(f"{name!r} is not a {role} champion")
+    return champs[k]["name"]
+
+
+def api_hand_champion_get(q):
+    """What a champion's edit form needs: the hand edits, the role_data defaults they override, the archetypes."""
+    role = role_of(q.get("role"))
+    name = pool_name(role, q.get("name"))
+    conn = db.connect()
+    try:
+        r = conn.execute("SELECT * FROM hand_champion WHERE role = ? AND champion = ?", (role, name)).fetchone()
+    finally:
+        conn.close()
+    arch, dmg, comps, when, blind = db.defaults(role, name)
+    archs = role_data.ARCHETYPES.get(role, {})
+    _w, g_def, b_def = archs.get((r and r["archetype"]) or arch, ([], "", ""))
+    return {"role": role, "champion": name, "hand": {k: (r[k] if r else None) for k in db.HAND_CHAMP_FIELDS},
+            "defaults": {"archetype": arch, "damage": dmg, "comps": comps, "good_into": g_def, "struggles_into": b_def,
+                         "pick_when": when, "blind_safe": blind},
+            "archetypes": sorted(archs), "updated_at": r["updated_at"] if r else None}
+
+
+def api_hand_champion_set(q):
+    role = role_of(q.get("role"))
+    name = pool_name(role, q.get("champion"))
+    fields = q.get("fields") or {}
+    if not isinstance(fields, dict):
+        raise ValueError("fields must be an object")
+    conn = db.connect()
+    try:
+        db.set_hand_champion(conn, role, name, fields)
+    finally:
+        conn.close()
+    return api_hand_champion_get({"role": role, "name": name})
+
+
+def api_hand_matchup_set(q):
+    """Hand label and/or lane tip for champion vs opponent in a role; empty values remove them."""
+    role = role_of(q.get("role"))
+    champ = pool_name(role, q.get("champion"))
+    opp = display(find(str(q.get("opponent") or ""), load(role)[0]))
+    if picker.key(opp) not in all_names():
+        raise ValueError(f"unknown opponent {q.get('opponent')!r}")
+    result = (q.get("result") or "").strip() or None
+    if result and result not in HAND_RESULTS:
+        raise ValueError(f"result must be one of {', '.join(HAND_RESULTS)} or empty")
+    conn = db.connect()
+    try:
+        db.set_hand_matchup(conn, role, champ, opp, result, q.get("tip"))
+    finally:
+        conn.close()
+    return matchup(role, picker.key(champ), picker.key(opp))
+
+
 ROUTES = {
     ("GET", "/api/meta"): api_meta, ("POST", "/api/recommend"): api_recommend,
     ("GET", "/api/champion"): api_champion, ("GET", "/api/matchup"): api_matchup,
     ("GET", "/api/status"): api_status, ("POST", "/api/update"): api_update, ("POST", "/api/stop"): api_stop,
+    ("GET", "/api/hand/champion"): api_hand_champion_get, ("POST", "/api/hand/champion"): api_hand_champion_set,
+    ("POST", "/api/hand/matchup"): api_hand_matchup_set,
 }
 
 

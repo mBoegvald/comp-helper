@@ -6,14 +6,13 @@ becomes a candidate tip for (champion, opponent). Candidates are ranked by the t
 matchup-flavoured the paragraph is; paragraphs about items/runes from threads older than 2 years are dropped.
 
 Usage:
-  python3 extract_tips.py build [--reddit data/reddit] [--out data/reddit_tips.csv] [--per-pair 3]
+  python3 extract_tips.py build [--reddit data/reddit] [--per-pair 3]   # replaces the Reddit tables in data/pickhelper.db
   python3 extract_tips.py show Zed Viktor            # print every snippet for one pair, newest first
-  python3 extract_tips.py apply [--xlsx midlane_overview.xlsx] [--csv data/reddit_tips.csv]
-      adds "Reddit tips", "Reddit mentions" and "Reddit newest" columns to the Matchups sheet. Tips from the
-      opponent's subreddit about this champion are included, prefixed with "[<opponent> mains]".
+
+The picker shows both sides of a pair: tips from the champion's subreddit, then tips from the opponent's
+subreddit about this champion, prefixed with "[<opponent> mains]" (see db.matchups).
 """
 import argparse
-import csv
 import json
 import re
 from collections import defaultdict
@@ -96,7 +95,7 @@ def snippet(par: str, pat_names, limit=600) -> str:
     return par[:limit] + "..."
 
 
-def build(reddit_dir: Path, out: Path, per_pair: int):
+def build(reddit_dir: Path, per_pair: int):
     pairs = defaultdict(list)
     for f in sorted(reddit_dir.glob("*.json")):
         d = json.loads(f.read_text(encoding="utf-8"))
@@ -134,25 +133,18 @@ def build(reddit_dir: Path, out: Path, per_pair: int):
                                 "weight": w, "published": t["published"], "url": t["url"], "kind": kind,
                                 "text": snippet(text, [o]),
                             })
-    rows = []
-    for (champ, opp), cands in sorted(pairs.items()):
-        cands.sort(key=lambda c: (c["score"], c["published"]), reverse=True)
-        top = cands[:per_pair]
-        rows.append({
-            "champion": champ, "opponent": opp, "mentions": len(cands),
-            "weighted": round(sum(c["weight"] for c in cands), 1),
-            "newest": max(c["published"] for c in cands),
-            **{f"tip{i + 1}": c["text"] for i, c in enumerate(top)},
-            **{f"src{i + 1}": f"{c['published']} {c['url']}" for i, c in enumerate(top)},
-        })
-    out.parent.mkdir(parents=True, exist_ok=True)
-    fields = ["champion", "opponent", "mentions", "weighted", "newest"] + \
-             [f"tip{i + 1}" for i in range(per_pair)] + [f"src{i + 1}" for i in range(per_pair)]
-    with out.open("w", newline="", encoding="utf-8") as fh:
-        w = csv.DictWriter(fh, fieldnames=fields)
-        w.writeheader()
-        w.writerows(rows)
-    print(f"{len(rows)} champion/opponent pairs from {len(list(reddit_dir.glob('*.json')))} files -> {out}")
+    import db
+    conn = db.connect()
+    with conn:
+        conn.execute("DELETE FROM reddit_tips"); conn.execute("DELETE FROM reddit_snippet")
+        for (champ, opp), cands in sorted(pairs.items()):
+            cands.sort(key=lambda c: (c["score"], c["published"]), reverse=True)
+            conn.execute("INSERT INTO reddit_tips VALUES (?,?,?,?,?)", (champ, opp, len(cands),
+                         round(sum(c["weight"] for c in cands), 1), max(c["published"] for c in cands)))
+            conn.executemany("INSERT INTO reddit_snippet VALUES (?,?,?,?,?,?)",
+                             [(champ, opp, i + 1, c["text"], c["published"], c["url"]) for i, c in enumerate(cands[:per_pair])])
+        db.touch(conn, "tips_updated")
+    print(f"{len(pairs)} champion/opponent pairs from {len(list(reddit_dir.glob('*.json')))} files -> {db.PATH.name}")
 
 
 def show(reddit_dir: Path, champ: str, opp: str):
@@ -171,57 +163,16 @@ def show(reddit_dir: Path, champ: str, opp: str):
     print(f"{len(hits)} snippets for {champ} vs {opp}")
 
 
-def apply(xlsx: Path, csv_path: Path):
-    import openpyxl
-    tips = {}
-    with csv_path.open(newline="", encoding="utf-8") as fh:
-        for r in csv.DictReader(fh):
-            tips[(norm(r["champion"]), norm(r["opponent"]))] = r
-    wb = openpyxl.load_workbook(xlsx)
-    ws = wb["Matchups"]
-    header = [str(c.value).strip().lower() if c.value else "" for c in ws[1]]
-    ci, oi = header.index("champion") + 1, header.index("opponent") + 1
-    idx = {}
-    for name in ("Reddit tips", "Reddit mentions", "Reddit newest"):
-        if name.lower() in header:
-            idx[name] = header.index(name.lower()) + 1
-        else:
-            ws.cell(row=1, column=ws.max_column + 1, value=name)
-            header.append(name.lower()); idx[name] = len(header)
-    n = 0
-    for row in range(2, ws.max_row + 1):
-        champ, opp = ws.cell(row, ci).value, ws.cell(row, oi).value
-        if not champ or not opp:
-            continue
-        fwd, rev = tips.get((norm(champ), norm(opp))), tips.get((norm(opp), norm(champ)))
-        parts, ment, newest = [], 0, ""
-        for r, tag in ((fwd, ""), (rev, f"[{opp} mains] ")):
-            if not r:
-                continue
-            ment += int(r["mentions"]); newest = max(newest, r["newest"])
-            parts += [tag + r[k] for k in ("tip1", "tip2", "tip3") if r.get(k)]
-        if parts:
-            n += 1
-            ws.cell(row, idx["Reddit tips"], value=" | ".join(parts)[:4000])
-            ws.cell(row, idx["Reddit mentions"], value=ment)
-            ws.cell(row, idx["Reddit newest"], value=newest)
-    from safe_save import save_workbook; save_workbook(wb, xlsx)
-    print(f"tips written for {n} of {ws.max_row - 1} matchup rows")
-
-
 def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sp = p.add_subparsers(dest="cmd", required=True)
-    b = sp.add_parser("build"); b.add_argument("--reddit", default="data/reddit"); b.add_argument("--out", default="data/reddit_tips.csv"); b.add_argument("--per-pair", type=int, default=3)
+    b = sp.add_parser("build"); b.add_argument("--reddit", default="data/reddit"); b.add_argument("--per-pair", type=int, default=3)
     s = sp.add_parser("show"); s.add_argument("champ"); s.add_argument("opp"); s.add_argument("--reddit", default="data/reddit")
-    a = sp.add_parser("apply"); a.add_argument("--xlsx", default="midlane_overview.xlsx"); a.add_argument("--csv", default="data/reddit_tips.csv")
     args = p.parse_args()
     if args.cmd == "build":
-        build(Path(args.reddit), Path(args.out), args.per_pair)
-    elif args.cmd == "show":
-        show(Path(args.reddit), args.champ, args.opp)
+        build(Path(args.reddit), args.per_pair)
     else:
-        apply(Path(args.xlsx), Path(args.csv))
+        show(Path(args.reddit), args.champ, args.opp)
 
 
 if __name__ == "__main__":

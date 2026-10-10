@@ -1,8 +1,29 @@
 # Pick helper: notes
 
+## SQLite instead of workbooks (2026-10-10)
+- All data is in `data/pickhelper.db` (stdlib sqlite3, so the app needs no extra package; `db.py` has the schema).
+  Generated tables (`lola`, `reddit_tips`, `reddit_snippet`) are replaced by updates in one transaction each;
+  `pool` only grows; the hand layer (`hand_champion`, `hand_matchup`, `role_note`) is written only by people.
+  This replaces build_role.py's old merge, which had to guess which workbook cells were hand edits.
+- `db.champions(role)` / `db.matchups(role)` rebuild exactly what the workbooks held (verified: every score, label and
+  tip identical for all five roles, plus five draft queries). One intended difference: 'Good into' no longer starts
+  with '; ' when there is no data list (was the case for 25 champions).
+- A hand_champion field that is NULL falls back to role_data.py; the stored hand part of Good/Struggles into is only
+  the text after the data-derived names. Mid has no role_data entries, so all its champion text is hand data.
+- `migrate_xlsx.py` did the one-off import (48 champion rows, 103 hand labels, 157 lane tips, mid's Comps/Notes);
+  it was removed together with the workbooks and CSVs; all of them are in git history (commit 74eaf71 has them all).
+- Edits: GET/POST `/api/hand/champion` ({role, champion, fields}; '' or null resets a field to the default) and
+  POST `/api/hand/matchup` ({role, champion, opponent, result, tip}; result is Favored, Even, Even / skill,
+  Unfavored or empty; both empty deletes the row). The Svelte page (next step) is the UI for these.
+- build_role.py refuses to save a fetch with under 60% of the previous row count (site change or outage), so a
+  broken scrape cannot wipe a role. update.py makes one database backup per day in data/backups (14 kept).
+- `PICKHELPER_DB=/path/copy.db` points everything at another database file (testing).
+- Dev on NixOS: `nix-shell -p python3` is enough; the app needs no packages. Python 3.11 packages are no longer
+  prebuilt in nixpkgs (openpyxl pulls in pandas, which then builds from source), so use the default python3.
+
 ## Web page and Windows (added 2026-10-09)
-- `webapp.py` serves `web/index.html` on 127.0.0.1:8765 (stdlib http.server, only needs openpyxl). Launchers:
-  `Start Pick Helper.bat` (Windows, checks Python >= 3.10, installs openpyxl once) and `start.sh`. README.md has the
+- `webapp.py` serves `web/index.html` on 127.0.0.1:8765 (stdlib http.server). Launchers:
+  `Start Pick Helper.bat` (Windows, checks Python >= 3.10) and `start.sh`. README.md has the
   user-facing setup. JSON endpoints: /api/meta, /api/recommend (POST), /api/champion, /api/matchup, /api/status,
   /api/update and /api/stop (POST, same-origin only).
 - Scoring is `picker.score` unchanged; it takes an optional `detail` list for the structured breakdown, and
@@ -11,14 +32,14 @@
 - Name matching: exact name or nickname (picker.ALIASES) across all champions first, then a unique prefix, then a
   unique substring. picker.resolve also refuses to prefix-match an exact champion name (Vi was read as Viktor).
 - `update.py` replaces run_all.sh (now a wrapper): same stages, cross-platform file lock (fcntl / msvcrt at
-  offset 4096 so the PID at the start stays readable on Windows), log in logs/update.log. Workbooks are saved via
-  `safe_save.save_workbook` (temp file + os.replace), so stopping an update cannot corrupt them.
+  offset 4096 so the PID at the start stays readable on Windows), log in logs/update.log. Since 2026-10-10 every write is
+  a SQLite transaction, so stopping an update cannot corrupt anything.
 - The page labels matchups from the normalised delta with direction kept (Favored/Even/Unfavored) and a separate
   low-sample flag, and shows the delta as 'vs usual' because raw WR alone can contradict the label.
 - Not yet tested on a real Windows machine; the Windows-only paths are the .bat, msvcrt locking, DETACHED_PROCESS
   spawning and taskkill for Stop.
 
-## All roles (added 2026-10-09, mid aligned the same day)
+## All roles (added 2026-10-09, mid aligned the same day; workbook parts replaced by SQLite on 2026-10-10)
 - `picker.py --role top|jungle|mid|bot|support` (aliases jg, adc, sup). `mid_picker.py` still works and is a wrapper.
 - All five workbooks are built the same way by `build_role.py <role>` (mid -> `midlane_overview.xlsx`, others ->
   `roles/<role>.xlsx`): Lolalytics Emerald+ lane-specific matchups for every pair with >= 100 games, plus the hand
@@ -40,7 +61,7 @@
   everyone else has a hand entry in role_data.py. A workbook Archetype edit wins on rebuild, except the word 'Flex'.
 - Archetype names: support uses 'Peel tank' (Riot calls it Warden); mid gained 'Tank / bruiser' and 'Marksman'.
 
-## Files
+## Files (as of 2026-10-08; the xlsx/CSV parts are history, see the SQLite section)
 - `midlane_overview.xlsx`: Champions (51), Matchups (~1740, of which 157 carry hand labels/tips), Comps, Notes. Built by build_role.py since 2026-10-09; backups of the pre-build file are in data/.
 - `mid_picker.py`: CLI that scores picks from the xlsx. Since 2026-10-08 it tolerates extra columns, uses
   'Lola dNorm' (x1.5, clamped to +-3) instead of the hand label when present, and appends the first Reddit snippet

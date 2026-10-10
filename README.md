@@ -21,9 +21,9 @@ The page has three tabs:
 
 1. Install Python 3.10 or newer from https://www.python.org/downloads/ and tick **Add python.exe to PATH**
    during setup.
-2. Copy this whole folder to the Windows PC (about 30 MB). Keep the `data` folder: it holds the Reddit
-   downloads, so updates only fetch what is new.
-3. Double-click `Start Pick Helper.bat`. The first start installs `openpyxl`, the only extra package.
+2. Copy this whole folder to the Windows PC (about 40 MB). Keep the `data` folder: it holds the database
+   (`pickhelper.db`, with your own notes) and the Reddit downloads, so updates only fetch what is new.
+3. Double-click `Start Pick Helper.bat`. Nothing else needs installing.
 
 If Windows asks whether to allow Python through the firewall, you can say no. The page only listens on your
 own PC (127.0.0.1).
@@ -40,12 +40,14 @@ own PC (127.0.0.1).
 Reddit allows about one request per minute without an account, which is why the Reddit steps are slow.
 Stopping an update is safe: finished work is kept and the next run continues.
 
-Close the workbooks in Excel before updating, because Windows cannot replace a file that is open.
-
 ## Edit the knowledge
 
-The workbooks are `midlane_overview.xlsx` (mid) and `roles/<role>.xlsx`. You can edit the Champions sheet
-(archetype, comps, pick when, good into, struggles into) and the Matchups sheet (Result for champion, Lane tip).
-Your edits survive every update. The defaults for new champions live in `role_data.py`.
+Everything lives in one file, `data/pickhelper.db`. Your own notes (archetype, comps, pick when, good into,
+struggles into for a champion; a label and a lane tip for a matchup) are kept apart from the downloaded data,
+so no update ever overwrites them. Each update first saves a copy of the database in `data/backups` (the last 14
+days are kept). To undo a bad edit, close the page and copy a backup over `data/pickhelper.db`.
+
+Editing on the page comes with the new page. Until then the page's API takes edits (see `NOTES.md`). The
+defaults for new champions live in `role_data.py`.
 
 `NOTES.md` has the design notes and data caveats.
