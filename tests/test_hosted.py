@@ -55,7 +55,7 @@ def sign_in(host, username, password):
 
 
 def test_signed_out_visitors_can_read_but_not_edit(hosted):
-    assert request(hosted, "GET", "/api/me")[1] == {"hosted": True, "user": None, "admin": False}
+    assert request(hosted, "GET", "/api/me")[1] == {"hosted": True, "user": None, "admin": False, "contact": ""}
     assert request(hosted, "POST", "/api/recommend", {"role": "top"})[0] == 200
     assert request(hosted, "GET", "/api/matchup?role=top&a=Aatrox&b=Darius")[0] == 200
     for method, path in [("GET", "/api/status"), ("GET", "/api/curated/champion?role=top&name=Aatrox")]:
@@ -157,6 +157,7 @@ def test_local_mode_has_no_accounts(conn):
         "hosted": False,
         "user": webapp.LOCAL_ADMIN,
         "admin": True,
+        "contact": "",
     }
     with pytest.raises(ValueError, match="hosted site"):
         webapp.api_login({"username": "x", "password": "y"}, webapp.Ctx("127.0.0.1"))
@@ -397,3 +398,28 @@ def test_an_author_withdraws_a_note(hosted):
     assert request(hosted, "POST", "/api/notes/withdraw", {"id": note_id}, cookie=boss)[0] == 400  # not the admin's
     assert request(hosted, "POST", "/api/notes/withdraw", {"id": note_id}, cookie=pleb)[:2] == (200, {"ok": True})
     assert request(hosted, "GET", "/api/notes/mine", cookie=pleb)[1]["notes"] == []
+
+
+def test_a_user_deletes_their_account(hosted, conn):
+    pleb = sign_in(hosted, "pleb", "contributor pw")
+    request(hosted, "POST", "/api/notes", NOTE, cookie=pleb)
+    assert request(hosted, "POST", "/api/account/delete", {"password": "contributor pw"})[0] == 401
+    status, d, _ = request(hosted, "POST", "/api/account/delete", {"password": "wrong password!"}, cookie=pleb)
+    assert status == 400 and "Wrong password" in d["error"]
+    status, d, cookie = request(hosted, "POST", "/api/account/delete", {"password": "contributor pw"}, cookie=pleb)
+    assert status == 200 and d["user"] is None and "Max-Age=0" in cookie
+    assert conn.execute("SELECT count(*) FROM account WHERE username = 'pleb'").fetchone()[0] == 0
+    assert conn.execute("SELECT count(*) FROM community_note").fetchone()[0] == 0
+    assert request(hosted, "GET", "/api/me", cookie=pleb)[1]["user"] is None
+
+
+def test_password_guesses_on_delete_are_rate_limited(hosted, monkeypatch):
+    monkeypatch.setitem(auth.LIMITS, "login", (2, 900))
+    pleb = sign_in(hosted, "pleb", "contributor pw")  # sign-in itself is the first attempt
+    assert request(hosted, "POST", "/api/account/delete", {"password": "guess one"}, cookie=pleb)[0] == 400
+    assert request(hosted, "POST", "/api/account/delete", {"password": "guess two"}, cookie=pleb)[0] == 429
+
+
+def test_the_privacy_contact_comes_with_me(hosted, monkeypatch):
+    monkeypatch.setitem(webapp.CONFIG, "contact", "picks@example.com")
+    assert request(hosted, "GET", "/api/me")[1]["contact"] == "picks@example.com"

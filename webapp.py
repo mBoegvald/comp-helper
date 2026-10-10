@@ -45,8 +45,8 @@ ASSET_TYPES = {
 }
 REDDIT_DIR = HERE / "data" / "reddit"
 _lock = threading.Lock()
-# set by main(): --hosted, --insecure-cookies, --public-host, --behind-proxy
-CONFIG = {"hosted": False, "secure_cookies": True, "public_hosts": set(), "behind_proxy": False}
+# set by main(): --hosted, --insecure-cookies, --public-host, --behind-proxy, --contact
+CONFIG = {"hosted": False, "secure_cookies": True, "public_hosts": set(), "behind_proxy": False, "contact": ""}
 LOCAL_ADMIN = {"id": None, "username": "you", "role": "admin"}  # local mode: no accounts, you are admin
 SESSION_COOKIE = "ph_session"
 _tips_cache = {"stamp": None, "data": {}}
@@ -520,7 +520,12 @@ def _with_db(fn):
 
 def api_me(_q, ctx=None):
     user = ctx.user if ctx else LOCAL_ADMIN
-    return {"hosted": CONFIG["hosted"], "user": user, "admin": bool(user and user["role"] == "admin")}
+    return {
+        "hosted": CONFIG["hosted"],
+        "user": user,
+        "admin": bool(user and user["role"] == "admin"),
+        "contact": CONFIG["contact"] if CONFIG["hosted"] else "",  # who runs the site, for the privacy page
+    }
 
 
 def api_signup(q, ctx):
@@ -553,6 +558,20 @@ def api_login(q, ctx):
 def api_logout(_q, ctx):
     _hosted_only()
     _with_db(lambda conn: auth.logout(conn, ctx.token))
+    ctx.cookies.append(_session_cookie("", 0))
+    ctx.user = None
+    return api_me({}, ctx)
+
+
+def api_account_delete(q, ctx):
+    """The signed-in user deletes their own account, confirmed with their password (see auth.delete_account)."""
+    _hosted_only()
+
+    def run(conn):
+        auth.rate_limit(conn, ctx.ip, "login")  # a password guess, like signing in
+        auth.delete_account(conn, ctx.user["id"], str(q.get("password") or ""))
+
+    _with_db(run)
     ctx.cookies.append(_session_cookie("", 0))
     ctx.user = None
     return api_me({}, ctx)
@@ -660,6 +679,7 @@ ROUTES = {
     ("POST", "/api/signup"): (api_signup, PUBLIC),
     ("POST", "/api/login"): (api_login, PUBLIC),
     ("POST", "/api/logout"): (api_logout, PUBLIC),
+    ("POST", "/api/account/delete"): (api_account_delete, USER),
     ("GET", "/api/status"): (api_status, ADMIN),
     ("POST", "/api/update"): (api_update, ADMIN),
     ("POST", "/api/stop"): (api_stop, ADMIN),
@@ -860,6 +880,12 @@ def main():
         help="name the site is reached by, e.g. picks.example.com (repeatable; also PICKHELPER_PUBLIC_HOSTS)",
     )
     p.add_argument(
+        "--contact",
+        default=os.environ.get("PICKHELPER_CONTACT", ""),
+        help="how to reach whoever runs the site (e.g. an email address), shown on the privacy page; "
+        "also PICKHELPER_CONTACT",
+    )
+    p.add_argument(
         "--behind-proxy",
         action="store_true",
         default=os.environ.get("PICKHELPER_BEHIND_PROXY") == "1",
@@ -877,6 +903,7 @@ def main():
         secure_cookies=not a.insecure_cookies,
         public_hosts={h.strip().lower() for h in a.public_host},
         behind_proxy=a.behind_proxy,
+        contact=a.contact.strip(),
     )
     srv = None
     ports = [a.port] if a.hosted else range(a.port, a.port + 20)  # a server keeps its port or fails loudly
