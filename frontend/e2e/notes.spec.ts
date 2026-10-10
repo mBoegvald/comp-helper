@@ -131,3 +131,31 @@ test("the admin fixes and approves one note, and rejects another with a reason",
   await expect(rejected.getByText("Rejected")).toBeVisible();
   await expect(rejected).toContainText("reason: Not a tip.");
 });
+
+test("the admin turns a note into the lane tip, and a second one replaces it", async ({ page }) => {
+  await as(page, ADMIN.username, ADMIN.password);
+  await openLookup(page, "Darius", "Garen");
+  const panel = page.locator(".panel", { hasText: "Darius vs Garen" });
+  const laneNotes = panel.locator("section", { hasText: "Lane notes" });
+
+  for (const [i, text] of ["First tip from the community.", "Second, better tip from the community."].entries()) {
+    await panel.getByRole("button", { name: "+ Suggest a note" }).click();
+    await panel.getByLabel("Your note on Darius vs Garen").fill(text);
+    await panel.getByRole("button", { name: "Add note" }).click();
+    const note = panel
+      .locator(".note", { hasText: text })
+      .filter({ has: page.getByRole("button", { name: "Delete" }) });
+    await note.getByRole("button", { name: "Make this the lane tip" }).click();
+    const confirm = i === 0 ? "Make it the lane tip?" : "Replace Darius's lane tip?"; // the second time a tip exists
+    await note.getByRole("button", { name: confirm }).click();
+    await expect(laneNotes.getByText(`${text} (from ${ADMIN.username})`)).toBeVisible();
+    await expect(panel.locator(".note", { hasText: text }).filter({ hasText: "source" })).toHaveCount(0);
+  }
+  await expect(laneNotes.getByText("First tip from the community.")).toHaveCount(0); // replaced
+
+  // clean up: remove the curated tip again
+  await panel.getByRole("button", { name: "Edit", exact: true }).click();
+  await page.getByLabel("Lane tip").fill("");
+  await page.locator("form", { hasText: "Lane tip" }).getByRole("button", { name: "Save" }).click();
+  await expect(laneNotes).toHaveCount(0);
+});

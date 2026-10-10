@@ -7,6 +7,8 @@
   label" (local) or "Admin's label" (hosted).
 - Curated data feeds the scoring and only admins change it; community notes are text from users, shown after
   review, and never change a score.
+- An admin can turn an approved matchup note into the curated lane tip of its side ("Make this the lane tip"):
+  the text is credited "(from author)", replaces that side's tip, and leaves the community notes (notes.promote_to_tip).
 - db.connect() renames old hand_* tables in place (RENAMED_TABLES), so older copies of the database keep working.
   The sections below are history and still say "hand".
 

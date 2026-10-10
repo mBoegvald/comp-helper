@@ -1,16 +1,37 @@
 <script lang="ts">
   import { dataChanged } from "../../lib/app.svelte.ts";
-  import { deleteNote, errorMessage } from "../../lib/api.ts";
+  import { deleteNote, errorMessage, promoteNote } from "../../lib/api.ts";
   import { safeLink } from "../../lib/format.ts";
   import { session } from "../../lib/session.svelte.ts";
   import type { CommunityNote } from "../../lib/types.ts";
   import ErrorBox from "../common/ErrorBox.svelte";
 
-  /** Approved community notes. For a matchup, notes from the other side say whose side they are. */
-  let { notes, champ = "" }: { notes: CommunityNote[]; champ?: string } = $props();
+  /** Approved community notes. For a matchup, notes from the other side say whose side they are, and admins can
+   * make a note the lane tip of its side; `tipOwners` are the sides that already have one. */
+  let {
+    notes,
+    champ = "",
+    tipOwners = [],
+  }: { notes: CommunityNote[]; champ?: string; tipOwners?: string[] } = $props();
 
   let error = $state<string | null>(null);
-  let confirming = $state<number | null>(null); // note id waiting for a second click
+  let confirming = $state<number | null>(null); // note id waiting for a second click to delete
+  let promoting = $state<number | null>(null); // ... to become the lane tip
+
+  async function promote(id: number) {
+    if (promoting !== id) {
+      promoting = id;
+      return;
+    }
+    promoting = null;
+    try {
+      await promoteNote(id);
+      error = null;
+      dataChanged();
+    } catch (e) {
+      error = errorMessage(e);
+    }
+  }
 
   async function remove(id: number) {
     if (confirming !== id) {
@@ -42,6 +63,15 @@
             · source:
             {#if link}<a href={link} target="_blank" rel="noopener noreferrer nofollow ugc">{n.source}</a
               >{:else}{n.source}{/if}
+          {/if}
+          {#if session.hosted && session.admin && n.who}
+            <button class="btn link del" onclick={() => promote(n.id)}>
+              {promoting !== n.id
+                ? "Make this the lane tip"
+                : tipOwners.includes(n.who)
+                  ? `Replace ${n.who}'s lane tip?`
+                  : "Make it the lane tip?"}
+            </button>
           {/if}
           {#if session.hosted && session.admin}
             <button class="btn link del" class:danger={confirming === n.id} onclick={() => remove(n.id)}>

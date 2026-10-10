@@ -25,7 +25,7 @@
     </section>
   {/if}
 
-  <CommunityNotes notes={m.community} {champ} />
+  <CommunityNotes notes={m.community} {champ} tipOwners={m.tips.map((t) => t.who)} />
 
   {#each m.reddit as r (r.who)}
     <section>
