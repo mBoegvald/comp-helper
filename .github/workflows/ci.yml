@@ -32,3 +32,42 @@ jobs:
           python-version: ${{ matrix.python }}
       - run: pip install -r requirements-dev.txt
       - run: python -m pytest -v
+
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: frontend/.nvmrc
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - uses: actions/setup-python@v6 # the browser tests run the real Python server
+        with:
+          python-version: "3.13"
+      - run: npm ci
+      - run: npm run lint
+      - run: npm test
+      - run: npm run build
+      # web/dist is committed (the Windows PC has no Node), so it must match the source
+      - name: Committed build is up to date
+        # status, not diff: a stale build has new hashed file names, which diff would not see
+        run: |
+          changes="$(git status --porcelain -- ../web/dist)"
+          if [ -n "$changes" ]; then
+            echo "$changes"
+            echo "web/dist is stale: run 'npm run build' in frontend/ and commit it"
+            exit 1
+          fi
+      # after the build: the browser tests run against web/dist, the page the Windows PC gets
+      - run: npx playwright install --with-deps chromium
+      - run: npm run e2e
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-report
+          path: frontend/playwright-report
+          retention-days: 7

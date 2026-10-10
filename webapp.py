@@ -31,7 +31,15 @@ import picker
 import role_data
 import update
 
-PAGE = HERE / "web" / "index.html"
+DIST = HERE / "web" / "dist"  # the built Svelte page (frontend/), committed so no Node is needed to run
+PAGE = DIST / "index.html"
+ASSET_TYPES = {
+    ".js": "text/javascript; charset=utf-8",
+    ".css": "text/css; charset=utf-8",
+    ".svg": "image/svg+xml",
+    ".png": "image/png",
+    ".woff2": "font/woff2",
+}
 REDDIT_DIR = HERE / "data" / "reddit"
 _lock = threading.Lock()
 _tips_cache = {"stamp": None, "data": {}}
@@ -176,6 +184,11 @@ def champ_card(c):
         "when": c["when"],
         "blind": c["blind"],
     }
+
+
+def empty_card(name):
+    """Same shape as champ_card for a champion outside the role's pool."""
+    return {"name": name, **dict.fromkeys(("arch", "dmg", "comps", "good", "bad", "when", "blind"))}
 
 
 def damage_of(name, role_hint=None):
@@ -329,7 +342,7 @@ def api_champion(q):
     rows.sort(key=lambda r: -(r["score"] or 0))
     return {
         "role": role,
-        "champion": champ_card(champs[k]) if k in champs else {"name": display(k)},
+        "champion": champ_card(champs[k]) if k in champs else empty_card(display(k)),
         "in_role": k in champs,
         "matchups": rows,
     }
@@ -487,10 +500,19 @@ class Handler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(body)
 
+    def send_asset(self, path):
+        """A file from web/dist/assets, never anything outside it (no '..' tricks)."""
+        f = (DIST / urllib.parse.unquote(path).lstrip("/")).resolve()
+        if (DIST / "assets").resolve() not in f.parents or f.suffix not in ASSET_TYPES or not f.is_file():
+            return self.send(404, b'{"error":"not found"}', "application/json")
+        return self.send(200, f.read_bytes(), ASSET_TYPES[f.suffix])
+
     def handle_any(self, method):
         u = urllib.parse.urlparse(self.path)
         if method == "GET" and u.path in ("/", "/index.html"):
             return self.send(200, PAGE.read_bytes(), "text/html; charset=utf-8")
+        if method == "GET" and u.path.startswith("/assets/"):
+            return self.send_asset(u.path)
         fn = ROUTES.get((method, u.path))
         if not fn:
             return self.send(404, b'{"error":"not found"}', "application/json")

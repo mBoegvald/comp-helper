@@ -1,5 +1,6 @@
 """The web page's API: functions directly, plus a real server for routing and the same-origin check."""
 
+import http.client
 import json
 import threading
 import urllib.error
@@ -86,3 +87,44 @@ def test_edits_only_from_the_page_itself(server, conn):
     assert conn.execute("SELECT count(*) FROM hand_matchup").fetchone()[0] == 0
     status, d = call(server + "/api/hand/matchup", body, origin=server)
     assert status == 200 and d["tips"][0]["text"] == "t"
+
+
+def raw_get(base, path):
+    """GET without any client-side path cleanup, so '..' reaches the server as typed."""
+    host, port = base.removeprefix("http://").split(":")
+    c = http.client.HTTPConnection(host, int(port), timeout=10)
+    c.request("GET", path)
+    r = c.getresponse()
+    body = r.read()
+    c.close()
+    return r.status, r.getheader("Content-Type"), body
+
+
+def test_serves_the_built_page_and_its_assets(server):
+    status, ctype, body = raw_get(server, "/")
+    assert status == 200 and ctype.startswith("text/html")
+    asset = next(p for p in (webapp.DIST / "assets").iterdir() if p.suffix == ".js")
+    assert f"assets/{asset.name}".encode() in body  # the page links the asset it was built with
+    status, ctype, _ = raw_get(server, f"/assets/{asset.name}")
+    assert status == 200 and ctype.startswith("text/javascript")
+
+
+@pytest.mark.parametrize(
+    "path",
+    [
+        "/assets/../index.html",
+        "/assets/../../webapp.py",
+        "/assets/%2e%2e/%2e%2e/data/pickhelper.db",
+        "/assets/..%2f..%2fwebapp.py",
+        "/assets/missing.js",
+    ],
+)
+def test_assets_never_leave_the_build_folder(server, path):
+    assert raw_get(server, path)[0] == 404
+
+
+def test_champion_outside_the_pool_has_the_full_shape(conn):
+    """The page's types expect every field, so a champion outside the role's pool gets them empty."""
+    d = webapp.api_champion({"role": "top", "name": "Ahri"})
+    assert d["in_role"] is False
+    assert set(d["champion"]) == {"name", "arch", "dmg", "comps", "good", "bad", "when", "blind"}
