@@ -1,22 +1,25 @@
 <script lang="ts">
   import { safeRedditUrl } from "../../lib/format.ts";
+  import { session } from "../../lib/session.svelte.ts";
   import type { Matchup } from "../../lib/types.ts";
   import CommunityNotes from "../notes/CommunityNotes.svelte";
 
-  /** Hand-written lane notes and Reddit snippets for a matchup, seen from `champ`'s side. */
+  /** Curated lane notes and Reddit snippets for a matchup, seen from `champ`'s side. */
   let { m, champ }: { m: Matchup; champ: string } = $props();
 </script>
 
 <div class="notes">
-  {#if m.tips.length || m.hand_result}
+  {#if m.tips.length || m.curated_result}
     <section>
       <h5>Lane notes</h5>
       {#each m.tips as t, i (i)}
         <div class="note">{t.who !== champ ? `${t.who}'s side: ` : ""}{t.text}</div>
       {/each}
-      {#if m.hand_result}
+      {#if m.curated_result}
         <p class="small muted">
-          Hand label: {m.hand_result}{m.mismatch ? " (disagrees with the win rate)" : ""}
+          {session.hosted ? "Admin's label" : "Your label"}: {m.curated_result}{m.mismatch
+            ? " (disagrees with the win rate)"
+            : ""}
         </p>
       {/if}
     </section>

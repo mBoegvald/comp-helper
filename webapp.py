@@ -161,13 +161,13 @@ def matchup(role, a, b):
         d["low_sample"] = isinstance(games, (int, float)) and games < 200
     else:
         d["label"], d["low_sample"] = None, False
-    d["hand_result"] = (fwd or {}).get("result") if fwd and fwd.get("result") != fwd.get("label") else None
+    d["curated_result"] = (fwd or {}).get("result") if fwd and fwd.get("result") != fwd.get("label") else None
     d["mismatch"] = bool((fwd or {}).get("mismatch"))
     d["tips"] = []
-    if fwd and fwd.get("hand_tip"):
-        d["tips"].append({"from": "notes", "who": display(a), "text": fwd["hand_tip"]})
-    if rev and rev.get("hand_tip"):
-        d["tips"].append({"from": "notes", "who": display(b), "text": rev["hand_tip"]})
+    if fwd and fwd.get("curated_tip"):
+        d["tips"].append({"from": "notes", "who": display(a), "text": fwd["curated_tip"]})
+    if rev and rev.get("curated_tip"):
+        d["tips"].append({"from": "notes", "who": display(b), "text": rev["curated_tip"]})
     rt = reddit_tips()
     d["reddit"] = []
     for x, y in ((a, b), (b, a)):
@@ -419,9 +419,9 @@ def api_stop(_q, ctx=None):
     return {"ok": True}
 
 
-# ---------------------------------------------------------------- hand edits
+# ---------------------------------------------------------------- curated edits (the admin's own knowledge)
 
-HAND_RESULTS = ("Favored", "Even", "Even / skill", "Unfavored")
+CURATED_RESULTS = ("Favored", "Even", "Even / skill", "Unfavored")
 
 
 def pool_name(role, name):
@@ -433,13 +433,13 @@ def pool_name(role, name):
     return champs[k]["name"]
 
 
-def api_hand_champion_get(q, ctx=None):
-    """What a champion's edit form needs: the hand edits, the role_data defaults they override, the archetypes."""
+def api_curated_champion_get(q, ctx=None):
+    """What a champion's edit form needs: the curated edits, the role_data defaults they override, the archetypes."""
     role = role_of(q.get("role"))
     name = pool_name(role, q.get("name"))
     conn = db.connect()
     try:
-        r = conn.execute("SELECT * FROM hand_champion WHERE role = ? AND champion = ?", (role, name)).fetchone()
+        r = conn.execute("SELECT * FROM curated_champion WHERE role = ? AND champion = ?", (role, name)).fetchone()
     finally:
         conn.close()
     arch, dmg, comps, when, blind = db.defaults(role, name)
@@ -448,7 +448,7 @@ def api_hand_champion_get(q, ctx=None):
     return {
         "role": role,
         "champion": name,
-        "hand": {k: (r[k] if r else None) for k in db.HAND_CHAMP_FIELDS},
+        "curated": {k: (r[k] if r else None) for k in db.CURATED_CHAMP_FIELDS},
         "defaults": {
             "archetype": arch,
             "damage": dmg,
@@ -463,7 +463,7 @@ def api_hand_champion_get(q, ctx=None):
     }
 
 
-def api_hand_champion_set(q, ctx=None):
+def api_curated_champion_set(q, ctx=None):
     role = role_of(q.get("role"))
     name = pool_name(role, q.get("champion"))
     fields = q.get("fields") or {}
@@ -471,25 +471,25 @@ def api_hand_champion_set(q, ctx=None):
         raise ValueError("fields must be an object")
     conn = db.connect()
     try:
-        db.set_hand_champion(conn, role, name, fields)
+        db.set_curated_champion(conn, role, name, fields)
     finally:
         conn.close()
-    return api_hand_champion_get({"role": role, "name": name})
+    return api_curated_champion_get({"role": role, "name": name})
 
 
-def api_hand_matchup_set(q, ctx=None):
-    """Hand label and/or lane tip for champion vs opponent in a role; empty values remove them."""
+def api_curated_matchup_set(q, ctx=None):
+    """Curated label and/or lane tip for champion vs opponent in a role; empty values remove them."""
     role = role_of(q.get("role"))
     champ = pool_name(role, q.get("champion"))
     opp = display(find(str(q.get("opponent") or ""), load(role)[0]))
     if picker.key(opp) not in all_names():
         raise ValueError(f"unknown opponent {q.get('opponent')!r}")
     result = (q.get("result") or "").strip() or None
-    if result and result not in HAND_RESULTS:
-        raise ValueError(f"result must be one of {', '.join(HAND_RESULTS)} or empty")
+    if result and result not in CURATED_RESULTS:
+        raise ValueError(f"result must be one of {', '.join(CURATED_RESULTS)} or empty")
     conn = db.connect()
     try:
-        db.set_hand_matchup(conn, role, champ, opp, result, q.get("tip"))
+        db.set_curated_matchup(conn, role, champ, opp, result, q.get("tip"))
     finally:
         conn.close()
     return matchup(role, picker.key(champ), picker.key(opp))
@@ -634,9 +634,9 @@ ROUTES = {
     ("GET", "/api/status"): (api_status, ADMIN),
     ("POST", "/api/update"): (api_update, ADMIN),
     ("POST", "/api/stop"): (api_stop, ADMIN),
-    ("GET", "/api/hand/champion"): (api_hand_champion_get, ADMIN),
-    ("POST", "/api/hand/champion"): (api_hand_champion_set, ADMIN),
-    ("POST", "/api/hand/matchup"): (api_hand_matchup_set, ADMIN),
+    ("GET", "/api/curated/champion"): (api_curated_champion_get, ADMIN),
+    ("POST", "/api/curated/champion"): (api_curated_champion_set, ADMIN),
+    ("POST", "/api/curated/matchup"): (api_curated_matchup_set, ADMIN),
     ("GET", "/api/admin/accounts"): (api_admin_accounts, ADMIN),
     ("POST", "/api/admin/block"): (api_admin_block, ADMIN),
     ("POST", "/api/notes"): (api_notes_suggest, USER),

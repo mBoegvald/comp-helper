@@ -12,7 +12,7 @@ export const app = $state({
   error: null as string | null,
   running: false,
   log: "",
-  dataVersion: 0, // bumped when data changed (update finished, hand edit saved)
+  dataVersion: 0, // bumped when data changed (update finished, curated edit saved)
 });
 
 export async function loadMeta() {

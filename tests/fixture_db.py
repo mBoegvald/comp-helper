@@ -7,7 +7,7 @@ LOLA_TOP = [
     ("Aatrox", "Darius", 46.0, -3.0, 900),
     ("Darius", "Aatrox", 55.0, 3.4, 880),  # with the row above: dnorm -3.2, wr 45.5, games 880 -> Unfavored
     ("Aatrox", "Garen", 53.0, 2.5, 150),  # one direction only, under 200 games -> low sample
-    ("Aatrox", "Zaahen", 51.0, 0.5, 50),  # under 100 games -> dropped unless it has a hand label or tip
+    ("Aatrox", "Zaahen", 51.0, 0.5, 50),  # under 100 games -> dropped unless it has a curated label or tip
     ("Garen", "Darius", 50.0, 1.2, 400),  # Even
 ]
 

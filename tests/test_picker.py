@@ -32,9 +32,9 @@ def test_blind_style_and_damage_bonuses(conn):
     assert why == ["fits wombo comp", "gives AD damage", "blind-safe"]
 
 
-def test_cache_refreshes_after_a_hand_edit(conn):
+def test_cache_refreshes_after_a_curated_edit(conn):
     assert picker.load_full("top")[0]["aatrox"]["when"] != "Edited"
-    db.set_hand_champion(conn, "top", "Aatrox", {"pick_when": "Edited"})
+    db.set_curated_champion(conn, "top", "Aatrox", {"pick_when": "Edited"})
     assert picker.load_full("top")[0]["aatrox"]["when"] == "Edited"
 
 

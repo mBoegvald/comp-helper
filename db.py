@@ -5,12 +5,13 @@ Generated tables, replaced by the update stages:
   reddit_tips    per (champion, opponent): mention count and newest date (extract_tips.py build)
   reddit_snippet the best snippets per (champion, opponent) with date and thread link
 Grow-only:
-  pool           champions per role (discovered from Lolalytics, plus anyone with hand data)
+  pool           champions per role (discovered from Lolalytics, plus anyone with curated data)
 Accounts (hosted mode only, see auth.py): account, session (hashed tokens), attempt (rate limits).
 Community notes (hosted mode, see notes.py): community_note, suggested by accounts, shown once approved.
-Hand layer, written only by people (web page; first filled from the old workbooks), never by an update:
-  hand_champion  per role and champion; NULL fields fall back to role_data.py
-  hand_matchup   per role and pair: a hand label for 'Result for champion' and/or a lane tip
+Curated layer, the admin's own knowledge (web page; first filled from the old workbooks), never touched by an
+update (called the hand layer until 2026-10-10; connect() renames old tables):
+  curated_champion per role and champion; NULL fields fall back to role_data.py
+  curated_matchup  per role and pair: a curated label for 'Result for champion' and/or a lane tip
   role_note      free rows from the old Comps/Notes sheets
 
 champions(role) and matchups(role) rebuild what the workbooks used to hold, so picker.py scores exactly as before.
@@ -34,7 +35,7 @@ LOW_SAMPLE_GAMES = 200
 FAVORED_DELTA = 2.0
 UNFAVORED_DELTA = -2.0
 TOP_N = 5  # data-derived names in Good into / Struggles into
-HAND_CHAMP_FIELDS = ("archetype", "damage", "comps", "good_into", "struggles_into", "pick_when", "blind_safe")
+CURATED_CHAMP_FIELDS = ("archetype", "damage", "comps", "good_into", "struggles_into", "pick_when", "blind_safe")
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS meta (key TEXT PRIMARY KEY, value TEXT);
@@ -49,10 +50,10 @@ CREATE TABLE IF NOT EXISTS reddit_tips (
 CREATE TABLE IF NOT EXISTS reddit_snippet (
   champion TEXT NOT NULL, opponent TEXT NOT NULL, rank INTEGER NOT NULL, text TEXT, published TEXT, url TEXT,
   PRIMARY KEY (champion, opponent, rank));
-CREATE TABLE IF NOT EXISTS hand_champion (
+CREATE TABLE IF NOT EXISTS curated_champion (
   role TEXT NOT NULL, champion TEXT NOT NULL, archetype TEXT, damage TEXT, comps TEXT, good_into TEXT,
   struggles_into TEXT, pick_when TEXT, blind_safe TEXT, updated_at TEXT, PRIMARY KEY (role, champion));
-CREATE TABLE IF NOT EXISTS hand_matchup (
+CREATE TABLE IF NOT EXISTS curated_matchup (
   role TEXT NOT NULL, champion TEXT NOT NULL, opponent TEXT NOT NULL, result TEXT, tip TEXT, updated_at TEXT,
   PRIMARY KEY (role, champion, opponent));
 CREATE TABLE IF NOT EXISTS role_note (
@@ -83,8 +84,21 @@ def connect(path=None) -> sqlite3.Connection:
     conn = sqlite3.connect(path, timeout=30)
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA foreign_keys = ON")  # e.g. deleting an account deletes its sessions
+    _rename_old_tables(conn)
     conn.executescript(SCHEMA)
     return conn
+
+
+RENAMED_TABLES = (("hand_champion", "curated_champion"), ("hand_matchup", "curated_matchup"))  # 2026-10-10
+
+
+def _rename_old_tables(conn):
+    """Databases from before a table was renamed get the new name in place: no copy, nothing lost."""
+    tables = {r[0] for r in conn.execute("SELECT name FROM sqlite_master WHERE type = 'table'")}
+    with conn:
+        for old, new in RENAMED_TABLES:
+            if old in tables and new not in tables:
+                conn.execute(f"ALTER TABLE {old} RENAME TO {new}")
 
 
 def now() -> str:
@@ -183,7 +197,7 @@ def data_lists(comb, champ):
 
 
 def defaults(role, champ):
-    """(archetype, damage, comps, pick when, blind-safe) from role_data.py, before any hand edit."""
+    """(archetype, damage, comps, pick when, blind-safe) from role_data.py, before any curated edit."""
     return role_data.CHAMPS.get(role, {}).get(champ, ("Flex", role_data.damage_of(champ), "", "", "Mostly"))
 
 
@@ -193,19 +207,19 @@ def lola_rows(conn, role):
 
 def pool(conn, role):
     names = {r[0] for r in conn.execute("SELECT champion FROM pool WHERE role = ?", (role,))}
-    names |= {r[0] for r in conn.execute("SELECT champion FROM hand_champion WHERE role = ?", (role,))}
+    names |= {r[0] for r in conn.execute("SELECT champion FROM curated_champion WHERE role = ?", (role,))}
     return sorted(names | set(role_data.CHAMPS.get(role, {})))
 
 
 def champions(conn, role, comb=None):
-    """Champions sheet rows: name, arch, dmg, comps, good, bad, when, blind (hand edit > role_data > 'Flex')."""
+    """Champions sheet rows: name, arch, dmg, comps, good, bad, when, blind (curated edit > role_data > 'Flex')."""
     comb = comb if comb is not None else combined(lola_rows(conn, role))
-    hand = {r["champion"]: dict(r) for r in conn.execute("SELECT * FROM hand_champion WHERE role = ?", (role,))}
+    curated = {r["champion"]: dict(r) for r in conn.execute("SELECT * FROM curated_champion WHERE role = ?", (role,))}
     archs = role_data.ARCHETYPES.get(role, {})
     out = []
     for c in pool(conn, role):
         arch, dmg, comps, when, blind = defaults(role, c)
-        h = hand.get(c, {})
+        h = curated.get(c, {})
         arch, dmg, comps, when, blind = (
             h.get("archetype") or arch,
             h.get("damage") or dmg,
@@ -250,19 +264,19 @@ def reddit_tip_rows(conn):
 
 def matchups(conn, role, comb=None, tips=None):
     """Matchups sheet rows, sorted by (champion, opponent): every pair with >= MIN_GAMES games for a pool
-    champion, plus every pair with a hand label or tip (even without data)."""
+    champion, plus every pair with a curated label or tip (even without data)."""
     comb = comb if comb is not None else combined(lola_rows(conn, role))
     tips = tips if tips is not None else reddit_tip_rows(conn)
     names = set(pool(conn, role))
-    hand = {
+    curated = {
         (r["champion"], r["opponent"]): dict(r)
-        for r in conn.execute("SELECT * FROM hand_matchup WHERE role = ?", (role,))
+        for r in conn.execute("SELECT * FROM curated_matchup WHERE role = ?", (role,))
     }
     out = []
-    for c, o in sorted({k for k in comb if k[0] in names} | set(hand)):
-        v, h = comb.get((c, o)), hand.get((c, o), {})
-        handlab, tip = h.get("result") or None, h.get("tip") or None
-        if (v is None or v["games"] < MIN_GAMES) and not handlab and not tip:
+    for c, o in sorted({k for k in comb if k[0] in names} | set(curated)):
+        v, h = comb.get((c, o)), curated.get((c, o), {})
+        curated_label, tip = h.get("result") or None, h.get("tip") or None
+        if (v is None or v["games"] < MIN_GAMES) and not curated_label and not tip:
             continue
         row = {
             "champ": c,
@@ -275,7 +289,7 @@ def matchups(conn, role, comb=None, tips=None):
             "patch": None,
             "source": None,
             "mismatch": None,
-            "result": handlab,
+            "result": curated_label,
         }
         if v is not None:
             lab = label(v["dnorm"], v["games"])
@@ -286,9 +300,9 @@ def matchups(conn, role, comb=None, tips=None):
                 label=lab,
                 patch=f"{v['patch']} {v['tier']}",
                 source=v["source"],
-                result=handlab or lab,
+                result=curated_label or lab,
                 mismatch="yes"
-                if handlab and norm_label(handlab) != norm_label(lab) and "low sample" not in lab
+                if curated_label and norm_label(curated_label) != norm_label(lab) and "low sample" not in lab
                 else None,
             )
         # Reddit: this champion's mains about the opponent, then the opponent's mains about this champion
@@ -313,44 +327,45 @@ def patch(conn):
     return f"{r['patch']} {r['tier']}".strip() if r else ""
 
 
-# ---------------------------------------------------------------- hand layer writes
+# ---------------------------------------------------------------- curated layer writes
 
 
-def set_hand_champion(conn, role, champion, fields: dict):
-    """Upsert hand fields for a champion; a field set to '' or None goes back to the role_data default."""
-    bad = set(fields) - set(HAND_CHAMP_FIELDS)
+def set_curated_champion(conn, role, champion, fields: dict):
+    """Upsert curated fields for a champion; a field set to '' or None goes back to the role_data default."""
+    bad = set(fields) - set(CURATED_CHAMP_FIELDS)
     if bad:
         raise ValueError(f"unknown field(s) {', '.join(sorted(bad))}")
     with conn:
         cur = dict(
-            conn.execute("SELECT * FROM hand_champion WHERE role = ? AND champion = ?", (role, champion)).fetchone()
+            conn.execute("SELECT * FROM curated_champion WHERE role = ? AND champion = ?", (role, champion)).fetchone()
             or {}
         )
         cur.update({k: (str(v).strip() or None) if v is not None else None for k, v in fields.items()})
-        vals = [cur.get(k) for k in HAND_CHAMP_FIELDS]
+        vals = [cur.get(k) for k in CURATED_CHAMP_FIELDS]
         if any(vals):
             conn.execute(
-                f"INSERT OR REPLACE INTO hand_champion (role, champion, {', '.join(HAND_CHAMP_FIELDS)}, updated_at) "
+                f"INSERT OR REPLACE INTO curated_champion (role, champion, {', '.join(CURATED_CHAMP_FIELDS)}, updated_at) "
                 f"VALUES (?, ?, {', '.join('?' * len(vals))}, ?)",
                 (role, champion, *vals, now()),
             )
         else:
-            conn.execute("DELETE FROM hand_champion WHERE role = ? AND champion = ?", (role, champion))
+            conn.execute("DELETE FROM curated_champion WHERE role = ? AND champion = ?", (role, champion))
         conn.execute("INSERT OR IGNORE INTO pool VALUES (?, ?)", (role, champion))
         touch(conn)
 
 
-def set_hand_matchup(conn, role, champion, opponent, result=None, tip=None):
-    """Hand label ('Favored', 'Even', 'Unfavored' or free text) and lane tip for a pair; both empty removes the row."""
+def set_curated_matchup(conn, role, champion, opponent, result=None, tip=None):
+    """Curated label ('Favored', 'Even', 'Unfavored' or free text) and lane tip for a pair; both empty removes the row."""
     result, tip = (str(result).strip() or None) if result else None, (str(tip).strip() or None) if tip else None
     with conn:
         if result or tip:
             conn.execute(
-                "INSERT OR REPLACE INTO hand_matchup VALUES (?, ?, ?, ?, ?, ?)",
+                "INSERT OR REPLACE INTO curated_matchup VALUES (?, ?, ?, ?, ?, ?)",
                 (role, champion, opponent, result, tip, now()),
             )
         else:
             conn.execute(
-                "DELETE FROM hand_matchup WHERE role = ? AND champion = ? AND opponent = ?", (role, champion, opponent)
+                "DELETE FROM curated_matchup WHERE role = ? AND champion = ? AND opponent = ?",
+                (role, champion, opponent),
             )
         touch(conn)

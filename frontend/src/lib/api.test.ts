@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { errorMessage, getMatchup, recommend, saveHandMatchup } from "./api.ts";
+import { errorMessage, getMatchup, recommend, saveCuratedMatchup } from "./api.ts";
 
 function answer(status: number, body: unknown) {
   return vi.fn(async () => new Response(typeof body === "string" ? body : JSON.stringify(body), { status }));
@@ -18,9 +18,9 @@ describe("api", () => {
   it("POSTs JSON", async () => {
     const f = answer(200, { ok: true });
     vi.stubGlobal("fetch", f);
-    await saveHandMatchup("top", "Garen", "Darius", "Favored", "tip");
+    await saveCuratedMatchup("top", "Garen", "Darius", "Favored", "tip");
     const [url, init] = f.mock.calls[0] as unknown as [string, RequestInit];
-    expect(url).toBe("/api/hand/matchup");
+    expect(url).toBe("/api/curated/matchup");
     expect(init.method).toBe("POST");
     expect(new Headers(init.headers).get("Content-Type")).toBe("application/json");
     expect(JSON.parse(String(init.body))).toEqual({

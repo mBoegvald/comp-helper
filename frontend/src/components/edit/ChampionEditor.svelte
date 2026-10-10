@@ -1,7 +1,7 @@
 <script lang="ts">
-  import { errorMessage, getHandChampion, saveHandChampion } from "../../lib/api.ts";
+  import { errorMessage, getCuratedChampion, saveCuratedChampion } from "../../lib/api.ts";
   import { BLIND_OPTIONS } from "../../lib/constants.ts";
-  import type { HandChampion, HandField, Role } from "../../lib/types.ts";
+  import type { CuratedChampion, CuratedField, Role } from "../../lib/types.ts";
   import ErrorBox from "../common/ErrorBox.svelte";
 
   /** Edit a champion's notes for one role. An empty field means "use the default" (role_data.py). */
@@ -14,7 +14,7 @@
   let { role, name, onsaved, oncancel }: Props = $props();
 
   interface Field {
-    key: HandField;
+    key: CuratedField;
     label: string;
     kind: "archetype" | "select" | "text" | "area";
     options?: string[];
@@ -40,18 +40,18 @@
     },
   ];
 
-  const optionsFor = (f: Field, h: HandChampion) => (f.kind === "archetype" ? h.archetypes : (f.options ?? []));
+  const optionsFor = (f: Field, h: CuratedChampion) => (f.kind === "archetype" ? h.archetypes : (f.options ?? []));
 
-  let loaded = $state<HandChampion | null>(null);
-  let form = $state<Partial<Record<HandField, string>>>({});
+  let loaded = $state<CuratedChampion | null>(null);
+  let form = $state<Partial<Record<CuratedField, string>>>({});
   let error = $state<string | null>(null);
   let saving = $state(false);
 
   $effect(() => {
-    getHandChampion(role, name).then(
+    getCuratedChampion(role, name).then(
       (r) => {
         loaded = r;
-        form = Object.fromEntries(FIELDS.map((f) => [f.key, r.hand[f.key] ?? ""]));
+        form = Object.fromEntries(FIELDS.map((f) => [f.key, r.curated[f.key] ?? ""]));
       },
       (e) => (error = errorMessage(e)),
     );
@@ -62,7 +62,7 @@
     if (!loaded) return;
     saving = true;
     try {
-      await saveHandChampion(role, loaded.champion, $state.snapshot(form));
+      await saveCuratedChampion(role, loaded.champion, $state.snapshot(form));
       onsaved?.();
     } catch (err) {
       error = errorMessage(err);

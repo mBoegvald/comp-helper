@@ -1,5 +1,15 @@
 # Pick helper: notes
 
+## "Hand" data is now "curated" (2026-10-10)
+- The admin's own champion and matchup knowledge (archetype, damage, comps, pick when, good/struggles into; a label
+  and lane tip per matchup) was called the hand layer, from the hand-edited workbook cells. It is now curated:
+  tables curated_champion and curated_matchup, /api/curated/*, CuratedChampion in the page. The page says "Your
+  label" (local) or "Admin's label" (hosted).
+- Curated data feeds the scoring and only admins change it; community notes are text from users, shown after
+  review, and never change a score.
+- db.connect() renames old hand_* tables in place (RENAMED_TABLES), so older copies of the database keep working.
+  The sections below are history and still say "hand".
+
 ## Community notes with review (2026-10-10)
 - Hosted mode: signed-in users suggest a note on a champion or a matchup ("Suggest a note" in Lookup); it waits in
   the admin's review queue (Admin tab, with the count on the tab) until approved, optionally with corrected text, or
@@ -68,7 +78,7 @@
 ## SQLite instead of workbooks (2026-10-10)
 - All data is in `data/pickhelper.db` (stdlib sqlite3, so the app needs no extra package; `db.py` has the schema).
   Generated tables (`lola`, `reddit_tips`, `reddit_snippet`) are replaced by updates in one transaction each;
-  `pool` only grows; the hand layer (`hand_champion`, `hand_matchup`, `role_note`) is written only by people.
+  `pool` only grows; the curated layer (`curated_champion`, `curated_matchup`, `role_note`) is written only by people.
   This replaces build_role.py's old merge, which had to guess which workbook cells were hand edits.
 - `db.champions(role)` / `db.matchups(role)` rebuild exactly what the workbooks held (verified: every score, label and
   tip identical for all five roles, plus five draft queries). One intended difference: 'Good into' no longer starts
@@ -77,8 +87,8 @@
   the text after the data-derived names. Mid has no role_data entries, so all its champion text is hand data.
 - `migrate_xlsx.py` did the one-off import (48 champion rows, 103 hand labels, 157 lane tips, mid's Comps/Notes);
   it was removed together with the workbooks and CSVs; all of them are in git history (commit 74eaf71 has them all).
-- Edits: GET/POST `/api/hand/champion` ({role, champion, fields}; '' or null resets a field to the default) and
-  POST `/api/hand/matchup` ({role, champion, opponent, result, tip}; result is Favored, Even, Even / skill,
+- Edits: GET/POST `/api/curated/champion` ({role, champion, fields}; '' or null resets a field to the default) and
+  POST `/api/curated/matchup` ({role, champion, opponent, result, tip}; result is Favored, Even, Even / skill,
   Unfavored or empty; both empty deletes the row). The Svelte page (next step) is the UI for these.
 - build_role.py refuses to save a fetch with under 60% of the previous row count (site change or outage), so a
   broken scrape cannot wipe a role. update.py makes one database backup per day in data/backups (14 kept).

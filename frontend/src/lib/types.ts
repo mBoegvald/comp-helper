@@ -4,7 +4,7 @@ export type Role = "top" | "jungle" | "mid" | "bot" | "support";
 export type Label = "Favored" | "Even" | "Unfavored";
 export type Need = "ap" | "ad";
 
-/** A champion's notes for a role (hand edits, else role_data.py defaults). */
+/** A champion's notes for a role (curated edits, else role_data.py defaults). */
 export interface Champion {
   name: string;
   arch: string | null;
@@ -62,7 +62,7 @@ export interface Matchup {
   games?: number;
   label: Label | null;
   low_sample: boolean;
-  hand_result: string | null;
+  curated_result: string | null;
   mismatch: boolean;
   tips: LaneNote[];
   reddit: RedditGroup[];
@@ -148,14 +148,15 @@ export interface Status {
   log: string;
 }
 
-export type HandField = "archetype" | "damage" | "comps" | "good_into" | "struggles_into" | "pick_when" | "blind_safe";
+export type CuratedField =
+  "archetype" | "damage" | "comps" | "good_into" | "struggles_into" | "pick_when" | "blind_safe";
 
-/** /api/hand/champion: a champion's hand edits and the defaults they override. */
-export interface HandChampion {
+/** /api/curated/champion: a champion's curated edits and the defaults they override. */
+export interface CuratedChampion {
   role: Role;
   champion: string;
-  hand: Record<HandField, string | null>;
-  defaults: Record<HandField, string>;
+  curated: Record<CuratedField, string | null>;
+  defaults: Record<CuratedField, string>;
   archetypes: string[];
   updated_at: string | null;
 }
