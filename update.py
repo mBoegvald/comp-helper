@@ -186,9 +186,10 @@ def main(argv=None):
         ):
             log(f"reddit: done, {len(list((HERE / 'data' / 'reddit').glob('*.json')))} champion files in data/reddit")
 
-    if what in ("all", "reddit", "comments", "tips"):
-        if run(["extract_tips.py", "build", "--reddit", "data/reddit"], "tips build"):
-            log("tips: Reddit tips rebuilt")
+    if what in ("all", "reddit", "comments", "tips") and run(
+        ["extract_tips.py", "build", "--reddit", "data/reddit"], "tips build"
+    ):
+        log("tips: Reddit tips rebuilt")
 
     log(f"finished ({what})")
     return 0

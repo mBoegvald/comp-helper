@@ -2,6 +2,7 @@
 """Compatibility wrapper: same as `python3 picker.py --role mid ...`."""
 
 import sys
+
 import picker
 
 if __name__ == "__main__":

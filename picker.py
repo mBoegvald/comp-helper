@@ -331,7 +331,9 @@ def cmd_matchups(args, champs, mu):
 
 
 def cmd_comp(args, champs, mu):
-    split = lambda s: [resolve(x, champs) for x in s.split(",") if x.strip()] if s else []
+    def split(s):
+        return [resolve(x, champs) for x in s.split(",") if x.strip()] if s else []
+
     enemies, allies = split(args.enemy), split(args.ally)
     unknown = [e for e in enemies + allies if e not in champs]
     enemy_mids = [e for e in enemies if e in champs]

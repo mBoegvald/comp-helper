@@ -105,14 +105,19 @@ def fetch(champ: str, delay: float, lane: str = ""):
 def cmd_fetch(a):
     champs = [c.strip() for c in a.champs.split(",") if c.strip()]
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
-    f = open(a.out, "w", newline="", encoding="utf-8") if a.out else sys.stdout
-    w = csv.DictWriter(f, fieldnames=CSV_FIELDS)
-    w.writeheader()
-    for c in champs:
-        for r in fetch(c, a.delay, a.lane):
-            w.writerow({"champion": c, "fetched_at": now, "lane": a.lane, **r})
+
+    def write(f):
+        w = csv.DictWriter(f, fieldnames=CSV_FIELDS)
+        w.writeheader()
+        for c in champs:
+            for r in fetch(c, a.delay, a.lane):
+                w.writerow({"champion": c, "fetched_at": now, "lane": a.lane, **r})
+
     if a.out:
-        f.close()
+        with open(a.out, "w", newline="", encoding="utf-8") as f:
+            write(f)
+    else:
+        write(sys.stdout)
 
 
 def main():

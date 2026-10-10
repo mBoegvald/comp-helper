@@ -9,10 +9,10 @@ update.py in the background (it keeps running if you close the page or this wind
 """
 
 import argparse
+import contextlib
 import datetime as dt
 import json
 import os
-import re
 import signal
 import subprocess
 import sys
@@ -309,7 +309,6 @@ def api_champion(q):
     champs, mu, info = load(role)
     k = find(q.get("name", ""), champs)
     opps = sorted({o for (a, o) in mu if a == k})
-    rt = reddit_tips()
     rows = []
     for o in opps:
         m = matchup(role, k, o)
@@ -377,10 +376,8 @@ def api_stop(_q):
         )
     else:
         subprocess.call(["pkill", "-TERM", "-P", str(pid)])
-        try:
+        with contextlib.suppress(ProcessLookupError):
             os.kill(pid, signal.SIGTERM)
-        except ProcessLookupError:
-            pass
     update.log("stopped from the web page (rerun to continue; finished champions are kept)")
     return {"ok": True}
 
@@ -541,10 +538,8 @@ def main():
     print(f"Pick helper running at {url}  (close this window or press Ctrl+C to stop)", flush=True)
     if not a.no_browser:
         threading.Timer(0.6, lambda: webbrowser.open(url)).start()
-    try:
+    with contextlib.suppress(KeyboardInterrupt):
         srv.serve_forever()
-    except KeyboardInterrupt:
-        pass
 
 
 if __name__ == "__main__":

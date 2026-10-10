@@ -61,7 +61,7 @@ def dump_champ(reddit, champ: str, out: Path, n_threads: int, n_comments: int):
     name = sub_name(champ)
     sub = reddit.subreddit(name)
     try:
-        sub.id  # raises if the subreddit does not exist or is private
+        sub.id  # noqa: B018 - PRAW loads lazily; this raises if the subreddit does not exist or is private
     except Exception as e:
         print(f"  ! r/{name}: {type(e).__name__}: {e}", file=sys.stderr)
         return None
