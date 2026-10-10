@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import AccountDialog from "./components/account/AccountDialog.svelte";
+  import Privacy from "./components/account/Privacy.svelte";
   import AdminView from "./components/admin/AdminView.svelte";
   import MyNotes from "./components/notes/MyNotes.svelte";
   import ErrorBox from "./components/common/ErrorBox.svelte";
@@ -25,6 +26,11 @@
   $effect(() => {
     void app.view;
     if (session.hosted && session.admin) loadReview();
+  });
+
+  // the privacy page belongs to the hosted site
+  $effect(() => {
+    if (session.loaded && app.view === "privacy" && !session.hosted) app.view = "draft";
   });
 
   // signed out while on My notes
@@ -54,10 +60,24 @@
     {#if session.hosted && session.admin}
       <section hidden={app.view !== "admin"}><AdminView /></section>
     {/if}
+    {#if session.hosted}
+      <section hidden={app.view !== "privacy"}><Privacy /></section>
+    {/if}
   {/if}
 </main>
 
+{#if session.hosted}
+  <footer>
+    <button class="btn link small" onclick={() => ((app.view = "privacy"), scrollTo({ top: 0 }))}>Privacy</button>
+  </footer>
+{/if}
+
 <style>
+  footer {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 8px 16px 24px;
+  }
   main {
     max-width: 1240px;
     margin: 0 auto;
