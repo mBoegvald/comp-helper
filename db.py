@@ -6,6 +6,7 @@ Generated tables, replaced by the update stages:
   reddit_snippet the best snippets per (champion, opponent) with date and thread link
 Grow-only:
   pool           champions per role (discovered from Lolalytics, plus anyone with hand data)
+Accounts (hosted mode only, see auth.py): account, session (hashed tokens), attempt (rate limits).
 Hand layer, written only by people (web page; first filled from the old workbooks), never by an update:
   hand_champion  per role and champion; NULL fields fall back to role_data.py
   hand_matchup   per role and pair: a hand label for 'Result for champion' and/or a lane tip
@@ -55,6 +56,15 @@ CREATE TABLE IF NOT EXISTS hand_matchup (
   PRIMARY KEY (role, champion, opponent));
 CREATE TABLE IF NOT EXISTS role_note (
   role TEXT NOT NULL, sheet TEXT NOT NULL, idx INTEGER NOT NULL, cells TEXT, PRIMARY KEY (role, sheet, idx));
+CREATE TABLE IF NOT EXISTS account (
+  id INTEGER PRIMARY KEY, username TEXT NOT NULL UNIQUE COLLATE NOCASE, pw_hash TEXT NOT NULL,
+  role TEXT NOT NULL DEFAULT 'contributor' CHECK (role IN ('contributor', 'admin')),
+  blocked INTEGER NOT NULL DEFAULT 0, created_at TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS session (
+  token_hash TEXT PRIMARY KEY, account_id INTEGER NOT NULL REFERENCES account(id) ON DELETE CASCADE,
+  created_at TEXT NOT NULL, expires_at TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS attempt (ip TEXT NOT NULL, kind TEXT NOT NULL, at REAL NOT NULL);
+CREATE INDEX IF NOT EXISTS attempt_by_ip ON attempt (ip, kind, at);
 """
 
 
@@ -64,6 +74,7 @@ def connect(path=None) -> sqlite3.Connection:
     path.parent.mkdir(exist_ok=True)
     conn = sqlite3.connect(path, timeout=30)
     conn.row_factory = sqlite3.Row
+    conn.execute("PRAGMA foreign_keys = ON")  # e.g. deleting an account deletes its sessions
     conn.executescript(SCHEMA)
     return conn
 
