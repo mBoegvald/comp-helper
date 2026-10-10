@@ -26,3 +26,17 @@ def test_backup_never_overwrites(conn, tmp_path):
     with pytest.raises(SystemExit, match="exists"):
         manage.main(["backup", str(dest)])
     assert dest.read_text() == "keep me"
+
+
+def test_delete_account_asks_for_the_name_again(conn, monkeypatch, capsys):
+    import auth
+
+    auth.create_account(conn, "asked", "asked password")
+    monkeypatch.setattr("builtins.input", lambda _prompt: "typo")
+    with pytest.raises(SystemExit, match="Not deleted"):
+        manage.main(["delete-account", "asked"])
+    assert [a["username"] for a in auth.list_accounts(conn)] == ["asked"]
+    monkeypatch.setattr("builtins.input", lambda _prompt: "asked")
+    manage.main(["delete-account", "asked"])
+    assert auth.list_accounts(conn) == []
+    assert "asked deleted" in capsys.readouterr().out

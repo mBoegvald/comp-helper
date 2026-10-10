@@ -6,6 +6,7 @@
   python manage.py set-password NAME     # new password, signs the account out everywhere
   python manage.py list                  # accounts with role and status
   python manage.py backup FILE           # a consistent copy of the database, safe while the app runs
+  python manage.py delete-account NAME   # on request: the account, its notes and its credits (asks first)
 """
 
 import argparse
@@ -31,6 +32,7 @@ def main(argv=None):
     sub.add_parser("set-password").add_argument("name")
     sub.add_parser("list")
     sub.add_parser("backup").add_argument("file")
+    sub.add_parser("delete-account").add_argument("name")
     a = p.parse_args(argv)
     if a.cmd == "backup":
         dest = Path(a.file)
@@ -44,6 +46,11 @@ def main(argv=None):
         if a.cmd == "create-admin":
             auth.create_account(conn, a.name, ask_password(), role="admin")
             print(f"Admin {a.name} created.")
+        elif a.cmd == "delete-account":
+            if input(f"Delete {a.name}, its notes and its credits for good? Type the name again: ") != a.name:
+                sys.exit("Not deleted.")
+            auth.delete_account_by_name(conn, a.name)
+            print(f"{a.name} deleted.")
         elif a.cmd == "set-password":
             auth.set_password(conn, a.name, ask_password())
             print(f"Password for {a.name} changed; its sessions are signed out.")
