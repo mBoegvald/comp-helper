@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-"""Pick helper for any role. Reads the role's workbook (edit that file to tune data):
-mid -> midlane_overview.xlsx, others -> roles/<role>.xlsx (built by build_role.py).
+"""Pick helper for any role. Reads data/pickhelper.db (see db.py); hand edits are made on the web page.
 
 Usage:
   python picker.py --role top vs Renekton          # best picks into an enemy laner (role defaults to mid)
@@ -16,20 +15,11 @@ Usage:
 import argparse
 import re
 import sys
-from pathlib import Path
 
-try:
-    from openpyxl import load_workbook
-except ImportError:
-    sys.exit("pip install openpyxl")
-
+import db
 import role_data
 
 ROLE = "mid"
-
-
-def xlsx_for(role: str) -> Path:
-    return Path(__file__).resolve().parent / role_data.ROLES[role]["xlsx"]
 
 ALIASES = {
     "tf": "twisted fate", "asol": "aurelion sol", "kass": "kassadin", "vlad": "vladimir",
@@ -78,54 +68,46 @@ _CACHE = {}
 
 
 def load_full(role=None):
-    """(champs, mu, info) for a role, cached until the workbook changes.
+    """(champs, mu, info) for a role, cached until the database changes.
     champs: key -> Champions row; mu: (champ, opp) -> (score, tip text); info: (champ, opp) -> raw matchup fields."""
     role = role or ROLE
-    xlsx = xlsx_for(role)
-    if not xlsx.exists():
-        raise FileNotFoundError(f"{xlsx} not found. Build it with: python3 build_role.py {role}")
-    stamp = xlsx.stat().st_mtime
-    hit = _CACHE.get(role)
-    if hit and hit[0] == stamp:
-        return hit[1]
-    wb = load_workbook(xlsx, read_only=True)
-    champs = {}
-    for r in list(wb["Champions"].iter_rows(values_only=True))[1:]:
-        if r[0]:
-            champs[key(r[0])] = dict(zip(
-                ["name", "arch", "dmg", "comps", "good", "bad", "when", "blind"], r))
+    conn = db.connect()
+    try:
+        stamp = db.stamp(conn)
+        hit = _CACHE.get(role)
+        if hit and hit[0] == stamp:
+            return hit[1]
+        if not conn.execute("SELECT 1 FROM pool WHERE role = ? LIMIT 1", (role,)).fetchone():
+            raise FileNotFoundError(f"no {role} data in {db.PATH.name} yet. Fetch it with: python update.py lolalytics")
+        comb = db.combined(db.lola_rows(conn, role))
+        champs = {key(c["name"]): c for c in db.champions(conn, role, comb)}
+        rows = db.matchups(conn, role, comb)
+    finally:
+        conn.close()
     mu, info = {}, {}  # (champ, opp) -> (score, tip); (champ, opp) -> raw fields
-    rows = list(wb["Matchups"].iter_rows(values_only=True))
-    hdr = [str(h).strip().lower() if h else "" for h in rows[0]]
-    col = {name: hdr.index(name) for name in ("lola wr", "lola dnorm", "lola label", "lola games", "mismatch",
-                                              "reddit tips", "reddit mentions", "reddit newest") if name in hdr}
-    get = lambda row, name: row[col[name]] if name in col and col[name] < len(row) else None
-    for row in rows[1:]:
-        c, o, res, tip = row[:4]
-        if not c:
-            continue
+    for row in rows:
+        c, o, res, tip = row["champ"], row["opp"], row["result"], row["tip"]
         hand_tip = tip
         v = RESULT.get(res, 0)
-        # fetch_lolalytics.py apply: use the normalised win-rate delta (both directions averaged) when present,
+        # use the normalised win-rate delta (both directions averaged) when present,
         # scaled so +-2 (the Favored/Unfavored threshold) maps to +-3
-        dn = get(row, "lola dnorm")
-        games = get(row, "lola games")
+        dn, games = row["dnorm"], row["games"]
         if isinstance(dn, (int, float)):
             v = max(-3.0, min(3.0, round(dn * 1.5, 1)))
             if isinstance(games, (int, float)) and games < 200:
                 v = round(v * 0.7, 1)  # thin sample: trust it less
             if not tip:
                 tip = f"(lolalytics {dn:+.1f}, {int(games) if games else '?'} games)"
-        # extract_tips.py apply: first Reddit snippet rides along with the hand-written tip
-        rt = get(row, "reddit tips")
+        # first Reddit snippet rides along with the hand-written tip
+        rt = row["reddit_tips"]
         if rt:
             tip = f"{tip or ''} [reddit] {str(rt).split(' | ')[0][:200]}".strip()
         mu[(key(c), key(o))] = (v, tip)
         mu.setdefault((key(o), key(c)), (-v, f"[{c}'s tip] {tip}"))
         info[(key(c), key(o))] = {"champ": c, "opp": o, "score": v, "result": res, "hand_tip": hand_tip,
-                                  "wr": get(row, "lola wr"), "dnorm": dn, "games": games,
-                                  "label": get(row, "lola label"), "mismatch": get(row, "mismatch"),
-                                  "reddit_mentions": get(row, "reddit mentions"), "reddit_newest": get(row, "reddit newest")}
+                                  "wr": row["wr"], "dnorm": dn, "games": games, "label": row["label"],
+                                  "mismatch": row["mismatch"], "reddit_mentions": row["reddit_mentions"],
+                                  "reddit_newest": row["reddit_newest"]}
     _CACHE[role] = (stamp, (champs, mu, info))
     return champs, mu, info
 
