@@ -86,3 +86,10 @@ def test_edits_only_from_the_page_itself(server, conn):
     assert conn.execute("SELECT count(*) FROM hand_matchup").fetchone()[0] == 0
     status, d = call(server + "/api/hand/matchup", body, origin=server)
     assert status == 200 and d["tips"][0]["text"] == "t"
+
+
+def test_champion_outside_the_pool_has_the_full_shape(conn):
+    """The page's types expect every field, so a champion outside the role's pool gets them empty."""
+    d = webapp.api_champion({"role": "top", "name": "Ahri"})
+    assert d["in_role"] is False
+    assert set(d["champion"]) == {"name", "arch", "dmg", "comps", "good", "bad", "when", "blind"}

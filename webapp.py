@@ -178,6 +178,11 @@ def champ_card(c):
     }
 
 
+def empty_card(name):
+    """Same shape as champ_card for a champion outside the role's pool."""
+    return {"name": name, **dict.fromkeys(("arch", "dmg", "comps", "good", "bad", "when", "blind"))}
+
+
 def damage_of(name, role_hint=None):
     k = picker.key(name)
     roles = [role_hint] if role_hint else []
@@ -329,7 +334,7 @@ def api_champion(q):
     rows.sort(key=lambda r: -(r["score"] or 0))
     return {
         "role": role,
-        "champion": champ_card(champs[k]) if k in champs else {"name": display(k)},
+        "champion": champ_card(champs[k]) if k in champs else empty_card(display(k)),
         "in_role": k in champs,
         "matchups": rows,
     }
