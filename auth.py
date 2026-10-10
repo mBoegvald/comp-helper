@@ -182,3 +182,48 @@ def rate_limit(conn, ip: str, kind: str):
         if recent >= limit:
             raise RateLimited(f"Too many {kind} attempts from your address. Try again later.")
         conn.execute("INSERT INTO attempt VALUES (?, ?, ?)", (ip, kind, now))
+
+
+# ---------------------------------------------------------------- deleting an account
+
+
+def _erase(conn, account_id: int, username: str):
+    """Everything personal of one account, inside the caller's transaction: its notes (any state), the "(from name)"
+    credit on lane tips made from its notes, its sessions, and the account itself."""
+    conn.execute("DELETE FROM community_note WHERE account_id = ?", (account_id,))
+    suffix = f" (from {username})"
+    conn.execute(
+        "UPDATE curated_matchup SET tip = substr(tip, 1, length(tip) - length(?)) WHERE substr(tip, -length(?)) = ?",
+        (suffix, suffix, suffix),
+    )
+    conn.execute("DELETE FROM account WHERE id = ?", (account_id,))  # sessions go with it (ON DELETE CASCADE)
+    db.touch(conn)
+
+
+def _check_not_last_admin(conn, row):
+    if row["role"] == "admin":
+        admins = conn.execute("SELECT count(*) FROM account WHERE role = 'admin' AND blocked = 0").fetchone()[0]
+        if admins <= 1:
+            raise AuthError("You are the only admin. Make someone else admin first, so the site keeps one.")
+
+
+def delete_account(conn, account_id: int, password: str):
+    """The account holder deletes their account, confirmed with their password. See _erase for what goes."""
+    with conn:
+        conn.execute("BEGIN IMMEDIATE")
+        row = conn.execute("SELECT username, pw_hash, role FROM account WHERE id = ?", (account_id,)).fetchone()
+        if not row or not verify_password(password or "", row["pw_hash"]):
+            raise AuthError("Wrong password.")
+        _check_not_last_admin(conn, row)
+        _erase(conn, account_id, row["username"])
+
+
+def delete_account_by_name(conn, username: str):
+    """The admin deletes an account on request (manage.py delete-account), no password needed."""
+    with conn:
+        conn.execute("BEGIN IMMEDIATE")
+        row = conn.execute("SELECT id, username, role FROM account WHERE username = ?", (username,)).fetchone()
+        if not row:
+            raise AuthError(f"No account named {username}.")
+        _check_not_last_admin(conn, row)
+        _erase(conn, row["id"], row["username"])

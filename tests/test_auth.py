@@ -134,3 +134,52 @@ def test_rate_limit_window_passes(conn, monkeypatch):
 
 def test_accounts_live_in_the_test_database(conn):
     assert str(db.PATH).endswith("test.db")
+
+
+# ---------------------------------------------------------------- deleting an account
+
+
+def test_deleting_an_account_erases_its_traces(conn):
+    import notes
+
+    me = auth.create_account(conn, "leaver", "leaver password")
+    other = auth.create_account(conn, "stayer", "stayer password")
+    token = auth.login(conn, "leaver", "leaver password")
+    mine = notes.suggest(conn, me, "top", "Darius", "Garen", "Leaver's matchup note.", approve=True)
+    notes.suggest(conn, me, "top", "Darius", None, "Leaver's waiting note.")
+    notes.suggest(conn, other, "top", "Darius", None, "Stayer's note stays.", approve=True)
+    notes.promote_to_tip(conn, mine["id"])  # becomes "Leaver's matchup note. (from leaver)"
+    db.set_curated_matchup(conn, "top", "Garen", "Darius", tip="Someone wrote (from leaver) mid-sentence here.")
+
+    auth.delete_account(conn, me, "leaver password")
+    assert conn.execute("SELECT count(*) FROM account WHERE username = 'leaver'").fetchone()[0] == 0
+    assert auth.session_account(conn, token) is None
+    assert [r[0] for r in conn.execute("SELECT text FROM community_note")] == ["Stayer's note stays."]
+    tips = dict(conn.execute("SELECT champion, tip FROM curated_matchup").fetchall())
+    assert tips["Darius"] == "Leaver's matchup note."  # the credit is gone, the tip stays
+    assert tips["Garen"] == "Someone wrote (from leaver) mid-sentence here."  # only a credit at the end is removed
+
+
+def test_a_wrong_password_deletes_nothing(conn):
+    me = auth.create_account(conn, "leaver", "leaver password")
+    with pytest.raises(auth.AuthError, match="Wrong password"):
+        auth.delete_account(conn, me, "not the password")
+    assert conn.execute("SELECT count(*) FROM account").fetchone()[0] == 1
+
+
+def test_the_last_admin_cannot_leave(conn):
+    boss = auth.create_account(conn, "boss", "admin password", role="admin")
+    with pytest.raises(auth.AuthError, match="only admin"):
+        auth.delete_account(conn, boss, "admin password")
+    with pytest.raises(auth.AuthError, match="only admin"):
+        auth.delete_account_by_name(conn, "boss")
+    auth.create_account(conn, "boss2", "admin password", role="admin")
+    auth.delete_account(conn, boss, "admin password")  # now there is another admin
+
+
+def test_the_admin_deletes_an_account_on_request(conn):
+    auth.create_account(conn, "asked", "asked password")
+    auth.delete_account_by_name(conn, "asked")
+    assert auth.list_accounts(conn) == []
+    with pytest.raises(auth.AuthError, match="No account"):
+        auth.delete_account_by_name(conn, "asked")
