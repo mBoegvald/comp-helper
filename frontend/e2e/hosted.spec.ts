@@ -83,3 +83,42 @@ test("the admin can edit and block accounts", async ({ page }) => {
   await signIn(page, name, "victim password");
   await expect(dialog(page).getByRole("alert")).toHaveText("This account is blocked.");
 });
+
+test("the privacy page opens from the footer and names the contact", async ({ page }) => {
+  await page.getByRole("contentinfo").getByRole("button", { name: "Privacy" }).click();
+  await expect(page.getByRole("heading", { name: "Privacy", level: 2 })).toBeVisible();
+  await expect(page.getByText("privacy@example.org")).toBeVisible();
+});
+
+test("delete your account and its notes", async ({ page }) => {
+  const name = `leaver${Date.now() % 100000}`;
+  const origin = { Origin: `http://127.0.0.1:${HOSTED}` };
+  // page.request shares the page's cookies: this signs the page in
+  expect(
+    (
+      await page.request.post("/api/signup", { data: { username: name, password: "leaver password" }, headers: origin })
+    ).ok(),
+  ).toBe(true);
+  const note = { role: "top", champion: "Darius", opponent: null, text: "Leaving soon", source: "" };
+  expect((await page.request.post("/api/notes", { data: note, headers: origin })).ok()).toBe(true);
+  await page.reload();
+
+  await page.getByRole("tab", { name: "My account" }).click();
+  await expect(page.getByText("Leaving soon")).toBeVisible();
+  await page.getByRole("button", { name: "Delete my account…" }).click();
+  await page.getByLabel("Your password, to confirm").fill("not my password");
+  await page.getByRole("button", { name: "Delete my account", exact: true }).click();
+  await expect(page.getByRole("alert")).toHaveText("Wrong password.");
+
+  await page.getByLabel("Your password, to confirm").fill("leaver password");
+  await page.getByRole("button", { name: "Delete my account", exact: true }).click();
+  await expect(page.getByRole("button", { name: "Sign in" })).toBeVisible();
+  await expect(page.getByRole("tab", { name: "Draft" })).toHaveAttribute("aria-selected", "true");
+
+  await signIn(page, name, "leaver password");
+  await expect(dialog(page).getByRole("alert")).toHaveText("Wrong username or password.");
+  await dialog(page).getByRole("button", { name: "Close" }).click();
+  await signIn(page, ADMIN.username, ADMIN.password);
+  await page.getByRole("tab", { name: "Admin" }).click();
+  await expect(page.getByText("Leaving soon")).toHaveCount(0); // gone from the review queue too
+});

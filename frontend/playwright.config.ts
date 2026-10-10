@@ -25,7 +25,7 @@ export default defineConfig({
     },
     {
       // plain http in the tests, so the session cookie goes without its Secure flag
-      command: `python3 ../tests/e2e_server.py --admin ${ADMIN.username}:"${ADMIN.password}" --port ${HOSTED} --hosted --insecure-cookies`,
+      command: `python3 ../tests/e2e_server.py --admin ${ADMIN.username}:"${ADMIN.password}" --port ${HOSTED} --hosted --insecure-cookies --contact privacy@example.org`,
       url: `http://127.0.0.1:${HOSTED}/api/meta`,
       reuseExistingServer: false,
     },
