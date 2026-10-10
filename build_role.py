@@ -10,6 +10,7 @@ the pool (it only grows). The role's lola rows are replaced in one transaction, 
 data; a fetch that returns far fewer rows than before (site change, outage) is refused instead of saved.
 Hand edits live in their own tables and are never touched here; db.py combines both when the picker reads.
 """
+
 import datetime as dt
 import sys
 
@@ -40,13 +41,30 @@ def build(role: str, delay: float):
     rows = []
     for c in champs:
         got = lola.fetch(c, delay, lane)
-        rows += [(role, c, r["opponent"], r["wr"], r["delta_vs_avg"], r["delta_norm"], r["opp_avg_wr"], r["games"],
-                  r["patch"], r["tier"], lane, now) for r in got]
+        rows += [
+            (
+                role,
+                c,
+                r["opponent"],
+                r["wr"],
+                r["delta_vs_avg"],
+                r["delta_norm"],
+                r["opp_avg_wr"],
+                r["games"],
+                r["patch"],
+                r["tier"],
+                lane,
+                now,
+            )
+            for r in got
+        ]
         print(f"  {c}: {len(got)} opponents", flush=True)
     before = conn.execute("SELECT count(*) FROM lola WHERE role = ?", (role,)).fetchone()[0]
     if len(rows) < before * KEEP_RATIO:
-        sys.exit(f"== {role}: only {len(rows)} rows fetched against {before} before; keeping the old data. "
-                 f"Check that lolalytics.com still works and rerun.")
+        sys.exit(
+            f"== {role}: only {len(rows)} rows fetched against {before} before; keeping the old data. "
+            f"Check that lolalytics.com still works and rerun."
+        )
     with conn:
         conn.executemany("INSERT OR IGNORE INTO pool VALUES (?, ?)", [(role, c) for c in champs])
         conn.execute("DELETE FROM lola WHERE role = ?", (role,))

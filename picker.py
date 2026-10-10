@@ -12,6 +12,7 @@ Usage:
       --need    ap | ad  (optional, overrides auto-detect)
       --top N   number of results (default 5)
 """
+
 import argparse
 import re
 import sys
@@ -22,32 +23,91 @@ import role_data
 ROLE = "mid"
 
 ALIASES = {
-    "tf": "twisted fate", "asol": "aurelion sol", "kass": "kassadin", "vlad": "vladimir",
-    "cass": "cassiopeia", "cassio": "cassiopeia", "lb": "leblanc", "kata": "katarina",
-    "malz": "malzahar", "ori": "orianna", "vel": "vel'koz", "velkoz": "vel'koz",
-    "panth": "pantheon", "liss": "lissandra", "qiy": "qiyana", "naf": "naafiri",
+    "tf": "twisted fate",
+    "asol": "aurelion sol",
+    "kass": "kassadin",
+    "vlad": "vladimir",
+    "cass": "cassiopeia",
+    "cassio": "cassiopeia",
+    "lb": "leblanc",
+    "kata": "katarina",
+    "malz": "malzahar",
+    "ori": "orianna",
+    "vel": "vel'koz",
+    "velkoz": "vel'koz",
+    "panth": "pantheon",
+    "liss": "lissandra",
+    "qiy": "qiyana",
+    "naf": "naafiri",
     # other roles
-    "mundo": "dr mundo", "drmundo": "dr mundo", "j": "jarvan iv", "jarvan": "jarvan iv", "ww": "warwick",
-    "mf": "miss fortune", "tk": "tahm kench", "tahm": "tahm kench", "ksante": "k'sante", "kog": "kog'maw",
-    "kogmaw": "kog'maw", "rek": "rek'sai", "reksai": "rek'sai", "nunu": "nunu willump", "xin": "xin zhao",
-    "yi": "master yi", "lee": "lee sin", "gp": "gangplank", "noc": "nocturne", "fiddle": "fiddlesticks",
-    "heimer": "heimerdinger", "morde": "mordekaiser", "renek": "renekton", "malph": "malphite",
-    "naut": "nautilus", "blitz": "blitzcrank", "cait": "caitlyn", "ez": "ezreal", "trist": "tristana",
-    "sera": "seraphine", "kha": "kha'zix", "khazix": "kha'zix", "cho": "cho'gath", "chogath": "cho'gath",
-    "kai": "kai'sa", "kaisa": "kai'sa", "bel": "bel'veth", "belveth": "bel'veth", "renata": "renata glasc",
-    "aph": "aphelios", "sej": "sejuani", "hec": "hecarim", "voli": "volibear", "trynd": "tryndamere",
-    "kench": "tahm kench", "vik": "viktor", "wu": "wukong", "monkey": "wukong",
+    "mundo": "dr mundo",
+    "drmundo": "dr mundo",
+    "j": "jarvan iv",
+    "jarvan": "jarvan iv",
+    "ww": "warwick",
+    "mf": "miss fortune",
+    "tk": "tahm kench",
+    "tahm": "tahm kench",
+    "ksante": "k'sante",
+    "kog": "kog'maw",
+    "kogmaw": "kog'maw",
+    "rek": "rek'sai",
+    "reksai": "rek'sai",
+    "nunu": "nunu willump",
+    "xin": "xin zhao",
+    "yi": "master yi",
+    "lee": "lee sin",
+    "gp": "gangplank",
+    "noc": "nocturne",
+    "fiddle": "fiddlesticks",
+    "heimer": "heimerdinger",
+    "morde": "mordekaiser",
+    "renek": "renekton",
+    "malph": "malphite",
+    "naut": "nautilus",
+    "blitz": "blitzcrank",
+    "cait": "caitlyn",
+    "ez": "ezreal",
+    "trist": "tristana",
+    "sera": "seraphine",
+    "kha": "kha'zix",
+    "khazix": "kha'zix",
+    "cho": "cho'gath",
+    "chogath": "cho'gath",
+    "kai": "kai'sa",
+    "kaisa": "kai'sa",
+    "bel": "bel'veth",
+    "belveth": "bel'veth",
+    "renata": "renata glasc",
+    "aph": "aphelios",
+    "sej": "sejuani",
+    "hec": "hecarim",
+    "voli": "volibear",
+    "trynd": "tryndamere",
+    "kench": "tahm kench",
+    "vik": "viktor",
+    "wu": "wukong",
+    "monkey": "wukong",
 }
 STYLE_WORDS = {
-    "wombo": ["wombo", "teamfight"], "poke": ["poke", "siege"], "pick": ["pick"],
-    "dive": ["dive"], "split": ["split", "flank"], "scaling": ["scaling", "late", "front-to-back"],
+    "wombo": ["wombo", "teamfight"],
+    "poke": ["poke", "siege"],
+    "pick": ["pick"],
+    "dive": ["dive"],
+    "split": ["split", "flank"],
+    "scaling": ["scaling", "late", "front-to-back"],
 }
 # archetype -> words that describe it in the "Good into"/"Struggles into" text (mid; other roles come from role_data)
 ARCH_WORDS = {
-    "Control mage": ["mages", "immobile"], "Artillery": ["mages", "immobile", "long range", "poke"],
-    "Utility mage": ["mages"], "AD assassin": ["assassins", "ad assassin", "dive"],
-    "AP assassin": ["assassins", "ap assassin", "dive", "ap"], "Melee carry": ["melee", "dash"],
-    "Melee skirmisher": ["melee"], "Scaling": ["mages", "scaling"], "Roamer": ["immobile"],
+    "Control mage": ["mages", "immobile"],
+    "Artillery": ["mages", "immobile", "long range", "poke"],
+    "Utility mage": ["mages"],
+    "AD assassin": ["assassins", "ad assassin", "dive"],
+    "AP assassin": ["assassins", "ap assassin", "dive", "ap"],
+    "Melee carry": ["melee", "dash"],
+    "Melee skirmisher": ["melee"],
+    "Scaling": ["mages", "scaling"],
+    "Roamer": ["immobile"],
 }
 for _role, _archs in role_data.ARCHETYPES.items():
     for _a, (_words, _g, _b) in _archs.items():
@@ -104,10 +164,20 @@ def load_full(role=None):
             tip = f"{tip or ''} [reddit] {str(rt).split(' | ')[0][:200]}".strip()
         mu[(key(c), key(o))] = (v, tip)
         mu.setdefault((key(o), key(c)), (-v, f"[{c}'s tip] {tip}"))
-        info[(key(c), key(o))] = {"champ": c, "opp": o, "score": v, "result": res, "hand_tip": hand_tip,
-                                  "wr": row["wr"], "dnorm": dn, "games": games, "label": row["label"],
-                                  "mismatch": row["mismatch"], "reddit_mentions": row["reddit_mentions"],
-                                  "reddit_newest": row["reddit_newest"]}
+        info[(key(c), key(o))] = {
+            "champ": c,
+            "opp": o,
+            "score": v,
+            "result": res,
+            "hand_tip": hand_tip,
+            "wr": row["wr"],
+            "dnorm": dn,
+            "games": games,
+            "label": row["label"],
+            "mismatch": row["mismatch"],
+            "reddit_mentions": row["reddit_mentions"],
+            "reddit_newest": row["reddit_newest"],
+        }
     _CACHE[role] = (stamp, (champs, mu, info))
     return champs, mu, info
 
@@ -136,8 +206,11 @@ def resolve(name, champs):
     return hits[0] if len(hits) == 1 else k  # unknown non-mids are kept as raw keys
 
 
-KNOWN = {key(c) for r in role_data.CHAMPS.values() for c in r} | {key(c) for v in role_data.DAMAGE.values() for c in v} \
+KNOWN = (
+    {key(c) for r in role_data.CHAMPS.values() for c in r}
+    | {key(c) for v in role_data.DAMAGE.values() for c in v}
     | {key(c) for c in role_data.DAMAGE_OVERRIDE}
+)
 
 
 def mentions(text, enemy_key, champs):
@@ -165,21 +238,57 @@ def score(cand, enemies, enemy_mid, allies, style, need, champs, mu, detail=None
         if mentions(c["good"], e, champs):
             s += 2 if main else 1
             why.append(f"good into {ename}")
-            add({"kind": "text", "value": 2 if main else 1, "enemy": e, "enemy_name": ename, "main": main, "text": f"listed as good into {ename}"})
+            add(
+                {
+                    "kind": "text",
+                    "value": 2 if main else 1,
+                    "enemy": e,
+                    "enemy_name": ename,
+                    "main": main,
+                    "text": f"listed as good into {ename}",
+                }
+            )
         elif mentions(c["bad"], e, champs):
             s -= 2 if main else 1
             why.append(f"struggles into {ename}")
-            add({"kind": "text", "value": -2 if main else -1, "enemy": e, "enemy_name": ename, "main": main, "text": f"listed as struggling into {ename}"})
+            add(
+                {
+                    "kind": "text",
+                    "value": -2 if main else -1,
+                    "enemy": e,
+                    "enemy_name": ename,
+                    "main": main,
+                    "text": f"listed as struggling into {ename}",
+                }
+            )
         elif en:
             words = ARCH_WORDS.get(en["arch"], [])
             if any(w in (c["good"] or "").lower() for w in words):
                 s += 0.5
                 why.append(f"good into {en['arch'].lower()} ({ename})")
-                add({"kind": "archetype", "value": 0.5, "enemy": e, "enemy_name": ename, "main": main, "text": f"good into {en['arch'].lower()}s ({ename})"})
+                add(
+                    {
+                        "kind": "archetype",
+                        "value": 0.5,
+                        "enemy": e,
+                        "enemy_name": ename,
+                        "main": main,
+                        "text": f"good into {en['arch'].lower()}s ({ename})",
+                    }
+                )
             if any(w in (c["bad"] or "").lower() for w in words):
                 s -= 0.5
                 why.append(f"weak to {en['arch'].lower()} ({ename})")
-                add({"kind": "archetype", "value": -0.5, "enemy": e, "enemy_name": ename, "main": main, "text": f"weak to {en['arch'].lower()}s ({ename})"})
+                add(
+                    {
+                        "kind": "archetype",
+                        "value": -0.5,
+                        "enemy": e,
+                        "enemy_name": ename,
+                        "main": main,
+                        "text": f"weak to {en['arch'].lower()}s ({ename})",
+                    }
+                )
     if style and any(w in (c["comps"] or "").lower() for w in STYLE_WORDS[style]):
         s += 2
         why.append(f"fits {style} comp")
@@ -199,10 +308,9 @@ def score(cand, enemies, enemy_mid, allies, style, need, champs, mu, detail=None
 
 def cmd_vs(args, champs, mu):
     e = resolve(args.name, champs)
-    rows = sorted(((score(c, [e], e, [], None, None, champs, mu), c) for c in champs if c != e),
-                  key=lambda x: -x[0][0])
+    rows = sorted(((score(c, [e], e, [], None, None, champs, mu), c) for c in champs if c != e), key=lambda x: -x[0][0])
     print(f"\nBest picks into {champs.get(e, {}).get('name', args.name)}:")
-    for (s, why), c in rows[:args.top]:
+    for (s, why), c in rows[: args.top]:
         print(f"  {s:+5.1f}  {champs[c]['name']:<14} {'; '.join(why)}")
     print("\nAvoid:")
     for (s, why), c in rows[-3:][::-1]:
@@ -223,7 +331,9 @@ def cmd_matchups(args, champs, mu):
 
 
 def cmd_comp(args, champs, mu):
-    split = lambda s: [resolve(x, champs) for x in s.split(",") if x.strip()] if s else []
+    def split(s):
+        return [resolve(x, champs) for x in s.split(",") if x.strip()] if s else []
+
     enemies, allies = split(args.enemy), split(args.ally)
     unknown = [e for e in enemies + allies if e not in champs]
     enemy_mids = [e for e in enemies if e in champs]
@@ -235,14 +345,16 @@ def cmd_comp(args, champs, mu):
         ad = sum(d.startswith("AD") for d in dmg)
         need = "ap" if ad > ap else "ad" if ap > ad + 1 else None
     taken = set(enemies) | set(allies)
-    rows = sorted(((score(c, enemies, enemy_mid, allies, args.style, need, champs, mu), c)
-                   for c in champs if c not in taken), key=lambda x: -x[0][0])
+    rows = sorted(
+        ((score(c, enemies, enemy_mid, allies, args.style, need, champs, mu), c) for c in champs if c not in taken),
+        key=lambda x: -x[0][0],
+    )
     if unknown:
         print(f"(not in {ROLE} data, only used as name matches: {', '.join(unknown)})")
     if enemy_mid:
         print(f"Enemy {ROLE} assumed: {champs[enemy_mid]['name']}")
     print(f"\nTop {args.top} picks:")
-    for (s, why), c in rows[:args.top]:
+    for (s, why), c in rows[: args.top]:
         print(f"  {s:+5.1f}  {champs[c]['name']:<14} {'; '.join(why) or '-'}")
 
 

@@ -13,6 +13,7 @@ Output: data/reddit/<champion>.json with the subreddit's wiki pages (those whose
 counter, guide, faq or index) and the top matchup threads with their highest-scored top-level comments.
 Anonymous access to reddit.com is blocked (HTTP 403), so credentials are required.
 """
+
 import argparse
 import json
 import os
@@ -22,9 +23,16 @@ import time
 from pathlib import Path
 
 SUB_OVERRIDES = {
-    "Twisted Fate": "twistedfatemains", "Aurelion Sol": "aurelionsolmains", "Vel'Koz": "velkozmains",
-    "Kai'Sa": "kaisamains", "Cho'Gath": "chogathmains", "Kha'Zix": "khazixmains", "LeBlanc": "leblancmains",
-    "Wukong": "wukongmains", "Nunu & Willump": "nunumains", "Dr. Mundo": "drmundomains",
+    "Twisted Fate": "twistedfatemains",
+    "Aurelion Sol": "aurelionsolmains",
+    "Vel'Koz": "velkozmains",
+    "Kai'Sa": "kaisamains",
+    "Cho'Gath": "chogathmains",
+    "Kha'Zix": "khazixmains",
+    "LeBlanc": "leblancmains",
+    "Wukong": "wukongmains",
+    "Nunu & Willump": "nunumains",
+    "Dr. Mundo": "drmundomains",
 }
 WIKI_RE = re.compile(r"matchup|counter|guide|faq|index|tips", re.I)
 QUERIES = ["matchup", "matchups", "how to play against", "counter"]
@@ -36,6 +44,7 @@ def sub_name(champ: str) -> str:
 
 def make_reddit():
     import praw
+
     cid, sec = os.environ.get("REDDIT_CLIENT_ID"), os.environ.get("REDDIT_CLIENT_SECRET")
     ua = "linux:comp-helper:0.1 (mid lane matchup research)"
     if cid and sec:
@@ -43,14 +52,16 @@ def make_reddit():
     try:
         return praw.Reddit("comp-helper", user_agent=ua)
     except Exception as e:
-        sys.exit(f"No Reddit credentials: set REDDIT_CLIENT_ID/REDDIT_CLIENT_SECRET or a [comp-helper] praw.ini section ({e})")
+        sys.exit(
+            f"No Reddit credentials: set REDDIT_CLIENT_ID/REDDIT_CLIENT_SECRET or a [comp-helper] praw.ini section ({e})"
+        )
 
 
 def dump_champ(reddit, champ: str, out: Path, n_threads: int, n_comments: int):
     name = sub_name(champ)
     sub = reddit.subreddit(name)
     try:
-        sub.id  # raises if the subreddit does not exist or is private
+        sub.id  # noqa: B018 - PRAW loads lazily; this raises if the subreddit does not exist or is private
     except Exception as e:
         print(f"  ! r/{name}: {type(e).__name__}: {e}", file=sys.stderr)
         return None
@@ -58,8 +69,9 @@ def dump_champ(reddit, champ: str, out: Path, n_threads: int, n_comments: int):
     try:
         for page in sub.wiki:
             if WIKI_RE.search(page.name):
-                result["wiki"].append({"name": page.name, "revised": getattr(page, "revision_date", None),
-                                       "content": page.content_md})
+                result["wiki"].append(
+                    {"name": page.name, "revised": getattr(page, "revision_date", None), "content": page.content_md}
+                )
     except Exception as e:
         print(f"  ! r/{name} wiki: {type(e).__name__}: {e}", file=sys.stderr)
     seen = set()
@@ -71,15 +83,27 @@ def dump_champ(reddit, champ: str, out: Path, n_threads: int, n_comments: int):
                 seen.add(s.id)
                 s.comments.replace_more(limit=0)
                 comments = sorted(s.comments, key=lambda c: c.score, reverse=True)[:n_comments]
-                result["threads"].append({
-                    "id": s.id, "title": s.title, "score": s.score, "created_utc": s.created_utc,
-                    "url": "https://www.reddit.com" + s.permalink, "selftext": s.selftext,
-                    "comments": [{"score": c.score, "body": c.body} for c in comments if c.body not in ("[deleted]", "[removed]")],
-                })
+                result["threads"].append(
+                    {
+                        "id": s.id,
+                        "title": s.title,
+                        "score": s.score,
+                        "created_utc": s.created_utc,
+                        "url": "https://www.reddit.com" + s.permalink,
+                        "selftext": s.selftext,
+                        "comments": [
+                            {"score": c.score, "body": c.body}
+                            for c in comments
+                            if c.body not in ("[deleted]", "[removed]")
+                        ],
+                    }
+                )
         except Exception as e:
             print(f"  ! r/{name} search '{q}': {type(e).__name__}: {e}", file=sys.stderr)
     out.mkdir(parents=True, exist_ok=True)
-    (out / f"{re.sub(r'[^A-Za-z0-9]', '', champ)}.json").write_text(json.dumps(result, indent=1, ensure_ascii=False), encoding="utf-8")
+    (out / f"{re.sub(r'[^A-Za-z0-9]', '', champ)}.json").write_text(
+        json.dumps(result, indent=1, ensure_ascii=False), encoding="utf-8"
+    )
     return result
 
 

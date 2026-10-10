@@ -1,0 +1,88 @@
+"""The web page's API: functions directly, plus a real server for routing and the same-origin check."""
+
+import json
+import threading
+import urllib.error
+import urllib.request
+
+import pytest
+
+import webapp
+
+
+def test_recommend_ranks_and_excludes_taken(conn):
+    d = webapp.api_recommend({"role": "top", "enemy": {"top": "Darius"}, "unavailable": ["Garen"]})
+    names = [p["name"] for p in d["picks"]]
+    assert d["enemy_main"] == "Darius"
+    assert "Darius" not in names and "Garen" not in names
+    assert "Aatrox" in [p["name"] for p in d["avoid"]]  # Unfavored into Darius
+
+
+def test_matchup_from_either_side(conn):
+    a = webapp.api_matchup({"role": "top", "a": "Aatrox", "b": "Darius"})
+    b = webapp.api_matchup({"role": "top", "a": "Darius", "b": "Aatrox"})
+    assert (a["label"], b["label"]) == ("Unfavored", "Favored")
+    assert a["dnorm"] == -b["dnorm"]
+
+
+def test_hand_champion_round_trip(conn):
+    d = webapp.api_hand_champion_set({"role": "top", "champion": "aatrox", "fields": {"pick_when": "Mine"}})
+    assert d["champion"] == "Aatrox"
+    assert d["hand"]["pick_when"] == "Mine"
+    assert d["defaults"]["pick_when"] == "You need a frontline with damage and sustain"
+    d = webapp.api_hand_champion_set({"role": "top", "champion": "Aatrox", "fields": {"pick_when": None}})
+    assert d["hand"]["pick_when"] is None
+
+
+def test_hand_matchup_round_trip(conn):
+    m = webapp.api_hand_matchup_set({"role": "top", "champion": "Garen", "opponent": "darius", "result": "Favored"})
+    assert (m["hand_result"], m["mismatch"]) == ("Favored", True)
+
+
+@pytest.mark.parametrize(
+    "fn, q",
+    [
+        (webapp.api_hand_champion_set, {"role": "top", "champion": "Nobody", "fields": {}}),
+        (webapp.api_hand_champion_set, {"role": "top", "champion": "Aatrox", "fields": {"hack": 1}}),
+        (webapp.api_hand_matchup_set, {"role": "top", "champion": "Aatrox", "opponent": "Darius", "result": "<b>"}),
+        (webapp.api_recommend, {"role": "nope"}),
+    ],
+)
+def test_bad_input_is_rejected(conn, fn, q):
+    with pytest.raises(ValueError):
+        fn(q)
+
+
+@pytest.fixture
+def server(conn):
+    srv = webapp.ThreadingHTTPServer(("127.0.0.1", 0), webapp.Handler)
+    threading.Thread(target=srv.serve_forever, daemon=True).start()
+    yield f"http://127.0.0.1:{srv.server_address[1]}"
+    srv.shutdown()
+    srv.server_close()
+
+
+def call(url, body=None, origin=None):
+    req = urllib.request.Request(url, data=json.dumps(body).encode() if body is not None else None)
+    if origin:
+        req.add_header("Origin", origin)
+    try:
+        with urllib.request.urlopen(req, timeout=10) as r:
+            return r.status, json.loads(r.read()) if "json" in r.headers["Content-Type"] else None
+    except urllib.error.HTTPError as e:
+        return e.code, json.loads(e.read())
+
+
+def test_server_routes(server):
+    assert call(server + "/")[0] == 200
+    assert call(server + "/api/meta")[1]["patch"] == "16.20 EMERALD+"
+    assert call(server + "/api/nope")[0] == 404
+    assert call(server + "/api/matchup?role=nope&a=x&b=y")[0] == 400
+
+
+def test_edits_only_from_the_page_itself(server, conn):
+    body = {"role": "top", "champion": "Garen", "opponent": "Darius", "tip": "t"}
+    assert call(server + "/api/hand/matchup", body, origin="http://evil.example")[0] == 403
+    assert conn.execute("SELECT count(*) FROM hand_matchup").fetchone()[0] == 0
+    status, d = call(server + "/api/hand/matchup", body, origin=server)
+    assert status == 200 and d["tips"][0]["text"] == "t"

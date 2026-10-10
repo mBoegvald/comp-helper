@@ -26,6 +26,7 @@ Output: data/reddit/<Champion>.json
 Existing JSON files are reused: feeds already fetched are skipped, missing ones (e.g. the last-year feed for files
 made by an older version) are fetched and merged, and annotations are recomputed. Delete a file to refetch it.
 """
+
 import argparse
 import datetime as dt
 import html
@@ -41,20 +42,41 @@ from pathlib import Path
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 ITEM_STALE_DAYS = 2 * 365
 TIME_FILTERS = ("all", "year")
-ITEM_RE = re.compile(r"\b(items?|build|builds|mythic|legendary|boots|ludens|luden's|liandry|rylai|zhonya|"
-                     r"everfrost|shadowflame|stormsurge|malignance|rabadon|void staff|cryptbloom|nashor|"
-                     r"seraph|morello|banshee|lich bane|rod of ages|roa|eclipse|prowler|duskblade|youmuu|"
-                     r"edge of night|serylda|collector|hubris|opportunity|voltaic|profane|hydra|ghostblade)\b", re.I)
-RUNE_RE = re.compile(r"\b(runes?|keystone|electrocute|conqueror|first strike|phase rush|aery|comet|"
-                     r"fleet|press the attack|pta|glacial|hail of blades|dark harvest|predator|grasp|"
-                     r"unsealed spellbook|inspiration|domination|sorcery|precision|resolve)\b", re.I)
-MATCHUP_RE = re.compile(r"\b(match-?ups?|counter|counters|lane|laning|vs\.?|versus|against|into|poke|trade|"
-                        r"trading|all-?in|roam|wave|freeze|prio|priority|dodge|ban)\b", re.I)
+ITEM_RE = re.compile(
+    r"\b(items?|build|builds|mythic|legendary|boots|ludens|luden's|liandry|rylai|zhonya|"
+    r"everfrost|shadowflame|stormsurge|malignance|rabadon|void staff|cryptbloom|nashor|"
+    r"seraph|morello|banshee|lich bane|rod of ages|roa|eclipse|prowler|duskblade|youmuu|"
+    r"edge of night|serylda|collector|hubris|opportunity|voltaic|profane|hydra|ghostblade)\b",
+    re.I,
+)
+RUNE_RE = re.compile(
+    r"\b(runes?|keystone|electrocute|conqueror|first strike|phase rush|aery|comet|"
+    r"fleet|press the attack|pta|glacial|hail of blades|dark harvest|predator|grasp|"
+    r"unsealed spellbook|inspiration|domination|sorcery|precision|resolve)\b",
+    re.I,
+)
+MATCHUP_RE = re.compile(
+    r"\b(match-?ups?|counter|counters|lane|laning|vs\.?|versus|against|into|poke|trade|"
+    r"trading|all-?in|roam|wave|freeze|prio|priority|dodge|ban)\b",
+    re.I,
+)
 
 SUB_OVERRIDES = {
-    "Twisted Fate": "twistedfatemains", "Aurelion Sol": "Aurelion_Sol_mains", "Vel'Koz": "velkozmains",
-    "Kai'Sa": "kaisamains", "Cho'Gath": "chogathmains", "Kha'Zix": "khazixmains", "LeBlanc": "leblancmains",
-    "Wukong": "wukongmains", "Nunu & Willump": "nunumains", "Dr. Mundo": "drmundomains", "Renata Glasc": "renatamains", "Teemo": ["teemotalk", "teemotalks"], "Sion": "dirtysionmains", "Jinx": "leagueofjinx", "Zac": "thesecretweapon",
+    "Twisted Fate": "twistedfatemains",
+    "Aurelion Sol": "Aurelion_Sol_mains",
+    "Vel'Koz": "velkozmains",
+    "Kai'Sa": "kaisamains",
+    "Cho'Gath": "chogathmains",
+    "Kha'Zix": "khazixmains",
+    "LeBlanc": "leblancmains",
+    "Wukong": "wukongmains",
+    "Nunu & Willump": "nunumains",
+    "Dr. Mundo": "drmundomains",
+    "Renata Glasc": "renatamains",
+    "Teemo": ["teemotalk", "teemotalks"],
+    "Sion": "dirtysionmains",
+    "Jinx": "leagueofjinx",
+    "Zac": "thesecretweapon",
 }
 
 
@@ -67,6 +89,7 @@ def all_champions():
     """Every champion in any role's pool in data/pickhelper.db."""
     import db
     import role_data
+
     conn = db.connect()
     return sorted({c for r in role_data.ROLES for c in db.pool(conn, r)})
 
@@ -111,13 +134,15 @@ def entries(atom: str):
         pub = re.search(r"<published>(.*?)</published>", e)
         content = re.search(r"<content[^>]*>(.*?)</content>", e, flags=re.S)
         author = re.search(r"<name>(.*?)</name>", e)
-        out.append({
-            "title": html.unescape(title.group(1)) if title else "",
-            "url": link.group(1) if link else "",
-            "published": pub.group(1)[:10] if pub else "",
-            "author": html.unescape(author.group(1)) if author else "",
-            "body": text(content.group(1)) if content else "",
-        })
+        out.append(
+            {
+                "title": html.unescape(title.group(1)) if title else "",
+                "url": link.group(1) if link else "",
+                "published": pub.group(1)[:10] if pub else "",
+                "author": html.unescape(author.group(1)) if author else "",
+                "body": text(content.group(1)) if content else "",
+            }
+        )
     return out
 
 
@@ -156,10 +181,12 @@ TITLE_HINT_RE = re.compile(r"\b(vs\.?|versus|against|into|match-?ups?|counter|he
 
 def comment_candidates(threads, max_threads: int):
     """Threads most likely to hold matchup answers: question-like or champion-naming titles, newest first."""
+
     def key(t):
         title = t.get("title", "")
         hint = bool(TITLE_HINT_RE.search(title))
         return (t.get("recency_weight", 0.5) * (2 if hint else 1), t.get("published", ""))
+
     pool = [t for t in threads if not t.get("comments")]
     pool.sort(key=key, reverse=True)
     return pool[:max_threads]
@@ -195,7 +222,8 @@ def fetch_sub(champ: str, sub: str, dest: Path, queries, n_comments: int, delay:
     for feed in todo:
         tf, q = feed.split(":", 1)[0].removeprefix("top_"), feed.split(":", 1)[1]
         url = f"https://www.reddit.com/r/{sub}/search.rss?" + urllib.parse.urlencode(
-            {"q": q, "restrict_sr": "on", "sort": "top", "t": tf, "limit": 50})
+            {"q": q, "restrict_sr": "on", "sort": "top", "t": tf, "limit": 50}
+        )
         atom = get(url, delay)
         if atom == "blocked":
             data["blocked"] = "HTTP 403/404: private, banned or nonexistent subreddit"
@@ -236,7 +264,7 @@ def fetch_champ(champ: str, queries, out_dir: Path, n_comments: int, delay: floa
         if old_sub not in cands:
             print(f"{champ}: subreddit changed r/{old_sub} -> r/{cands[0]}, refetching")
         elif old_sub in cands[1:] and old.get("threads") and not old.get("blocked"):
-            cands = cands[cands.index(old_sub):]  # an earlier run already fell back successfully: start there
+            cands = cands[cands.index(old_sub) :]  # an earlier run already fell back successfully: start there
     fetched = 0
     for i, sub in enumerate(cands):
         data, n = fetch_sub(champ, sub, dest, queries, n_comments, delay, max_threads)
@@ -252,15 +280,26 @@ def fetch_champ(champ: str, queries, out_dir: Path, n_comments: int, delay: floa
     dest.write_text(json.dumps(data, indent=1, ensure_ascii=False), encoding="utf-8")
     recent = sum(1 for t in data["threads"] if t["age_days"] is not None and t["age_days"] < 365)
     with_c = sum(1 for t in data["threads"] if t.get("comments"))
-    print(f"{champ}: r/{data['subreddit']} threads={len(data['threads'])} (<1y: {recent}, with comments: {with_c}) requests now={fetched} -> {dest}")
+    print(
+        f"{champ}: r/{data['subreddit']} threads={len(data['threads'])} (<1y: {recent}, with comments: {with_c}) requests now={fetched} -> {dest}"
+    )
 
 
 def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--champs")
     p.add_argument("--out", default="data/reddit")
-    p.add_argument("--queries", default="matchup", help="comma-separated search queries; each costs one request per time filter (all, year)")
-    p.add_argument("--comments", type=int, default=0, help="also fetch up to N comments for the best threads (one request per thread)")
+    p.add_argument(
+        "--queries",
+        default="matchup",
+        help="comma-separated search queries; each costs one request per time filter (all, year)",
+    )
+    p.add_argument(
+        "--comments",
+        type=int,
+        default=0,
+        help="also fetch up to N comments for the best threads (one request per thread)",
+    )
     p.add_argument("--max-comment-threads", type=int, default=12, help="threads per champion to fetch comments for")
     p.add_argument("--delay", type=float, default=60, help="seconds between requests")
     a = p.parse_args()
