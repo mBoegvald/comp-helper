@@ -1,5 +1,16 @@
 # Pick helper: notes
 
+## Hosting with Docker (2026-10-10)
+- docs/hosting.md is the deploy guide (Hetzner Cloud, DNS, Docker, admin account, updates, backups, restore).
+- docker-compose.yml: the app (hosted mode, --behind-proxy, non-root, health check, init for reaping) and Caddy
+  2.11.4 for HTTPS. Only Caddy publishes ports. Volumes: data (database, Reddit downloads, backups), logs, Caddy's
+  certificates. docker/entrypoint.sh fills an empty data volume from the image's copy once.
+- Kept the stdlib http.server instead of moving to WSGI/gunicorn: Caddy takes the TLS and slow-client work, the app
+  has timeouts, size limits and host checks, and the traffic is small. Revisit if the site gets busy.
+- Verified locally with rootless Podman: build, hosted start, non-root, health check, data surviving a new container,
+  SIGTERM stop in under a second, and Caddy replacing a visitor's X-Forwarded-For with the real address (so the
+  rate limits cannot be dodged). CI repeats the image checks on every PR.
+
 ## Review fixes (2026-10-10)
 - A full review of PRs #3-#9 (correctness and security) found these, now fixed with tests that fail without the fix:
   community notes on Cho'Gath, Kai'Sa and co never showed (the notes index and the lookups spelled keys
@@ -10,7 +21,7 @@
   name given with --public-host / PICKHELPER_PUBLIC_HOSTS), which closes DNS rebinding; Content-Length must be a
   plain number up to 64 KiB and stalled connections close after 30 s; hosted 500s carry no internals (the traceback
   goes to the server log); the page has a Content-Security-Policy, and browser tests fail on a violation.
-- Still open for the hosting PR: rate limits behind a reverse proxy need the real client address.
+- Rate limits behind the reverse proxy: done with --behind-proxy (see Hosting with Docker).
 
 ## "Hand" data is now "curated" (2026-10-10)
 - The admin's own champion and matchup knowledge (archetype, damage, comps, pick when, good/struggles into; a label
