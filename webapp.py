@@ -32,6 +32,7 @@ import role_data
 import update
 
 PAGE = HERE / "web" / "index.html"
+REDDIT_DIR = HERE / "data" / "reddit"
 _lock = threading.Lock()
 _tips_cache = {"stamp": None, "data": {}}
 _names_cache = {"stamp": None, "names": {}}
@@ -63,7 +64,7 @@ def db_stamp():
 
 def all_names():
     """champion key -> display name, from every role plus the Reddit files."""
-    stamp = (db_stamp(), len(list((HERE / "data" / "reddit").glob("*.json"))))
+    stamp = (db_stamp(), len(list(REDDIT_DIR.glob("*.json"))))
     if _names_cache["stamp"] == stamp:
         return _names_cache["names"]
     names = {}
@@ -76,7 +77,7 @@ def all_names():
             names.setdefault(k, c["name"])
         for d in info.values():
             names.setdefault(picker.key(d["opp"]), d["opp"])
-    for f in (HERE / "data" / "reddit").glob("*.json"):
+    for f in REDDIT_DIR.glob("*.json"):
         try:
             n = json.loads(f.read_text(encoding="utf-8"))["champion"]
             names.setdefault(picker.key(n), n)
@@ -214,7 +215,7 @@ def api_meta(_q):
             )
         except FileNotFoundError:
             roles.append({"id": r, "champions": [], "matchups": 0, "updated": None})
-    reddit_files = list((HERE / "data" / "reddit").glob("*.json"))
+    reddit_files = list(REDDIT_DIR.glob("*.json"))
     return {
         "roles": roles,
         "names": sorted(set(all_names().values()), key=str.lower),
