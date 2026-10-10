@@ -11,15 +11,15 @@
 - A hand_champion field that is NULL falls back to role_data.py; the stored hand part of Good/Struggles into is only
   the text after the data-derived names. Mid has no role_data entries, so all its champion text is hand data.
 - `migrate_xlsx.py` did the one-off import (48 champion rows, 103 hand labels, 157 lane tips, mid's Comps/Notes);
-  the workbooks and CSVs are in git history before the commit that removed them.
+  it was removed together with the workbooks and CSVs; all of them are in git history (commit 74eaf71 has them all).
 - Edits: GET/POST `/api/hand/champion` ({role, champion, fields}; '' or null resets a field to the default) and
   POST `/api/hand/matchup` ({role, champion, opponent, result, tip}; result is Favored, Even, Even / skill,
   Unfavored or empty; both empty deletes the row). The Svelte page (next step) is the UI for these.
 - build_role.py refuses to save a fetch with under 60% of the previous row count (site change or outage), so a
   broken scrape cannot wipe a role. update.py makes one database backup per day in data/backups (14 kept).
 - `PICKHELPER_DB=/path/copy.db` points everything at another database file (testing).
-- Dev on NixOS: `nix-shell -p python3` is enough (add `'python3.withPackages(ps: [ps.openpyxl])'` only for
-  migrate_xlsx.py). Python 3.11 packages are no longer prebuilt in nixpkgs and build pandas from source.
+- Dev on NixOS: `nix-shell -p python3` is enough; the app needs no packages. Python 3.11 packages are no longer
+  prebuilt in nixpkgs (openpyxl pulls in pandas, which then builds from source), so use the default python3.
 
 ## Web page and Windows (added 2026-10-09)
 - `webapp.py` serves `web/index.html` on 127.0.0.1:8765 (stdlib http.server). Launchers:

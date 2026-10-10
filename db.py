@@ -6,7 +6,7 @@ Generated tables, replaced by the update stages:
   reddit_snippet the best snippets per (champion, opponent) with date and thread link
 Grow-only:
   pool           champions per role (discovered from Lolalytics, plus anyone with hand data)
-Hand layer, written only by people (web page or migrate_xlsx.py), never by an update:
+Hand layer, written only by people (web page; first filled from the old workbooks), never by an update:
   hand_champion  per role and champion; NULL fields fall back to role_data.py
   hand_matchup   per role and pair: a hand label for 'Result for champion' and/or a lane tip
   role_note      free rows from the old Comps/Notes sheets
