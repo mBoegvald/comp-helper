@@ -71,3 +71,31 @@ jobs:
           name: playwright-report
           path: frontend/playwright-report
           retention-days: 7
+
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: docker build -t pickhelper .
+      - name: The image starts in hosted mode and is healthy
+        run: |
+          docker run -d --name ph -p 8765:8765 -e PICKHELPER_PUBLIC_HOSTS=picks.example.com pickhelper
+          for i in $(seq 1 30); do
+            [ "$(docker inspect -f '{{.State.Health.Status}}' ph)" = healthy ] && break
+            sleep 2
+          done
+          docker inspect -f '{{.State.Health.Status}}' ph | grep -qx healthy
+          curl -sf http://127.0.0.1:8765/api/me | grep -q '"hosted": true'
+          test "$(docker exec ph id -u)" != 0
+          docker exec ph test -f /app/data/pickhelper.db
+          test "$(curl -s -o /dev/null -w '%{http_code}' -H 'Host: evil.example' http://127.0.0.1:8765/api/me)" = 421
+      - name: It stops at once on docker stop
+        run: |
+          start=$(date +%s); docker stop ph; end=$(date +%s)
+          test $((end - start)) -lt 5
+          test "$(docker inspect -f '{{.State.ExitCode}}' ph)" = 0
+      - name: docker-compose.yml and the Caddyfile are valid
+        run: |
+          DOMAIN=picks.example.com docker compose config -q
+          docker run --rm -e DOMAIN=picks.example.com -v "$PWD/Caddyfile:/etc/caddy/Caddyfile:ro" caddy:2.11.4-alpine \
+            caddy validate --config /etc/caddy/Caddyfile --adapter caddyfile
