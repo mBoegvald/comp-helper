@@ -1,5 +1,11 @@
 # Pick helper: notes
 
+## Server upkeep (2026-10-10)
+- update.py trims logs/update.log to its last 500 KB (whole lines) when it passes 2 MB, at the start of a run while
+  holding the lock; rewritten in place, since the web page may have it open on Windows.
+- docker-compose.yml caps each service's container logs at 3 files of 10 MB.
+- docs/hosting.md has a weekly cron entry for the win rates (Thursday 05:00).
+
 ## Privacy page and deleting accounts (2026-10-10)
 - Hosted mode has a Privacy page (footer link): what is stored (username, scrypt hash, notes and reviews, sign-in
   cookie, sign-in/sign-up addresses for 24 hours, error logs), who sees it, Riot's icon server, backups kept at most
