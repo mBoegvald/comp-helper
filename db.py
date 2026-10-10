@@ -7,7 +7,8 @@ Generated tables, replaced by the update stages:
 Grow-only:
   pool           champions per role (discovered from Lolalytics, plus anyone with curated data)
 Accounts (hosted mode only, see auth.py): account, session (hashed tokens), attempt (rate limits).
-Community notes (hosted mode, see notes.py): community_note, suggested by accounts, shown once approved.
+Community notes (hosted mode, see notes.py): community_note, suggested by accounts, shown once approved; an edit of
+an approved note waits in its revised_* columns.
 Curated layer, the admin's own knowledge (web page; first filled from the old workbooks), never touched by an
 update (called the hand layer until 2026-10-10; connect() renames old tables):
   curated_champion per role and champion; NULL fields fall back to role_data.py
@@ -71,7 +72,7 @@ CREATE TABLE IF NOT EXISTS community_note (
   id INTEGER PRIMARY KEY, role TEXT NOT NULL, champion TEXT NOT NULL, opponent TEXT, text TEXT NOT NULL, source TEXT,
   account_id INTEGER REFERENCES account(id) ON DELETE SET NULL,
   status TEXT NOT NULL DEFAULT 'pending' CHECK (status IN ('pending', 'approved', 'rejected')),
-  created_at TEXT NOT NULL, reviewed_at TEXT, review_note TEXT);
+  created_at TEXT NOT NULL, reviewed_at TEXT, review_note TEXT, revised_text TEXT, revised_source TEXT, revised_at TEXT);
 CREATE INDEX IF NOT EXISTS community_note_by_status ON community_note (status, created_at);
 CREATE INDEX IF NOT EXISTS community_note_by_account ON community_note (account_id, status);
 """
@@ -86,10 +87,24 @@ def connect(path=None) -> sqlite3.Connection:
     conn.execute("PRAGMA foreign_keys = ON")  # e.g. deleting an account deletes its sessions
     _rename_old_tables(conn)
     conn.executescript(SCHEMA)
+    _add_missing_columns(conn)
     return conn
 
 
 RENAMED_TABLES = (("hand_champion", "curated_champion"), ("hand_matchup", "curated_matchup"))  # 2026-10-10
+ADDED_COLUMNS = (  # table, column, type: columns newer than the table, added to databases made before them
+    ("community_note", "revised_text", "TEXT"),  # 2026-10-10: edits of approved notes
+    ("community_note", "revised_source", "TEXT"),
+    ("community_note", "revised_at", "TEXT"),
+)
+
+
+def _add_missing_columns(conn):
+    """Databases made before a column existed get it (empty); CREATE TABLE IF NOT EXISTS does not change a table."""
+    with conn:
+        for table, column, kind in ADDED_COLUMNS:
+            if column not in {r[1] for r in conn.execute(f"PRAGMA table_info({table})")}:
+                conn.execute(f"ALTER TABLE {table} ADD COLUMN {column} {kind}")
 
 
 def _rename_old_tables(conn):

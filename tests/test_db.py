@@ -151,3 +151,24 @@ def test_old_hand_tables_are_renamed_with_their_rows(tmp_path):
     assert conn.execute("SELECT tip FROM curated_matchup").fetchone()[0] == "Roam when he does."
     conn.close()
     db.connect(path).close()  # a second start changes nothing
+
+
+def test_newer_columns_are_added_to_older_databases(tmp_path):
+    """A database whose community_note table predates the revised_* columns gets them, with its rows kept."""
+    import sqlite3
+
+    path = tmp_path / "old.db"
+    old = sqlite3.connect(path)
+    old.executescript("""
+        CREATE TABLE community_note (id INTEGER PRIMARY KEY, role TEXT NOT NULL, champion TEXT NOT NULL,
+          opponent TEXT, text TEXT NOT NULL, source TEXT, account_id INTEGER, status TEXT NOT NULL DEFAULT 'pending',
+          created_at TEXT NOT NULL, reviewed_at TEXT, review_note TEXT);
+        INSERT INTO community_note (role, champion, text, created_at) VALUES ('top', 'Darius', 'kept', '2026-10-01');
+    """)
+    old.close()
+    conn = db.connect(path)
+    columns = {r[1] for r in conn.execute("PRAGMA table_info(community_note)")}
+    assert {"revised_text", "revised_source", "revised_at"} <= columns
+    assert conn.execute("SELECT text, revised_text FROM community_note").fetchone()[:] == ("kept", None)
+    conn.close()
+    db.connect(path).close()  # a second start changes nothing

@@ -13,9 +13,11 @@ SQL = re.compile(r"\b(SELECT|INSERT|UPDATE|DELETE|CREATE|ALTER|DROP|REPLACE)\b")
 
 REVIEWED = {
     ("db.py", "_rename_old_tables"): "table names from RENAMED_TABLES",
+    ("db.py", "_add_missing_columns"): "table, column and type names from ADDED_COLUMNS",
     ("db.py", "set_curated_champion"): "column names from CURATED_CHAMP_FIELDS; the field names a user sends are "
     "checked against that list first",
     ("notes.py", "_rows"): "the _FIELDS column list and WHERE clauses written in notes.py, values as ? parameters",
+    ("notes.py", "_waiting"): "the WAITING clause written in notes.py, the account as a ? parameter",
 }
 
 

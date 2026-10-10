@@ -215,3 +215,123 @@ def test_two_admins_promoting_the_same_note_at_once_make_one_tip(conn, people):
     for t in threads:
         t.join()
     assert sorted(results) == ["gone"] * 7 + ["ok"]
+
+
+# ---------------------------------------------------------------- editing and withdrawing
+
+
+def shown(conn):
+    return [n["text"] for ns in notes.approved_index(conn).values() for n in ns]
+
+
+def test_a_waiting_note_is_edited_in_place(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", None, "First version of the note.")
+    e = notes.edit(conn, people[0], n["id"], "Second version of the note.", "my games")
+    assert (e["status"], e["text"], e["source"], e["revised_text"]) == (
+        "pending",
+        "Second version of the note.",
+        "my games",
+        None,
+    )
+    assert [p["text"] for p in notes.pending(conn)] == ["Second version of the note."]
+
+
+def test_a_rejected_note_edited_waits_for_review_again(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", None, "Too vague a first try.")
+    notes.review(conn, n["id"], approve=False, review_note="Be specific.")
+    e = notes.edit(conn, people[0], n["id"], "Hold W until he dashes in, then slow him.")
+    assert (e["status"], e["review_note"]) == ("pending", None)
+    assert [p["id"] for p in notes.pending(conn)] == [n["id"]]
+
+
+def test_an_approved_note_stays_shown_while_its_edit_waits(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", None, "The approved text.", approve=False)
+    notes.review(conn, n["id"], approve=True)
+    e = notes.edit(conn, people[0], n["id"], "The edited text, not reviewed yet.", "a source")
+    assert (e["status"], e["text"], e["revised_text"]) == (
+        "approved",
+        "The approved text.",
+        "The edited text, not reviewed yet.",
+    )
+    assert shown(conn) == ["The approved text."]  # the site keeps the reviewed version
+    assert [p["revised_text"] for p in notes.pending(conn)] == ["The edited text, not reviewed yet."]
+
+
+def test_approving_an_edit_replaces_the_text(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", None, "The approved text.", approve=True)
+    notes.edit(conn, people[0], n["id"], "The edited text with a typo.", "new source")
+    done = notes.review(conn, n["id"], approve=True, text="The edited text without a typo.")
+    assert (done["text"], done["source"], done["revised_text"]) == (
+        "The edited text without a typo.",
+        "new source",
+        None,
+    )
+    assert shown(conn) == ["The edited text without a typo."]
+    assert notes.pending(conn) == []
+
+
+def test_rejecting_an_edit_keeps_the_old_text_and_says_why(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", None, "The approved text.", approve=True)
+    notes.edit(conn, people[0], n["id"], "Darius is broken, ban him.")
+    done = notes.review(conn, n["id"], approve=False, review_note="Not a tip.")
+    assert (done["status"], done["text"], done["revised_text"], done["review_note"]) == (
+        "approved",
+        "The approved text.",
+        None,
+        "Not a tip.",
+    )
+    notes.edit(conn, people[0], n["id"], "Another edit, rejected without a reason.")
+    assert notes.review(conn, n["id"], approve=False)["review_note"] == notes.EDIT_REJECTED  # the author still learns
+
+
+def test_admins_edit_their_own_notes_at_once(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", None, "An admin note.", approve=True)
+    e = notes.edit(conn, people[0], n["id"], "An admin note, improved.", approve=True)
+    assert (e["text"], e["revised_text"]) == ("An admin note, improved.", None)
+    assert notes.pending(conn) == []
+
+
+def test_only_the_author_edits_or_withdraws(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", None, "Someone else's note.")
+    with pytest.raises(notes.NoteError, match="your own"):
+        notes.edit(conn, people[1], n["id"], "Hijacked text for this note.")
+    with pytest.raises(notes.NoteError, match="your own"):
+        notes.withdraw(conn, people[1], n["id"])
+    assert notes.get(conn, n["id"])["text"] == "Someone else's note."
+
+
+def test_edits_are_checked_like_new_notes(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", None, "A fine note to edit.", approve=True)
+    with pytest.raises(notes.NoteError, match="10 to 1000"):
+        notes.edit(conn, people[0], n["id"], "short")
+    with pytest.raises(notes.NoteError, match="https://"):
+        notes.edit(conn, people[0], n["id"], "A fine edit of the note.", "javascript://x")
+
+
+def test_waiting_edits_count_toward_the_limit(conn, people, monkeypatch):
+    monkeypatch.setattr(notes, "MAX_PENDING", 2)
+    approved = [
+        notes.suggest(conn, people[0], "top", "Darius", None, f"Approved note {i}.", approve=True) for i in range(3)
+    ]
+    notes.suggest(conn, people[0], "top", "Darius", None, "One waiting note.")
+    notes.edit(conn, people[0], approved[0]["id"], "One waiting edit now.")
+    with pytest.raises(notes.NoteError, match="waiting for review"):
+        notes.edit(conn, people[0], approved[1]["id"], "No room for this edit.")
+    notes.edit(conn, people[0], approved[0]["id"], "Re-editing a waiting edit needs no room.")
+
+
+def test_withdrawing_removes_the_note_in_any_state(conn, people):
+    for approve in (False, True):
+        n = notes.suggest(conn, people[0], "top", "Darius", None, "A note to withdraw.", approve=approve)
+        notes.withdraw(conn, people[0], n["id"])
+        with pytest.raises(notes.NoteError):
+            notes.get(conn, n["id"])
+    assert shown(conn) == [] and notes.pending(conn) == []
+
+
+def test_blocking_drops_waiting_edits_and_keeps_approved_text(conn, people):
+    n = notes.suggest(conn, people[0], "top", "Darius", None, "Approved before the block.", approve=True)
+    notes.edit(conn, people[0], n["id"], "Edit waiting at the block.")
+    notes.reject_pending_of(conn, people[0], "account blocked")
+    assert notes.pending(conn) == []
+    assert shown(conn) == ["Approved before the block."]
