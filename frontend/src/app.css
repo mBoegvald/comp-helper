@@ -211,6 +211,15 @@ td {
   padding: 6px 8px;
   border-bottom: 1px solid var(--line);
 }
+/* room at both ends, so the last column does not touch the panel edge */
+th:first-child,
+td:first-child {
+  padding-left: 12px;
+}
+th:last-child,
+td:last-child {
+  padding-right: 16px;
+}
 th {
   color: var(--muted);
   font-size: 12px;
