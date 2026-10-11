@@ -122,3 +122,11 @@ test("delete your account and its notes", async ({ page }) => {
   await page.getByRole("tab", { name: "Admin" }).click();
   await expect(page.getByText("Leaving soon")).toHaveCount(0); // gone from the review queue too
 });
+
+test("a link to a page you may not see goes to Draft, without a history entry to come back to", async ({ page }) => {
+  const before = await page.evaluate(() => history.length);
+  await page.goto("/?x#/admin");
+  await expect(page.getByRole("tab", { name: "Draft" })).toHaveAttribute("aria-selected", "true");
+  await expect(page).toHaveURL(/#\/draft$/);
+  expect(await page.evaluate(() => history.length)).toBe(before + 1); // the link's own entry, now Draft
+});
