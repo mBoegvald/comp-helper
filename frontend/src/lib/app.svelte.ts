@@ -13,6 +13,8 @@ export const app = $state({
   running: false,
   log: "",
   dataVersion: 0, // bumped when data changed (update finished, curated edit saved)
+  // the matchup open in Lookup, and for which "role|Champion": another champion shows none, a data refresh keeps it
+  lookupOpp: null as { for: string; opp: string } | null,
 });
 
 export async function loadMeta() {
