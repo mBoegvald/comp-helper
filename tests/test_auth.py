@@ -107,6 +107,31 @@ def test_new_password_signs_out_everywhere(conn):
     assert auth.login(conn, "alice", "a new long password")
 
 
+def test_changing_your_password(conn):
+    uid = auth.create_account(conn, "ann", "first password")
+    here, elsewhere = auth.login(conn, "ann", "first password"), auth.login(conn, "ann", "first password")
+    with pytest.raises(auth.AuthError, match="Wrong password"):
+        auth.change_password(conn, uid, "not it at all", "second password", here)
+    with pytest.raises(auth.AuthError, match="Passwords are"):
+        auth.change_password(conn, uid, "first password", "short", here)
+    auth.change_password(conn, uid, "first password", "second password", here)
+    assert auth.session_account(conn, here)["username"] == "ann"  # where it was changed
+    assert auth.session_account(conn, elsewhere) is None
+    with pytest.raises(auth.AuthError):
+        auth.login(conn, "ann", "first password")
+    auth.login(conn, "ann", "second password")
+
+
+def test_a_reset_password_works_and_signs_out(conn):
+    uid = auth.create_account(conn, "ann", "first password")
+    token = auth.login(conn, "ann", "first password")
+    new = auth.reset_password(conn, uid)
+    assert len(new) >= auth.MIN_PASSWORD and new != auth.reset_password(conn, uid)
+    assert auth.session_account(conn, token) is None
+    with pytest.raises(auth.AuthError, match="No such account"):
+        auth.reset_password(conn, 999)
+
+
 def test_deleting_an_account_deletes_its_sessions(conn):
     account = auth.create_account(conn, "alice", "long enough pw")
     auth.start_session(conn, account)
