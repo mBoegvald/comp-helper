@@ -44,9 +44,11 @@
   }
 </script>
 
-<div class="panel" {@attach intoView}>
+<div class="panel" class:stale={m && (m.champ !== champ || m.opp !== opp)} {@attach intoView}>
   <ErrorBox message={error} />
-  {#if m}
+  {#if !m && !error}
+    <p class="muted" role="status">Loading {champ} vs {opp}…</p>
+  {:else if m}
     <div class="row title">
       <ChampIcon name={m.champ} />
       <h3>{m.champ} vs {m.opp}</h3>

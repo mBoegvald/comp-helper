@@ -135,6 +135,11 @@ h3 {
   padding: 40px 16px;
   color: var(--muted);
 }
+/* waiting for the server: old results fade, but only after a moment, so quick answers do not flicker */
+.stale {
+  opacity: 0.5;
+  transition: opacity 0.2s 0.3s;
+}
 
 /* form controls */
 input:not([type]),

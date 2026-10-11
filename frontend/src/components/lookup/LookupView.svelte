@@ -15,6 +15,7 @@
   let data = $state.raw<ChampionLookup | null>(null);
   let error = $state<string | null>(null);
   let filter = $state("");
+  let loading = $state(false);
   let latest = 0;
 
   const shown = $derived(data ? `${data.role}|${data.champion.name}` : "");
@@ -24,14 +25,17 @@
   const load = debounce(async (role: Role, name: string) => {
     const id = ++latest;
     if (!name) {
-      [data, error] = [null, null];
+      [data, error, loading] = [null, null, false];
       return;
     }
+    loading = true;
     try {
       const r = await getChampion(role, name);
       if (id === latest) [data, error] = [r, null];
     } catch (e) {
       if (id === latest) error = errorMessage(e);
+    } finally {
+      if (id === latest) loading = false;
     }
   }, 300);
 
@@ -56,7 +60,7 @@
     {#if data}<ChampionSummary {data} />{/if}
   </div>
 
-  <div>
+  <div class:stale={loading && data}>
     <ErrorBox message={error} />
     {#if data && selected}
       <MatchupPanel role={data.role} champ={data.champion.name} opp={selected} />
@@ -71,6 +75,8 @@
       </div>
     {:else if data}
       <div class="empty">No {ROLE_LABEL[data.role].toLowerCase()} matchup data for {data.champion.name}.</div>
+    {:else if loading}
+      <div class="empty" role="status">Loading…</div>
     {:else}
       <div class="empty">
         Pick a role and type a champion to see every matchup with win rates, notes and Reddit tips.
