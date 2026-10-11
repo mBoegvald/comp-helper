@@ -1,6 +1,6 @@
 # Pick Helper, hosted: the Python app in hosted mode (accounts, community notes). Caddy in front does HTTPS and passes
 # the visitor's address (docker-compose.yml). Data and logs live on volumes; see docs/hosting.md.
-FROM python:3.13.15-slim-trixie
+FROM python:3.14.7-slim-trixie
 
 ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1
 RUN useradd --system --uid 10001 --home-dir /app app
