@@ -30,6 +30,20 @@ test("bans remove a champion from the picks", async ({ page }) => {
   await expect(cards.getByText("Garen", { exact: true })).toHaveCount(0);
 });
 
+test("Need AP lists only AP champions, Auto lists all again", async ({ page }) => {
+  const cards = page.locator(".cards").first();
+  const count = async () => Number((await page.getByText(/^\d+ candidates/).textContent())?.split(" ")[0]);
+  await expect(cards.getByText("Garen", { exact: true })).toBeVisible(); // AD
+  const all = await count();
+  await page.getByLabel("Damage").selectOption("Need AP");
+  await expect(page.getByText("only AP damage")).toBeVisible();
+  expect(await count()).toBeLessThan(all); // the others are left out, not just ranked lower
+  for (const k of await cards.locator(".sub").allTextContents()) expect(k).toMatch(/· (AP|Mixed)\b/);
+  await page.getByLabel("Damage").selectOption({ index: 0 }); // Auto
+  await expect(cards.getByText("Garen", { exact: true })).toBeVisible();
+  expect(await count()).toBe(all);
+});
+
 test("remembers the draft and clears it", async ({ page }) => {
   await page.getByLabel("Enemy Top").fill("Darius");
   await expect(page.getByRole("heading", { name: "Best top picks into Darius" })).toBeVisible();
