@@ -1,5 +1,13 @@
 # Pick helper: notes
 
+## Back, Forward and links (2026-10-11)
+- The address bar shows where the page is: #/draft, #/lookup/top/Darius/Garen, #/data, #/account, #/admin,
+  #/privacy (lib/route.ts). Moving around adds a history entry, so Back and Forward work and a matchup can be linked
+  (lib/router.svelte.ts). A half-typed champion leaves the address alone, and a second champion within 1.5 s replaces
+  the first ("Vi" on the way to "Viktor"). Pages you may not see send you to Draft without an entry to come back to.
+- Old #draft= links still work: the draft is applied and the address becomes #/draft.
+- The open matchup is app.lookupOpp, tied to its champion, so going back to that champion shows it again.
+
 ## Server upkeep (2026-10-10)
 - update.py trims logs/update.log to its last 500 KB (whole lines) when it passes 2 MB, at the start of a run while
   holding the lock; rewritten in place, since the web page may have it open on Windows.
