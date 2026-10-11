@@ -143,3 +143,14 @@ test("Copy link gives a link that opens the same draft", async ({ page, context 
   await page.goto(link.replace("#", "?copied#")); // "?" forces a real load
   await expect(page.getByRole("heading", { name: "Best top picks into Darius" })).toBeVisible();
 });
+
+test("the first picks show that they are loading", async ({ page }) => {
+  await page.route(/\/api\/recommend$/, async (route) => {
+    await new Promise((r) => setTimeout(r, 1500));
+    await route.continue();
+  });
+  await page.goto("/?slow#/draft");
+  await expect(page.getByRole("status").filter({ hasText: "Working out picks…" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: /^Best / })).toBeVisible();
+  await expect(page.locator(".stale")).toHaveCount(0);
+});
