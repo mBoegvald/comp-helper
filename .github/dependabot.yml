@@ -1,0 +1,30 @@
+# Monthly update PRs, one per ecosystem. cooldown: only versions at least 14 days old, like every dependency here.
+# npm PRs that change the build need `npm run build` and the new web/dist committed (CI checks it).
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /frontend
+    schedule: { interval: monthly }
+    cooldown: { default-days: 14 }
+    groups:
+      frontend: { patterns: ["*"] }
+  - package-ecosystem: pip
+    directory: /
+    schedule: { interval: monthly }
+    cooldown: { default-days: 14 }
+    groups:
+      python-dev: { patterns: ["*"] }
+  - package-ecosystem: github-actions
+    directory: /
+    schedule: { interval: monthly }
+    cooldown: { default-days: 14 }
+    groups:
+      actions: { patterns: ["*"] }
+  - package-ecosystem: docker
+    directory: /
+    schedule: { interval: monthly }
+    cooldown: { default-days: 14 }
+  - package-ecosystem: docker-compose
+    directory: /
+    schedule: { interval: monthly }
+    cooldown: { default-days: 14 }
