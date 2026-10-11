@@ -12,6 +12,7 @@
   import LookupView from "./components/lookup/LookupView.svelte";
   import { app, loadMeta, pollStatus } from "./lib/app.svelte.ts";
   import { loadReview } from "./lib/review.svelte.ts";
+  import { redirect } from "./lib/router.svelte.ts";
   import { loadSession, session } from "./lib/session.svelte.ts";
 
   let accountDialog = $state<ReturnType<typeof AccountDialog>>();
@@ -31,17 +32,17 @@
 
   // the privacy page belongs to the hosted site
   $effect(() => {
-    if (session.loaded && app.view === "privacy" && !session.hosted) app.view = "draft";
+    if (session.loaded && app.view === "privacy" && !session.hosted) redirect("draft");
   });
 
   // signed out while on My account
   $effect(() => {
-    if (session.loaded && app.view === "mine" && !(session.hosted && session.user)) app.view = "draft";
+    if (session.loaded && app.view === "mine" && !(session.hosted && session.user)) redirect("draft");
   });
 
   // signed out of the admin account while on the Admin tab
   $effect(() => {
-    if (session.loaded && app.view === "admin" && !(session.hosted && session.admin)) app.view = "draft";
+    if (session.loaded && app.view === "admin" && !(session.hosted && session.admin)) redirect("draft");
   });
 </script>
 
