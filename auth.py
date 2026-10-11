@@ -100,6 +100,32 @@ def set_password(conn, username: str, password: str):
         conn.execute("DELETE FROM session WHERE account_id = (SELECT id FROM account WHERE username = ?)", (username,))
 
 
+def change_password(conn, account_id: int, old: str, new: str, keep_token: str = ""):
+    """The account holder changes their password, confirmed with the old one. Their other sessions end; the one
+    with `keep_token` (where they did it) stays."""
+    with conn:
+        conn.execute("BEGIN IMMEDIATE")
+        row = conn.execute("SELECT username, pw_hash FROM account WHERE id = ?", (account_id,)).fetchone()
+        if not row or not verify_password(old or "", row["pw_hash"]):
+            raise AuthError("Wrong password.")
+        check_new_credentials(row["username"], new)
+        conn.execute("UPDATE account SET pw_hash = ? WHERE id = ?", (hash_password(new), account_id))
+        conn.execute(
+            "DELETE FROM session WHERE account_id = ? AND token_hash != ?", (account_id, _token_hash(keep_token))
+        )
+
+
+def reset_password(conn, account_id: int) -> str:
+    """The admin resets a forgotten password: returns a new random one to pass on, and signs the account out."""
+    password = secrets.token_urlsafe(12)  # 16 characters
+    with conn:
+        cur = conn.execute("UPDATE account SET pw_hash = ? WHERE id = ?", (hash_password(password), account_id))
+        if not cur.rowcount:
+            raise AuthError("No such account.")
+        conn.execute("DELETE FROM session WHERE account_id = ?", (account_id,))
+    return password
+
+
 def set_blocked(conn, account_id: int, blocked: bool):
     """Blocking also signs the account out everywhere."""
     with conn:

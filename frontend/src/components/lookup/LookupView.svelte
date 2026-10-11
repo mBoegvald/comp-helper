@@ -15,24 +15,27 @@
   let data = $state.raw<ChampionLookup | null>(null);
   let error = $state<string | null>(null);
   let filter = $state("");
-  let selected = $state<string | null>(null);
+  let loading = $state(false);
   let latest = 0;
-  let loadedFor = ""; // role|name of `data`: a new champion clears the selected matchup, a data refresh keeps it
+
+  const shown = $derived(data ? `${data.role}|${data.champion.name}` : "");
+  const selected = $derived(app.lookupOpp?.for === shown ? app.lookupOpp.opp : null);
+  const select = (opp: string | null) => (app.lookupOpp = opp ? { for: shown, opp } : null);
 
   const load = debounce(async (role: Role, name: string) => {
     const id = ++latest;
     if (!name) {
-      [data, selected, error] = [null, null, null];
+      [data, error, loading] = [null, null, false];
       return;
     }
+    loading = true;
     try {
       const r = await getChampion(role, name);
-      if (id !== latest) return;
-      const key = `${role}|${r.champion.name}`;
-      if (key !== loadedFor) selected = null;
-      [data, error, loadedFor] = [r, null, key];
+      if (id === latest) [data, error] = [r, null];
     } catch (e) {
       if (id === latest) error = errorMessage(e);
+    } finally {
+      if (id === latest) loading = false;
     }
   }, 300);
 
@@ -57,7 +60,7 @@
     {#if data}<ChampionSummary {data} />{/if}
   </div>
 
-  <div>
+  <div class:stale={loading && data}>
     <ErrorBox message={error} />
     {#if data && selected}
       <MatchupPanel role={data.role} champ={data.champion.name} opp={selected} />
@@ -68,10 +71,12 @@
           <h3>{data.champion.name} {ROLE_LABEL[data.role].toLowerCase()}: {data.matchups.length} matchups</h3>
           <span class="small muted">Click a row for the full matchup</span>
         </div>
-        <MatchupTable rows={data.matchups} {filter} bind:selected />
+        <MatchupTable rows={data.matchups} {filter} bind:selected={() => selected, select} />
       </div>
     {:else if data}
       <div class="empty">No {ROLE_LABEL[data.role].toLowerCase()} matchup data for {data.champion.name}.</div>
+    {:else if loading}
+      <div class="empty" role="status">Loading…</div>
     {:else}
       <div class="empty">
         Pick a role and type a champion to see every matchup with win rates, notes and Reddit tips.

@@ -27,7 +27,7 @@
 <style>
   dl {
     display: grid;
-    grid-template-columns: 120px 1fr;
+    grid-template-columns: 120px minmax(0, 1fr);
     gap: 3px 10px;
     font-size: 13px;
     margin: 0;

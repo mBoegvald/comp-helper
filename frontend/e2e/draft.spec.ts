@@ -128,3 +128,29 @@ test("draft links: a valid one loads, a broken one does not break the page", asy
   await page.reload(); // and the broken values were not saved
   await expect(page.getByRole("combobox", { name: "Your Jungle" })).toBeVisible();
 });
+
+test("Copy link gives a link that opens the same draft", async ({ page, context }) => {
+  await context.grantPermissions(["clipboard-read", "clipboard-write"]);
+  await page.getByRole("button", { name: "Top", exact: true }).click();
+  await page.getByRole("combobox", { name: "Enemy Top" }).fill("Darius");
+  await expect(page.getByRole("heading", { name: "Best top picks into Darius" })).toBeVisible();
+  await page.getByRole("button", { name: "Copy link" }).click();
+  await expect(page.getByRole("button", { name: "Link copied" })).toBeVisible();
+  const link = await page.evaluate(() => navigator.clipboard.readText());
+  expect(link).toContain("#draft=");
+
+  await page.getByRole("button", { name: "Clear draft" }).click();
+  await page.goto(link.replace("#", "?copied#")); // "?" forces a real load
+  await expect(page.getByRole("heading", { name: "Best top picks into Darius" })).toBeVisible();
+});
+
+test("the first picks show that they are loading", async ({ page }) => {
+  await page.route(/\/api\/recommend$/, async (route) => {
+    await new Promise((r) => setTimeout(r, 1500));
+    await route.continue();
+  });
+  await page.goto("/?slow#/draft");
+  await expect(page.getByRole("status").filter({ hasText: "Working out picks…" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: /^Best / })).toBeVisible();
+  await expect(page.locator(".stale")).toHaveCount(0);
+});

@@ -1,6 +1,7 @@
 <script lang="ts">
   import { app } from "../../lib/app.svelte.ts";
   import { clearDraft, prefs } from "../../lib/prefs.svelte.ts";
+  import { draftHash } from "../../lib/route.ts";
   import type { Recommendation } from "../../lib/types.ts";
   import RoleSwitch from "../common/RoleSwitch.svelte";
   import ChipInput from "./ChipInput.svelte";
@@ -11,6 +12,20 @@
 
   const slots = $derived(result?.slots ?? {});
   const capitalize = (s: string) => s[0].toUpperCase() + s.slice(1);
+
+  let copied = $state<"yes" | "no" | null>(null);
+  let link = $state("");
+
+  async function copyLink() {
+    link = location.origin + location.pathname + draftHash(prefs);
+    try {
+      await navigator.clipboard.writeText(link);
+      copied = "yes";
+      setTimeout(() => (copied = null), 2000);
+    } catch {
+      copied = "no"; // no clipboard (plain http, or not allowed): show the link to copy by hand
+    }
+  }
 </script>
 
 <div class="panel">
@@ -52,8 +67,15 @@
 
   <div class="row foot">
     <span class="small muted">Fill in what you know. Empty slots are fine.</span>
+    <button class="btn" onclick={copyLink}>{copied === "yes" ? "Link copied" : "Copy link"}</button>
     <button class="btn" onclick={clearDraft}>Clear draft</button>
   </div>
+  {#if copied === "no"}
+    <div class="field">
+      <label for="draft-link">Link to this draft</label>
+      <input id="draft-link" readonly value={link} onfocus={(e) => e.currentTarget.select()} />
+    </div>
+  {/if}
 </div>
 
 <style>
@@ -74,7 +96,9 @@
   }
   .foot {
     margin-top: 12px;
-    justify-content: space-between;
+  }
+  .foot .muted {
+    margin-right: auto;
   }
   @media (max-width: 420px) {
     .teams {

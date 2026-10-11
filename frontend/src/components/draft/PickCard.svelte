@@ -7,6 +7,7 @@
   import LaneStats from "../common/LaneStats.svelte";
   import MatchupNotes from "../common/MatchupNotes.svelte";
   import ReasonChip from "../common/ReasonChip.svelte";
+  import CommunityNotes from "../notes/CommunityNotes.svelte";
 
   /** One suggested pick. `compact` is the short form used in the Avoid list. */
   interface Props {
@@ -61,6 +62,7 @@
               >
             </div>
             <ChampFacts champ={pick} />
+            {#if pick.community?.length}<CommunityNotes notes={pick.community} />{/if}
           </section>
         </div>
       {/if}

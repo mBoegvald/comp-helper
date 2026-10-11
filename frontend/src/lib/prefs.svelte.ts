@@ -25,19 +25,8 @@ const DEFAULTS: Prefs = {
   lkChamp: "",
 };
 
-function initial(): Prefs {
-  const p: Prefs = { ...DEFAULTS, ...cleanPrefs(load<unknown>("state", {})) };
-  try {
-    // a draft in the address bar (#draft={...}) wins, so drafts can be bookmarked
-    const m = location.hash.match(/^#draft=(.+)$/);
-    if (m) Object.assign(p, cleanPrefs(JSON.parse(decodeURIComponent(m[1]))));
-  } catch {
-    // a broken link: keep the remembered draft
-  }
-  return p;
-}
-
-export const prefs = $state(initial());
+// a draft link (#draft={...}) is applied over this by the router
+export const prefs = $state<Prefs>({ ...DEFAULTS, ...cleanPrefs(load<unknown>("state", {})) });
 
 $effect.root(() => {
   $effect(() => save("state", $state.snapshot(prefs)));

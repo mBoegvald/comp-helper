@@ -89,6 +89,7 @@ export interface Pick extends Champion {
   score: number;
   parts: Part[];
   lane?: Matchup | null;
+  community?: CommunityNote[]; // notes on the champion itself (not in the Avoid list)
 }
 
 /** How /api/recommend read a typed name in one slot. */

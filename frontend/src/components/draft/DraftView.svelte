@@ -10,15 +10,19 @@
 
   let result = $state.raw<Recommendation | null>(null);
   let error = $state<string | null>(null);
+  let loading = $state(false);
   let latest = 0; // answers to older requests are dropped
 
   const ask = debounce(async (body: DraftRequest) => {
     const id = ++latest;
+    loading = true;
     try {
       const r = await recommend(body);
       if (id === latest) [result, error] = [r, null];
     } catch (e) {
       if (id === latest) error = errorMessage(e);
+    } finally {
+      if (id === latest) loading = false;
     }
   }, 250);
 
@@ -41,6 +45,10 @@
   <DraftForm {result} />
   <div>
     <ErrorBox message={error} />
-    {#if result}<PickResults {result} needChosen={!!prefs.need} />{/if}
+    {#if result}
+      <div class:stale={loading}><PickResults {result} needChosen={!!prefs.need} /></div>
+    {:else if loading}
+      <div class="empty" role="status">Working out picks…</div>
+    {/if}
   </div>
 </div>

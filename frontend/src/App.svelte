@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import AccountDialog from "./components/account/AccountDialog.svelte";
+  import ChangePassword from "./components/account/ChangePassword.svelte";
   import DeleteAccount from "./components/account/DeleteAccount.svelte";
   import Privacy from "./components/account/Privacy.svelte";
   import AdminView from "./components/admin/AdminView.svelte";
@@ -12,6 +13,7 @@
   import LookupView from "./components/lookup/LookupView.svelte";
   import { app, loadMeta, pollStatus } from "./lib/app.svelte.ts";
   import { loadReview } from "./lib/review.svelte.ts";
+  import { redirect } from "./lib/router.svelte.ts";
   import { loadSession, session } from "./lib/session.svelte.ts";
 
   let accountDialog = $state<ReturnType<typeof AccountDialog>>();
@@ -31,17 +33,17 @@
 
   // the privacy page belongs to the hosted site
   $effect(() => {
-    if (session.loaded && app.view === "privacy" && !session.hosted) app.view = "draft";
+    if (session.loaded && app.view === "privacy" && !session.hosted) redirect("draft");
   });
 
   // signed out while on My account
   $effect(() => {
-    if (session.loaded && app.view === "mine" && !(session.hosted && session.user)) app.view = "draft";
+    if (session.loaded && app.view === "mine" && !(session.hosted && session.user)) redirect("draft");
   });
 
   // signed out of the admin account while on the Admin tab
   $effect(() => {
-    if (session.loaded && app.view === "admin" && !(session.hosted && session.admin)) app.view = "draft";
+    if (session.loaded && app.view === "admin" && !(session.hosted && session.admin)) redirect("draft");
   });
 </script>
 
@@ -56,7 +58,7 @@
     <section hidden={app.view !== "lookup"}><LookupView /></section>
     <section hidden={app.view !== "data"}><DataView /></section>
     {#if session.hosted && session.user}
-      <section class="account" hidden={app.view !== "mine"}><MyNotes /><DeleteAccount /></section>
+      <section class="account" hidden={app.view !== "mine"}><MyNotes /><ChangePassword /><DeleteAccount /></section>
     {/if}
     {#if session.hosted && session.admin}
       <section hidden={app.view !== "admin"}><AdminView /></section>

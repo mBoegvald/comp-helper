@@ -1,5 +1,25 @@
 # Pick helper: notes
 
+## Phones, passwords, sharing and loading (2026-10-11)
+- Phones: grid columns are minmax(0, 1fr), so a wide table scrolls inside its panel (.scroll-x) instead of widening
+  the page; below 600px the header tabs get their own row and scroll sideways. e2e/phone.spec.ts checks every tab
+  at 340px.
+- Passwords: My account has Change password (other devices are signed out). The admin's account list has Reset
+  password, which shows a random 16-character password once. The sign-in dialog says to ask the admin.
+- Draft: Copy link (a #draft= link; when the clipboard is not allowed the link is shown to copy by hand), and each
+  pick shows the community notes on its champion. Matchup notes were already there through MatchupNotes.
+- Loading: Draft and Lookup say when they wait for the server; old results fade after 0.3 s (.stale), so quick
+  answers do not flicker.
+- Dependabot: monthly grouped PRs for npm, pip, actions, Docker and compose, with a 14-day cooldown.
+
+## Back, Forward and links (2026-10-11)
+- The address bar shows where the page is: #/draft, #/lookup/top/Darius/Garen, #/data, #/account, #/admin,
+  #/privacy (lib/route.ts). Moving around adds a history entry, so Back and Forward work and a matchup can be linked
+  (lib/router.svelte.ts). A half-typed champion leaves the address alone, and a second champion within 1.5 s replaces
+  the first ("Vi" on the way to "Viktor"). Pages you may not see send you to Draft without an entry to come back to.
+- Old #draft= links still work: the draft is applied and the address becomes #/draft.
+- The open matchup is app.lookupOpp, tied to its champion, so going back to that champion shows it again.
+
 ## Server upkeep (2026-10-10)
 - update.py trims logs/update.log to its last 500 KB (whole lines) when it passes 2 MB, at the start of a run while
   holding the lock; rewritten in place, since the web page may have it open on Windows.

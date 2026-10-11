@@ -148,3 +148,18 @@ test("a slow failure for an earlier matchup does not show on the current one", a
   await page.waitForTimeout(1200); // the failing answer for Aatrox has arrived by now
   await expect(page.getByText("old answer failed")).toHaveCount(0);
 });
+
+test("a slow answer shows that it is loading, and nothing stays faded after", async ({ page }) => {
+  const slow = async (route: import("@playwright/test").Route) => {
+    await new Promise((r) => setTimeout(r, 1500));
+    await route.continue();
+  };
+  await page.route(/\/api\/(champion|matchup)\?/, slow);
+  await page.locator("#lk-champ").fill("Garen");
+  await expect(page.locator(".stale")).toBeVisible(); // Darius's matchups fade while Garen loads
+  await expect(page.getByRole("heading", { name: /^Garen top: / })).toBeVisible();
+  await page.locator("tbody tr").filter({ visible: true }).first().click();
+  await expect(page.getByRole("status").filter({ hasText: /^Loading Garen vs / })).toBeVisible();
+  await expect(page.getByRole("heading", { name: /^Garen vs / })).toBeVisible();
+  await expect(page.locator(".stale")).toHaveCount(0);
+});
