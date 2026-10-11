@@ -52,6 +52,7 @@ export const signIn = (username: string, password: string) => request<Me>("/api/
 export const signOut = () => request<Me>("/api/logout", {});
 export const getAccounts = () => request<Accounts>("/api/admin/accounts");
 export const setBlocked = (id: number, blocked: boolean) => request<Accounts>("/api/admin/block", { id, blocked });
+export const resetPassword = (id: number) => request<{ password: string }>("/api/admin/reset-password", { id });
 
 export const suggestNote = (role: Role, champion: string, opponent: string | null, text: string, source: string) =>
   request<{ note: Suggestion }>("/api/notes", { role, champion, opponent, text, source });
@@ -65,3 +66,4 @@ export const editNote = (id: number, text: string, source: string) =>
   request<{ note: Suggestion }>("/api/notes/edit", { id, text, source });
 export const withdrawNote = (id: number) => request<Ok>("/api/notes/withdraw", { id });
 export const deleteAccount = (password: string) => request<Me>("/api/account/delete", { password });
+export const changePassword = (old: string, next: string) => request<Ok>("/api/account/password", { old, new: next });

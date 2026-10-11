@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import AccountDialog from "./components/account/AccountDialog.svelte";
+  import ChangePassword from "./components/account/ChangePassword.svelte";
   import DeleteAccount from "./components/account/DeleteAccount.svelte";
   import Privacy from "./components/account/Privacy.svelte";
   import AdminView from "./components/admin/AdminView.svelte";
@@ -57,7 +58,7 @@
     <section hidden={app.view !== "lookup"}><LookupView /></section>
     <section hidden={app.view !== "data"}><DataView /></section>
     {#if session.hosted && session.user}
-      <section class="account" hidden={app.view !== "mine"}><MyNotes /><DeleteAccount /></section>
+      <section class="account" hidden={app.view !== "mine"}><MyNotes /><ChangePassword /><DeleteAccount /></section>
     {/if}
     {#if session.hosted && session.admin}
       <section hidden={app.view !== "admin"}><AdminView /></section>

@@ -1,6 +1,6 @@
 <script lang="ts">
   import { errorMessage } from "../../lib/api.ts";
-  import { login, register } from "../../lib/session.svelte.ts";
+  import { login, register, session } from "../../lib/session.svelte.ts";
   import ErrorBox from "../common/ErrorBox.svelte";
 
   type Mode = "signin" | "signup";
@@ -61,7 +61,13 @@
         required
         bind:value={password}
       />
-      {#if mode === "signup"}<p class="small muted">At least 10 characters.</p>{/if}
+      {#if mode === "signup"}
+        <p class="small muted">At least 10 characters.</p>
+      {:else}
+        <p class="small muted">
+          Forgot it? Ask the admin{session.contact ? ` (${session.contact})` : ""} for a new one.
+        </p>
+      {/if}
     </div>
     <div class="row actions">
       <button class="btn primary" disabled={busy}>{mode === "signup" ? "Create account" : "Sign in"}</button>
