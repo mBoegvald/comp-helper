@@ -37,6 +37,7 @@ FAVORED_DELTA = 2.0
 UNFAVORED_DELTA = -2.0
 TOP_N = 5  # data-derived names in Good into / Struggles into
 CURATED_CHAMP_FIELDS = ("archetype", "damage", "comps", "good_into", "struggles_into", "pick_when", "blind_safe")
+DAMAGE_TYPES = ("AD", "AP", "Mixed")
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS meta (key TEXT PRIMARY KEY, value TEXT);
@@ -88,6 +89,7 @@ def connect(path=None) -> sqlite3.Connection:
     _rename_old_tables(conn)
     conn.executescript(SCHEMA)
     _add_missing_columns(conn)
+    _fix_old_damage(conn)
     return conn
 
 
@@ -105,6 +107,18 @@ def _add_missing_columns(conn):
         for table, column, kind in ADDED_COLUMNS:
             if column not in {r[1] for r in conn.execute(f"PRAGMA table_info({table})")}:
                 conn.execute(f"ALTER TABLE {table} ADD COLUMN {column} {kind}")
+
+
+def _fix_old_damage(conn):
+    """Damage from the old workbooks could be free text ('AP tank', 'AD/AP'); it is AD, AP or Mixed now."""
+    with conn:
+        for (old,) in conn.execute(
+            "SELECT DISTINCT damage FROM curated_champion WHERE damage NOT IN (?, ?, ?)", DAMAGE_TYPES
+        ).fetchall():
+            up = old.upper()
+            ad, ap = "AD" in up, "AP" in up
+            new = "Mixed" if (ad and ap) or up == "MIXED" else "AP" if ap else "AD" if ad else None
+            conn.execute("UPDATE curated_champion SET damage = ? WHERE damage = ?", (new, old))
 
 
 def _rename_old_tables(conn):
@@ -351,6 +365,8 @@ def set_curated_champion(conn, role, champion, fields: dict):
     bad = set(fields) - set(CURATED_CHAMP_FIELDS)
     if bad:
         raise ValueError(f"unknown field(s) {', '.join(sorted(bad))}")
+    if (str(fields.get("damage") or "").strip() or None) not in (*DAMAGE_TYPES, None):
+        raise ValueError(f"damage must be {', '.join(DAMAGE_TYPES)} or empty")
     with conn:
         cur = dict(
             conn.execute("SELECT * FROM curated_champion WHERE role = ? AND champion = ?", (role, champion)).fetchone()

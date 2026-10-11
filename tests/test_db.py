@@ -64,6 +64,24 @@ def test_set_curated_champion_rejects_unknown_fields(conn):
         db.set_curated_champion(conn, "top", "Aatrox", {"hack": "x"})
 
 
+def test_damage_is_ad_ap_or_mixed(conn):
+    with pytest.raises(ValueError):
+        db.set_curated_champion(conn, "top", "Aatrox", {"damage": "AP tank"})
+    db.set_curated_champion(conn, "top", "Aatrox", {"damage": " Mixed "})
+    db.set_curated_champion(conn, "top", "Aatrox", {"damage": ""})  # back to the default
+
+
+def test_old_free_text_damage_is_fixed(tmp_path):
+    """Values from the old workbooks become AD, AP or Mixed when the database is opened."""
+    path = tmp_path / "old.db"
+    old = {"Galio": "AP tank", "Yone": "AD/AP", "Zed": "ad", "Gnar": "mixed", "Odd": "?", "Ahri": "AP"}
+    with db.connect(path) as conn:
+        conn.executemany("INSERT INTO curated_champion (role, champion, damage) VALUES ('mid', ?, ?)", old.items())
+    conn = db.connect(path)
+    got = dict(conn.execute("SELECT champion, damage FROM curated_champion").fetchall())
+    assert got == {"Galio": "AP", "Yone": "Mixed", "Zed": "AD", "Gnar": "Mixed", "Odd": None, "Ahri": "AP"}
+
+
 def rows(conn):
     return {(r["champ"], r["opp"]): r for r in db.matchups(conn, "top")}
 
