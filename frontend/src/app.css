@@ -80,13 +80,13 @@ a {
 /* layout */
 .grid {
   display: grid;
-  grid-template-columns: 400px 1fr;
+  grid-template-columns: 400px minmax(0, 1fr); /* minmax: wide tables scroll instead of widening the page */
   gap: 16px;
   align-items: start;
 }
 @media (max-width: 900px) {
   .grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 }
 .panel {
@@ -200,6 +200,9 @@ textarea:focus {
 }
 
 /* tables */
+.scroll-x {
+  overflow-x: auto; /* a table wider than a phone scrolls inside its panel */
+}
 table {
   width: 100%;
   border-collapse: collapse;

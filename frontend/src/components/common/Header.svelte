@@ -100,6 +100,7 @@
     cursor: pointer;
     color: var(--muted);
     font-weight: 600;
+    white-space: nowrap;
   }
   .badge {
     margin-left: 6px;
@@ -121,6 +122,15 @@
   @media (max-width: 900px) {
     .tabs {
       margin-left: 0;
+    }
+  }
+  /* phones: the tabs get a row of their own, and scroll sideways when they do not fit */
+  @media (max-width: 600px) {
+    .tabs {
+      order: 1;
+      width: 100%;
+      overflow-x: auto;
+      scrollbar-width: none;
     }
   }
 </style>
