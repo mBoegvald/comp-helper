@@ -35,6 +35,12 @@ export function formatRoute(r: Route): string {
   return "#/" + parts.map(encodeURIComponent).join("/");
 }
 
+/** A link that opens this draft (the Draft tab's "Copy link"). */
+export function draftHash(p: Prefs): string {
+  const { role, ally, enemy, style, need, unavailable } = p;
+  return "#draft=" + encodeURIComponent(JSON.stringify({ role, ally, enemy, style, need, unavailable }));
+}
+
 /** The route in a location hash, or null when there is none (an empty hash, or one this page does not know). */
 export function parseRoute(hash: string): Route | null {
   try {

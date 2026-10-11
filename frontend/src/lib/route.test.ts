@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { formatRoute, parseRoute } from "./route.ts";
+import type { Prefs } from "./prefs.svelte.ts";
+import { draftHash, formatRoute, parseRoute } from "./route.ts";
 
 describe("routes", () => {
   it("round-trips every kind of route", () => {
@@ -40,5 +41,11 @@ describe("routes", () => {
     const link = "#draft=" + encodeURIComponent('{"role":"top","enemy":{"top":"Darius"},"ally":null}');
     expect(parseRoute(link)).toEqual({ view: "draft", draft: { role: "top", enemy: { top: "Darius" } } });
     expect(parseRoute("#draft=%7Bnot json")).toBeNull();
+  });
+
+  it("writes draft links that read back as the same draft, without the Lookup fields", () => {
+    const draft = { role: "top", ally: { bot: "Jinx" }, enemy: { top: "Darius" }, style: "wombo", need: "ap" };
+    const p: Prefs = { ...draft, unavailable: ["Garen"], lkRole: "mid", lkChamp: "Zed" } as Prefs;
+    expect(parseRoute(draftHash(p))).toEqual({ view: "draft", draft: { ...draft, unavailable: ["Garen"] } });
   });
 });
