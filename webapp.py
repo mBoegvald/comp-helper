@@ -577,6 +577,18 @@ def api_account_delete(q, ctx):
     return api_me({}, ctx)
 
 
+def api_account_password(q, ctx):
+    """The signed-in user changes their password; their other sessions end (see auth.change_password)."""
+    _hosted_only()
+
+    def run(conn):
+        auth.rate_limit(conn, ctx.ip, "login")  # a password guess, like signing in
+        auth.change_password(conn, ctx.user["id"], str(q.get("old") or ""), str(q.get("new") or ""), ctx.token)
+
+    _with_db(run)
+    return {"ok": True}
+
+
 def api_admin_accounts(_q, ctx=None):
     _hosted_only()
     return {"accounts": _with_db(auth.list_accounts)}
@@ -591,6 +603,15 @@ def api_admin_block(q, ctx):
     if q.get("blocked"):
         _with_db(lambda conn: notes.reject_pending_of(conn, account_id, "account blocked"))
     return api_admin_accounts({}, ctx)
+
+
+def api_admin_reset_password(q, ctx):
+    """A new random password for someone who forgot theirs, shown once to the admin to pass on."""
+    _hosted_only()
+    account_id = int(q.get("id") or 0)
+    if ctx.user and account_id == ctx.user["id"]:
+        raise ValueError("Change your own password under My account.")
+    return {"password": _with_db(lambda conn: auth.reset_password(conn, account_id))}
 
 
 # ---------------------------------------------------------------- community notes (hosted mode)
@@ -680,6 +701,7 @@ ROUTES = {
     ("POST", "/api/login"): (api_login, PUBLIC),
     ("POST", "/api/logout"): (api_logout, PUBLIC),
     ("POST", "/api/account/delete"): (api_account_delete, USER),
+    ("POST", "/api/account/password"): (api_account_password, USER),
     ("GET", "/api/status"): (api_status, ADMIN),
     ("POST", "/api/update"): (api_update, ADMIN),
     ("POST", "/api/stop"): (api_stop, ADMIN),
@@ -688,6 +710,7 @@ ROUTES = {
     ("POST", "/api/curated/matchup"): (api_curated_matchup_set, ADMIN),
     ("GET", "/api/admin/accounts"): (api_admin_accounts, ADMIN),
     ("POST", "/api/admin/block"): (api_admin_block, ADMIN),
+    ("POST", "/api/admin/reset-password"): (api_admin_reset_password, ADMIN),
     ("POST", "/api/notes"): (api_notes_suggest, USER),
     ("GET", "/api/notes/mine"): (api_notes_mine, USER),
     ("POST", "/api/notes/edit"): (api_notes_edit, USER),

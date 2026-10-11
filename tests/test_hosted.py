@@ -420,6 +420,33 @@ def test_password_guesses_on_delete_are_rate_limited(hosted, monkeypatch):
     assert request(hosted, "POST", "/api/account/delete", {"password": "guess two"}, cookie=pleb)[0] == 429
 
 
+def test_a_user_changes_their_password(hosted):
+    pleb = sign_in(hosted, "pleb", "contributor pw")
+    other = sign_in(hosted, "pleb", "contributor pw")
+    change = {"old": "contributor pw", "new": "a better password"}
+    assert request(hosted, "POST", "/api/account/password", change)[0] == 401
+    status, d, _ = request(hosted, "POST", "/api/account/password", {**change, "old": "wrong guess!"}, cookie=pleb)
+    assert status == 400 and "Wrong password" in d["error"]
+    assert request(hosted, "POST", "/api/account/password", change, cookie=pleb)[:2] == (200, {"ok": True})
+    assert request(hosted, "GET", "/api/me", cookie=pleb)[1]["user"]["username"] == "pleb"  # still signed in here
+    assert request(hosted, "GET", "/api/me", cookie=other)[1]["user"] is None
+    sign_in(hosted, "pleb", "a better password")
+
+
+def test_the_admin_resets_a_forgotten_password(hosted, conn):
+    pleb_id = conn.execute("SELECT id FROM account WHERE username = 'pleb'").fetchone()[0]
+    boss_id = conn.execute("SELECT id FROM account WHERE username = 'boss'").fetchone()[0]
+    pleb = sign_in(hosted, "pleb", "contributor pw")
+    assert request(hosted, "POST", "/api/admin/reset-password", {"id": pleb_id}, cookie=pleb)[0] == 403
+    boss = sign_in(hosted, "boss", "admin password")
+    status, d, _ = request(hosted, "POST", "/api/admin/reset-password", {"id": boss_id}, cookie=boss)
+    assert status == 400 and "My account" in d["error"]
+    status, d, _ = request(hosted, "POST", "/api/admin/reset-password", {"id": pleb_id}, cookie=boss)
+    assert status == 200
+    assert request(hosted, "GET", "/api/me", cookie=pleb)[1]["user"] is None  # signed out
+    sign_in(hosted, "pleb", d["password"])
+
+
 def test_the_privacy_contact_comes_with_me(hosted, monkeypatch):
     monkeypatch.setitem(webapp.CONFIG, "contact", "picks@example.com")
     assert request(hosted, "GET", "/api/me")[1]["contact"] == "picks@example.com"
