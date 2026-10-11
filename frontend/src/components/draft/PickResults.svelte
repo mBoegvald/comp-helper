@@ -14,7 +14,9 @@
     const bits = [`${result.candidates} candidates`];
     if (result.style) bits.push(`${result.style} comp`);
     if (result.need)
-      bits.push(needChosen ? `needs ${result.need.toUpperCase()}` : `auto: team needs ${result.need.toUpperCase()}`);
+      bits.push(
+        needChosen ? `only ${result.need.toUpperCase()} damage` : `auto: team needs ${result.need.toUpperCase()}`,
+      );
     else if (!needChosen) bits.push("damage balanced");
     return bits.join(" · ");
   });
@@ -30,7 +32,9 @@
   {#each result.picks as pick, i (pick.key)}
     <PickCard {pick} role={result.role} rank={i + 1} {maxScore} />
   {:else}
-    <div class="empty">No candidates left. Check the unavailable list.</div>
+    <div class="empty">
+      No candidates left. Check the unavailable list{needChosen ? " or set Damage to Auto" : ""}.
+    </div>
   {/each}
 </div>
 
