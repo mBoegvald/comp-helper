@@ -10,7 +10,9 @@ import urllib.request
 import pytest
 
 import auth
+import db
 import notes
+import picker
 import webapp
 
 
@@ -28,6 +30,24 @@ def test_picks_carry_their_champion_notes(conn):
     picks = {p["name"]: p for p in webapp.api_recommend({"role": "top", "enemy": {"top": "Darius"}})["picks"]}
     assert [n["text"] for n in picks["Garen"]["community"]] == ["Spin through the wave, then all in."]
     assert all(p["community"] == [] for name, p in picks.items() if name != "Garen")
+
+
+def test_chosen_damage_need_lists_only_that_damage(conn):
+    db.set_curated_champion(conn, "top", "Garen", {"damage": "Mixed"})
+    count = lambda need: webapp.api_recommend({"role": "top", "need": need})["candidates"]  # noqa: E731
+    mixed = sum(c["dmg"] == "Mixed" for c in picker.load_full("top")[0].values())
+    assert mixed >= 1 and count("ad") + count("ap") == count(None) + mixed
+    assert count("nonsense") == count(None)
+    for need, kinds in (("ad", {"AD", "Mixed"}), ("ap", {"AP", "Mixed"})):
+        d = webapp.api_recommend({"role": "top", "need": need, "top": 30})
+        assert d["picks"] and {p["dmg"] for p in d["picks"]} <= kinds
+
+
+def test_detected_damage_need_only_nudges(conn):
+    d = webapp.api_recommend({"role": "top", "ally": {"mid": "Malphite", "jungle": "Cho'Gath"}})
+    assert d["need_detected"] == "ad"
+    same = webapp.api_recommend({"role": "top", "unavailable": ["Malphite", "Cho'Gath"]})
+    assert d["candidates"] == same["candidates"]  # no AD-only filter
 
 
 def test_matchup_from_either_side(conn):

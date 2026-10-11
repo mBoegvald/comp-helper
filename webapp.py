@@ -293,7 +293,9 @@ def api_recommend(q, ctx=None):
     if enemy_main:  # main enemy first so the 'vs' reason leads
         enemy_keys = [enemy_main] + [k for k in enemy_keys if k != enemy_main]
 
-    need = (q.get("need") or "").lower() or None
+    need = str(q.get("need") or "").lower()
+    need = need if need in ("ad", "ap") else None
+    chosen = need  # picked by hand: only champions with that damage. Detected: a nudge, since it is a guess
     detected = None
     if not need:
         dmg = [damage_of(display(k), r) for r, k in allies]
@@ -309,7 +311,7 @@ def api_recommend(q, ctx=None):
 
     rows = []
     for c in champs:
-        if c in taken:
+        if c in taken or (chosen and not picker.gives_damage(champs[c]["dmg"], chosen)):
             continue
         parts = []
         s, _why = picker.score(c, enemy_keys, enemy_main, [k for _, k in allies], style, need, champs, mu, parts)
