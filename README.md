@@ -73,4 +73,6 @@ The page is a Svelte app in TypeScript in `frontend/` (needs Node 24). In `front
 - `npm run build` writes `web/dist`. Commit it with your change: that is what the Windows PC runs, and CI fails
   when it does not match the source.
 
-CI runs all of it on every pull request, with the Python tests on Ubuntu and Windows.
+CI runs all of it on every pull request, with the Python tests on Ubuntu and Windows. Dependabot opens monthly
+update PRs (versions 14 days old at least); for an npm one that changes the build, run `npm run build` on its branch
+and commit `web/dist`.

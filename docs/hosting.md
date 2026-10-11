@@ -98,6 +98,13 @@ To do this every night, create the folder once (`mkdir -p /root/backups`), then 
 
 and copy `/root/backups` off the server now and then (e.g. with `scp`), or enable Hetzner's server backups.
 
+To copy them off every night instead, rent a Hetzner Storage Box (the smallest is plenty), add the server's SSH key
+to it, and add a second crontab line. `--delete` keeps the copy the same 14 days as the server:
+
+```
+45 4 * * * rsync -a --delete -e 'ssh -p 23' /root/backups/ u12345@u12345.your-storagebox.de:pickhelper/
+```
+
 Keep backups for at most 14 days, wherever they are: the privacy page promises that deleted accounts are gone from
 backups within that time. Delete manual copies when you are done with them.
 
@@ -125,6 +132,8 @@ docker compose start app
 
 ## Logs and trouble
 
+- **Someone forgot their password**: Admin tab, **Reset password** on their row. Pass on the new password it shows;
+  they can change it under My account.
 - `docker compose logs app` shows the app, including tracebacks of server errors (visitors only see a plain message).
 - `docker compose exec app tail -50 logs/update.log` shows the last data update. The log trims itself to its newest
   part past 2 MB, and Docker keeps at most 30 MB of logs per service, so neither fills the disk.
