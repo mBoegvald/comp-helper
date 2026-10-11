@@ -324,6 +324,8 @@ def api_recommend(q, ctx=None):
                 p.update({k: m.get(k) for k in ("wr", "dnorm", "games", "label", "low_sample")})
         if enemy_main:
             out["lane"] = matchup(role, c, enemy_main) if full else None
+        if full:
+            out["community"] = community_notes().get((role, c, ""), [])  # notes on the champion itself
         return out
 
     top = max(1, min(int(q.get("top") or 8), 30))

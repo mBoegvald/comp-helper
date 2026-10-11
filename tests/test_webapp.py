@@ -9,6 +9,8 @@ import urllib.request
 
 import pytest
 
+import auth
+import notes
 import webapp
 
 
@@ -18,6 +20,14 @@ def test_recommend_ranks_and_excludes_taken(conn):
     assert d["enemy_main"] == "Darius"
     assert "Darius" not in names and "Garen" not in names
     assert "Aatrox" in [p["name"] for p in d["avoid"]]  # Unfavored into Darius
+
+
+def test_picks_carry_their_champion_notes(conn):
+    uid = auth.create_account(conn, "writer", "long enough pw")
+    notes.suggest(conn, uid, "top", "Garen", None, "Spin through the wave, then all in.", approve=True)
+    picks = {p["name"]: p for p in webapp.api_recommend({"role": "top", "enemy": {"top": "Darius"}})["picks"]}
+    assert [n["text"] for n in picks["Garen"]["community"]] == ["Spin through the wave, then all in."]
+    assert all(p["community"] == [] for name, p in picks.items() if name != "Garen")
 
 
 def test_matchup_from_either_side(conn):
