@@ -47,6 +47,14 @@ def test_champion_defaults_and_curated_edits(conn):
     assert a["arch"] == "Diver"  # untouched fields keep the default
 
 
+def test_archetype_text_only_where_the_data_names_nobody(conn):
+    d = champ(conn, "Darius")
+    assert d["good"] == "Aatrox"  # from the data; the Juggernaut text would not add anything
+    assert d["bad"] == "ranged tops, kiting, and poke"  # no data on this side: the Juggernaut text
+    db.set_curated_champion(conn, "top", "Darius", {"good_into": "my note"})
+    assert champ(conn, "Darius")["good"] == "Aatrox; my note"  # curated text is always kept
+
+
 def test_resetting_every_field_removes_the_curated_row(conn):
     db.set_curated_champion(conn, "top", "Aatrox", {"pick_when": "x"})
     db.set_curated_champion(conn, "top", "Aatrox", {"pick_when": ""})

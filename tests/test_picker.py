@@ -41,6 +41,14 @@ def test_mixed_damage_gives_both(conn):
     assert not picker.gives_damage(None, "ad")
 
 
+def test_archetype_rule_still_covers_matchups_without_data(conn):
+    champs, mu, _ = picker.load_full("top")
+    assert champs["darius"]["good"] == "Aatrox"  # the page shows only the data's name...
+    assert ("darius", "camille") not in mu
+    s, why = picker.score("darius", ["camille"], "camille", [], None, None, champs, mu)
+    assert why == ["good into duelist (Camille)"]  # ...but Juggernaut's 'melee bruisers' still counts here
+
+
 def test_cache_refreshes_after_a_curated_edit(conn):
     assert picker.load_full("top")[0]["aatrox"]["when"] != "Edited"
     db.set_curated_champion(conn, "top", "Aatrox", {"pick_when": "Edited"})

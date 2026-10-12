@@ -269,7 +269,7 @@ def score(cand, enemies, enemy_mid, allies, style, need, champs, mu, detail=None
             )
         elif en:
             words = ARCH_WORDS.get(en["arch"], [])
-            if any(w in (c["good"] or "").lower() for w in words):
+            if any(w in (c["typical_good"] or "").lower() for w in words):
                 s += 0.5
                 why.append(f"good into {en['arch'].lower()} ({ename})")
                 add(
@@ -282,7 +282,7 @@ def score(cand, enemies, enemy_mid, allies, style, need, champs, mu, detail=None
                         "text": f"good into {en['arch'].lower()}s ({ename})",
                     }
                 )
-            if any(w in (c["bad"] or "").lower() for w in words):
+            if any(w in (c["typical_bad"] or "").lower() for w in words):
                 s -= 0.5
                 why.append(f"weak to {en['arch'].lower()} ({ename})")
                 add(
