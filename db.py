@@ -258,8 +258,10 @@ def champions(conn, role, comb=None):
         )
         _words, g_default, b_default = archs.get(arch, ([], "", ""))
         good, bad = data_lists(comb, c)
-        good_txt = "; ".join(x for x in (", ".join(good), h.get("good_into") or g_default) if x)
-        bad_txt = "; ".join(x for x in (", ".join(bad), h.get("struggles_into") or b_default) if x)
+        # shown: the archetype's typical text only where the data names nobody, since real matchups beat a rule of
+        # thumb. The picker still uses it (typical_*) for matchups without data.
+        good_txt = "; ".join(x for x in (", ".join(good), h.get("good_into") or ("" if good else g_default)) if x)
+        bad_txt = "; ".join(x for x in (", ".join(bad), h.get("struggles_into") or ("" if bad else b_default)) if x)
         out.append(
             {
                 "name": c,
@@ -268,6 +270,8 @@ def champions(conn, role, comb=None):
                 "comps": comps,
                 "good": good_txt,
                 "bad": bad_txt,
+                "typical_good": h.get("good_into") or g_default,
+                "typical_bad": h.get("struggles_into") or b_default,
                 "when": when,
                 "blind": blind,
             }
