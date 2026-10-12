@@ -171,6 +171,7 @@ DAMAGE = {  # fallback when a champion is not in CHAMPS for the role
         "LeBlanc",
         "Lillia",
         "Lissandra",
+        "Locke",
         "Lulu",
         "Lux",
         "Malzahar",
@@ -383,6 +384,13 @@ CHAMPS = {
         "Yasuo": ("Duelist", "AD", "wombo, teamfight, dive", "Your team has knockups and you need a carry", "No"),
         "Yone": ("Duelist", "Mixed", "dive, teamfight, scaling", "You want a carry top who scales", "Mostly"),
         "Yorick": ("Juggernaut", "AD", "split", "You want to split push against a slow top", "Mostly"),
+        "Zaahen": (
+            "Juggernaut",
+            "AD",
+            "teamfight, dive, front-to-back",
+            "You want a frontline that heals, revives and grows stronger in long fights",
+            "Mostly",
+        ),
         "Zac": ("Tank", "AP", "wombo, teamfight", "You need engage from far away", "Yes"),
     },
     "jungle": {
@@ -435,6 +443,7 @@ CHAMPS = {
             "You need AP and the enemy is melee and clumps",
             "Mostly",
         ),
+        "Locke": ("Assassin", "AP", "pick, dive", "You need AP burst and the enemy has squishy carries", "No"),
         "Maokai": ("Tank engage", "AP", "wombo, teamfight, front-to-back", "You need a tank with engage", "Yes"),
         "Master Yi": ("Farming carry", "AD", "scaling, dive", "The enemy lacks crowd control", "No"),
         "Naafiri": ("Assassin", "AD", "pick, dive", "The enemy has squishy carries and you want fast ganks", "Mostly"),
@@ -728,8 +737,8 @@ ARCHETYPES["mid"]["Marksman"] = (
     "assassins and all-in melee",
 )
 
-# Hand entries for champions that were 'Flex' after the 2026-10-09 rebuild. Locke (all roles) and Zaahen (top) are
-# too new to classify here; fill them in when their kits are clear.
+# Hand entries for champions that were 'Flex' after the 2026-10-09 rebuild. Locke (Patch 26.13) is an AP assassin;
+# Zaahen (top) is under "top" above.
 CHAMPS.setdefault("mid", {}).update(
     {
         "Akshan": ("Marksman", "AD", "pick, dive, split", "You want a mobile AD mid and revive utility", "No"),
@@ -762,6 +771,7 @@ CHAMPS.setdefault("mid", {}).update(
             "No",
         ),
         "Kog'Maw": ("Artillery", "AP", "poke, siege, scaling", "You want long-range AP poke", "No"),
+        "Locke": ("AP assassin", "AP", "pick, dive", "You need AP burst and the enemy has squishy carries", "No"),
         "Malphite": (
             "Tank / bruiser",
             "AP",

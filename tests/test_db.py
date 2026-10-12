@@ -54,7 +54,9 @@ def test_resetting_every_field_removes_the_curated_row(conn):
 
 
 def test_unknown_champion_falls_back_to_flex_without_leading_semicolon(conn):
-    z = champ(conn, "Zaahen")
+    with conn:
+        conn.execute("INSERT INTO pool VALUES ('top', 'Newchamp')")  # in the data, not in role_data.py
+    z = champ(conn, "Newchamp")
     assert z["arch"] == "Flex"
     assert not z["good"].startswith(";")
 

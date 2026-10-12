@@ -203,8 +203,8 @@
   r/<champ>mains or SUB_OVERRIDES (TwistedFate, Aurelion_Sol_mains, DirtySionMains, TeemoTalk, RenataMains,
   LeagueOfJinx, TheSecretWeapon for Zac, ...), falling back to r/<champ>.
 - Known gaps: no Lolalytics lane data for Maokai/Zac top, Brand/Morgana/Olaf jungle, Akshan/Jayce bot; tiny subs
-  (Vel'Koz, Locke, Taliyah). Only Locke (jungle, mid) and Zaahen (top) still have the placeholder 'Flex' archetype;
-  everyone else has a hand entry in role_data.py. A workbook Archetype edit wins on rebuild, except the word 'Flex'.
+  (Vel'Koz, Locke, Taliyah). No champion has the placeholder 'Flex' archetype any more: Locke (mid, jungle) and
+  Zaahen (top) got hand entries in role_data.py on 2026-10-12. A workbook Archetype edit wins on rebuild, except 'Flex'.
 - Archetype names: support uses 'Peel tank' (Riot calls it Warden); mid gained 'Tank / bruiser' and 'Marksman'.
 
 ## Files (as of 2026-10-08; the xlsx/CSV parts are history, see the SQLite section)
