@@ -219,6 +219,11 @@ def mentions(text, enemy_key, champs):
     return enemy_key in t
 
 
+def gives_damage(dmg, need):
+    """Whether a champion with damage `dmg` (AD, AP or Mixed) gives the team `need` ("ad" or "ap")."""
+    return dmg in (need.upper(), "Mixed")
+
+
 def score(cand, enemies, enemy_mid, allies, style, need, champs, mu, detail=None):
     """detail: optional list that receives one dict per scoring reason (for the web page)."""
     c = champs[cand]
@@ -294,7 +299,7 @@ def score(cand, enemies, enemy_mid, allies, style, need, champs, mu, detail=None
         s += 2
         why.append(f"fits {style} comp")
         add({"kind": "style", "value": 2, "text": f"fits a {style} comp"})
-    if need and need.upper() in (c["dmg"] or "").upper():
+    if need and gives_damage(c["dmg"], need):
         s += 1
         why.append(f"gives {need.upper()} damage")
         add({"kind": "damage", "value": 1, "text": f"gives the team {need.upper()} damage"})

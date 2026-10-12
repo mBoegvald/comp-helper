@@ -32,6 +32,15 @@ def test_blind_style_and_damage_bonuses(conn):
     assert why == ["fits wombo comp", "gives AD damage", "blind-safe"]
 
 
+def test_mixed_damage_gives_both(conn):
+    db.set_curated_champion(conn, "top", "Garen", {"damage": "Mixed"})
+    champs, mu, _ = picker.load_full("top")
+    for need in ("ad", "ap"):
+        assert f"gives {need.upper()} damage" in picker.score("garen", [], None, [], None, need, champs, mu)[1]
+    assert picker.gives_damage("AD", "ad") and not picker.gives_damage("AD", "ap")
+    assert not picker.gives_damage(None, "ad")
+
+
 def test_cache_refreshes_after_a_curated_edit(conn):
     assert picker.load_full("top")[0]["aatrox"]["when"] != "Edited"
     db.set_curated_champion(conn, "top", "Aatrox", {"pick_when": "Edited"})
