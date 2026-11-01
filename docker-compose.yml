@@ -22,7 +22,7 @@ services:
       - logs:/app/logs
 
   caddy:
-    image: caddy:2.11.4-alpine
+    image: caddy:2.11.6-alpine
     restart: unless-stopped
     logging: *logging
     depends_on: [app]
